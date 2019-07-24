@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_group_regional_faction_supports>
+<root>
+<edit_uuid>1dfbd8e2-ac5e-4147-8cd8-3692ab7ad981</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{d808c4a6-c7f0-4396-8b84-3dbcf5f819be}</field_uuid>
+<primary_key>1</primary_key>
+<name>campaign_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>campaign_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{be70dc54-d012-4415-8b04-794e2f16e1c7}</field_uuid>
+<primary_key>0</primary_key>
+<name>owner_support_per_round</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{7320244d-320a-4491-b6a8-9cb45d14ee5b}</field_uuid>
+<primary_key>0</primary_key>
+<name>emergent_faction_support_amount</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

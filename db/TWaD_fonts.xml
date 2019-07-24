@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_fonts>
+<root>
+<edit_uuid>b25f9b5f-a5dd-43b7-b15c-0e3bafc6b285</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{ade9d813-5f7a-41a3-a244-e696c10218fd}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>font_name</column_source_column>
+<column_source_table>font_names</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{8ed46b22-6ad5-4484-9a84-dda4c4c37b79}</field_uuid>
+<primary_key>1</primary_key>
+<name>size</name>
+<field_type>double</field_type>
+<required>1</required>
+<field_description>Size of font</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{75bac073-8509-46bb-852b-e0f2e3c9124c}</field_uuid>
+<primary_key>1</primary_key>
+<name>bold</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<field_description>Whether font is a bold font</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

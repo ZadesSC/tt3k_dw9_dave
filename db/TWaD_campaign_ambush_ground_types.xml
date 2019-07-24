@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_ambush_ground_types>
+<root>
+<edit_uuid>07362c2a-2862-42a3-b175-f175eedf10b5</edit_uuid>
+<field>
+<field_uuid>{1b986403-0633-4fe5-a856-2d35c9a6fbb9}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+<column_source_column>type</column_source_column>
+<column_source_table>campaign_ground_types</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{a1db4f20-04ca-4e22-9eff-a49ba20a6ca9}</field_uuid>
+<primary_key>0</primary_key>
+<name>ambush_chance_of_success</name>
+<field_type>double</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+</root>

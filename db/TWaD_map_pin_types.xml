@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_map_pin_types>
+<root>
+<edit_uuid>9dcd9c76-8bd0-4482-810f-87f60d790669</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{51c4f69c-28f6-4380-960e-7509c9b4981d}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{81064964-98b7-466e-971c-49d40032a767}</field_uuid>
+<primary_key>0</primary_key>
+<name>localised_description</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>Add pin type description here</default_value>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

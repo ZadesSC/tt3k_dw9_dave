@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_encyclopedia_page_related_links>
+<root>
+<edit_uuid>260bde60-e407-4c1c-8be7-4264fc9233cc</edit_uuid>
+<field>
+<field_uuid>{64172e4b-052f-45f0-89cb-5a930bff3d08}</field_uuid>
+<primary_key>1</primary_key>
+<name>page_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>page_key</column_source_column>
+<column_source_table>encyclopedia_pages</column_source_table>
+<encyclopaedia_export>1</encyclopaedia_export>
+</field>
+<field>
+<field_uuid>{a85dfd4f-79ed-4f68-8643-134f832460ac}</field_uuid>
+<primary_key>1</primary_key>
+<name>target</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>page_key</column_source_column>
+<column_source_table>encyclopedia_pages</column_source_table>
+<encyclopaedia_export>1</encyclopaedia_export>
+</field>
+</root>

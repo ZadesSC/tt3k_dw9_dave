@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_custom_battle_loadouts_to_ceos>
+<root>
+<edit_uuid>52a34b23-d909-4139-990e-5ece4d2dddca</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{4d90d4ff-e453-48a6-bb34-e048b06e962d}</field_uuid>
+<primary_key>1</primary_key>
+<name>loadout</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>custom_battle_loadouts</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{032f31e7-f3f4-415f-9733-7085b1b81e36}</field_uuid>
+<primary_key>1</primary_key>
+<name>ceo</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>ceos</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

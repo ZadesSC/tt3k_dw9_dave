@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_event_feed_subcategories>
+<root>
+<edit_uuid>2d2e1c67-f792-4a8b-9677-386ddf254c20</edit_uuid>
+<field>
+<field_uuid>{1aa792fd-a19f-4f55-a93f-0d79049e8478}</field_uuid>
+<primary_key>1</primary_key>
+<name>subcategory</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{94e330e7-b1c7-4938-9e58-2250db844af3}</field_uuid>
+<primary_key>0</primary_key>
+<name>category</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>category</column_source_column>
+<column_source_table>event_feed_categories</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{ea665ddd-1cd6-4df9-ab97-2dc9d5645ada}</field_uuid>
+<primary_key>0</primary_key>
+<name>subcategory_title</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>[Placeholder]</default_value>
+<max_length>255</max_length>
+<field_description>Display name for event subcategory in feed UI</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+</root>

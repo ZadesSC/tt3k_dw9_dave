@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_personalities_religion_change_management_policies>
+<root>
+<edit_uuid>bf3e1a62-c774-4c54-9417-52dc9ff09144</edit_uuid>
+<field>
+<field_uuid>{2c2af097-de01-4f04-8e85-d7dc520484d0}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+</field>
+<field>
+<field_uuid>{eed4d836-fafa-41f9-b48f-59ab4f404a16}</field_uuid>
+<primary_key>0</primary_key>
+<name>proportion_over_mean_state_religion_value_for_religion_change_tick</name>
+<field_type>decimal</field_type>
+<required>1</required>
+<default_value>3</default_value>
+</field>
+<field>
+<field_uuid>{32532117-49e0-47d6-8936-0bcf31f956e4}</field_uuid>
+<primary_key>0</primary_key>
+<name>religion_change_ticks_required_to_change</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>10</default_value>
+</field>
+<field>
+<field_uuid>{ac859fd8-5690-45b3-85cd-f55185cc70e1}</field_uuid>
+<primary_key>0</primary_key>
+<name>percent_probability_of_religion_change_once_threshold_reached</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>90</default_value>
+</field>
+</root>

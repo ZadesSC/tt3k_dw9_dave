@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_payload_sets>
+<root>
+<edit_uuid>31d564af-7900-4f26-84a2-0192090089a6</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{cf7595bd-fe08-4855-9e8f-0b6f0432a59e}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{f03b7b20-2047-46d5-8885-41f3c81ab0a0}</field_uuid>
+<primary_key>0</primary_key>
+<name>parameter</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_payload_set_parameters</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

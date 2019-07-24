@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_diplomacy_deal_evaluation_factor_types>
+<root>
+<edit_uuid>7954d277-4e63-4d21-88ee-89eeb1845cf2</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{c3c40675-3840-425c-8736-98f02de71b32}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{ab7a893e-1d76-4272-9c07-341ae916567c}</field_uuid>
+<primary_key>0</primary_key>
+<name>order</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

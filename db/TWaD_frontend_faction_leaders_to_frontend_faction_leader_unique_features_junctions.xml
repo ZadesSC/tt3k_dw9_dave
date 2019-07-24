@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_frontend_faction_leaders_to_frontend_faction_leader_unique_features_junctions>
+<root>
+<edit_uuid>a03d143c-a8ae-49d3-b5c9-0fef2ae8959a</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{935c1353-3a77-42ac-a5cd-45ed79956c75}</field_uuid>
+<primary_key>1</primary_key>
+<name>frontend_faction_leader</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>frontend_faction_leaders</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{f5541e24-f2a1-4377-9b3b-e1b53e13585c}</field_uuid>
+<primary_key>1</primary_key>
+<name>frontend_faction_leader_unique_feature</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>frontend_faction_leader_unique_features</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

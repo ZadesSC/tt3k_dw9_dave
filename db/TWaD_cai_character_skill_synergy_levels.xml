@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_character_skill_synergy_levels>
+<root>
+<edit_uuid>362b00b9-61aa-4f11-b0ca-c99736c1af56</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{1e47db58-e5ef-48d0-ab42-ff424f735dcf}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>2000</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{b9af08f8-8fe3-43d8-83e4-37c80e99746e}</field_uuid>
+<primary_key>0</primary_key>
+<name>relative_effect</name>
+<field_type>single</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

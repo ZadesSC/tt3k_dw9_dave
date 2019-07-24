@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ui_diplomacy_constants>
+<root>
+<edit_uuid>de6f87d0-0ce4-4ce6-b2a9-863b614fcf0f</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{af897d27-4d0f-4107-a4b4-fc5b37676471}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{56c5540e-e3dd-46cf-99a8-467971864814}</field_uuid>
+<primary_key>0</primary_key>
+<name>campaign_diplomacy_treaty_component</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_diplomacy_treaty_components</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

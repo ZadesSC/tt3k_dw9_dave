@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_trigger_event_to_excluded_agent_types>
+<root>
+<edit_uuid>280fdeb2-ed51-4e46-a78a-64b3f8d70ccb</edit_uuid>
+<field>
+<field_uuid>{5a93fbd2-9393-4905-ab86-f9b772ae8d51}</field_uuid>
+<primary_key>1</primary_key>
+<name>event</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>50</max_length>
+<column_source_column>event</column_source_column>
+<column_source_table>trigger_events</column_source_table>
+</field>
+<field>
+<field_uuid>{ed34f828-78b9-4b66-a134-b3484982fbd4}</field_uuid>
+<primary_key>1</primary_key>
+<name>agent</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>agents</column_source_table>
+</field>
+</root>

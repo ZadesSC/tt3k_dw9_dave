@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_autoresolver_skirmish_effectiveness_relative_to_speeds>
+<root>
+<edit_uuid>2ab50bbb-21f5-4756-883f-824b623d4857</edit_uuid>
+<agf_special_dependencies>+*</agf_special_dependencies>
+<field>
+<field_uuid>{680c1d5c-157c-4905-b3d9-26167c413321}</field_uuid>
+<primary_key>1</primary_key>
+<name>relative_speed_skirmisher_to_other</name>
+<field_type>double</field_type>
+<required>1</required>
+<field_description>The relative speed of the skirmisher relative to the other unit at which this relative effectiveness applies.  1.0 means both units are the same speed.  2.0 means the skirmisher is twice as fast.  0.5 means the skirmisher is half the speed.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{20900a0e-0f18-4914-b969-7468869ff937}</field_uuid>
+<primary_key>0</primary_key>
+<name>proportional_effectiveness_skirmisher_to_other</name>
+<field_type>double</field_type>
+<required>1</required>
+<field_description>The proportional effectiveness of the skirmisher against the other unit.  0.5 means both units get equal attack time.  0.75 means the skirmisher gets three times as much attack time as the other unit.  Will be clamped between zero and one.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

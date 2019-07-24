@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="captive_options.xsd" export_time="Fri Dec 21 11:09:30 2018" revision="13" export_branch="T:/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>0b449901-b1ad-4007-9c74-46ff3160f44d</edit_uuid>
+<captive_options record_uuid="{7dc293ac-895a-4b1f-9b5c-bf10dc363d4e}" record_timestamp="1527687498333" record_key="3k_main_captive_option_employ">
+<diplomacy_event>3k_main_diplomatic_factor_captive_hired</diplomacy_event>
+<effect_set>3k_main_character_employed_effects</effect_set>
+<key>3k_main_captive_option_employ</key>
+<localised_option_text state="APPROVED" last_approved_text="Employ" last_edit_user="bob">Employ</localised_option_text>
+<outcome>EMPLOY</outcome>
+<post_outcome_relationship_triggers></post_outcome_relationship_triggers>
+<relationship_triggers>3k_main_relationship_trigger_set_captive_general_hire</relationship_triggers>
+<sound_category_key>UI_CAM_HUD_Character_Captured_Employ</sound_category_key>
+<steal_ceo>0</steal_ceo>
+<stealth_wealth>0</stealth_wealth>
+<vo_sound_event>campaign_vo_cs_post_battle_captives_recruit</vo_sound_event>
+</captive_options>
+<captive_options record_uuid="{cb434690-3c4c-46c9-8e5b-661535478d01}" record_timestamp="1527687498333" record_key="3k_main_captive_option_execute">
+<diplomacy_event>3k_main_diplomatic_factor_captive_executed</diplomacy_event>
+<effect_set>3k_main_character_executed_effects</effect_set>
+<key>3k_main_captive_option_execute</key>
+<localised_option_text state="APPROVED" last_approved_text="Execute" last_edit_user="bob">Execute</localised_option_text>
+<outcome>EXECUTE</outcome>
+<post_outcome_relationship_triggers>3k_main_relationship_trigger_set_captive_general_execute</post_outcome_relationship_triggers>
+<relationship_triggers></relationship_triggers>
+<sound_category_key>UI_CAM_HUD_Character_Captured_Execute</sound_category_key>
+<steal_ceo>1</steal_ceo>
+<stealth_wealth>0</stealth_wealth>
+<vo_sound_event>campaign_vo_cs_post_battle_settlement_kill</vo_sound_event>
+</captive_options>
+<captive_options record_uuid="{865cbd24-6d8c-472a-a9ee-aa1a144c9838}" record_timestamp="1545383370571" record_key="3k_main_captive_option_extract_undercover_character">
+<diplomacy_event>3k_main_diplomatic_factor_captive_hired</diplomacy_event>
+<effect_set>3k_main_character_employed_effects</effect_set>
+<key>3k_main_captive_option_extract_undercover_character</key>
+<localised_option_text state="APPROVED" last_approved_text="Extract" last_edit_user="bob">Extract</localised_option_text>
+<outcome>EXTRACT_UNDERCOVER_CHARACTER</outcome>
+<post_outcome_relationship_triggers></post_outcome_relationship_triggers>
+<relationship_triggers>3k_main_relationship_trigger_set_captive_general_hire</relationship_triggers>
+<sound_category_key>UI_GBL_TMP_Square_Large_Text_Button</sound_category_key>
+<steal_ceo>0</steal_ceo>
+<stealth_wealth>0</stealth_wealth>
+<vo_sound_event></vo_sound_event>
+</captive_options>
+<captive_options record_uuid="{52449872-edca-4f07-b31e-8a79e4f5a0d3}" record_timestamp="1527687498334" record_key="3k_main_captive_option_release">
+<diplomacy_event>3k_main_diplomatic_factor_captive_released</diplomacy_event>
+<effect_set>3k_main_character_released_effects</effect_set>
+<key>3k_main_captive_option_release</key>
+<localised_option_text state="APPROVED" last_approved_text="Release" last_edit_user="bob">Release</localised_option_text>
+<outcome>RELEASE</outcome>
+<post_outcome_relationship_triggers></post_outcome_relationship_triggers>
+<relationship_triggers>3k_main_relationship_trigger_set_captive_general_release</relationship_triggers>
+<sound_category_key>UI_CAM_HUD_Character_Captured_Release</sound_category_key>
+<steal_ceo>0</steal_ceo>
+<stealth_wealth>1</stealth_wealth>
+<vo_sound_event>campaign_vo_cs_post_battle_captives_release</vo_sound_event>
+</captive_options>
+</dataroot>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_settlement_siege_action_effect_clear_province_fertility_penalties>
+<root>
+<edit_uuid>50ead6f5-e43d-4267-a079-5a5064008d6b</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{416c8d3b-30ad-4796-8b83-6f943ec8791b}</field_uuid>
+<primary_key>1</primary_key>
+<name>effect_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>effect_group</column_source_column>
+<column_source_table>settlement_siege_action_effect_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

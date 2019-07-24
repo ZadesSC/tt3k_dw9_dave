@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_shortcut_localisation>
+<root>
+<edit_uuid>0c58ef1b-03cd-4677-9706-2801237c2637</edit_uuid>
+<field>
+<field_uuid>{b5c3042a-7a4b-4734-9a89-2ecdf9fdcf21}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>50</max_length>
+<field_description>Key that matches up to default_keys.xml</field_description>
+</field>
+<field>
+<field_uuid>{77eca3a3-fd40-4d4c-a0e8-3524271765cc}</field_uuid>
+<primary_key>0</primary_key>
+<name>onscreen</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>536870910</max_length>
+<field_description>Text shown in key options where can change them</field_description>
+</field>
+<field>
+<field_uuid>{4ac00e26-4344-4fc3-bb54-4b0b7830015d}</field_uuid>
+<primary_key>0</primary_key>
+<name>toolitp</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>Optional tooltip shown when mousing over in controls options</field_description>
+</field>
+</root>

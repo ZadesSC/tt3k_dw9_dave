@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_character_relationship_trigger_effects>
+<root>
+<edit_uuid>d913ac2e-c9a4-4dba-8226-4cf2647022a4</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{2901e5b7-d82a-4c06-8e65-313d505266f3}</field_uuid>
+<primary_key>1</primary_key>
+<name>trigger</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>character_relationship_triggers</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{70db1009-8764-4df6-9904-0f3bd0ff1f7d}</field_uuid>
+<primary_key>0</primary_key>
+<name>effect</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>&lt;MISSING&gt;</default_value>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>character_relationship_effects</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

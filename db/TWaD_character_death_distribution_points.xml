@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_character_death_distribution_points>
+<root>
+<edit_uuid>b4ef9991-ef0d-4c36-b5ab-835f3c1e32c7</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{e746224d-2cba-418a-88f2-eb07879513f7}</field_uuid>
+<primary_key>1</primary_key>
+<name>character_death_distribution</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>character_death_distributions</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{57c6358f-bb79-437b-8f5d-b7c29bacb84d}</field_uuid>
+<primary_key>1</primary_key>
+<name>age</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{0c7d5fab-b2fb-4961-8c0b-45bc08eb3fc5}</field_uuid>
+<primary_key>0</primary_key>
+<name>chance_of_death</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

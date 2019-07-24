@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_map_road_objects_display_model_group_junctions>
+<root>
+<edit_uuid>caba6418-fa2b-4966-8358-c87ad8311697</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{828dc34c-db2b-47f3-b0ed-30613b8bba2b}</field_uuid>
+<primary_key>1</primary_key>
+<name>group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>group</column_source_column>
+<column_source_table>campaign_map_road_objects_display_model_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{7ca2ff54-96d5-48a0-a9a6-0ff3023718e6}</field_uuid>
+<primary_key>1</primary_key>
+<name>model</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_map_road_objects_display_models</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

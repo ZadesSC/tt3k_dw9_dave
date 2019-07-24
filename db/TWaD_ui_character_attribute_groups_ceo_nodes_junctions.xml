@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ui_character_attribute_groups_ceo_nodes_junctions>
+<root>
+<edit_uuid>1202bdc8-f6a3-4735-8ad4-9395cce1485a</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{44a1a2c4-be0e-4c36-bf60-ab178794248a}</field_uuid>
+<primary_key>0</primary_key>
+<name>group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>group_id</column_source_column>
+<column_source_table>ui_character_attributes_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{08f69249-3b07-4755-905b-e5e3b0d266ba}</field_uuid>
+<primary_key>1</primary_key>
+<name>ceo_node</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>ceo_nodes</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

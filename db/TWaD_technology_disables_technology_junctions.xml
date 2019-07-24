@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_technology_disables_technology_junctions>
+<root>
+<edit_uuid>846d7e02-69ae-4336-9d03-3d1e9ded822a</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{9e7ff07f-e8e9-4f91-8ff6-6fa1bbf3ada0}</field_uuid>
+<primary_key>1</primary_key>
+<name>technology</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>technologies</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{f580657c-ed55-4646-8336-b78b94d7b47f}</field_uuid>
+<primary_key>1</primary_key>
+<name>disabled_technology</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>technologies</column_source_table>
+<field_description>This technology can no longer be researched once the effects of the other technology have been applied. If it has already been researched then its effects are disabled.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

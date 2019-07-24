@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD__kv_fire_values>
+<root>
+<edit_uuid>06f2c30b-2eec-4978-9366-c4603baf842e</edit_uuid>
+<field>
+<field_uuid>{22d98813-8aeb-4c12-a76a-e3f66c877dd8}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+</field>
+<field>
+<field_uuid>{0cab9129-ff53-4d65-8325-09528efd5133}</field_uuid>
+<primary_key>0</primary_key>
+<name>value</name>
+<field_type>decimal</field_type>
+<required>1</required>
+<default_value>0</default_value>
+</field>
+<field>
+<field_uuid>{51126b8d-847f-4380-bc9b-61a0192018ff}</field_uuid>
+<primary_key>0</primary_key>
+<name>description</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>5000000</max_length>
+</field>
+</root>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_unit_castes>
+<root>
+<edit_uuid>d4f8cf65-1c6a-46f2-a263-5be1b6aa6d65</edit_uuid>
+<field>
+<field_uuid>{4c8baf9c-96b2-470e-9fdc-85873e18c307}</field_uuid>
+<primary_key>1</primary_key>
+<name>caste</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{a754068d-145b-4be5-9a41-e707c6dc02b3}</field_uuid>
+<primary_key>0</primary_key>
+<name>localised_name</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>20000</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{eed82a6f-11ca-4af3-936f-f7f18bf5fb77}</field_uuid>
+<primary_key>0</primary_key>
+<name>sort_priority</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+</root>

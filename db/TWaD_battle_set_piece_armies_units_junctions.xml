@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_battle_set_piece_armies_units_junctions>
+<root>
+<edit_uuid>17fb527a-61d6-49c7-a611-def19191aca4</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{e4c09d26-a3e3-4404-bf12-6adcf8983ff8}</field_uuid>
+<primary_key>1</primary_key>
+<name>army_name</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>army_name</column_source_column>
+<column_source_table>battle_set_piece_armies</column_source_table>
+<field_description>The battle_set_piece_army this unit goes into</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{e1371398-a2d0-4d2e-8545-343303c46c66}</field_uuid>
+<primary_key>1</primary_key>
+<name>unit_name</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>unit_name</column_source_column>
+<column_source_table>battle_set_piece_armies_units</column_source_table>
+<field_description>The battle_set_piece_armies_unit which is referenced</field_description>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{1d0f0529-089c-4e1e-8a5a-d4cec7320495}</field_uuid>
+<primary_key>1</primary_key>
+<name>script_name</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>The script_name of the unit (used by lua and generated_battle)</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{597dd7ab-4770-47f4-823a-70a6f920f10f}</field_uuid>
+<primary_key>0</primary_key>
+<name>number_of_unit</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>The number of this unit in the army</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+</root>

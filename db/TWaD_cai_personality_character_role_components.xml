@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_personality_character_role_components>
+<root>
+<edit_uuid>d26745d2-d139-453e-9517-a02791865a18</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{c9b04f0a-7de6-444f-bc47-84d819d76c07}</field_uuid>
+<primary_key>1</primary_key>
+<name>id</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{9f0e66cc-da02-40b9-b3ce-b559952ec993}</field_uuid>
+<primary_key>0</primary_key>
+<name>existing_character_score_multiplier</name>
+<field_type>double</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{a1d82783-d5fe-43cc-9a58-9c2f91d213ac}</field_uuid>
+<primary_key>0</primary_key>
+<name>soft_character_cap_multiplier</name>
+<field_type>double</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_statistics_affixes>
+<root>
+<edit_uuid>0486efbf-1321-45cf-9ad8-59460586314d</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{c32bd2a5-a5c7-4046-8546-53c610e8d7d7}</field_uuid>
+<primary_key>1</primary_key>
+<name>affix</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c40a5df5-1807-43db-99f4-c104fcd25ef2}</field_uuid>
+<primary_key>0</primary_key>
+<name>localised_description</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{4ed81937-bd97-4ac8-aa00-ead3c5771678}</field_uuid>
+<primary_key>0</primary_key>
+<name>is_suffix</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>true</default_value>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

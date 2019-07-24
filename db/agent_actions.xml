@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="agent_actions.xsd" export_time="Wed Apr 3 11:13:35 2019" revision="151" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1414/dave" export_user="bob">
+<edit_uuid>0e9bc042-188b-4ec6-a894-86fe3ffc5178</edit_uuid>
+<agent_actions record_uuid="{c39c387c-b86c-4ca7-81d1-55bde3f5929a}" record_timestamp="1527703888671" record_key="3k_main_spy_action_accost_traders">
+<ability>undercover_character_target_faction_accost_traders</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>is_recruited</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>15</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>5</base_cover_points_cost>
+<base_undercover_network_points_cost>15</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_accost_traders_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_accost_traders_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_accost_traders_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_accost_traders_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Obstruct the faction's trade efforts, thereby diminishing their trade power." last_edit_user="bob">Obstruct the faction's trade efforts, thereby diminishing their trade power.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Accost Traders" last_edit_user="bob">Accost Traders</localised_action_name>
+<opportune_failure>3k_main_spy_action_accost_traders_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_accost_traders_success</success>
+<unique_id>3k_main_spy_action_accost_traders</unique_id>
+<voiceover>vo_campaign_action_enemy_region</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{0b04ca84-28a0-44e3-86cf-01af3bd9f269}" record_timestamp="1527703888673" record_key="3k_main_spy_action_army_exhaustion">
+<ability>undercover_character_target_character_exhaust_force</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>commanding_military_force_retinue</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>40</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>20</base_cover_points_cost>
+<base_undercover_network_points_cost>40</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_army_exhaustion_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_army_exhaustion_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_army_exhaustion_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_army_exhaustion_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Dispatch false marching orders to an army, thereby diminishing its range and causing the troops to be fatigued in battle." last_edit_user="bob">Dispatch false marching orders to an army, thereby diminishing its range and causing the troops to be fatigued in battle.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Falsify Marching Orders" last_edit_user="bob">Falsify Marching Orders</localised_action_name>
+<opportune_failure>3k_main_spy_action_army_exhaustion_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_army_exhaustion_success</success>
+<unique_id>3k_main_spy_action_army_exhaustion</unique_id>
+<voiceover>vo_campaign_action_enemy_army</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{35eca652-245b-4222-b2a9-89f923d1f0ed}" record_timestamp="1527703888673" record_key="3k_main_spy_action_army_hinder_replenishment">
+<ability>undercover_character_target_character_hinder_replenishment</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>commanding_military_force_retinue</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>10</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>5</base_cover_points_cost>
+<base_undercover_network_points_cost>10</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_army_hinder_replenishment_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_army_hinder_replenishment_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_army_hinder_replenishment_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_army_hinder_replenishment_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Prevent supplies from reaching an army, thereby hindering replenishment of units. " last_edit_user="bob">Prevent supplies from reaching an army, thereby hindering replenishment of units. </localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Deny Military Supplies" last_edit_user="bob">Deny Military Supplies</localised_action_name>
+<opportune_failure>3k_main_spy_action_army_hinder_replenishment_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_army_hinder_replenishment_success</success>
+<unique_id>3k_main_spy_action_army_hinder_replenishment</unique_id>
+<voiceover>vo_campaign_action_enemy_army</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{695f3680-6e85-484e-84dc-23eeda6f6aef}" record_timestamp="1527703888673" record_key="3k_main_spy_action_army_increase_replenishment">
+<ability>undercover_character_target_character_supply_units</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>commanding_military_force_retinue</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>20</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>10</base_cover_points_cost>
+<base_undercover_network_points_cost>20</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_army_increase_replenishment_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_army_increase_replenishment_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_army_increase_replenishment_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_army_increase_replenishment_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Arrange for an army's provisions to be poisoned, thereby inflicting casualties upon its units." last_edit_user="bob">Arrange for an army's provisions to be poisoned, thereby inflicting casualties upon its units.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Poison Military Provisions" last_edit_user="bob">Poison Military Provisions</localised_action_name>
+<opportune_failure>3k_main_spy_action_army_increase_replenishment_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_army_increase_replenishment_success</success>
+<unique_id>3k_main_spy_action_army_increase_replenishment</unique_id>
+<voiceover>vo_campaign_action_enemy_army</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{3de3d1d2-71aa-44c0-95c4-8562c91147ab}" record_timestamp="1527703888673" record_key="3k_main_spy_action_army_military_rebellion">
+<ability>undercover_character_target_character_military_rebellion</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>commanding_military_force_retinue</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>50</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>30</base_cover_points_cost>
+<base_undercover_network_points_cost>50</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_army_military_rebellion_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_army_military_rebellion_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_army_military_rebellion_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_army_military_rebellion_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Turn direct command of this spy's retinue over to you, forcing any other generals to be recalled and granting you a new active army in the field." last_edit_user="bob">Turn direct command of this spy's retinue over to you, forcing any other generals to be recalled and granting you a new active army in the field.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Military Revolt" last_edit_user="bob">Military Revolt</localised_action_name>
+<opportune_failure>3k_main_spy_action_army_military_rebellion_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_army_military_rebellion_success</success>
+<unique_id>3k_main_spy_action_army_military_rebellion</unique_id>
+<voiceover>vo_campaign_action_enemy_army</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{f67768f5-fd43-4501-8532-0773cfeadde9}" record_timestamp="1527703888673" record_key="3k_main_spy_action_army_setup_ambush">
+<ability>undercover_character_target_character_leak_patrol_routes</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>commanding_military_force_retinue</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>30</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>10</base_cover_points_cost>
+<base_undercover_network_points_cost>30</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_army_setup_ambush_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_army_setup_ambush_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_army_setup_ambush_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_army_setup_ambush_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Leak an army's planned manoeuvres, thereby allowing forces to engage them in night battles regardless of circumstance and increasing their chance of being ambushed." last_edit_user="bob">Leak an army's planned manoeuvres, thereby allowing forces to engage them in night battles regardless of circumstance and increasing their chance of being ambushed.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Leak Marching Orders" last_edit_user="bob">Leak Marching Orders</localised_action_name>
+<opportune_failure>3k_main_spy_action_army_setup_ambush_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_army_setup_ambush_success</success>
+<unique_id>3k_main_spy_action_army_setup_ambush</unique_id>
+<voiceover>vo_campaign_action_enemy_army</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{f2086b8f-97be-4f41-b83e-2ba873b32635}" record_timestamp="1527703888673" record_key="3k_main_spy_action_army_vision_other_force">
+<ability>undercover_character_target_character_bribe_soldiers</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>commanding_military_force_retinue</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>10</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>5</base_cover_points_cost>
+<base_undercover_network_points_cost>10</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_army_vision_other_force_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_army_vision_other_force_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_army_vision_other_force_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_army_vision_other_force_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Arrange for a loyal member of your undercover network to infiltrate a known character's army, thereby granting you its line-of-sight and allowing you to track its manoeuvres." last_edit_user="bob">Arrange for a loyal member of your undercover network to infiltrate a known character's army, thereby granting you its line-of-sight and allowing you to track its manoeuvres.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Infiltrate Army" last_edit_user="bob">Infiltrate Army</localised_action_name>
+<opportune_failure>3k_main_spy_action_army_vision_other_force_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_army_vision_other_force_success</success>
+<unique_id>3k_main_spy_action_army_vision_other_force</unique_id>
+<voiceover>vo_campaign_action_enemy_army</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{53fced02-331f-4db3-ad24-c4a7b0275b05}" record_timestamp="1527703888673" record_key="3k_main_spy_action_character_assassinate_faction_heir">
+<ability>undercover_character_target_character_assassinate_faction_heir</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>family_member</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>30</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>50</base_cover_points_cost>
+<base_undercover_network_points_cost>30</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_character_assassinate_faction_heir_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_character_assassinate_faction_heir_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_character_assassinate_faction_heir_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_character_assassinate_faction_heir_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Set a plot to assassinate the faction heir in motion." last_edit_user="bob">Set a plot to assassinate the faction heir in motion.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Assassinate Faction Heir" last_edit_user="bob">Assassinate Faction Heir</localised_action_name>
+<opportune_failure>3k_main_spy_action_character_assassinate_faction_heir_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_character_assassinate_faction_heir_success</success>
+<unique_id>3k_main_spy_action_character_assassinate_faction_heir</unique_id>
+<voiceover>vo_campaign_action_enemy_character</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{e9c682f6-2a1a-4e0b-afce-5417efe35837}" record_timestamp="1527703888673" record_key="3k_main_spy_action_character_assassinate_faction_leader">
+<ability>undercover_character_target_character_assassinate_faction_leader</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>family_member</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>40</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>60</base_cover_points_cost>
+<base_undercover_network_points_cost>40</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_character_assassinate_faction_leader_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_character_assassinate_faction_leader_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_character_assassinate_faction_leader_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_character_assassinate_faction_leader_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Set a plot to assassinate the faction leader in motion." last_edit_user="bob">Set a plot to assassinate the faction leader in motion.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Assassinate Faction Leader" last_edit_user="bob">Assassinate Faction Leader</localised_action_name>
+<opportune_failure>3k_main_spy_action_character_assassinate_faction_leader_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_character_assassinate_faction_leader_success</success>
+<unique_id>3k_main_spy_action_character_assassinate_faction_leader</unique_id>
+<voiceover>vo_campaign_action_enemy_character</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{54a7cfa5-3a76-4762-843a-b9203b364e31}" record_timestamp="1527703888673" record_key="3k_main_spy_action_character_kick_character">
+<ability>undercover_character_target_character_exile</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>is_recruited</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>30</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>30</base_cover_points_cost>
+<base_undercover_network_points_cost>30</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_character_kick_character_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_character_kick_character_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_character_kick_character_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_character_kick_character_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Incite a malcontent to spread untoward rumours about the faction, thereby slightly diminishing satisfaction throughout the court." last_edit_user="bob">Incite a malcontent to spread untoward rumours about the faction, thereby slightly diminishing satisfaction throughout the court.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Discredit Faction" last_edit_user="bob">Discredit Faction</localised_action_name>
+<opportune_failure>3k_main_spy_action_character_kick_character_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_character_kick_character_success</success>
+<unique_id>3k_main_spy_action_character_kick_character</unique_id>
+<voiceover>vo_campaign_action_enemy_character</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{a854536c-63eb-4295-b227-ed23a7a607e8}" record_timestamp="1527703888673" record_key="3k_main_spy_action_character_lower_satisfaction">
+<ability>undercover_character_target_character_slander</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>is_recruited</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>15</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>15</base_cover_points_cost>
+<base_undercover_network_points_cost>15</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_character_lower_satisfaction_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_character_lower_satisfaction_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_character_lower_satisfaction_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_character_lower_satisfaction_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Spread malicious rumours about a character, thereby significantly diminishing their satisfaction within the court." last_edit_user="bob">Spread malicious rumours about a character, thereby significantly diminishing their satisfaction within the court.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Discredit Character" last_edit_user="bob">Discredit Character</localised_action_name>
+<opportune_failure>3k_main_spy_action_character_lower_satisfaction_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_character_lower_satisfaction_success</success>
+<unique_id>3k_main_spy_action_character_lower_satisfaction</unique_id>
+<voiceover>vo_campaign_action_enemy_character</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{42d03af6-877a-47da-b0db-3db89be59437}" record_timestamp="1527703888673" record_key="3k_main_spy_action_faction_counter_spy">
+<ability>undercover_character_target_faction_increase_undercover_character_action_costs</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>is_recruited</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>30</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>0</base_cover_points_cost>
+<base_undercover_network_points_cost>30</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_faction_counter_spy_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_faction_counter_spy_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_faction_counter_spy_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_faction_counter_spy_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Meddle in the faction's intelligence efforts, thereby diminishing their counter spying attempts and increasing your spy's cover." last_edit_user="bob">Meddle in the faction's intelligence efforts, thereby diminishing their counter spying attempts and increasing your spy's cover.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Interference" last_edit_user="bob">Interference</localised_action_name>
+<opportune_failure>3k_main_spy_action_faction_counter_spy_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_faction_counter_spy_success</success>
+<unique_id>3k_main_spy_action_faction_counter_spy</unique_id>
+<voiceover>vo_campaign_action_enemy_region</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{f9754652-bad1-4a2c-a5e7-7765520b52ed}" record_timestamp="1527703888673" record_key="3k_main_spy_action_faction_empower_trade">
+<ability>undercover_character_target_faction_empower_trade</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>is_recruited</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>5</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>15</base_cover_points_cost>
+<base_undercover_network_points_cost>5</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_faction_empower_trade_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_faction_empower_trade_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_faction_empower_trade_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_faction_empower_trade_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Manipulate the faction's trade efforts, thereby increasing your own trade power." last_edit_user="bob">Manipulate the faction's trade efforts, thereby increasing your own trade power.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Empower Trade" last_edit_user="bob">Empower Trade</localised_action_name>
+<opportune_failure>3k_main_spy_action_faction_empower_trade_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_faction_empower_trade_success</success>
+<unique_id>3k_main_spy_action_faction_empower_trade</unique_id>
+<voiceover>vo_campaign_action_enemy_army</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{b7c63194-7723-440c-a43c-3b4c3103e464}" record_timestamp="1527703888673" record_key="3k_main_spy_action_faction_improve_relations">
+<ability>undercover_character_target_faction_improve_relations</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>family_member</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>20</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>20</base_cover_points_cost>
+<base_undercover_network_points_cost>20</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_faction_improve_relations_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_faction_improve_relations_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_faction_improve_relations_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_faction_improve_relations_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Vocally support your faction within the court, thereby improving diplomatic relations." last_edit_user="bob">Vocally support your faction within the court, thereby improving diplomatic relations.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Improve Relations" last_edit_user="bob">Improve Relations</localised_action_name>
+<opportune_failure>3k_main_spy_action_faction_improve_relations_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_faction_improve_relations_success</success>
+<unique_id>3k_main_spy_action_faction_improve_relations</unique_id>
+<voiceover>vo_campaign_action_enemy_army</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{d3b7d4cc-94cc-4a53-9a07-e5e375b8e0f0}" record_timestamp="1550835861598" record_key="3k_main_spy_action_faction_request_administrator">
+<ability>undercover_character_target_faction_request_administrator</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>commanding_military_force_retinue</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>20</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>10</base_cover_points_cost>
+<base_undercover_network_points_cost>20</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_faction_request_administrator_position_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_faction_request_administrator_position_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_faction_request_administrator_position_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_faction_request_administrator_position_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Attempt to manipulate the spy into being granted administrative powers over a commandery.\n\nNote that this depends on the target faction's need for administrators and does not guarantee an administrative appointment!" last_edit_user="bob">Attempt to manipulate the spy into being granted administrative powers over a commandery.\n\nNote that this depends on the target faction's need for administrators and does not guarantee an administrative appointment!</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Pursue Administrative Appointment" last_edit_user="bob">Pursue Administrative Appointment</localised_action_name>
+<opportune_failure>3k_main_spy_action_faction_request_administrator_position_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_faction_request_administrator_position_success</success>
+<unique_id>3k_main_spy_action_faction_request_administrator</unique_id>
+<voiceover>vo_campaign_action_enemy_character</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{57fc05cf-0f6d-4ff0-9fc3-350faa5663f9}" record_timestamp="1550835861598" record_key="3k_main_spy_action_faction_request_general">
+<ability>undercover_character_target_faction_request_general</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>is_recruited</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>10</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>5</base_cover_points_cost>
+<base_undercover_network_points_cost>10</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_faction_request_general_position_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_faction_request_general_position_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_faction_request_general_position_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_faction_request_general_position_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Attempt to manipulate the spy into being sent into the field as a general.\n\nNote that this depends on the target faction's need for generals and does not guarantee a military appointment!" last_edit_user="bob">Attempt to manipulate the spy into being sent into the field as a general.\n\nNote that this depends on the target faction's need for generals and does not guarantee a military appointment!</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Pursue Military Appointment" last_edit_user="bob">Pursue Military Appointment</localised_action_name>
+<opportune_failure>3k_main_spy_action_faction_request_general_position_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_faction_request_general_position_success</success>
+<unique_id>3k_main_spy_action_faction_request_general</unique_id>
+<voiceover>vo_campaign_action_enemy_character</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{085ba54a-5d27-4fff-9d85-19f7889f2d32}" record_timestamp="1527703888673" record_key="3k_main_spy_action_faction_steal_item">
+<ability>undercover_character_target_faction_steal_ceo_and_extract</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>is_recruited</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>30</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>15</base_cover_points_cost>
+<base_undercover_network_points_cost>30</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_faction_steal_item_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_faction_steal_item_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_faction_steal_item_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_faction_steal_item_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Steal a random item from the faction before escaping with it back to your own." last_edit_user="bob">Steal a random item from the faction before escaping with it back to your own.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Larceny" last_edit_user="bob">Larceny</localised_action_name>
+<opportune_failure>3k_main_spy_action_faction_steal_item_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_faction_steal_item_success</success>
+<unique_id>3k_main_spy_action_faction_steal_item</unique_id>
+<voiceover>vo_campaign_action_enemy_army</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{5c2bbf5f-083b-4291-82c8-7bb56b5808c6}" record_timestamp="1527703888673" record_key="3k_main_spy_action_faction_surrender_faction">
+<ability>undercover_character_target_faction_surrender_faction</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>faction_leader</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>50</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>70</base_cover_points_cost>
+<base_undercover_network_points_cost>50</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_faction_surrender_faction_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_faction_surrender_faction_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_faction_surrender_faction_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_faction_surrender_faction_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Trigger a civil war between those most loyal to the spy and those less satisfied with their rule, strongly reinforcing your influence over the faction in the process." last_edit_user="bob">Trigger a civil war between those most loyal to the spy and those less satisfied with their rule, strongly reinforcing your influence over the faction in the process.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Instigate Civil War" last_edit_user="bob">Instigate Civil War</localised_action_name>
+<opportune_failure>3k_main_spy_action_faction_surrender_faction_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_faction_surrender_faction_success</success>
+<unique_id>3k_main_spy_action_faction_surrender_faction</unique_id>
+<voiceover>vo_campaign_action_enemy_army</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{4fba7fa8-d61d-4fbb-aad0-056f7bb40661}" record_timestamp="1527703888673" record_key="3k_main_spy_action_lower_public_order">
+<ability>undercover_character_target_garrison_lower_public_order</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>governor</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>40</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>20</base_cover_points_cost>
+<base_undercover_network_points_cost>40</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_lower_public_order_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_lower_public_order_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_lower_public_order_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_lower_public_order_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Sow dissent among the local populace, thereby lowering public order." last_edit_user="bob">Sow dissent among the local populace, thereby lowering public order.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Diminish Public Order" last_edit_user="bob">Diminish Public Order</localised_action_name>
+<opportune_failure>3k_main_spy_action_lower_public_order_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_lower_public_order_success</success>
+<unique_id>3k_main_spy_action_lower_public_order</unique_id>
+<voiceover>vo_campaign_action_enemy_region</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{61f039ff-f05a-440d-b332-c122e32141fc}" record_timestamp="1527703888673" record_key="3k_main_spy_action_region_bolster_garrison">
+<ability>undercover_character_target_garrison_bolster_garrison</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>governor</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>20</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>10</base_cover_points_cost>
+<base_undercover_network_points_cost>20</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_region_bolster_garrison_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_region_bolster_garrison_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_region_bolster_garrison_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_region_bolster_garrison_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Arrange for a garrison's provisions to be poisoned, thereby inflicting casualties upon its units." last_edit_user="bob">Arrange for a garrison's provisions to be poisoned, thereby inflicting casualties upon its units.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Poison Garrison Provisions" last_edit_user="bob">Poison Garrison Provisions</localised_action_name>
+<opportune_failure>3k_main_spy_action_region_bolster_garrison_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_region_bolster_garrison_success</success>
+<unique_id>3k_main_spy_action_region_bolster_garrison</unique_id>
+<voiceover>vo_campaign_action_enemy_region</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{2244d275-7ba3-4300-ae44-b8739514318d}" record_timestamp="1527703888673" record_key="3k_main_spy_action_region_open_gates">
+<ability>undercover_character_target_garrison_open_gates</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>governor</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>15</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>5</base_cover_points_cost>
+<base_undercover_network_points_cost>15</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_region_open_gates_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_region_open_gates_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_region_open_gates_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_region_open_gates_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Open the settlement's gates, thereby leaving it open to attack." last_edit_user="bob">Open the settlement's gates, thereby leaving it open to attack.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Open Gates" last_edit_user="bob">Open Gates</localised_action_name>
+<opportune_failure>3k_main_spy_action_region_open_gates_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_region_open_gates_success</success>
+<unique_id>3k_main_spy_action_region_open_gates</unique_id>
+<voiceover>vo_campaign_action_enemy_region</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{e6ba80a8-ae32-47e2-8267-405f834d4c81}" record_timestamp="1527703888673" record_key="3k_main_spy_action_region_spy_network">
+<ability>undercover_character_target_faction_build_spy_network</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>is_recruited</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>0</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>10</base_cover_points_cost>
+<base_undercover_network_points_cost>0</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_region_spy_network_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_region_spy_network_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_region_spy_network_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_region_spy_network_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Acquire additional covert relations and assets within the faction, thereby allowing you to bolster your undercover network overall." last_edit_user="bob">Acquire additional covert relations and assets within the faction, thereby allowing you to bolster your undercover network overall.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Build Undercover Network" last_edit_user="bob">Build Undercover Network</localised_action_name>
+<opportune_failure>3k_main_spy_action_region_spy_network_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_region_spy_network_success</success>
+<unique_id>3k_main_spy_action_region_spy_network</unique_id>
+<voiceover>vo_campaign_action_enemy_region</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{edc6899e-96e6-413b-91da-fcfac57a8e52}" record_timestamp="1527703888673" record_key="3k_main_spy_action_region_surrender_province">
+<ability>undercover_character_target_garrison_surrender_region</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>governor</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>60</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>40</base_cover_points_cost>
+<base_undercover_network_points_cost>60</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_region_surrender_province_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_region_surrender_province_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_region_surrender_province_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_region_surrender_province_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Order the spy to defect, thereby turning control of their governed territory over to you." last_edit_user="bob">Order the spy to defect, thereby turning control of their governed territory over to you.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Surrender Territory" last_edit_user="bob">Surrender Territory</localised_action_name>
+<opportune_failure>3k_main_spy_action_region_surrender_province_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_region_surrender_province_success</success>
+<unique_id>3k_main_spy_action_region_surrender_province</unique_id>
+<voiceover>vo_campaign_action_enemy_region</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{b443769c-f607-44ae-a6a4-f32669e2685f}" record_timestamp="1527703888673" record_key="3k_main_spy_action_region_weaken_garrison">
+<ability>undercover_character_target_garrison_weaken_garrison</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>governor</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>10</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>5</base_cover_points_cost>
+<base_undercover_network_points_cost>10</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_region_weaken_garrison_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_region_weaken_garrison_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_region_weaken_garrison_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_region_weaken_garrison_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Prevent supplies from reaching a garrison, thereby hindering replenishment of units. " last_edit_user="bob">Prevent supplies from reaching a garrison, thereby hindering replenishment of units. </localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Deny Garrison Supplies" last_edit_user="bob">Deny Garrison Supplies</localised_action_name>
+<opportune_failure>3k_main_spy_action_region_weaken_garrison_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_region_weaken_garrison_success</success>
+<unique_id>3k_main_spy_action_region_weaken_garrison</unique_id>
+<voiceover>vo_campaign_action_enemy_region</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{363aba1e-e6cd-4c66-85d8-fefad82fdc11}" record_timestamp="1550835861598" record_key="3k_main_spy_action_target_faction_request_minister">
+<ability>undercover_character_target_faction_request_minister</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>governor</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>30</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>15</base_cover_points_cost>
+<base_undercover_network_points_cost>30</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_faction_request_minister_position_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_faction_request_minister_position_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_faction_request_minister_position_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_faction_request_minister_position_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Attempt to manipulate the spy into being granted one of the faction offices.\n\nNote that this depends on the availability of ministerial positions within the target faction and does not guarantee a military appointment!" last_edit_user="bob">Attempt to manipulate the spy into being granted one of the faction offices.\n\nNote that this depends on the availability of ministerial positions within the target faction and does not guarantee a military appointment!</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Pursue Ministerial Appointment" last_edit_user="bob">Pursue Ministerial Appointment</localised_action_name>
+<opportune_failure>3k_main_spy_action_faction_request_minister_position_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_faction_request_minister_position_success</success>
+<unique_id>3k_main_spy_action_target_faction_request_minister</unique_id>
+<voiceover>vo_campaign_action_enemy_character</voiceover>
+</agent_actions>
+<agent_actions record_uuid="{2688e2ff-452c-42e0-a571-2e4cb37e89df}" record_timestamp="1527703888673" record_key="3k_main_spy_action_trigger_yellow_turban_rebellion">
+<ability>undercover_character_target_garrison_trigger_rebellion</ability>
+<acting_character_loyalty_lower_bound>0</acting_character_loyalty_lower_bound>
+<acting_character_loyalty_upper_bound>100</acting_character_loyalty_upper_bound>
+<acting_character_position_in_faction>governor</acting_character_position_in_faction>
+<acting_character_rank_lower_bound>1</acting_character_rank_lower_bound>
+<acting_faction_undercover_network_points_lower_bound>50</acting_faction_undercover_network_points_lower_bound>
+<agent>general</agent>
+<base_cover_points_cost>30</base_cover_points_cost>
+<base_undercover_network_points_cost>50</base_undercover_network_points_cost>
+<cannot_fail>3k_main_spy_action_trigger_yellow_turban_rebellion_success</cannot_fail>
+<chance_of_success>100</chance_of_success>
+<critical_failure>3k_main_spy_action_trigger_yellow_turban_rebellion_failure</critical_failure>
+<critical_failure_proportion_modifier>1</critical_failure_proportion_modifier>
+<critical_success>3k_main_spy_action_trigger_yellow_turban_rebellion_success</critical_success>
+<critical_success_proportion_modifier>1</critical_success_proportion_modifier>
+<failure>3k_main_spy_action_trigger_yellow_turban_rebellion_failure</failure>
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<localised_action_description state="APPROVED" last_approved_text="Rally the populace to the Yellow Turban cause, thereby causing them to rebel against their masters." last_edit_user="bob">Rally the populace to the Yellow Turban cause, thereby causing them to rebel against their masters.</localised_action_description>
+<localised_action_name state="APPROVED" last_approved_text="Instigate Yellow Turban Uprising" last_edit_user="bob">Instigate Yellow Turban Uprising</localised_action_name>
+<opportune_failure>3k_main_spy_action_trigger_yellow_turban_rebellion_failure</opportune_failure>
+<opportune_failure_proportion_modifier>1</opportune_failure_proportion_modifier>
+<success>3k_main_spy_action_trigger_yellow_turban_rebellion_success</success>
+<unique_id>3k_main_spy_action_trigger_yellow_turban_rebellion</unique_id>
+<voiceover>vo_campaign_action_enemy_region</voiceover>
+</agent_actions>
+</dataroot>

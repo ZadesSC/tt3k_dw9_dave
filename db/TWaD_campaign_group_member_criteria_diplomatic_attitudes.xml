@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_group_member_criteria_diplomatic_attitudes>
+<root>
+<edit_uuid>1b2c65b0-1f56-4a21-a008-a620634a10c3</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{29776625-6cab-4b13-a4b2-08f8d691b6ff}</field_uuid>
+<primary_key>1</primary_key>
+<name>member</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>campaign_group_members</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{236a63f8-c3f6-4f10-86eb-335972bdd05f}</field_uuid>
+<primary_key>0</primary_key>
+<name>attitude</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>diplomacy_negotiation_attitudes</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

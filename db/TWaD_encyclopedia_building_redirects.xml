@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_encyclopedia_building_redirects>
+<root>
+<edit_uuid>8b622d3d-5f4b-4b74-8ac8-6a12cda634de</edit_uuid>
+<agf_special_dependencies>building&amp;redirect_building</agf_special_dependencies>
+<field>
+<field_uuid>{be49dc28-7d28-4f2c-a0ed-29f45c790d65}</field_uuid>
+<primary_key>1</primary_key>
+<name>building</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+<column_source_column>level_name</column_source_column>
+<column_source_table>building_levels</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{e8f6e5fa-452b-4547-98c2-e3cc7ffa66c5}</field_uuid>
+<primary_key>0</primary_key>
+<name>redirect_building</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+<column_source_column>level_name</column_source_column>
+<column_source_table>building_levels</column_source_table>
+<field_description>building to redirect the user to if 'building' was clicked on</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

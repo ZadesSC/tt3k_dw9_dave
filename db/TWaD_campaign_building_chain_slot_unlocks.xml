@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_building_chain_slot_unlocks>
+<root>
+<edit_uuid>054c5617-4f10-45d1-ab9f-a91967a2cd8d</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{f60bb5de-5471-4e41-ad03-71b34cd48ba8}</field_uuid>
+<primary_key>1</primary_key>
+<name>building_chain</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>building_chains</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{628034a6-b168-461e-865b-4f5e79721fd8}</field_uuid>
+<primary_key>0</primary_key>
+<name>secondary_building_slot_unlock_points_per_level</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

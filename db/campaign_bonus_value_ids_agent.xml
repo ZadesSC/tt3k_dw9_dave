@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_bonus_value_ids_agent.xsd" export_time="Wed Jun 15 11:53:43 2016" revision="14" export_branch="T:/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>a84be787-3959-45b9-ac2b-7f4a2ca8b4c3</edit_uuid>
+<campaign_bonus_value_ids_agent record_uuid="{59b5e733-3fc4-48d5-a707-c6fd3b480923}" record_timestamp="1465987183449" record_key="action_cost_mod">
+<key>action_cost_mod</key>
+<notes>Percentage modifier to agent action cost. Negative reduces cost. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_agent>
+<campaign_bonus_value_ids_agent record_uuid="{66d17e56-fed1-4872-9b5b-095c0ddd76f9}" record_key="attribute_authority_mod">
+<key>attribute_authority_mod</key>
+<notes>Modify agent authority attribute level. Used at character bonuses. </notes>
+</campaign_bonus_value_ids_agent>
+<campaign_bonus_value_ids_agent record_uuid="{aae73853-de52-48ce-96af-dff781f45d85}" record_key="attribute_subterfuge_mod">
+<key>attribute_subterfuge_mod</key>
+<notes>Modify agent subterfuge attribute level. Used at character bonuses. </notes>
+</campaign_bonus_value_ids_agent>
+<campaign_bonus_value_ids_agent record_uuid="{d8f57cc9-6afa-415d-95e1-eb6711a53149}" record_key="attribute_zeal_mod">
+<key>attribute_zeal_mod</key>
+<notes>Modify agent zeal attribute level. Used at character bonuses. </notes>
+</campaign_bonus_value_ids_agent>
+<campaign_bonus_value_ids_agent record_uuid="{98acf43f-e5f6-4d96-b05d-708fc18ca347}" record_timestamp="1465987183449" record_key="availability">
+<key>availability</key>
+<notes>Flag value to set if an agent type is recruitable in a region. Used at province bonuses.</notes>
+</campaign_bonus_value_ids_agent>
+<campaign_bonus_value_ids_agent record_uuid="{77a24111-6cd2-4cbe-bef5-2ef0624358c3}" record_timestamp="1465987183450" record_key="cap">
+<key>cap</key>
+<notes>Cap for number of agents allowed, used at faction bonuses. Note that total cap is clamped to the faction cap specified in the agent record.</notes>
+</campaign_bonus_value_ids_agent>
+<campaign_bonus_value_ids_agent record_uuid="{00358fc3-f975-4412-a1d9-1b2452b86025}" record_timestamp="1374855451579" record_key="critical_failure_mod">
+<key>critical_failure_mod</key>
+<notes>Affects all actions. Percentage modifier to critical failure chance of an agent possessing the effect. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_agent>
+<campaign_bonus_value_ids_agent record_uuid="{d81e4de1-d968-4b91-a38c-52c132b26ca1}" record_timestamp="1374855451614" record_key="critical_failure_mod_opponent">
+<key>critical_failure_mod_opponent</key>
+<notes>Affects all actions. Percentage modifier to critical failure chance of an agent acting against the character possessing the effect. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_agent>
+<campaign_bonus_value_ids_agent record_uuid="{123b4142-1e0a-4def-9961-21d2d89993d9}" record_key="critical_success_mod">
+<key>critical_success_mod</key>
+<notes>Percentage modifier to critical success chance, positive increases chance, used at character bonuses.</notes>
+</campaign_bonus_value_ids_agent>
+<campaign_bonus_value_ids_agent record_uuid="{643c4331-a64c-4170-a84b-6889452854a3}" record_timestamp="1374855451542" record_key="critical_success_mod_opponent">
+<key>critical_success_mod_opponent</key>
+<notes>Affects all actions. Percentage modifier to critical success chance of an agent acting against the character possessing the effect. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_agent>
+<campaign_bonus_value_ids_agent record_uuid="{4acc97ab-6b2a-48b3-aa53-4b31831afd73}" record_timestamp="1398694234656" record_key="opportune_failure_mod">
+<key>opportune_failure_mod</key>
+<notes>Percentage modifier to opportune failure chance, positive increases chance, used at character bonuses.</notes>
+</campaign_bonus_value_ids_agent>
+<campaign_bonus_value_ids_agent record_uuid="{9cf66705-6eef-4a31-9491-b79b1c7d222c}" record_timestamp="1398694234687" record_key="opportune_failure_mod_opponent">
+<key>opportune_failure_mod_opponent</key>
+<notes>Affects all actions. Percentage modifier to opportune failure chance of an agent acting against the character possessing the effect. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_agent>
+<campaign_bonus_value_ids_agent record_uuid="{199a1aae-855e-4a4c-8b5d-d78008ec7b42}" record_timestamp="1465987183450" record_key="recruit_cost_mod">
+<key>recruit_cost_mod</key>
+<notes>Percentage modifier to agent recruitment cost. Negative value decreases cost. Used at province bonuses.</notes>
+</campaign_bonus_value_ids_agent>
+<campaign_bonus_value_ids_agent record_uuid="{904850e3-7c52-43c7-a5cd-019453027b49}" record_timestamp="1375716293027" record_key="recruitment_level">
+<key>recruitment_level</key>
+<notes>Sets the level of the agent type upon recruitment in this province. Does not stack but uses highest value in province.</notes>
+</campaign_bonus_value_ids_agent>
+<campaign_bonus_value_ids_agent record_uuid="{e5f4587e-ab71-4007-a4d8-de43affc581a}" record_timestamp="1465987183451" record_key="success_mod">
+<key>success_mod</key>
+<notes>Percentage modifier for agent success chance, positive increases chances (which are then clamped to maximum of typically 95%). Used with character bonuses.</notes>
+</campaign_bonus_value_ids_agent>
+<campaign_bonus_value_ids_agent record_uuid="{deb4174f-b737-4a35-9191-3e5c9ace571c}" record_timestamp="1374855451363" record_key="success_mod_opponent">
+<key>success_mod_opponent</key>
+<notes>Affects all actions. Percentage modifier to success chance of an agent acting against the character possessing the effect. Used at character bonuses</notes>
+</campaign_bonus_value_ids_agent>
+</dataroot>

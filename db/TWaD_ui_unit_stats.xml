@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ui_unit_stats>
+<root>
+<edit_uuid>5a83e01b-78b7-40db-8166-d21afe4f5cb9</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{ef374777-4cbf-4474-940e-717c5faa31ff}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<encyclopaedia_export>1</encyclopaedia_export>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{64d1755d-4b77-4622-8101-7a5685f02071}</field_uuid>
+<primary_key>0</primary_key>
+<name>max_value</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>100</default_value>
+<column_source_column></column_source_column>
+<column_source_table></column_source_table>
+<field_description>Maximum value of stat, affects stat bars on info panel when calculating percentage full</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{2e916266-f82b-47e5-a06e-59613981e882}</field_uuid>
+<primary_key>0</primary_key>
+<name>campaign_only</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>false</default_value>
+<field_description>Is the stat only relevant to campaign? These are only shown in campaign.</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{8343eef4-62f8-403c-9e1d-764f8647a3c7}</field_uuid>
+<primary_key>0</primary_key>
+<name>sort_order</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>Determines order stats shown on info panel</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{ff66d52d-84ba-4fec-ba93-d27052e05d04}</field_uuid>
+<primary_key>0</primary_key>
+<name>localisation</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>stat_key</column_source_column>
+<column_source_table>unit_stat_localisations</column_source_table>
+<field_description>Where the localisation lives</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{12a5ef9c-e543-4ae0-bb0a-81489603c96d}</field_uuid>
+<primary_key>0</primary_key>
+<name>icon</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>ui/skins/default/placeholder.png</default_value>
+<max_length>255</max_length>
+<field_description>Full path to icon</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{466ce599-0590-416b-a386-bd07c3484dae}</field_uuid>
+<primary_key>0</primary_key>
+<name>ceo_max_value</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>100</default_value>
+<field_description>Maximum value of stat for a ceo, affects stat bars on info panel when calculating percentage full</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

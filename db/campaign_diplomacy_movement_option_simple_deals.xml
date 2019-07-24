@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_movement_option_simple_deals.xsd" export_time="Thu Apr 11 12:54:09 2019" revision="5" export_branch="C:/Users/rick.venier/AppData/Roaming/TWDaemon/1434/dave" export_user="bob">
+<edit_uuid>18b4b755-ec35-4a64-905e-20085814d83e</edit_uuid>
+<campaign_diplomacy_movement_option_simple_deals record_uuid="{d90002a0-37c7-4741-9b5a-49e5e5b0843c}" record_timestamp="1547821167591" record_key="campaign_force_movement_options_alliance">
+<component>treaty_components_quit_alliance_and_declare_war</component>
+<movement_option>campaign_force_movement_options_alliance</movement_option>
+<proposer_variable>variable_proposers</proposer_variable>
+<recipient_variable>variable_recipients</recipient_variable>
+</campaign_diplomacy_movement_option_simple_deals>
+<campaign_diplomacy_movement_option_simple_deals record_uuid="{06712324-6316-4884-81a1-21adbca45919}" record_timestamp="1547821167348" record_key="campaign_force_movement_options_coalition">
+<component>treaty_components_quit_coalition_and_declare_war</component>
+<movement_option>campaign_force_movement_options_coalition</movement_option>
+<proposer_variable>variable_proposers</proposer_variable>
+<recipient_variable>variable_recipients</recipient_variable>
+</campaign_diplomacy_movement_option_simple_deals>
+<campaign_diplomacy_movement_option_simple_deals record_uuid="{c2580ca1-42e0-4391-8ffd-2216abb8a290}" record_timestamp="1547465266171" record_key="campaign_force_movement_options_default">
+<component>treaty_components_war</component>
+<movement_option>campaign_force_movement_options_default</movement_option>
+<proposer_variable>variable_proposers</proposer_variable>
+<recipient_variable>variable_recipients</recipient_variable>
+</campaign_diplomacy_movement_option_simple_deals>
+<campaign_diplomacy_movement_option_simple_deals record_uuid="{e9c55934-57ca-45b8-9f32-f714bad36b49}" record_timestamp="1554983645100" record_key="treaty_vassalage_any&lt;variable_master&gt;_to_proposer_and_not_vassalage_any&lt;variable_master&gt;_to_recipient_existing_AND">
+<component>treaty_components_vassal_requests_war</component>
+<movement_option>treaty_vassalage_any&lt;variable_master&gt;_to_proposer_and_not_vassalage_any&lt;variable_master&gt;_to_recipient_existing_AND</movement_option>
+<proposer_variable>variable_proposers</proposer_variable>
+<recipient_variable>variable_vassal_master</recipient_variable>
+</campaign_diplomacy_movement_option_simple_deals>
+<campaign_diplomacy_movement_option_simple_deals record_uuid="{39c0dfc2-e591-49f1-9b25-3642da701bf0}" record_timestamp="1549487477265" record_key="treaty_vassalage_any&lt;variable_master&gt;_to_proposer_and_war_with_master_existing_AND">
+<component>treaty_components_vassal_joins_war</component>
+<movement_option>treaty_vassalage_any&lt;variable_master&gt;_to_proposer_and_war_with_master_existing_AND</movement_option>
+<proposer_variable>variable_proposers</proposer_variable>
+<recipient_variable>variable_vassal_master</recipient_variable>
+</campaign_diplomacy_movement_option_simple_deals>
+</dataroot>

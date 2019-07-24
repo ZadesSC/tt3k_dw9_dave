@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_event_feed_categories>
+<root>
+<edit_uuid>093bda92-9857-45a9-97fa-008c6bab3f54</edit_uuid>
+<field>
+<field_uuid>{38f8181b-50d1-4a41-988c-8884f3f21865}</field_uuid>
+<primary_key>1</primary_key>
+<name>category</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+</field>
+<field>
+<field_uuid>{8b8d394a-2b2d-4fcc-922a-4901836f3676}</field_uuid>
+<primary_key>0</primary_key>
+<name>category_title</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>Category Name</default_value>
+<max_length>255</max_length>
+<field_description>Display name for event category in feed UI</field_description>
+</field>
+</root>

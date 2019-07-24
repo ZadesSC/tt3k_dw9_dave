@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_bonus_value_ids_building_sets.xsd" export_time="Fri Nov 17 12:19:53 2017" revision="11" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/693/dave" export_user="bob">
+<edit_uuid>6f00e433-14c0-4fd2-bb2a-7068b10bc154</edit_uuid>
+<campaign_bonus_value_ids_building_sets record_uuid="{794bcf34-b0cf-4ed6-baa3-082d97185499}" record_timestamp="1370958974526" record_key="add_build_time">
+<key>add_build_time</key>
+<notes>Added to construction time for buildings. Negative value reduces construction time (end result clamped to minimum 1). Used at region bonuses.</notes>
+</campaign_bonus_value_ids_building_sets>
+<campaign_bonus_value_ids_building_sets record_uuid="{5d439ca8-ecb3-4320-983a-3b4ae9d4a13c}" record_timestamp="1370958974552" record_key="add_conversion_time">
+<key>add_conversion_time</key>
+<notes>Added to conversion construction time for buildings (end result clamped to minimum 1). Negative value reduces construction time. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_building_sets>
+<campaign_bonus_value_ids_building_sets record_uuid="{b09d1a79-241a-42d8-8a63-78e58fa161d6}" record_timestamp="1485861160178" record_key="building_construction_time_reduction">
+<key>building_construction_time_reduction</key>
+<notes>Absolute modifier on time required to complete construction of buildings in this set. Any building that would have its remaining construction time reduced below zero is reduced to zero and will complete at the start of the next turn. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_building_sets>
+<campaign_bonus_value_ids_building_sets record_uuid="{9d2bd72e-4939-483e-9b48-60fb610f3738}" record_timestamp="1370431116977" record_key="mod_build_time">
+<key>mod_build_time</key>
+<notes>Percentage modifier to construction time for buildings (result is rounded to nearest integer). Negative value reduces construction time. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_building_sets>
+<campaign_bonus_value_ids_building_sets record_uuid="{38df01e8-8294-4066-929b-776be240edef}" record_timestamp="1465987183464" record_key="mod_conversion_cost">
+<key>mod_conversion_cost</key>
+<notes>Percentage modifier to building conversion cost. Negative value reduces cost. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_building_sets>
+<campaign_bonus_value_ids_building_sets record_uuid="{e5add210-1327-4716-868b-43606c4c51b6}" record_timestamp="1370431117030" record_key="mod_conversion_time">
+<key>mod_conversion_time</key>
+<notes>Percentage modifier to conversion construction time for buildings (result is rounded to nearest integer). Negative value reduces construction time. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_building_sets>
+<campaign_bonus_value_ids_building_sets record_uuid="{50623b6f-007e-459c-8ded-e37506facf2e}" record_timestamp="1465987183464" record_key="mod_cost">
+<key>mod_cost</key>
+<notes>Percentage modifier to building cost. Negative value reduces cost. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_building_sets>
+<campaign_bonus_value_ids_building_sets record_uuid="{407c02a3-a6e7-4e95-ac41-ce075b8c072f}" record_timestamp="1465987183463" record_key="mod_gdp">
+<key>mod_gdp</key>
+<notes>Percentage modifier to gdp for slot. Used at region bonuses. Positive value increases region gdp.</notes>
+</campaign_bonus_value_ids_building_sets>
+<campaign_bonus_value_ids_building_sets record_uuid="{f8043a8c-7f13-489f-84dd-ee00963cad9a}" record_timestamp="1465987183463" record_key="mod_resource_production">
+<key>mod_resource_production</key>
+<notes>Percentage modifier to production for slots with that building chain. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_building_sets>
+<campaign_bonus_value_ids_building_sets record_uuid="{7f37fc59-375e-4137-bdbb-bd0b2ddd52d4}" record_timestamp="1425903885497" record_key="num_buildings_to_spawn_for_new_horde_army">
+<key>num_buildings_to_spawn_for_new_horde_army</key>
+<notes>Set this for buildings to create when a new horde army is spawned. Used at Faction bonuses.</notes>
+</campaign_bonus_value_ids_building_sets>
+</dataroot>

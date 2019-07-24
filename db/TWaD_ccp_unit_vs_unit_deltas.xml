@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ccp_unit_vs_unit_deltas>
+<root>
+<edit_uuid>c693a492-b314-4905-ae7f-a562a028ae7d</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{54e828fd-96d1-4575-9daf-cadc9e3fb41a}</field_uuid>
+<primary_key>1</primary_key>
+<name>attacker</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>The attacking unit (The one whos delta we are checking)</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{47f5a27a-540c-4363-bf6f-c1ce787f6b45}</field_uuid>
+<primary_key>1</primary_key>
+<name>defender</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>The defending unit (The opponent of the attacker)</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{b74e142f-6a1c-4c46-96d5-3a3a909bd6b2}</field_uuid>
+<primary_key>0</primary_key>
+<name>cp_delta_vs_defender</name>
+<field_type>double</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>The ccp delta to be subtracted from the calculated ccp when facing the defending unit</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{b231502c-488f-4ac6-a03a-cd9d5270209d}</field_uuid>
+<primary_key>0</primary_key>
+<name>cp_delta_vs_attacker</name>
+<field_type>double</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>The ccp delta to be subtracted from the calculated ccp when facing the attacking unit when in a defending situation</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

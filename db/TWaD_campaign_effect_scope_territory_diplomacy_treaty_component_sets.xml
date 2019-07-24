@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_effect_scope_territory_diplomacy_treaty_component_sets>
+<root>
+<edit_uuid>712f06d2-8b54-4f44-85e4-69baefd336fe</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{252bca72-897f-4644-874f-609a7c6518e4}</field_uuid>
+<primary_key>1</primary_key>
+<name>territory</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_effect_scope_territories</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{ead65526-b6c0-4c4a-a0e6-f1e38e0ab905}</field_uuid>
+<primary_key>1</primary_key>
+<name>diplomacy_treaty_component_set</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>set</column_source_column>
+<column_source_table>campaign_diplomacy_treaty_component_sets</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{e1939270-4fa1-481f-ad77-f8163a956612}</field_uuid>
+<primary_key>0</primary_key>
+<name>territory_faction_has_superset_of_specified_set</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>true</default_value>
+<field_description>If true, matches if the territory faction has a non-strict superset of the specified set of treaties (i.e. has all the specified treaties and possibly others as well), otherwise matches if the territory faction has a non-strict subset of the specified set of treaties (i.e. every treaty the faction has must be in the set).</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

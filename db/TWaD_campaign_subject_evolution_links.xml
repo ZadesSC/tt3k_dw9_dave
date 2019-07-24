@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_subject_evolution_links>
+<root>
+<edit_uuid>24d6c4ef-d82e-456c-b515-6fdd2c595892</edit_uuid>
+<agf_special_dependencies>parent&amp;child</agf_special_dependencies>
+<field>
+<field_uuid>{651d4020-f627-4e75-b035-f1a3af65755c}</field_uuid>
+<primary_key>1</primary_key>
+<name>parent</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_subject_evolutions</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{b938c6c2-ba4c-4aab-bbc5-a73c4260752e}</field_uuid>
+<primary_key>1</primary_key>
+<name>child</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_subject_evolutions</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+</root>

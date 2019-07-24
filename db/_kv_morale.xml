@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="_kv_morale.xsd" export_time="Wed Apr 10 11:29:06 2019" revision="128" export_branch="C:/Users/attila.mohacsi/AppData/Roaming/TWDaemon/1424/dave" export_user="bob">
+<edit_uuid>104a686b-046d-4df4-a383-b3d95bddef77</edit_uuid>
+<_kv_morale record_uuid="{3b82c69a-feca-429a-b476-50b6887ff6c9}" record_timestamp="1479303963046" record_key="army_destruction_alliance_strength_ratio">
+<description>ratio of current to starting strength needed</description>
+<key>army_destruction_alliance_strength_ratio</key>
+<value>0.20000000298023224</value>
+</_kv_morale>
+<_kv_morale record_uuid="{974b8a1d-0826-4b4d-828b-30a4c115f9f8}" record_timestamp="1479303963057" record_key="army_destruction_enemy_strength_ratio">
+<description>ratio of enemy to friendly current strength needed</description>
+<key>army_destruction_enemy_strength_ratio</key>
+<value>2.25</value>
+</_kv_morale>
+<_kv_morale record_uuid="{805d6140-ebc5-4a22-a87b-b8e263be3568}" record_key="artillery_near_miss_distance_squared">
+<description>distance squared to consider it a near miss</description>
+<key>artillery_near_miss_distance_squared</key>
+<value>144</value>
+</_kv_morale>
+<_kv_morale record_uuid="{f1d4355c-7e74-4947-b65e-594787d8a12d}" record_timestamp="1445597797969" record_key="blood_bonus_12">
+<description>unit killed 12% of enemy in last 4 sec</description>
+<key>blood_bonus_12</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{a97ecc22-e90b-495b-900d-b8db03f2f905}" record_timestamp="1445597797980" record_key="blood_bonus_5">
+<description>unit killed 5% of enemy in last 4 sec</description>
+<key>blood_bonus_5</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{090f3912-6298-4509-97f0-1d80918216fa}" record_timestamp="1445597797990" record_key="blood_bonus_7">
+<description>unit killed 7.5% of enemy in last 4 sec</description>
+<key>blood_bonus_7</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{c31b8e6e-5778-4a89-864d-b86bf5348bfe}" record_timestamp="1479303963068" record_key="broken_finish_base_timeout">
+<description>the base timeout for going from broken to rally</description>
+<key>broken_finish_base_timeout</key>
+<value>100</value>
+</_kv_morale>
+<_kv_morale record_uuid="{333ab468-4c77-4112-a57b-70430472d41c}" record_timestamp="1408616747480" record_key="broken_finish_timer_experience_bonus">
+<description>experience_broken_finish_time_bonus is (THIS * unit experience level)</description>
+<key>broken_finish_timer_experience_bonus</key>
+<value>10</value>
+</_kv_morale>
+<_kv_morale record_uuid="{1f553174-e61f-4223-b972-584089986579}" record_key="cavalry_effect_range">
+<description>range in which cavalry is considered</description>
+<key>cavalry_effect_range</key>
+<value>20</value>
+</_kv_morale>
+<_kv_morale record_uuid="{06d4aa25-3858-4e5c-b125-edb9976801f2}" record_timestamp="1479303963079" record_key="charge_bonus">
+<description>charge bonus</description>
+<key>charge_bonus</key>
+<value>15</value>
+</_kv_morale>
+<_kv_morale record_uuid="{afedc1c3-daa5-43f6-a646-ca7a720ba5c8}" record_timestamp="1424267323717" record_key="charge_timeout">
+<description>the timout for morale bonus due to charging</description>
+<key>charge_timeout</key>
+<value>60</value>
+</_kv_morale>
+<_kv_morale record_uuid="{24715b2d-d6a7-49a5-bcb4-a2e4f85e6742}" record_timestamp="1479303963090" record_key="commanding_general_alive_effect_amount_max">
+<description>the effect is scaled from min to max based on the unit's command stars (default: 6)</description>
+<key>commanding_general_alive_effect_amount_max</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{41f1131a-174f-48db-8131-f1766a810151}" record_timestamp="1479303963102" record_key="commanding_general_alive_effect_amount_min">
+<description>the effect is scaled from min to max based on the unit's command stars (default: 1)</description>
+<key>commanding_general_alive_effect_amount_min</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{bfc8bbd4-410f-4bfa-9cee-6f817d04e1af}" record_timestamp="1479303963115" record_key="difficulty_modifier_ai_easy">
+<description>Morale modifier applied to the AI's units on easy</description>
+<key>difficulty_modifier_ai_easy</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{d1904f70-d769-4054-80f9-44fbff560683}" record_timestamp="1479303963127" record_key="difficulty_modifier_ai_hard">
+<description>Morale modifier applied to the AI's units on hard</description>
+<key>difficulty_modifier_ai_hard</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{7936f50c-3500-475e-9269-6be32a8f8b9a}" record_timestamp="1410773977063" record_key="difficulty_modifier_ai_normal">
+<description>Morale modifier applied to the AI's units on normal</description>
+<key>difficulty_modifier_ai_normal</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{2e28b458-bf44-4e9d-b4d7-2e9c057d62b6}" record_timestamp="1479303963140" record_key="difficulty_modifier_ai_very_hard">
+<description>Morale modifier applied to the AI's units on very hard</description>
+<key>difficulty_modifier_ai_very_hard</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{f2e8176d-6b10-44b6-b6b9-9dabef3b8835}" record_timestamp="1424267323717" record_key="difficulty_modifier_player_easy">
+<description>Morale modifier applied to human player's units on easy</description>
+<key>difficulty_modifier_player_easy</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{41d6aa8f-5219-4f27-b803-552ca363375e}" record_timestamp="1410773977035" record_key="difficulty_modifier_player_hard">
+<description>Morale modifier applied to human player's units on hard</description>
+<key>difficulty_modifier_player_hard</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{6feeb983-2d21-461b-8aa9-13317427f63f}" record_timestamp="1410773977025" record_key="difficulty_modifier_player_normal">
+<description>Morale modifier applied to human player's units on normal</description>
+<key>difficulty_modifier_player_normal</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{1df04cb6-62a5-4b6d-badf-76ae10f2f75d}" record_timestamp="1479303963154" record_key="difficulty_modifier_player_very_hard">
+<description>Morale modifier applied to human player's units on very hard</description>
+<key>difficulty_modifier_player_very_hard</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{84845455-c743-4673-95bf-e3d2937a288a}" record_timestamp="1549383780593" record_key="encouraging_aura_radius">
+<description>Radius of aura for units with the 'encouraging' attribute</description>
+<key>encouraging_aura_radius</key>
+<value>50</value>
+</_kv_morale>
+<_kv_morale record_uuid="{01e517e3-634c-46d7-9375-dbedf836b920}" record_timestamp="1443686609536" record_key="enemy_control_land_defender_land_force_strength_modifier">
+<description>multiplier applied to the defender's land strength before comparing to attacker strength as part of the 'enemy_controls_land' evaluation</description>
+<key>enemy_control_land_defender_land_force_strength_modifier</key>
+<value>10</value>
+</_kv_morale>
+<_kv_morale record_uuid="{6f4234c5-07b4-41c8-a388-395644f0b09f}" record_timestamp="1479303963167" record_key="enemy_effect_range">
+<description>range in which enemies are considered</description>
+<key>enemy_effect_range</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{1762ea4a-fc91-4a68-8ab5-98798b608d58}" record_timestamp="1479303964396" record_key="enemy_numbers_morale_penalty_multiplier">
+<description>This multiplier is applied ot the morale penalty for enemy numbers in the vicinity, which ranges from -1 to -7 (hardcoded). A value of 0 means no penalty is applied.</description>
+<key>enemy_numbers_morale_penalty_multiplier</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{1e30c9b7-0f53-4a79-8054-41169675c634}" record_timestamp="1532867081432" record_key="experience_broken_finish_time_bonus_modifier">
+<description>The value to be multiplied with the unit experience to calculate the experience_broken_finish_time_bonus </description>
+<key>experience_broken_finish_time_bonus_modifier</key>
+<value>10</value>
+</_kv_morale>
+<_kv_morale record_uuid="{83a12b44-2353-4b3f-8907-a0c9d28391f0}" record_timestamp="1479303963181" record_key="extended_casualties_penalty_10">
+<description>unit lost 10% hitpoints/entities in last 60 sec</description>
+<key>extended_casualties_penalty_10</key>
+<value>-3</value>
+</_kv_morale>
+<_kv_morale record_uuid="{7a9081ff-2259-4e0f-b0ad-d82e4ffd108a}" record_timestamp="1458325052923" record_key="extended_casualties_penalty_15">
+<description>unit lost 15% hitpoints/entities in last 60 sec</description>
+<key>extended_casualties_penalty_15</key>
+<value>-6</value>
+</_kv_morale>
+<_kv_morale record_uuid="{6d902c35-1828-4879-a3f9-a081256affe0}" record_timestamp="1479303963195" record_key="extended_casualties_penalty_33">
+<description>unit lost 33% hitpoints/entities in last 60 sec</description>
+<key>extended_casualties_penalty_33</key>
+<value>-15</value>
+</_kv_morale>
+<_kv_morale record_uuid="{0109c76d-0ee1-4418-8e5d-58464284dc26}" record_timestamp="1479303963209" record_key="extended_casualties_penalty_50">
+<description>unit lost 50% hitpoints/entities in last 60 sec</description>
+<key>extended_casualties_penalty_50</key>
+<value>-21</value>
+</_kv_morale>
+<_kv_morale record_uuid="{32e776a2-2d68-4e10-815c-01b6d2bc37ba}" record_timestamp="1479303963222" record_key="extended_casualties_penalty_80">
+<description>Unit lost 80% hitpoints/entities in last 60 sec</description>
+<key>extended_casualties_penalty_80</key>
+<value>-21</value>
+</_kv_morale>
+<_kv_morale record_uuid="{dd2fc9b5-c4a0-4b79-bdc3-22a4faa1a6df}" record_timestamp="1479303963236" record_key="fear_effect_range">
+<description>Fear range</description>
+<key>fear_effect_range</key>
+<value>35</value>
+</_kv_morale>
+<_kv_morale record_uuid="{5bf56b17-2fb8-477e-ad40-ca5f42899b21}" record_timestamp="1533550154689" record_key="fighting_cavalry">
+<description>Base value (modded by training) against cavalry</description>
+<key>fighting_cavalry</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{7b1881a9-9b2b-436a-8036-882f9ca59f18}" record_timestamp="1549205011758" record_key="general_aura_radius">
+<description>Base radius of the general's passive aura</description>
+<key>general_aura_radius</key>
+<value>50</value>
+</_kv_morale>
+<_kv_morale record_uuid="{c46389a8-08d3-45d3-a2d6-c8ec6ed09420}" record_timestamp="1479303963279" record_key="general_inspire_effect_amount_max">
+<description>For commanding and non-commanding generals. The effect is scaled from min to max based on the unit's command stars (default: 12)</description>
+<key>general_inspire_effect_amount_max</key>
+<value>18</value>
+</_kv_morale>
+<_kv_morale record_uuid="{94f35a8d-95b3-483b-8720-b7b87c2c5daa}" record_timestamp="1479303963294" record_key="general_inspire_effect_amount_min">
+<description>For commanding and non-commanding generals. The effect is scaled from min to max based on the unit's command stars (default: 1)</description>
+<key>general_inspire_effect_amount_min</key>
+<value>2</value>
+</_kv_morale>
+<_kv_morale record_uuid="{a4154e14-e375-4d81-be58-3e1dd37ef520}" record_timestamp="1410781246189" record_key="inspiration_radius_max_effect_range_modifier">
+<description>Unit's within the inspiration radius get the full effect, units outside of it will get proportionally weaker effect up to the max range (general_aura_radius*THIS)</description>
+<key>inspiration_radius_max_effect_range_modifier</key>
+<value>1.5</value>
+</_kv_morale>
+<_kv_morale record_uuid="{3c45ac05-a3d9-4a7d-9dcc-e7d40d85bcba}" record_timestamp="1458295502147" record_key="losing_combat">
+<description>Unit losing in combat</description>
+<key>losing_combat</key>
+<value>-3</value>
+</_kv_morale>
+<_kv_morale record_uuid="{a31f6d54-4cd6-42f3-ab7f-877cddc9ae16}" record_timestamp="1479303963308" record_key="losing_combat_significantly">
+<description>Unit significantly losing in combat</description>
+<key>losing_combat_significantly</key>
+<value>-6</value>
+</_kv_morale>
+<_kv_morale record_uuid="{867c26c5-12b0-4dad-93a6-2c14acb32e1a}" record_timestamp="1458329001306" record_key="max_reinforcement_bonus">
+<description>Maximum bonus that can be gained from having pending reinforcements</description>
+<key>max_reinforcement_bonus</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{131b39dd-8abf-4a58-980e-e6354babd9f0}" record_timestamp="1479303963322" record_key="max_routing_enemies_to_consider">
+<description>Clamp for maximum number of routing enemies, this is then mulitplied by the weighting</description>
+<key>max_routing_enemies_to_consider</key>
+<value>9</value>
+</_kv_morale>
+<_kv_morale record_uuid="{ccd18d6b-9de8-46a0-b51d-da8744ee2553}" record_timestamp="1479303963336" record_key="max_routing_friends_to_consider">
+<description>Clamp for maximum number of routing friends, this is then mulitplied by the weighting</description>
+<key>max_routing_friends_to_consider</key>
+<value>9</value>
+</_kv_morale>
+<_kv_morale record_uuid="{7b8a63af-e2fd-468d-9f5f-c244badcf51f}" record_timestamp="1458295502149" record_key="minimium_increment_update_per_tick">
+<description>The minimum amount that the morale will be changed by per tick</description>
+<key>minimium_increment_update_per_tick</key>
+<value>1</value>
+</_kv_morale>
+<_kv_morale record_uuid="{9ac3a270-5138-4178-b3c1-a168179fcbf9}" record_timestamp="1458295502149" record_key="morale_base">
+<description>Starting point for calculations</description>
+<key>morale_base</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{6b4bd9e1-ef3e-4a1a-9c38-4311275dcafe}" record_timestamp="1465987146818" record_key="morale_shock_rout_immunity_timer">
+<description>The duration of the unit immunity from terror effects from the same enemy</description>
+<key>morale_shock_rout_immunity_timer</key>
+<value>60</value>
+</_kv_morale>
+<_kv_morale record_uuid="{db7a6c9c-06a9-4977-9138-52f096345088}" record_timestamp="1458326227735" record_key="morale_shock_rout_timer_long">
+<description>Duration of long morale shock rout</description>
+<key>morale_shock_rout_timer_long</key>
+<value>12</value>
+</_kv_morale>
+<_kv_morale record_uuid="{4257de23-b02c-4f69-9a39-27f4cc276f98}" record_timestamp="1458326227736" record_key="morale_shock_rout_timer_short">
+<description>Duration of short morale shock rout</description>
+<key>morale_shock_rout_timer_short</key>
+<value>12</value>
+</_kv_morale>
+<_kv_morale record_uuid="{658f4898-da30-457e-882d-29e244ab9678}" record_timestamp="1465987241050" record_key="morale_shock_terror_morale_threshold_long">
+<description>Terror causes target to go into long morale shock rout if the target's current morale is lower or equal than this value</description>
+<key>morale_shock_terror_morale_threshold_long</key>
+<value>14</value>
+</_kv_morale>
+<_kv_morale record_uuid="{e9523cc7-fa10-4292-8099-63974b708217}" record_timestamp="1465987241051" record_key="morale_shock_terror_morale_threshold_short">
+<description>Terror causes target to go into short morale shock rout if the target's current morale is lower or equal than this value</description>
+<key>morale_shock_terror_morale_threshold_short</key>
+<value>14</value>
+</_kv_morale>
+<_kv_morale record_uuid="{1d5730e4-56b0-455c-a59f-ec050f4f3d47}" record_timestamp="1479303963351" record_key="neighbour_effect_range">
+<description>range in which neightbouring units are considered</description>
+<key>neighbour_effect_range</key>
+<value>160</value>
+</_kv_morale>
+<_kv_morale record_uuid="{8e405f55-5886-4f54-b3a0-852dcf4c80fb}" record_timestamp="1439805335804" record_key="only_units_with_living_commanding_general_may_enter_non_shattered_rout_enabled">
+<description>If this is 'true' then once a unit's commander dies the next rout will be a shatter</description>
+<key>only_units_with_living_commanding_general_may_enter_non_shattered_rout_enabled</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{d29f7812-3923-42cd-8a30-80ac69e21421}" record_timestamp="1479303963365" record_key="open_flanks_effect_range">
+<description>Range at which flanks can lose secured bonus</description>
+<key>open_flanks_effect_range</key>
+<value>100</value>
+</_kv_morale>
+<_kv_morale record_uuid="{2a2d42b1-ae4a-410d-8a1d-827da6cffaa6}" record_timestamp="1458295502150" record_key="percent_update_per_tick">
+<description>The ideal changed morale amount  </description>
+<key>percent_update_per_tick</key>
+<value>0.15000000596046448</value>
+</_kv_morale>
+<_kv_morale record_uuid="{de817292-580d-4b80-8e90-1987e48afde4}" record_timestamp="1479303963380" record_key="post_rally_no_rout_timer">
+<description>Time (in seconds) for which a unit that has just rallied cannot rout again</description>
+<key>post_rally_no_rout_timer</key>
+<value>30</value>
+</_kv_morale>
+<_kv_morale record_uuid="{7ed86ea3-7bc9-48e9-b088-036fb03936a2}" record_timestamp="1479303963394" record_key="recent_casualties_penalty_10">
+<description>Unit lost 10% hitpoints/entities in last 4 sec</description>
+<key>recent_casualties_penalty_10</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{94628a9c-a054-4014-8abc-a2bc74fff3da}" record_timestamp="1479303963409" record_key="recent_casualties_penalty_15">
+<description>Unit lost 15% hitpoints/entities in last 4 sec</description>
+<key>recent_casualties_penalty_15</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{9f200c6f-4ae7-45fd-a45a-1653bbc2b032}" record_timestamp="1479303963423" record_key="recent_casualties_penalty_33">
+<description>Unit lost 33% hitpoints/entities in last 4 sec</description>
+<key>recent_casualties_penalty_33</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{ce8670d9-f26d-4c0a-9574-7e10541ad786}" record_timestamp="1479303963438" record_key="recent_casualties_penalty_50">
+<description>Unit lost 50% hitpoints/entities in last 4 sec</description>
+<key>recent_casualties_penalty_50</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{8c6713c0-ef16-42f1-afab-ff6e4e52dc57}" record_timestamp="1479303963453" record_key="recent_casualties_penalty_6">
+<description>Unit lost 6% hitpoints/entities in last 4 sec</description>
+<key>recent_casualties_penalty_6</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{9a423ce4-edaa-4315-9643-8ef76dffbb2a}" record_timestamp="1479303963468" record_key="recent_casualties_shock_threshold">
+<description>% casualties in last 4s needed for morale shock</description>
+<key>recent_casualties_shock_threshold</key>
+<value>100</value>
+</_kv_morale>
+<_kv_morale record_uuid="{9eb452d6-96a1-426a-b88b-19c10caa3148}" record_timestamp="1479303963483" record_key="routing_enemies_effect_weighting">
+<description>Weighting used to calculate the UME_CONCERNED_FRIENDS_ROUTING, this is multiplied by the rout_balance (enemies_routing - friends_routing)</description>
+<key>routing_enemies_effect_weighting</key>
+<value>1</value>
+</_kv_morale>
+<_kv_morale record_uuid="{fc2b94ab-3e9f-4a97-9d44-4526dbb442f2}" record_timestamp="1479303963498" record_key="routing_friends_effect_weighting">
+<description>Weighting used to calculate the UME_CONCERNED_FRIENDS_ROUTING, this is multiplied by the rout_balance (enemies_routing - friends_routing)</description>
+<key>routing_friends_effect_weighting</key>
+<value>1</value>
+</_kv_morale>
+<_kv_morale record_uuid="{506bc774-2443-4c91-b7e8-f8d8b8fb213e}" record_timestamp="1458334528357" record_key="routing_unit_effect_distance_flank">
+<description>Routing distance flank</description>
+<key>routing_unit_effect_distance_flank</key>
+<value>100</value>
+</_kv_morale>
+<_kv_morale record_uuid="{369f0759-a1c2-415a-b54c-56e6ab1b218c}" record_timestamp="1479303963513" record_key="routing_unit_effect_distance_front">
+<description>Routing distance front</description>
+<key>routing_unit_effect_distance_front</key>
+<value>75</value>
+</_kv_morale>
+<_kv_morale record_uuid="{947f027e-b435-47c5-a54e-e5d254fdc096}" record_timestamp="1479303963528" record_key="shatter_after_first_rout_if_casulties_higher_than">
+<description>Casualty threshold for shatter is [(THIS * starting men)&lt;current men]</description>
+<key>shatter_after_first_rout_if_casulties_higher_than</key>
+<value>0.15000000596046448</value>
+</_kv_morale>
+<_kv_morale record_uuid="{1b1a6ea7-c2f3-4388-8507-664507df3697}" record_timestamp="1479303963544" record_key="shatter_after_rout_count">
+<description>After routing this number of times, units are always shattered</description>
+<key>shatter_after_rout_count</key>
+<value>4</value>
+</_kv_morale>
+<_kv_morale record_uuid="{5d913306-c49c-47ed-85ae-b5240ca9261e}" record_timestamp="1479303963559" record_key="shatter_after_second_rout_if_casulties_higher_than">
+<description>Casualty threshold for shatter is [(THIS * starting men)&lt;current men]</description>
+<key>shatter_after_second_rout_if_casulties_higher_than</key>
+<value>0.20000000298023224</value>
+</_kv_morale>
+<_kv_morale record_uuid="{64ecff5f-4904-4ee9-8bf9-c0d9526c9477}" record_timestamp="1479303963576" record_key="surprise_timeout">
+<description>Surprise timeout</description>
+<key>surprise_timeout</key>
+<value>300</value>
+</_kv_morale>
+<_kv_morale record_uuid="{58eaea95-cc26-48d5-b726-a26352b5ccb9}" record_timestamp="1430383309905" record_key="terror_effect_range">
+<description>Terror range</description>
+<key>terror_effect_range</key>
+<value>5</value>
+</_kv_morale>
+<_kv_morale record_uuid="{a60b9bdc-b6a0-422d-83d4-63c314a4ee76}" record_timestamp="1479303963592" record_key="total_casualties_penalty_10">
+<description>Unit lost 10% hitpoints/entities in total</description>
+<key>total_casualties_penalty_10</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{96673bac-0958-42d6-8978-1f5781c66c4e}" record_timestamp="1479303963608" record_key="total_casualties_penalty_20">
+<description>Unit lost 20% hitpoints/entities in total</description>
+<key>total_casualties_penalty_20</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{2c5481c1-c3be-4a3e-824e-cab750febd48}" record_timestamp="1479303963624" record_key="total_casualties_penalty_30">
+<description>Unit lost 30% hitpoints/entities in total</description>
+<key>total_casualties_penalty_30</key>
+<value>-4</value>
+</_kv_morale>
+<_kv_morale record_uuid="{f179b61a-b01f-4896-81a1-4581104bfe90}" record_timestamp="1458303815752" record_key="total_casualties_penalty_40">
+<description>Unit lost 40% hitpoints/entities in total</description>
+<key>total_casualties_penalty_40</key>
+<value>-11</value>
+</_kv_morale>
+<_kv_morale record_uuid="{86c0322b-0e9a-4496-8692-1bc7f487a35b}" record_timestamp="1479303963639" record_key="total_casualties_penalty_50">
+<description>Unit lost 50% hitpoints/entities in total</description>
+<key>total_casualties_penalty_50</key>
+<value>-18</value>
+</_kv_morale>
+<_kv_morale record_uuid="{a01f80d1-cff2-4251-b3d3-1338165cca4f}" record_timestamp="1479303963656" record_key="total_casualties_penalty_60">
+<description>Unit lost 60% hitpoints/entities in total</description>
+<key>total_casualties_penalty_60</key>
+<value>-25</value>
+</_kv_morale>
+<_kv_morale record_uuid="{66d23624-0945-473b-80ab-16223b734369}" record_timestamp="1479303963672" record_key="total_casualties_penalty_70">
+<description>Unit lost 70% hitpoints/entities in total</description>
+<key>total_casualties_penalty_70</key>
+<value>-41</value>
+</_kv_morale>
+<_kv_morale record_uuid="{e2fa8f8e-79e5-477e-8043-6502e235046a}" record_timestamp="1479303963687" record_key="total_casualties_penalty_80">
+<description>Unit lost 80% hitpoints/entities in total</description>
+<key>total_casualties_penalty_80</key>
+<value>-57</value>
+</_kv_morale>
+<_kv_morale record_uuid="{d6f0e27e-3148-4fce-9cb1-f7a3fb071549}" record_timestamp="1479303963704" record_key="total_casualties_penalty_90">
+<description>Unit lost 90% hitpoints/entities in total</description>
+<key>total_casualties_penalty_90</key>
+<value>-64</value>
+</_kv_morale>
+<_kv_morale record_uuid="{2f928078-3b80-46dc-b890-c9e48fa501b0}" record_timestamp="1479303963720" record_key="ume_concerned_army_destruction">
+<description>The army is on the brink of destruction</description>
+<key>ume_concerned_army_destruction</key>
+<value>-90</value>
+</_kv_morale>
+<_kv_morale record_uuid="{35bc650b-f6b7-4e52-b241-df8fd058a395}" record_timestamp="1479303963736" record_key="ume_concerned_attacked_by_artillery">
+<description>Unit was attacked but not hit by artillery</description>
+<key>ume_concerned_attacked_by_artillery</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{dae723ae-a3f5-441f-91b0-06c7b21d448d}" record_timestamp="1479303963752" record_key="ume_concerned_attacked_by_projectile">
+<description>Attacked by projectile</description>
+<key>ume_concerned_attacked_by_projectile</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{944282d9-dbfd-4652-b6db-12c4a8505ecd}" record_timestamp="1479303963768" record_key="ume_concerned_captain_died_recently">
+<description>Very recently the captain died</description>
+<key>ume_concerned_captain_died_recently</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{8c85fc01-2e7a-475a-8c07-4117660c0c51}" record_timestamp="1479303963784" record_key="ume_concerned_damaged_by_artillery">
+<description>Unit was hit and damaged by artillery</description>
+<key>ume_concerned_damaged_by_artillery</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{a3889fd9-5759-49e9-a223-3413f029c7b9}" record_timestamp="1479303963801" record_key="ume_concerned_elephants_frightened">
+<description>Enemy is frightening the elephants</description>
+<key>ume_concerned_elephants_frightened</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{c0e55a23-2c2d-4f29-86c5-557de00c24f8}" record_timestamp="1479303963817" record_key="ume_concerned_exhausted">
+<description>Completely knackered</description>
+<key>ume_concerned_exhausted</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{440ccd2c-4053-4874-ab8c-93d104098a2f}" record_timestamp="1479303963834" record_key="ume_concerned_flanks_exposed_multiple">
+<description>Both flanks are exposed</description>
+<key>ume_concerned_flanks_exposed_multiple</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{da19429f-81fc-4c06-9395-107d92a7a621}" record_timestamp="1479303963850" record_key="ume_concerned_flanks_exposed_single">
+<description>One flank is exposed</description>
+<key>ume_concerned_flanks_exposed_single</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{7a185ddf-dccf-4b8f-adbb-19e606e13e65}" record_timestamp="1479303963867" record_key="ume_concerned_general_dead">
+<description>The general is dead, but not recently</description>
+<key>ume_concerned_general_dead</key>
+<value>-18</value>
+</_kv_morale>
+<_kv_morale record_uuid="{3cd964a1-be8b-4161-8557-eed71b4a18c6}" record_timestamp="1479303963884" record_key="ume_concerned_general_dead_ai">
+<description>In single player this applies to the ai only</description>
+<key>ume_concerned_general_dead_ai</key>
+<value>-18</value>
+</_kv_morale>
+<_kv_morale record_uuid="{aec274f0-3d3d-462d-b9d5-beae50ca3615}" record_timestamp="1479303963901" record_key="ume_concerned_general_died_recently">
+<description>Very recently the general died</description>
+<key>ume_concerned_general_died_recently</key>
+<value>-18</value>
+</_kv_morale>
+<_kv_morale record_uuid="{0c705b7d-d0e1-4e1d-b8b9-aea0d4c35eb3}" record_timestamp="1479303963918" record_key="ume_concerned_general_died_recently_ai">
+<description>In single player this applies to the ai only</description>
+<key>ume_concerned_general_died_recently_ai</key>
+<value>-18</value>
+</_kv_morale>
+<_kv_morale record_uuid="{440b2752-daa0-4955-b673-45793819d731}" record_timestamp="1479303963934" record_key="ume_concerned_general_fled_recently">
+<description>The commanding general has recently fled</description>
+<key>ume_concerned_general_fled_recently</key>
+<value>-18</value>
+</_kv_morale>
+<_kv_morale record_uuid="{0cd74579-1990-4ffd-94fc-07d11e5174a3}" record_timestamp="1479303963952" record_key="ume_concerned_general_fled_recently_ai">
+<description>In single player this applies to the ai only</description>
+<key>ume_concerned_general_fled_recently_ai</key>
+<value>-18</value>
+</_kv_morale>
+<_kv_morale record_uuid="{c9443813-9643-486c-8cda-42404793dd20}" record_timestamp="1479303963968" record_key="ume_concerned_horses_frightened">
+<description>Enemy is frightening the horses</description>
+<key>ume_concerned_horses_frightened</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{2a854e3c-c90b-4bd6-841a-76f9007ff0ae}" record_timestamp="1479303963986" record_key="ume_concerned_night_battle_unprepared">
+<description>Unprepared for night battle</description>
+<key>ume_concerned_night_battle_unprepared</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{cdae1bc1-7c0b-495a-8104-dbd440154ef2}" record_timestamp="1479303964003" record_key="ume_concerned_panic">
+<description>The unit is panicking</description>
+<key>ume_concerned_panic</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{50a8363b-4d8f-4898-88c9-c9b56f333627}" record_timestamp="1479303964021" record_key="ume_concerned_settlement_destruction_max">
+<description>&gt;The amount of this effect applied = ratio_of_buildings_destroyed * ume_concerned_settlement_destruction_max, so the full effect will only be applied when all destructible buildings are destroyed</description>
+<key>ume_concerned_settlement_destruction_max</key>
+<value>20</value>
+</_kv_morale>
+<_kv_morale record_uuid="{44539a0e-607a-426b-a560-159a5c0f77dc}" record_timestamp="1479303964039" record_key="ume_concerned_surprised">
+<description>Surprised</description>
+<key>ume_concerned_surprised</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{ac8b304f-e7a8-42a4-9ca3-83b774890a6a}" record_timestamp="1479303964057" record_key="ume_concerned_tired">
+<description>Vigour penalty</description>
+<key>ume_concerned_tired</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{8c6ac556-010e-4a69-a766-9d7fe8434128}" record_timestamp="1458295502170" record_key="ume_concerned_under_friendly_fire">
+<description>The penalty for being under friendly fire</description>
+<key>ume_concerned_under_friendly_fire</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{b156c772-c701-44be-9df7-653340c3f898}" record_timestamp="1479303964074" record_key="ume_concerned_unit_frightened">
+<description>The enemy is frightening</description>
+<key>ume_concerned_unit_frightened</key>
+<value>-6</value>
+</_kv_morale>
+<_kv_morale record_uuid="{6d27350e-14ea-42c8-8a73-5528bf095e27}" record_timestamp="1479303964091" record_key="ume_concerned_very_tired">
+<description>Unit is very tired but not exhausted</description>
+<key>ume_concerned_very_tired</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{e6f53f27-0f47-4bd8-bfd4-483031343982}" record_timestamp="1479303964108" record_key="ume_encouraged_flanks_secure">
+<description>All flanks are secure</description>
+<key>ume_encouraged_flanks_secure</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{1556243d-d3e5-4368-8751-59cb475a86dc}" record_timestamp="1483629633486" record_key="ume_encouraged_fortification">
+<description>Unit is defending inside a fort</description>
+<key>ume_encouraged_fortification</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{28f85e63-70c9-4402-81d5-e34cf9391a9b}" record_timestamp="1458330755103" record_key="ume_encouraged_fortification_compromised">
+<description>Morale bonus for being inside a breached fort</description>
+<key>ume_encouraged_fortification_compromised</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{5d04bed9-58a7-4a1b-9ab9-7a61a76e7e8a}" record_timestamp="1479303964144" record_key="ume_encouraged_inspired">
+<description>Friendly is having an inspiring effect on you</description>
+<key>ume_encouraged_inspired</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{0fbbfc98-90f2-4d6d-9eeb-f8d9b6aed357}" record_timestamp="1479303964162" record_key="ume_encouraged_on_the_hill">
+<description>Bonus for being up-hill of all enemies</description>
+<key>ume_encouraged_on_the_hill</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{247f145a-5702-4e4c-b301-7f1ed9694fe2}" record_timestamp="1483629633477" record_key="ume_encouraged_settlement_plaza">
+<description>Defending central plaza</description>
+<key>ume_encouraged_settlement_plaza</key>
+<value>9</value>
+</_kv_morale>
+<_kv_morale record_uuid="{b52ac474-e543-4f9d-94ad-1be8ddc3843e}" record_timestamp="1479303964197" record_key="ums_broken_threshold_lower">
+<description>Broken bottom</description>
+<key>ums_broken_threshold_lower</key>
+<value>-100</value>
+</_kv_morale>
+<_kv_morale record_uuid="{5aff2352-d17c-42be-9096-690402deae95}" record_timestamp="1479303964215" record_key="ums_broken_threshold_upper">
+<description>Broken top</description>
+<key>ums_broken_threshold_upper</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{6a89187d-29b4-4207-9e59-fdb519afec84}" record_timestamp="1362041502893" record_key="ums_confident_threshold_lower">
+<description>(% basis)confident bottom </description>
+<key>ums_confident_threshold_lower</key>
+<value>0.6499999761581421</value>
+</_kv_morale>
+<_kv_morale record_uuid="{125af289-379e-4cdd-a7ef-725eaea5c896}" record_timestamp="1362041503174" record_key="ums_confident_threshold_upper">
+<description>(% basis)confident top</description>
+<key>ums_confident_threshold_upper</key>
+<value>1</value>
+</_kv_morale>
+<_kv_morale record_uuid="{beed61ce-b118-4ce0-8080-4cb24092356d}" record_timestamp="1362041503138" record_key="ums_eager_threshold_lower">
+<description>(% basis)eager bottom </description>
+<key>ums_eager_threshold_lower</key>
+<value>0.8999999761581421</value>
+</_kv_morale>
+<_kv_morale record_uuid="{a9c8f77f-1981-4395-95af-c94a0ed399f3}" record_timestamp="1362041503103" record_key="ums_eager_threshold_upper">
+<description>(% basis)eager top </description>
+<key>ums_eager_threshold_upper</key>
+<value>1.100000023841858</value>
+</_kv_morale>
+<_kv_morale record_uuid="{f85449df-d455-429b-9025-3d3315b88a38}" record_timestamp="1362041503068" record_key="ums_impetuous_threshold_lower">
+<description>(% basis)impetuous bottom </description>
+<key>ums_impetuous_threshold_lower</key>
+<value>1.100000023841858</value>
+</_kv_morale>
+<_kv_morale record_uuid="{f2064ff1-6cda-414b-87c7-b8bf8f3760e1}" record_timestamp="1479303964232" record_key="ums_shaken_threshold_lower">
+<description>Shaken bottom</description>
+<key>ums_shaken_threshold_lower</key>
+<value>10</value>
+</_kv_morale>
+<_kv_morale record_uuid="{66e96d43-16c3-41b7-b94f-c192ffdc2a64}" record_timestamp="1458295502176" record_key="ums_shaken_threshold_upper">
+<description>Shaken top</description>
+<key>ums_shaken_threshold_upper</key>
+<value>32</value>
+</_kv_morale>
+<_kv_morale record_uuid="{a540d5d7-d329-4a7a-b28c-8f5abb8718f6}" record_timestamp="1458295502177" record_key="ums_steady_threshold_lower">
+<description>Steady bottom</description>
+<key>ums_steady_threshold_lower</key>
+<value>30</value>
+</_kv_morale>
+<_kv_morale record_uuid="{ef6e6648-2225-4395-8321-dd8c0b346e43}" record_timestamp="1458295502187" record_key="ums_steady_threshold_upper">
+<description>(% basis)steady top </description>
+<key>ums_steady_threshold_upper</key>
+<value>0.800000011920929</value>
+</_kv_morale>
+<_kv_morale record_uuid="{557a886a-ed09-49c9-bc94-3bd46b527adf}" record_timestamp="1458295502178" record_key="ums_wavering_threshold_lower">
+<description>Wavering bottom</description>
+<key>ums_wavering_threshold_lower</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{40963be7-b97d-4da3-b4a8-ca41f5e11bc9}" record_timestamp="1479303964251" record_key="ums_wavering_threshold_upper">
+<description>Wavering top</description>
+<key>ums_wavering_threshold_upper</key>
+<value>9</value>
+</_kv_morale>
+<_kv_morale record_uuid="{ef1fcae5-02d9-48cd-bcf1-e9e20b96edaf}" record_timestamp="1549203390483" record_key="unit_inspire_effect_amount">
+<description>Used for non-command units and applied as a flat value (adjusted for distance). NOT based on rank</description>
+<key>unit_inspire_effect_amount</key>
+<value>6</value>
+</_kv_morale>
+<_kv_morale record_uuid="{48110046-454f-4c5b-914f-0a95eec8783a}" record_timestamp="1458295502179" record_key="use_hitpoints_instead_of_casualties_prop_in_morale_calculation">
+<description>Whether the casualties penalty percentage refers to the unit's remaining hitpoints (1) or to the unit's remaining entities (0)</description>
+<key>use_hitpoints_instead_of_casualties_prop_in_morale_calculation</key>
+<value>1</value>
+</_kv_morale>
+<_kv_morale record_uuid="{2d216296-7e37-4b4c-a9cd-eb3e9fee1039}" record_key="warcry_effect_range">
+<description>NOT USED</description>
+<key>warcry_effect_range</key>
+<value>225</value>
+</_kv_morale>
+<_kv_morale record_uuid="{08ef5ec0-8589-4b18-8abf-176beff68abf}" record_timestamp="1479303964287" record_key="was_attacked_in_flank">
+<description>First contact from flank</description>
+<key>was_attacked_in_flank</key>
+<value>-3</value>
+</_kv_morale>
+<_kv_morale record_uuid="{a4b1f789-4060-4a74-bd96-a99ba609a23c}" record_timestamp="1458295502181" record_key="was_attacked_in_front">
+<description>First contact from front</description>
+<key>was_attacked_in_front</key>
+<value>0</value>
+</_kv_morale>
+<_kv_morale record_uuid="{f6da90eb-4a7f-4284-b81c-687d683d4e6a}" record_timestamp="1479303964305" record_key="was_attacked_in_rear">
+<description>First contact from rear</description>
+<key>was_attacked_in_rear</key>
+<value>-9</value>
+</_kv_morale>
+<_kv_morale record_uuid="{1d7e341e-c5c0-43bd-a3fd-bf693dde9b94}" record_timestamp="1479303964323" record_key="waver_base_timeout">
+<description>The base time for which a unit spends in waver</description>
+<key>waver_base_timeout</key>
+<value>50</value>
+</_kv_morale>
+<_kv_morale record_uuid="{93a4c72d-e0a0-44d3-87ee-81132aea41c6}" record_timestamp="1479303964341" record_key="winning_combat">
+<description>Unit winning in combat</description>
+<key>winning_combat</key>
+<value>3</value>
+</_kv_morale>
+<_kv_morale record_uuid="{8a6fba60-0fd3-4339-a344-e81244e3698e}" record_timestamp="1479303964360" record_key="winning_combat_significantly">
+<description>Unit significantly winning in combat</description>
+<key>winning_combat_significantly</key>
+<value>6</value>
+</_kv_morale>
+<_kv_morale record_uuid="{1459a04e-6d3e-47b2-b8e1-f8e7639d2c79}" record_timestamp="1479303964378" record_key="winning_combat_slightly">
+<description>Unit winning slightly in combat</description>
+<key>winning_combat_slightly</key>
+<value>0</value>
+</_kv_morale>
+</dataroot>

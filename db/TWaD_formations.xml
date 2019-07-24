@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_formations>
+<root>
+<edit_uuid>eb96198e-3358-432e-823d-ce010b85bda4</edit_uuid>
+<field>
+<field_uuid>{df9b918d-2dd9-43cb-b4dc-790558c06d3c}</field_uuid>
+<primary_key>1</primary_key>
+<name>formation</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{819dab32-75b3-4b9b-9d45-5eb132ff0313}</field_uuid>
+<primary_key>0</primary_key>
+<name>is_naval</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<field_description>Is the formation for naval purposes</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{bbabf511-e63b-46c3-8021-9583f7fefc9b}</field_uuid>
+<primary_key>0</primary_key>
+<name>is_army</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<field_description>Is formation for applying to whole army</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{c8f4cc84-6871-4b22-b68e-c9276fbc8261}</field_uuid>
+<primary_key>0</primary_key>
+<name>name</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>Name of formation</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{1aee6807-f37c-416b-be92-d0aba8dced30}</field_uuid>
+<primary_key>0</primary_key>
+<name>tooltip</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>Tooltip text</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{e7de2832-00d7-4923-9dd7-5e8e6b970ca6}</field_uuid>
+<primary_key>0</primary_key>
+<name>description</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{22e39a2b-1de4-4c42-92d0-742b3ff2f519}</field_uuid>
+<primary_key>0</primary_key>
+<name>icon_name</name>
+<field_type>text</field_type>
+<is_filename>1</is_filename>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Name of icon to use for formation button</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{48a1c3ac-1daa-418d-944d-794739a3b8d8}</field_uuid>
+<primary_key>0</primary_key>
+<name>order</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>Determines order formation buttons shown in ui</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+</root>

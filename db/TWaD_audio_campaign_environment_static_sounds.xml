@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_audio_campaign_environment_static_sounds>
+<root>
+<edit_uuid>3310a15c-c607-4bc8-bc20-9cde6cffefeb</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{9a17df0b-1c3b-4187-a259-297482642411}</field_uuid>
+<primary_key>1</primary_key>
+<name>map</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>audio_campaign_maps</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{d525a8ec-d06d-4506-b67a-1552e266a4aa}</field_uuid>
+<primary_key>1</primary_key>
+<name>looping_sound</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>audio_campaign_environment_looping_sounds</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_anim_set_enums>
+<root>
+<edit_uuid>a5471060-921f-4ebe-a313-45885723e503</edit_uuid>
+<agf_special_dependencies>+default,+settlement</agf_special_dependencies>
+<field>
+<field_uuid>{388042a7-4022-4938-bb5f-f9ef447203d4}</field_uuid>
+<primary_key>1</primary_key>
+<name>name</name>
+<field_type>text</field_type>
+<fragment_path>animations/campaign_animation_set/%</fragment_path>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>The name of the animation set as specified in working_data/animations/campaign_animation_tables/animation_set_table.txt</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{7b46e192-7de2-452f-9869-27c5fa830ddd}</field_uuid>
+<primary_key>0</primary_key>
+<name>skeleton</name>
+<field_type>text</field_type>
+<is_filename>1</is_filename>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>The skeleton for each anim set, useful to help match them up correctly</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

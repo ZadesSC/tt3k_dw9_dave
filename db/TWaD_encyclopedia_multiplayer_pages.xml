@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_encyclopedia_multiplayer_pages>
+<root>
+<edit_uuid>fc4e9aa9-789b-4120-ad81-3719e5b8583a</edit_uuid>
+<field>
+<field_uuid>{3111e9ca-3f91-4f63-b47f-2a8bad8d0012}</field_uuid>
+<primary_key>1</primary_key>
+<name>page_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<encyclopaedia_export>1</encyclopaedia_export>
+</field>
+<field>
+<field_uuid>{162b6624-b27a-41b2-a040-473585550795}</field_uuid>
+<primary_key>0</primary_key>
+<name>title</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>65535</max_length>
+<encyclopaedia_export>1</encyclopaedia_export>
+</field>
+<field>
+<field_uuid>{15ab4e87-bc78-4056-8bf2-a8fc57b7e34e}</field_uuid>
+<primary_key>0</primary_key>
+<name>template</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>65535</max_length>
+<encyclopaedia_export>1</encyclopaedia_export>
+</field>
+</root>

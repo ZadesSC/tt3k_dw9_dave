@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_models_entity_weapons>
+<root>
+<edit_uuid>05236148-29f9-472a-88b5-6a2d8cf849c6</edit_uuid>
+<field>
+<field_uuid>{53e56c6d-dc87-4d98-8f22-3b82847d3a90}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{a9c0b235-13c9-4f4a-b26a-5797ad503652}</field_uuid>
+<primary_key>0</primary_key>
+<name>model_file</name>
+<field_type>text</field_type>
+<fragment_path>rigidmodels/naval/naval_weaponry</fragment_path>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{773eda64-18d2-4771-aa02-70669150fcd8}</field_uuid>
+<primary_key>0</primary_key>
+<name>logic_file</name>
+<field_type>text</field_type>
+<is_filename>1</is_filename>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+</root>

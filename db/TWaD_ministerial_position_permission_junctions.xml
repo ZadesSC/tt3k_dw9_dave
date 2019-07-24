@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ministerial_position_permission_junctions>
+<root>
+<edit_uuid>ef588557-a6c2-4729-9b07-8c793fe8d402</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{fee412bf-7555-4097-9874-6f4a3cc5ea37}</field_uuid>
+<primary_key>1</primary_key>
+<name>ministerial_position</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>minister_key</column_source_column>
+<column_source_table>ministerial_positions</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{fa26c6df-829c-45be-9b4f-1d248ca2cf56}</field_uuid>
+<primary_key>1</primary_key>
+<name>permission</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>ministerial_position_permissions</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

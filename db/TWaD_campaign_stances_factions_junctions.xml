@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_stances_factions_junctions>
+<root>
+<edit_uuid>d2360912-023e-47f1-a7d7-781c79371fcd</edit_uuid>
+<field>
+<field_uuid>{886d09b6-96f5-4c62-b450-5900143f2ab8}</field_uuid>
+<primary_key>1</primary_key>
+<name>stance</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_stances</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{c904ca8d-04fb-4d44-85a9-dcfe35bbb74c}</field_uuid>
+<primary_key>1</primary_key>
+<name>faction</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>factions</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ground_type_stat_effect_groups>
+<root>
+<edit_uuid>5985d367-2235-45e4-8474-a35f9f42aa52</edit_uuid>
+<field>
+<field_uuid>{c9aaecd6-ca35-43d0-8e45-8da5f4cd7d60}</field_uuid>
+<primary_key>1</primary_key>
+<name>group_name</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{4e182dae-b026-4103-a82a-82a5ecd568bf}</field_uuid>
+<primary_key>0</primary_key>
+<name>onscreen_name</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>placeholder</default_value>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+</root>

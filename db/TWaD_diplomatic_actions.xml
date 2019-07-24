@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_diplomatic_actions>
+<root>
+<edit_uuid>3508550e-8f10-4daf-b3a8-e66ed1dc5383</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{544b3838-bf94-42e7-bc20-2b4329e9b97d}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Unique id</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{0d16be9d-5f12-4a93-aa08-30bc4db06736}</field_uuid>
+<primary_key>0</primary_key>
+<name>category</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>default</default_value>
+<max_length>255</max_length>
+<field_description>Category used to group actions together in ui</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{b88ef634-97a4-43e9-ba6b-42a8dfc3cf81}</field_uuid>
+<primary_key>0</primary_key>
+<name>sort_order</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>Sort order used to sort within categories (lower comes first)</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

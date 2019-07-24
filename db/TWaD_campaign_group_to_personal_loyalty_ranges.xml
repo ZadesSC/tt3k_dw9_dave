@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_group_to_personal_loyalty_ranges>
+<root>
+<edit_uuid>3c75a6c6-1895-4fdf-a25c-dd43197d8b5e</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{63f10666-1b7e-4833-9347-bac2fa8c2c53}</field_uuid>
+<primary_key>1</primary_key>
+<name>campaign_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>campaign_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{661badee-8dc4-45a0-87f8-7f4276f4f8e0}</field_uuid>
+<primary_key>0</primary_key>
+<name>min</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{9e67cdc7-deb7-4ae2-a30a-b7a08fda170b}</field_uuid>
+<primary_key>0</primary_key>
+<name>max</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

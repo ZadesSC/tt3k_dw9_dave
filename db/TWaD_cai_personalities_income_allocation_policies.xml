@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_personalities_income_allocation_policies>
+<root>
+<edit_uuid>598d92f4-683e-4075-8db2-2733f8e3e3e9</edit_uuid>
+<field>
+<field_uuid>{5392193e-2e35-44cf-9b11-5e29e0663283}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Policy key</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{00c5790e-2860-4650-ae4f-136d245a4605}</field_uuid>
+<primary_key>0</primary_key>
+<name>default_income_allocation</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>cai_personalities_income_allocations</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

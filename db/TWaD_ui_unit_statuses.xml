@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ui_unit_statuses>
+<root>
+<edit_uuid>c9d71ec9-c921-4954-87c5-9b941ecfb1dd</edit_uuid>
+<field>
+<field_uuid>{3ed6ac0b-2dce-4df8-895a-12f133555a9d}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{87f995c7-1455-4fc5-ac36-9de4c949e11d}</field_uuid>
+<primary_key>0</primary_key>
+<name>tooltip</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>placeholder</default_value>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{575d1ddf-6444-48de-bc40-3930a331d236}</field_uuid>
+<primary_key>0</primary_key>
+<name>icon_path</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>ui/skins/default/placeholder.png</default_value>
+<max_length>255</max_length>
+<field_description>Full image path</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{22c14619-4be6-47b5-8d34-4a7b692b7733}</field_uuid>
+<primary_key>0</primary_key>
+<name>priority</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>Higher the more to left and less likely to be culled</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+</root>

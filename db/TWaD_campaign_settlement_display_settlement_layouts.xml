@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_settlement_display_settlement_layouts>
+<root>
+<edit_uuid>dbc1a283-4e3b-4944-be95-2a1d7b41b9c1</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{5ea752f8-8509-4815-b2be-f659c82c1da5}</field_uuid>
+<primary_key>1</primary_key>
+<name>settlement</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>settlement_id</column_source_column>
+<column_source_table>campaign_map_settlements</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{78a7da50-9ee2-4cad-b149-58ed3735b6e5}</field_uuid>
+<primary_key>0</primary_key>
+<name>layout</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>layout</column_source_column>
+<column_source_table>campaign_settlement_display_settlement_layout_ids</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ministerial_positions_to_governorships>
+<root>
+<edit_uuid>fd57e860-bbd0-4bc9-a655-8f9aad289030</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{bfd7df05-e1ba-4c87-8b92-0d4c585effc7}</field_uuid>
+<primary_key>1</primary_key>
+<name>ministerial_position</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+<column_source_column>minister_key</column_source_column>
+<column_source_table>ministerial_positions</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{b88c3ac0-cabe-43f7-8b41-3b935e97d669}</field_uuid>
+<primary_key>1</primary_key>
+<name>governorship</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+<column_source_column>governorship</column_source_column>
+<column_source_table>governorships</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

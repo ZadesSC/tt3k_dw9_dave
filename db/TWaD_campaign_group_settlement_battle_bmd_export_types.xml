@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_group_settlement_battle_bmd_export_types>
+<root>
+<edit_uuid>6ac38e63-dcc2-4d80-a1ba-f58787e77147</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{6cc82242-55a5-4c61-832c-cf61e1c172ae}</field_uuid>
+<primary_key>1</primary_key>
+<name>campaign_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>campaign_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{f34d3ad5-7998-4c01-8c85-b640c777cc62}</field_uuid>
+<primary_key>1</primary_key>
+<name>bmd_export_type</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>name</column_source_column>
+<column_source_table>bmd_export_types</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

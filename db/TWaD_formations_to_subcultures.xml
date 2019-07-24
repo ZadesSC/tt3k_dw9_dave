@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_formations_to_subcultures>
+<root>
+<edit_uuid>adbf5502-75b6-4ab1-9d32-30f56cdec6ff</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{f42bdbe1-c1e6-4ac4-a3f0-41746ae19c48}</field_uuid>
+<primary_key>1</primary_key>
+<name>formation</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>formation</column_source_column>
+<column_source_table>formations</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{4150211a-4c37-4ac3-9680-4b8b0ff6def4}</field_uuid>
+<primary_key>1</primary_key>
+<name>sub_culture</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>subculture</column_source_column>
+<column_source_table>cultures_subcultures</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

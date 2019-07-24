@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_missile_weapons_to_projectiles>
+<root>
+<edit_uuid>ba6c9dc4-544f-4694-8dbe-9c0747ce965f</edit_uuid>
+<field>
+<field_uuid>{7f3c19f4-08e5-44dd-ad15-a8c4b64d1cbd}</field_uuid>
+<primary_key>1</primary_key>
+<name>missile_weapon</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>missile_weapons</column_source_table>
+<encyclopaedia_export>1</encyclopaedia_export>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{9a6c4974-3c5d-47d7-8724-5c095a57baa8}</field_uuid>
+<primary_key>1</primary_key>
+<name>projectile</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>projectiles</column_source_table>
+<encyclopaedia_export>1</encyclopaedia_export>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

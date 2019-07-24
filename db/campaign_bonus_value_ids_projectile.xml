@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_bonus_value_ids_projectile.xsd" export_time="Wed Jun 15 11:53:15 2016" revision="8" export_branch="T:/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>6b7b3de1-bae8-4369-8d36-f16a428166bb</edit_uuid>
+<campaign_bonus_value_ids_projectile record_uuid="{7812c6b1-2b5f-438a-8250-12c29fad82e2}" record_timestamp="1465987182210" record_key="reload_mod">
+<key>reload_mod</key>
+<notes>Percentage modifier. Contributes to reload time adjustment in unit stats for land units. Used at unit scope. Positive value reduces reload time. Affects stats value m_reload_time_modifier. Total effect is clamped to 100%. Used in BATTLE_SETUP::battle_setup_unit. ID is CAMPAIGN_BONUS_VALUE_ID_PROJECTILE_RELOAD_MOD</notes>
+</campaign_bonus_value_ids_projectile>
+<campaign_bonus_value_ids_projectile record_uuid="{bbd64a45-9ad4-4a01-bcca-386feaea35ad}" record_timestamp="1374574516883" record_key="tower_projectile_enabled">
+<key>tower_projectile_enabled</key>
+<notes>Is the projectile enabled for towers on a settlement. Used at region bonuses</notes>
+</campaign_bonus_value_ids_projectile>
+</dataroot>

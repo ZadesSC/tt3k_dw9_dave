@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_models_artillery>
+<root>
+<edit_uuid>2d14f806-3905-4b47-b44c-113c65bb19c6</edit_uuid>
+<field>
+<field_uuid>{c4c8b919-9562-40f5-a61a-08a29cd7feb0}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+</field>
+<field>
+<field_uuid>{327fad2d-401c-44f6-b316-d0bfbf62941c}</field_uuid>
+<primary_key>0</primary_key>
+<name>model_file</name>
+<field_type>text</field_type>
+<is_filename>1</is_filename>
+<filename_relative_path>RigidModels</filename_relative_path>
+<required>1</required>
+<max_length>255</max_length>
+</field>
+<field>
+<field_uuid>{6359a322-1e44-47ad-98cf-6965be692c47}</field_uuid>
+<primary_key>0</primary_key>
+<name>logic_file</name>
+<field_type>text</field_type>
+<is_filename>1</is_filename>
+<filename_relative_path>RigidModels</filename_relative_path>
+<required>1</required>
+<max_length>255</max_length>
+</field>
+</root>

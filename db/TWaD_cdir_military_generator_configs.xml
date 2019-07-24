@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cdir_military_generator_configs>
+<root>
+<edit_uuid>9d01e483-7c94-4b29-801e-e12139d8b905</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{06508e47-f863-43fd-a14c-c128d4aa0fcc}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{22cdb065-137a-4db2-88b6-f8a8e3e009aa}</field_uuid>
+<primary_key>0</primary_key>
+<name>game_expansion_key</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>expansion</column_source_column>
+<column_source_table>texc_expansions</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

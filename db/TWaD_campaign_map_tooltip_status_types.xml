@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_map_tooltip_status_types>
+<root>
+<edit_uuid>b23c881c-5b4e-4b2d-9954-61e870795d80</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{98d00c85-8b41-4df2-a277-cebb55aaf212}</field_uuid>
+<primary_key>1</primary_key>
+<name>campaign_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>campaign_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{336de8d9-5527-4f2a-86af-269ddcc2b934}</field_uuid>
+<primary_key>0</primary_key>
+<name>status</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>status</column_source_column>
+<column_source_table>campaign_map_tooltip_statuses</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

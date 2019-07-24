@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_group_member_criteria_captive_option_contexts>
+<root>
+<edit_uuid>ac4a5cb9-28ee-4237-ab62-43784b77f64f</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{6a88dd79-4daf-45a0-832b-90bf53603682}</field_uuid>
+<primary_key>1</primary_key>
+<name>member</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>campaign_group_members</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{b47329f4-f28c-49fc-9eb2-77bb1c73dca9}</field_uuid>
+<primary_key>1</primary_key>
+<name>value</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>captive_option_contexts</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

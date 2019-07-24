@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_group_member_criteria_ground_types>
+<root>
+<edit_uuid>a0731030-e7b0-4ea3-99f4-93ef99e65a88</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{8914a6ee-b666-4fa7-8266-07be90cbd325}</field_uuid>
+<primary_key>1</primary_key>
+<name>member</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>campaign_group_members</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{a66837f0-e393-4e5f-9b89-79d474163db5}</field_uuid>
+<primary_key>0</primary_key>
+<name>value</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>type</column_source_column>
+<column_source_table>campaign_ground_types</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_faction_to_faction_groups_junctions>
+<root>
+<edit_uuid>d7b0d514-36a2-4e9c-b778-c0c2f84afe91</edit_uuid>
+<field>
+<field_uuid>{c3c52ff0-e324-4031-82ce-faa63f1e6aba}</field_uuid>
+<primary_key>1</primary_key>
+<name>faction_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>factions</column_source_table>
+<encyclopaedia_export>1</encyclopaedia_export>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{cbc42759-d360-4941-8b1f-018fdaf2273c}</field_uuid>
+<primary_key>0</primary_key>
+<name>faction_group_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>faction_groups</column_source_table>
+<encyclopaedia_export>1</encyclopaedia_export>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

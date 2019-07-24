@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="_kv_key_buildings.xsd" export_time="Mon May 13 09:13:47 2019" revision="46" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1472/client" export_user="bob">
+<edit_uuid>ba6e679a-0382-4111-ba0d-d3d6e071d6a6</edit_uuid>
+<_kv_key_buildings record_uuid="{372abe95-f413-4cf9-a705-4a80bed0fe05}" record_key="archery_dojo_ammo_replenish_rate_local_modifier">
+<description>rate at which ammo is replenished when in archer dojo every second (multiplied by the number of men in the unit)</description>
+<key>archery_dojo_ammo_replenish_rate_local_modifier</key>
+<value>0.07000000029802322</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{322369e8-475c-4846-ae7f-572c5a8134e7}" record_key="archery_dojo_reload_skill_global_modifier">
+<description>reload skill global modifier</description>
+<key>archery_dojo_reload_skill_global_modifier</key>
+<value>20</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{83b2ab66-8780-4b63-a9eb-7f3a22b42799}" record_key="farmhouse_fatigue_modifier">
+<description>modifies the units fatigue modifier ADDITIVE</description>
+<key>farmhouse_fatigue_modifier</key>
+<value>-0.3499999940395355</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{e444bbda-265b-4b22-bbcd-a61e9987a9ff}" record_key="farmhouse_speed_global_modifier">
+<description>farmhouse global speed modifier ADDITIVE</description>
+<key>farmhouse_speed_global_modifier</key>
+<value>0.15000000596046448</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{ab773d52-9433-41f1-8495-a8592c2ac251}" record_timestamp="1465987194111" record_key="fort_tower_fire_arc">
+<description>firing arc for all projectile emitters attached to the fort towers</description>
+<key>fort_tower_fire_arc</key>
+<value>90</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{de730abf-7129-487e-84aa-618708eac89c}" record_timestamp="1557735227970" record_key="fort_tower_fire_frequency_extreme">
+<description>Scales the rate of fire for the towers by multiplying the base reload rate by this value in seconds</description>
+<key>fort_tower_fire_frequency_extreme</key>
+<value>0.5</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{5e3eeff9-8612-4bcd-aee3-f1f2b38d801f}" record_timestamp="1546612944310" record_key="fort_tower_fire_frequency_large">
+<description>Scales the rate of fire for the towers by multiplying the base reload rate by this value in seconds</description>
+<key>fort_tower_fire_frequency_large</key>
+<value>1.5</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{9fe64f51-7670-4440-ab83-01baed2209d0}" record_timestamp="1546612944310" record_key="fort_tower_fire_frequency_medium">
+<description>Scales the rate of fire for the towers by multiplying the base reload rate by this value in seconds</description>
+<key>fort_tower_fire_frequency_medium</key>
+<value>2</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{4657a6d1-40f7-4f5b-9e04-e52945713d1b}" record_timestamp="1543749476350" record_key="fort_tower_fire_frequency_small">
+<description>Scales the rate of fire for the towers by multiplying the base reload rate by this value in seconds</description>
+<key>fort_tower_fire_frequency_small</key>
+<value>4</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{faaf7364-1b14-44f1-a33c-1724947f95f2}" record_timestamp="1543749476350" record_key="fort_tower_fire_frequency_ultra">
+<description>Scales the rate of fire for the towers by multiplying the base reload rate by this value in seconds</description>
+<key>fort_tower_fire_frequency_ultra</key>
+<value>1</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{da1f8031-2267-4eb7-9019-328d10e7eb87}" record_timestamp="1375870508663" record_key="gate_capture_time">
+<description>time to capture a gate in seconds</description>
+<key>gate_capture_time</key>
+<value>20</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{52550d6d-4363-4f15-b5a1-f75f9df91674}" record_timestamp="1428421972873" record_key="gate_points_required_to_capture">
+<description>number of points required to capture a gate</description>
+<key>gate_points_required_to_capture</key>
+<value>200</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{05dc45af-46aa-4a1a-bf84-33db9f1f2ec5}" record_timestamp="1417105039062" record_key="gate_points_restore_per_second">
+<description>number of points added per second when restoring to neutral/previous owner</description>
+<key>gate_points_restore_per_second</key>
+<value>2</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{92e93fd3-ac7f-4be5-814e-cd284ad36590}" record_key="keep_capture_time">
+<description>time to capture the keep in seconds</description>
+<key>keep_capture_time</key>
+<value>60</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{44d43363-f97e-4d22-8bad-03cff531dff8}" record_key="key_building_capture_time">
+<description>time to capture key building</description>
+<key>key_building_capture_time</key>
+<value>110</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{f97951c2-45e5-4ee4-a284-a56600bee9d9}" record_timestamp="1550327988339" record_key="local_bonus_radius">
+<description>units from the capturing alliance within this radius receive the local bonus</description>
+<key>local_bonus_radius</key>
+<value>55</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{6f8f06b7-ac10-493c-976b-587fc0023027}" record_timestamp="1428421972979" record_key="major_points_required_to_capture">
+<description>number of points required to capture a major victory point</description>
+<key>major_points_required_to_capture</key>
+<value>600</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{0ebbf834-0d43-400f-abd7-de113560134b}" record_timestamp="1417105038990" record_key="major_points_restore_per_second">
+<description>number of points added per second when restoring to neutral/previous owner</description>
+<key>major_points_restore_per_second</key>
+<value>2</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{93f6e2c2-c436-4686-8470-f43f49116a44}" record_timestamp="1428421973079" record_key="minor_points_required_to_capture">
+<description>number of points required to capture a minor victory point</description>
+<key>minor_points_required_to_capture</key>
+<value>500</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{2b7e4527-a6ef-4fee-86b6-82a0dcacca13}" record_timestamp="1417105039026" record_key="minor_points_restore_per_second">
+<description>number of points added per second when restoring to neutral/previous owner</description>
+<key>minor_points_restore_per_second</key>
+<value>2</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{cf355ce4-4f1c-4364-aed9-0c2172a0dc0f}" record_key="settlement_location_capture_time">
+<description>Time required to capture a settlement location</description>
+<key>settlement_location_capture_time</key>
+<value>60</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{0b6134c7-9a89-44d8-9206-f0b61298108e}" record_timestamp="1359394067238" record_key="settlement_victory_condition_time">
+<description>Time that all settlement locations must be held for to fulfill the condition</description>
+<key>settlement_victory_condition_time</key>
+<value>30</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{5a81a28a-d89c-49a9-b014-3ef73a74d142}" record_key="shrine_morale_global_modifier">
+<description>shrine morale global modifier</description>
+<key>shrine_morale_global_modifier</key>
+<value>4</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{fe60033a-ebdb-42e4-b468-c784656242b8}" record_key="shrine_morale_local_modifier">
+<description>shrine morale local modifier</description>
+<key>shrine_morale_local_modifier</key>
+<value>0</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{a09c096e-52cf-4181-9792-df088ec5b908}" record_key="sword_dojo_charge_bonus_global_modifier">
+<description>sword dojo charge bonus global modifier</description>
+<key>sword_dojo_charge_bonus_global_modifier</key>
+<value>5</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{74b22e09-4199-468b-8544-8752daecc6c6}" record_key="sword_dojo_charge_bonus_local_modifier">
+<description>sword dojo charge bonus global modifier</description>
+<key>sword_dojo_charge_bonus_local_modifier</key>
+<value>0</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{86a71737-ee3a-41d5-9731-d33919dfee4e}" record_key="sword_dojo_melee_attack_global_modifier">
+<description>sword dojo melee attack global modifier</description>
+<key>sword_dojo_melee_attack_global_modifier</key>
+<value>2</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{fb80531a-cdea-4675-9823-ae428fe63501}" record_key="sword_dojo_melee_attack_local_modifier">
+<description>sword dojo melee attack local modifier</description>
+<key>sword_dojo_melee_attack_local_modifier</key>
+<value>0</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{a8c3c3fb-2bb8-41b8-92b9-a1ba836f75ad}" record_timestamp="1389715462490" record_key="tower_capture_time">
+<description>Time needed to neutralise capture point. Double value to see time taken to change full ownership of captuer point</description>
+<key>tower_capture_time</key>
+<value>30</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{bbff9e8a-67cc-4568-a5cc-83dad01fa818}" record_timestamp="1524824581345" record_key="tower_points_required_to_capture">
+<description>number of points required to capture a tower</description>
+<key>tower_points_required_to_capture</key>
+<value>150</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{abfbe846-0b1f-4148-b54a-e233abaaffa0}" record_timestamp="1440001817749" record_key="tower_points_restore_per_second">
+<description>number of points added per second when restoring to neutral/previous owner</description>
+<key>tower_points_restore_per_second</key>
+<value>12.5</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{a7e55e83-31bb-4a77-a893-95f3f4c98cba}" record_key="workshop_armour_global_modifier">
+<description>workshop armour global modifier</description>
+<key>workshop_armour_global_modifier</key>
+<value>2</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{09d2cc57-6264-46a2-bd0f-b45f32f88de2}" record_key="workshop_armour_local_modifier">
+<description>workshop armour local modifier</description>
+<key>workshop_armour_local_modifier</key>
+<value>0</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{9eb4761b-a185-4e60-92f6-3247de314afd}" record_key="workshop_defence_global_modifier">
+<description>workshop defence global modifier</description>
+<key>workshop_defence_global_modifier</key>
+<value>3</value>
+</_kv_key_buildings>
+<_kv_key_buildings record_uuid="{6b741998-a0ff-47c4-a50b-6ce454e63f56}" record_key="workshop_defence_local_modifier">
+<description>workshop defence local modifier</description>
+<key>workshop_defence_local_modifier</key>
+<value>0</value>
+</_kv_key_buildings>
+</dataroot>

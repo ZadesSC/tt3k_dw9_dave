@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ceo_post_battle_loot_chances>
+<root>
+<edit_uuid>12f9f59c-afc2-4612-b65a-7a09912b3698</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{7b6e3a63-3d6a-442d-9aee-7cbee98ff0c2}</field_uuid>
+<primary_key>1</primary_key>
+<name>campaign_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>campaign_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{73d277e8-8946-42e1-bf35-f2cfe995356d}</field_uuid>
+<primary_key>0</primary_key>
+<name>chance</name>
+<field_type>single</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

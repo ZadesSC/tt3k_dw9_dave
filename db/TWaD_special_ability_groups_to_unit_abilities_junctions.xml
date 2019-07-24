@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_special_ability_groups_to_unit_abilities_junctions>
+<root>
+<edit_uuid>c5e2a67f-6fae-4f69-b362-cdf23e4df4e3</edit_uuid>
+<field>
+<field_uuid>{3584986a-4e49-4d8c-8a7b-3e25a6e60567}</field_uuid>
+<primary_key>1</primary_key>
+<name>special_ability_groups</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>ability_group</column_source_column>
+<column_source_table>special_ability_groups</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{5a8f1278-7bef-42d2-89cc-3848f6e7ed7c}</field_uuid>
+<primary_key>1</primary_key>
+<name>unit_special_abilities</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>unit_special_abilities</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

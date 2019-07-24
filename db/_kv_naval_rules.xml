@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="_kv_naval_rules.xsd" export_time="Mon Aug 24 09:57:30 2015" revision="20" export_branch="C:/fetch_c/warhammer/binaries" export_user="bob">
+<edit_uuid>fcf2c012-68b3-47bc-8002-54ea5c637f0f</edit_uuid>
+<_kv_naval_rules record_uuid="{fb297065-5435-4242-9779-5e32e31b0cc3}" record_timestamp="1435217419212" record_key="boarding_bonus_time">
+<description>time after ships dock for bonus to be applied to attackers</description>
+<key>boarding_bonus_time</key>
+<value>60</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{4a48ed6c-b778-4916-b36d-6483b4cdf245}" record_timestamp="1435217419240" record_key="boarding_melee_attack_bonus">
+<description>attack bonus for attackers during boarding actions.</description>
+<key>boarding_melee_attack_bonus</key>
+<value>10</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{5f202851-4543-4e73-89c2-5e0b79c3b4cc}" record_timestamp="1435217419268" record_key="boarding_melee_defense_bonus">
+<description>defence bonus for attackers during boarding actions</description>
+<key>boarding_melee_defense_bonus</key>
+<value>10</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{ae3a6253-346b-446c-97b9-e0a9436b40b4}" record_timestamp="1435221384323" record_key="broadsides_accuracy_modifier">
+<description></description>
+<key>broadsides_accuracy_modifier</key>
+<value>0.1</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{e433f259-ecac-475c-921b-70b86f3b01b8}" record_timestamp="1435221384340" record_key="broadsides_damage_modifier">
+<description></description>
+<key>broadsides_damage_modifier</key>
+<value>1.25</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{12ea8579-b1c8-4aab-b428-92f986b19945}" record_timestamp="1431018319003" record_key="ship_backwater_minimum_distance">
+<description>Minimum value the backwater extent can be reduced to</description>
+<key>ship_backwater_minimum_distance</key>
+<value>50</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{30854287-9884-4a9f-bbb6-7700620a9dfe}" record_timestamp="1431091117821" record_key="ship_backwater_radius_modifier_default">
+<description>Maximum seconds the ship can backwater for - used with ship walk speed to create radius of valid movement area</description>
+<key>ship_backwater_radius_modifier_default</key>
+<value>12</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{9900fe57-dfa1-44c1-9131-cc1bcba536a1}" record_timestamp="1431018319182" record_key="ship_backwater_speed_percentage_default">
+<description>Ships backwater at this percentage of their walk_speed</description>
+<key>ship_backwater_speed_percentage_default</key>
+<value>0.5</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{cdc3f889-8591-44c9-856d-654cab211ebb}" record_timestamp="1431018319136" record_key="ship_backwater_vector_degrees_default">
+<description>The degrees creating the backwater valid movement area</description>
+<key>ship_backwater_vector_degrees_default</key>
+<value>30</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{27246e7a-2272-4ca4-8f17-19a5767b1b23}" record_timestamp="1431018319276" record_key="ship_beaching_location_offset">
+<description>How deep the ship goes onto the beach</description>
+<key>ship_beaching_location_offset</key>
+<value>10</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{6e6521ac-9fc6-48b6-a33c-609b6b92ab71}" record_timestamp="1431091117822" record_key="ship_boarding_pipes_max_length_default">
+<description></description>
+<key>ship_boarding_pipes_max_length_default</key>
+<value>10</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{bf0d0062-cd06-4e74-b2af-dcbca85b4fce}" record_timestamp="1435217399947" record_key="ship_chance_of_fire_rain_multiplier">
+<description>The probability of a projectile causing a fire is multiplied by this amount when raining</description>
+<key>ship_chance_of_fire_rain_multiplier</key>
+<value>0.5</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{3f147f6c-7b6a-4ab9-a42e-030d8a3f03fe}" record_timestamp="1435217399835" record_key="ship_combustion_rain_multiplier">
+<description>The rate of ship combustion is multiplied by this amount when raining</description>
+<key>ship_combustion_rain_multiplier</key>
+<value>2</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{8565e737-2e9d-4549-aaef-a77284648424}" record_timestamp="1431091117822" record_key="ship_douse_fire_absolute_per_tick">
+<description></description>
+<key>ship_douse_fire_absolute_per_tick</key>
+<value>0</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{3d7554d7-e7ce-445a-acb4-ec494a907f94}" record_timestamp="1431018319229" record_key="ship_douse_fire_percentage_pre_tick">
+<description>How many percent of max hp is healed per tick</description>
+<key>ship_douse_fire_percentage_pre_tick</key>
+<value>0.0001</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{2102b453-dae3-4a19-8c14-5b48db97b569}" record_timestamp="1431018319372" record_key="ship_fire_damage_rain_modifier">
+<description>Multipiler to the amount fire damage ships take when it is raining</description>
+<key>ship_fire_damage_rain_modifier</key>
+<value>0.75</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{07e11e55-c850-4c37-9da6-c1e05f487414}" record_timestamp="1431018319324" record_key="ship_landing_location_offset">
+<description>Ships move to this many meters in front of the landing point before beaching</description>
+<key>ship_landing_location_offset</key>
+<value>75</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{3369064e-621b-4db1-a02c-1d1304bf94ff}" record_timestamp="1431018319472" record_key="ship_marker_mouse_over_offset_back">
+<description>On mouseover markers for ships, how much to offset from back of ship</description>
+<key>ship_marker_mouse_over_offset_back</key>
+<value>-3</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{dd04a6fe-11b5-4ffb-9264-16dca8050529}" record_timestamp="1431018319422" record_key="ship_marker_mouse_over_offset_front">
+<description>On mouseover markers for ships, how much to offset from front of ship</description>
+<key>ship_marker_mouse_over_offset_front</key>
+<value>6</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{384d4c6c-6a3d-40e8-9d3b-2c4e847f97ff}" record_timestamp="1431018319567" record_key="ship_marker_mouse_over_padding">
+<description>On mouseover markers for ships, how much to pad out for capsule shape (not lens)</description>
+<key>ship_marker_mouse_over_padding</key>
+<value>8</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{7cc5dc04-25de-4b4b-98a2-e4110f03a0b3}" record_timestamp="1431018319520" record_key="ship_marker_padding_length">
+<description>On mouseover/selection markers for ships, how much to pad out length of marker</description>
+<key>ship_marker_padding_length</key>
+<value>5</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{39b0f49f-3da0-4c9b-87d7-63490451f1d9}" record_timestamp="1431018319047" record_key="ship_marker_padding_width">
+<description>On mouseover/selection markers for ships, how much to pad out width of marker</description>
+<key>ship_marker_padding_width</key>
+<value>10</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{d47730d7-0900-443e-bb22-9a260f1ad4b9}" record_timestamp="1435217399861" record_key="ship_on_fire_combustion_modifier">
+<description>modifying the rate of combustion</description>
+<key>ship_on_fire_combustion_modifier</key>
+<value>0.5</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{62b4b37c-1197-4d70-93b9-040a15a499c0}" record_timestamp="1435217399975" record_key="ship_on_fire_hit_points_per_second_multiplier">
+<description></description>
+<key>ship_on_fire_hit_points_per_second_multiplier</key>
+<value>0.01</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{2b1fd949-33ae-4381-b609-12b23801220f}" record_timestamp="1435217400003" record_key="ship_repair_max_percentage">
+<description>max repair percentage</description>
+<key>ship_repair_max_percentage</key>
+<value>0.75</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{c77c1f21-d4e0-4b85-b5de-2f3d9daa2322}" record_timestamp="1435217399891" record_key="ship_repair_percentage_per_update">
+<description>percentage of repair each update</description>
+<key>ship_repair_percentage_per_update</key>
+<value>0.125</value>
+</_kv_naval_rules>
+<_kv_naval_rules record_uuid="{f37d8263-d00d-4204-b5a6-d6f7c813ff4f}" record_timestamp="1435217399917" record_key="ship_repair_rate">
+<description>repairs every x seconds related to the proportion of the marines, seamen and gunners</description>
+<key>ship_repair_rate</key>
+<value>4</value>
+</_kv_naval_rules>
+</dataroot>

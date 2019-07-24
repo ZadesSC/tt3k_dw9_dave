@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_battle_types>
+<root>
+<edit_uuid>a8321beb-d388-4997-b105-19e105a57d04</edit_uuid>
+<agf_special_dependencies>+*</agf_special_dependencies>
+<field>
+<field_uuid>{f387d9b9-0f69-4c02-b544-5898530bf30a}</field_uuid>
+<primary_key>1</primary_key>
+<name>type</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{30d228d8-d809-43c1-b7ff-574c81645936}</field_uuid>
+<primary_key>0</primary_key>
+<name>onscreen</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>Name shown in ui</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{8d721375-bea8-4ec5-b391-4bb3d1b551a6}</field_uuid>
+<primary_key>0</primary_key>
+<name>sort_order</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>-1</default_value>
+<field_description>Order put in ui</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{9a103613-211e-46f0-acb5-294ee9acca1f}</field_uuid>
+<primary_key>0</primary_key>
+<name>defender_funds_ratio</name>
+<field_type>double</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>Ratio of funds defender gets as opposed to attacker for this battle type</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{2bd73417-ebed-45d6-a4b6-f1617cfc9c4c}</field_uuid>
+<primary_key>0</primary_key>
+<name>max_teamsize</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>4</default_value>
+<field_description>Maximum number of armies per alliance for this battle type</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

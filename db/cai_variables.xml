@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_variables.xsd" export_time="Thu Apr 4 09:30:06 2019" revision="112" export_branch="C:/Users/Tim.Gosling/AppData/Roaming/TWDaemon/1423/dave" export_user="bob">
+<edit_uuid>75f40ba2-2572-4b53-a322-3f39d891d738</edit_uuid>
+<cai_variables record_uuid="{d1ecef88-ae40-4788-bcbf-bee26246bc0b}" record_timestamp="1458319825015" record_key="CAI_VARIABLE_AGGR_RAMP_CHANCE_BASE">
+<description>(In-game) Base chance per round that an eligible faction will be selected for aggression increase. Base Chance + (Rounds Played * Per Round Chance).</description>
+<key>CAI_VARIABLE_AGGR_RAMP_CHANCE_BASE</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{2ae169f0-a067-444e-b17d-15e26b9a246b}" record_timestamp="1458319825015" record_key="CAI_VARIABLE_AGGR_RAMP_CHANCE_PER_ROUND">
+<description>(In-game) Additional per round chance that an eligible faction will be selected for aggression increase. Base Chance + (Rounds Played * Per Round Chance).</description>
+<key>CAI_VARIABLE_AGGR_RAMP_CHANCE_PER_ROUND</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{987692eb-0353-4007-afec-e5a2dfbddd4b}" record_timestamp="1458319824946" record_key="CAI_VARIABLE_AGGR_RAMP_ENABLED">
+<description>(In-game) Whether the aggression ramp is enable. 0=no, 1=yes</description>
+<key>CAI_VARIABLE_AGGR_RAMP_ENABLED</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{4491eb3b-6dab-4b93-90bc-a017f6e9ea4d}" record_timestamp="1458319824946" record_key="CAI_VARIABLE_AGGR_RAMP_FAME_MAX">
+<description>(In-game) Player fame level at which the ramp ends and the maximum level of aggression will be applied.</description>
+<key>CAI_VARIABLE_AGGR_RAMP_FAME_MAX</key>
+<value>100</value>
+</cai_variables>
+<cai_variables record_uuid="{580c59f8-0e8e-40b7-ac9d-36365d3a939e}" record_timestamp="1458319824947" record_key="CAI_VARIABLE_AGGR_RAMP_FAME_MIN">
+<description>(In-game) Player fame level beyond which the aggression ramp will start to apply.</description>
+<key>CAI_VARIABLE_AGGR_RAMP_FAME_MIN</key>
+<value>20</value>
+</cai_variables>
+<cai_variables record_uuid="{14dab8de-2c89-4d52-8ac5-4de02335171f}" record_timestamp="1458319825014" record_key="CAI_VARIABLE_AGGR_RAMP_LEVEL_MAX">
+<description>(In-game) The ending level for the aggression ramp to use. 1-6. Should be equal to or greater than the minimum level selected. 1=LOW, 2=LOW_TO_MEDIUM, 3=MEDIUM, 4=MEDIUM_TO_HIGH, 5=HIGH, 6=VERY HIGH.</description>
+<key>CAI_VARIABLE_AGGR_RAMP_LEVEL_MAX</key>
+<value>5</value>
+</cai_variables>
+<cai_variables record_uuid="{f81f416b-b1c9-47e5-b2ba-8c4639b1b4b3}" record_timestamp="1458319825014" record_key="CAI_VARIABLE_AGGR_RAMP_LEVEL_MIN">
+<description>(In-game) The starting level for the aggression ramp to use. 1-6. 1=LOW, 2=LOW_TO_MEDIUM, 3=MEDIUM, 4=MEDIUM_TO_HIGH, 5=HIGH, 6=VERY HIGH.</description>
+<key>CAI_VARIABLE_AGGR_RAMP_LEVEL_MIN</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{7601fc41-a4dd-4d6e-ab50-58e99a4ca918}" record_timestamp="1458319824948" record_key="CAI_VARIABLE_AGGR_RAMP_ROUNDS_MAX">
+<description>(In-game) Round at which the ramp should finish (and max level be used for aggression increases).</description>
+<key>CAI_VARIABLE_AGGR_RAMP_ROUNDS_MAX</key>
+<value>100</value>
+</cai_variables>
+<cai_variables record_uuid="{b1bc0f84-6701-44a1-b445-79570bbe46d6}" record_timestamp="1458319824948" record_key="CAI_VARIABLE_AGGR_RAMP_ROUNDS_MIN">
+<description>(In-game) Round beyond which the aggression ramp will start (beginning with the minimum aggression level).</description>
+<key>CAI_VARIABLE_AGGR_RAMP_ROUNDS_MIN</key>
+<value>20</value>
+</cai_variables>
+<cai_variables record_uuid="{e2f46417-9250-4d8c-84ce-a06862a26fbd}" record_timestamp="1536157416957" record_key="CAI_VARIABLE_AI_THREAT_SCORE_ATTITUDE_MULTIPLIER_MAX">
+<description>(In-game) Used for figuring out the common threat in diplomacy calculations</description>
+<key>CAI_VARIABLE_AI_THREAT_SCORE_ATTITUDE_MULTIPLIER_MAX</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{2ddf7a24-01e9-4202-ba67-ef256f5eb90f}" record_timestamp="1545066014523" record_key="CAI_VARIABLE_AI_THREAT_SCORE_ATTITUDE_MULTIPLIER_MIN">
+<description>(In-game) Used for figuring out the common threat in diplomacy calculations</description>
+<key>CAI_VARIABLE_AI_THREAT_SCORE_ATTITUDE_MULTIPLIER_MIN</key>
+<value>0.45</value>
+</cai_variables>
+<cai_variables record_uuid="{19fdc85f-7f2a-45c8-980f-961eba543ab1}" record_timestamp="1545065805144" record_key="CAI_VARIABLE_AI_THREAT_SCORE_ATTITUDE_THRESHOLD_MAX">
+<description>(In-game) Used for figuring out the common threat in diplomacy calculations</description>
+<key>CAI_VARIABLE_AI_THREAT_SCORE_ATTITUDE_THRESHOLD_MAX</key>
+<value>150</value>
+</cai_variables>
+<cai_variables record_uuid="{f266b37c-eac2-46cf-ae48-67a0255677c6}" record_timestamp="1536157416910" record_key="CAI_VARIABLE_AI_THREAT_SCORE_ATTITUDE_THRESHOLD_MIN">
+<description>(In-game) Used for figuring out the common threat in diplomacy calculations</description>
+<key>CAI_VARIABLE_AI_THREAT_SCORE_ATTITUDE_THRESHOLD_MIN</key>
+<value>-150</value>
+</cai_variables>
+<cai_variables record_uuid="{5737dd5c-40c2-46c0-8bdf-67645843a45a}" record_timestamp="1539089732113" record_key="CAI_VARIABLE_AI_THREAT_SCORE_DIRECT_ACTIONS_MULT_MAX">
+<description>(In-game) Used for Directive Aggressive Actions multiplier maximum value in threat analysis</description>
+<key>CAI_VARIABLE_AI_THREAT_SCORE_DIRECT_ACTIONS_MULT_MAX</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{3b5a09fb-4a53-46b0-87fb-0d06825c1bc0}" record_timestamp="1539089732130" record_key="CAI_VARIABLE_AI_THREAT_SCORE_DIRECT_ACTIONS_MULT_MIN">
+<description>(In-game) Used for Directive Aggressive Actions multiplier minimum value in threat analysis</description>
+<key>CAI_VARIABLE_AI_THREAT_SCORE_DIRECT_ACTIONS_MULT_MIN</key>
+<value>0.5</value>
+</cai_variables>
+<cai_variables record_uuid="{5541b0a1-992f-43a6-ba91-9ce39dca8aa6}" record_timestamp="1544099209966" record_key="CAI_VARIABLE_AI_THREAT_SCORE_PERSONALITY_MULTIPLIER_PLAYER">
+<description>(In-game) Used for figuring out the common threat in diplomacy calculations</description>
+<key>CAI_VARIABLE_AI_THREAT_SCORE_PERSONALITY_MULTIPLIER_PLAYER</key>
+<value>1.1</value>
+</cai_variables>
+<cai_variables record_uuid="{67cfd84c-97c9-4f0b-a50f-1ce3f606ab64}" record_timestamp="1536157417047" record_key="CAI_VARIABLE_AI_THREAT_SCORE_PROXIMITY_MULTIPLIER_MAX">
+<description>(In-game) Used for figuring out the common threat in diplomacy calculations</description>
+<key>CAI_VARIABLE_AI_THREAT_SCORE_PROXIMITY_MULTIPLIER_MAX</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{d82e7254-15ee-45b7-98ec-67b3ae095cbf}" record_timestamp="1536157416808" record_key="CAI_VARIABLE_AI_THREAT_SCORE_PROXIMITY_MULTIPLIER_MIN">
+<description>(In-game) Used for figuring out the common threat in diplomacy calculations</description>
+<key>CAI_VARIABLE_AI_THREAT_SCORE_PROXIMITY_MULTIPLIER_MIN</key>
+<value>0.25</value>
+</cai_variables>
+<cai_variables record_uuid="{bbaf7a0f-2070-4e19-b587-ca415e5d37f1}" record_timestamp="1522052805905" record_key="CAI_VARIABLE_ATTACK_ALL_ENEMY_SETTLEMENTS_IF_FACTION_HASNT_EXPANDED_FOR_ROUNDS">
+<description>(In-game) If faction has not gained any region for this many rounds, attack tasks for all settlements is generated.</description>
+<key>CAI_VARIABLE_ATTACK_ALL_ENEMY_SETTLEMENTS_IF_FACTION_HASNT_EXPANDED_FOR_ROUNDS</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{7b7c9ebf-bfe1-4183-a525-fd2f2e7a0958}" record_timestamp="1522052805905" record_key="CAI_VARIABLE_ATTACK_ALL_ENEMY_SETTLEMENTS_IF_FACTION_HASNT_EXPANDED_MAX_PRIORITY_IN_ROUNDS">
+<description>(In-game) The priority of the attack if havent expanded task goes to maximum if we havent captured territory for CAI_VARIABLE_ATTACK_ALL_ENEMY_SETTLEMENTS_IF_FACTION_HASNT_EXPANDED_FOR_ROUNDS+CAI_VARIABLE_ATTACK_ALL_ENEMY_SETTLEMENTS_IF_FACTION_HASNT_EXPANDED_MAX_PRIORITY_IN_ROUNDS</description>
+<key>CAI_VARIABLE_ATTACK_ALL_ENEMY_SETTLEMENTS_IF_FACTION_HASNT_EXPANDED_MAX_PRIORITY_IN_ROUNDS</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{20e26340-3883-4ec8-a829-8bc6fb57b3ae}" record_timestamp="1458325042783" record_key="CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_BEGIN_AND_BEFORE_MULTIPLIER">
+<description>(In-game) In generating tasks versus human horde armies the starting priority used.</description>
+<key>CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_BEGIN_AND_BEFORE_MULTIPLIER</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{7af6c848-71fc-4101-9025-57ea689c0388}" record_timestamp="1465987237706" record_key="CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_BEGIN_ROUND">
+<description>(In-game) In generating tasks versus human horde armies the round at which to start applying a priority variation.</description>
+<key>CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_BEGIN_ROUND</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{40129b50-c8f5-4c44-bd36-40937f6e8cd8}" record_timestamp="1458319824950" record_key="CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_CLOSEST_ROUNDS_DISTANCE">
+<description>(In-game) Multiplier applied to attack human horde armies tasks based on distance to nearest asset, lower distance bound.</description>
+<key>CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_CLOSEST_ROUNDS_DISTANCE</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{f3862f23-fd1b-4569-9ab0-194554575354}" record_timestamp="1458325033624" record_key="CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_CLOSEST_ROUNDS_DISTANCE_AND_NEARER_MULTIPLIER">
+<description>(In-game) Multiplier applied to attack human horde armies tasks based on distance to nearest asset, lower distance priority multiplier.</description>
+<key>CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_CLOSEST_ROUNDS_DISTANCE_AND_NEARER_MULTIPLIER</key>
+<value>1.25</value>
+</cai_variables>
+<cai_variables record_uuid="{0a0bb37b-a6e4-47da-b1f7-3b0cec284e19}" record_timestamp="1458325033625" record_key="CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_END_AND_AFTER_MULTIPLIER">
+<description>(In-game) In generating tasks versus human horde armies the ending priority used.</description>
+<key>CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_END_AND_AFTER_MULTIPLIER</key>
+<value>1.75</value>
+</cai_variables>
+<cai_variables record_uuid="{46902e44-4e2b-4b0f-ae52-c7e37a0dae9f}" record_timestamp="1458325042784" record_key="CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_END_ROUND">
+<description>(In-game) In generating tasks versus human horde armies the round at which to end applying a priority variation.</description>
+<key>CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_END_ROUND</key>
+<value>100</value>
+</cai_variables>
+<cai_variables record_uuid="{632245d2-fe4d-4425-83c8-1daa011243d0}" record_timestamp="1465987164043" record_key="CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_FURTHEST_ROUNDS_DISTANCE">
+<description>(In-game) Multiplier applied to attack human horde armies tasks based on distance to nearest asset, upper distance bound.</description>
+<key>CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_FURTHEST_ROUNDS_DISTANCE</key>
+<value>4</value>
+</cai_variables>
+<cai_variables record_uuid="{8defb62e-e786-454e-900e-374ea89f1a4b}" record_timestamp="1465987164025" record_key="CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_FURTHEST_ROUNDS_DISTANCE_AND_FURTHER_MULTIPLIER">
+<description>(In-game) Multiplier applied to attack human horde armies tasks based on distance to nearest asset, upper distance priority multiplier.</description>
+<key>CAI_VARIABLE_ATTACK_HUMAN_HORDE_CONTROL_FURTHEST_ROUNDS_DISTANCE_AND_FURTHER_MULTIPLIER</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{0696f760-0285-434e-948d-a445c8911881}" record_timestamp="1458319824952" record_key="CAI_VARIABLE_ATTACK_NONHUMAN_HORDE_CONTROL_CLOSEST_ROUNDS_DISTANCE">
+<description>(In-game) Multiplier applied to attack non-human horde armies tasks based on distance to nearest asset, lower distance bound.</description>
+<key>CAI_VARIABLE_ATTACK_NONHUMAN_HORDE_CONTROL_CLOSEST_ROUNDS_DISTANCE</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{bd8ac28f-5a58-4abc-8089-e19a097a3dd1}" record_timestamp="1458325033625" record_key="CAI_VARIABLE_ATTACK_NONHUMAN_HORDE_CONTROL_CLOSEST_ROUNDS_DISTANCE_AND_NEARER_MULTIPLIER">
+<description>(In-game) Multiplier applied to attack non- human horde armies tasks based on distance to nearest asset, lower distance priority multiplier.</description>
+<key>CAI_VARIABLE_ATTACK_NONHUMAN_HORDE_CONTROL_CLOSEST_ROUNDS_DISTANCE_AND_NEARER_MULTIPLIER</key>
+<value>1.25</value>
+</cai_variables>
+<cai_variables record_uuid="{a24d9821-09e2-4902-aad3-cc9e1e727dfe}" record_timestamp="1465987164042" record_key="CAI_VARIABLE_ATTACK_NONHUMAN_HORDE_CONTROL_FURTHEST_ROUNDS_DISTANCE">
+<description>(In-game) Multiplier applied to attack non-human horde armies tasks based on distance to nearest asset, upper distance bound.</description>
+<key>CAI_VARIABLE_ATTACK_NONHUMAN_HORDE_CONTROL_FURTHEST_ROUNDS_DISTANCE</key>
+<value>4</value>
+</cai_variables>
+<cai_variables record_uuid="{cb06a196-9863-4c05-aaaf-29f183539284}" record_timestamp="1465987164026" record_key="CAI_VARIABLE_ATTACK_NONHUMAN_HORDE_CONTROL_FURTHEST_ROUNDS_DISTANCE_AND_FURTHER_MULTIPLIER">
+<description>(In-game) Multiplier applied to attack non-human horde armies tasks based on distance to nearest asset, upper distance priority multiplier.</description>
+<key>CAI_VARIABLE_ATTACK_NONHUMAN_HORDE_CONTROL_FURTHEST_ROUNDS_DISTANCE_AND_FURTHER_MULTIPLIER</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{9190c182-407f-48b4-b1ad-9acf8d80a5f8}" record_timestamp="1458319824954" record_key="CAI_VARIABLE_BASIC_CTRL_BUILDING_CONVERSION_BONUS">
+<description>(In-game) Bonus applied to scoring of cultural conversion options in the construction system.</description>
+<key>CAI_VARIABLE_BASIC_CTRL_BUILDING_CONVERSION_BONUS</key>
+<value>20</value>
+</cai_variables>
+<cai_variables record_uuid="{5c3e1e83-c9a4-46c4-be41-195c286aade1}" record_timestamp="1458319824955" record_key="CAI_VARIABLE_BASIC_CTRL_BUILDING_DEMOLITION_BONUS">
+<description>(In-game) Bonus applied to scoring of demolition options in the construction system.</description>
+<key>CAI_VARIABLE_BASIC_CTRL_BUILDING_DEMOLITION_BONUS</key>
+<value>60</value>
+</cai_variables>
+<cai_variables record_uuid="{d5c2c3c5-9949-45c0-a0b4-942a70ca16f5}" record_timestamp="1458319824955" record_key="CAI_VARIABLE_BASIC_CTRL_BUILDING_REPAIR_BONUS">
+<description>(In-game) Bonus applied to scoring of repair options in the construction system.</description>
+<key>CAI_VARIABLE_BASIC_CTRL_BUILDING_REPAIR_BONUS</key>
+<value>60</value>
+</cai_variables>
+<cai_variables record_uuid="{485359b0-26b3-492b-b880-48276a1443b5}" record_timestamp="1551456812093" record_key="CAI_VARIABLE_CAPITAL_MOVE_ARMED_CITIZENRY_MULTIPLIER">
+<description>(In-game) Used when determining a new capital for a world leader, weights the importance of the armed citizenry of the settltment.</description>
+<key>CAI_VARIABLE_CAPITAL_MOVE_ARMED_CITIZENRY_MULTIPLIER</key>
+<value>0.25</value>
+</cai_variables>
+<cai_variables record_uuid="{588e6ea6-c773-484f-9e47-977bcf4042e7}" record_timestamp="1553791450323" record_key="CAI_VARIABLE_CAPITAL_MOVE_DISTANCE_FROM_AI_MULTIPLIER">
+<description>(In-game) Used when determining a new capital for a world leader, weights the importance of distance to other AI world leaders.</description>
+<key>CAI_VARIABLE_CAPITAL_MOVE_DISTANCE_FROM_AI_MULTIPLIER</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{57c09668-8238-4390-ae0d-5b1f3c9d7f03}" record_timestamp="1553791450323" record_key="CAI_VARIABLE_CAPITAL_MOVE_DISTANCE_FROM_PLAYER_MULTIPLIER">
+<description>(In-game) Used when determining a new capital for a world leader, weights the importance of distance to the player for the AI.</description>
+<key>CAI_VARIABLE_CAPITAL_MOVE_DISTANCE_FROM_PLAYER_MULTIPLIER</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{3f9279f4-c98c-4293-b835-55d2d40f0e99}" record_timestamp="1551456812093" record_key="CAI_VARIABLE_CAPITAL_MOVE_MAJOR_SETTLEMENT_MODIFIER">
+<description>(In-game) Used when determining a new capital for a world leader, weights the importance of a settlement being 'major'.</description>
+<key>CAI_VARIABLE_CAPITAL_MOVE_MAJOR_SETTLEMENT_MODIFIER</key>
+<value>0.25</value>
+</cai_variables>
+<cai_variables record_uuid="{7b186b5b-4fa3-4e15-9621-6c766691f7d0}" record_timestamp="1551456812093" record_key="CAI_VARIABLE_CAPITAL_MOVE_RANDOM_SELECTION_TOP_PERCENT">
+<description>(In-game) Used when determining a new capital for a world leader, for the AI only, select from possible capital regions scored within this percentage of the top scoring option(s).</description>
+<key>CAI_VARIABLE_CAPITAL_MOVE_RANDOM_SELECTION_TOP_PERCENT</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{c9c2975a-36c7-4bf5-af5a-7e77af057480}" record_timestamp="1554366606683" record_key="CAI_VARIABLE_CAPITAL_MOVE_WALLED_SETTLEMENT_MODIFIER">
+<description>(In-game) Used when determining a new capital for a world leader, the score weighting assigned to a settlement being walled.</description>
+<key>CAI_VARIABLE_CAPITAL_MOVE_WALLED_SETTLEMENT_MODIFIER</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{df95f25b-5483-4276-9dc0-44711a9889d3}" record_timestamp="1548675322705" record_key="CAI_VARIABLE_CHARACTER_ROLE_VALUE_MULTIPLIER_FOR_HUMAN_CONTROLLED_SPIES_AT_AI_FACTIONS">
+<description>(In-game) Used to adjust the percieved utility of a character for a given role at an AI faction where that character is a spy from a human factions.</description>
+<key>CAI_VARIABLE_CHARACTER_ROLE_VALUE_MULTIPLIER_FOR_HUMAN_CONTROLLED_SPIES_AT_AI_FACTIONS</key>
+<value>1.5</value>
+</cai_variables>
+<cai_variables record_uuid="{c1e54e3e-8fc6-4d62-9261-d0c80d002c80}" record_timestamp="1458319824956" record_key="CAI_VARIABLE_CLIMATE_CHANGE_IMMINENT_CONSTRUCTION_SYSTEM_FOOD_CONTROL_MULTIPLIER">
+<description>(In-game) Multiplier applied to region count values if climate change mitigation is in effect (CAI_VARIABLE_FOOD_CTRL_BUILDING_APPLY_BONUS_AT_OR_BELOW_REGION_ADJUSTMENT, CAI_VARIABLE_FOOD_CTRL_BUILDING_APPLY_PENALTY_BELOW_REGION_ADJUSTMENT).</description>
+<key>CAI_VARIABLE_CLIMATE_CHANGE_IMMINENT_CONSTRUCTION_SYSTEM_FOOD_CONTROL_MULTIPLIER</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{bbfde8e8-e583-4ac2-a552-3b984d40b322}" record_timestamp="1458319824956" record_key="CAI_VARIABLE_CLIMATE_CHANGE_IMMINENT_WITHIN">
+<description>(In-game) Rounds from expected climate change that AI's will start to take mitigating action.</description>
+<key>CAI_VARIABLE_CLIMATE_CHANGE_IMMINENT_WITHIN</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{68307589-711c-4fda-93ea-fb3daa9d1b3c}" record_timestamp="1458319824957" record_key="CAI_VARIABLE_CNSTR_PRIORITY_OVER_COST_MODIFICATION">
+<description>(In-game) When considering the importance of buildings for a specific context how much should value for money count versus raw priority (0.0, not a bit to 1.0, entirely).</description>
+<key>CAI_VARIABLE_CNSTR_PRIORITY_OVER_COST_MODIFICATION</key>
+<value>0.1</value>
+</cai_variables>
+<cai_variables record_uuid="{a4e995d8-bb8c-4f58-bb3a-004bcce0aec5}" record_timestamp="1458319824957" record_key="CAI_VARIABLE_CONSIDER_MAJOR_OVER_REGIONS">
+<description>(In-game) In Gempei targetting and diplomatic adjustments the number of regions a minor faction must own before being considered major.</description>
+<key>CAI_VARIABLE_CONSIDER_MAJOR_OVER_REGIONS</key>
+<value>3</value>
+</cai_variables>
+<cai_variables record_uuid="{101e2942-94b1-4368-b7bf-4ba7e5376072}" record_timestamp="1546939974793" record_key="CAI_VARIABLE_CONSTRUCTION_OPTION_SELECTION_CULLING_PROPORTION">
+<description>(In-game) For construction system (positively scored) option culling - the culling proportion 0.0-1.0. For screo based culling, the proportion of the top scored option and options score must be to be considered for selection. For number of options culling, the proportion of options to considered for selection (best first). Setting to zero in both modes will select the best available option only, setting to 1.0 will allow all options.</description>
+<key>CAI_VARIABLE_CONSTRUCTION_OPTION_SELECTION_CULLING_PROPORTION</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{f8a39a68-8627-40ed-9249-69a2bda018a3}" record_timestamp="1546939974793" record_key="CAI_VARIABLE_CONSTRUCTION_OPTION_SELECTION_CULLING_USE_TOP_OPTIONS_PROPORTION_ON_TRUE_TOP_SCORE_PROPORTION_ON_FALSE">
+<description>(In-game) For construction system (positively scored) option culling - should culling occur based on the options within a proporition of the top scoring option (false) or as a proportion of the number of available options (true)</description>
+<key>CAI_VARIABLE_CONSTRUCTION_OPTION_SELECTION_CULLING_USE_TOP_OPTIONS_PROPORTION_ON_TRUE_TOP_SCORE_PROPORTION_ON_FALSE</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{79b5ed82-20b7-40b3-b0d9-a34e87c05a31}" record_timestamp="1458319824958" record_key="CAI_VARIABLE_CONSTRUCTION_SYSTEM_VALUE_FOR_MONEY_CONSIDERATION_MULTIPLIER">
+<description>(In-game) Within the AI construction system the proportion of value for money evaluation that should be applied.</description>
+<key>CAI_VARIABLE_CONSTRUCTION_SYSTEM_VALUE_FOR_MONEY_CONSIDERATION_MULTIPLIER</key>
+<value>0.99</value>
+</cai_variables>
+<cai_variables record_uuid="{fa6493e6-cc2c-4d75-8462-2e92171ade1c}" record_timestamp="1458319824958" record_key="CAI_VARIABLE_CONSTRUCTION_SYSTEM_VALUE_FOR_MONEY_CONSIDERATION_TARGET">
+<description>(In-game) In the construction system the target value used when adjusting a buildings evaluation due to value of money effects.</description>
+<key>CAI_VARIABLE_CONSTRUCTION_SYSTEM_VALUE_FOR_MONEY_CONSIDERATION_TARGET</key>
+<value>100</value>
+</cai_variables>
+<cai_variables record_uuid="{bb7306ac-8e52-40f4-93c6-fb7951bcf013}" record_timestamp="1465987155031" record_key="CAI_VARIABLE_COORDINATOR_MAJOR_FACTION_STRENGTH_BONUS">
+<description>(In-game) Multiplier for strength of major factions.</description>
+<key>CAI_VARIABLE_COORDINATOR_MAJOR_FACTION_STRENGTH_BONUS</key>
+<value>1.1</value>
+</cai_variables>
+<cai_variables record_uuid="{6e0b639c-03e1-4006-a84b-a9cffddfd9d4}" record_timestamp="1532015544280" record_key="CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_DISAPPROVED_LARGE">
+<description>(In-game) Used for invoking the event DEAL_DISAPPROVED_LARGE if the accepted deal value is smaller than the value towards the faction that also accepted it</description>
+<key>CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_DISAPPROVED_LARGE</key>
+<value>-5</value>
+</cai_variables>
+<cai_variables record_uuid="{08c53fd9-3b0b-4d97-b369-ca76d722414c}" record_timestamp="1532015544142" record_key="CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_DISAPPROVED_MEDIUM">
+<description>(In-game) Used for invoking the event DEAL_DISAPPROVED_ if the accepted deal value is smaller than the value towards the faction that also accepted it</description>
+<key>CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_DISAPPROVED_MEDIUM</key>
+<value>-2</value>
+</cai_variables>
+<cai_variables record_uuid="{49b24b5e-b002-443a-94f3-42f04cdce077}" record_timestamp="1532015544102" record_key="CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_DISAPPROVED_SMALL">
+<description>(In-game) Used for invoking the event DEAL_DISAPPROVED_ if the accepted deal value is smaller than the value towards the faction that also accepted it</description>
+<key>CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_DISAPPROVED_SMALL</key>
+<value>-1</value>
+</cai_variables>
+<cai_variables record_uuid="{2351ddf4-3ef7-4ce3-9685-94926532be2b}" record_timestamp="1532015544236" record_key="CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_DISAPPROVED_XLARGE">
+<description>(In-game) Used for invoking the event DEAL_DISAPPROVED_ if the accepted deal value is smaller than the value towards the faction that also accepted it</description>
+<key>CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_DISAPPROVED_XLARGE</key>
+<value>-15</value>
+</cai_variables>
+<cai_variables record_uuid="{fac69d00-96f6-4a01-a990-50de198513d2}" record_timestamp="1532015544188" record_key="CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_DISAPPROVED_XXLARGE">
+<description>(In-game) Used for invoking the event DEAL_DISAPPROVED_ if the accepted deal value is smaller than the value towards the faction that also accepted it</description>
+<key>CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_DISAPPROVED_XXLARGE</key>
+<value>-30</value>
+</cai_variables>
+<cai_variables record_uuid="{e2895a3e-4c64-4f5d-a40f-efb3ca66f73a}" record_timestamp="1532015543982" record_key="CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_FAVOURABLE_LARGE">
+<description>(In-game) Used for invoking the event DEAL_FAVOURABLE_ if the accepted deal value is larger than the value towards the faction that also accepted it</description>
+<key>CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_FAVOURABLE_LARGE</key>
+<value>5</value>
+</cai_variables>
+<cai_variables record_uuid="{8c282338-9cd2-4b01-ab76-8eeeac1aac27}" record_timestamp="1532015544364" record_key="CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_FAVOURABLE_MEDIUM">
+<description>(In-game) Used for invoking the event DEAL_FAVOURABLE_ if the accepted deal value is larger than the value towards the faction that also accepted it</description>
+<key>CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_FAVOURABLE_MEDIUM</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{1265f6f8-7a7e-473a-9ee5-2ec92f3caa74}" record_timestamp="1532015544063" record_key="CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_FAVOURABLE_SMALL">
+<description>(In-game) Used for invoking the event DEAL_FAVOURABLE_ if the accepted deal value is larger than the value towards the faction that also accepted it</description>
+<key>CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_FAVOURABLE_SMALL</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{b5a55232-8492-4df4-a24c-7eda74b2d2ed}" record_timestamp="1532015544022" record_key="CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_FAVOURABLE_XLARGE">
+<description>(In-game) Used for invoking the event DEAL_FAVOURABLE_ if the accepted deal value is larger than the value towards the faction that also accepted it</description>
+<key>CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_FAVOURABLE_XLARGE</key>
+<value>15</value>
+</cai_variables>
+<cai_variables record_uuid="{f8f196ff-9fd6-4206-ab41-0a0168721c59}" record_timestamp="1532015544323" record_key="CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_FAVOURABLE_XXLARGE">
+<description>(In-game) Used for invoking the event DEAL_FAVOURABLE_ if the accepted deal value is larger than the value towards the faction that also accepted it</description>
+<key>CAI_VARIABLE_DEAL_EVALUATION_THRESHOLD_DEAL_FAVOURABLE_XXLARGE</key>
+<value>30</value>
+</cai_variables>
+<cai_variables record_uuid="{43a0c740-f937-4172-a4d0-592670e742ee}" record_timestamp="1547296814772" record_key="CAI_VARIABLE_DILEMMA_BONUS_LARGE">
+<description>(In-game) Controls for diplomatic effects of some dilemmas.</description>
+<key>CAI_VARIABLE_DILEMMA_BONUS_LARGE</key>
+<value>80</value>
+</cai_variables>
+<cai_variables record_uuid="{b320c1c5-0b4f-4868-b5f1-9c633957865d}" record_timestamp="1458319824959" record_key="CAI_VARIABLE_DILEMMA_BONUS_LARGE_FALLOFF">
+<description>(In-game) Controls for diplomatic effects of some dilemmas.</description>
+<key>CAI_VARIABLE_DILEMMA_BONUS_LARGE_FALLOFF</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{2e7522b0-7a65-49f3-b7b4-fd08797e2afc}" record_timestamp="1547296814772" record_key="CAI_VARIABLE_DILEMMA_BONUS_MEDIUM">
+<description>(In-game) Controls for diplomatic effects of some dilemmas.</description>
+<key>CAI_VARIABLE_DILEMMA_BONUS_MEDIUM</key>
+<value>40</value>
+</cai_variables>
+<cai_variables record_uuid="{5be59c38-e25a-4a5f-84d4-9f7ac03831f2}" record_timestamp="1458319824960" record_key="CAI_VARIABLE_DILEMMA_BONUS_MEDIUM_FALLOFF">
+<description>(In-game) Controls for diplomatic effects of some dilemmas.</description>
+<key>CAI_VARIABLE_DILEMMA_BONUS_MEDIUM_FALLOFF</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{893b787e-71c5-4188-aca7-7591b72e3a88}" record_timestamp="1547294077755" record_key="CAI_VARIABLE_DILEMMA_BONUS_SMALL">
+<description>(In-game) Controls for diplomatic effects of some dilemmas.</description>
+<key>CAI_VARIABLE_DILEMMA_BONUS_SMALL</key>
+<value>20</value>
+</cai_variables>
+<cai_variables record_uuid="{ed569e5c-1058-4593-b979-5ced1223946e}" record_timestamp="1458319824961" record_key="CAI_VARIABLE_DILEMMA_BONUS_SMALL_FALLOFF">
+<description>(In-game) Controls for diplomatic effects of some dilemmas.</description>
+<key>CAI_VARIABLE_DILEMMA_BONUS_SMALL_FALLOFF</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{33a2ee10-eb31-48ea-a845-36355cd5c2ab}" record_timestamp="1547296814772" record_key="CAI_VARIABLE_DILEMMA_PENALTY_LARGE">
+<description>(In-game) Controls for diplomatic effects of some dilemmas.</description>
+<key>CAI_VARIABLE_DILEMMA_PENALTY_LARGE</key>
+<value>-80</value>
+</cai_variables>
+<cai_variables record_uuid="{70e585fc-6f63-494c-94cd-68c7adfd50cf}" record_timestamp="1458319824962" record_key="CAI_VARIABLE_DILEMMA_PENALTY_LARGE_FALLOFF">
+<description>(In-game) Controls for diplomatic effects of some dilemmas.</description>
+<key>CAI_VARIABLE_DILEMMA_PENALTY_LARGE_FALLOFF</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{137ce074-505e-4212-ba3b-f3083246e385}" record_timestamp="1547296814772" record_key="CAI_VARIABLE_DILEMMA_PENALTY_MEDIUM">
+<description>(In-game) Controls for diplomatic effects of some dilemmas.</description>
+<key>CAI_VARIABLE_DILEMMA_PENALTY_MEDIUM</key>
+<value>-40</value>
+</cai_variables>
+<cai_variables record_uuid="{0e920fb3-6a96-4554-b0ab-a2a011dba1bb}" record_timestamp="1458319824963" record_key="CAI_VARIABLE_DILEMMA_PENALTY_MEDIUM_FALLOFF">
+<description>(In-game) Controls for diplomatic effects of some dilemmas.</description>
+<key>CAI_VARIABLE_DILEMMA_PENALTY_MEDIUM_FALLOFF</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{cddf87b3-0dbf-4644-a46e-d8c74573cb9e}" record_timestamp="1547294077755" record_key="CAI_VARIABLE_DILEMMA_PENALTY_SMALL">
+<description>(In-game) Controls for diplomatic effects of some dilemmas.</description>
+<key>CAI_VARIABLE_DILEMMA_PENALTY_SMALL</key>
+<value>-20</value>
+</cai_variables>
+<cai_variables record_uuid="{bb97c461-4a68-4f45-b219-1382555109d1}" record_timestamp="1458319824964" record_key="CAI_VARIABLE_DILEMMA_PENALTY_SMALL_FALLOFF">
+<description>(In-game) Controls for diplomatic effects of some dilemmas.</description>
+<key>CAI_VARIABLE_DILEMMA_PENALTY_SMALL_FALLOFF</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{24f61610-457e-4a07-b252-d0954e4dbedb}" record_timestamp="1537370099871" record_key="CAI_VARIABLE_DIPLOMACY_DEAL_EVALUATION_LONG_DISTANCE_THRESHOLD_MAX">
+<description>(In-game) At this proportion of the distance that's specified by CAI_VARIABLE_DIPLOMACY_DISTANCE_GOAL_PRIORITY_MODIFIER, we apply the maximum amount of deal evaluation penalty (long_distance_penalty_max)</description>
+<key>CAI_VARIABLE_DIPLOMACY_DEAL_EVALUATION_LONG_DISTANCE_THRESHOLD_MAX</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{5ad5ab7b-8ff6-4e23-950c-11509e23b2b4}" record_timestamp="1537370099861" record_key="CAI_VARIABLE_DIPLOMACY_DEAL_EVALUATION_LONG_DISTANCE_THRESHOLD_MIN">
+<description>(In-game) Starting from this proportion of the distance that's specified by CAI_VARIABLE_DIPLOMACY_DISTANCE_GOAL_PRIORITY_MODIFIER, we start to apply deal evaluation penalties (long_distance_penalty_min)</description>
+<key>CAI_VARIABLE_DIPLOMACY_DEAL_EVALUATION_LONG_DISTANCE_THRESHOLD_MIN</key>
+<value>0.1</value>
+</cai_variables>
+<cai_variables record_uuid="{cbfcdc49-2f4b-4653-8125-cd6605036c7d}" record_timestamp="1458319824964" record_key="CAI_VARIABLE_DIPLOMACY_DISTANCE_GOAL_PRIORITY_MODIFIER">
+<description>(In-game) Distance-based modifier for diplomatic goals.</description>
+<key>CAI_VARIABLE_DIPLOMACY_DISTANCE_GOAL_PRIORITY_MODIFIER</key>
+<value>0.3</value>
+</cai_variables>
+<cai_variables record_uuid="{716cf7f9-fa3a-4260-a18a-82e76a1e884c}" record_timestamp="1512044717515" record_key="CAI_VARIABLE_DIPLOMACY_EARLY_BREAK_THRESHOLD">
+<description>(In-game) Treaty components broken earlier than this number of turns will use the broken_early event.</description>
+<key>CAI_VARIABLE_DIPLOMACY_EARLY_BREAK_THRESHOLD</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{bb988b03-c598-4679-99d8-e6552b372dcb}" record_timestamp="1531745734430" record_key="CAI_VARIABLE_DIPLOMACY_NON_OFFENSIVE_FACTION_STRENGTH_DEAL_EVALUATION_MULTIPLIER">
+<description>(In_game) Used for tune down the strength of non offensive factions in deal evaluation</description>
+<key>CAI_VARIABLE_DIPLOMACY_NON_OFFENSIVE_FACTION_STRENGTH_DEAL_EVALUATION_MULTIPLIER</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{6a03da3a-1ca4-4b02-9977-9be1f2b4ac81}" record_timestamp="1458319824965" record_key="CAI_VARIABLE_DO_NOT_ENABLE">
+<description>(In-game) Set it to 1 if you dare. DO NOT SET IT ANY HIGHER!!!</description>
+<key>CAI_VARIABLE_DO_NOT_ENABLE</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{11bf005a-5df6-4d33-a033-10af269d5124}" record_timestamp="1458319824965" record_key="CAI_VARIABLE_EMERGENCY_UNIT_CULL_FORCE_PERCENTAGE_TO_CULL">
+<description>(In-game) In using the emergency unit culling mechanics what percentage of elligable units should be disbanded to mitigate the problem.</description>
+<key>CAI_VARIABLE_EMERGENCY_UNIT_CULL_FORCE_PERCENTAGE_TO_CULL</key>
+<value>20</value>
+</cai_variables>
+<cai_variables record_uuid="{8932db4a-7c52-42d8-8bd4-94029ce76a8c}" record_timestamp="1458319824966" record_key="CAI_VARIABLE_EMERGENCY_UNIT_CULL_TIME_WINDOW_MULTIPLIER">
+<description>(In-game) In making use of the emergency unit culling mechanics what multiplier should be allied to the factions corresponding zero_or_negative_net_income_survival_rounds value.</description>
+<key>CAI_VARIABLE_EMERGENCY_UNIT_CULL_TIME_WINDOW_MULTIPLIER</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{1e9e8bb2-51f1-4c07-bdbe-6a03461ebb4e}" record_timestamp="1458319824966" record_key="CAI_VARIABLE_FACTION_MANAGEMENT">
+<description>(In-game) Enables CAI faction controller management.</description>
+<key>CAI_VARIABLE_FACTION_MANAGEMENT</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{cd1ffc21-823c-4ef3-98c0-fa8c98467572}" record_timestamp="1458319824967" record_key="CAI_VARIABLE_FACTION_MANAGEMENT_THRESHOLD">
+<description>(In-game) Specifies the CAI faction controller management threshold.</description>
+<key>CAI_VARIABLE_FACTION_MANAGEMENT_THRESHOLD</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{bd96cb04-302c-4f76-9623-0096adb13ae3}" record_timestamp="1548255658585" record_key="CAI_VARIABLE_FACTION_STRATEGIC_THREAT_ANALYSIS_MAINTAIN_NEW_MAIN_THREAT_MINIMUM_NUMBER_OF_ROUNDS_THRESHOLD">
+<description>(In-game) Used in faction strategic threat analysis for specifying how long a 'main threat' should be retained for at a minimum (in number of rounds)</description>
+<key>CAI_VARIABLE_FACTION_STRATEGIC_THREAT_ANALYSIS_MAINTAIN_NEW_MAIN_THREAT_MINIMUM_NUMBER_OF_ROUNDS_THRESHOLD</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{d1a22930-ce81-4346-bc8c-3009261e3100}" record_timestamp="1539355357481" record_key="CAI_VARIABLE_FINANCE_CONST_BIAS_EASY_LEVEL">
+<description>(In-game) CAI Budgeting bias, easy difficulty, levels to apply at.</description>
+<key>CAI_VARIABLE_FINANCE_CONST_BIAS_EASY_LEVEL</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{6fdb46bd-2e8f-4d49-8ec6-618665736398}" record_timestamp="1539355357481" record_key="CAI_VARIABLE_FINANCE_CONST_BIAS_EASY_TURNS">
+<description>(In-game) CAI Budgeting bias,easy difficulty, rounds to apply for.</description>
+<key>CAI_VARIABLE_FINANCE_CONST_BIAS_EASY_TURNS</key>
+<value>3</value>
+</cai_variables>
+<cai_variables record_uuid="{83bb7ce9-3bb5-45f7-9fce-6f296d3e911b}" record_timestamp="1539355357481" record_key="CAI_VARIABLE_FINANCE_CONST_BIAS_HARD_LEVEL">
+<description>(In-game) CAI Budgeting bias, hard difficulty, levels to apply at.</description>
+<key>CAI_VARIABLE_FINANCE_CONST_BIAS_HARD_LEVEL</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{e7a3338f-7829-4445-a83b-a8743e44f029}" record_timestamp="1539355357481" record_key="CAI_VARIABLE_FINANCE_CONST_BIAS_HARD_TURNS">
+<description>(In-game) CAI Budgeting bias, hard difficulty, rounds to apply for.</description>
+<key>CAI_VARIABLE_FINANCE_CONST_BIAS_HARD_TURNS</key>
+<value>3</value>
+</cai_variables>
+<cai_variables record_uuid="{7e639963-6002-4fac-900d-de42ffc89c85}" record_timestamp="1539355357481" record_key="CAI_VARIABLE_FINANCE_CONST_BIAS_LEGENDARY_LEVEL">
+<description>(In-game) CAI Budgeting bias, legendary difficulty, levels to apply at.</description>
+<key>CAI_VARIABLE_FINANCE_CONST_BIAS_LEGENDARY_LEVEL</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{eea1f603-a055-4991-bee8-2b444173f23b}" record_timestamp="1539355357481" record_key="CAI_VARIABLE_FINANCE_CONST_BIAS_LEGENDARY_TURNS">
+<description>(In-game) CAI Budgeting bias, legendary difficulty, rounds to apply for.</description>
+<key>CAI_VARIABLE_FINANCE_CONST_BIAS_LEGENDARY_TURNS</key>
+<value>3</value>
+</cai_variables>
+<cai_variables record_uuid="{cddb5e5f-40d6-4ac4-88d9-d94e3f2079d0}" record_timestamp="1539355357481" record_key="CAI_VARIABLE_FINANCE_CONST_BIAS_NORMAL_LEVEL">
+<description>(In-game) CAI Budgeting bias, normal difficulty, levels to apply at.</description>
+<key>CAI_VARIABLE_FINANCE_CONST_BIAS_NORMAL_LEVEL</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{59c20472-6af6-4305-b010-9ae8a7c573fe}" record_timestamp="1539355357481" record_key="CAI_VARIABLE_FINANCE_CONST_BIAS_NORMAL_TURNS">
+<description>(In-game) CAI Budgeting bias, normal difficulty, rounds to apply for.</description>
+<key>CAI_VARIABLE_FINANCE_CONST_BIAS_NORMAL_TURNS</key>
+<value>3</value>
+</cai_variables>
+<cai_variables record_uuid="{0e534f71-6a7a-4a30-9472-278ce816aa44}" record_timestamp="1539355357481" record_key="CAI_VARIABLE_FINANCE_CONST_BIAS_VERY_HARD_LEVEL">
+<description>(In-game) CAI Budgeting bias, very hard difficulty, levels to apply at.</description>
+<key>CAI_VARIABLE_FINANCE_CONST_BIAS_VERY_HARD_LEVEL</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{1ddd7388-b52c-48e4-909a-0b87ab5cc303}" record_timestamp="1539355357481" record_key="CAI_VARIABLE_FINANCE_CONST_BIAS_VERY_HARD_TURNS">
+<description>(In-game) CAI Budgeting bias, very hard difficulty, rounds to apply for.</description>
+<key>CAI_VARIABLE_FINANCE_CONST_BIAS_VERY_HARD_TURNS</key>
+<value>3</value>
+</cai_variables>
+<cai_variables record_uuid="{22d3aba5-3ead-42bb-8af4-324c482d65e0}" record_timestamp="1458319824972" record_key="CAI_VARIABLE_FNCA_AID_MINOR_ALLY_PADJ">
+<description>(In-game) In Gempei diplomatic adjustments the adjustment applied against the desire of a major clan to aid a minor clan ally when being attacked or attacking.</description>
+<key>CAI_VARIABLE_FNCA_AID_MINOR_ALLY_PADJ</key>
+<value>0.25</value>
+</cai_variables>
+<cai_variables record_uuid="{209650ca-d743-4d59-9522-6eca1f87a5f1}" record_timestamp="1458319824972" record_key="CAI_VARIABLE_FNCA_ALLY_MINOR_PADJ">
+<description>(In-game) In Gempei diplomatic adjustments the adjustment applied against the desire of a major clan allying with a minor clan.</description>
+<key>CAI_VARIABLE_FNCA_ALLY_MINOR_PADJ</key>
+<value>0.25</value>
+</cai_variables>
+<cai_variables record_uuid="{73b65fb1-c578-4dce-94b9-8069d3665777}" record_timestamp="1458319824973" record_key="CAI_VARIABLE_FNCA_JOIN_MINOR_ALLY_WADJ">
+<description>(In-game) In Gempei diplomatic adjustments the weighing multiplier applied for a major clan joining a war against a minor clan at the request of a minor clan.</description>
+<key>CAI_VARIABLE_FNCA_JOIN_MINOR_ALLY_WADJ</key>
+<value>0.75</value>
+</cai_variables>
+<cai_variables record_uuid="{5d9b622e-fca0-49dc-a768-8172ad63e749}" record_timestamp="1458319824973" record_key="CAI_VARIABLE_FOOD_CTRL_BUILDING_APPLY_BONUS_AT_OR_BELOW">
+<description>(In-game) The point at or below which bonus will be provided to food producgin buildings.</description>
+<key>CAI_VARIABLE_FOOD_CTRL_BUILDING_APPLY_BONUS_AT_OR_BELOW</key>
+<value>5</value>
+</cai_variables>
+<cai_variables record_uuid="{10d0c3b0-e501-4ce9-b997-e6f7b435ec62}" record_timestamp="1458319824974" record_key="CAI_VARIABLE_FOOD_CTRL_BUILDING_APPLY_BONUS_AT_OR_BELOW_REGION_ADJUSTMENT">
+<description>(In-game) Adjustment to the food penalty thresholds based on number of regions owned by a faction.</description>
+<key>CAI_VARIABLE_FOOD_CTRL_BUILDING_APPLY_BONUS_AT_OR_BELOW_REGION_ADJUSTMENT</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{e50223b0-7b08-4304-a294-1f47341b2c8b}" record_timestamp="1458319824974" record_key="CAI_VARIABLE_FOOD_CTRL_BUILDING_APPLY_PENALTY_BELOW">
+<description>(In-game) The point below which a food penalty will be applied to a building option.</description>
+<key>CAI_VARIABLE_FOOD_CTRL_BUILDING_APPLY_PENALTY_BELOW</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{68b0a819-3898-473f-8bc5-e094de9aca24}" record_timestamp="1458319824974" record_key="CAI_VARIABLE_FOOD_CTRL_BUILDING_APPLY_PENALTY_BELOW_REGION_ADJUSTMENT">
+<description>(In-game) Adjustment to the food penalty thresholds based on number of regions owned by a faction.</description>
+<key>CAI_VARIABLE_FOOD_CTRL_BUILDING_APPLY_PENALTY_BELOW_REGION_ADJUSTMENT</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{fcb3ef51-1880-4353-b763-c424c17653ca}" record_timestamp="1517909049743" record_key="CAI_VARIABLE_FOOD_CTRL_BUILDING_APPLY_SURPLUS_ABOVE_THRESHOLD">
+<description>(In-game) Used to define current food's surplus thresholds</description>
+<key>CAI_VARIABLE_FOOD_CTRL_BUILDING_APPLY_SURPLUS_ABOVE_THRESHOLD</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{685703e0-d5f4-427f-817c-a3c8e446eeea}" record_timestamp="1458319824975" record_key="CAI_VARIABLE_FOOD_CTRL_BUILDING_BONUS">
+<description>(In-game) Bonus applied (per food point) for buildings that increase food up to the specified level.</description>
+<key>CAI_VARIABLE_FOOD_CTRL_BUILDING_BONUS</key>
+<value>20</value>
+</cai_variables>
+<cai_variables record_uuid="{7d8c97bf-400d-4aa6-8c52-898bf39c8e90}" record_timestamp="1458319824978" record_key="CAI_VARIABLE_FOOD_CTRL_BUILDING_NEW_BUILDING_BONUS_SCALING">
+<description>(In-game) When calculating food based building score adjustements, the discount applied for being a new building.</description>
+<key>CAI_VARIABLE_FOOD_CTRL_BUILDING_NEW_BUILDING_BONUS_SCALING</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{bd146dd8-8153-4f91-a11e-66e5df43f104}" record_timestamp="1458319824978" record_key="CAI_VARIABLE_FOOD_CTRL_BUILDING_PENALTY">
+<description>(In-game) Penalty applied (per food point) for buildings that use food beyond the specified level.</description>
+<key>CAI_VARIABLE_FOOD_CTRL_BUILDING_PENALTY</key>
+<value>20</value>
+</cai_variables>
+<cai_variables record_uuid="{9b8292a2-f432-45ad-85c2-2b3f1e677ed0}" record_timestamp="1458319824979" record_key="CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_CONVERSION_THRESHOLD_BASIC">
+<description>(In-game) Score at or above which the ongoing food detection system will start allowing building conversion to solve the problem.</description>
+<key>CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_CONVERSION_THRESHOLD_BASIC</key>
+<value>30</value>
+</cai_variables>
+<cai_variables record_uuid="{0b2f12c1-adbb-44d2-88d5-1932dd93a60d}" record_timestamp="1458319824979" record_key="CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_CONVERSION_THRESHOLD_REGION_ADJUSTMENT">
+<description>(In-game) Per region based adjustment to CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_CONVERSION_THRESHOLD_BASIC.</description>
+<key>CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_CONVERSION_THRESHOLD_REGION_ADJUSTMENT</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{c45068f1-f707-483d-a478-24c94298a42a}" record_timestamp="1458319824979" record_key="CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_DEMOLITION_THRESHOLD_BASIC">
+<description>(In-game) Score at or above which the ongoing food detection system will start allowing building demolition to solve the problem.</description>
+<key>CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_DEMOLITION_THRESHOLD_BASIC</key>
+<value>60</value>
+</cai_variables>
+<cai_variables record_uuid="{645b9f01-eea8-4cd9-b17a-7d2564dcd59a}" record_timestamp="1458319824980" record_key="CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_DEMOLITION_THRESHOLD_REGION_ADJUSTMENT">
+<description>(In-game) Per region based adjustment to CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_DEMOLITION_THRESHOLD_BASIC.</description>
+<key>CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_DEMOLITION_THRESHOLD_REGION_ADJUSTMENT</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{150c6faf-55a7-4a6b-8b27-d4967c0a4ff8}" record_timestamp="1518192135927" record_key="CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_DIPLOMACY_THRESHOLD_BASIC">
+<description>(In-game) Diplomacy threshold for food problem.</description>
+<key>CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_DIPLOMACY_THRESHOLD_BASIC</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{0c4597d2-9dc0-4e36-b8ff-0785c2162152}" record_timestamp="1458319824980" record_key="CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_SCORE_PER_TURN_ACCUMULATION_CAP">
+<description>(In-game) When accruing score for the ongoing food problem detection system the cap applied to the amount being added to the score.</description>
+<key>CAI_VARIABLE_FOOD_CTRL_ONGOING_PROBLEM_SCORE_PER_TURN_ACCUMULATION_CAP</key>
+<value>20</value>
+</cai_variables>
+<cai_variables record_uuid="{b1ec78ec-21aa-445d-b2bf-18b0565072c2}" record_timestamp="1507038778488" record_key="CAI_VARIABLE_FORTIFIED_SETTLEMENT_FORTIFICATION_BONUS">
+<description>(In-game) AI strength bonus for fortified settlements.</description>
+<key>CAI_VARIABLE_FORTIFIED_SETTLEMENT_FORTIFICATION_BONUS</key>
+<value>750000</value>
+</cai_variables>
+<cai_variables record_uuid="{d7044a1a-5ba2-4cdb-bb2f-bcaf3af4ead4}" record_timestamp="1507038778488" record_key="CAI_VARIABLE_FORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER">
+<description>(In-game) AI strength multiplier for fortified settlements, modified by Siege engines.</description>
+<key>CAI_VARIABLE_FORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{02340988-2ce9-4c9d-b1b3-52b62db98993}" record_timestamp="1507038778488" record_key="CAI_VARIABLE_FORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER_PRE_ASSAULT">
+<description>(In-game) AI strength multiplier for fortified settlements, pre-assault.</description>
+<key>CAI_VARIABLE_FORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER_PRE_ASSAULT</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{1d70ebdb-d834-4093-8fbb-a330ed5864fa}" record_timestamp="1458319824982" record_key="CAI_VARIABLE_FORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER_SIEGE_ENGINE_DECREASE">
+<description>(In-game) Reduction of fortification bonus for each siege engine present.</description>
+<key>CAI_VARIABLE_FORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER_SIEGE_ENGINE_DECREASE</key>
+<value>0.25</value>
+</cai_variables>
+<cai_variables record_uuid="{87158090-e6ca-49b5-9b96-9451bfb9c8fd}" record_timestamp="1458319824982" record_key="CAI_VARIABLE_FORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER_THREAT">
+<description>(In-game) AI strength multiplier for fortified settlements  used for threat detection.</description>
+<key>CAI_VARIABLE_FORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER_THREAT</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{e511cb06-cb6b-4251-9770-b6268d46a870}" record_timestamp="1512737688649" record_key="CAI_VARIABLE_GDP_BASE_FOR_DEAL_EVALUATION">
+<description>(In-game) Used for deal evaluation economic calculations as a base gdp value.</description>
+<key>CAI_VARIABLE_GDP_BASE_FOR_DEAL_EVALUATION</key>
+<value>1000</value>
+</cai_variables>
+<cai_variables record_uuid="{da1af176-1298-498d-acdd-35f4af82c01a}" record_timestamp="1458319824983" record_key="CAI_VARIABLE_GLOBAL_ENEMY_THREAT_MODIFIER">
+<description>(In-game) Modifier for enemy strength in threat calculations. Cannot be 0.</description>
+<key>CAI_VARIABLE_GLOBAL_ENEMY_THREAT_MODIFIER</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{52cd9190-b642-45e7-b1db-d72f356eebc3}" record_timestamp="1535625467559" record_key="CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MAJOR_ADD_INACTIVE_SPIES_TO_CAPS">
+<description>(In-game) Unassigned spies add to all caps when considering distributing spies to major AI factions.</description>
+<key>CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MAJOR_ADD_INACTIVE_SPIES_TO_CAPS</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{8b896725-9865-4672-b39f-5368eb95e89b}" record_timestamp="1520009548025" record_key="CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MAJOR_ALLIED_ACTIVE_CAP">
+<description>(In-game) The total number of supporting allied spies the AI system as a whole is allowed to embed within a major AI faction.</description>
+<key>CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MAJOR_ALLIED_ACTIVE_CAP</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{bd2ca89a-778d-4ead-9d7b-00d4dbc1e93b}" record_timestamp="1520009548026" record_key="CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MAJOR_LONG_TERM_PASSIVE_CAP">
+<description>(In-game) The total number of long term passive spies the AI system as a whole is allowed to embed within a major AI faction.</description>
+<key>CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MAJOR_LONG_TERM_PASSIVE_CAP</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{e4adb275-b255-4c28-a507-16220b60a877}" record_timestamp="1520009548026" record_key="CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MAJOR_SHORT_TERM_ACTIVE_CAP">
+<description>(In-game) The total number of short term active spies the AI system as a whole is allowed to embed within a major AI faction.</description>
+<key>CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MAJOR_SHORT_TERM_ACTIVE_CAP</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{2c9cc4d0-424c-4f9e-889f-53cc42ddf395}" record_timestamp="1535625467560" record_key="CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MINOR_ADD_INACTIVE_SPIES_TO_CAPS">
+<description>(In-game) Unassigned spies add to all caps when considering distributing spies to minor AI factions.</description>
+<key>CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MINOR_ADD_INACTIVE_SPIES_TO_CAPS</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{6d8c87b7-71f5-484e-990d-28e0edea689e}" record_timestamp="1520009548026" record_key="CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MINOR_ALLIED_ACTIVE_CAP">
+<description>(In-game) The total number of supporting allied spies the AI system as a whole is allowed to embed within a minor AI faction.</description>
+<key>CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MINOR_ALLIED_ACTIVE_CAP</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{c58a59fd-e665-4de2-8dee-dc2e6a5c5d4d}" record_timestamp="1520009548026" record_key="CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MINOR_LONG_TERM_PASSIVE_CAP">
+<description>(In-game) The total number of long term passive spies the AI system as a whole is allowed to embed within a minor AI faction.</description>
+<key>CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MINOR_LONG_TERM_PASSIVE_CAP</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{ac1b4715-5659-4d6c-906f-16ca56a28cb7}" record_timestamp="1520009548026" record_key="CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MINOR_SHORT_TERM_ACTIVE_CAP">
+<description>(In-game) The total number of short term active spies the AI system as a whole is allowed to embed within a minor AI faction.</description>
+<key>CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_AI_MINOR_SHORT_TERM_ACTIVE_CAP</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{b19060b4-673d-43bc-9796-4c38c26cb0f0}" record_timestamp="1535625467559" record_key="CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_HUMAN_ADD_INACTIVE_SPIES_TO_CAPS">
+<description>(In-game) Unassigned spies add to all caps when considering distributing spies to human owned factions.</description>
+<key>CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_HUMAN_ADD_INACTIVE_SPIES_TO_CAPS</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{63180bf8-a909-44a0-acd4-9a501a6b896d}" record_timestamp="1520009548026" record_key="CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_HUMAN_ALLIED_ACTIVE_CAP">
+<description>(In-game) The total number of supporting allied spies the AI system as a whole is allowed to embed within a human faction.</description>
+<key>CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_HUMAN_ALLIED_ACTIVE_CAP</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{f178a334-7449-4104-b6ed-91fce43f187a}" record_timestamp="1520009548026" record_key="CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_HUMAN_LONG_TERM_PASSIVE_CAP">
+<description>(In-game) The total number of long term passive spies the AI system as a whole is allowed to embed within a human faction.</description>
+<key>CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_HUMAN_LONG_TERM_PASSIVE_CAP</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{67cfd48c-5b49-469f-9cde-3773cec78d44}" record_timestamp="1520009548026" record_key="CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_HUMAN_SHORT_TERM_ACTIVE_CAP">
+<description>(In-game) The total number of short term active spies the AI system as a whole is allowed to embed within a human faction.</description>
+<key>CAI_VARIABLE_GLOBAL_SPY_MANAGEMENT_HUMAN_SHORT_TERM_ACTIVE_CAP</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{4c0b1544-6c8a-46c6-a795-c37a078b1e8a}" record_timestamp="1458319824983" record_key="CAI_VARIABLE_HORDE_GROUPING_HORDES_TO_SPLIT_FROM_GROUP_ON_OVERSIZE">
+<description>(In-game) When adding a horde to an existing group the number of hordes to split from the group (excluding the new horde) to use in forming a new horde group.</description>
+<key>CAI_VARIABLE_HORDE_GROUPING_HORDES_TO_SPLIT_FROM_GROUP_ON_OVERSIZE</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{1e31ff81-a37a-455b-a5b7-ae59cefb6e57}" record_timestamp="1458319824984" record_key="CAI_VARIABLE_HORDE_GROUPING_MAXIMUM_GROUP_SIZE">
+<description>(In-game) Maximum size of a horde group.</description>
+<key>CAI_VARIABLE_HORDE_GROUPING_MAXIMUM_GROUP_SIZE</key>
+<value>3</value>
+</cai_variables>
+<cai_variables record_uuid="{02c1c2e9-1255-49f8-aacd-39f9e816c325}" record_timestamp="1458319824906" record_key="CAI_VARIABLE_HORDE_GROUPING_MAXIMUM_NEW_GROUP_MEMBERSHIP_DISTANCE">
+<description>(In-game) Maximum acceptable distance from a horde to consider membership - multiplier on the median bordering inter-region distance.</description>
+<key>CAI_VARIABLE_HORDE_GROUPING_MAXIMUM_NEW_GROUP_MEMBERSHIP_DISTANCE</key>
+<value>20</value>
+</cai_variables>
+<cai_variables record_uuid="{120ab70d-cdc7-4c42-a5df-8a434fb86b9f}" record_timestamp="1458319824984" record_key="CAI_VARIABLE_IMPERIUM_ATTITUDE_BONUS_MODIFIER_AI">
+<description>(In-game) Modifier to imperium attitude bonus towards the AI.</description>
+<key>CAI_VARIABLE_IMPERIUM_ATTITUDE_BONUS_MODIFIER_AI</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{8d3191df-63be-46cf-8afb-0e18e2dd89cc}" record_timestamp="1458319824984" record_key="CAI_VARIABLE_IMPERIUM_ATTITUDE_BONUS_MODIFIER_PLAYER">
+<description>(In-game) Modifier to imperium attitude bonus towards the player.</description>
+<key>CAI_VARIABLE_IMPERIUM_ATTITUDE_BONUS_MODIFIER_PLAYER</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{8d26640f-5624-4254-888e-cb1e3178958b}" record_timestamp="1458319824985" record_key="CAI_VARIABLE_IMPERIUM_ATTITUDE_PENALTY_MODIFIER_AI">
+<description>(In-game) Modifier to imperium attitude penalty towards the AI.</description>
+<key>CAI_VARIABLE_IMPERIUM_ATTITUDE_PENALTY_MODIFIER_AI</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{2fbb3300-6ba3-4b46-8931-f495ddbfc055}" record_timestamp="1458319824985" record_key="CAI_VARIABLE_IMPERIUM_ATTITUDE_PENALTY_MODIFIER_PLAYER">
+<description>(In-game) Modifier to imperium attitude penalty towards the player.</description>
+<key>CAI_VARIABLE_IMPERIUM_ATTITUDE_PENALTY_MODIFIER_PLAYER</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{44c5364f-5ffd-4343-9fc7-585359833aac}" record_timestamp="1458319824904" record_key="CAI_VARIABLE_MAX_CONFEDERATION_STRENGTH">
+<description>(In-game) AI will receive a bonus to onfederating when the resulting faction would be under this proportion of human strength.</description>
+<key>CAI_VARIABLE_MAX_CONFEDERATION_STRENGTH</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{a259bbb5-a5d6-433d-957a-d9551151d1fa}" record_timestamp="1458319824986" record_key="CAI_VARIABLE_MAX_GOAL_EVALAUTIONS_PER_FACTION">
+<description>(In-game) Maximum number of goals evaluated by each faction per round.</description>
+<key>CAI_VARIABLE_MAX_GOAL_EVALAUTIONS_PER_FACTION</key>
+<value>60</value>
+</cai_variables>
+<cai_variables record_uuid="{0624d989-f08c-4dfe-9f32-b728488ef98a}" record_timestamp="1458319824986" record_key="CAI_VARIABLE_MAX_GOAL_EVALAUTIONS_PER_ROUND">
+<description>(In-game) Maximum number of goals evaluated by all factions per round.</description>
+<key>CAI_VARIABLE_MAX_GOAL_EVALAUTIONS_PER_ROUND</key>
+<value>1000</value>
+</cai_variables>
+<cai_variables record_uuid="{2e88188d-f54a-439b-bf62-07f09327fd89}" record_timestamp="1538832330825" record_key="CAI_VARIABLE_MAX_NONCRUCIAL_OFFERS_TO_PLAYER_PER_TURN">
+<description>k</description>
+<key>CAI_VARIABLE_MAX_NONCRUCIAL_OFFERS_TO_PLAYER_PER_TURN</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{5b4700f5-c594-4840-9ff8-e1ddf17b2ff4}" record_timestamp="1465987151354" record_key="CAI_VARIABLE_MAX_REBEL_SIEGE_EQUIP">
+<description>(In-game) Number of siege engines required before rebels assault a highest level fortified settlement.</description>
+<key>CAI_VARIABLE_MAX_REBEL_SIEGE_EQUIP</key>
+<value>4</value>
+</cai_variables>
+<cai_variables record_uuid="{c406ae72-9921-4e4f-b0b7-11e916bfe56e}" record_timestamp="1458319824902" record_key="CAI_VARIABLE_MIGRATION_ENEMY_STRENGTH_PROBABILITY_LOWER">
+<description>(In-game) Probability of migration at the lower threshold.</description>
+<key>CAI_VARIABLE_MIGRATION_ENEMY_STRENGTH_PROBABILITY_LOWER</key>
+<value>0.01</value>
+</cai_variables>
+<cai_variables record_uuid="{f3212f5c-95da-4ad0-a34e-74836e81763e}" record_timestamp="1458319824902" record_key="CAI_VARIABLE_MIGRATION_ENEMY_STRENGTH_PROBABILITY_UPPER">
+<description>(In-game) Probability of migration at and beyond the upper threshold.</description>
+<key>CAI_VARIABLE_MIGRATION_ENEMY_STRENGTH_PROBABILITY_UPPER</key>
+<value>0.15</value>
+</cai_variables>
+<cai_variables record_uuid="{0a53f42f-df91-48f9-9bf5-95da819862c3}" record_timestamp="1458319824901" record_key="CAI_VARIABLE_MIGRATION_ENEMY_STRENGTH_THRESHOLD_LOWER">
+<description>(In-game) Lower threshold for enemy strength for migration. Expressed as a multiple of our strength.</description>
+<key>CAI_VARIABLE_MIGRATION_ENEMY_STRENGTH_THRESHOLD_LOWER</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{0c255eaf-0dfa-4cf7-aa7f-c8d4346d5af8}" record_timestamp="1458319824901" record_key="CAI_VARIABLE_MIGRATION_ENEMY_STRENGTH_THRESHOLD_UPPER">
+<description>(In-game) Upper threshold for enemy strength for migration. Expressed as a multiple of our strength.</description>
+<key>CAI_VARIABLE_MIGRATION_ENEMY_STRENGTH_THRESHOLD_UPPER</key>
+<value>5</value>
+</cai_variables>
+<cai_variables record_uuid="{47a57dca-b7e3-4a16-9f4c-d3e6f5ce0b5f}" record_timestamp="1458319824866" record_key="CAI_VARIABLE_MIGRATION_FERTILITY_PROBABILITY">
+<description>(In-game) Probability of migration when fertility is low.</description>
+<key>CAI_VARIABLE_MIGRATION_FERTILITY_PROBABILITY</key>
+<value>0.01</value>
+</cai_variables>
+<cai_variables record_uuid="{05b3f734-b1c1-42ba-ad4d-90d177f135bb}" record_timestamp="1458319824866" record_key="CAI_VARIABLE_MIGRATION_FERTILITY_THRESHOLD">
+<description>(In-game) Fertility level below which migration will be considered.</description>
+<key>CAI_VARIABLE_MIGRATION_FERTILITY_THRESHOLD</key>
+<value>0.25</value>
+</cai_variables>
+<cai_variables record_uuid="{e77f90e5-ad7c-4f37-9306-ba9d2495311a}" record_timestamp="1458319824867" record_key="CAI_VARIABLE_MIGRATION_THREATENING_HORDE_ATTITUDE_THRESHOLD">
+<description>(In-game) Hordes below that attitude will be considered a threat when deciding whether to migrate.</description>
+<key>CAI_VARIABLE_MIGRATION_THREATENING_HORDE_ATTITUDE_THRESHOLD</key>
+<value>-25</value>
+</cai_variables>
+<cai_variables record_uuid="{2d75e3dc-58fd-47f5-92d9-cb5bf3a82b4f}" record_timestamp="1458319824987" record_key="CAI_VARIABLE_MINOR_SETTLEMENT_FIELD_BATTLE_PERCENT">
+<description>(In-game) Percentage chance that the AI will choose to fight you on the field for non-port, minor settlement battles.</description>
+<key>CAI_VARIABLE_MINOR_SETTLEMENT_FIELD_BATTLE_PERCENT</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{88084c19-8c9d-40f6-ab20-03fc46450347}" record_timestamp="1465987151353" record_key="CAI_VARIABLE_MIN_REBEL_SIEGE_EQUIP">
+<description>(In-game) Number of siege engines required before rebels assault a lowest level fortified settlement.</description>
+<key>CAI_VARIABLE_MIN_REBEL_SIEGE_EQUIP</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{84867b00-2992-49bc-8cfd-27c96d4dddaa}" record_timestamp="1458319824987" record_key="CAI_VARIABLE_MOBILE_STRENGTH_ARMY_WEIGHT">
+<description>(In-game) Weight of army strength when analyzing strength on sea.</description>
+<key>CAI_VARIABLE_MOBILE_STRENGTH_ARMY_WEIGHT</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{3046b7f6-e44f-42bb-a684-fe68b8a7849e}" record_timestamp="1458319824987" record_key="CAI_VARIABLE_MOBILE_STRENGTH_NAVY_WEIGHT">
+<description>(In-game) Weight of navy strength when analyzing strength on sea.</description>
+<key>CAI_VARIABLE_MOBILE_STRENGTH_NAVY_WEIGHT</key>
+<value>3</value>
+</cai_variables>
+<cai_variables record_uuid="{e980010f-6a65-45d7-85f2-64cdabd7b544}" record_timestamp="1458319824988" record_key="CAI_VARIABLE_NIGHT_BATTLE_PERCENT">
+<description>(In-game) Percentage chance that the AI will choose to fight you at night.</description>
+<key>CAI_VARIABLE_NIGHT_BATTLE_PERCENT</key>
+<value>5</value>
+</cai_variables>
+<cai_variables record_uuid="{bd25447a-1ba7-483b-97de-92d20a1d2210}" record_timestamp="1542295672177" record_key="CAI_VARIABLE_NON_COORDINATED_SPY_MANAGEMENT_ADDITIONAL_REVEAL_PERCENTAGE_PER_CHARACTER_SKILL_LEVEL">
+<description>(In-game) For non-coordinated spy actions, the additional percentage probability per character skill level that a spy won't reveal themselves by under-estimating spy action costs.</description>
+<key>CAI_VARIABLE_NON_COORDINATED_SPY_MANAGEMENT_ADDITIONAL_REVEAL_PERCENTAGE_PER_CHARACTER_SKILL_LEVEL</key>
+<value>3</value>
+</cai_variables>
+<cai_variables record_uuid="{eb833600-3205-4a69-8296-c075e9d6a3c4}" record_timestamp="1542295672177" record_key="CAI_VARIABLE_NON_COORDINATED_SPY_MANAGEMENT_BASE_REVEAL_PERCENTAGE">
+<description>(In-game) For non-coordinated spy actions, the base percentage probability that a spy won't reveal themselves by under-estimating spy action costs.</description>
+<key>CAI_VARIABLE_NON_COORDINATED_SPY_MANAGEMENT_BASE_REVEAL_PERCENTAGE</key>
+<value>50</value>
+</cai_variables>
+<cai_variables record_uuid="{0b6398cd-f77f-4933-92b1-6b64b6bccc84}" record_timestamp="1458319824988" record_key="CAI_VARIABLE_OCCUPATION_DECISION_TIME_HORIZON">
+<description>(In-game) Time in rounds beyond which specific occupation decisions information against a settlement will be forgotten.</description>
+<key>CAI_VARIABLE_OCCUPATION_DECISION_TIME_HORIZON</key>
+<value>20</value>
+</cai_variables>
+<cai_variables record_uuid="{297e6e73-8bd1-4ae8-b25a-59b1808529a7}" record_timestamp="1487334612946" record_key="CAI_VARIABLE_PLAYER_AP_ADJUSTMENT_DEADZONE_MAX">
+<description>(In-game) Upper bound for player AP deadzone adjustment for threat detection purposes.</description>
+<key>CAI_VARIABLE_PLAYER_AP_ADJUSTMENT_DEADZONE_MAX</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{3abce4f1-6b0d-4cf3-96ce-e7b504ade715}" record_timestamp="1487334612955" record_key="CAI_VARIABLE_PLAYER_AP_ADJUSTMENT_DEADZONE_MIN">
+<description>(In-game) Lower bound for player AP deadzone adjustment for threat detection purposes.</description>
+<key>CAI_VARIABLE_PLAYER_AP_ADJUSTMENT_DEADZONE_MIN</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{4b35be07-950a-46ff-af20-9ca23c97e382}" record_timestamp="1487258600059" record_key="CAI_VARIABLE_PLAYER_AP_ADJUSTMENT_MAX">
+<description>(In-game) Upper bound for player AP adjustment for threat detection purposes.</description>
+<key>CAI_VARIABLE_PLAYER_AP_ADJUSTMENT_MAX</key>
+<value>1.1</value>
+</cai_variables>
+<cai_variables record_uuid="{3a0aa2d6-aa1a-423e-8eb2-d2311e2c39a4}" record_timestamp="1487258600068" record_key="CAI_VARIABLE_PLAYER_AP_ADJUSTMENT_MIN">
+<description>(In-game) Lower bound for player AP adjustment for threat detection purposes.</description>
+<key>CAI_VARIABLE_PLAYER_AP_ADJUSTMENT_MIN</key>
+<value>0.9</value>
+</cai_variables>
+<cai_variables record_uuid="{24ab085a-e4b4-4c49-836d-bf4d0273db45}" record_timestamp="1458319824989" record_key="CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_APPLY_BONUS_AT_OR_BELOW">
+<description>(In-game) The point at or below which bonus will be provided to public order improvement buildings.</description>
+<key>CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_APPLY_BONUS_AT_OR_BELOW</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{2411a0a6-b4fe-45c0-9749-6e0ed752da51}" record_timestamp="1458319824989" record_key="CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_APPLY_PENALTY_BELOW">
+<description>(In-game) The point below which a public order penalty will be applied to a building option.</description>
+<key>CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_APPLY_PENALTY_BELOW</key>
+<value>-1</value>
+</cai_variables>
+<cai_variables record_uuid="{5c694a1a-0a4c-4b3f-9038-cc93a4dd8b97}" record_timestamp="1458319824990" record_key="CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_BONUS">
+<description>(In-game) Bonus applied (per public order point) for buildings that increae public order up to the specified level.</description>
+<key>CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_BONUS</key>
+<value>20</value>
+</cai_variables>
+<cai_variables record_uuid="{0e10c614-568b-40f9-860a-b89106eaf57e}" record_timestamp="1458319824990" record_key="CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_NEW_BUILDING_BONUS_SCALING">
+<description>(In-game) When calculating public order based building score adjustements, the discount applied for being a new building.</description>
+<key>CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_NEW_BUILDING_BONUS_SCALING</key>
+<value>0.5</value>
+</cai_variables>
+<cai_variables record_uuid="{dba381ab-97e7-432e-88d0-a43100f91f94}" record_timestamp="1458319824991" record_key="CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_PENALTY">
+<description>(In-game) Penalty applied (per public order point) for buildings that use public order beyond the specified level.</description>
+<key>CAI_VARIABLE_PUBLIC_ORDER_CTRL_BUILDING_PENALTY</key>
+<value>20</value>
+</cai_variables>
+<cai_variables record_uuid="{3968f739-8640-4b7e-9b34-a1b67b9002d5}" record_timestamp="1458319824991" record_key="CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_CONVERSION_THRESHOLD_BASIC">
+<description>(In-game) The public order problem score for a province beyond which conversion is considered as a solution.</description>
+<key>CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_CONVERSION_THRESHOLD_BASIC</key>
+<value>50</value>
+</cai_variables>
+<cai_variables record_uuid="{099002bc-06c5-4fa2-af3b-de710ccaf003}" record_timestamp="1458319824992" record_key="CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_DEMOLITION_THRESHOLD_BASIC">
+<description>(In-game) The public order problem score for a province beyond which demolition is considered as a solution.</description>
+<key>CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_DEMOLITION_THRESHOLD_BASIC</key>
+<value>100</value>
+</cai_variables>
+<cai_variables record_uuid="{4ef1accf-df46-46c3-8786-82579e71e493}" record_timestamp="1553245849627" record_key="CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_SCORE_PER_TURN_ACCUMULATION_CAP">
+<description>(In-game) The maximum public order problem score that can be accumulated in one round for a given province.</description>
+<key>CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_SCORE_PER_TURN_ACCUMULATION_CAP</key>
+<value>25</value>
+</cai_variables>
+<cai_variables record_uuid="{674626e9-541f-4ee9-a49e-2c565636cc72}" record_timestamp="1458319824993" record_key="CAI_VARIABLE_REBEL_QUALITY_MULTIPLIER">
+<description>(In-game) Limits the rebel unit quality to (([sum of building levels in region] * multiplier) + offset) * [quality of best recruitable unit in faction province].</description>
+<key>CAI_VARIABLE_REBEL_QUALITY_MULTIPLIER</key>
+<value>0.01</value>
+</cai_variables>
+<cai_variables record_uuid="{93242b5b-7051-4eeb-8e67-f7ba1a323094}" record_timestamp="1458319824993" record_key="CAI_VARIABLE_REBEL_QUALITY_OFFSET">
+<description>(In-game) Limits the rebel unit quality to (([sum of building levels in region] * multiplier) + offset) * [quality of best recruitable unit in faction province].</description>
+<key>CAI_VARIABLE_REBEL_QUALITY_OFFSET</key>
+<value>0.1</value>
+</cai_variables>
+<cai_variables record_uuid="{dd2c0323-7917-4ade-aa52-161d457913e8}" record_timestamp="1458319824875" record_key="CAI_VARIABLE_REBEL_WAIT_TIMEOUT_ADJUSTMENT_ON_FURTHER_REBELLION_MAX">
+<description>(In-game) In the case that an additional rebellion would trigger in a region with an existing rebellion, by how much should that existing rebellions attack time out be adjusted. Maximum adjustment.</description>
+<key>CAI_VARIABLE_REBEL_WAIT_TIMEOUT_ADJUSTMENT_ON_FURTHER_REBELLION_MAX</key>
+<value>-1</value>
+</cai_variables>
+<cai_variables record_uuid="{9bc9a74f-e9da-4ef2-9fdf-8cb39a2c775e}" record_timestamp="1458319824875" record_key="CAI_VARIABLE_REBEL_WAIT_TIMEOUT_ADJUSTMENT_ON_FURTHER_REBELLION_MIN">
+<description>(In-game) In the case that an additional rebellion would trigger in a region with an existing rebellion, by how much should that existing rebellions attack time out be adjusted. Minimum adjustment.</description>
+<key>CAI_VARIABLE_REBEL_WAIT_TIMEOUT_ADJUSTMENT_ON_FURTHER_REBELLION_MIN</key>
+<value>-1</value>
+</cai_variables>
+<cai_variables record_uuid="{2ca79303-55b7-4928-83a3-5b6abd4a2025}" record_timestamp="1458319824994" record_key="CAI_VARIABLE_REBEL_WAIT_TIMEOUT_MAXIMUM">
+<description>(In-game) Maximum timeout used for a rebel faction before it should consider an arbitrary attack.</description>
+<key>CAI_VARIABLE_REBEL_WAIT_TIMEOUT_MAXIMUM</key>
+<value>7</value>
+</cai_variables>
+<cai_variables record_uuid="{f77bedac-cec7-4f1d-a6ac-4bdcf622ec47}" record_timestamp="1458319824994" record_key="CAI_VARIABLE_REBEL_WAIT_TIMEOUT_MINIMUM">
+<description>(In-game) Minimum timeout used for a rebel faction before it should consider an arbitrary attack.</description>
+<key>CAI_VARIABLE_REBEL_WAIT_TIMEOUT_MINIMUM</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{260bd82e-e9a0-4b36-be5f-728c6bb87704}" record_timestamp="1458319824995" record_key="CAI_VARIABLE_RFB_EASY_NO_BELOW_MIN_UNITS">
+<description>(In-game) Below this number of defending units don't allow retreat (easy difficulty).</description>
+<key>CAI_VARIABLE_RFB_EASY_NO_BELOW_MIN_UNITS</key>
+<value>5</value>
+</cai_variables>
+<cai_variables record_uuid="{e2dc5aff-23f4-425b-8aff-989fded0511c}" record_timestamp="1458319824995" record_key="CAI_VARIABLE_RFB_EASY_YES_BELOW_RATIO_NO_SETT_RETREAT">
+<description>(In-game) If defender can not retreat to a settlement and defender/attacker strength ratio is below this number, retreat (easy difficulty).</description>
+<key>CAI_VARIABLE_RFB_EASY_YES_BELOW_RATIO_NO_SETT_RETREAT</key>
+<value>0.2</value>
+</cai_variables>
+<cai_variables record_uuid="{17695908-7789-4b05-b5c2-9431e94d3ce7}" record_timestamp="1458319824996" record_key="CAI_VARIABLE_RFB_EASY_YES_BELOW_RATIO_SETT_RETREAT">
+<description>(In-game) If defender can retreat to a settlement and defender/attacker strength ratio is below this number, retreat (easy difficulty).</description>
+<key>CAI_VARIABLE_RFB_EASY_YES_BELOW_RATIO_SETT_RETREAT</key>
+<value>0.4</value>
+</cai_variables>
+<cai_variables record_uuid="{f9db6790-dc9e-4d4e-ac17-b9e882ccb966}" record_timestamp="1458319824996" record_key="CAI_VARIABLE_RFB_HARD_NO_BELOW_MIN_UNITS">
+<description>(In-game) Below this number of defending units don't allow retreat (hard difficulty).</description>
+<key>CAI_VARIABLE_RFB_HARD_NO_BELOW_MIN_UNITS</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{e20f7731-29df-4700-aece-3e97536098fd}" record_timestamp="1458319824997" record_key="CAI_VARIABLE_RFB_HARD_YES_BELOW_RATIO_NO_SETT_RETREAT">
+<description>(In-game) If defender can not retreat to a settlement and defender/attacker strength ratio is below this number, retreat (hardl difficulty).</description>
+<key>CAI_VARIABLE_RFB_HARD_YES_BELOW_RATIO_NO_SETT_RETREAT</key>
+<value>0.4</value>
+</cai_variables>
+<cai_variables record_uuid="{2762bd2d-5818-42f0-9f11-5591402fd9c6}" record_timestamp="1458319824997" record_key="CAI_VARIABLE_RFB_HARD_YES_BELOW_RATIO_SETT_RETREAT">
+<description>(In-game) If defender can retreat to a settlement and defender/attacker strength ratio is below this number, retreat (hard difficulty).</description>
+<key>CAI_VARIABLE_RFB_HARD_YES_BELOW_RATIO_SETT_RETREAT</key>
+<value>0.6</value>
+</cai_variables>
+<cai_variables record_uuid="{2f914cf9-e406-42e7-88f9-f7717fbe4c63}" record_timestamp="1458319824998" record_key="CAI_VARIABLE_RFB_NORMAL_NO_BELOW_MIN_UNITS">
+<description>(In-game) Below this number of defending units don't allow retreat (normal difficulty).</description>
+<key>CAI_VARIABLE_RFB_NORMAL_NO_BELOW_MIN_UNITS</key>
+<value>4</value>
+</cai_variables>
+<cai_variables record_uuid="{48f186b9-9bd1-4b19-a102-78a63172afb9}" record_timestamp="1458319824998" record_key="CAI_VARIABLE_RFB_NORMAL_YES_BELOW_RATIO_NO_SETT_RETREAT">
+<description>(In-game) If defender can not retreat to a settlement and defender/attacker strength ratio is below this number, retreat (normal difficulty).</description>
+<key>CAI_VARIABLE_RFB_NORMAL_YES_BELOW_RATIO_NO_SETT_RETREAT</key>
+<value>0.3</value>
+</cai_variables>
+<cai_variables record_uuid="{f66a1c30-72e3-4d6d-8de7-0bfd45d6f61b}" record_timestamp="1458319824999" record_key="CAI_VARIABLE_RFB_NORMAL_YES_BELOW_RATIO_SETT_RETREAT">
+<description>(In-game) If defender can retreat to a settlement and defender/attacker strength ratio is below this number, retreat (normal difficulty).</description>
+<key>CAI_VARIABLE_RFB_NORMAL_YES_BELOW_RATIO_SETT_RETREAT</key>
+<value>0.5</value>
+</cai_variables>
+<cai_variables record_uuid="{30680cfe-6d30-4990-9587-7c7d5e4a96b7}" record_timestamp="1458319824999" record_key="CAI_VARIABLE_RFB_TEST_VERSUS_AI">
+<description>(In-game) Above zero, allows AI to consider retreat versus another AI.</description>
+<key>CAI_VARIABLE_RFB_TEST_VERSUS_AI</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{3c3568bb-b85c-4a87-a493-db1f9ba6707e}" record_timestamp="1458319825000" record_key="CAI_VARIABLE_RFB_VHARD_NO_BELOW_MIN_UNITS">
+<description>(In-game) Below this number of defending units don't allow retreat (very hard difficulty).</description>
+<key>CAI_VARIABLE_RFB_VHARD_NO_BELOW_MIN_UNITS</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{233bfbbe-f8c6-44e9-90c7-54650546fd1e}" record_timestamp="1458319825000" record_key="CAI_VARIABLE_RFB_VHARD_YES_BELOW_RATIO_NO_SETT_RETREAT">
+<description>(In-game) If defender can not retreat to a settlement and defender/attacker strength ratio is below this number, retreat (very hard difficulty).</description>
+<key>CAI_VARIABLE_RFB_VHARD_YES_BELOW_RATIO_NO_SETT_RETREAT</key>
+<value>0.45</value>
+</cai_variables>
+<cai_variables record_uuid="{d5771bb0-0e26-4cd6-aebb-20ae38767e4d}" record_timestamp="1458319825001" record_key="CAI_VARIABLE_RFB_VHARD_YES_BELOW_RATIO_SETT_RETREAT">
+<description>(In-game) If defender can retreat to a settlement and defender/attacker strength ratio is below this number, retreat (very hard difficulty).</description>
+<key>CAI_VARIABLE_RFB_VHARD_YES_BELOW_RATIO_SETT_RETREAT</key>
+<value>0.65</value>
+</cai_variables>
+<cai_variables record_uuid="{05d9ef42-9d2b-4fb2-9582-c0f06c000b81}" record_timestamp="1458319825001" record_key="CAI_VARIABLE_SAFE_PATH_STRENGTH_MODIFIER">
+<description>(In-game) Modifier for own strength in safe path calculations.</description>
+<key>CAI_VARIABLE_SAFE_PATH_STRENGTH_MODIFIER</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{785eedec-fe58-4023-aee6-5f1926cd9413}" record_timestamp="1458319825001" record_key="CAI_VARIABLE_SETTLEMENT_NIGHT_BATTLE_PERCENT">
+<description>(In-game) Percentage chance that the AI will choose to fight you at night for settlement battles.</description>
+<key>CAI_VARIABLE_SETTLEMENT_NIGHT_BATTLE_PERCENT</key>
+<value>5</value>
+</cai_variables>
+<cai_variables record_uuid="{92a04c87-bb12-40c6-a8fe-5e648fea6758}" record_timestamp="1458319825002" record_key="CAI_VARIABLE_SETTLEMENT_STRENGTH_MODIFIER_ASSAULT">
+<description>(In-game) Personality-based modifier for assaulting settlements.</description>
+<key>CAI_VARIABLE_SETTLEMENT_STRENGTH_MODIFIER_ASSAULT</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{2d80bdac-f074-4bd5-a553-389c55d2b06b}" record_timestamp="1458319825002" record_key="CAI_VARIABLE_SETTLEMENT_STRENGTH_MODIFIER_DEFEND">
+<description>(In-game) Personality-based modifier for defending settlements.</description>
+<key>CAI_VARIABLE_SETTLEMENT_STRENGTH_MODIFIER_DEFEND</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{97b90d96-ab88-470c-a220-7ce3f0c2d4b4}" record_timestamp="1458319825003" record_key="CAI_VARIABLE_SQUALOR_CTRL_BUILDING_APPLY_BONUS_AT_OR_BELOW">
+<description>(In-game) The point at or below which bonus will be provided to squalor/sanitation improvement buildings.</description>
+<key>CAI_VARIABLE_SQUALOR_CTRL_BUILDING_APPLY_BONUS_AT_OR_BELOW</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{42984074-121d-49e3-a05f-6fa6116c5336}" record_timestamp="1458319825003" record_key="CAI_VARIABLE_SQUALOR_CTRL_BUILDING_APPLY_PENALTY_BELOW">
+<description>(In-game) The point below which a squalor/sanitation penalty will be applied to a building option.</description>
+<key>CAI_VARIABLE_SQUALOR_CTRL_BUILDING_APPLY_PENALTY_BELOW</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{0bbfff75-6eee-4063-b201-dde127783cef}" record_timestamp="1458319825004" record_key="CAI_VARIABLE_SQUALOR_CTRL_BUILDING_BONUS">
+<description>(In-game) Bonus applied (per positive squalor/sanitation point) for buildings that increase squalor/sanitation up to the specified level.</description>
+<key>CAI_VARIABLE_SQUALOR_CTRL_BUILDING_BONUS</key>
+<value>2</value>
+</cai_variables>
+<cai_variables record_uuid="{d38f3aa4-e901-465b-ab9e-7d571c8f57c1}" record_timestamp="1458319825004" record_key="CAI_VARIABLE_SQUALOR_CTRL_BUILDING_NEW_BUILDING_BONUS_SCALING">
+<description>(In-game) When calculating squalor/sanitation based building score adjustements, the discount applied for being a new building.</description>
+<key>CAI_VARIABLE_SQUALOR_CTRL_BUILDING_NEW_BUILDING_BONUS_SCALING</key>
+<value>0.5</value>
+</cai_variables>
+<cai_variables record_uuid="{8ced4258-337c-40d6-8532-aa05bbd7c322}" record_timestamp="1458319825005" record_key="CAI_VARIABLE_SQUALOR_CTRL_BUILDING_PENALTY">
+<description>(In-game) Penalty applied (per negative squalor/sanitation point) for buildings that use squalor/sanitation beyond the specified level.</description>
+<key>CAI_VARIABLE_SQUALOR_CTRL_BUILDING_PENALTY</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{16324208-1c35-4142-9cd6-9576b8a7f090}" record_timestamp="1458319825005" record_key="CAI_VARIABLE_SQUALOR_CTRL_ONGOING_PROBLEM_CONVERSION_THRESHOLD_BASIC">
+<description>(In-game) The squalor/sanitation problem score for a province beyond which conversion is considered as a solution.</description>
+<key>CAI_VARIABLE_SQUALOR_CTRL_ONGOING_PROBLEM_CONVERSION_THRESHOLD_BASIC</key>
+<value>31</value>
+</cai_variables>
+<cai_variables record_uuid="{709f4d91-c5f4-4451-b0d6-2715e3f0d5e8}" record_timestamp="1458319825006" record_key="CAI_VARIABLE_SQUALOR_CTRL_ONGOING_PROBLEM_DEMOLITION_THRESHOLD_BASIC">
+<description>(In-game) The squalor/sanitation problem score for a province beyond which demolition is considered as a solution.</description>
+<key>CAI_VARIABLE_SQUALOR_CTRL_ONGOING_PROBLEM_DEMOLITION_THRESHOLD_BASIC</key>
+<value>61</value>
+</cai_variables>
+<cai_variables record_uuid="{e1a7bbc7-c17c-4167-b7bc-b8e64be61235}" record_timestamp="1458319825006" record_key="CAI_VARIABLE_SQUALOR_CTRL_ONGOING_PROBLEM_SCORE_PER_TURN_ACCUMULATION_CAP">
+<description>(In-game) The maximum squalor/sanitation problem score that can be accumulated in one round for a given province.</description>
+<key>CAI_VARIABLE_SQUALOR_CTRL_ONGOING_PROBLEM_SCORE_PER_TURN_ACCUMULATION_CAP</key>
+<value>5</value>
+</cai_variables>
+<cai_variables record_uuid="{fc78bb7d-6f12-4d93-9384-60c25f097a8a}" record_timestamp="1458319825006" record_key="CAI_VARIABLE_STRATEGIC_BALANCE_BASE_HEX_VALUE">
+<description>(In-game) Parameter for strategic balance calculation.</description>
+<key>CAI_VARIABLE_STRATEGIC_BALANCE_BASE_HEX_VALUE</key>
+<value>0.1</value>
+</cai_variables>
+<cai_variables record_uuid="{cae0acaa-9a19-4d2e-a1bf-2052ca706d9b}" record_timestamp="1458319825007" record_key="CAI_VARIABLE_STRATEGIC_BALANCE_BASE_VALUE">
+<description>(In-game) Parameter for strategic balance calculation.</description>
+<key>CAI_VARIABLE_STRATEGIC_BALANCE_BASE_VALUE</key>
+<value>300</value>
+</cai_variables>
+<cai_variables record_uuid="{160c094a-c453-4a12-a1f9-e1917d3dc343}" record_timestamp="1458319825007" record_key="CAI_VARIABLE_STRATEGIC_BALANCE_HEX_VALUE_CAP">
+<description>(In-game) Parameter for strategic balance calculation.</description>
+<key>CAI_VARIABLE_STRATEGIC_BALANCE_HEX_VALUE_CAP</key>
+<value>5</value>
+</cai_variables>
+<cai_variables record_uuid="{359f6bf9-a7a9-4595-97ca-bc80660d9625}" record_timestamp="1458319825008" record_key="CAI_VARIABLE_STRATEGIC_BALANCE_HEX_VALUE_MULTIPLIER">
+<description>(In-game) Parameter for strategic balance calculation.</description>
+<key>CAI_VARIABLE_STRATEGIC_BALANCE_HEX_VALUE_MULTIPLIER</key>
+<value>1e-06</value>
+</cai_variables>
+<cai_variables record_uuid="{19597714-62ae-4220-84c5-1c1d9ec8d6e5}" record_timestamp="1458319824890" record_key="CAI_VARIABLE_STRATEGIC_CONTEXT_ADJUSTMENT_PER_NUM_ENEMIES">
+<description>(In-game) Adjustment to strategic balance is applied for every X enemies.</description>
+<key>CAI_VARIABLE_STRATEGIC_CONTEXT_ADJUSTMENT_PER_NUM_ENEMIES</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{e3c51411-625a-46d8-841f-808b814ad1ae}" record_timestamp="1541154616013" record_key="CAI_VARIABLE_STRATEGIC_CONTEXT_ADJUSTMENT_VALUE">
+<description>(In-game) Adjustment to strategic balance applied for the purpose of strategic context calculations.</description>
+<key>CAI_VARIABLE_STRATEGIC_CONTEXT_ADJUSTMENT_VALUE</key>
+<value>-0.06</value>
+</cai_variables>
+<cai_variables record_uuid="{62496246-ca63-4f2b-94a4-94fe699336fd}" record_timestamp="1465998470752" record_key="CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_EXISTING_STANCE_GROUP_SCORE_BONUS_CAP">
+<description>(In-game) Strategic stance system control, provides the limit on the 'existing stances' bonus to a given stance group.</description>
+<key>CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_EXISTING_STANCE_GROUP_SCORE_BONUS_CAP</key>
+<value>0.5</value>
+</cai_variables>
+<cai_variables record_uuid="{f917798a-964d-42ca-b0ce-1a1cbacefee6}" record_timestamp="1458319825009" record_key="CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_SUBJUGATION_CURRENT_ATTITUDE_ADJUSTMENT_MULTIPLIER">
+<description>(In-game) Strategic stance system control, current attitude adjustment factor reliability multipler.</description>
+<key>CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_SUBJUGATION_CURRENT_ATTITUDE_ADJUSTMENT_MULTIPLIER</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{369f1d20-1696-4f99-8d85-3f3b91928c66}" record_timestamp="1458319824892" record_key="CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_SUBJUGATION_FRIENDLY_BIAS">
+<description>(In-game) Strategic stance system control, the bias provided towards the friendly stance in the subjugation case.</description>
+<key>CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_SUBJUGATION_FRIENDLY_BIAS</key>
+<value>6</value>
+</cai_variables>
+<cai_variables record_uuid="{2f8e5d4f-6a6c-40a4-bd8a-fa0fbcd6b42d}" record_timestamp="1458319825009" record_key="CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_SUBJUGATION_PER_STANCE_DROP_RATE">
+<description>(In-game) Strategic stance system control, the drop rate from friendly.</description>
+<key>CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_SUBJUGATION_PER_STANCE_DROP_RATE</key>
+<value>4</value>
+</cai_variables>
+<cai_variables record_uuid="{2222f545-e801-47ee-9209-7ff9d0290689}" record_timestamp="1465998470751" record_key="CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_BEING_HUMAN">
+<description>(In-game) Strategic stance system score weighting, impact of being human.</description>
+<key>CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_BEING_HUMAN</key>
+<value>0.5</value>
+</cai_variables>
+<cai_variables record_uuid="{dd74ab5f-e4f3-4854-97b8-ab900dd30382}" record_timestamp="1465998470751" record_key="CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_CURRENT_ATTITUDE">
+<description>(In-game) Strategic stance system score weighting, impact of current and historical attitude.</description>
+<key>CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_CURRENT_ATTITUDE</key>
+<value>3</value>
+</cai_variables>
+<cai_variables record_uuid="{40c7d174-41aa-437d-9d4e-d547fcae0038}" record_timestamp="1458319825009" record_key="CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_DIPLOMATIC_TREATIES_CORE">
+<description>(In-game) Strategic stance system score weighting, impact of basic treaties.</description>
+<key>CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_DIPLOMATIC_TREATIES_CORE</key>
+<value>0.5</value>
+</cai_variables>
+<cai_variables record_uuid="{c2015db9-833e-475a-9781-7e4162d503c8}" record_timestamp="1465998470751" record_key="CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_DIPLOMATIC_TREATIES_TRANSITIVE">
+<description>(In-game) Strategic stance system score weighting, impact of transitive effects between factions based on basic treaties.</description>
+<key>CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_DIPLOMATIC_TREATIES_TRANSITIVE</key>
+<value>0.5</value>
+</cai_variables>
+<cai_variables record_uuid="{45eb0fbe-d2ab-43a8-8de1-ce193c66e308}" record_timestamp="1465998470752" record_key="CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_EXISTING_STANCE">
+<description>(In-game) Strategic stance system score weighting, impact of existing faction stance.</description>
+<key>CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_EXISTING_STANCE</key>
+<value>0.5</value>
+</cai_variables>
+<cai_variables record_uuid="{61211dd6-7c7b-4d80-837e-f433dfbe394d}" record_timestamp="1458319825011" record_key="CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_IMPORTANCE">
+<description>(In-game) Strategic stance system score weighting, impact of 'importance'.</description>
+<key>CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_IMPORTANCE</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{22d391e8-b44e-4f71-b013-70ed47915869}" record_timestamp="1458319825011" record_key="CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_SUBJUGATION">
+<description>(In-game) Strategic stance system score weighting, impact of subjugation.</description>
+<key>CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_SUBJUGATION</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{2fdf6b05-ae7a-455f-b4a0-38f82cf3d0d1}" record_timestamp="1465998470752" record_key="CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_TASKS">
+<description>(In-game) Strategic stance system score weighting, impact of task generation (types and targets).</description>
+<key>CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_TASKS</key>
+<value>0.5</value>
+</cai_variables>
+<cai_variables record_uuid="{98842c77-019a-4864-aca1-1a481adb6b9e}" record_timestamp="1458319825012" record_key="CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_TREACHERY">
+<description>(In-game) Strategic stance system score weighting, impact of treacheries.</description>
+<key>CAI_VARIABLE_STRATEGIC_STANCE_CONTROL_WEIGHT_FOR_TREACHERY</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{6544b824-332f-47c1-be4f-0a4d309c6d4f}" record_timestamp="1540548507551" record_key="CAI_VARIABLE_STRATEGIC_WAR_LOSSES_DETECTION_HORIZON_IN_ROUNDS">
+<description>(In-game) Time horizon in rounds beyond which war losses won't be count towards.</description>
+<key>CAI_VARIABLE_STRATEGIC_WAR_LOSSES_DETECTION_HORIZON_IN_ROUNDS</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{93e230a8-458f-4ec2-9bf5-b66e047f556b}" record_timestamp="1466001624713" record_key="CAI_VARIABLE_TREACHERY_COMPLEX_EVENT_DETECTION_HORIZON_IN_ROUNDS">
+<description>(In-game) Time horizon in rounds beyond which a 'complex' treachery won't be detected.</description>
+<key>CAI_VARIABLE_TREACHERY_COMPLEX_EVENT_DETECTION_HORIZON_IN_ROUNDS</key>
+<value>10</value>
+</cai_variables>
+<cai_variables record_uuid="{c9952a68-5c34-43f6-b4f2-481a75ef49ef}" record_timestamp="1466001624446" record_key="CAI_VARIABLE_TREACHERY_EVENT_FALLOFF_BASE">
+<description>(In-game) Maximum rate of per event drop of for treachery events. Actually drop of moderated by number of current treachery events.</description>
+<key>CAI_VARIABLE_TREACHERY_EVENT_FALLOFF_BASE</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{c01637e7-73b7-4bfb-9d8a-178a959a8acf}" record_timestamp="1497955614816" record_key="CAI_VARIABLE_TURNS_TO_IGNORE_SETTLEMENT_AFTER_SACKING">
+<description>(In-game) Number of turns task generation will ignore settlements after sacking it. 0 = ignore for the current turn only.</description>
+<key>CAI_VARIABLE_TURNS_TO_IGNORE_SETTLEMENT_AFTER_SACKING</key>
+<value>4</value>
+</cai_variables>
+<cai_variables record_uuid="{21927207-311f-4ae2-a538-6096279e5a9c}" record_timestamp="1497955568000" record_key="CAI_VARIABLE_TURNS_TO_IGNORE_SETTLEMENT_AFTER_SACKING_CRD">
+<description>(In-game) Number of turns coordinator will ignore settlements after sacking. 0 = ignore for the current turn only.</description>
+<key>CAI_VARIABLE_TURNS_TO_IGNORE_SETTLEMENT_AFTER_SACKING_CRD</key>
+<value>4</value>
+</cai_variables>
+<cai_variables record_uuid="{d1efb217-b615-453f-a5db-139278704da8}" record_timestamp="1458336792762" record_key="CAI_VARIABLE_UNFORTIFIED_SETTLEMENT_FORTIFICATION_BONUS">
+<description>(In-game) AI strength bonus for unfortified settlements.</description>
+<key>CAI_VARIABLE_UNFORTIFIED_SETTLEMENT_FORTIFICATION_BONUS</key>
+<value>100000</value>
+</cai_variables>
+<cai_variables record_uuid="{e266e819-a410-4a41-b51a-496dfda93cad}" record_timestamp="1458336792761" record_key="CAI_VARIABLE_UNFORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER">
+<description>(In-game) AI strength multiplier for unfortified settlements.</description>
+<key>CAI_VARIABLE_UNFORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER</key>
+<value>1.1</value>
+</cai_variables>
+<cai_variables record_uuid="{6d7099f2-285a-42bf-b9aa-0e507244bcf1}" record_timestamp="1507038778488" record_key="CAI_VARIABLE_UNFORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER_PRE_ASSAULT">
+<description>(In-game) AI strength multiplier for unfortified settlements, pre-assault.</description>
+<key>CAI_VARIABLE_UNFORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER_PRE_ASSAULT</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{97a0db72-c7e2-4975-a3ec-2c0e597ae8c6}" record_timestamp="1458319825013" record_key="CAI_VARIABLE_UNFORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER_THREAT">
+<description>(In-game) AI strength multiplier for fortified settlements used for threat detection.</description>
+<key>CAI_VARIABLE_UNFORTIFIED_SETTLEMENT_FORTIFICATION_MULTIPLIER_THREAT</key>
+<value>1</value>
+</cai_variables>
+<cai_variables record_uuid="{7a415b59-7171-4836-8075-246eda6d9873}" record_timestamp="1465987240725" record_key="CAI_VARIABLE_WAAGH_QUALITY_MULTIPLIER">
+<description>(In-game) Used for the cap of waags with respect to their parents.  Between 0 and 1, 1 indicates the cap will be higher.</description>
+<key>CAI_VARIABLE_WAAGH_QUALITY_MULTIPLIER</key>
+<value>0</value>
+</cai_variables>
+<cai_variables record_uuid="{fc110c04-0416-4d55-8bf5-feb90d08fbf3}" record_timestamp="1554204903031" record_key="CAI_VARIABLE_WORLD_LEADER_SETTLEMENT_FORTIFICATION_MULTIPLIER_THREAT">
+<description>(In-game) AI strength multiplier for world leader settlements used for threat detection.</description>
+<key>CAI_VARIABLE_WORLD_LEADER_SETTLEMENT_FORTIFICATION_MULTIPLIER_THREAT</key>
+<value>10</value>
+</cai_variables>
+</dataroot>

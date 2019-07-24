@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ui_unit_bullet_point_unit_overrides>
+<root>
+<edit_uuid>16a22246-1c47-4e5d-b7f1-86d6fdb186d4</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{e2eebc99-a08a-4f8f-998f-1d166d83c132}</field_uuid>
+<primary_key>1</primary_key>
+<name>unit_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>unit</column_source_column>
+<column_source_table>main_units</column_source_table>
+<field_description>Unit to show specific entry for</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{4e757b54-e171-46f0-a57d-f3ed5582ce19}</field_uuid>
+<primary_key>1</primary_key>
+<name>bullet_point</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_column>onscreen_name</column_source_column>
+<column_source_column>sort_order</column_source_column>
+<column_source_table>ui_unit_bullet_point_enums</column_source_table>
+<field_description>Bullet point to show</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

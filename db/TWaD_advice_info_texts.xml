@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_advice_info_texts>
+<root>
+<edit_uuid>f78225ca-3bb8-4354-a861-d7cc584c02ca</edit_uuid>
+<field>
+<field_uuid>{e0ab4b84-0dff-4c46-98d6-f8a0f5162309}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{b419f685-0014-4e8b-a7ed-97a416a8b1d7}</field_uuid>
+<primary_key>0</primary_key>
+<name>localised_text</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Text of info text entry</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{2dbdd63d-6b51-4229-a70b-7c0677924198}</field_uuid>
+<primary_key>0</primary_key>
+<name>persistant</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<field_description>Persistant entry will stick around until scriptor calls for entry to be removed</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{32c2bad3-651d-4469-a0d4-361e9ea93c28}</field_uuid>
+<primary_key>0</primary_key>
+<name>show_on_navigate</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>true</default_value>
+<field_description>If true when navigating back to a piece of advisor it will show again</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{aa7fcd8b-c903-49c5-82d1-f0e89efa0da0}</field_uuid>
+<primary_key>0</primary_key>
+<name>show_instant</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>true</default_value>
+<field_description>If true the info text will appear automatically when advice triggered. If false then it is up to the scriptor to trigger when it appears.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{1ec1f0a2-aeb2-4933-92c6-d82c213a3a8b}</field_uuid>
+<primary_key>0</primary_key>
+<name>is_header</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>false</default_value>
+<field_description>Specifies whether appears as header or bulleted entry</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{b2822d40-07ff-42c3-bcf2-66143815c5fe}</field_uuid>
+<primary_key>0</primary_key>
+<name>navigation_order</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>Sets the display order of infotext when browsing back and forth between advice items</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+</root>

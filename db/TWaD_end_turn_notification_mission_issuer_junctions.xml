@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_end_turn_notification_mission_issuer_junctions>
+<root>
+<edit_uuid>116ab742-2563-4d62-a008-94648401e82c</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{a2ae3f38-7065-48a2-b14c-16a2e42db1ea}</field_uuid>
+<primary_key>1</primary_key>
+<name>end_turn_notification</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>end_turn_notifications</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{3424c2b3-8e3d-4143-8392-60b04668d667}</field_uuid>
+<primary_key>1</primary_key>
+<name>mission_issuer</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>issuer_key</column_source_column>
+<column_source_table>mission_issuers</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

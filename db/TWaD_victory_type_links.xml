@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_victory_type_links>
+<root>
+<edit_uuid>d90544d6-40fa-4e6e-895f-a03cb4b09244</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{5991097b-93bc-49ce-9fa7-325798d8fd11}</field_uuid>
+<primary_key>1</primary_key>
+<name>from</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>victory_type</column_source_column>
+<column_source_table>victory_types</column_source_table>
+<field_description>Branch start point</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{8b0e0f22-4c17-47bd-b6b2-69796f1ad535}</field_uuid>
+<primary_key>1</primary_key>
+<name>to</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>victory_type</column_source_column>
+<column_source_table>victory_types</column_source_table>
+<field_description>Branch end point</field_description>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

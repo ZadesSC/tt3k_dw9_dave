@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_variables>
+<root>
+<edit_uuid>ce905024-c482-46b5-a48f-a2c3b9f03e71</edit_uuid>
+<agf_special_dependencies>+*</agf_special_dependencies>
+<field>
+<field_uuid>{f5916f97-2ace-4301-a2e8-ffa995781218}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Campaign AI Control Variable Key</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{5f6f4309-7d70-481b-ad5d-5c6f8ace1a98}</field_uuid>
+<primary_key>0</primary_key>
+<name>value</name>
+<field_type>double</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>Campaign AI Control Variable Base Value</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{53f986b2-d7e3-4bc0-b2c4-34515cfbae49}</field_uuid>
+<primary_key>0</primary_key>
+<name>description</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>536870910</max_length>
+<field_description>Campaign AI Variable Description</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

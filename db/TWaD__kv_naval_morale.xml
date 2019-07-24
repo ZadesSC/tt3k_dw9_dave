@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD__kv_naval_morale>
+<root>
+<edit_uuid>0b140dbd-7b4d-40df-9a6a-14b00593ce15</edit_uuid>
+<field>
+<field_uuid>{75bbdd7d-c047-4858-bfb1-863fb9b2c707}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+</field>
+<field>
+<field_uuid>{14d8549e-5401-46b0-ac0a-6a158232d48c}</field_uuid>
+<primary_key>0</primary_key>
+<name>value</name>
+<field_type>integer</field_type>
+<required>0</required>
+<default_value>0</default_value>
+</field>
+<field>
+<field_uuid>{f3b2098e-fbbc-4d43-88e0-25abf19ce2e2}</field_uuid>
+<primary_key>0</primary_key>
+<name>description</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>50</max_length>
+</field>
+</root>

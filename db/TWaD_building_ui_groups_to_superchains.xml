@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_building_ui_groups_to_superchains>
+<root>
+<edit_uuid>5bf6ae03-ae8a-4e58-9797-2efcb1ac0935</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{43828969-bdd6-44c6-b9f2-fb75669030b3}</field_uuid>
+<primary_key>1</primary_key>
+<name>building_ui_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>building_ui_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{0b77bf41-d333-4c43-8c0e-d003fc1acefe}</field_uuid>
+<primary_key>1</primary_key>
+<name>building_superchain</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>building_superchains</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

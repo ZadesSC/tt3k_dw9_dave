@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_building_levels_settlement_ui_displays>
+<root>
+<edit_uuid>086cfea1-4bb7-4cdc-bb24-7c902585d764</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{c7589a52-8219-444c-a886-0d80333c896e}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{d49d67a2-cc9a-4bdd-9dc3-21886a759941}</field_uuid>
+<primary_key>0</primary_key>
+<name>icon_path</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>ui/skins/default/placeholder.png</default_value>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{b70c22bb-6008-48f9-a9ff-058404bc6327}</field_uuid>
+<primary_key>0</primary_key>
+<name>tooltip</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

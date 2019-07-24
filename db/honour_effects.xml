@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="honour_effects.xsd" export_time="Wed Sep 23 14:44:46 2015" revision="13" export_branch="T:/warhammer/binaries" export_user="bob">
+<edit_uuid>a0c2409c-47e1-459a-8e8c-18668ed3d840</edit_uuid>
+<honour_effects record_uuid="{e2302d25-30fd-4264-bbe2-b3e423f1c3c0}" record_key="acquired_vassal_clan">
+<applies_to_ai>1</applies_to_ai>
+<factor>acquired_vassal</factor>
+<key>acquired_vassal_clan</key>
+<value>1</value>
+</honour_effects>
+<honour_effects record_uuid="{dc9514f4-6fc7-4376-ab98-57de70e1995e}" record_key="bankruptcy">
+<applies_to_ai>0</applies_to_ai>
+<factor>bankruptcy</factor>
+<key>bankruptcy</key>
+<value>-1</value>
+</honour_effects>
+<honour_effects record_uuid="{dcaeefab-c81c-489d-8c7a-c70022c67f61}" record_key="becoming_christian">
+<applies_to_ai>1</applies_to_ai>
+<factor>becoming_christian</factor>
+<key>becoming_christian</key>
+<value>-2</value>
+</honour_effects>
+<honour_effects record_uuid="{780970d3-0674-4a8a-ac3b-c4ed9b3a5c1b}" record_key="being_christian">
+<applies_to_ai>1</applies_to_ai>
+<factor>being_christian</factor>
+<key>being_christian</key>
+<value>-1</value>
+</honour_effects>
+<honour_effects record_uuid="{ed91d75a-5cdf-4bf3-8fa6-26b3ac8e0b12}" record_key="crushing_defeat">
+<applies_to_ai>1</applies_to_ai>
+<factor>battles</factor>
+<key>crushing_defeat</key>
+<value>-2</value>
+</honour_effects>
+<honour_effects record_uuid="{a731a69a-578c-44f1-8f70-fa58f88c953d}" record_key="dishonouring_alliance">
+<applies_to_ai>0</applies_to_ai>
+<factor>dishonouring_alliance</factor>
+<key>dishonouring_alliance</key>
+<value>-1</value>
+</honour_effects>
+<honour_effects record_uuid="{3ff3335b-d3b9-4af6-9479-fc551adb84ee}" record_key="heroic_victory">
+<applies_to_ai>1</applies_to_ai>
+<factor>battles</factor>
+<key>heroic_victory</key>
+<value>1</value>
+</honour_effects>
+<honour_effects record_uuid="{7a224eb9-a777-4dbb-8086-5571c0009a25}" record_key="looting_city">
+<applies_to_ai>0</applies_to_ai>
+<factor>looting_city</factor>
+<key>looting_city</key>
+<value>-1</value>
+</honour_effects>
+<honour_effects record_uuid="{0e76e4d0-38b5-4f8d-926d-3d2b94677b56}" record_key="not_bankrupt">
+<applies_to_ai>0</applies_to_ai>
+<factor>bankruptcy</factor>
+<key>not_bankrupt</key>
+<value>1</value>
+</honour_effects>
+<honour_effects record_uuid="{c0ad25b2-946a-4a0d-8bc9-7c98ade9689f}" record_key="renouncing_christianity">
+<applies_to_ai>1</applies_to_ai>
+<factor>being_christian</factor>
+<key>renouncing_christianity</key>
+<value>1</value>
+</honour_effects>
+<honour_effects record_uuid="{687e18cb-5f55-4a68-953b-4ce0b52a4ceb}" record_key="threatening_with_empty_words">
+<applies_to_ai>0</applies_to_ai>
+<factor>threatening_with_empty_words</factor>
+<key>threatening_with_empty_words</key>
+<value>-1</value>
+</honour_effects>
+</dataroot>

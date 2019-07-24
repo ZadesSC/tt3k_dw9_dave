@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_diplomacy_negotiation_categories>
+<root>
+<edit_uuid>309158fb-0c94-4818-b044-8015284f7c7a</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{7dd18c3a-ee33-4311-abab-e7e57590add0}</field_uuid>
+<primary_key>1</primary_key>
+<name>category</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>This table is linked to code. You cannot add records to or remove records from this table without getting the code updated.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

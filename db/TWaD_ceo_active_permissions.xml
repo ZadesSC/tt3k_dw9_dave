@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ceo_active_permissions>
+<root>
+<edit_uuid>c2cbf2f0-ade7-44c8-b89b-b8c33c49792e</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{1dbba47c-6d7b-49b3-8ec3-eb7030c2df33}</field_uuid>
+<primary_key>0</primary_key>
+<name>ceo</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>ceos</column_source_table>
+<field_description>The CEO which applies the permissions.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{668dccd3-b7b1-4168-b8c1-8bb99a373a7a}</field_uuid>
+<primary_key>0</primary_key>
+<name>permissions_granted_while_active</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>ceo_permissions</column_source_table>
+<field_description>The PErmissions which are applied.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{f499070a-03ea-43e2-94dd-54f2594ec640}</field_uuid>
+<primary_key>1</primary_key>
+<name>auto_id</name>
+<field_type>autonumber</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

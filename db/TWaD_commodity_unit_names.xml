@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_commodity_unit_names>
+<root>
+<edit_uuid>85f95441-911f-4924-9ab7-c8c2d44963a1</edit_uuid>
+<field>
+<field_uuid>{9bfccfe5-d59c-4104-ac7f-95012b383828}</field_uuid>
+<primary_key>1</primary_key>
+<name>unit</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+</field>
+<field>
+<field_uuid>{7eef3520-0a8e-4288-a2ef-2ec7b8e0d863}</field_uuid>
+<primary_key>0</primary_key>
+<name>plural</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+</field>
+<field>
+<field_uuid>{039405f2-e0cf-461d-bd4b-fad0955f859e}</field_uuid>
+<primary_key>0</primary_key>
+<name>singular</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+</field>
+</root>

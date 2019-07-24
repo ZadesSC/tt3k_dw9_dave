@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_task_management_system_variables.xsd" export_time="Fri Mar 29 15:33:06 2019" revision="17" export_branch="C:/Users/Tim.Gosling/AppData/Roaming/TWDaemon/1412/dave" export_user="bob">
+<edit_uuid>e2cbaae3-72de-46cd-b57e-6a4c11c1de34</edit_uuid>
+<cai_task_management_system_variables record_uuid="{704d3686-268a-478a-94b2-72bc0cf83043}" record_timestamp="1541674859520" record_key="ALLOCATOR_DIPLOMATIC_MANAGER_FACTION_PRIORITY_SCALING_AGGRESSIVE_ACTIONS_CAP">
+<default_value>0.5</default_value>
+<description>For TMS Allocator faction prioroty ranking adjustments, the maximum positive adjust applied due to direct strategic threat.</description>
+<key>ALLOCATOR_DIPLOMATIC_MANAGER_FACTION_PRIORITY_SCALING_AGGRESSIVE_ACTIONS_CAP</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{7168a670-027d-4dde-9335-b0680e401a2c}" record_timestamp="1541674859520" record_key="ALLOCATOR_DIPLOMATIC_MANAGER_FACTION_PRIORITY_SCALING_AGGRESSIVE_ACTIONS_CONVERSION_MULTIPLIER">
+<default_value>0.2</default_value>
+<description>For TMS Allocator faction priority ranking, the multiplier applied to the direct strategic threat score to find a priority addition for a given faction.</description>
+<key>ALLOCATOR_DIPLOMATIC_MANAGER_FACTION_PRIORITY_SCALING_AGGRESSIVE_ACTIONS_CONVERSION_MULTIPLIER</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{abb76145-fd1c-4d27-83e7-846f793aa0b3}" record_timestamp="1536680162295" record_key="ALLOCATOR_PRE_SCORING_TASK_PRIORITY_DISTANCE_SCALING_NO_SCALING_WITHIN_TURNS_DISTANCE">
+<default_value>4</default_value>
+<description>For TMS Allocator, turns within which a task will not receive a distance penalty to their priority. Based on minimum distance to the primary task target from a source faction asset.</description>
+<key>ALLOCATOR_PRE_SCORING_TASK_PRIORITY_DISTANCE_SCALING_NO_SCALING_WITHIN_TURNS_DISTANCE</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{34587559-7308-4f4a-994d-3de64dc8884f}" record_timestamp="1536680162296" record_key="ALLOCATOR_PRE_SCORING_TASK_PRIORITY_DISTANCE_SCALING_SCALE_MULTIPLES_OF_NO_SCALING_DISTANCE_BY_POWER">
+<default_value>2</default_value>
+<description>For TMS Allocator, where task priority distance scaling is being applied the power factor applied to the multiple over the non-scaling bound that is applied to generate the scaling factor</description>
+<key>ALLOCATOR_PRE_SCORING_TASK_PRIORITY_DISTANCE_SCALING_SCALE_MULTIPLES_OF_NO_SCALING_DISTANCE_BY_POWER</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{24c998da-cbe9-4694-9823-a185e6571b21}" record_timestamp="1532505726436" record_key="ALLOCATOR_RELEASE_FORCES_TO_AGGRESSIVE_ACTION_MORALE_THRESHOLD">
+<default_value>0.8</default_value>
+<description>TMS Allocator, level of a forces morale for it to be released to tasks outside its faction's territory or that aren't support tasks for that faction. Range: 0.0-1.0</description>
+<key>ALLOCATOR_RELEASE_FORCES_TO_AGGRESSIVE_ACTION_MORALE_THRESHOLD</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{5b76ccdf-5c8c-4ad7-a79f-b4ce634991e0}" record_timestamp="1532506766098" record_key="ALLOCATOR_RELEASE_FORCES_TO_AGGRESSIVE_ACTION_UNITS_THRESHOLD">
+<default_value>12</default_value>
+<description>TMS Allocator, size a force must be in units to be released to tasks outside its faction's territory or that aren't support tasks for that faction. Range: 1-20</description>
+<key>ALLOCATOR_RELEASE_FORCES_TO_AGGRESSIVE_ACTION_UNITS_THRESHOLD</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{eec49c9d-b776-43e5-9ad2-3d4b000b91ea}" record_timestamp="1532505726436" record_key="ALLOCATOR_REQUIRE_FORCES_TO_RETURN_ON_POST_RELEASE_MORAL_THRESHOLD">
+<default_value>0.1</default_value>
+<description>TMS Allocator, level of a forces morale below which it will be forced to return from non-support tasks external to the faction's territory. Range: 0.0-1.0</description>
+<key>ALLOCATOR_REQUIRE_FORCES_TO_RETURN_ON_POST_RELEASE_MORAL_THRESHOLD</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{ecd7c257-eb4e-4db4-ae86-2f368216b484}" record_timestamp="1532505726436" record_key="ALLOCATOR_REQUIRE_FORCES_TO_RETURN_ON_POST_RELEASE_UNITS_THRESHOLD">
+<default_value>8</default_value>
+<description>TMS Allocator, size of a force in units below which it will be forced to return from non-support tasks external to the faction's territory. Range: 1-20</description>
+<key>ALLOCATOR_REQUIRE_FORCES_TO_RETURN_ON_POST_RELEASE_UNITS_THRESHOLD</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{46e492fb-6f0a-483f-80c2-8a76ab6a9a8a}" record_timestamp="1536673508048" record_key="ALLOCATOR_SCORING_DISTANCE_SCALING_RETAINED_MINIMUM_SCORE_PROPORTION_NONRECRUITING">
+<default_value>0.1</default_value>
+<description>For TMS Allocator scoring, the base proportion of the task score to retain unscaled by time to target adjustments for non-recruiting allocations.</description>
+<key>ALLOCATOR_SCORING_DISTANCE_SCALING_RETAINED_MINIMUM_SCORE_PROPORTION_NONRECRUITING</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{c0478c66-c4a2-49da-9aa9-f4537388f63b}" record_timestamp="1536673508047" record_key="ALLOCATOR_SCORING_DISTANCE_SCALING_RETAINED_MINIMUM_SCORE_PROPORTION_RECRUITING">
+<default_value>0.2</default_value>
+<description>For TMS Allocator scoring, the base proportion of the task score to retain unscaled by time to target adjustments for recruiting allocations.</description>
+<key>ALLOCATOR_SCORING_DISTANCE_SCALING_RETAINED_MINIMUM_SCORE_PROPORTION_RECRUITING</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{0ac659e5-a782-46e6-8a23-af5ef12f4105}" record_timestamp="1536673508048" record_key="ALLOCATOR_SCORING_DISTANCE_SCALING_TIME_TO_TARGET_IN_ROUNDS_UPPER_BOUND_NONRECRUITING">
+<default_value>10</default_value>
+<description>For TMS Allocator scoring, the time to target threshold on a non-recruiting allocation used to scale the score of an allocation.</description>
+<key>ALLOCATOR_SCORING_DISTANCE_SCALING_TIME_TO_TARGET_IN_ROUNDS_UPPER_BOUND_NONRECRUITING</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{dcd79c9d-653d-4653-86d9-e1a4c5c39b40}" record_timestamp="1536673508048" record_key="ALLOCATOR_SCORING_DISTANCE_SCALING_TIME_TO_TARGET_IN_ROUNDS_UPPER_BOUND_RECRUITING">
+<default_value>20</default_value>
+<description>For TMS Allocator scoring, the time to target threshold on a recruiting allocation used to scale the score of an allocation.</description>
+<key>ALLOCATOR_SCORING_DISTANCE_SCALING_TIME_TO_TARGET_IN_ROUNDS_UPPER_BOUND_RECRUITING</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{674f1172-40f2-4425-a632-0df5e618b135}" record_timestamp="1550764266580" record_key="ALLOCATOR_SEARCH_SHOULD_TRY_AND_MATCH_RECOMMENDED_FORCE_REQUIREMENTS_ON_AGGRESSIVE_TASKS_VERSUS_HUMANS_WHERE_POSSIBLE">
+<default_value>1</default_value>
+<description>For TMS Allocator search, when allocating forces to aggressive tasks where the target is human attempt to do so up to the recommended stregth requirement level (having first achieved the minimal level).</description>
+<key>ALLOCATOR_SEARCH_SHOULD_TRY_AND_MATCH_RECOMMENDED_FORCE_REQUIREMENTS_ON_AGGRESSIVE_TASKS_VERSUS_HUMANS_WHERE_POSSIBLE</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{3f6f141d-c880-4cc0-be24-d1a987a25021}" record_timestamp="1551177354474" record_key="ALLOCATOR_SEARCH_SHOULD_TRY_AND_MATCH_RECOMMENDED_FORCE_REQUIREMENTS_ON_AGGRESSIVE_TASKS_WHERE_POSSIBLE">
+<default_value>0</default_value>
+<description>For TMS Allocator search, when allocating forces to aggressive tasks attempt to do so up to the recommended stregth requirement level (having first achieved the minimal level).</description>
+<key>ALLOCATOR_SEARCH_SHOULD_TRY_AND_MATCH_RECOMMENDED_FORCE_REQUIREMENTS_ON_AGGRESSIVE_TASKS_WHERE_POSSIBLE</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{6e71651e-099b-448b-bb49-625ab7a6b84a}" record_timestamp="1553873582987" record_key="TASK_MINIMUM_PRIORITY_PROPORTION">
+<default_value>0.2</default_value>
+<description>Used by task for specifying a minimum priority of something</description>
+<key>TASK_MINIMUM_PRIORITY_PROPORTION</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{73533407-cb60-4845-b863-560f487a0617}" record_timestamp="1553873582987" record_key="TASK_PRIORITY_SCALING_BY_POWER_OF_EXPONENT">
+<default_value>3</default_value>
+<description>Used by tasks for scaling priorities by a power exponent</description>
+<key>TASK_PRIORITY_SCALING_BY_POWER_OF_EXPONENT</key>
+</cai_task_management_system_variables>
+<cai_task_management_system_variables record_uuid="{a430cba4-1a9f-41f5-89f7-41d5891b24c8}" record_timestamp="1553873582987" record_key="TASK_TIME_HORIZON_IN_ROUNDS_TO_CONSIDER">
+<default_value>10</default_value>
+<description>Used by tasks for requirement generation (or other purposes), a time horizon in rounds</description>
+<key>TASK_TIME_HORIZON_IN_ROUNDS_TO_CONSIDER</key>
+</cai_task_management_system_variables>
+</dataroot>

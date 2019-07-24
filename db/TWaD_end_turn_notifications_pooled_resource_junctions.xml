@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_end_turn_notifications_pooled_resource_junctions>
+<root>
+<edit_uuid>6ab1ff36-e22c-45dd-9776-2fc8cc076a08</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{5680af1a-75ee-4497-8cc7-60cb779bb372}</field_uuid>
+<primary_key>1</primary_key>
+<name>end_turn_notification</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>end_turn_notifications</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{6869def4-b431-4ed8-9916-3a33125ae497}</field_uuid>
+<primary_key>1</primary_key>
+<name>pooled_resource</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>pooled_resources</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

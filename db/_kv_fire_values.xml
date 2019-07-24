@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="_kv_fire_values.xsd" export_time="Tue Mar 12 17:15:43 2019" revision="35" export_branch="C:/Users/simon.mann/AppData/Roaming/TWDaemon/1385/dave" export_user="bob">
+<edit_uuid>04fd0045-82fa-4dd4-8f60-7ade1d583a61</edit_uuid>
+<_kv_fire_values record_uuid="{af9cc530-1199-4bfc-8fda-9371be3c8a10}" record_timestamp="1402918431215" record_key="building_ignition_damp_modifier">
+<description>All projectile contributions to building, vehicle, deployable ignition are multiplied by this amount when raining</description>
+<key>building_ignition_damp_modifier</key>
+<value>0.25</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{258f519d-4f0c-412c-96a6-9ed28c169df7}" record_timestamp="1422271705246" record_key="custom_firestarter_ignite_range">
+<description>A preferred range between the firestarters and the target. Leaving this at 0 will use the default torch range. This range is a suggestion, may not be exact in-game.</description>
+<key>custom_firestarter_ignite_range</key>
+<value>5</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{b7c7a6ba-438b-4531-8c0d-300f7cac2dda}" record_timestamp="1415957064971" record_key="escalation_buildings_on_fire">
+<description>percentage of map buildings on fire</description>
+<key>escalation_buildings_on_fire</key>
+<value>0.1</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{8e154c97-cf6c-406d-9caa-c7148e60eab2}" record_timestamp="1416495791058" record_key="fire_damage_building_modifier">
+<description>Damage dealt to buildings once caught on fire (multiplied by burn rates)</description>
+<key>fire_damage_building_modifier</key>
+<value>75</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{a4bc5f21-998c-41fc-b01c-670f5fd20802}" record_timestamp="1402501372745" record_key="fire_damage_deployable_modifier">
+<description>Damage dealt to deployables once caught on fire</description>
+<key>fire_damage_deployable_modifier</key>
+<value>15</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{5c51c5ac-8acb-413b-8620-4a226f7a0543}" record_timestamp="1416495791058" record_key="fire_damage_siege_vehicle_modifier">
+<description>Damage dealt to sige vehicles once caught on fire</description>
+<key>fire_damage_siege_vehicle_modifier</key>
+<value>500</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{875b574a-57cd-4f52-b50b-9f9445c471ce}" record_timestamp="1416495791058" record_key="fire_intensity_increase">
+<description>the amount that each ignition points intensity increases per tick</description>
+<key>fire_intensity_increase</key>
+<value>0.1</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{04aa3c51-58cc-4371-9cef-f985f90f93c3}" record_timestamp="1402916410194" record_key="fire_propagation_distance">
+<description></description>
+<key>fire_propagation_distance</key>
+<value>9</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{e847d24c-52cc-4825-be27-223dcce6c10b}" record_timestamp="1548431634271" record_key="flammable_object_propagation_frequency">
+<description>update in milliseconds</description>
+<key>flammable_object_propagation_frequency</key>
+<value>1000</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{829f95c5-68ff-47f8-b0c7-3dbad82d2433}" record_timestamp="1402918431193" record_key="ground_ignition_damp_modifier">
+<description>All projectile contributions to ground ignition are multiplied by this amount when raining</description>
+<key>ground_ignition_damp_modifier</key>
+<value>0.5</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{5be17fa9-414f-4fbd-a9c5-6e13d356e664}" record_timestamp="1408616689271" record_key="max_distance_of_firestarters_from_main_squad">
+<description>Maximum distance (m) a firestarter squad can be from the main squad without being recalled.</description>
+<key>max_distance_of_firestarters_from_main_squad</key>
+<value>50</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{33c99f54-fcb3-4c2d-b72b-54960d07a5d9}" record_timestamp="1408616689298" record_key="max_firestarter_search_after_no_targets_found_cooldown_ticks">
+<description>Max cooldown ticks (100ms) after finding no nearby targets.</description>
+<key>max_firestarter_search_after_no_targets_found_cooldown_ticks</key>
+<value>300</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{1d9d89eb-3d1e-4728-9649-f96507d80ea7}" record_timestamp="1408616689328" record_key="max_firestarter_search_radius">
+<description>Max search radius (m) for nearby deployables and buildings. Capped in code at 40 for performance reasons.</description>
+<key>max_firestarter_search_radius</key>
+<value>40</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{c61815a9-8e61-40e1-ba01-8711f7e9c020}" record_timestamp="1408616689357" record_key="max_firestarter_spawn_after_recall_cooldown_ticks">
+<description>Max cooldown ticks (100ms) after recalling a firestarter squad.</description>
+<key>max_firestarter_spawn_after_recall_cooldown_ticks</key>
+<value>300</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{fb56fd0b-75dc-486f-a391-bc3d8f93a369}" record_timestamp="1408616689386" record_key="max_firestarter_spawn_cooldown_ticks">
+<description>Max cooldown ticks (100ms) after spawning a new firestarter squad, and on game start.</description>
+<key>max_firestarter_spawn_cooldown_ticks</key>
+<value>50</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{1dcff010-f188-40d1-ad6c-81db153b1fdf}" record_timestamp="1408616689415" record_key="max_num_firestarter_squads">
+<description>Max number of fierstarter squads active at once.</description>
+<key>max_num_firestarter_squads</key>
+<value>3</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{cb5e33e1-f408-472a-94ae-1b131fba03ec}" record_timestamp="1408616689443" record_key="max_num_firestarters_unit_percentage">
+<description>Maximum percentage of a main squad that can be in firestarter squads. max firestarter men = THIS * (main squad men + active firestarter men)</description>
+<key>max_num_firestarters_unit_percentage</key>
+<value>0.4</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{530ea7ac-f47a-42cb-9407-fffc22b1f72c}" record_timestamp="1408616689472" record_key="min_firestarter_search_after_no_targets_found_cooldown_ticks">
+<description>Min cooldown ticks (100ms) after finding no nearby targets.</description>
+<key>min_firestarter_search_after_no_targets_found_cooldown_ticks</key>
+<value>150</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{1d5d9e08-f751-4c3f-9001-5dae49593fe1}" record_timestamp="1408616689502" record_key="min_firestarter_search_radius">
+<description>Min search radius (m) for nearby deployables and buildings. Used to stop squads setting fire to targets too close to them.</description>
+<key>min_firestarter_search_radius</key>
+<value>4</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{f1bf411a-da60-48cb-8f65-77e9647de6d5}" record_timestamp="1408616689130" record_key="min_firestarter_spawn_after_recall_cooldown_ticks">
+<description>Min cooldown ticks (100ms) after recalling a firestarter squad.</description>
+<key>min_firestarter_spawn_after_recall_cooldown_ticks</key>
+<value>150</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{41b3c55a-c0ca-45c0-962b-65836b617242}" record_timestamp="1408616689159" record_key="min_firestarter_spawn_cooldown_ticks">
+<description>Min cooldown ticks (100ms) after spawning a new firestarter squad, and on game start.</description>
+<key>min_firestarter_spawn_cooldown_ticks</key>
+<value>10</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{ff354c68-238a-4e28-a489-729f1e26d012}" record_timestamp="1408616689188" record_key="min_num_firestarters">
+<description>Min number of men allowed in a firestarter squad. Can override unit_percentage calculation.</description>
+<key>min_num_firestarters</key>
+<value>3</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{5aa77fee-41fa-4f5f-b200-521144feda37}" record_timestamp="1408616689216" record_key="num_firestarters_unit_percentage">
+<description>Num men in a new firestarter squad is based on the size of the main squad. Squad size = NUM MEN * THIS</description>
+<key>num_firestarters_unit_percentage</key>
+<value>0.05</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{eb87b263-cdcf-47bc-9040-da7b32324681}" record_timestamp="1402483018892" record_key="smoking_hit_point_percentage">
+<description>At this ignition_threshold percentage the buildings start emitting smoke</description>
+<key>smoking_hit_point_percentage</key>
+<value>0.33</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{65feb2f6-6163-4fd0-8707-c8a937780ea7}" record_timestamp="1545405323075" record_key="smoking_ignition_percentage_decrease">
+<description>percentage decay per second</description>
+<key>smoking_ignition_percentage_decrease</key>
+<value>0.001</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{8843ff2d-0905-4336-a0fd-15f17d2eccf3}" record_timestamp="1545405323074" record_key="smoking_ignition_percentage_increase">
+<description>percentage increase per second</description>
+<key>smoking_ignition_percentage_increase</key>
+<value>0.01</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{162ae9dc-796b-4834-9f81-d8f81e23ca58}" record_timestamp="1545405323075" record_key="smoking_ignition_threshold_percentage">
+<description>threshold at which smoke turn to fire or smoke decays to nothing </description>
+<key>smoking_ignition_threshold_percentage</key>
+<value>0.5</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{5364c5d2-4d04-4d60-b778-3d6bdede6deb}" record_timestamp="1531757588829" record_key="vegetation_catch_fire_chance">
+<description>percentage ignition modifier on defult_fire_spread projectile explosion record.  </description>
+<key>vegetation_catch_fire_chance</key>
+<value>0.2</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{b2fcb3c6-8345-4fd0-8116-c46124b0d740}" record_timestamp="1548070384557" record_key="vegetation_propagate_chance_from_smoke_to_fire">
+<description>propagation chance from smoke to fire</description>
+<key>vegetation_propagate_chance_from_smoke_to_fire</key>
+<value>0.009</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{883966af-2583-499d-a094-f9b4f046b468}" record_timestamp="1532817007685" record_key="vegetation_propagation_chance">
+<description>propagation chance through itself by increasing burn amount</description>
+<key>vegetation_propagation_chance</key>
+<value>0.2</value>
+</_kv_fire_values>
+<_kv_fire_values record_uuid="{1d4087f2-ef6d-484e-b9f5-6a829e672a9e}" record_timestamp="1548431634256" record_key="vegetation_propagation_frequency">
+<description>update in milliseconds</description>
+<key>vegetation_propagation_frequency</key>
+<value>500</value>
+</_kv_fire_values>
+</dataroot>

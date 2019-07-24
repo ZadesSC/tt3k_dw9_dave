@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_settlement_siege_action_effect_diplomatic_deals>
+<root>
+<edit_uuid>1e8a733f-6ab5-47c5-813f-ae2de17f583d</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{257c687b-ab8a-4739-976a-215ab73bc518}</field_uuid>
+<primary_key>1</primary_key>
+<name>effect_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>effect_group</column_source_column>
+<column_source_table>settlement_siege_action_effect_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{6b279e0f-4df8-4444-9fca-922404350de8}</field_uuid>
+<primary_key>0</primary_key>
+<name>diplomatic_deal</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>situation</column_source_column>
+<column_source_table>campaign_diplomacy_automatic_deal_situations</column_source_table>
+<field_description>Proposer is the acting faction, recipient is the original settlement owner, first parameter is the settlement owner at time of application.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

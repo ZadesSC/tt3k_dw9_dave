@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_bonus_value_ids_religion.xsd" export_time="Mon Dec 4 12:34:26 2017" revision="17" export_branch="S:/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>1deb3265-512f-4f82-b314-6bd904f94a0b</edit_uuid>
+<campaign_bonus_value_ids_religion record_uuid="{ef213a9e-98c3-4d83-9124-42f5764d0178}" record_key="conversion">
+<key>conversion</key>
+<notes>Adds to religious conversion factors for regions. Used at region and faction bonuses (split to allow more detailed source demarcation in UI, ie we show factional effects separately)</notes>
+</campaign_bonus_value_ids_religion>
+<campaign_bonus_value_ids_religion record_uuid="{458c78e4-e79b-42c5-a446-2b0e06af332c}" record_timestamp="1369760719135" record_key="conversion_events">
+<key>conversion_events</key>
+<notes>Adds to religious conversion factors, used at either region or province or faction scope.</notes>
+</campaign_bonus_value_ids_religion>
+<campaign_bonus_value_ids_religion record_uuid="{33fefac3-1620-4e72-8f24-832a31a1f051}" record_timestamp="1364997400682" record_key="conversion_when_state">
+<key>conversion_when_state</key>
+<notes>Adds to religious conversion factors for regions, but only when the parameter religion matches the region-owner's state religion. Used at region and faction bonuses (split to allow more detailed source demarcation in UI, ie we show factional effects separately)</notes>
+</campaign_bonus_value_ids_religion>
+<campaign_bonus_value_ids_religion record_uuid="{ebef08e6-491e-4b6d-8c31-1d2fef1b1634}" record_timestamp="1465987183511" record_key="diplomatic_mod">
+<key>diplomatic_mod</key>
+<notes>Affects diplomatic relations. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_religion>
+<campaign_bonus_value_ids_religion record_uuid="{866d5456-17e5-48ce-957d-81752748e34d}" record_timestamp="1512390866515" record_key="diplomatic_mod_ancillary">
+<key>diplomatic_mod_ancillary</key>
+<notes>Affects diplomatic relations. Used at ancillary bonuses.</notes>
+</campaign_bonus_value_ids_religion>
+<campaign_bonus_value_ids_religion record_uuid="{3396142b-d1f1-427e-8755-8159a17f0b2d}" record_timestamp="1512390866515" record_key="diplomatic_mod_building">
+<key>diplomatic_mod_building</key>
+<notes>Affects diplomatic relations. Used at building bonuses.</notes>
+</campaign_bonus_value_ids_religion>
+<campaign_bonus_value_ids_religion record_uuid="{46bd4291-dcab-4c6b-8073-16cf8daf06f5}" record_timestamp="1465987183511" record_key="diplomatic_mod_imperium">
+<key>diplomatic_mod_imperium</key>
+<notes>Affects diplomatic relations. Used at imperium bonuses.</notes>
+</campaign_bonus_value_ids_religion>
+<campaign_bonus_value_ids_religion record_uuid="{bfc1bcd5-6d7f-46be-ad1d-6af1c1a71915}" record_timestamp="1465987183512" record_key="diplomatic_mod_tech">
+<key>diplomatic_mod_tech</key>
+<notes>Affects diplomatic relations. Used at technology bonuses.</notes>
+</campaign_bonus_value_ids_religion>
+<campaign_bonus_value_ids_religion record_uuid="{b87e6789-3ff1-4193-9ef0-940420f6bbcc}" record_timestamp="1372241701159" record_key="faction_public_order">
+<key>faction_public_order</key>
+<notes>Add public order for religion. Used at faction province bonuses. Works in the same way as public order, except it will show up as &quot;faction&quot; in the public order breakdown.</notes>
+</campaign_bonus_value_ids_religion>
+<campaign_bonus_value_ids_religion record_uuid="{2d6b0a48-cbaf-4be0-9e9d-5b9b2d4a119a}" record_key="osmotic_conversion">
+<key>osmotic_conversion</key>
+<notes>Adds to osmotic religious conversion factors for regions. Used at region bonuses</notes>
+</campaign_bonus_value_ids_religion>
+<campaign_bonus_value_ids_religion record_uuid="{65d12541-ccfa-4517-a228-fc1dc748f709}" record_timestamp="1364997400699" record_key="osmotic_conversion_when_state">
+<key>osmotic_conversion_when_state</key>
+<notes>Adds to osmotic religious conversion factors for regions, but only when the parameter religion matches the source region-owner's state religion. Used at region bonuses</notes>
+</campaign_bonus_value_ids_religion>
+<campaign_bonus_value_ids_religion record_uuid="{d7b7c90f-7881-4cfb-b24f-d39aadabeac1}" record_timestamp="1354288218303" record_key="public_order">
+<key>public_order</key>
+<notes>Add public order for religion. Used at faction province bonuses. Used in faction province public order, where X% of province is culture Y, apply X% of Y's bonus value.</notes>
+</campaign_bonus_value_ids_religion>
+</dataroot>

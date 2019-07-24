@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_building_instances>
+<root>
+<edit_uuid>2d51f2d8-3b0a-44a3-a8e6-5624669e6b9c</edit_uuid>
+<field>
+<field_uuid>{7a4d21dd-ecdd-4632-a648-3fb1ad1430e5}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{78bb7723-7082-47a2-ae46-ebe830b9c497}</field_uuid>
+<primary_key>0</primary_key>
+<name>num_instances</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+</root>

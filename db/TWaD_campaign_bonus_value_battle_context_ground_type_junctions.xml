@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_bonus_value_battle_context_ground_type_junctions>
+<root>
+<edit_uuid>78f08f22-663f-4a1e-a6a3-2ddee637cc95</edit_uuid>
+<agf_special_dependencies>battle_context_key&amp;ground_type_key</agf_special_dependencies>
+<field>
+<field_uuid>{a4066b58-e9d1-4ae9-a523-f9b41d35d404}</field_uuid>
+<primary_key>1</primary_key>
+<name>battle_context_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_bonus_value_battle_context_specifiers</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c54b2174-89ed-48b1-ab85-fdcc5c0fce13}</field_uuid>
+<primary_key>1</primary_key>
+<name>ground_type_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>type</column_source_column>
+<column_source_table>campaign_ground_types</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

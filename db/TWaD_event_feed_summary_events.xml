@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_event_feed_summary_events>
+<root>
+<edit_uuid>a4db01b6-7f43-418c-9385-8b9e442b2d03</edit_uuid>
+<field>
+<field_uuid>{1432460b-5bc9-43dd-88ca-51f820b0156d}</field_uuid>
+<primary_key>1</primary_key>
+<name>event</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>event</column_source_column>
+<column_source_table>event_feed_events</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{be57cdcc-12bd-43b1-8cef-7c8215d3ecd4}</field_uuid>
+<primary_key>0</primary_key>
+<name>title</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{89478e08-ced5-48d4-8c1e-c840a106e3be}</field_uuid>
+<primary_key>0</primary_key>
+<name>icon</name>
+<field_type>text</field_type>
+<is_filename>1</is_filename>
+<filename_relative_path>ui/campaign ui/message_icons/%</filename_relative_path>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+</root>

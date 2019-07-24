@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_settlement_siege_action_option_sets>
+<root>
+<edit_uuid>bca0ef60-41a1-4ea0-9c6f-50b3c62049ff</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{bf0c559c-91cf-4ad3-b810-593b9646399d}</field_uuid>
+<primary_key>1</primary_key>
+<name>set</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Used with campaign_group_lookup_criteria_settlement_siege_action_option_sets. A set is a group of action options that must all be satisfied to match the criteria. To specify that one of a group of action options must be satisfied use multiple sets with one option per set and one set per campaign group member.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

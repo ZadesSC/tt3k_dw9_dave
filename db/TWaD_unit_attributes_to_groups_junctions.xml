@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_unit_attributes_to_groups_junctions>
+<root>
+<edit_uuid>6537ad6e-e0f0-4769-a1d4-a749920547f0</edit_uuid>
+<field>
+<field_uuid>{e5e10d3f-9f1f-4c18-927d-e3907724d689}</field_uuid>
+<primary_key>1</primary_key>
+<name>attribute</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>unit_attributes</column_source_table>
+<encyclopaedia_export>1</encyclopaedia_export>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{fb2b24e7-245f-4adf-984b-ab384cb0a554}</field_uuid>
+<primary_key>1</primary_key>
+<name>attribute_group</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>group_name</column_source_column>
+<column_source_table>unit_attributes_groups</column_source_table>
+<encyclopaedia_export>1</encyclopaedia_export>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

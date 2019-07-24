@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_diplomacy_deal_evaluation_factor_and_criterion_junctions>
+<root>
+<edit_uuid>d6d32756-24cf-4c86-8a0f-12d854c6a95c</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{9280ca57-3b1d-43b3-a82c-99a7caf636ad}</field_uuid>
+<primary_key>1</primary_key>
+<name>factor</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>cai_diplomacy_deal_evaluation_factor_types</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{b7650444-a4ca-40e6-b2c4-cf01d0b8bb8e}</field_uuid>
+<primary_key>1</primary_key>
+<name>criterion</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>cai_diplomacy_deal_evaluation_criterion_types</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

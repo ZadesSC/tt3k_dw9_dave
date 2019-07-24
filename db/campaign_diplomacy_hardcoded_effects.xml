@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_hardcoded_effects.xsd" export_time="Fri Mar 1 12:10:27 2019" revision="22" export_branch="T:/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>fefdd8fc-d974-4cd0-b2f2-491a4d6df69e</edit_uuid>
+<campaign_diplomacy_hardcoded_effects record_uuid="{a4d68508-e785-44c6-8bce-2c995130dada}" record_timestamp="1516029571862" record_key="absorb_into_our_confederation">
+<description>The proposer becomes a confederation, absorbing the recipients territory and forces. No parameters.</description>
+<key>absorb_into_our_confederation</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{23f0a1ae-4ff4-47b2-8de3-d11805f42093}" record_timestamp="1543839564012" record_key="absorb_into_our_confederation_via_faction_leader_marriage">
+<description>The proposer becomes a confederation, absorbing the recipients territory and forces and the recipient's faction leader is married to the proposer's faction leader. No parameters.</description>
+<key>absorb_into_our_confederation_via_faction_leader_marriage</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{52f66b34-2c9e-4102-9c13-27ca7f94e86d}" record_timestamp="1498649813461" record_key="add_alliance_alliance_target">
+<description>NOT IMPLEMENTED.</description>
+<key>add_alliance_alliance_target</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{cd55902c-401c-4f64-946b-dc3548584c8d}" record_timestamp="1498649813461" record_key="add_alliance_faction_target">
+<description>NOT IMPLEMENTED.</description>
+<key>add_alliance_faction_target</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{adcdcffd-c7f4-462d-8298-e602147826ae}" record_timestamp="1509635045672" record_key="break_deal">
+<description>Breaks a diplomatic deal. Requires one parameter which is the deal to break.</description>
+<key>break_deal</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{6f12e756-f920-48a9-b835-7c1cec1c800c}" record_timestamp="1517500845423" record_key="bring_into_our_alliance">
+<description>Adds the recipient to an alliance. Requires one parameter which is the alliance to join. The proposer must be a member of that alliance. The recipient must not be a member of that alliance.</description>
+<key>bring_into_our_alliance</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{403f5efe-b324-46da-b4ab-251527e44d94}" record_timestamp="1498649813460" record_key="change_alliance_leader">
+<description>NOT IMPLEMENTED.</description>
+<key>change_alliance_leader</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{d0afdae0-a93d-49a7-8c19-d0930ccd980e}" record_timestamp="1498649813461" record_key="change_alliance_oath">
+<description>Changes the oath assigned to an alliance. Requires one parameter which is an alliance oath. The proposer must be a member of an alliance. NOTE: Does not support factions being in multiple alliances.</description>
+<key>change_alliance_oath</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{168410e0-e670-4cc3-924e-ffbe56ee5fac}" record_timestamp="1498649813459" record_key="create_alliance">
+<description>Creates a new alliance comprising the proposer and recipient. Requires one parameter which is an alliance oath. Generates a second parameter which is the alliance.</description>
+<key>create_alliance</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{ed09b71d-01be-4b29-93b4-f2f0aa78ccb1}" record_timestamp="1510674631634" record_key="dissolve_deal">
+<description>Dissolves a diplomatic deal. Requires one parameter which is the deal to dissolve.</description>
+<key>dissolve_deal</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{d0d20a7d-f31f-4509-bc49-f15fe98dabdf}" record_timestamp="1507635709161" record_key="gain_ability_to_annex_their_territory_with_forces">
+<description>Gives the proposer the ability to &quot;attack&quot; the recipients settlements and capture them without battle. No parameters.</description>
+<key>gain_ability_to_annex_their_territory_with_forces</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{4aa8fce2-d57a-4627-9cbb-1395fa0b7c21}" record_timestamp="1502451848036" record_key="gain_ability_to_attack_settlements">
+<description>Gives the proposer the ability to attack the recipients settlements. No parameters.</description>
+<key>gain_ability_to_attack_settlements</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{daf7c618-e700-43b5-9bad-03509dc168ba}" record_timestamp="1502814009347" record_key="gain_ability_to_attack_trade_routes">
+<description>Gives the proposer the ability to attack the recipients trade routes. No parameters.</description>
+<key>gain_ability_to_attack_trade_routes</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{f4f45d0b-7d3f-49ea-ba10-832a9aa7d050}" record_timestamp="1502451848036" record_key="gain_ability_to_attack_ungarrisoned_forces">
+<description>Gives the proposer the ability to attack the recipients ungarrisoned forces. No parameters.</description>
+<key>gain_ability_to_attack_ungarrisoned_forces</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{aece5ff1-ddc7-4eb1-be31-e9f9a6a1acde}" record_timestamp="1508836988410" record_key="gain_ability_to_call_on_them_for_war_coordination">
+<description>Gives the proposer the ability to call on the recipient in war co-ordination. No parameters.</description>
+<key>gain_ability_to_call_on_them_for_war_coordination</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{669940ac-3ff4-4392-b571-5925d6203cf6}" record_timestamp="1501062777569" record_key="gain_ability_to_enter_territory">
+<description>Provides the proposer hard military access to the recipients territory. Untested and definitely doesn't work when using soft military access. No parameters.</description>
+<key>gain_ability_to_enter_territory</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{7224fa20-def0-49f9-8062-29fd986b7cab}" record_timestamp="1502451848036" record_key="gain_ability_to_reinforce_with_armed_citizenry_forces">
+<description>Gives the proposer the ability to reinforce battles with their armed citizenry forces when the recipient is involved. No parameters.</description>
+<key>gain_ability_to_reinforce_with_armed_citizenry_forces</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{4fefd627-b927-4fed-a74f-48ed554033a2}" record_timestamp="1502451848036" record_key="gain_ability_to_reinforce_with_non_armed_citizenry_forces">
+<description>Gives the proposer the ability to reinforce battles with their non-armed citizenry forces when the recipient is involved. No parameters.</description>
+<key>gain_ability_to_reinforce_with_non_armed_citizenry_forces</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{cdc5a5b4-0b0f-4282-9bfd-e844a4e94160}" record_timestamp="1511174455128" record_key="gain_campaign_effect_object">
+<description>Transfer one or more campaign effect objects from the recipient to the proposer. Requires one parameter which is the set of campaign effect objects to transfer.</description>
+<key>gain_campaign_effect_object</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{c37b75ea-6d74-4e2f-aeeb-533a8a1d8454}" record_timestamp="1511174455128" record_key="gain_character_in_marriage">
+<description>Marries one or more characters from the recipients family into the proposers family. May have no parameters, in which case both characters are picked automatically, one parameter which is a set of characters, in which case they are each married to an automatically picked partner, or two parameters which are both sets of characters of the same size, in which case they are married pair-wise.</description>
+<key>gain_character_in_marriage</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{9a0a7a19-d95d-46fa-8fa7-73630fb2105e}" record_timestamp="1547722864943" record_key="gain_knowledge_of_all_factions_they_have_encountered_or_do_encounter">
+<description>The proposer faction immediately encounters every faction the recipient faction has encountered and every time the recipient faction encounters a new faction, the proposer faction also encounters that faction.</description>
+<key>gain_knowledge_of_all_factions_they_have_encountered_or_do_encounter</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{720d5b55-e4f4-4472-9e92-5811c91179bd}" record_timestamp="1501062777568" record_key="gain_permission_to_enter_territory">
+<description>Provides the proposer hard military access to the recipients territory. No parameters.</description>
+<key>gain_permission_to_enter_territory</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{3a823792-a591-49e2-a1f6-6edb4e387d16}" record_timestamp="1498649813460" record_key="gain_region">
+<description>Transfer one or more regions from the recipient to the proposer. Requires one parameter which is the set of regions to transfer.</description>
+<key>gain_region</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{5bff67cd-bbda-4f14-8277-907316388f47}" record_timestamp="1523977342924" record_key="gain_replenishment_in_their_territory">
+<description>Gives the proposer the ability to replenish forces in the recipients territory.</description>
+<key>gain_replenishment_in_their_territory</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{a3c36608-b076-46b4-9b93-07367cd1704e}" record_timestamp="1505819450499" record_key="gain_their_passive_detection_information">
+<description>The proposer can see hidden objects visible to the recipient. No parameters.</description>
+<key>gain_their_passive_detection_information</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{976a5ed9-02b6-4e68-adc8-cb03a5d2a1a1}" record_timestamp="1502814009323" record_key="gain_their_seen_line_of_sight">
+<description>The proposer acquires the recipients seen line of sight. Untested - use gain_their_visible_and_seen_line_of_sight for now.  No parameters.</description>
+<key>gain_their_seen_line_of_sight</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{0d0cd968-4b5f-44ed-bd6c-53cf364bc758}" record_timestamp="1502814009377" record_key="gain_their_visible_and_seen_line_of_sight">
+<description>The proposer acquires the recipients visible and seen line of sight. No parameters.</description>
+<key>gain_their_visible_and_seen_line_of_sight</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{e60edbad-425b-48a0-a94a-6faca2cc8eaf}" record_timestamp="1516022054980" record_key="gain_trade_route">
+<description>Creates a trade route where the proposer sells to the recipient. No parameters.</description>
+<key>gain_trade_route</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{09cdc231-140c-4e70-8a57-984edeec0302}" record_timestamp="1507635709161" record_key="give_ability_to_annex_their_territory_with_forces">
+<description>Gives the recipient the ability to &quot;attack&quot; the proposers settlements and capture them without battle. No parameters.</description>
+<key>give_ability_to_annex_their_territory_with_forces</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{3dc4322c-bc91-46f5-b130-f32da0bcd3ea}" record_timestamp="1502451848036" record_key="give_ability_to_attack_settlements">
+<description>Gives the recipient the ability to attack the proposers settlements. No parameters.</description>
+<key>give_ability_to_attack_settlements</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{5531e359-e681-4639-8b05-c51b164ee96c}" record_timestamp="1502814009313" record_key="give_ability_to_attack_trade_routes">
+<description>Gives the recipient the ability to attack the proposers trade routes. No parameters.</description>
+<key>give_ability_to_attack_trade_routes</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{d86edb4e-9bdb-4d3f-a45d-427f4b39ec67}" record_timestamp="1502451848036" record_key="give_ability_to_attack_ungarrisoned_forces">
+<description>Gives the recipient the ability to attack the proposers ungarrisoned forces. No parameters.</description>
+<key>give_ability_to_attack_ungarrisoned_forces</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{15926ca4-15f5-4f45-a7a8-3943f33dba4c}" record_timestamp="1508836988410" record_key="give_ability_to_call_on_us_for_war_coordination">
+<description>Gives the recipient the ability to call on the proposer in war co-ordination. No parameters.</description>
+<key>give_ability_to_call_on_us_for_war_coordination</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{f15bddf3-e277-4c91-a2d2-9da82a6d2688}" record_timestamp="1501062777568" record_key="give_ability_to_enter_territory">
+<description>Provides the recipient hard military access to the proposers territory. Untested and definitely doesn't work when using soft military access. No parameters.</description>
+<key>give_ability_to_enter_territory</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{2e08c110-304b-4046-843c-2a97a8619d21}" record_timestamp="1502451848036" record_key="give_ability_to_reinforce_with_armed_citizenry_forces">
+<description>Gives the recipient the ability to reinforce battles with their armed citizenry forces when the proposer is involved. No parameters.</description>
+<key>give_ability_to_reinforce_with_armed_citizenry_forces</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{16353736-a04b-4d44-90c0-b878e2056d73}" record_timestamp="1502451848036" record_key="give_ability_to_reinforce_with_non_armed_citizenry_forces">
+<description>Gives the recipient the ability to reinforce battles with their non-armed citizenry forces when the proposer is involved. No parameters.</description>
+<key>give_ability_to_reinforce_with_non_armed_citizenry_forces</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{6a3b1e1c-5d8a-4386-81f6-c67261a03814}" record_timestamp="1511174455128" record_key="give_campaign_effect_object">
+<description>Transfer one or more campaign effect object from the proposer to the recipient. Requires one parameter which is the set of campaign effect objects to transfer.</description>
+<key>give_campaign_effect_object</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{ee961586-f77e-417a-9dae-a5ac66384afc}" record_timestamp="1511174455128" record_key="give_character_in_marriage">
+<description>Marries one or more characters from the proposers family into the recipients family. May have no parameters, in which case both characters are picked automatically, one parameter which is a set of characters, in which case they are each married to an automatically picked partner, or two parameters which are both sets of characters of the same size, in which case they are married pair-wise.</description>
+<key>give_character_in_marriage</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{14dc60fd-8332-4873-a1c6-2353aeedcc1e}" record_timestamp="1505819450488" record_key="give_our_passive_detection_information_to_them">
+<description>The recipient can see hidden objects visible to the proposer. No parameters.</description>
+<key>give_our_passive_detection_information_to_them</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{df9788d0-1913-47f0-abae-7b01d11e70be}" record_timestamp="1502814009361" record_key="give_our_seen_line_of_sight_to_them">
+<description>The recipient acquires the proposers seen line of sight. Untested - use gain_their_visible_and_seen_line_of_sight for now.  No parameters.</description>
+<key>give_our_seen_line_of_sight_to_them</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{d713010c-7f7f-49bf-81f9-6aca69469587}" record_timestamp="1502814009334" record_key="give_our_visible_and_seen_line_of_sight_to_them">
+<description>The recipient acquires the proposers seen line of sight. No parameters.</description>
+<key>give_our_visible_and_seen_line_of_sight_to_them</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{21df8858-ad4e-4a73-88ee-4965ae6243ba}" record_timestamp="1501062777568" record_key="give_permission_to_enter_territory">
+<description>Provides the recipient soft military access to the proposers territory. No parameters.</description>
+<key>give_permission_to_enter_territory</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{53d39e88-c41a-4576-b2f5-daaef3d55544}" record_timestamp="1498649813460" record_key="give_region">
+<description>Transfer one or more regions from the proposer to the recipient. Requires one parameter which is the set of regions to transfer.</description>
+<key>give_region</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{174850cb-d164-4b4d-ba11-bf5c9784f7f2}" record_timestamp="1547722864943" record_key="give_them_knowledge_of_all_factions_we_have_encountered_or_do_encounter">
+<description>The recipient faction immediately encounters every faction the proposer faction has encountered and every time the proposer faction encounters a new faction, the recipient faction also encounters that faction.</description>
+<key>give_them_knowledge_of_all_factions_we_have_encountered_or_do_encounter</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{8af325d9-13bb-45f8-8e3a-9722cf47298a}" record_timestamp="1523977342925" record_key="give_them_replenishment_in_our_territory">
+<description>Gives the recipient the ability to replenish forces in the proposers territory.</description>
+<key>give_them_replenishment_in_our_territory</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{b8dfa900-a2e4-46ee-b491-33465d09b45c}" record_timestamp="1516022054980" record_key="give_trade_route">
+<description>Creates a trade route where the recipient sells to the proposer. No parameters.</description>
+<key>give_trade_route</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{21af2d2c-0dd9-4722-82e7-4246b6ad3ca4}" record_timestamp="1498649813460" record_key="join_their_alliance">
+<description>Adds the proposer to an alliance. Requires one parameter which is the alliance to join. The proposer must not be a member of that alliance. The recipient must be a member of that alliance.</description>
+<key>join_their_alliance</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{bf9ce2d4-c38b-445e-867e-4a5d456d5454}" record_timestamp="1516029571892" record_key="join_their_confederation">
+<description>The recipient becomes a confederation, absorbing the proposers territory and forces. No parameters.</description>
+<key>join_their_confederation</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{6ec8a204-f21f-4891-ba69-b6673fbe2af3}" record_timestamp="1543839564013" record_key="join_their_confederation_via_faction_leader_marriage">
+<description>The recipient becomes a confederation, absorbing the proposers territory and forces and the proposer's faction leader is married to the recipient's faction leader. No parameters.</description>
+<key>join_their_confederation_via_faction_leader_marriage</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{cd999a2b-5c5b-48be-a1f7-913ad80a7caf}" record_timestamp="1498649813461" record_key="leave_alliance">
+<description>Removes the proposer from an alliance. Requires one parameter which is the alliance to leave. The proposer and recipient must both be members of that alliance.</description>
+<key>leave_alliance</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{d45e91b7-db63-4702-b20b-6e2e2338849f}" record_timestamp="1523960836123" record_key="lose_ability_for_us_to_liberate_them">
+<description>Stops the proposer from being able to liberate the recipient in future.</description>
+<key>lose_ability_for_us_to_liberate_them</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{ce276b61-921b-44de-a803-292741fbee16}" record_timestamp="1515760231255" record_key="make_pool_transfer">
+<description>Transfers diplomatic pool values (treasury or pooled resources) between the proposer and recipient. Requires one parameter per pool value transferred, which is the amount to transfer. The pool defines the type and direction of transfer.</description>
+<key>make_pool_transfer</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{7f603174-3b2e-4aea-85ba-ea7b59b55894}" record_timestamp="1523977342925" record_key="our_territory_counts_towards_their_province_ownership">
+<description>The proposers region ownership counts towards the recipient owning entire provinces.</description>
+<key>our_territory_counts_towards_their_province_ownership</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{48f90e84-4467-41d9-a842-4f2892c33b99}" record_timestamp="1498649813461" record_key="remove_alliance_alliance_target">
+<description>NOT IMPLEMENTED.</description>
+<key>remove_alliance_alliance_target</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{f312a85d-b26b-44f6-bd6b-afbe57ec0901}" record_timestamp="1498649813460" record_key="remove_alliance_faction_target">
+<description>NOT IMPLEMENTED.</description>
+<key>remove_alliance_faction_target</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{42de2fef-11fa-4ca9-8d54-2d6686e3c296}" record_timestamp="1517500845423" record_key="remove_them_from_alliance">
+<description>Removes the recipient from an alliance. Requires one parameter which is the alliance to leave. The proposer and recipient must both be members of that alliance.</description>
+<key>remove_them_from_alliance</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{abde1350-2a95-4b32-8513-1f7116461699}" record_timestamp="1523960836123" record_key="take_ability_for_them_to_liberate_us">
+<description>Stops the recipient from being able to liberate the proposer in future.</description>
+<key>take_ability_for_them_to_liberate_us</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{d6f42089-ed70-4f9a-ac07-fce35bbeab2f}" record_timestamp="1523977342925" record_key="their_territory_counts_towards_our_province_ownership">
+<description>The recipients region ownership counts towards the proposer owning entire provinces.</description>
+<key>their_territory_counts_towards_our_province_ownership</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{be2d24d6-f729-412a-9a3d-8fc6ca9d415a}" record_timestamp="1525967045268" record_key="they_become_subordinate_to_us">
+<description>The proposer faction starts to consider the recipient faction to be a subordinate faction.</description>
+<key>they_become_subordinate_to_us</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{180bc634-10e1-40f0-9e53-3aedc362167b}" record_timestamp="1551442221219" record_key="they_contribute_to_our_strategic_threat_strength">
+<description>The recipient faction contributes to proposer factions's strategic threat strength  calculations.</description>
+<key>they_contribute_to_our_strategic_threat_strength</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{466b8b4d-d2e0-4e35-a226-0ee0f1ff2dbb}" record_timestamp="1525967045268" record_key="we_become_subordinate_to_them">
+<description>The recipient faction starts to consider the proposer faction to be a subordinate faction.</description>
+<key>we_become_subordinate_to_them</key>
+</campaign_diplomacy_hardcoded_effects>
+<campaign_diplomacy_hardcoded_effects record_uuid="{80377274-f11f-4ecf-afbc-0373878ff000}" record_timestamp="1551442221236" record_key="we_contribute_to_their_strategic_threat_strength">
+<description>The proposer faction contributes to recipient factions's strategic threat strength  calculations.</description>
+<key>we_contribute_to_their_strategic_threat_strength</key>
+</campaign_diplomacy_hardcoded_effects>
+</dataroot>

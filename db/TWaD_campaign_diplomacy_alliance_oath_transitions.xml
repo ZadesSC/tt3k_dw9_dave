@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_diplomacy_alliance_oath_transitions>
+<root>
+<edit_uuid>2527420d-038c-40b2-a878-ffe2127231f6</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{c1a1ed2a-5c1c-4116-b4f4-27dd7acbf9be}</field_uuid>
+<primary_key>1</primary_key>
+<name>oath_from</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_diplomacy_alliance_oaths</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{324547d9-9378-4d41-95b8-7164b5bc045d}</field_uuid>
+<primary_key>1</primary_key>
+<name>oath_to</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_diplomacy_alliance_oaths</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_battle_sequences>
+<root>
+<edit_uuid>5cfe9efa-ef09-4570-9f92-99ff13944bf0</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{2b54e2fe-4916-47a1-9252-0a70c7e6d8cd}</field_uuid>
+<primary_key>1</primary_key>
+<name>battle</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_column>localised_name</column_source_column>
+<column_source_table>battles</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{4c65710a-267f-40ba-aa09-573446350960}</field_uuid>
+<primary_key>0</primary_key>
+<name>unlock_order</name>
+<field_type>integer</field_type>
+<required>0</required>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+</root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_personality_diplomatic_components>
+<root>
+<edit_uuid>608fa529-64b7-453c-a555-4c2fcf643ad9</edit_uuid>
+<field>
+<field_uuid>{0530af7c-ad6e-4d4b-b055-566902f5b992}</field_uuid>
+<primary_key>1</primary_key>
+<name>id</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{009a79f7-abc3-49a1-8032-ed4bbc1e1c07}</field_uuid>
+<primary_key>0</primary_key>
+<name>short_description</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>diplomacy_strings</column_source_table>
+<field_description>short name of the personality component (diplomacy UI)</field_description>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{4e4c81cc-26ae-4435-af1a-a0eb680a7f2b}</field_uuid>
+<primary_key>0</primary_key>
+<name>long_description</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>diplomacy_strings</column_source_table>
+<field_description>tooltip for the personality component (diplomacy UI)</field_description>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

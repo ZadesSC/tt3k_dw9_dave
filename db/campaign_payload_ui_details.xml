@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_payload_ui_details.xsd" export_time="Mon Apr 1 15:50:14 2019" revision="149" export_branch="C:/Users/rene.vravko/AppData/Roaming/TWDaemon/1412/dave" export_user="bob">
+<edit_uuid>748fa841-4325-4535-bdae-fd314bb37717</edit_uuid>
+<campaign_payload_ui_details record_uuid="{35c99514-e106-4cb8-8c6a-025169c48058}" record_timestamp="1548264466967" record_key="add_character_ceo">
+<comment>%1% = Character name, %2% = CEO Name</comment>
+<component>add_character_ceo</component>
+<description state="APPROVED" last_approved_text="Trait gained: %2% for %1%" last_edit_user="bob">Trait gained: %2% for %1%</description>
+<icon>ui/skins/default/icon_ancillary_category_followers.png</icon>
+<sort_order>60</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{c6052b60-4b69-48ce-acef-25657eac5f9c}" record_timestamp="1548264466967" record_key="add_faction_ceo">
+<comment>%1% = Faction Name, %2% = Ceo Name</comment>
+<component>add_faction_ceo</component>
+<description state="APPROVED" last_approved_text="Ancillary gained: %2% for %1% (faction)" last_edit_user="bob">Ancillary gained: %2% for %1% (faction)</description>
+<icon>ui/skins/default/icon_ancillary_category_accessories.png</icon>
+<sort_order>61</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{be0296f3-2a5b-4738-bfc6-824f7ff21962}" record_timestamp="1424799501585" record_key="add_province_development_point">
+<comment></comment>
+<component>add_province_development_point</component>
+<description></description>
+<icon></icon>
+<sort_order>40</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{0213a89d-6d52-4307-83ae-392759e4354e}" record_timestamp="1525775632991" record_key="add_regional_faction_support">
+<comment>%1% = Faction support amount, %2% = region</comment>
+<component>add_regional_faction_support</component>
+<description state="APPROVED" last_approved_text="Faction Support in %2% changed by %1%" last_edit_user="bob">Faction Support in %2% changed by %1%</description>
+<icon>ui/campaign ui/effect_bundles/regional_faction_support.png</icon>
+<sort_order>41</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{6c46c434-610d-43ab-a2c8-9f9249b978f4}" record_timestamp="1425561560936" record_key="adopt">
+<comment>Use %1% to display adopting character's name.  Use %2% to display adopted character's name.</comment>
+<component>adopt</component>
+<description state="APPROVED" last_approved_text="Character adopted: %2%" last_edit_user="bob">Character adopted: %2%</description>
+<icon>ui/campaign ui/effect_bundles/child_chance.png</icon>
+<sort_order>81</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{19ddea83-3fb1-419a-8c95-e45067360a24}" record_timestamp="1424799501585" record_key="ambition_change">
+<comment></comment>
+<component>ambition_change</component>
+<description></description>
+<icon></icon>
+<sort_order>70</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{4a0ce997-ffc5-481a-99bb-c387c11fa1f2}" record_timestamp="1446028356098" record_key="assign_character_to_post">
+<comment>Use %1% to display character name.  Use %2% to display post title.</comment>
+<component>assign_character_to_post</component>
+<description state="APPROVED" last_approved_text="Office appointed: %1%, %2%" last_edit_user="bob">Office appointed: %1%, %2%</description>
+<icon>ui/campaign ui/effect_bundles/no_effect.png</icon>
+<sort_order>70</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{60b2cde0-c0b3-415a-98fb-2737cc26a9fc}" record_timestamp="1509091240317" record_key="banish">
+<comment>%1% = Banished character name</comment>
+<component>banish</component>
+<description state="APPROVED" last_approved_text="Character dismissed: %1%" last_edit_user="bob">Character dismissed: %1%</description>
+<icon>ui/campaign ui/effect_bundles/army_action_points.png</icon>
+<sort_order>82</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{b4396355-fe7c-4002-8ab6-e56dc6290a55}" record_timestamp="1424799501585" record_key="become_retainer">
+<comment></comment>
+<component>become_retainer</component>
+<description></description>
+<icon></icon>
+<sort_order>1</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{94df9932-8adc-4f61-b2fa-76d8e18ff592}" record_timestamp="1425393502050" record_key="building_restriction_change">
+<comment>Use %1% to display building variant onscreen name</comment>
+<component>building_restriction_change</component>
+<description></description>
+<icon></icon>
+<sort_order>2</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{4d9e90fd-bc7d-4cd3-a019-de6be09559de}" record_timestamp="1548264466967" record_key="character_ceo_trigger">
+<comment>%1% = Trigger title, %2% = Character</comment>
+<component>character_ceo_trigger</component>
+<description state="APPROVED" last_approved_text="%1%: %2%" last_edit_user="bob">%1%: %2%</description>
+<icon>ui/skins/default/icon_ancillary_category_followers.png</icon>
+<sort_order>62</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{fefaddae-4351-4c07-8581-93ac397cbbed}" record_timestamp="1516101857012" record_key="character_defection">
+<comment>%1% = Character Name, %2% = Destination Faction Name</comment>
+<component>character_defection</component>
+<description state="APPROVED" last_approved_text="%1% moves to faction %2%" last_edit_user="bob">%1% moves to faction %2%</description>
+<icon>ui/campaign ui/effect_bundles/prestige.png</icon>
+<sort_order>83</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{060889aa-a76a-41a8-9ca0-8ed5b3351c3d}" record_timestamp="1452785477882" record_key="character_experience_change">
+<comment>Use %1% or %+1% to display value.  Use %2% to display character name.</comment>
+<component>character_experience_change</component>
+<description state="APPROVED" last_approved_text="Bonus experience: %+1% for %2%" last_edit_user="bob">Bonus experience: %+1% for %2%</description>
+<icon>ui/campaign ui/effect_bundles/character_experience.png</icon>
+<sort_order>42</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{7c109d9f-90f9-4fd0-bd04-6ea9c59984ca}" record_timestamp="1545064185069" record_key="character_move_to_faction">
+<comment>%1% = Character Name, %2% = Destination Faction Name</comment>
+<component>character_move_to_faction</component>
+<description state="APPROVED" last_approved_text="%1% moves to faction %2%" last_edit_user="bob">%1% moves to faction %2%</description>
+<icon>ui/campaign ui/effect_bundles/prestige.png</icon>
+<sort_order>84</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{4c6dd60c-bf3d-4c43-95a3-3a05b13ff856}" record_timestamp="1545385358128" record_key="construct_siege_equipment">
+<comment>%1% = Onscreen name (or blank)</comment>
+<component>construct_siege_equipment</component>
+<description state="APPROVED" last_approved_text="Siege equipment constructed: %1%" last_edit_user="bob">Siege equipment constructed: %1%</description>
+<icon>ui/campaign ui/effect_bundles/siege_engines.png</icon>
+<sort_order>43</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{c1ba43fd-a317-47f6-8814-c789522a0ddc}" record_timestamp="1522845932216" record_key="cover_points_change">
+<comment></comment>
+<component>cover_points_change</component>
+<description state="APPROVED" last_approved_text="Character cover points changed: %2%, %1% points." last_edit_user="bob">Character cover points changed: %2%, %1% points.</description>
+<icon>ui/campaign ui/effect_bundles/spies.png</icon>
+<sort_order>30</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{f86b43db-27b0-4236-8347-86f5fa4928d5}" record_timestamp="1522845932217" record_key="cover_points_refill">
+<comment></comment>
+<component>cover_points_refill</component>
+<description state="APPROVED" last_approved_text="Character cover points refilled: %2%" last_edit_user="bob">Character cover points refilled: %2%</description>
+<icon>ui/campaign ui/effect_bundles/spies.png</icon>
+<sort_order>31</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{67b5ce3a-8659-4fb7-be36-9154557fd6a2}" record_timestamp="1522845932217" record_key="create_automatic_diplomacy_deal">
+<comment>%1% = Proposer, %2% = Recipient, %3% Show components/deal?</comment>
+<component>create_automatic_diplomacy_deal</component>
+<description state="APPROVED" last_approved_text="%1%: %2% and %3%" last_edit_user="bob">%1%: %2% and %3%</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<sort_order>94</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{9e1db78c-7f10-42f8-8988-6200a22817a9}" record_timestamp="1458329620979" record_key="damage_buildings">
+<comment></comment>
+<component>damage_buildings</component>
+<description state="APPROVED" last_approved_text="Buildings damaged" last_edit_user="bob">Buildings damaged</description>
+<icon>ui/campaign ui/effect_bundles/construction_city_level.png</icon>
+<sort_order>71</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{09824a4b-17d7-4333-a41d-85654165ee9d}" record_timestamp="1458329620980" record_key="damage_buildings_home_region">
+<comment></comment>
+<component>damage_buildings_home_region</component>
+<description state="APPROVED" last_approved_text="Buildings damaged" last_edit_user="bob">Buildings damaged</description>
+<icon>ui/campaign ui/effect_bundles/construction_city_level.png</icon>
+<sort_order>72</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{ee62f2a0-26fd-4bf7-95cb-1e5755eae5f0}" record_timestamp="1444995686440" record_key="damage_character">
+<comment></comment>
+<component>damage_character</component>
+<description></description>
+<icon></icon>
+<sort_order>73</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{5ea36773-da9b-452e-a570-cc5bcb59f2ae}" record_timestamp="1545385358180" record_key="damage_walls">
+<comment>%1% = Num breaches</comment>
+<component>damage_walls</component>
+<description state="APPROVED" last_approved_text="Walls destroyed: %1%" last_edit_user="bob">Walls destroyed: %1%</description>
+<icon>ui/campaign ui/effect_bundles/flaming_shot.png</icon>
+<sort_order>74</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{c04f47ac-c796-4364-b943-10d931bfc009}" record_timestamp="1452785477883" record_key="demolish_building_chain">
+<comment></comment>
+<component>demolish_building_chain</component>
+<description></description>
+<icon></icon>
+<sort_order>75</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{80928e39-3d54-4073-baaa-24b7b2c051be}" record_timestamp="1523875273488" record_key="deny_governor_independence">
+<comment>Use %1% to display governor name</comment>
+<component>deny_governor_independence</component>
+<description state="APPROVED" last_approved_text="Independance denied: %1%" last_edit_user="bob">Independance denied: %1%</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<sort_order>50</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{a1ffc070-84c3-4a71-8070-5eb29356db62}" record_timestamp="1545385358167" record_key="destroy_siege_equipment">
+<comment>%1% = Onscreen name (or blank)</comment>
+<component>destroy_siege_equipment</component>
+<description state="APPROVED" last_approved_text="Siege equipment destroyed: %1%" last_edit_user="bob">Siege equipment destroyed: %1%</description>
+<icon>ui/campaign ui/effect_bundles/siege_engines.png</icon>
+<sort_order>44</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{82d0d5ea-55e9-4a0f-ae90-3e84e1552d5c}" record_timestamp="1458299962573" record_key="diplomatic_attitude_change">
+<comment>Use %1% or %+1% to display value.  Use %2% to display target faction's name.</comment>
+<component>diplomatic_attitude_change</component>
+<description state="APPROVED" last_approved_text="Diplomatic relations: %+1% with %2%" last_edit_user="bob">Diplomatic relations: %+1% with %2%</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<sort_order>63</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{c0af5171-f1a2-4fe9-b984-01840b2843b5}" record_timestamp="1425561560936" record_key="divorce">
+<comment>Use %1% to display husband's name.  Use %2% to display wife's name.</comment>
+<component>divorce</component>
+<description></description>
+<icon></icon>
+<sort_order>76</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{9858fd95-ce23-46fe-a615-6593b0440a50}" record_timestamp="1543511522925" record_key="dummy_cao_cao_introduction">
+<comment>Introduction events</comment>
+<component>dummy_cao_cao_introduction</component>
+<description state="APPROVED" last_approved_text="Claim the neighbouring Han Empire regions" last_edit_user="bob">Claim the neighbouring Han Empire regions</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>200</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{049611a9-2529-4257-8050-1b0e2a4c2211}" record_timestamp="1543511523221" record_key="dummy_cao_cao_introduction_02">
+<comment>Introduction events</comment>
+<component>dummy_cao_cao_introduction_02</component>
+<description state="APPROVED" last_approved_text="Be wary of Yuan Shu to the west and Tao Qian to the east" last_edit_user="bob">Be wary of Yuan Shu to the west and Tao Qian to the east</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>210</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{4be9f6cb-c37f-4ecf-9598-a885ede2b147}" record_timestamp="1545401510952" record_key="dummy_civil_war_dong_zhuo">
+<comment></comment>
+<component>dummy_civil_war_dong_zhuo</component>
+<description state="APPROVED" last_approved_text="Civil War: Dong Zhuo" last_edit_user="bob">Civil War: Dong Zhuo</description>
+<icon>ui/campaign ui/effect_bundles/strategic_threat.png</icon>
+<sort_order>201</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{cb8b11f8-09f4-41be-bcf4-91aa4402055d}" record_timestamp="1458300026620" record_key="dummy_do_nothing">
+<comment></comment>
+<component>dummy_do_nothing</component>
+<description state="APPROVED" last_approved_text="Do nothing" last_edit_user="bob">Do nothing</description>
+<icon>ui/campaign ui/effect_bundles/no_effect.png</icon>
+<sort_order>202</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{f70fe005-28e1-4f02-acc9-e337e6cf7b04}" record_timestamp="1545065002404" record_key="dummy_dong_zhuo_introduction">
+<comment>Introduction events</comment>
+<component>dummy_dong_zhuo_introduction</component>
+<description state="APPROVED" last_approved_text="Consolidate your power" last_edit_user="bob">Consolidate your power</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>203</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{fc9a434e-86ad-4add-8f20-13f4fd21ac9d}" record_timestamp="1545065002472" record_key="dummy_dong_zhuo_introduction_02">
+<comment>Introduction events</comment>
+<component>dummy_dong_zhuo_introduction_02</component>
+<description state="APPROVED" last_approved_text="Strike back at the broken coalition around Yuan Shao" last_edit_user="bob">Strike back at the broken coalition around Yuan Shao</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>211</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{2a7b7915-f6bd-44ee-9682-7dcd3ccf6d2e}" record_timestamp="1551884182344" record_key="dummy_factual_choice">
+<comment>Denotes that this is how it went in history</comment>
+<component>dummy_factual_choice</component>
+<description state="APPROVED" last_approved_text="Follow the story..." last_edit_user="bob">Follow the story...</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>250</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{8e9d4f40-f45c-46e3-bf04-3a7ab62b0836}" record_timestamp="1539862398766" record_key="dummy_gating_ancillaries">
+<comment>Gating events</comment>
+<component>dummy_gating_ancillaries</component>
+<description state="APPROVED" last_approved_text="Ancillaries may now be equipped in the Character Details screen." last_edit_user="bob">Ancillaries may now be equipped in the Character Details screen.</description>
+<icon>ui/campaign ui/effect_bundles/craftsmen_ancillaries.png</icon>
+<sort_order>204</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{cda04d82-fe7f-458b-bc1a-30905d7e7ceb}" record_timestamp="1539862398646" record_key="dummy_gating_corruption">
+<comment>Gating events</comment>
+<component>dummy_gating_corruption</component>
+<description state="APPROVED" last_approved_text="Corruption is now affecting income in your {{tr:map_provinces}} and can be reviewed in the {{tr:map_Province}} Details screen." last_edit_user="bob">Corruption is now affecting income in your {{tr:map_provinces}} and can be reviewed in the {{tr:map_Province}} Details screen.</description>
+<icon>ui/campaign ui/effect_bundles/corruption.png</icon>
+<sort_order>205</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{143a88e4-0bf3-49a6-9761-2535f0bd0aef}" record_timestamp="1539862398709" record_key="dummy_gating_diplomacy">
+<comment>Gating events</comment>
+<component>dummy_gating_diplomacy</component>
+<description state="APPROVED" last_approved_text="You can now forge alliances in diplomacy." last_edit_user="bob">You can now forge alliances in diplomacy.</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<sort_order>206</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{d12acf10-0af9-4da5-b483-1897af8e31a4}" record_timestamp="1539862398583" record_key="dummy_gating_food">
+<comment>Gating events</comment>
+<component>dummy_gating_food</component>
+<description state="APPROVED" last_approved_text="Your {{tr:map_provinces}} are no longer self-sufficient and require food provisions." last_edit_user="bob">Your {{tr:map_provinces}} are no longer self-sufficient and require food provisions.</description>
+<icon>ui/campaign ui/effect_bundles/food.png</icon>
+<sort_order>207</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{f7a5a87d-113e-4f21-b7d4-a40c5359e526}" record_timestamp="1539862398795" record_key="dummy_gating_governors">
+<comment>Gating events</comment>
+<component>dummy_gating_governors</component>
+<description state="APPROVED" last_approved_text="You may now assign administrators to your {{tr:map_provinces}}." last_edit_user="bob">You may now assign administrators to your {{tr:map_provinces}}.</description>
+<icon>ui/campaign ui/effect_bundles/governor_limit.png</icon>
+<sort_order>208</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{a2649ff3-047d-4469-a52b-91fd01d4eb71}" record_timestamp="1541668482692" record_key="dummy_gating_guanxi">
+<comment>Gating events</comment>
+<component>dummy_gating_guanxi</component>
+<description state="APPROVED" last_approved_text="Review changes to relationships in the Relations tab of the Character panel." last_edit_user="bob">Review changes to relationships in the Relations tab of the Character panel.</description>
+<icon>ui/campaign ui/effect_bundles/satisfaction.png</icon>
+<sort_order>209</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{e0450300-a590-4a08-9d5b-b006d4e4d6b1}" record_timestamp="1539862398435" record_key="dummy_gating_ministers">
+<comment>Gating events</comment>
+<component>dummy_gating_ministers</component>
+<description state="APPROVED" last_approved_text="You may now assign Ministers from the Court screen." last_edit_user="bob">You may now assign Ministers from the Court screen.</description>
+<icon>ui/campaign ui/effect_bundles/governor_limit.png</icon>
+<sort_order>210</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{430f69ab-f803-49f5-b1de-770f7caf2aba}" record_timestamp="1539862398617" record_key="dummy_gating_public_order">
+<comment>Gating events</comment>
+<component>dummy_gating_public_order</component>
+<description state="APPROVED" last_approved_text="Public Order is becoming an issue in your {{tr:map_provinces}} screen." last_edit_user="bob">Public Order is becoming an issue in your {{tr:map_provinces}} screen.</description>
+<icon>ui/campaign ui/effect_bundles/public_order.png</icon>
+<sort_order>211</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{b85f1956-5925-4bf1-be08-15cf520c2303}" record_timestamp="1539862398465" record_key="dummy_gating_recruitment">
+<comment>Gating events</comment>
+<component>dummy_gating_recruitment</component>
+<description state="APPROVED" last_approved_text="Soldiers may now be recruited in your {{tr:map_regions}} and forces." last_edit_user="bob">Soldiers may now be recruited in your {{tr:map_regions}} and forces.</description>
+<icon>ui/campaign ui/effect_bundles/army_limit.png</icon>
+<sort_order>212</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{337aa00f-acf1-4dad-8b5c-a8895266f476}" record_timestamp="1539862398522" record_key="dummy_gating_reforms">
+<comment>Gating events</comment>
+<component>dummy_gating_reforms</component>
+<description state="APPROVED" last_approved_text="You may select a {{tr:3k_tr_Technology}} from the {{tr:3k_tr_Technology}} screen." last_edit_user="bob">You may select a {{tr:3k_tr_Technology}} from the {{tr:3k_tr_Technology}} screen.</description>
+<icon>ui/campaign ui/effect_bundles/building_unlocks_technologies.png</icon>
+<sort_order>213</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{40e88551-9cbe-47d8-8fe6-f0b71fee7d58}" record_timestamp="1539862398494" record_key="dummy_gating_skills">
+<comment>Gating events</comment>
+<component>dummy_gating_skills</component>
+<description state="APPROVED" last_approved_text="A character has skills available in their Character Details screen." last_edit_user="bob">A character has skills available in their Character Details screen.</description>
+<icon>ui/campaign ui/effect_bundles/character_experience.png</icon>
+<sort_order>214</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{80b2dbe0-a130-46eb-8bc5-51dd04a59f75}" record_timestamp="1547727487977" record_key="dummy_gating_spies">
+<comment>Gating events</comment>
+<component>dummy_gating_spies</component>
+<description state="APPROVED" last_approved_text="Spies can now be dispatched from the undercover network screen." last_edit_user="bob">Spies can now be dispatched from the undercover network screen.</description>
+<icon>ui/campaign ui/effect_bundles/spy_limit.png</icon>
+<sort_order>215</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{fd71564b-1194-44ec-b555-4e16f3be55fe}" record_timestamp="1539862398555" record_key="dummy_gating_tax">
+<comment>Gating events</comment>
+<component>dummy_gating_tax</component>
+<description state="APPROVED" last_approved_text="{{tr:map_Province}} taxes may now be adjusted in the Treasury screen." last_edit_user="bob">{{tr:map_Province}} taxes may now be adjusted in the Treasury screen.</description>
+<icon>ui/campaign ui/effect_bundles/icon_income_plus.png</icon>
+<sort_order>216</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{6355cc74-5b3c-490a-bac4-9cb2a3b4e114}" record_timestamp="1548184917084" record_key="dummy_gong_du_introduction">
+<comment>Introduction events</comment>
+<component>dummy_gong_du_introduction</component>
+<description state="APPROVED" last_approved_text="Annex yellow turban regions" last_edit_user="bob">Annex yellow turban regions</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>217</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{60df8675-f9ac-41ec-a2f9-21d1aecdce8c}" record_timestamp="1548184917095" record_key="dummy_gong_du_introduction_02">
+<comment>Introduction events</comment>
+<component>dummy_gong_du_introduction_02</component>
+<description state="APPROVED" last_approved_text="Be wary of Ma Teng and Zhang Lu" last_edit_user="bob">Be wary of Ma Teng and Zhang Lu</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>212</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{ef488b4f-e807-4e08-802d-0818352df63e}" record_timestamp="1545065002774" record_key="dummy_gongsun_zan_introduction">
+<comment>Introduction events</comment>
+<component>dummy_gongsun_zan_introduction</component>
+<description state="APPROVED" last_approved_text="Claim Han Empire regions" last_edit_user="bob">Claim Han Empire regions</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>218</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{59c849f6-a9ca-493d-981e-39b99e62dade}" record_timestamp="1545065002805" record_key="dummy_gongsun_zan_introduction_02">
+<comment>Introduction events</comment>
+<component>dummy_gongsun_zan_introduction_02</component>
+<description state="APPROVED" last_approved_text="Be wary of Liu Yu and Gongsun Du" last_edit_user="bob">Be wary of Liu Yu and Gongsun Du</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>213</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{1ae77e2b-c4f8-4482-a318-134ea2819879}" record_timestamp="1548184917130" record_key="dummy_he_yi_introduction">
+<comment>Introduction events</comment>
+<component>dummy_he_yi_introduction</component>
+<description state="APPROVED" last_approved_text="Claim Han Empire regions" last_edit_user="bob">Claim Han Empire regions</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>219</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{c47f28af-7959-4b63-ad21-f66705e61a8a}" record_timestamp="1548184917142" record_key="dummy_he_yi_introduction_02">
+<comment>Introduction events</comment>
+<component>dummy_he_yi_introduction_02</component>
+<description state="APPROVED" last_approved_text="Be wary of Liu Biao and his vassals" last_edit_user="bob">Be wary of Liu Biao and his vassals</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>214</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{b410e99c-770d-4a68-bad4-a59b512563f1}" record_timestamp="1548184917107" record_key="dummy_huang_shao_introduction">
+<comment>Introduction events</comment>
+<component>dummy_huang_shao_introduction</component>
+<description state="APPROVED" last_approved_text="Claim Han Empire regions and annex other yellow turbans" last_edit_user="bob">Claim Han Empire regions and annex other yellow turbans</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>220</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{15aef2db-19e9-4bb4-9f1d-977f11f142cd}" record_timestamp="1548184917118" record_key="dummy_huang_shao_introduction_02">
+<comment>Introduction events</comment>
+<component>dummy_huang_shao_introduction_02</component>
+<description state="APPROVED" last_approved_text="Be wary of Yuan Shao and Liu Bei" last_edit_user="bob">Be wary of Yuan Shao and Liu Bei</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>215</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{179b73c4-f87f-4283-bacc-bef35445062c}" record_timestamp="1545065002834" record_key="dummy_kong_rong_introduction">
+<comment>Introduction events</comment>
+<component>dummy_kong_rong_introduction</component>
+<description state="APPROVED" last_approved_text="Defend against the Yellow Turbans" last_edit_user="bob">Defend against the Yellow Turbans</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>221</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{6b0e5b18-76d7-4253-b457-680c239ca484}" record_timestamp="1545065002862" record_key="dummy_kong_rong_introduction_02">
+<comment>Introduction events</comment>
+<component>dummy_kong_rong_introduction_02</component>
+<description state="APPROVED" last_approved_text="Be wary of Yuan Shao" last_edit_user="bob">Be wary of Yuan Shao</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>216</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{ab5f2e4b-bf81-406e-b04d-609ae4300be2}" record_timestamp="1544525337389" record_key="dummy_liu_bei_introduction">
+<comment>Introduction events</comment>
+<component>dummy_liu_bei_introduction</component>
+<description state="APPROVED" last_approved_text="Make your way past the Yellow Turbans" last_edit_user="bob">Make your way past the Yellow Turbans</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>222</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{be45e352-94a1-4bea-a2c7-ac560f4cb968}" record_timestamp="1544525337389" record_key="dummy_liu_bei_introduction_02">
+<comment>Introduction events</comment>
+<component>dummy_liu_bei_introduction_02</component>
+<description state="APPROVED" last_approved_text="Find a powerbase to build up your strength" last_edit_user="bob">Find a powerbase to build up your strength</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>220</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{90f30efe-950e-4c40-84aa-2b54d71b4359}" record_timestamp="1544525337389" record_key="dummy_liu_bei_introduction_03">
+<comment>Introduction events</comment>
+<component>dummy_liu_bei_introduction_03</component>
+<description state="APPROVED" last_approved_text="Protect Kong Rong &amp; Tao Qian" last_edit_user="bob">Protect Kong Rong &amp; Tao Qian</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>217</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{139c04f2-cc75-4aaa-a7a8-c3cca0ee7d24}" record_timestamp="1545065002433" record_key="dummy_liu_biao_introduction">
+<comment>Introduction events</comment>
+<component>dummy_liu_biao_introduction</component>
+<description state="APPROVED" last_approved_text="Be wary of Yuan Shu and Sun Jian" last_edit_user="bob">Be wary of Yuan Shu and Sun Jian</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>223</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{7ca5770c-6dde-4a18-b439-78ad1d862402}" record_timestamp="1545065002503" record_key="dummy_liu_biao_introduction_02">
+<comment>Introduction events</comment>
+<component>dummy_liu_biao_introduction_02</component>
+<description state="APPROVED" last_approved_text="Defeat the Yellow Turbans" last_edit_user="bob">Defeat the Yellow Turbans</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>218</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{8672d107-5a8d-48a2-810d-83eff57bea2a}" record_timestamp="1545065002892" record_key="dummy_ma_teng_introduction">
+<comment>Introduction events</comment>
+<component>dummy_ma_teng_introduction</component>
+<description state="APPROVED" last_approved_text="Remove the Yellow Turban threat" last_edit_user="bob">Remove the Yellow Turban threat</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>224</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{e17a7877-17eb-4acf-8360-7e7337a59032}" record_timestamp="1545065002922" record_key="dummy_ma_teng_introduction_02">
+<comment>Introduction events</comment>
+<component>dummy_ma_teng_introduction_02</component>
+<description state="APPROVED" last_approved_text="Be wary of Dong Zhuo" last_edit_user="bob">Be wary of Dong Zhuo</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>219</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{a0d85a2a-4095-49e6-be34-c3629fa030c3}" record_timestamp="1533126001404" record_key="dummy_man_of_the_hour_spawn_character">
+<comment>Used by Man of the Hour lua system events</comment>
+<component>dummy_man_of_the_hour_spawn_character</component>
+<description state="APPROVED" last_approved_text="A candidate appears" last_edit_user="bob">A candidate appears</description>
+<icon>ui/campaign ui/effect_bundles/unlocks_legendary_characters.png</icon>
+<sort_order>225</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{5caf2c85-7565-487d-9bce-48fe1bef71a2}" record_timestamp="1531153877003" record_key="dummy_siege_continues">
+<comment>When player does nothing to the siege</comment>
+<component>dummy_siege_continues</component>
+<description state="APPROVED" last_approved_text="The Siege Continues..." last_edit_user="bob">The Siege Continues...</description>
+<icon>ui/campaign ui/effect_bundles/siege_engines.png</icon>
+<sort_order>226</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{2f71ff06-5afd-4f46-9118-d64e890de0c2}" record_timestamp="1545065002531" record_key="dummy_sun_jian_introduction">
+<comment>Introduction events</comment>
+<component>dummy_sun_jian_introduction</component>
+<description state="APPROVED" last_approved_text="Be wary of Liu Biao and his vassals" last_edit_user="bob">Be wary of Liu Biao and his vassals</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>227</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{934361d3-93e3-4ed5-9386-502ece53635e}" record_timestamp="1545065002588" record_key="dummy_sun_jian_introduction_02">
+<comment>Introduction events</comment>
+<component>dummy_sun_jian_introduction_02</component>
+<description state="APPROVED" last_approved_text="Secure the Southlands" last_edit_user="bob">Secure the Southlands</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>228</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{98ebe5be-7f50-45a8-a9f5-89e73032b18b}" record_timestamp="1468247850514" record_key="dummy_take_no_action">
+<comment></comment>
+<component>dummy_take_no_action</component>
+<description state="APPROVED" last_approved_text="[[sortorder:1]][[/sortorder]]You take no action." last_edit_user="bob">[[sortorder:1]][[/sortorder]]You take no action.</description>
+<icon>ui/campaign ui/effect_bundles/no_effect.png</icon>
+<sort_order>229</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{70bcc35b-3e95-4bc9-96c3-851ff0845523}" record_timestamp="1540539469915" record_key="dummy_treachery">
+<comment></comment>
+<component>dummy_treachery</component>
+<description state="APPROVED" last_approved_text="May be seen as an act of treachery" last_edit_user="bob">May be seen as an act of treachery</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<sort_order>230</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{226c7fd6-b1d8-4a3f-8282-b8892d5bd2f9}" record_timestamp="1536314177469" record_key="dummy_yuan_shao_confederates_han_fu">
+<comment></comment>
+<component>dummy_yuan_shao_confederates_han_fu</component>
+<description></description>
+<icon></icon>
+<sort_order>231</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{b337b835-7933-46ca-8d4b-3ff70be3e4f8}" record_timestamp="1545065002618" record_key="dummy_yuan_shao_introduction">
+<comment>Introduction events</comment>
+<component>dummy_yuan_shao_introduction</component>
+<description state="APPROVED" last_approved_text="Claim Han Empire regions" last_edit_user="bob">Claim Han Empire regions</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>232</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{610cdec9-f92f-4221-94ec-917868e28cf9}" record_timestamp="1545065002649" record_key="dummy_yuan_shao_introduction_02">
+<comment>Introduction events</comment>
+<component>dummy_yuan_shao_introduction_02</component>
+<description state="APPROVED" last_approved_text="Defeat the Yellow Turbans" last_edit_user="bob">Defeat the Yellow Turbans</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>221</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{eff98bb4-2529-4872-b768-106624634a69}" record_timestamp="1545065002680" record_key="dummy_yuan_shao_introduction_03">
+<comment>Introduction events</comment>
+<component>dummy_yuan_shao_introduction_03</component>
+<description state="APPROVED" last_approved_text="Be wary of Gongsun Zan" last_edit_user="bob">Be wary of Gongsun Zan</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>220</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{65fdbe0e-a836-42ab-adde-ae6c296bb366}" record_timestamp="1545065002709" record_key="dummy_yuan_shu_introduction">
+<comment>Introduction events</comment>
+<component>dummy_yuan_shu_introduction</component>
+<description state="APPROVED" last_approved_text="Claim Han Empire regions" last_edit_user="bob">Claim Han Empire regions</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>233</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{6778c310-0216-4817-b2f3-2e8e853b7e2d}" record_timestamp="1545065003017" record_key="dummy_yuan_shu_introduction_02">
+<comment>Introduction events</comment>
+<component>dummy_yuan_shu_introduction_02</component>
+<description state="APPROVED" last_approved_text="Be wary of Liu Biao and Dong Zhuo" last_edit_user="bob">Be wary of Liu Biao and Dong Zhuo</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>221</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{f5f7db65-0c23-4e1b-9be9-bd534db3e2da}" record_timestamp="1545065002559" record_key="dummy_zhang_yan_introduction">
+<comment>Introduction events</comment>
+<component>dummy_zhang_yan_introduction</component>
+<description state="APPROVED" last_approved_text="Claim Han Empire regions" last_edit_user="bob">Claim Han Empire regions</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>234</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{b391df10-240f-49d7-9abf-7b76c5c2b0d2}" record_timestamp="1545065002744" record_key="dummy_zhang_yan_introduction_02">
+<comment>Introduction events</comment>
+<component>dummy_zhang_yan_introduction_02</component>
+<description state="APPROVED" last_approved_text="Be wary of Zheng Jiang" last_edit_user="bob">Be wary of Zheng Jiang</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>222</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{2d0d2d24-8913-4e8f-96bb-97a159f1c2aa}" record_timestamp="1545065002952" record_key="dummy_zheng_jiang_introduction">
+<comment>Introduction events</comment>
+<component>dummy_zheng_jiang_introduction</component>
+<description state="APPROVED" last_approved_text="Make your way past the Han forces" last_edit_user="bob">Make your way past the Han forces</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>235</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{83442c61-8387-4b13-8fb0-16d1c0328f10}" record_timestamp="1545065002986" record_key="dummy_zheng_jiang_introduction_02">
+<comment>Introduction events</comment>
+<component>dummy_zheng_jiang_introduction_02</component>
+<description state="APPROVED" last_approved_text="Find a powerbase to build up your strength" last_edit_user="bob">Find a powerbase to build up your strength</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>223</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{06ab0222-4c4f-4456-9cec-ab916197005a}" record_timestamp="1426085770346" record_key="embezzle">
+<comment>Use %1% to display amount embezzled.  Use %2% to display character name.</comment>
+<component>embezzle</component>
+<description></description>
+<icon></icon>
+<sort_order>64</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{31c9099b-b554-48c7-bfb6-d5eddfbecb8c}" record_timestamp="1548264930810" record_key="faction_ceo_trigger">
+<comment>%1% = Trigger name, %2% = Faction</comment>
+<component>faction_ceo_trigger</component>
+<description state="APPROVED" last_approved_text="%1% : %2% (faction)" last_edit_user="bob">%1% : %2% (faction)</description>
+<icon>ui/skins/default/icon_ancillary_category_accessories.png</icon>
+<sort_order>65</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{3c75cbdd-7656-46da-9d7a-d08260528cb9}" record_timestamp="1548358420934" record_key="faction_pooled_resource_transaction">
+<comment></comment>
+<component>faction_pooled_resource_transaction</component>
+<description state="APPROVED" last_approved_text="%2%: %3% for %1%" last_edit_user="bob">%2%: %3% for %1%</description>
+<icon>ui/campaign ui/effect_bundles/no_effect.png</icon>
+<sort_order>77</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{746b9a66-ebf1-41c3-9b7a-68da120d09a4}" record_timestamp="1548358420934" record_key="faction_province_pooled_resource_transaction">
+<comment></comment>
+<component>faction_province_pooled_resource_transaction</component>
+<description state="APPROVED" last_approved_text="%2%: %3% for %1%" last_edit_user="bob">%2%: %3% for %1%</description>
+<icon>ui/campaign ui/effect_bundles/no_effect.png</icon>
+<sort_order>78</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{d86fb949-56a8-4ee3-8dab-35505b2c7892}" record_timestamp="1541015350987" record_key="form_confederation">
+<comment>%1% source faction, %2% target faction</comment>
+<component>form_confederation</component>
+<description state="APPROVED" last_approved_text="%1% confederates %2%" last_edit_user="bob">%1% confederates %2%</description>
+<icon>ui/campaign ui/effect_bundles/prestige.png</icon>
+<sort_order>100</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{9b1d2f3d-e853-485b-81d1-db33f5c5c163}" record_timestamp="1425571472790" record_key="give_region">
+<comment></comment>
+<component>give_region</component>
+<description></description>
+<icon></icon>
+<sort_order>101</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{dc924843-e06f-4f85-9298-cc7e440d8659}" record_timestamp="1516358871746" record_key="grant_character_ranks">
+<comment></comment>
+<component>grant_character_ranks</component>
+<description></description>
+<icon></icon>
+<sort_order>79</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{ed7e8a86-d18d-440a-8c44-3a8d43848983}" record_timestamp="1523875273488" record_key="grant_governor_independence">
+<comment>Use %1% to display governor name</comment>
+<component>grant_governor_independence</component>
+<description state="APPROVED" last_approved_text="Independence granted:%1%" last_edit_user="bob">Independence granted:%1%</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<sort_order>80</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{d5d945af-3b62-4724-9a4d-c8e1fbd53b24}" record_timestamp="1425561560937" record_key="gravitas_change">
+<comment>Use %1% or %+1% to display value.  Use %2% to display character name.</comment>
+<component>gravitas_change</component>
+<description></description>
+<icon></icon>
+<sort_order>66</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{e984b507-f3db-4999-b572-ea7703e59a21}" record_timestamp="1425382569691" record_key="honour_change_negative">
+<comment>Use %1% or %+1% to display value</comment>
+<component>honour_change_negative</component>
+<description></description>
+<icon>ui/campaign ui/effect_bundles/no_effect.png</icon>
+<sort_order>67</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{bbcf26c4-4aef-4e14-bfaf-4441e646f4f9}" record_timestamp="1425382569692" record_key="honour_change_positive">
+<comment>Use %1% or %+1% to display value</comment>
+<component>honour_change_positive</component>
+<description></description>
+<icon>ui/campaign ui/effect_bundles/no_effect.png</icon>
+<sort_order>68</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{04a84834-c2d8-4096-9d5f-493d50e59de4}" record_timestamp="1424799501661" record_key="issue_mission">
+<comment></comment>
+<component>issue_mission</component>
+<description></description>
+<icon></icon>
+<sort_order>90</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{466ad3d4-d8e1-4d84-af14-a405383af358}" record_timestamp="1425382569692" record_key="kill_character">
+<comment>Use %1% to display character name</comment>
+<component>kill_character</component>
+<description state="APPROVED" last_approved_text="Character killed: %1%" last_edit_user="bob">Character killed: %1%</description>
+<icon>ui/campaign ui/effect_bundles/attrition_from_low_supplies.png</icon>
+<sort_order>91</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{855a991c-d764-420f-a3f6-2ac96c727760}" record_timestamp="1548331680611" record_key="kill_character_wounded">
+<comment>Use %1% to display character name</comment>
+<component>kill_character_wounded</component>
+<description state="APPROVED" last_approved_text="Character wounded: %1%" last_edit_user="bob">Character wounded: %1%</description>
+<icon>ui/campaign ui/effect_bundles/attrition_from_low_supplies.png</icon>
+<sort_order>92</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{f68905ef-54a0-4bea-b9c8-e530bb43836e}" record_timestamp="1425561560937" record_key="loyalty_change">
+<comment>Use %1% or %+1% to display value.  Use %2% to display character name.</comment>
+<component>loyalty_change</component>
+<description state="APPROVED" last_approved_text="Satisfaction: %+1% %2%" last_edit_user="bob">Satisfaction: %+1% %2%</description>
+<icon>ui/campaign ui/effect_bundles/satisfaction.png</icon>
+<sort_order>81</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{bf68ec40-17f1-422a-97e5-fef70ac33aa6}" record_timestamp="1545385358154" record_key="make_heir">
+<comment>%1% = Character name</comment>
+<component>make_heir</component>
+<description state="APPROVED" last_approved_text="Become heir: %1% " last_edit_user="bob">Become heir: %1% </description>
+<icon>ui/campaign ui/effect_bundles/marriage.png</icon>
+<sort_order>51</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{0ac264e5-037a-41dd-87a6-e9c43190a05b}" record_timestamp="1542968029673" record_key="marriage">
+<comment>Use %1% to display proposer's name.  Use %2% to display recipient's name.</comment>
+<component>marriage</component>
+<description state="APPROVED" last_approved_text="Marriage: %1% and %2%" last_edit_user="bob">Marriage: %1% and %2%</description>
+<icon>ui/campaign ui/effect_bundles/marriage.png</icon>
+<sort_order>69</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{6cf3d0be-eea3-4f09-88e1-28ed7897cb6b}" record_timestamp="1542968029673" record_key="marriage_random">
+<comment>Variant of marriage where the recipient it not yet known.  Use %1% to display proposer's name.</comment>
+<component>marriage_random</component>
+<description state="APPROVED" last_approved_text="Marriage: %1%" last_edit_user="bob">Marriage: %1%</description>
+<icon>ui/campaign ui/effect_bundles/marriage.png</icon>
+<sort_order>70</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{19c6def2-0b7f-4e19-8d13-f63e5612d3a8}" record_timestamp="1548358420934" record_key="military_force_pooled_resource_transaction">
+<comment></comment>
+<component>military_force_pooled_resource_transaction</component>
+<description state="APPROVED" last_approved_text="%2%: %3% for %1%" last_edit_user="bob">%2%: %3% for %1%</description>
+<icon>ui/campaign ui/effect_bundles/no_effect.png</icon>
+<sort_order>82</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{7b39afb6-339e-44d5-91cb-3e98c34ebf05}" record_timestamp="1545385358141" record_key="open_gates">
+<comment>%1% = Num rounds sabotaged</comment>
+<component>open_gates</component>
+<description state="APPROVED" last_approved_text="Gates opened: %1% turns" last_edit_user="bob">Gates opened: %1% turns</description>
+<icon>ui/campaign ui/effect_bundles/flaming_shot.png</icon>
+<sort_order>85</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{d85230b9-1eb3-4e60-b24a-959d710bdb6f}" record_timestamp="1425989757024" record_key="party_power_change">
+<comment>Use %1% or %+1% to diplay power change delta</comment>
+<component>party_power_change</component>
+<description></description>
+<icon></icon>
+<sort_order>45</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{fd310377-6af1-414b-a81b-2aee2138b9f4}" record_timestamp="1424799501662" record_key="play_movie">
+<comment></comment>
+<component>play_movie</component>
+<description></description>
+<icon></icon>
+<sort_order>46</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{37ca3896-f526-49e3-9123-e2ae44d50670}" record_timestamp="1512746899147" record_key="random_sub_payload">
+<comment></comment>
+<component>random_sub_payload</component>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">[PH] SPIN THE WHEEL! (Seriously, for designers to fill out later)</description>
+<icon></icon>
+<sort_order>86</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{4fdacaae-2934-4515-89f3-ca86cb385782}" record_timestamp="1452785477885" record_key="rebellion">
+<comment></comment>
+<component>rebellion</component>
+<description state="APPROVED" last_approved_text="Rebellion" last_edit_user="bob">Rebellion</description>
+<icon>ui/campaign ui/effect_bundles/pooled_resource_intimidation.png</icon>
+<sort_order>93</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{50458fda-3db9-4927-af5b-4e5828b0268e}" record_timestamp="1550856075440" record_key="recall_character_from_assignment">
+<comment></comment>
+<component>recall_character_from_assignment</component>
+<description state="APPROVED" last_approved_text="Character recalled from assignment: %1%" last_edit_user="bob">Character recalled from assignment: %1%</description>
+<icon>ui/campaign ui/effect_bundles/assignment_limit.png</icon>
+<sort_order>71</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{3c0be5c8-b128-45f1-a127-ab5a3f46658d}" record_timestamp="1548358420934" record_key="region_pooled_resource_transaction">
+<comment></comment>
+<component>region_pooled_resource_transaction</component>
+<description state="APPROVED" last_approved_text="%2%: %3% for %1%" last_edit_user="bob">%2%: %3% for %1%</description>
+<icon>ui/campaign ui/effect_bundles/no_effect.png</icon>
+<sort_order>83</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{87737e83-e130-4eba-b4c0-3ab1e7d1e8d2}" record_timestamp="1549553593075" record_key="relationship_triggers_negative">
+<comment>%1% = Char1, %2% = Char 2</comment>
+<component>relationship_triggers_negative</component>
+<description state="APPROVED" last_approved_text="Relationship [[col:effect_icon_supplement_negative]]deteriorates[[/col]] between %1% and %2%" last_edit_user="bob">Relationship [[col:effect_icon_supplement_negative]]deteriorates[[/col]] between %1% and %2%</description>
+<icon>ui/skins/default/icon_attitude_very_negative.png</icon>
+<sort_order>52</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{12bc3299-4179-41e6-874a-f07d2f615b1b}" record_timestamp="1552556080444" record_key="relationship_triggers_negative_large">
+<comment>%1% = Char1, %2% = Char 2</comment>
+<component>relationship_triggers_negative_large</component>
+<description state="APPROVED" last_approved_text="Relationship [[col:effect_icon_supplement_negative]]deteriorates greatly[[/col]] between %1% and %2%" last_edit_user="bob">Relationship [[col:effect_icon_supplement_negative]]deteriorates greatly[[/col]] between %1% and %2%</description>
+<icon>ui/skins/default/icon_attitude_hostile.png</icon>
+<sort_order>52</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{6d87012f-749d-41b2-b125-8d5f4723f0fc}" record_timestamp="1549401069782" record_key="relationship_triggers_positive">
+<comment>%1% = Char1, %2% = Char 2</comment>
+<component>relationship_triggers_positive</component>
+<description state="APPROVED" last_approved_text="Relationship [[col:effect_icon_supplement_positive]]deepens[[/col]] between %1% and %2%" last_edit_user="bob">Relationship [[col:effect_icon_supplement_positive]]deepens[[/col]] between %1% and %2%</description>
+<icon>ui/skins/default/icon_attitude_very_positive.png</icon>
+<sort_order>53</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{c27891b1-1676-449f-ac1f-ac1430914fe2}" record_timestamp="1552556080444" record_key="relationship_triggers_positive_large">
+<comment>%1% = Char1, %2% = Char 2</comment>
+<component>relationship_triggers_positive_large</component>
+<description state="APPROVED" last_approved_text="Relationship [[col:effect_icon_supplement_positive]]deepens greatly[[/col]] between %1% and %2%" last_edit_user="bob">Relationship [[col:effect_icon_supplement_positive]]deepens greatly[[/col]] between %1% and %2%</description>
+<icon>ui/skins/default/icon_attitude_trusted_friend.png</icon>
+<sort_order>53</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{9fcaf554-dcb0-416e-9408-eee3c7441354}" record_timestamp="1547465848126" record_key="release_from_service">
+<comment>%1% = Released character name</comment>
+<component>release_from_service</component>
+<description state="APPROVED" last_approved_text="Character released:%1%" last_edit_user="bob">Character released:%1%</description>
+<icon>ui/campaign ui/effect_bundles/army_action_points.png</icon>
+<sort_order>72</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{8e098f33-4450-41c4-ba4d-efb6f6958965}" record_timestamp="1548264930810" record_key="remove_character_ceos">
+<comment>%1% = Character name, %2% = CEO Name</comment>
+<component>remove_character_ceos</component>
+<description state="APPROVED" last_approved_text="Trait lost: %2% from %1%" last_edit_user="bob">Trait lost: %2% from %1%</description>
+<icon>ui/skins/default/icon_ancillary_category_followers.png</icon>
+<sort_order>73</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{60a0a74d-4165-4bb0-8b17-9130005b2cb6}" record_timestamp="1548264930810" record_key="remove_faction_ceos">
+<comment>%1% = Faction Name, %2% = Ceo Name</comment>
+<component>remove_faction_ceos</component>
+<description state="APPROVED" last_approved_text="Ancillary lost: %2% for faction %1%" last_edit_user="bob">Ancillary lost: %2% for faction %1%</description>
+<icon>ui/skins/default/icon_ancillary_category_accessories.png</icon>
+<sort_order>74</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{743f6226-adfe-4989-8c02-c92e68a40387}" record_timestamp="1424799501662" record_key="seek_wife">
+<comment>%1% Add name of character seeking wife. NB: AKA SPAWN_BRIDE</comment>
+<component>seek_wife</component>
+<description state="APPROVED" last_approved_text="Marriage: %1%" last_edit_user="bob">Marriage: %1%</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<sort_order>84</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{0fa750a2-63db-4870-9a59-18500c0e0106}" record_timestamp="1452785477886" record_key="spawn_agent">
+<comment>Use %1% to display agent type onscreen name.  Use %2% to display settlement name. Use %3% for estimated salary.</comment>
+<component>spawn_agent</component>
+<description state="APPROVED" last_approved_text="Character recruited. Estimated salary: %3%" last_edit_user="bob">Character recruited. Estimated salary: %3%</description>
+<icon>ui/campaign ui/effect_bundles/unlocks_legendary_characters.png</icon>
+<sort_order>85</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{47c603d2-8a19-4898-96e1-ad65ee2ae108}" record_timestamp="1458232030027" record_key="spawn_agent_home_region">
+<comment>Use %1% to display agent type onscreen name.  Use %2% to display current home region/force (may change by the time payload is applied).</comment>
+<component>spawn_agent_home_region</component>
+<description state="APPROVED" last_approved_text="Character recruited: %1%, %2%" last_edit_user="bob">Character recruited: %1%, %2%</description>
+<icon>ui/campaign ui/effect_bundles/unlocks_legendary_characters.png</icon>
+<sort_order>86</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{3130fcee-bd62-4dd5-b352-26cc783751c5}" record_timestamp="1425561560939" record_key="spawn_agent_home_region_unknown">
+<comment>Variant of spawn_agent_home_region where the home region/force is unknown.  Use %1% to display agent type onscreen name.</comment>
+<component>spawn_agent_home_region_unknown</component>
+<description state="APPROVED" last_approved_text="Character recruited: %1%" last_edit_user="bob">Character recruited: %1%</description>
+<icon>ui/campaign ui/effect_bundles/unlocks_legendary_characters.png</icon>
+<sort_order>87</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{329e96ad-3e16-45e0-8eeb-c64cf7050da9}" record_timestamp="1425393502053" record_key="spawn_unit">
+<comment>Use %1% to display unit onscreen name</comment>
+<component>spawn_unit</component>
+<description state="HIDDEN" last_approved_text="%1%" last_edit_user="bob">%1%</description>
+<icon></icon>
+<sort_order>88</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{dd168f9a-80a1-4ace-9128-0f07da7b71b8}" record_timestamp="1425393502053" record_key="spawn_unit_home_region">
+<comment>Use %1% to display unit onscreen name</comment>
+<component>spawn_unit_home_region</component>
+<description state="HIDDEN" last_approved_text="%1%" last_edit_user="bob">%1%</description>
+<icon></icon>
+<sort_order>89</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{3842faa1-695a-452a-8466-bb625dad627a}" record_timestamp="1452785477887" record_key="treasury_change">
+<comment>Use %1% or %+1% to display value</comment>
+<component>treasury_change</component>
+<description state="APPROVED" last_approved_text="{{tr:treasury}}: %+1%" last_edit_user="bob">{{tr:treasury}}: %+1%</description>
+<icon>ui/campaign ui/effect_bundles/money.png</icon>
+<sort_order>32</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{6eb1d884-09ea-4996-bfa8-f923decef46f}" record_timestamp="1532179833671" record_key="undeploy_character">
+<comment></comment>
+<component>undeploy_character</component>
+<description></description>
+<icon></icon>
+<sort_order>54</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{ddbef674-e7f4-4fd6-be07-cb6a324b7357}" record_timestamp="1424799501662" record_key="unit_restriction_change">
+<comment></comment>
+<component>unit_restriction_change</component>
+<description></description>
+<icon></icon>
+<sort_order>87</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{6e988277-2908-40a1-abe7-1e2e112f2088}" record_timestamp="1424799501662" record_key="unlock_state_religion_change">
+<comment></comment>
+<component>unlock_state_religion_change</component>
+<description></description>
+<icon></icon>
+<sort_order>88</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{2ab103f3-9af4-4cc6-8b93-08f9f1477af1}" record_timestamp="1452785477887" record_key="wound_character">
+<comment>Use %1% to display character name</comment>
+<component>wound_character</component>
+<description state="APPROVED" last_approved_text="Character wounded: %1%" last_edit_user="bob">Character wounded: %1%</description>
+<icon>ui/campaign ui/effect_bundles/no_effect.png</icon>
+<sort_order>80</sort_order>
+</campaign_payload_ui_details>
+</dataroot>

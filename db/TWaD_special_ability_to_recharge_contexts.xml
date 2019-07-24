@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_special_ability_to_recharge_contexts>
+<root>
+<edit_uuid>0d44b546-1fef-46e0-a0cd-b1d7f693b49d</edit_uuid>
+<field>
+<field_uuid>{4f152846-6b18-4070-a575-b7c470317647}</field_uuid>
+<primary_key>1</primary_key>
+<name>special_ability</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>unit_special_abilities</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{b8282565-c69f-42e3-b2e5-d1cb0738f000}</field_uuid>
+<primary_key>1</primary_key>
+<name>recharge_context</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>flag_key</column_source_column>
+<column_source_table>special_ability_invalid_usage_flags</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

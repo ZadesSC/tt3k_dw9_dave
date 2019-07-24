@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ccp_delta_overrides>
+<root>
+<edit_uuid>3bbf31c9-432d-4bf2-9f86-d495a9e82b6b</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{c8bdbd3d-b94b-479d-93fc-20a59415f719}</field_uuid>
+<primary_key>1</primary_key>
+<name>attacker</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>unit</column_source_column>
+<column_source_table>main_units</column_source_table>
+<field_description>The attacking unit (The one whos delta we are checking)</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{0385acf8-9dfa-484b-9329-a36c118327c6}</field_uuid>
+<primary_key>1</primary_key>
+<name>defender</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>unit</column_source_column>
+<column_source_table>main_units</column_source_table>
+<field_description>The defending unit (The opponent of the attacker)</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{e5d7164d-0bc8-4950-8abc-3870477a59b3}</field_uuid>
+<primary_key>1</primary_key>
+<name>is_ranged_in_melee_result</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<field_description>If this is overriding the ranged in melee deltas, else overriding the base unit vs unit deltas</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{629796b1-277e-419d-b4e6-6cfa2130bc7e}</field_uuid>
+<primary_key>0</primary_key>
+<name>cp_delta_override_vs_defender</name>
+<field_type>double</field_type>
+<required>1</required>
+<column_source_column></column_source_column>
+<column_source_table></column_source_table>
+<field_description>Use -1 to not override this field, else this will override the delta for this unit matchup in the autoresolver</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c17ea5d9-63fa-4009-9759-4f6a63c5ca33}</field_uuid>
+<primary_key>0</primary_key>
+<name>cp_delta_override_vs_attacker</name>
+<field_type>double</field_type>
+<required>1</required>
+<field_description>Use -1 to not override this field, else this will override the delta for this unit matchup in the autoresolver</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{a6a8967f-0081-49b5-9823-564b8f5657dd}</field_uuid>
+<primary_key>0</primary_key>
+<name>overrides_apply_to_autoresolver_only</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>true</default_value>
+<field_description>If ticked this will use these overrides in the autoresolver calculations only, else everywhere</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

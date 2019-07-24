@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_special_ability_phase_displays>
+<root>
+<edit_uuid>e75c3e61-0e87-47ce-babf-0c8153b7442e</edit_uuid>
+<field>
+<field_uuid>{9875ff4e-dbcf-45b6-a53d-74846cf27425}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{4f1007b6-a31a-404b-9ac7-033bf32b8ef1}</field_uuid>
+<primary_key>0</primary_key>
+<name>banner_vfx</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>particle_effects</column_source_table>
+<field_description>Effect that plays around the base of the banner on all units affect by the phase</field_description>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{33b5a7c2-2983-4240-8711-a3510b3bccae}</field_uuid>
+<primary_key>0</primary_key>
+<name>active_vfx</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>particle_effects</column_source_table>
+<field_description>Active vfx on the target is shown when phase is active</field_description>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{840edf31-933e-46ed-acc8-8d590a0b9d12}</field_uuid>
+<primary_key>0</primary_key>
+<name>entity_vfx</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>particle_effects</column_source_table>
+<field_description>The vfx to display on an entity level</field_description>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

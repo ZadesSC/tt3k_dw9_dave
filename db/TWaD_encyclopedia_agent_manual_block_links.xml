@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_encyclopedia_agent_manual_block_links>
+<root>
+<edit_uuid>60248359-f07c-47c5-a1e2-d0007b4e94c1</edit_uuid>
+<field>
+<field_uuid>{f0a267a7-3ea5-4a5f-b608-a750748a1c74}</field_uuid>
+<primary_key>1</primary_key>
+<name>agent_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>agents</column_source_table>
+<encyclopaedia_export>1</encyclopaedia_export>
+</field>
+<field>
+<field_uuid>{0f5fe4f7-dd40-46da-8d23-21625b49943d}</field_uuid>
+<primary_key>1</primary_key>
+<name>block_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>block_key</column_source_column>
+<column_source_table>encyclopedia_blocks</column_source_table>
+<encyclopaedia_export>1</encyclopaedia_export>
+</field>
+</root>

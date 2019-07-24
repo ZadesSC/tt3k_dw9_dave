@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_resources_to_campaign_junctions>
+<root>
+<edit_uuid>94ac5d08-a4a9-4cc1-8429-90e811fa8bf3</edit_uuid>
+<field>
+<field_uuid>{15fce22a-63e2-46af-a855-06de9fc47356}</field_uuid>
+<primary_key>1</primary_key>
+<name>resource</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>resources</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{5eab41e7-42f1-41d4-a88f-c724b504c6b6}</field_uuid>
+<primary_key>1</primary_key>
+<name>campaign</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>campaign_name</column_source_column>
+<column_source_table>campaigns</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

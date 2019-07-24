@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_start_pos_character_to_settlements>
+<root>
+<edit_uuid>b292636a-1e2f-4197-b1c0-c7475501fbd8</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{1e13e389-362b-457a-a8e8-20e36cc210de}</field_uuid>
+<primary_key>1</primary_key>
+<name>character</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<column_source_column>ID</column_source_column>
+<column_source_column>template</column_source_column>
+<column_source_table>start_pos_characters</column_source_table>
+<requires_startpos_reprocess>1</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{7e4645cb-0908-4719-b132-c037a190666e}</field_uuid>
+<primary_key>0</primary_key>
+<name>settlement</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<column_source_column>id</column_source_column>
+<column_source_column>settlement_id</column_source_column>
+<column_source_table>start_pos_settlements</column_source_table>
+<requires_startpos_reprocess>1</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c08691c0-1527-4048-8a99-c1344f9b0dfa}</field_uuid>
+<primary_key>0</primary_key>
+<name>unique</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>false</default_value>
+<field_description>unique fields are unaffected by copying between start pos keys</field_description>
+<requires_startpos_reprocess>1</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

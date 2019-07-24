@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_texc_expansion_dependencies>
+<root>
+<edit_uuid>98c77116-3639-40df-8eee-471a0bf1d13e</edit_uuid>
+<field>
+<field_uuid>{0e4becf6-6816-4744-9cae-ced303305a92}</field_uuid>
+<primary_key>1</primary_key>
+<name>expansion</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>expansion</column_source_column>
+<column_source_table>texc_expansions</column_source_table>
+<field_description>Expansion we are defining a parent for - Only alter existing records here if you know what you are doing! (dependencies could become invalid)</field_description>
+</field>
+<field>
+<field_uuid>{077f4b93-3ba4-4898-8a85-19402b09fd24}</field_uuid>
+<primary_key>1</primary_key>
+<name>parent</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>expansion</column_source_column>
+<column_source_table>texc_expansions</column_source_table>
+<field_description>Parent of given expansion - Only alter existing records here if you know what you are doing! (dependencies could become invalid). If blank the expansions parent is the base content</field_description>
+</field>
+</root>

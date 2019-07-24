@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_map_attrition_unit_immunities>
+<root>
+<edit_uuid>133214b7-a23b-48bc-80e5-2f6d1d18bc6c</edit_uuid>
+<field>
+<field_uuid>{19d8f2b1-7dc1-42ce-a272-c2c7ed42defd}</field_uuid>
+<primary_key>1</primary_key>
+<name>attrition</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_map_attritions</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{2bdee691-3214-4a96-9cf4-c0a17d804d61}</field_uuid>
+<primary_key>1</primary_key>
+<name>unit</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>unit</column_source_column>
+<column_source_table>main_units</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

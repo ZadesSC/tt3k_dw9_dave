@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_battle_presets>
+<root>
+<edit_uuid>e60d6fd0-2e85-4b73-9e5e-42cde18e7c27</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{669e8e07-5711-4cc8-b40a-a7683e0bd62e}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Unique id</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{68371052-33cf-4dd3-b7c3-7c0037dacb08}</field_uuid>
+<primary_key>0</primary_key>
+<name>onscreen_name</name>
+<field_type>text</field_type>
+<required>0</required>
+<default_value>PLACEHOLDER PRESET</default_value>
+<max_length>255</max_length>
+<field_description>Localised name for preset (appears on tooltip/selection)</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{2a9a0752-3a29-4ed5-9d46-2e0251adc9eb}</field_uuid>
+<primary_key>0</primary_key>
+<name>description</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>Optional localised description of map that could appear on ui</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{f637e01f-e947-49f7-9462-6efe312b4571}</field_uuid>
+<primary_key>0</primary_key>
+<name>coord_x</name>
+<field_type>decimal</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>X coordinate on map (0-1)</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c93525e4-2a02-4b6a-80bd-d96b61d75d28}</field_uuid>
+<primary_key>0</primary_key>
+<name>coord_y</name>
+<field_type>decimal</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>Y coordinate on map (0-1)</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{47241b88-a76c-457c-bac0-7ad1d47b6df8}</field_uuid>
+<primary_key>0</primary_key>
+<name>tile_upgrade</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>Optional tile upgrade (for specifying settlement levels, etc; see tile_upgrades.xml) </field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{3f6bee1b-a9b4-401e-b677-10aeb2020aa1}</field_uuid>
+<primary_key>0</primary_key>
+<name>battle_type</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_battle_type_enums</column_source_table>
+<field_description>Battle type this preset is for</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{cae8fd15-c784-4d27-a7b3-07defbaa3c66}</field_uuid>
+<primary_key>0</primary_key>
+<name>is_unique_settlement</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>false</default_value>
+<field_description>True only for unique settlements like carthage, currently used to determine if has all different settlement sizes</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c4e1e484-c139-4935-ad57-9048379af817}</field_uuid>
+<primary_key>0</primary_key>
+<name>campaign_map</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>1564135515</default_value>
+<column_source_column>index</column_source_column>
+<column_source_column>campaign_key</column_source_column>
+<column_source_table>campaign_map_playable_areas</column_source_table>
+<field_description>This is the campaign map this preset is for</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{42215782-b96a-421d-b92d-3d1e582ae187}</field_uuid>
+<primary_key>0</primary_key>
+<name>screenshot_path</name>
+<field_type>text</field_type>
+<is_filename>1</is_filename>
+<required>1</required>
+<default_value>ui/frontend ui/battle_map_images/altdorf.png</default_value>
+<max_length>255</max_length>
+<field_description>Screenshot path for custom battle screen</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{8c3ed456-dda2-4a3b-bedf-84e58c4b2b28}</field_uuid>
+<primary_key>0</primary_key>
+<name>creep_override</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>destruction_zone_mask_types</column_source_table>
+<field_description>For overriding creep in map (for vampires/chaos)</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{7835bb5f-de30-4272-b5e8-d1f67c526d00}</field_uuid>
+<primary_key>0</primary_key>
+<name>matchmaking</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>false</default_value>
+<field_description>If true, will be in matchmaking map pool for ranked battles</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

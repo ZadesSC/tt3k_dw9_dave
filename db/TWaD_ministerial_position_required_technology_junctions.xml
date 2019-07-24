@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ministerial_position_required_technology_junctions>
+<root>
+<edit_uuid>338d7035-72ca-4f28-99ce-c21ae504e0a3</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{5734dbaa-5c3f-4d79-b468-852cc41bb73f}</field_uuid>
+<primary_key>1</primary_key>
+<name>ministerial_position_record</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>minister_key</column_source_column>
+<column_source_table>ministerial_positions</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{93be4ff1-ad57-4226-ab4f-1d1684569246}</field_uuid>
+<primary_key>0</primary_key>
+<name>technology_record</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>technologies</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_building_levels_campaign_building_slot_groups>
+<root>
+<edit_uuid>d600604d-50d6-4dae-89b1-eb29077b19c4</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{b3aa770b-ccfe-4506-87b2-18058ce7a6b3}</field_uuid>
+<primary_key>1</primary_key>
+<name>building_level</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>level_name</column_source_column>
+<column_source_table>building_levels</column_source_table>
+<field_description>The building_level which triggers this</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{6f3532c0-4526-4c89-ab21-16857afcaf8f}</field_uuid>
+<primary_key>1</primary_key>
+<name>group_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>building_slot_groups</column_source_table>
+<field_description>The group in battle which is affected if the building_level exists on campaign</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{18509d28-0976-491d-9ad1-97778dd51b13}</field_uuid>
+<primary_key>0</primary_key>
+<name>prefab_name</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>The prefab to load if both the group and level match in the tile.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c59d1225-d228-4d21-8bd7-d7fdf3f53b42}</field_uuid>
+<primary_key>0</primary_key>
+<name>level_bmd_export_type</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>name</column_source_column>
+<column_source_table>bmd_export_types</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c113035d-c593-49eb-b957-d4d242df9e68}</field_uuid>
+<primary_key>0</primary_key>
+<name>tint_colour</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>ui_colours</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

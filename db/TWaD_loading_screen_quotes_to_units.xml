@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_loading_screen_quotes_to_units>
+<root>
+<edit_uuid>d6588c0d-0c92-4fe2-9c71-3e1ef8bac5df</edit_uuid>
+<field>
+<field_uuid>{3a8a2b81-8c26-4955-a9aa-e5033c466a5f}</field_uuid>
+<primary_key>1</primary_key>
+<name>quote</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>loading_screen_quotes</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{86a8c45e-c01e-4582-8d8a-18d9a312e033}</field_uuid>
+<primary_key>1</primary_key>
+<name>unit</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>unit</column_source_column>
+<column_source_table>main_units</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

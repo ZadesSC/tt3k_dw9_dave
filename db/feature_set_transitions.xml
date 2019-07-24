@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="feature_set_transitions.xsd" export_time="Thu Oct 19 11:41:29 2017" revision="1" export_branch="C:/Users/peter.ellsum/AppData/Roaming/The Creative Assembly/ThreeKingdoms/scripts" export_user="bob">
+<edit_uuid>ad0140c4-b8d7-4fd6-ab7a-084c644d8c08</edit_uuid>
+<feature_set_transitions record_uuid="{8f378dd8-bbb4-4a81-9686-db5a99ca8a83}" record_timestamp="1508409659267" record_key="HORDE_TO_STANDARD">
+<from>HORDE</from>
+<handler>SETTLE_HORDE</handler>
+<key>HORDE_TO_STANDARD</key>
+<to>STANDARD_FACTION</to>
+</feature_set_transitions>
+<feature_set_transitions record_uuid="{c20ea39f-fd60-4bd6-b6b3-8d2d36fe0708}" record_timestamp="1508409659267" record_key="STANDARD_TO_HORDE">
+<from>STANDARD_FACTION</from>
+<handler>MIGRATE_TO_HORDE</handler>
+<key>STANDARD_TO_HORDE</key>
+<to>HORDE</to>
+</feature_set_transitions>
+</dataroot>

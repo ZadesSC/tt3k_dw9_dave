@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_advisors>
+<root>
+<edit_uuid>24df6c24-601d-48d6-88ff-fdd3f37971ab</edit_uuid>
+<field>
+<field_uuid>{4feb4cc2-31c6-4f4b-b73b-73345f06bf01}</field_uuid>
+<primary_key>1</primary_key>
+<name>advisor_name</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{fa1d5494-de6e-48a1-90b8-1a71e224ce10}</field_uuid>
+<primary_key>0</primary_key>
+<name>advisor_icon_path</name>
+<field_type>text</field_type>
+<is_filename>1</is_filename>
+<filename_relative_path>VariantModels/Units/%.unit_variant</filename_relative_path>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>This path specifies what model will get loaded to advisor</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+</root>

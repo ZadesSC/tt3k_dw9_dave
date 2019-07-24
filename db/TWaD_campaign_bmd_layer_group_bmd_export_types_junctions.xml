@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_bmd_layer_group_bmd_export_types_junctions>
+<root>
+<edit_uuid>4851c099-ffa5-42b4-912c-81d408d2e31c</edit_uuid>
+<field>
+<field_uuid>{b7ac52aa-0d8a-4685-bb2c-89dd63166f2e}</field_uuid>
+<primary_key>1</primary_key>
+<name>campaign_bmd_layer_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>campaign_bmd_layer_group_ids</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{457b844c-9789-43eb-b8a3-221b965bb70d}</field_uuid>
+<primary_key>1</primary_key>
+<name>bmd_export_types</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>name</column_source_column>
+<column_source_table>bmd_export_types</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

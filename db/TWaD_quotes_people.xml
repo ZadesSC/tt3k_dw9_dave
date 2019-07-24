@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_quotes_people>
+<root>
+<edit_uuid>54cfa2a5-c798-4b99-b74a-1e56289e0f6b</edit_uuid>
+<field>
+<field_uuid>{202b08a0-3545-47ad-b925-7f654612d465}</field_uuid>
+<primary_key>1</primary_key>
+<name>quote_person_key</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>50</max_length>
+</field>
+<field>
+<field_uuid>{e0bcc650-da6b-4ffe-8b0c-fffcda536844}</field_uuid>
+<primary_key>0</primary_key>
+<name>quote_person_onscreen</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>placeholder</default_value>
+<max_length>536870910</max_length>
+</field>
+</root>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_negotiation_voting_success_criterias.xsd" export_time="Thu Mar 14 12:47:36 2019" revision="3" export_branch="E:/Total War/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>e98bef8e-ca86-4d20-b300-0392a5d47aee</edit_uuid>
+<campaign_diplomacy_negotiation_voting_success_criterias record_uuid="{da5b368b-303f-4154-85d9-25b2b0018472}" record_timestamp="1517918626325" record_key="all">
+<criteria>all</criteria>
+<description>Succeeds if all factions vote in favour. Fails otherwise.</description>
+</campaign_diplomacy_negotiation_voting_success_criterias>
+<campaign_diplomacy_negotiation_voting_success_criterias record_uuid="{6a4c901a-3f40-4dd8-ab10-e3363f3a1ebd}" record_timestamp="1517918626326" record_key="any">
+<criteria>any</criteria>
+<description>Succeeds if at least one faction votes in favour. Fails otherwise.</description>
+</campaign_diplomacy_negotiation_voting_success_criterias>
+<campaign_diplomacy_negotiation_voting_success_criterias record_uuid="{ba861730-aadf-4660-ba6a-4ebcb5de4365}" record_timestamp="1552567649878" record_key="any_except_lead_faction_who_will_vote_no">
+<criteria>any_except_lead_faction_who_will_vote_no</criteria>
+<description>Succeeds if at least one faction votes in favour. Fails otherwise. The lead faction automatically votes no.</description>
+</campaign_diplomacy_negotiation_voting_success_criterias>
+<campaign_diplomacy_negotiation_voting_success_criterias record_uuid="{31437600-276e-46c4-adc2-2e2d2981aaa9}" record_timestamp="1517918626344" record_key="lead_faction">
+<criteria>lead_faction</criteria>
+<description>Only the lead faction gets to vote. Succeeds if they vote in favour. Fails otherwise.</description>
+</campaign_diplomacy_negotiation_voting_success_criterias>
+<campaign_diplomacy_negotiation_voting_success_criterias record_uuid="{72c15b86-0956-4b96-aa5d-ce2224f0e8d9}" record_timestamp="1517918626325" record_key="majority">
+<criteria>majority</criteria>
+<description>Succeeds if a greater number of factions vote in favour than do not. Fails otherwise.</description>
+</campaign_diplomacy_negotiation_voting_success_criterias>
+<campaign_diplomacy_negotiation_voting_success_criterias record_uuid="{9f813be0-9c4f-4c7e-ae9c-ef504939421d}" record_timestamp="1542044654248" record_key="majority_minus_one">
+<criteria>majority_minus_one</criteria>
+<description>Succeeds if a greater number of factions minus one vote in favour than do not. Fails otherwise.</description>
+</campaign_diplomacy_negotiation_voting_success_criterias>
+</dataroot>

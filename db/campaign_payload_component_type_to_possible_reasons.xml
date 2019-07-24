@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_payload_component_type_to_possible_reasons.xsd" export_time="Wed Jan 30 10:58:45 2019" revision="8" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1305/dave" export_user="bob">
+<edit_uuid>d74c1472-a8dc-4ad4-b6bb-9a835672a77f</edit_uuid>
+<campaign_payload_component_type_to_possible_reasons record_uuid="{85fdd937-f86c-488c-944d-ceecaa47c6f0}" record_timestamp="1547390687293" record_key="faction_pooled_resource_transactionnot_enough_fund">
+<localised_text state="APPROVED" last_approved_text="You have insufficient funds." last_edit_user="bob">You have insufficient funds.</localised_text>
+<reason>not_enough_fund</reason>
+<type>faction_pooled_resource_transaction</type>
+</campaign_payload_component_type_to_possible_reasons>
+<campaign_payload_component_type_to_possible_reasons record_uuid="{1bae6423-046a-4ea6-90e7-40a663933587}" record_timestamp="1547712189609" record_key="faction_pooled_resource_transactionnot_enough_pooled_resource">
+<localised_text state="APPROVED" last_approved_text="You have insufficient %S." last_edit_user="bob">You have insufficient %S.</localised_text>
+<reason>not_enough_pooled_resource</reason>
+<type>faction_pooled_resource_transaction</type>
+</campaign_payload_component_type_to_possible_reasons>
+<campaign_payload_component_type_to_possible_reasons record_uuid="{fb4b1924-8fe7-43d0-9251-f5e312fe931d}" record_timestamp="1547390687293" record_key="marriageis_married">
+<localised_text state="APPROVED" last_approved_text="This character is already married" last_edit_user="bob">This character is already married</localised_text>
+<reason>is_married</reason>
+<type>marriage</type>
+</campaign_payload_component_type_to_possible_reasons>
+<campaign_payload_component_type_to_possible_reasons record_uuid="{d5186103-0665-42d8-800b-ee01f80e2ea0}" record_timestamp="1548835199025" record_key="undeploy_characteris_under_siege">
+<localised_text state="APPROVED" last_approved_text="Under siege" last_edit_user="bob">Under siege</localised_text>
+<reason>is_under_siege</reason>
+<type>undeploy_character</type>
+</campaign_payload_component_type_to_possible_reasons>
+<campaign_payload_component_type_to_possible_reasons record_uuid="{c779205b-c090-438f-9d90-438f35134666}" record_timestamp="1548835199025" record_key="undeploy_characternot_in_own_territory">
+<localised_text state="APPROVED" last_approved_text="[[col:red]]You cannot recall retinues in foreign territory[[/col]]" last_edit_user="bob">[[col:red]]You cannot recall retinues in foreign territory[[/col]]</localised_text>
+<reason>not_in_own_territory</reason>
+<type>undeploy_character</type>
+</campaign_payload_component_type_to_possible_reasons>
+</dataroot>

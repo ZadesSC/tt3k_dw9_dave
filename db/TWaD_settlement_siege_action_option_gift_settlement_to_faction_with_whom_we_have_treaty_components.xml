@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_settlement_siege_action_option_gift_settlement_to_faction_with_whom_we_have_treaty_components>
+<root>
+<edit_uuid>cdb0ddff-c4e2-47b0-9e32-44a71a57a8fd</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{9ad25982-a027-41ca-b82e-ac148becf067}</field_uuid>
+<primary_key>1</primary_key>
+<name>settlement_siege_action_option</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>settlement_siege_action_option</column_source_column>
+<column_source_table>settlement_siege_action_options</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{f52bf91b-6b1b-4558-8eec-c68f7803550c}</field_uuid>
+<primary_key>1</primary_key>
+<name>treaty_component_set</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>set</column_source_column>
+<column_source_table>campaign_diplomacy_treaty_component_sets</column_source_table>
+<field_description>Will generate an option for each faction which matches all the options in this treaty component set. If multiple treaty component sets are attached to the same option then options will be generated for each faction that matches any of the treaty component sets, but only once per faction.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

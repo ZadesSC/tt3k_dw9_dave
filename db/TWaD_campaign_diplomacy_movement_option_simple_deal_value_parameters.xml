@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_diplomacy_movement_option_simple_deal_value_parameters>
+<root>
+<edit_uuid>6050ad1e-caa9-4d1e-9a86-4a5cbd595bb9</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{51bd7c3f-5e64-469c-ad33-889af77662a7}</field_uuid>
+<primary_key>1</primary_key>
+<name>deal</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>movement_option</column_source_column>
+<column_source_table>campaign_diplomacy_movement_option_simple_deals</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{4a3a7856-55b5-4d2b-8ba7-79d85cd97ddf}</field_uuid>
+<primary_key>1</primary_key>
+<name>parameter_index</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{7a85c581-ddaa-4f5b-abc3-9634de106805}</field_uuid>
+<primary_key>0</primary_key>
+<name>value_parameter</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

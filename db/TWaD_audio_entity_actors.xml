@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_audio_entity_actors>
+<root>
+<edit_uuid>9fa8a7f0-adf7-4fd5-9772-319904f1f340</edit_uuid>
+<field>
+<field_uuid>{cc8910e7-b27d-4c8f-91cc-2b6961978764}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{279ff8da-3180-4494-b693-a96de20ec461}</field_uuid>
+<primary_key>0</primary_key>
+<name>actor_switch</name>
+<field_type>text</field_type>
+<fragment_path>sound/switches</fragment_path>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{ba2b2b78-2db7-48e3-9666-9b0af8d3b8d2}</field_uuid>
+<primary_key>0</primary_key>
+<name>number_of_actors</name>
+<field_type>integer</field_type>
+<required>1</required>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+</root>

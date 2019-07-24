@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ui_diplomacy_input_types>
+<root>
+<edit_uuid>a7d0ab50-4cd8-4c3d-85f5-5cf722e290d4</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{41fd9d7d-e468-4267-aff9-7826f6db3c0a}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Managed in the UI code, must add to the ENUM to change this</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{ef6727a3-9a9c-401b-a4f7-110121e652af}</field_uuid>
+<primary_key>0</primary_key>
+<name>panel_path</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>If not-empty, this will open this panel</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{68e8e7ff-b739-446d-97b5-6f3912cda59f}</field_uuid>
+<primary_key>0</primary_key>
+<name>ignore_deal_evaluation</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>false</default_value>
+<field_description>Should this panel force the propose button? Used for threaten etc</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{13d58fb9-a4f0-4717-b7bc-b44977f6a6a7}</field_uuid>
+<primary_key>0</primary_key>
+<name>ignore_availability</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>false</default_value>
+<field_description>Should the button be active despite availability?</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{65c41fb1-c263-4fdc-908d-37ebac43cf12}</field_uuid>
+<primary_key>0</primary_key>
+<name>show_trade_information</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>false</default_value>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

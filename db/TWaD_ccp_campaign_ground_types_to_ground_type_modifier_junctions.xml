@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ccp_campaign_ground_types_to_ground_type_modifier_junctions>
+<root>
+<edit_uuid>4bf7c63e-5edd-4e74-abd1-4450da55eccb</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{d60a08fd-b1be-4c9f-a0d5-a7665109f805}</field_uuid>
+<primary_key>1</primary_key>
+<name>campaign_gt</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>type</column_source_column>
+<column_source_table>campaign_ground_types</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{7608d04b-501e-4ea8-9846-2e3ec0998907}</field_uuid>
+<primary_key>1</primary_key>
+<name>ground_type</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>type</column_source_column>
+<column_source_table>ground_types</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{48376e3f-33b4-4644-86bf-81f281dfd26b}</field_uuid>
+<primary_key>0</primary_key>
+<name>percentage</name>
+<field_type>double</field_type>
+<required>1</required>
+<field_description>Specifies the amount of the campaign ground type will be considered as this ground type. (0.0 - 1.0)</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

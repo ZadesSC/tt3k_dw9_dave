@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="experience_triggers.xsd" export_time="Fri May 24 11:37:03 2019" revision="71" export_branch="C:/Users/jonathan.diamond/AppData/Roaming/TWDaemon/1491/dave" export_user="bob">
+<edit_uuid>8dd06a8d-4881-4f98-bb06-f5e2ef5a62f6</edit_uuid>
+<experience_triggers record_uuid="{b24cffeb-a445-4d99-9033-53f1292a83be}" record_timestamp="1466010291312" record_key="Trigger_Agent_Anti_Character_Fail_AI">
+<condition>not context:character():faction():is_human() and (context:ability()==&quot;hinder_character&quot; or context:ability()==&quot;hinder_agent&quot;) and context:mission_result_failure()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>200</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Character_Fail_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{7cf9cccf-4506-41f2-9624-81b9b4499313}" record_timestamp="1466010291315" record_key="Trigger_Agent_Anti_Character_Fail_Critical_AI">
+<condition>not context:character():faction():is_human() and (context:ability()==&quot;hinder_character&quot; or context:ability()==&quot;hinder_agent&quot;) and context:mission_result_critial_failure()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>100</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Character_Fail_Critical_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{51c0126e-6239-41af-81d1-686ad6442b77}" record_timestamp="1466010291220" record_key="Trigger_Agent_Anti_Character_Fail_Critical_Human">
+<condition>context:character():faction():is_human() and (context:ability()==&quot;hinder_character&quot; or context:ability()==&quot;hinder_agent&quot;) and context:mission_result_critial_failure()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>200</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Character_Fail_Critical_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{b0308cae-618c-48da-bbc9-84defec92bb6}" record_timestamp="1466010291219" record_key="Trigger_Agent_Anti_Character_Fail_Human">
+<condition>context:character():faction():is_human() and (context:ability()==&quot;hinder_character&quot; or context:ability()==&quot;hinder_agent&quot;) and context:mission_result_failure()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>400</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Character_Fail_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{53589e94-b165-4405-b533-fe3777817cd6}" record_timestamp="1466010291317" record_key="Trigger_Agent_Anti_Character_Fail_Opportune_AI">
+<condition>not context:character():faction():is_human() and ( context:ability()==&quot;hinder_character&quot; or context:ability()==&quot;hinder_agent&quot; ) and context:mission_result_opportune_failure()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>300</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Character_Fail_Opportune_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{0fea162a-7942-44cc-b0e2-43515f535e73}" record_timestamp="1466010291221" record_key="Trigger_Agent_Anti_Character_Fail_Opportune_Human">
+<condition>context:character():faction():is_human() and ( context:ability()==&quot;hinder_character&quot; or context:ability()==&quot;hinder_agent&quot; ) and context:mission_result_opportune_failure()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>600</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Character_Fail_Opportune_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{4724c08a-224a-4ca9-8078-de0919a65278}" record_timestamp="1466010291313" record_key="Trigger_Agent_Anti_Character_Force_Success_High_Rank_Bonus_AI">
+<condition>not context:character():faction():is_human() and (context:ability()==&quot;hinder_character&quot; or context:ability()==&quot;hinder_agent&quot; or context:ability()==&quot;hinder_army&quot;) and (context:mission_result_success() or context:mission_result_critial_success()) and context:target_character():rank() &gt; 20</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>300</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Character_Force_Success_High_Rank_Bonus_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{b84c4f06-815d-49fa-9d4e-2e4cb6280638}" record_timestamp="1466010291223" record_key="Trigger_Agent_Anti_Character_Force_Success_High_Rank_Bonus_Human">
+<condition>context:character():faction():is_human() and (context:ability()==&quot;hinder_character&quot; or context:ability()==&quot;hinder_agent&quot; or context:ability()==&quot;hinder_army&quot;) and (context:mission_result_success() or context:mission_result_critial_success()) and context:target_character():rank() &gt; 20</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>600</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Character_Force_Success_High_Rank_Bonus_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{ba9f1a98-0508-41d0-aeaf-8ed1946d7ca3}" record_timestamp="1466010291314" record_key="Trigger_Agent_Anti_Character_Force_Success_Medium_Rank_Bonus_AI">
+<condition>not context:character():faction():is_human() and (context:ability()==&quot;hinder_character&quot; or context:ability()==&quot;hinder_agent&quot; or context:ability()==&quot;hinder_army&quot;) and (context:mission_result_success() or context:mission_result_critial_success()) and context:target_character():rank() &gt; 10 and context:target_character():rank() &lt; 21</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>150</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Character_Force_Success_Medium_Rank_Bonus_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{a091cda5-c682-4760-897f-ea4e6e4b05e7}" record_timestamp="1466010291224" record_key="Trigger_Agent_Anti_Character_Force_Success_Medium_Rank_Bonus_Human">
+<condition>context:character():faction():is_human() and (context:ability()==&quot;hinder_character&quot; or context:ability()==&quot;hinder_agent&quot; or context:ability()==&quot;hinder_army&quot;) and (context:mission_result_success() or context:mission_result_critial_success()) and context:target_character():rank() &gt; 10 and context:target_character():rank() &lt; 21</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>300</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Character_Force_Success_Medium_Rank_Bonus_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{a4befe8b-a0a9-4bb7-8c26-25ddb380f280}" record_timestamp="1466010291305" record_key="Trigger_Agent_Anti_Character_Success_AI">
+<condition>not context:character():faction():is_human() and (context:ability()==&quot;hinder_character&quot; or context:ability()==&quot;hinder_agent&quot;) and context:mission_result_success()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>500</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Character_Success_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{b6ee1478-4263-4072-90df-998d91b87021}" record_timestamp="1466010291306" record_key="Trigger_Agent_Anti_Character_Success_Critical_AI">
+<condition>not context:character():faction():is_human() and (context:ability()==&quot;hinder_character&quot; or context:ability()==&quot;hinder_agent&quot;) and context:mission_result_critial_success()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>800</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Character_Success_Critical_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{a98e5ff0-fd81-486e-87cb-faada62618a3}" record_timestamp="1466010291246" record_key="Trigger_Agent_Anti_Character_Success_Critical_Human">
+<condition>context:character():faction():is_human() and (context:ability()==&quot;hinder_character&quot; or context:ability()==&quot;hinder_agent&quot;) and context:mission_result_critial_success()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>1600</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Character_Success_Critical_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{e35e49fd-8162-41f2-af24-4e61cf41b800}" record_timestamp="1466010291239" record_key="Trigger_Agent_Anti_Character_Success_Human">
+<condition>context:character():faction():is_human() and (context:ability()==&quot;hinder_character&quot; or context:ability()==&quot;hinder_agent&quot;) and context:mission_result_success()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>1000</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Character_Success_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{b9a80f09-9d33-48a5-b074-0131f094a874}" record_timestamp="1466010291303" record_key="Trigger_Agent_Anti_Force_Fail_AI">
+<condition>not context:character():faction():is_human() and context:ability()==&quot;hinder_army&quot; and context:mission_result_failure()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>200</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Force_Fail_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{53523d00-701b-4568-ac03-f3f81821c1ab}" record_timestamp="1466010291304" record_key="Trigger_Agent_Anti_Force_Fail_Critical_AI">
+<condition>not context:character():faction():is_human() and context:ability()==&quot;hinder_army&quot; and context:mission_result_critial_failure()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>100</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Force_Fail_Critical_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{34bd55b8-33bb-4ff3-9206-4df8fe2c2fc3}" record_timestamp="1466010291263" record_key="Trigger_Agent_Anti_Force_Fail_Critical_Human">
+<condition>context:character():faction():is_human() and context:ability()==&quot;hinder_army&quot; and context:mission_result_critial_failure()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>200</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Force_Fail_Critical_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{7a166434-b6b8-4a59-a13a-8ac8265109c1}" record_timestamp="1466010291251" record_key="Trigger_Agent_Anti_Force_Fail_Human">
+<condition>context:character():faction():is_human() and context:ability()==&quot;hinder_army&quot; and context:mission_result_failure()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>400</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Force_Fail_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{ca5e3c46-dc86-4051-b03f-2587bddc16a5}" record_timestamp="1466010291309" record_key="Trigger_Agent_Anti_Force_Fail_Opportune_AI">
+<condition>not context:character():faction():is_human() and context:ability()==&quot;hinder_army&quot; and context:mission_result_opportune_failure()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>300</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Force_Fail_Opportune_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{f0a27ac3-9047-4437-824e-17aa181081b8}" record_timestamp="1466010291274" record_key="Trigger_Agent_Anti_Force_Fail_Opportune_Human">
+<condition>context:character():faction():is_human() and context:ability()==&quot;hinder_army&quot; and context:mission_result_opportune_failure()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>600</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Force_Fail_Opportune_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{d7e820e0-f091-4479-89ed-343e67e62f37}" record_timestamp="1466010291310" record_key="Trigger_Agent_Anti_Force_Success_AI">
+<condition>not context:character():faction():is_human() and context:ability()==&quot;hinder_army&quot; and context:mission_result_success()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>600</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Force_Success_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{758988ad-399f-41b3-803e-ac2cd5f7ae1d}" record_timestamp="1466010291276" record_key="Trigger_Agent_Anti_Force_Success_Human">
+<condition>context:character():faction():is_human() and context:ability()==&quot;hinder_army&quot; and context:mission_result_success()</condition>
+<event>CharacterCharacterTargetAction</event>
+<experience_points>1200</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Force_Success_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{15355bdc-6d66-42d7-9661-77190646cb14}" record_timestamp="1466010291307" record_key="Trigger_Agent_Anti_Settlement_Fail_AI">
+<condition>not context:character():faction():is_human() and context:mission_result_failure()</condition>
+<event>CharacterGarrisonTargetAction</event>
+<experience_points>200</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Settlement_Fail_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{55eec635-1935-44bf-9fa2-5bbe3bc141a9}" record_timestamp="1466010291308" record_key="Trigger_Agent_Anti_Settlement_Fail_Critical_AI">
+<condition>not context:character():faction():is_human() and context:mission_result_critial_failure()</condition>
+<event>CharacterGarrisonTargetAction</event>
+<experience_points>100</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Settlement_Fail_Critical_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{8ed3e30e-fb5b-42fd-950f-ecf283e44fc1}" record_timestamp="1466010291285" record_key="Trigger_Agent_Anti_Settlement_Fail_Critical_Human">
+<condition>context:character():faction():is_human() and context:mission_result_critial_failure()</condition>
+<event>CharacterGarrisonTargetAction</event>
+<experience_points>200</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Settlement_Fail_Critical_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{db36ee2e-1d82-441e-9cb4-c82b24aeb98b}" record_timestamp="1466010291278" record_key="Trigger_Agent_Anti_Settlement_Fail_Human">
+<condition>context:character():faction():is_human() and context:mission_result_failure()</condition>
+<event>CharacterGarrisonTargetAction</event>
+<experience_points>400</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Settlement_Fail_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{3de652a7-4ff8-401f-b619-e41e9ef44452}" record_timestamp="1466010291319" record_key="Trigger_Agent_Anti_Settlement_Fail_Opportune_AI">
+<condition>not context:character():faction():is_human() and context:mission_result_opportune_failure()</condition>
+<event>CharacterGarrisonTargetAction</event>
+<experience_points>300</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Settlement_Fail_Opportune_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{33df71a2-46fb-48e5-bf84-c37635f20609}" record_timestamp="1466010291287" record_key="Trigger_Agent_Anti_Settlement_Fail_Opportune_Human">
+<condition>context:character():faction():is_human() and context:mission_result_opportune_failure()</condition>
+<event>CharacterGarrisonTargetAction</event>
+<experience_points>600</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Settlement_Fail_Opportune_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{eb322857-1796-416e-adb8-1930e07fd970}" record_timestamp="1466010291320" record_key="Trigger_Agent_Anti_Settlement_Success_AI">
+<condition>not context:character():faction():is_human() and context:mission_result_success()</condition>
+<event>CharacterGarrisonTargetAction</event>
+<experience_points>600</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Settlement_Success_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{77586e52-e177-49f5-9af1-21c63d1a5a93}" record_timestamp="1466010291289" record_key="Trigger_Agent_Anti_Settlement_Success_Human">
+<condition>context:character():faction():is_human() and context:mission_result_success()</condition>
+<event>CharacterGarrisonTargetAction</event>
+<experience_points>1200</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Anti_Settlement_Success_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{386c286c-ceae-44da-ae3c-2bf1dcad7024}" record_timestamp="1466010291317" record_key="Trigger_Agent_Deployed_Action_AI">
+<condition>not context:character():faction():is_human() and context:character():is_deployed()</condition>
+<event>CharacterTurnStart</event>
+<experience_points>50</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Deployed_Action_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{ecee3820-4f34-4eee-a82f-24f22df0d2c1}" record_timestamp="1466010291299" record_key="Trigger_Agent_Deployed_Action_Human">
+<condition>context:character():faction():is_human() and context:character():is_deployed()</condition>
+<event>CharacterTurnStart</event>
+<experience_points>100</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Deployed_Action_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{ad03c95c-470e-4903-8b35-3af36300f715}" record_timestamp="1465987248485" record_key="Trigger_General_Defeat">
+<condition>not battle_is_quest_battle(context:character():model():pending_battle()) and not context:character():won_battle() and ((context:character():model():pending_battle():attacker_battle_result()==&quot;close_defeat&quot; or context:character():model():pending_battle():attacker_battle_result()==&quot;decisive_defeat&quot;) or (context:character():model():pending_battle():defender_battle_result()==&quot;close_defeat&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;decisive_defeat&quot;))</condition>
+<event>CharacterCompletedBattle</event>
+<experience_points>400</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_General_Defeat</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{a90e2bc6-88b6-4fb7-8726-71b4de2e5dcd}" record_timestamp="1465987248486" record_key="Trigger_General_Defeat_Crushing">
+<condition>not battle_is_quest_battle(context:character():model():pending_battle()) and not context:character():won_battle() and (context:character():model():pending_battle():defender_battle_result()==&quot;crushing_defeat&quot; or context:character():model():pending_battle():attacker_battle_result()==&quot;crushing_defeat&quot;)</condition>
+<event>CharacterCompletedBattle</event>
+<experience_points>200</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_General_Defeat_Crushing</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{4b45469e-a478-4327-b281-ca5819ba20a4}" record_timestamp="1465987248486" record_key="Trigger_General_Defeat_Valiant">
+<condition>not battle_is_quest_battle(context:character():model():pending_battle()) and not context:character():won_battle() and (context:character():model():pending_battle():attacker_battle_result()==&quot;valiant_defeat&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;valiant_defeat&quot;)</condition>
+<event>CharacterCompletedBattle</event>
+<experience_points>600</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_General_Defeat_Valiant</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{579d615d-0d3b-4000-ba9c-0a43f835b4e0}" record_timestamp="1467383756751" record_key="Trigger_General_Horde_Completed_Construction_Project">
+<condition>true</condition>
+<event>MilitaryForceBuildingCompleteEvent</event>
+<experience_points>200</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_General_Horde_Completed_Construction_Project</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{96c3f8d8-0e8e-45c5-8df9-d7d7cf23f432}" record_timestamp="1465987231721" record_key="Trigger_General_Is_Garrisoned">
+<condition>context:character():has_garrison_residence()</condition>
+<event>CharacterTurnStart</event>
+<experience_points>50</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_General_Is_Garrisoned</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{ec11c600-ce9a-4389-9aab-8d9bbcc03870}" record_timestamp="1452077538411" record_key="Trigger_General_Raiding">
+<condition>context:character():has_military_force() and (context:character():military_force():active_stance() == &quot;MILITARY_FORCE_ACTIVE_STANCE_TYPE_LAND_RAID&quot; or context:character():military_force():active_stance() == &quot;MILITARY_FORCE_ACTIVE_STANCE_TYPE_SET_CAMP_RAIDING&quot;)</condition>
+<event>CharacterTurnStart</event>
+<experience_points>150</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_General_Raiding</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{9cc55cbe-d526-4feb-a62e-4735dacaf9cf}" record_timestamp="1452077538436" record_key="Trigger_General_Settlement_Captured">
+<condition>true</condition>
+<event>GarrisonOccupiedEvent</event>
+<experience_points>250</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_General_Settlement_Captured</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{a544788f-a795-41e3-975a-bd015b87cbc3}" record_timestamp="1465987090814" record_key="Trigger_General_Settlement_Razed">
+<condition>true</condition>
+<event>CharacterRazedSettlement</event>
+<experience_points>250</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_General_Settlement_Razed</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{d44bd1cc-ecb0-4340-bd9a-b1a164074a84}" record_timestamp="1465987234539" record_key="Trigger_General_Successful_Ambush">
+<condition>context:character():won_battle() and context:pending_battle():attacker() == context:character() and context:pending_battle():ambush_battle()</condition>
+<event>CharacterCompletedBattle</event>
+<experience_points>500</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_General_Successful_Ambush</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{046d7fbe-4d18-4161-be5a-7c152aed02db}" record_timestamp="1458299818762" record_key="Trigger_General_Victory">
+<condition>context:character():won_battle() and ((context:character():model():pending_battle():attacker_battle_result()==&quot;close_victory&quot; or context:character():model():pending_battle():attacker_battle_result()==&quot;decisive_victory&quot;) or (context:character():model():pending_battle():defender_battle_result()==&quot;close_victory&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;decisive_victory&quot;))</condition>
+<event>CharacterCompletedBattle</event>
+<experience_points>1000</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_General_Victory</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{ddcf2ee4-95fc-4f71-afdb-c7bb1c53696e}" record_timestamp="1458299818761" record_key="Trigger_General_Victory_Heroic">
+<condition>context:character():won_battle() and (context:character():model():pending_battle():attacker_battle_result()==&quot;heroic_victory&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;heroic_victory&quot;)</condition>
+<event>CharacterCompletedBattle</event>
+<experience_points>2000</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_General_Victory_Heroic</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{99d0aa0a-a3dd-4192-abd3-1ca2d6178edf}" record_timestamp="1458299818756" record_key="Trigger_General_Victory_Pyrrhic">
+<condition>context:character():won_battle() and (context:character():model():pending_battle():attacker_battle_result()==&quot;pyrrhic_victory&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;pyrrhic_victory&quot;)</condition>
+<event>CharacterCompletedBattle</event>
+<experience_points>600</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_General_Victory_Pyrrhic</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{74021299-a671-4b1a-904d-24f1dbb077fb}" record_timestamp="1465987248487" record_key="Trigger_Hero_Defeat">
+<condition>not battle_is_quest_battle(context:character():model():pending_battle()) and not context:character():won_battle() and ((context:character():model():pending_battle():attacker_battle_result()==&quot;close_defeat&quot; or context:character():model():pending_battle():attacker_battle_result()==&quot;decisive_defeat&quot;) or (context:character():model():pending_battle():defender_battle_result()==&quot;close_defeat&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;decisive_defeat&quot;))</condition>
+<event>HeroCharacterParticipatedInBattle</event>
+<experience_points>200</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Hero_Defeat</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{637bcf1b-3123-42b5-98d2-0c82b13e55db}" record_timestamp="1465987248487" record_key="Trigger_Hero_Defeat_Crushing">
+<condition>not battle_is_quest_battle(context:character():model():pending_battle()) and not context:character():won_battle() and (context:character():model():pending_battle():defender_battle_result()==&quot;crushing_defeat&quot; or context:character():model():pending_battle():attacker_battle_result()==&quot;crushing_defeat&quot;)</condition>
+<event>HeroCharacterParticipatedInBattle</event>
+<experience_points>100</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Hero_Defeat_Crushing</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{8be77305-ca8b-4612-ac57-90f596cf0819}" record_timestamp="1465987248488" record_key="Trigger_Hero_Defeat_Valiant">
+<condition>not battle_is_quest_battle(context:character():model():pending_battle()) and not context:character():won_battle() and (context:character():model():pending_battle():attacker_battle_result()==&quot;valiant_defeat&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;valiant_defeat&quot;)</condition>
+<event>HeroCharacterParticipatedInBattle</event>
+<experience_points>400</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Hero_Defeat_Valiant</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{b61a7918-5b68-4b1e-bca1-c61d0740f8fe}" record_timestamp="1458299818786" record_key="Trigger_Hero_Victory">
+<condition>context:character():won_battle() and ((context:character():model():pending_battle():attacker_battle_result()==&quot;close_victory&quot; or context:character():model():pending_battle():attacker_battle_result()==&quot;decisive_victory&quot;) or (context:character():model():pending_battle():defender_battle_result()==&quot;close_victory&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;decisive_victory&quot;))</condition>
+<event>HeroCharacterParticipatedInBattle</event>
+<experience_points>500</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Hero_Victory</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{24caa2b8-0167-422b-b836-a4b83b0917a8}" record_timestamp="1458299818907" record_key="Trigger_Hero_Victory_Heroic">
+<condition>context:character():won_battle() and (context:character():model():pending_battle():attacker_battle_result()==&quot;heroic_victory&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;heroic_victory&quot;)</condition>
+<event>HeroCharacterParticipatedInBattle</event>
+<experience_points>800</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Hero_Victory_Heroic</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{b52edb98-4732-40c4-9621-cbfc626da3e1}" record_timestamp="1458299818783" record_key="Trigger_Hero_Victory_Pyrrhic">
+<condition>context:character():won_battle() and (context:character():model():pending_battle():attacker_battle_result()==&quot;pyrrhic_victory&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;pyrrhic_victory&quot;)</condition>
+<event>HeroCharacterParticipatedInBattle</event>
+<experience_points>300</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Hero_Victory_Pyrrhic</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{a6ceed84-acbd-4a6b-8d34-f0f6f1403c80}" record_timestamp="1465987248488" record_key="Trigger_Secondary_General_Defeat">
+<condition>not battle_is_quest_battle(context:character():model():pending_battle()) and not context:character():won_battle() and ((context:character():model():pending_battle():attacker_battle_result()==&quot;close_defeat&quot; or context:character():model():pending_battle():attacker_battle_result()==&quot;decisive_defeat&quot;) or (context:character():model():pending_battle():defender_battle_result()==&quot;close_defeat&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;decisive_defeat&quot;))</condition>
+<event>CharacterParticipatedAsSecondaryGeneralInBattle</event>
+<experience_points>200</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Secondary_General_Defeat</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{8475feea-1094-4b69-8fa5-0e33be332480}" record_timestamp="1465987248489" record_key="Trigger_Secondary_General_Defeat_Crushing">
+<condition>not battle_is_quest_battle(context:character():model():pending_battle()) and not context:character():won_battle() and (context:character():model():pending_battle():defender_battle_result()==&quot;crushing_defeat&quot; or context:character():model():pending_battle():attacker_battle_result()==&quot;crushing_defeat&quot;)</condition>
+<event>CharacterParticipatedAsSecondaryGeneralInBattle</event>
+<experience_points>100</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Secondary_General_Defeat_Crushing</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{49927b25-b199-4bd3-a2b0-4fd048183795}" record_timestamp="1465987248489" record_key="Trigger_Secondary_General_Defeat_Valiant">
+<condition>not battle_is_quest_battle(context:character():model():pending_battle()) and not context:character():won_battle() and (context:character():model():pending_battle():attacker_battle_result()==&quot;valiant_defeat&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;valiant_defeat&quot;)</condition>
+<event>CharacterParticipatedAsSecondaryGeneralInBattle</event>
+<experience_points>400</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Secondary_General_Defeat_Valiant</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{eacff051-07a0-4dcf-9267-07d7896db1b2}" record_timestamp="1458299818787" record_key="Trigger_Secondary_General_Victory">
+<condition>context:character():won_battle() and ((context:character():model():pending_battle():attacker_battle_result()==&quot;close_victory&quot; or context:character():model():pending_battle():attacker_battle_result()==&quot;decisive_victory&quot;) or (context:character():model():pending_battle():defender_battle_result()==&quot;close_victory&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;decisive_victory&quot;))</condition>
+<event>CharacterParticipatedAsSecondaryGeneralInBattle</event>
+<experience_points>500</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Secondary_General_Victory</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{7c257a4d-1cdb-4163-820e-c99b089f1143}" record_timestamp="1458299818905" record_key="Trigger_Secondary_General_Victory_Heroic">
+<condition>context:character():won_battle() and (context:character():model():pending_battle():attacker_battle_result()==&quot;heroic_victory&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;heroic_victory&quot;)</condition>
+<event>CharacterParticipatedAsSecondaryGeneralInBattle</event>
+<experience_points>1000</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Secondary_General_Victory_Heroic</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{874cefd9-e5f8-4b69-ac0d-e21a3072e1e3}" record_timestamp="1458299818784" record_key="Trigger_Secondary_General_Victory_Pyrrhic">
+<condition>context:character():won_battle() and (context:character():model():pending_battle():attacker_battle_result()==&quot;pyrrhic_victory&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;pyrrhic_victory&quot;)</condition>
+<event>CharacterParticipatedAsSecondaryGeneralInBattle</event>
+<experience_points>300</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Secondary_General_Victory_Pyrrhic</trigger_key>
+</experience_triggers>
+</dataroot>

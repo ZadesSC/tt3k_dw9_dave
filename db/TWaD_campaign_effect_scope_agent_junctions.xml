@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_effect_scope_agent_junctions>
+<root>
+<edit_uuid>e67b87f3-0f5a-4491-9d69-618ca179c2b1</edit_uuid>
+<field>
+<field_uuid>{b6940dbd-f994-464c-b031-6ce010b6db74}</field_uuid>
+<primary_key>1</primary_key>
+<name>campaign_effect_scope_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_column>localised_text</column_source_column>
+<column_source_table>campaign_effect_scopes</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{488dc97e-c8cc-4eea-bfb1-b790a7768310}</field_uuid>
+<primary_key>1</primary_key>
+<name>agent_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>agents</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

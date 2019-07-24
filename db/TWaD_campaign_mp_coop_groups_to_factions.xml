@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_mp_coop_groups_to_factions>
+<root>
+<edit_uuid>19d770cc-f33a-4efa-9dec-481f787a9bad</edit_uuid>
+<field>
+<field_uuid>{04c3951e-b5a0-49db-8572-35ecafc8943b}</field_uuid>
+<primary_key>1</primary_key>
+<name>faction_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>factions</column_source_table>
+<field_description>A faction to be added to a Multiplayer Coop Group</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{0e8a092b-f478-42b1-bdeb-e42d789d99e4}</field_uuid>
+<primary_key>1</primary_key>
+<name>mp_coop_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_mp_coop_groups</column_source_table>
+<field_description>The Multiplayer Coop Group to which the specified faction belongs.</field_description>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

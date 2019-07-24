@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_start_pos_diplomacy_simple_deal_alliance_oath_parameters>
+<root>
+<edit_uuid>a04001d1-5f6d-4932-a293-92851638f973</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{54f6b700-52ba-4e0d-a822-a35fcadae07a}</field_uuid>
+<primary_key>1</primary_key>
+<name>deal</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>start_pos_diplomacy_simple_deals</column_source_table>
+<requires_startpos_reprocess>1</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{ee6ae8f2-f2f1-468d-a826-8673be515e2f}</field_uuid>
+<primary_key>1</primary_key>
+<name>parameter_index</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>Parameter indices start from 1.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{890c0173-7187-4394-bc2b-5cbdaa292ae3}</field_uuid>
+<primary_key>0</primary_key>
+<name>alliance_oath_parameter</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>alliance_oath_coalition</default_value>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_diplomacy_alliance_oaths</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

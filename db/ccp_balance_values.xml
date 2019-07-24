@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ccp_balance_values.xsd" export_time="Tue Mar 26 15:39:28 2019" revision="26" export_branch="C:/Users/Build/AppData/Roaming/TWDaemon/1407/server" export_user="bob">
+<edit_uuid>b8f22209-a851-408b-a50b-e9add68ed2ed</edit_uuid>
+<ccp_balance_values record_uuid="{2120cc6d-10e3-4999-9a35-99dac4968ccc}" record_timestamp="1491986002992" record_key="balance_best_accuracy">
+<description>Modifier used to provide accuracy for ranged damage calculations</description>
+<key>balance_best_accuracy</key>
+<value>0.25</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{77d91463-e6df-479b-b83b-e1fd6063f3a1}" record_timestamp="1491986002994" record_key="balance_cavalry_med_charge_speed">
+<description>Reference charge speed for an average cavalry unit</description>
+<key>balance_cavalry_med_charge_speed</key>
+<value>12</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{9644c55d-3e8e-4321-a1f5-c09a849a3ddc}" record_timestamp="1491986002994" record_key="balance_cavalry_med_mass">
+<description>Reference mass for an average cavalry unit</description>
+<key>balance_cavalry_med_mass</key>
+<value>400</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{baa5a2a6-1594-40c2-b311-da3b0ee018a2}" record_timestamp="1491986002995" record_key="balance_charge_per_minute">
+<description>Number of charges a cav unit will do in a minute, for collision calculations.</description>
+<key>balance_charge_per_minute</key>
+<value>1</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{74f0f8c3-8ede-4ea7-9bf0-7a44e9bebfe4}" record_timestamp="1491986002994" record_key="balance_default_mass">
+<description>Reference mass for an average unit</description>
+<key>balance_default_mass</key>
+<value>100</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{97c571b3-8fc2-4801-ac33-caef6071b1ee}" record_timestamp="1551285045934" record_key="balance_explosion_damage_multiplier">
+<description>Modifier used to scaled explosion base and ap damages</description>
+<key>balance_explosion_damage_multiplier</key>
+<value>4</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{1b0a6194-bb86-48cf-9d0b-3d4865790789}" record_timestamp="1491986002994" record_key="balance_infantry_med_mass">
+<description>Reference mass for an average infantry unit</description>
+<key>balance_infantry_med_mass</key>
+<value>100</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{98cbcaf2-0a26-48fd-9ebd-aef9e40470de}" record_timestamp="1491986002992" record_key="balance_intended_battle_length">
+<description>The battle length in minutes</description>
+<key>balance_intended_battle_length</key>
+<value>4</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{ea8718bd-ea1e-4ba2-a79e-f815420a0fcf}" record_timestamp="1491986002995" record_key="balance_men_hit_by_charge">
+<description>Modifier multiplied with the balance_number_of_men_in_melee value in collision calculations</description>
+<key>balance_men_hit_by_charge</key>
+<value>80</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{d4733b0d-0c5e-4730-b048-7294b6859576}" record_timestamp="1537283335264" record_key="balance_men_hit_by_charger">
+<description>Number of men hit by charger</description>
+<key>balance_men_hit_by_charger</key>
+<value>3</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{c2208a6c-b8c6-4b8c-be83-baba4d8c2825}" record_timestamp="1491986002995" record_key="balance_moral">
+<description>Modifier that will be multiplied with the unit moral</description>
+<key>balance_moral</key>
+<value>1119.4</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{5caf27d3-d6ef-4c60-bb13-ce19c09a248a}" record_timestamp="1491986002990" record_key="balance_number_of_men_in_melee">
+<description>Used in collision calculation as the amount of men that will be met</description>
+<key>balance_number_of_men_in_melee</key>
+<value>48</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{79b9140d-a671-434e-a96a-23ce54520632}" record_timestamp="1501491774999" record_key="balance_reference_ammo">
+<description>Value used to calculate the ammo modifier.</description>
+<key>balance_reference_ammo</key>
+<value>56</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{98c9c965-78bd-49a0-b74a-2765bfdef2cb}" record_timestamp="1491986002992" record_key="balance_reference_attack_rate">
+<description>Number of attacks per min</description>
+<key>balance_reference_attack_rate</key>
+<value>24</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{f14906d8-09ad-4d2e-b90f-478d87bfa958}" record_timestamp="1491986002990" record_key="balance_reference_missile_range">
+<description>The reference missile range</description>
+<key>balance_reference_missile_range</key>
+<value>150</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{bd8eaf06-1e6b-4c0b-a3fc-e8290bb57e28}" record_timestamp="1491986002996" record_key="balance_sigmoid_max">
+<description>balance_sigmoid_max</description>
+<key>balance_sigmoid_max</key>
+<value>1</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{18c16204-2171-4c7f-92f9-cddf633a894d}" record_timestamp="1493375563285" record_key="balance_sigmoid_midpoint">
+<description>Sigmoid Midpoint</description>
+<key>balance_sigmoid_midpoint</key>
+<value>0.3</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{2517c356-361f-4d84-93d2-e017de13f556}" record_timestamp="1493375563285" record_key="balance_sigmoid_steepness">
+<description>balance_sigmoid_steepness</description>
+<key>balance_sigmoid_steepness</key>
+<value>4</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{10900e55-1f72-4ff3-8642-7c7f9e2fb038}" record_timestamp="1510848591133" record_key="base_range_modifier">
+<description>Used in the range modifier calculation</description>
+<key>base_range_modifier</key>
+<value>0.75</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{765ac253-9777-4d8a-aa27-45af3e8a76b8}" record_timestamp="1546384328296" record_key="ccp_reliability">
+<description>CCP Reliability - 0(Green), 1(Orange), 2(Red)</description>
+<key>ccp_reliability</key>
+<value>1</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{64e24ef9-0da1-44d3-807b-b461785e2ab4}" record_timestamp="1533035970766" record_key="fallback_delta_proportion">
+<description>Modifier used to provide deltas in the event of records failing to load</description>
+<key>fallback_delta_proportion</key>
+<value>0.1</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{f19ff1c3-d423-4ebf-b72f-e2c30c1982af}" record_timestamp="1537283335489" record_key="hero_splash">
+<description>Modifier used in some vague way to bias melee charge damage for heroes</description>
+<key>hero_splash</key>
+<value>2</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{7bd78d58-ac7d-4489-aede-45006df081f2}" record_timestamp="1537283335378" record_key="mass_variation_constant">
+<description>Average over all entity mass variations</description>
+<key>mass_variation_constant</key>
+<value>87856.3</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{a637af1c-12fe-4f7e-b873-aaa4b35e21ec}" record_timestamp="1510848591133" record_key="max_ammo_coefficient">
+<description>Used to calculate the ammo modifier</description>
+<key>max_ammo_coefficient</key>
+<value>1.25</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{e4d76e8b-30b4-4bd9-80ce-2864a6027e89}" record_timestamp="1510848591133" record_key="max_range_modifier">
+<description>Used in the range modifier calculation</description>
+<key>max_range_modifier</key>
+<value>0.5</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{5dfb713d-f131-4e6a-a086-df875d90cba7}" record_timestamp="1537283335517" record_key="min_range_modifier">
+<description>Used in the range modifier calculation</description>
+<key>min_range_modifier</key>
+<value>0.75</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{ae28596e-f6af-4404-8221-35312a97a89e}" record_timestamp="1539705025099" record_key="minimum_melee_resistance">
+<description>Ugly hack put in by Atilla so his horrible balance spreadsheet will work</description>
+<key>minimum_melee_resistance</key>
+<value>5000</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{0759a48c-e155-4674-8d8b-3b944722b305}" record_timestamp="1535725461333" record_key="price_point_melee_damage">
+<description>Price point from excel formula</description>
+<key>price_point_melee_damage</key>
+<value>0.00054</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{a6eea936-dc3d-4883-ad20-6e52a46c8344}" record_timestamp="1535725461333" record_key="price_point_melee_resistance">
+<description>Price point from excel formula</description>
+<key>price_point_melee_resistance</key>
+<value>0.00055</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{66a2782c-dd02-460d-940b-7515396214e5}" record_timestamp="1535725461332" record_key="price_point_morale">
+<description>Price point from excel formula</description>
+<key>price_point_morale</key>
+<value>0.00052</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{4eeb6764-a34b-428e-951b-b40d83d652de}" record_timestamp="1535725461332" record_key="price_point_range_damage">
+<description>Price point from excel formula</description>
+<key>price_point_range_damage</key>
+<value>0.0009</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{8f418381-909b-44c0-94f9-920f6d91c6ea}" record_timestamp="1535725461332" record_key="price_point_range_resistance">
+<description>Price point from excel formula</description>
+<key>price_point_range_resistance</key>
+<value>0.00063</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{5d603e85-a3fa-4674-9c48-52dbc1960277}" record_timestamp="1510848591133" record_key="range_mod_steepness">
+<description>Used in the range modifier calculation</description>
+<key>range_mod_steepness</key>
+<value>0.025</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{a0202367-f231-468a-94e3-2202fc3b0541}" record_timestamp="1537283335292" record_key="weight_armour_defence">
+<description>Modifier used to scale armour defence</description>
+<key>weight_armour_defence</key>
+<value>1.34</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{e0965977-bf9a-4f2e-909a-7619847250b7}" record_timestamp="1537283335320" record_key="weight_armour_defence_shield">
+<description>Modifier used to scale armour defence shield</description>
+<key>weight_armour_defence_shield</key>
+<value>0.75</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{f350bc43-746d-41b5-b141-29d8ec98927a}" record_timestamp="1537283335462" record_key="weight_cavalry_jump_attack">
+<description>Modifier used to scale cavalry jump attack</description>
+<key>weight_cavalry_jump_attack</key>
+<value>5</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{de929eed-d0af-4f42-a15c-319ad7e2cda6}" record_timestamp="1491986002993" record_key="weight_effective_melee_hp">
+<description>Modifier used to scale the effective melee hp value</description>
+<key>weight_effective_melee_hp</key>
+<value>1</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{10d3c7eb-3d87-4dd1-a099-c809eb8df2a5}" record_timestamp="1491986002993" record_key="weight_effective_ranged_hp">
+<description>Modifier used to scale the effective ranged hp value</description>
+<key>weight_effective_ranged_hp</key>
+<value>1</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{b4de3fb1-02b3-418a-b5fe-9dc630a145e4}" record_timestamp="1491986002991" record_key="weight_fraction_of_men_firing">
+<description>The percentage of a ranged unit firing</description>
+<key>weight_fraction_of_men_firing</key>
+<value>1</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{df70564c-4963-45b7-8e27-efb9614fa141}" record_timestamp="1491986002992" record_key="weight_fraction_of_men_in_melee">
+<description>The percentage of the unit that should be involved in melee</description>
+<key>weight_fraction_of_men_in_melee</key>
+<value>0.15</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{a06c25a1-8e83-403f-94aa-98a93ce6067f}" record_timestamp="1537283335349" record_key="weight_hero_effective_ranged_hp">
+<description>Modifier used to scale heroes effective ranged hp</description>
+<key>weight_hero_effective_ranged_hp</key>
+<value>2</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{3ee11768-f3dd-48e5-a9cd-b6bf5e854974}" record_timestamp="1537283335405" record_key="weight_melee_defence">
+<description>Modifier used to scale melee defence</description>
+<key>weight_melee_defence</key>
+<value>0.88</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{9b492f67-84b6-4cd7-975d-54499d2859de}" record_timestamp="1537283335433" record_key="weight_melee_defence_shield">
+<description>Modifier used to scale melee defence shield</description>
+<key>weight_melee_defence_shield</key>
+<value>1</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{135f3470-dba9-4f3e-bec6-a32a8f24649b}" record_timestamp="1491986002992" record_key="weight_missile_ap_damage_over_battle">
+<description>Modifier that will be multiplied by the ap ranged damage in calculations</description>
+<key>weight_missile_ap_damage_over_battle</key>
+<value>1</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{5967254a-3371-4f46-b5e6-d9cd6dd8b664}" record_timestamp="1491986002993" record_key="weight_missile_block_chance">
+<description>Modifier used in the effective ranged hp calculation</description>
+<key>weight_missile_block_chance</key>
+<value>0.75</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{2e29d234-f54d-4a47-a1cf-3842333a962c}" record_timestamp="1491986002993" record_key="weight_missile_regular_damage_over_battle">
+<description>Modifier that will be multiplied by the base ranged damage in calculations</description>
+<key>weight_missile_regular_damage_over_battle</key>
+<value>0.76</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{d47fc0b4-a6e8-4b8e-82c1-383149ab128f}" record_timestamp="1491986002990" record_key="weight_total_ap_damage_over_battle">
+<description>Modifier that will be multiplied with the base ap damage in calculations</description>
+<key>weight_total_ap_damage_over_battle</key>
+<value>1</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{307471bc-031a-4aec-b659-7bf99a5a7e9d}" record_timestamp="1491986002993" record_key="weight_total_melee_armour">
+<description>Modifier used to scale the total melee armour</description>
+<key>weight_total_melee_armour</key>
+<value>1.2</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{42411d86-73ab-4725-808c-8f546ac37634}" record_timestamp="1491986002991" record_key="weight_total_melee_damage_over_battle">
+<description>Modifier that will be multiplied with the base melee damage in calculations</description>
+<key>weight_total_melee_damage_over_battle</key>
+<value>0.76</value>
+</ccp_balance_values>
+<ccp_balance_values record_uuid="{7fc96c6b-b13a-46e4-80fc-ec8e8f59f68d}" record_timestamp="1491986002990" record_key="weight_total_melee_defence">
+<description>Modifier used to scale the total defence value</description>
+<key>weight_total_melee_defence</key>
+<value>0.8</value>
+</ccp_balance_values>
+</dataroot>

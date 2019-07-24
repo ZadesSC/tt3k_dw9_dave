@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_group_campaign_diplomacy_treaty_component_set_queries>
+<root>
+<edit_uuid>4e2ed9a4-7682-4fc4-8ece-688004e1e6a6</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{f03398d4-71ca-4e21-8b66-d86848bdda9a}</field_uuid>
+<primary_key>1</primary_key>
+<name>system</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Only programmers can add records to this table - this field is linked to code.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{7400ead9-63ed-45ec-9d7c-41d1164c05ff}</field_uuid>
+<primary_key>0</primary_key>
+<name>source_requirement</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_diplomacy_groups</column_source_table>
+<field_description>Requirement group which defines which faction(s) are used as the source from which to generate the treaty component set (the set of treaties between any source and any destination).</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{0b1e0277-5054-4c73-bb54-fb3491ec2205}</field_uuid>
+<primary_key>0</primary_key>
+<name>source_variable</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_diplomacy_variables</column_source_table>
+<field_description>Variable from the source requirement which contains the result.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c81fb7e4-62d4-4dc5-ac45-c1215d58040f}</field_uuid>
+<primary_key>0</primary_key>
+<name>destination_requirement</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_diplomacy_groups</column_source_table>
+<field_description>Requirement group which defines which faction(s) are used as the destination with which to generate the treaty component set (the set of treaties between any source and any destination). This is allowed to be the same as the source_requirement.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{74d33115-01b9-4715-8271-83f6e3683fe4}</field_uuid>
+<primary_key>0</primary_key>
+<name>destination_variable</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_diplomacy_variables</column_source_table>
+<field_description>Variable from the destination requirement which contains the result.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

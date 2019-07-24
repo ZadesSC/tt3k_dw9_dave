@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_personality_character_role_component_overrides>
+<root>
+<edit_uuid>97de0957-9db1-4adc-91fb-67f17be5e3c9</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{393c5619-0b6f-4261-800d-7bda6d540b70}</field_uuid>
+<primary_key>1</primary_key>
+<name>component</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>cai_personality_character_role_components</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{1ee4682d-ac28-45a6-a023-c95889374b74}</field_uuid>
+<primary_key>0</primary_key>
+<name>parent</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>cai_personality_character_role_components</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

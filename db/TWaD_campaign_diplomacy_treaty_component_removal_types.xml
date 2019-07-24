@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_diplomacy_treaty_component_removal_types>
+<root>
+<edit_uuid>d9edf7d8-c771-4893-9ab6-0fa820c46ee7</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{e42fe97a-ea54-4a12-8c22-d16f854b8ea4}</field_uuid>
+<primary_key>1</primary_key>
+<name>type</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Maps to code. You cannot add entries to, remove entries from or edit entries in this table without getting the code updated.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

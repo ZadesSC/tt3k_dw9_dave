@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ui_large_images>
+<root>
+<edit_uuid>b40e3144-135c-4e08-ada5-e035b61074c9</edit_uuid>
+<agf_special_dependencies>+*</agf_special_dependencies>
+<field>
+<field_uuid>{56fdfbea-acd7-4baa-b702-9a1e5e7eabdf}</field_uuid>
+<primary_key>1</primary_key>
+<name>image_path</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>This is the image path of image want to pre-register</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{b575f31a-9ad8-491f-ba7b-d594e5c07fb0}</field_uuid>
+<primary_key>1</primary_key>
+<name>game_area</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>game_area_enums</column_source_table>
+<field_description>This is game area to pre-register for</field_description>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

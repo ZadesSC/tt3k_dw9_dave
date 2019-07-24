@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_destruction_zone_mask_type_to_prefab_types>
+<root>
+<edit_uuid>2eb247e4-dddd-4f21-a177-adc926cecaaa</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{f893cafc-433b-469b-8232-165a1fec5517}</field_uuid>
+<primary_key>1</primary_key>
+<name>destruction_zone_mask_type</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>destruction_zone_mask_types</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{af9fa04f-d2a3-48f9-b318-481b000cd667}</field_uuid>
+<primary_key>1</primary_key>
+<name>prefab_type</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>prefab_type</column_source_column>
+<column_source_table>prefab_types</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

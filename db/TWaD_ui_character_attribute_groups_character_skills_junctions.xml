@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ui_character_attribute_groups_character_skills_junctions>
+<root>
+<edit_uuid>1e6e8626-429f-440e-9d98-69ea2b4b9619</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{b07d67b4-48b4-4b6c-8c68-be88086cb498}</field_uuid>
+<primary_key>0</primary_key>
+<name>group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>group_id</column_source_column>
+<column_source_table>ui_character_attributes_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{e8496a54-adb6-4508-b794-ce3e38c14ffa}</field_uuid>
+<primary_key>1</primary_key>
+<name>skill</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>character_skills</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

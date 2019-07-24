@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_character_action_shared_per_turn_limits>
+<root>
+<edit_uuid>0a1d4796-81fd-4eb6-beed-b044192dbfcb</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{20dee56a-187f-44cd-8671-d71754ad82ec}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{3a4e298f-425b-4798-9dad-242bb8af41a9}</field_uuid>
+<primary_key>0</primary_key>
+<name>allowed_times_per_turn</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c2771e8e-463a-417a-9e75-aa8e778c293b}</field_uuid>
+<primary_key>0</primary_key>
+<name>allowed_times_per_character_per_turn</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_personality_diplomatic_component_overrides>
+<root>
+<edit_uuid>435de75c-07aa-446e-b923-798e55abee12</edit_uuid>
+<field>
+<field_uuid>{1900ec4b-5178-4b72-bab6-e6440e5c6125}</field_uuid>
+<primary_key>1</primary_key>
+<name>component</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>cai_personality_diplomatic_components</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{014d5578-3441-4a41-9dbe-5136571ca425}</field_uuid>
+<primary_key>0</primary_key>
+<name>parent</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>cai_personality_diplomatic_components</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

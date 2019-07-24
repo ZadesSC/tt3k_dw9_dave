@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_game_modes>
+<root>
+<edit_uuid>1b51f6b4-d1ff-4fba-9898-36393cc23f83</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{aa81f57d-564e-4b48-807e-55572b4a7fa0}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Name of the game mode</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{f0c4130f-3959-4373-96ac-1d2f71bd2399}</field_uuid>
+<primary_key>0</primary_key>
+<name>desciption</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{1c71639c-5bdf-47a0-8dc0-3cba23b66aa6}</field_uuid>
+<primary_key>0</primary_key>
+<name>localised_title</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>[PH]</default_value>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

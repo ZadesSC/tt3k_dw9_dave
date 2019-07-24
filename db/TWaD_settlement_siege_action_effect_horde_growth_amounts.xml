@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_settlement_siege_action_effect_horde_growth_amounts>
+<root>
+<edit_uuid>b8df2921-6d20-4bcb-83c1-b1bda62a3956</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{6befa9fd-383d-4dff-9967-195dc4ef3f64}</field_uuid>
+<primary_key>1</primary_key>
+<name>effect_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>effect_group</column_source_column>
+<column_source_table>settlement_siege_action_effect_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{4cebf002-a850-40d2-8be8-aaafda3746f2}</field_uuid>
+<primary_key>0</primary_key>
+<name>base_growth</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{0f115fed-b16b-4b48-9bcf-4a46813a6d2c}</field_uuid>
+<primary_key>0</primary_key>
+<name>growth_per_unit_in_acting_force</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_advice_levels_info_text_juncs>
+<root>
+<edit_uuid>8ead3320-4785-4975-ab3a-f52c89b5f2f9</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{d52d4de0-951f-43a3-9485-953d387397b8}</field_uuid>
+<primary_key>1</primary_key>
+<name>advice_level</name>
+<field_type>integer</field_type>
+<required>1</required>
+<column_source_column>key</column_source_column>
+<column_source_table>advice_levels</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{b932939f-74f4-426b-b0a1-2a876ed276f3}</field_uuid>
+<primary_key>1</primary_key>
+<name>advice_info_text</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>advice_info_texts</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

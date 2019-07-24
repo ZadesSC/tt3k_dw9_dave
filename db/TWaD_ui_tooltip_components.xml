@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ui_tooltip_components>
+<root>
+<edit_uuid>94a4122c-8237-49f0-ba34-c5f844510740</edit_uuid>
+<field>
+<field_uuid>{082c7a9b-657a-4f92-b1ae-2e143457836b}</field_uuid>
+<primary_key>1</primary_key>
+<name>ui_tooltip</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>ui_tooltips</column_source_table>
+<field_description>This is the entry in ui tooltips, the layout to use</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{b4c6bf78-c291-4615-8fb9-da297be1a406}</field_uuid>
+<primary_key>1</primary_key>
+<name>child_id</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>This is the child id in the layout to apply this information for</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{492216c8-371c-4a61-b115-3be1c52e4c8f}</field_uuid>
+<primary_key>0</primary_key>
+<name>localised_text</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>This is the onscreen text to set for this entry</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{cf021bff-e69c-4e20-b620-5ee4443af077}</field_uuid>
+<primary_key>0</primary_key>
+<name>icon_path</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>This is the icon/image path to set for this entry that lives in working_data/ui/skins/default as a png</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{c67eb795-7dd7-48a8-a691-b36580220ccc}</field_uuid>
+<primary_key>0</primary_key>
+<name>state_name</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>Optional override state name for component. Used for example if have an icon with multiple states like happy/sad, etc.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{ceebd98e-692a-4099-b9cf-48a0f8a0bdc8}</field_uuid>
+<primary_key>0</primary_key>
+<name>is_visible</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>true</default_value>
+<field_description>Defaults to true, if set to false will hide the component. Useful for if want to say have an effect_list tooltip but without a title or description, in which case can just hide it</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+</root>

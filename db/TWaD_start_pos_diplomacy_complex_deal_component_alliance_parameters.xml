@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_start_pos_diplomacy_complex_deal_component_alliance_parameters>
+<root>
+<edit_uuid>f9ec6693-5f4b-46d6-8714-fcfc2891de7e</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{7cc05081-c5d2-4d35-851b-5f3a49490b1a}</field_uuid>
+<primary_key>1</primary_key>
+<name>component</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>start_pos_diplomacy_complex_deal_components</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{89e7d620-6b7b-48b1-be1f-d84e58d69c0f}</field_uuid>
+<primary_key>1</primary_key>
+<name>parameter_index</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>Parameter indices start from 1.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{698e599d-1bb6-4914-9241-d885f2633ace}</field_uuid>
+<primary_key>0</primary_key>
+<name>alliance_faction_parameter</name>
+<field_type>integer</field_type>
+<required>1</required>
+<column_source_column>ID</column_source_column>
+<column_source_column>faction</column_source_column>
+<column_source_column>campaign</column_source_column>
+<column_source_table>start_pos_factions</column_source_table>
+<field_description>One of the factions already in the alliance.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

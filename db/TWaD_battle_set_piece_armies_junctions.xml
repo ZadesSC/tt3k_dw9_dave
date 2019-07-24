@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_battle_set_piece_armies_junctions>
+<root>
+<edit_uuid>99367350-6649-4229-9975-bc99b36d98f5</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{1bca8a12-9d8f-4d65-85b0-a1d6e5806fee}</field_uuid>
+<primary_key>1</primary_key>
+<name>battle_name</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>battle_name</column_source_column>
+<column_source_table>battle_set_pieces</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{01712393-7a5a-435b-99fd-19135e965257}</field_uuid>
+<primary_key>1</primary_key>
+<name>army_name</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>army_name</column_source_column>
+<column_source_table>battle_set_piece_armies</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

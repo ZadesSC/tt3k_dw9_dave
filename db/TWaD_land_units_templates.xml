@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_land_units_templates>
+<root>
+<edit_uuid>14f7812a-b64e-4d36-9fe4-595e2f78f143</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{9305ed4c-1c4f-4d26-878a-5545eb70e0d1}</field_uuid>
+<primary_key>1</primary_key>
+<name>land_unit</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>land_units</column_source_table>
+<field_description>The Land Unit that contains these Composed Entities.</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{6cba6295-d56e-4f65-8044-2282f83d9a8a}</field_uuid>
+<primary_key>1</primary_key>
+<name>composed_entity</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>composed_entities</column_source_table>
+<field_description>The Composed Entity model fothis group.</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{f1dd99d1-e53c-41c6-b928-835c4eccc1fb}</field_uuid>
+<primary_key>0</primary_key>
+<name>num_composed_entities</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>The number of Composed Entities in this group.</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{9c109e04-811c-4695-84d1-6a101698b0aa}</field_uuid>
+<primary_key>0</primary_key>
+<name>hp_pool</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>The HP of this group of Composed Entities.</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{41cd8e39-7077-443e-92ad-a324994cfcef}</field_uuid>
+<primary_key>0</primary_key>
+<name>can_be_dropped</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>false</default_value>
+<field_description>Whether this group of Composed Entities is separable from the Unit (for example: artillery guns).</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c3f16dbe-b204-466d-9fc9-3239a11f7da4}</field_uuid>
+<primary_key>0</primary_key>
+<name>scale_num_composed_entities</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>true</default_value>
+<column_source_column></column_source_column>
+<column_source_table></column_source_table>
+<field_description>Whether the Unit Scaling affects only the group HP pool or also the number of Composed Entities.</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{1a2a1c2d-53b2-4238-aec2-08c6de0a071b}</field_uuid>
+<primary_key>0</primary_key>
+<name>personality_location</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>no_override</default_value>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>personality_location_enums</column_source_table>
+<field_description>Sets the location in the unit this entity will try to occupy. Will only effect personalities, regular entities will ignore this</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

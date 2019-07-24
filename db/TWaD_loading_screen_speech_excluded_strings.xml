@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_loading_screen_speech_excluded_strings>
+<root>
+<edit_uuid>4b324391-ee83-4d75-9347-c4c25ed13d8a</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{4bc75be3-5bbb-4859-ad2b-1efa94c5cf4c}</field_uuid>
+<primary_key>1</primary_key>
+<name>loading_screen_speech_string</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>loading_screen_speech_strings</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{bda2a6c2-815d-45fd-a019-2ba603a7a1d9}</field_uuid>
+<primary_key>1</primary_key>
+<name>audio_vo_actor</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>audio_vo_actors</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

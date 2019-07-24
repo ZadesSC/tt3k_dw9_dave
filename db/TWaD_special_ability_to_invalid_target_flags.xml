@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_special_ability_to_invalid_target_flags>
+<root>
+<edit_uuid>4bd02b09-b006-4af6-8d23-6663efe5c544</edit_uuid>
+<field>
+<field_uuid>{579d9c0e-c569-43ed-9518-79673c1a5b6c}</field_uuid>
+<primary_key>1</primary_key>
+<name>special_ability</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>unit_special_abilities</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{36433c64-b712-46d7-8148-0fda0b2377ff}</field_uuid>
+<primary_key>1</primary_key>
+<name>invalid_target</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>flag_key</column_source_column>
+<column_source_table>special_ability_invalid_usage_flags</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

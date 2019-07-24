@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_diplomacy_group_types>
+<root>
+<edit_uuid>80172dd0-3991-4874-9a99-6b6e7f31e7d0</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{d2d71d2f-e481-4a09-91b2-600c4c8e0745}</field_uuid>
+<primary_key>1</primary_key>
+<name>type</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Maps to code. You cannot add entries to this table without the code being updated as well.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

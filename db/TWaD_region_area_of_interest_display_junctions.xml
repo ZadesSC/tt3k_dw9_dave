@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_region_area_of_interest_display_junctions>
+<root>
+<edit_uuid>6b73191e-3958-4159-ad72-d3ae6e74ca03</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{e076c187-b267-4ba7-99b8-676a46e75812}</field_uuid>
+<primary_key>1</primary_key>
+<name>region</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>region</column_source_column>
+<column_source_table>start_pos_regions</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{0213c29a-8019-40b9-b65c-350fbe8211c2}</field_uuid>
+<primary_key>1</primary_key>
+<name>area_of_interest</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_map_areas_of_interest</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

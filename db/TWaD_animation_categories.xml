@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_animation_categories>
+<root>
+<edit_uuid>ad7fb43b-f236-48b1-946a-2ee46bb958d0</edit_uuid>
+<field>
+<field_uuid>{bc07fe04-f30d-40e9-bbd7-39ea72e63ae7}</field_uuid>
+<primary_key>1</primary_key>
+<name>name</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>200000</max_length>
+</field>
+<field>
+<field_uuid>{4b74856f-ddc0-420b-bfd0-9d1f313feeb4}</field_uuid>
+<primary_key>0</primary_key>
+<name>order</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+</field>
+</root>

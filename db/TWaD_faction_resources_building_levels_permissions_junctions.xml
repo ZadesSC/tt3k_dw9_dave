@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_faction_resources_building_levels_permissions_junctions>
+<root>
+<edit_uuid>e8018873-6cc8-4d49-bae7-455c2922dd11</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{a161af09-ff31-4595-9fc2-f30b23a3defa}</field_uuid>
+<primary_key>1</primary_key>
+<name>building_level_record</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>level_name</column_source_column>
+<column_source_table>building_levels</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{3ce5743c-5035-4dc1-bc33-959dc5d50e9e}</field_uuid>
+<primary_key>1</primary_key>
+<name>faction_resource_id_flag</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>faction_resource_flag</column_source_column>
+<column_source_table>faction_resource_ids</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_help_page_strings>
+<root>
+<edit_uuid>635567e3-f8d3-43c2-932a-8c839815033b</edit_uuid>
+<field>
+<field_uuid>{8a3cf629-2b00-4a5b-9fed-90baaa48b014}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{fef37b04-1329-4eb0-b1e9-3208a8a2124a}</field_uuid>
+<primary_key>0</primary_key>
+<name>text</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>500</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{72d3093f-516f-40ca-a910-6a5a8596cf9c}</field_uuid>
+<primary_key>0</primary_key>
+<name>use_on_loading_screen</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>true</default_value>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+</root>

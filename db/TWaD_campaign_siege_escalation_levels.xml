@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_siege_escalation_levels>
+<root>
+<edit_uuid>5cb806a3-eb78-4689-99bd-95802c2ae51f</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{5d91fe0e-76f0-4ab5-8517-07f83016e080}</field_uuid>
+<primary_key>1</primary_key>
+<name>level</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{ef353faf-8278-4f5f-94f7-d5c83e67244b}</field_uuid>
+<primary_key>0</primary_key>
+<name>wall_breaches_count</name>
+<field_type>integer</field_type>
+<required>1</required>
+<field_description>Total number of breaches required to reach escalation level</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{02b42915-af9b-47b6-b659-f5ddea4bb668}</field_uuid>
+<primary_key>0</primary_key>
+<name>total_wall_health_less_than</name>
+<field_type>integer</field_type>
+<required>1</required>
+<field_description>Total wall health (to be less than) to reach escalation level</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{dbed302e-7bf2-4916-a25d-60ad07b481e8}</field_uuid>
+<primary_key>0</primary_key>
+<name>wall_pieces_health</name>
+<field_type>integer</field_type>
+<required>1</required>
+<field_description>Wall piece damage threshold (combines with count_wall_pieces_health_less_than) to reach escalation level</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{83c59cef-c579-4b4b-9d3c-3bc4994f4c62}</field_uuid>
+<primary_key>0</primary_key>
+<name>count_wall_pieces_health_less_than</name>
+<field_type>integer</field_type>
+<required>1</required>
+<field_description>Number of wall pieces at 'wall_pieces_health' required to reach escalation</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{2e823e13-3f45-4a04-8493-90d2a6f37f59}</field_uuid>
+<primary_key>0</primary_key>
+<name>bmd_export_type</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>name</column_source_column>
+<column_source_table>bmd_export_types</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

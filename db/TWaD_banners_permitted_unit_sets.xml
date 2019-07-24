@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_banners_permitted_unit_sets>
+<root>
+<edit_uuid>3272935a-6e07-49e0-8b91-ff6563268bda</edit_uuid>
+<agf_special_dependencies>banner&amp;unit_set</agf_special_dependencies>
+<field>
+<field_uuid>{3849920b-a7fa-477c-a1ad-01fc30c8948e}</field_uuid>
+<primary_key>1</primary_key>
+<name>banner</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>banner</column_source_column>
+<column_source_table>banners</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{527ccae3-8b88-4ab4-9fc9-161269eada83}</field_uuid>
+<primary_key>1</primary_key>
+<name>unit_set</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>unit_sets</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

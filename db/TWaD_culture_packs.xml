@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_culture_packs>
+<root>
+<edit_uuid>f22c9b6a-0a42-4fcf-90d4-205b8c5aa9e9</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{d64a098e-204f-49b0-8e2e-4bc384899101}</field_uuid>
+<primary_key>1</primary_key>
+<name>id</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>culture_pack_ids</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{a8d46952-782c-4c28-af91-e9f1d660e46b}</field_uuid>
+<primary_key>1</primary_key>
+<name>subculture</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>subculture</column_source_column>
+<column_source_table>cultures_subcultures</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

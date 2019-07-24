@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_diplomacy_negotiation_automatic_responses>
+<root>
+<edit_uuid>3efb8c19-220a-4186-84c3-f9f819837165</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{ef6c63e5-986f-4fdb-b3fc-da5f3a2cb37c}</field_uuid>
+<primary_key>1</primary_key>
+<name>requirement_set</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_diplomacy_requirement_sets</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

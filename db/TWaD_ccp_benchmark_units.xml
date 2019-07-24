@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ccp_benchmark_units>
+<root>
+<edit_uuid>5d964572-749c-4715-9e16-26fab93dd887</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{1c3662ad-9815-4d1b-a766-72f0d74466a9}</field_uuid>
+<primary_key>1</primary_key>
+<name>benchmark_category</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Provide a name for this benchmark category</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{4487da05-a80b-4138-8281-5f1dfcfdc954}</field_uuid>
+<primary_key>0</primary_key>
+<name>benchmark_unit</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>unit</column_source_column>
+<column_source_table>main_units</column_source_table>
+<field_description>Provide the unit record that this benchmark category refers to</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="character_relationships.xsd" export_time="Tue Apr 2 12:04:14 2019" revision="32" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1414/dave" export_user="bob">
+<edit_uuid>b75012b9-ca1a-42ae-a8b4-a751a6fc080f</edit_uuid>
+<character_relationships record_uuid="{a3051181-5da2-4058-bebd-c572ecc1b101}" record_timestamp="1528105364628" record_key="3k_main_relationship_negative_01">
+<cap>3k_main_relationship_cap_acquaintances</cap>
+<diplomatic_event_when_leaders></diplomatic_event_when_leaders>
+<hidden>0</hidden>
+<icon>placeholder.png</icon>
+<invalid_usage>has_no_relationship</invalid_usage>
+<invalidation_threshold>11</invalidation_threshold>
+<key>3k_main_relationship_negative_01</key>
+<max_memories>2</max_memories>
+<mourning_period>0</mourning_period>
+<name state="APPROVED" last_approved_text="Acquaintances" last_edit_user="bob">Acquaintances</name>
+<passive_decay>1</passive_decay>
+<priority>1</priority>
+<trigger_threshold>-10</trigger_threshold>
+</character_relationships>
+<character_relationships record_uuid="{2aadcad3-895c-4511-8fd3-fc79910c93d8}" record_timestamp="1529912667242" record_key="3k_main_relationship_negative_02">
+<cap>3k_main_relationship_cap_friends_rivals</cap>
+<diplomatic_event_when_leaders>RELATIONSHIP_RIVALS</diplomatic_event_when_leaders>
+<hidden>0</hidden>
+<icon>placeholder.png</icon>
+<invalid_usage>has_relationship_but_not_brother_friend_nemesis</invalid_usage>
+<invalidation_threshold>-20</invalidation_threshold>
+<key>3k_main_relationship_negative_02</key>
+<max_memories>4</max_memories>
+<mourning_period>5</mourning_period>
+<name state="APPROVED" last_approved_text="Rivals" last_edit_user="bob">Rivals</name>
+<passive_decay>3</passive_decay>
+<priority>2</priority>
+<trigger_threshold>-100</trigger_threshold>
+</character_relationships>
+<character_relationships record_uuid="{2b0ac914-b3eb-456e-a2f9-31767d60e34a}" record_timestamp="1529912667243" record_key="3k_main_relationship_negative_03">
+<cap>3k_main_relationship_cap_friends_rivals</cap>
+<diplomatic_event_when_leaders>RELATIONSHIP_RIVALS</diplomatic_event_when_leaders>
+<hidden>0</hidden>
+<icon>placeholder.png</icon>
+<invalid_usage>has_relationship_but_not_brother_friend_rival</invalid_usage>
+<invalidation_threshold>100</invalidation_threshold>
+<key>3k_main_relationship_negative_03</key>
+<max_memories>6</max_memories>
+<mourning_period>15</mourning_period>
+<name state="APPROVED" last_approved_text="Nemeses" last_edit_user="bob">Nemeses</name>
+<passive_decay>5</passive_decay>
+<priority>3</priority>
+<trigger_threshold>-300</trigger_threshold>
+</character_relationships>
+<character_relationships record_uuid="{1e68dcdc-7e96-4275-8563-bb0b4d03abf7}" record_timestamp="1528105364629" record_key="3k_main_relationship_positive_01">
+<cap>3k_main_relationship_cap_acquaintances</cap>
+<diplomatic_event_when_leaders></diplomatic_event_when_leaders>
+<hidden>0</hidden>
+<icon>placeholder.png</icon>
+<invalid_usage>has_no_relationship</invalid_usage>
+<invalidation_threshold>-11</invalidation_threshold>
+<key>3k_main_relationship_positive_01</key>
+<max_memories>2</max_memories>
+<mourning_period>0</mourning_period>
+<name state="APPROVED" last_approved_text="Acquaintances" last_edit_user="bob">Acquaintances</name>
+<passive_decay>1</passive_decay>
+<priority>1</priority>
+<trigger_threshold>10</trigger_threshold>
+</character_relationships>
+<character_relationships record_uuid="{6294e0dd-95de-44f5-acef-18e1d55b0ce7}" record_timestamp="1529912667243" record_key="3k_main_relationship_positive_02">
+<cap>3k_main_relationship_cap_friends_rivals</cap>
+<diplomatic_event_when_leaders>RELATIONSHIP_FRIENDS</diplomatic_event_when_leaders>
+<hidden>0</hidden>
+<icon>placeholder.png</icon>
+<invalid_usage>has_relationship_but_not_brother_rival_nemesis</invalid_usage>
+<invalidation_threshold>20</invalidation_threshold>
+<key>3k_main_relationship_positive_02</key>
+<max_memories>4</max_memories>
+<mourning_period>5</mourning_period>
+<name state="APPROVED" last_approved_text="Friends" last_edit_user="bob">Friends</name>
+<passive_decay>3</passive_decay>
+<priority>2</priority>
+<trigger_threshold>100</trigger_threshold>
+</character_relationships>
+<character_relationships record_uuid="{bbc402ab-23f3-4aa0-b641-5ed911d8cd71}" record_timestamp="1529912667243" record_key="3k_main_relationship_positive_03">
+<cap>3k_main_relationship_cap_friends_rivals</cap>
+<diplomatic_event_when_leaders>RELATIONSHIP_FRIENDS</diplomatic_event_when_leaders>
+<hidden>0</hidden>
+<icon>placeholder.png</icon>
+<invalid_usage>has_relationship_but_not_friend_rival_nemesis</invalid_usage>
+<invalidation_threshold>-100</invalidation_threshold>
+<key>3k_main_relationship_positive_03</key>
+<max_memories>6</max_memories>
+<mourning_period>15</mourning_period>
+<name state="APPROVED" last_approved_text="Oathsworn" last_edit_user="bob">Oathsworn</name>
+<passive_decay>5</passive_decay>
+<priority>3</priority>
+<trigger_threshold>300</trigger_threshold>
+</character_relationships>
+</dataroot>

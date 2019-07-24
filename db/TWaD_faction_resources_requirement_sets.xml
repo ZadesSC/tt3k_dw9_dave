@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_faction_resources_requirement_sets>
+<root>
+<edit_uuid>db7f12e2-c427-4249-a5a1-5d9e63a4db07</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{9e1e76b8-f661-4ed6-abc7-2cb1f5f3a5fa}</field_uuid>
+<primary_key>1</primary_key>
+<name>set_id</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{378add5b-bca2-455a-94b3-588187482b43}</field_uuid>
+<primary_key>0</primary_key>
+<name>operator_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>operator_key</column_source_column>
+<column_source_table>faction_resources_requirement_set_operators</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

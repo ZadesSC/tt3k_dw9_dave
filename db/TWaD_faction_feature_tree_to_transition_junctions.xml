@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_faction_feature_tree_to_transition_junctions>
+<root>
+<edit_uuid>d54d361a-32d4-4f08-97f2-dfd4adba29b0</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{caf30370-640d-4402-a258-828c8e98e8a8}</field_uuid>
+<primary_key>1</primary_key>
+<name>feature_tree</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>faction_feature_trees</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{5626153b-17fe-45d8-81db-6bf320cb72a1}</field_uuid>
+<primary_key>1</primary_key>
+<name>transition</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>feature_set_transitions</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

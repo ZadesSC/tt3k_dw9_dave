@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_diplomacy_keys_to_diplomacy_key_groups>
+<root>
+<edit_uuid>c9ecca9e-5288-4017-8c9a-69adbc6bceca</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{abadef44-f0b7-40f4-8951-ee6f6bd7e29b}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>diplomacy_keys</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{43473973-9611-4ab6-bc86-a3577b7010ae}</field_uuid>
+<primary_key>1</primary_key>
+<name>group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+<column_source_column>group_id</column_source_column>
+<column_source_table>diplomacy_key_groups</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

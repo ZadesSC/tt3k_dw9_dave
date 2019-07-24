@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_mp_force_gen_compositions>
+<root>
+<edit_uuid>27dc0bf6-c741-4f0b-b03b-d818bd813681</edit_uuid>
+<field>
+<field_uuid>{c4f49ecd-feeb-4f0a-a00e-ab033b63a0a6}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>default</default_value>
+<max_length>255</max_length>
+<field_description>Unique id</field_description>
+</field>
+<field>
+<field_uuid>{ec725c89-4f78-4e32-a096-cd28b3ff7564}</field_uuid>
+<primary_key>0</primary_key>
+<name>general_pct</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>0.05</default_value>
+<field_description>How much of funds to spend on general</field_description>
+</field>
+<field>
+<field_uuid>{5a5f342c-6bda-40ad-95fd-f0d68d23b54c}</field_uuid>
+<primary_key>0</primary_key>
+<name>units_pct</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>0.9485</default_value>
+<field_description>How much of funds to spend on units</field_description>
+</field>
+<field>
+<field_uuid>{54c2eed0-ec2b-4106-8195-db6c26fa5b34}</field_uuid>
+<primary_key>0</primary_key>
+<name>upgrade_pct</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>0.0005</default_value>
+<field_description>How much of funds to spend on upgrades</field_description>
+</field>
+</root>

@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dynamic_loading_screen_events.xsd" export_time="Thu Dec 6 11:08:51 2018" revision="13" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1227/dave" export_user="bob">
+<edit_uuid>aece5855-5c0b-4ad6-b570-aaad1ffb1b9e</edit_uuid>
+<dynamic_loading_screen_events record_uuid="{991c6aca-00a1-410c-aae4-5828841202de}" record_timestamp="1529424795221" record_key="ai_vassalized">
+<category>Diplomacy</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_treaty_negotiated</event_feed_trigger_keys>
+<key>ai_vassalized</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{0fce933a-7d63-4128-b2f6-5763602236a2}" record_timestamp="1529424795222" record_key="birth_in_player_faction">
+<category>Character</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>character_born_illegitimate,character_born_legitimate</event_feed_trigger_keys>
+<key>birth_in_player_faction</key>
+<priority>30</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{44000557-ece3-4bcc-95bd-92df76613977}" record_timestamp="1540028482613" record_key="campaign_begins_1">
+<category>War</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>campaign_begins_1</key>
+<priority>1</priority>
+<turns_to_expire>1</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{2b890a68-9d03-4523-966b-8519e08dbdf0}" record_timestamp="1540028482613" record_key="campaign_begins_2">
+<category>War</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>campaign_begins_2</key>
+<priority>2</priority>
+<turns_to_expire>1</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{42a74d08-75ed-4a4e-9e61-e2cdc22cf123}" record_timestamp="1540028482613" record_key="campaign_begins_3">
+<category>War</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>campaign_begins_3</key>
+<priority>3</priority>
+<turns_to_expire>1</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{6d90d1f7-23e5-46ab-a7b8-0d016383a4e1}" record_timestamp="1540028482613" record_key="campaign_begins_4">
+<category>War</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>campaign_begins_4</key>
+<priority>4</priority>
+<turns_to_expire>1</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{779c1732-7120-44ae-a11d-6219f9f01b77}" record_timestamp="1529424195057" record_key="emperor_declared_other_faction_one">
+<category>Emperor</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>world_power_token_faction_declares_emperor</event_feed_trigger_keys>
+<key>emperor_declared_other_faction_one</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{c8123891-1ca8-441f-b978-45c107710362}" record_timestamp="1529424195057" record_key="emperor_declared_other_faction_two">
+<category>Emperor</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>world_power_token_max_faction_declares_emperor</event_feed_trigger_keys>
+<key>emperor_declared_other_faction_two</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{cc9dd9aa-564d-4df2-9147-00afe98622b4}" record_timestamp="1529424195057" record_key="emperor_declared_player_faction">
+<category>Emperor</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>world_power_token_faction_declares_emperor</event_feed_trigger_keys>
+<key>emperor_declared_player_faction</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{5f27c7af-64df-42ec-bb33-3941c36fa670}" record_timestamp="1540293736638" record_key="emperor_declared_player_faction_variant_yellow_turban">
+<category>Emperor</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>world_power_token_faction_declares_emperor</event_feed_trigger_keys>
+<key>emperor_declared_player_faction_variant_yellow_turban</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{98987860-439f-4606-9037-9c5c631fa5d8}" record_timestamp="1540293736626" record_key="emperor_declared_player_faction_yellow_turban">
+<category>Emperor</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>world_power_token_faction_declares_emperor</event_feed_trigger_keys>
+<key>emperor_declared_player_faction_yellow_turban</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{6eb91bb4-2422-4ceb-a0e3-92b939359353}" record_timestamp="1513334700660" record_key="enemy_faction_character_dies_rank_greater_than_x">
+<category>Character</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>character_dies_in_action,character_dies_battle</event_feed_trigger_keys>
+<key>enemy_faction_character_dies_rank_greater_than_x</key>
+<priority>20</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{90889732-6eaa-46fd-bab2-3a3faa0653bc}" record_timestamp="1513334700658" record_key="enemy_faction_leader_death">
+<category>Character</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>character_dies_in_action,character_dies_battle,character_dies_executed,character_dies_suspicious,character_dies_natural</event_feed_trigger_keys>
+<key>enemy_faction_leader_death</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{c97d246b-7b19-4c1c-a36c-ff53c0affa18}" record_timestamp="1529424795221" record_key="faction_destroyed">
+<category>Diplomacy</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_faction_destroyed</event_feed_trigger_keys>
+<key>faction_destroyed</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{7fe55712-7fbb-4f6d-a1ea-a67fa54e9f14}" record_timestamp="1529424795221" record_key="faction_emerged">
+<category>Diplomacy</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_faction_emerges</event_feed_trigger_keys>
+<key>faction_emerged</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{9d3f2a8d-5b59-4546-b269-e3c42271f2c3}" record_timestamp="1529424795221" record_key="faction_joins_player_war">
+<category>Diplomacy</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_faction_joins_war</event_feed_trigger_keys>
+<key>faction_joins_player_war</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{651892f0-98ed-4d65-a4ab-bdb0004e6b01}" record_timestamp="1529424795221" record_key="long_peace">
+<category>War</category>
+<evaluation_type>ON_TURN_END</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>long_peace</key>
+<priority>20</priority>
+<turns_to_expire>1</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{f501f68c-2031-4775-bbcb-2da09cef51b3}" record_timestamp="1529424795221" record_key="long_war">
+<category>War</category>
+<evaluation_type>ON_TURN_END</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>long_war</key>
+<priority>20</priority>
+<turns_to_expire>1</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{c67cd843-9d46-40df-b30d-770afbdcdfab}" record_timestamp="1529424795221" record_key="peace_declared_recently_and_not_at_war">
+<category>War</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_treaty_negotiated</event_feed_trigger_keys>
+<key>peace_declared_recently_and_not_at_war</key>
+<priority>20</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{bc80444b-da9f-4da9-83dc-c5f4bd8a8710}" record_timestamp="1529424795221" record_key="peace_declared_recently_still_at_war">
+<category>War</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_treaty_negotiated</event_feed_trigger_keys>
+<key>peace_declared_recently_still_at_war</key>
+<priority>20</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{dc9e3429-d6cf-41fb-a39e-59964a7b77d4}" record_timestamp="1513334700687" record_key="player_alliance_broken_defensive">
+<category>Diplomacy</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_treaty_negotiated</event_feed_trigger_keys>
+<key>player_alliance_broken_defensive</key>
+<priority>20</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{99a03001-5015-49dd-b4f9-3353a0a89019}" record_timestamp="1529424795221" record_key="player_alliance_broken_military">
+<category>Diplomacy</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_treaty_negotiated</event_feed_trigger_keys>
+<key>player_alliance_broken_military</key>
+<priority>20</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{29c030ff-df18-477f-a4a2-74a053d54233}" record_timestamp="1513334700687" record_key="player_alliance_formed_defensive">
+<category>Diplomacy</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_treaty_negotiated</event_feed_trigger_keys>
+<key>player_alliance_formed_defensive</key>
+<priority>20</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{2d3392ab-83c8-41b4-8f46-263c101a6a37}" record_timestamp="1529424795221" record_key="player_alliance_formed_military">
+<category>Diplomacy</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_treaty_negotiated</event_feed_trigger_keys>
+<key>player_alliance_formed_military</key>
+<priority>20</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{bc0f1ed8-1a90-438a-bffd-d8e2a4387c89}" record_timestamp="1529424795223" record_key="player_army_destroyed">
+<category>War</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>military_army_destroyed</event_feed_trigger_keys>
+<key>player_army_destroyed</key>
+<priority>20</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{469de3f0-d020-41ef-8386-e38558ed032c}" record_timestamp="1529424195058" record_key="player_character_executed_dong_zhuo">
+<category>Character</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>captive_executed</event_feed_trigger_keys>
+<key>player_character_executed_dong_zhuo</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{f26ca4bb-827f-4212-83d4-7d465e1aea4a}" record_timestamp="1529424195058" record_key="player_character_faction_leader_wounded">
+<category>Character</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>character_wounded</event_feed_trigger_keys>
+<key>player_character_faction_leader_wounded</key>
+<priority>20</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{764cac6b-8471-4949-a9e3-7f0469fd7c44}" record_timestamp="1529424195058" record_key="player_character_marriage">
+<category>Character</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>character_marriage_domestic, character_marriage_diplomatic</event_feed_trigger_keys>
+<key>player_character_marriage</key>
+<priority>20</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{7a4617cb-2d91-4936-88da-f3dc650f73ce}" record_timestamp="1529424195058" record_key="player_character_wounded_rank_greater_than_x">
+<category>Character</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>character_wounded</event_feed_trigger_keys>
+<key>player_character_wounded_rank_greater_than_x</key>
+<priority>20</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{0cf8b3d6-19bb-45f8-b2a0-6d23515fbb33}" record_timestamp="1529424795222" record_key="player_coalition_formed">
+<category>Diplomacy</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_treaty_negotiated</event_feed_trigger_keys>
+<key>player_coalition_formed</key>
+<priority>20</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{7cd2d243-0858-4b10-93a2-5608759b4b5f}" record_timestamp="1513334700682" record_key="player_faction_bankrupt">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>faction_bankruptcy</event_feed_trigger_keys>
+<key>player_faction_bankrupt</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{35185b6c-4df5-4786-84be-212cb01aa7bd}" record_timestamp="1529424795222" record_key="player_faction_character_dies_natural">
+<category>Character</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>character_dies_natural</event_feed_trigger_keys>
+<key>player_faction_character_dies_natural</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{9adbe43c-9b5e-403a-a86e-256151320b2a}" record_timestamp="1529424795222" record_key="player_faction_character_dies_rank_greater_than_x">
+<category>Character</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>character_dies_in_action,character_dies_battle</event_feed_trigger_keys>
+<key>player_faction_character_dies_rank_greater_than_x</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{ba444dfc-59ef-49e2-9855-014489646dbf}" record_timestamp="1529424795222" record_key="player_faction_character_dies_suspicious">
+<category>Character</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>character_dies_suspicious</event_feed_trigger_keys>
+<key>player_faction_character_dies_suspicious</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{4fdc5666-79ce-4338-a72b-b43f362c808d}" record_timestamp="1529424795222" record_key="player_faction_character_executed">
+<category>Character</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>captive_executed</event_feed_trigger_keys>
+<key>player_faction_character_executed</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{2bd23af7-9308-4e64-b340-d1262509bd59}" record_timestamp="1529425700267" record_key="player_faction_council_mission">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>faction_event_mission_issued</event_feed_trigger_keys>
+<key>player_faction_council_mission</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{d5f0b2cf-3d4a-4ac0-ace7-9e0cfe67ea40}" record_timestamp="1529424195058" record_key="player_faction_hero_recruited">
+<category>Character</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>agent_recruited</event_feed_trigger_keys>
+<key>player_faction_hero_recruited</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{e68bc276-705a-4d4b-8701-57fc67e3c212}" record_timestamp="1529424795222" record_key="player_faction_leader_death">
+<category>Character</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>character_dies_in_action,character_dies_battle,character_dies_executed,character_dies_suspicious,character_dies_natural</event_feed_trigger_keys>
+<key>player_faction_leader_death</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{0ce59aa7-cb93-4a9d-943e-a772d23d6a73}" record_timestamp="1529424195058" record_key="player_faction_proxy_war">
+<category>War</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_treaty_negotiated</event_feed_trigger_keys>
+<key>player_faction_proxy_war</key>
+<priority>20</priority>
+<turns_to_expire>1</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{03a85130-d476-4d23-9f25-7f48b19e7b76}" record_timestamp="1529425700268" record_key="player_faction_rank_1">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>faction_imperium_level_increase</event_feed_trigger_keys>
+<key>player_faction_rank_1</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{737e5be7-0eba-43f8-80f9-7f6132169366}" record_timestamp="1540293736664" record_key="player_faction_rank_1_yellow_turban">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>faction_imperium_level_increase</event_feed_trigger_keys>
+<key>player_faction_rank_1_yellow_turban</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{51dc44d2-9362-4080-b723-a2feb3b7647a}" record_timestamp="1529425700268" record_key="player_faction_rank_2">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>faction_imperium_level_increase</event_feed_trigger_keys>
+<key>player_faction_rank_2</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{0d9d950c-a2ca-483c-b2a0-1e2a402259fd}" record_timestamp="1540293736651" record_key="player_faction_rank_2_yellow_turban">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>faction_imperium_level_increase</event_feed_trigger_keys>
+<key>player_faction_rank_2_yellow_turban</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{709b3c90-d583-42a0-ab70-8b3a62626ff0}" record_timestamp="1529425700268" record_key="player_faction_rank_3">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>faction_imperium_level_increase</event_feed_trigger_keys>
+<key>player_faction_rank_3</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{d39a40a2-83c1-4b12-9b2b-d2d33a36e09b}" record_timestamp="1540293736589" record_key="player_faction_rank_3_yellow_turban">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>faction_imperium_level_increase</event_feed_trigger_keys>
+<key>player_faction_rank_3_yellow_turban</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{b888fc72-3ad9-40fd-acb9-b19d4b3e32c4}" record_timestamp="1529425700268" record_key="player_faction_rank_4">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>faction_imperium_level_increase</event_feed_trigger_keys>
+<key>player_faction_rank_4</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{ca76aad0-62ee-4871-8f34-28171dcec1e5}" record_timestamp="1540293736577" record_key="player_faction_rank_4_yellow_turban">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>faction_imperium_level_increase</event_feed_trigger_keys>
+<key>player_faction_rank_4_yellow_turban</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{896a091c-4add-4b4e-b623-f5775d292330}" record_timestamp="1529425700268" record_key="player_faction_technology_researched_yellow_turban">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>faction_technology_researched</event_feed_trigger_keys>
+<key>player_faction_technology_researched_yellow_turban</key>
+<priority>30</priority>
+<turns_to_expire>4</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{280143f1-ebf6-4496-b2ff-3d02f8e46b0a}" record_timestamp="1529424795223" record_key="player_performing_siege">
+<category>War</category>
+<evaluation_type>ON_TURN_END</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>player_performing_siege</key>
+<priority>10</priority>
+<turns_to_expire>1</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{6eb7343a-75a7-4acf-8752-de8692ad4212}" record_timestamp="1529424195058" record_key="player_province_corruption">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>player_province_corruption</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{05f0b605-07ce-41cd-9229-b8e1ed7a1ea3}" record_timestamp="1529424195058" record_key="player_province_food_shortage">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>faction_famine</event_feed_trigger_keys>
+<key>player_province_food_shortage</key>
+<priority>1</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{87c0977c-464c-4278-a46d-c8fac044616b}" record_timestamp="1529424195058" record_key="player_province_food_shortage_pending">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>provinces_food_shortage</event_feed_trigger_keys>
+<key>player_province_food_shortage_pending</key>
+<priority>10</priority>
+<turns_to_expire>5</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{cdfbb7ff-1c19-42bf-8251-82d0bd4ecab0}" record_timestamp="1540293736613" record_key="player_province_rebellion_yellow_turban">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>provinces_unrest_rebellion</event_feed_trigger_keys>
+<key>player_province_rebellion_yellow_turban</key>
+<priority>1</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{da01da5f-de1d-43f0-94ba-3f6de873263f}" record_timestamp="1529424195058" record_key="player_spy_adopted">
+<category>Spies</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>undercover_character_adopted</event_feed_trigger_keys>
+<key>player_spy_adopted</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{3d9a6b95-63fe-4fcd-92bc-fb3090e0eaf2}" record_timestamp="1529424195058" record_key="player_spy_becomes_court_noble">
+<category>Spies</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>undercover_character_becomes_court_noble</event_feed_trigger_keys>
+<key>player_spy_becomes_court_noble</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{e6be3d3e-d247-4614-ab2c-f1e4d18b25f2}" record_timestamp="1529424195058" record_key="player_spy_becomes_faction_heir">
+<category>Spies</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>undercover_character_assigned_post</event_feed_trigger_keys>
+<key>player_spy_becomes_faction_heir</key>
+<priority>1</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{f09b9c7b-e975-4a02-af00-7c16b190add7}" record_timestamp="1529424195058" record_key="player_spy_becomes_faction_leader">
+<category>Spies</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>undercover_character_assigned_post</event_feed_trigger_keys>
+<key>player_spy_becomes_faction_leader</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{25d59576-0c81-457a-8234-8072bd9684ed}" record_timestamp="1529424195057" record_key="player_spy_becomes_general">
+<category>Spies</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>undercover_character_assigned_general</event_feed_trigger_keys>
+<key>player_spy_becomes_general</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{56313779-d98e-4fca-b1e1-2c1bcaf80340}" record_timestamp="1529424195057" record_key="player_spy_becomes_governor">
+<category>Spies</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>undercover_character_assigned_governorship</event_feed_trigger_keys>
+<key>player_spy_becomes_governor</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{995d41c8-b5df-4482-8b63-2be2e2a5cd0f}" record_timestamp="1529424195058" record_key="player_spy_failure">
+<category>Spies</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>undercover_character_character_action_failure, undercover_character_character_action_critical_failure</event_feed_trigger_keys>
+<key>player_spy_failure</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{841532d1-a7ff-4985-9bbb-957943763c77}" record_timestamp="1529424195058" record_key="player_spy_success">
+<category>Spies</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>undercover_character_character_action_success, undercover_character_character_action_critical_success</event_feed_trigger_keys>
+<key>player_spy_success</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{f12854c0-5efe-46ea-8501-37d22fd753bd}" record_timestamp="1529425700268" record_key="player_technology_researched">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>faction_technology_researched</event_feed_trigger_keys>
+<key>player_technology_researched</key>
+<priority>30</priority>
+<turns_to_expire>4</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{d42e45ff-28e0-4b04-8814-0ea925ca84d8}" record_timestamp="1529424795222" record_key="player_under_siege">
+<category>War</category>
+<evaluation_type>ON_TURN_END</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>player_under_siege</key>
+<priority>10</priority>
+<turns_to_expire>1</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{13637193-48ef-422c-a803-71401d2467f9}" record_timestamp="1529424795222" record_key="player_vassalized">
+<category>Diplomacy</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_treaty_negotiated</event_feed_trigger_keys>
+<key>player_vassalized</key>
+<priority>10</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{7fc8ec99-4e8e-44a4-b068-ff8e9d020aaa}" record_timestamp="1529424795222" record_key="rebellion_in_player_province">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>provinces_unrest_rebellion</event_feed_trigger_keys>
+<key>rebellion_in_player_province</key>
+<priority>0</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{d5936235-a6c2-4700-8c39-562a77dc789e}" record_timestamp="1529424795223" record_key="settlement_razed">
+<category>Provincial</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>provinces_settlement_razed</event_feed_trigger_keys>
+<key>settlement_razed</key>
+<priority>30</priority>
+<turns_to_expire>5</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{c2918459-0504-4a2d-93dd-e5997b6225b5}" record_timestamp="1513334700638" record_key="war_declared_on_you_recently">
+<category>War</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_treaty_negotiated</event_feed_trigger_keys>
+<key>war_declared_on_you_recently</key>
+<priority>20</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{aed95349-507b-4f46-9353-821bf0e13600}" record_timestamp="1513334700636" record_key="war_declared_recently">
+<category>War</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_treaty_negotiated</event_feed_trigger_keys>
+<key>war_declared_recently</key>
+<priority>20</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{ef8eb916-2a72-4ee8-9c43-e54657220316}" record_timestamp="1540293736601" record_key="war_declared_recently_yellow_turban">
+<category>War</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys>diplomacy_treaty_negotiated</event_feed_trigger_keys>
+<key>war_declared_recently_yellow_turban</key>
+<priority>20</priority>
+<turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{8448b793-f72f-476e-bdd6-390403f6e826}" record_timestamp="1513334700644" record_key="war_with_more_than_two_factions">
+<category>War</category>
+<evaluation_type>ON_TURN_END</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>war_with_more_than_two_factions</key>
+<priority>20</priority>
+<turns_to_expire>1</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{a6cc5d36-a452-43ae-93f0-e86bf43ddb6f}" record_timestamp="1513334700646" record_key="war_with_one_faction">
+<category>War</category>
+<evaluation_type>ON_TURN_END</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>war_with_one_faction</key>
+<priority>20</priority>
+<turns_to_expire>1</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{27e0ccdf-91d1-4719-80b6-d65e1429a5ce}" record_timestamp="1513334700645" record_key="war_with_two_factions">
+<category>War</category>
+<evaluation_type>ON_TURN_END</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>war_with_two_factions</key>
+<priority>20</priority>
+<turns_to_expire>1</turns_to_expire>
+</dynamic_loading_screen_events>
+</dataroot>

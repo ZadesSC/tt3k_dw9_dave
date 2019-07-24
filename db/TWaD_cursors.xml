@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cursors>
+<root>
+<edit_uuid>cd0da9f3-8cfb-40a8-bebd-5bfb571e23fc</edit_uuid>
+<field>
+<field_uuid>{01ebd473-14db-4e4d-9ef6-9eb0d13a97bf}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+</field>
+<field>
+<field_uuid>{a44cd3db-9376-4e09-961b-ac98d7be4335}</field_uuid>
+<primary_key>0</primary_key>
+<name>image</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+<field_description>.cur file to use for cursor</field_description>
+</field>
+<field>
+<field_uuid>{7bc1a27a-0d69-4581-b00c-82abfa2b716a}</field_uuid>
+<primary_key>0</primary_key>
+<name>frames</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>Number of frames cursor has</field_description>
+</field>
+<field>
+<field_uuid>{898f65a5-b510-4e78-9036-f32938a4e868}</field_uuid>
+<primary_key>0</primary_key>
+<name>framerate</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>25</default_value>
+<field_description>Frame rate of cursor animation</field_description>
+</field>
+<field>
+<field_uuid>{9790915d-99e4-437d-9ca7-035c6c42e02c}</field_uuid>
+<primary_key>0</primary_key>
+<name>hotspotX</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+</field>
+<field>
+<field_uuid>{d9f2e0d8-946b-449d-af47-7d32a98a9c2d}</field_uuid>
+<primary_key>0</primary_key>
+<name>hotspotY</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+</field>
+<field>
+<field_uuid>{c86ff95d-9b54-4bfd-809b-74d7399e81b4}</field_uuid>
+<primary_key>0</primary_key>
+<name>loop</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<field_description>Whether animation loops indefinately</field_description>
+</field>
+<field>
+<field_uuid>{e0ced76b-c18e-4251-8cbb-cf805d918fb4}</field_uuid>
+<primary_key>0</primary_key>
+<name>width</name>
+<field_type>integer</field_type>
+<required>0</required>
+<default_value>48</default_value>
+<field_description>Width of cursor image</field_description>
+</field>
+<field>
+<field_uuid>{22dcf4d7-e3da-4dbf-8e8e-b8b80d71f0f1}</field_uuid>
+<primary_key>0</primary_key>
+<name>height</name>
+<field_type>integer</field_type>
+<required>0</required>
+<default_value>48</default_value>
+<field_description>Height of cursor image</field_description>
+</field>
+<field>
+<field_uuid>{9569a4ed-d87a-4b88-afcc-6a73bd8e2bcc}</field_uuid>
+<primary_key>0</primary_key>
+<name>overlay_image</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>The image to be overlaid over image in image field. This is so dont have to redo entire cursors for different terrain cursors for example, just have base cursor and a terrain icon overlaid over top.</field_description>
+</field>
+<field>
+<field_uuid>{23f3f573-f887-4d5d-a7f8-082079340665}</field_uuid>
+<primary_key>0</primary_key>
+<name>is_ani_file</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>false</default_value>
+<field_description>If true, then uses a .ani extension rather than .cur</field_description>
+</field>
+</root>

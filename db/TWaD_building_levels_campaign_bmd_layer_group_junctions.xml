@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_building_levels_campaign_bmd_layer_group_junctions>
+<root>
+<edit_uuid>f5cde4c7-4572-43c6-865a-23cf4ee105a3</edit_uuid>
+<field>
+<field_uuid>{506c7c11-11ab-4754-b3e0-7bc9ca194a23}</field_uuid>
+<primary_key>1</primary_key>
+<name>building_level</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>level_name</column_source_column>
+<column_source_table>building_levels</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{d41ddc81-e035-4363-88a0-47bb5317dbc8}</field_uuid>
+<primary_key>1</primary_key>
+<name>campaign_bmd_layer_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>campaign_bmd_layer_group_ids</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

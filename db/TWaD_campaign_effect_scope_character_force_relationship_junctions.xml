@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_effect_scope_character_force_relationship_junctions>
+<root>
+<edit_uuid>0820d3dc-bc85-4c7a-8679-3113fec8d323</edit_uuid>
+<field>
+<field_uuid>{4916cd1e-dced-4425-b2f3-49dab78300f5}</field_uuid>
+<primary_key>1</primary_key>
+<name>campaign_effect_scope_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_column>localised_text</column_source_column>
+<column_source_table>campaign_effect_scopes</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{d88b72b9-a407-4cf1-8009-8db0e847ceea}</field_uuid>
+<primary_key>1</primary_key>
+<name>force_relationship_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_effect_scope_character_force_relationships</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

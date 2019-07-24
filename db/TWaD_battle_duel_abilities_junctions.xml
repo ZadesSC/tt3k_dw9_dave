@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_battle_duel_abilities_junctions>
+<root>
+<edit_uuid>58f3daed-cfc4-48bf-920d-b29b6d57a386</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{0105e5a1-4b51-48b0-aac4-5c0ea6ca6e26}</field_uuid>
+<primary_key>1</primary_key>
+<name>ability_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>unit_abilities</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c7e6cceb-5bfb-4a39-918c-7100b1e39d7b}</field_uuid>
+<primary_key>0</primary_key>
+<name>duel_ability_type</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>battle_duel_ability_type_enums</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

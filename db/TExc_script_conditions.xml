@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TExc_script_conditions.xsd" export_time="Mon Aug 24 09:57:30 2015" revision="11" export_branch="C:/fetch_c/warhammer/binaries" export_user="bob">
+<edit_uuid>8ed86189-7d19-46c9-9e5c-eaf0fe29f9b5</edit_uuid>
+<TExc_script_conditions record_uuid="{c332aa61-9593-44fc-9fa2-c8ec4d784938}" record_key="AdjacentRegionRebelling">
+<Condition>AdjacentRegionRebelling</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{53b18f01-e70c-4f5c-bf1b-35da1620b19c}" record_key="AdviceDisplayed">
+<Condition>AdviceDisplayed</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{0bf5e5f6-9f67-48f7-ac4c-d7daee12c1d1}" record_key="AdviceJustDisplayed">
+<Condition>AdviceJustDisplayed</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{5eb106e7-9aba-446f-8b87-b8c63128faae}" record_key="AdviceThreadProgress">
+<Condition>AdviceThreadProgress</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9d5e16cc-ffe2-4365-8ec9-ad2841bef7a7}" record_key="Advisory">
+<Condition>Advisory</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b3597f6c-ae35-46a8-8cf5-b9390b86c4bb}" record_key="ArmyIsAlliedCampaign">
+<Condition>ArmyIsAlliedCampaign</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{e3f2e81f-e18b-4e96-af79-5ea9064aa3af}" record_key="ArmyIsLocalCampaign">
+<Condition>ArmyIsLocalCampaign</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{827ecfd5-91d5-4ef9-9b0e-4ea5f0a7b002}" record_key="BattleAllianceIsAttacker">
+<Condition>BattleAllianceIsAttacker</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{feca42d6-b6a6-49a3-aa72-953b6cf288fc}" record_key="BattleAllianceIsPlayers">
+<Condition>BattleAllianceIsPlayers</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{ddef78b6-916c-418b-b96d-9c2470ec76d6}" record_key="BattleAllianceNumberOfShips">
+<Condition>BattleAllianceNumberOfShips</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{82ca8043-6c84-41ac-b7c7-fce765b043cc}" record_key="BattleAllianceNumberOfUnits">
+<Condition>BattleAllianceNumberOfUnits</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{85f5f66c-0941-48f4-96a0-960a4d073393}" record_key="BattleCommanderIsGeneral">
+<Condition>BattleCommanderIsGeneral</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{ffb90e2c-7fa8-49b7-bbb6-ce6bb7b33241}" record_key="BattleEnemyAlliancePercentageCanHide">
+<Condition>BattleEnemyAlliancePercentageCanHide</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{d55ab805-54ce-4f74-8705-b8304b134357}" record_key="BattleEnemyAlliancePercentageOfClassAndCategory">
+<Condition>BattleEnemyAlliancePercentageOfClassAndCategory</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9e441c4c-1f53-44c0-bcc1-608fd5de3051}" record_key="BattleEnemyAlliancePercentageOfMountType">
+<Condition>BattleEnemyAlliancePercentageOfMountType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{ee80c826-3aff-471a-8537-de0f4b065d5d}" record_key="BattleEnemyAlliancePercentageOfSpecialAbility">
+<Condition>BattleEnemyAlliancePercentageOfSpecialAbility</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{fe8fe34b-d0bb-472f-bde1-ea2a076295d0}" record_key="BattleEnemyAlliancePercentageOfUnitCategory">
+<Condition>BattleEnemyAlliancePercentageOfUnitCategory</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{1e07c2c0-7234-421f-9a4e-e15bba55c4c0}" record_key="BattleEnemyAlliancePercentageOfUnitClass">
+<Condition>BattleEnemyAlliancePercentageOfUnitClass</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{3131bb2e-b19e-47dc-af6d-1420e078ac1d}" record_key="BattleEnemyDirectionOfMeleeAttack">
+<Condition>BattleEnemyDirectionOfMeleeAttack</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{af85006b-b86e-4fb7-aafc-261560052bfe}" record_key="BattleEnemyHasMissileSuperiority">
+<Condition>BattleEnemyHasMissileSuperiority</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{ede1ecb0-49ea-4c41-b8bb-398b708c1053}" record_key="BattleEnemyShipActionStatus">
+<Condition>BattleEnemyShipActionStatus</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{3a23a507-5b31-428e-92bd-440d9140b029}" record_key="BattleEnemyShipOnFire">
+<Condition>BattleEnemyShipOnFire</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{f28db07a-45bc-4423-8454-6821674c0b00}" record_key="BattleEnemyUnitActionStatus">
+<Condition>BattleEnemyUnitActionStatus</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{2e141922-a3b3-4e40-a580-01a7fe160141}" record_key="BattleEnemyUnitCategory">
+<Condition>BattleEnemyUnitCategory</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{7e3cb00e-e4d4-40f2-a570-2da4c41c0fff}" record_key="BattleEnemyUnitClass">
+<Condition>BattleEnemyUnitClass</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{eb118994-de73-426b-9020-6367b9134b4b}" record_key="BattleEnemyUnitCurrentFormation">
+<Condition>BattleEnemyUnitCurrentFormation</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{1c6e9220-8801-4678-800b-5ed52dbc16c0}" record_key="BattleEnemyUnitOnLeftFlank">
+<Condition>BattleEnemyUnitOnLeftFlank</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{4e44fd2c-bb2e-478d-983d-479cbd5a3f70}" record_key="BattleEnemyUnitOnRightFlank">
+<Condition>BattleEnemyUnitOnRightFlank</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{c5defd55-f5c7-4a0f-9b82-05d06f6696cb}" record_key="BattleEnemyUnitSpecialAbilitySupported">
+<Condition>BattleEnemyUnitSpecialAbilitySupported</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{32e74e54-a80e-4c51-8cff-072d9a8f4b45}" record_key="BattleEnemyUnitTechnologySupported">
+<Condition>BattleEnemyUnitTechnologySupported</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{976f423b-2ec0-432a-b062-63f50c114b08}" record_key="BattleHasCoverBuildings">
+<Condition>BattleHasCoverBuildings</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{c521d91e-c63d-4163-be7f-3224801d83b5}" record_key="BattleHasCoverWalls">
+<Condition>BattleHasCoverWalls</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{408e31b9-a1e0-4b51-a6d4-96960933b4f5}" record_key="BattleIsLandConflict">
+<Condition>BattleIsLandConflict</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{dd2e8839-a928-46dd-adeb-da1a478533ba}" record_key="BattleIsNavalConflict">
+<Condition>BattleIsNavalConflict</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{5d04c26b-f036-42b4-ac2d-ef98f0691736}" record_key="BattleIsSiegeConflict">
+<Condition>BattleIsSiegeConflict</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{dc4c03bb-3b8b-4430-b1a5-b8148163ad57}" record_key="BattlePlayerAllianceDefendingHill">
+<Condition>BattlePlayerAllianceDefendingHill</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9d019a60-0937-4713-8b6a-a80eab50f029}" record_key="BattlePlayerAlliancePercentageCanHide">
+<Condition>BattlePlayerAlliancePercentageCanHide</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{48796f2b-7c14-4060-b145-c88e0f4b1398}" record_key="BattlePlayerAlliancePercentageOfAmmoType">
+<Condition>BattlePlayerAlliancePercentageOfAmmoType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b2b5ddde-5d02-4d7c-b34a-f0c2e18f9fb2}" record_key="BattlePlayerAlliancePercentageOfClassAndCategory">
+<Condition>BattlePlayerAlliancePercentageOfClassAndCategory</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{1d0d357d-529d-4301-9dc7-023844e838d1}" record_key="BattlePlayerAlliancePercentageOfMountType">
+<Condition>BattlePlayerAlliancePercentageOfMountType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9936364d-e971-400b-bc71-184e427e69ba}" record_key="BattlePlayerAlliancePercentageOfSpecialAbility">
+<Condition>BattlePlayerAlliancePercentageOfSpecialAbility</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b876bc0f-2ed8-4ac3-9b92-708fa44cc306}" record_key="BattlePlayerAlliancePercentageOfTechnology">
+<Condition>BattlePlayerAlliancePercentageOfTechnology</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b58eaee4-88cd-4b28-a088-f780f85f3882}" record_key="BattlePlayerAlliancePercentageOfUnitCategory">
+<Condition>BattlePlayerAlliancePercentageOfUnitCategory</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{51cd4b98-725b-4c37-8bdd-073cdbfd7f7f}" record_key="BattlePlayerAlliancePercentageOfUnitClass">
+<Condition>BattlePlayerAlliancePercentageOfUnitClass</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b6cc5369-081b-4647-b2dc-7fe55f70ca4b}" record_key="BattlePlayerAllianceToEnemyAllianceRatio">
+<Condition>BattlePlayerAllianceToEnemyAllianceRatio</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{1646e763-57cc-474f-9038-bef01cf3c7f1}" record_key="BattlePlayerDefendingFort">
+<Condition>BattlePlayerDefendingFort</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{8baee838-3d7d-4a4b-b40f-263ae709040d}" record_key="BattlePlayerDirectionOfMeleeAttack">
+<Condition>BattlePlayerDirectionOfMeleeAttack</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{81b87027-a4d3-4339-bd75-aba4f3fff696}" record_key="BattlePlayerDirectionOfMissileAttack">
+<Condition>BattlePlayerDirectionOfMissileAttack</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{98273b19-08c8-4c0a-8d97-6e6f495f1a5d}" record_key="BattlePlayerShipActionStatus">
+<Condition>BattlePlayerShipActionStatus</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{f7fa2071-00ec-4489-bf75-f1ecf2194532}" record_key="BattlePlayerShipClass">
+<Condition>BattlePlayerShipClass</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{65ef4357-5f41-4cbe-896f-cd523462c5ba}" record_key="BattlePlayerUnitActionStatus">
+<Condition>BattlePlayerUnitActionStatus</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{63867bd4-c67d-4895-badb-474906397ca5}" record_key="BattlePlayerUnitAmmoType">
+<Condition>BattlePlayerUnitAmmoType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b3e8af9b-a14e-474a-91a6-cf8be2f59a84}" record_key="BattlePlayerUnitCategory">
+<Condition>BattlePlayerUnitCategory</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{0677528a-3c4c-4aec-a2b9-146cfe2b4f68}" record_key="BattlePlayerUnitClass">
+<Condition>BattlePlayerUnitClass</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{6de41c3d-8948-4d69-8791-cb68071fe39f}" record_key="BattlePlayerUnitCurrentFormation">
+<Condition>BattlePlayerUnitCurrentFormation</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{124e7a22-d5f9-4ead-97b2-f465d85d8d22}" record_key="BattlePlayerUnitDefendingHill">
+<Condition>BattlePlayerUnitDefendingHill</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{ffe6e05b-4d39-4267-a116-7fcda86ffa4c}" record_key="BattlePlayerUnitEngaged">
+<Condition>BattlePlayerUnitEngaged</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{c1856c44-c2b8-4e56-b807-08aa8c81ecc0}" record_key="BattlePlayerUnitEngagedInMelee">
+<Condition>BattlePlayerUnitEngagedInMelee</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{d99f334a-8314-4e84-a486-9b7b44522e3b}" record_key="BattlePlayerUnitMountType">
+<Condition>BattlePlayerUnitMountType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{32de1c0b-0af9-4b27-b49a-38a9563fd520}" record_key="BattlePlayerUnitMovingFast">
+<Condition>BattlePlayerUnitMovingFast</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{718eb1b5-b09e-47ae-9357-269263e2f4a5}" record_key="BattlePlayerUnitSpecialAbilityActive">
+<Condition>BattlePlayerUnitSpecialAbilityActive</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{0568919d-d03d-4148-a55e-f1252e8860c1}" record_key="BattlePlayerUnitSpecialAbilitySupported">
+<Condition>BattlePlayerUnitSpecialAbilitySupported</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{d8b82994-3659-4381-84fd-09be1fe5e688}" record_key="BattlePlayerUnitTechnologySupported">
+<Condition>BattlePlayerUnitTechnologySupported</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{61205618-593c-4364-8e2b-2f40f4d0d3a0}" record_key="BattleResult">
+<Condition>BattleResult</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{aa49ae67-d666-459e-a614-5eeddbc0f915}" record_key="BattleShipIsPlayers">
+<Condition>BattleShipIsPlayers</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{4a08db94-0982-4c97-8447-53a56a4787b8}" record_key="BattleShipSailsPercentageDamage">
+<Condition>BattleShipSailsPercentageDamage</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{75ef6bb3-2d6e-4931-8ccc-b99aae4e828b}" record_key="BattleTimeLimitSet">
+<Condition>BattleTimeLimitSet</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{6ffe414d-cd9e-4c5d-9109-50ccf1af3eb8}" record_key="BattleType">
+<Condition>BattleType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{bb226d8c-132b-413e-a0e5-dd20a4798795}" record_key="BattleUnitIsAllied">
+<Condition>BattleUnitIsAllied</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{f407df98-2d3b-463b-9fc4-0d42c3ed2751}" record_key="BattleUnitIsPlayers">
+<Condition>BattleUnitIsPlayers</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{003eebdf-f71f-4b70-a76f-d9d72e165db8}" record_key="BattlesFought">
+<Condition>BattlesFought</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{726dff3e-5610-4cef-9796-3e17a3991cec}" record_key="BuildingLevelName">
+<Condition>BuildingLevelName</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{8bcf90b8-a7c0-430a-8e67-576305bb90fb}" record_key="BuildingTypeExistsAtSettlement">
+<Condition>BuildingTypeExistsAtSettlement</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{fcf76e8d-7869-4d83-9ab6-cdc0e46c2982}" record_key="BuildingTypeExistsAtSlot">
+<Condition>BuildingTypeExistsAtSlot</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{797634ca-9184-4083-8c77-6a7e2ae43bab}" record_key="CampaignBattleType">
+<Condition>CampaignBattleType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{d6e7b363-76ac-4b87-ad09-0a5b369510fd}" record_key="CampaignName">
+<Condition>CampaignName</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{96cc3d64-e630-4a1e-bd9c-871f703c4fc4}" record_key="CampaignPercentageOfOwnCaptured">
+<Condition>CampaignPercentageOfOwnCaptured</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{f172cde4-a614-4db8-a4b8-753da148cc9f}" record_key="CampaignPercentageOfOwnKilled">
+<Condition>CampaignPercentageOfOwnKilled</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b0e5887d-323c-4d21-b4fb-a5923aba49e9}" record_key="CampaignPercentageOfOwnRouted">
+<Condition>CampaignPercentageOfOwnRouted</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{1dc0ab0e-d908-4aed-adf7-ab34b9a12986}" record_key="CampaignPercentageOfThemCaptured">
+<Condition>CampaignPercentageOfThemCaptured</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{40a93a02-7326-426b-a7b3-c9621652db3a}" record_key="CampaignPercentageOfThemKilled">
+<Condition>CampaignPercentageOfThemKilled</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{fc0640a9-acbe-469a-aae2-11680b74573b}" record_key="CampaignPercentageOfThemRouted">
+<Condition>CampaignPercentageOfThemRouted</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{e9209571-e59e-40c0-93da-7ddd4807ad60}" record_key="CampaignPercentageOfUnitCategory">
+<Condition>CampaignPercentageOfUnitCategory</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{1b6737b5-ef5a-4d8f-bde0-c58e9ea2e8e7}" record_key="CanGenerateHistoricalCharacter">
+<Condition>CanGenerateHistoricalCharacter</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{6554d431-99cf-4ea0-b266-a58a41ee8d89}" record_key="CharacterAbility">
+<Condition>CharacterAbility</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{04710b8c-23be-43a7-af5a-68e0e0d925ad}" record_key="CharacterArmyCouldReplenishFromBattle">
+<Condition>CharacterArmyCouldReplenishFromBattle</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{23a1a746-953c-440f-af0c-dbfc505ee0ed}" record_key="CharacterArmyUsedCoverBuildings">
+<Condition>CharacterArmyUsedCoverBuildings</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{eb33d9d8-1552-410b-a343-f6e2d9d14e84}" record_key="CharacterArmyUsedCoverWalls">
+<Condition>CharacterArmyUsedCoverWalls</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9cb6b400-ecd4-4804-a393-0eb2f71c9b54}" record_key="CharacterAttribute">
+<Condition>CharacterAttribute</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{c5297250-e7a4-487f-ab7b-85e39c036c5e}" record_key="CharacterBattleWallsBreached">
+<Condition>CharacterBattleWallsBreached</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{1597f2f8-49ea-4a16-9a9f-17ae8cd58466}" record_key="CharacterBuildingConstructed">
+<Condition>CharacterBuildingConstructed</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{ac7915dd-85bb-4984-9e04-2e0b645afd6f}" record_key="CharacterCapturedEnemyShip">
+<Condition>CharacterCapturedEnemyShip</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{c2a435ed-5d3f-41cc-ac6c-de52a37d3db1}" record_key="CharacterCultureType">
+<Condition>CharacterCultureType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{fdf3e51e-4d6d-4776-a7e7-2cf07f9ef396}" record_key="CharacterDuelWeapon">
+<Condition>CharacterDuelWeapon</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{fcc6ca58-dc5e-4f50-b47e-23480dd80553}" record_key="CharacterDuelsFought">
+<Condition>CharacterDuelsFought</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{881b0895-ff8a-43da-9a77-7734a2015fa4}" record_key="CharacterDuelsLost">
+<Condition>CharacterDuelsLost</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{4b82a0cf-b185-49d6-a1e2-d78b5680fb4e}" record_key="CharacterDuelsWon">
+<Condition>CharacterDuelsWon</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{588a034d-4e2f-4615-81ce-f6af6a1c96fb}" record_key="CharacterEndedInAmbushPosition">
+<Condition>CharacterEndedInAmbushPosition</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{474bb092-1a2d-4c68-a8d2-aa7a0719cbe4}" record_key="CharacterFactionAdmiralCount">
+<Condition>CharacterFactionAdmiralCount</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{00c90fbe-d87e-4020-b332-6b28196935f7}" record_key="CharacterFactionGeneralCount">
+<Condition>CharacterFactionGeneralCount</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{ec1cfd04-3ed1-42bf-98bd-569297fc5f57}" record_key="CharacterFactionGovernmentType">
+<Condition>CharacterFactionGovernmentType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9422af95-2900-4ac4-b817-065400f5373a}" record_key="CharacterFactionHasTechType">
+<Condition>CharacterFactionHasTechType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{c71837b3-3c2f-47c1-a4e7-8a74537549ae}" record_key="CharacterFactionMinisterAncillary">
+<Condition>CharacterFactionMinisterAncillary</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9bbf676e-8f39-4d7d-b444-61e856b6f4bc}" record_key="CharacterFactionMinisterTrait">
+<Condition>CharacterFactionMinisterTrait</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{cc684a43-0c3b-4e9e-a3ed-6444a11e0389}" record_key="CharacterFactionName">
+<Condition>CharacterFactionName</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{4c14c6bc-3fe7-4a7e-bcbb-45ee273f1048}" record_key="CharacterFactionSubcultureType">
+<Condition>CharacterFactionSubcultureType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{138fad21-3e74-4e23-a191-7ed6c893582c}" record_key="CharacterForename">
+<Condition>CharacterForename</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{82e646f0-d392-4c99-b4a1-e36e13949a5e}" record_key="CharacterFoughtCulture">
+<Condition>CharacterFoughtCulture</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{99df365c-ac8d-4045-9926-ad5a4582da1e}" record_key="CharacterHasAncillary">
+<Condition>CharacterHasAncillary</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{49d2935d-6b9b-4f9b-a1cd-0abe400963b5}" record_key="CharacterHasTrait">
+<Condition>CharacterHasTrait</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{34980f1e-9661-46ae-a609-c9404c02bf99}" record_key="CharacterHoldsPost">
+<Condition>CharacterHoldsPost</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{802490a0-3ecb-4c29-a3a1-87df7fc32153}" record_key="CharacterInBuildingOfChain">
+<Condition>CharacterInBuildingOfChain</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{c3830285-d6fd-4926-9e42-1c3bcdc162f1}" record_key="CharacterInBuildingType">
+<Condition>CharacterInBuildingType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{ba85189d-0a2e-4d7e-8559-622144083a57}" record_key="CharacterInEnemyLands">
+<Condition>CharacterInEnemyLands</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{75231d77-9712-4071-b345-30a64013ada6}" record_key="CharacterInHomeRegion">
+<Condition>CharacterInHomeRegion</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{fc15b6c3-0326-425b-a998-2430b57c89c6}" record_key="CharacterInOwnFactionLands">
+<Condition>CharacterInOwnFactionLands</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{ca6e9cfb-c546-4888-bd9a-9e5d4128886e}" record_key="CharacterInRegion">
+<Condition>CharacterInRegion</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b8d370fb-0b1c-4a32-85d4-0cb1cc1ffef0}" record_key="CharacterInTheatre">
+<Condition>CharacterInTheatre</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{1a7d796f-80c9-4851-bd49-3c28eecb4058}" record_key="CharacterIsAlliedCampaign">
+<Condition>CharacterIsAlliedCampaign</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b7cfaf1f-7ec3-4cc9-a073-7685a949201d}" record_key="CharacterIsEnemyCampaign">
+<Condition>CharacterIsEnemyCampaign</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{d2946700-b640-49fc-892c-25da45f85b70}" record_key="CharacterIsFemale">
+<Condition>CharacterIsFemale</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{66fdf8ea-91c3-4de7-82d9-ee6f5a99f247}" record_key="CharacterIsLocalCampaign">
+<Condition>CharacterIsLocalCampaign</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{509691aa-6f1e-4b19-adfd-faffc1b132bd}" record_key="CharacterMPPercentageRemaining">
+<Condition>CharacterMPPercentageRemaining</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{e661619b-d51b-40f5-a5d4-84bc0c66db75}" record_key="CharacterMinisterialPosition">
+<Condition>CharacterMinisterialPosition</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{3c01107e-9044-4b18-a1a3-db13406fe070}" record_key="CharacterNumberOfChildren">
+<Condition>CharacterNumberOfChildren</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{69e6c3b1-3448-44b6-9ca2-1d8377ef0b2f}" record_key="CharacterOlderThan">
+<Condition>CharacterOlderThan</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{81797812-fc32-43d5-b5f0-0dedb5cac29f}" record_key="CharacterRallied">
+<Condition>CharacterRallied</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9c02bd09-22cc-4312-9e3a-d44a52cfbb89}" record_key="CharacterRank">
+<Condition>CharacterRank</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{75228109-f816-4784-a376-558f704c1a32}" record_key="CharacterRouted">
+<Condition>CharacterRouted</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{417b4451-febf-4264-a57e-6801be4bb969}" record_key="CharacterRunsSpyNetwork">
+<Condition>CharacterRunsSpyNetwork</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{ff966ed9-d5a4-443a-ac6e-9f9232117496}" record_key="CharacterStationaryForOneTurn">
+<Condition>CharacterStationaryForOneTurn</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{3fc796ed-4099-4c92-b4b3-f102845b62dc}" record_key="CharacterSurname">
+<Condition>CharacterSurname</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{18445f99-ba76-4efc-ae21-fd3c015b9295}" record_key="CharacterTurnsAtHome">
+<Condition>CharacterTurnsAtHome</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{0daab16e-0ec8-4e0b-bb51-4df4e360238c}" record_key="CharacterTurnsAtSea">
+<Condition>CharacterTurnsAtSea</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{dad4db4e-b2b3-477e-9897-debc7787efbe}" record_key="CharacterTurnsInEnemyLands">
+<Condition>CharacterTurnsInEnemyLands</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{d0bdddef-e3c3-4863-b986-1e45f9606a14}" record_key="CharacterType">
+<Condition>CharacterType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{dd8ad0c8-06a9-4b8f-9066-58eaeb3d8308}" record_key="CharacterWasAttacker">
+<Condition>CharacterWasAttacker</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{61afb276-ba71-4ffb-bfdb-7ec0680a5f51}" record_key="CharacterWifeHasTrait">
+<Condition>CharacterWifeHasTrait</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{8192befd-1b6b-4b00-8868-2ab05ad3a7e8}" record_key="CharacterWithdrewFromBattle">
+<Condition>CharacterWithdrewFromBattle</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{e9acaa0b-0336-44d9-beb2-a6180b94ac0d}" record_key="CharacterWonBattle">
+<Condition>CharacterWonBattle</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{bd067f83-a296-4aeb-9815-3676920cdad0}" record_key="CharacterWonDuel">
+<Condition>CharacterWonDuel</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{2cf284f9-e179-4e3d-941b-ad2c56e0384c}" record_key="CharactersUnitRallied">
+<Condition>CharactersUnitRallied</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{60ddf56f-2b4c-4ef6-addb-cb4fb0de10ef}" record_key="CityCaptureDifficulty">
+<Condition>CityCaptureDifficulty</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{69ed76e7-0e8d-46ab-ad94-1c7717b25fdf}" record_key="CommanderAncillary">
+<Condition>CommanderAncillary</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{4cac2070-c706-4eac-adcc-31f7f584f41d}" record_key="CommanderFoughtInBattle">
+<Condition>CommanderFoughtInBattle</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{8b3bb760-2da0-4d57-b205-249a91b87b0e}" record_key="CommanderFoughtInMelee">
+<Condition>CommanderFoughtInMelee</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{58e5cc40-d411-4e68-a1a1-15d2e59e5a45}" record_key="CommanderTrait">
+<Condition>CommanderTrait</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{84e3f152-9345-4fa5-b53b-93508c034346}" record_key="DateInRange">
+<Condition>DateInRange</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{2e1d2b18-bec6-48ef-adfb-919819df5237}" record_key="DefensiveSiegesFought">
+<Condition>DefensiveSiegesFought</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b4a01529-0dfc-4b62-bb72-a22e961ba73a}" record_key="DefensiveSiegesWon">
+<Condition>DefensiveSiegesWon</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{7d85f8e5-f968-4c0a-ade0-9124b455b56d}" record_key="DistanceToCity">
+<Condition>DistanceToCity</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{fe5a11f3-9955-40b4-8799-a4f3b0e80f8c}" record_key="EnemyArmyGreaterCombatStrength">
+<Condition>EnemyArmyGreaterCombatStrength</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{beed9506-6489-43a7-b3df-7286a44ae227}" record_key="FactionAllyCount">
+<Condition>FactionAllyCount</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{020a7931-83b3-49a2-8501-d64887b2272c}" record_key="FactionCanBuildBuilding">
+<Condition>FactionCanBuildBuilding</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{99262ca8-1cba-4f45-81d9-ae519fcb7c41}" record_key="FactionCashFlow">
+<Condition>FactionCashFlow</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{3c30fa24-c909-4b22-b037-05fa2357ef9f}" record_key="FactionDestroyedByCharacterFaction">
+<Condition>FactionDestroyedByCharacterFaction</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{43c58001-69c0-450a-8515-584b38ef3055}" record_key="FactionGovernmentType">
+<Condition>FactionGovernmentType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{0c5e0562-dd28-4b40-b092-fadfb73c552b}" record_key="FactionHasAllies">
+<Condition>FactionHasAllies</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{dfe8b7e3-4084-4fba-8ccb-df3796777920}" record_key="FactionHasTradeShipNotInTradeNode">
+<Condition>FactionHasTradeShipNotInTradeNode</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{dd0af230-22eb-4b74-9cc4-30d0f8a971b4}" record_key="FactionIsAlliedCampaign">
+<Condition>FactionIsAlliedCampaign</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{d68d7e85-b187-46dd-afb7-ae8624b308a0}" record_key="FactionIsEnemyCampaign">
+<Condition>FactionIsEnemyCampaign</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{359cde9a-0cc2-4515-b4da-167ccff84cb1}" record_key="FactionIsLocal">
+<Condition>FactionIsLocal</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{cef0ea34-7cbe-4285-829e-f7183d4d58d9}" record_key="FactionLeadersAttribute">
+<Condition>FactionLeadersAttribute</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{6ce4073e-9026-41b4-b4d8-460af2b1062b}" record_key="FactionLeadersTrait">
+<Condition>FactionLeadersTrait</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{0adebf04-1205-4627-93a6-29efbfabfba5}" record_key="FactionName">
+<Condition>FactionName</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9c27d3ec-b590-4a67-93ab-60cd0d7056c1}" record_key="FactionParticipatedInBattle">
+<Condition>FactionParticipatedInBattle</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{e3d78c10-281f-45a6-880b-3bca328aab51}" record_key="FactionPatrioticFervour">
+<Condition>FactionPatrioticFervour</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{4195801b-9473-40b1-9a28-23e6352b3393}" record_key="FactionSupportCostsPercentage">
+<Condition>FactionSupportCostsPercentage</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{2f74f50a-873c-4fc3-a19d-eda02296d5d1}" record_key="FactionTaxLevel">
+<Condition>FactionTaxLevel</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{14336e1c-b2b9-4b6c-ad6c-37a5d201c47b}" record_key="FactionTradeCommodityExists">
+<Condition>FactionTradeCommodityExists</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{c4732199-28bf-4ffa-9895-98e0c9063ba9}" record_key="FactionTradeValue">
+<Condition>FactionTradeValue</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{36f7cf32-7982-4110-bc1e-79c758b10740}" record_key="FactionTradeValuePercentage">
+<Condition>FactionTradeValuePercentage</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{99719da3-623b-47db-804c-cf0f611c21ab}" record_key="FactionTreasury">
+<Condition>FactionTreasury</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9b4be4c3-1d56-4cd0-a654-1af7fe94ce3d}" record_key="FactionTreasuryWorldPercentage">
+<Condition>FactionTreasuryWorldPercentage</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{47c1b037-c2e9-4271-a514-8c981114dd8d}" record_key="FactionWarWeariness">
+<Condition>FactionWarWeariness</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{1584c96c-e2e8-4365-9fe0-e2c119d60889}" record_key="FactionwideAncillaryTypeExists">
+<Condition>FactionwideAncillaryTypeExists</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{89ef541f-b16f-4de7-9ae4-a892f0f522cb}" record_key="FortBuildingQueueIdleDespiteCash">
+<Condition>FortBuildingQueueIdleDespiteCash</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{632976d6-1fd9-42ab-8316-81d6cc36c8cd}" record_key="FortIsLocal">
+<Condition>FortIsLocal</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{4effa36b-45ea-42b6-b7cb-b27d0c66b9d9}" record_key="GovernorTaxLevel">
+<Condition>GovernorTaxLevel</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{843a062d-cd4a-411c-ad83-64011d626198}" record_key="GovernorshipTaxLevel">
+<Condition>GovernorshipTaxLevel</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{1595cc5b-c15c-46d2-9c31-ffb5ad3dd2b1}" record_key="HasUnspecialisedPort">
+<Condition>HasUnspecialisedPort</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{f8363155-de2e-4832-a1ca-0695b2060ef7}" record_key="InPort">
+<Condition>InPort</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{29572e6d-3772-489b-8763-741ec05ba34a}" record_key="InSettlement">
+<Condition>InSettlement</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{4ca47a09-192d-42ed-bf63-447264eed0da}" record_key="InsurrectionCrushed">
+<Condition>InsurrectionCrushed</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{46dcdb40-b3ce-46e5-835a-449e52e298a7}" record_key="IsAdmiral">
+<Condition>IsAdmiral</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9c81d3f2-d773-4001-80c7-3cfcaf35ef9a}" record_key="IsBesieging">
+<Condition>IsBesieging</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{6e9b8c06-3a1c-4906-b9a2-4ef927ef3945}" record_key="IsBlockading">
+<Condition>IsBlockading</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{782b5f2a-4afa-41ce-840f-bb145fe597c2}" record_key="IsBuildingInChain">
+<Condition>IsBuildingInChain</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{44ec201f-eb30-4b4c-a042-345fa30fd0b2}" record_key="IsBuildingOfType">
+<Condition>IsBuildingOfType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{ee8cd6fc-0143-4f69-9bd1-70603fb47086}" record_key="IsCarryingTroops">
+<Condition>IsCarryingTroops</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{6229e2d7-7b5b-48eb-b913-9cb1a5c0c881}" record_key="IsChildOf">
+<Condition>IsChildOf</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{13ad9a1e-21a3-4723-bcbc-2bb4e2e2cf5c}" record_key="IsColony">
+<Condition>IsColony</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{09b1a38a-cd6e-4d1b-a3ee-0e4ec6bc81fd}" record_key="IsComponentType">
+<Condition>IsComponentType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{6e510f4e-1476-497e-81d0-ba89c3cc207f}" record_key="IsFactionLeader">
+<Condition>IsFactionLeader</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b2f638f2-bc82-4538-853b-668cf7e407b7}" record_key="IsFactionLeaderFemale">
+<Condition>IsFactionLeaderFemale</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{8a59c727-4e07-49b2-9b9f-d629d11562e3}" record_key="IsFamilyMember">
+<Condition>IsFamilyMember</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{7253707a-624d-46ee-afbd-7ff66d483269}" record_key="IsGarrisoned">
+<Condition>IsGarrisoned</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{33adbd6e-9bcb-4f4a-a305-ee48c9d65658}" record_key="IsHomeRegion">
+<Condition>IsHomeRegion</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{7e0e7ba1-bf22-47ee-9762-0f6999268cdf}" record_key="IsMessageType">
+<Condition>IsMessageType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{6d9d86fd-3987-41d3-8de4-814b908395d5}" record_key="IsPlayerTurn">
+<Condition>IsPlayerTurn</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{bc411c18-7ba2-4f69-952e-003d9766d1ca}" record_key="IsPortGarrisoned">
+<Condition>IsPortGarrisoned</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{63383129-e73f-430c-9fe8-11afdae6ec74}" record_key="IsTheatreGovernor">
+<Condition>IsTheatreGovernor</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9d79d83f-57b9-42df-80db-800809123bd0}" record_key="IsTriggerableHistoricalEvent">
+<Condition>IsTriggerableHistoricalEvent</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{53e2b1b1-2da5-4bb0-892d-1a3f8f89e25f}" record_key="IsUnderBlockade">
+<Condition>IsUnderBlockade</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{e908588f-87f9-4963-bd86-4769e6c9dac0}" record_key="IsUnderSiege">
+<Condition>IsUnderSiege</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{84aca834-f58c-43d4-b6d8-d74948b98b7b}" record_key="LandTradeRouteRaided">
+<Condition>LandTradeRouteRaided</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9a5cdf23-fcd4-4c53-96ba-d15f4dc9ba29}" record_key="LosingMoney">
+<Condition>LosingMoney</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{48825479-d2d3-4d7e-ba29-64fd47048dc5}" record_key="MapPosition">
+<Condition>MapPosition</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{cb7142bb-67d7-40c2-8bea-99257e4bfb6c}" record_key="MissionCompleted">
+<Condition>MissionCompleted</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9eca4780-1a81-4a1e-98a7-0781b4d807ca}" record_key="MissionIssued">
+<Condition>MissionIssued</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{7399a9d0-1d7a-4506-b728-b0153e018128}" record_key="MissionName">
+<Condition>MissionName</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{999b48c3-e16a-4e74-a236-b2be9d898d2f}" record_key="MissionRemainingTime">
+<Condition>MissionRemainingTime</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{e15b25e3-35e4-45b4-9c02-4fc4781b1b26}" record_key="MissionType">
+<Condition>MissionType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{0f866398-76ca-4740-beb8-24928baabae5}" record_key="NoActionThisTurn">
+<Condition>NoActionThisTurn</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{fcc5b1de-cdd8-4ef8-b7b9-5ebb8a7550a9}" record_key="OffensiveSiegesFought">
+<Condition>OffensiveSiegesFought</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{8a16be96-f316-4a0e-82f1-f376e8d8b6e9}" record_key="OffensiveSiegesWon">
+<Condition>OffensiveSiegesWon</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{1657d0df-bcc1-418b-902c-06d7d19feb10}" record_key="OnAWarFooting">
+<Condition>OnAWarFooting</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{caa827c7-c5ff-4ba3-a3a0-5cea23a3d3ee}" record_key="ParentId">
+<Condition>ParentId</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{cfd985d7-2880-4263-a2d9-9acb9e55fcf5}" record_key="PercentageUnspentIncome">
+<Condition>PercentageUnspentIncome</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{095d2b24-7659-4bc2-b34e-0cc8c49c8021}" record_key="PlayerFactionIsAttacker">
+<Condition>PlayerFactionIsAttacker</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{761d7ee4-178b-4cdf-9ba8-f0c2bad5d764}" record_key="PortBlockaded">
+<Condition>PortBlockaded</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{40e22b2f-e181-4368-bc74-0239b4265841}" record_key="PortBlockadedLocal">
+<Condition>PortBlockadedLocal</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b1ae2857-48b5-4c47-ac2e-197814e2e8d3}" record_key="RandomPercentCampaign">
+<Condition>RandomPercentCampaign</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{288237c8-cf54-4aea-b56b-76656631c10e}" record_key="RegionBuildableSlotEmpty">
+<Condition>RegionBuildableSlotEmpty</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9d04bd4a-529c-4131-bba2-e76270ecd594}" record_key="RegionBuildingFinished">
+<Condition>RegionBuildingFinished</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{f0bfbc2b-6094-41cb-bf73-a7bf08b1c015}" record_key="RegionClamoursReform">
+<Condition>RegionClamoursReform</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b52ca91a-daa7-482f-b038-133ea5c5c637}" record_key="RegionCultureIsFactionCulture">
+<Condition>RegionCultureIsFactionCulture</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{7cf21892-6dbe-402f-b612-3857f3f5b0a2}" record_key="RegionDemands">
+<Condition>RegionDemands</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{a918a555-4284-40c9-85c6-954aaa86cad7}" record_key="RegionEconomicGrowthLow">
+<Condition>RegionEconomicGrowthLow</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{c3adb446-5f1f-4659-9a76-a4cb34e91346}" record_key="RegionFoodShortageEmigration">
+<Condition>RegionFoodShortageEmigration</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b03c3504-b109-455b-8724-25da0784710b}" record_key="RegionGovernorAttribute">
+<Condition>RegionGovernorAttribute</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{925211d0-e8ba-4edc-834e-99c02f606583}" record_key="RegionHasFoodShortages">
+<Condition>RegionHasFoodShortages</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{3f5a2451-359f-4fc8-aa6c-4c7b69b01b2b}" record_key="RegionHasUnexportedTrade">
+<Condition>RegionHasUnexportedTrade</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{08a37266-3824-48c0-91e0-7dd5f4d9f64e}" record_key="RegionIsLocal">
+<Condition>RegionIsLocal</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{ba1b441d-4357-4dae-a7a8-d98c9a6785dc}" record_key="RegionPopulationGrowthLow">
+<Condition>RegionPopulationGrowthLow</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{bbc583fc-586e-4889-827d-77dd9d5942f4}" record_key="RegionPopulationLow">
+<Condition>RegionPopulationLow</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{7350d70f-5287-49c3-a880-453ac7f6a71f}" record_key="RegionPopulationMaxReached">
+<Condition>RegionPopulationMaxReached</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9e60f9c7-474e-44f0-95d2-8debda2fae3e}" record_key="RegionRebels">
+<Condition>RegionRebels</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{771a2d84-afa3-49cd-b4c3-48ec0cc720d6}" record_key="RegionReligionIsStateReligion">
+<Condition>RegionReligionIsStateReligion</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{56e62bbf-e268-4a78-bc88-8dec544efcad}" record_key="RegionReligiousEmigration">
+<Condition>RegionReligiousEmigration</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{02c9c2af-8eb2-47ef-8974-79aff9a6adcf}" record_key="RegionResourceExists">
+<Condition>RegionResourceExists</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{85ca05c9-1cae-442a-b993-8ce5fc6a4832}" record_key="RegionResourceExploited">
+<Condition>RegionResourceExploited</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{0647e671-66f8-4ffe-be29-303d36c26487}" record_key="RegionRiots">
+<Condition>RegionRiots</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{c7bd3252-9310-42b3-9bc8-82aa6d61a29f}" record_key="RegionSlotBuildingCount">
+<Condition>RegionSlotBuildingCount</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{84bf7f1f-dd2e-4d26-bdec-5e661f68b8d7}" record_key="RegionSlotBuildingCultureExists">
+<Condition>RegionSlotBuildingCultureExists</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{cab152c1-26a3-48ef-9237-43eb438e7d54}" record_key="RegionSlotBuildingTypeCount">
+<Condition>RegionSlotBuildingTypeCount</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{a8823c66-fa55-40fb-9c79-35c274b0f25e}" record_key="RegionSlotBuildingTypeExists">
+<Condition>RegionSlotBuildingTypeExists</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{69cac8c0-5f01-401a-b845-74dfccc056c9}" record_key="RegionSlotCount">
+<Condition>RegionSlotCount</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b0f5bb81-7317-4351-bf50-fe75bf1ee040}" record_key="RegionSlotEmptyCount">
+<Condition>RegionSlotEmptyCount</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{19679e88-8c6d-4173-a502-a1b090793d70}" record_key="RegionSlotTypeExists">
+<Condition>RegionSlotTypeExists</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9d6e8b49-3676-4417-90f8-30f114df54c2}" record_key="RegionTaxExempt">
+<Condition>RegionTaxExempt</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{a3549ba3-ba08-4150-b7ad-16e066498091}" record_key="RegionTaxLevel">
+<Condition>RegionTaxLevel</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{45e6376c-23c7-449e-b797-1b363a291157}" record_key="RegionTaxTownWealthGrowthReduction">
+<Condition>RegionTaxTownWealthGrowthReduction</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{36cf37ca-0f6f-4e6d-b6c0-3f29be4b22a1}" record_key="RegionTownWealthGrowth">
+<Condition>RegionTownWealthGrowth</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{91898e63-d9b9-48ff-8f81-40824e1a8ad0}" record_key="RegionWealthDecrease">
+<Condition>RegionWealthDecrease</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{464ca6f9-8421-4a3f-b9be-ae6644bd9c15}" record_key="RegionWealthIncrease">
+<Condition>RegionWealthIncrease</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b6411086-8b1e-41b2-948b-24e3ba5f6213}" record_key="ResearchCategory">
+<Condition>ResearchCategory</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b0b082e3-5ae8-4f79-bd81-fc4a1ee3467e}" record_key="ResearchQueueIdle">
+<Condition>ResearchQueueIdle</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{dcfc94b8-d3a4-47c7-8d93-9da936c512f2}" record_key="ResearchType">
+<Condition>ResearchType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{39ee1492-d2cf-41fe-a91e-2fe43a4382a9}" record_key="ResearchTypeUniqueToFaction">
+<Condition>ResearchTypeUniqueToFaction</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{2726e062-9b6d-477c-a719-4a4f89dda8dd}" record_key="RoadsAtMaxLevel">
+<Condition>RoadsAtMaxLevel</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{52a4dc96-5ba5-4658-9faa-02fee26597a6}" record_key="SeaTradeRouteRaided">
+<Condition>SeaTradeRouteRaided</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{545f346f-0995-4615-93bf-4bf02b9f5495}" record_key="SettlementBuildingQueueIdleDespiteCash">
+<Condition>SettlementBuildingQueueIdleDespiteCash</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{a3e1e0c6-70ab-4fe1-b177-9f9e6ba899ea}" record_key="SettlementFortificationsBuildingQueueIdleDespiteCash">
+<Condition>SettlementFortificationsBuildingQueueIdleDespiteCash</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{fb82462b-b1a9-498d-afa1-71e91d9bfe30}" record_key="SettlementIsLocal">
+<Condition>SettlementIsLocal</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{6d018b8e-9cba-427c-9165-64aecef8d3e9}" record_key="SettlementName">
+<Condition>SettlementName</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{967645ae-18e2-4fca-ae41-65bb218b4a35}" record_key="SettlementRoadBuildingQueueIdleDespiteCash">
+<Condition>SettlementRoadBuildingQueueIdleDespiteCash</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{c6dc5040-3b34-45a9-985f-37b04789a200}" record_key="SlotBuildingQueueIdleDespiteCash">
+<Condition>SlotBuildingQueueIdleDespiteCash</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{c25d4f43-e5f4-4853-b80f-1cd9d2e7f128}" record_key="SlotIsAlliedCampaign">
+<Condition>SlotIsAlliedCampaign</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{71fb5e6e-1307-4b47-998e-1888e840a2f6}" record_key="SlotIsLocal">
+<Condition>SlotIsLocal</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{c389393f-6782-4241-b71e-1c4c5a1e45ea}" record_key="SlotName">
+<Condition>SlotName</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{fdbaeb25-c4b6-44e5-bd5e-5120240a37a8}" record_key="SlotType">
+<Condition>SlotType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{540c8982-5803-4687-a08f-4984485328e6}" record_key="SupportCostsPercentage">
+<Condition>SupportCostsPercentage</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{fa9e6f1f-19a4-482e-95f6-c56eab92c117}" record_key="TargetArmyGreaterCombatStrength">
+<Condition>TargetArmyGreaterCombatStrength</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{1cc52e67-36dc-43a1-aa8a-5e6c1263db2c}" record_key="TargetCharacterIsAlliedCampaign">
+<Condition>TargetCharacterIsAlliedCampaign</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{4bbe2c97-3fb2-4ecf-9abd-04299aff88cf}" record_key="TargetCharacterIsEnemyCampaign">
+<Condition>TargetCharacterIsEnemyCampaign</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{d270ba87-37dd-46a9-b38b-41219c04ddc5}" record_key="TargetInStrikingRangeOfEnemy">
+<Condition>TargetInStrikingRangeOfEnemy</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{d2835b81-47ca-4e25-8038-504bffccab9f}" record_key="TaxCollectionLimited">
+<Condition>TaxCollectionLimited</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{f84d2888-9f6f-4c63-b568-93ee93a9ebf2}" record_key="TaxLevel">
+<Condition>TaxLevel</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{eeb33485-9406-42c9-8053-2a328bab3ea3}" record_key="TradeNodeAvailableWorldwide">
+<Condition>TradeNodeAvailableWorldwide</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{122bdc9d-3f82-4825-a9f3-a145a4212c97}" record_key="TradePortsAtMaxLevel">
+<Condition>TradePortsAtMaxLevel</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{9ef04786-2ac9-4c9e-8264-cb4d7ae6078e}" record_key="TradeRouteIsEnemy">
+<Condition>TradeRouteIsEnemy</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{0542d6b5-3191-4225-917a-6c2bd9021c80}" record_key="TradeRouteIsLocal">
+<Condition>TradeRouteIsLocal</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{b04ad3e8-02a0-49c9-ac27-3a50410d824a}" record_key="TradeRouteLimitReached">
+<Condition>TradeRouteLimitReached</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{dd3bbb38-7d7b-4311-b546-3d82237334aa}" record_key="TurnNumber">
+<Condition>TurnNumber</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{316666f5-c2ba-4efb-984b-da9863623569}" record_key="TurnsSinceThreadLastAdvanced">
+<Condition>TurnsSinceThreadLastAdvanced</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{6a88bbdc-a82b-4cb4-88b2-f74ba9467c97}" record_key="UnitCategory">
+<Condition>UnitCategory</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{918c2aaa-4126-42ff-bbb4-3942fa554db1}" record_key="UnitClass">
+<Condition>UnitClass</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{f5827537-3d37-4671-9b00-9cdc3c5fe0ef}" record_key="UnitCrushedInsurrection">
+<Condition>UnitCrushedInsurrection</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{35541b09-8452-4864-be0f-a8598ee6d731}" record_key="UnitCultureType">
+<Condition>UnitCultureType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{1a681f91-4ad9-45fa-87ab-862e0486e8b8}" record_key="UnitFoughtInBattle">
+<Condition>UnitFoughtInBattle</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{88fcc661-a301-4562-bc39-701372fcb0c1}" record_key="UnitFoughtInMelee">
+<Condition>UnitFoughtInMelee</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{bbc6e09a-c7d1-41be-ab52-016111135c8c}" record_key="UnitInTheatre">
+<Condition>UnitInTheatre</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{e8cbf19d-97b6-4f04-be93-af3b4eee4f60}" record_key="UnitOnContinent">
+<Condition>UnitOnContinent</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{29fd8b5f-2629-4cfd-994a-4f03304e210e}" record_key="UnitRouted">
+<Condition>UnitRouted</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{880df904-43c4-41d3-b72b-22c5846a694d}" record_key="UnitSufferedCasualties">
+<Condition>UnitSufferedCasualties</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{4ed686b1-9051-4ee6-a8e3-ca1455d4c37e}" record_key="UnitTrait">
+<Condition>UnitTrait</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{c3f287a4-4a23-48f9-b71a-73b086497432}" record_key="UnitType">
+<Condition>UnitType</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{e499be9f-2fe3-4484-8fb4-9e5651b42af7}" record_key="UnitWonBattle">
+<Condition>UnitWonBattle</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{991e737b-1ca6-4373-9a9f-a57534b68cd2}" record_key="UnusedInternationalTradeRoute">
+<Condition>UnusedInternationalTradeRoute</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{aaaf87c4-70a5-4df7-b902-37042f853a4b}" record_key="WarEndedCharacterFaction">
+<Condition>WarEndedCharacterFaction</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{f153e226-7345-45c5-a68d-1de56669d7c6}" record_key="WarStartedCharacterFaction">
+<Condition>WarStartedCharacterFaction</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{d9dab8d4-50ba-4cba-b7ae-495fcaf7d198}" record_key="WorldResourceExists">
+<Condition>WorldResourceExists</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{bc62fbbd-cc8e-4b05-a3b5-807660f61784}" record_key="WorldResourceExploited">
+<Condition>WorldResourceExploited</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{d1da982d-74d5-4657-a7c0-670ca2b90eeb}" record_key="WorldwideAncillaryTypeExists">
+<Condition>WorldwideAncillaryTypeExists</Condition>
+</TExc_script_conditions>
+<TExc_script_conditions record_uuid="{85166ada-17ee-444d-b3a4-17b0b674d8b0}" record_key="WouldRebellionInRegionBeRevolution">
+<Condition>WouldRebellionInRegionBeRevolution</Condition>
+</TExc_script_conditions>
+</dataroot>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ui_diplomacy_treaty_components_automatic_parameters>
+<root>
+<edit_uuid>5c4fd5bd-8218-4bb0-b0d3-97d577c15b84</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{d1d11d3a-dc50-4831-a324-91ff54fef9f2}</field_uuid>
+<primary_key>1</primary_key>
+<name>ui_diplomacy_treaty_component</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>ui_diplomacy_treaty_components</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{5850d0df-a5dc-4145-b8d3-bc1249fe1d1c}</field_uuid>
+<primary_key>1</primary_key>
+<name>automatic_parameter</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>parameter_type</column_source_column>
+<column_source_table>ui_diplomacy_automatic_parameters</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

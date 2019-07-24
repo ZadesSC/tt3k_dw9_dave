@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_special_ability_displays>
+<root>
+<edit_uuid>4c3ba2a9-dee1-4eb6-aa87-da8a60ad038a</edit_uuid>
+<field>
+<field_uuid>{fdbec022-fc54-45ba-bf15-5009fe19180e}</field_uuid>
+<primary_key>1</primary_key>
+<name>sa_display_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{fcd8f0e0-beda-4a01-ae51-fab6bd2aaf1a}</field_uuid>
+<primary_key>0</primary_key>
+<name>wind_up_weapon_vfx</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>particle_effects</column_source_table>
+<field_description>This will attempt to override any 'ability weapon' metadata in active animations </field_description>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{dcea966e-c42a-469a-8808-e62a8376a3fe}</field_uuid>
+<primary_key>0</primary_key>
+<name>wind_up_aura_vfx</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>particle_effects</column_source_table>
+<field_description>This will attempt to override any 'ability aura' metadata in active animations </field_description>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ui_ministerial_positions_to_categories>
+<root>
+<edit_uuid>236bfe3e-ad17-4b4d-a2f8-d812dd553b8f</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{584ce284-0ad6-449a-a464-85ef8fa1190d}</field_uuid>
+<primary_key>1</primary_key>
+<name>ui_ministerial_position</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>ui_ministerial_positions</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{102089b6-bf2d-4458-8b42-8c0166d80492}</field_uuid>
+<primary_key>1</primary_key>
+<name>category</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>category</column_source_column>
+<column_source_table>ui_ministerial_position_categories</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

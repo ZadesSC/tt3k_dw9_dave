@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_projectile_homing_params>
+<root>
+<edit_uuid>548fa012-ef7f-4dc4-adec-0fd0fc7aa488</edit_uuid>
+<field>
+<field_uuid>{04c657c8-ede0-41f1-b789-1b4b5a098142}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{43e73ab7-2863-4d26-a01a-1126e5d75160}</field_uuid>
+<primary_key>0</primary_key>
+<name>start_time</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>Time after launch to start homing.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{4d11fdd9-63f0-4eaa-9722-2f586782977e}</field_uuid>
+<primary_key>0</primary_key>
+<name>max_target_angle_delta</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>60</default_value>
+<field_description>If target angle delta is greater than this threshold, stop homing.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{1e3c1054-b8f7-44e4-a3d2-c9cd79c1c377}</field_uuid>
+<primary_key>0</primary_key>
+<name>lookahead_time</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>Time to look ahead to predict future position of target (intercept vs pursuit).</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{2c7589fb-1c77-4e16-ac4f-a9255f4f0f93}</field_uuid>
+<primary_key>0</primary_key>
+<name>steering_coefficient</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>0.1</default_value>
+<field_description>Multiplier to muzzle speed to get velocity correction per second.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+</root>

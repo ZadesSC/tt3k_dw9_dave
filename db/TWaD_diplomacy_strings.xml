@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_diplomacy_strings>
+<root>
+<edit_uuid>cb778410-7e9b-4e9a-a7dd-1fcacdf5811b</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{7874bc50-aa28-4496-9461-d3ac8188fdd2}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<fragment_path>sound/events/play_%%</fragment_path>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{19bba7e0-52e2-4d88-b1e3-5b6e3025cb6a}</field_uuid>
+<primary_key>0</primary_key>
+<name>string</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>536870910</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

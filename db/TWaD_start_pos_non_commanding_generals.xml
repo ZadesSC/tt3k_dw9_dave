@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_start_pos_non_commanding_generals>
+<root>
+<edit_uuid>bc7e236b-1395-46a9-b19d-65821cecd4b2</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{78164c91-c344-4be8-a1fc-55fb77634ee4}</field_uuid>
+<primary_key>1</primary_key>
+<name>non_commanding_general</name>
+<field_type>integer</field_type>
+<required>1</required>
+<column_source_column>ID</column_source_column>
+<column_source_column>template</column_source_column>
+<column_source_table>start_pos_characters</column_source_table>
+<requires_startpos_reprocess>1</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c4f49a43-bb05-48e0-ad25-06456e66f0c4}</field_uuid>
+<primary_key>0</primary_key>
+<name>general_commanding_force</name>
+<field_type>integer</field_type>
+<required>1</required>
+<column_source_column>ID</column_source_column>
+<column_source_column>template</column_source_column>
+<column_source_table>start_pos_characters</column_source_table>
+<requires_startpos_reprocess>1</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_encyclopedia_faction_groupings>
+<root>
+<edit_uuid>164a09ed-5b33-48ad-b2eb-fc7eae352864</edit_uuid>
+<field>
+<field_uuid>{981ad400-22a8-4f17-9c05-2a6eadb1566d}</field_uuid>
+<primary_key>1</primary_key>
+<name>faction</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>factions</column_source_table>
+<encyclopaedia_export>1</encyclopaedia_export>
+</field>
+<field>
+<field_uuid>{882aa623-4b66-45fe-8e2f-9999a70d33ff}</field_uuid>
+<primary_key>0</primary_key>
+<name>group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>group_id</column_source_column>
+<column_source_table>encyclopedia_faction_groups</column_source_table>
+<encyclopaedia_export>1</encyclopaedia_export>
+</field>
+<field>
+<field_uuid>{e4d546b4-62fd-4aad-b6a2-dd2d8ff87e6f}</field_uuid>
+<primary_key>0</primary_key>
+<name>order</name>
+<field_type>integer</field_type>
+<required>1</required>
+<encyclopaedia_export>1</encyclopaedia_export>
+</field>
+</root>

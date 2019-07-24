@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="character_assignments.xsd" export_time="Fri Mar 15 17:11:25 2019" revision="25" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1385/dave" export_user="bob">
+<edit_uuid>030e1fef-9ed0-4988-9ca9-fbc9d7812203</edit_uuid>
+<character_assignments record_uuid="{f39fc013-55c3-47a0-9b0f-b0a3937cd2aa}" record_timestamp="1539329256095" record_key="3k_assignment_province_recall">
+<constraints></constraints>
+<duration>5</duration>
+<initiation_cost></initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_assignment_province_recall</key>
+<maintenance_cost></maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{3577d7cd-a67f-4c3f-bf2d-f3d8c4357273}" record_timestamp="1534605737931" record_key="3k_main_assignment_bandit_patrols">
+<constraints>3k_main_assignment_constraint_set_historical_zhang_yan</constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_bandit_patrols</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{97a3fa93-3567-4a93-acdc-d64168e23403}" record_timestamp="1515748041559" record_key="3k_main_assignment_black_market_investigation">
+<constraints>3k_main_assignment_constraint_set_agent_metal</constraints>
+<duration>15</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_black_market_investigation</key>
+<maintenance_cost></maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{a45e7581-a1cb-4643-ab69-3c566586f34a}" record_timestamp="1515747455080" record_key="3k_main_assignment_conscription_campaign">
+<constraints>3k_main_assignment_constraint_set_fire_conscription_campaign</constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_conscription_campaign</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{5b3a39e3-a3a0-4e9b-974f-059e96944273}" record_timestamp="1515747455080" record_key="3k_main_assignment_develop_farmland">
+<constraints>3k_main_assignment_constraint_set_agent_wood</constraints>
+<duration>15</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_develop_farmland</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{fbf25f5f-a99d-4b25-8b95-f3b66cd0da25}" record_timestamp="1520843475069" record_key="3k_main_assignment_education_programme">
+<constraints></constraints>
+<duration>15</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_education_programme</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{7a669a85-3831-4fca-96ce-402d4b7b2274}" record_timestamp="1515747455080" record_key="3k_main_assignment_exercise_government_authority">
+<constraints>3k_main_assignment_constraint_set_agent_earth</constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_exercise_government_authority</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{2a7d9e88-f044-40e3-9efb-935d3d524fcd}" record_timestamp="1515748041559" record_key="3k_main_assignment_find_filial_and_incorrupt">
+<constraints>3k_main_assignment_constraint_set_water_find_filial_and_incorrupt</constraints>
+<duration>15</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_find_filial_and_incorrupt</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{d4bbd5c1-54ce-43d8-8402-1525b32dde0c}" record_timestamp="1515673463664" record_key="3k_main_assignment_idle_basic">
+<constraints></constraints>
+<duration>-1</duration>
+<initiation_cost></initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_idle_basic</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_idle_basic</maintenance_cost>
+<recall_duration>0</recall_duration>
+<target_type>none</target_type>
+</character_assignments>
+<character_assignments record_uuid="{b2d5c716-abbc-4f12-8878-de2603705b2b}" record_timestamp="1516640882839" record_key="3k_main_assignment_idle_governor">
+<constraints></constraints>
+<duration>-1</duration>
+<initiation_cost></initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_idle_governor</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_idle_governor</maintenance_cost>
+<recall_duration>0</recall_duration>
+<target_type>none</target_type>
+</character_assignments>
+<character_assignments record_uuid="{3315a764-d340-4165-a043-fba5a803a260}" record_timestamp="1516640883070" record_key="3k_main_assignment_idle_minister">
+<constraints></constraints>
+<duration>-1</duration>
+<initiation_cost></initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_idle_minister</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_idle_minister</maintenance_cost>
+<recall_duration>0</recall_duration>
+<target_type>none</target_type>
+</character_assignments>
+<character_assignments record_uuid="{ea1b029a-4d25-4f4a-aa1c-60cdbd544d44}" record_timestamp="1515747455080" record_key="3k_main_assignment_industrial_exploitation">
+<constraints>3k_main_assignment_constraint_set_metal_industrial_exploitation</constraints>
+<duration>15</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_industrial_exploitation</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{b0213567-a75e-44f9-bf13-0200cae65fc1}" record_timestamp="1552467880960" record_key="3k_main_assignment_investment_strategy">
+<constraints></constraints>
+<duration>25</duration>
+<initiation_cost></initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_investment_strategy</key>
+<maintenance_cost>3k_main_resource_transaction_investment_strategy</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{96b9e389-ade8-4c4d-9732-ca32e2292ec2}" record_timestamp="1551428828760" record_key="3k_main_assignment_liu_bei_earth">
+<constraints></constraints>
+<duration>1</duration>
+<initiation_cost>3k_main_resource_transaction_liu_bei_assignment_unity</initiation_cost>
+<initiation_payload>3k_main_campaign_payload_assignment_liu_bei_earth</initiation_payload>
+<key>3k_main_assignment_liu_bei_earth</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>5</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{9341bc23-a358-4f09-956d-5d5287e0bbe3}" record_timestamp="1551428828760" record_key="3k_main_assignment_liu_bei_fire">
+<constraints></constraints>
+<duration>1</duration>
+<initiation_cost>3k_main_resource_transaction_liu_bei_assignment_unity</initiation_cost>
+<initiation_payload>3k_main_campaign_payload_assignment_liu_bei_fire</initiation_payload>
+<key>3k_main_assignment_liu_bei_fire</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>5</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{c73f2aa5-6e41-4055-9348-63ef30562907}" record_timestamp="1551428828760" record_key="3k_main_assignment_liu_bei_metal">
+<constraints></constraints>
+<duration>1</duration>
+<initiation_cost>3k_main_resource_transaction_liu_bei_assignment_unity</initiation_cost>
+<initiation_payload>3k_main_campaign_payload_assignment_liu_bei_metal</initiation_payload>
+<key>3k_main_assignment_liu_bei_metal</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>5</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{3c4dce70-7261-4933-9842-dfa7dac1f6da}" record_timestamp="1551428828760" record_key="3k_main_assignment_liu_bei_water">
+<constraints></constraints>
+<duration>1</duration>
+<initiation_cost>3k_main_resource_transaction_liu_bei_assignment_unity</initiation_cost>
+<initiation_payload>3k_main_campaign_payload_assignment_liu_bei_water</initiation_payload>
+<key>3k_main_assignment_liu_bei_water</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>5</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{044b9815-2d7a-42dd-915e-c50c225220af}" record_timestamp="1551428828760" record_key="3k_main_assignment_liu_bei_wood">
+<constraints></constraints>
+<duration>1</duration>
+<initiation_cost>3k_main_resource_transaction_liu_bei_assignment_unity</initiation_cost>
+<initiation_payload>3k_main_campaign_payload_assignment_liu_bei_wood</initiation_payload>
+<key>3k_main_assignment_liu_bei_wood</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>5</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{c7543b2b-ed07-4267-a064-245a72c35fb9}" record_timestamp="1515747455080" record_key="3k_main_assignment_market_stimulation">
+<constraints></constraints>
+<duration>15</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_market_stimulation</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{8b0a874c-5fc7-4603-9052-3336a6e84492}" record_timestamp="1515747455080" record_key="3k_main_assignment_organise_guerilla">
+<constraints>3k_main_assignment_constraint_set_agent_fire</constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_organise_guerilla</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{bcd043a4-063a-4911-975f-0c2ea991d1e4}" record_timestamp="1515747455080" record_key="3k_main_assignment_oversee_mustering">
+<constraints></constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_oversee_mustering</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{87afa65b-ac4c-45bd-a073-0fa9d3d0866c}" record_timestamp="1515747455080" record_key="3k_main_assignment_re-settlement_programme">
+<constraints></constraints>
+<duration>15</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_re-settlement_programme</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{5e5c1db8-ee0a-4866-ab00-6da3a0a5b362}" record_timestamp="1515747455080" record_key="3k_main_assignment_replenish_supplies">
+<constraints>3k_main_assignment_constraint_set_wood_replenish_supplies</constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_replenish_supplies</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{0b05b35e-4ea4-4eb1-95ce-f8a7a9eda237}" record_timestamp="1515747455080" record_key="3k_main_assignment_root_out_corruption">
+<constraints>3k_main_assignment_constraint_set_earth_root_out_corruption</constraints>
+<duration>15</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_root_out_corruption</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{99ca074b-5cb6-4093-bb37-24d45f294af8}" record_timestamp="1550770262379" record_key="3k_main_assignment_stockpiles_earth_public_appeasement">
+<constraints>3k_main_assignment_constraint_set_stockpiles_earth_public_appeasement</constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_stockpiles_earth_public_appeasement</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{4e1d3eae-8099-4a8c-ac64-52b0362459ef}" record_timestamp="1550770262586" record_key="3k_main_assignment_stockpiles_fire_military_requisition">
+<constraints>3k_main_assignment_constraint_set_stockpiles_fire_military_requisition</constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_stockpiles_fire_military_requisition</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{f0f8c561-ec37-45ec-a91d-ad9f2adb27bb}" record_timestamp="1550770262517" record_key="3k_main_assignment_stockpiles_metal_surplus_markets">
+<constraints>3k_main_assignment_constraint_set_stockpiles_metal_surplus_markets</constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_stockpiles_metal_surplus_markets</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{bbb8fc1b-f205-4f0c-bc4e-8c70187a569d}" record_timestamp="1550770262448" record_key="3k_main_assignment_stockpiles_water_increased_provisions">
+<constraints>3k_main_assignment_constraint_set_stockpiles_water_increased_provisions</constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_stockpiles_water_increased_provisions</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{901cf5db-44ca-4ce2-bc42-e254b6198631}" record_timestamp="1550770262655" record_key="3k_main_assignment_stockpiles_wood_surplus_distribution">
+<constraints>3k_main_assignment_constraint_set_stockpiles_wood_surplus_distribution</constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_stockpiles_wood_surplus_distribution</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{e80c33bf-470e-42ba-af6b-f11e852ba93f}" record_timestamp="1515747455080" record_key="3k_main_assignment_supervise_construction">
+<constraints></constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_supervise_construction</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{e85de9d8-1ce5-42c4-9d92-05afc0116114}" record_timestamp="1552669885878" record_key="3k_main_assignment_support_espionage_network">
+<constraints>3k_main_assignment_constraint_set_agent_water</constraints>
+<duration>15</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_support_espionage_network</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{e7baf86e-1eac-4f60-b53c-7e847e035ded}" record_timestamp="1515747455080" record_key="3k_main_assignment_tax_collector">
+<constraints></constraints>
+<duration>15</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_main_assignment_tax_collector</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{817c0013-af18-41ae-8006-3b154bfece8c}" record_timestamp="1537985759590" record_key="3k_ytr_assignment_attract_talent">
+<constraints></constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_ytr_assignment_attract_talent</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{d0aec656-10fd-47c6-9971-afa0759e428f}" record_timestamp="1536339548120" record_key="3k_ytr_assignment_development_planning">
+<constraints></constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_ytr_assignment_development_planning</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{e64d483b-e9f6-4ab4-aecb-b5b65315b246}" record_timestamp="1536339548127" record_key="3k_ytr_assignment_employ_volunteers">
+<constraints></constraints>
+<duration>15</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_ytr_assignment_employ_volunteers</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{b3d8940c-c82e-464b-817b-59b1d449e5ca}" record_timestamp="1536339548147" record_key="3k_ytr_assignment_encourage_compassion">
+<constraints>3k_yt_assignment_constraint_set_people_2</constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_ytr_assignment_encourage_compassion</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{6a0dca16-220e-44c8-b27a-b9c408d54ca4}" record_timestamp="1536339548113" record_key="3k_ytr_assignment_encourage_frugality">
+<constraints>3k_yt_assignment_constraint_set_land_2</constraints>
+<duration>15</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_ytr_assignment_encourage_frugality</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{fd21373a-3290-402d-b390-48f276cb4ca4}" record_timestamp="1536339548106" record_key="3k_ytr_assignment_encourage_humility">
+<constraints>3k_yt_assignment_constraint_set_heaven_2</constraints>
+<duration>15</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_ytr_assignment_encourage_humility</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{61cdfbc4-dd76-4e65-9db7-09294d7f3955}" record_timestamp="1536339548134" record_key="3k_ytr_assignment_healing_rituals">
+<constraints>3k_yt_assignment_constraint_set_people_1</constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_ytr_assignment_healing_rituals</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{e7257cb9-e96a-46b5-a804-37cc8b3eccaf}" record_timestamp="1536339548090" record_key="3k_ytr_assignment_inspire_populace">
+<constraints></constraints>
+<duration>15</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_ytr_assignment_inspire_populace</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{71411428-374a-4425-8daa-253574e7c026}" record_timestamp="1536339548140" record_key="3k_ytr_assignment_instill_heroism">
+<constraints></constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_ytr_assignment_instill_heroism</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{1d4cd4a4-1f60-4f6d-838f-ca098153c116}" record_timestamp="1536339548082" record_key="3k_ytr_assignment_promote_wisdom">
+<constraints>3k_yt_assignment_constraint_set_heaven_1</constraints>
+<duration>5</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_ytr_assignment_promote_wisdom</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+<character_assignments record_uuid="{383f09e7-cf77-44d6-81c3-cf73a3e40c72}" record_timestamp="1536339548099" record_key="3k_ytr_assignment_rally_sympathisers">
+<constraints>3k_yt_assignment_constraint_set_land_1</constraints>
+<duration>15</duration>
+<initiation_cost>3k_main_resource_transaction_assignment_initiation_cost_default_blank</initiation_cost>
+<initiation_payload></initiation_payload>
+<key>3k_ytr_assignment_rally_sympathisers</key>
+<maintenance_cost>3k_main_resource_transaction_assignment_maintenance_cost</maintenance_cost>
+<recall_duration>1</recall_duration>
+<target_type>province</target_type>
+</character_assignments>
+</dataroot>

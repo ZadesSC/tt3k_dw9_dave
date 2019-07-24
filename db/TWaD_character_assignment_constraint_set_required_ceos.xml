@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_character_assignment_constraint_set_required_ceos>
+<root>
+<edit_uuid>eff9b555-2550-4afc-a8da-6d2f8341beb8</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{0e71b77e-f0bb-423c-89bb-7340cdd4c449}</field_uuid>
+<primary_key>1</primary_key>
+<name>constraint_set</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>character_assignment_constraint_sets</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{4d97d000-9856-46af-8453-96b57f6e83f7}</field_uuid>
+<primary_key>1</primary_key>
+<name>ceo</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>ceos</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

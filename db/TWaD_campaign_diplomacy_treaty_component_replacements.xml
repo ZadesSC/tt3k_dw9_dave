@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_diplomacy_treaty_component_replacements>
+<root>
+<edit_uuid>179dae1a-2736-4857-8ef9-41aeb183c382</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{58a24dbc-b532-4ad2-b300-e492bdf5561a}</field_uuid>
+<primary_key>1</primary_key>
+<name>to_be_replaced</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_diplomacy_existing_components</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{d36d1296-59c8-443f-be68-7b704f2c2c8b}</field_uuid>
+<primary_key>1</primary_key>
+<name>replaced_by</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_diplomacy_treaty_components</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{bdac2eec-b845-4a69-9ed3-82182fa6ff18}</field_uuid>
+<primary_key>0</primary_key>
+<name>replaced_component_is_broken</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>true</default_value>
+<field_description>If not broken then dissolved.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

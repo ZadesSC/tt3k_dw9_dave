@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_TExc_TableExportGroups>
+<root>
+<edit_uuid>f528c0e5-87d1-4cbe-997b-03c92759195c</edit_uuid>
+<field>
+<field_uuid>{b1b9897f-92ba-4e0d-b008-3763a5d538b7}</field_uuid>
+<primary_key>1</primary_key>
+<name>ID</name>
+<field_type>autonumber</field_type>
+<required>0</required>
+</field>
+<field>
+<field_uuid>{7f960428-d98c-411c-a5d9-00095d82f149}</field_uuid>
+<primary_key>0</primary_key>
+<name>category</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>50</max_length>
+<column_source_column>category</column_source_column>
+<column_source_table>TExc_TableExportCategories</column_source_table>
+</field>
+<field>
+<field_uuid>{2aec9216-0e9c-4b84-87be-64497edb1d6a}</field_uuid>
+<primary_key>0</primary_key>
+<name>table</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>50</max_length>
+<column_source_column>table_name</column_source_column>
+<column_source_table>TExc_ImplementedTables</column_source_table>
+</field>
+</root>

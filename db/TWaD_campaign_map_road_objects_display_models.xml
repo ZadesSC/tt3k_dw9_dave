@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_map_road_objects_display_models>
+<root>
+<edit_uuid>9690fdf9-7e82-4175-bbfc-c7ac5e197314</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{b1ab6441-beb6-4533-8ebe-14c20cbe8f5d}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{641d17c2-41fb-44eb-bcdf-1ee616a4bbca}</field_uuid>
+<primary_key>0</primary_key>
+<name>speed</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ui_display_set_items>
+<root>
+<edit_uuid>76dd487f-2bc0-4f62-982f-958fba82a8a2</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{0a5efd41-2ed0-4f5e-8727-38f29b4ed5aa}</field_uuid>
+<primary_key>1</primary_key>
+<name>set</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>ui_display_sets</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{5c822872-f6e9-41b7-a504-56ff46dc6d1f}</field_uuid>
+<primary_key>1</primary_key>
+<name>image</name>
+<field_type>text</field_type>
+<is_filename>1</is_filename>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

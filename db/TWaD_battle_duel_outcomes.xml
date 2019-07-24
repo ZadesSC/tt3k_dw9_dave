@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_battle_duel_outcomes>
+<root>
+<edit_uuid>d3ff2f1b-74dd-408c-997f-d8d67798dd96</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{8152cb0d-5a61-427f-9c7f-500208a46e81}</field_uuid>
+<primary_key>1</primary_key>
+<name>outcome_type</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{a439f818-9488-4d38-a11d-7588be59c8a8}</field_uuid>
+<primary_key>0</primary_key>
+<name>effects_applied_for_historical</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>true</default_value>
+<field_description>Should this outcome apply the stat effects to the duelists when in Historical mode (i.e. Hero has a bodyguard unit)</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{ccdd02e5-114b-48b5-a30a-4024d2a3eeb2}</field_uuid>
+<primary_key>0</primary_key>
+<name>adc_displayed_for_historical</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>true</default_value>
+<field_description>Should this outcome display an adc message  when in Historical mode (i.e. Hero has a bodyguard unit)</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

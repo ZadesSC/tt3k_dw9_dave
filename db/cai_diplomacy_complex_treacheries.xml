@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_complex_treacheries.xsd" export_time="Mon Feb 25 12:33:28 2019" revision="36" export_branch="C:/Users/csaba.toth/AppData/Roaming/TWDaemon/1352/dave" export_user="bob">
+<edit_uuid>25c23aec-645a-44fb-bc02-53c431809c53</edit_uuid>
+<cai_diplomacy_complex_treacheries record_uuid="{064f64d1-92a4-46f8-914a-6f7a74009a60}" record_timestamp="1540022402060" record_key="ALLIANCE_BROKENGROUP_WAR">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>ALLIANCE_BROKEN</first_event>
+<long_description_string>respect_factor_war_after_alliance_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{0a5c30f8-2ed9-405d-ab91-6da44ae1adb4}" record_timestamp="1540022402061" record_key="ALLIANCE_BROKENWAR">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>ALLIANCE_BROKEN</first_event>
+<long_description_string>respect_factor_war_after_alliance_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{7367cdac-e558-4858-89d2-02bfc5176ea8}" record_timestamp="1540022402061" record_key="ALLIANCE_BROKEN_EARLYGROUP_WAR">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>ALLIANCE_BROKEN_EARLY</first_event>
+<long_description_string>respect_factor_war_after_alliance_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-25</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{9542634d-cffd-4d1a-87dd-daecdd5d6fcb}" record_timestamp="1540022402061" record_key="ALLIANCE_BROKEN_EARLYWAR">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>ALLIANCE_BROKEN_EARLY</first_event>
+<long_description_string>respect_factor_war_after_alliance_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-25</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{a7b9ed09-0bbb-4868-8288-dec3fff969cc}" record_timestamp="1540022402063" record_key="COALITION_BROKENGROUP_WAR">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>COALITION_BROKEN</first_event>
+<long_description_string>respect_factor_war_after_coalition_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-10</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{6621e0f9-a3b1-4649-a070-850ff9b88ae9}" record_timestamp="1540022402064" record_key="COALITION_BROKENWAR">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>COALITION_BROKEN</first_event>
+<long_description_string>respect_factor_war_after_coalition_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-10</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{e7663a53-1e24-4d5e-a155-b0241ba609f7}" record_timestamp="1540022402066" record_key="COALITION_BROKEN_EARLYGROUP_WAR">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>COALITION_BROKEN_EARLY</first_event>
+<long_description_string>respect_factor_war_after_coalition_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-20</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{c0b8558e-fc79-4867-924c-b87f5c524f07}" record_timestamp="1540022402067" record_key="COALITION_BROKEN_EARLYWAR">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>COALITION_BROKEN_EARLY</first_event>
+<long_description_string>respect_factor_war_after_coalition_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-20</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{642909d1-b9c2-4f9e-a2ef-93d51abc7c16}" record_timestamp="1540022402068" record_key="FOOD_TRADE_BROKEN_EARLY_OFFERGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>FOOD_TRADE_BROKEN_EARLY_OFFER</first_event>
+<long_description_string>respect_factor_war_after_food_trade_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{239d2d67-04df-4e31-a668-c12c03104b6a}" record_timestamp="1540022402069" record_key="FOOD_TRADE_BROKEN_EARLY_OFFERWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>FOOD_TRADE_BROKEN_EARLY_OFFER</first_event>
+<long_description_string>respect_factor_war_after_food_trade_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{7e000a20-670a-41df-bbad-f06c99d3d9c0}" record_timestamp="1540022402070" record_key="FOOD_TRADE_BROKEN_OFFERGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>FOOD_TRADE_BROKEN_OFFER</first_event>
+<long_description_string>respect_factor_war_after_food_trade_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{1b770bff-b7d9-43dd-9ba9-87d282464ce2}" record_timestamp="1540022402071" record_key="FOOD_TRADE_BROKEN_OFFERWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>FOOD_TRADE_BROKEN_OFFER</first_event>
+<long_description_string>respect_factor_war_after_food_trade_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{5b836f86-f779-422b-9ab4-f9b6fd9597e5}" record_timestamp="1540022402071" record_key="GROUP_PEACEGROUP_WAR">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_PEACE</first_event>
+<long_description_string>respect_factor_war_after_peace_long</long_description_string>
+<max_turn_difference>10</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{da88a0e4-d3a3-472f-8fae-add76507624a}" record_timestamp="1540022402071" record_key="GROUP_PEACEWAR">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_PEACE</first_event>
+<long_description_string>respect_factor_war_after_peace_long</long_description_string>
+<max_turn_difference>10</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{0cc232ab-4299-4dbb-a690-d3c453fff86d}" record_timestamp="1540022402072" record_key="GROUP_WARALLIANCE_BROKEN">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_alliance_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>ALLIANCE_BROKEN</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{8d1d1c8a-4df8-4081-8983-8a637cc7f0a3}" record_timestamp="1540022402072" record_key="GROUP_WARALLIANCE_BROKEN_EARLY">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_alliance_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>ALLIANCE_BROKEN_EARLY</second_event>
+<value>-25</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{5d8f8221-b8bb-4ec2-b4a5-02037173b754}" record_timestamp="1540022402074" record_key="GROUP_WARCOALITION_BROKEN">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_coalition_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>COALITION_BROKEN</second_event>
+<value>-10</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{3ec8390a-7f22-4ecd-b7d5-ab8454fc63dd}" record_timestamp="1540022402076" record_key="GROUP_WARCOALITION_BROKEN_EARLY">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_coalition_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>COALITION_BROKEN_EARLY</second_event>
+<value>-20</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{73fddfc7-b925-4554-aada-3119228a2cd6}" record_timestamp="1540022402076" record_key="GROUP_WARFOOD_TRADE_BROKEN_EARLY_OFFER">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_food_trade_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>FOOD_TRADE_BROKEN_EARLY_OFFER</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{acf35185-8f57-49c0-bcde-f4fabb98175c}" record_timestamp="1540022402077" record_key="GROUP_WARFOOD_TRADE_BROKEN_OFFER">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_food_trade_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>FOOD_TRADE_BROKEN_OFFER</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{6d21eb4c-b7bc-40a2-bae5-a28e15121138}" record_timestamp="1540022402078" record_key="GROUP_WARMILITARY_ACCESS_BROKEN">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_military_access_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>MILITARY_ACCESS_BROKEN</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{d137763d-da8d-42c2-857e-af7441f622e4}" record_timestamp="1540022402080" record_key="GROUP_WARMILITARY_ACCESS_BROKEN_EARLY">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_military_access_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>MILITARY_ACCESS_BROKEN_EARLY</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{aa5950b3-2166-43d4-bcc5-da894bda39c9}" record_timestamp="1540022402080" record_key="GROUP_WARNON_AGGRESSION_BROKEN">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_non_aggression_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>NON_AGGRESSION_BROKEN</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{2a1b6c17-fc9e-43b2-aa97-5dc034782818}" record_timestamp="1540022402081" record_key="GROUP_WARNON_AGGRESSION_BROKEN_EARLY">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_non_aggression_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>NON_AGGRESSION_BROKEN_EARLY</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{35288f0f-0970-426d-8ca5-00f4d9eb988b}" record_timestamp="1540022402082" record_key="GROUP_WARREGULAR_PAYMENTS_BROKEN_EARLY_OFFER">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_regular_payments_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>REGULAR_PAYMENTS_BROKEN_EARLY_OFFER</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{712daaf1-696a-4c9c-bc0d-f9a654b8f8bf}" record_timestamp="1540022402083" record_key="GROUP_WARREGULAR_PAYMENTS_BROKEN_OFFER">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_regular_payments_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>REGULAR_PAYMENTS_BROKEN_OFFER</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{36425614-3e30-48ea-bde9-d3bd0d368f70}" record_timestamp="1540022402084" record_key="GROUP_WARTRADE_AGREEMENT_BROKEN">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_trade_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>TRADE_AGREEMENT_BROKEN</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{167a8dca-fdc7-450a-a42f-0698cf656108}" record_timestamp="1540022402084" record_key="GROUP_WARTRADE_AGREEMENT_BROKEN_EARLY">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_trade_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>TRADE_AGREEMENT_BROKEN_EARLY</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{34885e59-aaad-4537-aeea-b80e44c6c6f6}" record_timestamp="1540022499667" record_key="GROUP_WARVASSALAGE_BROKEN">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>VASSALAGE_BROKEN</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{bd30c95b-29c5-42a7-8b6b-3a2a1ea8d9a6}" record_timestamp="1540022499668" record_key="GROUP_WARVASSALAGE_BROKEN_EARLY">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>GROUP_WAR</first_event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>VASSALAGE_BROKEN_EARLY</second_event>
+<value>-10</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{7a9a6a08-5053-405d-b102-d0907e6f14e2}" record_timestamp="1540022402085" record_key="GUARANTEE_AUTONOMY_BROKENVASSALAGE_ANNEXED">
+<constant_value>-5</constant_value>
+<display_string>respect_factor_annexation</display_string>
+<first_event>GUARANTEE_AUTONOMY_BROKEN</first_event>
+<long_description_string>respect_factor_annexation_while_guarantee_long</long_description_string>
+<max_turn_difference>10</max_turn_difference>
+<priority>0</priority>
+<second_event>VASSALAGE_ANNEXED</second_event>
+<value>-20</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{42a6cce8-0f47-419f-b6a3-acc114f72599}" record_timestamp="1540022402087" record_key="GUARANTEE_AUTONOMY_BROKEN_EARLYVASSALAGE_ANNEXED">
+<constant_value>-5</constant_value>
+<display_string>respect_factor_annexation</display_string>
+<first_event>GUARANTEE_AUTONOMY_BROKEN_EARLY</first_event>
+<long_description_string>respect_factor_annexation_while_guarantee_long</long_description_string>
+<max_turn_difference>10</max_turn_difference>
+<priority>0</priority>
+<second_event>VASSALAGE_ANNEXED</second_event>
+<value>-30</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{68cf442c-fc02-46b2-a999-05cb6d0a9f40}" record_timestamp="1540022402089" record_key="MILITARY_ACCESS_BROKENGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>MILITARY_ACCESS_BROKEN</first_event>
+<long_description_string>respect_factor_war_after_military_access_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{db7b83df-8412-42bc-8969-fb8073a43ffb}" record_timestamp="1540022402090" record_key="MILITARY_ACCESS_BROKENWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>MILITARY_ACCESS_BROKEN</first_event>
+<long_description_string>respect_factor_war_after_military_access_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{19c64ef4-09e3-4374-9e31-3bd6e0219961}" record_timestamp="1540022402091" record_key="MILITARY_ACCESS_BROKEN_EARLYGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>MILITARY_ACCESS_BROKEN_EARLY</first_event>
+<long_description_string>respect_factor_war_after_military_access_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{ab7e3b46-bc59-4aca-a967-d4e1577e557a}" record_timestamp="1540022402092" record_key="MILITARY_ACCESS_BROKEN_EARLYWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>MILITARY_ACCESS_BROKEN_EARLY</first_event>
+<long_description_string>respect_factor_war_after_military_access_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{7bc395ee-262b-40ef-add5-cd90cff7ebdf}" record_timestamp="1540022402093" record_key="NON_AGGRESSION_BROKENGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>NON_AGGRESSION_BROKEN</first_event>
+<long_description_string>respect_factor_war_after_non_aggression_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{37cac7a2-fe80-4a8e-8aab-e64231011802}" record_timestamp="1540022402093" record_key="NON_AGGRESSION_BROKENWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>NON_AGGRESSION_BROKEN</first_event>
+<long_description_string>respect_factor_war_after_non_aggression_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{f9a726e7-1a44-424e-a543-66df816af404}" record_timestamp="1540022402094" record_key="NON_AGGRESSION_BROKEN_EARLYGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>NON_AGGRESSION_BROKEN_EARLY</first_event>
+<long_description_string>respect_factor_war_after_non_aggression_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{e38ad1fa-8eef-4a0b-b6f8-a7b38bb2657d}" record_timestamp="1540022402094" record_key="NON_AGGRESSION_BROKEN_EARLYWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>NON_AGGRESSION_BROKEN_EARLY</first_event>
+<long_description_string>respect_factor_war_after_non_aggression_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{eb6218a3-6013-4428-a01b-940da3c193d3}" record_timestamp="1540022402094" record_key="PEACEGROUP_WAR">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_peace</display_string>
+<first_event>PEACE</first_event>
+<long_description_string>respect_factor_war_after_peace_long</long_description_string>
+<max_turn_difference>10</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{4be68160-4318-49d4-8a5a-aa92f8454281}" record_timestamp="1540022402094" record_key="PEACEWAR">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_peace</display_string>
+<first_event>PEACE</first_event>
+<long_description_string>respect_factor_war_after_peace_long</long_description_string>
+<max_turn_difference>10</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{32baf9af-cfb2-4bc7-8dec-cfc931f12ed7}" record_timestamp="1540022402095" record_key="REGULAR_PAYMENTS_BROKEN_EARLY_OFFERGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>REGULAR_PAYMENTS_BROKEN_EARLY_OFFER</first_event>
+<long_description_string>respect_factor_war_after_regular_payments_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{7f473a83-1cf0-4454-ac87-1f816ce7d2bf}" record_timestamp="1540022402095" record_key="REGULAR_PAYMENTS_BROKEN_EARLY_OFFERWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>REGULAR_PAYMENTS_BROKEN_EARLY_OFFER</first_event>
+<long_description_string>respect_factor_war_after_regular_payments_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{2d229833-dfed-4af7-b82c-40c021ab46a7}" record_timestamp="1540022402096" record_key="REGULAR_PAYMENTS_BROKEN_OFFERGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>REGULAR_PAYMENTS_BROKEN_OFFER</first_event>
+<long_description_string>respect_factor_war_after_regular_payments_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{4e040988-29a3-43b9-b7b2-c1343a186fa2}" record_timestamp="1540022402096" record_key="REGULAR_PAYMENTS_BROKEN_OFFERWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>REGULAR_PAYMENTS_BROKEN_OFFER</first_event>
+<long_description_string>respect_factor_war_after_regular_payments_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{5a2690e0-345a-4e37-bb91-5291a55b381b}" record_timestamp="1551098005209" record_key="SUPPORT_INDEPENDENCE_BROKENGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>SUPPORT_INDEPENDENCE_BROKEN</first_event>
+<long_description_string>respect_factor_war_after_support_independence_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{ee146921-7e4c-4e4f-b8b9-24ff3471055d}" record_timestamp="1551098005161" record_key="SUPPORT_INDEPENDENCE_BROKENWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>SUPPORT_INDEPENDENCE_BROKEN</first_event>
+<long_description_string>respect_factor_war_after_support_independence_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{70c7ee94-9e03-44b3-bf4a-63f7c9a0e929}" record_timestamp="1551098005177" record_key="SUPPORT_INDEPENDENCE_BROKEN_EARLYGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>SUPPORT_INDEPENDENCE_BROKEN_EARLY</first_event>
+<long_description_string>respect_factor_war_after_support_independence_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{1eacc8e7-f5fe-4c83-827e-ebf017e0cb63}" record_timestamp="1551098005225" record_key="SUPPORT_INDEPENDENCE_BROKEN_EARLYWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>SUPPORT_INDEPENDENCE_BROKEN_EARLY</first_event>
+<long_description_string>respect_factor_war_after_support_independence_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{82c09d8e-47ae-4883-977c-6a8736724072}" record_timestamp="1551098005362" record_key="SUPPORT_INDEPENDENCE_SIGNEDGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>SUPPORT_INDEPENDENCE_SIGNED</first_event>
+<long_description_string>respect_factor_war_after_support_independence_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-10</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{74265368-4f01-46a4-ad4f-b50e6f27eb87}" record_timestamp="1551098005252" record_key="SUPPORT_INDEPENDENCE_SIGNEDSUPPORT_INDEPENDENCE_BROKEN_EARLY">
+<constant_value>0</constant_value>
+<display_string>respect_factor_deal_broken_early</display_string>
+<first_event>SUPPORT_INDEPENDENCE_SIGNED</first_event>
+<long_description_string>respect_factor_treaty_broken_early_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>SUPPORT_INDEPENDENCE_BROKEN_EARLY</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{21c8664a-73a3-41d8-b692-b7b7f6903d5d}" record_timestamp="1551098005381" record_key="SUPPORT_INDEPENDENCE_SIGNEDWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>SUPPORT_INDEPENDENCE_SIGNED</first_event>
+<long_description_string>respect_factor_war_after_support_independence_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-10</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{1a394b71-17c1-4559-bf06-56e15e8c3ab6}" record_timestamp="1540022402096" record_key="TRADE_AGREEMENT_BROKENGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>TRADE_AGREEMENT_BROKEN</first_event>
+<long_description_string>respect_factor_war_after_trade_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{a2bc2f09-21c4-4ea1-93a6-8866f45f5813}" record_timestamp="1540022402096" record_key="TRADE_AGREEMENT_BROKENWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>TRADE_AGREEMENT_BROKEN</first_event>
+<long_description_string>respect_factor_war_after_trade_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{82fa5930-a10f-44cc-b807-106dd2aed4c8}" record_timestamp="1540022402096" record_key="TRADE_AGREEMENT_BROKEN_EARLYGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>TRADE_AGREEMENT_BROKEN_EARLY</first_event>
+<long_description_string>respect_factor_war_after_trade_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{85086cb7-39d8-42e7-8942-b2e11d26ad63}" record_timestamp="1540022402096" record_key="TRADE_AGREEMENT_BROKEN_EARLYWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>TRADE_AGREEMENT_BROKEN_EARLY</first_event>
+<long_description_string>respect_factor_war_after_trade_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{9003f904-6778-4573-badd-15c7d2777438}" record_timestamp="1540022402097" record_key="VASSALAGE_ANNEXEDGUARANTEE_AUTONOMY_BROKEN">
+<constant_value>-5</constant_value>
+<display_string>respect_factor_annexation</display_string>
+<first_event>VASSALAGE_ANNEXED</first_event>
+<long_description_string>respect_factor_annexation_while_guarantee_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>GUARANTEE_AUTONOMY_BROKEN</second_event>
+<value>-20</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{0b901ab9-2bf2-4a8c-ad4f-cdc41014455d}" record_timestamp="1540022402098" record_key="VASSALAGE_ANNEXEDGUARANTEE_AUTONOMY_BROKEN_EARLY">
+<constant_value>-5</constant_value>
+<display_string>respect_factor_annexation</display_string>
+<first_event>VASSALAGE_ANNEXED</first_event>
+<long_description_string>respect_factor_annexation_while_guarantee_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>GUARANTEE_AUTONOMY_BROKEN_EARLY</second_event>
+<value>-30</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{1ff2f588-920d-4b49-84cb-ecca29838755}" record_timestamp="1540022499669" record_key="VASSALAGE_BROKENGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>VASSALAGE_BROKEN</first_event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{a71f4e10-fc29-4c25-89b2-70b00f03bd72}" record_timestamp="1540022499670" record_key="VASSALAGE_BROKENWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>VASSALAGE_BROKEN</first_event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{589513f7-b229-41b6-88de-790033dfbc49}" record_timestamp="1540022499671" record_key="VASSALAGE_BROKEN_EARLYGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>VASSALAGE_BROKEN_EARLY</first_event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{d5b2c5a3-96b0-4875-9284-1f9bb9dc4d0f}" record_timestamp="1540022499677" record_key="VASSALAGE_BROKEN_EARLYWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>VASSALAGE_BROKEN_EARLY</first_event>
+<long_description_string>respect_factor_annexation_long</long_description_string>
+<max_turn_difference>5</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{18dfc6bf-a9ae-4a49-abad-f8066ed9ed16}" record_timestamp="1546970085387" record_key="VASSALAGE_SIGNED_MASTERGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_vassal_treaty</display_string>
+<first_event>VASSALAGE_SIGNED_MASTER</first_event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<max_turn_difference>10</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{66de13e5-1c01-4bba-a687-9e1c9e89e6ff}" record_timestamp="1546970085484" record_key="VASSALAGE_SIGNED_MASTERGROUP_WAR_TARGET">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_vassal_treaty</display_string>
+<first_event>VASSALAGE_SIGNED_MASTER</first_event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<max_turn_difference>10</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR_TARGET</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{1146c5b5-c6d9-44ce-8bf0-a4a62cdc87c6}" record_timestamp="1546970085338" record_key="VASSALAGE_SIGNED_MASTERWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_vassal_treaty</display_string>
+<first_event>VASSALAGE_SIGNED_MASTER</first_event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<max_turn_difference>10</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{9de7d2d6-b423-4a4c-bee4-ac262442f01d}" record_timestamp="1546970085508" record_key="VASSALAGE_SIGNED_MASTERWAR_TARGET">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_vassal_treaty</display_string>
+<first_event>VASSALAGE_SIGNED_MASTER</first_event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<max_turn_difference>10</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR_TARGET</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{61ce65ff-4c75-46ec-8f80-3a4c7c086314}" record_timestamp="1546970085411" record_key="VASSALAGE_SIGNED_VASSALGROUP_WAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_vassal_treaty</display_string>
+<first_event>VASSALAGE_SIGNED_VASSAL</first_event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<max_turn_difference>10</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{d58d9764-0314-4538-a274-b9bf71aa391e}" record_timestamp="1546970085436" record_key="VASSALAGE_SIGNED_VASSALGROUP_WAR_TARGET">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_vassal_treaty</display_string>
+<first_event>VASSALAGE_SIGNED_VASSAL</first_event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<max_turn_difference>10</max_turn_difference>
+<priority>0</priority>
+<second_event>GROUP_WAR_TARGET</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{830095ad-70d3-45e9-971d-d0e559a922cc}" record_timestamp="1540022499676" record_key="VASSALAGE_SIGNED_VASSALVASSALAGE_ANNEXED">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_annexation</display_string>
+<first_event>VASSALAGE_SIGNED_VASSAL</first_event>
+<long_description_string>respect_factor_annexation_after_vassalisation_long</long_description_string>
+<max_turn_difference>10</max_turn_difference>
+<priority>2</priority>
+<second_event>VASSALAGE_ANNEXED</second_event>
+<value>-20</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{2ef8eeb5-1eee-4f85-ba45-7c3bd30a8bb6}" record_timestamp="1546970085363" record_key="VASSALAGE_SIGNED_VASSALWAR">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_vassal_treaty</display_string>
+<first_event>VASSALAGE_SIGNED_VASSAL</first_event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<max_turn_difference>10</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{46d31055-632b-4082-a97e-3c3e40acb970}" record_timestamp="1546970085460" record_key="VASSALAGE_SIGNED_VASSALWAR_TARGET">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_vassal_treaty</display_string>
+<first_event>VASSALAGE_SIGNED_VASSAL</first_event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<max_turn_difference>10</max_turn_difference>
+<priority>0</priority>
+<second_event>WAR_TARGET</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{e418b060-8715-4b7b-bb9d-86a644d27a04}" record_timestamp="1540022402098" record_key="WARALLIANCE_BROKEN">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_alliance_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>ALLIANCE_BROKEN</second_event>
+<value>-15</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{05a4b021-0fc4-4a24-bbca-f7107cede84d}" record_timestamp="1540022402098" record_key="WARALLIANCE_BROKEN_EARLY">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_alliance_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>ALLIANCE_BROKEN_EARLY</second_event>
+<value>-25</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{5e09b42c-3c74-4fe1-9415-1f2e79fd78a2}" record_timestamp="1540022402099" record_key="WARCOALITION_BROKEN">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_coalition_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>COALITION_BROKEN</second_event>
+<value>-10</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{c3ffb227-0ee7-4f43-80a3-fbc823d11824}" record_timestamp="1540022402101" record_key="WARCOALITION_BROKEN_EARLY">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_coalition_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>COALITION_BROKEN_EARLY</second_event>
+<value>-20</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{01599256-9a5b-45ab-a191-ffc52adb5f2f}" record_timestamp="1540022402102" record_key="WARFOOD_TRADE_BROKEN_EARLY_OFFER">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_food_trade_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>FOOD_TRADE_BROKEN_EARLY_OFFER</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{5a29c0d1-d572-4e59-b8f2-0f8938499096}" record_timestamp="1540022402103" record_key="WARFOOD_TRADE_BROKEN_OFFER">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_food_trade_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>FOOD_TRADE_BROKEN_OFFER</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{079aca3e-1e8f-43ce-89ff-5813b5a95abd}" record_timestamp="1540022402105" record_key="WARMILITARY_ACCESS_BROKEN">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_military_access_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>MILITARY_ACCESS_BROKEN</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{d5c19f26-aae6-4f30-8b19-dd3af1923475}" record_timestamp="1540022402107" record_key="WARMILITARY_ACCESS_BROKEN_EARLY">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_military_access_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>MILITARY_ACCESS_BROKEN_EARLY</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{0c6cba1d-9f65-4ddd-a1fc-3a08e07f23cf}" record_timestamp="1540022402108" record_key="WARNON_AGGRESSION_BROKEN">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_non_aggression_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>NON_AGGRESSION_BROKEN</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{12ad156a-649b-4cca-afca-cb2ca0e67704}" record_timestamp="1540022402108" record_key="WARNON_AGGRESSION_BROKEN_EARLY">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_non_aggression_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>NON_AGGRESSION_BROKEN_EARLY</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{ab6c1f73-d287-44a1-8a1d-049e875cf710}" record_timestamp="1540022402109" record_key="WARREGULAR_PAYMENTS_BROKEN_EARLY_OFFER">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_regular_payments_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>REGULAR_PAYMENTS_BROKEN_EARLY_OFFER</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{6b3a3785-8508-4c76-91e0-32ac0d91cbb3}" record_timestamp="1540022402109" record_key="WARREGULAR_PAYMENTS_BROKEN_OFFER">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_regular_payments_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>REGULAR_PAYMENTS_BROKEN_OFFER</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{f0be7452-fa1b-45d4-a9f8-ab50abbcabd7}" record_timestamp="1540022402109" record_key="WARTRADE_AGREEMENT_BROKEN">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_trade_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>TRADE_AGREEMENT_BROKEN</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{a8318d46-d3a2-47b4-9efa-a0679133e0b5}" record_timestamp="1540022402109" record_key="WARTRADE_AGREEMENT_BROKEN_EARLY">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_trade_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>TRADE_AGREEMENT_BROKEN_EARLY</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{be42a1ab-2f75-43b0-8398-e890dc84869d}" record_timestamp="1540022499675" record_key="WARVASSALAGE_BROKEN">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>VASSALAGE_BROKEN</second_event>
+<value>-5</value>
+</cai_diplomacy_complex_treacheries>
+<cai_diplomacy_complex_treacheries record_uuid="{822b6f6b-ca52-4eca-ae92-16fc5853d900}" record_timestamp="1540022499675" record_key="WARVASSALAGE_BROKEN_EARLY">
+<constant_value>0</constant_value>
+<display_string>respect_factor_war_after_treaty</display_string>
+<first_event>WAR</first_event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<max_turn_difference>0</max_turn_difference>
+<priority>0</priority>
+<second_event>VASSALAGE_BROKEN_EARLY</second_event>
+<value>-10</value>
+</cai_diplomacy_complex_treacheries>
+</dataroot>

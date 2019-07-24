@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="_kv_winds_of_magic_params.xsd" export_time="Wed Jun 15 11:54:42 2016" revision="22" export_branch="T:/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>3158c294-32f9-4393-878e-d6511ff7d98d</edit_uuid>
+<_kv_winds_of_magic_params record_uuid="{b43a87cc-2712-4e96-94ce-77c45d723db8}" record_timestamp="1458319344773" record_key="base_multiplier_for_estimated_max_recharge">
+<description>(Mainly for UI) For the recharge base, how much extra do we account for to consider max (basically from bonuses etc.)</description>
+<key>base_multiplier_for_estimated_max_recharge</key>
+<value>1.33</value>
+</_kv_winds_of_magic_params>
+<_kv_winds_of_magic_params record_uuid="{6b43593b-cf7b-4c52-a1f4-8a1ee847710b}" record_timestamp="1465987153876" record_key="campaign_ui_max_depletion_modifier">
+<description>Max value used for winds of magic bar when calculating percentage to show bar at. No logical min/max so use this to balance what bar looks like at different modifier values</description>
+<key>campaign_ui_max_depletion_modifier</key>
+<value>140</value>
+</_kv_winds_of_magic_params>
+<_kv_winds_of_magic_params record_uuid="{9e9ea57a-bb2c-44ce-9b9f-1c34b17a4b71}" record_timestamp="1458328185459" record_key="campaign_ui_min_depletion_modifier">
+<description>Min value used for winds of magic bar when calculating percentage to show bar at. No logical min/max so use this to balance what bar looks like at different modifier values</description>
+<key>campaign_ui_min_depletion_modifier</key>
+<value>-20</value>
+</_kv_winds_of_magic_params>
+<_kv_winds_of_magic_params record_uuid="{0d8633a5-9c9b-4f9a-b935-fb98136c7791}" record_timestamp="1433248739907" record_key="depletion_factor">
+<description>what we square the used mana by to find the restored points curve. Make this above 0.0. Any values Greater than 1.0 means exponential falloff, below 1.0 means sharp inital falloff(inverse exponential). 1.0f means linear falloff.  </description>
+<key>depletion_factor</key>
+<value>1.0</value>
+</_kv_winds_of_magic_params>
+<_kv_winds_of_magic_params record_uuid="{3d1a10dd-7d21-4fe2-93bf-71ab95f6e40c}" record_timestamp="1458296244245" record_key="depletion_full_amount">
+<description>How much mana should be consider 'full depletion'</description>
+<key>depletion_full_amount</key>
+<value>60</value>
+</_kv_winds_of_magic_params>
+<_kv_winds_of_magic_params record_uuid="{7c3a5d7e-07de-45ee-9d2d-86e14f8ba38d}" record_timestamp="1424776625804" record_key="pool_max_amount">
+<description>the absolute max that can be in the mana pool</description>
+<key>pool_max_amount</key>
+<value>30</value>
+</_kv_winds_of_magic_params>
+<_kv_winds_of_magic_params record_uuid="{cf10f631-835c-44c7-bce5-c5c2c8f38dc4}" record_timestamp="1458296244244" record_key="pool_start_max">
+<description>the upper range of which the starting mana can be</description>
+<key>pool_start_max</key>
+<value>25</value>
+</_kv_winds_of_magic_params>
+<_kv_winds_of_magic_params record_uuid="{72aade9f-7502-41cc-b54c-006c2597f320}" record_timestamp="1465987247620" record_key="pool_start_min">
+<description>the lower range of which the starting mana can be</description>
+<key>pool_start_min</key>
+<value>5</value>
+</_kv_winds_of_magic_params>
+<_kv_winds_of_magic_params record_uuid="{f5eec3d7-e541-4a1b-8901-d331ee3e91a0}" record_timestamp="1465987247619" record_key="restored_points_base">
+<description>how much would we restore per second if everything was 'vanilla'</description>
+<key>restored_points_base</key>
+<value>0.15</value>
+</_kv_winds_of_magic_params>
+</dataroot>

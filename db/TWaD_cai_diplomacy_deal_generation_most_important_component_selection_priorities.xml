@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_diplomacy_deal_generation_most_important_component_selection_priorities>
+<root>
+<edit_uuid>d6cbb7f6-d3ff-41b8-8971-b925de3c18d5</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{65578b9a-508f-4a57-9b8b-3287c7ea9b54}</field_uuid>
+<primary_key>1</primary_key>
+<name>treaty_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_diplomacy_treaty_components</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{2f68fcb0-2ad8-4fce-97f8-63862db08580}</field_uuid>
+<primary_key>0</primary_key>
+<name>priority</name>
+<field_type>double</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_automatic_deal_situations.xsd" export_time="Tue May 14 17:03:40 2019" revision="24" export_branch="C:/Users/rick.venier/AppData/Roaming/TWDaemon/1465/dave" export_user="bob">
+<edit_uuid>30cc915b-634a-4b38-917a-122f293bc545</edit_uuid>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{8253199d-adbb-40d9-84bf-1bec756136f9}" record_timestamp="1508836988403" record_key="cancel_deals_with_everyone_when_starting_as_a_co_op_faction">
+<comments>Proposer is co_op faction. Recipient is each other faction. No parameters.</comments>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>cancel_deals_with_everyone_when_starting_as_a_co_op_faction</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{79869906-2bd2-4d8a-9fe5-6ab1e6dd531c}" record_timestamp="1525947307012" record_key="companion_faction_awakens">
+<comments>Proposer is companion faction. Recipient is parent faction. No parameters.</comments>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>companion_faction_awakens</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{07101d50-db02-4b0a-a69f-dcd5dc158202}" record_timestamp="1508836988403" record_key="create_deals_with_co_op_parter_when_starting_as_a_co_op_faction">
+<comments>Proposer is co_op faction. Recipient is other co_op_faction. No parameters.</comments>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>create_deals_with_co_op_parter_when_starting_as_a_co_op_faction</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{6d348942-e2e9-47ba-a1ec-7cd87a2afce2}" record_timestamp="1509109610854" record_key="data_defined_emperor_power_token_gained">
+<comments>Proposer is the new owner of the emperor power token. Recipient is faction specified in the world_power_tokens_table. No parameters. Data defined (not backed by enum).</comments>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_emperor_power_token_gained</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{a3569c98-8c2d-484b-9970-6b72cc30d2a7}" record_timestamp="1509109610870" record_key="data_defined_emperor_power_token_lost">
+<comments>Proposer is the old owner of the emperor power token. Recipient is faction specified in the world_power_tokens_table. No parameters. Data defined (not backed by enum).</comments>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_emperor_power_token_lost</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{e089d9bc-fc95-4654-a109-3efebd27ab89}" record_timestamp="1542292134662" record_key="data_defined_situation_annex_vassal">
+<comments>Proposer is vasssal lord. Recipient is the vassal being annexed. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Vassal Annexed" last_edit_user="bob">Vassal Annexed</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_annex_vassal</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{bf09995f-fe18-4bf4-aae2-3f47ccf3c4ba}" record_timestamp="1542292134683" record_key="data_defined_situation_confederate_proposer">
+<comments>Proposer is the faction being confederated. Recipient is the faction they are confederating with. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Faction Confederated" last_edit_user="bob">Faction Confederated</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_confederate_proposer</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{f857e4e0-192d-45d8-b038-20ce119be5fa}" record_timestamp="1542292134621" record_key="data_defined_situation_confederate_recipient">
+<comments>Proposer is the faction recieving the assets of the confederated faction. Recipient is the faction being confederated. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Faction Joined Confederation" last_edit_user="bob">Faction Joined Confederation</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_confederate_recipient</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{c1bb78af-3f19-41c5-bb06-7064a618bf66}" record_timestamp="1542292134642" record_key="data_defined_situation_create_alliance">
+<comments>Proposer is a faction. Recipient is a faction. Alliance oath parameter supplied.</comments>
+<description state="APPROVED" last_approved_text="Alliance Created" last_edit_user="bob">Alliance Created</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_create_alliance</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{34dc8909-8590-482f-966e-ed9b69be2953}" record_timestamp="1542292134580" record_key="data_defined_situation_create_alliance_yuan_shao">
+<comments>Proposer is Yuan Shao. Recipient is a faction. Alliance oath parameter supplied.</comments>
+<description state="APPROVED" last_approved_text="Alliance Created" last_edit_user="bob">Alliance Created</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_create_alliance_yuan_shao</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{34c61835-7ad9-4dea-b5e2-b6531f32dabe}" record_timestamp="1542292134601" record_key="data_defined_situation_create_coalition">
+<comments>Proposer is a faction. Recipient is a faction. Alliance oath parameter supplied.</comments>
+<description state="APPROVED" last_approved_text="Coalition Created" last_edit_user="bob">Coalition Created</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_create_coalition</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{12d6b736-136f-483f-ab93-1b42a089115f}" record_timestamp="1542292134540" record_key="data_defined_situation_create_coalition_yuan_shao">
+<comments>Proposer is Yuan Shao. Recipient is a faction. Alliance oath parameter supplied.</comments>
+<description state="APPROVED" last_approved_text="Coalition Created" last_edit_user="bob">Coalition Created</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_create_coalition_yuan_shao</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{fb11e413-b578-4f70-8163-28cf47b396b9}" record_timestamp="1542292134560" record_key="data_defined_situation_food_supply_demand">
+<comments>Proposer is the faction recieving food. Recipient is the faction providing food. Food amount as a parameter.</comments>
+<description state="APPROVED" last_approved_text="Food Demanded" last_edit_user="bob">Food Demanded</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_food_supply_demand</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{9db97e46-274c-4edd-96f3-544583c8edc7}" record_timestamp="1542292134398" record_key="data_defined_situation_food_supply_offer">
+<comments>Proposer is the faction providing food. Recipient is the faction recieving food. Food amount as a parameter.</comments>
+<description state="APPROVED" last_approved_text="Food Offered" last_edit_user="bob">Food Offered</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_food_supply_offer</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{3372cd35-9dd7-4ba3-8369-676ce7fca4fb}" record_timestamp="1542816414348" record_key="data_defined_situation_liu_bei_confederate_proposer">
+<comments>Proposer is the faction being confederated. Recipient is the faction they are confederating with. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Faction Confederated" last_edit_user="bob">Faction Confederated</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_liu_bei_confederate_proposer</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{8a751763-fd6e-4be4-99b9-b1cad63515be}" record_timestamp="1542816414293" record_key="data_defined_situation_liu_bei_confederate_recipient">
+<comments>Proposer is the faction recieving the assets of the confederated faction. Recipient is the faction being confederated. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Faction Joined Confederation" last_edit_user="bob">Faction Joined Confederation</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_liu_bei_confederate_recipient</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{77d7a25f-5d86-464c-891c-78313f3abacb}" record_timestamp="1542292134339" record_key="data_defined_situation_military_access">
+<comments>Proposer is a faction. Recipient is a faction. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Military Access Negotiated" last_edit_user="bob">Military Access Negotiated</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_military_access</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{34093af2-b50a-4f71-add6-1730fa27eb34}" record_timestamp="1542292134358" record_key="data_defined_situation_non_aggression_pact">
+<comments>Proposer is a faction. Recipient is a faction. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Non-aggression Pact Signed" last_edit_user="bob">Non-aggression Pact Signed</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_non_aggression_pact</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{305b9fdd-066a-44fd-857b-7d55583718b1}" record_timestamp="1542292134279" record_key="data_defined_situation_payment_demand">
+<comments>Proposer is the faction recieving money. Recipient is the faction providing money. Payment amount as a parameter.</comments>
+<description state="APPROVED" last_approved_text="Payment Demanded" last_edit_user="bob">Payment Demanded</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_payment_demand</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{4eb4402b-597a-4737-9026-6197c41cfd56}" record_timestamp="1542292134299" record_key="data_defined_situation_payment_offer">
+<comments>Proposer is the faction providing food. Recipient is the faction recieving food. Payment amount as a parameter.</comments>
+<description state="APPROVED" last_approved_text="Payment Offered" last_edit_user="bob">Payment Offered</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_payment_offer</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{7597e6e3-d6d5-4099-bfcf-8c18a2b50780}" record_timestamp="1542292134704" record_key="data_defined_situation_peace">
+<comments>Proposer is a faction. Recipient is a faction. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Peace Signed" last_edit_user="bob">Peace Signed</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_peace</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{0801297c-247c-439d-9b05-0256f4d26771}" record_timestamp="1542292134438" record_key="data_defined_situation_proposer_declares_war_against_target">
+<comments>Recipient is the faction already at war. Proposer is the faction signing the new war. Target faction as a parameter.</comments>
+<description state="APPROVED" last_approved_text="Faction Provides Military Support" last_edit_user="bob">Faction Provides Military Support</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_proposer_declares_war_against_target</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{cd1f9c50-4a58-4987-88fa-38b454262fb7}" record_timestamp="1542816415067" record_key="data_defined_situation_recipient_declares_war_against_target">
+<comments>Proposer is the faction already at war. Recipient is the faction signing the new war. Target faction as a parameter.</comments>
+<description state="APPROVED" last_approved_text="Faction Provides Military Support" last_edit_user="bob">Faction Provides Military Support</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_recipient_declares_war_against_target</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{649767d2-8acc-446e-8a11-7e68cb191aa0}" record_timestamp="1542292134724" record_key="data_defined_situation_regular_payment_demand">
+<comments>Proposer is the faction recieving money. Recipient is the faction providing money. Payment amount as a parameter.</comments>
+<description state="APPROVED" last_approved_text="Regular Payment Demanded" last_edit_user="bob">Regular Payment Demanded</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_regular_payment_demand</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{7032105d-67bb-4c30-802d-741c72b31e32}" record_timestamp="1542292134501" record_key="data_defined_situation_regular_payment_offer">
+<comments>Proposer is the faction providing food. Recipient is the faction recieving food. Payment amount as a parameter.</comments>
+<description state="APPROVED" last_approved_text="Regular Payment Offered" last_edit_user="bob">Regular Payment Offered</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_regular_payment_offer</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{bec9cd4c-874f-45ad-aaed-0d0a5249fbc9}" record_timestamp="1542292134520" record_key="data_defined_situation_support_independence_demand">
+<comments>Proposer is a faction. Recipient is a faction. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Vassal Independence Supported" last_edit_user="bob">Vassal Independence Supported</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_support_independence_demand</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{fd4a8c62-7dfd-4d4d-9c96-050456406617}" record_timestamp="1542292134461" record_key="data_defined_situation_support_independence_offer">
+<comments>Proposer is a faction. Recipient is a faction. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Vassal Independence Supported" last_edit_user="bob">Vassal Independence Supported</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_support_independence_offer</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{5be87933-147f-4829-920f-4bad8f665558}" record_timestamp="1542292134481" record_key="data_defined_situation_trade">
+<comments>Proposer is a faction. Recipient is a faction. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Trade Negotiated" last_edit_user="bob">Trade Negotiated</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_trade</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{efa7b9a6-17c6-4fc1-81cf-5b1b4800b651}" record_timestamp="1542292134378" record_key="data_defined_situation_vassalise_proposer">
+<comments>Proposer is the faction to become a vassal. Recipient is the recieving vassal lord. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Faction Vassalised" last_edit_user="bob">Faction Vassalised</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_vassalise_proposer</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{fc4408d0-5251-4c85-82e0-88e67755b598}" record_timestamp="1542292134418" record_key="data_defined_situation_vassalise_recipient">
+<comments>Proposer is the vassal lord. Recipient is the faction to become a vassal. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Faction Vassalised" last_edit_user="bob">Faction Vassalised</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_vassalise_recipient</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{70179614-07c2-4795-82cf-3e3b68cbfe6e}" record_timestamp="1542292134319" record_key="data_defined_situation_war_proposer_to_recipient">
+<comments>Proposer is a faction. Recipient is a faction. No parameters.</comments>
+<description state="APPROVED" last_approved_text="War Declared" last_edit_user="bob">War Declared</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_war_proposer_to_recipient</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{a3675895-0bd4-4a7f-888f-f9e09af4913b}" record_timestamp="1557849820958" record_key="data_defined_situation_yellow_turban_generic_awaken_from_death">
+<comments>Proposer  is yellow turban generic faction. Recipient is any one of the primary yellow turban factions. The proposer and recipient will need to be inversed in the campaign_diplomacy_automatic_simple_deals table.</comments>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>data_defined_situation_yellow_turban_generic_awaken_from_death</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{b5de5152-9b09-48b2-b9d7-ff726d5c87ce}" record_timestamp="1508836988403" record_key="dissolve_trade_agreement_on_capital_change">
+<comments>Proposer is faction whose capital changed. Recipient is faction they are trading with. No parameters.</comments>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>dissolve_trade_agreement_on_capital_change</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{8ec759cd-d582-40e0-96ea-1cef6875bb3b}" record_timestamp="1508836988402" record_key="dissolve_trade_agreement_on_port_building_change">
+<comments>Proposer is faction whose port building changes. Recipient is faction they are trading with. No parameters.</comments>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>dissolve_trade_agreement_on_port_building_change</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{b11ff654-d0e1-4fa0-a958-93dc83ca5d78}" record_timestamp="1508836988404" record_key="dissolve_trade_agreement_on_region_lost">
+<comments>Proposer is faction whose region was lost. Recipient is faction they are trading with. No parameters.</comments>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>dissolve_trade_agreement_on_region_lost</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{7a05b54f-4f88-4507-9c3b-5c9f72453db6}" record_timestamp="1540994474579" record_key="emperor_usurped_become_world_leader">
+<comments>Proposer is faction becoming a world leader. Recipient is everyone else in the world. No parameters.</comments>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>emperor_usurped_become_world_leader</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{532f0407-fa0a-4e78-a5ac-e054d2289ee2}" record_timestamp="1525164929342" record_key="governor_defected">
+<comments>Proposer is faction governor defecting from. Recipient is the newly emerging commandery faction. No parameters.</comments>
+<description state="APPROVED" last_approved_text="War declared" last_edit_user="bob">War declared</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>governor_defected</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{e25adaf3-b205-485d-be56-f19265da5b0a}" record_timestamp="1525947307011" record_key="governor_granted_independence">
+<comments>Proposer is governors new independent faction. Recipient is governors previous faction. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Vassal independence" last_edit_user="bob">Vassal independence</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>governor_granted_independence</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{2ac9a42b-803a-44f3-98a2-23a3c058be1d}" record_timestamp="1508836988404" record_key="initiate_civil_war">
+<comments>Proposer is faction undergoing civil war. Recipient is civil war faction. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Civil war" last_edit_user="bob">Civil war</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>initiate_civil_war</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{af33ed97-8c60-4529-a1a9-963977405f28}" record_timestamp="1508836988403" record_key="liberate_faction_post_siege">
+<comments>Proposer is faction performing siege option. Recipient is faction being liberated. No parameters.</comments>
+<description state="APPROVED" last_approved_text="Vassal liberated" last_edit_user="bob">Vassal liberated</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>liberate_faction_post_siege</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{d83b85cf-bfa6-4501-a888-aa389c1c5fea}" record_timestamp="1509703653462" record_key="lose_treaties_on_becoming_regionless">
+<comments>Proposer is faction that is becoming regionless. Recipient is each other faction. No parameters.</comments>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>lose_treaties_on_becoming_regionless</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{89e48f54-ae72-49b2-9115-e7cc4fd6b53f}" record_timestamp="1531501144926" record_key="mandate_of_heaven_become_world_leader">
+<comments>Proposer is faction becoming a world leader. Recipient is everyone else in the world</comments>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>mandate_of_heaven_become_world_leader</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{753607f8-7ce7-4bc7-bfdf-d38b09de2e95}" record_timestamp="1531501144926" record_key="mandate_of_heaven_no_longer_world_leader">
+<comments>Proposer is faction who has lost their world leader position. Recipient is everyone else in the world</comments>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>mandate_of_heaven_no_longer_world_leader</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{793c3154-71ac-48de-abbd-d302e4e58a90}" record_timestamp="1551371424583" record_key="new_world_leader_to_existing_world_leader_1">
+<comments>Proposer is faction becoming a world leader. Recipient is everyone else in the world</comments>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>new_world_leader_to_existing_world_leader_1</situation>
+</campaign_diplomacy_automatic_deal_situations>
+<campaign_diplomacy_automatic_deal_situations record_uuid="{879514a1-3f04-41a1-8276-6763689a10ea}" record_timestamp="1556785154716" record_key="new_world_leader_to_existing_world_leader_2">
+<comments>Proposer is faction becoming a world leader. Recipient is everyone else in the world</comments>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</description>
+<icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
+<situation>new_world_leader_to_existing_world_leader_2</situation>
+</campaign_diplomacy_automatic_deal_situations>
+</dataroot>

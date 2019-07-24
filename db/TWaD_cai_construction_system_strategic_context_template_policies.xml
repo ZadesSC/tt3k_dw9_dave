@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_construction_system_strategic_context_template_policies>
+<root>
+<edit_uuid>78320032-2718-45f6-a5a5-c9ec70df4218</edit_uuid>
+<field>
+<field_uuid>{1b880bc7-d4d8-4b2b-b8c6-cb76dd1f4aa7}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{699cf93d-4ccc-447c-94c4-211cefad195a}</field_uuid>
+<primary_key>0</primary_key>
+<name>default_cai_construction_system_template</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>cai_construction_system_templates</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

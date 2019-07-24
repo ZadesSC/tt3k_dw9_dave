@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cursor_transitions.xsd" export_time="Tue Apr 16 10:34:19 2019" revision="35" export_branch="C:/Users/william.meaton/AppData/Roaming/TWDaemon/1431/dave" export_user="bob">
+<edit_uuid>ed87f63f-1ca0-4841-98bf-23315b0afa84</edit_uuid>
+<cursor_transitions record_uuid="{6a7f1b8c-61c0-49bb-8012-59123b30c21e}" record_key="agent_actionRBUTTON_DOWN">
+<initiating_cursor>agent_action</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>agent_action_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{ccfd5bdb-fb5f-4797-84ad-fbd41721541b}" record_key="agent_action_downRBUTTON_UP">
+<initiating_cursor>agent_action_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>agent_action</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{0855ee97-79ed-4665-8669-beb26ff8ff4b}" record_timestamp="1396337051018" record_key="attackRBUTTON_DOWN">
+<initiating_cursor>attack</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>attack_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{87e0262f-bf56-4e9a-9356-2c2b13845db6}" record_timestamp="1396337051030" record_key="attack_buildingRBUTTON_DOWN">
+<initiating_cursor>attack_building</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>attack_building_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{01a9c274-d385-49f5-a19f-8071773df018}" record_timestamp="1396337361542" record_key="attack_building_downRBUTTON_UP">
+<initiating_cursor>attack_building_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>attack_building</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{80268a7c-2e70-4619-b2d0-b1426346b9e0}" record_timestamp="1396337051043" record_key="attack_building_oorRBUTTON_DOWN">
+<initiating_cursor>attack_building_oor</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>attack_building_oor_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{2cf16e54-94d3-4660-8ad2-39466adfdac4}" record_timestamp="1396337361589" record_key="attack_building_oor_downRBUTTON_UP">
+<initiating_cursor>attack_building_oor_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>attack_building_oor</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{4c3095cb-9d29-48ce-b9d5-dbe7b4c04350}" record_timestamp="1396337051058" record_key="attack_deployableRBUTTON_DOWN">
+<initiating_cursor>attack_deployable</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>attack_deployable_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{37db794c-42b6-4406-8245-9ea678c71742}" record_timestamp="1396337361634" record_key="attack_deployable_downRBUTTON_UP">
+<initiating_cursor>attack_deployable_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>attack_deployable</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{15e6ecea-2a30-4a2e-b853-32af87d5c22f}" record_timestamp="1396337051079" record_key="attack_deployable_rangedRBUTTON_DOWN">
+<initiating_cursor>attack_deployable_ranged</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>attack_deployable_ranged_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{73b2d69f-c515-4744-8386-a9d5a89f0617}" record_timestamp="1396337361683" record_key="attack_deployable_ranged_downRBUTTON_UP">
+<initiating_cursor>attack_deployable_ranged_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>attack_deployable_ranged</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{61b01321-d279-4774-9f64-0bf33eb0f5e0}" record_timestamp="1396337361493" record_key="attack_downRBUTTON_UP">
+<initiating_cursor>attack_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>attack</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{b948cc8e-d0a4-4a8f-99d4-3f9181487188}" record_timestamp="1396337051103" record_key="attack_oorRBUTTON_DOWN">
+<initiating_cursor>attack_oor</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>attack_oor_click</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{9e8003ee-d7bd-485c-a39c-dc9776405af0}" record_timestamp="1396337361726" record_key="attack_oor_clickRBUTTON_UP">
+<initiating_cursor>attack_oor_click</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>attack_oor</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{1b5ea6ff-d8fa-4f7a-9203-ea7755a74cbd}" record_timestamp="1356085670057" record_key="attack_unbreachable_wallRBUTTON_DOWN">
+<initiating_cursor>attack_unbreachable_wall</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>attack_unbreachable_wall_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{0fd51504-1275-40f0-889f-37ea538307ff}" record_timestamp="1356085670079" record_key="attack_unbreachable_wall_downRBUTTON_UP">
+<initiating_cursor>attack_unbreachable_wall_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>attack_unbreachable_wall</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{a1b120a7-190f-4910-873d-6c4472526a75}" record_timestamp="1422028023908" record_key="backwaterRBUTTON_DOWN">
+<initiating_cursor>backwater</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>backwater_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{afb891d8-b623-4e0f-90b5-1f2e4f3f995c}" record_timestamp="1422028023926" record_key="backwater_downRBUTTON_UP">
+<initiating_cursor>backwater_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>backwater</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{0fdc3463-ada3-438e-bab1-b4b08610ced5}" record_timestamp="1360770711211" record_key="board_shipRBUTTON_DOWN">
+<initiating_cursor>board_ship</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>board_ship_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{3405e373-f636-4416-b109-e197b52baa1c}" record_timestamp="1360770711236" record_key="board_ship_downRBUTTON_UP">
+<initiating_cursor>board_ship_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>board_ship</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{d67899d5-632e-4da7-b99c-e232f1e7afea}" record_timestamp="1396337051126" record_key="burn_buildingRBUTTON_DOWN">
+<initiating_cursor>burn_building</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>burn_building_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{5f61f7f6-01a3-40bf-bd7d-24c6366e3ac5}" record_timestamp="1396337361779" record_key="burn_building_downRBUTTON_UP">
+<initiating_cursor>burn_building_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>burn_building</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{607ee4e8-7365-4e9f-b34f-d65944437cc5}" record_timestamp="1396337051158" record_key="can_captureRBUTTON_DOWN">
+<initiating_cursor>can_capture</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>can_capture_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{c0088d87-2c9b-449b-af5e-e4e462e5773f}" record_timestamp="1396337361825" record_key="can_capture_downRBUTTON_UP">
+<initiating_cursor>can_capture_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>can_capture</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{3f35a5db-1d94-4e3c-9e39-43e70b2f226a}" record_key="click_downLBUTTON_UP">
+<initiating_cursor>click_down</initiating_cursor>
+<mouse_event>LBUTTON_UP</mouse_event>
+<resulting_cursor>normal</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{f532040e-6434-4ae4-8469-a63778292d35}" record_timestamp="1447085443572" record_key="climb_wallRBUTTON_DOWN">
+<initiating_cursor>climb_wall</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>climb_wall_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{76e59161-9fdc-44ec-a917-d04826474f94}" record_timestamp="1447085443578" record_key="climb_wall_downRBUTTON_UP">
+<initiating_cursor>climb_wall_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>climb_wall</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{1e619e74-aa28-4b96-945e-a80387eaf081}" record_timestamp="1529401065461" record_key="crushing_attackRBUTTON_DOWN">
+<initiating_cursor>crushing_attack</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>crushing_attack_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{b5cea54f-11f2-4259-84f7-ebda8d3e0dda}" record_timestamp="1529401065461" record_key="crushing_attack_downRBUTTON_UP">
+<initiating_cursor>crushing_attack_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>crushing_attack</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{c45dbdfc-127c-4c9f-9258-b3b2b37a1e21}" record_timestamp="1396337051189" record_key="defend_buildingRBUTTON_DOWN">
+<initiating_cursor>defend_building</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>defend_building_click</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{59a91d9f-798c-4d86-80e1-f97fb50b608d}" record_timestamp="1396337361875" record_key="defend_building_clickRBUTTON_UP">
+<initiating_cursor>defend_building_click</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>defend_building</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{4fd1cfd8-812b-4941-87c6-fcd45ee3c0ec}" record_key="disembark_shipRBUTTON_DOWN">
+<initiating_cursor>disembark_ship</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>disembark_ship_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{35ef8edd-3980-4064-8fec-19b85c3cc2c7}" record_timestamp="1360770711186" record_key="disembark_ship_downRBUTTON_UP">
+<initiating_cursor>disembark_ship_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>disembark_ship</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{7f5399a7-28aa-4c0f-a4da-e08fd89423a7}" record_timestamp="1517234210424" record_key="duel_interrupt_meleeRBUTTON_DOWN">
+<initiating_cursor>duel_interrupt_melee</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>duel_interrupt_melee_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{4a00dfcd-143d-4690-8a39-a0e17a7a5932}" record_timestamp="1517234210424" record_key="duel_interrupt_melee_downRBUTTON_UP">
+<initiating_cursor>duel_interrupt_melee_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>duel_interrupt_melee</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{d1c74e1e-aebd-4780-9cfb-5a8af265fb72}" record_timestamp="1517234210424" record_key="duel_interrupt_rangedRBUTTON_DOWN">
+<initiating_cursor>duel_interrupt_ranged</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>duel_interrupt_ranged_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{bf57d9b3-9b3f-49d2-add9-33e6d39d0a6b}" record_timestamp="1517234210424" record_key="duel_interrupt_ranged_downRBUTTON_UP">
+<initiating_cursor>duel_interrupt_ranged_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>duel_interrupt_ranged</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{17b08d69-ac2d-4844-891b-636ebb75931c}" record_key="grabLBUTTON_DOWN">
+<initiating_cursor>grab</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>grabbed</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{5a0397a4-273d-49e5-a786-f43d5ffa9a97}" record_key="grabbedLBUTTON_UP">
+<initiating_cursor>grabbed</initiating_cursor>
+<mouse_event>LBUTTON_UP</mouse_event>
+<resulting_cursor>grab</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{6efb048d-ae18-4497-aed6-9564afa88ab0}" record_timestamp="1396337051224" record_key="group_script_attackRBUTTON_DOWN">
+<initiating_cursor>group_script_attack</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>group_script_attack_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{1928986a-018d-4db8-9dc3-122a305133b4}" record_timestamp="1396337361918" record_key="group_script_attack_downRBUTTON_UP">
+<initiating_cursor>group_script_attack_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>group_script_attack</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{24955ebf-0e3f-478d-bdb5-9f39c77076c0}" record_timestamp="1396337051261" record_key="group_script_defendRBUTTON_DOWN">
+<initiating_cursor>group_script_defend</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>group_script_defend_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{a1950110-c3e1-4352-b414-6d57f74d20f2}" record_timestamp="1396337361965" record_key="group_script_defend_downRBUTTON_UP">
+<initiating_cursor>group_script_defend_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>group_script_defend</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{34f3c46c-7286-479a-9eaf-97b2d6262012}" record_timestamp="1373898317769" record_key="hyperlinkLBUTTON_DOWN">
+<initiating_cursor>hyperlink</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>hyperlink_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{93b76649-f155-4409-9b30-0d370a7f12f2}" record_timestamp="1373898317792" record_key="hyperlink_downLBUTTON_UP">
+<initiating_cursor>hyperlink_down</initiating_cursor>
+<mouse_event>LBUTTON_UP</mouse_event>
+<resulting_cursor>hyperlink</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{16f7599d-89bd-47e3-9db8-63b1a97da54a}" record_timestamp="1396337051349" record_key="inspireLBUTTON_DOWN">
+<initiating_cursor>inspire</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>inspire_click</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{9590f6a0-62fb-4d8f-8618-6a1e8e1f7d08}" record_timestamp="1396337362009" record_key="inspire_clickLBUTTON_UP">
+<initiating_cursor>inspire_click</initiating_cursor>
+<mouse_event>LBUTTON_UP</mouse_event>
+<resulting_cursor>inspire</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{dc9ad9f6-c087-4fed-aa86-e49bc81aa8cf}" record_timestamp="1396337051390" record_key="interact_deployableRBUTTON_DOWN">
+<initiating_cursor>interact_deployable</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>interact_deployable_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{e06bf8fb-7485-4c26-a471-2d2ff3f0c44c}" record_timestamp="1396337362060" record_key="interact_deployable_downRBUTTON_UP">
+<initiating_cursor>interact_deployable_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>interact_deployable</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{fc5e50da-9942-4eb9-9ab4-3621039e319e}" record_key="meleeRBUTTON_DOWN">
+<initiating_cursor>melee</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>melee_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{2e9bc8ea-6fa8-45c7-b68d-e31f10169a6a}" record_key="melee_downRBUTTON_UP">
+<initiating_cursor>melee_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>melee</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{bbb2f640-af33-498e-a23c-5696bd034b2c}" record_timestamp="1450178189859" record_key="melee_siegeRBUTTON_DOWN">
+<initiating_cursor>melee_siege</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>melee_siege_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{8d868c47-4015-4b03-8bf5-2c2b211edc67}" record_timestamp="1450178189869" record_key="melee_siege_downRBUTTON_UP">
+<initiating_cursor>melee_siege_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>melee_siege</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{ec4d13a0-6eab-4b5d-b329-ec8a1f656bd6}" record_timestamp="1396337362111" record_key="move_clickRBUTTON_UP">
+<initiating_cursor>move_click</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>move_to</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{18890176-bfab-4bba-85b3-7ccbf5918edf}" record_timestamp="1396337051436" record_key="move_toRBUTTON_DOWN">
+<initiating_cursor>move_to</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>move_click</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{8fe58bec-3526-4153-a68e-e806fb7c9f5f}" record_timestamp="1465987060466" record_key="move_waypointsRBUTTON_DOWN">
+<initiating_cursor>move_waypoints</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>move_waypoints_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{2f15c2f5-9a2f-4d0b-aae1-b5036c124da7}" record_timestamp="1465987060467" record_key="move_waypoints_downRBUTTON_UP">
+<initiating_cursor>move_waypoints_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>move_waypoints</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{ca7cdd45-fa91-4f2f-aff4-8dd8b2fa9fe3}" record_key="normalLBUTTON_DOWN">
+<initiating_cursor>normal</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>click_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{11c5bcbf-de4a-4f69-b138-bab893a9dfad}" record_timestamp="1396337051548" record_key="occupy_zoneRBUTTON_DOWN">
+<initiating_cursor>occupy_zone</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>occupy_zone_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{58077d63-1e99-4e65-81b0-51eb0b14a584}" record_timestamp="1396337361443" record_key="occupy_zone_downRBUTTON_UP">
+<initiating_cursor>occupy_zone_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>occupy_zone</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{9bbe9338-1aba-4d1e-ad02-07ac48294f95}" record_timestamp="1396337748399" record_key="pickup_vehicleRBUTTON_DOWN">
+<initiating_cursor>pickup_vehicle</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>pickup_vehicle_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{ef48a483-207b-46b2-979d-c971325d9e5e}" record_timestamp="1396337748595" record_key="pickup_vehicle_downRBUTTON_UP">
+<initiating_cursor>pickup_vehicle_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>pickup_vehicle</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{6f1a1b94-6504-4fc4-ab6a-cb011f8c6ab0}" record_timestamp="1396337748334" record_key="ping_attackLBUTTON_DOWN">
+<initiating_cursor>ping_attack</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>ping_move_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{616a06ab-f56e-428e-9748-87940281ba52}" record_timestamp="1396337748301" record_key="ping_defendLBUTTON_DOWN">
+<initiating_cursor>ping_defend</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>ping_move_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{c2194cdb-0180-4cee-af5e-77503da68029}" record_timestamp="1396337748659" record_key="ping_defend_downLBUTTON_UP">
+<initiating_cursor>ping_defend_down</initiating_cursor>
+<mouse_event>LBUTTON_UP</mouse_event>
+<resulting_cursor>ping_defend</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{42f6a1ff-68aa-4e12-a5d3-b61c0ece014a}" record_timestamp="1396337051810" record_key="ping_moveLBUTTON_DOWN">
+<initiating_cursor>ping_move</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>ping_move_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{a07f658d-94cd-4f30-aa56-79d561a1ae96}" record_timestamp="1396337748627" record_key="ping_move_downLBUTTON_UP">
+<initiating_cursor>ping_move_down</initiating_cursor>
+<mouse_event>LBUTTON_UP</mouse_event>
+<resulting_cursor>ping_attack</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{3d8ffa7b-5779-4fc0-8233-8c589ffa9021}" record_timestamp="1396337051772" record_key="ping_reinforceLBUTTON_DOWN">
+<initiating_cursor>ping_reinforce</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>ping_reinforce_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{ff429b9b-9709-4314-9373-bfe2fc4320d5}" record_timestamp="1396337748693" record_key="ping_reinforce_downLBUTTON_UP">
+<initiating_cursor>ping_reinforce_down</initiating_cursor>
+<mouse_event>LBUTTON_UP</mouse_event>
+<resulting_cursor>ping_reinforce</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{22201228-b83b-4067-bf5f-cff2a1d16fe1}" record_timestamp="1373968042085" record_key="ping_standardLBUTTON_DOWN">
+<initiating_cursor>ping_standard</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>ping_standard_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{a47d9c17-59b7-4405-a506-edce0a71edc9}" record_timestamp="1373968042106" record_key="ping_standard_downLBUTTON_UP">
+<initiating_cursor>ping_standard_down</initiating_cursor>
+<mouse_event>LBUTTON_UP</mouse_event>
+<resulting_cursor>ping_standard</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{5a2eb2db-8ec0-49cf-b098-dd4eda09a32a}" record_key="place_deployableRBUTTON_DOWN">
+<initiating_cursor>place_deployable</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>place_deployable_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{469ca823-4c93-4790-98d4-846d2f4aa53c}" record_key="place_deployable_downRBUTTON_UP">
+<initiating_cursor>place_deployable_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>place_deployable</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{af3d2263-1693-4723-86de-158d8dbfc95c}" record_timestamp="1396337051848" record_key="rally_positionLBUTTON_DOWN">
+<initiating_cursor>rally_position</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>rally_position_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{2fd76146-f572-4a14-bf94-eb68f4443668}" record_timestamp="1396337748726" record_key="rally_position_downLBUTTON_UP">
+<initiating_cursor>rally_position_down</initiating_cursor>
+<mouse_event>LBUTTON_UP</mouse_event>
+<resulting_cursor>rally_position</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{78d81aaf-9701-4b7f-a4ac-f68b75bb7707}" record_timestamp="1360770711262" record_key="ram_shipRBUTTON_DOWN">
+<initiating_cursor>ram_ship</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>ram_ship_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{1488b561-abab-4cd7-a1e5-78d1615dc2ec}" record_timestamp="1360770711289" record_key="ram_ship_downRBUTTON_UP">
+<initiating_cursor>ram_ship_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>ram_ship</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{a48f4b48-0a53-4768-93b9-97da6b933533}" record_timestamp="1396337051887" record_key="scale_wallRBUTTON_DOWN">
+<initiating_cursor>scale_wall</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>scale_wall_click</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{4f5f1bcd-3d40-4fb7-a84d-94d4c430f0c1}" record_timestamp="1396337748758" record_key="scale_wall_clickRBUTTON_UP">
+<initiating_cursor>scale_wall_click</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>scale_wall</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{a3ea2c5b-d130-4158-86e0-57a600cbfd9f}" record_key="selectLBUTTON_DOWN">
+<initiating_cursor>select</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>select_click</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{0f8d94bc-5b1b-41b2-abf2-fe0e411c3693}" record_key="select_clickLBUTTON_UP">
+<initiating_cursor>select_click</initiating_cursor>
+<mouse_event>LBUTTON_UP</mouse_event>
+<resulting_cursor>select</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{bff22933-dc2c-41bc-9829-08fdf47d50e2}" record_key="select_miniLBUTTON_DOWN">
+<initiating_cursor>select_mini</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>select_mini_click</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{79c1082e-42f9-4877-a0cd-fea0c46aa429}" record_key="select_mini_clickLBUTTON_UP">
+<initiating_cursor>select_mini_click</initiating_cursor>
+<mouse_event>LBUTTON_UP</mouse_event>
+<resulting_cursor>select_mini</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{bef41c3e-c1e3-4e57-9846-314b29bf4f7f}" record_timestamp="1450178190113" record_key="siege_tower_dockRBUTTON_DOWN">
+<initiating_cursor>siege_tower_dock</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>siege_tower_dock_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{8fca3710-7d19-49e8-a946-1fd28c7d6df2}" record_timestamp="1450178190128" record_key="siege_tower_dock_downRBUTTON_UP">
+<initiating_cursor>siege_tower_dock_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>siege_tower_dock</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{c0aa2c01-3771-45fc-8490-8b8d9d99c698}" record_timestamp="1426851948069" record_key="spellcastLBUTTON_DOWN">
+<initiating_cursor>spellcast</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>spellcast_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{e096d29c-70cf-4025-9eac-cd89676ed572}" record_timestamp="1426851948072" record_key="spellcast_downLBUTTON_UP">
+<initiating_cursor>spellcast_down</initiating_cursor>
+<mouse_event>LBUTTON_UP</mouse_event>
+<resulting_cursor>spellcast</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{baf1d77f-2134-4ccd-aee8-5e30ecbde9be}" record_timestamp="1439541457966" record_key="spellcast_oorLBUTTON_DOWN">
+<initiating_cursor>spellcast_oor</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>spellcast_oor_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{0e294950-fb32-47fb-a93f-d998e4991f16}" record_timestamp="1427880095367" record_key="spellcast_overchargedLBUTTON_DOWN">
+<initiating_cursor>spellcast_overcharged</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>spellcast_overcharged_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{215343d4-8205-478f-b650-acb57fe8d62b}" record_timestamp="1427880095374" record_key="spellcast_overcharged_downLBUTTON_UP">
+<initiating_cursor>spellcast_overcharged_down</initiating_cursor>
+<mouse_event>LBUTTON_UP</mouse_event>
+<resulting_cursor>spellcast_overcharged</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{8efa0c79-a885-4853-b0ff-e48fb9887e65}" record_timestamp="1439541457958" record_key="spellcast_overcharged_oorLBUTTON_DOWN">
+<initiating_cursor>spellcast_overcharged_oor</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>spellcast_overcharged_oor_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{5122e199-84ea-4b9b-9076-1f098c9625b3}" record_timestamp="1355998281044" record_key="swapRBUTTON_DOWN">
+<initiating_cursor>swap</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>swap_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{e294f938-8010-456c-9135-c1803dd81702}" record_timestamp="1355998281063" record_key="swap_downRBUTTON_UP">
+<initiating_cursor>swap_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>swap</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{67802e4f-a6cc-46f0-8693-6ecc192bc9d7}" record_timestamp="1396337051966" record_key="take_cover_behind_wallRBUTTON_DOWN">
+<initiating_cursor>take_cover_behind_wall</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>take_cover_behind_wall_click</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{614b0f8a-64b0-4424-aa68-4787e07c5688}" record_timestamp="1396337748824" record_key="take_cover_behind_wall_clickRBUTTON_UP">
+<initiating_cursor>take_cover_behind_wall_click</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>take_cover_behind_wall</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{8423d74e-79d5-4349-9cf5-e1cac1b30828}" record_timestamp="1517230721002" record_key="terrain_burntRBUTTON_DOWN">
+<initiating_cursor>terrain_burnt</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_burnt_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{ef11ea4e-142c-4ead-9b98-08074596c32d}" record_timestamp="1517230721002" record_key="terrain_burnt_downRBUTTON_UP">
+<initiating_cursor>terrain_burnt_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>action</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{2ac8a097-f6cb-48a2-86ef-89d7a4f976c4}" record_timestamp="1422356229420" record_key="terrain_desertRBUTTON_DOWN">
+<initiating_cursor>terrain_desert</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_desert_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{1892d76c-38e3-4dc0-ac25-53b5c4faf6ca}" record_timestamp="1422356229427" record_key="terrain_desert_attritionRBUTTON_DOWN">
+<initiating_cursor>terrain_desert_attrition</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_desert_attrition_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{cb1374ce-0574-42cb-92bb-4261fae74953}" record_timestamp="1422356229434" record_key="terrain_desert_attrition_downRBUTTON_UP">
+<initiating_cursor>terrain_desert_attrition_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_desert_attrition</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{c0db6c71-d16f-4962-9b3e-2125f9d96fd4}" record_timestamp="1422356229441" record_key="terrain_desert_downRBUTTON_UP">
+<initiating_cursor>terrain_desert_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_desert</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{dc3871f6-db6c-4820-8d99-f8edf5647287}" record_timestamp="1396337052005" record_key="terrain_forestRBUTTON_DOWN">
+<initiating_cursor>terrain_forest</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_forest_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{4425ec05-7c42-4aba-982c-b92050c259e2}" record_timestamp="1396337748433" record_key="terrain_forest_downRBUTTON_UP">
+<initiating_cursor>terrain_forest_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_forest</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{5ccbd8c2-d40d-41a0-9264-a9ffbcf4d08d}" record_timestamp="1517230721001" record_key="terrain_grassRBUTTON_DOWN">
+<initiating_cursor>terrain_grass</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_grass_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{d035f52a-86df-4334-b0ca-cdfe58c28f28}" record_timestamp="1517230721001" record_key="terrain_grass_downRBUTTON_UP">
+<initiating_cursor>terrain_grass_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_grass</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{2655ee3e-b2f3-4680-a824-ba4207728c98}" record_timestamp="1489153719505" record_key="terrain_heavyRBUTTON_DOWN">
+<initiating_cursor>terrain_heavy</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_heavy_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{b1abc942-7ab5-4303-9da9-b3be12ed1f2c}" record_timestamp="1489153719505" record_key="terrain_heavy_downRBUTTON_UP">
+<initiating_cursor>terrain_heavy_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_heavy</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{8ec964ff-a2d1-4bfe-aa1a-7f8491e8727b}" record_timestamp="1422356229448" record_key="terrain_marshRBUTTON_DOWN">
+<initiating_cursor>terrain_marsh</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_marsh_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{f989c9db-ab56-4809-bfac-07dd049331ca}" record_timestamp="1422356229455" record_key="terrain_marsh_downRBUTTON_UP">
+<initiating_cursor>terrain_marsh_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_marsh</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{d0382c56-be72-43b1-b686-7f6688be5e1b}" record_timestamp="1517230721002" record_key="terrain_mudRBUTTON_DOWN">
+<initiating_cursor>terrain_mud</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_mud_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{1d623075-39ce-4da7-a427-b88ca66fdec3}" record_timestamp="1517230721002" record_key="terrain_mud_downRBUTTON_UP">
+<initiating_cursor>terrain_mud_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_mud</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{a6b4d8bc-6086-4d0f-9d67-d6e128e092e4}" record_timestamp="1422356229462" record_key="terrain_oceanRBUTTON_DOWN">
+<initiating_cursor>terrain_ocean</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_ocean_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{a2411d0e-d600-4cc5-8c86-4cc7680e19d7}" record_timestamp="1422356229477" record_key="terrain_ocean_attritionRBUTTON_DOWN">
+<initiating_cursor>terrain_ocean_attrition</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_ocean_attrition_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{fbb70078-cd57-4523-b9a0-96a967446004}" record_timestamp="1422356229484" record_key="terrain_ocean_attrition_downRBUTTON_UP">
+<initiating_cursor>terrain_ocean_attrition_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_ocean_attrition</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{ce8d2219-29d1-4441-8d2f-fb6453ee70b5}" record_timestamp="1422356229469" record_key="terrain_ocean_downRBUTTON_UP">
+<initiating_cursor>terrain_ocean_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_ocean</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{52c0449b-635e-4935-8246-a17aeb0daecf}" record_timestamp="1422356229407" record_key="terrain_plainsRBUTTON_DOWN">
+<initiating_cursor>terrain_plains</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_plains_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{4357443e-62c4-48ed-891c-6641bd9ee073}" record_timestamp="1422356229414" record_key="terrain_plains_downRBUTTON_UP">
+<initiating_cursor>terrain_plains_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_plains</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{9454173e-ee49-429d-9886-ca261feacc02}" record_timestamp="1396337052046" record_key="terrain_roadRBUTTON_DOWN">
+<initiating_cursor>terrain_road</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_road_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{0998c091-0bef-4b9e-819b-2c94cc12e103}" record_timestamp="1396337748466" record_key="terrain_road_downRBUTTON_UP">
+<initiating_cursor>terrain_road_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_road</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{6998e4dd-3455-414a-9d2c-4ffe8b5e8e4a}" record_timestamp="1489153719505" record_key="terrain_roughRBUTTON_DOWN">
+<initiating_cursor>terrain_rough</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_rough_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{ecb71a91-2f73-41b8-9561-cc55d2a48f7c}" record_timestamp="1489153719505" record_key="terrain_rough_downRBUTTON_UP">
+<initiating_cursor>terrain_rough_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_rough</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{5d69092c-bc21-4803-b4f4-eea7ae39a3a7}" record_timestamp="1517230721002" record_key="terrain_sandRBUTTON_DOWN">
+<initiating_cursor>terrain_sand</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_sand_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{ef48091f-064b-4182-980f-2f47456c9d86}" record_timestamp="1517230721002" record_key="terrain_sand_downRBUTTON_UP">
+<initiating_cursor>terrain_sand_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_sand</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{f92b8449-eec9-466d-af34-49492613dcc2}" record_timestamp="1396337052086" record_key="terrain_scrubRBUTTON_DOWN">
+<initiating_cursor>terrain_scrub</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_scrub_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{4fbd614e-8dfb-40ef-8046-7eb1e7ba82ae}" record_timestamp="1396337748499" record_key="terrain_scrub_downRBUTTON_UP">
+<initiating_cursor>terrain_scrub_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_scrub</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{4ab00358-23fd-4a1f-8c1c-c97b93174fec}" record_timestamp="1517230721001" record_key="terrain_snowRBUTTON_DOWN">
+<initiating_cursor>terrain_snow</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_snow_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{a210e068-fdde-4299-b73a-dd7edc347061}" record_timestamp="1517230721001" record_key="terrain_snow_downRBUTTON_UP">
+<initiating_cursor>terrain_snow_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_snow</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{4846dfd8-c053-4bad-9bd4-7c3efb3d0cc1}" record_timestamp="1396337052127" record_key="terrain_softgroundRBUTTON_DOWN">
+<initiating_cursor>terrain_softground</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_softground_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{d013753c-4f19-4f77-bba0-94f42ad8ba76}" record_timestamp="1396337748531" record_key="terrain_softground_downRBUTTON_UP">
+<initiating_cursor>terrain_softground_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_softground</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{7db3aa74-da69-4d88-9fc1-53d9e76ec76b}" record_timestamp="1396337052168" record_key="terrain_waterRBUTTON_DOWN">
+<initiating_cursor>terrain_water</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>terrain_water_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{3f446391-0f66-408d-8218-88596203257f}" record_timestamp="1396337748563" record_key="terrain_water_downRBUTTON_UP">
+<initiating_cursor>terrain_water_down</initiating_cursor>
+<mouse_event>RBUTTON_UP</mouse_event>
+<resulting_cursor>terrain_water</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{ff178084-4e87-4395-88b5-6396ae323a68}" record_timestamp="1403868278570" record_key="trade_routeRBUTTON_DOWN">
+<initiating_cursor>trade_route</initiating_cursor>
+<mouse_event>RBUTTON_DOWN</mouse_event>
+<resulting_cursor>trade_route_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{fd57e918-16c3-40e2-aa7d-8571384d8d40}" record_timestamp="1504013883307" record_key="vortex_dragLBUTTON_DOWN">
+<initiating_cursor>vortex_drag</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>vortex_drag_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{c23483c2-b386-4f5e-8e1c-ecee01fbc7dd}" record_timestamp="1504013883303" record_key="vortex_drag_downLBUTTON_UP">
+<initiating_cursor>vortex_drag_down</initiating_cursor>
+<mouse_event>LBUTTON_UP</mouse_event>
+<resulting_cursor>vortex_drag</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{c793ff59-dbcb-49f7-8cd4-2ab656e88aa8}" record_timestamp="1555407259297" record_key="war_coordinationLBUTTON_DOWN">
+<initiating_cursor>war_coordination</initiating_cursor>
+<mouse_event>LBUTTON_DOWN</mouse_event>
+<resulting_cursor>war_coordination_down</resulting_cursor>
+</cursor_transitions>
+<cursor_transitions record_uuid="{48575c88-42bc-42fe-9399-f3f1d08c3303}" record_timestamp="1555407259297" record_key="war_coordination_downLBUTTON_UP">
+<initiating_cursor>war_coordination_down</initiating_cursor>
+<mouse_event>LBUTTON_UP</mouse_event>
+<resulting_cursor>war_coordination</resulting_cursor>
+</cursor_transitions>
+</dataroot>

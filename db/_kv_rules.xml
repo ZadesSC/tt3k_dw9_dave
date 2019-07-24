@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="_kv_rules.xsd" export_time="Mon May 13 09:13:47 2019" revision="323" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1472/client" export_user="bob">
+<edit_uuid>78eb97c8-ae8f-4868-aff7-b66458ba12d4</edit_uuid>
+<_kv_rules record_uuid="{78def7a4-c1cb-4e7a-8b58-cd98daa5472a}" record_timestamp="1478264614410" record_key="armour_roll_lower_cap">
+<description>the minimum percentage of armour roll that can be applied</description>
+<key>armour_roll_lower_cap</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{dfd66931-d33b-4f28-b658-db8126853e8e}" record_timestamp="1478778089211" record_key="armour_roll_max_value">
+<description>this is the max valued that is allowed for the armour roll. If set to -1 there will be no maximum.</description>
+<key>armour_roll_max_value</key>
+<value>-1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{19224192-ffb7-4da1-9400-699c4cddde83}" record_timestamp="1478786591911" record_key="armour_roll_min_value">
+<description>this is the min valued that is allowed for the armour roll. If set to -1 there will be no minimum.</description>
+<key>armour_roll_min_value</key>
+<value>-1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{31886dd8-5df1-46ce-ad07-44ce8ff95daa}" record_timestamp="1476190236113" record_key="attack_interval_multiplier_when_entity_attack_interrupted">
+<description>How much times the cap to the interval between two subsequent melee or missile attacks gets multiplied in the event that the entity gets knocked back or knocked down.</description>
+<key>attack_interval_multiplier_when_entity_attack_interrupted</key>
+<value>3</value>
+</_kv_rules>
+<_kv_rules record_uuid="{6a0bd56f-9adf-499e-b950-a43198385021}" record_key="battle_camera_max_distance_from_army">
+<description>the maximum distance the camera can move from the player's army</description>
+<key>battle_camera_max_distance_from_army</key>
+<value>200</value>
+</_kv_rules>
+<_kv_rules record_uuid="{ee51dd58-1587-46ac-89a7-b8e7dc09e848}" record_timestamp="1458232488458" record_key="battle_pipe_climb">
+<description>Cost multiplier for moving through these pipe types (PT_WALL_CLIMB, PT_DESTROYED_WALL_CLIMB, PT_WOOD_WALL_CLIMB, PT_DESTROYED_WOOD_WALL_CLIMB, PT_CLIMB_LADDER)</description>
+<key>battle_pipe_climb</key>
+<value>10</value>
+</_kv_rules>
+<_kv_rules record_uuid="{42ce76e7-d644-4249-aead-b5d7cccc73f9}" record_timestamp="1458232488458" record_key="battle_pipe_default">
+<description>Default cost multiplier for moving through pipes not specified explicitly in this table</description>
+<key>battle_pipe_default</key>
+<value>2</value>
+</_kv_rules>
+<_kv_rules record_uuid="{e29325e9-24d1-498e-9455-b0ac621be854}" record_timestamp="1458232488457" record_key="battle_pipe_jump">
+<description>Cost multiplier for moving through these pipe types (PT_JUMP, PT_JUMP_RAMP, PT_JUMP_ANIM)</description>
+<key>battle_pipe_jump</key>
+<value>10</value>
+</_kv_rules>
+<_kv_rules record_uuid="{1a488e52-18f3-4df9-9453-e22107209bb1}" record_timestamp="1458232488456" record_key="battle_pipe_jump_disembark">
+<description>Cost multiplier for moving through this pipe type (PT_JUMP_DISEMBARK)</description>
+<key>battle_pipe_jump_disembark</key>
+<value>50</value>
+</_kv_rules>
+<_kv_rules record_uuid="{8a49064f-2544-44bc-b8d1-9a25f3f736e3}" record_timestamp="1458232488458" record_key="battle_pipe_ship_grapple">
+<description>Cost multiplier for moving through this pipe type (PT_SHIP_GRAPPLE)</description>
+<key>battle_pipe_ship_grapple</key>
+<value>20</value>
+</_kv_rules>
+<_kv_rules record_uuid="{a1117abb-99e1-46a7-96d7-b1ff918edbdb}" record_timestamp="1458324070846" record_key="battle_pipe_siege_tower_wall_door">
+<description>Cost multiplier for moving through this pipe type (PT_WALL_DOOR) when owned by siege tower</description>
+<key>battle_pipe_siege_tower_wall_door</key>
+<value>10</value>
+</_kv_rules>
+<_kv_rules record_uuid="{72c53f00-78f3-4f04-a56f-9cff74d37029}" record_timestamp="1458232488457" record_key="battle_pipe_wall_door">
+<description>Cost multiplier for moving through this pipe type (PT_WALL_DOOR)</description>
+<key>battle_pipe_wall_door</key>
+<value>10</value>
+</_kv_rules>
+<_kv_rules record_uuid="{629816c3-c5be-4488-8991-d7639f8fc203}" record_timestamp="1484059628630" record_key="battleai_sallyout_defend_settlement_preference">
+<description>If ( defensive AI's non-tower CP / attacking army's total CP ) - ( (defensive AI's total CP - attacking army's ranged CP) / defensive AI's total CP ) is &gt; this value, the AI will Sally Out because the attacker's missile strength is too great to withstand.</description>
+<key>battleai_sallyout_defend_settlement_preference</key>
+<value>0.1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{6d2960af-e350-4d6d-bc31-5dfd50c2cb26}" record_timestamp="1423736529950" record_key="battleai_sallyout_open_field_victory_factor">
+<description>If the defensive AI's army strength is this times greater than the attacking army strength, the AI will Sally Out of a settlement</description>
+<key>battleai_sallyout_open_field_victory_factor</key>
+<value>1.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{aa3ca050-2df5-4e46-9410-f95b136ca79c}" record_timestamp="1423736529950" record_key="battleai_sallyout_tower_strength">
+<description>Approximate combat potential for a defensive tower, used by the AI to determine when to Sally Out of a settlement</description>
+<key>battleai_sallyout_tower_strength</key>
+<value>1000</value>
+</_kv_rules>
+<_kv_rules record_uuid="{b7216edf-970b-497f-8dcd-f1635456047e}" record_timestamp="1523985244274" record_key="battlefield_zone_slot_threshold">
+<description>max distance in metres that can exist between two slots when occupying zones</description>
+<key>battlefield_zone_slot_threshold</key>
+<value>12</value>
+</_kv_rules>
+<_kv_rules record_uuid="{120f813b-af6e-40b8-870a-488b645823ca}" record_key="bayonet_melee_attack_bonus">
+<description>Using bayonets increases the attack stat of a unit</description>
+<key>bayonet_melee_attack_bonus</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{a82eb0c2-b7d1-43ee-8076-d25f2f9ec33f}" record_key="bayonet_ring_reload_time_penalty">
+<description>Using Ring bayonets increases the time needed to reload the musket/carbine</description>
+<key>bayonet_ring_reload_time_penalty</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{257a1ed4-8064-4f2c-bb50-3f62cf94f84b}" record_timestamp="1489502804332" record_key="berserk_inflicted_hitpoints_ratio">
+<description>The amount of HP damage we have to do to trigger beserk. (Relative to our unit numbers)</description>
+<key>berserk_inflicted_hitpoints_ratio</key>
+<value>0.35</value>
+</_kv_rules>
+<_kv_rules record_uuid="{33da43a6-4059-4515-b803-1a3f4f0b8711}" record_timestamp="1489502804331" record_key="berserk_tick_timeout">
+<description>The amount of battle ticks idle before berserk times out.</description>
+<key>berserk_tick_timeout</key>
+<value>100</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d7321a03-b54a-4e25-b639-4a07efed7d2e}" record_timestamp="1389702412232" record_key="boiling_oil_distance_multiplier">
+<description>Multiplied  distance from the front of the gate which will cause damage to units from oil</description>
+<key>boiling_oil_distance_multiplier</key>
+<value>0.4</value>
+</_kv_rules>
+<_kv_rules record_uuid="{61cacc01-3c15-49cb-a5ae-86b915b7d6dc}" record_timestamp="1416908399148" record_key="boiling_oil_flow_duration">
+<description>Number of seconds the boiling oil flows for between intervals</description>
+<key>boiling_oil_flow_duration</key>
+<value>5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{11194789-c5e0-4b62-9b3c-69a2f2269489}" record_timestamp="1551692846115" record_key="braced_angle_for_collision_damage">
+<description>half-angle, where an entity can be considered as braced to apply a braced mass multiplier to collision damage</description>
+<key>braced_angle_for_collision_damage</key>
+<value>60</value>
+</_kv_rules>
+<_kv_rules record_uuid="{0306566d-9a97-4473-acce-8f2b5f21a931}" record_timestamp="1434454307053" record_key="bracing_attack_angle">
+<description>half-angle, where a bracing entity will perform a bracing attack vs an incoming charger</description>
+<key>bracing_attack_angle</key>
+<value>60</value>
+</_kv_rules>
+<_kv_rules record_uuid="{2ab2be8c-ff45-4cab-8b99-65930f10d144}" record_timestamp="1479294123790" record_key="bracing_calibration_ranks">
+<description>Number of ranks at which full bracing multiplier is applied. Beyond this number, bracing multiplier will be clamped.</description>
+<key>bracing_calibration_ranks</key>
+<value>3</value>
+</_kv_rules>
+<_kv_rules record_uuid="{91912c3b-37ec-4c27-9db0-7ed4b0568c23}" record_timestamp="1506430846197" record_key="bracing_calibration_ranks_multiplier">
+<description>The full bracing multiplier applied at calibration ranks. Multiplier decreases linearly to 1.0 at rank = 1.</description>
+<key>bracing_calibration_ranks_multiplier</key>
+<value>4</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d5b229bd-4282-4fa4-9a04-4d165b60a3de}" record_timestamp="1506684211048" record_key="bracing_charge_reflector_bonus">
+<description>Additonal bracing bonus (multiplied to mass) for charge reflectors</description>
+<key>bracing_charge_reflector_bonus</key>
+<value>4</value>
+</_kv_rules>
+<_kv_rules record_uuid="{956b6600-86fb-4435-b661-e2cad3bd2fb2}" record_timestamp="1479296622583" record_key="bracing_immovable_by_small_entity_mass">
+<description>The braced mass (i.e. after multiplying by bracing multiplier) beyond which an entity cannot be push around by small entities with soft collision.</description>
+<key>bracing_immovable_by_small_entity_mass</key>
+<value>1000</value>
+</_kv_rules>
+<_kv_rules record_uuid="{c162ea52-88d9-4d2b-9e24-33fc0e06aacb}" record_timestamp="1484068072899" record_key="bracing_max_multiplier_clamp">
+<description>Global max clamp on bracing multiplier after all mulitplier are applied, e.g. from special abilities.</description>
+<key>bracing_max_multiplier_clamp</key>
+<value>100</value>
+</_kv_rules>
+<_kv_rules record_uuid="{7a2bbd55-1cfe-4272-a24d-c980e4845da6}" record_timestamp="1403177677775" record_key="break_off_ignore_collision_time">
+<description>A timer that disables collision for the specified time when an entity that is breaking off collides with an enemy entity.</description>
+<key>break_off_ignore_collision_time</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{7ef37bf3-2ae2-4c0a-8c7e-e0ee5a450865}" record_timestamp="1389715368967" record_key="break_off_speed_and_direction_checks">
+<description>Enables speed and direction checks for entity breaking off. Enabling this makes breaking off more sticky.</description>
+<key>break_off_speed_and_direction_checks</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{1933b94e-a2a3-4215-8d84-facb693c3396}" record_timestamp="1507814047960" record_key="charge_cool_down_time">
+<description>time over which to fade out charge bonus after charge complete</description>
+<key>charge_cool_down_time</key>
+<value>15</value>
+</_kv_rules>
+<_kv_rules record_uuid="{28f462d2-37ff-416d-b4c9-aa92f0af86fa}" record_timestamp="1458238135842" record_key="climbing_ladder_speed_modifier">
+<description>speed modifier for ladder climbing - fast speed</description>
+<key>climbing_ladder_speed_modifier</key>
+<value>0.9</value>
+</_kv_rules>
+<_kv_rules record_uuid="{59eae9a9-c4a4-4f85-bbd5-e9f06b85c7d6}" record_timestamp="1435221705887" record_key="climbing_walls_speed_modifier">
+<description>speed modifier for wall climbing - fast speed</description>
+<key>climbing_walls_speed_modifier</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{43ac01bc-d182-4c34-8f74-5932fb40d41b}" record_timestamp="1479294123811" record_key="collision_damage_armour_penetration_ratio">
+<description>ratio of damage that ignores armour</description>
+<key>collision_damage_armour_penetration_ratio</key>
+<value>0.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{95561a11-47bf-4296-a9c8-f33abf10d28c}" record_timestamp="1458332457788" record_key="collision_damage_default">
+<description>collision damage dealt if no attacker is identified</description>
+<key>collision_damage_default</key>
+<value>10</value>
+</_kv_rules>
+<_kv_rules record_uuid="{6e60203c-e542-4b39-b0be-12ac6d055f93}" record_timestamp="1480696188393" record_key="collision_damage_immunity_timer">
+<description>Collision damage immunity timer from the same attacker</description>
+<key>collision_damage_immunity_timer</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{90d85348-a7d8-46dd-a0b1-67c017ffac45}" record_timestamp="1480696188362" record_key="collision_damage_maximum">
+<description>collision damage cap</description>
+<key>collision_damage_maximum</key>
+<value>100000</value>
+</_kv_rules>
+<_kv_rules record_uuid="{834d6701-82fa-4d6f-b397-769f384b87bf}" record_timestamp="1506430846197" record_key="collision_damage_modifier">
+<description>(collision_power^collision_damage_normaliser) * collision_damage_modifier</description>
+<key>collision_damage_modifier</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{11a7abb6-d7dd-4221-a8e6-a5f919e848b1}" record_timestamp="1481799965168" record_key="collision_damage_normaliser">
+<description>(collision_power^collision_damage_normaliser) * collision_damage_modifier</description>
+<key>collision_damage_normaliser</key>
+<value>1.8</value>
+</_kv_rules>
+<_kv_rules record_uuid="{be7a3854-b0e7-4d35-a293-21c9a29e98b0}" record_timestamp="1474993562463" record_key="collision_disable_delay_knocked_back_vs_enemies">
+<description>Delay before disabling collision on an enemy entity in a knocked back interrupt animation</description>
+<key>collision_disable_delay_knocked_back_vs_enemies</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d16240f3-92c5-4e86-a380-37687dbd4ebd}" record_timestamp="1474993562466" record_key="collision_disable_delay_knocked_back_vs_friends">
+<description>Delay before disabling collision on a friendly entity in a knocked back interrupt animation</description>
+<key>collision_disable_delay_knocked_back_vs_friends</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{5f86fb3a-b945-4466-b243-c1ccef4db906}" record_timestamp="1474993562470" record_key="collision_disable_delay_knocked_down_vs_enemies">
+<description>Delay before disabling collision on an enemy entity in a knocked down interrupt animation</description>
+<key>collision_disable_delay_knocked_down_vs_enemies</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{ea705ed8-baa4-43fd-8183-cde9bb920b70}" record_timestamp="1465987267566" record_key="collision_disable_delay_knocked_down_vs_friends">
+<description>Delay before disabling collision on a friendly entity in a knocked down interrupt animation</description>
+<key>collision_disable_delay_knocked_down_vs_friends</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{dffa49a6-3bea-45fa-9d0a-d269dcd72597}" record_timestamp="1474993562474" record_key="collision_disable_delay_knocked_flying_vs_enemies">
+<description>Delay before disabling collision on an enemy entity in a knocked flying interrupt animation</description>
+<key>collision_disable_delay_knocked_flying_vs_enemies</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d199659a-9f51-41cb-8baa-a82f83a3469e}" record_timestamp="1444646200080" record_key="collision_disable_delay_knocked_flying_vs_friends">
+<description>Delay before disabling collision on a friendly entity in a knocked flying interrupt animation</description>
+<key>collision_disable_delay_knocked_flying_vs_friends</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{dc4a4ca4-da0c-4733-9c67-35980aa57ee2}" record_timestamp="1452536034011" record_key="collision_enable_death_distance_to_obstacles_threshold">
+<description>Distance to scan for obstacles to see if collision should be disabled. This is for entites bigger than the value set in collision_disable_death_max_entity_size.</description>
+<key>collision_enable_death_distance_to_obstacles_threshold</key>
+<value>10</value>
+</_kv_rules>
+<_kv_rules record_uuid="{cae6c223-ba8a-4133-bf0c-0cf71dce58e7}" record_timestamp="1458294496363" record_key="collision_enable_death_fadeout_alpha">
+<description>Fade out alpha to use when collision is disabled for entities bigger than the value set in collision_disable_death_max_entity_size</description>
+<key>collision_enable_death_fadeout_alpha</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{8c4eea88-9d65-41cd-a7d8-df9b20631eb5}" record_timestamp="1452536033990" record_key="collision_enable_death_max_entity_size">
+<description>Entities of this size or smaller always disable collision when dead. 0-VS 1-S 2-M 3-L 4-VL.</description>
+<key>collision_enable_death_max_entity_size</key>
+<value>3</value>
+</_kv_rules>
+<_kv_rules record_uuid="{0aafad99-287f-4941-a35b-3ec577e4e243}" record_timestamp="1409060820952" record_key="collision_restitution_coefficient">
+<description>Coefficient of restitution for entity collision physics</description>
+<key>collision_restitution_coefficient</key>
+<value>0.3</value>
+</_kv_rules>
+<_kv_rules record_uuid="{ac6b1270-81c0-492d-8392-1be88f7a6721}" record_timestamp="1506430846197" record_key="collision_speed_delta_threshold_knocked_back">
+<description>instantaneous speed delta to trigger a knocked back interrupt</description>
+<key>collision_speed_delta_threshold_knocked_back</key>
+<value>10</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d9c54d95-6501-4dc7-a385-e56202ded950}" record_timestamp="1506430846197" record_key="collision_speed_delta_threshold_knocked_down">
+<description>instantaneous speed delta to trigger a knocked down interrupt</description>
+<key>collision_speed_delta_threshold_knocked_down</key>
+<value>15</value>
+</_kv_rules>
+<_kv_rules record_uuid="{3929d584-71c6-492b-a844-f253d5ee1f15}" record_timestamp="1506430846197" record_key="collision_speed_delta_threshold_knocked_flying">
+<description>instantaneous speed delta to trigger a knocked flying interrupt</description>
+<key>collision_speed_delta_threshold_knocked_flying</key>
+<value>20</value>
+</_kv_rules>
+<_kv_rules record_uuid="{3f8d3974-9c18-445d-bb62-7261cd74fa85}" record_timestamp="1506430846197" record_key="collision_speed_delta_threshold_step_back">
+<description>instantaneous speed delta to trigger a step back interrupt</description>
+<key>collision_speed_delta_threshold_step_back</key>
+<value>5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{2a743d18-0ab7-4313-9887-affbe6d489a2}" record_timestamp="1487086224648" record_key="default_num_placeable_obstacles">
+<description>The default number of obstacles (toggleable buildings) can enable in battle</description>
+<key>default_num_placeable_obstacles</key>
+<value>5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{2722274f-1578-4ab2-9ff8-40a90c4571d3}" record_timestamp="1467381209908" record_key="defense_line_pivot_factor">
+<description>Sets how far down the pivot point is from the front of the formation. 0 = pivot from the front, 1 = pivot from the back</description>
+<key>defense_line_pivot_factor</key>
+<value>0.8</value>
+</_kv_rules>
+<_kv_rules record_uuid="{b3b5899c-e6d1-4398-bb7d-98ad1f397dcb}" record_timestamp="1505385164710" record_key="difficulty_mod_ai_easy_charge_bonus">
+<description></description>
+<key>difficulty_mod_ai_easy_charge_bonus</key>
+<value>0.9</value>
+</_kv_rules>
+<_kv_rules record_uuid="{3e703e01-c5c3-4735-ab0f-59dc7512438f}" record_timestamp="1505385164709" record_key="difficulty_mod_ai_easy_melee_attack">
+<description></description>
+<key>difficulty_mod_ai_easy_melee_attack</key>
+<value>0.9</value>
+</_kv_rules>
+<_kv_rules record_uuid="{0c4312ae-6671-4d24-9baf-ff685dbb2cc8}" record_timestamp="1541671724490" record_key="difficulty_mod_ai_easy_melee_attack_interval">
+<description>Multiplicative modifier to melee attack interval on easy for the AI only</description>
+<key>difficulty_mod_ai_easy_melee_attack_interval</key>
+<value>1.1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{914a433e-d182-4272-90f9-e6ef9341939f}" record_timestamp="1505385164709" record_key="difficulty_mod_ai_easy_melee_damage">
+<description></description>
+<key>difficulty_mod_ai_easy_melee_damage</key>
+<value>0.9</value>
+</_kv_rules>
+<_kv_rules record_uuid="{65b454dc-488e-446a-b849-90db35fb2513}" record_timestamp="1505385164709" record_key="difficulty_mod_ai_easy_melee_defence">
+<description></description>
+<key>difficulty_mod_ai_easy_melee_defence</key>
+<value>0.9</value>
+</_kv_rules>
+<_kv_rules record_uuid="{0e397e7f-3079-47c0-801e-cede52feee4b}" record_timestamp="1505385164710" record_key="difficulty_mod_ai_easy_missile_reload_additional">
+<description></description>
+<key>difficulty_mod_ai_easy_missile_reload_additional</key>
+<value>-10</value>
+</_kv_rules>
+<_kv_rules record_uuid="{e4b93a01-183d-4417-a19d-66fda0b15c80}" record_timestamp="1505385164710" record_key="difficulty_mod_ai_hard_charge_bonus">
+<description></description>
+<key>difficulty_mod_ai_hard_charge_bonus</key>
+<value>1.1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{5e06b9bf-64df-4c1a-8f6f-40532e9a8fb9}" record_timestamp="1505385164709" record_key="difficulty_mod_ai_hard_melee_attack">
+<description></description>
+<key>difficulty_mod_ai_hard_melee_attack</key>
+<value>1.1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{935603da-1f83-42cc-9c70-c80213cf7e82}" record_timestamp="1541671724484" record_key="difficulty_mod_ai_hard_melee_attack_interval">
+<description>Multiplicative modifier to melee attack interval on hard for the AI only</description>
+<key>difficulty_mod_ai_hard_melee_attack_interval</key>
+<value>0.9</value>
+</_kv_rules>
+<_kv_rules record_uuid="{ef53c243-03f6-4f7a-bc7e-12ce2896a15a}" record_timestamp="1505385164710" record_key="difficulty_mod_ai_hard_melee_damage">
+<description></description>
+<key>difficulty_mod_ai_hard_melee_damage</key>
+<value>1.1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{dc851ba3-39d7-4fd9-add5-a5abba5ef8cd}" record_timestamp="1505385164710" record_key="difficulty_mod_ai_hard_melee_defence">
+<description></description>
+<key>difficulty_mod_ai_hard_melee_defence</key>
+<value>1.1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d92a41b8-2612-4153-8df1-ceca43f417df}" record_timestamp="1505385164710" record_key="difficulty_mod_ai_hard_missile_reload_additional">
+<description></description>
+<key>difficulty_mod_ai_hard_missile_reload_additional</key>
+<value>10</value>
+</_kv_rules>
+<_kv_rules record_uuid="{cc598286-fc39-48dd-a4e1-6b1e00cab529}" record_timestamp="1505385164710" record_key="difficulty_mod_ai_very_hard_charge_bonus">
+<description></description>
+<key>difficulty_mod_ai_very_hard_charge_bonus</key>
+<value>1.2</value>
+</_kv_rules>
+<_kv_rules record_uuid="{be37f16a-d801-42e0-a2fd-90d814311b69}" record_timestamp="1505385164710" record_key="difficulty_mod_ai_very_hard_melee_attack">
+<description></description>
+<key>difficulty_mod_ai_very_hard_melee_attack</key>
+<value>1.2</value>
+</_kv_rules>
+<_kv_rules record_uuid="{3f8b7d14-d605-474e-9c90-51b274cc13c9}" record_timestamp="1541671724473" record_key="difficulty_mod_ai_very_hard_melee_attack_interval">
+<description>Multiplicative modifier to melee attack interval on very hard for the AI only</description>
+<key>difficulty_mod_ai_very_hard_melee_attack_interval</key>
+<value>0.8</value>
+</_kv_rules>
+<_kv_rules record_uuid="{5724367e-0f67-49b1-b692-8552e477ff63}" record_timestamp="1505385164710" record_key="difficulty_mod_ai_very_hard_melee_damage">
+<description></description>
+<key>difficulty_mod_ai_very_hard_melee_damage</key>
+<value>1.2</value>
+</_kv_rules>
+<_kv_rules record_uuid="{ff97f747-2170-4004-a6d3-f295da38d1c1}" record_timestamp="1505385164710" record_key="difficulty_mod_ai_very_hard_melee_defence">
+<description></description>
+<key>difficulty_mod_ai_very_hard_melee_defence</key>
+<value>1.2</value>
+</_kv_rules>
+<_kv_rules record_uuid="{6a40af00-78db-4886-a757-2c2c86eb4362}" record_timestamp="1505385164710" record_key="difficulty_mod_ai_very_hard_missile_reload_additional">
+<description></description>
+<key>difficulty_mod_ai_very_hard_missile_reload_additional</key>
+<value>20</value>
+</_kv_rules>
+<_kv_rules record_uuid="{bb296ee8-a3e1-4eb9-80fa-7ee600a15f35}" record_timestamp="1467381209909" record_key="discard_defensive_feature_distance">
+<description>If a hill is over this distance away, it will not be considered</description>
+<key>discard_defensive_feature_distance</key>
+<value>80</value>
+</_kv_rules>
+<_kv_rules record_uuid="{7ac456c3-8818-47c3-9056-799293330394}" record_timestamp="1507646567667" record_key="entity_attack_interval_and_damage_modifier_vs_heroes">
+<description>The mutliplier to use to modify the attack interval and damage done from a regular unit entity against a hero entity. So e.g. if this is 2.0, we double the attack interval and attack damage so the dps will remain the same but the entities will attack the hero less. (default 1.0 - no change)</description>
+<key>entity_attack_interval_and_damage_modifier_vs_heroes</key>
+<value>2</value>
+</_kv_rules>
+<_kv_rules record_uuid="{32758e52-aee2-463a-8a67-bba796a068c7}" record_timestamp="1496647740816" record_key="entity_formation_spacing">
+<description>Separation in metres between the entity formation slots</description>
+<key>entity_formation_spacing</key>
+<value>1.8</value>
+</_kv_rules>
+<_kv_rules record_uuid="{ad25a730-7744-4d06-a9e0-66a44b6eb4ef}" record_timestamp="1474983289687" record_key="entity_time_to_reach_optimum_tracking_threshold">
+<description>Time (in seconds) before entity will track correctly after starting movement </description>
+<key>entity_time_to_reach_optimum_tracking_threshold</key>
+<value>15</value>
+</_kv_rules>
+<_kv_rules record_uuid="{fd272ebb-e1c4-44ac-81a7-092df42226b0}" record_timestamp="1422026585020" record_key="escalation_level_one_building_health">
+<description>Health of buildings for custom battle in escalation level 1</description>
+<key>escalation_level_one_building_health</key>
+<value>0.7</value>
+</_kv_rules>
+<_kv_rules record_uuid="{2bd5b632-2b57-493f-a2a8-f04a0cff7b3a}" record_timestamp="1423652701454" record_key="escalation_level_one_wall_breaches">
+<description></description>
+<key>escalation_level_one_wall_breaches</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{e9f37a2b-0b99-412a-8e06-1764b0ddf94b}" record_timestamp="1423652701430" record_key="escalation_level_one_wall_health">
+<description></description>
+<key>escalation_level_one_wall_health</key>
+<value>0.7</value>
+</_kv_rules>
+<_kv_rules record_uuid="{7d58eb18-dca5-41f0-b130-54fc249f14e9}" record_timestamp="1422026585032" record_key="escalation_level_two_building_health">
+<description>Health of buildings for custom battle in escalation level 2</description>
+<key>escalation_level_two_building_health</key>
+<value>0.3</value>
+</_kv_rules>
+<_kv_rules record_uuid="{b0a3a0c6-eb08-4b19-9321-40dfa2ef3791}" record_timestamp="1423652701464" record_key="escalation_level_two_wall_breaches">
+<description></description>
+<key>escalation_level_two_wall_breaches</key>
+<value>4</value>
+</_kv_rules>
+<_kv_rules record_uuid="{33ee84b6-9aa6-477d-aee0-892dd9a25c3e}" record_timestamp="1423652701445" record_key="escalation_level_two_wall_health">
+<description></description>
+<key>escalation_level_two_wall_health</key>
+<value>0.3</value>
+</_kv_rules>
+<_kv_rules record_uuid="{cac41145-8625-44d5-9321-db6f6dafa39e}" record_timestamp="1445511276089" record_key="fire_damage_only_applies_to_siege_equipment">
+<description>Whether the fire damage applies only to siege equipment or to all entities (chariots, engines, etc.)</description>
+<key>fire_damage_only_applies_to_siege_equipment</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{fb3ee7d4-8c50-4995-b07c-5f03192166d6}" record_timestamp="1458238135704" record_key="fire_on_walls_accuracy_modifier">
+<description></description>
+<key>fire_on_walls_accuracy_modifier</key>
+<value>0.1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{35fa2092-d2a3-42e5-93be-979f1b45ad9a}" record_key="fire_on_walls_reload_modifier">
+<description></description>
+<key>fire_on_walls_reload_modifier</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{c8733baa-d6a4-45d4-a643-4d5b926d485b}" record_key="fire_volley_arrow_min_threshold">
+<description></description>
+<key>fire_volley_arrow_min_threshold</key>
+<value>0.1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d75525f3-e419-40c4-af7c-9b60e22d0366}" record_key="fire_volley_gun_min_threshold">
+<description></description>
+<key>fire_volley_gun_min_threshold</key>
+<value>0.025</value>
+</_kv_rules>
+<_kv_rules record_uuid="{a19990c3-6a3e-4205-8147-ec0cf38bbdda}" record_key="fire_volley_max_aim_delay_training_ratio">
+<description>This increases (linearly) the initial delay to aiming, the poorer the training of the unit</description>
+<key>fire_volley_max_aim_delay_training_ratio</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{2fb0af4f-526c-4709-8264-45f2d00c7886}" record_key="firing_drill_improved_platoon_fire_reload_modifier">
+<description></description>
+<key>firing_drill_improved_platoon_fire_reload_modifier</key>
+<value>50</value>
+</_kv_rules>
+<_kv_rules record_uuid="{5ead098e-c993-4af2-82a3-597f48621375}" record_key="firing_drill_mass_fire_reload_modifier">
+<description></description>
+<key>firing_drill_mass_fire_reload_modifier</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{5e517df1-d56f-4bd2-8458-b6a67a669fbf}" record_key="firing_drill_platoon_fire_reload_modifier">
+<description></description>
+<key>firing_drill_platoon_fire_reload_modifier</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{dda1e516-a225-40a3-a48a-36ef2f5b20c3}" record_key="firing_drill_rank_fire_reload_modifier">
+<description></description>
+<key>firing_drill_rank_fire_reload_modifier</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d8b0f69a-54fd-45f9-89ff-175589d34d3a}" record_timestamp="1416303035815" record_key="fort_wall_visibility_enabled">
+<description>In fort battles, the walls give a perimeter visibility for the defender.</description>
+<key>fort_wall_visibility_enabled</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{f60dcd18-1084-46e5-ac9e-7621d28d0c34}" record_timestamp="1416303035825" record_key="fort_wall_visibility_perimeter_distance">
+<description>The distance the defender can see from unmanned fort walls.</description>
+<key>fort_wall_visibility_perimeter_distance</key>
+<value>500</value>
+</_kv_rules>
+<_kv_rules record_uuid="{1d203e76-1562-4f79-afc6-f95c7214de42}" record_timestamp="1511784440466" record_key="free_for_all_last_man_standing_bonus_ratio">
+<description>Ratio of players starting score/strenth that is awarded for being the last remaining player</description>
+<key>free_for_all_last_man_standing_bonus_ratio</key>
+<value>0.2</value>
+</_kv_rules>
+<_kv_rules record_uuid="{41a6cb16-ecff-4246-8fcf-0b02e5de8eb9}" record_timestamp="1421754935924" record_key="general_auto_survive_threshold">
+<description>When the percentage of alive entities in the general's unit is above this value the general cannot be killed.</description>
+<key>general_auto_survive_threshold</key>
+<value>0.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{b2eb46e6-9ff1-4696-888d-9ae03f354096}" record_timestamp="1525194543574" record_key="hero_dismount_chance_vs_reflect_units">
+<description>The chance of a hero being dismounted when charging against a charge reflector/negator</description>
+<key>hero_dismount_chance_vs_reflect_units</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{fe61ad62-978a-4e89-8cc2-2c4fdef0c25b}" record_timestamp="1530609382017" record_key="hero_duel_allowed_time_to_accept_reject">
+<description>Time allowed to respond to a duel proposition from another player/ai. After this time has elapsed, a default option will be choosen (Accept).</description>
+<key>hero_duel_allowed_time_to_accept_reject</key>
+<value>15</value>
+</_kv_rules>
+<_kv_rules record_uuid="{bb1d9add-1d53-48e3-949e-fd130252540f}" record_timestamp="1517934315675" record_key="hero_duel_blocking_allow_attack_when_max_missed_attacks_reached">
+<description>0 - False 1 - True. If we allow a &quot;free&quot; attack when the missed attack limit is reached, this will ignore the block total but ensures the duel doesnt become stale with all blocks and no hits</description>
+<key>hero_duel_blocking_allow_attack_when_max_missed_attacks_reached</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d10e6cc8-a77f-4aa0-bbcc-2484cb68deb8}" record_timestamp="1517934315546" record_key="hero_duel_blocking_decay_modifier">
+<description>The amount to decay the block chance when performing a block in place of an attack. Once this chance reaches 0, an attack can be played without a responding block. Formula for calculating the decrease when blocking - hero_duel_blocking_decay_modifier * (attacker__m_damage / defender_m_damage)</description>
+<key>hero_duel_blocking_decay_modifier</key>
+<value>10</value>
+</_kv_rules>
+<_kv_rules record_uuid="{c0b7b1e3-8e3e-4ecf-a03b-63440fe74d1a}" record_timestamp="1517934315575" record_key="hero_duel_blocking_defence_modifier">
+<description>This value multiplied by the entities melee defence with decide the starting blocking total. So if 10 and melee defence is 10 then the entity will have a max total of 100. Every attack the entity could hit with will change to a miss so the opponent will block, if this value is &gt; 0. When this is the case, the value will decay</description>
+<key>hero_duel_blocking_defence_modifier</key>
+<value>10</value>
+</_kv_rules>
+<_kv_rules record_uuid="{a26694f6-e27f-4e35-90c0-db40b4d135be}" record_timestamp="1517934315621" record_key="hero_duel_blocking_enabled">
+<description>0 - False 1 - True. If we use the extra blocks system for duels</description>
+<key>hero_duel_blocking_enabled</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{4445a7a1-7dbb-477c-aee9-9c7d84c9487e}" record_timestamp="1517934315600" record_key="hero_duel_blocking_max_cached_attacks">
+<description>The max number of attacks to cache when we play a block/miss instead of hit. The number of cached attacks will be multiplied by the damage done when a succesfull attack lands. -1 means no limit</description>
+<key>hero_duel_blocking_max_cached_attacks</key>
+<value>20</value>
+</_kv_rules>
+<_kv_rules record_uuid="{dc7eceb0-27e2-4b5d-bbcc-eecf66d55aa2}" record_timestamp="1517934315526" record_key="hero_duel_blocking_recovery_modifier">
+<description>Used to calculate the recovery per tick. Formula - (melee_defence / hero_duel_blocking_defence_modifier) * hero_duel_blocking_recovery_modifier. If the recovery value per tick resolves to be too high (greater than the decay rate), then the entity may never be allowed to land an attack</description>
+<key>hero_duel_blocking_recovery_modifier</key>
+<value>0.3</value>
+</_kv_rules>
+<_kv_rules record_uuid="{4cd8bd6d-9cdb-4fec-886e-f9544c7dbfd8}" record_timestamp="1517934315644" record_key="hero_duel_blocking_unmounted_vs_unmounted_only">
+<description>0 - False 1 - True. If we use the extra blocks system for duels, only when both heroes are dismounted, else enabled for the mounted charge phase too</description>
+<key>hero_duel_blocking_unmounted_vs_unmounted_only</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{73b2cb44-88d8-412b-8a52-7998118cb41f}" record_timestamp="1499092715830" record_key="hero_duel_brawl_chance">
+<description>Chance of a brawl after the hero_duel_time_between_brawls has elapsed (0-1)</description>
+<key>hero_duel_brawl_chance</key>
+<value>0.3</value>
+</_kv_rules>
+<_kv_rules record_uuid="{f2fbd970-5924-4a20-be72-2384c5bed43f}" record_timestamp="1498555915045" record_key="hero_duel_brawl_time_max">
+<description>Max brawl time (seconds)</description>
+<key>hero_duel_brawl_time_max</key>
+<value>10</value>
+</_kv_rules>
+<_kv_rules record_uuid="{41c2b261-a611-4f8d-9430-84a107b17e6f}" record_timestamp="1498555915045" record_key="hero_duel_brawl_time_min">
+<description>Min brawl time (seconds)</description>
+<key>hero_duel_brawl_time_min</key>
+<value>5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{a1fe55c2-e280-49ce-9fd4-1d6cbc0df839}" record_timestamp="1499092715830" record_key="hero_duel_brawl_to_circle_chance">
+<description>Chance of transitioning to a circle after a brawl (0-1)</description>
+<key>hero_duel_brawl_to_circle_chance</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{b00947bd-b102-4950-9ed9-76fe908cb39d}" record_timestamp="1498555915045" record_key="hero_duel_circle_radius">
+<description>Radius of the circle phase.</description>
+<key>hero_duel_circle_radius</key>
+<value>6</value>
+</_kv_rules>
+<_kv_rules record_uuid="{7998141e-e0c3-4dac-bdcf-6f54c6041e57}" record_timestamp="1499092715830" record_key="hero_duel_circle_to_brawl_chance">
+<description>Chance of transitioning to a brawl after a circle (default: 0.55)</description>
+<key>hero_duel_circle_to_brawl_chance</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{0bc79b10-ad6e-4621-a42a-c120b3f668bf}" record_timestamp="1499092715830" record_key="hero_duel_circle_turn_target_radians">
+<description>The turn amount the hero will travel when in the circle state (in radians, 2pi default: 6.2831)</description>
+<key>hero_duel_circle_turn_target_radians</key>
+<value>6.2831</value>
+</_kv_rules>
+<_kv_rules record_uuid="{bfe110c4-b1b6-424e-a7e9-5a320c63f942}" record_timestamp="1499092715830" record_key="hero_duel_dismount_chance_modifier">
+<description>Modifier to apply when calculating the base dismount chance (default: 1) (BASE CHANCE: attacking_hero_exp / attacked_hero_exp * damage_proportion * THIS)</description>
+<key>hero_duel_dismount_chance_modifier</key>
+<value>7</value>
+</_kv_rules>
+<_kv_rules record_uuid="{c9febd3f-c823-4738-90e3-522ec05ddf60}" record_timestamp="1517934315463" record_key="hero_duel_dismount_target">
+<description>Target at which the hero will be dismounted in a duel. This value will decay and each bit of damage done to the unit will sum towards this. Each successful strike done by this unit will replenish this target a bit  (default: 0.6)</description>
+<key>hero_duel_dismount_target</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{99e25169-2e85-462a-98db-8bf7499302f3}" record_timestamp="1517934315482" record_key="hero_duel_dismount_target_decay_per_second">
+<description>The amount per second that the hero_duel_dismount_target will reduce by (default: 0.004)</description>
+<key>hero_duel_dismount_target_decay_per_second</key>
+<value>0.004</value>
+</_kv_rules>
+<_kv_rules record_uuid="{e2fa15db-84e7-4160-b185-a4531519157a}" record_timestamp="1517934315505" record_key="hero_duel_dismount_target_decay_recovery_per_hit">
+<description>The amount that hero_duel_dismount_target will gain per successful strike (default: 0.008)</description>
+<key>hero_duel_dismount_target_decay_recovery_per_hit</key>
+<value>0.008</value>
+</_kv_rules>
+<_kv_rules record_uuid="{6dfc42cf-79f3-4a8e-914b-8d56f41ff5da}" record_timestamp="1499092715830" record_key="hero_duel_man_vs_mount_bonus_dismount_chance_modifier">
+<description>Bonus dismount chance modifier to apply to an un-mounted hero when facing a mounted hero. This is multiplied with the base chance calculated. (default: 5)</description>
+<key>hero_duel_man_vs_mount_bonus_dismount_chance_modifier</key>
+<value>7</value>
+</_kv_rules>
+<_kv_rules record_uuid="{8487ca4c-2b2d-4927-8aff-fce309f8f792}" record_timestamp="1499092715830" record_key="hero_duel_reposition_distance">
+<description>Distance to move after the charge phase (default: 17.5)</description>
+<key>hero_duel_reposition_distance</key>
+<value>15</value>
+</_kv_rules>
+<_kv_rules record_uuid="{e42929f0-3bb2-4979-be56-e677c4e5a081}" record_timestamp="1523365597267" record_key="hero_duel_sparing_killing_blow_damage_modifier">
+<description>The amount of the percentage of remaining hp to remove when a killing blow is spared by the attacking hero in duel.</description>
+<key>hero_duel_sparing_killing_blow_damage_modifier</key>
+<value>0.7</value>
+</_kv_rules>
+<_kv_rules record_uuid="{49ccbd44-cd7f-40bb-89b7-3251b41d0e78}" record_timestamp="1538989583722" record_key="hero_duel_survival_time_calculation_constant">
+<description></description>
+<key>hero_duel_survival_time_calculation_constant</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{6e8ab3c0-fb08-4b57-b33f-6b6a94f99c3c}" record_timestamp="1538989583722" record_key="hero_duel_survival_time_to_survive_seconds_max">
+<description>The absolute maximum time to allow in duel survival goal</description>
+<key>hero_duel_survival_time_to_survive_seconds_max</key>
+<value>120</value>
+</_kv_rules>
+<_kv_rules record_uuid="{3389be21-e8df-4a21-abea-c948afb4b7ec}" record_timestamp="1538989583722" record_key="hero_duel_survival_time_to_survive_seconds_min">
+<description>The absolute minimum time to allow in duel survival goal</description>
+<key>hero_duel_survival_time_to_survive_seconds_min</key>
+<value>60</value>
+</_kv_rules>
+<_kv_rules record_uuid="{6d100f22-fe47-4678-9b29-1fc414c51e98}" record_timestamp="1499092715830" record_key="hero_duel_time_before_dismount_allowed">
+<description>The time (seconds) to elapse in a duel until a dismount chance is allowed. 0 == can dismount anytime</description>
+<key>hero_duel_time_before_dismount_allowed</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{4999d517-5494-4034-b921-bad2c2a0cbde}" record_timestamp="1499092715830" record_key="hero_duel_time_between_brawls">
+<description>Min time between brawl phases (default: 30)</description>
+<key>hero_duel_time_between_brawls</key>
+<value>20</value>
+</_kv_rules>
+<_kv_rules record_uuid="{9b2add93-f872-41a0-b876-16a83871b278}" record_timestamp="1481731665136" record_key="hitpoint_threshold_to_fall_through_collision">
+<description>Entities with this many hitpoints or less will fall through hard collision (e.g. over ledges, cliffs, etc)</description>
+<key>hitpoint_threshold_to_fall_through_collision</key>
+<value>50</value>
+</_kv_rules>
+<_kv_rules record_uuid="{42806900-70fa-4f63-835f-ff19121523be}" record_timestamp="1389702471292" record_key="impact_reflection_attack_cooldown_timer">
+<description>for pikes - time before the same defender can be attacked by the same pikeman</description>
+<key>impact_reflection_attack_cooldown_timer</key>
+<value>0.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{c4248a15-faa5-43e8-86b4-455518d7a8ee}" record_timestamp="1382688115030" record_key="impact_reflection_final_damage_modifier">
+<description>for pikes - multiplied to damage result from combat rules to determine final pike damage</description>
+<key>impact_reflection_final_damage_modifier</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{0345f409-61e4-45e0-978b-446eca0d0f95}" record_timestamp="1382688115047" record_key="impact_reflection_knockback_chance">
+<description>for pikes - chance of triggering a knockback on hitting</description>
+<key>impact_reflection_knockback_chance</key>
+<value>75</value>
+</_kv_rules>
+<_kv_rules record_uuid="{fe868ebe-2cce-4ada-8fda-99f0d7e1bb8b}" record_timestamp="1389702873535" record_key="impact_reflection_velocity_bonus_damage_modifier">
+<description>for pikes - multiplied to bearing_relative_speed between defender and pikeman to determine pike damage bonus</description>
+<key>impact_reflection_velocity_bonus_damage_modifier</key>
+<value>3</value>
+</_kv_rules>
+<_kv_rules record_uuid="{bcac67ce-05be-42f3-9e79-3a0f3ff226d2}" record_timestamp="1441372146767" record_key="interrupt_mass_ratio_clamp_hit_reaction">
+<description>attacker/defender mass ratio where no hit reactions will be triggered by rules</description>
+<key>interrupt_mass_ratio_clamp_hit_reaction</key>
+<value>0.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{45176025-8b91-452e-a473-90b98d40142a}" record_timestamp="1449847775066" record_key="interrupt_mass_ratio_clamp_knockback">
+<description>attacker/defender mass ratio where no knock backs will be triggered by rules, or cascading</description>
+<key>interrupt_mass_ratio_clamp_knockback</key>
+<value>0.35</value>
+</_kv_rules>
+<_kv_rules record_uuid="{0cb42f02-c75a-4e24-84f6-455f3e33d083}" record_timestamp="1441372146705" record_key="interrupt_mass_ratio_clamp_knockdown">
+<description>attacker/defender mass ratio where no knock downs will be triggered by rules, or cascading</description>
+<key>interrupt_mass_ratio_clamp_knockdown</key>
+<value>0.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{dd26e9c4-98d1-49a0-b938-84b22b19e1b5}" record_timestamp="1476886657347" record_key="interrupt_mass_ratio_clamp_melee_block">
+<description>attacker/defender mass ratio where no melee blocks will be triggered by rules</description>
+<key>interrupt_mass_ratio_clamp_melee_block</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{1791b489-8eda-4ebe-b269-cb9a7ba42c0a}" record_timestamp="1441372146793" record_key="interrupt_mass_ratio_clamp_stepback">
+<description>attacker/defender mass ratio where no step backs will be triggered by rules, or cascading</description>
+<key>interrupt_mass_ratio_clamp_stepback</key>
+<value>0.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d2b2a4aa-ec83-4a54-b657-3f447720b889}" record_timestamp="1486989138813" record_key="jump_attack_chance">
+<description>chance to trigger a jumping attack instead of a moving attack</description>
+<key>jump_attack_chance</key>
+<value>100</value>
+</_kv_rules>
+<_kv_rules record_uuid="{3898e866-24c6-4f86-a44d-fbd19a41c6a6}" record_timestamp="1495120103376" record_key="jump_attack_chance_for_small_groups">
+<description>chance to trigger a jumping attack instead of a moving attack for small groups / units / heroes</description>
+<key>jump_attack_chance_for_small_groups</key>
+<value>100</value>
+</_kv_rules>
+<_kv_rules record_uuid="{3b2d97d8-de9c-4215-9d7d-11883b107b1e}" record_timestamp="1494497368587" record_key="jump_attack_chance_vs_charge_reflection">
+<description>chance to trigger a jumping attack instead of a moving attack against a unit having charge reflection</description>
+<key>jump_attack_chance_vs_charge_reflection</key>
+<value>5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{da2b12a7-a889-4f2a-a3ac-ffd77410baf3}" record_timestamp="1547117256063" record_key="jump_attack_chance_vs_routing_target">
+<description>chance to trigger a jumping attack instead of a moving attack against a routing unit (applied for small groups / units / heroes as well)</description>
+<key>jump_attack_chance_vs_routing_target</key>
+<value>5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{cf181343-ea3a-45f6-8730-03ad772330de}" record_timestamp="1436972666408" record_key="knockdown_getting_up_delay_armour_multiplier">
+<description>multiplied to the armour stat and then added to the randomised delay time generated from the randomiser</description>
+<key>knockdown_getting_up_delay_armour_multiplier</key>
+<value>0.02</value>
+</_kv_rules>
+<_kv_rules record_uuid="{a8d26620-cf98-482d-8cb6-66a5e4a4be5b}" record_timestamp="1465987169246" record_key="knockdown_getting_up_delay_max">
+<description>maximum delay time for randomiser</description>
+<key>knockdown_getting_up_delay_max</key>
+<value>0.6</value>
+</_kv_rules>
+<_kv_rules record_uuid="{4e8c7261-4a67-4b43-bc71-919da964a3f6}" record_timestamp="1480696188287" record_key="knockdown_getting_up_delay_min">
+<description>minimum delay time for randomiser</description>
+<key>knockdown_getting_up_delay_min</key>
+<value>0.4</value>
+</_kv_rules>
+<_kv_rules record_uuid="{5df7473b-c594-4647-9a1c-bb98b7cf6f87}" record_timestamp="1505297682582" record_key="matched_combat_hero_vs_hero_cavalry_percentage">
+<description>Percentage chance of using matched combat instead of async attacks for melee combat, for hero_vs_hero when at least one of them is cavalry. </description>
+<key>matched_combat_hero_vs_hero_cavalry_percentage</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{2d154630-6069-4cdf-bdc9-fa0f67513e29}" record_timestamp="1524140654690" record_key="matched_combat_hero_vs_hero_infantry_percentage">
+<description>Percentage chance of using matched combat instead of async attacks for melee combat, for hero_vs_hero when both are infantry. </description>
+<key>matched_combat_hero_vs_hero_infantry_percentage</key>
+<value>60</value>
+</_kv_rules>
+<_kv_rules record_uuid="{028bfbc3-696d-481e-ab57-38a86fa8b387}" record_timestamp="1505297682582" record_key="matched_combat_hero_vs_unit_percentage">
+<description>Percentage chance of using matched combat instead of async attacks for melee combat, for hero_vs_units. </description>
+<key>matched_combat_hero_vs_unit_percentage</key>
+<value>5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{6c7fd0ca-358a-4ec1-930b-c0416cb92b79}" record_timestamp="1438942715130" record_key="matched_combat_min_hitpoints_to_initiate">
+<description>Percentage hit points remaining required to initiate matched combat.</description>
+<key>matched_combat_min_hitpoints_to_initiate</key>
+<value>15</value>
+</_kv_rules>
+<_kv_rules record_uuid="{1bd7504e-a5b6-40b0-9378-27af16494702}" record_timestamp="1438942715130" record_key="matched_combat_min_hitpoints_whilst_active">
+<description>When taking damage from sources not in the same combat witness, remaining hit points is clamped to this value to prevent entity from dying and prematurely terminating matched combat.</description>
+<key>matched_combat_min_hitpoints_whilst_active</key>
+<value>5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{372de085-03f4-4965-8153-ca7e2358e451}" record_timestamp="1438942715127" record_key="matched_combat_percentage">
+<description>Percentage chance of using matched combat instead of async attacks for melee combat</description>
+<key>matched_combat_percentage</key>
+<value>10</value>
+</_kv_rules>
+<_kv_rules record_uuid="{2760e7e2-5cee-416e-862f-e540ca41de39}" record_timestamp="1505297682582" record_key="matched_combat_unit_vs_hero_percentage">
+<description>Percentage chance of using matched combat instead of async attacks for melee combat, for units_vs_heroes.</description>
+<key>matched_combat_unit_vs_hero_percentage</key>
+<value>5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{7085c999-e16c-4906-baba-7c8d4c644dc6}" record_timestamp="1536075994058" record_key="maximum_bastion_artillery_per_settlement">
+<description>The maximum number of bastion artillery pieces the defender can have in a siege. Each settlement must have at LEAST this many slots, it can have more.</description>
+<key>maximum_bastion_artillery_per_settlement</key>
+<value>5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{c0c994ca-357c-4873-af24-4d7b700c8603}" record_timestamp="1448902291314" record_key="melee_attack_interval">
+<description>delay after weapon hit before the next attack animation can start</description>
+<key>melee_attack_interval</key>
+<value>3.8</value>
+</_kv_rules>
+<_kv_rules record_uuid="{77b0fe43-5691-4a8c-9a0a-4f09e4550dfb}" record_timestamp="1485444293258" record_key="melee_attack_threshold_modifier_artillery">
+<description>Modifier applied to the number of entities in a unit to calculate how many entities have to be in combat to react, for artillery units</description>
+<key>melee_attack_threshold_modifier_artillery</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d829bf5b-6605-4264-bd27-6d516fee7dd1}" record_timestamp="1488969604306" record_key="melee_attack_threshold_modifier_guard_mode_active">
+<description>Modifier applied to the number of entities in a unit to calculate how many entities have to be in combat to react, when the unit is in guard mode</description>
+<key>melee_attack_threshold_modifier_guard_mode_active</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{56c0782d-d6a4-435b-826f-4f46cd639dab}" record_timestamp="1485444293258" record_key="melee_attack_threshold_modifier_idle_ammo_remaining">
+<description>Modifier applied to the number of entities in a unit to calculate how many entities have to be in combat to react, when the unit is idle AND has ammo AND unit missile weapon is not precursor AND unit has fire at will</description>
+<key>melee_attack_threshold_modifier_idle_ammo_remaining</key>
+<value>0.85</value>
+</_kv_rules>
+<_kv_rules record_uuid="{4530b1af-41b6-4599-b116-ec0f7ced26e6}" record_timestamp="1485444293258" record_key="melee_attack_threshold_modifier_idle_default">
+<description>Modifier applied to the number of entities in a unit to calculate how many entities have to be in combat to react, default modifier</description>
+<key>melee_attack_threshold_modifier_idle_default</key>
+<value>0.1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{e8823f72-bc67-4e3c-a0c8-1e5edfbc43a5}" record_timestamp="1485444293258" record_key="melee_attack_threshold_modifier_ordered">
+<description>Modifier applied to the number of entities in a unit to calculate how many entities have to be in combat to react, when the unit is not idle</description>
+<key>melee_attack_threshold_modifier_ordered</key>
+<value>0.15</value>
+</_kv_rules>
+<_kv_rules record_uuid="{bd3ddf4f-8a9f-4238-8b8a-b1af96cfdc1a}" record_timestamp="1465987087295" record_key="melee_defence_direction_penalty_coefficient_flank">
+<description>coefficient by which defender's melee defence stat is multiplied by when attacked in the flank</description>
+<key>melee_defence_direction_penalty_coefficient_flank</key>
+<value>0.6</value>
+</_kv_rules>
+<_kv_rules record_uuid="{4507fd23-f59b-42b8-9094-81f2231c0c80}" record_timestamp="1465987087295" record_key="melee_defence_direction_penalty_coefficient_rear">
+<description>coefficient by which defender's melee defence stat is multiplied by when attacked in the rear</description>
+<key>melee_defence_direction_penalty_coefficient_rear</key>
+<value>0.25</value>
+</_kv_rules>
+<_kv_rules record_uuid="{9d1a2686-45f1-4713-9af4-b067a456ba87}" record_timestamp="1389883939211" record_key="melee_defence_formed_attack_bonus">
+<description>Added to base defend stat if defender is in formed attack.</description>
+<key>melee_defence_formed_attack_bonus</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{b227a15d-40fc-43fc-ac5b-229cc26f16ab}" record_timestamp="1481203615445" record_key="melee_height_damage_modifier_max_coefficient">
+<description>used in melee height damage modifier calculation</description>
+<key>melee_height_damage_modifier_max_coefficient</key>
+<value>0.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{bcdb207e-38fe-41d9-b6a1-34940e369e90}" record_timestamp="1481203615445" record_key="melee_height_damage_modifier_max_difference">
+<description>used in melee height damage modifier calculation</description>
+<key>melee_height_damage_modifier_max_difference</key>
+<value>2</value>
+</_kv_rules>
+<_kv_rules record_uuid="{54ca4afd-7fd6-476b-b50f-32296daa8205}" record_timestamp="1481799965168" record_key="melee_hit_chance_base">
+<description>base melee hit chance, used in attack hit determination</description>
+<key>melee_hit_chance_base</key>
+<value>100</value>
+</_kv_rules>
+<_kv_rules record_uuid="{9b19f1ca-a6c8-42aa-8f35-d05ba0e8b542}" record_timestamp="1481799965168" record_key="melee_hit_chance_max">
+<description>max melee hit chance, used in attack hit determination</description>
+<key>melee_hit_chance_max</key>
+<value>100</value>
+</_kv_rules>
+<_kv_rules record_uuid="{2a71a805-f33b-48b9-ac32-4938e628b11a}" record_timestamp="1481799965168" record_key="melee_hit_chance_min">
+<description>min melee hit chance, used in attack hit determination</description>
+<key>melee_hit_chance_min</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{5f7350a1-fd41-4115-a54a-4a2688daf607}" record_timestamp="1354615911381" record_key="melee_hit_chance_normalisation_coefficient">
+<description>coefficient by which hit chance determination calculation is normalised</description>
+<key>melee_hit_chance_normalisation_coefficient</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{2547f177-7641-4fec-b11c-5a4263a26bc5}" record_timestamp="1444828377830" record_key="melee_mage_switch_to_melee_time">
+<description>A hybrid melee-mage will casts spells unit the mana pool is this many seconds away from filling up to max (at base mana recharge rate.) After this point it will favor melee attack, until mana is no long so low.</description>
+<key>melee_mage_switch_to_melee_time</key>
+<value>300</value>
+</_kv_rules>
+<_kv_rules record_uuid="{7ac33b44-06ae-4409-a62a-48256bf637f8}" record_timestamp="1494497368585" record_key="melee_max_hit_reactions">
+<description>Maximum number of hit reaction interrupts before entity ignores hit reactions to allow it the opportunity to attack (for regulars)</description>
+<key>melee_max_hit_reactions</key>
+<value>-1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{aaf07661-5988-4252-a74f-ff91c8db7240}" record_timestamp="1529675545721" record_key="melee_max_hit_reactions_for_hero_vs_hero">
+<description>Maximum number of hit reaction interrupts before entity ignores hit reactions to allow it the opportunity to attack (for hero vs hero)</description>
+<key>melee_max_hit_reactions_for_hero_vs_hero</key>
+<value>-1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{4400cc98-006d-4bb0-8598-6cad01431c4b}" record_timestamp="1529586873824" record_key="melee_max_hit_reactions_for_heroes">
+<description>Maximum number of hit reaction interrupts before entity ignores hit reactions to allow it the opportunity to attack (for heroes)</description>
+<key>melee_max_hit_reactions_for_heroes</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d6ee2674-fd31-4367-ae2b-3e5c26a0d2ee}" record_timestamp="1481126863697" record_key="melee_on_damage_effect_knock_chance_attacker_charging_bonus">
+<description>Multiplied to base knock probabilities and charging factor to get bonus to add to knock chance when attacker is charging</description>
+<key>melee_on_damage_effect_knock_chance_attacker_charging_bonus</key>
+<value>2</value>
+</_kv_rules>
+<_kv_rules record_uuid="{5bed0a7b-cf70-4876-a290-c1670bc0a0ba}" record_timestamp="1481126863796" record_key="melee_on_damage_effect_knock_chance_defender_charging_factor">
+<description>Multiplier to knock chance when defender is charging</description>
+<key>melee_on_damage_effect_knock_chance_defender_charging_factor</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{10876c09-4248-41e9-9686-5b3300771b1c}" record_timestamp="1458325052922" record_key="melee_on_damage_effect_knockback_chance">
+<description>Multiplied to mass ratio (attacker/defender) to get base knockback probability on a melee hit</description>
+<key>melee_on_damage_effect_knockback_chance</key>
+<value>0.1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{3f15edb3-787f-403b-92d1-9ff2e236fb1f}" record_timestamp="1458325052922" record_key="melee_on_damage_effect_knockdown_chance">
+<description>Multiplied to mass ratio (attacker/defender) to get base knockdown probability on a melee hit </description>
+<key>melee_on_damage_effect_knockdown_chance</key>
+<value>0.05</value>
+</_kv_rules>
+<_kv_rules record_uuid="{5815fa64-f803-454c-997f-dd5ca9c04e5a}" record_timestamp="1373965260408" record_key="melee_outnumbered_defence_penalty">
+<description>penalty multiplier applied to melee defence of entity who is attacked by multiple attackers</description>
+<key>melee_outnumbered_defence_penalty</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{b6569524-b9ee-48b9-a7bf-a0c7ad6a476d}" record_timestamp="1373965260378" record_key="melee_secondary_attack_probability">
+<description>the probability in range [0, 1] that a secondary melee attacker will be awarded an attack</description>
+<key>melee_secondary_attack_probability</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{fd7f6489-945d-48cf-9481-872e8bc8afcd}" record_timestamp="1429777577113" record_key="melee_weapon_building_damage_mult">
+<description>This multiplier is applied to the primary melee weapon damage when attacking buildings.</description>
+<key>melee_weapon_building_damage_mult</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{ed288a7e-ce9c-4e5a-a4bd-c2d072823c6a}" record_timestamp="1554911061687" record_key="minimum_melee_attack_interval">
+<description>The minimum possible melee attack interval in seconds. Dictates the fastest speed at which entities can fight. Needed because stat can max out, leading to a time of 0s</description>
+<key>minimum_melee_attack_interval</key>
+<value>0.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{c0e72656-add3-4bda-b82a-f38bb85b5308}" record_timestamp="1465987278447" record_key="missile_accuracy_for_towers">
+<description>Accuracy to use for arrow/cannon towers, when there are no entity stats.</description>
+<key>missile_accuracy_for_towers</key>
+<value>0.45</value>
+</_kv_rules>
+<_kv_rules record_uuid="{3469127a-694b-47be-89d9-b2341ba1cb91}" record_key="missile_armour_penetrating_coefficient">
+<description>multiplied by armour value during missile damage resolution</description>
+<key>missile_armour_penetrating_coefficient</key>
+<value>0.25</value>
+</_kv_rules>
+<_kv_rules record_uuid="{28460f48-5aac-4f6d-b43c-c01b82995fa6}" record_key="missile_armour_piercing_coefficient">
+<description>multiplied by armour value during missile damage resolution</description>
+<key>missile_armour_piercing_coefficient</key>
+<value>0.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{c511fcb1-d178-4db7-a41d-923542779d26}" record_timestamp="1481203615445" record_key="missile_height_damage_modifier_max_coefficient">
+<description>used in missile height damage calculations</description>
+<key>missile_height_damage_modifier_max_coefficient</key>
+<value>0.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{7c18ea7c-e663-4511-9e0d-bfe8b6803acd}" record_timestamp="1354615911602" record_key="missile_height_damage_modifier_max_difference">
+<description>used in missile height damage calculations</description>
+<key>missile_height_damage_modifier_max_difference</key>
+<value>40</value>
+</_kv_rules>
+<_kv_rules record_uuid="{f6865f43-ea53-4f62-85ef-8ffa8ade9d66}" record_timestamp="1435669891165" record_key="missile_ignore_own_unit_for_friendly_fire">
+<description>Entities in own unit will be excluded from clear shot test and projectile collisions.</description>
+<key>missile_ignore_own_unit_for_friendly_fire</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{a95793a6-e907-4e33-a025-898e636a7c96}" record_key="missile_lethality_coefficient_effective_range">
+<description>used to determine letthality of projectile due to range, when target is within effective range</description>
+<key>missile_lethality_coefficient_effective_range</key>
+<value>40</value>
+</_kv_rules>
+<_kv_rules record_uuid="{af019cde-317a-4e51-b0f2-08ee74f88c4c}" record_key="missile_lethality_coefficient_extreme_range">
+<description>used to determine letthality of projectile due to range, once the projectile exceeds effective range</description>
+<key>missile_lethality_coefficient_extreme_range</key>
+<value>120</value>
+</_kv_rules>
+<_kv_rules record_uuid="{c14b8124-4a4d-4f28-bf81-87a157ac83f5}" record_key="missile_saving_bonus_base">
+<description>basic saving bonus to which shields and armour bonuses are added</description>
+<key>missile_saving_bonus_base</key>
+<value>20</value>
+</_kv_rules>
+<_kv_rules record_uuid="{9c6a7ff2-8a87-47e9-8bdf-838c3e0a7508}" record_key="missile_saving_bonus_coefficient">
+<description>the sum of the armour and shield bonuses are multiplied by this value.</description>
+<key>missile_saving_bonus_coefficient</key>
+<value>0.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{b07e9e68-89dc-4a0f-93bc-142af84adedd}" record_key="missile_shield_piercing_coefficient">
+<description>multiplied by shield value during missile damage resolution</description>
+<key>missile_shield_piercing_coefficient</key>
+<value>0.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{9bd9fc30-f7b4-4256-b2fc-def0e5ebea37}" record_key="missile_target_in_cover_penalty">
+<description>subtracted from hit chance in range [0, 1] when determine missile's accuracy against target in cover</description>
+<key>missile_target_in_cover_penalty</key>
+<value>0.2</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d2f6f502-d327-42e0-91f6-d5c3eddbf3fd}" record_timestamp="1510654020326" record_key="move_backwards_minimum_distance">
+<description>Minimum value the move backwards extent can be reduced to</description>
+<key>move_backwards_minimum_distance</key>
+<value>25</value>
+</_kv_rules>
+<_kv_rules record_uuid="{36e0e98b-e20f-45ad-bfe4-8130559187a5}" record_timestamp="1510919522801" record_key="move_backwards_minimum_distance_melee">
+<description>Minimum value the move backwards extent during melee can be reduced to</description>
+<key>move_backwards_minimum_distance_melee</key>
+<value>30</value>
+</_kv_rules>
+<_kv_rules record_uuid="{7e6e6488-e331-4ac2-b35c-1224bd0bef0f}" record_timestamp="1511345526471" record_key="move_backwards_radius_melee_modifier_default">
+<description>Maximum seconds the entity can_move backwards from melee - used with walk speed to create radius of valid movement area</description>
+<key>move_backwards_radius_melee_modifier_default</key>
+<value>30</value>
+</_kv_rules>
+<_kv_rules record_uuid="{fe722c90-11df-47e5-b760-a85936723193}" record_timestamp="1510654020340" record_key="move_backwards_radius_modifier_default">
+<description>Maximum seconds the entity can_move backwards for - used with walk speed to create radius of valid movement area</description>
+<key>move_backwards_radius_modifier_default</key>
+<value>4</value>
+</_kv_rules>
+<_kv_rules record_uuid="{13af936b-531f-4568-9d1f-cfc4c0018f2f}" record_timestamp="1512128519339" record_key="move_backwards_speed_percentage_default">
+<description>Move backwards at this percentage of their walk_speed</description>
+<key>move_backwards_speed_percentage_default</key>
+<value>0.75</value>
+</_kv_rules>
+<_kv_rules record_uuid="{e65306f9-24f4-4b70-bcee-f3d3f48cac3b}" record_timestamp="1510654020310" record_key="move_backwards_vector_degrees_default">
+<description>The degrees creating the move backwards valid movement area</description>
+<key>move_backwards_vector_degrees_default</key>
+<value>75</value>
+</_kv_rules>
+<_kv_rules record_uuid="{7be94ca2-8341-41ed-b9da-52976654a4e4}" record_timestamp="1501606193768" record_key="night_battle_attacker_visibility_spotting_range_modifier">
+<description>Unit record max visibility spotting range for attacking units in a night battle. Result will be THIS * m_visibility_spotting_range</description>
+<key>night_battle_attacker_visibility_spotting_range_modifier</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{297932b4-c1bf-4044-a230-98564a3f11eb}" record_timestamp="1501606193774" record_key="night_battle_defender_visibility_spotting_range_modifier">
+<description>Unit record max visibility spotting range for attacking units in a night battle. Result will be THIS * m_visibility_spotting_range</description>
+<key>night_battle_defender_visibility_spotting_range_modifier</key>
+<value>0.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{30028a67-cf4c-4165-8319-135aeb97bd07}" record_timestamp="1389715380280" record_key="pike_attack_zone_cosine_angle">
+<description>Pike attack cone in front of entity, in cosine(angle), e.g. cos(60) = 0.5</description>
+<key>pike_attack_zone_cosine_angle</key>
+<value>0.9903</value>
+</_kv_rules>
+<_kv_rules record_uuid="{6f6bd300-c3d8-459f-ae24-3f657e848e4c}" record_timestamp="1389715380295" record_key="pike_attack_zone_depth">
+<description>Pike attack cone depth (m)</description>
+<key>pike_attack_zone_depth</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{bd87f18d-bb99-4e8a-9561-0eb1f0528c88}" record_timestamp="1389715380264" record_key="pike_lower_bearing_tolerance">
+<description>Bearing delta from movement direction to lower or raise pikes (radians)</description>
+<key>pike_lower_bearing_tolerance</key>
+<value>0.7854</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d7b48af0-4e1d-454f-9530-d15571b27e0b}" record_timestamp="1389715379761" record_key="pike_lower_delay_combat">
+<description>Once locked in combat animation, this timer is set. Timer must run out before entity can lower pike.</description>
+<key>pike_lower_delay_combat</key>
+<value>20</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d74cc0b0-1b16-47b6-94c1-c04bd83dfa08}" record_timestamp="1389715466224" record_key="pike_lower_delay_turn_rate_multiplier">
+<description>Timer is set as long as entity bearing is not within pike_lower_bearing_tolerance. Timer must run out before entity can lower pike. This is a value multiplied to (Pi/turn rate), i.e. the time to do an about turn.</description>
+<key>pike_lower_delay_turn_rate_multiplier</key>
+<value>0.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{43c6d93f-0959-411f-bb7f-5959045de672}" record_timestamp="1426871094207" record_key="projectile_aiming_target_size_modifier">
+<description>Introduce a random aim point error based on the radius or height of the target multiplied by this number.</description>
+<key>projectile_aiming_target_size_modifier</key>
+<value>0.8</value>
+</_kv_rules>
+<_kv_rules record_uuid="{4dda4caa-d25b-40d6-a1f3-f3d6796c6b20}" record_timestamp="1519307609376" record_key="projectile_arrow_deflect_chance_heroes">
+<description>Specifies the chance of the damaging arrow being deflected onto the ground for hero entities (otherwise it will be visually stuck on the entity). It will always stick on dead heroes</description>
+<key>projectile_arrow_deflect_chance_heroes</key>
+<value>0.8</value>
+</_kv_rules>
+<_kv_rules record_uuid="{2d939acf-d98b-44a5-8822-903f4124a696}" record_timestamp="1519307609375" record_key="projectile_arrow_deflect_chance_units">
+<description>Specifies the chance of the damaging arrow being deflected onto the ground for regular entities (otherwise it will be visually stuck on the entity). It will always stick on dead entities</description>
+<key>projectile_arrow_deflect_chance_units</key>
+<value>0.35</value>
+</_kv_rules>
+<_kv_rules record_uuid="{c3ed010c-86a5-478f-93d2-b1f03cffcb3e}" record_timestamp="1557735227973" record_key="projectile_building_vs_single_entity_general_calibration_area_mod">
+<description>Used to modify the target area for tower projectiles when against a single entity general unit</description>
+<key>projectile_building_vs_single_entity_general_calibration_area_mod</key>
+<value>15</value>
+</_kv_rules>
+<_kv_rules record_uuid="{a5a0b91c-01a2-4c41-9ed0-b9c70a6ebde4}" record_timestamp="1481203615398" record_key="projectile_friendly_fire_man_height_coefficient">
+<description>Friendly entities are enlarged by this co-efficient to make them fatter and harder to fire past. Be wary with reducing this. It was added to deal with exploit where players would put melee 'shield' units in front of their missile units and fire through them (Original value: 1.3)</description>
+<key>projectile_friendly_fire_man_height_coefficient</key>
+<value>1.3</value>
+</_kv_rules>
+<_kv_rules record_uuid="{eb34acf2-6ea5-4319-adb2-693bf880c158}" record_timestamp="1481203615398" record_key="projectile_friendly_fire_man_radius_coefficient">
+<description>Friendly entities are enlarged by this co-efficient to make them fatter and harder to fire past. Be wary with reducing this. It was added to deal with exploit where players would put melee 'shield' units in front of their missile units and fire through them (Original value: 2.2)</description>
+<key>projectile_friendly_fire_man_radius_coefficient</key>
+<value>2.2</value>
+</_kv_rules>
+<_kv_rules record_uuid="{a542da5c-c65d-4f6c-8fe9-f64f5e787732}" record_timestamp="1519307609375" record_key="projectile_unit_vs_single_entity_general_calibration_area_mod">
+<description>Used to modify the target area for projectiles when against a single entity general unit</description>
+<key>projectile_unit_vs_single_entity_general_calibration_area_mod</key>
+<value>10</value>
+</_kv_rules>
+<_kv_rules record_uuid="{e3670dbf-86ca-49cd-8189-2b65f3334909}" record_timestamp="1512398728689" record_key="pursuit_charge_bonus_modifier">
+<description>All attacks from pursuers against routers are treated as charges (get the charge bonus * pursuit_charge_bonus_modifier )</description>
+<key>pursuit_charge_bonus_modifier</key>
+<value>5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{40a99956-10ee-4b64-a06b-ce85b592c554}" record_timestamp="1539003673099" record_key="reform_distance_threshold_radius_fraction">
+<description>This value multiplied by the entity radius is the distance threshold used for reforms</description>
+<key>reform_distance_threshold_radius_fraction</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{cad13f30-fd51-42bb-85ef-478163a104f0}" record_timestamp="1481204975521" record_key="refusal_chance_vs_charge_negation">
+<description>Cavalry refusal chance vs units with charge negation</description>
+<key>refusal_chance_vs_charge_negation</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{efb61d6e-25cc-4276-97f5-bf6194f2be45}" record_timestamp="1529403277002" record_key="refusal_chance_vs_heroes">
+<description>Cavalry refusal chance vs heroes</description>
+<key>refusal_chance_vs_heroes</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{c37a31aa-1b06-418e-b7dc-aaa7f827d38f}" record_timestamp="1481204975535" record_key="refusal_chance_vs_pike_phalanx">
+<description>Cavalry refusal chance vs pike phalanx</description>
+<key>refusal_chance_vs_pike_phalanx</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{4f70966e-ec6c-48e6-85a6-06e6ef7a2b25}" record_timestamp="1551801634165" record_key="rules_charge_reflections_mass_ratio_override">
+<description>For charge reflections, this value will be used as the mass ratio</description>
+<key>rules_charge_reflections_mass_ratio_override</key>
+<value>4</value>
+</_kv_rules>
+<_kv_rules record_uuid="{76b283f1-b6a6-4c66-ac56-b4314bde51c3}" record_timestamp="1554993804275" record_key="rules_charge_reflections_mass_ratio_override_single_entity_heroes">
+<description>For charge reflections involving single entity heroes as the charger, this value will be used as the mass ratio</description>
+<key>rules_charge_reflections_mass_ratio_override_single_entity_heroes</key>
+<value>2.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{135fa37a-a29e-4a37-8275-31ccb66a6326}" record_timestamp="1523714792991" record_key="scaled_playable_area_size_max">
+<description>Playable area size scaled between min and max based on number of units</description>
+<key>scaled_playable_area_size_max</key>
+<value>2048</value>
+</_kv_rules>
+<_kv_rules record_uuid="{41e76dc0-7fcc-4748-864f-b7cc27715505}" record_timestamp="1494328374830" record_key="scaled_playable_area_size_min">
+<description>Playable area size scaled between min and max based on number of units</description>
+<key>scaled_playable_area_size_min</key>
+<value>800</value>
+</_kv_rules>
+<_kv_rules record_uuid="{fb8145c6-49b5-4e56-b463-f232128e134b}" record_timestamp="1416242508473" record_key="settlement_destruction_max_melee_attack_penalty">
+<description>Penalty which grows from zero to max as the settlement is destroyed</description>
+<key>settlement_destruction_max_melee_attack_penalty</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{a80363ca-e61b-402a-88b9-6539d1ca654b}" record_timestamp="1416242508502" record_key="settlement_destruction_max_melee_defence_penalty">
+<description>Penalty which grows from zero to max as the settlement is destroyed</description>
+<key>settlement_destruction_max_melee_defence_penalty</key>
+<value>0</value>
+</_kv_rules>
+<_kv_rules record_uuid="{92188975-73ad-4c5f-b11d-c8ccd923c1cb}" record_timestamp="1551813561768" record_key="shield_defence_angle_melee">
+<description>Shield defense half-angle vs melee (deg)</description>
+<key>shield_defence_angle_melee</key>
+<value>75</value>
+</_kv_rules>
+<_kv_rules record_uuid="{06a9221b-2a54-4bce-ab87-75c075995322}" record_timestamp="1551813561768" record_key="shield_defence_angle_missile">
+<description>Shield defense half-angle vs missile (deg)</description>
+<key>shield_defence_angle_missile</key>
+<value>75</value>
+</_kv_rules>
+<_kv_rules record_uuid="{5cd73d8b-35fd-429c-b6d6-57b11857645f}" record_timestamp="1494931916510" record_key="shield_defence_angle_missile_turtle">
+<description>Shield defense half-angle vs missile (deg), 180 is protected from all angles</description>
+<key>shield_defence_angle_missile_turtle</key>
+<value>180</value>
+</_kv_rules>
+<_kv_rules record_uuid="{aa5fd68c-47e5-42d4-8c8f-7e0690946ec8}" record_timestamp="1505734679223" record_key="shockwave_speed_delta_threshold_knocked_back">
+<description>instantaneous speed delta to trigger a knocked back interrupt</description>
+<key>shockwave_speed_delta_threshold_knocked_back</key>
+<value>2</value>
+</_kv_rules>
+<_kv_rules record_uuid="{623c06bc-ec37-4e3f-a51d-6bbc3c3e05af}" record_timestamp="1505734679225" record_key="shockwave_speed_delta_threshold_knocked_down">
+<description>instantaneous speed delta to trigger a knocked down interrupt</description>
+<key>shockwave_speed_delta_threshold_knocked_down</key>
+<value>3.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{41bd72bb-14f7-48d8-b924-c6a693fcbb5a}" record_timestamp="1505734679227" record_key="shockwave_speed_delta_threshold_knocked_flying">
+<description>instantaneous speed delta to trigger a knocked flying interrupt</description>
+<key>shockwave_speed_delta_threshold_knocked_flying</key>
+<value>5.25</value>
+</_kv_rules>
+<_kv_rules record_uuid="{6d9ceebd-6c6b-44e8-9217-3e87057e1bda}" record_timestamp="1505734679229" record_key="shockwave_speed_delta_threshold_step_back">
+<description>instantaneous speed delta to trigger a step back interrupt</description>
+<key>shockwave_speed_delta_threshold_step_back</key>
+<value>1.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{9a9a60ec-23cd-43c2-9cdf-d57be55a50e1}" record_timestamp="1512991071895" record_key="spotting_distance_default">
+<description>default distance at which units can spot other units</description>
+<key>spotting_distance_default</key>
+<value>170</value>
+</_kv_rules>
+<_kv_rules record_uuid="{00071092-f47e-4377-9c54-a0d738ee154c}" record_timestamp="1512991071895" record_key="spotting_distance_hidden_reduction">
+<description>spotting distance reduced when unit is hidden</description>
+<key>spotting_distance_hidden_reduction</key>
+<value>20</value>
+</_kv_rules>
+<_kv_rules record_uuid="{0d515f8e-55e2-40e6-bf0c-bc30d67cfbc5}" record_timestamp="1480061869279" record_key="store_hp_for_whole_composed_entity_group">
+<description>If the value is 0 the HP will be stored at the composed entity group level (as defined in the land_units_templates table) otherwise they will be stored at the composed entity level.</description>
+<key>store_hp_for_whole_composed_entity_group</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{21ef7778-f809-4737-b091-9aab9603db79}" record_timestamp="1382619336277" record_key="tickets_multiple_victory_points">
+<description>Sets the number of tickets to be used in a battle with multiple capture points, i.e. medium. large and extra large cities</description>
+<key>tickets_multiple_victory_points</key>
+<value>200</value>
+</_kv_rules>
+<_kv_rules record_uuid="{831593f3-ed7c-44a9-a6bd-8cff7c05b944}" record_timestamp="1382619314255" record_key="tickets_single_victory_point">
+<description>Sets the number of tickets to be used in a battle with a single capture point, i.e. small city, encampment, baggage train</description>
+<key>tickets_single_victory_point</key>
+<value>150</value>
+</_kv_rules>
+<_kv_rules record_uuid="{6fa32717-af2c-47c5-b856-5f542a5d2aa8}" record_timestamp="1487063769271" record_key="unit_decay_scaling_ending_row">
+<description>The units rank depth at which we start to scale the decay modifier (Used for staggering unit movement). Will be used with unit_decay_scaling_starting_row to scale the decay value for the units max rows. Should be &gt; unit_decay_scaling_starting_row</description>
+<key>unit_decay_scaling_ending_row</key>
+<value>12</value>
+</_kv_rules>
+<_kv_rules record_uuid="{85ff061e-fbbd-4da1-8404-1da20b51bdc1}" record_timestamp="1487063769333" record_key="unit_decay_scaling_starting_row">
+<description>The units rank depth at which we start to scale the decay modifier (Used for staggering unit movement). Ranks below this will use the raw decay value, above this will use a percentage of this, calculated with  unit_decay_scaling_ending_row. Should be &lt; unit_decay_scaling_ending_row</description>
+<key>unit_decay_scaling_starting_row</key>
+<value>6</value>
+</_kv_rules>
+<_kv_rules record_uuid="{5dd75103-e31b-4f36-bc1c-6cf66def63bf}" record_timestamp="1420631720108" record_key="unit_firing_line_of_sight_considered_obstructed_ratio">
+<description>When this ratio of the unit cannot see to fire, the unit's LOS is considered blocked</description>
+<key>unit_firing_line_of_sight_considered_obstructed_ratio</key>
+<value>0.75</value>
+</_kv_rules>
+<_kv_rules record_uuid="{4afac88e-e0e9-4cb1-aa2b-7d6652bb2e1a}" record_timestamp="1486371862685" record_key="unit_max_drag_out_rank_depth_modifier">
+<description>The value to be multiplied with the default unit rank depth to calculate the max drag width. Should be &gt; 0</description>
+<key>unit_max_drag_out_rank_depth_modifier</key>
+<value>0.5</value>
+</_kv_rules>
+<_kv_rules record_uuid="{7c0ca0a9-8a72-423c-8043-01f3232ad958}" record_timestamp="1465987198588" record_key="unit_max_drag_width">
+<description>Maximum width in metres a unit can drag out to</description>
+<key>unit_max_drag_width</key>
+<value>50</value>
+</_kv_rules>
+<_kv_rules record_uuid="{f7c743ea-324a-41c4-a302-cc607063d7d9}" record_timestamp="1492592168521" record_key="unit_min_drag_out_rank_depth_modifier">
+<description>The value to be multiplied with the default unit rank depth to calculate the min drag width. The result will scale with the entities remaining in the unit. Should be &gt; 0</description>
+<key>unit_min_drag_out_rank_depth_modifier</key>
+<value>4</value>
+</_kv_rules>
+<_kv_rules record_uuid="{8ef96cb8-7593-4541-80b9-337788ca2026}" record_timestamp="1505899097546" record_key="unit_spawn_offset">
+<description>distance between unit spawn position and the ordered position</description>
+<key>unit_spawn_offset</key>
+<value>-22</value>
+</_kv_rules>
+<_kv_rules record_uuid="{45310e76-dc54-4a60-a1a2-405407a863ae}" record_timestamp="1538989583722" record_key="unit_threat_considered_even_fraction">
+<description>Given the difference in cp deltas between 2 units, anything +/- this fraction will be considered an even matchup. E.g. UnitA:100 UnitB:105 Ratio:0.952 -&gt; if ratio is greater than 1 - unit_threat_considered_even_fraction and less than 1 + unit_threat_considered_even_fraction then its even</description>
+<key>unit_threat_considered_even_fraction</key>
+<value>0.15</value>
+</_kv_rules>
+<_kv_rules record_uuid="{4a9cbb39-d034-44d5-851f-cce320212d03}" record_timestamp="1492075883432" record_key="unruly_enemy_range">
+<description>The range to detect enemies to contribute to unruly taunt.</description>
+<key>unruly_enemy_range</key>
+<value>50</value>
+</_kv_rules>
+<_kv_rules record_uuid="{30647036-da48-4f1e-8b9b-2ea12450846d}" record_timestamp="1492075883432" record_key="unruly_max_taunting_enemies">
+<description>The max number of enemies in range to allow the taunt meter to fill. If more than this then the unit will 'decide' it should not attack due to high loss probability.</description>
+<key>unruly_max_taunting_enemies</key>
+<value>10</value>
+</_kv_rules>
+<_kv_rules record_uuid="{3bb4f579-7e6d-4a9f-bcf1-8eea14001aa1}" record_timestamp="1492075883432" record_key="unruly_min_health_remaining_ratio">
+<description>The percentage health that must remain before a unit will consider going unruly (0.0 - 1.0).</description>
+<key>unruly_min_health_remaining_ratio</key>
+<value>0.1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{8be0afbd-83a0-4c4d-be94-181813968b4c}" record_timestamp="1489502804331" record_key="unruly_taunt_level_increment">
+<description>The number of taunt points per battle tick per enemy in range to gain/lose.</description>
+<key>unruly_taunt_level_increment</key>
+<value>1</value>
+</_kv_rules>
+<_kv_rules record_uuid="{ff520ef8-42ad-4244-89a9-c1826f8e0a6f}" record_timestamp="1489508170892" record_key="unruly_taunt_points_to_trigger">
+<description>The number of taunt points needed to go unruly. Taunt points are accumlated every battle tick.</description>
+<key>unruly_taunt_points_to_trigger</key>
+<value>500</value>
+</_kv_rules>
+<_kv_rules record_uuid="{6d0b1e55-a9ea-43b9-a775-0039ad538fdf}" record_timestamp="1489508170971" record_key="unruly_taunt_points_to_trigger_max">
+<description>The max number of taunt points to accumulate.</description>
+<key>unruly_taunt_points_to_trigger_max</key>
+<value>600</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d033dff5-2f32-4c1a-9f32-98962db78206}" record_timestamp="1492075883432" record_key="unruly_timeout">
+<description>After this period of time a unit will come to its senses and become controllable again, even if still in battle. (battle tick)</description>
+<key>unruly_timeout</key>
+<value>300</value>
+</_kv_rules>
+<_kv_rules record_uuid="{d16b66b9-24bd-4560-94ef-f66d7a95cf63}" record_timestamp="1480516941424" record_key="unspottable_unit_reveal_distance">
+<description>Range at which hidden unspottable units are revealed</description>
+<key>unspottable_unit_reveal_distance</key>
+<value>20</value>
+</_kv_rules>
+<_kv_rules record_uuid="{b6f87ede-fa78-4902-bf6f-a404a06f4534}" record_timestamp="1551377999614" record_key="ward_save_max_value">
+<description>The maximum damage modification available</description>
+<key>ward_save_max_value</key>
+<value>100</value>
+</_kv_rules>
+<_kv_rules record_uuid="{e58278fa-5195-45ca-9295-d0a64d150767}" record_timestamp="1428912929887" record_key="ward_save_min_value">
+<description>The minimum damage modification available</description>
+<key>ward_save_min_value</key>
+<value>-100</value>
+</_kv_rules>
+</dataroot>

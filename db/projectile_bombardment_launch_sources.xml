@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="projectile_bombardment_launch_sources.xsd" export_time="Wed Jul 26 11:19:04 2017" revision="7" export_branch="C:/Users/lee.cowen/AppData/Roaming/TWDaemon/510/client" export_user="bob">
+<edit_uuid>acc57675-b89d-4cab-ac20-0355df8cfa7f</edit_uuid>
+<projectile_bombardment_launch_sources record_uuid="{a6dc4756-6402-4adc-a743-d6271be663c5}" record_timestamp="1438614984308" record_key="above_activater">
+<description>This will attempt to spawn projectiels above whoever is activating the bombardment (if somebody is)</description>
+<suggested_launch_source>above_activater</suggested_launch_source>
+</projectile_bombardment_launch_sources>
+<projectile_bombardment_launch_sources record_uuid="{ecf35808-e232-4207-9822-44d6598185cf}" record_timestamp="1412929423703" record_key="above_target">
+<description>this will attempt to spawn projectiles above the target</description>
+<suggested_launch_source>above_target</suggested_launch_source>
+</projectile_bombardment_launch_sources>
+<projectile_bombardment_launch_sources record_uuid="{dfaeaa83-2d9b-4cee-ba25-1dbd67d4d9ef}" record_timestamp="1438614984308" record_key="activaters_entities">
+<description>This will attempt to spawn projectiels at whoever is activationg the bombardment (if somebody is). It will ignore num shells</description>
+<suggested_launch_source>activaters_entities</suggested_launch_source>
+</projectile_bombardment_launch_sources>
+<projectile_bombardment_launch_sources record_uuid="{6a059c5d-0304-43e7-b836-636cda094e60}" record_timestamp="1438614984308" record_key="at_target">
+<description>This will attempt to spawn the projectiles near the target, just above it</description>
+<suggested_launch_source>at_target</suggested_launch_source>
+</projectile_bombardment_launch_sources>
+<projectile_bombardment_launch_sources record_uuid="{3c83999f-a7c0-49ca-87f8-76c6bbe771f5}" record_timestamp="1501064344091" record_key="launch_and_explode">
+<description>This will create an immediate explosion</description>
+<suggested_launch_source>launch_and_explode</suggested_launch_source>
+</projectile_bombardment_launch_sources>
+</dataroot>

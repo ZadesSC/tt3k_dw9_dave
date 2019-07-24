@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_battle_events_to_character_relationship_trigger_sets>
+<root>
+<edit_uuid>38df08f9-fd6d-4080-a452-8fc23044e2e0</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{6758042b-0899-43e6-98d2-0f7bb094a50c}</field_uuid>
+<primary_key>1</primary_key>
+<name>battle_event</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{e68b2e45-530c-4505-81a3-e5868ec6de66}</field_uuid>
+<primary_key>0</primary_key>
+<name>character_relationship_trigger_sets</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>character_relationship_trigger_sets</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

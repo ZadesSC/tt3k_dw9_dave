@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_treasury_levels>
+<root>
+<edit_uuid>74e03426-d7f4-4093-b86c-f71b64d6fa50</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{96d83fb6-0af6-4a2f-91e9-d12a1dc7e225}</field_uuid>
+<primary_key>1</primary_key>
+<name>name</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{f3183929-11ac-4a6e-b412-6835b7543379}</field_uuid>
+<primary_key>0</primary_key>
+<name>value</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

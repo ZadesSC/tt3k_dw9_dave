@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_unit_banners>
+<root>
+<edit_uuid>809fd926-01d0-4ef9-b7f0-813a98cac9ea</edit_uuid>
+<field>
+<field_uuid>{a50ca60d-e88e-479d-9b4f-9fd2453df073}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Unique id, linked to factions skin</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{bc5064b6-d6d3-4971-a772-2e63dcb182bb}</field_uuid>
+<primary_key>0</primary_key>
+<name>faction_offset_x</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>0-1 position for top left of texture. TL being 0,0, BR being 1,1.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{6c9f25b2-0e3a-48e4-b034-56eb7c4488b4}</field_uuid>
+<primary_key>0</primary_key>
+<name>faction_offset_y</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>0-1 position for top left of texture. TL being 0,0, BR being 1,1.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{f2f9684a-1c62-430c-beb8-0fa2a0f7e0a1}</field_uuid>
+<primary_key>0</primary_key>
+<name>faction_scale_x</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>0-1 scale of texture. 0.5 being half the size of the model for example.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{d3673ee7-ec0a-4bb8-a95a-a50f619d17f9}</field_uuid>
+<primary_key>0</primary_key>
+<name>faction_scale_y</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>0-1 scale of texture. 0.5 being half the size of the model for example.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{5e22949c-f231-455d-93c5-0fb999ea74e7}</field_uuid>
+<primary_key>0</primary_key>
+<name>unitcat_offset_x</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>0-1 position for top left of texture. TL being 0,0, BR being 1,1.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{d53a4710-d8ce-44d4-9d6c-c88bad69efda}</field_uuid>
+<primary_key>0</primary_key>
+<name>unitcat_offset_y</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>0-1 position for top left of texture. TL being 0,0, BR being 1,1.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{e36773c0-0011-4a32-bcaf-0ff47fe34d90}</field_uuid>
+<primary_key>0</primary_key>
+<name>unitcat_scale_x</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>0-1 scale of texture. 0.5 being half the size of the model for example.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{5fde355c-62b9-4e47-8bfc-ff5fd1b3dc83}</field_uuid>
+<primary_key>0</primary_key>
+<name>unitcat_scale_y</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>0-1 scale of texture. 0.5 being half the size of the model for example.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{096c29c6-3c30-4bbc-805b-31aa6f4a4dd0}</field_uuid>
+<primary_key>0</primary_key>
+<name>command_star_offset_x</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>-1</default_value>
+<field_description>This is x offset of commander star icons in campaign</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{48b91f18-668b-4196-8833-c04ef6611a9a}</field_uuid>
+<primary_key>0</primary_key>
+<name>command_star_offset_y</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>This is y offset of commander star icons in campaign</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{e647f644-4dcc-4d04-8984-4b22b8d73484}</field_uuid>
+<primary_key>0</primary_key>
+<name>army_id_offset_y</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>5.5</default_value>
+<field_description>This is y offset of 2d element above banner in campaign</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{143665ce-2dc9-4e91-a785-34832264831a}</field_uuid>
+<primary_key>0</primary_key>
+<name>animation_name</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>This is the name of the animation/skeleton to use. If blank wont apply animation (for flags that dont have an anim setup for example)</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{e2aed32f-792c-40f4-ba8c-5bfb1ecd40a7}</field_uuid>
+<primary_key>0</primary_key>
+<name>unit_id_offset_y</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>5.5</default_value>
+<field_description>This is the y offset over flag in battle</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+</root>

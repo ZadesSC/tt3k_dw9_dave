@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="end_turn_notifications.xsd" export_time="Fri Mar 15 15:44:21 2019" revision="69" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1385/dave" export_user="bob">
+<edit_uuid>cbe2ce4b-f025-48df-bbb3-579dc8704734</edit_uuid>
+<end_turn_notifications record_uuid="{5b8eea0f-a1b4-4711-82de-35d8fcfde9cc}" record_timestamp="1535822998191" record_key="ARMY_AP_AVAILABLE">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- This army can still move during this turn.\n\n- Army movement can be planned over multiple turns.\n\n - Action points are further depleted by switching into stances." last_edit_user="bob">- This army can still move during this turn.\n\n- Army movement can be planned over multiple turns.\n\n - Action points are further depleted by switching into stances.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Army action point(s) available" last_edit_user="bob">Army action point(s) available</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>ARMY_AP_AVAILABLE</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Army Action Point(s) Available" last_edit_user="bob">Army Action Point(s) Available</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{ae31de64-b707-4d64-9739-fa857090283e}" record_timestamp="1544721989440" record_key="CHARACTER_DEFECTION_IMMINENT">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- This character is about to defect.\n\n- Nobles will simply abandon your cause, administrators may take their {{tr:map_province}} with them to join your enemies, and powerful ministers or potential heirs will trigger a civil war.\n\n- Inspect the {{tr:satisfaction}} value and breakdown to identify causes for this character's imminent defection." last_edit_user="bob">- This character is about to defect.\n\n- Nobles will simply abandon your cause, administrators may take their {{tr:map_province}} with them to join your enemies, and powerful ministers or potential heirs will trigger a civil war.\n\n- Inspect the {{tr:satisfaction}} value and breakdown to identify causes for this character's imminent defection.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Defection imminent" last_edit_user="bob">Defection imminent</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>CHARACTER_DEFECTION_IMMINENT</key>
+<severity_level>warning</severity_level>
+<title state="APPROVED" last_approved_text="Defection Imminent" last_edit_user="bob">Defection Imminent</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{275c4991-e60c-49b2-a033-3ef13eb35db0}" record_timestamp="1535822998191" record_key="CHARACTER_SATISFACTION_LOW">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- This character has low {{tr:satisfaction}}.\n\n- Inspect their {{tr:satisfaction}} breakdown to see how to improve this value. A character with a 'lack of purpose', for example, will want something to do: be deployed as general, go on assignment, or work as a government official.\n\n- Increase {{tr:satisfaction}} by removing negative factors, or by giving higher court appointments or ancillaries.\n\n- If {{tr:satisfaction}} reaches 0, a character will defect." last_edit_user="bob">- This character has low {{tr:satisfaction}}.\n\n- Inspect their {{tr:satisfaction}} breakdown to see how to improve this value. A character with a 'lack of purpose', for example, will want something to do: be deployed as general, go on assignment, or work as a government official.\n\n- Increase {{tr:satisfaction}} by removing negative factors, or by giving higher court appointments or ancillaries.\n\n- If {{tr:satisfaction}} reaches 0, a character will defect.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Low general satisfaction" last_edit_user="bob">Low general satisfaction</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>CHARACTER_SATISFACTION_LOW</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Low General Satisfaction" last_edit_user="bob">Low General Satisfaction</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{c3d58e89-f3ff-426a-8434-eb044828ef4d}" record_timestamp="1539015263853" record_key="CHARACTER_UPGRADE_AVAILABLE">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- This character has new skill points.\n\n- Specialise your characters for a particular role by picking skills suitable for this role." last_edit_user="bob">- This character has new skill points.\n\n- Specialise your characters for a particular role by picking skills suitable for this role.</detailed_description>
+<display_text state="APPROVED" last_approved_text="General skill point(s) available" last_edit_user="bob">General skill point(s) available</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>CHARACTER_UPGRADE_AVAILABLE</key>
+<severity_level>warning</severity_level>
+<title state="APPROVED" last_approved_text="General Skill Point(s) Available" last_edit_user="bob">General Skill Point(s) Available</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{eac67006-fac5-4b2c-887c-50f04be94c81}" record_timestamp="1535822998191" record_key="DAMAGED_BUILDING">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- This building is damaged!\n\n- Damaged buildings have reduced effects.\n\n - Repair the damage to restore its full potential." last_edit_user="bob">- This building is damaged!\n\n- Damaged buildings have reduced effects.\n\n - Repair the damage to restore its full potential.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Damaged building!" last_edit_user="bob">Damaged building!</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>DAMAGED_BUILDING</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Damaged Building!" last_edit_user="bob">Damaged Building!</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{cf4022b9-e84d-4e5d-b162-282d590c5545}" record_timestamp="1544721989440" record_key="ECONOMICS_PROJECTED_NEGATIVE">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- You will be bankrupt next turn!\n\n- Remedy the situation by disbanding units, or raising taxes.\n\n- Inspect the treasury panel to review your income and expenditures.\n\n- Long-term, construct buildings that generate income, choose {{tr:Technologies}} that provide income bonuses to, or by developing specialisations in your {{tr:map_provinces}}." last_edit_user="bob">- You will be bankrupt next turn!\n\n- Remedy the situation by disbanding units, or raising taxes.\n\n- Inspect the treasury panel to review your income and expenditures.\n\n- Long-term, construct buildings that generate income, choose {{tr:Technologies}} that provide income bonuses to, or by developing specialisations in your {{tr:map_provinces}}.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Negative income projected" last_edit_user="bob">Negative income projected</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>ECONOMICS_PROJECTED_NEGATIVE</key>
+<severity_level>warning</severity_level>
+<title state="APPROVED" last_approved_text="Negative Income Projected" last_edit_user="bob">Negative Income Projected</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{688ce5f5-c88b-443c-8150-a5f7eeb9077e}" record_timestamp="1551117044187" record_key="ECONOMICS_PROJECTED_NEGATIVE_WITH_DIPLOMATIC_EXPENDITURE">
+<blocking>1</blocking>
+<can_be_supressed_by_player>0</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- You are approaching [[b]]bankruptcy[[/b]] due to your ongoing diplomatic payments. You must either resolve the projected [[b]]bankruptcy[[/b]] or cancel all ongoing diplomatic payments.\n\n- Review your regular payments in [[b]]diplomacy[[/b]] to decide which to cancel; this can be enough to resolve the projected bankruptcy.\n\n- Inspect the tooltip in the [[b]]treasury panel[[/b]] to identify your biggest outstanding payments.\n\n- You can also try to resolve imminent bankruptcy by [[b]]disbanding[[/b]] units or by [[b]]recalling[[/b]] retinues." last_edit_user="bob">- You are approaching [[b]]bankruptcy[[/b]] due to your ongoing diplomatic payments. You must either resolve the projected [[b]]bankruptcy[[/b]] or cancel all ongoing diplomatic payments.\n\n- Review your regular payments in [[b]]diplomacy[[/b]] to decide which to cancel; this can be enough to resolve the projected bankruptcy.\n\n- Inspect the tooltip in the [[b]]treasury panel[[/b]] to identify your biggest outstanding payments.\n\n- You can also try to resolve imminent bankruptcy by [[b]]disbanding[[/b]] units or by [[b]]recalling[[/b]] retinues.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Bankrupt with outgoings pending" last_edit_user="bob">Bankrupt with outgoings pending</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>UI\skins\default\icon_hud_end_turn_diplomacy.png</icon>
+<important>0</important>
+<key>ECONOMICS_PROJECTED_NEGATIVE_WITH_DIPLOMATIC_EXPENDITURE</key>
+<severity_level>warning</severity_level>
+<title state="APPROVED" last_approved_text="Bankrupt With Outgoings Pending" last_edit_user="bob">Bankrupt With Outgoings Pending</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{200248b7-0fb0-482b-886f-7a595987561a}" record_timestamp="1550514544751" record_key="ENEMY_FORCE_IN_REGION">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- An enemy army is trespassing and pillaging your lands, and causing public unrest.\n\n- Muster or re-deploy forces to counter this threat. Be aware of movement ranges and terrain; sometimes it might take multiple turns to reach the enemy army." last_edit_user="bob">- An enemy army is trespassing and pillaging your lands, and causing public unrest.\n\n- Muster or re-deploy forces to counter this threat. Be aware of movement ranges and terrain; sometimes it might take multiple turns to reach the enemy army.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Enemy army trespassing" last_edit_user="bob">Enemy army trespassing</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>ENEMY_FORCE_IN_REGION</key>
+<severity_level>warning</severity_level>
+<title state="APPROVED" last_approved_text="Enemy army trespassing" last_edit_user="bob">Enemy army trespassing</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{f5e7e034-f3b1-4c73-8274-e45d9a60a9fa}" record_timestamp="1535818624566" record_key="FACTION_COUNCIL_INVOCATION_NO_MISSIONS">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- You can invoke your faction council.\n\n - Ask your ministers for advice and obtain missions from them.\n\n- Completing missions will provide varying bonuses to your faction, depending on the minister." last_edit_user="bob">- You can invoke your faction council.\n\n - Ask your ministers for advice and obtain missions from them.\n\n- Completing missions will provide varying bonuses to your faction, depending on the minister.</detailed_description>
+<display_text state="APPROVED" last_approved_text="No faction council missions" last_edit_user="bob">No faction council missions</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>FACTION_COUNCIL_INVOCATION_NO_MISSIONS</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="No Faction Council Missions" last_edit_user="bob">No Faction Council Missions</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{2bf15a47-3efb-4745-a153-844c6e5d2646}" record_timestamp="1550327784045" record_key="FACTION_COUNCIL_INVOCATION_TIMEOUT">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- You have not invoked your council for a long time.\n\n- Summon your ministers for advice and receive missions.\n\n- Missions will vary depending on your situation and the background and office of your ministers.\n\n- Completing missions will provide bonuses to your faction." last_edit_user="bob">- You have not invoked your council for a long time.\n\n- Summon your ministers for advice and receive missions.\n\n- Missions will vary depending on your situation and the background and office of your ministers.\n\n- Completing missions will provide bonuses to your faction.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Inactive faction council" last_edit_user="bob">Inactive faction council</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>FACTION_COUNCIL_INVOCATION_TIMEOUT</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Inactive Faction Council" last_edit_user="bob">Inactive Faction Council</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{88c58f7a-536c-4fad-97f7-bc6c5c370aaa}" record_timestamp="1524581466271" record_key="GARRISONED_ARMY_AP_AVAILABLE">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- The army garrisoning this settlement has action points available. " last_edit_user="bob">- The army garrisoning this settlement has action points available. </detailed_description>
+<display_text state="APPROVED" last_approved_text="Unused garrison army action point(s)" last_edit_user="bob">Unused garrison army action point(s)</display_text>
+<enabled_by_default>0</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>GARRISONED_ARMY_AP_AVAILABLE</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Unused Garrison Army Action Point(s)" last_edit_user="bob">Unused Garrison Army Action Point(s)</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{a4796810-99a3-4f8d-8c2b-c1d6ab441267}" record_timestamp="1544721989440" record_key="HEIR_SLOT_AVAILABLE">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- Your have not yet chosen a faction heir.\n\n- Heirs shape the bonuses of your faction and significantly impact your strategy.\n\n- Some characters may feel they deserve the position more than others." last_edit_user="bob">- Your have not yet chosen a faction heir.\n\n- Heirs shape the bonuses of your faction and significantly impact your strategy.\n\n- Some characters may feel they deserve the position more than others.</detailed_description>
+<display_text state="APPROVED" last_approved_text="No faction heir" last_edit_user="bob">No faction heir</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>HEIR_SLOT_AVAILABLE</key>
+<severity_level>warning</severity_level>
+<title state="APPROVED" last_approved_text="No Faction Heir" last_edit_user="bob">No Faction Heir</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{c1ad6330-4ffe-4d98-8a0f-302766d9f199}" record_timestamp="1544721989440" record_key="IMMINENT_REBELLION">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- Unrest has been growing in this {{tr:map_province}} and rebellion is imminent!\n\n- Only military force can end the rebellion; move an army into place, or deploy a new force." last_edit_user="bob">- Unrest has been growing in this {{tr:map_province}} and rebellion is imminent!\n\n- Only military force can end the rebellion; move an army into place, or deploy a new force.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Rebellion imminent!" last_edit_user="bob">Rebellion imminent!</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>IMMINENT_REBELLION</key>
+<severity_level>warning</severity_level>
+<title state="APPROVED" last_approved_text="Rebellion Imminent!" last_edit_user="bob">Rebellion Imminent!</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{980bbff7-3cfa-410b-a9ab-722c6dd3a496}" record_timestamp="1524581466271" record_key="LOW_FUNDS">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- Your funds are running low!\n\n- So long as your next-turn projected income is positive, low funds are not a problem. However, if your income is negative, you risk bankruptcy. There are several ways to improve your income.\n\n- Certain buildings and reforms will increase income - the financial breakdown in your {{tr:map_provinces}} can identify building combinations that further boost income. \n\n- Recalling redundant retinues will free up funds, as will carefully considering which characters are deserving of promotions and offices. In dire situations, it may be required to remove some characters from their posts. \n\n Once the tax slider is unlocked, raising taxes will increase income, but at the expense of public order and food from farming. \n\n In the short-term, raiding lands and sacking settlements will provide you with funds from looting." last_edit_user="bob">- Your funds are running low!\n\n- So long as your next-turn projected income is positive, low funds are not a problem. However, if your income is negative, you risk bankruptcy. There are several ways to improve your income.\n\n- Certain buildings and reforms will increase income - the financial breakdown in your {{tr:map_provinces}} can identify building combinations that further boost income. \n\n- Recalling redundant retinues will free up funds, as will carefully considering which characters are deserving of promotions and offices. In dire situations, it may be required to remove some characters from their posts. \n\n Once the tax slider is unlocked, raising taxes will increase income, but at the expense of public order and food from farming. \n\n In the short-term, raiding lands and sacking settlements will provide you with funds from looting.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Low funds!" last_edit_user="bob">Low funds!</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>LOW_FUNDS</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Low Funds!" last_edit_user="bob">Low Funds!</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{4a253363-31ed-4dfe-9223-aa5773fd9951}" record_timestamp="1524581466266" record_key="LOW_PROVINCIAL_SUPPLIES">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- The stockpile of local reserves is running low.\n\n- Empty reserves will cause unrest and make the settlement more vulnerable during sieges.\n\n- Replenish your faction-wide reserves by expanding your farms or by capturing new ones." last_edit_user="bob">- The stockpile of local reserves is running low.\n\n- Empty reserves will cause unrest and make the settlement more vulnerable during sieges.\n\n- Replenish your faction-wide reserves by expanding your farms or by capturing new ones.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Low commandery reserves" last_edit_user="bob">Low commandery reserves</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>LOW_PROVINCIAL_SUPPLIES</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Low Commandery Reserves" last_edit_user="bob">Low Commandery Reserves</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{59fead5a-9e82-4ce7-8737-1ba9fcbbc68b}" record_timestamp="1524581466270" record_key="MILITARY_FORCE_MORALE_LOW">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- This army is almost out of military supplies.\n\n- Prolonged military campaigns will drain these supplies.\n\n- Replenish them by winning battles, or by capturing or sacking settlements.\n\n- You can also construct infrastructure that provides supplies in your own - or even in enemy - lands.\n\n- Note that once supplies start to run out attrition will affect all levels of this army, including its general! If they are on their last wound, they will certainly die before the start of the next turn." last_edit_user="bob">- This army is almost out of military supplies.\n\n- Prolonged military campaigns will drain these supplies.\n\n- Replenish them by winning battles, or by capturing or sacking settlements.\n\n- You can also construct infrastructure that provides supplies in your own - or even in enemy - lands.\n\n- Note that once supplies start to run out attrition will affect all levels of this army, including its general! If they are on their last wound, they will certainly die before the start of the next turn.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Low military supplies" last_edit_user="bob">Low military supplies</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>MILITARY_FORCE_MORALE_LOW</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Low Military Supplies" last_edit_user="bob">Low Military Supplies</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{a6521911-a1ba-4772-9e2c-7c9a7c64e29b}" record_timestamp="1524581466267" record_key="NEGATIVE_FOOD_BALANCE">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- You have a faction-wide food deficit!\n\n- Food is primarily consumed by your population, and created by the harvest of your farms.\n\n- Maintaining a balance between of production and consumption is crucial for a stable economy." last_edit_user="bob">- You have a faction-wide food deficit!\n\n- Food is primarily consumed by your population, and created by the harvest of your farms.\n\n- Maintaining a balance between of production and consumption is crucial for a stable economy.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Food deficit!" last_edit_user="bob">Food deficit!</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>NEGATIVE_FOOD_BALANCE</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Food Deficit!" last_edit_user="bob">Food Deficit!</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{33f25565-f5f8-4c4f-aade-ea2806bd9776}" record_timestamp="1544721989440" record_key="NOT_RESEARCHING_TECH">
+<blocking>1</blocking>
+<can_be_supressed_by_player>0</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- Choose a new reform before ending the turn.\n\n- Implementing a reform will immediately provide its effect." last_edit_user="bob">- Choose a new reform before ending the turn.\n\n- Implementing a reform will immediately provide its effect.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Reform choice pending" last_edit_user="bob">Reform choice pending</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>ui/skins/default/icon_hud_end_turn_tree_%S.png</icon>
+<important>0</important>
+<key>NOT_RESEARCHING_TECH</key>
+<severity_level>warning</severity_level>
+<title state="APPROVED" last_approved_text="Reform Choice Pending" last_edit_user="bob">Reform Choice Pending</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{d5d7b4d8-9516-4dd1-9eb1-e4de7cafcd5b}" record_timestamp="1545328092033" record_key="PROVINCES_NO_CONSTRUCTION_PROJECT">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- Mouse-over a building slot to see construction options, or right-click on a slot open the building browser.\n\n- You can maintain a single construction project in each {{tr:map_province}}.\n\n- Build instantly by spending additional funds to complete construction immediately." last_edit_user="bob">- Mouse-over a building slot to see construction options, or right-click on a slot open the building browser.\n\n- You can maintain a single construction project in each {{tr:map_province}}.\n\n- Build instantly by spending additional funds to complete construction immediately.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Construction available" last_edit_user="bob">Construction available</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>PROVINCES_NO_CONSTRUCTION_PROJECT</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Construction Available" last_edit_user="bob">Construction Available</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{f1bf6fd3-caab-4a64-bb36-ab26b3395b2c}" record_timestamp="1544721989440" record_key="PROVINCES_REBELLION_MUSTERING">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- A rebellion has spawned in this {{tr:map_province}}.\n\n- Prepare your defences\n\n - Muster new troops or move armies into position." last_edit_user="bob">- A rebellion has spawned in this {{tr:map_province}}.\n\n- Prepare your defences\n\n - Muster new troops or move armies into position.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Rebellion mustering!" last_edit_user="bob">Rebellion mustering!</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>PROVINCES_REBELLION_MUSTERING</key>
+<severity_level>warning</severity_level>
+<title state="APPROVED" last_approved_text="Rebellion Mustering!" last_edit_user="bob">Rebellion Mustering!</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{3800f2f0-9840-46ab-835b-bc7f13a8e4f6}" record_timestamp="1524581466265" record_key="PROVINCES_RESOURCE_MISSING">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- Some buildings require resources to function properly.\n\n- Resources are shared across factions and will be traded through trade agreements in diplomacy.\n\n- If they are lost, the building will cease functioning. " last_edit_user="bob">- Some buildings require resources to function properly.\n\n- Resources are shared across factions and will be traded through trade agreements in diplomacy.\n\n- If they are lost, the building will cease functioning. </detailed_description>
+<display_text state="APPROVED" last_approved_text="Resources required!" last_edit_user="bob">Resources required!</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>PROVINCES_RESOURCE_MISSING</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Resources Required!" last_edit_user="bob">Resources Required!</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{98891fb4-012f-4ea6-88b9-40a918acdc97}" record_timestamp="1524581466266" record_key="PUBLIC_ORDER_LOW">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- Unrest is growing in this {{tr:map_province}} and public order is low.\n\n- Certain buildings increase public order.\n\n- Military presence or the presence of certain characters is a good short-term solution." last_edit_user="bob">- Unrest is growing in this {{tr:map_province}} and public order is low.\n\n- Certain buildings increase public order.\n\n- Military presence or the presence of certain characters is a good short-term solution.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Low public order" last_edit_user="bob">Low public order</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>PUBLIC_ORDER_LOW</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Low Public Order" last_edit_user="bob">Low Public Order</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{d72f7c09-a2a6-48c5-9f8f-89ad1ed4c897}" record_timestamp="1544721989440" record_key="SETTLEMENT_UNDER_SIEGE">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- This settlement is under siege.\n\n- Move other armies in to relieve the siege.\n\n- Alterantively, sally out with your garrisoned army to meet the attackers." last_edit_user="bob">- This settlement is under siege.\n\n- Move other armies in to relieve the siege.\n\n- Alterantively, sally out with your garrisoned army to meet the attackers.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Settlement besieged! " last_edit_user="bob">Settlement besieged! </display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>SETTLEMENT_UNDER_SIEGE</key>
+<severity_level>warning</severity_level>
+<title state="APPROVED" last_approved_text="Settlement Besieged! " last_edit_user="bob">Settlement Besieged! </title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{b249e437-16bc-4cdd-a834-7b24f23a210d}" record_timestamp="1524581466269" record_key="SIEGE_CONSTRUCTION_AVAILABLE">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- Your army is besieging an enemy settlement.\n\n- Your army can prepare siege engines for the inevitable assault\n\n- Alternatively, cause damage to the walls by deploying sappers." last_edit_user="bob">- Your army is besieging an enemy settlement.\n\n- Your army can prepare siege engines for the inevitable assault\n\n- Alternatively, cause damage to the walls by deploying sappers.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Siege construction available" last_edit_user="bob">Siege construction available</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>SIEGE_CONSTRUCTION_AVAILABLE</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Siege Construction Available" last_edit_user="bob">Siege Construction Available</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{a9b02961-db53-4202-940f-497de908e19a}" record_timestamp="1524581466270" record_key="SIEGE_NO_EQUIPMENT">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- This army has no siege equipment.\n\n- Without proper equipment, a settlement cannot be assaulted.\n\n- Your only option is to starve out your opponent." last_edit_user="bob">- This army has no siege equipment.\n\n- Without proper equipment, a settlement cannot be assaulted.\n\n- Your only option is to starve out your opponent.</detailed_description>
+<display_text state="APPROVED" last_approved_text="No siege equipment" last_edit_user="bob">No siege equipment</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>SIEGE_NO_EQUIPMENT</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="No Siege Equipment" last_edit_user="bob">No Siege Equipment</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{26e2b137-610f-40e4-b67c-5460617bd78a}" record_timestamp="1524581466269" record_key="SPARE_GOVERNOR_SLOT">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- You have a free administrator position.\n\n- Administrators reduce corruption in their {{tr:map_province}}.\n\n- However, administrators may want to increase their power, so monitor their satisfaction carefully.\n\n- Administrators also provide you with one additional army." last_edit_user="bob">- You have a free administrator position.\n\n- Administrators reduce corruption in their {{tr:map_province}}.\n\n- However, administrators may want to increase their power, so monitor their satisfaction carefully.\n\n- Administrators also provide you with one additional army.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Unassigned administrator position" last_edit_user="bob">Unassigned administrator position</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>SPARE_GOVERNOR_SLOT</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Unassigned Administrator Position" last_edit_user="bob">Unassigned Administrator Position</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{7e14f675-c5a9-4ea4-b640-a68928a567b9}" record_timestamp="1524581466270" record_key="SPARE_MINISTER_SLOT">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- You have free ministerial positions in your court.\n\n- These are prestigious, powerful offices, that also make the minister more able.\n\n- Ministers are also part of your council and will provide you with missions." last_edit_user="bob">- You have free ministerial positions in your court.\n\n- These are prestigious, powerful offices, that also make the minister more able.\n\n- Ministers are also part of your council and will provide you with missions.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Unassigned ministerial position" last_edit_user="bob">Unassigned ministerial position</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>SPARE_MINISTER_SLOT</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Unassigned Ministerial Position" last_edit_user="bob">Unassigned Ministerial Position</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{bbc7186e-cd47-4517-a551-c83fe37bca71}" record_timestamp="1524581466268" record_key="SPARE_SPY_SLOT">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- Your clandestine network can support more spies.\n\n- Send these out to other factions to learn more about them.\n\n- Alternatively, you can weaken them in preparation for a future attack." last_edit_user="bob">- Your clandestine network can support more spies.\n\n- Send these out to other factions to learn more about them.\n\n- Alternatively, you can weaken them in preparation for a future attack.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Spy position available" last_edit_user="bob">Spy position available</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>SPARE_SPY_SLOT</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Spy Position Available" last_edit_user="bob">Spy Position Available</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{64a6378f-26d9-4417-99b8-29b1763f9c49}" record_timestamp="1524581466267" record_key="TRADE_AGREEMENT_SLOTS_AVAILABLE">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- Your faction can support an additional trade route.\n\n- Seek out trade partners in diplomacy to strike a trade agreement.\n\n- The higher your trade influence, the more you can gain from these routes.\n\n- Trade agreements will also share access to resources that are required to unlock buildings." last_edit_user="bob">- Your faction can support an additional trade route.\n\n- Seek out trade partners in diplomacy to strike a trade agreement.\n\n- The higher your trade influence, the more you can gain from these routes.\n\n- Trade agreements will also share access to resources that are required to unlock buildings.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Trade route available" last_edit_user="bob">Trade route available</display_text>
+<enabled_by_default>0</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>TRADE_AGREEMENT_SLOTS_AVAILABLE</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Trade Route Available" last_edit_user="bob">Trade Route Available</title>
+</end_turn_notifications>
+<end_turn_notifications record_uuid="{141f7b3c-0ae6-4869-bf50-3ac1ad42bc6d}" record_timestamp="1548767751449" record_key="UNDERCOVER_CHARACTER_LOYAL_TO_CURRENT_FACTION">
+<blocking>0</blocking>
+<can_be_supressed_by_player>1</can_be_supressed_by_player>
+<detailed_description state="APPROVED" last_approved_text="- This character has low {{tr:satisfaction}}.\n\n- Inspect their {{tr:satisfaction}} breakdown to see how to improve this value. A character with a 'lack of purpose', for example, will want something to do: be deployed as general, go on assignment, or work as a government official.\n\n- Increase {{tr:satisfaction}} by removing negative factors, or by giving higher Court appointments or ancillaries.\n\n- If {{tr:satisfaction}} reaches 0, a character will defect." last_edit_user="bob">- This character has low {{tr:satisfaction}}.\n\n- Inspect their {{tr:satisfaction}} breakdown to see how to improve this value. A character with a 'lack of purpose', for example, will want something to do: be deployed as general, go on assignment, or work as a government official.\n\n- Increase {{tr:satisfaction}} by removing negative factors, or by giving higher Court appointments or ancillaries.\n\n- If {{tr:satisfaction}} reaches 0, a character will defect.</detailed_description>
+<display_text state="APPROVED" last_approved_text="Defection imminent" last_edit_user="bob">Defection imminent</display_text>
+<enabled_by_default>1</enabled_by_default>
+<icon>placeholder.png</icon>
+<important>0</important>
+<key>UNDERCOVER_CHARACTER_LOYAL_TO_CURRENT_FACTION</key>
+<severity_level>info</severity_level>
+<title state="APPROVED" last_approved_text="Defection Imminent" last_edit_user="bob">Defection Imminent</title>
+</end_turn_notifications>
+</dataroot>

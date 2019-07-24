@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ui_diplomacy_quick_deal_treaty_components>
+<root>
+<edit_uuid>f28eb4cd-6237-49bb-9f61-625ade837e97</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{7486c3f1-8f8a-411d-95c7-66644c6b34e2}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{4ff8d394-356e-499b-9312-22f968368f4b}</field_uuid>
+<primary_key>0</primary_key>
+<name>campaign_diplomacy_treaty_component</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_diplomacy_treaty_components</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{b5bd75af-1120-4623-8e9a-4dfc41c7c271}</field_uuid>
+<primary_key>0</primary_key>
+<name>sort_order</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{f5dbe781-72c4-4f6a-9ce6-3f98d3d6dad5}</field_uuid>
+<primary_key>0</primary_key>
+<name>localised_quick_deal_title</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>Quick Deal Title</default_value>
+<max_length>255</max_length>
+<field_description>Title for this component ONLY to be used in QUICKDEALS!</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

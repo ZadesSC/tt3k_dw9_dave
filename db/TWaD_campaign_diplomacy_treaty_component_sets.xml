@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_diplomacy_treaty_component_sets>
+<root>
+<edit_uuid>ae0626a1-0efc-4eb0-a2ab-e2a7ffdb882c</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{656e3c90-b158-4111-b246-2b2d44a77b32}</field_uuid>
+<primary_key>1</primary_key>
+<name>set</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Used with campaign_group_lookup_criteria_diplomacy_treaty_component_sets. A set is a group of campaign diplomacy treaty components that must all be in place to match the criteria. To specify that one of a group of campaign diplomacy treaty components must be satisfied use multiple sets with one component per set and one set per campaign group member.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{7aeb0b0e-e62a-4e2c-91cb-c173dee55446}</field_uuid>
+<primary_key>0</primary_key>
+<name>must_match_self</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>false</default_value>
+<field_description>If checked, this set only matches if the input contains the &quot;self&quot; faction. For example if this is group for determining the sea region control status then the self faction is the faction to determine the status for.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{8e02d7dc-b37e-4cd0-af0d-b55f0563a538}</field_uuid>
+<primary_key>0</primary_key>
+<name>must_match_a_faction_with_no_components</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>false</default_value>
+<field_description>If checked, this set only matches if the input contains a faction with no treaty components.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

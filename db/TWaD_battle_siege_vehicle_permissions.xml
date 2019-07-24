@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_battle_siege_vehicle_permissions>
+<root>
+<edit_uuid>05634358-2db6-4ab0-b309-7acab744c05c</edit_uuid>
+<field>
+<field_uuid>{49a605a3-e1b1-4052-a7ff-09ff00b32b26}</field_uuid>
+<primary_key>1</primary_key>
+<name>vehicle</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>battlefield_siege_vehicles</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{165ba746-ca9d-43d8-aad1-aaa5fcc8be95}</field_uuid>
+<primary_key>1</primary_key>
+<name>faction</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>factions</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

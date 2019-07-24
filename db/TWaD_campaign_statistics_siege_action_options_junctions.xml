@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_statistics_siege_action_options_junctions>
+<root>
+<edit_uuid>6e48ae38-c910-40f2-8094-78a097296322</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{c96d1494-9116-4baf-9e92-d3e861f1ef33}</field_uuid>
+<primary_key>1</primary_key>
+<name>campaign_statistics</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_statistics_enums</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{0455114c-b355-4394-a945-5ae5216906e6}</field_uuid>
+<primary_key>1</primary_key>
+<name>seige_action_option</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>settlement_siege_action_option</column_source_column>
+<column_source_table>settlement_siege_action_options</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

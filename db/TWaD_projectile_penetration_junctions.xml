@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_projectile_penetration_junctions>
+<root>
+<edit_uuid>2097018e-205b-45d4-8baf-fa1632788701</edit_uuid>
+<field>
+<field_uuid>{b4e3b7d6-bb90-48e1-9d8b-aa613901024e}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Unique key.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{c4becf75-ae9c-42cb-a7df-b8ee173cce2e}</field_uuid>
+<primary_key>0</primary_key>
+<name>entity_size_cap</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>battle_entities_size_enums</column_source_table>
+<field_description>Size of entity that will stop this projectile immediately.</field_description>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{5e9e20d2-ba1d-42e2-a00d-cbe941a960a4}</field_uuid>
+<primary_key>0</primary_key>
+<name>max_penetration</name>
+<field_type>integer</field_type>
+<required>1</required>
+<field_description>Penetration stat. A higher number means this projectile can penetrate more entities before being stopped.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{15ee13ad-cc55-42c0-bd8b-e0a65b5218d2}</field_uuid>
+<primary_key>0</primary_key>
+<name>description</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>User description.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+</root>

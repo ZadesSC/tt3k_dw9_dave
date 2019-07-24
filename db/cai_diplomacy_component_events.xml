@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_component_events.xsd" export_time="Fri Jun 7 16:17:25 2019" revision="44" export_branch="C:/Users/csaba.toth/AppData/Roaming/TWDaemon/1501/dave" export_user="bob">
+<edit_uuid>12bae94d-1b20-4102-a301-5b09e5a967cc</edit_uuid>
+<cai_diplomacy_component_events record_uuid="{bb5e1a8b-dcb5-494a-8ab4-74120a9b4e49}" record_timestamp="1535561924902" record_key="automatic_treaty_component_deposed_world_leader">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>automatic_treaty_component_deposed_world_leader</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>MANDATE_LOST</signed_proposer>
+<signed_recipient>MANDATE_LOST_TARGET</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{83310d7c-082e-4b6e-92ac-19a96a9bce63}" record_timestamp="1553596250896" record_key="dummy_components_abandoned_vassal">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>dummy_components_abandoned_vassal</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>REFUSED_TO_HELP_VASSAL</signed_proposer>
+<signed_recipient>REFUSED_TO_HELP_VASSAL_TARGET</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{9e7dcc34-3fe1-48a2-aa3b-1a9c01288882}" record_timestamp="1532958119401" record_key="dummy_components_agreed_on_vote">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>dummy_components_agreed_on_vote</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>SUPPORTED_ALLY_IN_JOIN_WAR_NOEFFECT</signed_proposer>
+<signed_recipient>SUPPORTED_ALLY_IN_JOIN_WAR</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{8e5e858b-f9af-43c0-9752-e605da71b1d7}" record_timestamp="1543338011664" record_key="dummy_components_annexed_vassal">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>dummy_components_annexed_vassal</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>ANNEXED_FELLOW_VASSAL</signed_proposer>
+<signed_recipient>ANNEXED_FELLOW_VASSAL_TARGET</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{c9ae3a0f-cba9-49f0-8963-d205632a90cd}" record_timestamp="1528381885829" record_key="dummy_components_attitude_manipulation_negative">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>dummy_components_attitude_manipulation_negative</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>MANIPULATED_NEGATIVE_TARGET</signed_proposer>
+<signed_recipient>MANIPULATED_NEGATIVE</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{9594a8a5-efb4-44a5-a8e6-01bebc4ccf24}" record_timestamp="1528381885854" record_key="dummy_components_attitude_manipulation_positive">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>dummy_components_attitude_manipulation_positive</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>MANIPULATED_POSITIVE_TARGET</signed_proposer>
+<signed_recipient>MANIPULATED_POSITIVE</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{31095940-5265-48cf-967b-a3163b237781}" record_timestamp="1532955788098" record_key="dummy_components_conceded_to_threat">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>dummy_components_conceded_to_threat</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>THREAT_ISSUED</signed_proposer>
+<signed_recipient>THREAT_CONCEDED</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{31a548b5-f37d-4d4b-ae8a-10898afa6489}" record_timestamp="1532958119401" record_key="dummy_components_disagreed_on_vote">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>dummy_components_disagreed_on_vote</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>ALLIANCE_DISAGREEMENT</signed_proposer>
+<signed_recipient>ALLIANCE_DISAGREEMENT</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{1e6114fc-fc98-4063-9a1b-570efd1e3f21}" record_timestamp="1532955788098" record_key="dummy_components_rebuked_threat">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>dummy_components_rebuked_threat</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>THREAT_ISSUED</signed_proposer>
+<signed_recipient>THREAT_REBUKED</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{691797e2-4ffb-4726-bee9-24c364bf64d0}" record_timestamp="1512149324283" record_key="treaty_components_alliance">
+<broken>ALLIANCE_BROKEN</broken>
+<broken_early>ALLIANCE_BROKEN_EARLY</broken_early>
+<cancelled>ALLIANCE_CANCELLED</cancelled>
+<diplomatic_component>treaty_components_alliance</diplomatic_component>
+<past_proposer>ALLIANCE_PAST</past_proposer>
+<past_recipient>ALLIANCE_PAST</past_recipient>
+<signed_proposer>ALLIANCE_SIGNED_TARGET</signed_proposer>
+<signed_recipient>ALLIANCE_SIGNED</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{de37fb4b-6a42-46f9-9437-3ce25a0cd252}" record_timestamp="1521217245944" record_key="treaty_components_alliance_to_alliance_group_peace">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_alliance_to_alliance_group_peace</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>GROUP_PEACE</signed_proposer>
+<signed_recipient>GROUP_PEACE</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{0869b51e-2da4-4e53-b3d4-51a10396d9ab}" record_timestamp="1525878434515" record_key="treaty_components_alliance_to_faction_group_peace">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_alliance_to_faction_group_peace</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>GROUP_PEACE</signed_proposer>
+<signed_recipient>GROUP_PEACE</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{d8db834b-9a8a-42c8-be76-301504e482c3}" record_timestamp="1512149324285" record_key="treaty_components_annex_vassal">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_annex_vassal</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>VASSALAGE_ANNEXED</signed_proposer>
+<signed_recipient>VASSALAGE_ANNEXED_TARGET</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{c8e10994-e854-4ed7-a19c-b59121f9f712}" record_timestamp="1533739217776" record_key="treaty_components_coalition">
+<broken>COALITION_BROKEN</broken>
+<broken_early>COALITION_BROKEN_EARLY</broken_early>
+<cancelled>COALITION_CANCELLED</cancelled>
+<diplomatic_component>treaty_components_coalition</diplomatic_component>
+<past_proposer>COALITION_PAST</past_proposer>
+<past_recipient>COALITION_PAST</past_recipient>
+<signed_proposer>COALITION_SIGNED_TARGET</signed_proposer>
+<signed_recipient>COALITION_SIGNED</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{34e9dab3-10a4-4eef-8db3-c60e196777c4}" record_timestamp="1512149324285" record_key="treaty_components_confederate_recipient">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_confederate_recipient</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>JOINED_CONFEDERATION</signed_proposer>
+<signed_recipient>JOINED_CONFEDERATION</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{b79e6ecc-2bf1-485c-b039-d0a4df21b289}" record_timestamp="1525878434464" record_key="treaty_components_faction_to_alliance_group_peace">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_faction_to_alliance_group_peace</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>GROUP_PEACE</signed_proposer>
+<signed_recipient>GROUP_PEACE</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{4c184ac4-4260-46e6-abaf-764a47cfe4ba}" record_timestamp="1513601308751" record_key="treaty_components_food_supply_demand">
+<broken>FOOD_TRADE_BROKEN_DEMAND</broken>
+<broken_early>FOOD_TRADE_BROKEN_EARLY_DEMAND</broken_early>
+<cancelled>FOOD_TRADE_CANCELLED_DEMAND</cancelled>
+<diplomatic_component>treaty_components_food_supply_demand</diplomatic_component>
+<past_proposer>FOOD_TRADE_PAST_DEMAND_PROPOSER</past_proposer>
+<past_recipient>FOOD_TRADE_PAST_DEMAND_RECIPIENT</past_recipient>
+<signed_proposer>FOOD_TRADE_SIGNED_DEMAND_PROPOSER</signed_proposer>
+<signed_recipient>FOOD_TRADE_SIGNED_DEMAND_RECIPIENT</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{a3ec1a50-0b1e-44a5-99f1-66315503d4a5}" record_timestamp="1513601380017" record_key="treaty_components_food_supply_offer">
+<broken>FOOD_TRADE_BROKEN_OFFER</broken>
+<broken_early>FOOD_TRADE_BROKEN_EARLY_OFFER</broken_early>
+<cancelled>FOOD_TRADE_CANCELLED_OFFER</cancelled>
+<diplomatic_component>treaty_components_food_supply_offer</diplomatic_component>
+<past_proposer>FOOD_TRADE_PAST_OFFER_PROPOSER</past_proposer>
+<past_recipient>FOOD_TRADE_PAST_OFFER_RECIPIENT</past_recipient>
+<signed_proposer>FOOD_TRADE_SIGNED_OFFER_PROPOSER</signed_proposer>
+<signed_recipient>FOOD_TRADE_SIGNED_OFFER_RECIPIENT</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{2ed22c24-15be-41b9-b3fe-1b6cb7b0fecf}" record_timestamp="1521217245987" record_key="treaty_components_group_war">
+<broken>GROUP_WAR_BROKEN</broken>
+<broken_early>GROUP_WAR_BROKEN_EARLY</broken_early>
+<cancelled>GROUP_WAR_CANCELLED</cancelled>
+<diplomatic_component>treaty_components_group_war</diplomatic_component>
+<past_proposer>GROUP_WAR_PAST</past_proposer>
+<past_recipient>GROUP_WAR_PAST_TARGET</past_recipient>
+<signed_proposer>GROUP_WAR</signed_proposer>
+<signed_recipient>GROUP_WAR_TARGET</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{bd482d1e-174e-4837-afd8-16a47a769cd7}" record_timestamp="1530872375514" record_key="treaty_components_guarentee_autonomy">
+<broken>GUARANTEE_AUTONOMY_BROKEN</broken>
+<broken_early>GUARANTEE_AUTONOMY_BROKEN_EARLY</broken_early>
+<cancelled>GUARANTEE_AUTONOMY_CANCELLED</cancelled>
+<diplomatic_component>treaty_components_guarentee_autonomy</diplomatic_component>
+<past_proposer>GUARANTEE_AUTONOMY_PAST_VASSAL</past_proposer>
+<past_recipient>GUARANTEE_AUTONOMY_PAST_MASTER</past_recipient>
+<signed_proposer>GUARANTEE_AUTONOMY_SIGNED_VASSAL</signed_proposer>
+<signed_recipient>GUARANTEE_AUTONOMY_SIGNED_MASTER</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{ede7ea01-fca7-4ca6-8318-be2d414cc313}" record_timestamp="1555574692546" record_key="treaty_components_liberate_proposer">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_liberate_proposer</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>VASSALAGE_LIBERATED_TARGET</signed_proposer>
+<signed_recipient>VASSALAGE_LIBERATED</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{00ce5296-ea51-4fe8-87ba-8c4c98fb40cb}" record_timestamp="1516469508001" record_key="treaty_components_liberate_recipient">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_liberate_recipient</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>VASSALAGE_LIBERATED</signed_proposer>
+<signed_recipient>VASSALAGE_LIBERATED_TARGET</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{766518cc-353d-49b6-822a-0dcd6bac56f3}" record_timestamp="1528470390712" record_key="treaty_components_marriage_give_female">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_marriage_give_female</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>MARRIAGE</signed_proposer>
+<signed_recipient>MARRIAGE</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{50d9c448-e003-4305-8b39-c99d284a6308}" record_timestamp="1528470390712" record_key="treaty_components_marriage_give_female_male">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_marriage_give_female_male</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>MARRIAGE</signed_proposer>
+<signed_recipient>MARRIAGE</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{a64a1d0a-e3e2-4762-996d-e2bb743eaafa}" record_timestamp="1528470390711" record_key="treaty_components_marriage_give_male">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_marriage_give_male</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>MARRIAGE</signed_proposer>
+<signed_recipient>MARRIAGE</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{2d0c16a8-6070-4cd8-b2f5-85403be0838f}" record_timestamp="1528470390711" record_key="treaty_components_marriage_give_male_female">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_marriage_give_male_female</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>MARRIAGE</signed_proposer>
+<signed_recipient>MARRIAGE</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{a018e777-a7f3-4f9e-8b21-745f774e0b72}" record_timestamp="1528470390712" record_key="treaty_components_marriage_recieve_female">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_marriage_recieve_female</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>MARRIAGE</signed_proposer>
+<signed_recipient>MARRIAGE</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{9df12e28-422d-4cf2-9e09-ad511c71cfd7}" record_timestamp="1528470390712" record_key="treaty_components_marriage_recieve_female_male">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_marriage_recieve_female_male</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>MARRIAGE</signed_proposer>
+<signed_recipient>MARRIAGE</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{d751d1d4-0591-4c66-bff7-fd07ff01d3a8}" record_timestamp="1528470390712" record_key="treaty_components_marriage_recieve_male">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_marriage_recieve_male</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>MARRIAGE</signed_proposer>
+<signed_recipient>MARRIAGE</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{5b7d3ab9-a0c4-400f-88a8-6e788bcb24ad}" record_timestamp="1528470390712" record_key="treaty_components_marriage_recieve_male_female">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_marriage_recieve_male_female</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>MARRIAGE</signed_proposer>
+<signed_recipient>MARRIAGE</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{e330496f-f6fa-45c1-a6c9-34422f15c1ab}" record_timestamp="1512149324283" record_key="treaty_components_military_access">
+<broken>MILITARY_ACCESS_BROKEN</broken>
+<broken_early>MILITARY_ACCESS_BROKEN_EARLY</broken_early>
+<cancelled>MILITARY_ACCESS_CANCELLED</cancelled>
+<diplomatic_component>treaty_components_military_access</diplomatic_component>
+<past_proposer>MILITARY_ACCESS_PAST</past_proposer>
+<past_recipient>MILITARY_ACCESS_PAST</past_recipient>
+<signed_proposer>MILITARY_ACCESS_SIGNED</signed_proposer>
+<signed_recipient>MILITARY_ACCESS_SIGNED</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{c9a80dd5-bf76-41de-88ca-b1f2b6326d5d}" record_timestamp="1511178839385" record_key="treaty_components_non_aggression">
+<broken>NON_AGGRESSION_BROKEN</broken>
+<broken_early>NON_AGGRESSION_BROKEN_EARLY</broken_early>
+<cancelled>NON_AGGRESSION_CANCELLED</cancelled>
+<diplomatic_component>treaty_components_non_aggression</diplomatic_component>
+<past_proposer>NON_AGGRESSION_PAST</past_proposer>
+<past_recipient>NON_AGGRESSION_PAST</past_recipient>
+<signed_proposer>NON_AGGRESSION_SIGNED</signed_proposer>
+<signed_recipient>NON_AGGRESSION_SIGNED</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{24ae44d2-bc8b-4c8e-b534-4f6f016d2e62}" record_timestamp="1513601308751" record_key="treaty_components_payment_regular_demand">
+<broken>REGULAR_PAYMENTS_BROKEN_DEMAND</broken>
+<broken_early>REGULAR_PAYMENTS_BROKEN_EARLY_DEMAND</broken_early>
+<cancelled>REGULAR_PAYMENTS_CANCELLED_DEMAND</cancelled>
+<diplomatic_component>treaty_components_payment_regular_demand</diplomatic_component>
+<past_proposer>REGULAR_PAYMENTS_PAST_DEMAND_PROPOSER</past_proposer>
+<past_recipient>REGULAR_PAYMENTS_PAST_DEMAND_RECIPIENT</past_recipient>
+<signed_proposer>REGULAR_PAYMENTS_SIGNED_DEMAND_PROPOSER</signed_proposer>
+<signed_recipient>REGULAR_PAYMENTS_SIGNED_DEMAND_RECIPIENT</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{7a461da2-1080-4e90-8b72-4d254c4ba9e9}" record_timestamp="1513601380017" record_key="treaty_components_payment_regular_offer">
+<broken>REGULAR_PAYMENTS_BROKEN_OFFER</broken>
+<broken_early>REGULAR_PAYMENTS_BROKEN_EARLY_OFFER</broken_early>
+<cancelled>REGULAR_PAYMENTS_CANCELLED_OFFER</cancelled>
+<diplomatic_component>treaty_components_payment_regular_offer</diplomatic_component>
+<past_proposer>REGULAR_PAYMENTS_PAST_OFFER_PROPOSER</past_proposer>
+<past_recipient>REGULAR_PAYMENTS_PAST_OFFER_RECIPIENT</past_recipient>
+<signed_proposer>REGULAR_PAYMENTS_SIGNED_OFFER_PROPOSER</signed_proposer>
+<signed_recipient>REGULAR_PAYMENTS_SIGNED_OFFER_RECIPIENT</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{1027a6cb-95b9-4dcc-adb0-42fb06503e2c}" record_timestamp="1517827105025" record_key="treaty_components_peace">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_peace</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>PEACE</signed_proposer>
+<signed_recipient>PEACE</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{1e1ce6e5-d56a-431e-b44c-23283d33c11b}" record_timestamp="1553855643678" record_key="treaty_components_region_demand">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_region_demand</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>REGION_DEMANDED</signed_proposer>
+<signed_recipient>REGION_DEMANDED_TARGET</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{c51e0733-3e71-4a89-9894-885c5d8212ea}" record_timestamp="1553855643678" record_key="treaty_components_region_offer">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_region_offer</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>REGION_OFFERED</signed_proposer>
+<signed_recipient>REGION_OFFERED_TARGET</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{f8cead17-2957-49b2-bb4f-9d70302b20c6}" record_timestamp="1551096033250" record_key="treaty_components_support_independence">
+<broken>SUPPORT_INDEPENDENCE_BROKEN</broken>
+<broken_early>SUPPORT_INDEPENDENCE_BROKEN_EARLY</broken_early>
+<cancelled>SUPPORT_INDEPENDENCE_CANCELLED</cancelled>
+<diplomatic_component>treaty_components_support_independence</diplomatic_component>
+<past_proposer>SUPPORT_INDEPENDENCE_PAST</past_proposer>
+<past_recipient>SUPPORT_INDEPENDENCE_PAST_TARGET</past_recipient>
+<signed_proposer>SUPPORT_INDEPENDENCE_SIGNED</signed_proposer>
+<signed_recipient>SUPPORT_INDEPENDENCE_SIGNED_TARGET</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{d1533394-843c-4290-af9f-2032f33e88a6}" record_timestamp="1538488482088" record_key="treaty_components_supporting_legitimacy">
+<broken>ACKNOWLEDGE_LEGITIMACY_BROKEN</broken>
+<broken_early>ACKNOWLEDGE_LEGITIMACY_BROKEN_EARLY</broken_early>
+<cancelled>ACKNOWLEDGE_LEGITIMACY_CANCELLED</cancelled>
+<diplomatic_component>treaty_components_supporting_legitimacy</diplomatic_component>
+<past_proposer>ACKNOWLEDGE_LEGITIMACY_PAST</past_proposer>
+<past_recipient>ACKNOWLEDGE_LEGITIMACY_PAST</past_recipient>
+<signed_proposer>ACKNOWLEDGE_LEGITIMACY_SIGNED</signed_proposer>
+<signed_recipient>ACKNOWLEDGE_LEGITIMACY_SIGNED</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{21107e00-d57d-4e3e-88a0-748639394f9a}" record_timestamp="1548515693438" record_key="treaty_components_take_tribute">
+<broken>TRIBUTE_BROKEN</broken>
+<broken_early>TRIBUTE_BROKEN_EARLY</broken_early>
+<cancelled>TRIBUTE_CANCELLED</cancelled>
+<diplomatic_component>treaty_components_take_tribute</diplomatic_component>
+<past_proposer>TRIBUTE_PAST_VASSAL</past_proposer>
+<past_recipient>TRIBUTE_PAST_MASTER</past_recipient>
+<signed_proposer>TRIBUTE_SIGNED_VASSAL</signed_proposer>
+<signed_recipient>TRIBUTE_SIGNED_MASTER</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{66e5ed9a-b66a-4596-a26f-b96322ba9404}" record_timestamp="1512149324282" record_key="treaty_components_trade">
+<broken>TRADE_AGREEMENT_BROKEN</broken>
+<broken_early>TRADE_AGREEMENT_BROKEN_EARLY</broken_early>
+<cancelled>TRADE_AGREEMENT_CANCELLED</cancelled>
+<diplomatic_component>treaty_components_trade</diplomatic_component>
+<past_proposer>TRADE_AGREEMENT_PAST</past_proposer>
+<past_recipient>TRADE_AGREEMENT_PAST</past_recipient>
+<signed_proposer>TRADE_AGREEMENT_SIGNED</signed_proposer>
+<signed_recipient>TRADE_AGREEMENT_SIGNED</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{62eca824-10a5-4d11-8256-a37de7944224}" record_timestamp="1533739217854" record_key="treaty_components_trade_monopoly">
+<broken>TRADE_MONOPOLY_BROKEN</broken>
+<broken_early>TRADE_MONOPOLY_BROKEN_EARLY</broken_early>
+<cancelled>TRADE_MONOPOLY_CANCELLED</cancelled>
+<diplomatic_component>treaty_components_trade_monopoly</diplomatic_component>
+<past_proposer>TRADE_MONOPOLY_PAST_UNDERDOG</past_proposer>
+<past_recipient>TRADE_MONOPOLY_PAST_TRADER</past_recipient>
+<signed_proposer>TRADE_MONOPOLY_SIGNED_UNDERDOG</signed_proposer>
+<signed_recipient>TRADE_MONOPOLY_SIGNED_TRADER</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{ca57a5af-d7d7-4e96-9d2b-81ec6b5660c2}" record_timestamp="1554463308703" record_key="treaty_components_vassal_demands_protection">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>treaty_components_vassal_demands_protection</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>HELPED_VASSAL_TARGET</signed_proposer>
+<signed_recipient>HELPED_VASSAL</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{0369dd48-80e3-4077-ad1c-a7560c8ad731}" record_timestamp="1530872375514" record_key="treaty_components_vassalage">
+<broken>VASSALAGE_BROKEN</broken>
+<broken_early>VASSALAGE_BROKEN_EARLY</broken_early>
+<cancelled>VASSALAGE_CANCELLED</cancelled>
+<diplomatic_component>treaty_components_vassalage</diplomatic_component>
+<past_proposer>VASSALAGE_PAST_VASSAL</past_proposer>
+<past_recipient>VASSALAGE_PAST_MASTER</past_recipient>
+<signed_proposer>VASSALAGE_SIGNED_VASSAL</signed_proposer>
+<signed_recipient>VASSALAGE_SIGNED_MASTER</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{924fc47a-8856-4d8e-8e2c-9bdb4c43b432}" record_timestamp="1530872375514" record_key="treaty_components_war">
+<broken>WAR_BROKEN</broken>
+<broken_early>WAR_BROKEN_EARLY</broken_early>
+<cancelled>WAR_CANCELLED</cancelled>
+<diplomatic_component>treaty_components_war</diplomatic_component>
+<past_proposer>WAR_PAST</past_proposer>
+<past_recipient>WAR_PAST_TARGET</past_recipient>
+<signed_proposer>WAR</signed_proposer>
+<signed_recipient>WAR_TARGET</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{8bbd39be-7a79-4a9a-8d7a-f31989fdadad}" record_timestamp="1537195469512" record_key="treaty_components_yuan_shao_alliance_dummy">
+<broken>ALLIANCE_YUAN_SHAO_BROKEN</broken>
+<broken_early>ALLIANCE_YUAN_SHAO_BROKEN_EARLY</broken_early>
+<cancelled>ALLIANCE_YUAN_SHAO_CANCELLED</cancelled>
+<diplomatic_component>treaty_components_yuan_shao_alliance_dummy</diplomatic_component>
+<past_proposer>ALLIANCE_YUAN_SHAO_PAST</past_proposer>
+<past_recipient>ALLIANCE_YUAN_SHAO_PAST</past_recipient>
+<signed_proposer>ALLIANCE_YUAN_SHAO_SIGNED</signed_proposer>
+<signed_recipient>ALLIANCE_YUAN_SHAO_SIGNED</signed_recipient>
+</cai_diplomacy_component_events>
+</dataroot>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_political_parties_frontend_leaders_junctions>
+<root>
+<edit_uuid>5bb7e14c-a48c-4ac6-84af-c4da0def3485</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{db3ad005-4693-4dbc-9bd8-6098c57d832f}</field_uuid>
+<primary_key>1</primary_key>
+<name>political_party</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>political_parties</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{2a09ad68-74f6-4bbb-9889-51c2c614c86a}</field_uuid>
+<primary_key>1</primary_key>
+<name>frontend_leader</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>frontend_faction_leaders</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

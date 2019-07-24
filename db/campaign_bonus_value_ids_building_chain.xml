@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_bonus_value_ids_building_chain.xsd" export_time="Tue Jan 31 11:12:11 2017" revision="11" export_branch="E:/Total War/common/TWeak" export_user="bob">
+<edit_uuid>a52e25fd-d845-49e7-aced-838734d9a1f6</edit_uuid>
+<campaign_bonus_value_ids_building_chain record_uuid="{3d9ae5c7-6bc2-4da8-a5d7-09abd7041a23}" record_timestamp="1485861131266" record_key="building_construction_time_reduction">
+<key>building_construction_time_reduction</key>
+<notes>Absolute modifier on time required to complete construction of buildings in this chain. Any building that would have its remaining construction time reduced below zero is reduced to zero and will complete at the start of the next turn. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_building_chain>
+<campaign_bonus_value_ids_building_chain record_uuid="{1083d4d2-cab7-4702-8e36-8eb0f9961bd5}" record_key="mod_build_time">
+<key>mod_build_time</key>
+<notes>Percentage modifier to construction time for buildings (result is rounded to nearest integer). Negative value reduces construction time. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_building_chain>
+<campaign_bonus_value_ids_building_chain record_uuid="{100d53ce-7abd-41d9-afde-966a5ca2062d}" record_timestamp="1465987183509" record_key="mod_conversion_cost">
+<key>mod_conversion_cost</key>
+<notes>Percentage modifier to building conversion cost. Negative value reduces cost. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_building_chain>
+<campaign_bonus_value_ids_building_chain record_uuid="{37c055ee-7a3e-4fa4-b808-231046be501a}" record_timestamp="1368118746818" record_key="mod_conversion_time">
+<key>mod_conversion_time</key>
+<notes>Percentage modifier to conversion construction time for buildings (result is rounded to nearest integer). Negative value reduces construction time. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_building_chain>
+<campaign_bonus_value_ids_building_chain record_uuid="{f28e99e5-7f55-4cee-a768-1d3d8150ff80}" record_timestamp="1465987183509" record_key="mod_cost">
+<key>mod_cost</key>
+<notes>Percentage modifier to building cost. Negative value reduces cost. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_building_chain>
+<campaign_bonus_value_ids_building_chain record_uuid="{c9dd05cd-7374-4e8f-9dfe-21f08c00d9f9}" record_timestamp="1465987183462" record_key="mod_gdp">
+<key>mod_gdp</key>
+<notes>Percentage modifier to gdp for slot. Used at region bonuses. Positive value increases region gdp.</notes>
+</campaign_bonus_value_ids_building_chain>
+<campaign_bonus_value_ids_building_chain record_uuid="{cb8ba9bb-0f8b-4d50-ac2a-98c6e600da46}" record_timestamp="1465987183510" record_key="mod_resource_production">
+<key>mod_resource_production</key>
+<notes>Percentage modifier to production for slots with that building chain. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_building_chain>
+<campaign_bonus_value_ids_building_chain record_uuid="{6cb64221-4592-4b59-9828-f1d7a1d375e6}" record_timestamp="1465987183510" record_key="mod_tw_growth">
+<key>mod_tw_growth</key>
+<notes>Percentage modifier to town wealth growth for slots with that building chain. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_building_chain>
+</dataroot>

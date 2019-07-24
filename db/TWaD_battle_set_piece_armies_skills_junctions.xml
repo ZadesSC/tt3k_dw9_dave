@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_battle_set_piece_armies_skills_junctions>
+<root>
+<edit_uuid>83384bd8-0436-488d-a9a4-16532568e324</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{16fa2c98-10f3-41d1-a643-9e4e809fb41a}</field_uuid>
+<primary_key>1</primary_key>
+<name>army_name</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>army_name</column_source_column>
+<column_source_table>battle_set_piece_armies</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

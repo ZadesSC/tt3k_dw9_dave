@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_texc_expansions>
+<root>
+<edit_uuid>eae98714-b2e7-41a5-bf17-799f2135294f</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{b3ac22b3-b6d4-47cc-9e0f-22dc44fc3610}</field_uuid>
+<primary_key>1</primary_key>
+<name>expansion</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Expansion key</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{a410b2b1-9d3e-49e2-ae8d-efa618b8b485}</field_uuid>
+<primary_key>0</primary_key>
+<name>description</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Description of the expansion, e.g whether campaign, unit or faction expansion</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{a6d9a432-3331-4f1b-b374-79930b30194a}</field_uuid>
+<primary_key>0</primary_key>
+<name>pack_filename_extension</name>
+<field_type>text</field_type>
+<required>0</required>
+<default_value>placeholder</default_value>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{1c7c9f67-7d98-486a-af32-d095df552a6a}</field_uuid>
+<primary_key>0</primary_key>
+<name>released</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>false</default_value>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

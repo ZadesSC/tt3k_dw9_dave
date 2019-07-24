@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_settlement_siege_action_outcomes>
+<root>
+<edit_uuid>31172245-e26e-43e0-9b0d-33ecbfa4ee25</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{e58d6263-1454-413f-a425-e39b216b79c6}</field_uuid>
+<primary_key>1</primary_key>
+<name>outcome</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>This links to code so entires cannot be added, removed or renamed without code support.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

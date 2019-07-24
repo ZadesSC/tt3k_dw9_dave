@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cdir_event_diplomatic_condition_subcultures>
+<root>
+<edit_uuid>716f1522-97d2-4566-b9ff-5fbe1f4748ae</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{118daa38-a215-42d1-a68d-50aafec9d2fc}</field_uuid>
+<primary_key>1</primary_key>
+<name>diplomatic_condition</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>cdir_event_diplomatic_conditions</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{df1da417-351a-4917-ac9e-3e912ad68aab}</field_uuid>
+<primary_key>1</primary_key>
+<name>subculture</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>subculture</column_source_column>
+<column_source_table>cultures_subcultures</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

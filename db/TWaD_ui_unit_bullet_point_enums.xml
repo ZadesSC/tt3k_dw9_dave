@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ui_unit_bullet_point_enums>
+<root>
+<edit_uuid>36abf109-8cc8-42b9-b566-e429346ca7f6</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{06e114d3-a913-4fba-8a81-afe04f31b5dc}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Text for bullet points</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{35afcaa7-c463-4a2a-8a47-056d1e379a59}</field_uuid>
+<primary_key>0</primary_key>
+<name>onscreen_name</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Onscreen localized text</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{ffbf42bc-d32a-42d7-9aa0-a5e9c3a50a4f}</field_uuid>
+<primary_key>0</primary_key>
+<name>state</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>positive</default_value>
+<max_length>255</max_length>
+<field_description>State to set for entry in ui layout</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{b20c375c-fc85-4da6-955f-f1dfca9e14df}</field_uuid>
+<primary_key>0</primary_key>
+<name>sort_order</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>Used to handle sorting in ui</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c42dc5e0-5698-409d-aaa8-26401d7d7e5d}</field_uuid>
+<primary_key>0</primary_key>
+<name>tooltip</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>Optional tooltip for bullet point</field_description>
+<encyclopaedia_export>1</encyclopaedia_export>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

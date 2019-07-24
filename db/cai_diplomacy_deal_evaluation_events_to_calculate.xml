@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_evaluation_events_to_calculate.xsd" export_time="Thu Nov 30 19:57:55 2017" revision="5" export_branch="T:/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>24272e83-4b40-48fe-8bb8-2ec92d3f4cea</edit_uuid>
+<cai_diplomacy_deal_evaluation_events_to_calculate record_uuid="{0c6ed030-e198-422d-9f18-1c4cd4ac42dc}" record_timestamp="1509726691224" record_key="event_military_access">
+<event_acted_on>respondent_type_proposer</event_acted_on>
+<event_from>respondent_type_proposer</event_from>
+<event_param></event_param>
+<event_to>respondent_type_proposer</event_to>
+<key>event_military_access</key>
+<treaty_component>treaty_components_military_access</treaty_component>
+</cai_diplomacy_deal_evaluation_events_to_calculate>
+<cai_diplomacy_deal_evaluation_events_to_calculate record_uuid="{a4ba4d35-4edb-4be9-92eb-28a4256b2527}" record_timestamp="1506444026101" record_key="event_non_agression">
+<event_acted_on>respondent_type_proposer</event_acted_on>
+<event_from>respondent_type_proposer</event_from>
+<event_param></event_param>
+<event_to>respondent_type_proposer</event_to>
+<key>event_non_agression</key>
+<treaty_component>treaty_components_non_aggression</treaty_component>
+</cai_diplomacy_deal_evaluation_events_to_calculate>
+<cai_diplomacy_deal_evaluation_events_to_calculate record_uuid="{3b0744ee-7b39-49bc-9f9b-94c15a5adebb}" record_timestamp="1509726691122" record_key="event_peace_signed">
+<event_acted_on>respondent_type_proposer</event_acted_on>
+<event_from>respondent_type_proposer</event_from>
+<event_param></event_param>
+<event_to>respondent_type_proposer</event_to>
+<key>event_peace_signed</key>
+<treaty_component>treaty_components_peace</treaty_component>
+</cai_diplomacy_deal_evaluation_events_to_calculate>
+<cai_diplomacy_deal_evaluation_events_to_calculate record_uuid="{9c67ff19-3581-4392-8cea-1f6a62551028}" record_timestamp="1509726691087" record_key="event_war_declared">
+<event_acted_on>respondent_type_recipient</event_acted_on>
+<event_from>respondent_type_proposer</event_from>
+<event_param></event_param>
+<event_to>respondent_type_recipient</event_to>
+<key>event_war_declared</key>
+<treaty_component>treaty_components_war</treaty_component>
+</cai_diplomacy_deal_evaluation_events_to_calculate>
+</dataroot>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_evaluation_component_criterion_variables.xsd" export_time="Mon Apr 29 09:06:23 2019" revision="4" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1457/client" export_user="bob">
+<edit_uuid>7d1fe0a5-d16f-4a36-bf85-4557d81638ac</edit_uuid>
+<cai_diplomacy_deal_evaluation_component_criterion_variables record_uuid="{b123ce5d-2f5d-4cd7-87f9-af3945921f07}" record_timestamp="1509726691207" record_key="military_access_devent_military_access">
+<conditions></conditions>
+<events_to_calculate>event_military_access</events_to_calculate>
+<should_negate>0</should_negate>
+<variable_type>military_access_d</variable_type>
+</cai_diplomacy_deal_evaluation_component_criterion_variables>
+<cai_diplomacy_deal_evaluation_component_criterion_variables record_uuid="{43c29054-5338-4756-9bef-0a9809a4c118}" record_timestamp="1502285998985" record_key="non_agression_devent_non_agression">
+<conditions></conditions>
+<events_to_calculate>event_non_agression</events_to_calculate>
+<should_negate>0</should_negate>
+<variable_type>non_agression_d</variable_type>
+</cai_diplomacy_deal_evaluation_component_criterion_variables>
+<cai_diplomacy_deal_evaluation_component_criterion_variables record_uuid="{d6e09f9c-2a4b-4c03-a077-bd20b9f75b4f}" record_timestamp="1509726691173" record_key="peace_devent_peace_signed">
+<conditions></conditions>
+<events_to_calculate>event_peace_signed</events_to_calculate>
+<should_negate>0</should_negate>
+<variable_type>peace_d</variable_type>
+</cai_diplomacy_deal_evaluation_component_criterion_variables>
+<cai_diplomacy_deal_evaluation_component_criterion_variables record_uuid="{e69b2364-3336-4340-b3b8-786ae8daf85f}" record_timestamp="1509726691070" record_key="war_dparticipant_in_component">
+<conditions>participant_in_component</conditions>
+<events_to_calculate></events_to_calculate>
+<should_negate>0</should_negate>
+<variable_type>war_d</variable_type>
+</cai_diplomacy_deal_evaluation_component_criterion_variables>
+</dataroot>

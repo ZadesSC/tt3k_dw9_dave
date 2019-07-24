@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_vo_text_characters>
+<root>
+<edit_uuid>31753e91-6d09-4ed3-b0d6-d073dd6fccee</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{0c99bf91-2863-4a37-b12e-55a201538a68}</field_uuid>
+<primary_key>1</primary_key>
+<name>vo_text</name>
+<field_type>integer</field_type>
+<required>1</required>
+<column_source_column>key</column_source_column>
+<column_source_table>vo_texts</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{cefe4e8c-0bf0-4560-9103-1ce21aaa5338}</field_uuid>
+<primary_key>1</primary_key>
+<name>vo_character</name>
+<field_type>integer</field_type>
+<required>1</required>
+<column_source_column>key</column_source_column>
+<column_source_table>vo_characters</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

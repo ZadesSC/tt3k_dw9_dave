@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_bonus_value_ids_basic.xsd" export_time="Tue Mar 5 10:13:28 2019" revision="185" export_branch="T:/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>19896e27-54e2-44cd-86b4-76b73cc36d96</edit_uuid>
+<campaign_bonus_value_ids_basic record_uuid="{b45607e7-cb98-4224-86e1-4c4e0e29cc39}" record_timestamp="1535454578574" record_key="additional_force_retinues_deployable_per_turn">
+<key>additional_force_retinues_deployable_per_turn</key>
+<notes>Flat increase in number of deployable retinues per turn for a faction. Used at faction bonsues.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{d7108ce8-664b-4f55-b45c-6b71375118a5}" record_timestamp="1425551907148" record_key="additional_growth_for_migration">
+<key>additional_growth_for_migration</key>
+<notes>Amount of growth added when horde begins migration</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{d7a36f02-8604-4647-ae0d-bce2805b980d}" record_timestamp="1425551907148" record_key="additional_growth_for_raze">
+<key>additional_growth_for_raze</key>
+<notes>Growth added when a settlement is razed</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{13cfcf58-39c7-4267-90b1-ef7773aed34c}" record_timestamp="1465987183456" record_key="additional_growth_for_resettle">
+<key>additional_growth_for_resettle</key>
+<notes>Growth added when a horde resettles a region.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{1d8a3b18-94a5-435f-a347-b0a13af8f96d}" record_timestamp="1507280067668" record_key="additional_number_of_simultaneous_faction_province_building_construction_projects_allowed">
+<key>additional_number_of_simultaneous_faction_province_building_construction_projects_allowed</key>
+<notes>The additional number of new, upgrade and conversion building construction items that are permitted to be in progress in one faction province at any one time, on top of the base campaign variable.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{37e01bc7-159e-47d4-b35e-0a956a79645a}" record_timestamp="1465987183456" record_key="admin_cost_mod">
+<key>admin_cost_mod</key>
+<notes>Added to inefficiency costing, provided as a percentage. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{e2f7ad10-e874-4680-a875-0ba7df406218}" record_timestamp="1465987183455" record_key="agent_action_failure_cost_mod">
+<key>agent_action_failure_cost_mod</key>
+<notes>Percentage modifier for cost of failed actions. Positive value reduces cost, clamped to 50% reduction. Used from character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{45e5e687-044c-458d-a55a-55f2974b67a8}" record_key="agent_create_disaffection_in_region">
+<key>agent_create_disaffection_in_region</key>
+<notes>Adds to disaffection unhappiness factor in region. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{724efaab-eb99-4196-9b9a-cc8b2ccbc654}" record_key="agent_create_disorder_in_region">
+<key>agent_create_disorder_in_region</key>
+<notes>Adds to disorder unhappiness factor in region. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f46226f2-7ed0-4fc6-8e08-18ea2c17ef8f}" record_key="agent_rally_slaves_in_region">
+<key>agent_rally_slaves_in_region</key>
+<notes>Adds to slaves unhappiness factor in region. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{22b5210b-a7b3-4d65-9731-d028703981b6}" record_key="agent_religion_conversion">
+<key>agent_religion_conversion</key>
+<notes>Percentage religion conversion contribution per turn. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{8454526c-f5e0-45d3-b138-5895c7dc15be}" record_key="agent_success_chance_mod">
+<key>agent_success_chance_mod</key>
+<notes>Percentage modifier on agent action success chance. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{30c7b8cf-f10c-424b-9656-5487ee42d1f0}" record_timestamp="1508248589452" record_key="ai_hint_general">
+<key>ai_hint_general</key>
+<notes>Modifers to character's value when selecting a general. Used at character and faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{d2c5eb50-fc19-4d08-9e90-16dce8794230}" record_timestamp="1508248589452" record_key="ai_hint_governor">
+<key>ai_hint_governor</key>
+<notes>Modifers to character's value when selecting a governor. Used at character and faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{09fa5eb6-d828-4b25-9a00-c948bf18ec9b}" record_timestamp="1508248589452" record_key="ai_hint_minister">
+<key>ai_hint_minister</key>
+<notes>Modifers to character's value when selecting a minister. Used at character and faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{53e9965f-654b-4199-8b34-a3e7e78d8dd4}" record_timestamp="1508248589452" record_key="ai_hint_spy">
+<key>ai_hint_spy</key>
+<notes>Modifers to character's value when selecting a spy. Used at character and faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ada0328f-da20-422c-9e27-c89fd9252df1}" record_timestamp="1465987183483" record_key="ai_region_resistance_modifier">
+<key>ai_region_resistance_modifier</key>
+<notes>Percentage modifier to region happiness due to resistance on region capture. Positive values reduce unhappiness effect. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{3e6c4858-1939-4ae0-b12c-a7d44e5fe2ae}" record_key="ambush_chance_of_success_attack_bonus">
+<key>ambush_chance_of_success_attack_bonus</key>
+<notes>Bonus to chance of success when launching an ambush. This will be added to the base chance of success (calculated from ground type) as a flat percentage. Used at Military Force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ce4307a5-1b6e-400e-8803-837550ec57c7}" record_key="ambush_chance_of_success_defence_bonus">
+<key>ambush_chance_of_success_defence_bonus</key>
+<notes>Subtracts from an ambushing attackers chance of success as a flat percentage. Used at Military Force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ec90df09-7c95-40f1-adba-8a2da1b2a5bd}" record_timestamp="1465987183456" record_key="ammo_mod">
+<key>ammo_mod</key>
+<notes>Percentage modifier for unit stat ammo mod. Used at unit through character or military force bonuses. Positive increases ammo.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{af56a5b3-fa96-416e-b2c1-4c546a024465}" record_timestamp="1514891368173" record_key="armed_citizenry_unit_replenishment_percentage_bonus">
+<key>armed_citizenry_unit_replenishment_percentage_bonus</key>
+<notes>Replenishment rate bonus for units that are armed citizenry. Used at Region and Faction.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a7d37a38-9fcb-427f-9452-601aa7a0ccad}" record_key="armour_mod">
+<key>armour_mod</key>
+<notes>Added to armour unit stat (m_armour_attack). Used in unit stats, so from character or military forces bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{81f3fad1-300b-4614-9be3-aedb56a3bc0d}" record_key="army_cap_bonus">
+<key>army_cap_bonus</key>
+<notes>Bonus added to army cap, used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{3bb89f20-2a88-4556-b7e6-4cef5d005bab}" record_timestamp="1517337368164" record_key="assignment_cap">
+<key>assignment_cap</key>
+<notes>Additive bonus to assignments. Clamped at zero</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{e125e124-a7fd-474c-b022-eaba1d5d6772}" record_key="attribute_authority_mod">
+<key>attribute_authority_mod</key>
+<notes>Modify authority attribute level. Used from character bonuses and province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{7f14482b-a319-4518-b264-5b9a795d2979}" record_key="attribute_subterfuge_mod">
+<key>attribute_subterfuge_mod</key>
+<notes>Modify subterfuge attribute level. Used from character bonuses and province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{6ccd1fca-dc0c-4a91-99cc-ada239f61cd6}" record_key="attribute_zeal_mod">
+<key>attribute_zeal_mod</key>
+<notes>Modify zeal attribute level. Used from character bonuses and province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{fae92258-240b-40e2-b3e9-9dc5ba453c18}" record_timestamp="1465987183483" record_key="attrition_difficulty_addition">
+<key>attrition_difficulty_addition</key>
+<notes>Percentage value, scaled by 0.01 and added to CAMPAIGN_VARIABLE_MAXIMUM_ATTRITION_PERCENTAGE, to give the range used by the random attrition selection. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{51054e10-3bbb-4bcd-b15f-c4dc487e5d76}" record_timestamp="1436365082072" record_key="autoresolver_spell_modifier">
+<key>autoresolver_spell_modifier</key>
+<notes>Percentage modifier for autoresolver spell effects. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b003e69c-abe4-4b08-ae9f-b3a2238ec3ae}" record_timestamp="1465987243418" record_key="autoresolver_tower_level">
+<key>autoresolver_tower_level</key>
+<notes>The settlement tower level associated with a region, to control autoresolver tower damage. This is not cumulative, pending battle will use the highest value in the region. Used at region level bonus values.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{c576fbc7-ccd8-42de-8a54-746fd7b49a5b}" record_timestamp="1468597595132" record_key="basic_trade_strength">
+<key>basic_trade_strength</key>
+<notes>Used to determine how much of the square root of the sum of the involved faction's gdps this faction receives. Having a higher trade strength relative to your trading partner means you get a larger proportion of the gdp income.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{12b9b14a-8814-42be-971f-972029b38bf2}" record_timestamp="1506504240030" record_key="basic_undercover_characters_max_count_bonus">
+<key>basic_undercover_characters_max_count_bonus</key>
+<notes>Bonus number of deployable undercover characters. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{699d1ddd-f60c-4af6-8548-1c5977ad65c7}" record_timestamp="1485860405948" record_key="building_construction_time_reduction">
+<key>building_construction_time_reduction</key>
+<notes>Absolute modifier on time required to complete construction of buildings. Any building that would have its remaining construction time reduced below zero is reduced to zero and will complete at the start of the next turn. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{063b1748-3ce3-4d54-b5cd-e8f9d782b5a9}" record_timestamp="1465987183454" record_key="building_conversion_cost_mod">
+<key>building_conversion_cost_mod</key>
+<notes>Percentage modifier for building conversion cost. Positive increases cost. Used from region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{8d4664d1-ebcd-4e6c-b3b4-0735ae267aaa}" record_timestamp="1465987183454" record_key="building_conversion_time_mod">
+<key>building_conversion_time_mod</key>
+<notes>Percentage modifier for building conversion time. Positive increases cost. Used from region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{17b61622-d822-424e-8b09-0040e4fee069}" record_timestamp="1465987183455" record_key="building_cost_mod">
+<key>building_cost_mod</key>
+<notes>Percentage modifier to building cost. Used at region bonuses. Positive value increases cost.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{2c170abf-6105-49f0-ad32-696de4a4fd70}" record_timestamp="1484050163060" record_key="building_peasantry_cost_mod">
+<key>building_peasantry_cost_mod</key>
+<notes>Decreases construction cost for peasantry buildings.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b3f68813-220d-4ccc-acad-449205fc17a9}" record_key="building_slum_creation_time_mod">
+<key>building_slum_creation_time_mod</key>
+<notes>Multiplier for slum creation time. This is the number of turns an empty/ruined slot takes to convert into a slum. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a1ec9b33-83bd-42d5-b6f3-9ab6065bedb1}" record_timestamp="1408549300272" record_key="building_upkeep_mod">
+<key>building_upkeep_mod</key>
+<notes>Percentage modifier for region building upkeep. Positive increases upkeep. Used at Faction, Province, Region, Building.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a69ee47d-975a-4903-b0a6-242ec83cbd61}" record_timestamp="1521212305075" record_key="cai_hint_faction_can_only_maintain_buildings">
+<key>cai_hint_faction_can_only_maintain_buildings</key>
+<notes>Campaign AI hint that a faction should only be performing maintainence operations on its buildings, not constructing new ones or performing conversions.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{fc72e014-5d16-4ba3-8bbb-e086afbfa990}" record_timestamp="1521212305075" record_key="cai_hint_factions_global_strength_should_be_ignored_in_strategic_evaluations">
+<key>cai_hint_factions_global_strength_should_be_ignored_in_strategic_evaluations</key>
+<notes>Campaign AI hint used to note that a factions global military strength should be ignored in strategic considerations (only local military presence should be considered).</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b155dacb-d545-4951-b455-707a0bf1de09}" record_key="can_fight_night_battles">
+<key>can_fight_night_battles</key>
+<notes>Enables night fighting for land units. Used at character bonuses for commanding general.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{1b8de4e0-26b7-4c01-a750-1932fc4d8d0f}" record_key="can_fight_night_battles_naval">
+<key>can_fight_night_battles_naval</key>
+<notes>Enables night fighting for naval units. Used at character bonuses for commanding general.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{43332ce5-6fe0-4547-b10e-4a23b24761bb}" record_timestamp="1363719183331" record_key="cancel_all_growth_in_region">
+<key>cancel_all_growth_in_region</key>
+<notes>Non-zero value means zero growth in the region. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{08ce0e23-553f-42a6-afa1-71e932b0526d}" record_timestamp="1544782521754" record_key="cancel_all_replenishment_in_force">
+<key>cancel_all_replenishment_in_force</key>
+<notes>Non-zero value means zero replenishment for the force. Used at force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{df71675f-3030-4b20-9c92-001392d2c473}" record_timestamp="1363719183354" record_key="cancel_all_replenishment_in_region">
+<key>cancel_all_replenishment_in_region</key>
+<notes>Non-zero value means no replenishment in the region. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{04b5d319-50c3-4dbb-918d-40a04cca7a04}" record_timestamp="1465987183457" record_key="captives_taken_mod">
+<key>captives_taken_mod</key>
+<notes>Percentage modifier for number of captives taken post battle. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{31ac1303-17fb-4625-9c34-03cc76f6850a}" record_timestamp="1538577752174" record_key="character_capture_chance_mod">
+<key>character_capture_chance_mod</key>
+<notes>Percentage modifier of a character being captured. character only.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f39ca683-5f34-40c3-9327-679079f69c6f}" record_timestamp="1538577752159" record_key="character_escape_chance_mod">
+<key>character_escape_chance_mod</key>
+<notes>Percentage modifier of a character escaping capture. character only</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{67c8ed53-4066-45b6-9a2b-31b4660e4fd5}" record_timestamp="1485952033623" record_key="character_experience_percentage_modifier">
+<key>character_experience_percentage_modifier</key>
+<notes>Percentage modifier on experience gained by a character. Used at faction and character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{2dd43f59-2868-40ab-b71a-53c7f35705ea}" record_timestamp="1368184639287" record_key="character_gravitas_per_turn">
+<key>character_gravitas_per_turn</key>
+<notes>Additional gravitas granted to this character each turn. Used at character.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{419eb878-1b22-45dd-8e86-31e35e8afd30}" record_timestamp="1538651932382" record_key="character_job_satisfaction_multiplier">
+<key>character_job_satisfaction_multiplier</key>
+<notes>Character Only. Direct multiplier applied to job satisfaction calculations. If you make this 2.5 they will get 2.5 x the satisfaction effect from being in a position of power or being in a position they feel is beneath them</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{9b570f12-203f-46bb-b8e0-be4f0ee57541}" record_timestamp="1522315658614" record_key="character_pool_max_characters_mod">
+<key>character_pool_max_characters_mod</key>
+<notes>Added to faction character pool's maximum size value. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{fb62fae0-6971-41f0-84d9-e79a0d3f7fb4}" record_timestamp="1522315658614" record_key="character_pool_median_characters_mod">
+<key>character_pool_median_characters_mod</key>
+<notes>Added to faction character pool's median size value. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{6c074f86-7297-43cc-a2ea-5ea7a8d45f42}" record_timestamp="1522315658614" record_key="character_pool_min_characters_mod">
+<key>character_pool_min_characters_mod</key>
+<notes>Added to faction character pool's minimum size value. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{56a0fe65-6861-4891-8841-990c34640fef}" record_timestamp="1522315658614" record_key="character_pool_target_characters_mod">
+<key>character_pool_target_characters_mod</key>
+<notes>Added to faction character pool's target size value. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ce797966-2ab7-421b-a18a-0733804d5d3e}" record_key="character_public_order_decrease_mod">
+<key>character_public_order_decrease_mod</key>
+<notes>Added to region unhappiness factors for characters. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{544a5044-eb06-4d0b-b49e-c89cd48606ff}" record_key="character_public_order_increase_mod">
+<key>character_public_order_increase_mod</key>
+<notes>Added to region happiness factors for characters. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{57e2963e-0207-4bc0-b5c5-17d50fe87131}" record_timestamp="1523970606572" record_key="character_salary_mod">
+<key>character_salary_mod</key>
+<notes>Additive modifier to a characetrs salary. Only valid for character scope</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{fb9d9b56-f4f0-4a16-bf60-52ef9fa50720}" record_timestamp="1538565583457" record_key="character_salary_percentage_mod">
+<key>character_salary_percentage_mod</key>
+<notes>Direct salary percentage modifier. Value is treated as an additive percentage modifier. So -50 would result in a total upkeep of 50%. Cannot cause final salary value to become negative</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{16614aa0-e6f8-45a6-8cb5-b22e01649cf7}" record_timestamp="1528278416151" record_key="character_wealth">
+<key>character_wealth</key>
+<notes>used to drive systems for character wealth</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{64d560f4-a9d1-4aff-9eff-5ab54f2d4f3d}" record_timestamp="1465987183457" record_key="charge_bonus_for_land_units">
+<key>charge_bonus_for_land_units</key>
+<notes>(percentage) Charge bonus for land units. Used at unit through character or miltary force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{81002ec2-6553-4670-b88c-46aa2c7bc74d}" record_timestamp="1438698460824" record_key="damage_resistance_all_mod">
+<key>damage_resistance_all_mod</key>
+<notes>Additive bonus for all damage resistance, used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{70a710d6-f8df-4478-aa08-85d75b66e47c}" record_timestamp="1438698460717" record_key="damage_resistance_flame_mod">
+<key>damage_resistance_flame_mod</key>
+<notes>Additive bonus for flame damage resistance, used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{6cc60530-586c-46e4-9ded-22511a38af9e}" record_timestamp="1438698460611" record_key="damage_resistance_magic_mod">
+<key>damage_resistance_magic_mod</key>
+<notes>Additive bonus for magic damage resistance, used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ac00dbc6-8471-4505-9c1d-81880345d429}" record_timestamp="1438698460399" record_key="damage_resistance_missile_mod">
+<key>damage_resistance_missile_mod</key>
+<notes>Additive bonus for missile damage resistance, used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{413542e6-0c00-44d4-b06c-8ca30b2a9065}" record_timestamp="1438698460504" record_key="damage_resistance_physical_mod">
+<key>damage_resistance_physical_mod</key>
+<notes>Additive bonus for physical damage resistance, used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b5d0ebd7-06a8-4c67-9cb4-2ac4cee22c4b}" record_timestamp="1438698460452" record_key="damage_vs_large_entities">
+<key>damage_vs_large_entities</key>
+<notes>Additive bonus for damage vs large entities, used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{5883e0f0-ed4e-4ec8-9b06-7e8a24b2438b}" record_timestamp="1534243453600" record_key="deploy_retinue_cost_percentage_modifier">
+<key>deploy_retinue_cost_percentage_modifier</key>
+<notes>Percenatge modifier for retinue deploy cost. Used at faction bonuses only.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{bbdab251-c57f-4c99-a4dc-13ad70497bc3}" record_key="dignitary_dimplomatic_gift_cost_reduction">
+<key>dignitary_dimplomatic_gift_cost_reduction</key>
+<notes>Reduces cost of diplomatic gifts given as part of a dignitary agent agent action. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{0cb9143b-2f1c-4169-817d-486b607a5de7}" record_key="diplomacy_bonus_enlightenment">
+<key>diplomacy_bonus_enlightenment</key>
+<notes>Contributes to diplomacy attitude factor for Enlightenment. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{cc558413-aa57-41ae-9a54-62a50b8b8a5f}" record_timestamp="1465987183458" record_key="diplomacy_bonus_faction_leader">
+<key>diplomacy_bonus_faction_leader</key>
+<notes>Contributes to diplomacy attitude factor for Faction Leader. The faction bonus is added to the bonus from the faction leader. Used from faction bonuses and from character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b4ed3b4e-1c3b-49a4-9a72-643b06a40ade}" record_timestamp="1465987183458" record_key="education_happy_mod">
+<key>education_happy_mod</key>
+<notes>Percentage modifier to clamour for reform value in public order factors. Positive increases value. Used with region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{28f50afe-5dc6-4f9c-8eee-def64a83022c}" record_timestamp="1363719183368" record_key="enable_desertion_attrition_for_own_forces_in_region">
+<key>enable_desertion_attrition_for_own_forces_in_region</key>
+<notes>Non-zero value means the region owner's forces will get desertion attrition in the region. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{2037248f-3635-4d42-9864-de019f29ee93}" record_timestamp="1373368754349" record_key="enable_disease_attrition">
+<key>enable_disease_attrition</key>
+<notes>Enable disease attrition. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{1a56e5b4-40e0-454b-965d-ed6bedc2ec29}" record_timestamp="1465987183459" record_key="enable_top_gallants">
+<key>enable_top_gallants</key>
+<notes>Enable top gallants for unit. Used at unit, hence character or military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{47405e04-fb3f-426f-9be4-b1270cc71189}" record_timestamp="1514891368173" record_key="enables_fight_night_battles_against">
+<key>enables_fight_night_battles_against</key>
+<notes>Enabled night battles for any force on land attacking this for force. Used at Force and Character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{668df505-0b76-4464-ad83-05c1246fa1ea}" record_timestamp="1514891368173" record_key="enables_fight_night_battles_naval_against">
+<key>enables_fight_night_battles_naval_against</key>
+<notes>Enabled night battles for any force on sea attacking this for force. Used at Force and Character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4aa5c107-4571-43d7-8b58-78e3b90fd726}" record_timestamp="1389714961541" record_key="ercenary_province_pool_cap_mod">
+<key>ercenary_province_pool_cap_mod</key>
+<notes>Modifies the maximum unit cap for a province pool. Will apply the highest bonus between factions in the province. Supply an integer, 20 will be plus 20%. Used at Province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ed195810-346d-4061-bc01-b6e6e8d9bc69}" record_timestamp="1465987183459" record_key="extra_income_from_vassals">
+<key>extra_income_from_vassals</key>
+<notes>Percentage modifier on the income received from vassals.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a96c7e58-49b9-4d0a-b076-36d9e6188a74}" record_timestamp="1533656697150" record_key="faction_gdp_other_mod_add">
+<key>faction_gdp_other_mod_add</key>
+<notes>Additive modifier for background faction income value.  Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{0107f327-9b9c-40bc-8427-f5b2fb912e03}" record_timestamp="1533656697150" record_key="faction_gdp_other_mod_percentage">
+<key>faction_gdp_other_mod_percentage</key>
+<notes>Percentage modifier for background faction income value.  Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ca310130-e080-43a3-8f43-a866df345ad5}" record_key="faction_level_points">
+<key>faction_level_points</key>
+<notes>Contributes to faction level; used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f064d277-9537-47bf-ae43-ea16a1ea52d9}" record_key="faction_mercenary_pool_cost_mod">
+<key>faction_mercenary_pool_cost_mod</key>
+<notes>Pecentage cost modifer for faction mercenary pool units. (e.g. 20 -&gt; +20%). Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{09e7f3c1-6b4b-4c49-a739-1acd5bfcd87f}" record_key="faction_mercenary_pool_replenishment_mod">
+<key>faction_mercenary_pool_replenishment_mod</key>
+<notes>Pecentage repenishment modifer for faction mercenary pool units. (e.g. 20 -&gt; +20%). Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{8eff96c2-35b7-4519-b16a-c44b5a14e43e}" record_timestamp="1368184639318" record_key="faction_power_for_primary_party_per_turn">
+<key>faction_power_for_primary_party_per_turn</key>
+<notes>Additional power granted to primary party in faction per turn. Used at faction.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a0603aa1-daa4-4f7b-8c2b-7c894b935d12}" record_timestamp="1425551907148" record_key="financial_gain_from_sujugation">
+<key>financial_gain_from_sujugation</key>
+<notes>Treasure gain from subjugating a faction</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{d1e11a28-9884-4565-8f65-419b513e66dc}" record_timestamp="1426244014463" record_key="food_comsumption_horde_infighting">
+<key>food_comsumption_horde_infighting</key>
+<notes>Overriden by number of local hordes multiplied by food_comsumption_horde_infighting_per_army_value</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{beb1953b-878a-4715-af98-e98d0c223f27}" record_timestamp="1426244014463" record_key="food_comsumption_horde_infighting_per_army_value">
+<key>food_comsumption_horde_infighting_per_army_value</key>
+<notes>Difficulty based value. Gives extra food consumption in each horde</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{52b32e99-8c3d-48ba-a340-a920c241468e}" record_timestamp="1465987183488" record_key="food_consumption_armies">
+<key>food_consumption_armies</key>
+<notes>Adds to province/faction food consumption. Used at province/faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a04115ad-c314-4fad-9c89-83c44f8f9766}" record_timestamp="1465987183484" record_key="food_consumption_base_food">
+<key>food_consumption_base_food</key>
+<notes>Adds to province/region/faction food consumption. Used at province/region/faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b8eff4e3-14e1-40c9-9ba2-b41f7e0711b0}" record_timestamp="1389703159668" record_key="food_consumption_buildings">
+<key>food_consumption_buildings</key>
+<notes>Adds to region's food consumption. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{19b7b2b6-a2e9-4471-8fba-13f7bf16a7c5}" record_timestamp="1465987183484" record_key="food_consumption_characters">
+<key>food_consumption_characters</key>
+<notes>Adds to province/faction food consumption. Used at province/faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{30be3956-3843-469f-b251-6b8d363971e8}" record_timestamp="1389703170034" record_key="food_consumption_edicts">
+<key>food_consumption_edicts</key>
+<notes>Adds to provinces/ food consumption. Used at province/ bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{6c58f421-11e5-4fd3-9834-9d2b7958f97a}" record_timestamp="1465987183485" record_key="food_consumption_events">
+<key>food_consumption_events</key>
+<notes>Adds to province/region/faction food consumption. Used at province/region/faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{7c56ec76-7091-4fcc-8238-a5c467825cca}" record_timestamp="1398690389483" record_key="food_consumption_settle_stance_enemy_territory">
+<key>food_consumption_settle_stance_enemy_territory</key>
+<notes>Food consumption when in settle stance in enemy territory</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{bc738bd2-65dc-414e-bbbd-e6f0e055248b}" record_timestamp="1398690389510" record_key="food_consumption_settle_stance_major_treaty_territory">
+<key>food_consumption_settle_stance_major_treaty_territory</key>
+<notes>Food consumption when in settle stance in 'major treaty territory' (any military alliance)</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{e4eb19b3-8527-4164-b721-26a795c1afba}" record_timestamp="1398690389526" record_key="food_consumption_settle_stance_minor_treaty_territory">
+<key>food_consumption_settle_stance_minor_treaty_territory</key>
+<notes>Food consumption when in settle stance in 'minor treaty territory' (non-aggression pact, military access)</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f19866c9-bf41-44d4-b4a1-4a86c06920c8}" record_timestamp="1398690389542" record_key="food_consumption_settle_stance_neutral_territory">
+<key>food_consumption_settle_stance_neutral_territory</key>
+<notes>Food consumption when in settle stance in neutral territory</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{e15a98c6-fa86-46a7-a3ae-0439e85f49c0}" record_timestamp="1398690389496" record_key="food_consumption_settle_stance_vassal_territory">
+<key>food_consumption_settle_stance_vassal_territory</key>
+<notes>Food consumption when in settle stance in a vassal's territory</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{307de079-d2ad-467d-bfba-ba91a35f2c3b}" record_timestamp="1465987183485" record_key="food_consumption_technologies">
+<key>food_consumption_technologies</key>
+<notes>Adds to province/region/faction food consumption. Used at province/region/faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{0ffb069e-cb52-45da-861a-1762691626db}" record_timestamp="1465987183486" record_key="food_production_armies">
+<key>food_production_armies</key>
+<notes>Adds to province/faction food production. Used at province/faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{6fb7a72b-62c3-4f40-b7b1-a1d29aad9234}" record_timestamp="1465987183486" record_key="food_production_base_food">
+<key>food_production_base_food</key>
+<notes>Adds to province/region/faction food production. Used at province/region/faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{96baf1ee-8be2-4121-91f1-f145a584c8f9}" record_timestamp="1389703157964" record_key="food_production_buildings">
+<key>food_production_buildings</key>
+<notes>Adds to region's food production. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{3e96d850-36ff-471f-8a85-2cd691a92f40}" record_timestamp="1465987183487" record_key="food_production_characters">
+<key>food_production_characters</key>
+<notes>Adds to province/faction food production. Used at province/faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{6e20e08a-713e-43da-9ae5-12820db9699c}" record_timestamp="1389703170798" record_key="food_production_edicts">
+<key>food_production_edicts</key>
+<notes>Adds to provinces food production. Used at province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ad1ed845-2923-43e3-8fb8-49b2bd0a287b}" record_timestamp="1465987183487" record_key="food_production_events">
+<key>food_production_events</key>
+<notes>Adds to province/region/faction food production. Used at province/region/faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ac6dee06-456c-4fff-a2e2-975e37a9000d}" record_timestamp="1425551907148" record_key="food_production_fertility">
+<key>food_production_fertility</key>
+<notes>Contributes to fertility food factor. Produces (THIS * fertility level) food. Used at province/region/military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{de741829-06b1-4a27-a49b-6ef24304c34e}" record_timestamp="1398690389429" record_key="food_production_settle_stance_enemy_territory">
+<key>food_production_settle_stance_enemy_territory</key>
+<notes>Food production when in settle stance in enemy territory</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{cb58e915-11ff-4c13-b2be-32d027bc9600}" record_timestamp="1398690389453" record_key="food_production_settle_stance_major_treaty_territory">
+<key>food_production_settle_stance_major_treaty_territory</key>
+<notes>Food production when in settle stance in 'major treaty territory' (any military alliance)</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{2eadc9d5-be1d-4143-ba52-da6bd1199f70}" record_timestamp="1398690389462" record_key="food_production_settle_stance_minor_treaty_territory">
+<key>food_production_settle_stance_minor_treaty_territory</key>
+<notes>Food production when in settle stance in 'minor treaty territory' (non-aggression pact, military access)</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{7a7716bd-c01c-4c36-9afb-27aacda0375e}" record_timestamp="1398690389472" record_key="food_production_settle_stance_neutral_territory">
+<key>food_production_settle_stance_neutral_territory</key>
+<notes>Food production when in settle stance in neutral territory</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{35d30267-4998-41b7-99cc-d2e76e968b7d}" record_timestamp="1398690389446" record_key="food_production_settle_stance_vassal_territory">
+<key>food_production_settle_stance_vassal_territory</key>
+<notes>Food production when in settle stance in a vassal's territory</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{bf036293-78ba-4f7d-ba80-974880fa6b95}" record_timestamp="1465987183487" record_key="food_production_technologies">
+<key>food_production_technologies</key>
+<notes>Adds to province/region/faction food production. Used at province/region/faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{7266cdfd-90c1-45cb-8998-38c42e0aa081}" record_timestamp="1363019695181" record_key="garrison_walls_15m">
+<key>garrison_walls_15m</key>
+<notes>Are 15m walls enabled for the settlement? Used at region bonuses</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{3b4f9a90-64be-41ab-b978-8a2e26e5ba49}" record_timestamp="1363019695166" record_key="garrison_walls_8m">
+<key>garrison_walls_8m</key>
+<notes>Are 8m walls enabled for the settlement? Used at region bonuses</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{8f4f36cf-57cb-42bd-aae3-e5eaf3624c12}" record_timestamp="1465987183460" record_key="gdp_mod_all">
+<key>gdp_mod_all</key>
+<notes>Percentage modifier to gdp for region. Positive value increases region gdp. Used at region slot bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{65bc68d0-41eb-40fd-b223-039dde3f80f9}" record_timestamp="1426244014463" record_key="gdp_mod_all_horde_infighting_per_army_value">
+<key>gdp_mod_all_horde_infighting_per_army_value</key>
+<notes>Mod on horde wealth for in fighting</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{131979ff-0cfa-4bc7-a121-3c11b29ab624}" record_timestamp="1425551907148" record_key="gdp_mod_poor_fertility_bonus">
+<key>gdp_mod_poor_fertility_bonus</key>
+<notes>+X% income from POOR_FERTILITY_BONUS income factor. Used at REGION bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{317234e2-802e-435c-ad43-debf00a4635d}" record_timestamp="1465987183482" record_key="general_admiral_action_point_bonus">
+<key>general_admiral_action_point_bonus</key>
+<notes>Percentage modifier to action points. Used at character bonuses. Positive value increases action points.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4166e209-5d0e-4f3f-abea-6f0be7abf4aa}" record_key="general_bodyguard_size_mod">
+<key>general_bodyguard_size_mod</key>
+<notes>Percentage modifier to general bodyguard size. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{9628525a-0b31-444e-a0bc-a14b06c5c2ae}" record_key="general_start_of_turn_action_point_penalty">
+<key>general_start_of_turn_action_point_penalty</key>
+<notes>Percent modifier to to action point bonsues (applied after all other bonuses are applied). Used at character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{deb8c023-cc2e-41d2-96f1-4ea0d3a07313}" record_key="gentleman_happiness_bonus">
+<key>gentleman_happiness_bonus</key>
+<notes>Adds to public order happiness factor for characters. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{dcafcc5f-2f89-4556-989a-d4ac0403bfc5}" record_timestamp="1485169775319" record_key="governed_region_income_percentage_modifier">
+<key>governed_region_income_percentage_modifier</key>
+<notes>Percentage modifier on income received from a region with a governor. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{d05c97ac-fc93-4ac6-95cc-131cc0f30366}" record_timestamp="1523875273574" record_key="governor_independence_trait_modifier">
+<key>governor_independence_trait_modifier</key>
+<notes>Modifier value used when calculating score to determine Independence dilemma</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{8eeb903c-61eb-4046-94f5-e0c59fb04bc7}" record_timestamp="1425551907148" record_key="grand_schools_sanitation">
+<key>grand_schools_sanitation</key>
+<notes>Percentage modfier on the total region sanitation</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{5a5e0175-6d7e-4655-87b7-fb56294e3971}" record_timestamp="1465987183482" record_key="happiness_active_lower_gov_type">
+<key>happiness_active_lower_gov_type</key>
+<notes>Region happiness factor (gov type) for lower class. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{5462b487-041e-457f-9138-01c997379c40}" record_timestamp="1465987183482" record_key="happiness_active_lower_tax">
+<key>happiness_active_lower_tax</key>
+<notes>Region happiness factor (tax rate) for lower class. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a1fde228-8f32-4b19-bfbd-ea2e046f261e}" record_timestamp="1465987183481" record_key="happiness_active_upper_gov_type">
+<key>happiness_active_upper_gov_type</key>
+<notes>Region happiness factor (gov type) for upper class, and also for single class. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{41aeb6ef-2a85-4a1e-91b3-50641d522e68}" record_timestamp="1465987183481" record_key="happiness_active_upper_tax">
+<key>happiness_active_upper_tax</key>
+<notes>Region happiness factor (tax rate) for upper class, and also for single class. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{625e88d9-5253-4b25-b4e0-d35893b6b623}" record_key="happiness_events_factional">
+<key>happiness_events_factional</key>
+<notes>Region happiness factor for Events. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a536864d-213f-4581-9d17-c508ffec13f1}" record_timestamp="1465987183480" record_key="happiness_events_regional">
+<key>happiness_events_regional</key>
+<notes>Region happiness factor for Events. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{32c79bdf-c3cd-443f-bba4-d5d258eb1ca4}" record_timestamp="1465987183479" record_key="happiness_ministerial_position">
+<key>happiness_ministerial_position</key>
+<notes>Region happiness factor for Characters. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b683e28c-0d9e-4242-949a-ca4a1f13958f}" record_timestamp="1465987183460" record_key="happiness_mod_religious_unrest">
+<key>happiness_mod_religious_unrest</key>
+<notes>Percentage modifier for non-state religion unrest. Positive value increases unrest. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a1d25234-7569-44de-a5a6-9293f63580c1}" record_timestamp="1465987183479" record_key="happiness_religious_unrest_added">
+<key>happiness_religious_unrest_added</key>
+<notes>Added to non-state-religion unrest factors, positive value means more unrest. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{7db5a4ec-16bb-4f46-9bd3-94b56f79e5aa}" record_key="honour">
+<key>honour</key>
+<notes>Sets honour factor for 'Bonus Values'. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{140ed7ea-735b-4da1-9f7e-09da9524d94b}" record_timestamp="1425551907148" record_key="huns_in_roman_territory_food_mod">
+<key>huns_in_roman_territory_food_mod</key>
+<notes>Percentage food gain when in Roman teritory</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{3145e9d2-af6e-430e-aaa8-ff7cbd27563c}" record_timestamp="1426077740420" record_key="illegitimate_child_chance_mod">
+<key>illegitimate_child_chance_mod</key>
+<notes>Used at character bonus. Addative mod of illegitimate child chance.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{adae4eda-38e2-4aec-a2a9-241778e8dff1}" record_timestamp="1425551907148" record_key="income_per_10_percent_settlement_destruction">
+<key>income_per_10_percent_settlement_destruction</key>
+<notes>Income for each 10 percent of damage caused to a settlement</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{2c9498dd-5b90-4aa9-86de-6773da355d22}" record_timestamp="1425551907148" record_key="income_per_man_killed_in_battle">
+<key>income_per_man_killed_in_battle</key>
+<notes>Income for each man killed in battle</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{09c95738-1034-476a-92f4-b9f807e8fe94}" record_timestamp="1465987183462" record_key="invincible_cavalry_during_withdrawl">
+<key>invincible_cavalry_during_withdrawl</key>
+<notes>Set cavalry to be invincible during auto-resolve withdrawal.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{bd696902-41c4-4534-991d-72247763bfc8}" record_timestamp="1465987183460" record_key="legitimate_child_chance_mod">
+<key>legitimate_child_chance_mod</key>
+<notes>Used at character bonus. Additive mod of legitimate child chance.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{e4587ffc-96d4-43cd-8ff8-779d19e74564}" record_timestamp="1465987183461" record_key="line_of_sight_extension">
+<key>line_of_sight_extension</key>
+<notes>Percentage modifier to character line of sight. Used at character bonuses. Positive value increased line of sight.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b68693b1-19b1-40a4-b1e3-95d35d26de58}" record_timestamp="1465987183461" record_key="looting_increase">
+<key>looting_increase</key>
+<notes>Percentage modifier to looting income. Used at force bonuses. Positive values increase looting income.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{460e7fd2-42ef-4a94-ae6c-2b56b6682cb9}" record_timestamp="1467368019083" record_key="looting_mod">
+<key>looting_mod</key>
+<notes>Income modifier on loot. Used for faction or characters</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{15f832a4-03cb-44a9-a2d3-ec4c0a99e85a}" record_timestamp="1468252333449" record_key="max_replenishment_pct_override">
+<key>max_replenishment_pct_override</key>
+<notes>Override default 50% replenishment per-turn for units. Used at faction</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{094a000d-df21-411b-9001-8eda4472a659}" record_timestamp="1458327991295" record_key="max_winds_of_magic_depletion_mod">
+<key>max_winds_of_magic_depletion_mod</key>
+<notes>Scalar mod for Winds of Magic depletion. Used at military force bonuses. Displays the campaign localised string: winds_of_magic_power_other</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{1126a595-f0ab-40c0-9284-7c27479d6869}" record_timestamp="1458327991297" record_key="max_winds_of_magic_depletion_mod_agent_actions">
+<key>max_winds_of_magic_depletion_mod_agent_actions</key>
+<notes>Scalar mod for Winds of Magic depletion. Used at military force bonuses. Displays the campaign localised string: winds_of_magic_power_agent_actions</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{7a6b161d-d94b-49e9-ae2b-dbd14252e030}" record_timestamp="1458327991296" record_key="max_winds_of_magic_depletion_mod_character">
+<key>max_winds_of_magic_depletion_mod_character</key>
+<notes>Scalar mod for Winds of Magic depletion. Used at military force bonuses. Displays the campaign localised string: winds_of_magic_power_character</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b5661926-2d29-48df-92df-ca9be6c30d3d}" record_timestamp="1458327991297" record_key="max_winds_of_magic_depletion_mod_events">
+<key>max_winds_of_magic_depletion_mod_events</key>
+<notes>Scalar mod for Winds of Magic depletion. Used at military force bonuses. Displays the campaign localised string: winds_of_magic_power_events</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{170f4174-f7ca-4d77-ad00-6cba4cf5b2d1}" record_timestamp="1458327991296" record_key="max_winds_of_magic_depletion_mod_items">
+<key>max_winds_of_magic_depletion_mod_items</key>
+<notes>Scalar mod for Winds of Magic depletion. Used at military force bonuses. Displays the campaign localised string: winds_of_magic_power_items</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4d97d3c6-8184-42d8-8b53-d97541709064}" record_timestamp="1458327991298" record_key="max_winds_of_magic_depletion_mod_region">
+<key>max_winds_of_magic_depletion_mod_region</key>
+<notes>Scalar mod for Winds of Magic depletion. Used at military force bonuses. Displays the campaign localised string: winds_of_magic_power_region</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{5522e988-b47d-47e3-a16b-f9cedbd37b0a}" record_timestamp="1458327991589" record_key="max_winds_of_magic_depletion_mod_stances">
+<key>max_winds_of_magic_depletion_mod_stances</key>
+<notes>Scalar mod for Winds of Magic depletion. Used at military force bonuses. Displays the campaign localised string: winds_of_magic_power_stance</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{c72e7f90-f16e-4d4d-ba12-b3d6a51362ab}" record_timestamp="1541260034929" record_key="melee_attack_interval_mod_mult">
+<key>melee_attack_interval_mod_mult</key>
+<notes>(percentage) Multiplier to melee attack interval stat (m_melee_attack_interval). Used in unit stats, so from character or military forces bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{c2c80277-cac7-4100-ada3-72d2b2c57bbf}" record_timestamp="1368463252403" record_key="melee_attack_mod">
+<key>melee_attack_mod</key>
+<notes>(percentage) Added to melee attack stat (m_melee_attack). Used in unit stats, so from character or military forces bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{3a840934-bba1-4a0c-9281-6ac3345ebb20}" record_timestamp="1438698460770" record_key="melee_damage_ap_mod_add">
+<key>melee_damage_ap_mod_add</key>
+<notes>Additive bonus for melee ap damage, used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{e41b74fa-e175-472b-992f-2018697203fe}" record_timestamp="1438698460879" record_key="melee_damage_ap_mod_mult">
+<key>melee_damage_ap_mod_mult</key>
+<notes>Multiplicative bonus for melee ap damage, used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{5320023c-ceae-4a61-828c-bd2fc2cb1dd1}" record_timestamp="1438698460932" record_key="melee_damage_mod_add">
+<key>melee_damage_mod_add</key>
+<notes>Additive bonus for melee damage, used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{9968646a-eef7-40e3-869e-01fe3dfbb993}" record_timestamp="1438698460295" record_key="melee_damage_mod_mult">
+<key>melee_damage_mod_mult</key>
+<notes>Multiplicative bonus for melee damage, used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{8a3bde23-c4c2-4b82-824d-ec45e698e9e7}" record_timestamp="1368463252428" record_key="melee_defence_mod">
+<key>melee_defence_mod</key>
+<notes>(percentage) Added to melee defence stat (m_melee_defence). Used in unit stats, so from character or military forces bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{897fdb97-1533-4640-9cea-37cb76f7575e}" record_timestamp="1368201385534" record_key="mercenary_cost_mod">
+<key>mercenary_cost_mod</key>
+<notes>Percentage modifier for mercenary recruitment cost. Used at character bonuses (commander or army)</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{9a50a1ff-f1e0-41e9-bc05-4dc1287a87b1}" record_timestamp="1389714961641" record_key="mercenary_faction_pool_cap_mod">
+<key>mercenary_faction_pool_cap_mod</key>
+<notes>Modifies the maximum unit cap for a faction pool. Supply an integer, 20 will be plus 20%. Used at Faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{5f87fa2b-3977-4d5e-8387-120b55f65888}" record_timestamp="1389714961555" record_key="mercenary_faction_unit_exp_bonus">
+<key>mercenary_faction_unit_exp_bonus</key>
+<notes>Modifies the experience of units for a faction pool. Supply an integer, 2 will be plus 2 experience. Used at Faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f0bc3faa-149b-4840-8b1a-ae045572e652}" record_timestamp="1425551907148" record_key="mercenary_levy_can_recruit_from_local_hordes">
+<key>mercenary_levy_can_recruit_from_local_hordes</key>
+<notes>If this value is greater than 0, a faction can recruit levies from hordes in the province. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{3ba08f03-eb05-4a6e-9fcb-0819dfd651c2}" record_timestamp="1389714961598" record_key="mercenary_levy_unit_cost_mod">
+<key>mercenary_levy_unit_cost_mod</key>
+<notes>Modifies the unit cost. Supply an integer, 20 will be plus 20%. Used at Faction and Character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{bf648569-f193-4160-bfd7-5c16c3327bcf}" record_timestamp="1389714961612" record_key="mercenary_levy_unit_upkeep_mod">
+<key>mercenary_levy_unit_upkeep_mod</key>
+<notes>Modifies the unit cost. Supply an integer, 20 will be plus 20%. Used at Faction and Character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{3ffba434-54dc-4922-86f4-a2918cc177c9}" record_timestamp="1389775199157" record_key="mercenary_levy_units_per_region_mod">
+<key>mercenary_levy_units_per_region_mod</key>
+<notes>Modifies the units added per region. Supply an integer: 2 will be 2 additional units available. Used at Faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f16a930e-0d0d-4cdb-b95b-fcb0d6f937fb}" record_timestamp="1389714961626" record_key="mercenary_province_pool_replenishment_mod">
+<key>mercenary_province_pool_replenishment_mod</key>
+<notes>Modifies the chance to replenish the province pool. Will apply the highest bonus between factions in the province. Supply an integer, 20 will be plus 20%. Used at Province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{7fed2c28-b44d-4df7-a6e9-7bcd92b7b589}" record_timestamp="1389714961569" record_key="mercenary_province_unit_exp_bonus">
+<key>mercenary_province_unit_exp_bonus</key>
+<notes>Modifies the experience of units for a province pool. Will apply the highest bonus between factions in the province. Supply an integer, 2 will be plus 2 experience. Used at Province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{242b0d3c-3de7-44ed-abf5-e951f9c1511b}" record_timestamp="1500634409027" record_key="mercenary_retinue_faction_earth_captain_level">
+<key>mercenary_retinue_faction_earth_captain_level</key>
+<notes>Level of captain retinues, referecned in the mercenary retinue system. Used at faciton bonsuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{8e48a7a3-db23-4fdb-9ea2-02a4c8f1279a}" record_timestamp="1500634409027" record_key="mercenary_retinue_faction_fire_captain_level">
+<key>mercenary_retinue_faction_fire_captain_level</key>
+<notes>Level of captain retinues, referecned in the mercenary retinue system. Used at faciton bonsuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{d3af1a30-6a20-4f22-a08c-dc25d812c19b}" record_timestamp="1500634409028" record_key="mercenary_retinue_faction_metal_captain_level">
+<key>mercenary_retinue_faction_metal_captain_level</key>
+<notes>Level of captain retinues, referecned in the mercenary retinue system. Used at faciton bonsuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{40a0b4b2-10f0-4ad2-869e-17e45c3de88b}" record_timestamp="1500634409027" record_key="mercenary_retinue_faction_water_captain_level">
+<key>mercenary_retinue_faction_water_captain_level</key>
+<notes>Level of captain retinues, referecned in the mercenary retinue system. Used at faciton bonsuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4c227f35-7b81-47c8-80df-9d485b21d1ce}" record_timestamp="1500634409027" record_key="mercenary_retinue_faction_wood_captain_level">
+<key>mercenary_retinue_faction_wood_captain_level</key>
+<notes>Level of captain retinues, referecned in the mercenary retinue system. Used at faciton bonsuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4b8aa99d-d510-4c93-b418-e12824cc0a76}" record_timestamp="1425551907148" record_key="military_force_building_build_time_mod">
+<key>military_force_building_build_time_mod</key>
+<notes>Military force building time modifier - as a percentage. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{49bf5a06-2cbd-4595-982b-ef936f5e083d}" record_timestamp="1465987183478" record_key="military_force_building_conversion_cost_mod">
+<key>military_force_building_conversion_cost_mod</key>
+<notes>Military force building conversion cost modifier - as a percentage. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{356b8517-2361-4647-8c13-fd204c52cbdd}" record_timestamp="1465987183478" record_key="military_force_building_conversion_dev_point_cost_mod">
+<key>military_force_building_conversion_dev_point_cost_mod</key>
+<notes>Military force building conversion dev point cost modifier - as a percentage. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ea6b0c4b-00d3-4989-b978-3ca914d561b1}" record_timestamp="1465987183477" record_key="military_force_building_conversion_time_mod">
+<key>military_force_building_conversion_time_mod</key>
+<notes>Military force building conversion time modifier - as a percentage. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{083a21b7-4e8f-4d52-9e05-6cfb2ee38468}" record_timestamp="1465987183477" record_key="military_force_building_cost_mod">
+<key>military_force_building_cost_mod</key>
+<notes>Military force building cost modifier - as a percentage. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{0c9fef19-9104-4596-a237-bfb385fc952f}" record_timestamp="1465987183477" record_key="military_force_building_dev_point_cost_mod">
+<key>military_force_building_dev_point_cost_mod</key>
+<notes>Military force building dev point cost modifier - as a percentage. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ba5ec139-034f-486d-bf27-25fa2dd3c6bf}" record_timestamp="1408549300263" record_key="military_force_building_upkeep_mod">
+<key>military_force_building_upkeep_mod</key>
+<notes>Percentage modifier for military force building upkeep. Positive increases upkeep. Used at Faction, Character, Force, Force Building.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{56beeb4f-cf1d-49f6-8017-722245b83bd5}" record_timestamp="1465987183476" record_key="military_force_development_growth_characters">
+<key>military_force_development_growth_characters</key>
+<notes>Characters military force development growth. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{5ad855c7-e1d8-4a0f-86f3-4df39154b83a}" record_timestamp="1465987183476" record_key="military_force_development_growth_core">
+<key>military_force_development_growth_core</key>
+<notes>Base military force development growth. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{5a67ca2b-66e9-40e0-b9a2-b477c1e5e8ef}" record_timestamp="1465987183475" record_key="military_force_development_growth_events">
+<key>military_force_development_growth_events</key>
+<notes>Events military force development growth. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{939dda0d-3beb-409f-9c10-5a4c256d8023}" record_timestamp="1397750112028" record_key="military_force_development_growth_stance">
+<key>military_force_development_growth_stance</key>
+<notes>Stance military force development growth. Not used in settle stance. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{25c7d890-a4b8-4422-b39a-869022376ce1}" record_timestamp="1465987183475" record_key="military_force_development_growth_stance_settled">
+<key>military_force_development_growth_stance_settled</key>
+<notes>Settle stance military force development growth. Only used in settle stance. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{9c44c14e-909d-467b-b7c8-35595c5f6e04}" record_timestamp="1465987183474" record_key="military_force_development_growth_tax">
+<key>military_force_development_growth_tax</key>
+<notes>Tax military force development growth. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{83a7528b-8ed9-4675-8c46-0722c8ce5ef7}" record_timestamp="1465987183474" record_key="military_force_development_growth_tech">
+<key>military_force_development_growth_tech</key>
+<notes>Tech military force development growth. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{0bbe0f65-79ed-46ed-a5bc-e11f1eb5d849}" record_timestamp="1427713186890" record_key="military_force_morale_foriegn_soil_mod">
+<key>military_force_morale_foriegn_soil_mod</key>
+<notes>Addative modifier on the morale received for having a military force on foriegn soil</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f007e264-6049-4471-abef-85080766c200}" record_timestamp="1427713186890" record_key="military_force_morale_idle_mod">
+<key>military_force_morale_idle_mod</key>
+<notes>Addative modifier on the morale recieved for having an idle military force</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{2a41d8e4-b1e7-488f-b2e7-8f0f7262db28}" record_timestamp="1427713186964" record_key="military_force_morale_modifier_animosity">
+<key>military_force_morale_modifier_animosity</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{300e323f-0cf5-4c5f-a0c2-aa79f6af3379}" record_timestamp="1398152553022" record_key="military_force_morale_modifier_buildings">
+<key>military_force_morale_modifier_buildings</key>
+<notes>Percentage modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ae0396a7-9cfe-41c6-bb78-d540f5a9014d}" record_timestamp="1426067340992" record_key="military_force_morale_modifier_buildings_ai_mod">
+<key>military_force_morale_modifier_buildings_ai_mod</key>
+<notes>Pecentage modifier on the amount of morale received from building bonus values</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{bfbcfd8d-26a2-4d5f-80e1-bb96aab4528d}" record_timestamp="1425551907148" record_key="military_force_morale_modifier_casualties">
+<key>military_force_morale_modifier_casualties</key>
+<notes>Percentage modifier on the morale loss through casualities. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{318c571f-ab45-46cc-bb54-4ebe80cb1eb7}" record_timestamp="1398152553022" record_key="military_force_morale_modifier_characters">
+<key>military_force_morale_modifier_characters</key>
+<notes>Percentage modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{6105daf6-c5c3-40fd-936b-4416bf37f3fe}" record_timestamp="1426074090297" record_key="military_force_morale_modifier_civil_war">
+<key>military_force_morale_modifier_civil_war</key>
+<notes>Percentage modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{0f57690a-ba6a-48e6-a414-210e3f02a4dd}" record_timestamp="1528283062173" record_key="military_force_morale_modifier_climate">
+<key>military_force_morale_modifier_climate</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{735b30ec-4448-4876-9037-2e83e508b2e0}" record_timestamp="1398152553022" record_key="military_force_morale_modifier_faction">
+<key>military_force_morale_modifier_faction</key>
+<notes>Percentage modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{faf7c07c-0179-4533-816e-a7f44aad2e2c}" record_timestamp="1540314606997" record_key="military_force_morale_modifier_faction_support">
+<key>military_force_morale_modifier_faction_support</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{dd2c3bea-5553-4c88-b973-697dccec6ce5}" record_timestamp="1425894215582" record_key="military_force_morale_modifier_food">
+<key>military_force_morale_modifier_food</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{731122af-4f90-464c-9e09-b886f5f1b23d}" record_timestamp="1425551907148" record_key="military_force_morale_modifier_forced_march_stance">
+<key>military_force_morale_modifier_forced_march_stance</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a7aed48e-0b96-4b27-a1b0-bbd5e341974a}" record_timestamp="1425551907148" record_key="military_force_morale_modifier_foreign_territory">
+<key>military_force_morale_modifier_foreign_territory</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{e1c297d9-819d-4b57-8c56-628db2227c76}" record_timestamp="1425551907148" record_key="military_force_morale_modifier_foreign_waters">
+<key>military_force_morale_modifier_foreign_waters</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{66513bc9-6c8d-4778-a6f7-82a3a1ddc86e}" record_timestamp="1425551907148" record_key="military_force_morale_modifier_fortify_stance">
+<key>military_force_morale_modifier_fortify_stance</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{dcc9386d-5ba4-4528-ac2c-232704f8e289}" record_timestamp="1425551907148" record_key="military_force_morale_modifier_garrison_stance">
+<key>military_force_morale_modifier_garrison_stance</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{842c0898-2bc2-474d-b27c-d8874b6ef688}" record_timestamp="1425551907148" record_key="military_force_morale_modifier_guarded_navy">
+<key>military_force_morale_modifier_guarded_navy</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{bd4250af-8d21-4b13-9b7e-9169d8b1c97f}" record_timestamp="1425997601777" record_key="military_force_morale_modifier_horde_in_fighting">
+<key>military_force_morale_modifier_horde_in_fighting</key>
+<notes>Percentage modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f913adac-b7c0-4506-b725-29ace05858bc}" record_timestamp="1398152553022" record_key="military_force_morale_modifier_military_force">
+<key>military_force_morale_modifier_military_force</key>
+<notes>Percentage modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{9892aa54-ab49-44f3-acc0-7ed6df9e8a1f}" record_timestamp="1425894215582" record_key="military_force_morale_modifier_offices">
+<key>military_force_morale_modifier_offices</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{60665eb9-d0c6-4f52-a84a-dbab1852b1f3}" record_timestamp="1425551907148" record_key="military_force_morale_modifier_own_territory">
+<key>military_force_morale_modifier_own_territory</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{eef5662a-b612-45bb-ab36-e38c864d1189}" record_timestamp="1425551907148" record_key="military_force_morale_modifier_own_waters">
+<key>military_force_morale_modifier_own_waters</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f49c5b5f-df0e-4044-b555-358af26ead15}" record_timestamp="1425551907148" record_key="military_force_morale_modifier_patrol_stance">
+<key>military_force_morale_modifier_patrol_stance</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{bd835af7-f343-4b6c-bfb3-1984807103e1}" record_timestamp="1425661907411" record_key="military_force_morale_modifier_plague">
+<key>military_force_morale_modifier_plague</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{bef74562-6dcf-413c-b493-49ec6c726347}" record_timestamp="1425894215582" record_key="military_force_morale_modifier_politics">
+<key>military_force_morale_modifier_politics</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{1ecbb797-9013-49b1-b11e-6551c1fd733a}" record_timestamp="1425551907148" record_key="military_force_morale_modifier_raid_stance">
+<key>military_force_morale_modifier_raid_stance</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a4fa3041-bbae-4d24-aa17-0cb376c0e436}" record_timestamp="1425551907148" record_key="military_force_morale_modifier_raiding">
+<key>military_force_morale_modifier_raiding</key>
+<notes>Percentage modifier for military force morale when a force is raiding. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{31ef4587-e92e-4ade-bba1-208128be687b}" record_timestamp="1425551907148" record_key="military_force_morale_modifier_settle_stance">
+<key>military_force_morale_modifier_settle_stance</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{08194f86-c427-46e6-8f01-1fa1b6a9b673}" record_timestamp="1425894215542" record_key="military_force_morale_modifier_tax">
+<key>military_force_morale_modifier_tax</key>
+<notes>Modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{6552ccb1-be7f-4918-8b14-e9c30ab3ca72}" record_timestamp="1398152553022" record_key="military_force_morale_modifier_technologies">
+<key>military_force_morale_modifier_technologies</key>
+<notes>Percentage modifier for military force moral. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{61c7404b-8f3c-4796-a63a-ff3a18d4052d}" record_timestamp="1516037921262" record_key="military_force_morale_modifier_terrain_type">
+<key>military_force_morale_modifier_terrain_type</key>
+<notes>Modified for military force morale. Used at military force bonuses</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{15909bc2-57f0-4f22-8983-31fdac3d3a14}" record_timestamp="1478002605954" record_key="military_force_retinue_cap_bonus">
+<key>military_force_retinue_cap_bonus</key>
+<notes>Bonus is added to Military Force Retinue cap, used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{7790a71a-5719-4e21-a87e-b653aeb474a8}" record_timestamp="1481038145985" record_key="military_force_siege_escalation_per_unit_effectiveness_mod">
+<key>military_force_siege_escalation_per_unit_effectiveness_mod</key>
+<notes>Percentage modifier for per unit siege escalation effectiveness. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{c5230cab-942d-4ba6-83a4-26630ca201d5}" record_timestamp="1438772044779" record_key="miscast_chance_mod">
+<key>miscast_chance_mod</key>
+<notes>Percentage modifier on miscast chance. Used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{43d85d10-f48c-4d3f-9365-135a31b7311e}" record_timestamp="1543583193075" record_key="missile_block_chance_mod">
+<key>missile_block_chance_mod</key>
+<notes>Addition to missile block chance stat (m_melee_attack_interval). Used in unit stats, so from character or military forces bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{afa7d66a-4148-47f5-a0e2-2450d25a2fff}" record_timestamp="1438698460557" record_key="missile_damage_ap_mod_mult">
+<key>missile_damage_ap_mod_mult</key>
+<notes>Multiplicative bonus for missile ap damage, used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{2183cb86-ad0d-425e-9b82-1a9fb7701010}" record_timestamp="1438698460663" record_key="missile_damage_mod_mult">
+<key>missile_damage_mod_mult</key>
+<notes>Multiplicative bonus for missile damage, used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b9a98832-67ff-4c33-b796-fd24f61b08b5}" record_key="mod_build_time">
+<key>mod_build_time</key>
+<notes>Percentage modifier to construction time for buildings (result is rounded to nearest integer). Negative value reduces construction time. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{47e86aed-858d-44a6-a4fb-c6a00cb53d26}" record_timestamp="1465987182204" record_key="mod_land_movement_campaign">
+<key>mod_land_movement_campaign</key>
+<notes>Percentage modifier to land unit action points. Used at military force bonuses. Positive values increase action points.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{fba9d3fd-1346-4a60-a5f5-13f0f6718d4b}" record_timestamp="1465987182203" record_key="mod_misfire_land">
+<key>mod_misfire_land</key>
+<notes>Percentage modifier. Contributes to misfire adjustment in unit stats for land units. Sets stats value m_misfire_modifier to (100 - total)/100. Total effect is clamped to 100%. Used at unit, hence character or military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4cddee80-8a82-4636-99d4-8f9c99df09ce}" record_timestamp="1465987183507" record_key="mod_misfire_naval">
+<key>mod_misfire_naval</key>
+<notes>Percentage modifier. Contributes to misfire adjustment in unit stats for naval units. Sets stats value m_misfire_modifier to (100 - total)/100. Total effect is clamped to 100%. Used at unit, hence character or military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{641d2ab9-f3fc-4216-8c77-509faad4c520}" record_timestamp="1509122019508" record_key="mod_movement_in_owned_or_shared_sea_region">
+<key>mod_movement_in_owned_or_shared_sea_region</key>
+<notes>Percentage modifier for start-of-turn action points, when a force starts in an owned or shared sea region. Used at military force and faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{2cc8dd91-1705-46b1-b017-c22700d1c0d8}" record_timestamp="1509122019519" record_key="mod_movement_in_owned_region">
+<key>mod_movement_in_owned_region</key>
+<notes>Percentage modifier for start-of-turn action points, when a force starts in an owned region. Used at military force and faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ae4c88cc-f552-4c0f-b487-3c6df4871f4d}" record_timestamp="1465987183508" record_key="mod_reload_land">
+<key>mod_reload_land</key>
+<notes>Percentage modifier. Contributes to reload time adjustment in unit stats for land units. Positive value reduces reload time. Total effect is clamped to 100%. Used at unit, hence character or military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{e8d7070d-054c-4530-98e0-d99e9583654d}" record_timestamp="1465987183508" record_key="mod_reload_naval">
+<key>mod_reload_naval</key>
+<notes>Percentage modifier. Contributes to reload time adjustment in unit stats for naval units. Positive value reduces reload time. Total effect is clamped to 100%. Used at unit, hence character or military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{83d5fca6-bfff-412d-b21c-a8bc3ed040c6}" record_timestamp="1465987182205" record_key="mod_ship_movement_battle">
+<key>mod_ship_movement_battle</key>
+<notes>Percentage modifier applied to ship battle movements values for acceleration and top speed. Positive increases values. Used at unit, hence character or military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{bc7b0dd8-f6da-489f-a580-b1a0e0dc0c03}" record_timestamp="1465987182205" record_key="mod_ship_movement_battle_top_gallants">
+<key>mod_ship_movement_battle_top_gallants</key>
+<notes>Percentage modifier applied to ship battle movements values for acceleration and top speed for ships with top gallants enabled. Positive increases values. Used at unit, hence character or military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{1a41c102-df96-4f31-bdf4-6756fcfbb29b}" record_timestamp="1465987182206" record_key="mod_ship_movement_campaign">
+<key>mod_ship_movement_campaign</key>
+<notes>Added to action points for naval units. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{39114126-082f-4aac-857e-ea8b301e3e45}" record_timestamp="1465987182206" record_key="morale">
+<key>morale</key>
+<notes>(percentage) Increase unit morale. Used with character and military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{04da0c4c-74fd-483b-871e-805e83a323b0}" record_timestamp="1465987183509" record_key="morale_bonus_for_concurrent_wars">
+<key>morale_bonus_for_concurrent_wars</key>
+<notes>Morale gain for the each concurrent war.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{9f83c9f8-3945-47fa-8382-7be84480f1ff}" record_timestamp="1465987182207" record_key="morale_land">
+<key>morale_land</key>
+<notes>(percentage) Increase unit morale for land units. Used with character and military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{25015387-7acf-41e5-9cf4-756d31e99c71}" record_timestamp="1465987182207" record_key="morale_naval">
+<key>morale_naval</key>
+<notes>(percentage) Increase unit morale for naval units. Used with character and military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{2b2dffd3-5514-417e-aeef-7e25c2356e40}" record_timestamp="1465987182208" record_key="naval_recruitment_points">
+<key>naval_recruitment_points</key>
+<notes>Sets number of recruitment points at port. Used at sea region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{0ed7b5fe-daba-423d-96fe-1e3786eb2e86}" record_key="navy_cap_bonus">
+<key>navy_cap_bonus</key>
+<notes>Bonus added to navy cap, used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{eea8ce96-7f18-4fcd-9e8e-fcfae909b392}" record_key="ninja_action_point_bonus">
+<key>ninja_action_point_bonus</key>
+<notes>Percentage values granting AP bonus to military force for army a character is being transported in. Used at character bonuses. Adds to bonuses for military force AP, total effect is clamped between 0.5 and 1.6 times original.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{392067f2-d9d7-4f53-9752-ff813fc0f32a}" record_key="no_conversion_non_state">
+<key>no_conversion_non_state</key>
+<notes>Flag value, non-zero means non-state religion factors apply in region conversion. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{0971297b-54a4-42ff-8d02-aaa6991cb234}" record_timestamp="1358269749091" record_key="num_wall_mounted_artillery_picks">
+<key>num_wall_mounted_artillery_picks</key>
+<notes>Number of picks a defender can make when choosing wall mounted artillery in pre-battle. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{d9c0cd99-c1a4-4e21-ac96-31d9b842759d}" record_timestamp="1531395326157" record_key="number_of_lives_mod">
+<key>number_of_lives_mod</key>
+<notes>Additive bonus to the number of lives a character has.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{bdc6fd83-cff9-450a-851d-34c3248fee84}" record_timestamp="1465987183472" record_key="observation_balloon">
+<key>observation_balloon</key>
+<notes>Flag value (ie non-zero to enable it) specifying if character has observation balloon. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{aa56ecd2-ebd3-40a2-ad5e-ff1c45fe0f56}" record_timestamp="1425551907148" record_key="occupation_decision_colonise_cost_mod">
+<key>occupation_decision_colonise_cost_mod</key>
+<notes>Modifer to colonise cost. Resulting cost will be COST * (1.0 + THIS). Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4d7af7f3-43f7-40c9-abbe-ca8c1067b992}" record_key="passive_detection">
+<key>passive_detection</key>
+<notes>Percentage change to chance of passive detection. Negative value decreases chance of detection. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f4228b32-b0f2-4275-a578-96dfe3aa05d6}" record_timestamp="1401466469469" record_key="plague_breakout_mod">
+<key>plague_breakout_mod</key>
+<notes>Percentage modifier on the local chance of plague breakout</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{14d47d70-ad06-4672-ae3d-fed4a0ad1762}" record_timestamp="1401466469419" record_key="plague_infectivity_mod">
+<key>plague_infectivity_mod</key>
+<notes>Percentage modifier on the infectivity of plagues</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{8da2ab68-047e-4bda-8b9d-019ff3e44228}" record_timestamp="1401466469445" record_key="plague_lifetime_mod">
+<key>plague_lifetime_mod</key>
+<notes>Percentage modifier on the lifetime of plagues</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{aa3889c1-dd94-484a-875c-5bcedf5a20e6}" record_timestamp="1368184639192" record_key="political_action_money_cost_mod">
+<key>political_action_money_cost_mod</key>
+<notes>Percentage modifier for political action money cost. Used at faction.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b0d60bd1-5203-4a6c-8c07-3d00e798d806}" record_timestamp="1368184639347" record_key="political_action_power_cost_mod">
+<key>political_action_power_cost_mod</key>
+<notes>Percentage modifier for political action power cost. Used at faction.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{fca119b7-d03b-447a-9d76-004cc4e2b411}" record_timestamp="1368184639234" record_key="political_event_chance_mod_overall">
+<key>political_event_chance_mod_overall</key>
+<notes>Percentage modifier to chance of political events. Used at faction.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{948294ff-f316-4194-9d98-cf9a5c4cdb4a}" record_timestamp="1368184639259" record_key="political_event_chance_mod_per_turn">
+<key>political_event_chance_mod_per_turn</key>
+<notes>Percentage modifier to amount added each turn to accrued chance of political event. Used at faction.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4549ace0-7777-4e3e-9a95-e8fb6fe4d3b8}" record_timestamp="1425551907148" record_key="political_gravitas_mod">
+<key>political_gravitas_mod</key>
+<notes>Value added to the total gravitas of a faction primary political party</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{257831d9-7fc8-4404-856b-93bb5ff2b9e7}" record_timestamp="1425997601748" record_key="political_gravitas_per_situation_mod">
+<key>political_gravitas_per_situation_mod</key>
+<notes>Value added to gravitas gained through experience triggers</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{bdf37d73-4045-4392-b5a8-a966322d27fe}" record_timestamp="1425997601748" record_key="political_support_per_turn">
+<key>political_support_per_turn</key>
+<notes>Value added to the amount of political support gained for a characters political party per turn</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{2d56306b-0f76-4d34-901d-280d0c4c21d2}" record_timestamp="1506587419584" record_key="post_battle_ceo_drop_chance_mod">
+<key>post_battle_ceo_drop_chance_mod</key>
+<notes>Percentage addition to the chance of finding an ceo post battle (must be referenced in script)</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{3b1ea9e9-ea29-47e7-bad7-488d273bc6f8}" record_timestamp="1506587419584" record_key="post_battle_ceo_steal_chance_mod">
+<key>post_battle_ceo_steal_chance_mod</key>
+<notes>Percentage addition to the chance of steal ceo during battle</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{683763ad-c673-4ecf-a287-014eadb361bf}" record_timestamp="1425468473647" record_key="post_battle_loot_mod">
+<key>post_battle_loot_mod</key>
+<notes>Percentage modifier on the total amount of loot recieved post battle</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{2da95092-bd42-460c-bf47-0d0263dce254}" record_key="prestige_enlightenment_generic">
+<key>prestige_enlightenment_generic</key>
+<notes>Sets prestige due to Enlightenment. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{88f31cbb-3ead-482b-b544-b561c1b9dedb}" record_key="prestige_faction_leader">
+<key>prestige_faction_leader</key>
+<notes>Sets prestige due to faction leader. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{074960e0-a493-467e-9c22-08db64c314b9}" record_timestamp="1425551907148" record_key="prestige_horde_army_mod">
+<key>prestige_horde_army_mod</key>
+<notes>Direct modifier for army prestige when horde - NOT a percentage. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{25690c5f-1568-44e5-95f0-096324875da0}" record_key="prestige_military_generic">
+<key>prestige_military_generic</key>
+<notes>Sets prestige due to Military. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{0ef02f11-eb59-43e6-a453-854015f35210}" record_key="prestige_region_mod">
+<key>prestige_region_mod</key>
+<notes>Direct modifier for region prestige - NOT a percentage. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{154f20f8-f5ce-4821-9880-836731001309}" record_timestamp="1375187575096" record_key="province_cancel_all_growth_in_province">
+<key>province_cancel_all_growth_in_province</key>
+<notes>Non-zero value means zero growth in the province. Used at province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{67ed6a9e-d623-4050-adea-a766ea987cd4}" record_timestamp="1375187575214" record_key="province_development_growth_added_armies">
+<key>province_development_growth_added_armies</key>
+<notes>Growth added in province development. Appears as armies in the factor breakdown. Used at province bonuses</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{45293cdc-2d07-484c-a5b8-bf59b2c39e7d}" record_timestamp="1375187575120" record_key="province_development_growth_added_building">
+<key>province_development_growth_added_building</key>
+<notes>Growth added in province development. Appears as building in the factor breakdown. Used at province bonuses</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{0d5e42b2-a301-4c4c-a0c2-647d384fc2b0}" record_timestamp="1375187575135" record_key="province_development_growth_added_character">
+<key>province_development_growth_added_character</key>
+<notes>Growth added in province development. Appears as characters in the factor breakdown. Used at province bonuses</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{02c25bda-318e-4e8f-9ebd-57a00b0de538}" record_timestamp="1375187575171" record_key="province_development_growth_added_faction">
+<key>province_development_growth_added_faction</key>
+<notes>Growth added in province development. Appears as faction in the factor breakdown. Used at province bonuses</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{162dffe6-121b-4151-8d71-47d2018cb68e}" record_timestamp="1375187575238" record_key="province_development_growth_added_food">
+<key>province_development_growth_added_food</key>
+<notes>Growth added in province development. Appears as food in the factor breakdown. Used at province bonuses</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a546852e-2ab3-4d83-a758-b7c63e7f684e}" record_timestamp="1375187575068" record_key="province_development_growth_added_other">
+<key>province_development_growth_added_other</key>
+<notes>Growth added in province development. Appears as other in the factor breakdown. Used at province bonuses</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{03f5a428-92a1-4d52-9918-c2851110d402}" record_timestamp="1375187575108" record_key="province_development_growth_added_province">
+<key>province_development_growth_added_province</key>
+<notes>Growth added in province development. Appears as province in the factor breakdown. Used at province bonuses</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f97bcef1-42f2-4cad-9651-4ed7ca633543}" record_timestamp="1375187575192" record_key="province_development_growth_added_taxes">
+<key>province_development_growth_added_taxes</key>
+<notes>Growth added in province development. Appears as taxes in the factor breakdown. Used at province bonuses</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ac538017-62da-4deb-8405-87cb98604fc0}" record_timestamp="1375187575086" record_key="province_development_growth_added_tech_per_region_in_province">
+<key>province_development_growth_added_tech_per_region_in_province</key>
+<notes>Growth added in province development per region owned in province. Appears as technology in the factor breakdown. Used at province bonuses</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{93b0ebca-fc3e-40fe-8f9d-d23e8102d485}" record_timestamp="1375187575152" record_key="province_development_growth_added_technology">
+<key>province_development_growth_added_technology</key>
+<notes>Growth added in province development. Appears as technology in the factor breakdown. Used at province bonuses</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{c8644569-3d31-4fa0-af1a-9c9798ed2604}" record_timestamp="1425551907148" record_key="province_fertility_event">
+<key>province_fertility_event</key>
+<notes>Flat fertility amount added to/subtracted from province fertility. Used at Faction Province and Region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{bf5d6e23-c7ef-4284-8bde-a334104de441}" record_timestamp="1425551907148" record_key="province_fertility_season">
+<key>province_fertility_season</key>
+<notes>Flat fertility amount added to/subtracted from province fertility. Can ONLY be attached to season_province_effect_bundles, is not scoped.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4983bac8-f200-4258-88d6-f43a6e13975e}" record_timestamp="1465987183473" record_key="province_initiative_cap_bonus">
+<key>province_initiative_cap_bonus</key>
+<notes>Added to number of provincial initiatives a faction can issue in one turn. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{cf2edc73-0443-4e36-9f45-4735d2a3e4a3}" record_key="province_public_order_attitude_factor">
+<key>province_public_order_attitude_factor</key>
+<notes>Integer bonus value for attitude public order. Applied to faction province public order. Can be positive or negative. Used at faction province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{eadb8105-8240-4145-b77c-f14cbf76af9b}" record_timestamp="1484050163757" record_key="province_public_order_farming">
+<key>province_public_order_farming</key>
+<notes>Public order bonus from farming.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{44a19a19-e7de-4d1a-a892-b7a9eafb54ea}" record_timestamp="1375881228667" record_key="province_public_order_happiness_baseline_factor">
+<key>province_public_order_happiness_baseline_factor</key>
+<notes>Integer bonus value for happiness public order. Applied to faction province public order. Used at faction province bonuses. Will show as &quot;baseline&quot; in the public order breakdown list.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a00eca03-679a-4c05-8965-5ba27e2594c5}" record_timestamp="1370000662311" record_key="province_public_order_happiness_building_negative_factor">
+<key>province_public_order_happiness_building_negative_factor</key>
+<notes>Integer bonus value for happiness public order. Applied to faction province public order. Must be negative. Used at faction province bonuses. Will show as &quot;building unhappiness&quot; in the public order breakdown list.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{5f214a99-8b42-48aa-9370-f7e4103eeb19}" record_timestamp="1370000662290" record_key="province_public_order_happiness_building_positive_factor">
+<key>province_public_order_happiness_building_positive_factor</key>
+<notes>Integer bonus value for happiness public order. Applied to faction province public order. Must be positive. Used at faction province bonuses. Will show as &quot;building happiness&quot; in the public order breakdown list.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{efc4df66-5d7b-4897-9db5-e2d922665b66}" record_timestamp="1370000662354" record_key="province_public_order_happiness_character_factor">
+<key>province_public_order_happiness_character_factor</key>
+<notes>Integer bonus value for happiness public order. Applied to faction province public order. Can be positive or negative. Used at faction province bonuses. Will show as &quot;characters&quot; in the public order breakdown list.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f1f92242-ccf1-4028-b03e-19a4843c38a8}" record_timestamp="1541101961580" record_key="province_public_order_happiness_difficulty_factor">
+<key>province_public_order_happiness_difficulty_factor</key>
+<notes>Integer bonus value for happiness public order. Applied to faction province public order. Can be positive or negative. Used at faction province bonuses. Will show as &quot;Difficulty&quot; in the public order breakdown list.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{58f1fcd0-839c-4976-b6ea-766289e2eb47}" record_timestamp="1367934628848" record_key="province_public_order_happiness_events_factor">
+<key>province_public_order_happiness_events_factor</key>
+<notes>Happiness factor for use with events. Any effects using this will show up in the &quot;events&quot; breakdown for public order. used in faction province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{54a10171-9237-4ab4-9c06-73545323bbb9}" record_timestamp="1370000662404" record_key="province_public_order_happiness_faction_factor">
+<key>province_public_order_happiness_faction_factor</key>
+<notes>Integer bonus value for happiness public order. Applied to faction province public order. Can be positive or negative. Used at faction province bonuses. Will show as &quot;faction&quot; in the public order breakdown list.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{cad80691-dd6f-42dc-a293-262f1c560641}" record_timestamp="1370000662266" record_key="province_public_order_happiness_factor">
+<key>province_public_order_happiness_factor</key>
+<notes>Integer bonus value for happiness public order. Applied to faction province public order. Can be positive or negative. Used at faction province bonuses. Will show as &quot;other&quot; in the public order breakdown list.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b6e2734b-e13b-4722-9c47-1ee024242a9c}" record_timestamp="1425551907148" record_key="province_public_order_happiness_family_power">
+<key>province_public_order_happiness_family_power</key>
+<notes>Integer bonus value for happiness public order. Applied to faction province public order. Can be positive or negative. Used at faction province bonuses. Will show as &quot;family power&quot; in the public order breakdown list.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4c9dfc27-f59b-417b-b2b2-58d25e0d5149}" record_timestamp="1367934628868" record_key="province_public_order_happiness_food_factor">
+<key>province_public_order_happiness_food_factor</key>
+<notes>Happiness factor for use with food. Any effects using this will show up in the &quot;food&quot; breakdown for public order. used in faction province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b3f0e3d3-f506-41a0-96ca-a5e4ff55f383}" record_timestamp="1539103408588" record_key="province_public_order_happiness_food_supplies_factor">
+<key>province_public_order_happiness_food_supplies_factor</key>
+<notes>Integer bonus value for happiness public order. Applied to faction province public order. Can be positive or negative. Used at faction province bonuses. Will show as &quot;food supplies&quot; in the public order breakdown list.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f77e5087-9a5a-46b8-be31-4130c9b84a85}" record_timestamp="1372924154067" record_key="province_public_order_happiness_military_activity_factor">
+<key>province_public_order_happiness_military_activity_factor</key>
+<notes>Integer bonus value for happiness public order. Applied to faction province public order. Can be positive or negative. Used at faction province bonuses. Will show as &quot;military activity&quot; in the public order breakdown list.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{764a3a96-7f4e-4c6f-9dcc-52f19f9f4a9d}" record_timestamp="1372241701137" record_key="province_public_order_happiness_per_war_factor">
+<key>province_public_order_happiness_per_war_factor</key>
+<notes>Happiness factor applied to the faction for each war currently engaged in. can be positive or negative. Will show up in the faction breakdown for public order tooltip. Applied at faction province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{3df89874-5634-4181-a785-8723b0ff6ff6}" record_timestamp="1425551907148" record_key="province_public_order_happiness_plague">
+<key>province_public_order_happiness_plague</key>
+<notes>Integer bonus value for happiness public order. Applied to faction province public order. Can be positive or negative. Used at faction province bonuses. Will show as &quot;plague&quot; in the public order breakdown list.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f0929ef5-e5a5-4f0e-8734-4c1be38ca06a}" record_timestamp="1526903864492" record_key="province_public_order_happiness_population_factor">
+<key>province_public_order_happiness_population_factor</key>
+<notes>Integer bonus value for happiness public order. Applied to faction province public order. Can be positive or negative. Used at faction province bonuses. Will show as &quot;population&quot; in the public order breakdown list.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a59cae31-229a-4a63-b3b4-a31a6d4463ba}" record_timestamp="1370000662378" record_key="province_public_order_happiness_tax_factor">
+<key>province_public_order_happiness_tax_factor</key>
+<notes>Integer bonus value for happiness public order. Applied to faction province public order. Can be positive or negative. Used at faction province bonuses. Will show as &quot;tax&quot; in the public order breakdown list.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{7a7c5c10-f3a9-4be6-aa97-67bc2e777883}" record_timestamp="1370000662331" record_key="province_public_order_happiness_technology_factor">
+<key>province_public_order_happiness_technology_factor</key>
+<notes>Integer bonus value for happiness public order. Applied to faction province public order. Can be positive or negative. Used at faction province bonuses. Will show as &quot;technology&quot; in the public order breakdown list.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{c4c0eaa5-9c55-451b-8971-cd8364d516b3}" record_key="province_public_order_repression_threshold_mod">
+<key>province_public_order_repression_threshold_mod</key>
+<notes>modifier for faction province public order repression threshold. This defines how quickly a province can reach a rebelling state. The base, min and max values for this threshold are set in campaign variables. Used at province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ecfe7e16-c1ce-4b2b-9e52-e53eccc0c2dd}" record_key="province_public_order_satisfaction_threshold_mod">
+<key>province_public_order_satisfaction_threshold_mod</key>
+<notes>modifier for faction province public order satisfaction threshold. This defines how quickly a province can reach a prospering state. The base, min and max values for this threshold are set in campaign variables. Used at province bonuses. </notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{dd80466d-cd07-47f9-944d-9f05771dd3e4}" record_timestamp="1355316279965" record_key="raid_income_mod">
+<key>raid_income_mod</key>
+<notes>Percenatge income bonus for raid. Above 0, 50 will apply +50%. Used at Military Force bonuses. CAMPAIGN_BONUS_VALUE_ID_BASIC_RAID_INCOME_MOD</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{11967a82-4366-4ec0-bd68-9cfc4798fb2d}" record_timestamp="1355316279988" record_key="raid_radius_mod">
+<key>raid_radius_mod</key>
+<notes>Percenatge radius bonus for raid. Above 0, 50 will apply +50%.. Used at Military Force bonuses. CAMPAIGN_BONUS_VALUE_ID_BASIC_RAID_RADIUS_MOD</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ea030eca-780e-409f-b4d9-d72e693c4914}" record_timestamp="1425551907148" record_key="razing_mod">
+<key>razing_mod</key>
+<notes>Income modifier on razing</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{31596206-7a0c-42e6-b148-50c23b92da5b}" record_timestamp="1465987183473" record_key="rebellion_buget_mod">
+<key>rebellion_buget_mod</key>
+<notes>Percentage modifier for rebellion budget calculation. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{5dea7feb-20c2-4732-aee3-578f10efc85d}" record_key="recruit_time_mod_land">
+<key>recruit_time_mod_land</key>
+<notes>Added to recruitment time for land units. Used at province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ffc0700d-1faf-458c-a54d-e1023beee928}" record_key="recruit_time_mod_naval">
+<key>recruit_time_mod_naval</key>
+<notes>Added to recruitment time for naval units. Used at sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ec8b7e2d-13e5-4c6d-add9-058a5b0de767}" record_timestamp="1465987183452" record_key="recruitment_mod_cost_land_all">
+<key>recruitment_mod_cost_land_all</key>
+<notes>Percentage modifier to unit cost (and upkeep) for land units. Negative percentage reduces cost. Used as region bonuses, or for force doing the actual recruiting.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{78d4a4e5-bfe9-4389-b18f-cfe47a34b9f4}" record_timestamp="1465987183452" record_key="recruitment_mod_cost_naval_all">
+<key>recruitment_mod_cost_naval_all</key>
+<notes>Percentage modifier to unit cost (and upkeep) for naval units. Negative percentage reduces cost. Used at sea region bonuses, or for force doing the actual recruiting.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{212f01fb-c4a7-4ab8-92cf-ea3bd5e67489}" record_timestamp="1465987183489" record_key="recruitment_points">
+<key>recruitment_points</key>
+<notes>Number of recruitment points. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4a718bb1-03bf-4fb6-bf34-e97734e50b61}" record_timestamp="1465987183489" record_key="recruitment_points_home_region">
+<key>recruitment_points_home_region</key>
+<notes>Number of recruitment points bonus for home regions. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f35e7e87-3401-4469-93fe-cfc78d526ad5}" record_timestamp="1363282820440" record_key="recuperation_time_mod">
+<key>recuperation_time_mod</key>
+<notes>Modify recuperation time. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{9ad24f53-5175-4458-887d-138c6ecabf31}" record_timestamp="1370367832168" record_key="region_gdp_trade_piracy_effect_mod">
+<key>region_gdp_trade_piracy_effect_mod</key>
+<notes>Percent modifier for piracy effect on port GDP. Used at region bonuses and at force (for forces within the relevant sea region)</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{fc911172-65d8-4f21-877a-f96a705c0445}" record_timestamp="1425551907148" record_key="region_horde_food_consumption">
+<key>region_horde_food_consumption</key>
+<notes>Amount of food consumed by a horde from the region it is in</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{e0471320-fc40-48bc-ba07-65fb7c7c9724}" record_timestamp="1465987183490" record_key="region_line_of_sight_bonus">
+<key>region_line_of_sight_bonus</key>
+<notes>Added to line of sight distance for a region. Used to region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{124ce1a3-d51d-4be1-b419-b2bcbfcdd902}" record_key="region_resistance_modifier">
+<key>region_resistance_modifier</key>
+<notes>Percentage modifier for resistance unhappiness, applies to human and AI factions, positive value reduces unhappiness. Used at faction bonuses and also at character bonuses (an extra effect is applied from the capturing general's bonuses)</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{e6850de3-bc8a-4a8b-bdc0-240c1fdeff7d}" record_timestamp="1425551907148" record_key="region_resistance_modifier_capture_from_romans">
+<key>region_resistance_modifier_capture_from_romans</key>
+<notes>Percentage reduction in a region public order loss due to capture by Romans</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{d3f0d793-ab89-4837-b3dc-02593a5b72cc}" record_timestamp="1362046305242" record_key="region_slaves_unhappiness_mod">
+<key>region_slaves_unhappiness_mod</key>
+<notes>Percentage modifier on slaves unhappiness public order factor. Used at province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4beaae27-2ae7-461b-a413-83955523d893}" record_timestamp="1525187367184" record_key="regional_faction_support_value">
+<key>regional_faction_support_value</key>
+<notes>Regional faction support value that is added to the region owning faction when character is on assignment</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b01e60b1-57d3-441e-8ea7-27d8943a416d}" record_timestamp="1355316279943" record_key="reinforcement_radius_bonus">
+<key>reinforcement_radius_bonus</key>
+<notes>Increases character reinforcement range. Above 0, 50 will apply +50%. Used at Character bonuses. CAMPAIGN_BONUS_VALUE_ID_BASIC_REINFORCEMENT_RADIUS_BONUS</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{21591de1-13cf-487e-9aa8-b39a34acc340}" record_timestamp="1541779937079" record_key="replenishment_partial_bankruptcy_bous">
+<key>replenishment_partial_bankruptcy_bous</key>
+<notes>Percentage bonus for unit replenishment when teasury is negative but income is positive. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4d12061d-bfcd-4097-8c87-34a3d819b391}" record_timestamp="1465987182208" record_key="replenishment_percentage_bonus_base">
+<key>replenishment_percentage_bonus_base</key>
+<notes>Adds to replenishment rate for army and navy. Combines faction bonus (if in an owned region), with region bonuses (if in allied or owned region), retinue bonuses, and character bonuses for the general</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{418b8b72-3ffb-431a-8ee0-7e8916aecb76}" record_timestamp="1541779810565" record_key="replenishment_percentage_bonus_buildings">
+<key>replenishment_percentage_bonus_buildings</key>
+<notes>Adds to replenishment rate for army and navy. Combines faction bonus (if in an owned region), with region bonuses (if in allied or owned region), retinue bonuses, and character bonuses for the general</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{2c728d56-b593-4c4c-b007-ff670c162914}" record_timestamp="1541849118713" record_key="replenishment_percentage_bonus_characters">
+<key>replenishment_percentage_bonus_characters</key>
+<notes>Adds to replenishment rate for army and navy. Combines faction bonus (if in an owned region), with region bonuses (if in allied or owned region), retinue bonuses, and character bonuses for the general</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{955bd52c-f22a-484d-94b4-66a0a392d8b4}" record_timestamp="1541779810565" record_key="replenishment_percentage_bonus_faction">
+<key>replenishment_percentage_bonus_faction</key>
+<notes>Adds to replenishment rate for army and navy. Combines faction bonus (if in an owned region), with region bonuses (if in allied or owned region), retinue bonuses, and character bonuses for the general</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b51636f5-0a9e-4cdb-8477-2be476dc5ba0}" record_timestamp="1541779810565" record_key="replenishment_percentage_bonus_faction_support">
+<key>replenishment_percentage_bonus_faction_support</key>
+<notes>Adds to replenishment rate for army and navy. Combines faction bonus (if in an owned region), with region bonuses (if in allied or owned region), retinue bonuses, and character bonuses for the general</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{0cb832cf-c392-4238-9f56-1ce55556ab15}" record_timestamp="1541779810565" record_key="replenishment_percentage_bonus_force_morale">
+<key>replenishment_percentage_bonus_force_morale</key>
+<notes>Adds to replenishment rate for army and navy. Combines faction bonus (if in an owned region), with region bonuses (if in allied or owned region), retinue bonuses, and character bonuses for the general</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{537eba5a-1ed2-400d-af10-d4ab89c50988}" record_timestamp="1541779810565" record_key="replenishment_percentage_bonus_population">
+<key>replenishment_percentage_bonus_population</key>
+<notes>Adds to replenishment rate for army and navy. Combines faction bonus (if in an owned region), with region bonuses (if in allied or owned region), retinue bonuses, and character bonuses for the general</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{64c7ba2e-9322-4a5a-84fb-2252f2bad076}" record_timestamp="1541779810566" record_key="replenishment_percentage_bonus_technologies">
+<key>replenishment_percentage_bonus_technologies</key>
+<notes>Adds to replenishment rate for army and navy. Combines faction bonus (if in an owned region), with region bonuses (if in allied or owned region), retinue bonuses, and character bonuses for the general</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{e36e3af8-2ba7-43e7-9523-8b3716bf988f}" record_key="repression_events">
+<key>repression_events</key>
+<notes>Sets repression factor for Events in population class repression factors. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a68ebc75-6f23-48d8-a259-cee3603a3ad6}" record_timestamp="1465987183490" record_key="repression_gov_building">
+<key>repression_gov_building</key>
+<notes>Repression factor for Gov Building. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{8873ea57-e9ef-496b-b84a-b1d8d2d3c8c2}" record_timestamp="1465987183490" record_key="repression_gov_type">
+<key>repression_gov_type</key>
+<notes>Repression factor for Gov Type. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{d96264a6-5ddf-4153-9c9d-7dec8f532ad7}" record_key="repression_ministers">
+<key>repression_ministers</key>
+<notes>Used at region bonuses for repression factor for Characters.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{fc2a1fc6-4dec-4df0-beb2-4d902703c147}" record_timestamp="1465987183491" record_key="research_cost_mod">
+<key>research_cost_mod</key>
+<notes>Percentage modifier to technology research costs (positive increases cost). Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{c49c2e14-5f19-4f51-a115-3f04d9b4edb7}" record_timestamp="1465987183491" record_key="research_points">
+<key>research_points</key>
+<notes>Adds to technology research points available. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{20106ec8-8331-4561-b7a3-1db08687a0ef}" record_timestamp="1465987183492" record_key="research_rate_mod">
+<key>research_rate_mod</key>
+<notes>Percentage modifier on base tech research rate. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{c6dbf543-f314-47c5-8d5c-b00686845df8}" record_timestamp="1465987183492" record_key="resistance_unhappiness_limit_added">
+<key>resistance_unhappiness_limit_added</key>
+<notes>Region resistance unhappiness limit is how high the resistance unhappiness goes (eg -4 means it can't go to -3);  this value is added to that limit, eg +1 bonus makes a -4 limit -3. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{5b656404-4e38-4168-9721-7d9bbe6a7973}" record_timestamp="1465987183493" record_key="resource_export_enable">
+<key>resource_export_enable</key>
+<notes>Flag value (ie non-zero) to indicate export capability of building. Used with region slot bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{308dada6-a04d-4ab0-94a0-af605bc6b917}" record_timestamp="1449152128417" record_key="resource_production_mod">
+<key>resource_production_mod</key>
+<notes>Percentage modifier for trade resource production</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{0bbc28e7-95b2-4523-adee-bf0ab5efaa8a}" record_timestamp="1524818516845" record_key="retinue_chain_level_mod">
+<key>retinue_chain_level_mod</key>
+<notes>Additive modifier to the level of all retinue chains at the target scope</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a3d2cbff-df55-463d-99bc-a9e1babb187d}" record_timestamp="1465987183493" record_key="roads">
+<key>roads</key>
+<notes>Drives the road levels via the campaign_map_roads table. Used from region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{c068d36f-4afa-4696-bc46-78fae18dd19d}" record_timestamp="1467368019083" record_key="sacking_mod">
+<key>sacking_mod</key>
+<notes>Income modifier on sacking.Used for faction or characters</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f411c620-54d6-42cb-8934-ed12bd43dfbf}" record_timestamp="1401466465141" record_key="sanitation_base">
+<key>sanitation_base</key>
+<notes>Base level of sanitation</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{19ed3be4-e980-4377-b2b0-76e525f8389c}" record_timestamp="1401466465097" record_key="sanitation_buildings">
+<key>sanitation_buildings</key>
+<notes>Region sanitation provided by buildings</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{c33a9239-973b-44f8-b79c-0b9a3ed0ea8c}" record_timestamp="1401466465110" record_key="sanitation_events">
+<key>sanitation_events</key>
+<notes>Region sanitation provided by events</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{edea8d29-e479-44e1-9b4c-0a966847be8f}" record_timestamp="1401466465125" record_key="sanitation_technolgies">
+<key>sanitation_technolgies</key>
+<notes>Region sanitation provided by technologies</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{96cc5694-5be6-4047-954a-94da5cadffae}" record_timestamp="1374586893846" record_key="settlement_boiling_oil_enabled">
+<key>settlement_boiling_oil_enabled</key>
+<notes>Enable boiling oil in battles at a settlement. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{5f7f19d3-8447-44e3-8415-ebc459e920d2}" record_timestamp="1403887791499" record_key="settlement_wall_repair_points_mod">
+<key>settlement_wall_repair_points_mod</key>
+<notes>Percentage modifier for settlement repair points. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{31d90475-bb59-46b0-a1b5-dcbf881876c0}" record_timestamp="1465987183494" record_key="ship_broadside_strength_mod">
+<key>ship_broadside_strength_mod</key>
+<notes>Bonus to broadside strength. Used in unit stats, so from military force bonuses or character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{02a61ae7-9d98-43d9-abc6-9e61e7a78c2e}" record_timestamp="1465987183494" record_key="ship_hit_point_mod">
+<key>ship_hit_point_mod</key>
+<notes>Bonus to ship hit points. Used in unit stats, so from military force bonuses or character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{61cc112a-1ce2-4534-a780-a9c6a4498654}" record_timestamp="1465987183494" record_key="ship_repair_increase">
+<key>ship_repair_increase</key>
+<notes>Percentage modifier for ship repair. Used at unit, so from character and military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{60769df0-9f70-4817-b046-88ec816e804f}" record_timestamp="1465987183495" record_key="siege_equipment_hit_points_mod">
+<key>siege_equipment_hit_points_mod</key>
+<notes>Percentage modifier for siege equipment hit points. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{db509210-f587-469e-99b8-a6c621fa9cd1}" record_timestamp="1362046305199" record_key="slave_point_reduction_per_turn_mod">
+<key>slave_point_reduction_per_turn_mod</key>
+<notes>Percentage modifier on slaves lost per turn. Modifying the slaves lost below -100% will grant additional slaves. Used at province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{c810a1a3-2cdc-455e-8f9c-0515cb56b7f8}" record_key="slave_points_mod">
+<key>slave_points_mod</key>
+<notes>Slave point modifier for captured cities/post battle captives. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{512af537-816e-4384-87c9-13fc7df16c3b}" record_timestamp="1440684507196" record_key="splash_attack_power_mod_add">
+<key>splash_attack_power_mod_add</key>
+<notes>Additive modifier to unit splash attack multiplier. Used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{c7d5afa8-bd9d-4cca-90fc-773ca6454443}" record_timestamp="1401466465207" record_key="squalor_base">
+<key>squalor_base</key>
+<notes>Base level of squalor</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{b80d162c-9c61-43f9-8fe5-1ac63f13c8e1}" record_timestamp="1401466465158" record_key="squalor_buildings">
+<key>squalor_buildings</key>
+<notes>Region squalor provided by buildings</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4f8be54b-00fc-449d-93a0-1b0bc1064bf4}" record_timestamp="1401466465174" record_key="squalor_events">
+<key>squalor_events</key>
+<notes>Region squalor provided by events</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{1db4d538-4dbc-49a7-8633-55a1c6357974}" record_timestamp="1401466465191" record_key="squalor_technolgies">
+<key>squalor_technolgies</key>
+<notes>Region squalor provided by technologies</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{c2939dcc-21a8-4303-88a6-1f1dedb03e78}" record_timestamp="1465987183495" record_key="stance_ap_cost_refundable_on_off">
+<key>stance_ap_cost_refundable_on_off</key>
+<notes>Flag to set whether the action points cost of a stance are refunded when swicthing stance. This will be &quot;on&quot; if value is &gt; 0. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{27dfbf7c-ef75-4b70-86f8-5f5f7a87b98c}" record_timestamp="1372065958827" record_key="stance_ap_percentage_cost">
+<key>stance_ap_percentage_cost</key>
+<notes>Percentage of action points per turn to enter a stance. Clamped between 0 and 100. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4e0c0236-f1eb-4646-80fd-8cf2aaf8fc09}" record_timestamp="1491899836599" record_key="stance_ap_percentage_increase">
+<key>stance_ap_percentage_increase</key>
+<notes>Percentage increase of action points while in this stance. 100 will double the original full action points, -50 will half the original full action points.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{6500c571-49e0-443c-9592-69759d137f87}" record_timestamp="1458304989088" record_key="starting_winds_of_magic_mod">
+<key>starting_winds_of_magic_mod</key>
+<notes>Scalar mod for Winds of Magic starting value. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{bad76f3b-f552-4184-b4b2-fb0fe2db5ab6}" record_timestamp="1369760772111" record_key="state_conversion_from_technology">
+<key>state_conversion_from_technology</key>
+<notes>Adds to conversion for state religion, used at faction scope.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{682c48ba-1615-4f72-a9d8-e8c227e406c2}" record_timestamp="1465987182201" record_key="state_religion_conversion_bonus">
+<key>state_religion_conversion_bonus</key>
+<notes>Bonus to religious conversion in a region. At region bonuses, combines with CAMPAIGN_VARIABLE_STATE_RELIGION_CONVERSION_BONUS to give state religion conversion. At character bonuses, adds to characters or generals contribution to conversion.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f7030293-7b04-4284-9a31-dde56730431f}" record_timestamp="1465987183496" record_key="state_religion_conversion_bonus_minister">
+<key>state_religion_conversion_bonus_minister</key>
+<notes>Bonus to religious conversion in a region, separated from other state religion bonus to allow flavour of sources. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{84a1327f-6597-489b-aadf-76d927a9bde8}" record_key="stealth_mod">
+<key>stealth_mod</key>
+<notes>Adds to chance of a character discovering another character. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{0fab1616-e896-49f1-8568-f02233883bf2}" record_timestamp="1465987183496" record_key="subterfuge_sabotage_army_casualties_modifier">
+<key>subterfuge_sabotage_army_casualties_modifier</key>
+<notes>Percentage modifier for army casualties agent action outcome. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{05de532b-f877-419c-82c1-7b8007d30f36}" record_timestamp="1465987183497" record_key="subterfuge_sabotage_building_modifier">
+<key>subterfuge_sabotage_building_modifier</key>
+<notes>Percentage modifier for building damage agent action outcome. Used at character bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{d37a893f-151a-4215-9e51-817d9d512f50}" record_timestamp="1465987183497" record_key="tax_bonus_building">
+<key>tax_bonus_building</key>
+<notes>Percentage added to building tax percentage bonus. Used at province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{01ba84b7-7228-401f-8051-f2ed420a79cb}" record_timestamp="1465987183498" record_key="tax_bonus_events">
+<key>tax_bonus_events</key>
+<notes>Percentage modifier to tax level, counted in events factor. Used at province bonuses</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{1f14086a-002e-4095-8668-bdefb2df19e8}" record_timestamp="1465987183498" record_key="tax_bonus_minister">
+<key>tax_bonus_minister</key>
+<notes>Percentage added to character tax percentage bonus. Used at province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{533d4e9e-1ab3-4531-b50e-38bd89970cfb}" record_timestamp="1371821673340" record_key="tax_bonus_slaves_mod">
+<key>tax_bonus_slaves_mod</key>
+<notes>Percentage modifier on slaves percentage bonus. Used at province bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{89e89b67-4346-49d1-addc-9521a6ed5a2d}" record_timestamp="1465987183498" record_key="tax_bonus_technology">
+<key>tax_bonus_technology</key>
+<notes>Sets tax factor for technology. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{7d055b0c-a880-4377-b885-c8c6bb52e11d}" record_timestamp="1485774029920" record_key="technology_research_point_cost_reduction">
+<key>technology_research_point_cost_reduction</key>
+<notes>Absolute modifier for research points required to research each technology. A technology that would be reduced below requiring 1 research point is reduced to require 1 research point. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{428904f2-e22c-4bec-8ae7-03aa3d7153f8}" record_timestamp="1465987183499" record_key="tower_damage_mod">
+<key>tower_damage_mod</key>
+<notes>Percentage modifier for tower damage. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{eed75f52-f0b8-4e99-8610-651f120fce0f}" record_timestamp="1465987183499" record_key="tower_reload_mod">
+<key>tower_reload_mod</key>
+<notes>Percentage modifier for tower reload rate. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{293d7c1f-9923-4488-95e7-ef6cfe054c94}" record_key="trade_income_mod">
+<key>trade_income_mod</key>
+<notes>Percentage modifier to trade income. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{7af37e9d-cf9b-4d8f-b8fb-911cfe9c3278}" record_key="trade_node_commodity_mod">
+<key>trade_node_commodity_mod</key>
+<notes>Percentage modifier for commodity supply. Used from faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{0e2f9b3e-3db2-42d2-ba5a-ade279e07114}" record_key="trade_route_all_mod_growth_rate">
+<key>trade_route_all_mod_growth_rate</key>
+<notes>Percentage modifier for trade route growth, positive increases value. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{cc2065f4-752f-4b1a-a797-1e7eb6b68318}" record_timestamp="1516022055024" record_key="trade_route_cap">
+<key>trade_route_cap</key>
+<notes>A faction must have fewer than this number of trade routes before they can create new ones. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ed8a6569-fd25-4cf5-b23e-a895578cb18c}" record_timestamp="1465987183500" record_key="trade_route_cap_sea">
+<key>trade_route_cap_sea</key>
+<notes>Sets trade route cap for port. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{5eebf450-1321-474f-915e-e6dea5b75eb7}" record_timestamp="1465987183500" record_key="tunnel_interception_chance">
+<key>tunnel_interception_chance</key>
+<notes>Additional percentage chance of intercepting a tunnelling army. Used at character bonuses (general of force).</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{77ad7ab1-8075-4a4a-8b1e-70ebe4587def}" record_timestamp="1465987183501" record_key="tunnel_interception_evasion_chance">
+<key>tunnel_interception_evasion_chance</key>
+<notes>Reduces the chance of an interceptor successfully intercepting a tunnelling army. Used at character bonuses (general of force).</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{5834d2a0-1280-494a-9e02-fa5bb4e31a1a}" record_timestamp="1465987183501" record_key="tw_growth_education">
+<key>tw_growth_education</key>
+<notes>Contributes to town wealth growth factor for Education. Used at region slot bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{73d61f0b-abb8-4009-be1d-9298bf8960de}" record_timestamp="1465987183502" record_key="tw_growth_events">
+<key>tw_growth_events</key>
+<notes>Contributes to town wealth growth factor for Events. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{ea98a6aa-b97b-4958-9b68-1eb2a1b07dec}" record_key="tw_growth_factionwide">
+<key>tw_growth_factionwide</key>
+<notes>Sets base level for town wealth growth. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{6844bde7-79cb-43d6-ba40-1d70ebf5619f}" record_timestamp="1465987183502" record_key="tw_growth_government">
+<key>tw_growth_government</key>
+<notes>Contributes to town wealth growth factor for Government. Used at region slot bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{1b96adce-b561-4789-906b-b8c003019986}" record_timestamp="1465987183503" record_key="tw_growth_home_region">
+<key>tw_growth_home_region</key>
+<notes>Contributes to town wealth growth factor for Ministers when region is home region. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{3754bf3b-e09d-4fc6-8b41-490a103cc375}" record_timestamp="1465987183503" record_key="tw_growth_industry">
+<key>tw_growth_industry</key>
+<notes>Contributes to town wealth growth factor for Industry. Used at region slot bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{8ada6539-2f4e-4ebb-90e5-7ef967e6d6f7}" record_timestamp="1465987183503" record_key="tw_growth_mod_all">
+<key>tw_growth_mod_all</key>
+<notes>Percentage modifier to town wealth, positive increase town wealth. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{0bec1ec2-764f-4a20-a0a4-a5d337d9a610}" record_timestamp="1465987183504" record_key="tw_growth_port">
+<key>tw_growth_port</key>
+<notes>Contributes to town wealth growth factor for Ports. Used at region slot bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f2543707-de93-40c5-a6d7-e2c328c39c8f}" record_timestamp="1465987183504" record_key="tw_growth_roads">
+<key>tw_growth_roads</key>
+<notes>Contributes to town wealth growth factor for Roads. Used at region slot bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{6cfaa52b-09b5-4f6b-9dc5-a4903fbee870}" record_timestamp="1465987183505" record_key="tw_growth_tax_modifier">
+<key>tw_growth_tax_modifier</key>
+<notes>Sets tax-specific modifier to growth of town wealth growth. (TW Growth is multipled by 1 + this value.) Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{016d4d94-3e22-40f3-8393-3bddbd0f42a3}" record_key="tw_growth_tax_modifier_fixed">
+<key>tw_growth_tax_modifier_fixed</key>
+<notes>Sets tax-specific value added to town wealth growth after growth tax modifier applied. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{16959e10-8642-449f-bce9-e2c10d3f9dd9}" record_timestamp="1465987183505" record_key="tw_growth_technologies">
+<key>tw_growth_technologies</key>
+<notes>Contributes to town wealth growth factor for Technologies. Used at region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{1e43fb88-35e4-4eb0-a46f-b9ca76d30306}" record_timestamp="1513265566237" record_key="undercover_character_action_cover_point_cost_bonus">
+<key>undercover_character_action_cover_point_cost_bonus</key>
+<notes>Flat additional cost for action cover point cost. Can be positive or negative. Used at Character and Faction</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{22882e7f-6891-47c4-9364-a17409cef512}" record_timestamp="1513265566237" record_key="undercover_character_action_undercover_network_cost_bonus">
+<key>undercover_character_action_undercover_network_cost_bonus</key>
+<notes>Flat additional cost for action undercover network point cost. Can be positive or negative. Used at Character and Faction</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{efdc2e21-5a79-4908-8ccf-8d37ca8dc4ce}" record_timestamp="1510933227782" record_key="undercover_character_additional_percentage_chance_of_secondary_discover_outcome">
+<key>undercover_character_additional_percentage_chance_of_secondary_discover_outcome</key>
+<notes>Additional chance of secondary outcome when a faction chooses what to do with a discovered undercover character e.g. escaping instead of being executed</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{7c707220-4c4f-40a1-9d30-7f5a41d11593}" record_timestamp="1510933347615" record_key="undercover_character_cover_points_change_per_turn_modifier">
+<key>undercover_character_cover_points_change_per_turn_modifier</key>
+<notes>&quot;&quot;</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{17a2e817-b399-44fa-99d3-133ca2c5544f}" record_timestamp="1513265566237" record_key="undercover_character_defense_against_action_cover_point_cost_bonus">
+<key>undercover_character_defense_against_action_cover_point_cost_bonus</key>
+<notes>Flat additional cost for action cover point cost, queried on the actions target faction. Used at Faction</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{001120e6-d5e3-448c-a459-d6ca3385143d}" record_timestamp="1513265566237" record_key="undercover_character_defense_against_action_undercover_network_cost_bonus">
+<key>undercover_character_defense_against_action_undercover_network_cost_bonus</key>
+<notes>Flat additional cost for action cover point cost, queried on the actions target faction. Used at Faction</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{2b6cbceb-9bb3-43ac-b498-a02119321c3c}" record_timestamp="1510933347594" record_key="undercover_character_maximum_cover_points_addition">
+<key>undercover_character_maximum_cover_points_addition</key>
+<notes>&quot;&quot;</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{c787897b-3c7f-4a7e-82d8-69f9f20d7eee}" record_timestamp="1532687142130" record_key="undercover_character_upkeep_cost_percentage_modifier">
+<key>undercover_character_upkeep_cost_percentage_modifier</key>
+<notes>Percentage modifier for undercover character upkeep. Apply this to the source faction. example (+50 will increasce upkeep by 1.5x)</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{9b0879c1-6c9c-4d0a-82fb-39f5c61c1ab3}" record_timestamp="1525775632686" record_key="unit_action_points_bonus_percentage_mod">
+<key>unit_action_points_bonus_percentage_mod</key>
+<notes>Percentage bonus value added to action points when units are mustering</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{7e8cfd6d-6bb1-4417-8bd1-4d9967b7481f}" record_timestamp="1425551907148" record_key="unit_battle_setup_night_battle_attacker_fatigue_penalty_reduction">
+<key>unit_battle_setup_night_battle_attacker_fatigue_penalty_reduction</key>
+<notes>Reduction to the fatigue penalty applied to night battle attackers. Used at mility force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f2d2bad3-742b-4999-a51f-0db5b4355db8}" record_timestamp="1409069706747" record_key="unit_fatigue_resistance_mod">
+<key>unit_fatigue_resistance_mod</key>
+<notes>Percentage modifier unit fatigue restistance. Negative values increase resistance. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{2674b88f-b383-405e-9dea-c59ba8863c76}" record_timestamp="1438698460347" record_key="unit_flaming_attack_mod">
+<key>unit_flaming_attack_mod</key>
+<notes>Additive bonus for flaming attack damage, used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{c5f487e1-86a0-4157-8c36-f10585746656}" record_timestamp="1438698460988" record_key="unit_is_magical">
+<key>unit_is_magical</key>
+<notes>Flag unit attacks as magical, used at character and force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{53fb7972-4925-46d6-9cbb-ccfc2f0ece42}" record_timestamp="1525775632771" record_key="unit_mustering_time_bonus_mod">
+<key>unit_mustering_time_bonus_mod</key>
+<notes>Number of turns that will be subtracted from &quot;mustering turns remaining&quot;</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{4c18702c-d98f-4f4d-83ba-e06f39a20007}" record_timestamp="1398353078060" record_key="unit_starting_fatigue_state">
+<key>unit_starting_fatigue_state</key>
+<notes>Unit starting fatigue state. Used as a max value (does not stack). 0 = fresh, 5 = exhausted. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{f89da960-e454-4b8f-9268-82fe9a3cb718}" record_key="unit_stat_bonus_accuracy_mod">
+<key>unit_stat_bonus_accuracy_mod</key>
+<notes>Sets UNIT_STATISTICS_BONUSES value for accuracy. Used at province and sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{1ba43a6d-f402-477c-bfa8-943de2cdae03}" record_key="unit_stat_bonus_ammunition">
+<key>unit_stat_bonus_ammunition</key>
+<notes>Sets UNIT_STATISTICS_BONUSES value for ammunition. Used at province and sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{1a0c2919-5c43-4a11-8e67-1d292c4f7c60}" record_key="unit_stat_bonus_armour">
+<key>unit_stat_bonus_armour</key>
+<notes>Sets UNIT_STATISTICS_BONUSES value for armour. Used at province and sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{8e6dbd54-334d-41a5-b943-1a5db7ef5308}" record_key="unit_stat_bonus_attack">
+<key>unit_stat_bonus_attack</key>
+<notes>Sets UNIT_STATISTICS_BONUSES value for attack. Used at province and sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{9cdc3ede-3a06-41db-99ef-f529246b184f}" record_timestamp="1541260034945" record_key="unit_stat_bonus_attack_interval">
+<key>unit_stat_bonus_attack_interval</key>
+<notes>Sets UNIT_STATISTICS_BONUSES value for attack interval. Used at province and sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{e5ed953e-d8f1-4098-b529-059a927a25e1}" record_key="unit_stat_bonus_charge_bonus_mod">
+<key>unit_stat_bonus_charge_bonus_mod</key>
+<notes>Sets UNIT_STATISTICS_BONUSES value for charge bonus. Used at province and sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{508e4b52-d7a2-47c7-ae79-69de6bb830c7}" record_key="unit_stat_bonus_defence">
+<key>unit_stat_bonus_defence</key>
+<notes>Sets UNIT_STATISTICS_BONUSES value for defence. Used at province and sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{90f29584-6d1d-486c-9632-c15fdceb5813}" record_key="unit_stat_bonus_horses">
+<key>unit_stat_bonus_horses</key>
+<notes>Sets UNIT_STATISTICS_BONUSES value for horses. Used at province and sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{42b67572-8214-459e-af0d-f68dbf573d79}" record_key="unit_stat_bonus_hull_armour">
+<key>unit_stat_bonus_hull_armour</key>
+<notes>Sets UNIT_STATISTICS_BONUSES value for hull armour. Used at province and sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{03d5efa4-854e-403a-828a-0873229b2193}" record_key="unit_stat_bonus_hull_health">
+<key>unit_stat_bonus_hull_health</key>
+<notes>Sets UNIT_STATISTICS_BONUSES value for hull health. Used at province and sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{d9c593e8-f6cc-4b4b-9596-111d38062c5b}" record_timestamp="1543583193075" record_key="unit_stat_bonus_missile_block_chance">
+<key>unit_stat_bonus_missile_block_chance</key>
+<notes>Sets UNIT_STATISTICS_BONUSES value for missile block chance. Used at province and sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{25222858-5950-4c0d-9f4e-df99c19cb4e0}" record_key="unit_stat_bonus_morale_mod">
+<key>unit_stat_bonus_morale_mod</key>
+<notes>Sets UNIT_STATISTICS_BONUSES value for melee. Used at province and sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{87fc30b0-bc59-4ab1-8e31-bff5cd9e929b}" record_key="unit_stat_bonus_ramming">
+<key>unit_stat_bonus_ramming</key>
+<notes>Sets UNIT_STATISTICS_BONUSES value for ramming. Used at province and sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{bf6cbb03-9eef-48da-8ab4-3089eb75b033}" record_key="unit_stat_bonus_shield">
+<key>unit_stat_bonus_shield</key>
+<notes>Sets UNIT_STATISTICS_BONUSES value for shield. Used at province and sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{56bc519f-6bc9-49f8-a675-720b2372577a}" record_key="unit_stat_bonus_weapon">
+<key>unit_stat_bonus_weapon</key>
+<notes>Sets UNIT_STATISTICS_BONUSES value for weapon. Used at province and sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a9fe515e-42a3-4e21-9a07-db5a1de2e3b9}" record_key="unit_xp_mod_land">
+<key>unit_xp_mod_land</key>
+<notes>Added to recruitment XP for land units. Used at province, military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{985bf274-ebfd-471b-bbc0-e0959b0a40e0}" record_key="unit_xp_mod_naval">
+<key>unit_xp_mod_naval</key>
+<notes>Added to recruitment XP for naval units. Used at sea-region bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{a902c037-352b-4331-8e24-5bb2a7ea3fb4}" record_timestamp="1425480965736" record_key="unit_xp_mod_training">
+<key>unit_xp_mod_training</key>
+<notes>XP points gained by units, per turn. Used at military force bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{18a75d3f-042f-407c-8931-28f2a0aea404}" record_timestamp="1465987183442" record_key="unrestricted_replenishment_bonus">
+<key>unrestricted_replenishment_bonus</key>
+<notes>Added to replenishment. Indicates percentage of full-sized unit replenished each turn. Used at character bonuses (general of force).</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{af4159ec-9d7d-40dd-9bea-654cfac1a872}" record_timestamp="1465987183442" record_key="upkeep_cost_mod_land_all">
+<key>upkeep_cost_mod_land_all</key>
+<notes>Percentage modifier for land unit upkeep (positive increases upkeep). Used at military force, factino, character, force retinue bonuses</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{6caf99c7-170a-4400-afbd-959b878e392d}" record_timestamp="1500634409027" record_key="upkeep_cost_mod_mercenaries_all">
+<key>upkeep_cost_mod_mercenaries_all</key>
+<notes>Additional Percentage modifier for mercenary upkeep (positive increases upkeep). Used at military force, factino, character, force retinue bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{300d2cff-ee0f-4db0-ad14-08f9731ee291}" record_timestamp="1465987183442" record_key="upkeep_cost_mod_naval_all">
+<key>upkeep_cost_mod_naval_all</key>
+<notes>Percentage modifier for naval unit upkeep (positive increases upkeep). Used at military force, factino, character, force retinue bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{e2ad757f-bf80-476c-8a5d-33623c8e0c70}" record_timestamp="1551780808852" record_key="virtual_trade_volume">
+<key>virtual_trade_volume</key>
+<notes>Additional trade volume used for all faction's trade agreements. Used at faction bonuses.</notes>
+</campaign_bonus_value_ids_basic>
+<campaign_bonus_value_ids_basic record_uuid="{101e6f16-c8f8-4d8b-88b8-abe0a948baed}" record_timestamp="1537616210940" record_key="wound_healing_percentage_mod">
+<key>wound_healing_percentage_mod</key>
+<notes>Percentage modifier for wounds healed per turn (base is 1)</notes>
+</campaign_bonus_value_ids_basic>
+</dataroot>

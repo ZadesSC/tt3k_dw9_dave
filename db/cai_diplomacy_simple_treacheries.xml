@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_simple_treacheries.xsd" export_time="Fri Jun 7 16:59:15 2019" revision="38" export_branch="T:/branches/3k/patch1/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>0530281a-a9de-44f2-97ea-858da95cdfc2</edit_uuid>
+<cai_diplomacy_simple_treacheries record_uuid="{2e2c1b79-f0af-4ef6-80fb-50ecef668e59}" record_timestamp="1540022031109" record_key="ALLIANCE_BROKEN_EARLY">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_deal_broken_early</display_string>
+<event>ALLIANCE_BROKEN_EARLY</event>
+<long_description_string>respect_factor_alliance_deal_broken_early_long</long_description_string>
+<priority>0</priority>
+<value>-5</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{11c9f700-935d-48e0-a5a7-7df4bb5e61d6}" record_timestamp="1536568989453" record_key="BATTLE_ATTACK_ALLIANCE_TARGET">
+<constant_value>0</constant_value>
+<display_string>respect_factor_alliance_target</display_string>
+<event>BATTLE_ATTACK_ALLIANCE_TARGET</event>
+<long_description_string></long_description_string>
+<priority>0</priority>
+<value>2</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{a9b87ce4-ad7b-466a-9fb7-08a54cd4bafe}" record_timestamp="1525939951065" record_key="CITY_RAZED">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_city_razed</display_string>
+<event>CITY_RAZED</event>
+<long_description_string></long_description_string>
+<priority>0</priority>
+<value>-5</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{bc22d3f0-de58-4e38-adb9-b6f6d0f9ac0e}" record_timestamp="1540022031111" record_key="COALITION_BROKEN_EARLY">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_deal_broken_early</display_string>
+<event>COALITION_BROKEN_EARLY</event>
+<long_description_string>respect_factor_coalition_deal_broken_early_long</long_description_string>
+<priority>0</priority>
+<value>-5</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{0525355a-0cf2-445b-87a2-2613f0e04f07}" record_timestamp="1543919681818" record_key="DONG_ZHUO_PAST_TREACHERY">
+<constant_value>0</constant_value>
+<display_string>diplomatic_factor_custom_startpos_dong_zhuo_usurper</display_string>
+<event>DONG_ZHUO_PAST_TREACHERY</event>
+<long_description_string></long_description_string>
+<priority>0</priority>
+<value>-40</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{937a5bc9-e654-45c1-9272-09500d9d42fc}" record_timestamp="1525939951066" record_key="FACTION_LIBERATED">
+<constant_value>0</constant_value>
+<display_string>respect_factor_faction_liberated</display_string>
+<event>FACTION_LIBERATED</event>
+<long_description_string></long_description_string>
+<priority>0</priority>
+<value>5</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{d8468dc9-749e-49db-a2f1-856d2135946b}" record_timestamp="1540022031114" record_key="FOOD_TRADE_BROKEN_EARLY_OFFER">
+<constant_value>0</constant_value>
+<display_string>respect_factor_deal_broken_early</display_string>
+<event>FOOD_TRADE_BROKEN_EARLY_OFFER</event>
+<long_description_string>respect_factor_food_trade_deal_broken_early_long</long_description_string>
+<priority>0</priority>
+<value>-10</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{c07b9077-91c1-4a5d-9f0f-b3b093cbe396}" record_timestamp="1540022031118" record_key="FOOD_TRADE_BROKEN_OFFER">
+<constant_value>0</constant_value>
+<display_string>respect_factor_deal_broken_early</display_string>
+<event>FOOD_TRADE_BROKEN_OFFER</event>
+<long_description_string>respect_factor_food_trade_deal_broken_early_long</long_description_string>
+<priority>0</priority>
+<value>-10</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{a67e53f4-b612-4026-8ffe-058e16b05924}" record_timestamp="1544011538101" record_key="GUARANTEE_AUTONOMY_BROKEN_EARLY">
+<constant_value>0</constant_value>
+<display_string>respect_factor_deal_broken_early</display_string>
+<event>GUARANTEE_AUTONOMY_BROKEN_EARLY</event>
+<long_description_string>respect_factor_guarantee_autonomy_deal_broken_early_long</long_description_string>
+<priority>1</priority>
+<value>-5</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{1bd8ceeb-edf9-4f88-abc1-4cbffe3e91e5}" record_timestamp="1554463308752" record_key="HELPED_VASSAL">
+<constant_value>0</constant_value>
+<display_string>diplomatic_factor_allied_war_support</display_string>
+<event>HELPED_VASSAL</event>
+<long_description_string>diplomatic_factor_allied_war_support</long_description_string>
+<priority>0</priority>
+<value>5</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{902c45ae-0708-44c0-a634-04d2c7a08d00}" record_timestamp="1540022031121" record_key="MILITARY_ACCESS_BROKEN_EARLY">
+<constant_value>0</constant_value>
+<display_string>respect_factor_deal_broken_early</display_string>
+<event>MILITARY_ACCESS_BROKEN_EARLY</event>
+<long_description_string>respect_factor_military_access_deal_broken_early_long</long_description_string>
+<priority>0</priority>
+<value>-5</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{222cead4-ff68-4fc6-8613-edb8b80b9ce4}" record_timestamp="1540022031124" record_key="NON_AGGRESSION_BROKEN_EARLY">
+<constant_value>0</constant_value>
+<display_string>respect_factor_deal_broken_early</display_string>
+<event>NON_AGGRESSION_BROKEN_EARLY</event>
+<long_description_string>respect_factor_non_aggression_deal_broken_early_long</long_description_string>
+<priority>0</priority>
+<value>-5</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{ce7fab43-4262-48e8-b00e-61ba3cab107e}" record_timestamp="1553792250015" record_key="REFUSED_TO_HELP_VASSAL">
+<constant_value>0</constant_value>
+<display_string>respect_factor_deals_broken</display_string>
+<event>REFUSED_TO_HELP_VASSAL</event>
+<long_description_string>respect_factor_war_after_vassal_treaty_long</long_description_string>
+<priority>0</priority>
+<value>-10</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{2c16a3a8-2757-4d62-9b41-ecc037b764f5}" record_timestamp="1540022031124" record_key="REGULAR_PAYMENTS_BROKEN_EARLY_OFFER">
+<constant_value>0</constant_value>
+<display_string>respect_factor_deal_broken_early</display_string>
+<event>REGULAR_PAYMENTS_BROKEN_EARLY_OFFER</event>
+<long_description_string>respect_factor_regular_payments_deal_broken_early_long</long_description_string>
+<priority>0</priority>
+<value>-10</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{0dfc74ff-a996-4904-b85e-6f751ee88301}" record_timestamp="1540022031124" record_key="REGULAR_PAYMENTS_BROKEN_OFFER">
+<constant_value>0</constant_value>
+<display_string>respect_factor_deal_broken_early</display_string>
+<event>REGULAR_PAYMENTS_BROKEN_OFFER</event>
+<long_description_string>respect_factor_regular_payments_deal_broken_early_long</long_description_string>
+<priority>0</priority>
+<value>-10</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{6947c8ee-458b-400a-98a7-a34d7719099e}" record_timestamp="1525939951066" record_key="SPY_DISCOVERED">
+<constant_value>0</constant_value>
+<display_string>respect_factor_spy_discovered</display_string>
+<event>SPY_DISCOVERED</event>
+<long_description_string></long_description_string>
+<priority>0</priority>
+<value>-5</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{dfbd43fe-2e2f-4a72-95fd-6e760329d983}" record_timestamp="1525939951067" record_key="SPY_EXECUTED">
+<constant_value>0</constant_value>
+<display_string>respect_factor_spy_executed</display_string>
+<event>SPY_EXECUTED</event>
+<long_description_string></long_description_string>
+<priority>0</priority>
+<value>0</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{62732d8a-fc1f-4e53-b524-c6efd7c6de61}" record_timestamp="1525939951067" record_key="SPY_RELEASED">
+<constant_value>0</constant_value>
+<display_string>respect_factor_spy_released</display_string>
+<event>SPY_RELEASED</event>
+<long_description_string></long_description_string>
+<priority>0</priority>
+<value>5</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{c324421b-2a99-49cc-a418-a01b11ff2fef}" record_timestamp="1540022031126" record_key="THREAT_CONCEDED">
+<constant_value>0</constant_value>
+<display_string>respect_factor_conceded_to_threat</display_string>
+<event>THREAT_CONCEDED</event>
+<long_description_string>respect_factor_conceded_to_threat_long</long_description_string>
+<priority>0</priority>
+<value>-5</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{658470a5-d193-467e-a7a1-cbfd273ce4cd}" record_timestamp="1540022031128" record_key="THREAT_ISSUED">
+<constant_value>-1</constant_value>
+<display_string>respect_factor_threatened</display_string>
+<event>THREAT_ISSUED</event>
+<long_description_string>respect_factor_threatened_long</long_description_string>
+<priority>0</priority>
+<value>-10</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{033bbaf9-775a-46e9-a3c9-e49a2e260a1c}" record_timestamp="1532955788103" record_key="THREAT_REBUKED">
+<constant_value>3</constant_value>
+<display_string>respect_factor_rebuked_threat</display_string>
+<event>THREAT_REBUKED</event>
+<long_description_string></long_description_string>
+<priority>0</priority>
+<value>5</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{4d59fe72-c6c7-4dad-89c9-c30365cb1535}" record_timestamp="1540022031130" record_key="TRADE_AGREEMENT_BROKEN_EARLY">
+<constant_value>0</constant_value>
+<display_string>respect_factor_deal_broken_early</display_string>
+<event>TRADE_AGREEMENT_BROKEN_EARLY</event>
+<long_description_string>respect_factor_trade_deal_broken_early_long</long_description_string>
+<priority>0</priority>
+<value>-5</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{62d73c13-ae8b-4a29-9456-d115b0545344}" record_timestamp="1548516021268" record_key="TRIBUTE_BROKEN_EARLY">
+<constant_value>0</constant_value>
+<display_string>respect_factor_deal_broken_early</display_string>
+<event>TRIBUTE_BROKEN_EARLY</event>
+<long_description_string>respect_factor_treaty_broken_early_long</long_description_string>
+<priority>0</priority>
+<value>-10</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{3f35afd9-ca5f-4b47-9308-e4f46333d471}" record_timestamp="1537972291157" record_key="TROOPS_EXECUTED">
+<constant_value>0</constant_value>
+<display_string>respect_factor_troops_executed</display_string>
+<event>TROOPS_EXECUTED</event>
+<long_description_string></long_description_string>
+<priority>0</priority>
+<value>0</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{853d14e0-4b2b-4616-b8e0-0d68e9af3785}" record_timestamp="1537972291157" record_key="TROOPS_RELEASED">
+<constant_value>0</constant_value>
+<display_string>respect_factor_troops_released</display_string>
+<event>TROOPS_RELEASED</event>
+<long_description_string></long_description_string>
+<priority>0</priority>
+<value>0</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{4c8f7266-d147-4693-baa4-ea08e261bcc2}" record_timestamp="1544961233224" record_key="VASSALAGE_ANNEXED">
+<constant_value>-2</constant_value>
+<display_string>respect_factor_annexation</display_string>
+<event>VASSALAGE_ANNEXED</event>
+<long_description_string>respect_factor_annexation_long</long_description_string>
+<priority>0</priority>
+<value>-20</value>
+</cai_diplomacy_simple_treacheries>
+<cai_diplomacy_simple_treacheries record_uuid="{158fdb5a-0739-45ca-9eca-6057d078e15b}" record_timestamp="1547629845238" record_key="VASSALAGE_BROKEN_EARLY">
+<constant_value>0</constant_value>
+<display_string>respect_factor_deal_broken_early</display_string>
+<event>VASSALAGE_BROKEN_EARLY</event>
+<long_description_string>respect_factor_treaty_broken_early_long</long_description_string>
+<priority>0</priority>
+<value>-5</value>
+</cai_diplomacy_simple_treacheries>
+</dataroot>

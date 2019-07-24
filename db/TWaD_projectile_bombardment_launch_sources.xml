@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_projectile_bombardment_launch_sources>
+<root>
+<edit_uuid>d4e95a61-b54d-4d21-b614-7cd5869a6e0d</edit_uuid>
+<field>
+<field_uuid>{6bca7938-378d-4af0-ba91-5074d428b9c5}</field_uuid>
+<primary_key>1</primary_key>
+<name>suggested_launch_source</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+</field>
+<field>
+<field_uuid>{c18455a3-c790-40dc-82a4-e18156a3f079}</field_uuid>
+<primary_key>0</primary_key>
+<name>description</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>Hello, fill me in</default_value>
+<max_length>255</max_length>
+</field>
+</root>

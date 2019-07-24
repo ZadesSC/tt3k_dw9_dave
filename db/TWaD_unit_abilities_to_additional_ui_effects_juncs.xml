@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_unit_abilities_to_additional_ui_effects_juncs>
+<root>
+<edit_uuid>81fb78c8-db1e-4d3b-b3e2-d10eaeafc844</edit_uuid>
+<field>
+<field_uuid>{79a48e9c-c9d9-462e-9b2b-8c492188481b}</field_uuid>
+<primary_key>1</primary_key>
+<name>ability</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>unit_abilities</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{2b960a0c-8919-457d-8c06-0243987c8c27}</field_uuid>
+<primary_key>1</primary_key>
+<name>effect</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>unit_abilities_additional_ui_effects</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

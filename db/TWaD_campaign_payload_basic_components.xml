@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_payload_basic_components>
+<root>
+<edit_uuid>4315f306-a975-41dd-8326-673dd08e6296</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{2cd723df-1914-414f-aa88-43a3049676de}</field_uuid>
+<primary_key>1</primary_key>
+<name>payload</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_payloads</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{6fed13d5-74f3-41f6-bc78-0fafd368b763}</field_uuid>
+<primary_key>1</primary_key>
+<name>component_type</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>type</column_source_column>
+<column_source_table>campaign_payload_basic_component_types</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="battle_duel_effects.xsd" export_time="Tue Mar 26 11:37:47 2019" revision="19" export_branch="C:/Users/hugh.mclaughlin/AppData/Roaming/TWDaemon/1406/dave" export_user="bob">
+<edit_uuid>0bd945d7-6c6f-4d0a-9903-5881c2d2bd5f</edit_uuid>
+<battle_duel_effects record_uuid="{6a3ab05a-043b-46c7-a821-07cc558f7778}" record_timestamp="1496936296182" record_key="completealliance_positiveequalstat_moralena">
+<expire_time>180</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>add</how>
+<outcome>complete</outcome>
+<scope>alliance_positive</scope>
+<stats>stat_morale</stats>
+<strength>equal</strength>
+<value>50</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{507b19d6-af91-4b9e-b93a-7aaddee37da6}" record_timestamp="1543412169014" record_key="completealliance_positiveequalstat_moralenot_within_time">
+<expire_time>60</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>add</how>
+<outcome>complete</outcome>
+<scope>alliance_positive</scope>
+<stats>stat_morale</stats>
+<strength>equal</strength>
+<value>5</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{652bb17b-dfbd-4529-85b3-0d8c5d6dd3d6}" record_timestamp="1540396826151" record_key="completealliance_positivestrongerstat_moralewithin_time">
+<expire_time>180</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>add</how>
+<outcome>complete</outcome>
+<scope>alliance_positive</scope>
+<stats>stat_morale</stats>
+<strength>stronger</strength>
+<value>50</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{6c7ebae9-3202-4714-a9b2-26b35341ae84}" record_timestamp="1540396826128" record_key="completealliance_positiveweakerscalar_missile_damage_apnot_within_time">
+<expire_time>180</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>alliance_positive</scope>
+<stats>scalar_missile_damage_ap</stats>
+<strength>weaker</strength>
+<value>2</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{1d11bc1f-3918-4123-8de8-d60e7d9d75f9}" record_timestamp="1540396826135" record_key="completealliance_positiveweakerscalar_missile_damage_apwithin_time">
+<expire_time>-1</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>alliance_positive</scope>
+<stats>scalar_missile_damage_ap</stats>
+<strength>weaker</strength>
+<value>2</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{bbc8ae88-5fb8-457e-98ff-27535639b561}" record_timestamp="1540396826105" record_key="completealliance_positiveweakerscalar_missile_damage_basenot_within_time">
+<expire_time>180</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>alliance_positive</scope>
+<stats>scalar_missile_damage_base</stats>
+<strength>weaker</strength>
+<value>2</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{016403bc-8644-4d3c-b877-585a122c8280}" record_timestamp="1540396826143" record_key="completealliance_positiveweakerscalar_missile_damage_basewithin_time">
+<expire_time>-1</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>alliance_positive</scope>
+<stats>scalar_missile_damage_base</stats>
+<strength>weaker</strength>
+<value>2</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{348d74bf-957e-4684-99bb-1ffbfeca894c}" record_timestamp="1547655482973" record_key="completealliance_positiveweakerstat_melee_damage_apnot_within_time">
+<expire_time>180</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>alliance_positive</scope>
+<stats>stat_melee_damage_ap</stats>
+<strength>weaker</strength>
+<value>2</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{14fbbd96-308b-4c30-87a3-2f5056694a61}" record_timestamp="1540396826089" record_key="completealliance_positiveweakerstat_melee_damage_apwithin_time">
+<expire_time>-1</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>alliance_positive</scope>
+<stats>stat_melee_damage_ap</stats>
+<strength>weaker</strength>
+<value>2</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{bcf77c7f-9abf-4fc1-805f-c396dbe4a089}" record_timestamp="1547655482974" record_key="completealliance_positiveweakerstat_melee_damage_basenot_within_time">
+<expire_time>180</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>alliance_positive</scope>
+<stats>stat_melee_damage_base</stats>
+<strength>weaker</strength>
+<value>2</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{d7dae38f-0eb1-4402-8bba-dc3134976916}" record_timestamp="1540396826097" record_key="completealliance_positiveweakerstat_melee_damage_basewithin_time">
+<expire_time>-1</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>alliance_positive</scope>
+<stats>stat_melee_damage_base</stats>
+<strength>weaker</strength>
+<value>2</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{2830d046-2cd9-4074-b9c3-7d9b86786452}" record_timestamp="1547655482974" record_key="completealliance_positiveweakerstat_moralenot_within_time">
+<expire_time>180</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>add</how>
+<outcome>complete</outcome>
+<scope>alliance_positive</scope>
+<stats>stat_morale</stats>
+<strength>weaker</strength>
+<value>50</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{96e190bf-11e2-4d25-9349-2989c3c884fc}" record_timestamp="1540396826120" record_key="completealliance_positiveweakerstat_moralewithin_time">
+<expire_time>-1</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>add</how>
+<outcome>complete</outcome>
+<scope>alliance_positive</scope>
+<stats>stat_morale</stats>
+<strength>weaker</strength>
+<value>50</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{67435cbd-40fb-4627-830a-14af0ee49836}" record_timestamp="1516280395270" record_key="completeretinue_negativeequalstat_moralena">
+<expire_time>60</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>add</how>
+<outcome>complete</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_morale</stats>
+<strength>equal</strength>
+<value>-25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{8ac798be-e067-4533-8806-3c3f42c40d98}" record_timestamp="1496936461631" record_key="completeunit_negativeequalstat_moralena">
+<expire_time>-1</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>add</how>
+<outcome>complete</outcome>
+<scope>unit_negative</scope>
+<stats>stat_morale</stats>
+<strength>equal</strength>
+<value>-25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{c608738e-1517-419d-8b81-f1b3167c0c4b}" record_timestamp="1496936327567" record_key="completeunit_positiveequalscalar_missile_damage_apna">
+<expire_time>180</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>unit_positive</scope>
+<stats>scalar_missile_damage_ap</stats>
+<strength>equal</strength>
+<value>2</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{7f3a3e89-31eb-43dc-a2dd-8f14cb8e3a19}" record_timestamp="1496936327553" record_key="completeunit_positiveequalscalar_missile_damage_basena">
+<expire_time>180</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>unit_positive</scope>
+<stats>scalar_missile_damage_base</stats>
+<strength>equal</strength>
+<value>2</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{7c7a4aa1-eb8e-4f75-8053-3d70a94d1d2d}" record_timestamp="1496936296168" record_key="completeunit_positiveequalstat_melee_damage_apna">
+<expire_time>180</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>unit_positive</scope>
+<stats>stat_melee_damage_ap</stats>
+<strength>equal</strength>
+<value>2</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{e22a875d-7d69-453f-b664-4a1bd05a354c}" record_timestamp="1496936296196" record_key="completeunit_positiveequalstat_melee_damage_basena">
+<expire_time>180</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>unit_positive</scope>
+<stats>stat_melee_damage_base</stats>
+<strength>equal</strength>
+<value>2</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{3a8bfa79-86b3-40f3-a3df-a0c686603059}" record_timestamp="1516971158020" record_key="completeunit_positiveequalstat_moralena">
+<expire_time>180</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>add</how>
+<outcome>complete</outcome>
+<scope>unit_positive</scope>
+<stats>stat_morale</stats>
+<strength>equal</strength>
+<value>50</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{6656cafb-e503-4d19-8957-87c7f93207ff}" record_timestamp="1553600264638" record_key="completeunit_positiveequalstat_unit_healthna">
+<expire_time>-1</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>unit_positive</scope>
+<stats>stat_unit_health</stats>
+<strength>equal</strength>
+<value>1.25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{3fd36daf-8eb0-4556-ad1c-ae0a8f59d64c}" record_timestamp="1553600264691" record_key="completeunit_positiveequalstat_unit_healthnot_within_time">
+<expire_time>-1</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>unit_positive</scope>
+<stats>stat_unit_health</stats>
+<strength>equal</strength>
+<value>1.25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{08839488-7ea2-486c-b16f-647b26433c10}" record_timestamp="1553600264675" record_key="completeunit_positiveequalstat_unit_healthwithin_time">
+<expire_time>-1</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>unit_positive</scope>
+<stats>stat_unit_health</stats>
+<strength>equal</strength>
+<value>1.25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{0b396d7d-696a-4ded-91e9-d1e24e8c1a41}" record_timestamp="1553600264646" record_key="completeunit_positivestrongerstat_unit_healthna">
+<expire_time>-1</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>unit_positive</scope>
+<stats>stat_unit_health</stats>
+<strength>stronger</strength>
+<value>1.25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{d59357ab-ff9b-487a-a27c-dbfd3d55df3d}" record_timestamp="1553600264661" record_key="completeunit_positivestrongerstat_unit_healthnot_within_time">
+<expire_time>-1</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>unit_positive</scope>
+<stats>stat_unit_health</stats>
+<strength>stronger</strength>
+<value>1.25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{90f4f207-7f42-4490-a676-f0592734507c}" record_timestamp="1553600264668" record_key="completeunit_positivestrongerstat_unit_healthwithin_time">
+<expire_time>-1</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>unit_positive</scope>
+<stats>stat_unit_health</stats>
+<strength>stronger</strength>
+<value>1.25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{720db7dc-6228-473d-b54b-c311126735ca}" record_timestamp="1553600264630" record_key="completeunit_positiveweakerstat_unit_healthna">
+<expire_time>-1</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>unit_positive</scope>
+<stats>stat_unit_health</stats>
+<strength>weaker</strength>
+<value>1.25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{3f3ee805-4d85-4cc2-b0eb-6de476595f7c}" record_timestamp="1553600264653" record_key="completeunit_positiveweakerstat_unit_healthnot_within_time">
+<expire_time>-1</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>unit_positive</scope>
+<stats>stat_unit_health</stats>
+<strength>weaker</strength>
+<value>1.25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{eefe7d65-3a47-424d-998b-d22481c28064}" record_timestamp="1553600264683" record_key="completeunit_positiveweakerstat_unit_healthwithin_time">
+<expire_time>-1</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>mult</how>
+<outcome>complete</outcome>
+<scope>unit_positive</scope>
+<stats>stat_unit_health</stats>
+<strength>weaker</strength>
+<value>1.25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{dde5cf9d-22b6-4e19-baa6-84b012b72f71}" record_timestamp="1496936461617" record_key="interruptedalliance_negativeequalstat_moralena">
+<expire_time>-1</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>add</how>
+<outcome>interrupted</outcome>
+<scope>alliance_negative</scope>
+<stats>stat_morale</stats>
+<strength>equal</strength>
+<value>-25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{621b78f2-1f58-4847-adc7-66c1b68d8397}" record_timestamp="1539179863643" record_key="interruptedalliance_negativestrongerstat_moralenot_within_time">
+<expire_time>-1</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>add</how>
+<outcome>interrupted</outcome>
+<scope>alliance_negative</scope>
+<stats>stat_morale</stats>
+<strength>stronger</strength>
+<value>-25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{bd055d84-1949-4e4e-aca8-d93d0bbc52e5}" record_timestamp="1539179863634" record_key="interruptedalliance_negativestrongerstat_moralewithin_time">
+<expire_time>-1</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>add</how>
+<outcome>interrupted</outcome>
+<scope>alliance_negative</scope>
+<stats>stat_morale</stats>
+<strength>stronger</strength>
+<value>-25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{be6cd9f5-93b1-477b-b777-5f0a9a3a8d7d}" record_timestamp="1539179863652" record_key="interruptedalliance_negativeweakerstat_moralenot_within_time">
+<expire_time>-1</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>add</how>
+<outcome>interrupted</outcome>
+<scope>alliance_negative</scope>
+<stats>stat_morale</stats>
+<strength>weaker</strength>
+<value>-25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{c47d9a33-453b-44ff-80d5-0dac2dc67d45}" record_timestamp="1539179863625" record_key="interruptedalliance_negativeweakerstat_moralewithin_time">
+<expire_time>-1</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>add</how>
+<outcome>interrupted</outcome>
+<scope>alliance_negative</scope>
+<stats>stat_morale</stats>
+<strength>weaker</strength>
+<value>-25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{ad192c85-ccfe-4063-814a-9a228e2f048f}" record_timestamp="1496936296155" record_key="runawayretinue_negativeequalstat_melee_attack_intervalna">
+<expire_time>60</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>add</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_melee_attack_interval</stats>
+<strength>equal</strength>
+<value>-100</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{d126cd47-e8f9-4a6c-866f-d41652a995c2}" record_timestamp="1496936296142" record_key="runawayretinue_negativeequalstat_melee_defencena">
+<expire_time>60</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>mult</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_melee_defence</stats>
+<strength>equal</strength>
+<value>1.25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{4e249653-127c-40d1-a241-767d0ee7e47d}" record_timestamp="1496936296129" record_key="runawayretinue_negativeequalstat_reloadingna">
+<expire_time>60</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>add</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_reloading</stats>
+<strength>equal</strength>
+<value>-100</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{ed991a4b-f2bf-4264-9fdb-3ffbd93ae800}" record_timestamp="1539179863512" record_key="runawayretinue_negativestrongerstat_melee_attack_intervalnot_within_time">
+<expire_time>60</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>add</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_melee_attack_interval</stats>
+<strength>stronger</strength>
+<value>-100</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{69cae1a9-3ed2-4b85-883f-cd26694cacd9}" record_timestamp="1539179863474" record_key="runawayretinue_negativestrongerstat_melee_attack_intervalwithin_time">
+<expire_time>60</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>add</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_melee_attack_interval</stats>
+<strength>stronger</strength>
+<value>-100</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{040b3a24-a180-4fdf-b27e-193295b5a9ba}" record_timestamp="1539179863488" record_key="runawayretinue_negativestrongerstat_melee_defencenot_within_time">
+<expire_time>60</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>mult</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_melee_defence</stats>
+<strength>stronger</strength>
+<value>1.25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{766dae3e-75f8-4d1c-9b97-4f189682a181}" record_timestamp="1539179863481" record_key="runawayretinue_negativestrongerstat_melee_defencewithin_time">
+<expire_time>60</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>mult</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_melee_defence</stats>
+<strength>stronger</strength>
+<value>1.25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{f35e0157-f554-4a69-b25c-efdb04114118}" record_timestamp="1539179863496" record_key="runawayretinue_negativestrongerstat_reloadingnot_within_time">
+<expire_time>60</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>add</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_reloading</stats>
+<strength>stronger</strength>
+<value>-100</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{4c31c8dc-9422-4790-8690-7f845c0aa967}" record_timestamp="1539179863460" record_key="runawayretinue_negativestrongerstat_reloadingwithin_time">
+<expire_time>60</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>add</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_reloading</stats>
+<strength>stronger</strength>
+<value>-100</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{1e19a6d8-6179-4fb3-9a16-f5dead85dd70}" record_timestamp="1544189826863" record_key="runawayretinue_negativeweakerstat_melee_attack_intervalnot_within_time">
+<expire_time>60</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>add</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_melee_attack_interval</stats>
+<strength>weaker</strength>
+<value>25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{ed7b5471-f6ed-4939-b0cf-7741c1fca8fc}" record_timestamp="1539179863521" record_key="runawayretinue_negativeweakerstat_melee_attack_intervalwithin_time">
+<expire_time>60</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>add</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_melee_attack_interval</stats>
+<strength>weaker</strength>
+<value>-100</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{f9480a73-fbbd-4fb1-b3c9-c58d3ac09bfc}" record_timestamp="1539179863607" record_key="runawayretinue_negativeweakerstat_melee_defencenot_within_time">
+<expire_time>60</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>mult</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_melee_defence</stats>
+<strength>weaker</strength>
+<value>1.25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{deafa0ae-304c-4705-ad08-ccf96a82c942}" record_timestamp="1539179863529" record_key="runawayretinue_negativeweakerstat_melee_defencewithin_time">
+<expire_time>60</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>mult</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_melee_defence</stats>
+<strength>weaker</strength>
+<value>1.25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{2fc424fb-4759-4783-bdcf-de20a4e87211}" record_timestamp="1539179863598" record_key="runawayretinue_negativeweakerstat_moralenot_within_time">
+<expire_time>-1</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>add</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_morale</stats>
+<strength>weaker</strength>
+<value>50</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{685c1f71-e91d-4b6a-b197-aea7618b09e5}" record_timestamp="1544189826862" record_key="runawayretinue_negativeweakerstat_reloadingnot_within_time">
+<expire_time>60</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>add</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_reloading</stats>
+<strength>weaker</strength>
+<value>25</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{ff2ef06a-ae38-436d-a9b3-43280ccff4ed}" record_timestamp="1539179863572" record_key="runawayretinue_negativeweakerstat_reloadingwithin_time">
+<expire_time>60</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>add</how>
+<outcome>runaway</outcome>
+<scope>retinue_negative</scope>
+<stats>stat_reloading</stats>
+<strength>weaker</strength>
+<value>-100</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{6e406e1e-8079-49ca-9681-6e59bc74bc2d}" record_timestamp="1496935736284" record_key="runawayunit_negativeequalscalar_speedna">
+<expire_time>60</expire_time>
+<finished_within_time>na</finished_within_time>
+<how>mult</how>
+<outcome>runaway</outcome>
+<scope>unit_negative</scope>
+<stats>scalar_speed</stats>
+<strength>equal</strength>
+<value>1.5</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{dfb89c25-42ec-42f7-b6b8-24ba809f7f66}" record_timestamp="1539179863538" record_key="runawayunit_negativestrongerscalar_speednot_within_time">
+<expire_time>60</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>mult</how>
+<outcome>runaway</outcome>
+<scope>unit_negative</scope>
+<stats>scalar_speed</stats>
+<strength>stronger</strength>
+<value>1.5</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{8e4c572b-885f-4cce-9add-4aa74cc787e1}" record_timestamp="1539179863467" record_key="runawayunit_negativestrongerscalar_speedwithin_time">
+<expire_time>60</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>mult</how>
+<outcome>runaway</outcome>
+<scope>unit_negative</scope>
+<stats>scalar_speed</stats>
+<strength>stronger</strength>
+<value>1.5</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{6fc50061-64f6-423f-8a9b-54cd37dcb267}" record_timestamp="1539179863590" record_key="runawayunit_negativeweakerscalar_speednot_within_time">
+<expire_time>60</expire_time>
+<finished_within_time>not_within_time</finished_within_time>
+<how>mult</how>
+<outcome>runaway</outcome>
+<scope>unit_negative</scope>
+<stats>scalar_speed</stats>
+<strength>weaker</strength>
+<value>1.5</value>
+</battle_duel_effects>
+<battle_duel_effects record_uuid="{36f8ac0e-d26b-44dc-bfe6-eee54a11d155}" record_timestamp="1539179863581" record_key="runawayunit_negativeweakerscalar_speedwithin_time">
+<expire_time>60</expire_time>
+<finished_within_time>within_time</finished_within_time>
+<how>mult</how>
+<outcome>runaway</outcome>
+<scope>unit_negative</scope>
+<stats>scalar_speed</stats>
+<strength>weaker</strength>
+<value>1.5</value>
+</battle_duel_effects>
+</dataroot>

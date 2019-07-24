@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_bonus_value_battle_context_territory_status_junctions>
+<root>
+<edit_uuid>28c0ebcc-b20d-473e-a9e2-8cab566aa96e</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{1796ad6c-71e8-4c45-8062-e3c3b3c83b61}</field_uuid>
+<primary_key>1</primary_key>
+<name>battle_context_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_bonus_value_battle_context_specifiers</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{01f71dd3-e335-4d9c-b5d2-80023a63ba91}</field_uuid>
+<primary_key>0</primary_key>
+<name>territory_status_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>campaign_bonus_value_battle_context_territory_status</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

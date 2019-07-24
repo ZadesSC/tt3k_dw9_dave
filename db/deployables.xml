@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="deployables.xsd" export_time="Wed Jul 25 15:04:45 2018" revision="90" export_branch="C:/Users/Attila.Mohacsi/AppData/Roaming/TWDaemon/1065/dave" export_user="bob">
+<edit_uuid>3be0a821-0b65-4268-91eb-f477ab22d592</edit_uuid>
+<deployables record_uuid="{09f43a35-26e0-4e57-b903-e31e43f147a1}" record_timestamp="1507220381425" record_key="deployable_barricade">
+<audio_material>wood</audio_material>
+<category>deployable_barricade</category>
+<custom_battle_enabled>0</custom_battle_enabled>
+<description state="HIDDEN" last_approved_text="Barricades are designed to waylay an opponent rather than inflict casulties. Often made from trees, stones or dug earth, a barricade can stop a cavalry charge, slow an infantry march, or create a killing zone for missile units." last_edit_user="bob">Barricades are designed to waylay an opponent rather than inflict casulties. Often made from trees, stones or dug earth, a barricade can stop a cavalry charge, slow an infantry march, or create a killing zone for missile units.</description>
+<explosion>3k_boiling_oil_splash</explosion>
+<hitpoints>5000</hitpoints>
+<icon_name>barricade</icon_name>
+<ignition_threshold>100</ignition_threshold>
+<key>deployable_barricade</key>
+<kill_chance>0</kill_chance>
+<max_rows>1</max_rows>
+<min_columns>1</min_columns>
+<min_rows>1</min_rows>
+<model>deployable_barricade</model>
+<model_2>deployable_barricade_2</model_2>
+<name state="HIDDEN" last_approved_text="Barricades" last_edit_user="bob">Barricades</name>
+<number>10</number>
+<random_offset>0</random_offset>
+<recruitment_cap>-1</recruitment_cap>
+<spacing_x>0</spacing_x>
+<spacing_y>0</spacing_y>
+<tooltip state="HIDDEN" last_approved_text="Barricades prevent units from progressing for a short period of time.\n\nThey can be destroyed by flaming shots." last_edit_user="bob">Barricades prevent units from progressing for a short period of time.\n\nThey can be destroyed by flaming shots.</tooltip>
+<under_construction_effect></under_construction_effect>
+<value>0</value>
+</deployables>
+<deployables record_uuid="{86ebac08-c85c-4684-aa09-5565050d9901}" record_timestamp="1507220381407" record_key="deployable_brimstone">
+<audio_material>wood</audio_material>
+<category>deployable_brimstone</category>
+<custom_battle_enabled>0</custom_battle_enabled>
+<description state="HIDDEN" last_approved_text="Brimstone (sulphur) and bitumen, amongst other things, can be composited to create a highly-dangerous weapon. Bitumen helps a slow-burning brimstone composite stick to things, especially men and mounts, causing severe burns if not death. In addition to fire arrows, the mixture can also be poured from towers during sieges. A brimstone pit can be deployed before a battle begins and ignited when an enemy charge is underway, ideally too late for it to be aborted." last_edit_user="bob">Brimstone (sulphur) and bitumen, amongst other things, can be composited to create a highly-dangerous weapon. Bitumen helps a slow-burning brimstone composite stick to things, especially men and mounts, causing severe burns if not death. In addition to fire arrows, the mixture can also be poured from towers during sieges. A brimstone pit can be deployed before a battle begins and ignited when an enemy charge is underway, ideally too late for it to be aborted.</description>
+<explosion>3k_boiling_oil_splash</explosion>
+<hitpoints>1000</hitpoints>
+<icon_name>brimstone</icon_name>
+<ignition_threshold>1</ignition_threshold>
+<key>deployable_brimstone</key>
+<kill_chance>0.5</kill_chance>
+<max_rows>5</max_rows>
+<min_columns>2</min_columns>
+<min_rows>1</min_rows>
+<model>deployable_brimstone</model>
+<model_2></model_2>
+<name state="HIDDEN" last_approved_text="Brimstone Pits" last_edit_user="bob">Brimstone Pits</name>
+<number>15</number>
+<random_offset>2</random_offset>
+<recruitment_cap>-1</recruitment_cap>
+<spacing_x>0</spacing_x>
+<spacing_y>0</spacing_y>
+<tooltip state="HIDDEN" last_approved_text="Fire pits can be ignited to set alight unsuspecting units. They can be activated by flaming projectiles or unit interaction." last_edit_user="bob">Fire pits can be ignited to set alight unsuspecting units. They can be activated by flaming projectiles or unit interaction.</tooltip>
+<under_construction_effect></under_construction_effect>
+<value>40</value>
+</deployables>
+<deployables record_uuid="{c6c7e810-4b5b-4055-899e-e6dd7322cd4a}" record_timestamp="1507220381444" record_key="deployable_caltrop">
+<audio_material>wood</audio_material>
+<category>deployable_caltrop</category>
+<custom_battle_enabled>0</custom_battle_enabled>
+<description state="HIDDEN" last_approved_text="Sudes are an extremely versatile weapon. Due to the nature of their construction they can be placed in the ground to create low palisades or interlocked to create a caltrop shape. In caltrop form, sudes can kill charging/running units from either direction (something that stakes cannot)." last_edit_user="bob">Sudes are an extremely versatile weapon. Due to the nature of their construction they can be placed in the ground to create low palisades or interlocked to create a caltrop shape. In caltrop form, sudes can kill charging/running units from either direction (something that stakes cannot).</description>
+<explosion>3k_boiling_oil_splash</explosion>
+<hitpoints>100</hitpoints>
+<icon_name>caltrops</icon_name>
+<ignition_threshold>0</ignition_threshold>
+<key>deployable_caltrop</key>
+<kill_chance>0.75</kill_chance>
+<max_rows>5</max_rows>
+<min_columns>2</min_columns>
+<min_rows>2</min_rows>
+<model>deployable_caltrop</model>
+<model_2></model_2>
+<name state="HIDDEN" last_approved_text="Sudes Caltrops" last_edit_user="bob">Sudes Caltrops</name>
+<number>25</number>
+<random_offset>3</random_offset>
+<recruitment_cap>-1</recruitment_cap>
+<spacing_x>2</spacing_x>
+<spacing_y>2</spacing_y>
+<tooltip state="HIDDEN" last_approved_text="Sudes cause damage to mounted units approaching from any angle, and extra damage if they are moving quickly." last_edit_user="bob">Sudes cause damage to mounted units approaching from any angle, and extra damage if they are moving quickly.</tooltip>
+<under_construction_effect></under_construction_effect>
+<value>20</value>
+</deployables>
+<deployables record_uuid="{d21df7cf-6d78-478e-af28-27f0f9f3cd84}" record_timestamp="1507220381455" record_key="deployable_sharp_stones">
+<audio_material>wood</audio_material>
+<category>deployable_sharp_stones</category>
+<custom_battle_enabled>0</custom_battle_enabled>
+<description state="HIDDEN" last_approved_text="Sharp stone beds are created from various types of stone, constructed as a form of non-lethal defence around settlements. Stones can either sunk into the ground or layed in irregular piles. Infantry find these difficult objects to traverse, whereas cavalry can only pass through by picking routes between the stones. This slowing effect produces an effective killing zone in and around the stones, ideal ground for missile units to trap their targets." last_edit_user="bob">Sharp stone beds are created from various types of stone, constructed as a form of non-lethal defence around settlements. Stones can either sunk into the ground or layed in irregular piles. Infantry find these difficult objects to traverse, whereas cavalry can only pass through by picking routes between the stones. This slowing effect produces an effective killing zone in and around the stones, ideal ground for missile units to trap their targets.</description>
+<explosion>3k_boiling_oil_splash</explosion>
+<hitpoints>-1</hitpoints>
+<icon_name>sharp_stones</icon_name>
+<ignition_threshold>0</ignition_threshold>
+<key>deployable_sharp_stones</key>
+<kill_chance>0</kill_chance>
+<max_rows>5</max_rows>
+<min_columns>8</min_columns>
+<min_rows>2</min_rows>
+<model>deployable_sharpstones_1</model>
+<model_2>deployable_sharpstones_2</model_2>
+<name state="HIDDEN" last_approved_text="Sharp Stone Beds" last_edit_user="bob">Sharp Stone Beds</name>
+<number>30</number>
+<random_offset>0</random_offset>
+<recruitment_cap>-1</recruitment_cap>
+<spacing_x>0</spacing_x>
+<spacing_y>0</spacing_y>
+<tooltip state="HIDDEN" last_approved_text="Sharp stones impede a unit's progress, presenting an easy target for missile troops." last_edit_user="bob">Sharp stones impede a unit's progress, presenting an easy target for missile troops.</tooltip>
+<under_construction_effect></under_construction_effect>
+<value>0</value>
+</deployables>
+<deployables record_uuid="{c4ec9262-209b-4350-a47f-104d479efa5a}" record_timestamp="1507220381416" record_key="deployable_spiketrap">
+<audio_material>wood</audio_material>
+<category>deployable_spiketrap</category>
+<custom_battle_enabled>0</custom_battle_enabled>
+<description state="HIDDEN" last_approved_text="Spike traps are sunken stakes or groups of stakes concealed by foliage. Often producing more kills when charging, the foliage collapses when stepped on causing injury or death by impalement." last_edit_user="bob">Spike traps are sunken stakes or groups of stakes concealed by foliage. Often producing more kills when charging, the foliage collapses when stepped on causing injury or death by impalement.</description>
+<explosion>3k_boiling_oil_splash</explosion>
+<hitpoints>50</hitpoints>
+<icon_name>spike_trap</icon_name>
+<ignition_threshold>0</ignition_threshold>
+<key>deployable_spiketrap</key>
+<kill_chance>1</kill_chance>
+<max_rows>5</max_rows>
+<min_columns>2</min_columns>
+<min_rows>1</min_rows>
+<model>deployable_spiketrap</model>
+<model_2></model_2>
+<name state="HIDDEN" last_approved_text="Spike Traps" last_edit_user="bob">Spike Traps</name>
+<number>15</number>
+<random_offset>5</random_offset>
+<recruitment_cap>-1</recruitment_cap>
+<spacing_x>4</spacing_x>
+<spacing_y>4</spacing_y>
+<tooltip state="HIDDEN" last_approved_text="Spike traps are a concealed danger, causing high casualties to any units who attempt to move across them." last_edit_user="bob">Spike traps are a concealed danger, causing high casualties to any units who attempt to move across them.</tooltip>
+<under_construction_effect></under_construction_effect>
+<value>100</value>
+</deployables>
+<deployables record_uuid="{b149b782-32cc-4427-9387-77d8f9e53f9e}" record_timestamp="1507220381435" record_key="deployable_stakes">
+<audio_material>wood</audio_material>
+<category>deployable_stakes</category>
+<custom_battle_enabled>0</custom_battle_enabled>
+<description state="HIDDEN" last_approved_text="Wooden stakes are among the most common settlement defences. A simple yet effective device, sharpened stakes are set in 45 degree lines to impale charging men or horses. They can easily be navigated around when moving slowly, but even this can be used to the advantage of missile units. Stakes angled this way can also enable defenders to sally forth without the risk of impalement." last_edit_user="bob">Wooden stakes are among the most common settlement defences. A simple yet effective device, sharpened stakes are set in 45 degree lines to impale charging men or horses. They can easily be navigated around when moving slowly, but even this can be used to the advantage of missile units. Stakes angled this way can also enable defenders to sally forth without the risk of impalement.</description>
+<explosion>3k_boiling_oil_splash</explosion>
+<hitpoints>150</hitpoints>
+<icon_name>stakes</icon_name>
+<ignition_threshold>0</ignition_threshold>
+<key>deployable_stakes</key>
+<kill_chance>0.949999988079071</kill_chance>
+<max_rows>5</max_rows>
+<min_columns>3</min_columns>
+<min_rows>1</min_rows>
+<model>deployable_stakes</model>
+<model_2></model_2>
+<name state="HIDDEN" last_approved_text="Stakes" last_edit_user="bob">Stakes</name>
+<number>12</number>
+<random_offset>0.5</random_offset>
+<recruitment_cap>-1</recruitment_cap>
+<spacing_x>0.600000023841858</spacing_x>
+<spacing_y>0.600000023841858</spacing_y>
+<tooltip state="HIDDEN" last_approved_text="Stakes cause damage to mounted units approaching from the front. They cause extra damage if the unit is moving quickly." last_edit_user="bob">Stakes cause damage to mounted units approaching from the front. They cause extra damage if the unit is moving quickly.</tooltip>
+<under_construction_effect></under_construction_effect>
+<value>20</value>
+</deployables>
+</dataroot>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_special_ability_to_auto_deactivate_flags>
+<root>
+<edit_uuid>1d5873af-95fb-4965-b97a-a731eed60a12</edit_uuid>
+<field>
+<field_uuid>{4bcfb675-3e63-4c41-b6d3-83bb2599d9a6}</field_uuid>
+<primary_key>1</primary_key>
+<name>special_ability</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>unit_special_abilities</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{4819502b-d638-4051-98cb-dbd62585ae8d}</field_uuid>
+<primary_key>1</primary_key>
+<name>deactivate_flag</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>flag_key</column_source_column>
+<column_source_table>special_ability_invalid_usage_flags</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

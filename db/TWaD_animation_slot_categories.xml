@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_animation_slot_categories>
+<root>
+<edit_uuid>0c66554c-cb84-49dc-989d-8ef4f59f24c3</edit_uuid>
+<field>
+<field_uuid>{1e78a1b4-c3c9-4ebb-87c9-8571a2c694c6}</field_uuid>
+<primary_key>1</primary_key>
+<name>slot</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>200000</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{297eb4a2-7172-4b8a-b09d-c5f23ebe3eb9}</field_uuid>
+<primary_key>1</primary_key>
+<name>category</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>200000</max_length>
+<column_source_column>name</column_source_column>
+<column_source_table>animation_categories</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

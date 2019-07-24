@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="projectile_penetration_junctions.xsd" export_time="Fri Jul 1 14:19:11 2016" revision="9" export_branch="T:/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>a44276cf-307c-40b8-a5ef-1a3c1a4b36e4</edit_uuid>
+<projectile_penetration_junctions record_uuid="{aa925cae-ad57-4d6a-ac03-38017cc67abf}" record_timestamp="1436258399694" record_key="all">
+<description>Passes through all targets, slows as it passes through entities</description>
+<entity_size_cap></entity_size_cap>
+<key>all</key>
+<max_penetration>-1</max_penetration>
+</projectile_penetration_junctions>
+<projectile_penetration_junctions record_uuid="{3d822ebe-55e9-48d5-90f3-5877aa48afb3}" record_timestamp="1436258399299" record_key="high">
+<description>Stopped by Large targets, slows as it passes through entities</description>
+<entity_size_cap>large</entity_size_cap>
+<key>high</key>
+<max_penetration>10</max_penetration>
+</projectile_penetration_junctions>
+<projectile_penetration_junctions record_uuid="{56fce2f4-5f79-47f6-9826-d2b60d831d81}" record_timestamp="1436258399365" record_key="high_magic">
+<description>Stopped by Large targets, slows as it passes through entities</description>
+<entity_size_cap>large</entity_size_cap>
+<key>high_magic</key>
+<max_penetration>20</max_penetration>
+</projectile_penetration_junctions>
+<projectile_penetration_junctions record_uuid="{53fbd44b-d9f3-400a-a457-5c2556b8904e}" record_timestamp="1436258399168" record_key="low">
+<description>Stopped by Small targets, slows as it passes through entities</description>
+<entity_size_cap>small</entity_size_cap>
+<key>low</key>
+<max_penetration>2</max_penetration>
+</projectile_penetration_junctions>
+<projectile_penetration_junctions record_uuid="{77616258-bfa0-44e8-b95e-d52b4d3e0db4}" record_timestamp="1436258399431" record_key="low_magic">
+<description>Stopped by Small targets, slows as it passes through entities</description>
+<entity_size_cap>small</entity_size_cap>
+<key>low_magic</key>
+<max_penetration>4</max_penetration>
+</projectile_penetration_junctions>
+<projectile_penetration_junctions record_uuid="{2d1dad41-15a1-40f7-8119-8384f05dc2a3}" record_timestamp="1436258399037" record_key="medium">
+<description>Stopped by Medium targets, slows as it passes through entities</description>
+<entity_size_cap>medium</entity_size_cap>
+<key>medium</key>
+<max_penetration>5</max_penetration>
+</projectile_penetration_junctions>
+<projectile_penetration_junctions record_uuid="{d080e1d3-4846-42ab-8a66-c68a894368b0}" record_timestamp="1436258399497" record_key="medium_magic">
+<description>Stopped by Medium targets, slows as it passes through entities</description>
+<entity_size_cap>medium</entity_size_cap>
+<key>medium_magic</key>
+<max_penetration>10</max_penetration>
+</projectile_penetration_junctions>
+<projectile_penetration_junctions record_uuid="{1acb780e-dc50-412b-8469-8eb967cd8de6}" record_timestamp="1436258398907" record_key="very_high">
+<description>Stopped by Very Large targets, slows as it passes through entities</description>
+<entity_size_cap>very_large</entity_size_cap>
+<key>very_high</key>
+<max_penetration>20</max_penetration>
+</projectile_penetration_junctions>
+<projectile_penetration_junctions record_uuid="{85e18165-1d74-4409-a35f-c32186741942}" record_timestamp="1467378849340" record_key="very_high_low_entity">
+<description>Stopped by Very Large targets, slows as it passes through entities</description>
+<entity_size_cap>very_large</entity_size_cap>
+<key>very_high_low_entity</key>
+<max_penetration>9</max_penetration>
+</projectile_penetration_junctions>
+<projectile_penetration_junctions record_uuid="{da89fecd-9729-42bd-9db4-d0b97b2007e8}" record_timestamp="1436258399563" record_key="very_high_magic">
+<description>Stopped by Very Large targets, slows as it passes through entities</description>
+<entity_size_cap>very_large</entity_size_cap>
+<key>very_high_magic</key>
+<max_penetration>40</max_penetration>
+</projectile_penetration_junctions>
+<projectile_penetration_junctions record_uuid="{eb0cac9f-96c8-4f75-aee9-78cbcfed7940}" record_timestamp="1436258398779" record_key="very_low">
+<description>Stopped by Very Small targets, slows as it passes through entities</description>
+<entity_size_cap>very_small</entity_size_cap>
+<key>very_low</key>
+<max_penetration>0</max_penetration>
+</projectile_penetration_junctions>
+<projectile_penetration_junctions record_uuid="{b4cde5dc-948a-4d6e-a259-d4ea6e421df2}" record_timestamp="1436258399628" record_key="very_low_magic">
+<description>Stopped by Very Small targets, slows as it passes through entities</description>
+<entity_size_cap>very_small</entity_size_cap>
+<key>very_low_magic</key>
+<max_penetration>2</max_penetration>
+</projectile_penetration_junctions>
+</dataroot>

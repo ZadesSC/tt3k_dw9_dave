@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_composite_scenes>
+<root>
+<edit_uuid>96ebfa23-e786-41dc-8dfb-2143f2fd4b30</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{5a530a1f-c2c4-4831-ab24-ee9a192745d8}</field_uuid>
+<primary_key>1</primary_key>
+<name>id</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{713c72d9-8002-42b0-ae19-2dad809a3803}</field_uuid>
+<primary_key>0</primary_key>
+<name>filename</name>
+<field_type>text</field_type>
+<is_filename>1</is_filename>
+<filename_relative_path>%</filename_relative_path>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

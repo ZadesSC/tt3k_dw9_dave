@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="_kv_ui_tweakers.xsd" export_time="Wed Mar 13 08:22:13 2019" revision="75" export_branch="C:/Users/mikaela.lidstrom/AppData/Roaming/TWDaemon/1380/dave" export_user="bob">
+<edit_uuid>1a24cc6f-beff-4877-9f59-019ecd8826f0</edit_uuid>
+<_kv_ui_tweakers record_uuid="{48c54e49-5c21-4d57-bd51-b375b5b1ffae}" record_timestamp="1525285355407" record_key="battle_camera_depth_of_field_bokeh_hotspot_kernel_size">
+<description>(IN GAME) Depth of Field - Brightness kernel size of detecting hotspots for splat</description>
+<key>battle_camera_depth_of_field_bokeh_hotspot_kernel_size</key>
+<value>5</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{dc2cab42-fabb-4ad0-81e3-a49b1bbba204}" record_timestamp="1525285355408" record_key="battle_camera_depth_of_field_bokeh_intensity">
+<description>(IN GAME) Depth of Field - Bokeh sprite splat intensity</description>
+<key>battle_camera_depth_of_field_bokeh_intensity</key>
+<value>2</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{9515a8ac-17d6-4edc-8c78-6c969869cecd}" record_timestamp="1525285355408" record_key="battle_camera_depth_of_field_bokeh_sprite_radius">
+<description>(IN GAME) Depth of Field - Radius of sprite used to splat bokeh</description>
+<key>battle_camera_depth_of_field_bokeh_sprite_radius</key>
+<value>10</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{785cfcdd-8a81-45bd-a513-5555cc377131}" record_timestamp="1525285355408" record_key="battle_camera_depth_of_field_bokeh_threshold">
+<description>(IN GAME) Depth of Field - Brightness difference threshold for displaying bokeh</description>
+<key>battle_camera_depth_of_field_bokeh_threshold</key>
+<value>100</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{3ca53653-d6a4-4a47-b1a1-9d21d4d2291f}" record_timestamp="1523020064302" record_key="battle_camera_depth_of_field_focal_cross_size">
+<description>(IN GAME) Depth of field - Width in pixels of the crosses used to focus the camera </description>
+<key>battle_camera_depth_of_field_focal_cross_size</key>
+<value>5</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{b681b5f9-e631-457e-8d02-7cfba13f2d69}" record_timestamp="1523020064302" record_key="battle_camera_depth_of_field_focal_depth_moving_average_weight">
+<description>(IN GAME) Depth of field - The weight applied to the focal parameters from this frame - used to smooth transition during camera movement</description>
+<key>battle_camera_depth_of_field_focal_depth_moving_average_weight</key>
+<value>0.699999988079071</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{b0f55700-8f92-4867-8ab8-5d96820f16b4}" record_timestamp="1523020064302" record_key="battle_camera_depth_of_field_focal_far_falloff">
+<description>(IN GAME) Depth of field - The fall off of focus in the background</description>
+<key>battle_camera_depth_of_field_focal_far_falloff</key>
+<value>400</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{58822a97-13f1-4010-bf79-5217fda0f24b}" record_timestamp="1523020064301" record_key="battle_camera_depth_of_field_focal_near_falloff">
+<description>(IN GAME) Depth of field - The fall off of focus in the foreground</description>
+<key>battle_camera_depth_of_field_focal_near_falloff</key>
+<value>20</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{c97f9638-74ee-4386-9333-9ff246398adb}" record_timestamp="1523020064302" record_key="battle_camera_depth_of_field_focal_ring_count">
+<description>(IN GAME) Depth of field - The number of focal cross in the ring used to focus the camera</description>
+<key>battle_camera_depth_of_field_focal_ring_count</key>
+<value>16</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{98486c4b-8d16-485d-88a5-7d98423e4ccc}" record_timestamp="1523020064302" record_key="battle_camera_depth_of_field_focal_ring_radius">
+<description>(IN GAME) Depth of field - Radius of the ring of crosses used to focus </description>
+<key>battle_camera_depth_of_field_focal_ring_radius</key>
+<value>0.15000000596046448</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{5fd8cef6-3532-44f2-b94e-bcf7554d44c1}" record_timestamp="1523020064302" record_key="battle_camera_depth_of_field_focal_target_height">
+<description>(IN GAME) Depth of field - Focal target height on the screen as a proportion of the vertical resolution</description>
+<key>battle_camera_depth_of_field_focal_target_height</key>
+<value>0.5</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{1c87481a-b812-42e9-bab2-959d792912bb}" record_timestamp="1523020064302" record_key="battle_camera_depth_of_field_focal_width_dilation">
+<description>(IN GAME) Depth of field - Dilation of the ring of focus</description>
+<key>battle_camera_depth_of_field_focal_width_dilation</key>
+<value>1.399999976158142</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{67cb18b8-ea78-4f50-b158-075710c67595}" record_timestamp="1509099435508" record_key="battle_camera_depth_of_field_heightmap_raycast_area_size">
+<description>(IN GAME) Distance for additional raycase points(left, right, top and bottom) pints are placed around main(center) point.</description>
+<key>battle_camera_depth_of_field_heightmap_raycast_area_size</key>
+<value>3</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{6cc17974-9ae4-40cb-ac43-da2032dfb700}" record_timestamp="1509099435538" record_key="battle_camera_depth_of_field_heightmap_raycast_height_threshold">
+<description>(IN GAME) Campaign camera height limit to do fake raycast agains camera heightmap in order to detect focal depth more accurately.</description>
+<key>battle_camera_depth_of_field_heightmap_raycast_height_threshold</key>
+<value>20</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{5a84fdad-38ab-48a3-a0dc-fceea1644626}" record_timestamp="1509099435572" record_key="battle_camera_depth_of_field_heightmap_raycast_steps">
+<description>(IN GAME) Number of sections path between camera position and initial target is divided into when fake raycast is done for depth of field effect.</description>
+<key>battle_camera_depth_of_field_heightmap_raycast_steps</key>
+<value>10</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{d821e936-a1ae-41dd-872a-c437d2142e08}" record_timestamp="1525285355407" record_key="battle_camera_depth_of_field_kernel_radius_background">
+<description>(IN GAME) Depth of Field - Radius of blur kernal in the background</description>
+<key>battle_camera_depth_of_field_kernel_radius_background</key>
+<value>5</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{a0d36a8b-0b63-41ec-b426-c00518b0fb4b}" record_timestamp="1525290129988" record_key="battle_camera_depth_of_field_kernel_radius_foreground">
+<description>(IN GAME) Depth of Field - Radius of blur kernal in the foreground</description>
+<key>battle_camera_depth_of_field_kernel_radius_foreground</key>
+<value>5</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{9258a617-c2dd-45cc-8315-c9a97f1d6e76}" record_timestamp="1525285355407" record_key="battle_camera_depth_of_field_kernel_radius_foreground_coc">
+<description>(IN GAME) Depth of Field - Radius of blur kernal used to smudge the circle of confusion in the foreground</description>
+<key>battle_camera_depth_of_field_kernel_radius_foreground_coc</key>
+<value>10</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{013a1115-196e-4159-9a9c-7f4372443eca}" record_timestamp="1523533330431" record_key="battle_capture_point_fade_end">
+<description>start point in metres when capture point icons end fading (go invisible)</description>
+<key>battle_capture_point_fade_end</key>
+<value>700</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{787e9863-7a27-411e-b092-a01f3f3f3c17}" record_timestamp="1523533352832" record_key="battle_capture_point_fade_min">
+<description>min opacity of capture point icons</description>
+<key>battle_capture_point_fade_min</key>
+<value>0.05000000074505806</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{90cc9192-2e7b-40a4-9447-6cdce04b4b0f}" record_timestamp="1523533352832" record_key="battle_capture_point_fade_start">
+<description>start point in metres when capture point icons start fading</description>
+<key>battle_capture_point_fade_start</key>
+<value>400</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{3dfcaf3e-9351-45e1-9b49-52ab9d619d31}" record_timestamp="1475493622184" record_key="battle_capture_point_spline_wall_height">
+<description>Capture point splines in warhammer for garrisoned walls need to render on top of walls, this is the wall height for spline since wall not linked to capture point in anyway</description>
+<key>battle_capture_point_spline_wall_height</key>
+<value>8</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{66192943-8eb6-41a4-9b88-febd5f8f197a}" record_timestamp="1519302840457" record_key="battle_dragout_cat_icon_min_size">
+<description>In new dragout outline system, min size for unit cat indicator (value used by indicator rendering system)</description>
+<key>battle_dragout_cat_icon_min_size</key>
+<value>0.009999999776482582</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{9f799b10-e6ed-46a1-ba74-2877187f6320}" record_timestamp="1519302840457" record_key="battle_dragout_corner_length">
+<description>In new dragout outline system, length of corner elements on back of outlines for units with more than one entity</description>
+<key>battle_dragout_corner_length</key>
+<value>2</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{5a281d28-ced4-407e-ab50-8fff639a043f}" record_timestamp="1519302840457" record_key="battle_dragout_corner_length_single_entities">
+<description>In new dragout outline system, length of corner elements for units with single entity (like generals)</description>
+<key>battle_dragout_corner_length_single_entities</key>
+<value>0.20000000298023224</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{19132624-f871-4589-9e9c-4bd8f1c3424b}" record_timestamp="1519302840457" record_key="battle_dragout_height_off_ground">
+<description>In new dragout outline system, height of new outline dragout system off of ground</description>
+<key>battle_dragout_height_off_ground</key>
+<value>0</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{3d233fb2-ba06-4225-b478-ac614532d748}" record_timestamp="1519302840457" record_key="battle_dragout_indicator_scale">
+<description>In new dragout outline system, size of unit cat icons for units with more than one entity</description>
+<key>battle_dragout_indicator_scale</key>
+<value>5</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{b3ec3910-537b-4196-83b2-e47f3608da3f}" record_timestamp="1519302840457" record_key="battle_dragout_indicator_scale_single_entities">
+<description>In new dragout outline system, size of unit cat icons for units with single entity (like generals)</description>
+<key>battle_dragout_indicator_scale_single_entities</key>
+<value>2</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{1298c3d1-b02a-49ce-ba33-9889f186bd9d}" record_timestamp="1519309879822" record_key="battle_dragout_rank_icon_height">
+<description>In new dragout outline system, height of rank icons down side of outline</description>
+<key>battle_dragout_rank_icon_height</key>
+<value>0.10000000149011612</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{bc5ae75c-b681-44bf-bead-69f54f079249}" record_timestamp="1519309879822" record_key="battle_dragout_rank_icon_width">
+<description>In new dragout outline system, width of rank icons down side of outline</description>
+<key>battle_dragout_rank_icon_width</key>
+<value>0.5</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{018890bd-cd15-4ffb-9e2c-2a8f0865a8f5}" record_timestamp="1519302840457" record_key="battle_dragout_spline_width">
+<description>In new dragout outline system, width of splines for units with more than one entity</description>
+<key>battle_dragout_spline_width</key>
+<value>1</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{b23a370d-bac7-4c84-92d9-79d393a45edb}" record_timestamp="1519302840457" record_key="battle_dragout_spline_width_single_entities">
+<description>In new dragout outline system, width of splines for units with single entity (like generals)</description>
+<key>battle_dragout_spline_width_single_entities</key>
+<value>0.20000000298023224</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{0d098392-f632-457c-9e79-922207339070}" record_timestamp="1458315822103" record_key="battle_id_base_size">
+<description>Banners base scale</description>
+<key>battle_id_base_size</key>
+<value>0.6000000238418579</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{6284b4d4-b5df-4ce9-86d9-9c4c3fe18f6a}" record_timestamp="1427289692978" record_key="battle_id_bob_height">
+<description>How high banners move up when bobbing when selected</description>
+<key>battle_id_bob_height</key>
+<value>0.5</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{f52266c2-d8e0-420e-8bd3-5268d1416c5f}" record_timestamp="1427289692974" record_key="battle_id_bob_speed">
+<description>How quickly banners bob when selected</description>
+<key>battle_id_bob_speed</key>
+<value>0.800000011920929</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{d1d6bf38-418e-4cdc-99dc-13b3b65b6a74}" record_timestamp="1433156183081" record_key="battle_id_fade_duration_ms">
+<description>Duration in ms for banner fade anim when too close</description>
+<key>battle_id_fade_duration_ms</key>
+<value>400</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{a59a6e8f-e6e9-41aa-ad6f-51939924e456}" record_timestamp="1458330246396" record_key="battle_id_fade_end">
+<description>Metres camera from banner when fully faded out (not used for warhammer, code commented out)</description>
+<key>battle_id_fade_end</key>
+<value>8</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{b8477a82-31bd-44a7-a63f-e98620a0b61d}" record_timestamp="1458330246397" record_key="battle_id_fade_start">
+<description>Metres camera from banner before fades out</description>
+<key>battle_id_fade_start</key>
+<value>12</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{a26058cb-541e-438d-85d0-49b67c14976c}" record_timestamp="1427289692983" record_key="battle_id_forest_height_offset">
+<description>Banners extra height when unit in forested area, if want to raise above trees</description>
+<key>battle_id_forest_height_offset</key>
+<value>0</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{d12d6761-a235-4f37-91ef-95cd3be87cfb}" record_timestamp="1427289692961" record_key="battle_id_height">
+<description>Banners height above entity</description>
+<key>battle_id_height</key>
+<value>0</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{45527850-09d5-402c-aca1-8cea8ec44c77}" record_timestamp="1441107965878" record_key="battle_id_highlight_unary_mouseover">
+<description>0-1 value that specifies how much to brighten banner on mouseover</description>
+<key>battle_id_highlight_unary_mouseover</key>
+<value>0.20000000298023224</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{37100a76-5e66-4a4f-a7ec-314ffe394226}" record_timestamp="1441107965874" record_key="battle_id_highlight_unary_selected">
+<description>0-1 value that specifies how much to brighten banner on selection</description>
+<key>battle_id_highlight_unary_selected</key>
+<value>0.6000000238418579</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{567a402a-7dab-4205-a35b-12d9ebd7b6b7}" record_timestamp="1458330246398" record_key="battle_id_max_size">
+<description>Banners maximum scale based on distance</description>
+<key>battle_id_max_size</key>
+<value>3</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{7effcc64-3f77-4a5e-b80d-1cca9c540026}" record_timestamp="1427293506898" record_key="battle_id_scale_weight">
+<description>How quickly banners scale based on distance</description>
+<key>battle_id_scale_weight</key>
+<value>0.014999999664723873</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{54194577-a022-4d27-ab03-92df591777ac}" record_timestamp="1536857077470" record_key="battle_leaf_clip_proximity">
+<description>This is distance from the camera at which tree leaves will be clipped when leaf clipping option is enabled.</description>
+<key>battle_leaf_clip_proximity</key>
+<value>180</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{c20c30f2-bfb5-45b7-9960-22088c52371f}" record_timestamp="1496308932286" record_key="battle_leaf_clip_proximity_transition_off_time">
+<description>the time it takes to turn off battle leaf proximity</description>
+<key>battle_leaf_clip_proximity_transition_off_time</key>
+<value>0.30000001192092896</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{532caa72-16e4-4d13-8b24-867f0d85ee0f}" record_timestamp="1496308932286" record_key="battle_leaf_clip_proximity_transition_on_time">
+<description>determines how time over which the battle leaf proximity clip happens - a smaller number results in a fast time clip to the full distance</description>
+<key>battle_leaf_clip_proximity_transition_on_time</key>
+<value>0.5</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{ece7ebbf-a06a-442d-bab7-f616e4016b58}" record_timestamp="1496308932285" record_key="battle_leaf_clip_strength">
+<description>Strength of the culling of the leaves (falloff).  A larger value results in a greater falloff.</description>
+<key>battle_leaf_clip_strength</key>
+<value>2</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{00d97326-1af6-49af-89f8-fcf0305fa32a}" record_timestamp="1518006889578" record_key="battle_multiple_selection_movement_long_mouse_down_time">
+<description>Time (in seconds) the right mouse button must be held down to make a multiple selection maintain its formation</description>
+<key>battle_multiple_selection_movement_long_mouse_down_time</key>
+<value>2</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{b61fc878-206f-43fb-8bfd-925f0522e44d}" record_timestamp="1519309879822" record_key="battle_unit_outline_opacity">
+<description>Opacity of unit outlines rendered in battle when units behind geometry</description>
+<key>battle_unit_outline_opacity</key>
+<value>0.10000000149011612</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{4b88e3dd-0ac1-4e76-bf5d-9538ad066f9f}" record_timestamp="1467381976248" record_key="campaign_agent_id_height">
+<description>Height of agent ids </description>
+<key>campaign_agent_id_height</key>
+<value>1</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{b3887ab3-f175-41e1-996f-46fa55284372}" record_timestamp="1508405178204" record_key="campaign_army_id_height">
+<description>the height at which army IDs sit above the ground</description>
+<key>campaign_army_id_height</key>
+<value>1.899999976158142</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{bb314edb-26a8-47a5-af30-04a48f1a9e7f}" record_timestamp="1505906689170" record_key="campaign_army_strength_cp_force_min">
+<description>Used for army relative strength calculation added in 3k.  This is the minimum cp value of a force.</description>
+<key>campaign_army_strength_cp_force_min</key>
+<value>100</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{e67d1a4a-f8a7-464b-8c1b-ef650cdab8c6}" record_timestamp="1541578500011" record_key="campaign_army_strength_cp_general_max">
+<description>Used for army relative strength calculation added in 3k.  This is the maximum cp value a general in records mode will have.</description>
+<key>campaign_army_strength_cp_general_max</key>
+<value>400</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{b00c2e3b-04c0-4d72-b092-88fdd77ef045}" record_timestamp="1505906689170" record_key="campaign_army_strength_cp_hero_max">
+<description>Used for army relative strength calculation added in 3k.  This is the maximum cp value a unit will have.</description>
+<key>campaign_army_strength_cp_hero_max</key>
+<value>800</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{92796909-0033-4ed9-bff2-a7d5fcd2805e}" record_timestamp="1505906689170" record_key="campaign_army_strength_cp_unit_max">
+<description>Used for army relative strength calculation added in 3k.  This is the maximum cp value a unit will have.</description>
+<key>campaign_army_strength_cp_unit_max</key>
+<value>400</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{0ebe0ec8-fdb6-42ea-9a39-461d6aa1b897}" record_timestamp="1458230973510" record_key="campaign_battle_site_marker_height">
+<description>Height of battle site marker icons in campaign for indicating where can raise the dead</description>
+<key>campaign_battle_site_marker_height</key>
+<value>2</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{5cf257b4-69f2-4bd1-a14e-9b73550f1316}" record_timestamp="1551713678874" record_key="campaign_child_emperor_adulthood_turn">
+<description>the turn from start where the child emperor will become an adult </description>
+<key>campaign_child_emperor_adulthood_turn</key>
+<value>50</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{04bb023b-4cf8-47a2-86d1-83511d689879}" record_timestamp="1550568074668" record_key="campaign_citybar_camera_zoom_offset">
+<description>Citybars can cover small settlements, this is an offset to compensate for that</description>
+<key>campaign_citybar_camera_zoom_offset</key>
+<value>100</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{86498795-6570-4efb-9036-c79ab52b8a39}" record_timestamp="1550231183199" record_key="campaign_citybar_distance_depth_render_boundary">
+<description>Used to disable depth rendering when the distance is under the boundary</description>
+<key>campaign_citybar_distance_depth_render_boundary</key>
+<value>30</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{7a4e9bdf-8d3f-4d11-8687-4033a2df25ea}" record_timestamp="1509025235547" record_key="campaign_citybar_distance_toggle">
+<description>When the citybar will toggle to another layout, distance from camera</description>
+<key>campaign_citybar_distance_toggle</key>
+<value>125</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{529f1f05-bec0-440e-b1ce-cc2676cd9267}" record_timestamp="1443014962601" record_key="campaign_citybar_height">
+<description>Determines city info bars height over city</description>
+<key>campaign_citybar_height</key>
+<value>1</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{38d9f28d-71f6-45b1-9c0d-efbc6fa3bbc6}" record_timestamp="1550231653019" record_key="campaign_citybar_height_depth_render_boundary">
+<description>If the camera gets above this height from the terrain, it stops depth rendering</description>
+<key>campaign_citybar_height_depth_render_boundary</key>
+<value>40</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{854269d3-321b-40b5-851e-118b46dd47ec}" record_timestamp="1550231183199" record_key="campaign_citybar_height_offset">
+<description>The height offset of the citybar (i.e. how far from the floor)</description>
+<key>campaign_citybar_height_offset</key>
+<value>0</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{92eaeafe-6a6e-4758-9a3f-72e6903cec15}" record_timestamp="1550231183199" record_key="campaign_citybar_offset_multiplier">
+<description>Sets the offset of the city bar from the centre of the settlement (deprecated for database entry)</description>
+<key>campaign_citybar_offset_multiplier</key>
+<value>2</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{8f614305-6e5a-48f9-9365-3da1fa817c44}" record_timestamp="1431940767568" record_key="campaign_flag_fade_duration_ms">
+<description>How long in ms flag takes to fade out/in in campaign</description>
+<key>campaign_flag_fade_duration_ms</key>
+<value>500</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{ae12b32f-cdfe-4bdb-93d5-e9cefcdd048c}" record_timestamp="1431940767571" record_key="campaign_flag_fade_start">
+<description>How close can get to flags in campaign before fade out</description>
+<key>campaign_flag_fade_start</key>
+<value>3</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{f261226f-ef48-4823-a906-52d04ebbca04}" record_timestamp="1504013805047" record_key="campaign_flag_scale_end_distance">
+<description>Distance to camera that scaling down of campaign flag will stop</description>
+<key>campaign_flag_scale_end_distance</key>
+<value>2</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{1a970cad-5802-4100-95c5-5bb88edcdd60}" record_timestamp="1504013805045" record_key="campaign_flag_scale_min">
+<description>Min amount will scale flag based on distance to camera</description>
+<key>campaign_flag_scale_min</key>
+<value>0.20000000298023224</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{8adf662e-b37f-4df1-b551-6f6afd107c4c}" record_timestamp="1504013805042" record_key="campaign_flag_scale_start_distance">
+<description>Distance to camera that when reached will start scaling down campaign flags to not block camera</description>
+<key>campaign_flag_scale_start_distance</key>
+<value>10</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{c9f697d6-db88-41b4-ae44-8e89f327ea1b}" record_timestamp="1508926674972" record_key="campaign_flag_settlement_height">
+<description>This is height offset of campaign flags when over settlements for garrisoned characters</description>
+<key>campaign_flag_settlement_height</key>
+<value>1.2000000476837158</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{9bd19fad-196c-4f91-86d9-1d15138e6f00}" record_timestamp="1508405178198" record_key="campaign_floating_ui_fade_end">
+<description>Distance from floating ui when fully faded out</description>
+<key>campaign_floating_ui_fade_end</key>
+<value>110</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{499f2f51-5ccf-4a9b-bd45-dc3c1e81fadc}" record_timestamp="1433156183053" record_key="campaign_floating_ui_fade_start">
+<description>Distance from floating ui when starts to fade</description>
+<key>campaign_floating_ui_fade_start</key>
+<value>50</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{4e5e9467-aa30-4c9a-b6b6-3d87ef0feb1b}" record_timestamp="1527857513076" record_key="campaign_floating_ui_mid_fade_end">
+<description>Distance from floating ui  (mid_height) when fully faded out</description>
+<key>campaign_floating_ui_mid_fade_end</key>
+<value>300</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{1d881b53-71b8-450c-b8b3-8d90f561526f}" record_timestamp="1527857513082" record_key="campaign_floating_ui_mid_fade_start">
+<description>Distance from floating ui (mid_height) when starts to fade</description>
+<key>campaign_floating_ui_mid_fade_start</key>
+<value>150</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{7196c9b0-ffa1-4d6a-a458-9bec9b13794d}" record_timestamp="1550757702089" record_key="campaign_floating_ui_supply_bar_max">
+<description>The theoretical max of the supply system in 3k (and future games?) so we can resize bars accordingly</description>
+<key>campaign_floating_ui_supply_bar_max</key>
+<value>200</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{16473dfb-e4ea-487b-8345-9477e41beaf4}" record_timestamp="1513589113069" record_key="campaign_map_pin_height">
+<description>(IN GAME) The default height of user/tutorial map pins in the campaign</description>
+<key>campaign_map_pin_height</key>
+<value>0</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{e0b9035e-b0fa-463e-9f0d-4e5e4ac019f0}" record_timestamp="1552465329207" record_key="campaign_pre_battle_even_force_strength_max_percentage">
+<description>sets the maximum percentage of relative combat strength that will make the UI display that we have an even force strength</description>
+<key>campaign_pre_battle_even_force_strength_max_percentage</key>
+<value>0.550000011920929</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{5b77a4e3-e5c8-460c-925d-e0163f78ceb0}" record_timestamp="1552465329195" record_key="campaign_pre_battle_even_force_strength_min_percentage">
+<description>sets the minimum percentage of relative combat strength that will make the UI display that we have an even force strength</description>
+<key>campaign_pre_battle_even_force_strength_min_percentage</key>
+<value>0.44999998807907104</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{c4f877e0-ce5e-405d-91f7-78de674281da}" record_timestamp="1549015494033" record_key="campaign_tooltip_delay_ms">
+<description>How long cursor has to be still until campaign tooltip appears</description>
+<key>campaign_tooltip_delay_ms</key>
+<value>100</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{0a88f339-7f23-4a90-bf12-ee71948a00c1}" record_timestamp="1526649468866" record_key="custom_battle_mountable_artillery_percent">
+<description>Determines how many mountable artillery defender of siege gets based on this percentage of number of units in army (capped at 5 though)</description>
+<key>custom_battle_mountable_artillery_percent</key>
+<value>0.20000000298023224</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{c82f2971-3116-4069-ac89-ec8d757abf9b}" record_timestamp="1526649468865" record_key="custom_battle_siege_equipment_percent">
+<description>Percentage of units in army (that can use siege vehicles) that get a siege vehicle in custom battle </description>
+<key>custom_battle_siege_equipment_percent</key>
+<value>0.15000000596046448</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{cc4f1849-94d7-425b-9316-01db7a8ea8e1}" record_timestamp="1549284350243" record_key="help_hint_delay_s">
+<description>How many seconds before start highlighting help button under assumption player needs help in campaign (when they havent clicked/pressed anything for this duration)</description>
+<key>help_hint_delay_s</key>
+<value>60</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{cf0dd1d1-17ad-4fc5-ae9d-ff818ddae069}" record_timestamp="1480586390975" record_key="missile_damage_over_this_much_time">
+<description>how much time do we want to display missile damage over i.e. 1.0 is DPS, 60.0 is damage per 60 seconds...per entity</description>
+<key>missile_damage_over_this_much_time</key>
+<value>60</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{9929ad01-4ba5-4e2a-8a77-3a991a4570bd}" record_timestamp="1427453489240" record_key="tacmap_dbl_click_threshold_ms">
+<description>determines time in ms as what counts as double press of shortcut for tactical toggle. If 0 will always toggle.</description>
+<key>tacmap_dbl_click_threshold_ms</key>
+<value>0</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{1fc05512-12cc-46f5-9587-ccd69cf7c241}" record_timestamp="1458302264685" record_key="tacmap_face_current_direction">
+<description>if true, camera direction will be in direction battle camera was in. Otherwise always faces 'north' so like radar</description>
+<key>tacmap_face_current_direction</key>
+<value>0</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{18e6e728-07d1-4917-adff-a585fc9c00d8}" record_timestamp="1427453489247" record_key="tacmap_hold_threshold_ms">
+<description>Only relevant if tacmap_dbl_click_threshold_ms != 0. determines time in ms as what counts as holding down tactical toggle (to avoid flicker when double tapping)</description>
+<key>tacmap_hold_threshold_ms</key>
+<value>100</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{ed6b5bc4-1816-4fd8-bc73-a32c3cc1e79d}" record_timestamp="1427453489278" record_key="tacmap_instant_transition">
+<description>if true, no camera pans, just instant</description>
+<key>tacmap_instant_transition</key>
+<value>0</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{0728482e-fa3a-416c-bf22-5922cbd0b489}" record_timestamp="1427453489271" record_key="tacmap_is_moveable">
+<description>if true, allows to control camera movement with wasd/mouse scroll</description>
+<key>tacmap_is_moveable</key>
+<value>1</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{ea11f5a6-47c5-41c5-867e-04f655e796ce}" record_timestamp="1427453489206" record_key="tacmap_light_change_duration_ms">
+<description>how long takes for lighting setting to change (fog to clear)</description>
+<key>tacmap_light_change_duration_ms</key>
+<value>800</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{0e18803c-e15a-48b6-974e-c94b77c5e0bc}" record_timestamp="1489574168274" record_key="tacmap_max_height">
+<description>used to define max height can zoom out (lower if want to clamp max height can zoom out so cant see whole battlefield)</description>
+<key>tacmap_max_height</key>
+<value>800</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{6ecd1e4b-514e-4ce1-8446-3bbb7771eb18}" record_timestamp="1458325624381" record_key="tacmap_max_height_offset">
+<description>extra height added onto height calculated can see whole battlefield</description>
+<key>tacmap_max_height_offset</key>
+<value>0</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{4c566886-e9e7-4827-a337-c856b1be7af5}" record_timestamp="1489583562199" record_key="tacmap_min_height">
+<description>how much can zoom in when moveable, value is distance from highest point on map can zoom into</description>
+<key>tacmap_min_height</key>
+<value>200</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{24bbca46-461c-45e6-977e-4130887e26c2}" record_timestamp="1489591241867" record_key="tacmap_move_speed_multiplier">
+<description>how quick moves with wasd/drag in tac map</description>
+<key>tacmap_move_speed_multiplier</key>
+<value>6</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{fb5dc0f1-0a64-47d4-90b6-926cc4d4cb43}" record_timestamp="1479728706625" record_key="tacmap_near_clip_height_threshold">
+<description>If the tacmap camera height is greater than this, then tacmap_near_clip_max is used for near clip distance</description>
+<key>tacmap_near_clip_height_threshold</key>
+<value>100</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{eb385c57-a90d-4896-a780-aede7442d91c}" record_timestamp="1479730094769" record_key="tacmap_near_clip_max">
+<description>Near clip distance used for tacmap camera wheight height is above tacmap_near_clip_height_threshold</description>
+<key>tacmap_near_clip_max</key>
+<value>100</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{e20b1db0-2be0-4937-b7f2-7153efef90bb}" record_timestamp="1479730094774" record_key="tacmap_near_clip_min">
+<description>Near clip distance used for tacmap camera wheight height is below tacmap_near_clip_height_threshold</description>
+<key>tacmap_near_clip_min</key>
+<value>100</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{0e20f4e4-c078-4286-97e5-83095b7b9b3e}" record_timestamp="1523527880264" record_key="tacmap_rotate_speed_multiplier">
+<description>how fast tacmap rotates</description>
+<key>tacmap_rotate_speed_multiplier</key>
+<value>0.11999999731779099</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{cc658862-3d21-442e-afd1-7b4171327d56}" record_timestamp="1427453489255" record_key="tacmap_smoothing_decay">
+<description>determines smoothing applied to tacmap movement</description>
+<key>tacmap_smoothing_decay</key>
+<value>-8</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{50c4c5ee-f339-495d-88ae-7ce616c062fb}" record_timestamp="1458302264684" record_key="tacmap_starts_low">
+<description>if true, camera starts at most zoomed in point</description>
+<key>tacmap_starts_low</key>
+<value>0</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{5277cff8-04c8-41ee-a86b-d66748d71a97}" record_timestamp="1489575401177" record_key="tacmap_transition_duration_s">
+<description>how long camera pan takes in secs</description>
+<key>tacmap_transition_duration_s</key>
+<value>0.20000000298023224</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{73d069ab-6992-4293-9071-d510df64667d}" record_timestamp="1452760328666" record_key="tacmap_unit_draw_dist">
+<description>Distance tacmap camera is from highest point on map before render units</description>
+<key>tacmap_unit_draw_dist</key>
+<value>150</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{e3a201e6-cf2e-4234-a03e-1c814de4eb4a}" record_timestamp="1458302264684" record_key="tacmap_zoom_speed_multiplier">
+<description>how much scroll changes height when zoom</description>
+<key>tacmap_zoom_speed_multiplier</key>
+<value>60</value>
+</_kv_ui_tweakers>
+<_kv_ui_tweakers record_uuid="{f5a26f2c-6092-4a6b-a5ba-d63ba49e9880}" record_timestamp="1427453489263" record_key="tacmap_zoom_to_cursor">
+<description>if true, camera zooms towards cursor, otherwise zooms straight dow</description>
+<key>tacmap_zoom_to_cursor</key>
+<value>1</value>
+</_kv_ui_tweakers>
+</dataroot>

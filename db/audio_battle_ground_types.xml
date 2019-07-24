@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="audio_battle_ground_types.xsd" export_time="Mon Sep 21 11:06:17 2015" revision="9" export_branch="T:/warhammer/binaries" export_user="bob">
+<edit_uuid>9f41c3db-f648-491e-b1dd-8fb59c793a9e</edit_uuid>
+<audio_battle_ground_types record_uuid="{39a7ab93-01b0-4644-9017-9f1ca383738d}" record_timestamp="1407511924691" record_key="earth">
+<audio_material>earth</audio_material>
+<can_be_snow>1</can_be_snow>
+<fallback></fallback>
+<key>earth</key>
+<switch>earth</switch>
+</audio_battle_ground_types>
+<audio_battle_ground_types record_uuid="{bac8f17e-33a1-42ee-85d3-5847c8c65c21}" record_timestamp="1407492194770" record_key="rock">
+<audio_material>rock</audio_material>
+<can_be_snow>1</can_be_snow>
+<fallback>earth</fallback>
+<key>rock</key>
+<switch>rock</switch>
+</audio_battle_ground_types>
+<audio_battle_ground_types record_uuid="{ad0ff4c2-3904-412a-becd-98f106fd5961}" record_timestamp="1407492194800" record_key="sand">
+<audio_material>sand</audio_material>
+<can_be_snow>1</can_be_snow>
+<fallback>earth</fallback>
+<key>sand</key>
+<switch>sand</switch>
+</audio_battle_ground_types>
+<audio_battle_ground_types record_uuid="{f3a7d72f-2717-452b-8019-b6daecf7face}" record_timestamp="1407511924754" record_key="water">
+<audio_material>water</audio_material>
+<can_be_snow>0</can_be_snow>
+<fallback></fallback>
+<key>water</key>
+<switch>water</switch>
+</audio_battle_ground_types>
+<audio_battle_ground_types record_uuid="{d9e4cb39-8d7b-4eae-a5fa-fc2b2510e46c}" record_timestamp="1399625196411" record_key="wood">
+<audio_material>wood</audio_material>
+<can_be_snow>1</can_be_snow>
+<fallback>rock</fallback>
+<key>wood</key>
+<switch>wood</switch>
+</audio_battle_ground_types>
+</dataroot>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_negotiation_types.xsd" export_time="Fri Mar 8 12:33:31 2019" revision="23" export_branch="C:/Users/rick.venier/AppData/Roaming/TWDaemon/1380/dave" export_user="bob">
+<edit_uuid>9d13b0f5-e75c-455a-b2b5-4535d06a7d7f</edit_uuid>
+<campaign_diplomacy_negotiation_types record_uuid="{5c96d4d7-3970-48c2-b1d3-776b055fb5fe}" record_timestamp="1509034609422" record_key="alliance_to_alliance">
+<key>alliance_to_alliance</key>
+<participants>alliance_to_alliance</participants>
+<start_node>approach_both_in_alliance_undefined_scope_undefined_deal</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{204612ef-a8ad-4a7d-b3ba-252bb64544e7}" record_timestamp="1509034609422" record_key="alliance_to_faction">
+<key>alliance_to_faction</key>
+<participants>alliance_to_faction</participants>
+<start_node>approach_proposer_in_alliance_undefined_scope_undefined_deal</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{f5b152b7-d5ff-4a3b-ac1b-7c1167c5b115}" record_timestamp="1509034609422" record_key="faction_to_alliance">
+<key>faction_to_alliance</key>
+<participants>faction_to_alliance</participants>
+<start_node>approach_recipient_in_alliance_undefined_scope_undefined_deal</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{07a8d72b-cd92-4fe4-a46a-554a159062a1}" record_timestamp="1546631045698" record_key="followup_both_in_alliance_alliance_to_alliance">
+<key>followup_both_in_alliance_alliance_to_alliance</key>
+<participants>alliance_to_alliance</participants>
+<start_node>followup_component_both_in_alliance_alliance_to_alliance</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{51c560f3-50e6-4545-8691-d3852a336e2b}" record_timestamp="1529918869650" record_key="followup_both_in_alliance_alliance_to_alliance_any_vote">
+<key>followup_both_in_alliance_alliance_to_alliance_any_vote</key>
+<participants>alliance_to_alliance</participants>
+<start_node>followup_component_both_in_alliance_alliance_to_alliance_any_success</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{d1d8ccb9-38cc-46ca-9581-a94016c1bad0}" record_timestamp="1546629082268" record_key="followup_both_in_alliance_alliance_to_alliance_no_vote">
+<key>followup_both_in_alliance_alliance_to_alliance_no_vote</key>
+<participants>alliance_to_alliance</participants>
+<start_node>followup_component_both_in_alliance_alliance_to_alliance_deal_no_vote</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{6b90b55d-e17d-47cd-9851-eb21f746b2b4}" record_timestamp="1529918869647" record_key="followup_both_in_alliance_alliance_to_faction">
+<key>followup_both_in_alliance_alliance_to_faction</key>
+<participants>alliance_to_alliance</participants>
+<start_node>followup_component_both_in_alliance_alliance_to_faction</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{44e68ba9-0af8-4ae8-9c03-ca0233e7c8a3}" record_timestamp="1529918869650" record_key="followup_both_in_alliance_alliance_to_faction_any_vote">
+<key>followup_both_in_alliance_alliance_to_faction_any_vote</key>
+<participants>alliance_to_alliance</participants>
+<start_node>followup_component_both_in_alliance_alliance_to_faction_any_success</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{db6c0dc7-2505-4804-ad34-54065e36bcb1}" record_timestamp="1530887607401" record_key="followup_both_in_alliance_alliance_to_faction_no_vote">
+<key>followup_both_in_alliance_alliance_to_faction_no_vote</key>
+<participants>alliance_to_alliance</participants>
+<start_node>followup_component_both_in_alliance_alliance_to_faction_no_vote</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{d1b3c9b9-8e60-4038-87c4-c65f3a69c313}" record_timestamp="1550663778377" record_key="followup_forced_normal">
+<key>followup_forced_normal</key>
+<participants>faction_to_faction</participants>
+<start_node>followup_forced_component_none_in_alliance_faction_to_faction</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{ff5e8cce-2bb9-4005-afdb-1f4d4a5b0cde}" record_timestamp="1552048408611" record_key="followup_forced_recipient_in_alliance_faction_to_alliance_any_success">
+<key>followup_forced_recipient_in_alliance_faction_to_alliance_any_success</key>
+<participants>faction_to_alliance</participants>
+<start_node>followup_forced_component_recipient_in_alliance_faction_to_alliance_any_success</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{32eb1062-3605-456a-94d2-711ad5dbb7ae}" record_timestamp="1523297347982" record_key="followup_normal">
+<key>followup_normal</key>
+<participants>faction_to_faction</participants>
+<start_node>select_component_none_in_alliance_faction_to_faction_undefined_deal</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{0db43547-3c97-4595-b911-cb4450ddf350}" record_timestamp="1523297347982" record_key="followup_proposer_in_alliance_alliance_to_faction">
+<key>followup_proposer_in_alliance_alliance_to_faction</key>
+<participants>alliance_to_faction</participants>
+<start_node>followup_component_proposer_in_alliance_alliance_to_faction</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{70a810af-0edc-4da9-b189-def1364a3a52}" record_timestamp="1529918869649" record_key="followup_proposer_in_alliance_alliance_to_faction_any_vote">
+<key>followup_proposer_in_alliance_alliance_to_faction_any_vote</key>
+<participants>alliance_to_faction</participants>
+<start_node>followup_component_proposer_in_alliance_alliance_to_faction_any_success</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{806367a6-4444-450f-9bc0-7694fe8fa41a}" record_timestamp="1546629207495" record_key="followup_proposer_in_alliance_alliance_to_faction_no_vote">
+<key>followup_proposer_in_alliance_alliance_to_faction_no_vote</key>
+<participants>alliance_to_faction</participants>
+<start_node>followup_component_proposer_in_alliance_alliance_to_faction_no_vote</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{627add3e-800d-40e2-9ff3-1cf18dcdf04b}" record_timestamp="1551875813495" record_key="followup_recipient_in_alliance_faction_to_alliance_any_success">
+<key>followup_recipient_in_alliance_faction_to_alliance_any_success</key>
+<participants>faction_to_alliance</participants>
+<start_node>followup_component_recipient_in_alliance_faction_to_alliance_any_success</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{6448828f-e3bb-4ca2-8dd7-887695c3483e}" record_timestamp="1518004449230" record_key="hidden_treaties">
+<key>hidden_treaties</key>
+<participants>faction_to_faction</participants>
+<start_node>select_component_none_in_alliance_hidden_treaties</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{0b3c92be-2ddf-4580-92fb-3c533755faff}" record_timestamp="1548688910051" record_key="movment_options_normal">
+<key>movment_options_normal</key>
+<participants>faction_to_faction</participants>
+<start_node>movement_options_normal_select_component_none_in_alliance_faction_to_faction_undefined_deal</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{880e39a8-e6e6-4c31-8fb0-aaeec0dde59c}" record_timestamp="1500283825363" record_key="normal">
+<key>normal</key>
+<participants>faction_to_faction</participants>
+<start_node>approach_none_in_alliance_faction_to_faction_undefined_deal</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{0ba7cf8f-7d37-4dc4-b157-30b6aaeae6d7}" record_timestamp="1533651089126" record_key="speculative_deal_faction_to_alliance">
+<key>speculative_deal_faction_to_alliance</key>
+<participants>faction_to_alliance</participants>
+<start_node>select_component_recipient_in_alliance_undefined_scope_undefined_deal</start_node>
+</campaign_diplomacy_negotiation_types>
+<campaign_diplomacy_negotiation_types record_uuid="{45cc6045-a775-4bb4-8968-3a466edf1cc1}" record_timestamp="1533651089141" record_key="speculative_deal_faction_to_faction">
+<key>speculative_deal_faction_to_faction</key>
+<participants>faction_to_faction</participants>
+<start_node>select_component_none_in_alliance_faction_to_faction_undefined_deal</start_node>
+</campaign_diplomacy_negotiation_types>
+</dataroot>

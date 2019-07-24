@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ground_types.xsd" export_time="Fri Feb 15 16:36:56 2019" revision="62" export_branch="C:/Users/mauro.bonelli/AppData/Roaming/TWDaemon/1343/dave" export_user="bob">
+<edit_uuid>219391dd-f3dc-458c-9a35-af96049db632</edit_uuid>
+<ground_types record_uuid="{a22e6d33-5b8e-4031-a099-f0e8727e343e}" record_timestamp="1524503311705" record_key="burnt">
+<audio_type>earth</audio_type>
+<burn_rate>0.25</burn_rate>
+<colour_blue>0</colour_blue>
+<colour_green>0</colour_green>
+<colour_red>64</colour_red>
+<description state="APPROVED" last_approved_text="Scorched and blistered, there is nothing left but ash.\nAny previous terrain features have been removed." last_edit_user="bob">Scorched and blistered, there is nothing left but ash.\nAny previous terrain features have been removed.</description>
+<dirt_accumulation_per_second>0</dirt_accumulation_per_second>
+<minimum_threshold>55</minimum_threshold>
+<onscreen_name state="APPROVED" last_approved_text="Burnt" last_edit_user="bob">Burnt</onscreen_name>
+<penalty_immune_attribute></penalty_immune_attribute>
+<selection_cursor>terrain_burnt</selection_cursor>
+<standard_cursor>terrain_burnt_noselect</standard_cursor>
+<type>burnt</type>
+</ground_types>
+<ground_types record_uuid="{4c53663e-ab19-42b7-88e1-56c8b638f774}" record_timestamp="1465987141120" record_key="deep_water">
+<audio_type>water</audio_type>
+<burn_rate>0</burn_rate>
+<colour_blue>255</colour_blue>
+<colour_green>0</colour_green>
+<colour_red>0</colour_red>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">The Water at this position is too deep for units to traverse its murky depths.</description>
+<dirt_accumulation_per_second>-0.005</dirt_accumulation_per_second>
+<minimum_threshold>55</minimum_threshold>
+<onscreen_name state="HIDDEN" last_approved_text="Deep Water" last_edit_user="bob">Deep Water</onscreen_name>
+<penalty_immune_attribute></penalty_immune_attribute>
+<selection_cursor></selection_cursor>
+<standard_cursor></standard_cursor>
+<type>deep_water</type>
+</ground_types>
+<ground_types record_uuid="{1492a0cf-30bf-4add-b376-b4fe8cc2bb31}" record_timestamp="1536685556505" record_key="forest">
+<audio_type>earth</audio_type>
+<burn_rate>1</burn_rate>
+<colour_blue>0</colour_blue>
+<colour_green>51</colour_green>
+<colour_red>25</colour_red>
+<description state="APPROVED" last_approved_text="Dense undergrowth hides many threats.\nWill conceal all units." last_edit_user="bob">Dense undergrowth hides many threats.\nWill conceal all units.</description>
+<dirt_accumulation_per_second>0.0001</dirt_accumulation_per_second>
+<minimum_threshold>55</minimum_threshold>
+<onscreen_name state="APPROVED" last_approved_text="Forest" last_edit_user="bob">Forest</onscreen_name>
+<penalty_immune_attribute>ignore_forest_penalties</penalty_immune_attribute>
+<selection_cursor>terrain_forest</selection_cursor>
+<standard_cursor>terrain_forest_noselect</standard_cursor>
+<type>forest</type>
+</ground_types>
+<ground_types record_uuid="{dcc247b5-2bd3-4181-8cd7-3e1c095f954a}" record_timestamp="1465987141127" record_key="grass">
+<audio_type>earth</audio_type>
+<burn_rate>0.5</burn_rate>
+<colour_blue>0</colour_blue>
+<colour_green>255</colour_green>
+<colour_red>0</colour_red>
+<description></description>
+<dirt_accumulation_per_second>0.0001</dirt_accumulation_per_second>
+<minimum_threshold>0</minimum_threshold>
+<onscreen_name state="HIDDEN" last_approved_text="Grass" last_edit_user="bob">Grass</onscreen_name>
+<penalty_immune_attribute></penalty_immune_attribute>
+<selection_cursor></selection_cursor>
+<standard_cursor></standard_cursor>
+<type>grass</type>
+</ground_types>
+<ground_types record_uuid="{e9f255a2-6fab-4246-97c1-6ab4c9f6da55}" record_timestamp="1465987141122" record_key="mud">
+<audio_type>earth</audio_type>
+<burn_rate>0.2</burn_rate>
+<colour_blue>0</colour_blue>
+<colour_green>75</colour_green>
+<colour_red>150</colour_red>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">Mud Ground Type</description>
+<dirt_accumulation_per_second>0.008</dirt_accumulation_per_second>
+<minimum_threshold>55</minimum_threshold>
+<onscreen_name state="HIDDEN" last_approved_text="Mud" last_edit_user="bob">Mud</onscreen_name>
+<penalty_immune_attribute></penalty_immune_attribute>
+<selection_cursor></selection_cursor>
+<standard_cursor></standard_cursor>
+<type>mud</type>
+</ground_types>
+<ground_types record_uuid="{d1e2cb9c-8cf3-464d-bb6f-1d16422832e6}" record_timestamp="1465987141122" record_key="road">
+<audio_type>sand</audio_type>
+<burn_rate>0.2</burn_rate>
+<colour_blue>0</colour_blue>
+<colour_green>96</colour_green>
+<colour_red>255</colour_red>
+<description state="HIDDEN" last_approved_text="Roads allow all units to move quicker." last_edit_user="bob">Roads allow all units to move quicker.</description>
+<dirt_accumulation_per_second>0.005</dirt_accumulation_per_second>
+<minimum_threshold>55</minimum_threshold>
+<onscreen_name state="HIDDEN" last_approved_text="Road" last_edit_user="bob">Road</onscreen_name>
+<penalty_immune_attribute></penalty_immune_attribute>
+<selection_cursor></selection_cursor>
+<standard_cursor></standard_cursor>
+<type>road</type>
+</ground_types>
+<ground_types record_uuid="{57edd504-548d-4937-b230-4a516b8f63ca}" record_timestamp="1465987141123" record_key="rock">
+<audio_type>rock</audio_type>
+<burn_rate>0.1</burn_rate>
+<colour_blue>170</colour_blue>
+<colour_green>170</colour_green>
+<colour_red>170</colour_red>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">Rock Ground Type</description>
+<dirt_accumulation_per_second>0.001</dirt_accumulation_per_second>
+<minimum_threshold>55</minimum_threshold>
+<onscreen_name state="HIDDEN" last_approved_text="Rock" last_edit_user="bob">Rock</onscreen_name>
+<penalty_immune_attribute></penalty_immune_attribute>
+<selection_cursor></selection_cursor>
+<standard_cursor></standard_cursor>
+<type>rock</type>
+</ground_types>
+<ground_types record_uuid="{ab322e0e-cc88-4843-8d27-b3141dcc295a}" record_timestamp="1524740262948" record_key="sand">
+<audio_type>sand</audio_type>
+<burn_rate>0.1</burn_rate>
+<colour_blue>96</colour_blue>
+<colour_green>164</colour_green>
+<colour_red>244</colour_red>
+<description state="APPROVED" last_approved_text="Coarse, rough and irritating, sand gets everywhere, creating inhospitable conditions.\nUnits suffer Movement penalties from the heat while moving through it." last_edit_user="bob">Coarse, rough and irritating, sand gets everywhere, creating inhospitable conditions.\nUnits suffer Movement penalties from the heat while moving through it.</description>
+<dirt_accumulation_per_second>0.003</dirt_accumulation_per_second>
+<minimum_threshold>55</minimum_threshold>
+<onscreen_name state="APPROVED" last_approved_text="Sand" last_edit_user="bob">Sand</onscreen_name>
+<penalty_immune_attribute></penalty_immune_attribute>
+<selection_cursor>terrain_sand</selection_cursor>
+<standard_cursor>terrain_sand_noselect</standard_cursor>
+<type>sand</type>
+</ground_types>
+<ground_types record_uuid="{f41c9499-3385-4721-980f-e35ddf2c7e4e}" record_timestamp="1465987141124" record_key="scrub">
+<audio_type>earth</audio_type>
+<burn_rate>1</burn_rate>
+<colour_blue>175</colour_blue>
+<colour_green>225</colour_green>
+<colour_red>172</colour_red>
+<description state="HIDDEN" last_approved_text="Scrub provides cover for light infantry units." last_edit_user="bob">Scrub provides cover for light infantry units.</description>
+<dirt_accumulation_per_second>0.001</dirt_accumulation_per_second>
+<minimum_threshold>55</minimum_threshold>
+<onscreen_name state="HIDDEN" last_approved_text="Scrub" last_edit_user="bob">Scrub</onscreen_name>
+<penalty_immune_attribute></penalty_immune_attribute>
+<selection_cursor></selection_cursor>
+<standard_cursor></standard_cursor>
+<type>scrub</type>
+</ground_types>
+<ground_types record_uuid="{f0096e1a-3a2d-4376-91bb-bdc1d7159930}" record_timestamp="1524503311707" record_key="shallow_water">
+<audio_type>water</audio_type>
+<burn_rate>0</burn_rate>
+<colour_blue>255</colour_blue>
+<colour_green>255</colour_green>
+<colour_red>93</colour_red>
+<description state="APPROVED" last_approved_text="Flowing brooks and fords can be dangerous for the unprepared.\nInfantry will have trouble crossing, while Cavalry are less bogged down." last_edit_user="bob">Flowing brooks and fords can be dangerous for the unprepared.\nInfantry will have trouble crossing, while Cavalry are less bogged down.</description>
+<dirt_accumulation_per_second>-0.001</dirt_accumulation_per_second>
+<minimum_threshold>55</minimum_threshold>
+<onscreen_name state="APPROVED" last_approved_text="Shallow Water" last_edit_user="bob">Shallow Water</onscreen_name>
+<penalty_immune_attribute></penalty_immune_attribute>
+<selection_cursor>terrain_water</selection_cursor>
+<standard_cursor>terrain_water_noselect</standard_cursor>
+<type>shallow_water</type>
+</ground_types>
+<ground_types record_uuid="{71e90834-ac14-4185-aa85-dec5a1c84939}" record_timestamp="1524503311706" record_key="sharp_stones">
+<audio_type>sand</audio_type>
+<burn_rate>0.2</burn_rate>
+<colour_blue>0</colour_blue>
+<colour_green>255</colour_green>
+<colour_red>255</colour_red>
+<description state="APPROVED" last_approved_text="Uneven, needle-like terrain impedes both foot and hoof alike.\nHeavy units are especially impaired." last_edit_user="bob">Uneven, needle-like terrain impedes both foot and hoof alike.\nHeavy units are especially impaired.</description>
+<dirt_accumulation_per_second>0.002</dirt_accumulation_per_second>
+<minimum_threshold>55</minimum_threshold>
+<onscreen_name state="APPROVED" last_approved_text="Sharp Stones" last_edit_user="bob">Sharp Stones</onscreen_name>
+<penalty_immune_attribute></penalty_immune_attribute>
+<selection_cursor>terrain_rough</selection_cursor>
+<standard_cursor>terrain_rough_noselect</standard_cursor>
+<type>sharp_stones</type>
+</ground_types>
+<ground_types record_uuid="{fd508cb1-feb5-4df5-8806-9765b9a1c9ce}" record_timestamp="1524503311707" record_key="snow">
+<audio_type>sand</audio_type>
+<burn_rate>0.2</burn_rate>
+<colour_blue>255</colour_blue>
+<colour_green>255</colour_green>
+<colour_red>255</colour_red>
+<description state="APPROVED" last_approved_text="Deep snowdrifts hinder progress for any traveller.\nLight units will find it especially difficult to fight in these conditions." last_edit_user="bob">Deep snowdrifts hinder progress for any traveller.\nLight units will find it especially difficult to fight in these conditions.</description>
+<dirt_accumulation_per_second>-0.001</dirt_accumulation_per_second>
+<minimum_threshold>55</minimum_threshold>
+<onscreen_name state="APPROVED" last_approved_text="Snow" last_edit_user="bob">Snow</onscreen_name>
+<penalty_immune_attribute></penalty_immune_attribute>
+<selection_cursor>terrain_snow</selection_cursor>
+<standard_cursor>terrain_snow_noselect</standard_cursor>
+<type>snow</type>
+</ground_types>
+<ground_types record_uuid="{fd41228f-2a74-45db-a07e-81ec187bc522}" record_timestamp="1465987141126" record_key="wooden_floor">
+<audio_type>wood</audio_type>
+<burn_rate>1</burn_rate>
+<colour_blue>100</colour_blue>
+<colour_green>100</colour_green>
+<colour_red>255</colour_red>
+<description state="HIDDEN" last_approved_text="" last_edit_user="bob">Wooden Floor Ground Type</description>
+<dirt_accumulation_per_second>0.001</dirt_accumulation_per_second>
+<minimum_threshold>55</minimum_threshold>
+<onscreen_name state="HIDDEN" last_approved_text="Wooden Floor" last_edit_user="bob">Wooden Floor</onscreen_name>
+<penalty_immune_attribute></penalty_immune_attribute>
+<selection_cursor></selection_cursor>
+<standard_cursor></standard_cursor>
+<type>wooden_floor</type>
+</ground_types>
+</dataroot>

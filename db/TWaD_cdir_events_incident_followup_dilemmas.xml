@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cdir_events_incident_followup_dilemmas>
+<root>
+<edit_uuid>282b9ba0-365c-4cc4-96a8-9c979747b96d</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{f3cd44b2-255e-42e3-b297-ca1ff53658e3}</field_uuid>
+<primary_key>1</primary_key>
+<name>incident_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>incidents</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{dcbba332-091d-41c8-9b7f-11ede2e88029}</field_uuid>
+<primary_key>1</primary_key>
+<name>followup_dliemma_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>dilemmas</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

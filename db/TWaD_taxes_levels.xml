@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_taxes_levels>
+<root>
+<edit_uuid>12edb151-9166-4040-ad3a-0934c78feec1</edit_uuid>
+<agf_special_dependencies>+*</agf_special_dependencies>
+<field>
+<field_uuid>{67dc18de-2fd9-4162-a5a0-9c6f8c3ac722}</field_uuid>
+<primary_key>1</primary_key>
+<name>tax_level</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>50</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{20f65688-a6b2-4862-a81d-149a3371725b}</field_uuid>
+<primary_key>0</primary_key>
+<name>percentage</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_scripted_subtitles>
+<root>
+<edit_uuid>5368d582-8130-4ecf-a74a-c7e92fdbf4a1</edit_uuid>
+<field>
+<field_uuid>{026b9c62-8aef-489d-b49b-ab4686e0c906}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<fragment_path>sound/events/play_&amp;&amp;_1</fragment_path>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Key for scriptors to trigger</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{4d541ed3-6a01-4894-8c9a-ca67f2e4c299}</field_uuid>
+<primary_key>0</primary_key>
+<name>localised_text</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Text in subtitle</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{ce940625-2534-42ad-9e91-24dcd63d8e0b}</field_uuid>
+<primary_key>0</primary_key>
+<name>character_for_vo</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>In-game character who will provide VO for this line, if any</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+</root>

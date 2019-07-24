@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_culture_to_battle_animation_tables>
+<root>
+<edit_uuid>8dd124b2-ff5c-49e1-83fb-b9f1c643b48b</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{0311fe71-d4ea-41bd-98c6-9a45abd75e06}</field_uuid>
+<primary_key>1</primary_key>
+<name>culture_pack</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>cultures</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{f49e8c0c-83c3-4c6c-9cf5-dc084fd989ef}</field_uuid>
+<primary_key>1</primary_key>
+<name>battle_animations_table</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>battle_animations_table</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

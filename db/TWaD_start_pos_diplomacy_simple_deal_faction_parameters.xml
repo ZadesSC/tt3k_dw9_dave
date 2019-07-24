@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_start_pos_diplomacy_simple_deal_faction_parameters>
+<root>
+<edit_uuid>f34680de-5ab4-46e0-a0ba-318906228df4</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{7dbb4787-05c5-4d1b-b87d-ebc6863feb8e}</field_uuid>
+<primary_key>1</primary_key>
+<name>deal</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>start_pos_diplomacy_simple_deals</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{8a6613dd-6c51-4bb7-9c88-aab700b08926}</field_uuid>
+<primary_key>1</primary_key>
+<name>parameter_index</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>Parameter indices start from 1.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{4275d7d2-2f78-40dd-86c0-cef46e121f38}</field_uuid>
+<primary_key>0</primary_key>
+<name>faction_parameter</name>
+<field_type>integer</field_type>
+<required>1</required>
+<column_source_column>ID</column_source_column>
+<column_source_column>faction</column_source_column>
+<column_source_column>campaign</column_source_column>
+<column_source_table>start_pos_factions</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

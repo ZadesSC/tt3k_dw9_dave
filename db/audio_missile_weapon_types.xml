@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="audio_missile_weapon_types.xsd" export_time="Mon May 21 16:20:37 2018" revision="28" export_branch="T:/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>291b9cf4-9100-48a3-9d70-a2e025817a4b</edit_uuid>
+<audio_missile_weapon_types record_uuid="{a4a99f42-36bc-4935-8ef2-85fe7020ad5d}" record_timestamp="1521462896410" record_key="bow">
+<fire_max_attenuation>120</fire_max_attenuation>
+<fire_obstruction_size>0</fire_obstruction_size>
+<fire_start_event>Battle_Individual_Small_Arms_Bow_Release</fire_start_event>
+<fire_stop_event></fire_stop_event>
+<fire_use_reverb>0</fire_use_reverb>
+<group_fire></group_fire>
+<group_fire_start></group_fire_start>
+<group_fire_stop></group_fire_stop>
+<key>bow</key>
+<limitation_scale_fire>0</limitation_scale_fire>
+<only_trigger_once_per_volley>0</only_trigger_once_per_volley>
+<switch>bow</switch>
+</audio_missile_weapon_types>
+<audio_missile_weapon_types record_uuid="{55fb1790-22b4-4536-a093-62cac6276d76}" record_timestamp="1521462896410" record_key="crossbow">
+<fire_max_attenuation>120</fire_max_attenuation>
+<fire_obstruction_size>0</fire_obstruction_size>
+<fire_start_event>Battle_Individual_Small_Arms_Crossbow_Release</fire_start_event>
+<fire_stop_event></fire_stop_event>
+<fire_use_reverb>0</fire_use_reverb>
+<group_fire>3k_grp_projectile_crossbow_fire</group_fire>
+<group_fire_start></group_fire_start>
+<group_fire_stop></group_fire_stop>
+<key>crossbow</key>
+<limitation_scale_fire>0</limitation_scale_fire>
+<only_trigger_once_per_volley>0</only_trigger_once_per_volley>
+<switch>crossbow</switch>
+</audio_missile_weapon_types>
+</dataroot>

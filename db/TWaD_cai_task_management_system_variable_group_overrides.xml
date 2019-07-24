@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_task_management_system_variable_group_overrides>
+<root>
+<edit_uuid>0ab051bf-f9b9-47c0-b691-cbf2ea89a6a4</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{1fed2ef8-c7d0-4a17-809b-3094264383b9}</field_uuid>
+<primary_key>1</primary_key>
+<name>group_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>cai_task_management_system_variable_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{82f7ef53-d7ce-40a4-92e7-52989de38063}</field_uuid>
+<primary_key>0</primary_key>
+<name>parent_group_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>cai_task_management_system_variable_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

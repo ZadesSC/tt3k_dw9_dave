@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_post_battle_character_relationship_triggers>
+<root>
+<edit_uuid>ba113d65-ff70-462f-870b-71e58170007a</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{3d3e6f37-605f-4db8-b8ce-8c2bc01baaf4}</field_uuid>
+<primary_key>1</primary_key>
+<name>battle_result</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>battle_result_type</column_source_column>
+<column_source_table>battle_result_types</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{901fde92-4a64-4519-ac7b-97b4e7f14e76}</field_uuid>
+<primary_key>0</primary_key>
+<name>trigger_set</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>character_relationship_trigger_sets</column_source_table>
+<field_description>Supports SAME_FORCE and ALL_CHARACTERS_INVOLVED_IN_BATTLE Scopes</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{9596b877-24da-4de5-bc93-44922b415087}</field_uuid>
+<primary_key>0</primary_key>
+<name>character_death_trigger_set</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>character_relationship_trigger_sets</column_source_table>
+<field_description>Applied from every character in the killing force to the dead character. Follows standard trigger map propogation and scopes from the dead character as a root</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

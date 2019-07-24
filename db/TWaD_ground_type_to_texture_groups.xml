@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ground_type_to_texture_groups>
+<root>
+<edit_uuid>a611ce37-47f1-4c9f-8928-22110360cfd4</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{4b87e1f8-ca54-4224-85ad-9578ef6446a4}</field_uuid>
+<primary_key>1</primary_key>
+<name>texture_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>The name of a terrain texture group.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{65066fdf-c24e-43a5-948e-9dac4978712a}</field_uuid>
+<primary_key>0</primary_key>
+<name>ground_type</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>type</column_source_column>
+<column_source_table>ground_types</column_source_table>
+<field_description>Ground type to use for the texture group.</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

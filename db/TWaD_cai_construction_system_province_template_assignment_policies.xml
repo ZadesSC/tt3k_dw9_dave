@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_construction_system_province_template_assignment_policies>
+<root>
+<edit_uuid>c68eaab4-52ba-41f8-9833-b8ed1d626609</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{c8e3eb89-6832-408b-ad12-4164b22d6245}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+<field>
+<field_uuid>{9f4eca0a-c756-49b7-bd92-78178934f09a}</field_uuid>
+<primary_key>0</primary_key>
+<name>default_template_assignment_scheme</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>scheme_key</column_source_column>
+<column_source_table>cai_construction_system_template_assignment_schemes</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

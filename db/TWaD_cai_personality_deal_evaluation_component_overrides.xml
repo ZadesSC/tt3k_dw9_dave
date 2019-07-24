@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_personality_deal_evaluation_component_overrides>
+<root>
+<edit_uuid>c857ab43-29b1-4fd1-a664-65dfa8d0b5b0</edit_uuid>
+<field>
+<field_uuid>{d84deff5-959d-43e0-a515-0014a53c6a10}</field_uuid>
+<primary_key>1</primary_key>
+<name>component</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>cai_personality_deal_evaluation_components</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{f41a480c-2e8a-4b95-b517-8e6452a7dc73}</field_uuid>
+<primary_key>0</primary_key>
+<name>parent</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>cai_personality_deal_evaluation_components</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_battle_ai_abilities_usage_templates_to_params>
+<root>
+<edit_uuid>468fdb98-c83c-4224-86cd-4260960e31b7</edit_uuid>
+<field>
+<field_uuid>{8ea95254-a846-4aae-8955-2bc0274973ba}</field_uuid>
+<primary_key>1</primary_key>
+<name>template</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>ai_ability_usage_template_key</column_source_column>
+<column_source_table>battle_ai_abilities_usage_template_names</column_source_table>
+<field_description>the template this will be a part of</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{4fb000b8-ffff-4f7f-98d6-22dd2763bdf7}</field_uuid>
+<primary_key>1</primary_key>
+<name>parameter</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>usage_param</column_source_column>
+<column_source_table>battle_ai_abilities_usage_params</column_source_table>
+<field_description>the parameter that is of interest (remember that omitted ones don't influence the effect up/down</field_description>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{666b7954-a335-483a-90aa-f1af58a39a17}</field_uuid>
+<primary_key>0</primary_key>
+<name>weighting</name>
+<field_type>double</field_type>
+<required>1</required>
+<field_description>How much we care about the parameter</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+</field>
+</root>

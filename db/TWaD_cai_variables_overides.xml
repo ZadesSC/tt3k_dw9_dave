@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_variables_overides>
+<root>
+<edit_uuid>cceba35c-58c1-489e-848e-83eff9ef127e</edit_uuid>
+<agf_special_dependencies>cai_variable_key&amp;campaign_key</agf_special_dependencies>
+<field>
+<field_uuid>{b4ca927c-c204-4c25-af86-563f326cd871}</field_uuid>
+<primary_key>1</primary_key>
+<name>cai_variable_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>cai_variables</column_source_table>
+<field_description>Campaign AI Variable to override</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{f271a8a2-af67-4a31-82f8-a0424a3b0fc5}</field_uuid>
+<primary_key>1</primary_key>
+<name>campaign_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>campaign_name</column_source_column>
+<column_source_table>campaigns</column_source_table>
+<field_description>Campaign Key</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{9136ac1f-f85c-421c-8bc9-183b9bf6e184}</field_uuid>
+<primary_key>0</primary_key>
+<name>value</name>
+<field_type>double</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>Override value</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{3d0fe122-844a-46ee-a7bd-36a3fb6b53d2}</field_uuid>
+<primary_key>1</primary_key>
+<name>optional_difficulty_level</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>20000</max_length>
+<column_source_column>level</column_source_column>
+<column_source_table>game_difficulty_levels</column_source_table>
+<field_description>(Optional) Integer value campaign difficulty</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{50d0d4bd-0548-46dd-a2bf-b55d176baac2}</field_uuid>
+<primary_key>1</primary_key>
+<name>optional_campaign_type</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>20000</max_length>
+<field_description>(Optional) Long/Short</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

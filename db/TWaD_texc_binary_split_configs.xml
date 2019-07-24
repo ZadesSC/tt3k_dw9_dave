@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_texc_binary_split_configs>
+<root>
+<edit_uuid>f7eb1886-9706-4739-b174-8dba81ed7e74</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{26bef7c3-fe89-4ada-8866-154bbcbea197}</field_uuid>
+<primary_key>1</primary_key>
+<name>table_name</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{44180183-4e44-4347-918f-f8574b1ddb47}</field_uuid>
+<primary_key>1</primary_key>
+<name>key_expression</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{9cdab018-6ecf-4f55-9292-4064e3d5c7b9}</field_uuid>
+<primary_key>1</primary_key>
+<name>binary_extension</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

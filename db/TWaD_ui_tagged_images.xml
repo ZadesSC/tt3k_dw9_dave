@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ui_tagged_images>
+<root>
+<edit_uuid>a9bab93b-65df-422e-aa74-837c4e67df55</edit_uuid>
+<field>
+<field_uuid>{94c5c26d-57da-4887-877a-c491a88a86d9}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Id to put in text tags to make this entry appear in ui text. Like [[img:key]][[/img]]</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+<field>
+<field_uuid>{2fde695e-82b7-43b3-8aed-64745b37e78b}</field_uuid>
+<primary_key>0</primary_key>
+<name>image_path</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Full image path to put in tags with this key</field_description>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+</field>
+</root>

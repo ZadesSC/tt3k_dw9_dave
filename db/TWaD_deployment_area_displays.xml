@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_deployment_area_displays>
+<root>
+<edit_uuid>91323c99-1aeb-4212-8bba-87e7bb138b89</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{567c713f-7e58-4441-9cd7-5907c01441ab}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{2d08f3a2-aaa5-4f6c-bad2-42c714c32dae}</field_uuid>
+<primary_key>0</primary_key>
+<name>vfx</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>particle_effects</column_source_table>
+<field_description>Optional vfx to map around area</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{15e8b208-85e1-40c3-b66a-bd881e961205}</field_uuid>
+<primary_key>0</primary_key>
+<name>vfx_step_size</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>5</default_value>
+<field_description>How spaced out in metres vfx are. Smaller means more particles so more expensive, but can get more detailed shapes</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{76cf2933-7381-43e6-a2c1-348ae58887a4}</field_uuid>
+<primary_key>0</primary_key>
+<name>custom_spline</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>custom_splines</column_source_table>
+<field_description>Spline to use for visualising deployment area</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

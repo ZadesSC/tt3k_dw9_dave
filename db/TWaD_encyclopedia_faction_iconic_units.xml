@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_encyclopedia_faction_iconic_units>
+<root>
+<edit_uuid>6afa456e-d309-4bdb-8a3c-cb686c167492</edit_uuid>
+<field>
+<field_uuid>{a883eb80-f557-4207-b69c-cfa98e5c9916}</field_uuid>
+<primary_key>1</primary_key>
+<name>main_unit_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>unit</column_source_column>
+<column_source_table>main_units</column_source_table>
+<encyclopaedia_export>1</encyclopaedia_export>
+</field>
+<field>
+<field_uuid>{3933780d-dae6-4ac1-bcd1-c0dca82a26b5}</field_uuid>
+<primary_key>1</primary_key>
+<name>faction_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>factions</column_source_table>
+<encyclopaedia_export>1</encyclopaedia_export>
+</field>
+</root>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="contextual_diplomacy_event_set_items.xsd" export_time="Fri Mar 8 14:45:39 2019" revision="7" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1369/dave" export_user="bob">
+<edit_uuid>417459e0-f23f-4aa5-8164-78b3f9b645ef</edit_uuid>
+<contextual_diplomacy_event_set_items record_uuid="{d8e83537-17d0-411d-9a59-617619bb61cb}" record_timestamp="1536074938365" record_key="BATTLE_ATTACKTARGET">
+<diplomacy_event>BATTLE_ATTACK</diplomacy_event>
+<priority>0</priority>
+<required_treaty_components></required_treaty_components>
+<scope>TARGET</scope>
+<scope_required_treaty_components></scope_required_treaty_components>
+<set>BATTLE_ATTACK</set>
+</contextual_diplomacy_event_set_items>
+<contextual_diplomacy_event_set_items record_uuid="{0ff44568-b429-4cf5-a6ab-d50159307f39}" record_timestamp="1552056336683" record_key="BATTLE_ATTACK_OWN_REGIONTARGET">
+<diplomacy_event>BATTLE_ATTACK_OWN_REGION</diplomacy_event>
+<priority>0</priority>
+<required_treaty_components></required_treaty_components>
+<scope>TARGET</scope>
+<scope_required_treaty_components></scope_required_treaty_components>
+<set>BATTLE_ATTACK_OWN_REGION</set>
+</contextual_diplomacy_event_set_items>
+<contextual_diplomacy_event_set_items record_uuid="{26cf1d2c-1abf-4f09-80ab-e78fbf4b4b03}" record_timestamp="1552056336486" record_key="BATTLE_ATTACK_OWN_REGIONtreaty_component_set_diplomatic_relationship_group_warTARGET">
+<diplomacy_event>BATTLE_ATTACK_ALLIANCE_TARGET</diplomacy_event>
+<priority>1</priority>
+<required_treaty_components>treaty_component_set_diplomatic_relationship_group_war</required_treaty_components>
+<scope>TARGET</scope>
+<scope_required_treaty_components></scope_required_treaty_components>
+<set>BATTLE_ATTACK_OWN_REGION</set>
+</contextual_diplomacy_event_set_items>
+<contextual_diplomacy_event_set_items record_uuid="{0f89e2df-02a0-4b04-bca6-997426b8b381}" record_timestamp="1536074939239" record_key="BATTLE_ATTACKtreaty_component_set_diplomatic_relationship_group_warTARGET">
+<diplomacy_event>BATTLE_ATTACK_ALLIANCE_TARGET</diplomacy_event>
+<priority>1</priority>
+<required_treaty_components>treaty_component_set_diplomatic_relationship_group_war</required_treaty_components>
+<scope>TARGET</scope>
+<scope_required_treaty_components></scope_required_treaty_components>
+<set>BATTLE_ATTACK</set>
+</contextual_diplomacy_event_set_items>
+<contextual_diplomacy_event_set_items record_uuid="{a6109300-e18b-4718-a9be-0252e70ac310}" record_timestamp="1536074937907" record_key="DATA_FRIENDLY_AGENT_ACTIONTARGET">
+<diplomacy_event>HOSTILE_AGENT_ACTION</diplomacy_event>
+<priority>0</priority>
+<required_treaty_components></required_treaty_components>
+<scope>TARGET</scope>
+<scope_required_treaty_components></scope_required_treaty_components>
+<set>DATA_FRIENDLY_AGENT_ACTION</set>
+</contextual_diplomacy_event_set_items>
+<contextual_diplomacy_event_set_items record_uuid="{96a197b3-e482-4a3c-9ab9-d232718b9c39}" record_timestamp="1536074937817" record_key="DATA_FRIENDLY_AGENT_ACTIONtreaty_component_set_diplomatic_deal_military_alliesTARGET">
+<diplomacy_event>HOSTILE_AGENT_ACTION</diplomacy_event>
+<priority>2</priority>
+<required_treaty_components>treaty_component_set_diplomatic_deal_military_allies</required_treaty_components>
+<scope>TARGET</scope>
+<scope_required_treaty_components></scope_required_treaty_components>
+<set>DATA_FRIENDLY_AGENT_ACTION</set>
+</contextual_diplomacy_event_set_items>
+<contextual_diplomacy_event_set_items record_uuid="{94dbd380-211f-45e8-9075-27fac3e03afd}" record_timestamp="1536074938085" record_key="DATA_FRIENDLY_AGENT_ACTIONtreaty_component_set_diplomatic_relationship_coalitionTARGET">
+<diplomacy_event>HOSTILE_AGENT_ACTION</diplomacy_event>
+<priority>1</priority>
+<required_treaty_components>treaty_component_set_diplomatic_relationship_coalition</required_treaty_components>
+<scope>TARGET</scope>
+<scope_required_treaty_components></scope_required_treaty_components>
+<set>DATA_FRIENDLY_AGENT_ACTION</set>
+</contextual_diplomacy_event_set_items>
+<contextual_diplomacy_event_set_items record_uuid="{d31f8744-2c74-4acf-9139-12b53264bd9a}" record_timestamp="1536074937994" record_key="DATA_HOSTILE_AGENT_ACTIONTARGET">
+<diplomacy_event>HOSTILE_AGENT_ACTION</diplomacy_event>
+<priority>0</priority>
+<required_treaty_components></required_treaty_components>
+<scope>TARGET</scope>
+<scope_required_treaty_components></scope_required_treaty_components>
+<set>DATA_HOSTILE_AGENT_ACTION</set>
+</contextual_diplomacy_event_set_items>
+<contextual_diplomacy_event_set_items record_uuid="{72147081-a26c-492f-ba8e-f2e8b0126313}" record_timestamp="1536074938268" record_key="DATA_HOSTILE_AGENT_ACTIONtreaty_component_set_diplomatic_deal_military_alliesTARGET">
+<diplomacy_event>HOSTILE_AGENT_ACTION</diplomacy_event>
+<priority>2</priority>
+<required_treaty_components>treaty_component_set_diplomatic_deal_military_allies</required_treaty_components>
+<scope>TARGET</scope>
+<scope_required_treaty_components></scope_required_treaty_components>
+<set>DATA_HOSTILE_AGENT_ACTION</set>
+</contextual_diplomacy_event_set_items>
+<contextual_diplomacy_event_set_items record_uuid="{5e06e24f-4bab-4e57-bed6-fc32b14d8bb5}" record_timestamp="1536074938175" record_key="DATA_HOSTILE_AGENT_ACTIONtreaty_component_set_diplomatic_relationship_coalitionTARGET">
+<diplomacy_event>HOSTILE_AGENT_ACTION</diplomacy_event>
+<priority>1</priority>
+<required_treaty_components>treaty_component_set_diplomatic_relationship_coalition</required_treaty_components>
+<scope>TARGET</scope>
+<scope_required_treaty_components></scope_required_treaty_components>
+<set>DATA_HOSTILE_AGENT_ACTION</set>
+</contextual_diplomacy_event_set_items>
+<contextual_diplomacy_event_set_items record_uuid="{0a661f5f-0845-4742-9b3c-3de5cab60cfb}" record_timestamp="1542046198641" record_key="DATA_IMPROVE_RELATIONS_AGENT_ACTIONTARGET">
+<diplomacy_event>FRIENDLY_AGENT_ACTION</diplomacy_event>
+<priority>0</priority>
+<required_treaty_components></required_treaty_components>
+<scope>TARGET</scope>
+<scope_required_treaty_components></scope_required_treaty_components>
+<set>DATA_IMPROVE_RELATIONS_AGENT_ACTION</set>
+</contextual_diplomacy_event_set_items>
+<contextual_diplomacy_event_set_items record_uuid="{351dce4f-1d67-4642-a02c-5003af427e06}" record_timestamp="1548770599861" record_key="DATA_SURRENDER_FACTION_AGENT_ACTION_DIPLOMACY_BOOSTTARGET">
+<diplomacy_event>SPY_BECAME_SEPARATIST_LEADER</diplomacy_event>
+<priority>2</priority>
+<required_treaty_components></required_treaty_components>
+<scope>TARGET</scope>
+<scope_required_treaty_components></scope_required_treaty_components>
+<set>DATA_SURRENDER_FACTION_AGENT_ACTION_DIPLOMACY_BOOST</set>
+</contextual_diplomacy_event_set_items>
+<contextual_diplomacy_event_set_items record_uuid="{0805fcfa-c0b2-4c94-a136-664fe5ba42a7}" record_timestamp="1536074939413" record_key="RETREATED_FROM_BATTLETARGET">
+<diplomacy_event>RETREATED_ON_CAMPAIGN_MAP</diplomacy_event>
+<priority>0</priority>
+<required_treaty_components></required_treaty_components>
+<scope>TARGET</scope>
+<scope_required_treaty_components></scope_required_treaty_components>
+<set>RETREATED_FROM_BATTLE</set>
+</contextual_diplomacy_event_set_items>
+</dataroot>

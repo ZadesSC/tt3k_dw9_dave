@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_personality_captive_components>
+<root>
+<edit_uuid>cb4db4ae-592f-4ec0-85a6-4ad403ab49ad</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{0b7ee8d1-3a52-4a3d-8a4d-f2560756c422}</field_uuid>
+<primary_key>1</primary_key>
+<name>id</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{de438ab4-1ca1-450a-8fe4-3f80423720b1}</field_uuid>
+<primary_key>0</primary_key>
+<name>bias_kill</name>
+<field_type>double</field_type>
+<required>1</required>
+<field_description>Bias for killing captives/character captives.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{8233cc7c-80d2-4964-955f-a230a014322a}</field_uuid>
+<primary_key>0</primary_key>
+<name>bias_enslave</name>
+<field_type>double</field_type>
+<required>1</required>
+<field_description>Bias for killing captives.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{712e1b2a-dea8-4560-9d06-c7c27cff12e2}</field_uuid>
+<primary_key>0</primary_key>
+<name>bias_release</name>
+<field_type>double</field_type>
+<required>1</required>
+<field_description>Bias for releasing captives/character captives.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{3674c023-7e29-4e74-9d11-422453f108d6}</field_uuid>
+<primary_key>0</primary_key>
+<name>espionage_target_min_regions_abs</name>
+<field_type>double</field_type>
+<required>1</required>
+<field_description>Minimum number of regions for releasing a character as a spy, absolute number.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{7996e9f2-6b02-4407-bdfa-303c190b19c4}</field_uuid>
+<primary_key>0</primary_key>
+<name>espionage_target_min_regions_rel</name>
+<field_type>double</field_type>
+<required>1</required>
+<field_description>Minimum number of regions for releasing a character as a spy, relative to number of our regions.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

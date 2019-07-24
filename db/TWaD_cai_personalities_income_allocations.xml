@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_cai_personalities_income_allocations>
+<root>
+<edit_uuid>86c204ec-4c8f-4395-96f5-7eea1a5970b4</edit_uuid>
+<field>
+<field_uuid>{696e5cbb-d521-4a0d-a8e7-4857e14386b0}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+</field>
+<field>
+<field_uuid>{2219083e-380a-4550-ab44-40d41262e644}</field_uuid>
+<primary_key>0</primary_key>
+<name>proportion_of_net_income_to_spend</name>
+<field_type>double</field_type>
+<required>1</required>
+<default_value>0.5</default_value>
+</field>
+<field>
+<field_uuid>{3c540108-bb78-4f90-bf69-29a51fa3f078}</field_uuid>
+<primary_key>0</primary_key>
+<name>zero_or_negative_net_income_survival_rounds</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>20</default_value>
+</field>
+<field>
+<field_uuid>{3f4970f8-875a-47fa-ba8a-66a7a2279fa5}</field_uuid>
+<primary_key>0</primary_key>
+<name>positive_net_income_survival_rounds</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>10</default_value>
+</field>
+</root>

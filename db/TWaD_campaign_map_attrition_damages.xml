@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_map_attrition_damages>
+<root>
+<edit_uuid>cbca21ec-24ff-4daf-a574-e4b2c2847026</edit_uuid>
+<field>
+<field_uuid>{8ba8b5b9-1e99-4a8c-a9f5-75d62d770a10}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+</field>
+<field>
+<field_uuid>{2c5f7ddc-a9d2-43fa-8f43-07331cc83984}</field_uuid>
+<primary_key>0</primary_key>
+<name>percent_unit_damage</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>0.01</default_value>
+</field>
+</root>

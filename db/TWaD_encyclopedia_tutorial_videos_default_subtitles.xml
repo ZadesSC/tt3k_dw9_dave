@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_encyclopedia_tutorial_videos_default_subtitles>
+<root>
+<edit_uuid>e3918ec9-1684-4834-90b4-34788910f7cf</edit_uuid>
+<field>
+<field_uuid>{2011fefc-4b76-4bef-b90b-2a1eafe98314}</field_uuid>
+<primary_key>1</primary_key>
+<name>video</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>encyclopedia_tutorial_videos</column_source_table>
+</field>
+<field>
+<field_uuid>{7e64d592-a884-47d0-ba85-b487c0ffc4e5}</field_uuid>
+<primary_key>1</primary_key>
+<name>language</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>languages</column_source_table>
+</field>
+</root>

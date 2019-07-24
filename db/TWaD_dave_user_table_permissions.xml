@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_dave_user_table_permissions>
+<root>
+<edit_uuid>31908f60-7045-44ba-bccf-92bf93e5de66</edit_uuid>
+<field>
+<field_uuid>{08d72dba-dd21-427d-9ae9-20bacbb568c8}</field_uuid>
+<primary_key>1</primary_key>
+<name>user_name</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+</field>
+<field>
+<field_uuid>{4b2a329f-399b-454b-9667-4f1a236e2614}</field_uuid>
+<primary_key>1</primary_key>
+<name>table_name</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>table_name</column_source_column>
+<column_source_table>TExc_ImplementedTables</column_source_table>
+</field>
+<field>
+<field_uuid>{6f53df10-7e88-4982-b985-218acb740711}</field_uuid>
+<primary_key>1</primary_key>
+<name>permission</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>permission</column_source_column>
+<column_source_table>dave_permissions</column_source_table>
+</field>
+</root>

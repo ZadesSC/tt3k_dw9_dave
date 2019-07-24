@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_settlement_siege_action_effect_province_growth_amounts>
+<root>
+<edit_uuid>49b99509-4f25-48ee-bfec-1d4da1aea720</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{f7bf0000-9bf5-4318-a5b3-55aee45fb44a}</field_uuid>
+<primary_key>1</primary_key>
+<name>effect_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>effect_group</column_source_column>
+<column_source_table>settlement_siege_action_effect_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{6a840888-36b9-4277-b527-ce8075beb29d}</field_uuid>
+<primary_key>0</primary_key>
+<name>base_growth</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c8f9310e-8327-4b7e-852f-e64177d84f56}</field_uuid>
+<primary_key>0</primary_key>
+<name>growth_per_unit_in_acting_force</name>
+<field_type>integer</field_type>
+<required>1</required>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

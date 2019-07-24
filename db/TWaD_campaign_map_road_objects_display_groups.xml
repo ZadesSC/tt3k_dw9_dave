@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_map_road_objects_display_groups>
+<root>
+<edit_uuid>9087c4c9-7595-4d95-8415-6be6f6eec387</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{18bc2a7e-26a6-4eca-8189-b0a608104e6d}</field_uuid>
+<primary_key>1</primary_key>
+<name>campaign_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>campaign_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{8b639de1-473f-4742-8fbf-13d6b2be9717}</field_uuid>
+<primary_key>1</primary_key>
+<name>model_group</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>group</column_source_column>
+<column_source_table>campaign_map_road_objects_display_model_groups</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{bd4cbfe8-ceee-491a-9860-453bd38b98b1}</field_uuid>
+<primary_key>0</primary_key>
+<name>frequency</name>
+<field_type>single</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>Defines how many times per minute models from the groups are spawned</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

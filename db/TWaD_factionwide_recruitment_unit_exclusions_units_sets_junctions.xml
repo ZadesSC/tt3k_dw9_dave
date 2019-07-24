@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_factionwide_recruitment_unit_exclusions_units_sets_junctions>
+<root>
+<edit_uuid>f561f5cc-6102-421d-bdc3-6c0611367901</edit_uuid>
+<agf_special_dependencies></agf_special_dependencies>
+<field>
+<field_uuid>{74e472b2-514b-4025-8c32-757a0d3dbce4}</field_uuid>
+<primary_key>1</primary_key>
+<name>set</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>set</column_source_column>
+<column_source_table>factionwide_recruitment_unit_exclusions_sets</column_source_table>
+<agf_link_to_dependency>1</agf_link_to_dependency>
+<agf_link_to_dependents>0</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+<field>
+<field_uuid>{4bdc1bce-4b93-40e9-9a39-f5cdd30eb9d1}</field_uuid>
+<primary_key>1</primary_key>
+<name>unit</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>unit</column_source_column>
+<column_source_table>main_units</column_source_table>
+<agf_link_to_dependency>0</agf_link_to_dependency>
+<agf_link_to_dependents>1</agf_link_to_dependents>
+<agf_done>1</agf_done>
+</field>
+</root>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_dynamic_loading_screen_events>
+<root>
+<edit_uuid>e0a4e3c3-3355-494b-a636-810a90503c21</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{844abab1-03b4-47d8-8f17-251ace051a79}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>Event Name</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{b13bfc5d-2507-4333-b2f3-04ce10dcf153}</field_uuid>
+<primary_key>0</primary_key>
+<name>category</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>dynamic_loading_screen_event_categories</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{50931288-bd59-4b59-821c-879f63a42fb9}</field_uuid>
+<primary_key>0</primary_key>
+<name>evaluation_type</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>type</column_source_column>
+<column_source_table>dynamic_loading_screen_event_evaluation_types</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{34ce186e-e806-4b8f-9fe2-849b83021f9d}</field_uuid>
+<primary_key>0</primary_key>
+<name>event_feed_trigger_keys</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<field_description>Event feed id that will trigger this event, multiple can be specified with CSV</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{d5e879b6-98f9-413e-8966-e4ce303ddcc7}</field_uuid>
+<primary_key>0</primary_key>
+<name>priority</name>
+<field_type>integer</field_type>
+<required>1</required>
+<field_description>0 is highest priority, &gt;0 towards lowest</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{1335fa0b-6b32-4d9c-83ed-3826840eabb1}</field_uuid>
+<primary_key>0</primary_key>
+<name>turns_to_expire</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>10</default_value>
+<field_description>After this number of turns the event will be purged from the history. -1 to never purge</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>
