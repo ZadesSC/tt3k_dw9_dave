@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_spawners.xsd" export_time="Tue Mar 19 16:27:32 2019" revision="40" export_branch="C:/Users/simon.mann/AppData/Roaming/TWDaemon/1394/dave" export_user="bob">
-<edit_uuid>5f1548f8-6c3e-43cb-827d-df5f35a680af</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_spawners.xsd" export_time="Thu Jul 25 22:29:10 2019" revision="41" export_branch="E:/Games/Steam/SteamApps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>fa5a7a5c-bc35-4e2d-b5d8-297711720eda</edit_uuid>
 <ceo_spawners record_uuid="{f5e6ea5c-6eb7-48b3-9f83-e4d69a8a4942}" record_timestamp="1505913200660" record_key="3k_main_ceo_spawner_ancillary_adept">
 <destroy_if_point_gain_disabled>0</destroy_if_point_gain_disabled>
 <destroy_if_spawning_disabled>0</destroy_if_spawning_disabled>
@@ -1770,6 +1770,21 @@
 <reset_if_spawning_disabled>0</reset_if_spawning_disabled>
 <spawn_threshold>1</spawn_threshold>
 <spawns_ceo>3k_main_ancillary_accessory_hua_tuos_manual</spawns_ceo>
+</ceo_spawners>
+<ceo_spawners record_uuid="{b2fdb947-7fb2-431d-a18b-8651f48b28b9}" record_timestamp="1564118950233" record_key="3k_main_ceo_spawner_ancillary_huang_gais_armour_unique">
+<destroy_if_point_gain_disabled>0</destroy_if_point_gain_disabled>
+<destroy_if_spawning_disabled>0</destroy_if_spawning_disabled>
+<exists_in_location>character_ceo_manager</exists_in_location>
+<key>3k_main_ceo_spawner_ancillary_huang_gais_armour_unique</key>
+<max_points>1</max_points>
+<min_points>0</min_points>
+<points_change_per_turn_if_spawing_disabled>0</points_change_per_turn_if_spawing_disabled>
+<points_change_per_turn_if_spawing_enabled>0</points_change_per_turn_if_spawing_enabled>
+<provides_scripted_permissions_on_spawn></provides_scripted_permissions_on_spawn>
+<reset_if_point_gain_disabled>0</reset_if_point_gain_disabled>
+<reset_if_spawning_disabled>0</reset_if_spawning_disabled>
+<spawn_threshold>1</spawn_threshold>
+<spawns_ceo>3k_main_ancillary_armour_huang_gais_armour_unique</spawns_ceo>
 </ceo_spawners>
 <ceo_spawners record_uuid="{6162584c-7933-45df-a74f-098bef9443de}" record_timestamp="1505913200629" record_key="3k_main_ceo_spawner_ancillary_huang_zhongs_armour_unique">
 <destroy_if_point_gain_disabled>0</destroy_if_point_gain_disabled>
