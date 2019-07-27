@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_nodes.xsd" export_time="Wed Jul 24 22:26:14 2019" revision="150" export_branch="E:/Games/Steam/SteamApps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>97d14f94-bae9-492b-95f6-fd5424dafb45</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_nodes.xsd" export_time="Fri Jul 26 05:01:19 2019" revision="156" export_branch="C:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>804c980a-616e-4ef7-a7b9-5969e7ec5c53</edit_uuid>
 <ceo_nodes record_uuid="{e55f0c0a-5f2f-471e-90b2-1acf799420a3}" record_timestamp="1527187467965" record_key="3k_main_ancillary_adept">
 <ceo_effect_list>3k_main_ancillary_follower_adept</ceo_effect_list>
 <description state="APPROVED" last_approved_text="&quot;Practice makes perfect, the more that you do it.&quot;" last_edit_user="bob" requires_translation="false" requires_recording="false">&quot;Practice makes perfect, the more that you do it.&quot;</description>
@@ -2935,6 +2935,15 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Vindictive Strategist" last_edit_user="bob" requires_translation="false" requires_recording="false">Vindictive Strategist</title>
 </ceo_nodes>
+<ceo_nodes record_uuid="{071f5065-6afc-411b-90ab-6c06c03545de}" record_timestamp="1564142479913" record_key="3k_main_ceo_node_career_historical_fan_chou_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_fan_chou_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-26T05:01:19" requires_translation="false" requires_recording="false">Fan Chou is a serious man who speaks his mind, others don't always take it so well...</description>
+<icon_path>UI/Campaign UI/traits/icon_stern_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_fan_chou_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_discipline_stern</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Stern General</title>
+</ceo_nodes>
 <ceo_nodes record_uuid="{a0048a6d-e494-4181-975e-a748c692a4eb}" record_timestamp="1527170550198" record_key="3k_main_ceo_node_career_historical_gan_ning_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_gan_ning_01</ceo_effect_list>
 <description state="APPROVED" last_approved_text="&quot;Cao Cao may have Zhang Liao, but I have Gan Ning! Thus we are evenly matched.&quot;" last_edit_user="bob" requires_translation="false" requires_recording="false">&quot;Cao Cao may have Zhang Liao, but I have Gan Ning! Thus we are evenly matched.&quot;</description>
@@ -3070,6 +3079,15 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Diligent Agriculturalist" last_edit_user="bob" requires_translation="false" requires_recording="false">Diligent Agriculturalist</title>
 </ceo_nodes>
+<ceo_nodes record_uuid="{06e7c47f-1ccc-4719-8473-d31aadf03aba}" record_timestamp="1564099503140" record_key="3k_main_ceo_node_career_historical_han_hao_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_han_hao_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Han Hao understands the importance of keeping the people fed.</description>
+<icon_path>UI/Campaign UI/traits/icon_stalwart_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_han_hao_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_determination_committed</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Agricultural Advocate</title>
+</ceo_nodes>
 <ceo_nodes record_uuid="{a8fc2f37-f8be-4847-afea-8ef61ca6137e}" record_timestamp="1527170550198" record_key="3k_main_ceo_node_career_historical_han_sui_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_han_sui_01</ceo_effect_list>
 <description state="APPROVED" last_approved_text="Insurrection is in Han Sui’s blood. To him, subservience cannot be permanent." last_edit_user="bob" requires_translation="false" requires_recording="false">Insurrection is in Han Sui’s blood. To him, subservience cannot be permanent.</description>
@@ -3151,6 +3169,15 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Aged General" last_edit_user="bob" requires_translation="false" requires_recording="false">Aged General</title>
 </ceo_nodes>
+<ceo_nodes record_uuid="{b28a5ecd-6850-4b21-8146-15bfa5f21f61}" record_timestamp="1564099503142" record_key="3k_main_ceo_node_career_historical_ji_ling_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_ji_ling_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Yuan Shu's greatest general wielding a large and heavy trident</description>
+<icon_path>UI/Campaign UI/traits/icon_ambitious_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_ji_ling_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_determination_competitive</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Trident Wielder</title>
+</ceo_nodes>
 <ceo_nodes record_uuid="{ff5ad971-a795-4325-853e-259e4c31c73e}" record_timestamp="1564032372815" record_key="3k_main_ceo_node_career_historical_jia_chong_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_jia_chong_01</ceo_effect_list>
 <description state="NOT_APPROVED" last_approved_text="" last_edit_user="zades" last_edit_date="2019-07-24T22:26:12" requires_translation="false" requires_recording="false">As the son of Jia Kui of Wei, he grew to be a notable officer and a powerful politician. Seeing his skills, Sima Yi placed him on his side as a confidant along with Sima Shi and Sima Zhao.</description>
@@ -3214,6 +3241,24 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Pure Conversationalist" last_edit_user="bob" requires_translation="false" requires_recording="false">Pure Conversationalist</title>
 </ceo_nodes>
+<ceo_nodes record_uuid="{e8fa457f-5fd8-42db-bd13-16d46771ca86}" record_timestamp="1564115396618" record_key="3k_main_ceo_node_career_historical_kuai_liang_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_kuai_liang_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T21:29:56" requires_translation="false" requires_recording="false">With a cool head Kuai Liang can lay be relied upon to lay out an effective strategy to deal with any threat.</description>
+<icon_path>UI/Campaign UI/traits/icon_intelligent_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_kuai_liang_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_perception_perceptive</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Sub Zero Strategist</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{57402910-bce2-4d15-a0de-70348eba3215}" record_timestamp="1564099503142" record_key="3k_main_ceo_node_career_historical_kuai_yue_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_kuai_yue_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">A very effective administrator, having Kuai Yue on your side is always of great benefit.</description>
+<icon_path>UI/Campaign UI/traits/icon_intelligent_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_kuai_yue_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_intelligence_scholarly</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Effective Administrator</title>
+</ceo_nodes>
 <ceo_nodes record_uuid="{9794a20c-ae3c-4ded-8285-04808f79fb0b}" record_timestamp="1564032372364" record_key="3k_main_ceo_node_career_historical_lady_bao_sanniang_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_lady_bao_sanniang_01</ceo_effect_list>
 <description state="NOT_APPROVED" last_approved_text="" last_edit_user="zades" last_edit_date="2019-07-24T22:26:12" requires_translation="false" requires_recording="false">Born as the third daughter of the Bao family, she went on to follow Guan Suo after the two met on the battlefield wherein she became interested in him. She had a fearless personality and was often seen beaming with cheer and positivity.</description>
@@ -3240,6 +3285,15 @@
 <opinion_topic_modifier>3k_main_opinion_topic_set_bravery_intrepid</opinion_topic_modifier>
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="NOT_APPROVED" last_approved_text="" last_edit_user="zades" last_edit_date="2019-07-24T22:26:12" requires_translation="false" requires_recording="false">Elegant Guardian</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{a3acb13c-0617-4073-9449-5b5167e7688e}" record_timestamp="1564099503141" record_key="3k_main_ceo_node_career_historical_lady_cai_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_lady_cai_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Lady Cai spins a web of plots and lies to have her son Liu Cong become heir.</description>
+<icon_path>UI/Campaign UI/traits/icon_intelligent_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_lady_cai_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_intelligence_cunning</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">The Spider</title>
 </ceo_nodes>
 <ceo_nodes record_uuid="{437a093e-9462-4605-9561-05b25ff23fd3}" record_timestamp="1564032372673" record_key="3k_main_ceo_node_career_historical_lady_cai_yan_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_lady_cai_yan_01</ceo_effect_list>
@@ -3475,6 +3529,15 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Gentleman of the Han" last_edit_user="bob" requires_translation="false" requires_recording="false">Gentleman of the Han</title>
 </ceo_nodes>
+<ceo_nodes record_uuid="{aa11ee3e-abca-4977-a471-e17fd4dc81ba}" record_timestamp="1564141611821" record_key="3k_main_ceo_node_career_historical_liu_cong_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_liu_cong_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-26T04:46:51" requires_translation="false" requires_recording="false">Liu Cong's ambitions lead him to usurp the position of heir from his brother Liu Qi</description>
+<icon_path>UI/Campaign UI/traits/icon_ambitious_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_liu_cong_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_determination_ambitious</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-26T04:46:51" requires_translation="false" requires_recording="false">Ambitious Usurper</title>
+</ceo_nodes>
 <ceo_nodes record_uuid="{f7829a5e-dab8-4c59-80d7-9e7779af5d91}" record_timestamp="1527170550199" record_key="3k_main_ceo_node_career_historical_liu_dai_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_liu_dai_01</ceo_effect_list>
 <description state="APPROVED" last_approved_text="In spite of the harsh realities of palace life, Liu Dai conducts himself according to his nature: with kindness and benevolence." last_edit_user="bob" requires_translation="false" requires_recording="false">In spite of the harsh realities of palace life, Liu Dai conducts himself according to his nature: with kindness and benevolence.</description>
@@ -3483,6 +3546,15 @@
 <opinion_topic_modifier>3k_main_opinion_topic_set_goodness_philanthropic</opinion_topic_modifier>
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Generous Attendant" last_edit_user="bob" requires_translation="false" requires_recording="false">Generous Attendant</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{d5a54ab4-544e-45b9-b5ce-e07b8bee525f}" record_timestamp="1564141611821" record_key="3k_main_ceo_node_career_historical_liu_qi_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_liu_qi_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-26T04:46:51" requires_translation="false" requires_recording="false">Envious of his brother, Liu Qi fully intends to rule.</description>
+<icon_path>UI/Campaign UI/traits/icon_brave_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_liu_qi_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_honour_honourable</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-26T04:46:51" requires_translation="false" requires_recording="false">Of Great Envy</title>
 </ceo_nodes>
 <ceo_nodes record_uuid="{d50e9a5c-367c-4697-9f03-3108a6c9ae12}" record_timestamp="1564032372506" record_key="3k_main_ceo_node_career_historical_liu_shan_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_liu_shan_01</ceo_effect_list>
@@ -3673,6 +3745,15 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Virtuous Outrider" last_edit_user="bob" requires_translation="false" requires_recording="false">Virtuous Outrider</title>
 </ceo_nodes>
+<ceo_nodes record_uuid="{506505cc-3153-4b58-bb26-b1f343fc191d}" record_timestamp="1564099503138" record_key="3k_main_ceo_node_career_historical_que_xuan_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_que_xuan_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Que Xuan considers himself the Son of Heaven, unfortunately for him most others do not.</description>
+<icon_path>UI/Campaign UI/traits/icon_ambitious_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_que_xuan_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_determination_ambitious</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Self Declared Emperor</title>
+</ceo_nodes>
 <ceo_nodes record_uuid="{00bce8ea-8712-4331-befb-def57281fe3d}" record_timestamp="1564032373138" record_key="3k_main_ceo_node_career_historical_shen_pei_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_shen_pei_01</ceo_effect_list>
 <description state="NOT_APPROVED" last_approved_text="" last_edit_user="zades" last_edit_date="2019-07-24T22:26:13" requires_translation="false" requires_recording="false">Shen Pei might not be the best strategist, but his unbending will and loyalty to his lord can not be questioned</description>
@@ -3681,6 +3762,15 @@
 <opinion_topic_modifier>3k_main_opinion_topic_set_loyalty_loyal</opinion_topic_modifier>
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="NOT_APPROVED" last_approved_text="" last_edit_user="zades" last_edit_date="2019-07-24T22:26:13" requires_translation="false" requires_recording="false">Unbending Vassal</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{58dd0a66-0da6-4caf-bd73-a2c98400637a}" record_timestamp="1564099503139" record_key="3k_main_ceo_node_career_historical_shi_hui_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_shi_hui_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Not happy to be ruled by others, Shi Hui is not quick to bend the knee.</description>
+<icon_path>UI/Campaign UI/traits/icon_brave_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_shi_hui_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_determination_defiant</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Defiant Lord</title>
 </ceo_nodes>
 <ceo_nodes record_uuid="{04e8ffaf-b469-433c-81ba-d109afacf460}" record_timestamp="1527170550199" record_key="3k_main_ceo_node_career_historical_shi_xie_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_shi_xie_01</ceo_effect_list>
@@ -3717,6 +3807,15 @@
 <opinion_topic_modifier>3k_main_opinion_topic_set_determination_ambitious</opinion_topic_modifier>
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="NOT_APPROVED" last_approved_text="" last_edit_user="zades" last_edit_date="2019-07-24T22:26:12" requires_translation="false" requires_recording="false">The Preordained</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{7d6646ca-1f20-4387-b46c-d5ff8d38a70b}" record_timestamp="1564099503140" record_key="3k_main_ceo_node_career_historical_sui_gu_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_sui_gu_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Sometimes fear is more helpful than bravery.</description>
+<icon_path>UI/Campaign UI/traits/icon_brave_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_sui_gu_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_intensity_reckless</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">White Rabbit</title>
 </ceo_nodes>
 <ceo_nodes record_uuid="{33263e98-123a-4d18-920a-c258a0994447}" record_timestamp="1527170550199" record_key="3k_main_ceo_node_career_historical_sun_ce_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_sun_ce_01</ceo_effect_list>
@@ -3780,6 +3879,15 @@
 <opinion_topic_modifier>3k_main_opinion_topic_set_intelligence_bright</opinion_topic_modifier>
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="NOT_APPROVED" last_approved_text="" last_edit_user="zades" last_edit_date="2019-07-24T22:26:13" requires_translation="false" requires_recording="false">Ignored Advisor</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{6bef7bd9-a239-462c-af6e-a1afe6f55dd6}" record_timestamp="1564099503139" record_key="3k_main_ceo_node_career_historical_wang_kuang_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_wang_kuang_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Wang Kuang often makes reckless decions without proper forethought.</description>
+<icon_path>UI/Campaign UI/traits/icon_stern_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_wang_kuang_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_folly_careless</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Impetuous Warlord</title>
 </ceo_nodes>
 <ceo_nodes record_uuid="{7f57fb51-243f-4b80-a50e-55c0b8f7aea4}" record_timestamp="1527170550199" record_key="3k_main_ceo_node_career_historical_wang_lang_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_wang_lang_01</ceo_effect_list>
@@ -3889,6 +3997,15 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="NOT_APPROVED" last_approved_text="" last_edit_user="zades" last_edit_date="2019-07-24T22:26:13" requires_translation="false" requires_recording="false">Shrewd Ambusher</title>
 </ceo_nodes>
+<ceo_nodes record_uuid="{12bc6486-566a-48fa-bd2e-0d962edc14f6}" record_timestamp="1564099503139" record_key="3k_main_ceo_node_career_historical_xu_shao_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_xu_shao_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">A man with insight into one's personality, he will always give an honest and objective assesment of ones character.</description>
+<icon_path>UI/Campaign UI/traits/icon_intelligent_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_xu_shao_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_perception_perceptive</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Judge of Character</title>
+</ceo_nodes>
 <ceo_nodes record_uuid="{a1619824-4376-4060-b333-ef2844dd5689}" record_timestamp="1564032372359" record_key="3k_main_ceo_node_career_historical_xu_sheng_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_xu_sheng_01</ceo_effect_list>
 <description state="NOT_APPROVED" last_approved_text="" last_edit_user="zades" last_edit_date="2019-07-24T22:26:12" requires_translation="false" requires_recording="false">Serving as a military general of Sun Quan, he played a key role in the battles at Chibi, Hefei, and the in the invasion of Jing. He was known for his &quot;fake towers&quot; ruse which caused Cao Pi to retreat believing Sun Quan knew of his attack and had the city heavily fortified beforehand.</description>
@@ -3942,6 +4059,24 @@
 <opinion_topic_modifier>3k_main_opinion_topic_set_bravery_intrepid</opinion_topic_modifier>
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Valiant Vanguard" last_edit_user="bob" requires_translation="false" requires_recording="false">Valiant Vanguard</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{6f3700d7-6642-463e-a0bd-d08f00c50d49}" record_timestamp="1564099503140" record_key="3k_main_ceo_node_career_historical_yan_pu_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_yan_pu_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Yan Pu has great foresight and planning, one would do well do to heed his advice.</description>
+<icon_path>UI/Campaign UI/traits/icon_intelligent_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_yan_pu_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_perception_vigilant</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Prudent Advisor</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{31479e38-9c8e-4645-b5bb-4c4512cd42c3}" record_timestamp="1564104029563" record_key="3k_main_ceo_node_career_historical_yang_song_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_yang_song_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T18:20:29" requires_translation="false" requires_recording="false">The deep seated greed of Yang Song can never be sated.</description>
+<icon_path>UI/Campaign UI/traits/icon_cunning_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_yang_song_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_vice_greedy</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Avaricious Official</title>
 </ceo_nodes>
 <ceo_nodes record_uuid="{2b9b7da0-0612-40ff-9224-d03b1fb03124}" record_timestamp="1527170550199" record_key="3k_main_ceo_node_career_historical_yu_jin_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_yu_jin_01</ceo_effect_list>
@@ -4005,6 +4140,33 @@
 <opinion_topic_modifier>3k_main_opinion_topic_set_intensity_fiery</opinion_topic_modifier>
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="The Lion of Yangping" last_edit_user="bob" requires_translation="false" requires_recording="false">The Lion of Yangping</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{76a0739a-46cc-45c9-a683-8fa23c7314eb}" record_timestamp="1564099503141" record_key="3k_main_ceo_node_career_historical_zang_ba_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_zang_ba_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Zang Ba is a man who follows his heart, even when it leads him into trouble.</description>
+<icon_path>UI/Campaign UI/traits/icon_brave_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_zang_ba_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_bravery_brave</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Valiant Brigand</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{9cf99eb9-2d53-46a7-b9c5-b3d3ccf42ff1}" record_timestamp="1564104029563" record_key="3k_main_ceo_node_career_historical_zang_hong_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_zang_hong_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T18:20:29" requires_translation="false" requires_recording="false">The handsome Zang Hong was the one to proclaim the oath made during the creation of the anti-Dong Zhuo alliance</description>
+<icon_path>UI/Campaign UI/traits/icon_honourable_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_zang_hong_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_honour_honourable</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Proclaimer of the Oath</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{7ce0df1d-9998-4bb0-b5ee-3ca042377135}" record_timestamp="1564099503142" record_key="3k_main_ceo_node_career_historical_ze_rong_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_ze_rong_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">While Ze Rong claims to be a Buddhist his greed, cruelty and deceit prove him a hypocrite.</description>
+<icon_path>UI/Campaign UI/traits/icon_ambitious_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_ze_rong_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_vice_deceitful</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">False Buddhist</title>
 </ceo_nodes>
 <ceo_nodes record_uuid="{9947c7d9-4fdb-42dd-a228-da2b198044b2}" record_timestamp="1564032372362" record_key="3k_main_ceo_node_career_historical_zhang_bao_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_zhang_bao_01</ceo_effect_list>
@@ -4077,6 +4239,15 @@
 <opinion_topic_modifier>3k_main_opinion_topic_set_intelligence_cunning</opinion_topic_modifier>
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Celestial Master" last_edit_user="bob" requires_translation="false" requires_recording="false">Celestial Master</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{94488747-6ea6-4ae4-ac60-3bf3833b53ec}" record_timestamp="1564099503139" record_key="3k_main_ceo_node_career_historical_zhang_miao_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_zhang_miao_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">While Zhang Miao is beloved by many for his kindness and generosity, he is also cowardly and opportunistic.</description>
+<icon_path>UI/Campaign UI/traits/icon_cowardly_water.png</icon_path>
+<key>3k_main_ceo_node_career_historical_zhang_miao_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_caution_cowardly</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Spenser" last_edit_date="2019-07-25T17:05:03" requires_translation="false" requires_recording="false">Cowardly Benefactor</title>
 </ceo_nodes>
 <ceo_nodes record_uuid="{923a0fb8-1933-4ad7-a092-d0852b8859db}" record_timestamp="1527170550199" record_key="3k_main_ceo_node_career_historical_zhang_yan_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_zhang_yan_01</ceo_effect_list>
