@@ -1,0 +1,110 @@
+<RIGID_MATERIALS version_number="5" >
+  <RIGID_MATERIAL name ='default'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='standard' />
+  </RIGID_MATERIAL>
+   <RIGID_MATERIAL name ='non_renderable'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='non_renderable' />
+  </RIGID_MATERIAL> 
+	<RIGID_MATERIAL name ='cloth'>
+		<LIGHTING_MATERIAL material_name='default_dry' shader_type='vertex_cloth'/>
+	</RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='cloak'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_cloth'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_cloth'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_cloth'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_skin'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_skin'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='collision_shape'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='collision_shape'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='debug_geometry'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='debug_geometry'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='custom_terrain'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='custom_terrain'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='projected_decal'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='projected_decal'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='tree_branch'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='tree'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='tree_leaf'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='tree_leaf'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='tree_billboard_material'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='billboard'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='ship_ambientmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='standard_ambient'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='ui_texture_combo'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='texture_combo'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='ui_texture_combo_vertex_wind'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='texture_combo_vertex_wind'/>
+  </RIGID_MATERIAL>
+   <RIGID_MATERIAL name ='vertex_wind'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='vertex_wind'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='tiled_dirtmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='tiled_dirtmap'/>
+  </RIGID_MATERIAL>
+   <RIGID_MATERIAL name ='grass_material'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='grass'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='static_point_light'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='point_light'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='decal'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='decal'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='decal_dirtmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='decal_dirtmap'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='dirtmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='dirtmap'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_dirtmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_dirtmap'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_decal'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_decal'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_decal_dirtmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_decal_dirtmap'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_skin_decal'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_skin_decal'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_skin_decal_dirtmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_skin_decal_dirtmap'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_skin_dirtmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_skin_dirtmap'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='water'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='water'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='unlit'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='unlit'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_unlit'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_unlit'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='terrain_blend'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='terrain_blend'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='campaign_trees'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='campaign_trees'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='ignore'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='ignore'/>
+  </RIGID_MATERIAL>
+</RIGID_MATERIALS>
