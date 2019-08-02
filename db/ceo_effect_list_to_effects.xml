@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_effect_list_to_effects.xsd" export_time="Thu Aug 1 18:34:28 2019" revision="264" export_branch="C:/Program Files (x86)/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>ae3c8bdd-67f0-47ff-99df-e22323d818e6</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_effect_list_to_effects.xsd" export_time="Fri Aug 2 16:05:30 2019" revision="265" export_branch="C:/Program Files (x86)/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>33034019-3d0e-46b7-ab74-761b5a626298</edit_uuid>
 <ceo_effect_list_to_effects record_uuid="{3d33b248-5636-4bc9-b358-1937e08f30dd}" record_timestamp="1549445268729" record_key="1000426288">
 <auto_id>1000426288</auto_id>
 <effect>3k_main_effect_ai_hint_general</effect>
@@ -4728,6 +4728,14 @@
 <effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>1</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{ea0a29da-a56e-4c0a-8ade-2d43587f0b08}" record_timestamp="1564779930433" record_key="132374563">
+<auto_id>132374563</auto_id>
+<effect>3k_main_effect_character_attribute_cunning_mod</effect>
+<effect_list>3k_custom_ancillary_armour_water</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>15</value>
 </ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{9fcdaa17-e49e-45e6-b965-3b40de0a34fe}" record_timestamp="1534874185094" record_key="1323999534">
 <auto_id>1323999534</auto_id>
@@ -11190,6 +11198,14 @@
 <effect>3k_main_effect_economy_trade_power</effect>
 <effect_list>3k_main_ancillary_follower_merchant</effect_list>
 <effect_scope>character_minister_to_faction</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>10</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{bfb89f84-d019-4414-9d1e-cb3d41974e86}" record_timestamp="1564779930437" record_key="1754859744">
+<auto_id>1754859744</auto_id>
+<effect>3k_main_effect_ai_hint_general</effect>
+<effect_list>3k_custom_ancillary_armour_water</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>10</value>
 </ceo_effect_list_to_effects>
@@ -22944,6 +22960,14 @@
 <effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>0.5</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{07538f58-8500-4b79-bd1e-785dbcf4a0cb}" record_timestamp="1564779930439" record_key="578344639">
+<auto_id>578344639</auto_id>
+<effect>3k_dummy_effect_ceo_subcategory_armour_unique</effect>
+<effect_list>3k_custom_ancillary_armour_water</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>0</value>
 </ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{2b98ab79-dc2b-4c26-83c6-0c0fb9134f21}" record_timestamp="1549445269379" record_key="580750790">
 <auto_id>580750790</auto_id>
