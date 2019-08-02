@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_initial_data_scripted_permissions.xsd" export_time="Thu Aug 1 11:22:16 2019" revision="40" export_branch="C:/Program Files (x86)/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>67f77ff0-ef6c-4637-8659-7641d2a6067f</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_initial_data_scripted_permissions.xsd" export_time="Thu Aug 1 21:31:16 2019" revision="49" export_branch="C:/Program Files (x86)/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>e34fa44f-c9bc-4380-857a-6fcbc73ef012</edit_uuid>
 <ceo_initial_data_scripted_permissions record_uuid="{73f2f20e-d495-44e3-82f4-c2b13b78383c}" record_timestamp="1538821339052" record_key="1005024699">
 <auto_id>1005024699</auto_id>
 <initial_data_stage>3k_main_ceo_initial_data_character_historical_gongsun_du_ancillaries</initial_data_stage>
@@ -406,6 +406,11 @@
 <initial_data_stage>3k_main_ceo_initial_data_character_ancillaries_allow_all</initial_data_stage>
 <scripted_permissions>3k_main_ceo_permissions_ancillary_accessory_character_enable</scripted_permissions>
 </ceo_initial_data_scripted_permissions>
+<ceo_initial_data_scripted_permissions record_uuid="{6a69604b-992e-4dda-8faa-ea5d41ef55ef}" record_timestamp="1564707218172" record_key="1274325954">
+<auto_id>1274325954</auto_id>
+<initial_data_stage>3k_main_ceo_initial_data_character_historical_xun_yu_ancillaries</initial_data_stage>
+<scripted_permissions>3k_custom_ceo_permissions_ancillary_armour_character_specific_xun_yu</scripted_permissions>
+</ceo_initial_data_scripted_permissions>
 <ceo_initial_data_scripted_permissions record_uuid="{ff626251-c4c4-492e-869d-39e34d931eb9}" record_timestamp="1544881940186" record_key="1279167599">
 <auto_id>1279167599</auto_id>
 <initial_data_stage>3k_main_ceo_initial_data_character_generic_earth_ancillaries_02</initial_data_stage>
@@ -531,11 +536,6 @@
 <initial_data_stage>3k_main_ceo_initial_data_character_historical_lu_xun_ancillaries</initial_data_stage>
 <scripted_permissions>3k_main_ceo_permissions_ancillary_armour_character_water_enable</scripted_permissions>
 </ceo_initial_data_scripted_permissions>
-<ceo_initial_data_scripted_permissions record_uuid="{41143b23-2257-46ec-ba56-dde2fa391fd2}" record_timestamp="1564676536869" record_key="1372293546">
-<auto_id>1372293546</auto_id>
-<initial_data_stage>3k_custom_ceo_initial_data_character_historical_test_ancillaries</initial_data_stage>
-<scripted_permissions>3k_main_ceo_permissions_ancillary_weapon_character_sword_one_handed_enable</scripted_permissions>
-</ceo_initial_data_scripted_permissions>
 <ceo_initial_data_scripted_permissions record_uuid="{ab52545e-8be9-4d06-a57d-5fb4b61a3123}" record_timestamp="1538821339031" record_key="137612718">
 <auto_id>137612718</auto_id>
 <initial_data_stage>3k_main_ceo_initial_data_character_historical_cao_ang_ancillaries</initial_data_stage>
@@ -545,16 +545,6 @@
 <auto_id>1378423326</auto_id>
 <initial_data_stage>3k_main_ceo_initial_data_character_historical_liu_yu_ancillaries</initial_data_stage>
 <scripted_permissions>3k_main_ceo_permissions_ancillary_weapon_character_axe_one_handed_enable</scripted_permissions>
-</ceo_initial_data_scripted_permissions>
-<ceo_initial_data_scripted_permissions record_uuid="{72d728e4-6b6d-41ef-aa42-619e1e83983a}" record_timestamp="1564676536869" record_key="1383954107">
-<auto_id>1383954107</auto_id>
-<initial_data_stage>3k_custom_ceo_initial_data_character_historical_test_ancillaries</initial_data_stage>
-<scripted_permissions>3k_main_ceo_permissions_ancillary_weapon_character_enable</scripted_permissions>
-</ceo_initial_data_scripted_permissions>
-<ceo_initial_data_scripted_permissions record_uuid="{928e40be-28d7-48fb-9417-98ac321f4179}" record_timestamp="1564676536868" record_key="1384168972">
-<auto_id>1384168972</auto_id>
-<initial_data_stage>3k_custom_ceo_initial_data_character_historical_test_ancillaries</initial_data_stage>
-<scripted_permissions>3k_main_ceo_permissions_ancillary_weapon_character_axe_dual_enable</scripted_permissions>
 </ceo_initial_data_scripted_permissions>
 <ceo_initial_data_scripted_permissions record_uuid="{5bccbf16-dc0f-4ef3-bc0e-51dc87803ddb}" record_timestamp="1538821339089" record_key="1386613828">
 <auto_id>1386613828</auto_id>
@@ -841,7 +831,7 @@
 <initial_data_stage>3k_main_ceo_initial_data_character_historical_lu_bu_ancillaries</initial_data_stage>
 <scripted_permissions>3k_main_ceo_permissions_ancillary_armour_character_specific_lu_bu</scripted_permissions>
 </ceo_initial_data_scripted_permissions>
-<ceo_initial_data_scripted_permissions record_uuid="{8b4bcb95-b6b3-4bfd-9f5e-dc58f50a4f57}" record_timestamp="1544881950480" record_key="157420634">
+<ceo_initial_data_scripted_permissions record_uuid="{8b4bcb95-b6b3-4bfd-9f5e-dc58f50a4f57}" record_timestamp="1564712956282" record_key="157420634">
 <auto_id>157420634</auto_id>
 <initial_data_stage>3k_main_ceo_initial_data_character_historical_cao_ren_ancillaries</initial_data_stage>
 <scripted_permissions>3k_main_ceo_permissions_ancillary_armour_character_metal_enable</scripted_permissions>
@@ -1001,10 +991,10 @@
 <initial_data_stage>3k_main_ceo_initial_data_character_historical_taishi_ci_ancillaries</initial_data_stage>
 <scripted_permissions>3k_main_ceo_permissions_ancillary_weapon_character_axe_dual_enable</scripted_permissions>
 </ceo_initial_data_scripted_permissions>
-<ceo_initial_data_scripted_permissions record_uuid="{61286f7f-847d-4f63-b627-123a0e0cebbe}" record_timestamp="1538821339099" record_key="1704402972">
+<ceo_initial_data_scripted_permissions record_uuid="{61286f7f-847d-4f63-b627-123a0e0cebbe}" record_timestamp="1564705309991" record_key="1704402972">
 <auto_id>1704402972</auto_id>
 <initial_data_stage>3k_main_ceo_initial_data_character_historical_ma_dai_ancillaries</initial_data_stage>
-<scripted_permissions>3k_main_ceo_permissions_ancillary_armour_character_fire_enable</scripted_permissions>
+<scripted_permissions>3k_custom_ceo_permissions_ancillary_armour_character_specific_fire</scripted_permissions>
 </ceo_initial_data_scripted_permissions>
 <ceo_initial_data_scripted_permissions record_uuid="{a9453318-d519-4057-9a4f-bb2ab73bb9be}" record_timestamp="1538821339033" record_key="1704457985">
 <auto_id>1704457985</auto_id>
@@ -1026,10 +1016,10 @@
 <initial_data_stage>3k_main_ceo_initial_data_character_historical_zhang_he_ancillaries</initial_data_stage>
 <scripted_permissions>3k_main_ceo_permissions_ancillary_weapon_character_spear_two_handed_enable</scripted_permissions>
 </ceo_initial_data_scripted_permissions>
-<ceo_initial_data_scripted_permissions record_uuid="{1d6d1c55-2bc6-4318-9fd0-6f6c8d256898}" record_timestamp="1538821339105" record_key="1715126091">
+<ceo_initial_data_scripted_permissions record_uuid="{1d6d1c55-2bc6-4318-9fd0-6f6c8d256898}" record_timestamp="1564705309991" record_key="1715126091">
 <auto_id>1715126091</auto_id>
 <initial_data_stage>3k_main_ceo_initial_data_character_historical_pang_de_ancillaries</initial_data_stage>
-<scripted_permissions>3k_main_ceo_permissions_ancillary_armour_character_wood_enable</scripted_permissions>
+<scripted_permissions>3k_custom_ceo_permissions_ancillary_armour_character_specific_test</scripted_permissions>
 </ceo_initial_data_scripted_permissions>
 <ceo_initial_data_scripted_permissions record_uuid="{fbac6e8f-8a86-4165-a3ca-b9d090dee3a7}" record_timestamp="1538821339036" record_key="1715513807">
 <auto_id>1715513807</auto_id>
@@ -1325,6 +1315,11 @@
 <auto_id>1964801916</auto_id>
 <initial_data_stage>3k_main_ceo_initial_data_character_historical_liu_yao_ancillaries</initial_data_stage>
 <scripted_permissions>3k_main_ceo_permissions_ancillary_weapon_character_sword_one_handed_enable</scripted_permissions>
+</ceo_initial_data_scripted_permissions>
+<ceo_initial_data_scripted_permissions record_uuid="{481ea143-d967-449b-8b88-47c27fa9ff94}" record_timestamp="1564713076176" record_key="1965185023">
+<auto_id>1965185023</auto_id>
+<initial_data_stage>3k_main_ceo_initial_data_character_historical_cao_ren_ancillaries</initial_data_stage>
+<scripted_permissions>3k_custom_ceo_permissions_ancillary_armour_character_specific_metal</scripted_permissions>
 </ceo_initial_data_scripted_permissions>
 <ceo_initial_data_scripted_permissions record_uuid="{595ff742-9b99-43c1-8c11-d6121779e376}" record_timestamp="1538821339120" record_key="1966240926">
 <auto_id>1966240926</auto_id>
@@ -1796,11 +1791,6 @@
 <initial_data_stage>3k_main_ceo_initial_data_character_generic_water_ancillaries_02</initial_data_stage>
 <scripted_permissions>3k_main_ceo_permissions_ancillary_armour_character_water_enable</scripted_permissions>
 </ceo_initial_data_scripted_permissions>
-<ceo_initial_data_scripted_permissions record_uuid="{5b583c16-c6ce-42d3-9184-5f83f1da342d}" record_timestamp="1564676536868" record_key="365101511">
-<auto_id>365101511</auto_id>
-<initial_data_stage>3k_custom_ceo_initial_data_character_historical_test_ancillaries</initial_data_stage>
-<scripted_permissions>3k_ytr_ceo_permissions_ancillary_weapon_character_mace_dual_enable</scripted_permissions>
-</ceo_initial_data_scripted_permissions>
 <ceo_initial_data_scripted_permissions record_uuid="{847a3ef8-40ac-4278-9287-f006d7ca728c}" record_timestamp="1538821339151" record_key="376215239">
 <auto_id>376215239</auto_id>
 <initial_data_stage>3k_main_ceo_initial_data_character_historical_yan_liang_ancillaries</initial_data_stage>
@@ -1996,11 +1986,6 @@
 <initial_data_stage>3k_main_ceo_initial_data_character_generic_metal_ancillaries_02</initial_data_stage>
 <scripted_permissions>3k_main_ceo_permissions_ancillary_armour_character_metal_enable</scripted_permissions>
 </ceo_initial_data_scripted_permissions>
-<ceo_initial_data_scripted_permissions record_uuid="{d259f357-aeb6-4b2c-80fa-4d3507dbebb7}" record_timestamp="1564676536868" record_key="537479550">
-<auto_id>537479550</auto_id>
-<initial_data_stage>3k_custom_ceo_initial_data_character_historical_test_ancillaries</initial_data_stage>
-<scripted_permissions>3k_main_ceo_permissions_ancillary_armour_character_metal_enable</scripted_permissions>
-</ceo_initial_data_scripted_permissions>
 <ceo_initial_data_scripted_permissions record_uuid="{a6ca43a5-61ad-4e15-9b2c-7967903fd1c5}" record_timestamp="1538821339051" record_key="541417313">
 <auto_id>541417313</auto_id>
 <initial_data_stage>3k_main_ceo_initial_data_character_historical_gongsun_du_ancillaries</initial_data_stage>
@@ -2085,11 +2070,6 @@
 <auto_id>601820594</auto_id>
 <initial_data_stage>3k_main_ceo_initial_data_character_historical_hua_xiong_ancillaries</initial_data_stage>
 <scripted_permissions>3k_main_ceo_permissions_ancillary_armour_character_fire_enable</scripted_permissions>
-</ceo_initial_data_scripted_permissions>
-<ceo_initial_data_scripted_permissions record_uuid="{ae5f25c9-08e1-4c82-bf5f-b841a4cef39a}" record_timestamp="1564676536869" record_key="604383947">
-<auto_id>604383947</auto_id>
-<initial_data_stage>3k_custom_ceo_initial_data_character_historical_test_ancillaries</initial_data_stage>
-<scripted_permissions>3k_main_ceo_permissions_ancillary_weapon_character_spear_two_handed_long_enable</scripted_permissions>
 </ceo_initial_data_scripted_permissions>
 <ceo_initial_data_scripted_permissions record_uuid="{fa6e1732-adce-4736-9631-bb1c1cd463e2}" record_timestamp="1538821339076" record_key="627477763">
 <auto_id>627477763</auto_id>
@@ -2286,11 +2266,6 @@
 <initial_data_stage>3k_main_ceo_initial_data_equipment_permissions_unique_wood</initial_data_stage>
 <scripted_permissions>3k_main_ceo_equipment_permissions_all</scripted_permissions>
 </ceo_initial_data_scripted_permissions>
-<ceo_initial_data_scripted_permissions record_uuid="{04ad8cc9-ed90-4adf-8f59-b9551d1c8513}" record_timestamp="1564676536867" record_key="784848068">
-<auto_id>784848068</auto_id>
-<initial_data_stage>3k_custom_ceo_initial_data_character_historical_test_ancillaries</initial_data_stage>
-<scripted_permissions>3k_custom_ceo_permissions_ancillary_armour_character_specific_test</scripted_permissions>
-</ceo_initial_data_scripted_permissions>
 <ceo_initial_data_scripted_permissions record_uuid="{07e77a33-416b-416b-8b95-a787b1f7714a}" record_timestamp="1538821339059" record_key="787207111">
 <auto_id>787207111</auto_id>
 <initial_data_stage>3k_main_ceo_initial_data_character_historical_han_sui_ancillaries</initial_data_stage>
@@ -2370,11 +2345,6 @@
 <auto_id>871803115</auto_id>
 <initial_data_stage>3k_main_ceo_initial_data_character_generic_fire_ancillaries_01</initial_data_stage>
 <scripted_permissions>3k_main_ceo_permissions_ancillary_armour_character_fire_enable</scripted_permissions>
-</ceo_initial_data_scripted_permissions>
-<ceo_initial_data_scripted_permissions record_uuid="{9b3aef09-f353-4860-9b79-1e98fa962e46}" record_timestamp="1564676536868" record_key="876969214">
-<auto_id>876969214</auto_id>
-<initial_data_stage>3k_custom_ceo_initial_data_character_historical_test_ancillaries</initial_data_stage>
-<scripted_permissions>3k_main_ceo_permissions_ancillary_weapon_character_sword_dual_enable</scripted_permissions>
 </ceo_initial_data_scripted_permissions>
 <ceo_initial_data_scripted_permissions record_uuid="{fdb20146-f3bf-4a70-b995-5579a38f56f5}" record_timestamp="1538821339073" record_key="878009942">
 <auto_id>878009942</auto_id>

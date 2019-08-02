@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_spawners.xsd" export_time="Thu Aug 1 11:13:35 2019" revision="41" export_branch="C:/Program Files (x86)/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>9869aef9-d9a4-4a8c-8433-367e65f57dba</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_spawners.xsd" export_time="Thu Aug 1 19:16:42 2019" revision="44" export_branch="C:/Program Files (x86)/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>5bb18318-cfc8-45e7-8d23-229192a74eee</edit_uuid>
+<ceo_spawners record_uuid="{bac6adaf-6fce-4345-8c73-679c779863c6}" record_timestamp="1564702921252" record_key="3k_custom_ceo_spawner_ancillary_earth_armour_unique">
+<destroy_if_point_gain_disabled>0</destroy_if_point_gain_disabled>
+<destroy_if_spawning_disabled>0</destroy_if_spawning_disabled>
+<exists_in_location>character_ceo_manager</exists_in_location>
+<key>3k_custom_ceo_spawner_ancillary_earth_armour_unique</key>
+<max_points>1</max_points>
+<min_points>0</min_points>
+<points_change_per_turn_if_spawing_disabled>0</points_change_per_turn_if_spawing_disabled>
+<points_change_per_turn_if_spawing_enabled>0</points_change_per_turn_if_spawing_enabled>
+<provides_scripted_permissions_on_spawn></provides_scripted_permissions_on_spawn>
+<reset_if_point_gain_disabled>0</reset_if_point_gain_disabled>
+<reset_if_spawning_disabled>0</reset_if_spawning_disabled>
+<spawn_threshold>1</spawn_threshold>
+<spawns_ceo>3k_custom_ancillary_armour_earth</spawns_ceo>
+</ceo_spawners>
+<ceo_spawners record_uuid="{8d60d49a-325b-4a6d-8704-df046c776ebf}" record_timestamp="1564702921252" record_key="3k_custom_ceo_spawner_ancillary_fire_armour_unique">
+<destroy_if_point_gain_disabled>0</destroy_if_point_gain_disabled>
+<destroy_if_spawning_disabled>0</destroy_if_spawning_disabled>
+<exists_in_location>character_ceo_manager</exists_in_location>
+<key>3k_custom_ceo_spawner_ancillary_fire_armour_unique</key>
+<max_points>1</max_points>
+<min_points>0</min_points>
+<points_change_per_turn_if_spawing_disabled>0</points_change_per_turn_if_spawing_disabled>
+<points_change_per_turn_if_spawing_enabled>0</points_change_per_turn_if_spawing_enabled>
+<provides_scripted_permissions_on_spawn></provides_scripted_permissions_on_spawn>
+<reset_if_point_gain_disabled>0</reset_if_point_gain_disabled>
+<reset_if_spawning_disabled>0</reset_if_spawning_disabled>
+<spawn_threshold>1</spawn_threshold>
+<spawns_ceo>3k_custom_ancillary_armour_fire</spawns_ceo>
+</ceo_spawners>
+<ceo_spawners record_uuid="{d23ec369-e211-4aa1-a7be-ae6132bfb086}" record_timestamp="1564702921252" record_key="3k_custom_ceo_spawner_ancillary_metal_armour_unique">
+<destroy_if_point_gain_disabled>0</destroy_if_point_gain_disabled>
+<destroy_if_spawning_disabled>0</destroy_if_spawning_disabled>
+<exists_in_location>character_ceo_manager</exists_in_location>
+<key>3k_custom_ceo_spawner_ancillary_metal_armour_unique</key>
+<max_points>1</max_points>
+<min_points>0</min_points>
+<points_change_per_turn_if_spawing_disabled>0</points_change_per_turn_if_spawing_disabled>
+<points_change_per_turn_if_spawing_enabled>0</points_change_per_turn_if_spawing_enabled>
+<provides_scripted_permissions_on_spawn></provides_scripted_permissions_on_spawn>
+<reset_if_point_gain_disabled>0</reset_if_point_gain_disabled>
+<reset_if_spawning_disabled>0</reset_if_spawning_disabled>
+<spawn_threshold>1</spawn_threshold>
+<spawns_ceo>3k_custom_ancillary_armour_metal</spawns_ceo>
+</ceo_spawners>
 <ceo_spawners record_uuid="{d35178d9-08e7-42ca-9dd6-7aa045031558}" record_timestamp="1564676015795" record_key="3k_custom_ceo_spawner_ancillary_test_armour_unique">
 <destroy_if_point_gain_disabled>0</destroy_if_point_gain_disabled>
 <destroy_if_spawning_disabled>0</destroy_if_spawning_disabled>
@@ -15,6 +60,21 @@
 <reset_if_spawning_disabled>0</reset_if_spawning_disabled>
 <spawn_threshold>1</spawn_threshold>
 <spawns_ceo>3k_custom_ancillary_armour_test</spawns_ceo>
+</ceo_spawners>
+<ceo_spawners record_uuid="{0b69e8d4-0cf1-4520-9260-41ca80eeb109}" record_timestamp="1564705002816" record_key="3k_custom_ceo_spawner_ancillary_xun_yu_armour_unique">
+<destroy_if_point_gain_disabled>0</destroy_if_point_gain_disabled>
+<destroy_if_spawning_disabled>0</destroy_if_spawning_disabled>
+<exists_in_location>character_ceo_manager</exists_in_location>
+<key>3k_custom_ceo_spawner_ancillary_xun_yu_armour_unique</key>
+<max_points>1</max_points>
+<min_points>0</min_points>
+<points_change_per_turn_if_spawing_disabled>0</points_change_per_turn_if_spawing_disabled>
+<points_change_per_turn_if_spawing_enabled>0</points_change_per_turn_if_spawing_enabled>
+<provides_scripted_permissions_on_spawn></provides_scripted_permissions_on_spawn>
+<reset_if_point_gain_disabled>0</reset_if_point_gain_disabled>
+<reset_if_spawning_disabled>0</reset_if_spawning_disabled>
+<spawn_threshold>1</spawn_threshold>
+<spawns_ceo>3k_custom_ancillary_armour_xun_yu</spawns_ceo>
 </ceo_spawners>
 <ceo_spawners record_uuid="{f5e6ea5c-6eb7-48b3-9f83-e4d69a8a4942}" record_timestamp="1505913200660" record_key="3k_main_ceo_spawner_ancillary_adept">
 <destroy_if_point_gain_disabled>0</destroy_if_point_gain_disabled>
