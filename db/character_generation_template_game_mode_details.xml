@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="character_generation_template_game_mode_details.xsd" export_time="Sat Aug 3 10:52:36 2019" revision="86" export_branch="C:/Program Files (x86)/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>f7dd95c3-8699-4eac-9a73-b294ca19c3c2</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="character_generation_template_game_mode_details.xsd" export_time="Sat Aug 3 15:21:12 2019" revision="88" export_branch="C:/Program Files (x86)/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>e7a46cac-cffc-4130-b8cf-dca80df86838</edit_uuid>
 <character_generation_template_game_mode_details record_uuid="{f7af367e-4542-40a8-9f90-0669931662d4}" record_timestamp="1532095954087" record_key="3k_main_template_ancestral_cai_feng">
 <attribute_set>3k_main_attribute_set_general_earth_romance</attribute_set>
 <character_generation_template>3k_main_template_ancestral_cai_feng</character_generation_template>
@@ -4831,6 +4831,34 @@
 <skill_set_override>3k_main_skillset_generic_general_wood</skill_set_override>
 <undercover_character_chance_multiplier>1</undercover_character_chance_multiplier>
 </character_generation_template_game_mode_details>
+<character_generation_template_game_mode_details record_uuid="{85219076-b9c1-478f-a871-debc67095fe1}" record_timestamp="1564862190376" record_key="3k_main_template_historical_cao_xing_hero_metalhistorical">
+<attribute_set>3k_main_attribute_set_general_metal_records</attribute_set>
+<character_generation_template>3k_main_template_historical_cao_xing_hero_metal</character_generation_template>
+<death_distribution_curve>3k_standard_death_distribution_no_infant_mortality</death_distribution_curve>
+<experience_rank_effects>3k_main_rank_effect_set_records_base</experience_rank_effects>
+<game_mode>historical</game_mode>
+<initial_ceos>3k_main_ceo_initial_data_character_generic_m_metal_envoy_legendary</initial_ceos>
+<initial_lives>1</initial_lives>
+<max_rank>3</max_rank>
+<min_rank>0</min_rank>
+<retinue>3k_main_general_generic_metal</retinue>
+<skill_set_override>3k_main_skillset_generic_general_fire</skill_set_override>
+<undercover_character_chance_multiplier>1</undercover_character_chance_multiplier>
+</character_generation_template_game_mode_details>
+<character_generation_template_game_mode_details record_uuid="{9fb0ab92-ad2e-451d-a61c-47e6d9cbfd1d}" record_timestamp="1564862190377" record_key="3k_main_template_historical_cao_xing_hero_metalromance">
+<attribute_set>3k_main_attribute_set_general_metal_romance</attribute_set>
+<character_generation_template>3k_main_template_historical_cao_xing_hero_metal</character_generation_template>
+<death_distribution_curve>3k_romance_death_distribution</death_distribution_curve>
+<experience_rank_effects>3k_main_rank_effect_set_romance_base</experience_rank_effects>
+<game_mode>romance</game_mode>
+<initial_ceos>3k_main_ceo_initial_data_character_generic_m_metal_envoy_legendary</initial_ceos>
+<initial_lives>1</initial_lives>
+<max_rank>3</max_rank>
+<min_rank>0</min_rank>
+<retinue>3k_main_hero_generic_metal</retinue>
+<skill_set_override>3k_main_skillset_generic_envoy_metal</skill_set_override>
+<undercover_character_chance_multiplier>1</undercover_character_chance_multiplier>
+</character_generation_template_game_mode_details>
 <character_generation_template_game_mode_details record_uuid="{720b384c-fb7e-43b3-944d-3e53cabc9702}" record_timestamp="1564011740379" record_key="3k_main_template_historical_cao_xiu_hero_firehistorical">
 <attribute_set>3k_main_attribute_set_general_fire_records</attribute_set>
 <character_generation_template>3k_main_template_historical_cao_xiu_hero_fire</character_generation_template>
@@ -8541,6 +8569,34 @@
 <skill_set_override>3k_main_skillset_generic_envoy_water_strategist</skill_set_override>
 <undercover_character_chance_multiplier>1</undercover_character_chance_multiplier>
 </character_generation_template_game_mode_details>
+<character_generation_template_game_mode_details record_uuid="{05a7484a-f886-4b29-b35d-3db1a9b46db9}" record_timestamp="1564862190376" record_key="3k_main_template_historical_hao_meng_hero_earthhistorical">
+<attribute_set>3k_main_attribute_set_general_earth_records</attribute_set>
+<character_generation_template>3k_main_template_historical_hao_meng_hero_earth</character_generation_template>
+<death_distribution_curve>3k_standard_death_distribution_no_infant_mortality</death_distribution_curve>
+<experience_rank_effects>3k_main_rank_effect_set_records_base</experience_rank_effects>
+<game_mode>historical</game_mode>
+<initial_ceos>3k_main_ceo_initial_data_character_generic_m_earth_general_legendary</initial_ceos>
+<initial_lives>1</initial_lives>
+<max_rank>3</max_rank>
+<min_rank>0</min_rank>
+<retinue>3k_main_general_generic_wood</retinue>
+<skill_set_override>3k_main_skillset_generic_general_fire</skill_set_override>
+<undercover_character_chance_multiplier>1</undercover_character_chance_multiplier>
+</character_generation_template_game_mode_details>
+<character_generation_template_game_mode_details record_uuid="{a7b9350c-07d2-47c8-86c8-179dca6007a3}" record_timestamp="1564862190376" record_key="3k_main_template_historical_hao_meng_hero_earthromance">
+<attribute_set>3k_main_attribute_set_general_earth_romance</attribute_set>
+<character_generation_template>3k_main_template_historical_hao_meng_hero_earth</character_generation_template>
+<death_distribution_curve>3k_romance_death_distribution</death_distribution_curve>
+<experience_rank_effects>3k_main_rank_effect_set_romance_base</experience_rank_effects>
+<game_mode>romance</game_mode>
+<initial_ceos>3k_main_ceo_initial_data_character_generic_m_earth_general_legendary</initial_ceos>
+<initial_lives>1</initial_lives>
+<max_rank>3</max_rank>
+<min_rank>0</min_rank>
+<retinue>3k_main_hero_generic_wood</retinue>
+<skill_set_override>3k_main_skillset_generic_general_earth</skill_set_override>
+<undercover_character_chance_multiplier>1</undercover_character_chance_multiplier>
+</character_generation_template_game_mode_details>
 <character_generation_template_game_mode_details record_uuid="{ae37ff8f-7b0c-4409-b837-a0849300ebbf}" record_timestamp="1540640404698" record_key="3k_main_template_historical_hao_meng_hero_firehistorical">
 <attribute_set>3k_main_attribute_set_general_fire_records</attribute_set>
 <character_generation_template>3k_main_template_historical_hao_meng_hero_fire</character_generation_template>
@@ -8707,6 +8763,34 @@
 <min_rank>0</min_rank>
 <retinue>3k_main_hero_generic_wood</retinue>
 <skill_set_override>3k_main_skillset_generic_agent_wood</skill_set_override>
+<undercover_character_chance_multiplier>1</undercover_character_chance_multiplier>
+</character_generation_template_game_mode_details>
+<character_generation_template_game_mode_details record_uuid="{da8af148-6367-4cec-8b43-f63cb6f9ecc3}" record_timestamp="1564862190376" record_key="3k_main_template_historical_hou_cheng_hero_woodhistorical">
+<attribute_set>3k_main_attribute_set_general_wood_records</attribute_set>
+<character_generation_template>3k_main_template_historical_hou_cheng_hero_wood</character_generation_template>
+<death_distribution_curve>3k_standard_death_distribution_no_infant_mortality</death_distribution_curve>
+<experience_rank_effects>3k_main_rank_effect_set_records_base</experience_rank_effects>
+<game_mode>historical</game_mode>
+<initial_ceos>3k_main_ceo_initial_data_character_generic_m_wood_villager_legendary</initial_ceos>
+<initial_lives>1</initial_lives>
+<max_rank>3</max_rank>
+<min_rank>0</min_rank>
+<retinue>3k_main_general_generic_wood</retinue>
+<skill_set_override>3k_main_skillset_generic_general_fire</skill_set_override>
+<undercover_character_chance_multiplier>1</undercover_character_chance_multiplier>
+</character_generation_template_game_mode_details>
+<character_generation_template_game_mode_details record_uuid="{348f53db-6b63-4045-a83a-9f56444b0dce}" record_timestamp="1564862190377" record_key="3k_main_template_historical_hou_cheng_hero_woodromance">
+<attribute_set>3k_main_attribute_set_general_wood_romance</attribute_set>
+<character_generation_template>3k_main_template_historical_hou_cheng_hero_wood</character_generation_template>
+<death_distribution_curve>3k_romance_death_distribution</death_distribution_curve>
+<experience_rank_effects>3k_main_rank_effect_set_romance_base</experience_rank_effects>
+<game_mode>romance</game_mode>
+<initial_ceos>3k_main_ceo_initial_data_character_generic_m_wood_villager_legendary</initial_ceos>
+<initial_lives>1</initial_lives>
+<max_rank>3</max_rank>
+<min_rank>0</min_rank>
+<retinue>3k_main_hero_generic_wood</retinue>
+<skill_set_override>3k_main_skillset_generic_minister_wood</skill_set_override>
 <undercover_character_chance_multiplier>1</undercover_character_chance_multiplier>
 </character_generation_template_game_mode_details>
 <character_generation_template_game_mode_details record_uuid="{c2d05e88-a66a-40bb-be38-bc122ec3ea31}" record_timestamp="1540640404698" record_key="3k_main_template_historical_hou_yin_hero_metalhistorical">
@@ -15149,6 +15233,34 @@
 <skill_set_override>3k_main_skillset_generic_agent_metal</skill_set_override>
 <undercover_character_chance_multiplier>1</undercover_character_chance_multiplier>
 </character_generation_template_game_mode_details>
+<character_generation_template_game_mode_details record_uuid="{c97391a9-1233-4483-9462-3132501ec431}" record_timestamp="1564862190376" record_key="3k_main_template_historical_song_xian_hero_earthhistorical">
+<attribute_set>3k_main_attribute_set_general_earth_records</attribute_set>
+<character_generation_template>3k_main_template_historical_song_xian_hero_earth</character_generation_template>
+<death_distribution_curve>3k_standard_death_distribution_no_infant_mortality</death_distribution_curve>
+<experience_rank_effects>3k_main_rank_effect_set_records_base</experience_rank_effects>
+<game_mode>historical</game_mode>
+<initial_ceos>3k_main_ceo_initial_data_character_generic_m_earth_agent_legendary</initial_ceos>
+<initial_lives>1</initial_lives>
+<max_rank>3</max_rank>
+<min_rank>0</min_rank>
+<retinue>3k_main_general_generic_earth</retinue>
+<skill_set_override>3k_main_skillset_generic_general_fire</skill_set_override>
+<undercover_character_chance_multiplier>1</undercover_character_chance_multiplier>
+</character_generation_template_game_mode_details>
+<character_generation_template_game_mode_details record_uuid="{564c03f7-5883-47c0-8a33-2a681590af02}" record_timestamp="1564862190377" record_key="3k_main_template_historical_song_xian_hero_earthromance">
+<attribute_set>3k_main_attribute_set_general_earth_romance</attribute_set>
+<character_generation_template>3k_main_template_historical_song_xian_hero_earth</character_generation_template>
+<death_distribution_curve>3k_romance_death_distribution</death_distribution_curve>
+<experience_rank_effects>3k_main_rank_effect_set_romance_base</experience_rank_effects>
+<game_mode>romance</game_mode>
+<initial_ceos>3k_main_ceo_initial_data_character_generic_m_earth_agent_legendary</initial_ceos>
+<initial_lives>1</initial_lives>
+<max_rank>3</max_rank>
+<min_rank>0</min_rank>
+<retinue>3k_main_hero_generic_earth</retinue>
+<skill_set_override>3k_main_skillset_generic_agent_earth</skill_set_override>
+<undercover_character_chance_multiplier>1</undercover_character_chance_multiplier>
+</character_generation_template_game_mode_details>
 <character_generation_template_game_mode_details record_uuid="{b5c8f47e-9dce-4b37-adb5-045813596d2f}" record_timestamp="1540640404705" record_key="3k_main_template_historical_song_yang_hero_woodhistorical">
 <attribute_set>3k_main_attribute_set_general_wood_records</attribute_set>
 <character_generation_template>3k_main_template_historical_song_yang_hero_wood</character_generation_template>
@@ -17294,6 +17406,34 @@
 <character_generation_template_game_mode_details record_uuid="{6d3ed395-a8fc-4350-aea1-865bf389dec5}" record_timestamp="1540640404708" record_key="3k_main_template_historical_wei_wen_hero_fireromance">
 <attribute_set>3k_main_attribute_set_general_fire_romance</attribute_set>
 <character_generation_template>3k_main_template_historical_wei_wen_hero_fire</character_generation_template>
+<death_distribution_curve>3k_romance_death_distribution</death_distribution_curve>
+<experience_rank_effects>3k_main_rank_effect_set_romance_base</experience_rank_effects>
+<game_mode>romance</game_mode>
+<initial_ceos>3k_main_ceo_initial_data_character_generic_m_fire_agent</initial_ceos>
+<initial_lives>1</initial_lives>
+<max_rank>3</max_rank>
+<min_rank>0</min_rank>
+<retinue>3k_main_hero_generic_fire</retinue>
+<skill_set_override>3k_main_skillset_generic_agent_fire</skill_set_override>
+<undercover_character_chance_multiplier>1</undercover_character_chance_multiplier>
+</character_generation_template_game_mode_details>
+<character_generation_template_game_mode_details record_uuid="{8ad8e556-67a9-49b3-8810-482d3b0f2bb0}" record_timestamp="1564863672773" record_key="3k_main_template_historical_wei_xu_hero_firehistorical">
+<attribute_set>3k_main_attribute_set_general_fire_records</attribute_set>
+<character_generation_template>3k_main_template_historical_wei_xu_hero_fire</character_generation_template>
+<death_distribution_curve>3k_standard_death_distribution_no_infant_mortality</death_distribution_curve>
+<experience_rank_effects>3k_main_rank_effect_set_records_base</experience_rank_effects>
+<game_mode>historical</game_mode>
+<initial_ceos>3k_main_ceo_initial_data_character_generic_m_fire_general</initial_ceos>
+<initial_lives>1</initial_lives>
+<max_rank>3</max_rank>
+<min_rank>0</min_rank>
+<retinue>3k_main_general_generic_fire</retinue>
+<skill_set_override>3k_main_skillset_generic_general_fire</skill_set_override>
+<undercover_character_chance_multiplier>1</undercover_character_chance_multiplier>
+</character_generation_template_game_mode_details>
+<character_generation_template_game_mode_details record_uuid="{309e8f16-5cbc-469a-b832-81bea6c5056c}" record_timestamp="1564863672774" record_key="3k_main_template_historical_wei_xu_hero_fireromance">
+<attribute_set>3k_main_attribute_set_general_fire_romance</attribute_set>
+<character_generation_template>3k_main_template_historical_wei_xu_hero_fire</character_generation_template>
 <death_distribution_curve>3k_romance_death_distribution</death_distribution_curve>
 <experience_rank_effects>3k_main_rank_effect_set_romance_base</experience_rank_effects>
 <game_mode>romance</game_mode>
