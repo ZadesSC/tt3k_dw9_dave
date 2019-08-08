@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_localised_strings.xsd" export_time="Fri Apr 12 11:45:55 2019" revision="687" export_branch="T:/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>929594be-5124-4308-87a1-0c0373bb4788</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_localised_strings.xsd" export_time="Mon Jul 15 13:59:14 2019" revision="639" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1583/dave" export_user="bob">
+<edit_uuid>bcca49e8-7ed2-41ac-86cd-06d825dba2eb</edit_uuid>
 <campaign_localised_strings record_uuid="{d24aeed2-fa7a-4f56-b16a-7ff78b5c8ddc}" record_timestamp="1543321449791" record_key="3k_cant_launch_battle_tooltip_army_on_sea">
 <key>3k_cant_launch_battle_tooltip_army_on_sea</key>
 <string state="APPROVED" last_approved_text="Naval battle must be delegated" last_edit_user="bob">Naval battle must be delegated</string>
@@ -17,7 +17,7 @@
 <key>3k_cant_launch_battle_tooltip_invalid_setup</key>
 <string state="HIDDEN" last_approved_text="" last_edit_user="bob">NO PENDING BATTLE ARMIES PRESENT</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{b354154e-1aa2-45af-b376-bf6fb5054631}" record_timestamp="1554994997570" record_key="3k_cant_launch_battle_tooltip_no_siege_equipment">
+<campaign_localised_strings record_uuid="{b354154e-1aa2-45af-b376-bf6fb5054631}" record_timestamp="1556562565479" record_key="3k_cant_launch_battle_tooltip_no_siege_equipment">
 <key>3k_cant_launch_battle_tooltip_no_siege_equipment</key>
 <string state="APPROVED" last_approved_text="You cannot fight this battle; you must construct siege equipment or bring artillery to overcome the settlement's walls. " last_edit_user="bob">You cannot fight this battle; you must construct siege equipment or bring artillery to overcome the settlement's walls. </string>
 </campaign_localised_strings>
@@ -25,11 +25,11 @@
 <key>3k_cant_launch_battle_tooltip_ok</key>
 <string state="APPROVED" last_approved_text="Take control of the army yourself and fight the battle!" last_edit_user="bob">Take control of the army yourself and fight the battle!</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{59f56359-4f58-440c-b292-03804519752e}" record_timestamp="1551438431888" record_key="3k_general_prediction_even_loss">
+<campaign_localised_strings record_uuid="{59f56359-4f58-440c-b292-03804519752e}" record_timestamp="1551788763247" record_key="3k_general_prediction_even_loss">
 <key>3k_general_prediction_even_loss</key>
 <string state="APPROVED" last_approved_text="Our forces are [[col:effect_icon_supplement_neutral]]evenly matched[[/col]],\nour advisors predict a\n[[col:effect_icon_supplement_negative]] %s [[/col]]" last_edit_user="bob">Our forces are [[col:effect_icon_supplement_neutral]]evenly matched[[/col]],\nour advisors predict a\n[[col:effect_icon_supplement_negative]] %s [[/col]]</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{37d6fed7-624b-4c89-8959-7d0c164260da}" record_timestamp="1551438431915" record_key="3k_general_prediction_even_win">
+<campaign_localised_strings record_uuid="{37d6fed7-624b-4c89-8959-7d0c164260da}" record_timestamp="1551788763247" record_key="3k_general_prediction_even_win">
 <key>3k_general_prediction_even_win</key>
 <string state="APPROVED" last_approved_text="Our forces are [[col:effect_icon_supplement_neutral]]evenly matched[[/col]],\nour advisors predict a\n[[col:effect_icon_supplement_positive]] %s [[/col]]" last_edit_user="bob">Our forces are [[col:effect_icon_supplement_neutral]]evenly matched[[/col]],\nour advisors predict a\n[[col:effect_icon_supplement_positive]] %s [[/col]]</string>
 </campaign_localised_strings>
@@ -49,7 +49,7 @@
 <key>3k_general_prediction_superior_win</key>
 <string state="APPROVED" last_approved_text="With our [[col:effect_icon_supplement_positive]] superior forces[[/col]],\nour advisors predict a\n[[col:effect_icon_supplement_positive]] %s [[/col]]" last_edit_user="bob">With our [[col:effect_icon_supplement_positive]] superior forces[[/col]],\nour advisors predict a\n[[col:effect_icon_supplement_positive]] %s [[/col]]</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{8c9c7293-87cf-462a-a6d2-af588bb7a11a}" record_timestamp="1552584074113" record_key="3k_main_battle_tutorial_locked_by">
+<campaign_localised_strings record_uuid="{8c9c7293-87cf-462a-a6d2-af588bb7a11a}" record_timestamp="1554883484807" record_key="3k_main_battle_tutorial_locked_by">
 <key>3k_main_battle_tutorial_locked_by</key>
 <string state="APPROVED" last_approved_text="Temporarily disabled by tutorial" last_edit_user="bob">Temporarily disabled by tutorial</string>
 </campaign_localised_strings>
@@ -377,7 +377,7 @@
 <key>3k_main_legendary_class</key>
 <string state="APPROVED" last_approved_text="Legendary %S" last_edit_user="bob">Legendary %S</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{1288680d-76b8-4ba4-bfcb-0c6911571882}" record_timestamp="1553181668359" record_key="3k_main_objective_supplementary_text">
+<campaign_localised_strings record_uuid="{1288680d-76b8-4ba4-bfcb-0c6911571882}" record_timestamp="1554885389596" record_key="3k_main_objective_supplementary_text">
 <key>3k_main_objective_supplementary_text</key>
 <string state="APPROVED" last_approved_text="[[i]]Challenges are not required for victory, but provide a test to those who seek to follow the footsteps of history.[[/i]]" last_edit_user="bob">[[i]]Challenges are not required for victory, but provide a test to those who seek to follow the footsteps of history.[[/i]]</string>
 </campaign_localised_strings>
@@ -469,7 +469,7 @@
 <key>3k_main_recruitment_invalidation_tooltip_mercenary_retinue_level_recruitment_reason_cannot_afford</key>
 <string state="APPROVED" last_approved_text="You do not have enough funds to deploy this retinue." last_edit_user="bob">You do not have enough funds to deploy this retinue.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{735654be-79fc-497f-b0bb-6a24168ea83b}" record_timestamp="1553680457334" record_key="3k_main_recruitment_invalidation_tooltip_mercenary_retinue_recruitment_reason_faction_reached_retinue_limit">
+<campaign_localised_strings record_uuid="{735654be-79fc-497f-b0bb-6a24168ea83b}" record_timestamp="1541788990523" record_key="3k_main_recruitment_invalidation_tooltip_mercenary_retinue_recruitment_reason_faction_reached_retinue_limit">
 <key>3k_main_recruitment_invalidation_tooltip_mercenary_retinue_recruitment_reason_faction_reached_retinue_limit</key>
 <string state="APPROVED" last_approved_text="You have reached the maximum number of retainers." last_edit_user="bob">You have reached the maximum number of retainers.</string>
 </campaign_localised_strings>
@@ -477,7 +477,7 @@
 <key>3k_main_recruitment_invalidation_tooltip_mercenary_retinue_recruitment_reason_faction_reached_retinue_per_turn_deploy_limit</key>
 <string state="APPROVED" last_approved_text="You have reached the deployment limit this season." last_edit_user="bob">You have reached the deployment limit this season.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{a019d111-e0a7-4af5-8820-af2422ce383d}" record_timestamp="1553680457334" record_key="3k_main_recruitment_invalidation_tooltip_mercenary_retinue_recruitment_reason_no_recruitment_charges">
+<campaign_localised_strings record_uuid="{a019d111-e0a7-4af5-8820-af2422ce383d}" record_timestamp="1541788990586" record_key="3k_main_recruitment_invalidation_tooltip_mercenary_retinue_recruitment_reason_no_recruitment_charges">
 <key>3k_main_recruitment_invalidation_tooltip_mercenary_retinue_recruitment_reason_no_recruitment_charges</key>
 <string state="APPROVED" last_approved_text="There are currently no mercenaries of this type available." last_edit_user="bob">There are currently no mercenaries of this type available.</string>
 </campaign_localised_strings>
@@ -485,7 +485,7 @@
 <key>3k_main_recruitment_invalidation_tooltip_ministerial_position_max_age_exceeded</key>
 <string state="APPROVED" last_approved_text="The character age should be below %d." last_edit_user="bob">The character age should be below %d.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{27b55308-db22-4083-bc89-9692651e2415}" record_timestamp="1550485084993" record_key="3k_main_recruitment_invalidation_tooltip_ministerial_position_min_age_exceeded">
+<campaign_localised_strings record_uuid="{27b55308-db22-4083-bc89-9692651e2415}" record_timestamp="1551784850468" record_key="3k_main_recruitment_invalidation_tooltip_ministerial_position_min_age_exceeded">
 <key>3k_main_recruitment_invalidation_tooltip_ministerial_position_min_age_exceeded</key>
 <string state="APPROVED" last_approved_text="The character age should be over %d." last_edit_user="bob">The character age should be over %d.</string>
 </campaign_localised_strings>
@@ -609,7 +609,7 @@
 <key>3k_main_relationships_opinions_local_region_title</key>
 <string state="APPROVED" last_approved_text="Passers-By" last_edit_user="bob">Passers-By</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{53fd341f-76c9-4857-a3a7-1746eb132b53}" record_timestamp="1552575999615" record_key="3k_main_relationships_opinions_marriage_title">
+<campaign_localised_strings record_uuid="{53fd341f-76c9-4857-a3a7-1746eb132b53}" record_timestamp="1554883341017" record_key="3k_main_relationships_opinions_marriage_title">
 <key>3k_main_relationships_opinions_marriage_title</key>
 <string state="APPROVED" last_approved_text="Potential Marriage" last_edit_user="bob">Potential Marriage</string>
 </campaign_localised_strings>
@@ -681,27 +681,27 @@
 <key>3k_main_tooltip_main_hud_seasons</key>
 <string state="APPROVED" last_approved_text="During harvest, income from peasantry sources is increased, and armies consume more military supplies in winter.\n\nSeasons also have an impact on conditions during battle." last_edit_user="bob">During harvest, income from peasantry sources is increased, and armies consume more military supplies in winter.\n\nSeasons also have an impact on conditions during battle.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{f25284a9-22e2-4a10-a889-7616136fce78}" record_timestamp="1552584074152" record_key="3k_main_tutorial_attack_force_enemy">
+<campaign_localised_strings record_uuid="{f25284a9-22e2-4a10-a889-7616136fce78}" record_timestamp="1554883484807" record_key="3k_main_tutorial_attack_force_enemy">
 <key>3k_main_tutorial_attack_force_enemy</key>
 <string state="APPROVED" last_approved_text="Move up to the enemy force and attack it" last_edit_user="bob">Move up to the enemy force and attack it</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{df397115-3173-412f-9daf-be13016ae20a}" record_timestamp="1552584074135" record_key="3k_main_tutorial_attack_settlement">
+<campaign_localised_strings record_uuid="{df397115-3173-412f-9daf-be13016ae20a}" record_timestamp="1554883484807" record_key="3k_main_tutorial_attack_settlement">
 <key>3k_main_tutorial_attack_settlement</key>
 <string state="APPROVED" last_approved_text="Move up to the enemy settlement and besiege it" last_edit_user="bob">Move up to the enemy settlement and besiege it</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{9733813a-acfc-4604-b7b9-5ce88d517104}" record_timestamp="1552584074126" record_key="3k_main_tutorial_close_button">
+<campaign_localised_strings record_uuid="{9733813a-acfc-4604-b7b9-5ce88d517104}" record_timestamp="1554883484807" record_key="3k_main_tutorial_close_button">
 <key>3k_main_tutorial_close_button</key>
 <string state="APPROVED" last_approved_text="Left-click to close the current window" last_edit_user="bob">Left-click to close the current window</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{606499de-1665-4af9-9d57-24c4d4f10dc3}" record_timestamp="1552584074146" record_key="3k_main_tutorial_end_turn">
+<campaign_localised_strings record_uuid="{606499de-1665-4af9-9d57-24c4d4f10dc3}" record_timestamp="1554883484807" record_key="3k_main_tutorial_end_turn">
 <key>3k_main_tutorial_end_turn</key>
 <string state="APPROVED" last_approved_text="Left-click to end turn once you've finished giving orders" last_edit_user="bob">Left-click to end turn once you've finished giving orders</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{9a6b5f79-49b7-4d1a-bf48-7e4ab096d9d6}" record_timestamp="1551373731951" record_key="3k_main_tutorial_mode_army_deployment_description">
+<campaign_localised_strings record_uuid="{9a6b5f79-49b7-4d1a-bf48-7e4ab096d9d6}" record_timestamp="1551788639805" record_key="3k_main_tutorial_mode_army_deployment_description">
 <key>3k_main_tutorial_mode_army_deployment_description</key>
 <string state="APPROVED" last_approved_text="Here you can deploy retinues to either create a new army, or to add additional retinues to an existing army.\n\n[[img:help_mode_context_compatibility]][[/img]] This icon will tell you information about the [[b]]compatibility[[/b]] of a general with the generals already present in the army. Try to foster positive relationships by deploying compatible generals into existing armies.\n\n[[img:help_mode_hud_treasury]][[/img]] Shows the [[b]]re-deployment[[/b]] cost for the entire retinue. All of the units persist, even when not deployed, and you will have to pay to [[b]]deploy them again[[/b]], but they will retain their [[b]]experience ranks[[/b]].\n\n[[img:help_mode_army_upkeep]][[/img]] This number represents the [[b]]upkeep cost[[/b]] for the entire retinue. Make sure your per-turn income can afford the additional cost. Maintaining [[b]]positive income[[/b]] is vital for a healthy economy." last_edit_user="bob">Here you can deploy retinues to either create a new army, or to add additional retinues to an existing army.\n\n[[img:help_mode_context_compatibility]][[/img]] This icon will tell you information about the [[b]]compatibility[[/b]] of a general with the generals already present in the army. Try to foster positive relationships by deploying compatible generals into existing armies.\n\n[[img:help_mode_hud_treasury]][[/img]] Shows the [[b]]re-deployment[[/b]] cost for the entire retinue. All of the units persist, even when not deployed, and you will have to pay to [[b]]deploy them again[[/b]], but they will retain their [[b]]experience ranks[[/b]].\n\n[[img:help_mode_army_upkeep]][[/img]] This number represents the [[b]]upkeep cost[[/b]] for the entire retinue. Make sure your per-turn income can afford the additional cost. Maintaining [[b]]positive income[[/b]] is vital for a healthy economy.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{c77dba80-dfe6-4d46-9c66-a259b29816f0}" record_timestamp="1551373731956" record_key="3k_main_tutorial_mode_army_deployment_title">
+<campaign_localised_strings record_uuid="{c77dba80-dfe6-4d46-9c66-a259b29816f0}" record_timestamp="1551788639805" record_key="3k_main_tutorial_mode_army_deployment_title">
 <key>3k_main_tutorial_mode_army_deployment_title</key>
 <string state="APPROVED" last_approved_text="Retinue Deployment" last_edit_user="bob">Retinue Deployment</string>
 </campaign_localised_strings>
@@ -737,7 +737,7 @@
 <key>3k_main_tutorial_mode_army_recruitment_button_title</key>
 <string state="APPROVED" last_approved_text="Recruitment" last_edit_user="bob">Recruitment</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{33e1fec0-55c4-4eb1-a3e1-b12bd0740e7b}" record_timestamp="1551117194437" record_key="3k_main_tutorial_mode_army_recruitment_description">
+<campaign_localised_strings record_uuid="{33e1fec0-55c4-4eb1-a3e1-b12bd0740e7b}" record_timestamp="1543234948510" record_key="3k_main_tutorial_mode_army_recruitment_description">
 <key>3k_main_tutorial_mode_army_recruitment_description</key>
 <string state="APPROVED" last_approved_text="These are the units available for recruitment at this time. Recruited units are [[b]]persistent[[/b]] and will remain part of the retinue even when destroyed (after which they will re-emerge following a period of [[b]]convalescence[[/b]]) or when the retinue is [[b]]not deployed[[/b]].\n\nWhen recruiting, consider [[b]]army composition[[/b]] to identify which units are most required. A [[b]]balanced[[/b]] army consists of strong [[b]]melee units[[/b]] (equipped with spears or swords and shields), some [[b]]ranged units[[/b]] such as archers, and some cavalry units for mobile [[b]]flanking manoeuvres[[/b]].\n\nBe mindful of cost of recruitment and upkeep for the unit - your economy must be robust enough to carry the weight of the investment." last_edit_user="bob">These are the units available for recruitment at this time. Recruited units are [[b]]persistent[[/b]] and will remain part of the retinue even when destroyed (after which they will re-emerge following a period of [[b]]convalescence[[/b]]) or when the retinue is [[b]]not deployed[[/b]].\n\nWhen recruiting, consider [[b]]army composition[[/b]] to identify which units are most required. A [[b]]balanced[[/b]] army consists of strong [[b]]melee units[[/b]] (equipped with spears or swords and shields), some [[b]]ranged units[[/b]] such as archers, and some cavalry units for mobile [[b]]flanking manoeuvres[[/b]].\n\nBe mindful of cost of recruitment and upkeep for the unit - your economy must be robust enough to carry the weight of the investment.</string>
 </campaign_localised_strings>
@@ -897,11 +897,11 @@
 <key>3k_main_tutorial_mode_characterdetails_charactername_title</key>
 <string state="APPROVED" last_approved_text="Character Name &amp; Background" last_edit_user="bob">Character Name &amp; Background</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{57482a09-076d-4ed0-9f48-c1baddb3a639}" record_timestamp="1551439370737" record_key="3k_main_tutorial_mode_characterdetails_rank_description">
+<campaign_localised_strings record_uuid="{57482a09-076d-4ed0-9f48-c1baddb3a639}" record_timestamp="1551788768453" record_key="3k_main_tutorial_mode_characterdetails_rank_description">
 <key>3k_main_tutorial_mode_characterdetails_rank_description</key>
 <string state="APPROVED" last_approved_text="Characters rank-up by engaging in activities such as fighting battles or when overseeing the construction of buildings as administrators.\n\nWith each level, their prowess in battle will increase, and they will gain points that can be spent on new [[b]]skills[[/b]]." last_edit_user="bob">Characters rank-up by engaging in activities such as fighting battles or when overseeing the construction of buildings as administrators.\n\nWith each level, their prowess in battle will increase, and they will gain points that can be spent on new [[b]]skills[[/b]].</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{a8cbb400-1801-4e5e-b60b-e504f8ffd3d5}" record_timestamp="1551439370737" record_key="3k_main_tutorial_mode_characterdetails_rank_title">
+<campaign_localised_strings record_uuid="{a8cbb400-1801-4e5e-b60b-e504f8ffd3d5}" record_timestamp="1551788768453" record_key="3k_main_tutorial_mode_characterdetails_rank_title">
 <key>3k_main_tutorial_mode_characterdetails_rank_title</key>
 <string state="APPROVED" last_approved_text="Character Rank" last_edit_user="bob">Character Rank</string>
 </campaign_localised_strings>
@@ -953,13 +953,17 @@
 <key>3k_main_tutorial_mode_context_army_title</key>
 <string state="APPROVED" last_approved_text="Armies" last_edit_user="bob">Armies</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{c6855ade-3a0f-4391-a413-129156b8c556}" record_timestamp="1551117194437" record_key="3k_main_tutorial_mode_context_characters_description">
+<campaign_localised_strings record_uuid="{c6855ade-3a0f-4391-a413-129156b8c556}" record_timestamp="1542906674658" record_key="3k_main_tutorial_mode_context_characters_description">
 <key>3k_main_tutorial_mode_context_characters_description</key>
 <string state="APPROVED" last_approved_text="This list shows you all the [[b]]characters[[/b]] in your faction, separated into deployed characters at the top (characters who are part of armies in the field) and not-yet deployed characters at the bottom.\n\n[[img:help_mode_character_satisfaction]][[/img]] indicates a character's [[b]]satisfaction[[/b]]. Keep an eye on characters whose satisfaction is fading – it may be worth gifting a valuable ancillary or a higher title or position within your administration. Review the tooltip on the satisfaction icon for further information.\n\n[[img:help_mode_context_compatibility]][[/img]] Characters can be [[b]]compatible[[/b]] or [[b]]incompatible[[/b]] and you can review this tooltip to understand interactions between characters based on their [[b]]opinions[[/b]].\n\n[[i]]{{tr:Left_click_icon}} to select a deployed character,\ndouble {{tr:left_click_icon}} to zoom.\nView character details by {{tr:right_click_icon}}ing to open the panel.[[/i]]" last_edit_user="bob">This list shows you all the [[b]]characters[[/b]] in your faction, separated into deployed characters at the top (characters who are part of armies in the field) and not-yet deployed characters at the bottom.\n\n[[img:help_mode_character_satisfaction]][[/img]] indicates a character's [[b]]satisfaction[[/b]]. Keep an eye on characters whose satisfaction is fading – it may be worth gifting a valuable ancillary or a higher title or position within your administration. Review the tooltip on the satisfaction icon for further information.\n\n[[img:help_mode_context_compatibility]][[/img]] Characters can be [[b]]compatible[[/b]] or [[b]]incompatible[[/b]] and you can review this tooltip to understand interactions between characters based on their [[b]]opinions[[/b]].\n\n[[i]]{{tr:Left_click_icon}} to select a deployed character,\ndouble {{tr:left_click_icon}} to zoom.\nView character details by {{tr:right_click_icon}}ing to open the panel.[[/i]]</string>
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{a33d9d13-2191-4a79-b1b8-297d565c3ae9}" record_timestamp="1542906674658" record_key="3k_main_tutorial_mode_context_characters_title">
 <key>3k_main_tutorial_mode_context_characters_title</key>
 <string state="APPROVED" last_approved_text="Characters" last_edit_user="bob">Characters</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{068175dc-ee6b-47d1-a898-e346186c06f6}" record_timestamp="1562677402329" record_key="3k_main_tutorial_mode_context_faction_list_family_tree_description">
+<key>3k_main_tutorial_mode_context_faction_list_family_tree_description</key>
+<string state="APPROVED" last_approved_text="All the [[b]]factions[[/b]] known to you are shown here.\n\n[[img:help_mode_diplomacy_factions_attitude]][[/img]] The [[b]]attitude[[/b]] of a faction is indicated with this icon. Be mindful of factions who do not like you - they may become your future enemies.\n" last_edit_user="bob">All the [[b]]factions[[/b]] known to you are shown here.\n\n[[img:help_mode_diplomacy_factions_attitude]][[/img]] The [[b]]attitude[[/b]] of a faction is indicated with this icon. Be mindful of factions who do not like you - they may become your future enemies.\n</string>
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{44f8a83f-def3-42fc-8390-df1084af6cb2}" record_timestamp="1542906674658" record_key="3k_main_tutorial_mode_context_factions_description">
 <key>3k_main_tutorial_mode_context_factions_description</key>
@@ -985,7 +989,7 @@
 <key>3k_main_tutorial_mode_context_pins_title</key>
 <string state="APPROVED" last_approved_text="Pins" last_edit_user="bob">Pins</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{6edd7564-e499-4a05-8976-3f224ff884b8}" record_timestamp="1552036411011" record_key="3k_main_tutorial_mode_context_provinces_description">
+<campaign_localised_strings record_uuid="{6edd7564-e499-4a05-8976-3f224ff884b8}" record_timestamp="1542906674658" record_key="3k_main_tutorial_mode_context_provinces_description">
 <key>3k_main_tutorial_mode_context_provinces_description</key>
 <string state="APPROVED" last_approved_text="These are all the [[b]]{{tr:map_provinces}}[[/b]] you have knowledge of, separated into those entirely under your control, those contested with other factions, and lastly those in which you have no stake. Use this list to review which {{tr:map_provinces}} are [[b]]most profitable[[/b]], which are [[b]]bread-basket regions[[/b]], and to identify any problems at a glance.\n\n[[i]]{{tr:Left_click_icon}} to select a commandery or settlement,\ndouble {{tr:left_click_icon}} to zoom." last_edit_user="bob">These are all the [[b]]{{tr:map_provinces}}[[/b]] you have knowledge of, separated into those entirely under your control, those contested with other factions, and lastly those in which you have no stake. Use this list to review which {{tr:map_provinces}} are [[b]]most profitable[[/b]], which are [[b]]bread-basket regions[[/b]], and to identify any problems at a glance.\n\n[[i]]{{tr:Left_click_icon}} to select a commandery or settlement,\ndouble {{tr:left_click_icon}} to zoom.</string>
 </campaign_localised_strings>
@@ -1001,11 +1005,11 @@
 <key>3k_main_tutorial_mode_court_candidates_title</key>
 <string state="APPROVED" last_approved_text="Candidates" last_edit_user="bob">Candidates</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{e1d093e9-fcba-4a9b-864f-027cf857be66}" record_timestamp="1552387467439" record_key="3k_main_tutorial_mode_court_character_browser_button_description">
+<campaign_localised_strings record_uuid="{e1d093e9-fcba-4a9b-864f-027cf857be66}" record_timestamp="1554882806880" record_key="3k_main_tutorial_mode_court_character_browser_button_description">
 <key>3k_main_tutorial_mode_court_character_browser_button_description</key>
 <string state="APPROVED" last_approved_text="This panel allows you to browse all [[b]]known characters[[/b]] in your game. You can browse characters, [[b]]sort[[/b]] them by attributes or rank, and review their [[b]]relationships[[/b]]." last_edit_user="bob">This panel allows you to browse all [[b]]known characters[[/b]] in your game. You can browse characters, [[b]]sort[[/b]] them by attributes or rank, and review their [[b]]relationships[[/b]].</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{b656a0bf-1b69-415b-9ca6-23bf7ae7eb9a}" record_timestamp="1552387467436" record_key="3k_main_tutorial_mode_court_character_browser_button_title">
+<campaign_localised_strings record_uuid="{b656a0bf-1b69-415b-9ca6-23bf7ae7eb9a}" record_timestamp="1554882806880" record_key="3k_main_tutorial_mode_court_character_browser_button_title">
 <key>3k_main_tutorial_mode_court_character_browser_button_title</key>
 <string state="APPROVED" last_approved_text="World Characters" last_edit_user="bob">World Characters</string>
 </campaign_localised_strings>
@@ -1049,11 +1053,11 @@
 <key>3k_main_tutorial_mode_court_leaders_title</key>
 <string state="APPROVED" last_approved_text="People in Power" last_edit_user="bob">People in Power</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{327e52cb-a559-4efb-8345-8ec35bc7910e}" record_timestamp="1552329820034" record_key="3k_main_tutorial_mode_court_leaders_yt_description">
+<campaign_localised_strings record_uuid="{327e52cb-a559-4efb-8345-8ec35bc7910e}" record_timestamp="1554882791912" record_key="3k_main_tutorial_mode_court_leaders_yt_description">
 <key>3k_main_tutorial_mode_court_leaders_yt_description</key>
 <string state="APPROVED" last_approved_text="This is your [[b]]Faction Leader[[/b]], who together with the 'Lords of Virtue' make up the [[b]]'People in Power'[[/b]] within your faction. They have a big impact on its [[b]]bonuses[[/b]], so consider the candidates wisely. The Lords of Virtue are the 'Lord of the People', the 'Lord of the Land' and the 'Lord of Heaven'. These positions must be unlocked through [[b]]reforms[[/b]].\n\nBuild strong synergies between these positions to maximise the efficiency of their bonuses.\n\nInspect the tooltips for [[b]]character background[[/b]], in order to learn about faction-wide effects when they're amongst the [[b]]People in Power[[/b]]." last_edit_user="bob">This is your [[b]]Faction Leader[[/b]], who together with the 'Lords of Virtue' make up the [[b]]'People in Power'[[/b]] within your faction. They have a big impact on its [[b]]bonuses[[/b]], so consider the candidates wisely. The Lords of Virtue are the 'Lord of the People', the 'Lord of the Land' and the 'Lord of Heaven'. These positions must be unlocked through [[b]]reforms[[/b]].\n\nBuild strong synergies between these positions to maximise the efficiency of their bonuses.\n\nInspect the tooltips for [[b]]character background[[/b]], in order to learn about faction-wide effects when they're amongst the [[b]]People in Power[[/b]].</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{24097cbd-c88e-49bc-80ca-8ca619bb8260}" record_timestamp="1552329820034" record_key="3k_main_tutorial_mode_court_leaders_yt_title">
+<campaign_localised_strings record_uuid="{24097cbd-c88e-49bc-80ca-8ca619bb8260}" record_timestamp="1554882791912" record_key="3k_main_tutorial_mode_court_leaders_yt_title">
 <key>3k_main_tutorial_mode_court_leaders_yt_title</key>
 <string state="APPROVED" last_approved_text="People in Power" last_edit_user="bob">People in Power</string>
 </campaign_localised_strings>
@@ -1169,11 +1173,11 @@
 <key>3k_main_tutorial_mode_faction_emperor_one_title</key>
 <string state="APPROVED" last_approved_text="Emperorship" last_edit_user="bob">Emperorship</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{dda74015-f5c5-4758-be76-bf47b5c3e86f}" record_timestamp="1550766293143" record_key="3k_main_tutorial_mode_factionsummary_currentposition_description">
+<campaign_localised_strings record_uuid="{dda74015-f5c5-4758-be76-bf47b5c3e86f}" record_timestamp="1551785416310" record_key="3k_main_tutorial_mode_factionsummary_currentposition_description">
 <key>3k_main_tutorial_mode_factionsummary_currentposition_description</key>
 <string state="APPROVED" last_approved_text="{{tr:info_mode_prestige_current_rank}}" last_edit_user="bob">{{tr:info_mode_prestige_current_rank}}</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{03755bbb-02c5-40cc-b1b9-d49981c702de}" record_timestamp="1550766293072" record_key="3k_main_tutorial_mode_factionsummary_currentposition_title">
+<campaign_localised_strings record_uuid="{03755bbb-02c5-40cc-b1b9-d49981c702de}" record_timestamp="1551785416310" record_key="3k_main_tutorial_mode_factionsummary_currentposition_title">
 <key>3k_main_tutorial_mode_factionsummary_currentposition_title</key>
 <string state="APPROVED" last_approved_text="Current Rank" last_edit_user="bob">Current Rank</string>
 </campaign_localised_strings>
@@ -1209,11 +1213,11 @@
 <key>3k_main_tutorial_mode_factionsummary_level_details_title</key>
 <string state="APPROVED" last_approved_text="Current Faction Rank" last_edit_user="bob">Current Faction Rank</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{8c35350a-9333-4174-9fc2-a8f6a65090de}" record_timestamp="1550766291979" record_key="3k_main_tutorial_mode_factionsummary_prestige_description">
+<campaign_localised_strings record_uuid="{8c35350a-9333-4174-9fc2-a8f6a65090de}" record_timestamp="1551785416000" record_key="3k_main_tutorial_mode_factionsummary_prestige_description">
 <key>3k_main_tutorial_mode_factionsummary_prestige_description</key>
 <string state="APPROVED" last_approved_text="{{tr:info_mode_prestige_description}}" last_edit_user="bob">{{tr:info_mode_prestige_description}}</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{86ba7fa7-d401-4ec6-ae11-3b4d6350b682}" record_timestamp="1550766291912" record_key="3k_main_tutorial_mode_factionsummary_prestige_title">
+<campaign_localised_strings record_uuid="{86ba7fa7-d401-4ec6-ae11-3b4d6350b682}" record_timestamp="1551785416000" record_key="3k_main_tutorial_mode_factionsummary_prestige_title">
 <key>3k_main_tutorial_mode_factionsummary_prestige_title</key>
 <string state="APPROVED" last_approved_text="{{tr:info_mode_prestige}}" last_edit_user="bob">{{tr:info_mode_prestige}}</string>
 </campaign_localised_strings>
@@ -1257,7 +1261,7 @@
 <key>3k_main_tutorial_mode_hud_events_title</key>
 <string state="APPROVED" last_approved_text="Events" last_edit_user="bob">Events</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{9a9a7788-3046-41d4-8a74-a03a1ddcd1a4}" record_timestamp="1551117194438" record_key="3k_main_tutorial_mode_hud_factioneffects_description">
+<campaign_localised_strings record_uuid="{9a9a7788-3046-41d4-8a74-a03a1ddcd1a4}" record_timestamp="1541524887917" record_key="3k_main_tutorial_mode_hud_factioneffects_description">
 <key>3k_main_tutorial_mode_hud_factioneffects_description</key>
 <string state="APPROVED" last_approved_text="Important information to be considered before making strategic moves is displayed here.\n\n[[img:help_mode_province_money]][[/img]] Your [[b]]treasury[[/b]] is one of your most important resources – make sure to maintain a positive income each season. Sometimes, it may be wise to recall existing forces to save unit [[b]]upkeep[[/b]]. Consider aggressive measures such as sacking and looting, and make sure you have a long-term plan for your economy based on [[b]]synergies[[/b]] between settlements and buildings.\n\n[[img:help_mode_province_food]][[/img]] [[b]]Food[[/b]] is produced and consumed in all your {{tr:map_provinces}}, but only your [[b]]faction-wide balance[[/b]] will have an effect. Increasing the surplus regenerates [[b]]reserves[[/b]] in all your {{tr:map_provinces}} and gives a bonus to income from the peasantry. Faction-wide food shortages will deplete [[b]]reserves[[/b]] in all your {{tr:map_provinces}}. Make sure you have dedicated [[b]]breadbasket {{tr:map_provinces}}[[/b]] or spread out food production across your territory. Maintaining food production is a critical strategy.\n\n[[img:help_mode_hud_seasons]][[/img]] Consider the [[b]]seasons[[/b]] when planning your strategy; during the [[b]]harvest[[/b]], income from [[b]]peasantry[[/b]] is increased, and during [[b]]winter[[/b]], armies will naturally consume more military supplies - especially in cold climates.\n\n[[img:help_mode_hud_resources]][[/img]] These are the [[b]]resources[[/b]] your faction has gained access to. They are available [[b]]faction-wide[[/b]] and will enable construction of certain [[b]]buildings[[/b]]. Resources do not have effects on their own. [[b]]Trade agreements[[/b]] with other factions through diplomacy will share access to these resources." last_edit_user="bob">Important information to be considered before making strategic moves is displayed here.\n\n[[img:help_mode_province_money]][[/img]] Your [[b]]treasury[[/b]] is one of your most important resources – make sure to maintain a positive income each season. Sometimes, it may be wise to recall existing forces to save unit [[b]]upkeep[[/b]]. Consider aggressive measures such as sacking and looting, and make sure you have a long-term plan for your economy based on [[b]]synergies[[/b]] between settlements and buildings.\n\n[[img:help_mode_province_food]][[/img]] [[b]]Food[[/b]] is produced and consumed in all your {{tr:map_provinces}}, but only your [[b]]faction-wide balance[[/b]] will have an effect. Increasing the surplus regenerates [[b]]reserves[[/b]] in all your {{tr:map_provinces}} and gives a bonus to income from the peasantry. Faction-wide food shortages will deplete [[b]]reserves[[/b]] in all your {{tr:map_provinces}}. Make sure you have dedicated [[b]]breadbasket {{tr:map_provinces}}[[/b]] or spread out food production across your territory. Maintaining food production is a critical strategy.\n\n[[img:help_mode_hud_seasons]][[/img]] Consider the [[b]]seasons[[/b]] when planning your strategy; during the [[b]]harvest[[/b]], income from [[b]]peasantry[[/b]] is increased, and during [[b]]winter[[/b]], armies will naturally consume more military supplies - especially in cold climates.\n\n[[img:help_mode_hud_resources]][[/img]] These are the [[b]]resources[[/b]] your faction has gained access to. They are available [[b]]faction-wide[[/b]] and will enable construction of certain [[b]]buildings[[/b]]. Resources do not have effects on their own. [[b]]Trade agreements[[/b]] with other factions through diplomacy will share access to these resources.</string>
 </campaign_localised_strings>
@@ -1273,11 +1277,11 @@
 <key>3k_main_tutorial_mode_hud_factionmenus_title</key>
 <string state="APPROVED" last_approved_text="Faction Control" last_edit_user="bob">Faction Control</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{fd8c00d3-f27c-4be6-9fac-8c26c0c8aea4}" record_timestamp="1550766290481" record_key="3k_main_tutorial_mode_hud_factionsummary_description">
+<campaign_localised_strings record_uuid="{fd8c00d3-f27c-4be6-9fac-8c26c0c8aea4}" record_timestamp="1551785415980" record_key="3k_main_tutorial_mode_hud_factionsummary_description">
 <key>3k_main_tutorial_mode_hud_factionsummary_description</key>
 <string state="APPROVED" last_approved_text="{{tr:Left_click_icon}} your portrait to access the faction summary. Here, you can find information about the progress of your campaign and your progress towards victory.\n\n{{tr:info_mode_pooled_resource}}" last_edit_user="bob">{{tr:Left_click_icon}} your portrait to access the faction summary. Here, you can find information about the progress of your campaign and your progress towards victory.\n\n{{tr:info_mode_pooled_resource}}</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{38a55187-c1b0-4ff0-8ea2-b6f424874001}" record_timestamp="1550766290416" record_key="3k_main_tutorial_mode_hud_factionsummary_title">
+<campaign_localised_strings record_uuid="{38a55187-c1b0-4ff0-8ea2-b6f424874001}" record_timestamp="1551785415980" record_key="3k_main_tutorial_mode_hud_factionsummary_title">
 <key>3k_main_tutorial_mode_hud_factionsummary_title</key>
 <string state="APPROVED" last_approved_text="Faction Summary " last_edit_user="bob">Faction Summary </string>
 </campaign_localised_strings>
@@ -1297,7 +1301,7 @@
 <key>3k_main_tutorial_mode_prebattle_nightbattle_title</key>
 <string state="APPROVED" last_approved_text="Night Battle" last_edit_user="bob">Night Battle</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{c629b0a3-4734-46b9-a5bd-af05352f9dc8}" record_timestamp="1551864216926" record_key="3k_main_tutorial_mode_prebattle_prediction_description">
+<campaign_localised_strings record_uuid="{c629b0a3-4734-46b9-a5bd-af05352f9dc8}" record_timestamp="1546946441090" record_key="3k_main_tutorial_mode_prebattle_prediction_description">
 <key>3k_main_tutorial_mode_prebattle_prediction_description</key>
 <string state="APPROVED" last_approved_text="This shows the outcome of the battle if [[b]]delegated[[/b]] to your advisors. Their predictions are always [[b]]accurate[[/b]] and a predicted victory will always result in the stated outcome.\n\nThe bar shows a [[b]]strength comparison[[/b]] of both armies. If the bar is heavily in your favour, it means that the strength of your force – its [[b]]quality[[/b]] and its [[b]]quantity[[/b]] – is superior to that of the enemy. This does [[b]]not[[/b]] always guarantee victory, however. If the enemy's forces generally counter your own units, then even an inferior opponent might be victorious. In these cases, your advisors’ prediction of defeat will remain [[b]]accurate[[/b]]." last_edit_user="bob">This shows the outcome of the battle if [[b]]delegated[[/b]] to your advisors. Their predictions are always [[b]]accurate[[/b]] and a predicted victory will always result in the stated outcome.\n\nThe bar shows a [[b]]strength comparison[[/b]] of both armies. If the bar is heavily in your favour, it means that the strength of your force – its [[b]]quality[[/b]] and its [[b]]quantity[[/b]] – is superior to that of the enemy. This does [[b]]not[[/b]] always guarantee victory, however. If the enemy's forces generally counter your own units, then even an inferior opponent might be victorious. In these cases, your advisors’ prediction of defeat will remain [[b]]accurate[[/b]].</string>
 </campaign_localised_strings>
@@ -1417,9 +1421,9 @@
 <key>3k_main_tutorial_mode_province_main_chain_title</key>
 <string state="APPROVED" last_approved_text="Settlement Administration" last_edit_user="bob">Settlement Administration</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{d2b25a2b-9430-4c20-9506-15960ca6dbf0}" record_timestamp="1543074016383" record_key="3k_main_tutorial_mode_province_main_metrics_description">
+<campaign_localised_strings record_uuid="{d2b25a2b-9430-4c20-9506-15960ca6dbf0}" record_timestamp="1561566045254" record_key="3k_main_tutorial_mode_province_main_metrics_description">
 <key>3k_main_tutorial_mode_province_main_metrics_description</key>
-<string state="APPROVED" last_approved_text="These are the key statistics in your commandery.\n\n[[img:help_mode_province_money]][[/img]] [[b]]Income[[/b]] is the most important resource a commandery can generate. Try to maximise income by focusing your construction projects on certain [[b]]income types[[/b]] (like [[b]]commerce[[/b]] or [[b]]peasantry[[/b]]), and on synergies within these.\n\n[[img:help_mode_province_food]][[/img]] [[b]]Food[[/b]] can be produced and consumed in your commanderies. This value shows you the [[b]]local balance[[/b]] of food. A negative balance is not harmful, as long as other commanderies can compensate for it. Dedicate certain commanderies to food production to create [[b]]bread baskets[[/b]] in your realm.\nMake sure to secure certain resource settlements for efficient income of food, such as [[b]]farms[[/b]] or [[b]]fishing ports[[/b]]. You can also produce food in your {{tr:map_province}} capital by constructing buildings in the [[b]]Land Development[[/b]] chain, but this is less efficient than dedicated resource settlements.\n\n[[img:help_mode_province_public_order]][[/img]] If [[b]]public order[[/b]] reaches -100, [[b]]rebellions[[/b]] will spawn. Keep public order in check by putting armies in your settlements, [[b]]exempting taxes[[/b]] or constructing certain buildings." last_edit_user="bob">These are the key statistics in your commandery.\n\n[[img:help_mode_province_money]][[/img]] [[b]]Income[[/b]] is the most important resource a commandery can generate. Try to maximise income by focusing your construction projects on certain [[b]]income types[[/b]] (like [[b]]commerce[[/b]] or [[b]]peasantry[[/b]]), and on synergies within these.\n\n[[img:help_mode_province_food]][[/img]] [[b]]Food[[/b]] can be produced and consumed in your commanderies. This value shows you the [[b]]local balance[[/b]] of food. A negative balance is not harmful, as long as other commanderies can compensate for it. Dedicate certain commanderies to food production to create [[b]]bread baskets[[/b]] in your realm.\nMake sure to secure certain resource settlements for efficient income of food, such as [[b]]farms[[/b]] or [[b]]fishing ports[[/b]]. You can also produce food in your {{tr:map_province}} capital by constructing buildings in the [[b]]Land Development[[/b]] chain, but this is less efficient than dedicated resource settlements.\n\n[[img:help_mode_province_public_order]][[/img]] If [[b]]public order[[/b]] reaches -100, [[b]]rebellions[[/b]] will spawn. Keep public order in check by putting armies in your settlements, [[b]]exempting taxes[[/b]] or constructing certain buildings.</string>
+<string state="APPROVED" last_approved_text="These are the key statistics in your commandery.\n\n[[img:help_mode_province_money]][[/img]] [[b]]Income[[/b]] is the most important resource a commandery can generate. Try to maximise income by focusing your construction projects on certain [[b]]income types[[/b]] (like [[b]]commerce[[/b]] or [[b]]peasantry[[/b]]), and on synergies within these.\n\n[[img:help_mode_province_food]][[/img]] [[b]]Food[[/b]] can be produced and consumed in your commanderies. This value shows you the [[b]]local balance[[/b]] of food. A negative balance is not harmful as long as other commanderies can compensate for it. Dedicate certain commanderies to food production to create [[b]]bread baskets[[/b]] in your realm.\nMake sure to secure certain resource settlements for efficient income of food, such as [[b]]farms[[/b]] or [[b]]fishing ports[[/b]]. You can also produce food in your {{tr:map_province}} capital by constructing buildings in the [[b]]land development[[/b]] chain, but this is less efficient than dedicated resource settlements.\n\n[[img:help_mode_province_public_order]][[/img]] If [[b]]{{tr:public_order}}[[/b]] reaches -100, [[b]]rebellions[[/b]] will spawn. {{tr:help_mode_public_order_province}}" last_edit_user="bob">These are the key statistics in your commandery.\n\n[[img:help_mode_province_money]][[/img]] [[b]]Income[[/b]] is the most important resource a commandery can generate. Try to maximise income by focusing your construction projects on certain [[b]]income types[[/b]] (like [[b]]commerce[[/b]] or [[b]]peasantry[[/b]]), and on synergies within these.\n\n[[img:help_mode_province_food]][[/img]] [[b]]Food[[/b]] can be produced and consumed in your commanderies. This value shows you the [[b]]local balance[[/b]] of food. A negative balance is not harmful as long as other commanderies can compensate for it. Dedicate certain commanderies to food production to create [[b]]bread baskets[[/b]] in your realm.\nMake sure to secure certain resource settlements for efficient income of food, such as [[b]]farms[[/b]] or [[b]]fishing ports[[/b]]. You can also produce food in your {{tr:map_province}} capital by constructing buildings in the [[b]]land development[[/b]] chain, but this is less efficient than dedicated resource settlements.\n\n[[img:help_mode_province_public_order]][[/img]] If [[b]]{{tr:public_order}}[[/b]] reaches -100, [[b]]rebellions[[/b]] will spawn. {{tr:help_mode_public_order_province}}</string>
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{f322f065-80d6-4417-84dc-5f37409f97c0}" record_timestamp="1542214479421" record_key="3k_main_tutorial_mode_province_main_metrics_title">
 <key>3k_main_tutorial_mode_province_main_metrics_title</key>
@@ -1529,19 +1533,19 @@
 <key>3k_main_tutorial_mode_summary_details_title</key>
 <string state="APPROVED" last_approved_text="Summary" last_edit_user="bob">Summary</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{219ec7ca-a296-42b4-be9d-3e369ea2e516}" record_timestamp="1552584074140" record_key="3k_main_tutorial_select_building_slot">
+<campaign_localised_strings record_uuid="{219ec7ca-a296-42b4-be9d-3e369ea2e516}" record_timestamp="1554883484807" record_key="3k_main_tutorial_select_building_slot">
 <key>3k_main_tutorial_select_building_slot</key>
 <string state="APPROVED" last_approved_text="Left-click on an empty building slot to start building" last_edit_user="bob">Left-click on an empty building slot to start building</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{8d488424-f1d9-45ca-bc70-6fc34ac87b27}" record_timestamp="1552584074157" record_key="3k_main_tutorial_select_force_own">
+<campaign_localised_strings record_uuid="{8d488424-f1d9-45ca-bc70-6fc34ac87b27}" record_timestamp="1554883484807" record_key="3k_main_tutorial_select_force_own">
 <key>3k_main_tutorial_select_force_own</key>
 <string state="APPROVED" last_approved_text="Left-click on your force" last_edit_user="bob">Left-click on your force</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{9822ca1d-fa6b-48d6-bfa1-ff49bcac11b8}" record_timestamp="1552584074130" record_key="3k_main_tutorial_select_own_settlement">
+<campaign_localised_strings record_uuid="{9822ca1d-fa6b-48d6-bfa1-ff49bcac11b8}" record_timestamp="1554883484807" record_key="3k_main_tutorial_select_own_settlement">
 <key>3k_main_tutorial_select_own_settlement</key>
 <string state="APPROVED" last_approved_text="Left-click on your settlement to view its province details" last_edit_user="bob">Left-click on your settlement to view its province details</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{54b69c85-d1e6-48a3-91f9-529e1625c9af}" record_timestamp="1552584074121" record_key="3k_main_tutorial_zoom_button">
+<campaign_localised_strings record_uuid="{54b69c85-d1e6-48a3-91f9-529e1625c9af}" record_timestamp="1554883484807" record_key="3k_main_tutorial_zoom_button">
 <key>3k_main_tutorial_zoom_button</key>
 <string state="APPROVED" last_approved_text="Left-click to zoom to the target" last_edit_user="bob">Left-click to zoom to the target</string>
 </campaign_localised_strings>
@@ -1653,11 +1657,11 @@
 <key>assignment_unavailable_reason_missing_ceo</key>
 <string state="APPROVED" last_approved_text="This character is missing an ancillary required to do this assignment." last_edit_user="bob">This character is missing an ancillary required to do this assignment.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{d7287ed1-4f4a-43f3-b432-1264787105d7}" record_timestamp="1552413192391" record_key="assignment_unavailable_reason_not_available">
+<campaign_localised_strings record_uuid="{d7287ed1-4f4a-43f3-b432-1264787105d7}" record_timestamp="1536651456907" record_key="assignment_unavailable_reason_not_available">
 <key>assignment_unavailable_reason_not_available</key>
 <string state="APPROVED" last_approved_text="This assignment is not available." last_edit_user="bob">This assignment is not available.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{7a132cc6-472c-443f-9176-d14940bd92d4}" record_timestamp="1552413192391" record_key="assignment_unavailable_reason_not_of_age">
+<campaign_localised_strings record_uuid="{7a132cc6-472c-443f-9176-d14940bd92d4}" record_timestamp="1536651456856" record_key="assignment_unavailable_reason_not_of_age">
 <key>assignment_unavailable_reason_not_of_age</key>
 <string state="APPROVED" last_approved_text="This character is not old enough to carry out this assignment." last_edit_user="bob">This character is not old enough to carry out this assignment.</string>
 </campaign_localised_strings>
@@ -1729,7 +1733,7 @@
 <key>building_info_tech_tooltip</key>
 <string state="APPROVED" last_approved_text="This building requires the following {{tr:3k_tr_technology}}: %s \n\nLeft-click to access the {{tr:3k_tr_Technology}} panel." last_edit_user="bob">This building requires the following {{tr:3k_tr_technology}}: %s \n\nLeft-click to access the {{tr:3k_tr_Technology}} panel.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{fd36d7c8-9f38-4bf8-bf74-e26c5568242b}" record_timestamp="1550769793890" record_key="building_reform_unlock_left_click">
+<campaign_localised_strings record_uuid="{fd36d7c8-9f38-4bf8-bf74-e26c5568242b}" record_timestamp="1551785553068" record_key="building_reform_unlock_left_click">
 <key>building_reform_unlock_left_click</key>
 <string state="APPROVED" last_approved_text="Left-click to view in reforms screen." last_edit_user="bob">Left-click to view in reforms screen.</string>
 </campaign_localised_strings>
@@ -1760,6 +1764,14 @@
 <campaign_localised_strings record_uuid="{a00958a7-ce58-4ff8-b516-a166a63bcadd}" record_timestamp="1458302258707" record_key="campaign_morale_title_tooltip">
 <key>campaign_morale_title_tooltip</key>
 <string state="APPROVED" last_approved_text="{{tr:campaign_morale_title_tooltip}}" last_edit_user="bob">{{tr:campaign_morale_title_tooltip}}</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{277b0ca2-13ca-4584-a169-e98c0f655a98}" record_timestamp="1559920609981" record_key="campaign_selection_ui_eight_princes">
+<key>campaign_selection_ui_eight_princes</key>
+<string state="APPROVED" last_approved_text="A generation since the Three Kingdoms period has ended and the Jin dynasty stands on the brink of chaos. As one of the eight warring princes, carve your way through your enemies, defending the emperor against dark treason, or depose him and stabilise the dynasty under your rule!" last_edit_user="bob">A generation since the Three Kingdoms period has ended and the Jin dynasty stands on the brink of chaos. As one of the eight warring princes, carve your way through your enemies, defending the emperor against dark treason, or depose him and stabilise the dynasty under your rule!</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{a077db50-2254-4123-91f8-89d5b845e2b5}" record_timestamp="1559920610030" record_key="campaign_selection_ui_three_kingdoms">
+<key>campaign_selection_ui_three_kingdoms</key>
+<string state="APPROVED" last_approved_text="Forge a new destiny for China in the crucible of the Three Kingdoms period; oppose the rising tyranny or stoke the fires of destruction as you forge a path through one of the most dramatic conflicts in China’s history!" last_edit_user="bob">Forge a new destiny for China in the crucible of the Three Kingdoms period; oppose the rising tyranny or stoke the fires of destruction as you forge a path through one of the most dramatic conflicts in China’s history!</string>
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{d1e20821-e4c8-4927-a8d1-6aa0c13ce354}" record_timestamp="1467373803175" record_key="can_change_mount_once_per_turn">
 <key>can_change_mount_once_per_turn</key>
@@ -1803,7 +1815,7 @@
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{acf06a65-4d34-46b4-bade-9afdb0785177}" record_timestamp="1539167656869" record_key="cannot_build_exceeds_maximum_settlement_level">
 <key>cannot_build_exceeds_maximum_settlement_level</key>
-<string state="APPROVED" last_approved_text="[[col:red]]You must upgrade your settlement to a %s [[img:%S]][[/img]] in order to construct this building.[[/col]]" last_edit_user="bob">[[col:red]]You must upgrade your settlement to a %s [[img:%S]][[/img]] in order to construct this building.[[/col]]</string>
+<string state="APPROVED" last_approved_text="[[col:red]]You must upgrade your settlement to a %s in order to construct this building.[[/col]]" last_edit_user="bob">[[col:red]]You must upgrade your settlement to a %s in order to construct this building.[[/col]]</string>
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{c921111f-e8c5-4934-9910-6d1f5b1ab487}" record_timestamp="1547638233562" record_key="cannot_build_faction_unique">
 <key>cannot_build_faction_unique</key>
@@ -1821,11 +1833,11 @@
 <key>cannot_build_unowned_settlement</key>
 <string state="APPROVED" last_approved_text="[[col:red]]You cannot construct this building here as you do not own this settlement.[[/col]]" last_edit_user="bob">[[col:red]]You cannot construct this building here as you do not own this settlement.[[/col]]</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{8a5ed98c-8e63-430a-a3ef-a579cc277bc7}" record_timestamp="1551191588477" record_key="cannot_colonise_default">
+<campaign_localised_strings record_uuid="{8a5ed98c-8e63-430a-a3ef-a579cc277bc7}" record_timestamp="1551788153604" record_key="cannot_colonise_default">
 <key>cannot_colonise_default</key>
 <string state="APPROVED" last_approved_text="[[col:red]]Cannot colonise[[/col]]" last_edit_user="bob">[[col:red]]Cannot colonise[[/col]]</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{1c910b54-b76c-47e7-9ca5-5306cef73945}" record_timestamp="1551191588472" record_key="cannot_colonise_low_funds">
+<campaign_localised_strings record_uuid="{1c910b54-b76c-47e7-9ca5-5306cef73945}" record_timestamp="1551788153604" record_key="cannot_colonise_low_funds">
 <key>cannot_colonise_low_funds</key>
 <string state="APPROVED" last_approved_text="[[col:red]]Insufficient funds to colonise[[/col]]" last_edit_user="bob">[[col:red]]Insufficient funds to colonise[[/col]]</string>
 </campaign_localised_strings>
@@ -1941,7 +1953,7 @@
 <key>ceo_right_click_to_equip</key>
 <string state="APPROVED" last_approved_text="Right-click to equip \n" last_edit_user="bob">Right-click to equip \n</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{d511dfec-549e-4e3d-b13a-be40ee78b50b}" record_timestamp="1550673232018" record_key="character_dead">
+<campaign_localised_strings record_uuid="{d511dfec-549e-4e3d-b13a-be40ee78b50b}" record_timestamp="1551785179983" record_key="character_dead">
 <key>character_dead</key>
 <string state="APPROVED" last_approved_text="Dead" last_edit_user="bob">Dead</string>
 </campaign_localised_strings>
@@ -1953,19 +1965,19 @@
 <key>character_neutral_effect_level</key>
 <string state="APPROVED" last_approved_text="Neutral effect level. No negative or positive effects applied." last_edit_user="bob">Neutral effect level. No negative or positive effects applied.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{123432cb-ae30-48c3-a661-cfe2e4a92ea7}" record_timestamp="1552586967771" record_key="character_recruitment_no_character_available_explanation">
+<campaign_localised_strings record_uuid="{123432cb-ae30-48c3-a661-cfe2e4a92ea7}" record_timestamp="1554883495199" record_key="character_recruitment_no_character_available_explanation">
 <key>character_recruitment_no_character_available_explanation</key>
 <string state="APPROVED" last_approved_text="There are currently no characters available for hire. Over time, people of merit will visit your court and can be recruited into your faction." last_edit_user="bob">There are currently no characters available for hire. Over time, people of merit will visit your court and can be recruited into your faction.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{65f048ed-4ee2-4433-ac90-efd4d4a1749b}" record_timestamp="1552586967772" record_key="character_recruitment_no_character_available_title">
+<campaign_localised_strings record_uuid="{65f048ed-4ee2-4433-ac90-efd4d4a1749b}" record_timestamp="1554883495199" record_key="character_recruitment_no_character_available_title">
 <key>character_recruitment_no_character_available_title</key>
 <string state="APPROVED" last_approved_text="There are no characters available!" last_edit_user="bob">There are no characters available!</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{9feef0a9-f95b-4954-a530-673d05efffb1}" record_timestamp="1552586967770" record_key="character_recruitment_no_mercenary_available_explanation">
+<campaign_localised_strings record_uuid="{9feef0a9-f95b-4954-a530-673d05efffb1}" record_timestamp="1554883495199" record_key="character_recruitment_no_mercenary_available_explanation">
 <key>character_recruitment_no_mercenary_available_explanation</key>
 <string state="APPROVED" last_approved_text="There are currently no mercenary captains available for hire - more will appear over time." last_edit_user="bob">There are currently no mercenary captains available for hire - more will appear over time.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{5766a2a1-85e4-431d-bc21-107025cb1f8c}" record_timestamp="1552586967771" record_key="character_recruitment_no_mercenary_available_title">
+<campaign_localised_strings record_uuid="{5766a2a1-85e4-431d-bc21-107025cb1f8c}" record_timestamp="1554883495199" record_key="character_recruitment_no_mercenary_available_title">
 <key>character_recruitment_no_mercenary_available_title</key>
 <string state="APPROVED" last_approved_text="There are no mercenary captains available!" last_edit_user="bob">There are no mercenary captains available!</string>
 </campaign_localised_strings>
@@ -2009,7 +2021,7 @@
 <key>child_male</key>
 <string state="APPROVED" last_approved_text="Boy" last_edit_user="bob">Boy</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{d26a2164-1310-4866-869d-a85a46ee658b}" record_timestamp="1551191588488" record_key="colonise_cost">
+<campaign_localised_strings record_uuid="{d26a2164-1310-4866-869d-a85a46ee658b}" record_timestamp="1551788153604" record_key="colonise_cost">
 <key>colonise_cost</key>
 <string state="APPROVED" last_approved_text="Cost: {{tr:icon_money}}%d" last_edit_user="bob">Cost: {{tr:icon_money}}%d</string>
 </campaign_localised_strings>
@@ -2065,7 +2077,7 @@
 <key>construction_tooltip_repair</key>
 <string state="APPROVED" last_approved_text="Left-click the repair button to repair, right-click for further information." last_edit_user="bob">Left-click the repair button to repair, right-click for further information.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{9e4b3426-26f8-453a-8b16-a67a4c1276c4}" record_timestamp="1550223093183" record_key="court_changing_post">
+<campaign_localised_strings record_uuid="{9e4b3426-26f8-453a-8b16-a67a4c1276c4}" record_timestamp="1551784590587" record_key="court_changing_post">
 <key>court_changing_post</key>
 <string state="APPROVED" last_approved_text="Remove %S from position: %S\nNew position: %S" last_edit_user="bob">Remove %S from position: %S\nNew position: %S</string>
 </campaign_localised_strings>
@@ -2073,15 +2085,15 @@
 <key>court_post_effects_from_character</key>
 <string state="APPROVED" last_approved_text="Effects from %S in this post" last_edit_user="bob">Effects from %S in this post</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{99c15254-d362-42ec-8398-4301713e8027}" record_timestamp="1550326643416" record_key="court_post_salary_change">
+<campaign_localised_strings record_uuid="{99c15254-d362-42ec-8398-4301713e8027}" record_timestamp="1551784842120" record_key="court_post_salary_change">
 <key>court_post_salary_change</key>
 <string state="APPROVED" last_approved_text="New salary: [[b]]%d[[/b]] ([[b]]%+d[[/b]])" last_edit_user="bob">New salary: [[b]]%d[[/b]] ([[b]]%+d[[/b]])</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{e965b724-2278-4a37-8ae9-3ed2bc3dea43}" record_timestamp="1550326643416" record_key="court_post_satisfaction_change">
+<campaign_localised_strings record_uuid="{e965b724-2278-4a37-8ae9-3ed2bc3dea43}" record_timestamp="1551784842120" record_key="court_post_satisfaction_change">
 <key>court_post_satisfaction_change</key>
 <string state="APPROVED" last_approved_text="[[b]]%+d[[/b]] Satisfaction change for post" last_edit_user="bob">[[b]]%+d[[/b]] Satisfaction change for post</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{fc3a5b68-6187-45d6-959b-f037ef75e129}" record_timestamp="1550243246959" record_key="court_provincewide_effects_from_character">
+<campaign_localised_strings record_uuid="{fc3a5b68-6187-45d6-959b-f037ef75e129}" record_timestamp="1551784712505" record_key="court_provincewide_effects_from_character">
 <key>court_provincewide_effects_from_character</key>
 <string state="APPROVED" last_approved_text="{{tr:ministerial_positions_governors_title}} effects from %S" last_edit_user="bob">{{tr:ministerial_positions_governors_title}} effects from %S</string>
 </campaign_localised_strings>
@@ -2133,7 +2145,7 @@
 <key>court_screen_tooltip_no_provinces_available_governor</key>
 <string state="APPROVED" last_approved_text="There are no available commandaries for this character to administrate." last_edit_user="bob">There are no available commandaries for this character to administrate.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{a61922bd-7571-4279-988a-912229f96d1a}" record_timestamp="1550245378568" record_key="court_tooltip_character_employed_as_assignee">
+<campaign_localised_strings record_uuid="{a61922bd-7571-4279-988a-912229f96d1a}" record_timestamp="1551784816744" record_key="court_tooltip_character_employed_as_assignee">
 <key>court_tooltip_character_employed_as_assignee</key>
 <string state="APPROVED" last_approved_text="This character is currently employed as an assignee." last_edit_user="bob">This character is currently employed as an assignee.</string>
 </campaign_localised_strings>
@@ -2149,7 +2161,7 @@
 <key>current_office</key>
 <string state="APPROVED" last_approved_text="Currently held highest office:" last_edit_user="bob">Currently held highest office:</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{08dad9c6-6e56-49bd-a47b-8b8c95bfa4a6}" record_timestamp="1552480760560" record_key="current_trade_influence">
+<campaign_localised_strings record_uuid="{08dad9c6-6e56-49bd-a47b-8b8c95bfa4a6}" record_timestamp="1554882924288" record_key="current_trade_influence">
 <key>current_trade_influence</key>
 <string state="APPROVED" last_approved_text="Current Trade Influence" last_edit_user="bob">Current Trade Influence</string>
 </campaign_localised_strings>
@@ -2277,7 +2289,7 @@
 <key>diplomacy_tooltip_cant_negotiate_with_faction_master_at_war</key>
 <string state="APPROVED" last_approved_text="[[col:red]]You cannot negotiate with this faction. You are at war with their master: %S[[/col]]" last_edit_user="bob">[[col:red]]You cannot negotiate with this faction. You are at war with their master: %S[[/col]]</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{d97fd7b3-b7bb-4015-a288-470466247db0}" record_timestamp="1551990334339" record_key="diplomacy_trade_influence">
+<campaign_localised_strings record_uuid="{d97fd7b3-b7bb-4015-a288-470466247db0}" record_timestamp="1554882086811" record_key="diplomacy_trade_influence">
 <key>diplomacy_trade_influence</key>
 <string state="APPROVED" last_approved_text="This is your total [[b]]trade influence[[/b]]. When forging trade agreements with other factions, your trade influence in comparison to theirs will determine the share you will receive from the combined trade volume." last_edit_user="bob">This is your total [[b]]trade influence[[/b]]. When forging trade agreements with other factions, your trade influence in comparison to theirs will determine the share you will receive from the combined trade volume.</string>
 </campaign_localised_strings>
@@ -2365,7 +2377,7 @@
 <key>end_turn_notifications_investigate</key>
 <string state="APPROVED" last_approved_text="[[b]]Investigate Issues[[/b]] \n This will show you outstanding issues in your realm." last_edit_user="bob">[[b]]Investigate Issues[[/b]] \n This will show you outstanding issues in your realm.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{2a2d643a-369b-486b-ade2-26da0eab13ef}" record_timestamp="1552640548349" record_key="end_turn_tooltip">
+<campaign_localised_strings record_uuid="{2a2d643a-369b-486b-ade2-26da0eab13ef}" record_timestamp="1551784849425" record_key="end_turn_tooltip">
 <key>end_turn_tooltip</key>
 <string state="APPROVED" last_approved_text="[[b]]End turn[[/b]]\nOnce you've issued all the orders you wish to give, you should end your turn.\n\nEnding your turn moves time forwards, refreshing army AP, progressing construction and allowing other factions to take their turns." last_edit_user="bob">[[b]]End turn[[/b]]\nOnce you've issued all the orders you wish to give, you should end your turn.\n\nEnding your turn moves time forwards, refreshing army AP, progressing construction and allowing other factions to take their turns.</string>
 </campaign_localised_strings>
@@ -2416,6 +2428,38 @@
 <campaign_localised_strings record_uuid="{4a334270-f548-44c5-8873-dd42a54c941e}" record_timestamp="1465987190744" record_key="enslave_none_captured">
 <key>enslave_none_captured</key>
 <string state="APPROVED" last_approved_text="[[col:red]]You have taken no captives, so replenishment will be 0%[[/col]]" last_edit_user="bob">[[col:red]]You have taken no captives, so replenishment will be 0%[[/col]]</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{a6ec2449-5ff1-4fa4-a289-56325c9a2702}" record_timestamp="1562767789932" record_key="ep_alignment_max_level">
+<key>ep_alignment_max_level</key>
+<string state="APPROVED" last_approved_text="You are at the maximum level:" last_edit_user="bob">You are at the maximum level:</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{5e1f1322-4ff7-4225-b2f6-46ba46d918fb}" record_timestamp="1561734595132" record_key="ep_emperor_tooltip_capture">
+<key>ep_emperor_tooltip_capture</key>
+<string state="APPROVED" last_approved_text="If you attempt to capture the emperor before you gain sufficient prestige, the court may reject your claim and seek a different regent." last_edit_user="bob">If you attempt to capture the emperor before you gain sufficient prestige, the court may reject your claim and seek a different regent.</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{cb7ee983-5be8-4573-96c1-84809fc0e278}" record_timestamp="1561734595129" record_key="ep_emperor_tooltip_effects">
+<key>ep_emperor_tooltip_effects</key>
+<string state="APPROVED" last_approved_text="The faction leader who controls the emperor becomes regent, gaining prestige and diplomatic bonuses with minor factions, but diplomatic penalties with major factions." last_edit_user="bob">The faction leader who controls the emperor becomes regent, gaining prestige and diplomatic bonuses with minor factions, but diplomatic penalties with major factions.</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{5f33213d-ea16-4ed9-9df6-3cf935d49a97}" record_timestamp="1561386287854" record_key="ep_main_tutorial_mode_reforms_header_description">
+<key>ep_main_tutorial_mode_reforms_header_description</key>
+<string state="APPROVED" last_approved_text="{{tr:info_mode_reforms_eight_princes}}" last_edit_user="bob">{{tr:info_mode_reforms_eight_princes}}</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{bf685f19-2e4c-4ab5-b408-70ece9fbeeaf}" record_timestamp="1561386287854" record_key="ep_main_tutorial_mode_reforms_header_title">
+<key>ep_main_tutorial_mode_reforms_header_title</key>
+<string state="APPROVED" last_approved_text="Reforms &amp; Technologies" last_edit_user="bob">Reforms &amp; Technologies</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{be2187f6-7c07-4c10-9419-e730790f6363}" record_timestamp="1562151402530" record_key="ep_multiplayer_campaign_victory_conditions">
+<key>ep_multiplayer_campaign_victory_conditions</key>
+<string state="APPROVED" last_approved_text="[[b]]Victory Types[[/b]]\nStandard: reach the rank of Victorious Prince.\n\nCo-operative: combine your strength by signing a shared mandate diplomatic deal.\n\nHead-to-Head: destroy the other player, or compete with one another to be the first to meet the victory conditions." last_edit_user="bob">[[b]]Victory Types[[/b]]\nStandard: reach the rank of Victorious Prince.\n\nCo-operative: combine your strength by signing a shared mandate diplomatic deal.\n\nHead-to-Head: destroy the other player, or compete with one another to be the first to meet the victory conditions.</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{58c7342a-69db-4a70-a724-5e31055053e3}" record_timestamp="1562056576082" record_key="ep_tutorial_mode_hud_alignments_description">
+<key>ep_tutorial_mode_hud_alignments_description</key>
+<string state="APPROVED" last_approved_text="Your [[b]]alignments[[/b]] are a unique feature of the Eight Princes campaign.\n\n[[b]]Dilemmas[[/b]] occur throughout the course of the campaign and give opportunities to increase your [[b]]alignment[[/b]] values.\n\nEach alignment level gives an increasingly more powerful effects to your faction.\n\nHovering over an alignment allows you to see your current alignment, the amount of points required for the next level, the effects granted by your current level and the effects granted by the next level." last_edit_user="bob">Your [[b]]alignments[[/b]] are a unique feature of the Eight Princes campaign.\n\n[[b]]Dilemmas[[/b]] occur throughout the course of the campaign and give opportunities to increase your [[b]]alignment[[/b]] values.\n\nEach alignment level gives an increasingly more powerful effects to your faction.\n\nHovering over an alignment allows you to see your current alignment, the amount of points required for the next level, the effects granted by your current level and the effects granted by the next level.</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{a51943b9-72c8-4d76-8460-72f204f99c20}" record_timestamp="1561983453680" record_key="ep_tutorial_mode_hud_alignments_title">
+<key>ep_tutorial_mode_hud_alignments_title</key>
+<string state="APPROVED" last_approved_text="Alignments" last_edit_user="bob">Alignments</string>
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{8833a970-41f6-491d-b79c-7060cf76863b}" record_timestamp="1458237636554" record_key="event_header_other">
 <key>event_header_other</key>
@@ -2469,19 +2513,19 @@
 <key>faction_council_invoke_turns_text</key>
 <string state="APPROVED" last_approved_text="Can invoke council again in %d turns" last_edit_user="bob">Can invoke council again in %d turns</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{715ff0a9-80a6-43d5-8666-823435a840cd}" record_timestamp="1553181668410" record_key="faction_event_challenge_aborted">
+<campaign_localised_strings record_uuid="{715ff0a9-80a6-43d5-8666-823435a840cd}" record_timestamp="1554885389596" record_key="faction_event_challenge_aborted">
 <key>faction_event_challenge_aborted</key>
 <string state="APPROVED" last_approved_text="Challenge Aborted" last_edit_user="bob">Challenge Aborted</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{3509d437-eaf6-4172-bdcc-10b28b855ddb}" record_timestamp="1553181668461" record_key="faction_event_challenge_failed">
+<campaign_localised_strings record_uuid="{3509d437-eaf6-4172-bdcc-10b28b855ddb}" record_timestamp="1554885389596" record_key="faction_event_challenge_failed">
 <key>faction_event_challenge_failed</key>
 <string state="APPROVED" last_approved_text="Challenge Failed" last_edit_user="bob">Challenge Failed</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{4d1cbda1-a662-44e0-a8d9-7ca500b78fc9}" record_timestamp="1553181668512" record_key="faction_event_challenge_issued">
+<campaign_localised_strings record_uuid="{4d1cbda1-a662-44e0-a8d9-7ca500b78fc9}" record_timestamp="1554885389596" record_key="faction_event_challenge_issued">
 <key>faction_event_challenge_issued</key>
 <string state="APPROVED" last_approved_text="Challenge Issued" last_edit_user="bob">Challenge Issued</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{9ef03273-79b1-4860-8cb0-b7acff1c596d}" record_timestamp="1553181668563" record_key="faction_event_challenge_success">
+<campaign_localised_strings record_uuid="{9ef03273-79b1-4860-8cb0-b7acff1c596d}" record_timestamp="1554885389596" record_key="faction_event_challenge_success">
 <key>faction_event_challenge_success</key>
 <string state="APPROVED" last_approved_text="Challenge Success" last_edit_user="bob">Challenge Success</string>
 </campaign_localised_strings>
@@ -2528,6 +2572,66 @@
 <campaign_localised_strings record_uuid="{8ab5ee82-b38c-49ae-8ea9-e485bcc8e5c6}" record_timestamp="1526028901279" record_key="faction_rank_dong_zhuo_3_tooltip">
 <key>faction_rank_dong_zhuo_3_tooltip</key>
 <string state="APPROVED" last_approved_text="{$faction$|gender=King|Queen}||Your power is both feared and coveted." last_edit_user="bob">{$faction$|gender=King|Queen}||Your power is both feared and coveted.</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{7da01043-3d82-4f40-8523-b19935f6a865}" record_timestamp="1555487739139" record_key="faction_rank_ep_1">
+<key>faction_rank_ep_1</key>
+<string state="APPROVED" last_approved_text="{$faction$|gender=Minor Prince|Minor Princess}" last_edit_user="bob">{$faction$|gender=Minor Prince|Minor Princess}</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{f29bdd5a-78eb-490b-861f-ad191c2b69c6}" record_timestamp="1555487739139" record_key="faction_rank_ep_1_description">
+<key>faction_rank_ep_1_description</key>
+<string state="APPROVED" last_approved_text="Your power is of little consequence to the world... yet!" last_edit_user="bob">Your power is of little consequence to the world... yet!</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{a21dd2cd-3148-4f51-9c0c-cf14b4ddbfc2}" record_timestamp="1555487739139" record_key="faction_rank_ep_1_tooltip">
+<key>faction_rank_ep_1_tooltip</key>
+<string state="APPROVED" last_approved_text="{$faction$|gender=Minor Prince|Minor Princess}||Your power is of little consequence to the world... yet!" last_edit_user="bob">{$faction$|gender=Minor Prince|Minor Princess}||Your power is of little consequence to the world... yet!</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{4047097e-b746-4d3c-95f1-fa7b5f95913a}" record_timestamp="1555487739139" record_key="faction_rank_ep_2">
+<key>faction_rank_ep_2</key>
+<string state="APPROVED" last_approved_text="{$faction$|gender=Prince|Princess}" last_edit_user="bob">{$faction$|gender=Prince|Princess}</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{f8073f1c-ef57-4f76-8e83-9564ebe60d15}" record_timestamp="1555487739139" record_key="faction_rank_ep_2_description">
+<key>faction_rank_ep_2_description</key>
+<string state="APPROVED" last_approved_text="You have established yourself as a worthy power." last_edit_user="bob">You have established yourself as a worthy power.</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{336e567b-e374-4c25-8961-451dfe5b0053}" record_timestamp="1555487739139" record_key="faction_rank_ep_2_tooltip">
+<key>faction_rank_ep_2_tooltip</key>
+<string state="APPROVED" last_approved_text="{$faction$|gender=Prince|Princess}||You have established yourself as a worthy power." last_edit_user="bob">{$faction$|gender=Prince|Princess}||You have established yourself as a worthy power.</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{43d4e188-566f-408b-85b7-22b64ef28afd}" record_timestamp="1555487739139" record_key="faction_rank_ep_3">
+<key>faction_rank_ep_3</key>
+<string state="APPROVED" last_approved_text="{$faction$|gender=Grand Prince|Grand Princess}" last_edit_user="bob">{$faction$|gender=Grand Prince|Grand Princess}</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{94613789-cac1-437c-858e-818956947bb9}" record_timestamp="1555487739139" record_key="faction_rank_ep_3_description">
+<key>faction_rank_ep_3_description</key>
+<string state="APPROVED" last_approved_text="Word of your achievements has travelled far." last_edit_user="bob">Word of your achievements has travelled far.</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{d5bc45de-8307-4d11-ba8e-51aaa3772598}" record_timestamp="1555487739139" record_key="faction_rank_ep_3_tooltip">
+<key>faction_rank_ep_3_tooltip</key>
+<string state="APPROVED" last_approved_text="{$faction$|gender=Grand Prince|Grand Princess}||Word of your achievements has travelled far." last_edit_user="bob">{$faction$|gender=Grand Prince|Grand Princess}||Word of your achievements has travelled far.</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{13e86544-5853-47bc-bebf-d63151dd251d}" record_timestamp="1555487739139" record_key="faction_rank_ep_4">
+<key>faction_rank_ep_4</key>
+<string state="APPROVED" last_approved_text="{$faction$|gender=Imperial Prince|Imperial Princess}" last_edit_user="bob">{$faction$|gender=Imperial Prince|Imperial Princess}</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{5634e7e7-b523-4f6b-bafd-97dde3383ef1}" record_timestamp="1555487739139" record_key="faction_rank_ep_4_description">
+<key>faction_rank_ep_4_description</key>
+<string state="APPROVED" last_approved_text="Your accomplishments are great." last_edit_user="bob">Your accomplishments are great.</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{6241a0aa-3cd8-4626-a597-d32dd5e49f4e}" record_timestamp="1555487739139" record_key="faction_rank_ep_4_tooltip">
+<key>faction_rank_ep_4_tooltip</key>
+<string state="APPROVED" last_approved_text="{$faction$|gender=Imperial Prince|Imperial Princess}||Your accomplishments are truly great!" last_edit_user="bob">{$faction$|gender=Imperial Prince|Imperial Princess}||Your accomplishments are truly great!</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{de4fdba2-58de-4ed2-b141-0e9a3092f5f8}" record_timestamp="1560776539180" record_key="faction_rank_ep_5">
+<key>faction_rank_ep_5</key>
+<string state="APPROVED" last_approved_text="Victorious Prince" last_edit_user="bob">Victorious Prince</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{28ea8870-a500-45cc-91d7-2f4bae2e2e83}" record_timestamp="1561728407359" record_key="faction_rank_ep_5_description">
+<key>faction_rank_ep_5_description</key>
+<string state="APPROVED" last_approved_text="Reach this rank to win the campaign." last_edit_user="bob">Reach this rank to win the campaign.</string>
+</campaign_localised_strings>
+<campaign_localised_strings record_uuid="{9486469a-4d79-4298-b2fb-f47ba2ea1fae}" record_timestamp="1556199332250" record_key="faction_rank_ep_5_tooltip">
+<key>faction_rank_ep_5_tooltip</key>
+<string state="APPROVED" last_approved_text="Victory||You have been victorious in the campaign." last_edit_user="bob">Victory||You have been victorious in the campaign.</string>
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{c5cc1442-ccfd-40ea-af80-fd499f062e94}" record_timestamp="1497449396247" record_key="faction_rank_han_chinese_1">
 <key>faction_rank_han_chinese_1</key>
@@ -3037,7 +3141,7 @@
 <key>imperium_tooltip_10</key>
 <string state="APPROVED" last_approved_text="Supreme||The power wielded by your people is undisputable. None shall resist their might, nor the temptation to control it: civil strife is certain." last_edit_user="bob">Supreme||The power wielded by your people is undisputable. None shall resist their might, nor the temptation to control it: civil strife is certain.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{4dc9c5f5-a42d-4cb1-85b0-de42b067956d}" record_timestamp="1553009422584" record_key="income_corruption_text">
+<campaign_localised_strings record_uuid="{4dc9c5f5-a42d-4cb1-85b0-de42b067956d}" record_timestamp="1554885047711" record_key="income_corruption_text">
 <key>income_corruption_text</key>
 <string state="APPROVED" last_approved_text="Corruption" last_edit_user="bob">Corruption</string>
 </campaign_localised_strings>
@@ -3077,11 +3181,11 @@
 <key>locked_skill</key>
 <string state="APPROVED" last_approved_text="[[col:red]]Action locked. Available after unlocking the campaign skill:[[/col]]" last_edit_user="bob">[[col:red]]Action locked. Available after unlocking the campaign skill:[[/col]]</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{9804efbd-723c-4b37-8696-2df30896f1c1}" record_timestamp="1551183526710" record_key="loyalty_effect_last">
+<campaign_localised_strings record_uuid="{9804efbd-723c-4b37-8696-2df30896f1c1}" record_timestamp="1551788136664" record_key="loyalty_effect_last">
 <key>loyalty_effect_last</key>
 <string state="APPROVED" last_approved_text="\nDuration: [[b]]%d[[/b]] turns" last_edit_user="bob">\nDuration: [[b]]%d[[/b]] turns</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{55e0099b-59f0-481e-9091-c6a60507edbd}" record_timestamp="1553685568576" record_key="mercenary_captain_retinue_available">
+<campaign_localised_strings record_uuid="{55e0099b-59f0-481e-9091-c6a60507edbd}" record_timestamp="1554886744436" record_key="mercenary_captain_retinue_available">
 <key>mercenary_captain_retinue_available</key>
 <string state="APPROVED" last_approved_text="Captain retinues available" last_edit_user="bob">Captain retinues available</string>
 </campaign_localised_strings>
@@ -3433,7 +3537,7 @@
 <key>morale_positive_list</key>
 <string state="APPROVED" last_approved_text="Positive supply factors" last_edit_user="bob">Positive supply factors</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{d6019877-b421-4c58-8a79-f5d20a6d8442}" record_timestamp="1552497012811" record_key="move_capital_trade_route">
+<campaign_localised_strings record_uuid="{d6019877-b421-4c58-8a79-f5d20a6d8442}" record_timestamp="1554883064139" record_key="move_capital_trade_route">
 <key>move_capital_trade_route</key>
 <string state="APPROVED" last_approved_text="The following trade routes will be suspended by moving capitals:" last_edit_user="bob">The following trade routes will be suspended by moving capitals:</string>
 </campaign_localised_strings>
@@ -3899,7 +4003,7 @@
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{caa577ed-c4a0-45c9-a36a-5e96aca89c7d}" record_timestamp="1534841003986" record_key="post_battle_public_order">
 <key>post_battle_public_order</key>
-<string state="APPROVED" last_approved_text="%d Public order" last_edit_user="bob">%d Public order</string>
+<string state="APPROVED" last_approved_text="%d {{tr:Public_order}}" last_edit_user="bob">%d {{tr:Public_order}}</string>
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{7c937b55-7a58-43dd-9639-95f4310c4418}" record_timestamp="1536073058347" record_key="post_battle_required_treasury_transaction">
 <key>post_battle_required_treasury_transaction</key>
@@ -3917,7 +4021,7 @@
 <key>post_battle_siege_effect_positive</key>
 <string state="APPROVED" last_approved_text="%d %s" last_edit_user="bob">%d %s</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{bb74eeb1-75c9-4372-a5a1-8e21169cec40}" record_timestamp="1553510784671" record_key="post_battle_withdraw_from_allied_battle">
+<campaign_localised_strings record_uuid="{bb74eeb1-75c9-4372-a5a1-8e21169cec40}" record_timestamp="1554886061592" record_key="post_battle_withdraw_from_allied_battle">
 <key>post_battle_withdraw_from_allied_battle</key>
 <string state="APPROVED" last_approved_text="WITHDRAW" last_edit_user="bob">WITHDRAW</string>
 </campaign_localised_strings>
@@ -3933,11 +4037,11 @@
 <key>pre_battle_interception_cannot_retreat</key>
 <string state="APPROVED" last_approved_text="[[col:red]]You cannot retreat when you have been intercepted by the enemy![[/col]]" last_edit_user="bob">[[col:red]]You cannot retreat when you have been intercepted by the enemy![[/col]]</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{df898faa-a87a-4104-92fb-daef2ee275cc}" record_timestamp="1551705400150" record_key="pre_battle_tooltip_cant_retreat">
+<campaign_localised_strings record_uuid="{df898faa-a87a-4104-92fb-daef2ee275cc}" record_timestamp="1554880752091" record_key="pre_battle_tooltip_cant_retreat">
 <key>pre_battle_tooltip_cant_retreat</key>
 <string state="APPROVED" last_approved_text="You cannot retreat from this battle. You will lose your entire army if you lose! " last_edit_user="bob">You cannot retreat from this battle. You will lose your entire army if you lose! </string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{1f97db77-aed0-4ec3-88c7-b0a5a26f27b2}" record_timestamp="1551705400150" record_key="pre_battle_tooltip_cant_withdraw">
+<campaign_localised_strings record_uuid="{1f97db77-aed0-4ec3-88c7-b0a5a26f27b2}" record_timestamp="1554880752091" record_key="pre_battle_tooltip_cant_withdraw">
 <key>pre_battle_tooltip_cant_withdraw</key>
 <string state="APPROVED" last_approved_text="You cannot withdraw from this battle as this army has retreated once already. Losing this battle will destroy this army." last_edit_user="bob">You cannot withdraw from this battle as this army has retreated once already. Losing this battle will destroy this army.</string>
 </campaign_localised_strings>
@@ -3965,11 +4069,11 @@
 <key>pre_battle_tooltip_offer_surrender_safe_passage</key>
 <string state="APPROVED" last_approved_text="Offer to surrender for safe passage.\nMaybe they will accept." last_edit_user="bob">Offer to surrender for safe passage.\nMaybe they will accept.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{5a4c99a5-573d-42b7-8c81-807468212a66}" record_timestamp="1551705400150" record_key="pre_battle_tooltip_script_cant_retreat">
+<campaign_localised_strings record_uuid="{5a4c99a5-573d-42b7-8c81-807468212a66}" record_timestamp="1554880752091" record_key="pre_battle_tooltip_script_cant_retreat">
 <key>pre_battle_tooltip_script_cant_retreat</key>
 <string state="APPROVED" last_approved_text="You cannot retreat from this battle." last_edit_user="bob">You cannot retreat from this battle.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{ec903f7d-1ded-4833-a095-cbfb22e7c532}" record_timestamp="1551705400150" record_key="pre_battle_tooltip_script_cant_withdraw">
+<campaign_localised_strings record_uuid="{ec903f7d-1ded-4833-a095-cbfb22e7c532}" record_timestamp="1554880752091" record_key="pre_battle_tooltip_script_cant_withdraw">
 <key>pre_battle_tooltip_script_cant_withdraw</key>
 <string state="APPROVED" last_approved_text="You cannot withdraw from this battle." last_edit_user="bob">You cannot withdraw from this battle.</string>
 </campaign_localised_strings>
@@ -4051,7 +4155,7 @@
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{dce164b7-e995-4b9a-ab4c-79fe220aae20}" record_timestamp="1530539259914" record_key="province_details_public_order">
 <key>province_details_public_order</key>
-<string state="APPROVED" last_approved_text="PUBLIC ORDER" last_edit_user="bob">PUBLIC ORDER</string>
+<string state="APPROVED" last_approved_text="{{tr:PUBLIC_ORDER}}" last_edit_user="bob">{{tr:PUBLIC_ORDER}}</string>
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{0d991f86-f7da-40cf-9c48-874b9bc0c388}" record_timestamp="1533804788083" record_key="province_details_supplies">
 <key>province_details_supplies</key>
@@ -4173,9 +4277,9 @@
 <key>public_order_culture_tooltip</key>
 <string state="HIDDEN" last_approved_text="Corruption" last_edit_user="bob">Corruption</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{b156bb9e-17e7-4926-94c7-db37e0f8e40b}" record_timestamp="1535454785727" record_key="public_order_description">
+<campaign_localised_strings record_uuid="{b156bb9e-17e7-4926-94c7-db37e0f8e40b}" record_timestamp="1561481922874" record_key="public_order_description">
 <key>public_order_description</key>
-<string state="APPROVED" last_approved_text="{{tr:Public_order}} represents the sentiment of the local population towards your rule. " last_edit_user="bob">{{tr:Public_order}} represents the sentiment of the local population towards your rule. </string>
+<string state="APPROVED" last_approved_text="{{tr:Public_order}} represents the sentiment of the local {{tr:public_order_tooltip_description_people}} towards your rule. " last_edit_user="bob">{{tr:Public_order}} represents the sentiment of the local {{tr:public_order_tooltip_description_people}} towards your rule. </string>
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{5f5ce558-f0aa-4aa1-bcdb-12509d587fdf}" record_timestamp="1432740437026" record_key="public_order_desolation">
 <key>public_order_desolation</key>
@@ -4247,7 +4351,7 @@
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{111ee931-2152-4b8d-8dba-aa9a3d046cbc}" record_timestamp="1373025940696" record_key="public_order_military_activity">
 <key>public_order_military_activity</key>
-<string state="APPROVED" last_approved_text="Hostile forces" last_edit_user="bob">Hostile forces</string>
+<string state="APPROVED" last_approved_text="Local forces" last_edit_user="bob">Local forces</string>
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{33982c2d-31b2-4b93-aac0-1eddd2da142a}" record_timestamp="1422974947410" record_key="public_order_military_activity_tooltip">
 <key>public_order_military_activity_tooltip</key>
@@ -4371,7 +4475,7 @@
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{ccad58e2-1a4b-43c6-8065-1f08cf14463c}" record_timestamp="1535454785727" record_key="public_order_title">
 <key>public_order_title</key>
-<string state="APPROVED" last_approved_text="Public Order" last_edit_user="bob">Public Order</string>
+<string state="APPROVED" last_approved_text="{{tr:Public_Order}}" last_edit_user="bob">{{tr:Public_Order}}</string>
 </campaign_localised_strings>
 <campaign_localised_strings record_uuid="{36ce943a-8c58-4c9e-a26b-b5ca308cb16c}" record_timestamp="1432740437105" record_key="public_order_uncertainty">
 <key>public_order_uncertainty</key>
@@ -4773,7 +4877,7 @@
 <key>religion_factor_province</key>
 <string state="APPROVED" last_approved_text="Local populace" last_edit_user="bob">Local populace</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{642a22d8-0518-4347-bf3d-52274a415b55}" record_timestamp="1553776167048" record_key="rename">
+<campaign_localised_strings record_uuid="{642a22d8-0518-4347-bf3d-52274a415b55}" record_timestamp="1554887254773" record_key="rename">
 <key>rename</key>
 <string state="APPROVED" last_approved_text="Rename" last_edit_user="bob">Rename</string>
 </campaign_localised_strings>
@@ -4873,7 +4977,7 @@
 <key>resource_tooltip_untradeable</key>
 <string state="APPROVED" last_approved_text="This may provide a unique building chain." last_edit_user="bob">This may provide a unique building chain.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{2c9e5007-00b5-4002-9a5a-2a437df99e01}" record_timestamp="1552577112578" record_key="retinue_transfer_explanation">
+<campaign_localised_strings record_uuid="{2c9e5007-00b5-4002-9a5a-2a437df99e01}" record_timestamp="1554883466037" record_key="retinue_transfer_explanation">
 <key>retinue_transfer_explanation</key>
 <string state="APPROVED" last_approved_text="Select retinues to be transferred between armies" last_edit_user="bob">Select retinues to be transferred between armies</string>
 </campaign_localised_strings>
@@ -4985,7 +5089,7 @@
 <key>siege_cannot_surrender_without_blockade</key>
 <string state="APPROVED" last_approved_text="This settlement will not surrender as long as it is sustained by a port. Blockade the settlement to starve the populace out." last_edit_user="bob">This settlement will not surrender as long as it is sustained by a port. Blockade the settlement to starve the populace out.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{7253419f-7b0a-4438-acef-ac34f9cfa68f}" record_timestamp="1551699095729" record_key="siege_holdout_information">
+<campaign_localised_strings record_uuid="{7253419f-7b0a-4438-acef-ac34f9cfa68f}" record_timestamp="1547715313641" record_key="siege_holdout_information">
 <key>siege_holdout_information</key>
 <string state="APPROVED" last_approved_text="The capital of this {{tr:map_province}} can hold out in a siege for %d turns." last_edit_user="bob">The capital of this {{tr:map_province}} can hold out in a siege for %d turns.</string>
 </campaign_localised_strings>
@@ -5125,7 +5229,7 @@
 <key>tooltip_raiding_income</key>
 <string state="APPROVED" last_approved_text="Income generated from liberating" last_edit_user="bob">Income generated from liberating</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{05f371ff-7d04-471b-b577-1122b81323e2}" record_timestamp="1551786075118" record_key="tooltip_unit_recruitment">
+<campaign_localised_strings record_uuid="{05f371ff-7d04-471b-b577-1122b81323e2}" record_timestamp="1548172688992" record_key="tooltip_unit_recruitment">
 <key>tooltip_unit_recruitment</key>
 <string state="APPROVED" last_approved_text="Left-click to recruit\nRight-click to pin info panel\n\n[[col:scope_description]]Recruited units can be refunded while the army is still selected.[[/col]]" last_edit_user="bob">Left-click to recruit\nRight-click to pin info panel\n\n[[col:scope_description]]Recruited units can be refunded while the army is still selected.[[/col]]</string>
 </campaign_localised_strings>
@@ -5145,7 +5249,7 @@
 <key>treasury_header_buildings</key>
 <string state="APPROVED" last_approved_text="Buildings" last_edit_user="bob">Buildings</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{a3ab00ed-a89f-421a-a7c1-281ae80bfa76}" record_timestamp="1552644105390" record_key="treasury_header_characters">
+<campaign_localised_strings record_uuid="{a3ab00ed-a89f-421a-a7c1-281ae80bfa76}" record_timestamp="1516698796823" record_key="treasury_header_characters">
 <key>treasury_header_characters</key>
 <string state="APPROVED" last_approved_text="Character salaries" last_edit_user="bob">Character salaries</string>
 </campaign_localised_strings>
@@ -5181,7 +5285,7 @@
 <key>treasury_header_recruitment</key>
 <string state="APPROVED" last_approved_text="Recruitment" last_edit_user="bob">Recruitment</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{72cca09e-a348-4f97-943e-440e1f0f0f94}" record_timestamp="1552644105389" record_key="treasury_header_retinue_upkeep">
+<campaign_localised_strings record_uuid="{72cca09e-a348-4f97-943e-440e1f0f0f94}" record_timestamp="1516698796869" record_key="treasury_header_retinue_upkeep">
 <key>treasury_header_retinue_upkeep</key>
 <string state="APPROVED" last_approved_text="Unit upkeep" last_edit_user="bob">Unit upkeep</string>
 </campaign_localised_strings>
@@ -5241,7 +5345,7 @@
 <key>treasury_one_off_out_spies_description</key>
 <string state="APPROVED" last_approved_text="Expenditures for actions performed by your spies." last_edit_user="bob">Expenditures for actions performed by your spies.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{14da6f28-e9be-4361-bfe2-ccc7e2703465}" record_timestamp="1551969972111" record_key="treasury_title">
+<campaign_localised_strings record_uuid="{14da6f28-e9be-4361-bfe2-ccc7e2703465}" record_timestamp="1554881668797" record_key="treasury_title">
 <key>treasury_title</key>
 <string state="APPROVED" last_approved_text="Treasury" last_edit_user="bob">Treasury</string>
 </campaign_localised_strings>
@@ -5425,7 +5529,7 @@
 <key>unit_upgrade_single_unit</key>
 <string state="APPROVED" last_approved_text="Left-click to upgrade the currently selected unit with:" last_edit_user="bob">Left-click to upgrade the currently selected unit with:</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{fba7abc3-0e64-4d71-a52e-25cfb7475635}" record_timestamp="1551094800870" record_key="unlocks_resource">
+<campaign_localised_strings record_uuid="{fba7abc3-0e64-4d71-a52e-25cfb7475635}" record_timestamp="1551787934630" record_key="unlocks_resource">
 <key>unlocks_resource</key>
 <string state="APPROVED" last_approved_text="Unlocks resource" last_edit_user="bob">Unlocks resource</string>
 </campaign_localised_strings>
@@ -5433,11 +5537,11 @@
 <key>unlocks_tech</key>
 <string state="APPROVED" last_approved_text="[[col:green]]Unlocks {{tr:3k_tr_Technologies}}[[/col]]" last_edit_user="bob">[[col:green]]Unlocks {{tr:3k_tr_Technologies}}[[/col]]</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{6b3574c5-1c7f-4808-899d-86263001c421}" record_timestamp="1551094800869" record_key="unlocks_tech_and_resource">
+<campaign_localised_strings record_uuid="{6b3574c5-1c7f-4808-899d-86263001c421}" record_timestamp="1551787934630" record_key="unlocks_tech_and_resource">
 <key>unlocks_tech_and_resource</key>
 <string state="APPROVED" last_approved_text="Unlocks {{tr:3k_tr_technology}} and resource" last_edit_user="bob">Unlocks {{tr:3k_tr_technology}} and resource</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{80ee59f6-9d11-499f-8e19-6f6965f64d5e}" record_timestamp="1551094800870" record_key="unlocks_technology">
+<campaign_localised_strings record_uuid="{80ee59f6-9d11-499f-8e19-6f6965f64d5e}" record_timestamp="1551787934630" record_key="unlocks_technology">
 <key>unlocks_technology</key>
 <string state="APPROVED" last_approved_text="Unlocks {{tr:3k_tr_technology}}" last_edit_user="bob">Unlocks {{tr:3k_tr_technology}}</string>
 </campaign_localised_strings>
@@ -5521,7 +5625,7 @@
 <key>war_coordination_tooltip_right_click</key>
 <string state="APPROVED" last_approved_text="\nRight-click to cancel targeting." last_edit_user="bob">\nRight-click to cancel targeting.</string>
 </campaign_localised_strings>
-<campaign_localised_strings record_uuid="{997d86d8-17cf-41f0-886e-835fa5c04fea}" record_timestamp="1552580624232" record_key="warning_army_will_be_destroyed">
+<campaign_localised_strings record_uuid="{997d86d8-17cf-41f0-886e-835fa5c04fea}" record_timestamp="1554883479376" record_key="warning_army_will_be_destroyed">
 <key>warning_army_will_be_destroyed</key>
 <string state="APPROVED" last_approved_text="This army will be destroyed if it loses the battle!" last_edit_user="bob">This army will be destroyed if it loses the battle!</string>
 </campaign_localised_strings>

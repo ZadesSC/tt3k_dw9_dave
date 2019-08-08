@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE TWaD_battle_vortexs>
 <root>
-<edit_uuid>dd9374d5-5ade-40b1-ab71-915ce1e6aa7f</edit_uuid>
+<edit_uuid>ca77ef39-43c0-43ec-8722-83d38b604761</edit_uuid>
 <include_all_records_in_retail>1</include_all_records_in_retail>
 <field>
 <field_uuid>{17e58ddf-9a26-433a-9f34-7390cee6cc25}</field_uuid>
@@ -261,6 +261,28 @@
 <required>1</required>
 <default_value>0</default_value>
 <field_description>distance from launch_source</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{3b1cdd95-98a6-409e-a6e5-d760f2839482}</field_uuid>
+<primary_key>0</primary_key>
+<name>delay_between_vortexes</name>
+<field_type>double</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>Time in seconds between each vortex becoming active if num_vortexes is &gt; 1</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{68ee747b-7451-44a0-9fe2-783407598a07}</field_uuid>
+<primary_key>0</primary_key>
+<name>use_fixed_spread</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>true</default_value>
+<field_description>Whether to use fixed spread when firing multiple projectiles, if used projectiles will be spread evenly across change_max_angle</field_description>
 <requires_startpos_reprocess>0</requires_startpos_reprocess>
 <requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
 </field>

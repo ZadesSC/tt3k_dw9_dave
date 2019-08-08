@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_group_campaign_diplomacy_treaty_component_set_queries.xsd" export_time="Sun Feb 3 09:20:20 2019" revision="2" export_branch="D:/TW/branches/3k/dev/common/UIEd" export_user="bob">
-<edit_uuid>426c4dc8-e412-421d-896c-cf4bae19232a</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_group_campaign_diplomacy_treaty_component_set_queries.xsd" export_time="Thu Jul 18 10:42:59 2019" revision="3" export_branch="C:/Users/rick.venier/AppData/Roaming/TWDaemon/1586/dave" export_user="bob">
+<edit_uuid>cebbc3c0-5fe7-4437-be45-c9cc1f9c8d84</edit_uuid>
 <campaign_group_campaign_diplomacy_treaty_component_set_queries record_uuid="{847b53ca-d49e-402a-8aab-f2b9dfe589fb}" record_timestamp="1548677373607" record_key="campaign_map_zone_of_control_colour_tints">
-<destination_requirement>treaty_vassal_&lt;variable_vassal_master&gt;_to_recipient</destination_requirement>
+<destination_requirement>treaty_vassalage_&lt;variable_vassal_master&gt;_to_recipient</destination_requirement>
 <destination_variable>variable_vassal_master</destination_variable>
 <source_requirement>conditions_alliance_or_coalition_or_vassalage_or_war_or_group_war_any_to_proposer&lt;variable_proposers&gt;_OR</source_requirement>
 <source_variable>variable_proposers</source_variable>
 <system>campaign_map_zone_of_control_colour_tints</system>
 </campaign_group_campaign_diplomacy_treaty_component_set_queries>
 <campaign_group_campaign_diplomacy_treaty_component_set_queries record_uuid="{4ed83f77-efb1-4429-92e4-9ceb7704146a}" record_timestamp="1549185612481" record_key="campaign_ui_states">
-<destination_requirement>treaty_vassal_&lt;variable_vassal_master&gt;_to_recipient</destination_requirement>
+<destination_requirement>treaty_vassalage_&lt;variable_vassal_master&gt;_to_recipient</destination_requirement>
 <destination_variable>variable_vassal_master</destination_variable>
 <source_requirement>conditions_alliance_or_coalition_or_vassalage_or_war_or_group_war_any_to_proposer&lt;variable_proposers&gt;_OR</source_requirement>
 <source_variable>variable_proposers</source_variable>

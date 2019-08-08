@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="audio_ability_phases.xsd" export_time="Wed Dec 19 15:05:39 2018" revision="20" export_branch="C:/Users/steven.lockett/AppData/Roaming/TWDaemon/1238/dave" export_user="bob">
-<edit_uuid>5a09fb08-9e93-41f4-80c4-c639e5e8f883</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="audio_ability_phases.xsd" export_time="Wed Jun 5 16:40:32 2019" revision="21" export_branch="T:/branches/3k/eight/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>edd82007-150b-4783-926f-c0f37557d654</edit_uuid>
 <audio_ability_phases record_uuid="{4ad225aa-de11-43a5-a886-d008b53d0cb3}" record_timestamp="1541176385098" record_key="3k_Main_Ability_Earth_Buff_Distant_Courage">
 <group_sound></group_sound>
 <key>3k_Main_Ability_Earth_Buff_Distant_Courage</key>
@@ -320,6 +320,17 @@
 <switch></switch>
 <use_reverb>1</use_reverb>
 </audio_ability_phases>
+<audio_ability_phases record_uuid="{b3ab0e9c-1623-4cc4-9fe2-6d8618d45659}" record_timestamp="1559749230287" record_key="3k_Main_Ability_Water_Buff_Time_Of_Need">
+<group_sound></group_sound>
+<key>3k_Main_Ability_Water_Buff_Time_Of_Need</key>
+<loop_event></loop_event>
+<looping_group_sound>0</looping_group_sound>
+<max_distance>350</max_distance>
+<start_event>Battle_Individual_Abilities_Water_Dyn_Buff_Time_Of_Need_Play</start_event>
+<stop_event>Battle_Individual_Abilities_Water_Dyn_Buff_Time_Of_Need_Stop</stop_event>
+<switch></switch>
+<use_reverb>1</use_reverb>
+</audio_ability_phases>
 <audio_ability_phases record_uuid="{b49e6072-2975-4684-b5cb-1acfdcf92b8d}" record_timestamp="1541176385130" record_key="3k_Main_Ability_Water_Buff_Way_Of_The_Wind">
 <group_sound></group_sound>
 <key>3k_Main_Ability_Water_Buff_Way_Of_The_Wind</key>
@@ -339,6 +350,17 @@
 <max_distance>350</max_distance>
 <start_event>Battle_Individual_Abilities_Water_Debuff_Wisdom_Of_The_River_Play</start_event>
 <stop_event>Battle_Individual_Abilities_Water_Debuff_Wisdom_Of_The_River_Stop</stop_event>
+<switch></switch>
+<use_reverb>1</use_reverb>
+</audio_ability_phases>
+<audio_ability_phases record_uuid="{037a1470-f4ab-42a8-854f-6a1d1b4195ed}" record_timestamp="1559749230287" record_key="3k_Main_Ability_Wood_Buff_Cleansing_Aura">
+<group_sound></group_sound>
+<key>3k_Main_Ability_Wood_Buff_Cleansing_Aura</key>
+<loop_event></loop_event>
+<looping_group_sound>0</looping_group_sound>
+<max_distance>350</max_distance>
+<start_event>Battle_Individual_Abilities_Wood_Dyn_Buff_Cleansing_Aura_Play</start_event>
+<stop_event>Battle_Individual_Abilities_Wood_Dyn_Buff_Cleansing_Aura_Stop</stop_event>
 <switch></switch>
 <use_reverb>1</use_reverb>
 </audio_ability_phases>

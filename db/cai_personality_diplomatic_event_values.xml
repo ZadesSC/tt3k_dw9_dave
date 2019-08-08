@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_personality_diplomatic_event_values.xsd" export_time="Fri Apr 5 12:21:54 2019" revision="112" export_branch="C:/Users/csaba.toth/AppData/Roaming/TWDaemon/1424/dave" export_user="bob">
-<edit_uuid>1059cf49-0a73-41c9-9860-5a72b49af98e</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_personality_diplomatic_event_values.xsd" export_time="Fri Jul 12 17:41:51 2019" revision="108" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1583/dave" export_user="bob">
+<edit_uuid>858719ce-7583-480b-9bd3-b0714ab5cdb9</edit_uuid>
 <cai_personality_diplomatic_event_values record_uuid="{9a63d9c2-f238-4dd3-9222-325cec2249d3}" record_timestamp="1517830926302" record_key="default3k_main_diplomatic_factor_broken_coalition">
 <component_id>default</component_id>
 <event_id>3k_main_diplomatic_factor_broken_coalition</event_id>
@@ -157,7 +157,7 @@
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{6746f9b7-07f5-476f-9d91-b396db3025c1}" record_timestamp="1551970147605" record_key="defaultBATTLE_ATTACK_OWN_REGION">
+<cai_personality_diplomatic_event_values record_uuid="{6746f9b7-07f5-476f-9d91-b396db3025c1}" record_timestamp="1554881669793" record_key="defaultBATTLE_ATTACK_OWN_REGION">
 <component_id>default</component_id>
 <event_id>BATTLE_ATTACK_OWN_REGION</event_id>
 <falloff>1</falloff>
@@ -421,13 +421,13 @@
 <falloff>20</falloff>
 <value>40</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{d4e8f622-200e-4df5-85bb-76cc8d33e1e1}" record_timestamp="1554463308730" record_key="defaultHELPED_VASSAL">
+<cai_personality_diplomatic_event_values record_uuid="{d4e8f622-200e-4df5-85bb-76cc8d33e1e1}" record_timestamp="1554888074918" record_key="defaultHELPED_VASSAL">
 <component_id>default</component_id>
 <event_id>HELPED_VASSAL</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{c28203e1-b0fc-465f-b28a-885119d4139d}" record_timestamp="1554463308715" record_key="defaultHELPED_VASSAL_TARGET">
+<cai_personality_diplomatic_event_values record_uuid="{c28203e1-b0fc-465f-b28a-885119d4139d}" record_timestamp="1554888074918" record_key="defaultHELPED_VASSAL_TARGET">
 <component_id>default</component_id>
 <event_id>HELPED_VASSAL_TARGET</event_id>
 <falloff>1</falloff>
@@ -469,9 +469,21 @@
 <falloff>20</falloff>
 <value>-20</value>
 </cai_personality_diplomatic_event_values>
+<cai_personality_diplomatic_event_values record_uuid="{a72490df-1b38-4857-84eb-12c9dff894b6}" record_timestamp="1562946753852" record_key="defaultMANIPULATED_NEGATIVE_SIMA_YUE">
+<component_id>default</component_id>
+<event_id>MANIPULATED_NEGATIVE_SIMA_YUE</event_id>
+<falloff>20</falloff>
+<value>-20</value>
+</cai_personality_diplomatic_event_values>
 <cai_personality_diplomatic_event_values record_uuid="{e4c1202a-bde9-4323-8a0c-a473126498c2}" record_timestamp="1528381885980" record_key="defaultMANIPULATED_NEGATIVE_TARGET">
 <component_id>default</component_id>
 <event_id>MANIPULATED_NEGATIVE_TARGET</event_id>
+<falloff>1</falloff>
+<value>0</value>
+</cai_personality_diplomatic_event_values>
+<cai_personality_diplomatic_event_values record_uuid="{5d756adb-4f61-42ff-9443-293d672a0c33}" record_timestamp="1562946753870" record_key="defaultMANIPULATED_NEGATIVE_TARGET_SIMA_YUE">
+<component_id>default</component_id>
+<event_id>MANIPULATED_NEGATIVE_TARGET_SIMA_YUE</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
@@ -481,9 +493,21 @@
 <falloff>20</falloff>
 <value>20</value>
 </cai_personality_diplomatic_event_values>
+<cai_personality_diplomatic_event_values record_uuid="{6e07420e-7d2f-49b3-8b1a-6cefd4542e00}" record_timestamp="1562946753697" record_key="defaultMANIPULATED_POSITIVE_SIMA_YUE">
+<component_id>default</component_id>
+<event_id>MANIPULATED_POSITIVE_SIMA_YUE</event_id>
+<falloff>20</falloff>
+<value>20</value>
+</cai_personality_diplomatic_event_values>
 <cai_personality_diplomatic_event_values record_uuid="{61c0d02c-25be-4568-8d67-fffe3b5fe8b9}" record_timestamp="1528381886005" record_key="defaultMANIPULATED_POSITIVE_TARGET">
 <component_id>default</component_id>
 <event_id>MANIPULATED_POSITIVE_TARGET</event_id>
+<falloff>1</falloff>
+<value>0</value>
+</cai_personality_diplomatic_event_values>
+<cai_personality_diplomatic_event_values record_uuid="{efeb9d2d-8f1c-4b78-8ded-efdfefa7ff62}" record_timestamp="1562946753713" record_key="defaultMANIPULATED_POSITIVE_TARGET_SIMA_YUE">
+<component_id>default</component_id>
+<event_id>MANIPULATED_POSITIVE_TARGET_SIMA_YUE</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
@@ -535,7 +559,7 @@
 <falloff>20</falloff>
 <value>-50</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{7d918dfa-98fa-4399-ac03-481673fd43cb}" record_timestamp="1554380593304" record_key="defaultPAST_EVENT_NEGATIVE_MAJOR_LONG">
+<cai_personality_diplomatic_event_values record_uuid="{7d918dfa-98fa-4399-ac03-481673fd43cb}" record_timestamp="1554887903919" record_key="defaultPAST_EVENT_NEGATIVE_MAJOR_LONG">
 <component_id>default</component_id>
 <event_id>PAST_EVENT_NEGATIVE_MAJOR_LONG</event_id>
 <falloff>50</falloff>
@@ -565,37 +589,37 @@
 <falloff>20</falloff>
 <value>-50</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{1e4505c9-c2e4-42d0-87f3-f46b3c43f600}" record_timestamp="1553596250884" record_key="defaultREFUSED_TO_HELP_VASSAL">
+<cai_personality_diplomatic_event_values record_uuid="{1e4505c9-c2e4-42d0-87f3-f46b3c43f600}" record_timestamp="1554886452068" record_key="defaultREFUSED_TO_HELP_VASSAL">
 <component_id>default</component_id>
 <event_id>REFUSED_TO_HELP_VASSAL</event_id>
 <falloff>20</falloff>
 <value>-120</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{07e0f3e1-e956-4c6c-a736-efc50c4afb59}" record_timestamp="1553596250887" record_key="defaultREFUSED_TO_HELP_VASSAL_TARGET">
+<cai_personality_diplomatic_event_values record_uuid="{07e0f3e1-e956-4c6c-a736-efc50c4afb59}" record_timestamp="1554886452077" record_key="defaultREFUSED_TO_HELP_VASSAL_TARGET">
 <component_id>default</component_id>
 <event_id>REFUSED_TO_HELP_VASSAL_TARGET</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{cf2cafa6-53c3-44db-995e-c5256be510e4}" record_timestamp="1553855778954" record_key="defaultREGION_DEMANDED">
+<cai_personality_diplomatic_event_values record_uuid="{cf2cafa6-53c3-44db-995e-c5256be510e4}" record_timestamp="1554887344683" record_key="defaultREGION_DEMANDED">
 <component_id>default</component_id>
 <event_id>REGION_DEMANDED</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{558521ae-835f-473a-98a7-040e49eb8853}" record_timestamp="1553855778954" record_key="defaultREGION_DEMANDED_TARGET">
+<cai_personality_diplomatic_event_values record_uuid="{558521ae-835f-473a-98a7-040e49eb8853}" record_timestamp="1554887344683" record_key="defaultREGION_DEMANDED_TARGET">
 <component_id>default</component_id>
 <event_id>REGION_DEMANDED_TARGET</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{9d3909d8-e038-4c25-b273-95e484240f2a}" record_timestamp="1553855778954" record_key="defaultREGION_OFFERED">
+<cai_personality_diplomatic_event_values record_uuid="{9d3909d8-e038-4c25-b273-95e484240f2a}" record_timestamp="1554887344682" record_key="defaultREGION_OFFERED">
 <component_id>default</component_id>
 <event_id>REGION_OFFERED</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{0a133680-4867-4375-83bf-05ed9f90733b}" record_timestamp="1553855778954" record_key="defaultREGION_OFFERED_TARGET">
+<cai_personality_diplomatic_event_values record_uuid="{0a133680-4867-4375-83bf-05ed9f90733b}" record_timestamp="1554887344683" record_key="defaultREGION_OFFERED_TARGET">
 <component_id>default</component_id>
 <event_id>REGION_OFFERED_TARGET</event_id>
 <falloff>1</falloff>
@@ -745,25 +769,25 @@
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{d48f78b3-e46f-451d-9abc-1cba960d447f}" record_timestamp="1551096033368" record_key="defaultSUPPORT_INDEPENDENCE_BROKEN">
+<cai_personality_diplomatic_event_values record_uuid="{d48f78b3-e46f-451d-9abc-1cba960d447f}" record_timestamp="1551787936610" record_key="defaultSUPPORT_INDEPENDENCE_BROKEN">
 <component_id>default</component_id>
 <event_id>SUPPORT_INDEPENDENCE_BROKEN</event_id>
 <falloff>20</falloff>
 <value>-20</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{1aba33e9-eda4-41c3-b3ec-f1032f733369}" record_timestamp="1551096033378" record_key="defaultSUPPORT_INDEPENDENCE_BROKEN_EARLY">
+<cai_personality_diplomatic_event_values record_uuid="{1aba33e9-eda4-41c3-b3ec-f1032f733369}" record_timestamp="1551787936611" record_key="defaultSUPPORT_INDEPENDENCE_BROKEN_EARLY">
 <component_id>default</component_id>
 <event_id>SUPPORT_INDEPENDENCE_BROKEN_EARLY</event_id>
 <falloff>20</falloff>
 <value>-40</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{01b16db0-ce95-4439-8943-712c8cd8aaa1}" record_timestamp="1551096033329" record_key="defaultSUPPORT_INDEPENDENCE_SIGNED">
+<cai_personality_diplomatic_event_values record_uuid="{01b16db0-ce95-4439-8943-712c8cd8aaa1}" record_timestamp="1551787936610" record_key="defaultSUPPORT_INDEPENDENCE_SIGNED">
 <component_id>default</component_id>
 <event_id>SUPPORT_INDEPENDENCE_SIGNED</event_id>
 <falloff>20</falloff>
 <value>10</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{2ec09f8b-14f4-4da3-acbc-2cf42a7c87ab}" record_timestamp="1551096033348" record_key="defaultSUPPORT_INDEPENDENCE_SIGNED_TARGET">
+<cai_personality_diplomatic_event_values record_uuid="{2ec09f8b-14f4-4da3-acbc-2cf42a7c87ab}" record_timestamp="1551787936610" record_key="defaultSUPPORT_INDEPENDENCE_SIGNED_TARGET">
 <component_id>default</component_id>
 <event_id>SUPPORT_INDEPENDENCE_SIGNED_TARGET</event_id>
 <falloff>20</falloff>
@@ -1123,7 +1147,7 @@
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{d8a05b30-57f3-48b7-85b6-2a32ff4c0adf}" record_timestamp="1551970147601" record_key="diplomatic_forgivingBATTLE_ATTACK_OWN_REGION">
+<cai_personality_diplomatic_event_values record_uuid="{d8a05b30-57f3-48b7-85b6-2a32ff4c0adf}" record_timestamp="1554881669793" record_key="diplomatic_forgivingBATTLE_ATTACK_OWN_REGION">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>BATTLE_ATTACK_OWN_REGION</event_id>
 <falloff>1</falloff>
@@ -1387,13 +1411,13 @@
 <falloff>20</falloff>
 <value>60</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{92f867e5-9c6f-4187-ace2-2925e2a8bb03}" record_timestamp="1554463308724" record_key="diplomatic_forgivingHELPED_VASSAL">
+<cai_personality_diplomatic_event_values record_uuid="{92f867e5-9c6f-4187-ace2-2925e2a8bb03}" record_timestamp="1554888074918" record_key="diplomatic_forgivingHELPED_VASSAL">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>HELPED_VASSAL</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{a1438cb4-7e6d-457c-88ac-4bd4dfc0569a}" record_timestamp="1554463308741" record_key="diplomatic_forgivingHELPED_VASSAL_TARGET">
+<cai_personality_diplomatic_event_values record_uuid="{a1438cb4-7e6d-457c-88ac-4bd4dfc0569a}" record_timestamp="1554888074918" record_key="diplomatic_forgivingHELPED_VASSAL_TARGET">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>HELPED_VASSAL_TARGET</event_id>
 <falloff>1</falloff>
@@ -1435,9 +1459,21 @@
 <falloff>20</falloff>
 <value>-20</value>
 </cai_personality_diplomatic_event_values>
+<cai_personality_diplomatic_event_values record_uuid="{6e835f6e-03ea-48fc-9f22-24b9a2525095}" record_timestamp="1562946753730" record_key="diplomatic_forgivingMANIPULATED_NEGATIVE_SIMA_YUE">
+<component_id>diplomatic_forgiving</component_id>
+<event_id>MANIPULATED_NEGATIVE_SIMA_YUE</event_id>
+<falloff>20</falloff>
+<value>-20</value>
+</cai_personality_diplomatic_event_values>
 <cai_personality_diplomatic_event_values record_uuid="{cf5132b8-7cfd-4481-aa29-4a877043c3e6}" record_timestamp="1542384982378" record_key="diplomatic_forgivingMANIPULATED_NEGATIVE_TARGET">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>MANIPULATED_NEGATIVE_TARGET</event_id>
+<falloff>1</falloff>
+<value>0</value>
+</cai_personality_diplomatic_event_values>
+<cai_personality_diplomatic_event_values record_uuid="{16f54135-3596-4adb-8ef4-7231c0463794}" record_timestamp="1562946753746" record_key="diplomatic_forgivingMANIPULATED_NEGATIVE_TARGET_SIMA_YUE">
+<component_id>diplomatic_forgiving</component_id>
+<event_id>MANIPULATED_NEGATIVE_TARGET_SIMA_YUE</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
@@ -1447,9 +1483,21 @@
 <falloff>20</falloff>
 <value>30</value>
 </cai_personality_diplomatic_event_values>
+<cai_personality_diplomatic_event_values record_uuid="{750d32ae-f23d-4b62-89d4-3ff8c39ea27c}" record_timestamp="1562946753761" record_key="diplomatic_forgivingMANIPULATED_POSITIVE_SIMA_YUE">
+<component_id>diplomatic_forgiving</component_id>
+<event_id>MANIPULATED_POSITIVE_SIMA_YUE</event_id>
+<falloff>20</falloff>
+<value>30</value>
+</cai_personality_diplomatic_event_values>
 <cai_personality_diplomatic_event_values record_uuid="{4f0f168b-e5ac-4fbe-83bb-0a0bf1200354}" record_timestamp="1542384982502" record_key="diplomatic_forgivingMANIPULATED_POSITIVE_TARGET">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>MANIPULATED_POSITIVE_TARGET</event_id>
+<falloff>1</falloff>
+<value>0</value>
+</cai_personality_diplomatic_event_values>
+<cai_personality_diplomatic_event_values record_uuid="{46fdde93-7a42-449c-b48f-cfc916385b3d}" record_timestamp="1562946753777" record_key="diplomatic_forgivingMANIPULATED_POSITIVE_TARGET_SIMA_YUE">
+<component_id>diplomatic_forgiving</component_id>
+<event_id>MANIPULATED_POSITIVE_TARGET_SIMA_YUE</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
@@ -1501,7 +1549,7 @@
 <falloff>20</falloff>
 <value>-50</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{09d77576-3100-4bfb-bcc6-17fba75dc838}" record_timestamp="1554380593304" record_key="diplomatic_forgivingPAST_EVENT_NEGATIVE_MAJOR_LONG">
+<cai_personality_diplomatic_event_values record_uuid="{09d77576-3100-4bfb-bcc6-17fba75dc838}" record_timestamp="1554887903919" record_key="diplomatic_forgivingPAST_EVENT_NEGATIVE_MAJOR_LONG">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>PAST_EVENT_NEGATIVE_MAJOR_LONG</event_id>
 <falloff>50</falloff>
@@ -1531,37 +1579,37 @@
 <falloff>20</falloff>
 <value>-50</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{14cba20f-f304-4688-ad87-fed79786fb51}" record_timestamp="1553596250884" record_key="diplomatic_forgivingREFUSED_TO_HELP_VASSAL">
+<cai_personality_diplomatic_event_values record_uuid="{14cba20f-f304-4688-ad87-fed79786fb51}" record_timestamp="1554886452067" record_key="diplomatic_forgivingREFUSED_TO_HELP_VASSAL">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>REFUSED_TO_HELP_VASSAL</event_id>
 <falloff>20</falloff>
 <value>-80</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{296739f8-0491-4ec8-a933-7e7e70495d04}" record_timestamp="1553596250887" record_key="diplomatic_forgivingREFUSED_TO_HELP_VASSAL_TARGET">
+<cai_personality_diplomatic_event_values record_uuid="{296739f8-0491-4ec8-a933-7e7e70495d04}" record_timestamp="1554886452077" record_key="diplomatic_forgivingREFUSED_TO_HELP_VASSAL_TARGET">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>REFUSED_TO_HELP_VASSAL_TARGET</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{017db935-de4a-43c7-8513-56db947530e1}" record_timestamp="1553855778954" record_key="diplomatic_forgivingREGION_DEMANDED">
+<cai_personality_diplomatic_event_values record_uuid="{017db935-de4a-43c7-8513-56db947530e1}" record_timestamp="1554887344683" record_key="diplomatic_forgivingREGION_DEMANDED">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>REGION_DEMANDED</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{eadc55d5-10c9-40dc-b740-b90929ea3c91}" record_timestamp="1553855778954" record_key="diplomatic_forgivingREGION_DEMANDED_TARGET">
+<cai_personality_diplomatic_event_values record_uuid="{eadc55d5-10c9-40dc-b740-b90929ea3c91}" record_timestamp="1554887344683" record_key="diplomatic_forgivingREGION_DEMANDED_TARGET">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>REGION_DEMANDED_TARGET</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{24a5fff4-6fff-4e77-a7a3-8ce3a9afb997}" record_timestamp="1553855778954" record_key="diplomatic_forgivingREGION_OFFERED">
+<cai_personality_diplomatic_event_values record_uuid="{24a5fff4-6fff-4e77-a7a3-8ce3a9afb997}" record_timestamp="1554887344682" record_key="diplomatic_forgivingREGION_OFFERED">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>REGION_OFFERED</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{40151316-6faf-4314-abe4-427b3e996bf8}" record_timestamp="1553855778954" record_key="diplomatic_forgivingREGION_OFFERED_TARGET">
+<cai_personality_diplomatic_event_values record_uuid="{40151316-6faf-4314-abe4-427b3e996bf8}" record_timestamp="1554887344683" record_key="diplomatic_forgivingREGION_OFFERED_TARGET">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>REGION_OFFERED_TARGET</event_id>
 <falloff>1</falloff>
@@ -1711,25 +1759,25 @@
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{6b138128-985c-4796-844d-02d36739f1cc}" record_timestamp="1551096033291" record_key="diplomatic_forgivingSUPPORT_INDEPENDENCE_BROKEN">
+<cai_personality_diplomatic_event_values record_uuid="{6b138128-985c-4796-844d-02d36739f1cc}" record_timestamp="1551787936610" record_key="diplomatic_forgivingSUPPORT_INDEPENDENCE_BROKEN">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>SUPPORT_INDEPENDENCE_BROKEN</event_id>
 <falloff>20</falloff>
 <value>-20</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{f302b521-7c9b-4057-b749-d217f89c4aa2}" record_timestamp="1551096033310" record_key="diplomatic_forgivingSUPPORT_INDEPENDENCE_BROKEN_EARLY">
+<cai_personality_diplomatic_event_values record_uuid="{f302b521-7c9b-4057-b749-d217f89c4aa2}" record_timestamp="1551787936610" record_key="diplomatic_forgivingSUPPORT_INDEPENDENCE_BROKEN_EARLY">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>SUPPORT_INDEPENDENCE_BROKEN_EARLY</event_id>
 <falloff>20</falloff>
 <value>-40</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{1bc22241-5d06-49f7-82d3-d0b9535ce57e}" record_timestamp="1551096033272" record_key="diplomatic_forgivingSUPPORT_INDEPENDENCE_SIGNED">
+<cai_personality_diplomatic_event_values record_uuid="{1bc22241-5d06-49f7-82d3-d0b9535ce57e}" record_timestamp="1551787936610" record_key="diplomatic_forgivingSUPPORT_INDEPENDENCE_SIGNED">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>SUPPORT_INDEPENDENCE_SIGNED</event_id>
 <falloff>20</falloff>
 <value>10</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{a0c3c3ea-b585-448e-94f7-8bf852eb2f66}" record_timestamp="1551096033281" record_key="diplomatic_forgivingSUPPORT_INDEPENDENCE_SIGNED_TARGET">
+<cai_personality_diplomatic_event_values record_uuid="{a0c3c3ea-b585-448e-94f7-8bf852eb2f66}" record_timestamp="1551787936610" record_key="diplomatic_forgivingSUPPORT_INDEPENDENCE_SIGNED_TARGET">
 <component_id>diplomatic_forgiving</component_id>
 <event_id>SUPPORT_INDEPENDENCE_SIGNED_TARGET</event_id>
 <falloff>20</falloff>
@@ -2083,7 +2131,7 @@
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{c13c3c8b-3153-489e-8688-ca82569a9d27}" record_timestamp="1551970147598" record_key="diplomatic_resentfulBATTLE_ATTACK_OWN_REGION">
+<cai_personality_diplomatic_event_values record_uuid="{c13c3c8b-3153-489e-8688-ca82569a9d27}" record_timestamp="1554881669793" record_key="diplomatic_resentfulBATTLE_ATTACK_OWN_REGION">
 <component_id>diplomatic_resentful</component_id>
 <event_id>BATTLE_ATTACK_OWN_REGION</event_id>
 <falloff>1</falloff>
@@ -2347,13 +2395,13 @@
 <falloff>40</falloff>
 <value>40</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{fe0c1552-5c15-462d-81a1-c82c6acaeadf}" record_timestamp="1554463308719" record_key="diplomatic_resentfulHELPED_VASSAL">
+<cai_personality_diplomatic_event_values record_uuid="{fe0c1552-5c15-462d-81a1-c82c6acaeadf}" record_timestamp="1554888074918" record_key="diplomatic_resentfulHELPED_VASSAL">
 <component_id>diplomatic_resentful</component_id>
 <event_id>HELPED_VASSAL</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{68b38db8-0ae7-4c34-89e3-b3c35f884fbd}" record_timestamp="1554463308735" record_key="diplomatic_resentfulHELPED_VASSAL_TARGET">
+<cai_personality_diplomatic_event_values record_uuid="{68b38db8-0ae7-4c34-89e3-b3c35f884fbd}" record_timestamp="1554888074918" record_key="diplomatic_resentfulHELPED_VASSAL_TARGET">
 <component_id>diplomatic_resentful</component_id>
 <event_id>HELPED_VASSAL_TARGET</event_id>
 <falloff>1</falloff>
@@ -2395,9 +2443,21 @@
 <falloff>40</falloff>
 <value>-25</value>
 </cai_personality_diplomatic_event_values>
+<cai_personality_diplomatic_event_values record_uuid="{4ee9e3da-80bd-49db-a779-05fbf20d2cce}" record_timestamp="1562946753791" record_key="diplomatic_resentfulMANIPULATED_NEGATIVE_SIMA_YUE">
+<component_id>diplomatic_resentful</component_id>
+<event_id>MANIPULATED_NEGATIVE_SIMA_YUE</event_id>
+<falloff>40</falloff>
+<value>-25</value>
+</cai_personality_diplomatic_event_values>
 <cai_personality_diplomatic_event_values record_uuid="{ce58d425-a844-417d-a307-4753a643b101}" record_timestamp="1528470521003" record_key="diplomatic_resentfulMANIPULATED_NEGATIVE_TARGET">
 <component_id>diplomatic_resentful</component_id>
 <event_id>MANIPULATED_NEGATIVE_TARGET</event_id>
+<falloff>1</falloff>
+<value>0</value>
+</cai_personality_diplomatic_event_values>
+<cai_personality_diplomatic_event_values record_uuid="{29bb9b7e-4a66-4973-9d17-84d2ec5dab07}" record_timestamp="1562946753807" record_key="diplomatic_resentfulMANIPULATED_NEGATIVE_TARGET_SIMA_YUE">
+<component_id>diplomatic_resentful</component_id>
+<event_id>MANIPULATED_NEGATIVE_TARGET_SIMA_YUE</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
@@ -2407,9 +2467,21 @@
 <falloff>40</falloff>
 <value>20</value>
 </cai_personality_diplomatic_event_values>
+<cai_personality_diplomatic_event_values record_uuid="{7b7114a5-4aa3-47b3-b30a-5d3bcf3f4d0f}" record_timestamp="1562946753821" record_key="diplomatic_resentfulMANIPULATED_POSITIVE_SIMA_YUE">
+<component_id>diplomatic_resentful</component_id>
+<event_id>MANIPULATED_POSITIVE_SIMA_YUE</event_id>
+<falloff>40</falloff>
+<value>20</value>
+</cai_personality_diplomatic_event_values>
 <cai_personality_diplomatic_event_values record_uuid="{3ce97354-e5fe-41c1-92a3-d1d49ed4f77d}" record_timestamp="1528470521003" record_key="diplomatic_resentfulMANIPULATED_POSITIVE_TARGET">
 <component_id>diplomatic_resentful</component_id>
 <event_id>MANIPULATED_POSITIVE_TARGET</event_id>
+<falloff>1</falloff>
+<value>0</value>
+</cai_personality_diplomatic_event_values>
+<cai_personality_diplomatic_event_values record_uuid="{a12de222-2e58-43ad-a1cd-8b6e400fad86}" record_timestamp="1562946753837" record_key="diplomatic_resentfulMANIPULATED_POSITIVE_TARGET_SIMA_YUE">
+<component_id>diplomatic_resentful</component_id>
+<event_id>MANIPULATED_POSITIVE_TARGET_SIMA_YUE</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
@@ -2461,7 +2533,7 @@
 <falloff>40</falloff>
 <value>-60</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{a07e7e20-820a-451c-90b8-eba8c71bb25b}" record_timestamp="1554380593304" record_key="diplomatic_resentfulPAST_EVENT_NEGATIVE_MAJOR_LONG">
+<cai_personality_diplomatic_event_values record_uuid="{a07e7e20-820a-451c-90b8-eba8c71bb25b}" record_timestamp="1554887903919" record_key="diplomatic_resentfulPAST_EVENT_NEGATIVE_MAJOR_LONG">
 <component_id>diplomatic_resentful</component_id>
 <event_id>PAST_EVENT_NEGATIVE_MAJOR_LONG</event_id>
 <falloff>50</falloff>
@@ -2491,37 +2563,37 @@
 <falloff>40</falloff>
 <value>-60</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{0b670ce8-5731-457d-a71c-1f920e0fc2ac}" record_timestamp="1553596250884" record_key="diplomatic_resentfulREFUSED_TO_HELP_VASSAL">
+<cai_personality_diplomatic_event_values record_uuid="{0b670ce8-5731-457d-a71c-1f920e0fc2ac}" record_timestamp="1554886452067" record_key="diplomatic_resentfulREFUSED_TO_HELP_VASSAL">
 <component_id>diplomatic_resentful</component_id>
 <event_id>REFUSED_TO_HELP_VASSAL</event_id>
 <falloff>40</falloff>
 <value>-160</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{917927a8-3bd0-41cd-beaa-6697c6787306}" record_timestamp="1553596250888" record_key="diplomatic_resentfulREFUSED_TO_HELP_VASSAL_TARGET">
+<cai_personality_diplomatic_event_values record_uuid="{917927a8-3bd0-41cd-beaa-6697c6787306}" record_timestamp="1554886452078" record_key="diplomatic_resentfulREFUSED_TO_HELP_VASSAL_TARGET">
 <component_id>diplomatic_resentful</component_id>
 <event_id>REFUSED_TO_HELP_VASSAL_TARGET</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{cb7b8ee3-142a-4ed0-a4f2-dfe4f6a34a1e}" record_timestamp="1553855778954" record_key="diplomatic_resentfulREGION_DEMANDED">
+<cai_personality_diplomatic_event_values record_uuid="{cb7b8ee3-142a-4ed0-a4f2-dfe4f6a34a1e}" record_timestamp="1554887344683" record_key="diplomatic_resentfulREGION_DEMANDED">
 <component_id>diplomatic_resentful</component_id>
 <event_id>REGION_DEMANDED</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{e8d8065c-e18d-4936-a680-1b1e1e6d6e09}" record_timestamp="1553855778954" record_key="diplomatic_resentfulREGION_DEMANDED_TARGET">
+<cai_personality_diplomatic_event_values record_uuid="{e8d8065c-e18d-4936-a680-1b1e1e6d6e09}" record_timestamp="1554887344682" record_key="diplomatic_resentfulREGION_DEMANDED_TARGET">
 <component_id>diplomatic_resentful</component_id>
 <event_id>REGION_DEMANDED_TARGET</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{c7964570-05d5-42c5-9c62-7fab37a84549}" record_timestamp="1553855778954" record_key="diplomatic_resentfulREGION_OFFERED">
+<cai_personality_diplomatic_event_values record_uuid="{c7964570-05d5-42c5-9c62-7fab37a84549}" record_timestamp="1554887344682" record_key="diplomatic_resentfulREGION_OFFERED">
 <component_id>diplomatic_resentful</component_id>
 <event_id>REGION_OFFERED</event_id>
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{250a0304-1892-4261-8d3f-95d654bc7a4a}" record_timestamp="1553855778954" record_key="diplomatic_resentfulREGION_OFFERED_TARGET">
+<cai_personality_diplomatic_event_values record_uuid="{250a0304-1892-4261-8d3f-95d654bc7a4a}" record_timestamp="1554887344683" record_key="diplomatic_resentfulREGION_OFFERED_TARGET">
 <component_id>diplomatic_resentful</component_id>
 <event_id>REGION_OFFERED_TARGET</event_id>
 <falloff>1</falloff>
@@ -2671,25 +2743,25 @@
 <falloff>1</falloff>
 <value>0</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{ce236e80-dce7-4b6f-86a4-30607ed0b2e5}" record_timestamp="1551096033338" record_key="diplomatic_resentfulSUPPORT_INDEPENDENCE_BROKEN">
+<cai_personality_diplomatic_event_values record_uuid="{ce236e80-dce7-4b6f-86a4-30607ed0b2e5}" record_timestamp="1551787936610" record_key="diplomatic_resentfulSUPPORT_INDEPENDENCE_BROKEN">
 <component_id>diplomatic_resentful</component_id>
 <event_id>SUPPORT_INDEPENDENCE_BROKEN</event_id>
 <falloff>20</falloff>
 <value>-30</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{093338e5-f636-45e5-a58c-a8e098dbd0a1}" record_timestamp="1551096033358" record_key="diplomatic_resentfulSUPPORT_INDEPENDENCE_BROKEN_EARLY">
+<cai_personality_diplomatic_event_values record_uuid="{093338e5-f636-45e5-a58c-a8e098dbd0a1}" record_timestamp="1551787936610" record_key="diplomatic_resentfulSUPPORT_INDEPENDENCE_BROKEN_EARLY">
 <component_id>diplomatic_resentful</component_id>
 <event_id>SUPPORT_INDEPENDENCE_BROKEN_EARLY</event_id>
 <falloff>20</falloff>
 <value>-60</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{c49009bc-4346-43cd-a47a-f0ef38fdf50a}" record_timestamp="1551096033300" record_key="diplomatic_resentfulSUPPORT_INDEPENDENCE_SIGNED">
+<cai_personality_diplomatic_event_values record_uuid="{c49009bc-4346-43cd-a47a-f0ef38fdf50a}" record_timestamp="1551787936610" record_key="diplomatic_resentfulSUPPORT_INDEPENDENCE_SIGNED">
 <component_id>diplomatic_resentful</component_id>
 <event_id>SUPPORT_INDEPENDENCE_SIGNED</event_id>
 <falloff>20</falloff>
 <value>10</value>
 </cai_personality_diplomatic_event_values>
-<cai_personality_diplomatic_event_values record_uuid="{ce9d3049-4851-4a98-a709-b107474d1e49}" record_timestamp="1551096033319" record_key="diplomatic_resentfulSUPPORT_INDEPENDENCE_SIGNED_TARGET">
+<cai_personality_diplomatic_event_values record_uuid="{ce9d3049-4851-4a98-a709-b107474d1e49}" record_timestamp="1551787936610" record_key="diplomatic_resentfulSUPPORT_INDEPENDENCE_SIGNED_TARGET">
 <component_id>diplomatic_resentful</component_id>
 <event_id>SUPPORT_INDEPENDENCE_SIGNED_TARGET</event_id>
 <falloff>20</falloff>

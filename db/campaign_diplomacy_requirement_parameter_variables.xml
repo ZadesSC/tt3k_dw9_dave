@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_requirement_parameter_variables.xsd" export_time="Fri May 3 09:12:15 2019" revision="96" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1469/client" export_user="bob">
-<edit_uuid>78fd988a-3cd9-412d-a34d-7d64ac1dd9c2</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_requirement_parameter_variables.xsd" export_time="Thu Aug 1 12:16:24 2019" revision="89" export_branch="C:/Users/rick.venier/AppData/Roaming/TWDaemon/1615/dave" export_user="bob">
+<edit_uuid>33055bd7-0515-41f7-896d-17cdb1963aea</edit_uuid>
 <campaign_diplomacy_requirement_parameter_variables record_uuid="{b6b0f99c-53ca-4e24-8aba-31e029aecb24}" record_timestamp="1530869296805" record_key="treaty_requirement_set_alliance_or_coalition_any_to_proposer_parameter_proposer">
 <requirement_parameter>treaty_requirement_set_alliance_or_coalition_any_to_proposer_parameter_proposer</requirement_parameter>
 <variable>variable_proposers</variable>
@@ -41,9 +41,21 @@
 <requirement_parameter>treaty_requirement_set_alliance_proposer:any&lt;variable_proposer&gt;_recipient:recipient_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_proposer</requirement_parameter>
 <variable>variable_proposers</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{1b2b4513-3424-476d-b3e7-b6bee22e53f6}" record_timestamp="1555321917114" record_key="treaty_requirement_set_alliance_proposer:any&lt;variable_proposers&gt;_recipient:proposer&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_deal">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{1b2b4513-3424-476d-b3e7-b6bee22e53f6}" record_timestamp="1556562802275" record_key="treaty_requirement_set_alliance_proposer:any&lt;variable_proposers&gt;_recipient:proposer&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_deal">
 <requirement_parameter>treaty_requirement_set_alliance_proposer:any&lt;variable_proposers&gt;_recipient:proposer&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_deal</requirement_parameter>
 <variable>variable_deal</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{88c8efc4-3722-49ba-8ecd-7461c83e8537}" record_timestamp="1563442959999" record_key="treaty_requirement_set_alliance_proposer:any_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;variable_alliance&gt;_&lt;parameter_1&gt;_parameter_alliance">
+<requirement_parameter>treaty_requirement_set_alliance_proposer:any_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;variable_alliance&gt;_&lt;parameter_1&gt;_parameter_alliance</requirement_parameter>
+<variable>variable_alliance</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{c677c9d9-0f11-4023-9c53-f02c21f11aa3}" record_timestamp="1563442959946" record_key="treaty_requirement_set_alliance_proposer:any_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;variable_alliance&gt;_&lt;parameter_1&gt;_parameter_oath">
+<requirement_parameter>treaty_requirement_set_alliance_proposer:any_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;variable_alliance&gt;_&lt;parameter_1&gt;_parameter_oath</requirement_parameter>
+<variable>variable_oath</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{4f1a03be-c4b0-4024-913c-a500719ca7c0}" record_timestamp="1563442959895" record_key="treaty_requirement_set_alliance_proposer:any_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;variable_alliance&gt;_parameter_recipient">
+<requirement_parameter>treaty_requirement_set_alliance_proposer:any_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;variable_alliance&gt;_parameter_recipient</requirement_parameter>
+<variable>variable_recipients</variable>
 </campaign_diplomacy_requirement_parameter_variables>
 <campaign_diplomacy_requirement_parameter_variables record_uuid="{96905deb-6139-4278-a2ca-bb34603afe4c}" record_timestamp="1535118480448" record_key="treaty_requirement_set_alliance_proposer:proposer&lt;variable_proposers&gt;_recipient:any&lt;variable_proposers&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;_parameter_alliance">
 <requirement_parameter>treaty_requirement_set_alliance_proposer:proposer&lt;variable_proposers&gt;_recipient:any&lt;variable_proposers&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;_parameter_alliance</requirement_parameter>
@@ -57,7 +69,7 @@
 <requirement_parameter>treaty_requirement_set_alliance_proposer:proposer&lt;variable_proposers&gt;_recipient:any&lt;variable_proposers&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;_parameter_proposer</requirement_parameter>
 <variable>variable_proposers</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{099ca885-ec03-4125-8bce-92ffe2a3c431}" record_timestamp="1555321917083" record_key="treaty_requirement_set_alliance_proposer:proposer&lt;variable_recipients&gt;_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_deal">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{099ca885-ec03-4125-8bce-92ffe2a3c431}" record_timestamp="1556562802275" record_key="treaty_requirement_set_alliance_proposer:proposer&lt;variable_recipients&gt;_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_deal">
 <requirement_parameter>treaty_requirement_set_alliance_proposer:proposer&lt;variable_recipients&gt;_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_deal</requirement_parameter>
 <variable>variable_deal</variable>
 </campaign_diplomacy_requirement_parameter_variables>
@@ -80,6 +92,18 @@
 <campaign_diplomacy_requirement_parameter_variables record_uuid="{a93220c3-f862-4b36-974b-c6652924ec41}" record_timestamp="1541349895213" record_key="treaty_requirement_set_alliance_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;&lt;parameter_alliance&gt;_parameter_recipient">
 <requirement_parameter>treaty_requirement_set_alliance_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;&lt;parameter_alliance&gt;_parameter_recipient</requirement_parameter>
 <variable>variable_recipients</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{5ec5c3fe-edea-4b77-83df-69ac538f825b}" record_timestamp="1564658183923" record_key="treaty_requirement_set_alliance_proposer:recipient&lt;variable_proposers&gt;_recipient:any&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_alliance">
+<requirement_parameter>treaty_requirement_set_alliance_proposer:recipient&lt;variable_proposers&gt;_recipient:any&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_alliance</requirement_parameter>
+<variable>variable_alliance</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{e39cfb09-005b-4c31-8418-3561b9b244b7}" record_timestamp="1564658183923" record_key="treaty_requirement_set_alliance_proposer:recipient&lt;variable_proposers&gt;_recipient:any&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_oath">
+<requirement_parameter>treaty_requirement_set_alliance_proposer:recipient&lt;variable_proposers&gt;_recipient:any&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_oath</requirement_parameter>
+<variable>variable_oath</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{47c44e93-60a1-4d93-a4b6-19210d45a3ca}" record_timestamp="1564658183923" record_key="treaty_requirement_set_alliance_proposer:recipient&lt;variable_proposers&gt;_recipient:any&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_proposer">
+<requirement_parameter>treaty_requirement_set_alliance_proposer:recipient&lt;variable_proposers&gt;_recipient:any&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_proposer</requirement_parameter>
+<variable>variable_proposers</variable>
 </campaign_diplomacy_requirement_parameter_variables>
 <campaign_diplomacy_requirement_parameter_variables record_uuid="{830f063b-8046-43dd-8e3e-35c7529ecf09}" record_timestamp="1535118480448" record_key="treaty_requirement_set_alliance_proposer:recipient&lt;variable_recipients&gt;_recipient:any&lt;variable_recipients&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;_parameter_alliance">
 <requirement_parameter>treaty_requirement_set_alliance_proposer:recipient&lt;variable_recipients&gt;_recipient:any&lt;variable_recipients&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;_parameter_alliance</requirement_parameter>
@@ -113,7 +137,7 @@
 <requirement_parameter>treaty_requirement_set_alliance_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;_parameter_recipient</requirement_parameter>
 <variable>variable_recipients</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{668034ce-4871-4938-84fe-e9c075578b4b}" record_timestamp="1556871135184" record_key="treaty_requirement_set_alliance_proposer:recipient_recipient:any_&lt;parameter_alliance&gt;_OR_alliance_proposer:proposer_recipient:any_&lt;parameter_alliance&gt;_parameter_alliance">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{668034ce-4871-4938-84fe-e9c075578b4b}" record_timestamp="1557765459401" record_key="treaty_requirement_set_alliance_proposer:recipient_recipient:any_&lt;parameter_alliance&gt;_OR_alliance_proposer:proposer_recipient:any_&lt;parameter_alliance&gt;_parameter_alliance">
 <requirement_parameter>treaty_requirement_set_alliance_proposer:recipient_recipient:any_&lt;parameter_alliance&gt;_OR_alliance_proposer:proposer_recipient:any_&lt;parameter_alliance&gt;_parameter_alliance</requirement_parameter>
 <variable>variable_alliance</variable>
 </campaign_diplomacy_requirement_parameter_variables>
@@ -225,7 +249,7 @@
 <requirement_parameter>treaty_requirement_set_coalition_proposer:any&lt;variable_proposer&gt;_recipient:recipient_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_proposer</requirement_parameter>
 <variable>variable_proposers</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{243aa6cc-4efe-46c8-b822-1734b7f883a4}" record_timestamp="1555321917179" record_key="treaty_requirement_set_coalition_proposer:any&lt;variable_proposers&gt;_recipient:proposer&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_deal">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{243aa6cc-4efe-46c8-b822-1734b7f883a4}" record_timestamp="1556562802275" record_key="treaty_requirement_set_coalition_proposer:any&lt;variable_proposers&gt;_recipient:proposer&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_deal">
 <requirement_parameter>treaty_requirement_set_coalition_proposer:any&lt;variable_proposers&gt;_recipient:proposer&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_deal</requirement_parameter>
 <variable>variable_deal</variable>
 </campaign_diplomacy_requirement_parameter_variables>
@@ -233,7 +257,7 @@
 <requirement_parameter>treaty_requirement_set_coalition_proposer:proposer&lt;variable_proposers&gt;_recipient:any&lt;variable_proposers&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;_parameter_alliance</requirement_parameter>
 <variable>variable_alliance</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{36591ca7-b41e-48f0-908d-a86d36784f09}" record_timestamp="1551286077196" record_key="treaty_requirement_set_coalition_proposer:proposer&lt;variable_proposers&gt;_recipient:any&lt;variable_proposers&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;_parameter_oath">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{36591ca7-b41e-48f0-908d-a86d36784f09}" record_timestamp="1551788446714" record_key="treaty_requirement_set_coalition_proposer:proposer&lt;variable_proposers&gt;_recipient:any&lt;variable_proposers&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;_parameter_oath">
 <requirement_parameter>treaty_requirement_set_coalition_proposer:proposer&lt;variable_proposers&gt;_recipient:any&lt;variable_proposers&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;_parameter_oath</requirement_parameter>
 <variable>variable_oath</variable>
 </campaign_diplomacy_requirement_parameter_variables>
@@ -241,7 +265,7 @@
 <requirement_parameter>treaty_requirement_set_coalition_proposer:proposer&lt;variable_proposers&gt;_recipient:any&lt;variable_proposers&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;_parameter_proposer</requirement_parameter>
 <variable>variable_proposers</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{73d9cc8f-c1d6-4aa7-b5c5-dfeb64b44d3c}" record_timestamp="1555321917150" record_key="treaty_requirement_set_coalition_proposer:proposer&lt;variable_recipients&gt;_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_deal">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{73d9cc8f-c1d6-4aa7-b5c5-dfeb64b44d3c}" record_timestamp="1556562802275" record_key="treaty_requirement_set_coalition_proposer:proposer&lt;variable_recipients&gt;_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_deal">
 <requirement_parameter>treaty_requirement_set_coalition_proposer:proposer&lt;variable_recipients&gt;_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_deal</requirement_parameter>
 <variable>variable_deal</variable>
 </campaign_diplomacy_requirement_parameter_variables>
@@ -265,15 +289,15 @@
 <requirement_parameter>treaty_requirement_set_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;_parameter_recipient</requirement_parameter>
 <variable>variable_recipients</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{9d74b64f-443c-45f8-be75-a9adda10e3ab}" record_timestamp="1553530531061" record_key="treaty_requirement_set_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_alliance">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{9d74b64f-443c-45f8-be75-a9adda10e3ab}" record_timestamp="1554886313612" record_key="treaty_requirement_set_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_alliance">
 <requirement_parameter>treaty_requirement_set_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_alliance</requirement_parameter>
 <variable>variable_alliance</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{e6245723-f43c-4c1f-a698-7b0f3fa295be}" record_timestamp="1553530531061" record_key="treaty_requirement_set_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_oath">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{e6245723-f43c-4c1f-a698-7b0f3fa295be}" record_timestamp="1554886313612" record_key="treaty_requirement_set_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_oath">
 <requirement_parameter>treaty_requirement_set_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_oath</requirement_parameter>
 <variable>variable_oath</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{7a37daf7-ca44-44d4-9684-9fc1c515c24f}" record_timestamp="1553530531061" record_key="treaty_requirement_set_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_recipient">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{7a37daf7-ca44-44d4-9684-9fc1c515c24f}" record_timestamp="1554886313612" record_key="treaty_requirement_set_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_recipient">
 <requirement_parameter>treaty_requirement_set_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_recipient</requirement_parameter>
 <variable>variable_recipients</variable>
 </campaign_diplomacy_requirement_parameter_variables>
@@ -309,15 +333,15 @@
 <requirement_parameter>treaty_requirement_set_coalition_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;_parameter_recipient</requirement_parameter>
 <variable>variable_recipients</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{d036c7d6-b63d-4cda-ab81-8bc3c0b625ec}" record_timestamp="1553530531108" record_key="treaty_requirement_set_coalition_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_alliance">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{d036c7d6-b63d-4cda-ab81-8bc3c0b625ec}" record_timestamp="1554886313641" record_key="treaty_requirement_set_coalition_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_alliance">
 <requirement_parameter>treaty_requirement_set_coalition_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_alliance</requirement_parameter>
 <variable>variable_alliance</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{2264a955-f286-4119-a9ad-09b177e19939}" record_timestamp="1553530531108" record_key="treaty_requirement_set_coalition_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_oath">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{2264a955-f286-4119-a9ad-09b177e19939}" record_timestamp="1554886313641" record_key="treaty_requirement_set_coalition_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_oath">
 <requirement_parameter>treaty_requirement_set_coalition_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_oath</requirement_parameter>
 <variable>variable_oath</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{6f3380c8-afaa-4113-82ae-295896df4035}" record_timestamp="1553530531108" record_key="treaty_requirement_set_coalition_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_recipient">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{6f3380c8-afaa-4113-82ae-295896df4035}" record_timestamp="1554886313641" record_key="treaty_requirement_set_coalition_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_recipient">
 <requirement_parameter>treaty_requirement_set_coalition_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;_parameter_recipient</requirement_parameter>
 <variable>variable_recipients</variable>
 </campaign_diplomacy_requirement_parameter_variables>
@@ -417,11 +441,39 @@
 <requirement_parameter>treaty_requirement_set_group_peace_filter_query_parameter_recipients</requirement_parameter>
 <variable>variable_recipients</variable>
 </campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{f5854b5e-70a8-4ebe-baa8-9903c71b80f1}" record_timestamp="1564658183929" record_key="treaty_requirement_set_group_war_&lt;variable_any_factions&gt;_to_proposer_&lt;parameter_1&gt;_existing_parameter_alliance">
+<requirement_parameter>treaty_requirement_set_group_war_&lt;variable_any_factions&gt;_to_proposer_&lt;parameter_1&gt;_existing_parameter_alliance</requirement_parameter>
+<variable>variable_alliance</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{83dfaae8-a0f8-4b4a-85c8-dd9b3fe78b4e}" record_timestamp="1564658183929" record_key="treaty_requirement_set_group_war_&lt;variable_any_factions&gt;_to_proposer_&lt;parameter_1&gt;_existing_parameter_any_factions">
+<requirement_parameter>treaty_requirement_set_group_war_&lt;variable_any_factions&gt;_to_proposer_&lt;parameter_1&gt;_existing_parameter_any_factions</requirement_parameter>
+<variable>variable_any_factions</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{898649ad-eae2-48fa-a8db-d6410ae5a080}" record_timestamp="1564658183966" record_key="treaty_requirement_set_group_war_&lt;variable_any_factions&gt;_to_proposer_alliance_and_not_&lt;variable_any_factions&gt;_to_recipient_parameter_any_factions">
+<requirement_parameter>treaty_requirement_set_group_war_&lt;variable_any_factions&gt;_to_proposer_alliance_and_not_&lt;variable_any_factions&gt;_to_recipient_parameter_any_factions</requirement_parameter>
+<variable>variable_any_factions</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{19dcdc95-d883-4350-8dd1-852bc00951bb}" record_timestamp="1564658183966" record_key="treaty_requirement_set_group_war_&lt;variable_any_factions&gt;_to_recipient_alliance_and_not_&lt;variable_any_factions&gt;_to_proposer_parameter_any_factions">
+<requirement_parameter>treaty_requirement_set_group_war_&lt;variable_any_factions&gt;_to_recipient_alliance_and_not_&lt;variable_any_factions&gt;_to_proposer_parameter_any_factions</requirement_parameter>
+<variable>variable_any_factions</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{a1550ffa-f253-4f00-8b88-4b6959bf99eb}" record_timestamp="1564658183929" record_key="treaty_requirement_set_group_war_&lt;variable_recipients&gt;_to_recipient_&lt;parameter_1&gt;_existing_parameter_alliance">
+<requirement_parameter>treaty_requirement_set_group_war_&lt;variable_recipients&gt;_to_recipient_&lt;parameter_1&gt;_existing_parameter_alliance</requirement_parameter>
+<variable>variable_alliance</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{4cc7f100-fe84-49ca-9f16-73fe99af306a}" record_timestamp="1564658183929" record_key="treaty_requirement_set_group_war_&lt;variable_recipients&gt;_to_recipient_&lt;parameter_1&gt;_existing_parameter_recipient">
+<requirement_parameter>treaty_requirement_set_group_war_&lt;variable_recipients&gt;_to_recipient_&lt;parameter_1&gt;_existing_parameter_recipient</requirement_parameter>
+<variable>variable_recipients</variable>
+</campaign_diplomacy_requirement_parameter_variables>
 <campaign_diplomacy_requirement_parameter_variables record_uuid="{6c93f569-2c58-46e0-8637-6a87123a8753}" record_timestamp="1547236696449" record_key="treaty_requirement_set_group_war_any&lt;variable_any_factions&gt;_to_recipient_parameter_proposer">
 <requirement_parameter>treaty_requirement_set_group_war_any&lt;variable_any_factions&gt;_to_recipient_parameter_proposer</requirement_parameter>
 <variable>variable_any_factions</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{556096cc-bd15-4ed3-99f8-29875fc8455e}" record_timestamp="1556871135164" record_key="treaty_requirement_set_group_war_parameter_alliance">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{7b75890c-86d3-4ec4-bc3c-92b98fe0d841}" record_timestamp="1561975261301" record_key="treaty_requirement_set_group_war_any&lt;variable_any_factions&gt;_with_recipient_not_alliance_or_coalition_any&lt;variable_any_factions&gt;_to_proposer_parameter_any_factions">
+<requirement_parameter>treaty_requirement_set_group_war_any&lt;variable_any_factions&gt;_with_recipient_not_alliance_or_coalition_any&lt;variable_any_factions&gt;_to_proposer_parameter_any_factions</requirement_parameter>
+<variable>variable_any_factions</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{556096cc-bd15-4ed3-99f8-29875fc8455e}" record_timestamp="1557765459391" record_key="treaty_requirement_set_group_war_parameter_alliance">
 <requirement_parameter>treaty_requirement_set_group_war_parameter_alliance</requirement_parameter>
 <variable>variable_alliance</variable>
 </campaign_diplomacy_requirement_parameter_variables>
@@ -429,19 +481,23 @@
 <requirement_parameter>treaty_requirement_set_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;_parameter_any_factions</requirement_parameter>
 <variable>variable_any_factions</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{13ee5824-fc0f-467d-85b1-7beff81cbd96}" record_timestamp="1553863706898" record_key="treaty_requirement_set_group_war_proposer:recipient_recipient:any&lt;variable_any_factions&gt;_parameter_any_factions">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{13ee5824-fc0f-467d-85b1-7beff81cbd96}" record_timestamp="1554887354612" record_key="treaty_requirement_set_group_war_proposer:recipient_recipient:any&lt;variable_any_factions&gt;_parameter_any_factions">
 <requirement_parameter>treaty_requirement_set_group_war_proposer:recipient_recipient:any&lt;variable_any_factions&gt;_parameter_any_factions</requirement_parameter>
+<variable>variable_any_factions</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{e7125f5e-0d02-44e8-ae7d-79ba3edaab6c}" record_timestamp="1517576754249" record_key="treaty_requirement_set_group_war_proposer_alliance_to_&lt;variable_any_factions&gt;_and_not_recipient_to_&lt;variable_any_factions&gt;_parameter_any_factions">
+<requirement_parameter>treaty_requirement_set_group_war_proposer_alliance_to_&lt;variable_any_factions&gt;_and_not_recipient_to_&lt;variable_any_factions&gt;_parameter_any_factions</requirement_parameter>
+<variable>variable_any_factions</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{f5e17954-9dd3-4186-b0de-b489e801f494}" record_timestamp="1517576754396" record_key="treaty_requirement_set_group_war_recipient_alliance_to_&lt;variable_any_factions&gt;_and_not_proposer_to_&lt;variable_any_factions&gt;_parameter_any_factions">
+<requirement_parameter>treaty_requirement_set_group_war_recipient_alliance_to_&lt;variable_any_factions&gt;_and_not_proposer_to_&lt;variable_any_factions&gt;_parameter_any_factions</requirement_parameter>
 <variable>variable_any_factions</variable>
 </campaign_diplomacy_requirement_parameter_variables>
 <campaign_diplomacy_requirement_parameter_variables record_uuid="{ee3222e2-2a81-483c-870c-ae3ba1fae875}" record_timestamp="1547236696618" record_key="treaty_requirement_set_group_war_recipient_to_any&lt;variable_any_factions&gt;_parameter_recipient">
 <requirement_parameter>treaty_requirement_set_group_war_recipient_to_any&lt;variable_any_factions&gt;_parameter_recipient</requirement_parameter>
 <variable>variable_recipients</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{e7125f5e-0d02-44e8-ae7d-79ba3edaab6c}" record_timestamp="1517576754249" record_key="treaty_requirement_set_inherit_wars_proposers_alliance_parameter_recipent">
-<requirement_parameter>treaty_requirement_set_inherit_wars_proposers_alliance_parameter_recipent</requirement_parameter>
-<variable>variable_recipients</variable>
-</campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{235aeeb1-2880-45cc-a589-3313192fb6f1}" record_timestamp="1556871135210" record_key="treaty_requirement_set_inherit_wars_proposers_parameter_alliance">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{235aeeb1-2880-45cc-a589-3313192fb6f1}" record_timestamp="1557765459406" record_key="treaty_requirement_set_inherit_wars_proposers_parameter_alliance">
 <requirement_parameter>treaty_requirement_set_inherit_wars_proposers_parameter_alliance</requirement_parameter>
 <variable>variable_alliance</variable>
 </campaign_diplomacy_requirement_parameter_variables>
@@ -453,11 +509,7 @@
 <requirement_parameter>treaty_requirement_set_inherit_wars_proposers_parameter_recipient</requirement_parameter>
 <variable>variable_recipients</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{f5e17954-9dd3-4186-b0de-b489e801f494}" record_timestamp="1517576754396" record_key="treaty_requirement_set_inherit_wars_recipients_alliance_parameter_recipient">
-<requirement_parameter>treaty_requirement_set_inherit_wars_recipients_alliance_parameter_recipient</requirement_parameter>
-<variable>variable_recipients</variable>
-</campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{b1fc3ebc-6369-4051-8d1e-cfa547caa4d0}" record_timestamp="1556871135210" record_key="treaty_requirement_set_inherit_wars_recipients_parameter_alliance">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{b1fc3ebc-6369-4051-8d1e-cfa547caa4d0}" record_timestamp="1557765459406" record_key="treaty_requirement_set_inherit_wars_recipients_parameter_alliance">
 <requirement_parameter>treaty_requirement_set_inherit_wars_recipients_parameter_alliance</requirement_parameter>
 <variable>variable_alliance</variable>
 </campaign_diplomacy_requirement_parameter_variables>
@@ -585,15 +637,15 @@
 <requirement_parameter>treaty_requirement_set_region_offer_parameter_proposer_region</requirement_parameter>
 <variable>variable_region</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{0f8da185-233d-4f1e-a593-02cc21ad7b13}" record_timestamp="1553863709709" record_key="treaty_requirement_set_two_in_alliance_and_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;_parameter_any_factions">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{0f8da185-233d-4f1e-a593-02cc21ad7b13}" record_timestamp="1554887354618" record_key="treaty_requirement_set_two_in_alliance_and_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;_parameter_any_factions">
 <requirement_parameter>treaty_requirement_set_two_in_alliance_and_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;_parameter_any_factions</requirement_parameter>
 <variable>variable_any_factions</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{7409bab6-26c6-4619-b32c-018ed2bd3ccf}" record_timestamp="1550663780272" record_key="treaty_requirement_set_vassal_demands_protection_parameter_proposer">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{7409bab6-26c6-4619-b32c-018ed2bd3ccf}" record_timestamp="1551785101482" record_key="treaty_requirement_set_vassal_demands_protection_parameter_proposer">
 <requirement_parameter>treaty_requirement_set_vassal_demands_protection_parameter_proposer</requirement_parameter>
 <variable>variable_proposers</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{f7a7cf79-c677-4d96-b240-c06dda358543}" record_timestamp="1550854865961" record_key="treaty_requirement_set_vassal_han_empire_demands_protection_parameter_proposer">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{f7a7cf79-c677-4d96-b240-c06dda358543}" record_timestamp="1551787878925" record_key="treaty_requirement_set_vassal_han_empire_demands_protection_parameter_proposer">
 <requirement_parameter>treaty_requirement_set_vassal_han_empire_demands_protection_parameter_proposer</requirement_parameter>
 <variable>variable_proposers</variable>
 </campaign_diplomacy_requirement_parameter_variables>
@@ -645,9 +697,29 @@
 <requirement_parameter>treaty_requirement_set_vassalage_any_to_proposer_parameter_proposer</requirement_parameter>
 <variable>variable_proposers</variable>
 </campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{0bc7ad3e-5f49-41bd-839e-a37dbe92fa2d}" record_timestamp="1561975259294" record_key="treaty_requirement_set_vassalage_any_to_recipient&lt;variable_recipient&gt;_parameter_recipient">
+<requirement_parameter>treaty_requirement_set_vassalage_any_to_recipient&lt;variable_recipient&gt;_parameter_recipient</requirement_parameter>
+<variable>variable_recipients</variable>
+</campaign_diplomacy_requirement_parameter_variables>
 <campaign_diplomacy_requirement_parameter_variables record_uuid="{e9359ba9-8b4e-4697-90d9-db0a7f83aa09}" record_timestamp="1536949296983" record_key="treaty_requirement_set_vassalage_any_to_recipient_parameter_proposer">
 <requirement_parameter>treaty_requirement_set_vassalage_any_to_recipient_parameter_proposer</requirement_parameter>
 <variable>variable_proposers</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{7ce77dd2-7d6e-4e54-b161-04fe55b3aac9}" record_timestamp="1561975261413" record_key="treaty_requirement_set_vassalage_proposer_to_&lt;any_factions&gt;_and_group_war_recipient_to_&lt;any_factions&gt;_parameter_any_factions">
+<requirement_parameter>treaty_requirement_set_vassalage_proposer_to_&lt;any_factions&gt;_and_group_war_recipient_to_&lt;any_factions&gt;_parameter_any_factions</requirement_parameter>
+<variable>variable_any_factions</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{777f3cc7-10b5-4123-9d78-9904780161e1}" record_timestamp="1561975259306" record_key="treaty_requirement_set_vassalage_proposer_to_&lt;any_factions&gt;_and_war_recipient_to_&lt;any_factions&gt;_parameter_any_factions">
+<requirement_parameter>treaty_requirement_set_vassalage_proposer_to_&lt;any_factions&gt;_and_war_recipient_to_&lt;any_factions&gt;_parameter_any_factions</requirement_parameter>
+<variable>variable_any_factions</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{15f8bd74-1a13-4bf9-a75a-3bd7f3d78c2f}" record_timestamp="1562084114785" record_key="treaty_requirement_set_vassalage_recipient_to_&lt;any_factions&gt;_and_group_war_proposer_to_&lt;any_factions&gt;_parameter_any_factions">
+<requirement_parameter>treaty_requirement_set_vassalage_recipient_to_&lt;any_factions&gt;_and_group_war_proposer_to_&lt;any_factions&gt;_parameter_any_factions</requirement_parameter>
+<variable>variable_any_factions</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{dc2b4f64-87d8-4826-802b-7a49f34ff8a4}" record_timestamp="1562084114786" record_key="treaty_requirement_set_vassalage_recipient_to_&lt;any_factions&gt;_and_war_proposer_to_&lt;any_factions&gt;_parameter_any_factions">
+<requirement_parameter>treaty_requirement_set_vassalage_recipient_to_&lt;any_factions&gt;_and_war_proposer_to_&lt;any_factions&gt;_parameter_any_factions</requirement_parameter>
+<variable>variable_any_factions</variable>
 </campaign_diplomacy_requirement_parameter_variables>
 <campaign_diplomacy_requirement_parameter_variables record_uuid="{237666e9-a17a-4387-b4e7-dc85f5de38e6}" record_timestamp="1523638204078" record_key="treaty_requirement_set_vassalage_recipient_to_&lt;variable_any_factions&gt;_and_not_war_or_group_war_&lt;variable_any_factions&gt;_to_proposer_existing_AND_parameter_any_factions">
 <requirement_parameter>treaty_requirement_set_vassalage_recipient_to_&lt;variable_any_factions&gt;_and_not_war_or_group_war_&lt;variable_any_factions&gt;_to_proposer_existing_AND_parameter_any_factions</requirement_parameter>
@@ -657,27 +729,31 @@
 <requirement_parameter>treaty_requirement_set_vassals_master_parameter_master</requirement_parameter>
 <variable>variable_vassal_master</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{2373315e-dfe9-415c-ba55-8a5a74e3c777}" record_timestamp="1547236696789" record_key="treaty_requirement_set_war_any&lt;variable_any_factions&gt;_to_recipient_parameter_proposer">
-<requirement_parameter>treaty_requirement_set_war_any&lt;variable_any_factions&gt;_to_recipient_parameter_proposer</requirement_parameter>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{12d8ab53-8bbc-4093-afd8-8595478548d1}" record_timestamp="1561975259313" record_key="treaty_requirement_set_war_any&lt;variable_any_factions&gt;_with_recipient_and_alliance_or_coalition_any&lt;variable_any_factions&gt;_to_proposer_parameter_any_factions">
+<requirement_parameter>treaty_requirement_set_war_any&lt;variable_any_factions&gt;_with_recipient_and_alliance_or_coalition_any&lt;variable_any_factions&gt;_to_proposer_parameter_any_factions</requirement_parameter>
 <variable>variable_any_factions</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{e0a42b89-6416-44f3-b374-e7eb0e463e7e}" record_timestamp="1556006618126" record_key="treaty_requirement_set_war_declared_followup_proposer_in_coalition_dummies_parameter_any_factions">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{2373315e-dfe9-415c-ba55-8a5a74e3c777}" record_timestamp="1547236696789" record_key="treaty_requirement_set_war_any&lt;variable_any_factions&gt;_with_recipient_not_alliance_or_coalition_any&lt;variable_any_factions&gt;_to_proposer_parameter_any_factions">
+<requirement_parameter>treaty_requirement_set_war_any&lt;variable_any_factions&gt;_with_recipient_not_alliance_or_coalition_any&lt;variable_any_factions&gt;_to_proposer_parameter_any_factions</requirement_parameter>
+<variable>variable_any_factions</variable>
+</campaign_diplomacy_requirement_parameter_variables>
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{e0a42b89-6416-44f3-b374-e7eb0e463e7e}" record_timestamp="1556563021239" record_key="treaty_requirement_set_war_declared_followup_proposer_in_coalition_dummies_parameter_any_factions">
 <requirement_parameter>treaty_requirement_set_war_declared_followup_proposer_in_coalition_dummies_parameter_any_factions</requirement_parameter>
 <variable>variable_any_factions</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{cc496ed1-eee6-4f21-a7cd-bdbb50adb8fa}" record_timestamp="1556006618114" record_key="treaty_requirement_set_war_declared_followup_proposer_in_coalition_dummies_parameter_proposer">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{cc496ed1-eee6-4f21-a7cd-bdbb50adb8fa}" record_timestamp="1556563021238" record_key="treaty_requirement_set_war_declared_followup_proposer_in_coalition_dummies_parameter_proposer">
 <requirement_parameter>treaty_requirement_set_war_declared_followup_proposer_in_coalition_dummies_parameter_proposer</requirement_parameter>
 <variable>variable_proposers</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{b045df1d-a4f5-4299-a994-1e127f0eaf52}" record_timestamp="1553701895445" record_key="treaty_requirement_set_war_declared_followup_proposer_in_coalition_parameter_any_factions">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{b045df1d-a4f5-4299-a994-1e127f0eaf52}" record_timestamp="1554886763361" record_key="treaty_requirement_set_war_declared_followup_proposer_in_coalition_parameter_any_factions">
 <requirement_parameter>treaty_requirement_set_war_declared_followup_proposer_in_coalition_parameter_any_factions</requirement_parameter>
 <variable>variable_any_factions</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{998b0e9d-4a58-4d8f-b615-696d097fb1b1}" record_timestamp="1556006618165" record_key="treaty_requirement_set_war_dummy_parameter_proposer">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{998b0e9d-4a58-4d8f-b615-696d097fb1b1}" record_timestamp="1556563021243" record_key="treaty_requirement_set_war_dummy_parameter_proposer">
 <requirement_parameter>treaty_requirement_set_war_dummy_parameter_proposer</requirement_parameter>
 <variable>variable_proposers</variable>
 </campaign_diplomacy_requirement_parameter_variables>
-<campaign_diplomacy_requirement_parameter_variables record_uuid="{dd97166b-d041-4d2e-a46f-e46f7140050b}" record_timestamp="1552500160580" record_key="treaty_requirement_set_war_proposer_to_recipient&lt;variable_any_factions&gt;_parameter_any_factions">
+<campaign_diplomacy_requirement_parameter_variables record_uuid="{dd97166b-d041-4d2e-a46f-e46f7140050b}" record_timestamp="1554883070392" record_key="treaty_requirement_set_war_proposer_to_recipient&lt;variable_any_factions&gt;_parameter_any_factions">
 <requirement_parameter>treaty_requirement_set_war_proposer_to_recipient&lt;variable_any_factions&gt;_parameter_any_factions</requirement_parameter>
 <variable>variable_any_factions</variable>
 </campaign_diplomacy_requirement_parameter_variables>

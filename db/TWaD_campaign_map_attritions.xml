@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE TWaD_campaign_map_attritions>
 <root>
-<edit_uuid>3fb8c108-2b2a-4632-a302-1332cbbe7eb7</edit_uuid>
+<edit_uuid>7d5b8563-37f7-47cd-b479-7a3b4d5f1581</edit_uuid>
 <include_all_records_in_retail>1</include_all_records_in_retail>
 <field>
 <field_uuid>{50b8cd74-fa04-494c-a6a2-6c80eebdf807}</field_uuid>
@@ -84,6 +84,18 @@
 <field_type>yesno</field_type>
 <required>1</required>
 <default_value>false</default_value>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{38661712-19d6-458a-9af0-7e42b08c60bb}</field_uuid>
+<primary_key>0</primary_key>
+<name>application_phase</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>campaign_map_attrition_application_phases</column_source_table>
 <requires_startpos_reprocess>0</requires_startpos_reprocess>
 <requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
 </field>

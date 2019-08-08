@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="frontend_faction_leaders.xsd" export_time="Mon Mar 11 18:21:45 2019" revision="179" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1380/dave" export_user="bob">
-<edit_uuid>d2cf016f-6a5f-43c8-aac1-3477ef740f0e</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="frontend_faction_leaders.xsd" export_time="Thu Jul 18 11:24:45 2019" revision="203" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1586/dave" export_user="bob">
+<edit_uuid>47141d30-3eda-4f17-b0a1-bdc8b19b96ca</edit_uuid>
 <frontend_faction_leaders record_uuid="{c039e6d6-a4ac-4bbc-b79c-1576cd558744}" record_timestamp="1538985182114" record_key="3k_main_political_party_cao_cao_ruler">
 <character_generation_template>3k_main_template_historical_cao_cao_hero_earth</character_generation_template>
 <chinese_icon_path>ui/characters/frontend_selection/cao_cao/name_white.png</chinese_icon_path>
@@ -378,7 +378,7 @@
 <x_offset>0</x_offset>
 <y_offset>0</y_offset>
 </frontend_faction_leaders>
-<frontend_faction_leaders record_uuid="{96ab7cb3-3c4f-4faf-94d7-f25c3e90f11e}" record_timestamp="1550651218495" record_key="3k_main_political_party_zhang_yan_ruler">
+<frontend_faction_leaders record_uuid="{96ab7cb3-3c4f-4faf-94d7-f25c3e90f11e}" record_timestamp="1542132889924" record_key="3k_main_political_party_zhang_yan_ruler">
 <character_generation_template>3k_main_template_historical_zhang_yan_hero_wood</character_generation_template>
 <chinese_icon_path>ui/characters/frontend_selection/zhang_yan/name_white.png</chinese_icon_path>
 <defeat_screen_image>ui/post_campaign_background/campaign_defeat_green.png</defeat_screen_image>
@@ -407,7 +407,7 @@
 <x_offset>0</x_offset>
 <y_offset>0</y_offset>
 </frontend_faction_leaders>
-<frontend_faction_leaders record_uuid="{482a1443-62f7-4d2a-a413-759edcbe8da7}" record_timestamp="1550651218495" record_key="3k_main_political_party_zheng_jiang_ruler">
+<frontend_faction_leaders record_uuid="{482a1443-62f7-4d2a-a413-759edcbe8da7}" record_timestamp="1538985460987" record_key="3k_main_political_party_zheng_jiang_ruler">
 <character_generation_template>3k_main_template_historical_lady_zheng_jiang_hero_wood</character_generation_template>
 <chinese_icon_path>ui/characters/frontend_selection/zheng_jiang/name_white.png</chinese_icon_path>
 <defeat_screen_image>ui/post_campaign_background/campaign_defeat_zhengjiang.png</defeat_screen_image>
@@ -433,6 +433,238 @@
 <victory_screen_image>ui/post_campaign_background/campaign_victory_zhenk_jian.png</victory_screen_image>
 <video>3k_main_faction_intro_zheng_jiang</video>
 <voiceover>vo_actor_hero_Zheng_Jiang</voiceover>
+<x_offset>0</x_offset>
+<y_offset>0</y_offset>
+</frontend_faction_leaders>
+<frontend_faction_leaders record_uuid="{4c3e7377-3470-4b77-b1d1-5c5065019d3a}" record_timestamp="1563285231353" record_key="ep_political_party_prince_of_changsha_ruler">
+<character_generation_template>ep_template_historical_sima_ai_hero_wood_prince</character_generation_template>
+<chinese_icon_path>ui/characters/frontend_selection/sun_jian/name_white.png</chinese_icon_path>
+<defeat_screen_image>ui/post_campaign_background/campaign_defeat_green.png</defeat_screen_image>
+<faction_leader_effect_bundle>ep_frontend_leader_bundle_sima_ai_ruler</faction_leader_effect_bundle>
+<faction_leader_general_type>3k_main_hero_wood</faction_leader_general_type>
+<game_expansion_key>eight_princes</game_expansion_key>
+<key>ep_political_party_prince_of_changsha_ruler</key>
+<loading_screen_image>ui/loading_ui/load_images/testSeason.png</loading_screen_image>
+<loading_screen_intro_video>ep_faction_intro_all</loading_screen_intro_video>
+<loading_screen_text state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder</loading_screen_text>
+<localised_action_points state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder||placeholder</localised_action_points>
+<localised_description state="APPROVED" last_approved_text="Of all the princes vying for control of the fledgling emperor, Sima Ai stands alone as worthy of victory. Widely praised for his noble ideals and filial piety, Sima Ai defended the emperor - his brother - when it became clear that the empress dowager harboured dark designs. \n\n Yet now, with the empress dowager gone, and Empress Jia ascendant, Sima Ai must decide where his loyalties lie, and how he might best serve the emperor as his kin descend into civil war..." last_edit_user="bob">Of all the princes vying for control of the fledgling emperor, Sima Ai stands alone as worthy of victory. Widely praised for his noble ideals and filial piety, Sima Ai defended the emperor - his brother - when it became clear that the empress dowager harboured dark designs. \n\n Yet now, with the empress dowager gone, and Empress Jia ascendant, Sima Ai must decide where his loyalties lie, and how he might best serve the emperor as his kin descend into civil war...</localised_description>
+<localised_difficulty state="APPROVED" last_approved_text="Starting situation: [[col:traffic_light_moderate]]Normal[[/col]]" last_edit_user="bob">Starting situation: [[col:traffic_light_moderate]]Normal[[/col]]</localised_difficulty>
+<localised_name state="APPROVED" last_approved_text="Sima Ai" last_edit_user="bob">Sima Ai</localised_name>
+<localised_subtitle state="APPROVED" last_approved_text="Principled Administrator" last_edit_user="bob">Principled Administrator</localised_subtitle>
+<map_path>ui/maps/frontend/campaign_selection/ep_frontend_map_sima_ai.png</map_path>
+<override_force_location_x>-1</override_force_location_x>
+<override_force_location_y>-1</override_force_location_y>
+<prelude_battle></prelude_battle>
+<sort_order>2</sort_order>
+<specialisation_effect_bundle>ep_frontend_leader_prince_of_changsha_specialisation</specialisation_effect_bundle>
+<uniform>composite_scene/front_end_selection/karl_franz_selection.csc</uniform>
+<victory_screen_image>ui/post_campaign_background/campaign_victory_green.png</victory_screen_image>
+<video>ep_faction_intro_all</video>
+<voiceover>vo_actor_general_Sima_Ai</voiceover>
+<x_offset>0</x_offset>
+<y_offset>0</y_offset>
+</frontend_faction_leaders>
+<frontend_faction_leaders record_uuid="{a2b2a3c3-328b-41c9-a05a-8d1d99142fbd}" record_timestamp="1563286349835" record_key="ep_political_party_prince_of_chengdu_ruler">
+<character_generation_template>ep_template_historical_sima_ying_hero_water_prince</character_generation_template>
+<chinese_icon_path>ui/characters/frontend_selection/sun_jian/name_white.png</chinese_icon_path>
+<defeat_screen_image>ui/post_campaign_background/campaign_defeat_blue.png</defeat_screen_image>
+<faction_leader_effect_bundle>ep_frontend_leader_bundle_sima_ying_ruler</faction_leader_effect_bundle>
+<faction_leader_general_type>3k_main_hero_strategist_water</faction_leader_general_type>
+<game_expansion_key>eight_princes</game_expansion_key>
+<key>ep_political_party_prince_of_chengdu_ruler</key>
+<loading_screen_image>ui/loading_ui/load_images/testSeason.png</loading_screen_image>
+<loading_screen_intro_video>ep_faction_intro_all</loading_screen_intro_video>
+<loading_screen_text state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder</loading_screen_text>
+<localised_action_points state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder||placeholder</localised_action_points>
+<localised_description state="APPROVED" last_approved_text="Even as his opinion at court deteriorates, Sima Ying has earned the love of his people, developing a reputation for respect, leniency and consideration. Possessed of handsome looks but low intelligence, Sima Ying has acted in as forthright a manner as he knows how, all whilst viewing the imperial court with distrust. \n\n As the Jin descend into civil war, he must choose carefully who to fight and who to defend, and who might best serve the people." last_edit_user="bob">Even as his opinion at court deteriorates, Sima Ying has earned the love of his people, developing a reputation for respect, leniency and consideration. Possessed of handsome looks but low intelligence, Sima Ying has acted in as forthright a manner as he knows how, all whilst viewing the imperial court with distrust. \n\n As the Jin descend into civil war, he must choose carefully who to fight and who to defend, and who might best serve the people.</localised_description>
+<localised_difficulty state="APPROVED" last_approved_text="Starting situation: [[col:traffic_light_moderate]]Normal[[/col]]" last_edit_user="bob">Starting situation: [[col:traffic_light_moderate]]Normal[[/col]]</localised_difficulty>
+<localised_name state="APPROVED" last_approved_text="Sima Ying" last_edit_user="bob">Sima Ying</localised_name>
+<localised_subtitle state="APPROVED" last_approved_text="Beloved Governor" last_edit_user="bob">Beloved Governor</localised_subtitle>
+<map_path>ui/maps/frontend/campaign_selection/ep_frontend_map_sima_ying.png</map_path>
+<override_force_location_x>-1</override_force_location_x>
+<override_force_location_y>-1</override_force_location_y>
+<prelude_battle></prelude_battle>
+<sort_order>3</sort_order>
+<specialisation_effect_bundle>ep_frontend_leader_prince_of_chengdu_specialisation</specialisation_effect_bundle>
+<uniform>composite_scene/front_end_selection/karl_franz_selection.csc</uniform>
+<victory_screen_image>ui/post_campaign_background/campaign_victory_blue.png</victory_screen_image>
+<video>ep_faction_intro_all</video>
+<voiceover>vo_actor_general_Sima_Ying</voiceover>
+<x_offset>0</x_offset>
+<y_offset>0</y_offset>
+</frontend_faction_leaders>
+<frontend_faction_leaders record_uuid="{91563e02-7c55-43af-a34b-2b1cdc570304}" record_timestamp="1563285529798" record_key="ep_political_party_prince_of_chu_ruler">
+<character_generation_template>ep_template_historical_sima_wei_hero_fire_prince</character_generation_template>
+<chinese_icon_path>ui/characters/frontend_selection/sun_jian/name_white.png</chinese_icon_path>
+<defeat_screen_image>ui/post_campaign_background/campaign_defeat_red.png</defeat_screen_image>
+<faction_leader_effect_bundle>ep_frontend_leader_bundle_sima_wei_ruler</faction_leader_effect_bundle>
+<faction_leader_general_type>3k_main_hero_fire</faction_leader_general_type>
+<game_expansion_key>eight_princes</game_expansion_key>
+<key>ep_political_party_prince_of_chu_ruler</key>
+<loading_screen_image>ui/loading_ui/load_images/testSeason.png</loading_screen_image>
+<loading_screen_intro_video>ep_faction_intro_all</loading_screen_intro_video>
+<loading_screen_text state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder</loading_screen_text>
+<localised_action_points state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder||placeholder</localised_action_points>
+<localised_description state="APPROVED" last_approved_text="Sima Wei is as a volatile storm, directing his furious energy at those who would threaten or attempt to undermine the Jin dynasty. Long known as an excellent general, his career is defined by positions of military authority. After the death of Emperor Wu, however, Sima Wei participated in a coup, orchestrated by Empress Jia, to overthrow the new emperor's regents. \n\n Despite his participation, the empress still views Sima Wei with suspicion, so he must move to defend both himself and then the dynasty he serves." last_edit_user="bob">Sima Wei is as a volatile storm, directing his furious energy at those who would threaten or attempt to undermine the Jin dynasty. Long known as an excellent general, his career is defined by positions of military authority. After the death of Emperor Wu, however, Sima Wei participated in a coup, orchestrated by Empress Jia, to overthrow the new emperor's regents. \n\n Despite his participation, the empress still views Sima Wei with suspicion, so he must move to defend both himself and then the dynasty he serves.</localised_description>
+<localised_difficulty state="APPROVED" last_approved_text="Starting situation: [[col:traffic_light_negative]]Hard[[/col]]" last_edit_user="bob">Starting situation: [[col:traffic_light_negative]]Hard[[/col]]</localised_difficulty>
+<localised_name state="APPROVED" last_approved_text="Sima Wei" last_edit_user="bob">Sima Wei</localised_name>
+<localised_subtitle state="APPROVED" last_approved_text="Tempestuous General" last_edit_user="bob">Tempestuous General</localised_subtitle>
+<map_path>ui/maps/frontend/campaign_selection/ep_frontend_map_sima_wei.png</map_path>
+<override_force_location_x>-1</override_force_location_x>
+<override_force_location_y>-1</override_force_location_y>
+<prelude_battle></prelude_battle>
+<sort_order>6</sort_order>
+<specialisation_effect_bundle>ep_frontend_leader_prince_of_chu_specialisation</specialisation_effect_bundle>
+<uniform>composite_scene/front_end_selection/karl_franz_selection.csc</uniform>
+<victory_screen_image>ui/post_campaign_background/campaign_victory_red.png</victory_screen_image>
+<video>ep_faction_intro_all</video>
+<voiceover>vo_actor_general_Sima_Wei</voiceover>
+<x_offset>0</x_offset>
+<y_offset>0</y_offset>
+</frontend_faction_leaders>
+<frontend_faction_leaders record_uuid="{ab5ec037-cf50-46c1-9d69-e7864d08dca8}" record_timestamp="1563286349835" record_key="ep_political_party_prince_of_donghai_ruler">
+<character_generation_template>ep_template_historical_sima_yue_hero_metal_prince</character_generation_template>
+<chinese_icon_path>ui/characters/frontend_selection/sun_jian/name_white.png</chinese_icon_path>
+<defeat_screen_image>ui/post_campaign_background/campaign_defeat_purple.png</defeat_screen_image>
+<faction_leader_effect_bundle>ep_frontend_leader_bundle_sima_yue_ruler</faction_leader_effect_bundle>
+<faction_leader_general_type>3k_main_hero_metal</faction_leader_general_type>
+<game_expansion_key>eight_princes</game_expansion_key>
+<key>ep_political_party_prince_of_donghai_ruler</key>
+<loading_screen_image>ui/loading_ui/load_images/testSeason.png</loading_screen_image>
+<loading_screen_intro_video>ep_faction_intro_all</loading_screen_intro_video>
+<loading_screen_text state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder</loading_screen_text>
+<localised_action_points state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder||placeholder</localised_action_points>
+<localised_description state="APPROVED" last_approved_text="Sima Yue acts in the name of the dynasty, working tirelessly to ensure the bureaucracy of the realm continues, even as civil war looms. Equal parts principled and pragmatic, Sima Yue acts in defence of the realm, yet when faced with defeat he will not put his principles before his own survival. \n\n As his kin turn on one another, Sima Yue is faced with a choice between aiding those seeking to usurp the emperor or those wishing to defend him..." last_edit_user="bob">Sima Yue acts in the name of the dynasty, working tirelessly to ensure the bureaucracy of the realm continues, even as civil war looms. Equal parts principled and pragmatic, Sima Yue acts in defence of the realm, yet when faced with defeat he will not put his principles before his own survival. \n\n As his kin turn on one another, Sima Yue is faced with a choice between aiding those seeking to usurp the emperor or those wishing to defend him...</localised_description>
+<localised_difficulty state="APPROVED" last_approved_text="Starting situation: [[col:traffic_light_moderate]]Normal[[/col]]" last_edit_user="bob">Starting situation: [[col:traffic_light_moderate]]Normal[[/col]]</localised_difficulty>
+<localised_name state="APPROVED" last_approved_text="Sima Yue" last_edit_user="bob">Sima Yue</localised_name>
+<localised_subtitle state="APPROVED" last_approved_text="Imperial Overseer" last_edit_user="bob">Imperial Overseer</localised_subtitle>
+<map_path>ui/maps/frontend/campaign_selection/ep_frontend_map_sima_yue.png</map_path>
+<override_force_location_x>-1</override_force_location_x>
+<override_force_location_y>-1</override_force_location_y>
+<prelude_battle></prelude_battle>
+<sort_order>5</sort_order>
+<specialisation_effect_bundle>ep_frontend_leader_prince_of_donghai_specialisation</specialisation_effect_bundle>
+<uniform>composite_scene/front_end_selection/karl_franz_selection.csc</uniform>
+<victory_screen_image>ui/post_campaign_background/campaign_victory_purple.png</victory_screen_image>
+<video>ep_faction_intro_all</video>
+<voiceover>vo_actor_general_Sima_Yue</voiceover>
+<x_offset>0</x_offset>
+<y_offset>0</y_offset>
+</frontend_faction_leaders>
+<frontend_faction_leaders record_uuid="{2b0bd69e-302e-4547-9057-6848dcae8d0a}" record_timestamp="1563274751718" record_key="ep_political_party_prince_of_hejian_ruler">
+<character_generation_template>ep_template_historical_sima_yong_hero_fire_prince</character_generation_template>
+<chinese_icon_path>ui/characters/frontend_selection/sun_jian/name_white.png</chinese_icon_path>
+<defeat_screen_image>ui/post_campaign_background/campaign_defeat_red.png</defeat_screen_image>
+<faction_leader_effect_bundle>ep_frontend_leader_bundle_sima_yong_ruler</faction_leader_effect_bundle>
+<faction_leader_general_type>3k_main_hero_fire</faction_leader_general_type>
+<game_expansion_key>eight_princes</game_expansion_key>
+<key>ep_political_party_prince_of_hejian_ruler</key>
+<loading_screen_image>ui/loading_ui/load_images/testSeason.png</loading_screen_image>
+<loading_screen_intro_video>ep_faction_intro_all</loading_screen_intro_video>
+<loading_screen_text state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder</loading_screen_text>
+<localised_action_points state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder||placeholder</localised_action_points>
+<localised_description state="APPROVED" last_approved_text="Sima Yong has an eye for ability; he values those he can use, and those who might help advance his ambitions. He is not a man who believes allegiance has to be a fixed thing, and his opinions - and allies - will shift depending on what best suits him. \n\n As China descends once more into the chaos of civil war, Sima Yong watches the pieces on the board move and considers carefully what moves to make..." last_edit_user="bob">Sima Yong has an eye for ability; he values those he can use, and those who might help advance his ambitions. He is not a man who believes allegiance has to be a fixed thing, and his opinions - and allies - will shift depending on what best suits him. \n\n As China descends once more into the chaos of civil war, Sima Yong watches the pieces on the board move and considers carefully what moves to make...</localised_description>
+<localised_difficulty state="APPROVED" last_approved_text="Starting situation: [[col:traffic_light_positive]]Easy[[/col]]" last_edit_user="bob">Starting situation: [[col:traffic_light_positive]]Easy[[/col]]</localised_difficulty>
+<localised_name state="APPROVED" last_approved_text="Sima Yong" last_edit_user="bob">Sima Yong</localised_name>
+<localised_subtitle state="APPROVED" last_approved_text="Shrewd Defender" last_edit_user="bob">Shrewd Defender</localised_subtitle>
+<map_path>ui/maps/frontend/campaign_selection/ep_frontend_map_sima_yong.png</map_path>
+<override_force_location_x>-1</override_force_location_x>
+<override_force_location_y>-1</override_force_location_y>
+<prelude_battle></prelude_battle>
+<sort_order>0</sort_order>
+<specialisation_effect_bundle>ep_frontend_leader_prince_of_hejian_specialisation</specialisation_effect_bundle>
+<uniform>composite_scene/front_end_selection/karl_franz_selection.csc</uniform>
+<victory_screen_image>ui/post_campaign_background/campaign_victory_red.png</victory_screen_image>
+<video>ep_faction_intro_all</video>
+<voiceover>vo_actor_general_Sima_Yong</voiceover>
+<x_offset>0</x_offset>
+<y_offset>0</y_offset>
+</frontend_faction_leaders>
+<frontend_faction_leaders record_uuid="{0a0a5840-9f88-4c8e-b50c-c51893e0d15b}" record_timestamp="1563274751718" record_key="ep_political_party_prince_of_qi_ruler">
+<character_generation_template>ep_template_historical_sima_jiong_hero_earth_prince</character_generation_template>
+<chinese_icon_path>ui/characters/frontend_selection/sun_jian/name_white.png</chinese_icon_path>
+<defeat_screen_image>ui/post_campaign_background/campaign_defeat_yellow.png</defeat_screen_image>
+<faction_leader_effect_bundle>ep_frontend_leader_bundle_sima_jiong_ruler</faction_leader_effect_bundle>
+<faction_leader_general_type>3k_main_hero_earth</faction_leader_general_type>
+<game_expansion_key>eight_princes</game_expansion_key>
+<key>ep_political_party_prince_of_qi_ruler</key>
+<loading_screen_image>ui/loading_ui/load_images/testSeason.png</loading_screen_image>
+<loading_screen_intro_video>ep_faction_intro_all</loading_screen_intro_video>
+<loading_screen_text state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder</loading_screen_text>
+<localised_action_points state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder||placeholder</localised_action_points>
+<localised_description state="APPROVED" last_approved_text="Sima Jiong has suffered great indignities at the hands of the Jin emperors, yet despite it all he has forged a place of power within the turmoil. His father, Sima You, was so qualified that many believed he should be heir. As a result, he was jealously exiled from the capital by the emperor. Since then, Sima Jiong has carved a position of relative strength, and watches Luoyang with a burning desire to correct the injustices of the past..." last_edit_user="bob">Sima Jiong has suffered great indignities at the hands of the Jin emperors, yet despite it all he has forged a place of power within the turmoil. His father, Sima You, was so qualified that many believed he should be heir. As a result, he was jealously exiled from the capital by the emperor. Since then, Sima Jiong has carved a position of relative strength, and watches Luoyang with a burning desire to correct the injustices of the past...</localised_description>
+<localised_difficulty state="APPROVED" last_approved_text="Starting situation: [[col:traffic_light_moderate]]Normal[[/col]]" last_edit_user="bob">Starting situation: [[col:traffic_light_moderate]]Normal[[/col]]</localised_difficulty>
+<localised_name state="APPROVED" last_approved_text="Sima Jiong" last_edit_user="bob">Sima Jiong</localised_name>
+<localised_subtitle state="APPROVED" last_approved_text="Imperious Regent" last_edit_user="bob">Imperious Regent</localised_subtitle>
+<map_path>ui/maps/frontend/campaign_selection/ep_frontend_map_sima_jiong.png</map_path>
+<override_force_location_x>-1</override_force_location_x>
+<override_force_location_y>-1</override_force_location_y>
+<prelude_battle></prelude_battle>
+<sort_order>1</sort_order>
+<specialisation_effect_bundle>ep_frontend_leader_prince_of_qi_specialisation</specialisation_effect_bundle>
+<uniform>composite_scene/front_end_selection/karl_franz_selection.csc</uniform>
+<victory_screen_image>ui/post_campaign_background/campaign_victory_yellow.png</victory_screen_image>
+<video>ep_faction_intro_all</video>
+<voiceover>vo_actor_general_Sima_Jiong</voiceover>
+<x_offset>0</x_offset>
+<y_offset>0</y_offset>
+</frontend_faction_leaders>
+<frontend_faction_leaders record_uuid="{67c3416b-1a3e-4c7d-8f1f-48dad945df0a}" record_timestamp="1563285529797" record_key="ep_political_party_prince_of_runan_ruler">
+<character_generation_template>ep_template_historical_sima_liang_hero_wood_prince</character_generation_template>
+<chinese_icon_path>ui/characters/frontend_selection/sun_jian/name_white.png</chinese_icon_path>
+<defeat_screen_image>ui/post_campaign_background/campaign_defeat_green.png</defeat_screen_image>
+<faction_leader_effect_bundle>ep_frontend_leader_bundle_sima_liang_ruler</faction_leader_effect_bundle>
+<faction_leader_general_type>3k_main_hero_wood</faction_leader_general_type>
+<game_expansion_key>eight_princes</game_expansion_key>
+<key>ep_political_party_prince_of_runan_ruler</key>
+<loading_screen_image>ui/loading_ui/load_images/testSeason.png</loading_screen_image>
+<loading_screen_intro_video>ep_faction_intro_all</loading_screen_intro_video>
+<loading_screen_text state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder</loading_screen_text>
+<localised_action_points state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder||placeholder</localised_action_points>
+<localised_description state="APPROVED" last_approved_text="Sima Liang has lived long enough to see the Wei fall and the Jin rise, and wonders now if he will survive long enough to see the flame of yet another great dynasty extinguished. He has enjoyed a long and illustrious life serving as both military commander and senior advisor to the emperor. With the death of Emperor Wu, however, his regency has been stripped and his loyalty questioned. Even now, Empress Jia demands his arrest, and Sima Wei marches on the son of Sima Yi to do her bidding..." last_edit_user="bob">Sima Liang has lived long enough to see the Wei fall and the Jin rise, and wonders now if he will survive long enough to see the flame of yet another great dynasty extinguished. He has enjoyed a long and illustrious life serving as both military commander and senior advisor to the emperor. With the death of Emperor Wu, however, his regency has been stripped and his loyalty questioned. Even now, Empress Jia demands his arrest, and Sima Wei marches on the son of Sima Yi to do her bidding...</localised_description>
+<localised_difficulty state="APPROVED" last_approved_text="Starting situation: [[col:traffic_light_very_negative]]Very Hard[[/col]]" last_edit_user="bob">Starting situation: [[col:traffic_light_very_negative]]Very Hard[[/col]]</localised_difficulty>
+<localised_name state="APPROVED" last_approved_text="Sima Liang" last_edit_user="bob">Sima Liang</localised_name>
+<localised_subtitle state="APPROVED" last_approved_text="Rightful Regent" last_edit_user="bob">Rightful Regent</localised_subtitle>
+<map_path>ui/maps/frontend/campaign_selection/ep_frontend_map_sima_liang.png</map_path>
+<override_force_location_x>-1</override_force_location_x>
+<override_force_location_y>-1</override_force_location_y>
+<prelude_battle></prelude_battle>
+<sort_order>7</sort_order>
+<specialisation_effect_bundle>ep_frontend_leader_prince_of_runan_specialisation</specialisation_effect_bundle>
+<uniform>composite_scene/front_end_selection/karl_franz_selection.csc</uniform>
+<victory_screen_image>ui/post_campaign_background/campaign_victory_green.png</victory_screen_image>
+<video>ep_faction_intro_all</video>
+<voiceover>vo_actor_general_Sima_Liang</voiceover>
+<x_offset>0</x_offset>
+<y_offset>0</y_offset>
+</frontend_faction_leaders>
+<frontend_faction_leaders record_uuid="{75f06d2d-2ded-4835-8aa2-a710e986b463}" record_timestamp="1563274751718" record_key="ep_political_party_prince_of_zhao_ruler">
+<character_generation_template>ep_template_historical_sima_lun_hero_earth_prince</character_generation_template>
+<chinese_icon_path>ui/characters/frontend_selection/sun_jian/name_white.png</chinese_icon_path>
+<defeat_screen_image>ui/post_campaign_background/campaign_defeat_yellow.png</defeat_screen_image>
+<faction_leader_effect_bundle>ep_frontend_leader_bundle_sima_lun_ruler</faction_leader_effect_bundle>
+<faction_leader_general_type>3k_main_hero_earth</faction_leader_general_type>
+<game_expansion_key>eight_princes</game_expansion_key>
+<key>ep_political_party_prince_of_zhao_ruler</key>
+<loading_screen_image>ui/loading_ui/load_images/testSeason.png</loading_screen_image>
+<loading_screen_intro_video>ep_faction_intro_all</loading_screen_intro_video>
+<loading_screen_text state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder</loading_screen_text>
+<localised_action_points state="HIDDEN" last_approved_text="" last_edit_user="bob">placeholder||placeholder</localised_action_points>
+<localised_description state="APPROVED" last_approved_text="Sima Lun sees the truth of a leaderless dynasty, and is bold - or brazen - enough to stake his own claim upon the throne. His ambition is unquestioned, even if his style of governance is not yet proven; his early administrations were marked by accusations of corruption and, later, rebellions against his rule. \n\n However, Sima Lun has the favour of the empress, an advantage for one so untested yet so ambitious. Such ruthless desire for power is a dangerous weapon, and Sima Lun will wield it without mercy." last_edit_user="bob">Sima Lun sees the truth of a leaderless dynasty, and is bold - or brazen - enough to stake his own claim upon the throne. His ambition is unquestioned, even if his style of governance is not yet proven; his early administrations were marked by accusations of corruption and, later, rebellions against his rule. \n\n However, Sima Lun has the favour of the empress, an advantage for one so untested yet so ambitious. Such ruthless desire for power is a dangerous weapon, and Sima Lun will wield it without mercy.</localised_description>
+<localised_difficulty state="APPROVED" last_approved_text="Starting situation: [[col:traffic_light_negative]]Hard[[/col]]" last_edit_user="bob">Starting situation: [[col:traffic_light_negative]]Hard[[/col]]</localised_difficulty>
+<localised_name state="APPROVED" last_approved_text="Sima Lun" last_edit_user="bob">Sima Lun</localised_name>
+<localised_subtitle state="APPROVED" last_approved_text="Usurper Prince" last_edit_user="bob">Usurper Prince</localised_subtitle>
+<map_path>ui/maps/frontend/campaign_selection/ep_frontend_map_sima_lun.png</map_path>
+<override_force_location_x>-1</override_force_location_x>
+<override_force_location_y>-1</override_force_location_y>
+<prelude_battle></prelude_battle>
+<sort_order>5</sort_order>
+<specialisation_effect_bundle>ep_frontend_leader_prince_of_zhao_specialisation</specialisation_effect_bundle>
+<uniform>composite_scene/front_end_selection/karl_franz_selection.csc</uniform>
+<victory_screen_image>ui/post_campaign_background/campaign_victory_yellow.png</victory_screen_image>
+<video>ep_faction_intro_all</video>
+<voiceover>vo_actor_general_Sima_Lun</voiceover>
 <x_offset>0</x_offset>
 <y_offset>0</y_offset>
 </frontend_faction_leaders>

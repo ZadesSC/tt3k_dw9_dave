@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_group_ceos.xsd" export_time="Mon Apr 1 15:38:13 2019" revision="87" export_branch="C:/Users/simon.mann/AppData/Roaming/TWDaemon/1414/dave" export_user="bob">
-<edit_uuid>f4b58af8-b5ac-4880-a1ea-29c461a1fe66</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_group_ceos.xsd" export_time="Tue Jul 9 16:04:27 2019" revision="90" export_branch="C:/Users/william.wright/AppData/Roaming/TWDaemon/1570/dave" export_user="bob">
+<edit_uuid>c1a51c8e-7530-426e-b78d-3f6c6f725a0b</edit_uuid>
 <ceo_group_ceos record_uuid="{c55766fc-ed2d-4ce7-8e44-78bc7189463c}" record_timestamp="1541086960214" record_key="1000995757">
 <auto_id>1000995757</auto_id>
 <ceo>3k_main_ancillary_follower_law_enforcer</ceo>
@@ -61,7 +61,13 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{35f33c69-3f2a-460a-9e3e-bc402c3c4fec}" record_timestamp="1552068953363" record_key="1005914169">
+<ceo_group_ceos record_uuid="{d63a04bb-e1eb-4250-8ca1-bf71d3d1c31f}" record_timestamp="1553100956488" record_key="1005422814">
+<auto_id>1005422814</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_metal_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_metal</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{35f33c69-3f2a-460a-9e3e-bc402c3c4fec}" record_timestamp="1554882370924" record_key="1005914169">
 <auto_id>1005914169</auto_id>
 <ceo>3k_main_ancillary_armour_heavy_armour_wood_extraordinary</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -131,6 +137,18 @@
 <auto_id>1011350791</auto_id>
 <ceo>3k_main_ancillary_armour_medium_armour_fire_extraordinary</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{28d62450-a5a2-4f2b-bc22-4c195f41291e}" record_timestamp="1562684664095" record_key="1011388847">
+<auto_id>1011388847</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_fire_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{f683e4f6-c2bc-4cab-97d3-c6ca4078cdf6}" record_timestamp="1562684664931" record_key="1011965545">
+<auto_id>1011965545</auto_id>
+<ceo>ep_ancillary_armour_light_armour_earth_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_fire_armours_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{59d3c412-362c-4153-8cd8-22ee54bb2598}" record_timestamp="1547912567521" record_key="1012230038">
@@ -367,7 +385,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_earth_faction</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{6ddb0a06-d336-47cb-8384-1dfcf400d65b}" record_timestamp="1550502126661" record_key="1033968328">
+<ceo_group_ceos record_uuid="{6ddb0a06-d336-47cb-8384-1dfcf400d65b}" record_timestamp="1551784875549" record_key="1033968328">
 <auto_id>1033968328</auto_id>
 <ceo>3k_ytr_ancillary_armour_pei_yuanshaos_armour_unique</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_armour_type_character_specific</ceo_group>
@@ -403,6 +421,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_earth_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{abb4bd20-88d9-4dec-94bc-ad0f9162cab5}" record_timestamp="1560851446325" record_key="1036226820">
+<auto_id>1036226820</auto_id>
+<ceo>ep_ceo_career_historical_sima_song</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{6df3123b-51b4-4e92-b665-be9aae291551}" record_timestamp="1541754941325" record_key="1036253190">
 <auto_id>1036253190</auto_id>
 <ceo>3k_main_ceo_trait_personality_elusive</ceo>
@@ -425,6 +449,12 @@
 <auto_id>1038264208</auto_id>
 <ceo>3k_main_ancillary_accessory_rites_of_zhou</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction_only</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{324ac162-e987-4d8c-8782-e4523640972f}" record_timestamp="1553100957447" record_key="1040232666">
+<auto_id>1040232666</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_fire_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{a36c9be9-e6e2-494a-adfc-5976409e4a06}" record_timestamp="1541086966077" record_key="104051243">
@@ -607,7 +637,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_fire_faction</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{15199784-8fec-4b7d-9e70-b7099ba00bd1}" record_timestamp="1552068950024" record_key="1059919708">
+<ceo_group_ceos record_uuid="{15199784-8fec-4b7d-9e70-b7099ba00bd1}" record_timestamp="1554882370831" record_key="1059919708">
 <auto_id>1059919708</auto_id>
 <ceo>3k_main_ancillary_mount_black_stallion</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -709,7 +739,7 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{c95276f6-8abf-4e41-abbd-17bd277964b1}" record_timestamp="1552068951416" record_key="1066395172">
+<ceo_group_ceos record_uuid="{c95276f6-8abf-4e41-abbd-17bd277964b1}" record_timestamp="1554882370873" record_key="1066395172">
 <auto_id>1066395172</auto_id>
 <ceo>3k_main_ancillary_weapon_dual_axes_exceptional</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -751,6 +781,12 @@
 <ceo_group>3k_ceo_trigger_traits_round_start_wood</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{b2df2b41-d964-4f22-92fd-307932821337}" record_timestamp="1562684663898" record_key="1070522726">
+<auto_id>1070522726</auto_id>
+<ceo>ep_ancillary_armour_light_armour_earth_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{032d2c7b-bbac-4bda-8eb8-cac569907bfc}" record_timestamp="1540399027739" record_key="1070685216">
 <auto_id>1070685216</auto_id>
 <ceo>3k_main_ancillary_follower_concubine</ceo>
@@ -763,7 +799,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{993bde58-3eed-4601-8348-c448a6e96571}" record_timestamp="1552068951852" record_key="1071909869">
+<ceo_group_ceos record_uuid="{993bde58-3eed-4601-8348-c448a6e96571}" record_timestamp="1554882370884" record_key="1071909869">
 <auto_id>1071909869</auto_id>
 <ceo>3k_main_ancillary_weapon_halberd_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -864,6 +900,12 @@
 <ceo>3k_main_ancillary_follower_monk</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{4d6ca15a-3139-4a91-8619-35c111605b0d}" record_timestamp="1560941531644" record_key="1080259741">
+<auto_id>1080259741</auto_id>
+<ceo>ep_ceo_career_historical_shi_chao</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{9e16fa85-ebb2-4538-8631-6a170faf9273}" record_timestamp="1538821323027" record_key="1080842158">
 <auto_id>1080842158</auto_id>
@@ -1213,6 +1255,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_follower_faction_all</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{90c7d10d-46ba-4bd4-8ce7-6edf9a81269e}" record_timestamp="1560242839682" record_key="1105538070">
+<auto_id>1105538070</auto_id>
+<ceo>ep_ceo_career_historical_zhang_hua</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{c19ce843-1ccc-440e-b16f-13b811893915}" record_timestamp="1540218882162" record_key="1106122013">
 <auto_id>1106122013</auto_id>
 <ceo>3k_main_ancillary_follower_eavesdropper</ceo>
@@ -1261,6 +1309,12 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{7c48155e-4fb0-449f-8b9a-ed034b995873}" record_timestamp="1562684664737" record_key="1111408177">
+<auto_id>1111408177</auto_id>
+<ceo>ep_ancillary_armour_strategist_light_armour_water_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{962757b1-3937-4430-ba82-f45c7b524b9c}" record_timestamp="1502191386029" record_key="1111549505">
 <auto_id>1111549505</auto_id>
 <ceo>3k_main_ceo_career_historical_zhang_he</ceo>
@@ -1297,6 +1351,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_armour_character_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{725a0b7c-8790-4933-a4da-0625064b645b}" record_timestamp="1553100956438" record_key="111415778">
+<auto_id>111415778</auto_id>
+<ceo>ep_ancillary_armour_light_armour_metal_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_metal</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{eca67caf-4422-45d8-94c4-977ed7c61c6f}" record_timestamp="1547912567474" record_key="1114846400">
 <auto_id>1114846400</auto_id>
 <ceo>3k_main_ceo_protagonist</ceo>
@@ -1321,11 +1381,23 @@
 <ceo_group>3k_main_ceo_group_ancillary_mount_faction_all</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{4f7070fb-b2e0-41d5-b54e-61ed0c5151e0}" record_timestamp="1553100956187" record_key="1116661483">
+<auto_id>1116661483</auto_id>
+<ceo>ep_ancillary_sima_liang_armour_unique</ceo>
+<ceo_group>ep_ceo_group_ancillary_armour_character_specific_sima_liang</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{4bc86e2c-7b8a-4265-b4e8-98c73883f535}" record_timestamp="1540399028690" record_key="1116782916">
 <auto_id>1116782916</auto_id>
 <ceo>3k_main_ancillary_follower_local_administrator</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{8adf9fee-468a-4fd0-a9fc-3c00040c0c5c}" record_timestamp="1562684664134" record_key="1118329549">
+<auto_id>1118329549</auto_id>
+<ceo>ep_ancillary_armour_strategist_light_armour_water_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{e3ca522a-2830-42a3-a0fb-d569df60bf5e}" record_timestamp="1502191376759" record_key="1118545788">
 <auto_id>1118545788</auto_id>
@@ -1410,6 +1482,12 @@
 <ceo>3k_main_ancillary_accessory_water_clock</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{426822ea-ffee-4b45-8f00-4fc08e449677}" record_timestamp="1562684664162" record_key="1123994165">
+<auto_id>1123994165</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_wood_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{55b4b203-f744-42b8-9350-d77b5bcddcf4}" record_timestamp="1541086963654" record_key="112436890">
 <auto_id>112436890</auto_id>
@@ -1543,6 +1621,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_weapon_character_sword_dual</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{9388b06f-f735-4707-a4e0-87b974e44fe9}" record_timestamp="1553100956935" record_key="1134787373">
+<auto_id>1134787373</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_wood_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_wood</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{e4d9dd96-c94f-4431-a476-d350adb772da}" record_timestamp="1540218882450" record_key="1135199257">
 <auto_id>1135199257</auto_id>
 <ceo>3k_main_ancillary_accessory_jade_monkey</ceo>
@@ -1553,6 +1637,18 @@
 <auto_id>1135356256</auto_id>
 <ceo>3k_main_ancillary_follower_hua_tuo</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{5c4039d6-ca2f-429d-95fd-fc23a5ba4552}" record_timestamp="1553100956835" record_key="113570578">
+<auto_id>113570578</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_wood_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_wood</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{e7774249-1428-42b8-ac38-78a59f9b2ece}" record_timestamp="1553100955796" record_key="1135929066">
+<auto_id>1135929066</auto_id>
+<ceo>ep_ancillary_sima_wei_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_type_character_specific</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{e31c4c94-052a-4f59-96e4-5f6c21f8c944}" record_timestamp="1541754941354" record_key="1136363585">
@@ -1741,7 +1837,7 @@
 <ceo_group>3k_ceo_trigger_traits_round_start_water</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{578fe011-a54f-4405-807e-43545658ff6d}" record_timestamp="1552068953096" record_key="1152226786">
+<ceo_group_ceos record_uuid="{578fe011-a54f-4405-807e-43545658ff6d}" record_timestamp="1554882370918" record_key="1152226786">
 <auto_id>1152226786</auto_id>
 <ceo>3k_main_ancillary_weapon_composite_bow_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -1867,6 +1963,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_follower_faction_all</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{d88b4bc8-2bd8-48bf-9f71-5628ff63cdd7}" record_timestamp="1562684663973" record_key="1168539948">
+<auto_id>1168539948</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_fire_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{bcedadba-356f-4f00-bb4f-17ac56cba4cc}" record_timestamp="1547912567318" record_key="1168569190">
 <auto_id>1168569190</auto_id>
 <ceo>3k_main_ceo_protagonist</ceo>
@@ -1879,7 +1981,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{f3c62cc5-6988-4524-9895-76e9810976cb}" record_timestamp="1552068949118" record_key="1170608189">
+<ceo_group_ceos record_uuid="{f3c62cc5-6988-4524-9895-76e9810976cb}" record_timestamp="1554882370812" record_key="1170608189">
 <auto_id>1170608189</auto_id>
 <ceo>3k_main_ancillary_weapon_two_handed_axe_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -1889,6 +1991,12 @@
 <auto_id>1170682217</auto_id>
 <ceo>3k_main_ancillary_follower_guard</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{ca68eb41-b576-478d-babf-02434d5ef2a5}" record_timestamp="1555407989433" record_key="1170843150">
+<auto_id>1170843150</auto_id>
+<ceo>ep_ceo_career_historical_sima_lun</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{4efde1de-293c-47b6-86c9-da3c5b80ef27}" record_timestamp="1540218882463" record_key="1171135023">
@@ -1987,7 +2095,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_earth_faction</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{8839f6b1-a103-4a86-a9b0-d41d20623926}" record_timestamp="1552068953723" record_key="1178746465">
+<ceo_group_ceos record_uuid="{8839f6b1-a103-4a86-a9b0-d41d20623926}" record_timestamp="1554882370931" record_key="1178746465">
 <auto_id>1178746465</auto_id>
 <ceo>3k_main_ancillary_armour_medium_armour_metal_extraordinary</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -1998,6 +2106,12 @@
 <ceo>3k_main_ancillary_weapon_composite_bow_common</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction_only</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{deeafb3c-b5e2-443a-878e-9eea6dd53982}" record_timestamp="1562684664177" record_key="1179925840">
+<auto_id>1179925840</auto_id>
+<ceo>ep_ancillary_armour_light_armour_earth_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{13ad081d-7e39-4734-ae2a-c00023ba8cd4}" record_timestamp="1541086960465" record_key="1181072797">
 <auto_id>1181072797</auto_id>
@@ -2329,7 +2443,7 @@
 <ceo_group>3k_main_ceo_group_trait_personality_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{9dc0780b-a8ee-4e73-bb8b-91f7c67f245d}" record_timestamp="1552068950977" record_key="1211610593">
+<ceo_group_ceos record_uuid="{9dc0780b-a8ee-4e73-bb8b-91f7c67f245d}" record_timestamp="1554882370859" record_key="1211610593">
 <auto_id>1211610593</auto_id>
 <ceo>3k_main_ancillary_armour_light_armour_earth_metal_and_water_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -2407,7 +2521,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_assignment_black_market_investigation_faction</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{45166b95-296c-4f5f-b022-2a064b6903cc}" record_timestamp="1552068952119" record_key="1218769625">
+<ceo_group_ceos record_uuid="{45166b95-296c-4f5f-b022-2a064b6903cc}" record_timestamp="1554882370893" record_key="1218769625">
 <auto_id>1218769625</auto_id>
 <ceo>3k_main_ancillary_follower_military_instructor</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -2437,7 +2551,7 @@
 <ceo_group>3k_ceo_trigger_traits_round_start_old_fire</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{fbcfd5c8-10da-47ae-9363-f9f8985c1f92}" record_timestamp="1552068952652" record_key="122366282">
+<ceo_group_ceos record_uuid="{fbcfd5c8-10da-47ae-9363-f9f8985c1f92}" record_timestamp="1554882370907" record_key="122366282">
 <auto_id>122366282</auto_id>
 <ceo>3k_main_ancillary_weapon_two_handed_spear_exceptional</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -2495,6 +2609,12 @@
 <auto_id>1227709157</auto_id>
 <ceo>3k_main_ceo_gender_male</ceo>
 <ceo_group>3k_main_ceo_group_gender_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{fb775788-ee6d-46ce-885f-a950bfbe3470}" record_timestamp="1560242839679" record_key="1228355819">
+<auto_id>1228355819</auto_id>
+<ceo>ep_ceo_career_historical_huangfu_shang</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{5ac81736-2aa5-459f-85a0-04319b635cac}" record_timestamp="1541086961704" record_key="1228781891">
@@ -2605,6 +2725,12 @@
 <ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{45b0a58b-aa7b-4df9-b1dd-a6f17e0dfed7}" record_timestamp="1562684663998" record_key="1240914124">
+<auto_id>1240914124</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_wood_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{5e041aee-f548-4cfc-9fff-126718def1a2}" record_timestamp="1527844445326" record_key="1241108227">
 <auto_id>1241108227</auto_id>
 <ceo>3k_main_ceo_trait_physical_sui_knight</ceo>
@@ -2634,6 +2760,12 @@
 <ceo>3k_main_ancillary_accessory_jade_statue_of_confucius</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_jade_accessories_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{9ad80b85-22c5-48bd-9513-18a79c5fc40f}" record_timestamp="1562684664035" record_key="1242783632">
+<auto_id>1242783632</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_wood_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{7d5b7c4a-d5a4-41d8-a3e1-bce41f1c7035}" record_timestamp="1540218881594" record_key="1243430743">
 <auto_id>1243430743</auto_id>
@@ -2706,6 +2838,12 @@
 <ceo>3k_main_ancillary_follower_spy_master</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{d2f367e5-3200-4c11-bd29-90704c865a7f}" record_timestamp="1553100955334" record_key="1248661751">
+<auto_id>1248661751</auto_id>
+<ceo>ep_ancillary_sima_liang_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_character_all</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{fe0d16f3-3d59-4972-ad74-3ebb591a2d7d}" record_timestamp="1541754941393" record_key="124924809">
 <auto_id>124924809</auto_id>
@@ -2911,6 +3049,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_fire_faction</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{aa7542ea-a6dd-486d-b431-959d292da050}" record_timestamp="1555407989441" record_key="1272019146">
+<auto_id>1272019146</auto_id>
+<ceo>ep_ceo_career_historical_sima_yue</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{d6a91606-9995-4d9a-a4fe-e3c996cafc40}" record_timestamp="1547912567456" record_key="1273554349">
 <auto_id>1273554349</auto_id>
 <ceo>3k_main_ceo_trait_personality_solitary</ceo>
@@ -2928,6 +3072,12 @@
 <ceo>3k_main_ancillary_follower_military_instructor</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{c36f3885-25c2-4956-baad-8538e3c771c2}" record_timestamp="1562684664902" record_key="1274635922">
+<auto_id>1274635922</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_earth_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_fire_armours_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{60208dcc-af54-42fa-a321-54834b2224fc}" record_timestamp="1541086962506" record_key="1275177390">
 <auto_id>1275177390</auto_id>
@@ -2989,7 +3139,7 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{0fb650b5-a3c3-4093-8fa3-87ad10750cd6}" record_timestamp="1552068949429" record_key="128141687">
+<ceo_group_ceos record_uuid="{0fb650b5-a3c3-4093-8fa3-87ad10750cd6}" record_timestamp="1554882370818" record_key="128141687">
 <auto_id>128141687</auto_id>
 <ceo>3k_main_ancillary_follower_guard</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -3018,6 +3168,12 @@
 <ceo>3k_main_ceo_trait_physical_fertile</ceo>
 <ceo_group>3k_main_ceo_group_trait_personality_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{58691dbb-4e41-4d50-b0f1-6d25b6b8569e}" record_timestamp="1553100956736" record_key="1285699199">
+<auto_id>1285699199</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_fire_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_fire</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{0d356738-a942-4a67-8f69-d52262d9128a}" record_timestamp="1540218882232" record_key="128631159">
 <auto_id>128631159</auto_id>
@@ -3090,6 +3246,12 @@
 <ceo>3k_ytr_ancillary_weapon_dual_maces_unique</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{2225b1c6-2e63-4aec-be44-9ea61e1ce8ce}" record_timestamp="1553100957905" record_key="1292946068">
+<auto_id>1292946068</auto_id>
+<ceo>ep_ancillary_armour_strategist_light_armour_water_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_water</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{3bf19b19-b111-4fc8-ba86-e349687590d4}" record_timestamp="1502704183185" record_key="1293272360">
 <auto_id>1293272360</auto_id>
@@ -3439,6 +3601,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{8501783b-c423-44ec-9bba-b6486e1ce6cc}" record_timestamp="1562684663865" record_key="1328561615">
+<auto_id>1328561615</auto_id>
+<ceo>ep_ancillary_armour_strategist_light_armour_water_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{a03562c7-06e0-4ace-843e-e128a9a2868b}" record_timestamp="1541754941465" record_key="1329586879">
 <auto_id>1329586879</auto_id>
 <ceo>3k_ytr_ceo_trait_personality_land_alert</ceo>
@@ -3457,7 +3625,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_accessory_faction_all</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{f03966b2-283a-46e1-a7a4-a35492883b49}" record_timestamp="1552068949932" record_key="1330882798">
+<ceo_group_ceos record_uuid="{f03966b2-283a-46e1-a7a4-a35492883b49}" record_timestamp="1554882370829" record_key="1330882798">
 <auto_id>1330882798</auto_id>
 <ceo>3k_main_ancillary_mount_brown_stallion</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -3540,6 +3708,12 @@
 <ceo>3k_main_ancillary_weapon_hook_sicle_sabre_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{b6f9a364-3e5d-47de-a7ce-b05d3ac8b983}" record_timestamp="1553100957498" record_key="1338573174">
+<auto_id>1338573174</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_earth_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{ca45ad2e-e937-40ff-8bea-c21de9c15ada}" record_timestamp="1540218884105" record_key="1340305393">
 <auto_id>1340305393</auto_id>
@@ -3829,7 +4003,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{38533b7f-583b-4a59-9992-e835df7a44d3}" record_timestamp="1552068948613" record_key="1367527574">
+<ceo_group_ceos record_uuid="{38533b7f-583b-4a59-9992-e835df7a44d3}" record_timestamp="1554882370789" record_key="1367527574">
 <auto_id>1367527574</auto_id>
 <ceo>3k_main_ancillary_armour_strategist_light_armour_water_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -3841,13 +4015,13 @@
 <ceo_group>3k_main_ceo_group_ancillary_armour_faction_fire</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{44c5c5de-7c64-477f-a544-4a529bd65fbc}" record_timestamp="1552068952829" record_key="136826863">
+<ceo_group_ceos record_uuid="{44c5c5de-7c64-477f-a544-4a529bd65fbc}" record_timestamp="1554882370911" record_key="136826863">
 <auto_id>136826863</auto_id>
 <ceo>3k_ytr_ancillary_weapon_staff_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{0646aa81-d317-4d9e-887f-820b988f3af1}" record_timestamp="1550502126657" record_key="1368334152">
+<ceo_group_ceos record_uuid="{0646aa81-d317-4d9e-887f-820b988f3af1}" record_timestamp="1551784875539" record_key="1368334152">
 <auto_id>1368334152</auto_id>
 <ceo>3k_ytr_ancillary_armour_zhang_kais_armour_unique</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_armour_type_character_specific</ceo_group>
@@ -3949,6 +4123,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_accessory_faction_all</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{815a66d6-211b-44ed-b3fa-8afd00be12dc}" record_timestamp="1562684664678" record_key="1377627171">
+<auto_id>1377627171</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_wood_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{abaae44d-a7fc-4722-b99b-cb4dc1cba82d}" record_timestamp="1540218883798" record_key="1379016745">
 <auto_id>1379016745</auto_id>
 <ceo>3k_main_ancillary_follower_overseer</ceo>
@@ -3978,6 +4158,12 @@
 <ceo>3k_main_ancillary_mount_black_stallion</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{c26f7cf5-afe7-4c22-b8a3-66644a69fab4}" record_timestamp="1562684664722" record_key="1381268071">
+<auto_id>1381268071</auto_id>
+<ceo>ep_ancillary_armour_strategist_light_armour_water_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{3d244378-bb92-464a-a5dc-89b79de2f57f}" record_timestamp="1540218883010" record_key="1381391754">
 <auto_id>1381391754</auto_id>
@@ -4081,7 +4267,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_mount_faction_all</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{85fbc7d2-3dd0-46d7-ad87-cb86768c0e5b}" record_timestamp="1552068949839" record_key="1396886854">
+<ceo_group_ceos record_uuid="{85fbc7d2-3dd0-46d7-ad87-cb86768c0e5b}" record_timestamp="1554882370827" record_key="1396886854">
 <auto_id>1396886854</auto_id>
 <ceo>3k_main_ancillary_mount_black_thoroughbred</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -4157,6 +4343,12 @@
 <auto_id>1401885783</auto_id>
 <ceo>3k_main_ancillary_weapon_dual_swords_exceptional</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction_only</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{f07b5a15-9095-4143-a249-9bb58c6a7e1c}" record_timestamp="1553100956335" record_key="1401951995">
+<auto_id>1401951995</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_earth_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_earth</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{6ce91215-ec64-4b50-a42d-9433b51a109f}" record_timestamp="1540218883045" record_key="1403033394">
@@ -4249,7 +4441,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_wood_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{6da8964b-1011-4fc4-98a8-c169e60ddff9}" record_timestamp="1552068949016" record_key="1412862426">
+<ceo_group_ceos record_uuid="{6da8964b-1011-4fc4-98a8-c169e60ddff9}" record_timestamp="1554882370807" record_key="1412862426">
 <auto_id>1412862426</auto_id>
 <ceo>3k_main_ancillary_follower_law_enforcer</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -4381,6 +4573,12 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{41bab667-54cb-4d7e-acfb-63ebc777cd2b}" record_timestamp="1560327104427" record_key="1428205686">
+<auto_id>1428205686</auto_id>
+<ceo>ep_ceo_career_historical_sima_ju</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{9fefd79a-331c-4848-8ad5-7dabd58fb82e}" record_timestamp="1547912567297" record_key="1428415878">
 <auto_id>1428415878</auto_id>
 <ceo>3k_main_ceo_protagonist</ceo>
@@ -4495,6 +4693,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_armour_type_character_specific</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{952630e3-a7cc-44cc-a9b9-3e10e1a7ab8d}" record_timestamp="1562684664234" record_key="143857913">
+<auto_id>143857913</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_wood_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{b191ae43-21f0-4b81-a064-dd0e94dfe023}" record_timestamp="1532947949546" record_key="1442136466">
 <auto_id>1442136466</auto_id>
 <ceo>3k_ytr_ancillary_weapon_staff_exceptional</ceo>
@@ -4549,7 +4753,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_weapon_character_spear_two_handed</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{dbb7d583-68f4-4ed9-b8cb-35d4e15c5619}" record_timestamp="1552068948805" record_key="1448029962">
+<ceo_group_ceos record_uuid="{dbb7d583-68f4-4ed9-b8cb-35d4e15c5619}" record_timestamp="1554882370798" record_key="1448029962">
 <auto_id>1448029962</auto_id>
 <ceo>3k_ytr_ancillary_weapon_staff_exceptional</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -4669,6 +4873,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{08d644f4-a574-4e95-8310-e0b18be453f0}" record_timestamp="1560242839692" record_key="1458886538">
+<auto_id>1458886538</auto_id>
+<ceo>ep_ceo_career_historical_jia_mi</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{bd42d254-9f01-44c4-8049-d64236f2ffed}" record_timestamp="1539874699586" record_key="1458906601">
 <auto_id>1458906601</auto_id>
 <ceo>3k_main_ancillary_accessory_jade_rooster</ceo>
@@ -4681,7 +4891,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_assignment_black_market_investigation_faction</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{1ad661aa-db87-4731-ae0e-f719efd6165e}" record_timestamp="1552068952921" record_key="1458924344">
+<ceo_group_ceos record_uuid="{1ad661aa-db87-4731-ae0e-f719efd6165e}" record_timestamp="1554882370913" record_key="1458924344">
 <auto_id>1458924344</auto_id>
 <ceo>3k_main_ancillary_weapon_hook_sickle_sabre_exceptional</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -4703,6 +4913,12 @@
 <auto_id>1462716972</auto_id>
 <ceo>3k_main_ceo_protagonist</ceo>
 <ceo_group>3k_ceo_trigger_traits_battle_completed_fled_wood</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{db3b0c7c-029e-4b49-8fe0-e4cccd6b38ff}" record_timestamp="1560327104431" record_key="1464648111">
+<auto_id>1464648111</auto_id>
+<ceo>ep_ceo_career_historical_he_lun</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{33888a80-f3e1-4897-a3cf-8585e3129b62}" record_timestamp="1507708195126" record_key="1465197556">
@@ -4727,6 +4943,12 @@
 <auto_id>1465642675</auto_id>
 <ceo>3k_main_ceo_protagonist</ceo>
 <ceo_group>3k_ceo_trigger_traits_round_start_governor_earth</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{8e06473d-3015-49ce-b075-ae60eb06bff0}" record_timestamp="1560851446322" record_key="1465661782">
+<auto_id>1465661782</auto_id>
+<ceo>ep_ceo_career_historical_liu_qi</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{475bbd98-c345-4ac7-94b1-ca941c6eebff}" record_timestamp="1540218881845" record_key="1465865823">
@@ -4867,7 +5089,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_assignment_black_market_investigation_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{c7e43801-36c7-4c93-96ca-835e6aa4f64b}" record_timestamp="1550502126553" record_key="1477998288">
+<ceo_group_ceos record_uuid="{c7e43801-36c7-4c93-96ca-835e6aa4f64b}" record_timestamp="1551784875451" record_key="1477998288">
 <auto_id>1477998288</auto_id>
 <ceo>3k_ytr_ancillary_armour_pei_yuanshaos_armour_unique</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_armour_character_specific_pei_yuanshao</ceo_group>
@@ -4889,6 +5111,12 @@
 <auto_id>1478292913</auto_id>
 <ceo>3k_ytr_ancillary_accessory_book_of_heaven</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_accessory_faction_all</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{9e6dae1b-eb9a-4131-a324-0fe1290203d0}" record_timestamp="1553100955491" record_key="1480909356">
+<auto_id>1480909356</auto_id>
+<ceo>ep_ancillary_sima_jiong_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_character_all</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{0a038021-0098-4b5e-a545-e2d830c56645}" record_timestamp="1502191426271" record_key="1480957875">
@@ -5077,6 +5305,12 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_weapon_character_mace_two_handed</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{e8677153-7693-4e40-a5ba-dd94b1b3f1e7}" record_timestamp="1562684664603" record_key="1498687226">
+<auto_id>1498687226</auto_id>
+<ceo>ep_ancillary_armour_light_armour_metal_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{40d4ac1e-202d-4655-b11e-4801ae0131bb}" record_timestamp="1538821319879" record_key="1498886452">
 <auto_id>1498886452</auto_id>
 <ceo>3k_main_ancillary_weapon_moye</ceo>
@@ -5094,6 +5328,12 @@
 <ceo>3k_main_ancillary_follower_craftsman</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_water_faction_only</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{d77311a2-6858-4267-bb51-f69a733af402}" record_timestamp="1553100955089" record_key="1500402721">
+<auto_id>1500402721</auto_id>
+<ceo>ep_ancillary_sima_jiong_armour_unique</ceo>
+<ceo_group>ep_ceo_group_ancillary_armour_character_specific_sima_jiong</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{62c55605-9d0c-4af1-95ad-fcc8008b8ad5}" record_timestamp="1502704199260" record_key="1501005671">
 <auto_id>1501005671</auto_id>
@@ -5167,7 +5407,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{fcce75d5-49d8-4af5-9ea8-ee04f05e1db5}" record_timestamp="1552068953915" record_key="1509366055">
+<ceo_group_ceos record_uuid="{fcce75d5-49d8-4af5-9ea8-ee04f05e1db5}" record_timestamp="1554882370933" record_key="1509366055">
 <auto_id>1509366055</auto_id>
 <ceo>3k_main_ancillary_armour_medium_armour_wood_extraordinary</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -5190,6 +5430,12 @@
 <ceo>3k_main_ancillary_weapon_two_handed_axe_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{7318eb08-c76c-4002-b716-d8e74a7fd6eb}" record_timestamp="1555407989401" record_key="1511478994">
+<auto_id>1511478994</auto_id>
+<ceo>ep_ceo_career_historical_sima_ai</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{e198593a-0f48-4542-a602-75cad9e7a0d0}" record_timestamp="1539874695353" record_key="1511948336">
 <auto_id>1511948336</auto_id>
@@ -5238,6 +5484,12 @@
 <ceo>3k_main_ancillary_accessory_stone_pig</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{0188f6a0-ed8e-4986-82a4-50c93b0b8f5d}" record_timestamp="1560327104426" record_key="1515327461">
+<auto_id>1515327461</auto_id>
+<ceo>ep_ceo_career_historical_sun_xiu</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{6d8575c1-d1e3-4694-94f1-a63b4d72f0ea}" record_timestamp="1540218883536" record_key="1517369081">
 <auto_id>1517369081</auto_id>
@@ -5395,6 +5647,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_accessory_faction_all</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{365e49da-2f6f-4b3c-81bc-87d572124c82}" record_timestamp="1560327104428" record_key="1529982163">
+<auto_id>1529982163</auto_id>
+<ceo>ep_ceo_career_historical_sima_cui</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{1d21ebcc-71cb-44bb-92f0-7d6c968d17dc}" record_timestamp="1538821332603" record_key="1530868923">
 <auto_id>1530868923</auto_id>
 <ceo>3k_main_ancillary_armour_sun_ces_armour_unique</ceo>
@@ -5467,7 +5725,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_earth_faction</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{30d6e2b5-c6fb-4183-8d2f-8ef7de6f9e9a}" record_timestamp="1552068952296" record_key="1537695121">
+<ceo_group_ceos record_uuid="{30d6e2b5-c6fb-4183-8d2f-8ef7de6f9e9a}" record_timestamp="1554882370899" record_key="1537695121">
 <auto_id>1537695121</auto_id>
 <ceo>3k_main_ancillary_follower_military_expert</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -5502,6 +5760,12 @@
 <ceo>3k_main_ceo_career_historical_ma_dai</ceo>
 <ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{34e01d54-a01a-4fd7-869f-58ae9ba38f7d}" record_timestamp="1553100956136" record_key="1542118965">
+<auto_id>1542118965</auto_id>
+<ceo>ep_ancillary_sima_yue_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_type_character_specific</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{8ce5aba6-a657-4278-909f-93d21f5da344}" record_timestamp="1540218883951" record_key="1542310229">
 <auto_id>1542310229</auto_id>
@@ -5551,7 +5815,7 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{65b01092-e1d0-4d92-b8b6-211fb0b98710}" record_timestamp="1552068951941" record_key="1545840347">
+<ceo_group_ceos record_uuid="{65b01092-e1d0-4d92-b8b6-211fb0b98710}" record_timestamp="1554882370886" record_key="1545840347">
 <auto_id>1545840347</auto_id>
 <ceo>3k_main_ancillary_weapon_halberd_exceptional</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -5665,6 +5929,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_follower_faction_all</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{c8b65d68-a3d0-4c12-9a4c-e4ab5159e9e1}" record_timestamp="1553100956386" record_key="1554776935">
+<auto_id>1554776935</auto_id>
+<ceo>ep_ancillary_armour_light_armour_metal_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_metal</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{d1802ce8-2972-496c-be93-f89dd7f0db85}" record_timestamp="1538821323005" record_key="1555789377">
 <auto_id>1555789377</auto_id>
 <ceo>3k_main_ancillary_armour_zhang_lus_armour_unique</ceo>
@@ -5677,16 +5947,34 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{966966c2-51ad-48da-965e-ed1017dd20a4}" record_timestamp="1553100955541" record_key="1557418087">
+<auto_id>1557418087</auto_id>
+<ceo>ep_ancillary_sima_ying_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_character_all</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{4de8a811-46f3-4305-952d-5fd99137e9f0}" record_timestamp="1524741881555" record_key="1557743529">
 <auto_id>1557743529</auto_id>
 <ceo>3k_main_ancillary_weapon_ganjiang</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_assignment_black_market_investigation_faction</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{17fddd56-1612-4d32-8200-964553e827e3}" record_timestamp="1562684664871" record_key="1558438253">
+<auto_id>1558438253</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_metal_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_fire_armours_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{a09fad2e-f6c8-48fa-97dd-7547acd0354a}" record_timestamp="1547912567779" record_key="1558454563">
 <auto_id>1558454563</auto_id>
 <ceo>3k_ytr_ceo_trait_personality_heaven_tranquil</ceo>
 <ceo_group>3k_ceo_trigger_traits_round_start_water</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{0742abfa-30d4-48db-baa7-76f8eaae71be}" record_timestamp="1560242839676" record_key="1559060455">
+<auto_id>1559060455</auto_id>
+<ceo>ep_ceo_career_historical_jia_mo</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{f2f98ad4-f62e-4e0a-8f16-16b9f6f6f36f}" record_timestamp="1540218883860" record_key="1559185025">
@@ -5701,11 +5989,23 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_earth_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{da648821-eaaf-4463-9ea9-f3e66b946c56}" record_timestamp="1562684664565" record_key="1560200102">
+<auto_id>1560200102</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_wood_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{cec9cb45-c68c-4e35-89dd-d1694bf3e648}" record_timestamp="1502704204772" record_key="1560318423">
 <auto_id>1560318423</auto_id>
 <ceo>3k_main_ancillary_accessory_mozi</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_accessory_faction_all</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{219650fa-1239-4782-8dc3-4ae0e06ff9ae}" record_timestamp="1562684664393" record_key="1560763294">
+<auto_id>1560763294</auto_id>
+<ceo>ep_ancillary_armour_light_armour_metal_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{09174c54-09e4-4c29-8e09-bf505179a880}" record_timestamp="1540218883818" record_key="1561148527">
 <auto_id>1561148527</auto_id>
@@ -5747,6 +6047,12 @@
 <auto_id>1563692622</auto_id>
 <ceo>3k_main_ancillary_follower_professional_instuctor</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_water_faction_only</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{ad8794db-b61c-411e-ba2b-62fa86ffd438}" record_timestamp="1562684664619" record_key="1563806389">
+<auto_id>1563806389</auto_id>
+<ceo>ep_ancillary_armour_light_armour_metal_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{d51a8efc-0e71-4da7-b4e7-f43d1a337753}" record_timestamp="1502191375318" record_key="1564643871">
@@ -5941,7 +6247,13 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_fire_armours_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{14360b85-342e-439d-bc3e-8a21d50ab766}" record_timestamp="1552068953635" record_key="158335148">
+<ceo_group_ceos record_uuid="{55a96af9-7274-4581-a543-1e44bdd33183}" record_timestamp="1560851446327" record_key="1581146293">
+<auto_id>1581146293</auto_id>
+<ceo>ep_ceo_career_historical_cao_huan</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{14360b85-342e-439d-bc3e-8a21d50ab766}" record_timestamp="1554882370929" record_key="158335148">
 <auto_id>158335148</auto_id>
 <ceo>3k_main_ancillary_weapon_composite_bow_common</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -6211,7 +6523,7 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{d73ea301-40f5-43f6-94d1-5712b7b93d1a}" record_timestamp="1550502126555" record_key="1614158470">
+<ceo_group_ceos record_uuid="{d73ea301-40f5-43f6-94d1-5712b7b93d1a}" record_timestamp="1551784875453" record_key="1614158470">
 <auto_id>1614158470</auto_id>
 <ceo>3k_ytr_ancillary_armour_zhang_kais_armour_unique</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_armour_character_specific_zhang_kai</ceo_group>
@@ -6234,6 +6546,12 @@
 <ceo>3k_main_ancillary_accessory_discourses_of_the_states</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_water_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{d70600d7-30dd-4eb2-b3fd-91847285e404}" record_timestamp="1560851446326" record_key="1615908153">
+<auto_id>1615908153</auto_id>
+<ceo>ep_ceo_career_historical_sima_yu_earth</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{2bb5a962-b811-428a-9424-cadff8183e5c}" record_timestamp="1502704182493" record_key="1617415320">
 <auto_id>1617415320</auto_id>
@@ -6306,6 +6624,12 @@
 <ceo>3k_main_ancillary_weapon_hook_sicle_sabre_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_fire_weapons_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{60d9aff7-c405-4621-939b-8ef0897d2215}" record_timestamp="1560242839686" record_key="162411986">
+<auto_id>162411986</auto_id>
+<ceo>ep_ceo_career_historical_pei_wei</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{bbc1995b-d1fe-4bd6-b2f9-04518fff5e3d}" record_timestamp="1541086965353" record_key="1624306293">
 <auto_id>1624306293</auto_id>
@@ -6385,6 +6709,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_fire_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{3611c0e4-f91b-4e44-8c15-4e01f2380239}" record_timestamp="1553100956885" record_key="1634286104">
+<auto_id>1634286104</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_wood_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_wood</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{e8026384-c3f8-4a62-abd5-bf7f9b5565f7}" record_timestamp="1547912567764" record_key="163448077">
 <auto_id>163448077</auto_id>
 <ceo>3k_main_ceo_protagonist</ceo>
@@ -6444,6 +6774,12 @@
 <ceo>3k_main_ancillary_mount_black_stallion</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction_only</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{9807408d-f697-4fab-9154-67a4c6bfd07b}" record_timestamp="1553100955388" record_key="1641803676">
+<auto_id>1641803676</auto_id>
+<ceo>ep_ancillary_sima_wei_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_character_all</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{98ac503b-0bc7-44c0-aa03-2f74b9a8ed57}" record_timestamp="1540218881680" record_key="1642230164">
 <auto_id>1642230164</auto_id>
@@ -6535,6 +6871,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_earth_faction</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{1161a04c-ea95-4af9-a83d-7c712dc2d594}" record_timestamp="1562684663907" record_key="1651532666">
+<auto_id>1651532666</auto_id>
+<ceo>ep_ancillary_armour_light_armour_metal_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{a58d4a9d-17fd-4583-8192-9b02b1dadec9}" record_timestamp="1540218882418" record_key="1651628190">
 <auto_id>1651628190</auto_id>
 <ceo>3k_main_ancillary_accessory_art_of_war</ceo>
@@ -6546,6 +6888,12 @@
 <ceo>3k_main_ceo_trait_personality_disciplined</ceo>
 <ceo_group>3k_ceo_trigger_traits_battle_completed_metal</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{b3505d06-5b05-4222-a5b0-9fc66173bad3}" record_timestamp="1562684664707" record_key="165223492">
+<auto_id>165223492</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_fire_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_fire_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{2ff530df-1f9c-47e0-a62a-2427228e8a3a}" record_timestamp="1540399029001" record_key="1652345551">
 <auto_id>1652345551</auto_id>
@@ -6613,13 +6961,19 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{878bdaf1-16f4-4b17-bb82-e8c004361d8b}" record_timestamp="1562684664279" record_key="1658639015">
+<auto_id>1658639015</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_earth_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{b3bb883d-33f8-4f21-b9fb-7a9173d48e47}" record_timestamp="1541086962977" record_key="1660038955">
 <auto_id>1660038955</auto_id>
 <ceo>3k_main_ancillary_accessory_six_secret_teachings</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_earth_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{d9b7f85f-00e2-4348-8c0b-9c6bee8ce596}" record_timestamp="1552068949311" record_key="1660528402">
+<ceo_group_ceos record_uuid="{d9b7f85f-00e2-4348-8c0b-9c6bee8ce596}" record_timestamp="1554882370817" record_key="1660528402">
 <auto_id>1660528402</auto_id>
 <ceo>3k_ytr_ancillary_weapon_2h_ball_mace_exceptional</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -6739,7 +7093,7 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{ab6ff4de-8761-4f55-9fa3-93a0f613c178}" record_timestamp="1552068951241" record_key="1668412165">
+<ceo_group_ceos record_uuid="{ab6ff4de-8761-4f55-9fa3-93a0f613c178}" record_timestamp="1554882370866" record_key="1668412165">
 <auto_id>1668412165</auto_id>
 <ceo>3k_main_ancillary_weapon_dual_short_ji_exceptional</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -6775,7 +7129,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_metal_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{3b331287-4657-4999-af8d-b2eeae36ce79}" record_timestamp="1552068951679" record_key="1671590650">
+<ceo_group_ceos record_uuid="{3b331287-4657-4999-af8d-b2eeae36ce79}" record_timestamp="1554882370880" record_key="1671590650">
 <auto_id>1671590650</auto_id>
 <ceo>3k_main_ancillary_weapon_short_ji_exceptional</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -6901,7 +7255,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_mount_faction_all</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{f06b08ad-25ab-43f6-9a1a-fb5240588aba}" record_timestamp="1552060224328" record_key="1684578432">
+<ceo_group_ceos record_uuid="{f06b08ad-25ab-43f6-9a1a-fb5240588aba}" record_timestamp="1554882367014" record_key="1684578432">
 <auto_id>1684578432</auto_id>
 <ceo>3k_ytr_ceo_trait_physical_impeccable</ceo>
 <ceo_group>3k_ceo_trigger_traits_round_start_governor_fire</ceo_group>
@@ -7003,6 +7357,12 @@
 <ceo_group>3k_main_ceo_group_trait_personality_initial_data</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{0c33e7b7-a8a8-4565-999d-3f2d7595b5ef}" record_timestamp="1562684664458" record_key="1696385047">
+<auto_id>1696385047</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_earth_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{8d125ddb-eb01-4bd9-a490-ff857c0037c8}" record_timestamp="1539874704804" record_key="1696485325">
 <auto_id>1696485325</auto_id>
 <ceo>3k_main_ancillary_accessory_six_secret_teachings</ceo>
@@ -7027,6 +7387,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_assignment_black_market_investigation_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{80a4c6d8-ea4b-446d-a3f0-392714cf702b}" record_timestamp="1562684664857" record_key="1698171444">
+<auto_id>1698171444</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_wood_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_fire_armours_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{dcc59921-6cf6-4965-8aee-d39be868aef2}" record_timestamp="1547912567728" record_key="1698762336">
 <auto_id>1698762336</auto_id>
 <ceo>3k_main_ceo_protagonist</ceo>
@@ -7045,7 +7411,7 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_armour_character_wood</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{da51f656-6fbc-4769-8b54-a31c6d671e40}" record_timestamp="1552068950683" record_key="1699424904">
+<ceo_group_ceos record_uuid="{da51f656-6fbc-4769-8b54-a31c6d671e40}" record_timestamp="1554882370852" record_key="1699424904">
 <auto_id>1699424904</auto_id>
 <ceo>3k_main_ancillary_armour_medium_armour_fire_extraordinary</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -7201,7 +7567,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_weapon_faction_spear_two_handed_long</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{0408d11e-c4e8-45bb-8089-63aeb2e9622d}" record_timestamp="1552068950779" record_key="1711628381">
+<ceo_group_ceos record_uuid="{0408d11e-c4e8-45bb-8089-63aeb2e9622d}" record_timestamp="1554882370854" record_key="1711628381">
 <auto_id>1711628381</auto_id>
 <ceo>3k_main_ancillary_mount_red_thoroughbred</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -7357,6 +7723,12 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction_only</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{9d3e9410-b089-4087-af30-555bf1f9a918}" record_timestamp="1562684664663" record_key="1727847235">
+<auto_id>1727847235</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_wood_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{586a0e30-2083-45ca-95f4-aa25c9d13c44}" record_timestamp="1502704189191" record_key="1728084497">
 <auto_id>1728084497</auto_id>
 <ceo>3k_main_ancillary_armour_kong_rongs_armour_unique</ceo>
@@ -7423,7 +7795,7 @@
 <ceo_group>3k_main_ceo_group_trait_personality_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{1543459f-2b30-49c1-a68d-d8e9ee7876af}" record_timestamp="1550502126660" record_key="1734668244">
+<ceo_group_ceos record_uuid="{1543459f-2b30-49c1-a68d-d8e9ee7876af}" record_timestamp="1551784875546" record_key="1734668244">
 <auto_id>1734668244</auto_id>
 <ceo>3k_ytr_ancillary_armour_pei_yuanshaos_armour_unique</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_armour_character_all</ceo_group>
@@ -7585,6 +7957,12 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{9842349c-e3aa-4a69-918b-a7b397efe638}" record_timestamp="1562684663875" record_key="174781793">
+<auto_id>174781793</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_fire_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{19e94138-b969-42c4-9819-2ddfda584481}" record_timestamp="1540218881456" record_key="1749145900">
 <auto_id>1749145900</auto_id>
 <ceo>3k_main_ancillary_weapon_hook_sickle_sabre_exceptional</ceo>
@@ -7614,6 +7992,12 @@
 <ceo>3k_main_ancillary_accessory_iron_archer</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{580a907f-da8d-4f32-beec-c97edc5762ca}" record_timestamp="1555407989391" record_key="1750625480">
+<auto_id>1750625480</auto_id>
+<ceo>ep_ceo_career_historical_sima_jiong</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{7d40f626-9c10-4e31-b666-b0d4241fef0f}" record_timestamp="1540399028657" record_key="1750631701">
 <auto_id>1750631701</auto_id>
@@ -7669,6 +8053,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_fire_weapons_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{50cc676a-5674-4c98-b2ae-45c2ff7b2907}" record_timestamp="1553100958005" record_key="1756165146">
+<auto_id>1756165146</auto_id>
+<ceo>ep_ancillary_armour_light_armour_earth_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_earth</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{d90e3c96-b7a3-4157-8d95-ac85970912b2}" record_timestamp="1540218883272" record_key="1756721583">
 <auto_id>1756721583</auto_id>
 <ceo>3k_main_ancillary_follower_astronomer</ceo>
@@ -7705,6 +8095,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{82f3db2c-e8ae-410b-8905-88b5de9e67fa}" record_timestamp="1555407989411" record_key="1758573449">
+<auto_id>1758573449</auto_id>
+<ceo>ep_ceo_career_historical_sima_wei</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{a81e9893-0832-4265-b0a6-6e8a5bb41e81}" record_timestamp="1538821319901" record_key="1760527696">
 <auto_id>1760527696</auto_id>
 <ceo>3k_main_ancillary_weapon_halberd_refined</ceo>
@@ -7728,6 +8124,12 @@
 <ceo>3k_ytr_ceo_learning_student_non_yt</ceo>
 <ceo_group>3k_main_ceo_group_trait_personality_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{771bc5d3-982a-4757-88a5-74b90f7cf307}" record_timestamp="1562684664780" record_key="1764102361">
+<auto_id>1764102361</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_metal_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{a901ab9e-776b-4657-92f8-c528a01d636d}" record_timestamp="1502704210205" record_key="176412369">
 <auto_id>176412369</auto_id>
@@ -7813,7 +8215,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{c4a7120c-a0c8-4d87-acc2-ed15426afe6a}" record_timestamp="1552068953008" record_key="1777887028">
+<ceo_group_ceos record_uuid="{c4a7120c-a0c8-4d87-acc2-ed15426afe6a}" record_timestamp="1554882370916" record_key="1777887028">
 <auto_id>1777887028</auto_id>
 <ceo>3k_main_ancillary_weapon_hook_sicle_sabre_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -7824,6 +8226,12 @@
 <ceo>3k_main_ancillary_accessory_clay_fish</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{68af06c5-78f5-4494-a596-c1a1765088b6}" record_timestamp="1553100956994" record_key="1779046371">
+<auto_id>1779046371</auto_id>
+<ceo>ep_ancillary_armour_light_armour_metal_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{c8d7c67b-cf13-453e-8fa1-832b7b1b7ce8}" record_timestamp="1538821322924" record_key="1779065317">
 <auto_id>1779065317</auto_id>
@@ -7939,7 +8347,7 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{21f7194f-9969-41d5-9460-cf915e56ed30}" record_timestamp="1552068949749" record_key="1791549184">
+<ceo_group_ceos record_uuid="{21f7194f-9969-41d5-9460-cf915e56ed30}" record_timestamp="1554882370825" record_key="1791549184">
 <auto_id>1791549184</auto_id>
 <ceo>3k_main_ancillary_mount_grey_thoroughbred</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -7949,6 +8357,12 @@
 <auto_id>1791762519</auto_id>
 <ceo>3k_main_ancillary_weapon_moye</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_weapon_2</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{dc5d6cca-fac8-4755-9cc3-44ca8a74419f}" record_timestamp="1553100955237" record_key="1793360902">
+<auto_id>1793360902</auto_id>
+<ceo>ep_ancillary_sima_yong_armour_unique</ceo>
+<ceo_group>ep_ceo_group_ancillary_armour_character_specific_sima_yong</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{a6ce5b97-eccc-4a47-85e3-001d7d539379}" record_timestamp="1540218882760" record_key="1793942614">
@@ -7993,6 +8407,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_earth_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{8251939e-8c21-4b62-b51e-a8a1eaf53e76}" record_timestamp="1562684664795" record_key="1797727320">
+<auto_id>1797727320</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_metal_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{e273d16d-9a1a-4de4-9eab-52901a33df48}" record_timestamp="1540218882192" record_key="1799061508">
 <auto_id>1799061508</auto_id>
 <ceo>3k_main_ancillary_accessory_book_of_ceremonies</ceo>
@@ -8010,6 +8430,12 @@
 <ceo>3k_main_ancillary_armour_medium_armour_earth_and_metal_common</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_armour_character_earth</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{d68b9892-1e3c-4cbf-b54c-e5d0ff4a96ac}" record_timestamp="1553100957753" record_key="1800762807">
+<auto_id>1800762807</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_wood_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{e06feb99-dd87-4a91-b8b5-31b1b76a8bfb}" record_timestamp="1540218884075" record_key="1801217272">
 <auto_id>1801217272</auto_id>
@@ -8131,7 +8557,7 @@
 <ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{5931561a-dd03-45d3-9a40-f95e1ee35be5}" record_timestamp="1552068952564" record_key="1815037041">
+<ceo_group_ceos record_uuid="{5931561a-dd03-45d3-9a40-f95e1ee35be5}" record_timestamp="1554882370905" record_key="1815037041">
 <auto_id>1815037041</auto_id>
 <ceo>3k_main_ancillary_follower_officer</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -8485,6 +8911,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{2bf171c3-5327-40cf-9200-46c47b412536}" record_timestamp="1553100955285" record_key="1850194329">
+<auto_id>1850194329</auto_id>
+<ceo>ep_ancillary_sima_yue_armour_unique</ceo>
+<ceo_group>ep_ceo_group_ancillary_armour_character_specific_sima_yue</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{31570f1e-2387-4739-afe3-d04582deea94}" record_timestamp="1540218882574" record_key="1850265893">
 <auto_id>1850265893</auto_id>
 <ceo>3k_main_ancillary_follower_architect</ceo>
@@ -8497,11 +8929,23 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction_only</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{74c8b599-0226-473f-be20-8406b667d63e}" record_timestamp="1562684664069" record_key="1851316524">
+<auto_id>1851316524</auto_id>
+<ceo>ep_ancillary_armour_light_armour_metal_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{0d7e2695-5f8f-46f9-bcb8-dc125e5985be}" record_timestamp="1502704200626" record_key="185144520">
 <auto_id>185144520</auto_id>
 <ceo>3k_main_ancillary_armour_medium_armour_earth_and_metal_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{690ad402-c2a2-42a8-a03f-a92003cd6965}" record_timestamp="1553100956637" record_key="1852358777">
+<auto_id>1852358777</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_fire_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_fire</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{86b1ddc9-b4c9-4337-b372-c7f0054e10bc}" record_timestamp="1519633655372" record_key="1852443772">
 <auto_id>1852443772</auto_id>
@@ -8557,6 +9001,12 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction_only</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{e72bc719-9d16-428a-b05f-604fee71b318}" record_timestamp="1553100955694" record_key="1861464393">
+<auto_id>1861464393</auto_id>
+<ceo>ep_ancillary_sima_yue_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_character_all</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{5693e3de-b96b-4707-92d9-1491c3bbaf70}" record_timestamp="1540218882225" record_key="1862145096">
 <auto_id>1862145096</auto_id>
 <ceo>3k_main_ancillary_accessory_jade_horse</ceo>
@@ -8592,6 +9042,18 @@
 <ceo>3k_ytr_ceo_trait_personality_benevolent</ceo>
 <ceo_group>3k_ceo_trigger_traits_round_start_governor_earth</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{2a748b7f-751d-4f33-b996-c43df4f1a96d}" record_timestamp="1562684663919" record_key="1864578235">
+<auto_id>1864578235</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_earth_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{42c09260-bf18-46e9-b4d0-8e681a024c67}" record_timestamp="1562684664635" record_key="1865245905">
+<auto_id>1865245905</auto_id>
+<ceo>ep_ancillary_armour_light_armour_earth_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_earth_faction</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{1e000a49-1b6b-4405-9358-d12a5fc56365}" record_timestamp="1538821319896" record_key="1865748262">
 <auto_id>1865748262</auto_id>
@@ -8676,6 +9138,12 @@
 <ceo>3k_main_ancillary_weapon_short_ji_exceptional</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{95746a81-7c4e-4e92-be47-e455c2c83c3b}" record_timestamp="1553100955438" record_key="1876161248">
+<auto_id>1876161248</auto_id>
+<ceo>ep_ancillary_sima_lun_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_character_all</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{90c47a38-a62c-4574-963e-284ab5e23c6f}" record_timestamp="1540218882172" record_key="1877660451">
 <auto_id>1877660451</auto_id>
@@ -8977,7 +9445,7 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction_only</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{b0539277-7381-4ada-bef5-c452ab3ca37a}" record_timestamp="1552068951765" record_key="1915494517">
+<ceo_group_ceos record_uuid="{b0539277-7381-4ada-bef5-c452ab3ca37a}" record_timestamp="1554882370883" record_key="1915494517">
 <auto_id>1915494517</auto_id>
 <ceo>3k_ytr_ancillary_weapon_dual_maces_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -9157,6 +9625,18 @@
 <ceo_group>3k_main_ceo_group_ancillary_accessory_faction_all</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{91229dd2-00ce-4100-ab2e-b3829175cd10}" record_timestamp="1560851446320" record_key="193011238">
+<auto_id>193011238</auto_id>
+<ceo>ep_ceo_career_historical_sima_yu_metal</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{30857ee6-96e7-4ff6-999a-0c56db49bb40}" record_timestamp="1553100957954" record_key="1931378725">
+<auto_id>1931378725</auto_id>
+<ceo>ep_ancillary_armour_strategist_light_armour_water_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_water</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{1edcad8a-1357-4f96-a29e-644c0864e13b}" record_timestamp="1541086964085" record_key="1932591017">
 <auto_id>1932591017</auto_id>
 <ceo>3k_main_ancillary_armour_medium_armour_wood_extraordinary</ceo>
@@ -9247,6 +9727,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{8acdc3d4-2b82-474b-b138-0f8348fa543d}" record_timestamp="1560851446323" record_key="1946691105">
+<auto_id>1946691105</auto_id>
+<ceo>ep_ceo_career_historical_liu_shen</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{b6c170f0-4102-4a39-a06a-2189fbe8f492}" record_timestamp="1540218882378" record_key="1946701871">
 <auto_id>1946701871</auto_id>
 <ceo>3k_main_ancillary_mount_white_thoroughbred</ceo>
@@ -9259,7 +9745,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_fire_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{988fc97b-5107-420e-a97b-6ced6811a9dd}" record_timestamp="1552068950330" record_key="1948193258">
+<ceo_group_ceos record_uuid="{988fc97b-5107-420e-a97b-6ced6811a9dd}" record_timestamp="1554882370840" record_key="1948193258">
 <auto_id>1948193258</auto_id>
 <ceo>3k_main_ancillary_mount_white_stallion</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -9439,6 +9925,12 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_water_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{d7cde37a-7f0c-4b2c-8f15-bdaf40f3e29c}" record_timestamp="1560941531789" record_key="1964717149">
+<auto_id>1964717149</auto_id>
+<ceo>ep_ceo_career_historical_princess_pei</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{95104835-28d4-4052-b111-d8b22722ee0c}" record_timestamp="1518687086631" record_key="1965167675">
 <auto_id>1965167675</auto_id>
 <ceo>3k_main_ancillary_armour_cao_caos_armour_unique</ceo>
@@ -9498,6 +9990,18 @@
 <ceo>3k_main_ceo_career_childhood_wood</ceo>
 <ceo_group>3k_main_ceo_group_childhood_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{347500e2-4db4-4d62-b6a6-6e292222c8d7}" record_timestamp="1562684664751" record_key="1968501035">
+<auto_id>1968501035</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_wood_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{fad74cff-9183-4005-ab42-69c93f4a439d}" record_timestamp="1553100958054" record_key="196874757">
+<auto_id>196874757</auto_id>
+<ceo>ep_ancillary_armour_light_armour_earth_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_earth</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{8c7d9768-4fb8-49d4-bf6b-6a9d432091d1}" record_timestamp="1540218883622" record_key="196998571">
 <auto_id>196998571</auto_id>
@@ -9607,6 +10111,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{9234788a-e506-4305-a71e-6072402e17c9}" record_timestamp="1555407989361" record_key="1982633742">
+<auto_id>1982633742</auto_id>
+<ceo>ep_ceo_career_historical_sima_yong</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{cb561679-3b23-4e1b-b18a-6bd0e7eee365}" record_timestamp="1540218881207" record_key="1983409620">
 <auto_id>1983409620</auto_id>
 <ceo>3k_main_ancillary_accessory_book_of_songs</ceo>
@@ -9624,6 +10134,12 @@
 <ceo>3k_main_ceo_trait_physical_shu_tiger_general</ceo>
 <ceo_group>3k_main_ceo_group_trait_personality_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{b46a7dac-bfe7-4d3b-8bdb-778f725bb625}" record_timestamp="1562684664120" record_key="1985104953">
+<auto_id>1985104953</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_wood_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{8eb929be-77a6-4d96-b569-be86d48f9a37}" record_timestamp="1547912567535" record_key="1985373593">
 <auto_id>1985373593</auto_id>
@@ -9757,6 +10273,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_accessory_faction_all</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{01f781a4-56fc-40c0-9a28-c8bc52175eeb}" record_timestamp="1560327104430" record_key="1994525765">
+<auto_id>1994525765</auto_id>
+<ceo>ep_ceo_career_historical_gongsun_hong</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{8f4d13b3-db21-42fb-8aeb-989dbb26a471}" record_timestamp="1507708191459" record_key="1994533299">
 <auto_id>1994533299</auto_id>
 <ceo>3k_main_ancillary_armour_light_armour_metal_extraordinary</ceo>
@@ -9840,6 +10362,12 @@
 <ceo>3k_main_ancillary_follower_guard</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{7a401434-cdc4-49db-b2c2-288cecee8083}" record_timestamp="1562684664577" record_key="2002691822">
+<auto_id>2002691822</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_earth_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_earth_faction</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{25e36b05-6ad9-487a-a871-2ade3cf63818}" record_timestamp="1540218883814" record_key="2003006922">
 <auto_id>2003006922</auto_id>
@@ -9937,6 +10465,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{0735c6a4-8ab8-4911-9fa3-9348c5017731}" record_timestamp="1562684664307" record_key="2008719271">
+<auto_id>2008719271</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_metal_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{adf1eafe-da0f-4fd5-bd57-64d636093b4e}" record_timestamp="1539874687072" record_key="2009125608">
 <auto_id>2009125608</auto_id>
 <ceo>3k_main_ancillary_follower_farm_manager</ceo>
@@ -9983,6 +10517,12 @@
 <auto_id>2012872090</auto_id>
 <ceo>3k_main_ancillary_accessory_jade_statue_of_confucius</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{bd4e311f-9647-48b4-bfa6-fbc0fa74a556}" record_timestamp="1553100957854" record_key="2013628074">
+<auto_id>2013628074</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_wood_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{e758f843-f5a6-4f78-b8fd-74a1396c18b3}" record_timestamp="1502704194892" record_key="20137867">
@@ -10201,7 +10741,7 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_water_faction_only</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{3096064d-4d1d-45f7-8638-83cfbe9a837d}" record_timestamp="1552068952384" record_key="2034092742">
+<ceo_group_ceos record_uuid="{3096064d-4d1d-45f7-8638-83cfbe9a837d}" record_timestamp="1554882370901" record_key="2034092742">
 <auto_id>2034092742</auto_id>
 <ceo>3k_ytr_ancillary_weapon_dual_maces_exceptional</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -10291,6 +10831,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{095a0f43-b01e-43e5-9bc8-fcbb9bfab291}" record_timestamp="1553100956285" record_key="204374501">
+<auto_id>204374501</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_earth_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_earth</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{07c996ca-c90a-4b6d-8382-d68bce3a979a}" record_timestamp="1538821322982" record_key="2044669811">
 <auto_id>2044669811</auto_id>
 <ceo>3k_ytr_ancillary_armour_he_yis_armour_unique</ceo>
@@ -10327,7 +10873,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{003f20ca-87fe-471b-ae43-116ff342bf8f}" record_timestamp="1552068949529" record_key="2047016788">
+<ceo_group_ceos record_uuid="{003f20ca-87fe-471b-ae43-116ff342bf8f}" record_timestamp="1554882370822" record_key="2047016788">
 <auto_id>2047016788</auto_id>
 <ceo>3k_main_ancillary_weapon_two_handed_spear_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -10351,7 +10897,13 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{a374d002-9e1b-4223-95c1-33ee8ed339c4}" record_timestamp="1552068953274" record_key="2048708026">
+<ceo_group_ceos record_uuid="{dba5dabd-282c-4b6e-93ec-184fc0267ef1}" record_timestamp="1553100957804" record_key="2047970375">
+<auto_id>2047970375</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_wood_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{a374d002-9e1b-4223-95c1-33ee8ed339c4}" record_timestamp="1554882370923" record_key="2048708026">
 <auto_id>2048708026</auto_id>
 <ceo>3k_main_ancillary_armour_light_armour_metal_extraordinary</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -10380,6 +10932,12 @@
 <ceo>3k_main_ceo_protagonist</ceo>
 <ceo_group>3k_ceo_trigger_traits_battle_captive_released_wood</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{0fd1bc43-9c7c-44e0-9159-6f79b32e78f1}" record_timestamp="1562684664693" record_key="2051952265">
+<auto_id>2051952265</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_fire_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_fire_faction</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{7f6c7392-2435-4d9d-ab80-916525b6ae0e}" record_timestamp="1539874699369" record_key="2051964006">
 <auto_id>2051964006</auto_id>
@@ -10411,7 +10969,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_fire_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{8701e354-66f6-4bdb-a89c-2176f6b54259}" record_timestamp="1552068953453" record_key="2054607111">
+<ceo_group_ceos record_uuid="{8701e354-66f6-4bdb-a89c-2176f6b54259}" record_timestamp="1554882370926" record_key="2054607111">
 <auto_id>2054607111</auto_id>
 <ceo>3k_main_ancillary_weapon_one_handed_axe_exceptional</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -10464,6 +11022,12 @@
 <ceo>3k_main_ancillary_accessory_iron_sickle</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_water_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{5875bcaf-8c75-4011-83d0-4efcf082ff10}" record_timestamp="1560242839689" record_key="2058666919">
+<auto_id>2058666919</auto_id>
+<ceo>ep_ceo_career_historical_li_han</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{b4b3aa58-65f9-4995-91e8-0a5cc542491a}" record_timestamp="1502704182074" record_key="2058729176">
 <auto_id>2058729176</auto_id>
@@ -10525,6 +11089,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_fire_faction</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{6dd7f68c-e5f2-4953-82af-f47a007ce39b}" record_timestamp="1553100955040" record_key="2062764078">
+<auto_id>2062764078</auto_id>
+<ceo>ep_ancillary_sima_lun_armour_unique</ceo>
+<ceo_group>ep_ceo_group_ancillary_armour_character_specific_sima_lun</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{fdab1b75-9d73-408c-b5d3-ea366ad6fe65}" record_timestamp="1502191425628" record_key="2062934980">
 <auto_id>2062934980</auto_id>
 <ceo>3k_main_ceo_trait_personality_cowardly</ceo>
@@ -10535,6 +11105,12 @@
 <auto_id>2063281756</auto_id>
 <ceo>3k_main_ancillary_accessory_earthquake_watching_device</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_water_faction_only</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{62490885-185e-4f92-be97-699d771cd573}" record_timestamp="1562684664350" record_key="2064831882">
+<auto_id>2064831882</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_fire_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{1f2f50d9-386d-4acb-adba-5630c196e130}" record_timestamp="1540399028895" record_key="2065536793">
@@ -10585,7 +11161,7 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{49ffe998-bff7-4512-9a17-cf58ca42d9e0}" record_timestamp="1552068951330" record_key="2071132224">
+<ceo_group_ceos record_uuid="{49ffe998-bff7-4512-9a17-cf58ca42d9e0}" record_timestamp="1554882370871" record_key="2071132224">
 <auto_id>2071132224</auto_id>
 <ceo>3k_main_ancillary_weapon_two_handed_axe_exceptional</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -10639,10 +11215,22 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{bf1d540f-59fb-4a60-b4f8-c5a5cd4e8921}" record_timestamp="1562684664381" record_key="2076474703">
+<auto_id>2076474703</auto_id>
+<ceo>ep_ancillary_armour_light_armour_earth_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{8d3321cb-8d4b-49fd-a206-68c687e78fd9}" record_timestamp="1540218882984" record_key="2076914673">
 <auto_id>2076914673</auto_id>
 <ceo>3k_main_ancillary_follower_architect</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{6badaa92-8a1f-4102-ab2c-c47c2544b1fb}" record_timestamp="1562684663941" record_key="2078065857">
+<auto_id>2078065857</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_metal_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{34d6b509-cb9d-4599-87e0-d2c5cf1adbb2}" record_timestamp="1541754941318" record_key="2078565206">
@@ -10795,6 +11383,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{c5918b40-e3f1-44e4-af8b-cb3989592dce}" record_timestamp="1553100955595" record_key="2087863299">
+<auto_id>2087863299</auto_id>
+<ceo>ep_ancillary_sima_ai_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_character_all</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{194a1864-07fa-41ce-b5f0-dd42dabcff2c}" record_timestamp="1538821319884" record_key="2088947250">
 <auto_id>2088947250</auto_id>
 <ceo>3k_main_ancillary_weapon_one_handed_axe_exceptional</ceo>
@@ -10842,6 +11436,12 @@
 <ceo>3k_main_ancillary_armour_strategist_light_armour_water_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{48e0ea7c-74fc-43c7-9101-116dccc1dc9d}" record_timestamp="1562684664148" record_key="2099300569">
+<auto_id>2099300569</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_fire_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{6ba4d6af-9a37-43be-baa6-859868c13438}" record_timestamp="1540218881421" record_key="2099918084">
 <auto_id>2099918084</auto_id>
@@ -11095,7 +11695,7 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_water_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{abd8b068-2a8b-42e4-a450-11612ad5747c}" record_timestamp="1550502126655" record_key="2127149525">
+<ceo_group_ceos record_uuid="{abd8b068-2a8b-42e4-a450-11612ad5747c}" record_timestamp="1551784875534" record_key="2127149525">
 <auto_id>2127149525</auto_id>
 <ceo>3k_ytr_ancillary_armour_he_mans_armour_unique</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_armour_character_all</ceo_group>
@@ -11130,6 +11730,12 @@
 <ceo>3k_main_ancillary_accessory_stone_statue_of_confucius</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{c969cb29-4eb3-4647-a5e0-60abc4f88146}" record_timestamp="1553100956786" record_key="2128632271">
+<auto_id>2128632271</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_wood_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_wood</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{9f2d18bb-4f99-4a61-8f41-6e52004e4d40}" record_timestamp="1540218882725" record_key="2128754274">
 <auto_id>2128754274</auto_id>
@@ -11215,7 +11821,7 @@
 <ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{2c3fbccc-ed70-4bb4-97f5-4095672dd7f3}" record_timestamp="1552068950420" record_key="2133896752">
+<ceo_group_ceos record_uuid="{2c3fbccc-ed70-4bb4-97f5-4095672dd7f3}" record_timestamp="1554882370843" record_key="2133896752">
 <auto_id>2133896752</auto_id>
 <ceo>3k_main_ancillary_armour_light_armour_earth_extraordinary</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -11359,7 +11965,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_armour_character_all</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{b9afda77-05e4-42f5-862c-8b66b5d85723}" record_timestamp="1552068952029" record_key="2147037028">
+<ceo_group_ceos record_uuid="{b9afda77-05e4-42f5-862c-8b66b5d85723}" record_timestamp="1554882370889" record_key="2147037028">
 <auto_id>2147037028</auto_id>
 <ceo>3k_main_ancillary_weapon_ceremonial_sword_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -11527,6 +12133,12 @@
 <ceo_group>3k_main_ceo_group_trait_physical_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{2e462d9c-4fe3-4c93-aac6-324cb365cf08}" record_timestamp="1553100955644" record_key="231507637">
+<auto_id>231507637</auto_id>
+<ceo>ep_ancillary_sima_yong_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_character_all</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{9d00dc78-571c-461f-b79c-de1ad4e6c896}" record_timestamp="1532947949554" record_key="231790009">
 <auto_id>231790009</auto_id>
 <ceo>3k_ytr_ancillary_armour_veteran_medium_yellow_turban_exceptional</ceo>
@@ -11623,6 +12235,12 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_water_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{329c777a-6f1c-430a-8021-93c7afbc3327}" record_timestamp="1553100955188" record_key="241424401">
+<auto_id>241424401</auto_id>
+<ceo>ep_ancillary_sima_ai_armour_unique</ceo>
+<ceo_group>ep_ceo_group_ancillary_armour_character_specific_sima_ai</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{1aebe679-5b24-4df0-8383-9fbaf71b8916}" record_timestamp="1524741881419" record_key="241441388">
 <auto_id>241441388</auto_id>
 <ceo>3k_main_ancillary_weapon_composite_bow_unique</ceo>
@@ -11712,6 +12330,12 @@
 <ceo>3k_main_ancillary_mount_white_stallion</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{3541b1bf-5fc6-4d29-9ffe-7cb16ff6a159}" record_timestamp="1553100955743" record_key="249465582">
+<auto_id>249465582</auto_id>
+<ceo>ep_ancillary_sima_liang_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_type_character_specific</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{074b9199-3c99-4eea-ac53-839733c6b4a6}" record_timestamp="1540218882255" record_key="250220739">
 <auto_id>250220739</auto_id>
@@ -12235,7 +12859,7 @@
 <ceo_group>3k_main_ceo_group_trait_personality_initial_data</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{b8a72f40-115f-436d-b869-a7187d1a6f91}" record_timestamp="1552068952474" record_key="287457920">
+<ceo_group_ceos record_uuid="{b8a72f40-115f-436d-b869-a7187d1a6f91}" record_timestamp="1554882370904" record_key="287457920">
 <auto_id>287457920</auto_id>
 <ceo>3k_main_ancillary_weapon_dual_swords_exceptional</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -12337,7 +12961,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_armour_character_all</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{318bd499-ddc6-4ca0-9e4b-e6734e4ee7f2}" record_timestamp="1552068950110" record_key="300104203">
+<ceo_group_ceos record_uuid="{318bd499-ddc6-4ca0-9e4b-e6734e4ee7f2}" record_timestamp="1554882370832" record_key="300104203">
 <auto_id>300104203</auto_id>
 <ceo>3k_main_ancillary_mount_white_thoroughbred</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -12373,11 +12997,17 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_fire_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{d7f758dd-b8de-4e3b-8df2-122f02cae811}" record_timestamp="1552068951592" record_key="302609217">
+<ceo_group_ceos record_uuid="{d7f758dd-b8de-4e3b-8df2-122f02cae811}" record_timestamp="1554882370878" record_key="302609217">
 <auto_id>302609217</auto_id>
 <ceo>3k_main_ancillary_follower_bodyguard</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
 <trigger_weighting>0.15</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{edad9000-6a1f-4c46-af3f-6edb63026ceb}" record_timestamp="1562684664192" record_key="303089762">
+<auto_id>303089762</auto_id>
+<ceo>ep_ancillary_armour_light_armour_metal_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{17d06e17-92f1-4233-be15-4b7f91a1c6ce}" record_timestamp="1540399027693" record_key="303552025">
 <auto_id>303552025</auto_id>
@@ -12396,6 +13026,12 @@
 <ceo>3k_main_ancillary_follower_cryptographer</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{dc39e906-5333-4025-96b1-bdc9e4a0aac2}" record_timestamp="1562684664263" record_key="304763944">
+<auto_id>304763944</auto_id>
+<ceo>ep_ancillary_armour_light_armour_metal_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{68d8124b-d209-4a4e-83dc-b80d44c45620}" record_timestamp="1502704193017" record_key="30674567">
 <auto_id>30674567</auto_id>
@@ -12517,6 +13153,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_water_school_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{a00010f3-0865-4490-884d-6a0a635ab9d9}" record_timestamp="1562684664057" record_key="317261489">
+<auto_id>317261489</auto_id>
+<ceo>ep_ancillary_armour_light_armour_earth_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{5235134a-f9df-4dc3-bc5a-e7ed2e246147}" record_timestamp="1540218882546" record_key="318508488">
 <auto_id>318508488</auto_id>
 <ceo>3k_main_ancillary_mount_white_thoroughbred</ceo>
@@ -12558,6 +13200,12 @@
 <ceo>3k_main_ancillary_armour_medium_armour_wood_unique</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{34a25d8a-dc83-4ede-b2e6-3ff58d71a805}" record_timestamp="1553100957044" record_key="322050215">
+<auto_id>322050215</auto_id>
+<ceo>ep_ancillary_armour_strategist_light_armour_water_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{68a1d4a2-9cc4-4293-add0-b92d78447e7f}" record_timestamp="1502704188958" record_key="322471363">
 <auto_id>322471363</auto_id>
@@ -12642,6 +13290,12 @@
 <ceo>3k_ytr_ancillary_weapon_dual_maces_refined</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{64caa642-04cc-4bf4-95a3-4f41dd37e5a6}" record_timestamp="1562684664364" record_key="331450647">
+<auto_id>331450647</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_wood_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{7dca6fc5-9af3-422f-b888-b6f25c4f5b4f}" record_timestamp="1540218882544" record_key="331497940">
 <auto_id>331497940</auto_id>
@@ -12787,6 +13441,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_assignment_black_market_investigation_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{70e0cdd2-ab25-4923-97a2-f30394228818}" record_timestamp="1553100956587" record_key="348953143">
+<auto_id>348953143</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_fire_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_fire</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{9de58b05-bb3e-4d83-b371-7060a8d9ca3d}" record_timestamp="1540399028930" record_key="349747172">
 <auto_id>349747172</auto_id>
 <ceo>3k_main_ancillary_accessory_jade_sickle</ceo>
@@ -12823,6 +13483,12 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction_only</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{8ec9a543-93ba-4487-a3dc-fe9e387ae9c3}" record_timestamp="1562684664649" record_key="353720301">
+<auto_id>353720301</auto_id>
+<ceo>ep_ancillary_armour_light_armour_earth_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_earth_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{8b83f1c6-d5ec-4d30-9afc-4bc002e6b377}" record_timestamp="1502201383289" record_key="356433143">
 <auto_id>356433143</auto_id>
 <ceo>3k_main_ceo_protagonist</ceo>
@@ -12835,11 +13501,17 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{5ed25384-90f8-4407-8038-773be67e9385}" record_timestamp="1552068952739" record_key="357631543">
+<ceo_group_ceos record_uuid="{5ed25384-90f8-4407-8038-773be67e9385}" record_timestamp="1554882370909" record_key="357631543">
 <auto_id>357631543</auto_id>
 <ceo>3k_main_ancillary_weapon_double_edged_sword_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{bcc056a0-2ca1-493d-8e64-e6f198a85f22}" record_timestamp="1562684664021" record_key="358088341">
+<auto_id>358088341</auto_id>
+<ceo>ep_ancillary_armour_light_armour_earth_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{7fff7d95-6be5-43d6-81e3-489fbf920f7e}" record_timestamp="1538821319920" record_key="359293473">
 <auto_id>359293473</auto_id>
@@ -12877,7 +13549,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_fire_weapons_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{0e431524-266f-499a-b909-45b06e2e1ab2}" record_timestamp="1550502126662" record_key="362976293">
+<ceo_group_ceos record_uuid="{0e431524-266f-499a-b909-45b06e2e1ab2}" record_timestamp="1551784875553" record_key="362976293">
 <auto_id>362976293</auto_id>
 <ceo>3k_ytr_ancillary_armour_he_mans_armour_unique</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_armour_type_character_specific</ceo_group>
@@ -12973,6 +13645,18 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{051a9a86-0536-4c56-9628-26752a6c530f}" record_timestamp="1562684664550" record_key="37195982">
+<auto_id>37195982</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_metal_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{8cc30e60-e7e0-4dab-9e2f-3a7052f2943b}" record_timestamp="1562684664406" record_key="372114906">
+<auto_id>372114906</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_earth_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{01faaf92-92b2-4e03-a48f-e4925112bbd6}" record_timestamp="1540218882414" record_key="372745338">
 <auto_id>372745338</auto_id>
 <ceo>3k_main_ancillary_accessory_jade_archer</ceo>
@@ -13008,6 +13692,12 @@
 <ceo>3k_main_ancillary_weapon_double_edged_sword_unique</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_weapon_faction_sword_one_handed</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{315c888d-aa0f-4d7e-9652-ed1186f9b014}" record_timestamp="1560242839683" record_key="377297669">
+<auto_id>377297669</auto_id>
+<ceo>ep_ceo_career_historical_wei_guan</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{ce3eb5fc-61a4-47aa-ad10-b11dca4a36b1}" record_timestamp="1502704182244" record_key="377743802">
 <auto_id>377743802</auto_id>
@@ -13128,6 +13818,12 @@
 <ceo>3k_main_ceo_trait_personality_determined</ceo>
 <ceo_group>3k_ceo_trigger_traits_battle_completed_wood</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{191f1c8a-2775-464f-b7c1-c10a06bf1cc6}" record_timestamp="1553100956235" record_key="391670953">
+<auto_id>391670953</auto_id>
+<ceo>ep_ancillary_sima_wei_armour_unique</ceo>
+<ceo_group>ep_ceo_group_ancillary_armour_character_specific_sima_wei</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{30ce5256-c7c5-4f3e-b5aa-9b6fc0b4c5b0}" record_timestamp="1540218883241" record_key="391746986">
 <auto_id>391746986</auto_id>
@@ -13393,6 +14089,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{2554244b-d500-45ea-9b7e-e00cc149c86c}" record_timestamp="1562684664010" record_key="410167291">
+<auto_id>410167291</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_fire_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{8457df2b-9d37-4d73-9eaa-dd8e209733f8}" record_timestamp="1541754941356" record_key="410350345">
 <auto_id>410350345</auto_id>
 <ceo>3k_ytr_ceo_trait_personality_people_understanding</ceo>
@@ -13451,6 +14153,12 @@
 <auto_id>415030191</auto_id>
 <ceo>3k_ytr_ancillary_weapon_2h_ball_mace_exceptional</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_weapon_faction_mace_two_handed</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{528c1e73-895e-4410-951c-a83ca3bec7cd}" record_timestamp="1562684664207" record_key="415048136">
+<auto_id>415048136</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_earth_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{438b268a-4719-46c0-865b-0a0b021be9c6}" record_timestamp="1539874693504" record_key="415257880">
@@ -13573,6 +14281,12 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_water_faction_only</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{76b02633-5314-4553-8fc2-1770a7ac61a3}" record_timestamp="1562684664917" record_key="427281933">
+<auto_id>427281933</auto_id>
+<ceo>ep_ancillary_armour_light_armour_metal_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_fire_armours_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{c13a904d-38e8-4f01-a115-9f3af5fd4208}" record_timestamp="1540218883773" record_key="427838238">
 <auto_id>427838238</auto_id>
 <ceo>3k_main_ancillary_follower_builder</ceo>
@@ -13609,7 +14323,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_weapon_faction_spear_dual</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{66e577f9-1d77-4d76-9b8a-49819db2b426}" record_timestamp="1552068953184" record_key="42877266">
+<ceo_group_ceos record_uuid="{66e577f9-1d77-4d76-9b8a-49819db2b426}" record_timestamp="1554882370920" record_key="42877266">
 <auto_id>42877266</auto_id>
 <ceo>3k_main_ancillary_weapon_one_handed_axe_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -13651,7 +14365,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{7d73142a-4658-44f1-bf64-6ee8d4b37d91}" record_timestamp="1552068948892" record_key="431802979">
+<ceo_group_ceos record_uuid="{7d73142a-4658-44f1-bf64-6ee8d4b37d91}" record_timestamp="1554882370803" record_key="431802979">
 <auto_id>431802979</auto_id>
 <ceo>3k_main_ancillary_weapon_composite_bow_exceptional</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -13711,7 +14425,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_earth_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{50bdcb0f-8aa6-410a-a19f-4f072ed3db6a}" record_timestamp="1552068950508" record_key="438660623">
+<ceo_group_ceos record_uuid="{50bdcb0f-8aa6-410a-a19f-4f072ed3db6a}" record_timestamp="1554882370847" record_key="438660623">
 <auto_id>438660623</auto_id>
 <ceo>3k_main_ancillary_armour_heavy_armour_fire_extraordinary</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -13897,7 +14611,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_fire_faction</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{7b45503c-dd30-4609-b910-9ba4a6a55856}" record_timestamp="1552068950596" record_key="452903980">
+<ceo_group_ceos record_uuid="{7b45503c-dd30-4609-b910-9ba4a6a55856}" record_timestamp="1554882370849" record_key="452903980">
 <auto_id>452903980</auto_id>
 <ceo>3k_main_ancillary_armour_strategist_light_armour_water_extraordinary</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -14047,6 +14761,12 @@
 <ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{4b49946e-051b-49fe-bbab-65697ee266f7}" record_timestamp="1562684664220" record_key="46909000">
+<auto_id>46909000</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_fire_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{5a8f1804-f7a4-4808-ac70-1b4147a541b9}" record_timestamp="1540218882945" record_key="469579775">
 <auto_id>469579775</auto_id>
 <ceo>3k_ytr_ancillary_accessory_stone_statue_of_zhang_jue</ceo>
@@ -14057,6 +14777,12 @@
 <auto_id>469583751</auto_id>
 <ceo>3k_main_ancillary_armour_heavy_armour_fire_extraordinary</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{0f4168b2-7328-4228-a917-eafa61d74e85}" record_timestamp="1562684664590" record_key="470274547">
+<auto_id>470274547</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_earth_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_earth_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{3a467e56-aa0d-45ff-bf0f-690c29dc2ed7}" record_timestamp="1531153876204" record_key="470362774">
@@ -14070,6 +14796,12 @@
 <ceo>3k_main_ancillary_accessory_clay_axe</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_wood_faction</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{50f7cb28-7dd7-4afb-970c-136211b301b8}" record_timestamp="1562684664046" record_key="47127458">
+<auto_id>47127458</auto_id>
+<ceo>ep_ancillary_armour_light_armour_metal_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{8bfb7a6a-b085-456b-a547-317ce9efbf70}" record_timestamp="1540218881191" record_key="471299650">
 <auto_id>471299650</auto_id>
@@ -14161,7 +14893,13 @@
 <ceo_group>3k_ceo_trigger_traits_round_start_young_earth</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{4cb9bd9f-acab-42bb-a5dc-8b654e90985e}" record_timestamp="1552068950889" record_key="479073615">
+<ceo_group_ceos record_uuid="{64106b0a-c06c-46de-be30-f556fff90c24}" record_timestamp="1562684663961" record_key="478508940">
+<auto_id>478508940</auto_id>
+<ceo>ep_ancillary_armour_strategist_light_armour_water_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{4cb9bd9f-acab-42bb-a5dc-8b654e90985e}" record_timestamp="1554882370857" record_key="479073615">
 <auto_id>479073615</auto_id>
 <ceo>3k_main_ancillary_mount_brown_thoroughbred</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -14311,6 +15049,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_accessory_faction_all</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{d41a7686-a55f-4351-8246-fc35ad0fe146}" record_timestamp="1553100956538" record_key="490505901">
+<auto_id>490505901</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_metal_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_metal</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{787084b2-5d0a-4d2b-a6e0-66f9be03d19e}" record_timestamp="1540218881925" record_key="491338566">
 <auto_id>491338566</auto_id>
 <ceo>3k_main_ancillary_follower_bodyguard</ceo>
@@ -14455,6 +15199,12 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction_only</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{a6eae156-f72b-4606-84b1-1cba1ff6d4a2}" record_timestamp="1560242839680" record_key="503201559">
+<auto_id>503201559</auto_id>
+<ceo>ep_ceo_career_historical_gongsun_hong</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{3d523abb-8c06-46a1-9f2a-e97f1e6e416c}" record_timestamp="1540218881692" record_key="503286619">
 <auto_id>503286619</auto_id>
 <ceo>3k_main_ancillary_follower_farmer</ceo>
@@ -14479,13 +15229,19 @@
 <ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{ea8b6161-3672-404b-acef-f5296bc54d5c}" record_timestamp="1562684664504" record_key="504992872">
+<auto_id>504992872</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_wood_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{fb4b089f-f542-412d-953a-ca729692f8f1}" record_timestamp="1502191386943" record_key="505088269">
 <auto_id>505088269</auto_id>
 <ceo>3k_main_ceo_career_historical_zhou_tai</ceo>
 <ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{9e76f9c1-14fa-4f9f-b9f1-c557cd4aca46}" record_timestamp="1552060224243" record_key="505369735">
+<ceo_group_ceos record_uuid="{9e76f9c1-14fa-4f9f-b9f1-c557cd4aca46}" record_timestamp="1554882367011" record_key="505369735">
 <auto_id>505369735</auto_id>
 <ceo>3k_ytr_ceo_trait_physical_impeccable</ceo>
 <ceo_group>3k_main_ceo_group_trait_personality_initial_data</ceo_group>
@@ -14519,6 +15275,12 @@
 <auto_id>507881780</auto_id>
 <ceo>3k_main_ancillary_armour_strategist_light_armour_water_extraordinary</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{67cd3a4b-0280-44f6-b652-bcbc2bb24606}" record_timestamp="1562684664488" record_key="507980314">
+<auto_id>507980314</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_metal_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{f6a10aa0-27aa-4e98-ab45-341401a99873}" record_timestamp="1540218881372" record_key="508191387">
@@ -14573,6 +15335,12 @@
 <auto_id>511357054</auto_id>
 <ceo>3k_main_ancillary_mount_grey_stallion</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{fb62ad83-cf8f-4a77-a049-b80d39e16a15}" record_timestamp="1562684664767" record_key="511366393">
+<auto_id>511366393</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_wood_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{a52236e5-75b8-489e-b558-ff68afb88516}" record_timestamp="1541754941404" record_key="511372836">
@@ -14887,6 +15655,18 @@
 <ceo_group>3k_ceo_trigger_traits_battle_won_won_many_battles_earth</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{4d5ea238-5ba5-4dfc-b958-042256287af1}" record_timestamp="1562684664532" record_key="540882762">
+<auto_id>540882762</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_fire_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{77f7aa86-a348-4392-8a4b-7979088bac34}" record_timestamp="1553100957248" record_key="543408545">
+<auto_id>543408545</auto_id>
+<ceo>ep_ancillary_armour_light_armour_earth_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{97cb06ab-00e1-4a07-a04b-6a8f6624d4b2}" record_timestamp="1502704186354" record_key="543661652">
 <auto_id>543661652</auto_id>
 <ceo>3k_main_ancillary_follower_hua_tuo</ceo>
@@ -14905,11 +15685,23 @@
 <ceo_group>3k_main_ceo_group_trait_personality_initial_data</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{d9a9bec1-326b-47f7-bb18-83bdc2d71f32}" record_timestamp="1553100955138" record_key="545620695">
+<auto_id>545620695</auto_id>
+<ceo>ep_ancillary_sima_ying_armour_unique</ceo>
+<ceo_group>ep_ceo_group_ancillary_armour_character_specific_sima_ying</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{520e4dcf-e4a8-4c90-8ea9-d19bcabfabe8}" record_timestamp="1540218882723" record_key="545743780">
 <auto_id>545743780</auto_id>
 <ceo>3k_main_ancillary_mount_red_elite</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{fcdf81fb-4f77-4cc0-9cbc-28d62aba6fd4}" record_timestamp="1560327104425" record_key="546764548">
+<auto_id>546764548</auto_id>
+<ceo>ep_ceo_career_historical_lu_zhi</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{520c2e7c-7f59-418b-bb93-6bb59d3a9b5e}" record_timestamp="1540399028769" record_key="548247046">
 <auto_id>548247046</auto_id>
@@ -14923,7 +15715,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_wood_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{0aaf5353-dbdc-4dae-96a0-a609e4a7d228}" record_timestamp="1552068952208" record_key="548274787">
+<ceo_group_ceos record_uuid="{0aaf5353-dbdc-4dae-96a0-a609e4a7d228}" record_timestamp="1554882370897" record_key="548274787">
 <auto_id>548274787</auto_id>
 <ceo>3k_ytr_ancillary_weapon_2h_ball_mace_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -14959,7 +15751,7 @@
 <ceo_group>3k_ceo_trigger_traits_round_start_young_wood</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{ff285813-763f-4645-a63b-91ace8659faa}" record_timestamp="1550502126556" record_key="552633860">
+<ceo_group_ceos record_uuid="{ff285813-763f-4645-a63b-91ace8659faa}" record_timestamp="1551784875457" record_key="552633860">
 <auto_id>552633860</auto_id>
 <ceo>3k_ytr_ancillary_armour_he_mans_armour_unique</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_armour_character_specific_he_man</ceo_group>
@@ -15054,6 +15846,12 @@
 <ceo>3k_main_ancillary_mount_red_elite</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_earth_faction</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{488d05ef-ef5b-4bd3-9be6-0a78ad247cb6}" record_timestamp="1560327104283" record_key="565061395">
+<auto_id>565061395</auto_id>
+<ceo>ep_ceo_career_historical_wang_bao</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{bf8088d0-d3d2-45d3-9482-f5db8026d55e}" record_timestamp="1540218881181" record_key="565267157">
 <auto_id>565267157</auto_id>
@@ -15168,6 +15966,12 @@
 <ceo>3k_main_ancillary_accessory_six_secret_teachings</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_fire_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{1eca455c-3524-4464-bf59-1b6464ad1ac3}" record_timestamp="1562684664949" record_key="575431121">
+<auto_id>575431121</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_wood_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_fire_armours_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{62363394-7b72-478a-929c-133370256372}" record_timestamp="1540218881658" record_key="575501">
 <auto_id>575501</auto_id>
@@ -15301,7 +16105,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{5516ee3f-90da-4cd5-8d15-a9ccbacf7c5e}" record_timestamp="1552068949204" record_key="589220176">
+<ceo_group_ceos record_uuid="{5516ee3f-90da-4cd5-8d15-a9ccbacf7c5e}" record_timestamp="1554882370815" record_key="589220176">
 <auto_id>589220176</auto_id>
 <ceo>3k_main_ancillary_weapon_ceremonial_sword_exceptional</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -15312,6 +16116,12 @@
 <ceo>3k_main_ancillary_accessory_clay_warrior</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{cf489a9f-9b0b-4e96-8b61-2ed0c18dcffb}" record_timestamp="1553100956086" record_key="589953546">
+<auto_id>589953546</auto_id>
+<ceo>ep_ancillary_sima_yong_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_type_character_specific</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{60ce1c33-dd68-4283-b8c6-df7c59d59790}" record_timestamp="1541665851306" record_key="590333582">
 <auto_id>590333582</auto_id>
@@ -15403,6 +16213,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{020581b6-7925-43c8-84cd-d60b8c7e7a21}" record_timestamp="1553100957198" record_key="596357178">
+<auto_id>596357178</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_metal_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{99f028a6-45ba-4126-afe3-77c17b474994}" record_timestamp="1540218882941" record_key="597531107">
 <auto_id>597531107</auto_id>
 <ceo>3k_main_ancillary_accessory_jade_horse</ceo>
@@ -15426,6 +16242,12 @@
 <ceo>3k_main_ancillary_follower_engineer</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_metal_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{c5a81bfd-50c5-45eb-839d-b172595fa769}" record_timestamp="1555407989451" record_key="60121384">
+<auto_id>60121384</auto_id>
+<ceo>ep_ceo_career_historical_sima_ying</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{23893336-8038-4f58-9844-e1a04e1c125c}" record_timestamp="1507708194118" record_key="601853968">
 <auto_id>601853968</auto_id>
@@ -15505,6 +16327,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{2a2d3222-0a33-4d86-939c-a04e06e115d5}" record_timestamp="1553100957702" record_key="60574436">
+<auto_id>60574436</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_wood_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{c28fc751-ad19-4246-832e-d26edd36aed3}" record_timestamp="1540218883750" record_key="606159945">
 <auto_id>606159945</auto_id>
 <ceo>3k_main_ancillary_mount_white_stallion</ceo>
@@ -15515,6 +16343,12 @@
 <auto_id>606312760</auto_id>
 <ceo>3k_main_ancillary_armour_heavy_armour_wood_unique</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{5f197046-5def-4899-8010-195bd6438285}" record_timestamp="1553100955863" record_key="606912169">
+<auto_id>606912169</auto_id>
+<ceo>ep_ancillary_sima_lun_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_type_character_specific</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{1dc0e95a-ee27-4a2c-bab6-83f90f041a86}" record_timestamp="1540218882540" record_key="60713439">
@@ -15671,6 +16505,18 @@
 <auto_id>623567627</auto_id>
 <ceo>3k_main_ancillary_weapon_double_edged_sword_unique</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_weapon_1</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{35c20070-342a-4cd7-82e4-73548ebbcc85}" record_timestamp="1562684664473" record_key="624369307">
+<auto_id>624369307</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_fire_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{dae618c4-08e9-45c6-94fb-5903e17e884a}" record_timestamp="1562684664418" record_key="624970876">
+<auto_id>624970876</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_fire_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{4824562c-1651-415b-b510-cd6f00847d64}" record_timestamp="1502191378993" record_key="625246503">
@@ -15853,7 +16699,7 @@
 <ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{1ede9795-4e9c-46a4-81e0-a1687f20ce1e}" record_timestamp="1552060223991" record_key="641797682">
+<ceo_group_ceos record_uuid="{1ede9795-4e9c-46a4-81e0-a1687f20ce1e}" record_timestamp="1554882366975" record_key="641797682">
 <auto_id>641797682</auto_id>
 <ceo>3k_ytr_ceo_trait_physical_feared</ceo>
 <ceo_group>3k_main_ceo_group_trait_personality_initial_data</ceo_group>
@@ -15913,11 +16759,17 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_fire_weapons_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{8585d5d4-9a35-4aaa-9b51-9b137ed62c5f}" record_timestamp="1550502126658" record_key="646987960">
+<ceo_group_ceos record_uuid="{8585d5d4-9a35-4aaa-9b51-9b137ed62c5f}" record_timestamp="1551784875543" record_key="646987960">
 <auto_id>646987960</auto_id>
 <ceo>3k_ytr_ancillary_armour_zhang_kais_armour_unique</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_armour_character_all</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{35b46403-e800-432e-8eaf-129a08392281}" record_timestamp="1562684664884" record_key="64734882">
+<auto_id>64734882</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_fire_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_fire_armours_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{63c2b640-f711-459e-a71d-af8ab935085a}" record_timestamp="1547912567362" record_key="648392449">
 <auto_id>648392449</auto_id>
@@ -16129,6 +16981,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{8f7ceac1-ae5b-40c5-af2a-896150f28134}" record_timestamp="1560242839690" record_key="668348874">
+<auto_id>668348874</auto_id>
+<ceo>ep_ceo_career_historical_lu_ji</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{836f49ff-23bb-4982-9076-f53e482fb2dd}" record_timestamp="1524741881706" record_key="66863447">
 <auto_id>66863447</auto_id>
 <ceo>3k_main_ancillary_weapon_dual_axes_exceptional</ceo>
@@ -16147,7 +17005,7 @@
 <ceo_group>3k_ceo_trigger_traits_round_start_high_satisfaction_wood</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{50678a28-79e5-4bd9-b71b-aa6208b059e1}" record_timestamp="1552068951064" record_key="670188615">
+<ceo_group_ceos record_uuid="{50678a28-79e5-4bd9-b71b-aa6208b059e1}" record_timestamp="1554882370861" record_key="670188615">
 <auto_id>670188615</auto_id>
 <ceo>3k_main_ancillary_armour_heavy_armour_wood_and_fire_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -16194,6 +17052,12 @@
 <ceo>3k_ytr_ceo_trait_personality_stalwart</ceo>
 <ceo_group>3k_ceo_trigger_traits_battle_completed_metal</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{d7b793c4-4b6d-4b3f-ba45-fdf6eb63dc12}" record_timestamp="1562684663884" record_key="674248168">
+<auto_id>674248168</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_wood_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{f4d500a0-3d9f-4833-b2eb-32638473d012}" record_timestamp="1540218881293" record_key="675818674">
 <auto_id>675818674</auto_id>
@@ -16243,7 +17107,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_earth_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{cc1e46c5-6e1e-4d0a-be7e-e2cfbd031adf}" record_timestamp="1552068953545" record_key="678297754">
+<ceo_group_ceos record_uuid="{cc1e46c5-6e1e-4d0a-be7e-e2cfbd031adf}" record_timestamp="1554882370927" record_key="678297754">
 <auto_id>678297754</auto_id>
 <ceo>3k_main_ancillary_armour_medium_armour_wood_and_fire_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -16302,6 +17166,18 @@
 <ceo>3k_main_ancillary_follower_cryptographer</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{78453b57-c7fe-45ab-b26e-4b0c1c8a5b99}" record_timestamp="1562684664966" record_key="682879436">
+<auto_id>682879436</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_fire_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_fire_armours_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{e1bc0388-6ce9-467d-a1bc-59a82b772d22}" record_timestamp="1562684664447" record_key="683160385">
+<auto_id>683160385</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_wood_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{9a42dca8-e27d-4d42-86c0-e3ef0980252e}" record_timestamp="1541086967939" record_key="683577593">
 <auto_id>683577593</auto_id>
@@ -16735,6 +17611,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{d0bd8f57-ebac-4b8c-beac-5d295b148795}" record_timestamp="1562684664826" record_key="716775173">
+<auto_id>716775173</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_fire_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_fire_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{22cd2ac4-c8e6-4f3b-8949-ed70130665bb}" record_timestamp="1507708191810" record_key="717256502">
 <auto_id>717256502</auto_id>
 <ceo>3k_main_ancillary_armour_light_armour_earth_extraordinary</ceo>
@@ -16771,7 +17653,13 @@
 <ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{034fa4c1-a988-46d8-bcd9-d5f530f46190}" record_timestamp="1552060224066" record_key="722991739">
+<ceo_group_ceos record_uuid="{602560d6-4629-46de-be22-8318e0f4eb3a}" record_timestamp="1562684664337" record_key="722509184">
+<auto_id>722509184</auto_id>
+<ceo>ep_ancillary_armour_strategist_light_armour_water_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{034fa4c1-a988-46d8-bcd9-d5f530f46190}" record_timestamp="1554882366977" record_key="722991739">
 <auto_id>722991739</auto_id>
 <ceo>3k_ytr_ceo_trait_physical_feared</ceo>
 <ceo_group>3k_ceo_trigger_traits_battle_captive_executed_fire</ceo_group>
@@ -16885,6 +17773,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{52485dec-dc15-4578-a8d7-2fa3430f9990}" record_timestamp="1562684663930" record_key="733061957">
+<auto_id>733061957</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_fire_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{9eb0995d-a7ec-4953-ac41-f278a87b5896}" record_timestamp="1507708194997" record_key="733154643">
 <auto_id>733154643</auto_id>
 <ceo>3k_main_ancillary_weapon_moye</ceo>
@@ -16944,6 +17838,12 @@
 <ceo>3k_main_ancillary_weapon_one_handed_axe_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{dd9dc896-044a-4133-b62b-b054e9d4d63c}" record_timestamp="1562684663985" record_key="737114747">
+<auto_id>737114747</auto_id>
+<ceo>ep_ancillary_armour_strategist_light_armour_water_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{5f92a793-f9c9-4800-a6b3-645044adb165}" record_timestamp="1524741881394" record_key="73766707">
 <auto_id>73766707</auto_id>
@@ -17023,6 +17923,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_metal_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{99756476-a8a1-410a-a76c-241417733387}" record_timestamp="1553100956035" record_key="744045801">
+<auto_id>744045801</auto_id>
+<ceo>ep_ancillary_sima_ai_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_type_character_specific</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{78a9b6c8-21d3-40a1-982a-5661d75fa326}" record_timestamp="1502704198820" record_key="744176879">
 <auto_id>744176879</auto_id>
 <ceo>3k_main_ancillary_follower_concubine</ceo>
@@ -17034,6 +17940,12 @@
 <ceo>3k_main_ancillary_mount_black_thoroughbred</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{21716b06-8d99-4b78-9971-c9274acb1707}" record_timestamp="1553100955918" record_key="745653022">
+<auto_id>745653022</auto_id>
+<ceo>ep_ancillary_sima_jiong_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_type_character_specific</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{6e147b39-b2c7-4926-b393-487e7ab69753}" record_timestamp="1540218883389" record_key="747153497">
 <auto_id>747153497</auto_id>
@@ -17172,6 +18084,12 @@
 <ceo>3k_ytr_ancillary_weapon_staff_unique</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_weapon_faction_all</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{9cd24255-30cf-441a-a56b-797cef4cac42}" record_timestamp="1562684664840" record_key="762223403">
+<auto_id>762223403</auto_id>
+<ceo>ep_ancillary_armour_strategist_light_armour_water_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_building_ancillaries_fire_armours_faction</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{e6ba1dcc-bace-4e4c-b3ee-5231d33f0a2e}" record_timestamp="1540218882447" record_key="76237744">
 <auto_id>76237744</auto_id>
@@ -17359,6 +18277,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_animal_3</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{0b527200-e84d-4f36-8c1b-1e7f98b95264}" record_timestamp="1562684663950" record_key="782382334">
+<auto_id>782382334</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_wood_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{fab12688-ee7c-4aba-8685-2c41f1af052e}" record_timestamp="1540218881656" record_key="783525143">
 <auto_id>783525143</auto_id>
 <ceo>3k_main_ancillary_mount_grey_thoroughbred</ceo>
@@ -17377,7 +18301,7 @@
 <ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{a4ef7efe-da7c-4798-8c4a-3d073439f51c}" record_timestamp="1552068949661" record_key="785012599">
+<ceo_group_ceos record_uuid="{a4ef7efe-da7c-4798-8c4a-3d073439f51c}" record_timestamp="1554882370824" record_key="785012599">
 <auto_id>785012599</auto_id>
 <ceo>3k_main_ancillary_mount_grey_stallion</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -17593,7 +18517,7 @@
 <ceo_group>3k_ceo_trigger_traits_wound_recieved_earth</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{013ba957-0b7f-4527-a814-234437273541}" record_timestamp="1552068951152" record_key="807332469">
+<ceo_group_ceos record_uuid="{013ba957-0b7f-4527-a814-234437273541}" record_timestamp="1554882370864" record_key="807332469">
 <auto_id>807332469</auto_id>
 <ceo>3k_main_ancillary_weapon_double_edged_sword_exceptional</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -17683,6 +18607,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_fire_faction</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{4c3c86cf-9118-451e-a451-561206c1241b}" record_timestamp="1553100955971" record_key="816697294">
+<auto_id>816697294</auto_id>
+<ceo>ep_ancillary_sima_ying_armour_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_type_character_specific</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{df63a5b9-efb6-4e43-9652-adba423a4254}" record_timestamp="1547912567423" record_key="817472744">
 <auto_id>817472744</auto_id>
 <ceo>3k_main_ceo_protagonist</ceo>
@@ -17700,6 +18630,12 @@
 <ceo>3k_main_ancillary_accessory_iron_sickle</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{435cd678-6306-4d85-8349-30938d66fd25}" record_timestamp="1560242839685" record_key="81833882">
+<auto_id>81833882</auto_id>
+<ceo>ep_ceo_career_historical_zhang_fang</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{d6f36bd9-d278-402c-8d6b-c935c0971019}" record_timestamp="1540399028833" record_key="819329164">
 <auto_id>819329164</auto_id>
@@ -17755,6 +18691,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_accessory_character_all</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{e24627ea-3101-4822-8ca9-fd2b1615183e}" record_timestamp="1553100957298" record_key="825255044">
+<auto_id>825255044</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_metal_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{b30d057e-01b4-47c2-aab0-e2594c74306f}" record_timestamp="1540218882501" record_key="825767043">
 <auto_id>825767043</auto_id>
 <ceo>3k_main_ancillary_accessory_south_pointing_chariot</ceo>
@@ -17803,6 +18745,12 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_starting_ancillaries_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{a270255d-5464-4c0a-be41-94d76e2f90d3}" record_timestamp="1560327104422" record_key="829364553">
+<auto_id>829364553</auto_id>
+<ceo>ep_ceo_career_historical_jia_mo</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{9094185c-3e30-44e2-8056-c0519db21848}" record_timestamp="1527844445325" record_key="829701598">
 <auto_id>829701598</auto_id>
 <ceo>3k_main_ceo_trait_physical_handsome</ceo>
@@ -17838,6 +18786,12 @@
 <ceo>3k_ytr_ancillary_accessory_simple_carving_of_huang_lao</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_accessory_faction_all</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{39dd2fbc-3719-4e6c-a8b8-b4adde60ba8c}" record_timestamp="1562684664106" record_key="832846260">
+<auto_id>832846260</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_metal_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{5724b700-deef-46c6-8f26-b38613a21f8e}" record_timestamp="1540218881848" record_key="833844968">
 <auto_id>833844968</auto_id>
@@ -17881,7 +18835,7 @@
 <ceo_group>3k_ceo_trigger_traits_battle_captive_hired_metal</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{09c0928f-b323-464d-8e89-3fbe2abd640e}" record_timestamp="1552068953817" record_key="839256906">
+<ceo_group_ceos record_uuid="{09c0928f-b323-464d-8e89-3fbe2abd640e}" record_timestamp="1554882370932" record_key="839256906">
 <auto_id>839256906</auto_id>
 <ceo>3k_main_ancillary_armour_medium_armour_earth_extraordinary</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -17947,6 +18901,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_armour_type_character_specific</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{4debe655-ea64-4128-9b5f-17a54721c0cb}" record_timestamp="1555407989371" record_key="844022156">
+<auto_id>844022156</auto_id>
+<ceo>ep_ceo_career_historical_sima_liang</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{924254fe-7f84-4358-8056-7cac2fc0c47a}" record_timestamp="1502704184444" record_key="844282333">
 <auto_id>844282333</auto_id>
 <ceo>3k_main_ancillary_mount_grey_horse</ceo>
@@ -17988,6 +18948,18 @@
 <ceo>3k_main_ancillary_follower_farmer</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{e8fb32d5-9415-47d1-87ee-b434e60a0248}" record_timestamp="1553100956687" record_key="850965987">
+<auto_id>850965987</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_fire_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_fire</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{4838a0f2-0b41-4db5-a94d-a644b89faf03}" record_timestamp="1562684664250" record_key="851743453">
+<auto_id>851743453</auto_id>
+<ceo>ep_ancillary_armour_light_armour_earth_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{44722e45-283c-4fa7-ae68-3588cb0a11f3}" record_timestamp="1541086965829" record_key="851932956">
 <auto_id>851932956</auto_id>
@@ -18127,6 +19099,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_accessory_faction_all</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{c1b560be-a21a-4a52-97e8-8b29afe7cf41}" record_timestamp="1553100957599" record_key="869234108">
+<auto_id>869234108</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_earth_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{95a66b77-39f0-4e5e-a255-2e83437fe8c4}" record_timestamp="1547912567668" record_key="869298459">
 <auto_id>869298459</auto_id>
 <ceo>3k_main_ceo_trait_personality_competative</ceo>
@@ -18145,6 +19123,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_earth_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{7a804fe3-de91-4039-af78-2f1d0078e624}" record_timestamp="1560327104434" record_key="871187969">
+<auto_id>871187969</auto_id>
+<ceo>ep_ceo_career_historical_jia_mi</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{71046c17-9b16-4bfd-b9d9-03afce4d89f5}" record_timestamp="1507708190335" record_key="871367732">
 <auto_id>871367732</auto_id>
 <ceo>3k_main_ancillary_mount_yellow_hoofed_thunder</ceo>
@@ -18157,7 +19141,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_assignment_black_market_investigation_faction</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{3b75cf6e-a3fb-4dec-a6c2-cfba742e1ea9}" record_timestamp="1552068948717" record_key="872082390">
+<ceo_group_ceos record_uuid="{3b75cf6e-a3fb-4dec-a6c2-cfba742e1ea9}" record_timestamp="1554882370794" record_key="872082390">
 <auto_id>872082390</auto_id>
 <ceo>3k_main_ancillary_armour_medium_armour_earth_and_metal_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -18169,7 +19153,7 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{cf2af351-c343-472c-9b33-bb4b4796e23f}" record_timestamp="1552068951504" record_key="874260470">
+<ceo_group_ceos record_uuid="{cf2af351-c343-472c-9b33-bb4b4796e23f}" record_timestamp="1554882370876" record_key="874260470">
 <auto_id>874260470</auto_id>
 <ceo>3k_main_ancillary_weapon_dual_swords_refined</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -18215,6 +19199,12 @@
 <auto_id>878024691</auto_id>
 <ceo>3k_main_ancillary_accessory_book_of_ceremonies</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_accessory_faction_all</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{4a76813a-6b6d-4fdb-9a01-8e7bd62b020f}" record_timestamp="1553100957096" record_key="878061941">
+<auto_id>878061941</auto_id>
+<ceo>ep_ancillary_armour_light_armour_metal_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{1aab03d8-3733-4ff2-b17b-7cd79bb3416d}" record_timestamp="1540218882628" record_key="878250514">
@@ -18355,6 +19345,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{b85a1d15-f084-4492-b923-1c1cef5dbaf7}" record_timestamp="1560242839687" record_key="889621351">
+<auto_id>889621351</auto_id>
+<ceo>ep_ceo_career_historical_qi_sheng</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{4d8082ef-9fa2-488e-82ca-f8f48ae95acc}" record_timestamp="1540218881678" record_key="892305004">
 <auto_id>892305004</auto_id>
 <ceo>3k_main_ancillary_mount_black_elite</ceo>
@@ -18365,6 +19361,12 @@
 <auto_id>892461028</auto_id>
 <ceo>3k_main_ancillary_accessory_celestial_sphere</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_water_faction_only</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{30b80683-04a2-4427-a3ae-bcf074a4e946}" record_timestamp="1553100957398" record_key="892853779">
+<auto_id>892853779</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_fire_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
 <trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{ee878310-2f55-454f-9782-831f1e5b23a8}" record_timestamp="1541086962743" record_key="893192725">
@@ -18583,6 +19585,12 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{06b80751-45b1-43dd-b534-934ea5b2a518}" record_timestamp="1562684664084" record_key="916688299">
+<auto_id>916688299</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_earth_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{4008ba69-4e74-4cde-bd12-9b7581ad1acf}" record_timestamp="1540218883049" record_key="916992882">
 <auto_id>916992882</auto_id>
 <ceo>3k_main_ancillary_follower_elite_trainer</ceo>
@@ -18594,6 +19602,18 @@
 <ceo>3k_ytr_ceo_trait_personality_people_cheerful</ceo>
 <ceo_group>3k_main_ceo_group_trait_personality_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{f1ecabec-7999-4b8f-a2e1-8f0dbd6341f7}" record_timestamp="1562684664432" record_key="918462564">
+<auto_id>918462564</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_metal_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_2</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{d92f3234-453b-4e89-8cc7-1dfeed1c5219}" record_timestamp="1562684664294" record_key="918499471">
+<auto_id>918499471</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_fire_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{742de354-c553-4f07-b09b-be25fd840b86}" record_timestamp="1502704191045" record_key="918524305">
 <auto_id>918524305</auto_id>
@@ -18619,7 +19639,7 @@
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_water_faction_only</ceo_group>
 <trigger_weighting>0.1</trigger_weighting>
 </ceo_group_ceos>
-<ceo_group_ceos record_uuid="{9e8bff28-5de6-4178-b0d4-5aa2646d68ae}" record_timestamp="1552068950221" record_key="922132543">
+<ceo_group_ceos record_uuid="{9e8bff28-5de6-4178-b0d4-5aa2646d68ae}" record_timestamp="1554882370837" record_key="922132543">
 <auto_id>922132543</auto_id>
 <ceo>3k_main_ancillary_mount_red_stallion</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_post_battle_ancillaries</ceo_group>
@@ -18775,6 +19795,12 @@
 <ceo_group>3k_ceo_trigger_traits_round_start_metal</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{f42481c4-23c5-40f7-9fdb-7c9449f84263}" record_timestamp="1562684664519" record_key="942592696">
+<auto_id>942592696</auto_id>
+<ceo>ep_ancillary_armour_strategist_light_armour_water_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_1</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{9c6b8720-5862-4aea-afb9-8dfd4a39f84b}" record_timestamp="1524741881962" record_key="943055046">
 <auto_id>943055046</auto_id>
 <ceo>3k_main_ancillary_weapon_ceremonial_sword_exceptional</ceo>
@@ -18841,11 +19867,23 @@
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_water_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{81400d27-fadb-4cf0-949e-793814d2e417}" record_timestamp="1553100957547" record_key="952146205">
+<auto_id>952146205</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_fire_extraordinary</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{fe905247-6939-48ac-9c6b-443ca4d66193}" record_timestamp="1502191373707" record_key="953051395">
 <auto_id>953051395</auto_id>
 <ceo>3k_main_ceo_career_generated_villager_earth</ceo>
 <ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{65ba3e79-0ec1-42b5-b337-c04980d82e98}" record_timestamp="1553100957347" record_key="953227705">
+<auto_id>953227705</auto_id>
+<ceo>ep_ancillary_armour_light_armour_earth_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{a3a184ba-6503-44b4-a0e3-bc00a96591e8}" record_timestamp="1507708190699" record_key="953637076">
 <auto_id>953637076</auto_id>
@@ -18949,6 +19987,12 @@
 <ceo_group>3k_ceo_trigger_traits_captives_ransom_water</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{3d9aea06-ecdf-49e0-885c-f4517639ae5d}" record_timestamp="1553100957652" record_key="962917678">
+<auto_id>962917678</auto_id>
+<ceo>ep_ancillary_armour_heavy_armour_fire_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{48cec32b-b9a8-4316-9a9a-6b7caa13de63}" record_timestamp="1540218882655" record_key="963903745">
 <auto_id>963903745</auto_id>
 <ceo>3k_main_ancillary_accessory_book_of_mountains_and_seas</ceo>
@@ -19015,6 +20059,18 @@
 <ceo_group>3k_main_ceo_group_trait_personality_initial_data</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
+<ceo_group_ceos record_uuid="{8afd4db8-1578-4015-bee4-fdf9e3f701ce}" record_timestamp="1562684664322" record_key="97474841">
+<auto_id>97474841</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_wood_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_craftsmen_armour_3</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{4f0aa943-3b45-4cad-ad2d-7af519ca25aa}" record_timestamp="1562684664808" record_key="97523627">
+<auto_id>97523627</auto_id>
+<ceo>ep_ancillary_armour_medium_armour_fire_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_fire_faction</ceo_group>
+<trigger_weighting>0.1</trigger_weighting>
+</ceo_group_ceos>
 <ceo_group_ceos record_uuid="{1dc6f1ec-bae0-4c43-b854-55351ed72345}" record_timestamp="1541086960572" record_key="975932019">
 <auto_id>975932019</auto_id>
 <ceo>3k_main_ancillary_accessory_classic_of_filial_piety</ceo>
@@ -19026,6 +20082,12 @@
 <ceo>3k_ytr_ancillary_accessory_stone_statue_of_zhang_bao</ceo>
 <ceo_group>3k_main_ceo_group_ancillary_trigger_character_starting_equipment_wood_faction</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{b581b79c-4d7d-4841-89db-997e245ab2b7}" record_timestamp="1553100957147" record_key="977355118">
+<auto_id>977355118</auto_id>
+<ceo>ep_ancillary_armour_strategist_light_armour_water_unique</ceo>
+<ceo_group>3k_main_ceo_group_ancillary_armour_faction_all</ceo_group>
+<trigger_weighting>0.25</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{6e751a97-d42b-4139-a846-c5fdb4edf242}" record_timestamp="1540218883008" record_key="977990050">
 <auto_id>977990050</auto_id>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="_kv_rules.xsd" export_time="Mon May 13 09:13:47 2019" revision="323" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1472/client" export_user="bob">
-<edit_uuid>78eb97c8-ae8f-4868-aff7-b66458ba12d4</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="_kv_rules.xsd" export_time="Mon May 13 17:43:06 2019" revision="302" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1465/dave" export_user="bob">
+<edit_uuid>f8b08ef5-3459-4396-a98f-841d31d9fe5a</edit_uuid>
 <_kv_rules record_uuid="{78def7a4-c1cb-4e7a-8b58-cd98daa5472a}" record_timestamp="1478264614410" record_key="armour_roll_lower_cap">
 <description>the minimum percentage of armour roll that can be applied</description>
 <key>armour_roll_lower_cap</key>
@@ -111,7 +111,7 @@
 <key>boiling_oil_flow_duration</key>
 <value>5</value>
 </_kv_rules>
-<_kv_rules record_uuid="{11194789-c5e0-4b62-9b3c-69a2f2269489}" record_timestamp="1551692846115" record_key="braced_angle_for_collision_damage">
+<_kv_rules record_uuid="{11194789-c5e0-4b62-9b3c-69a2f2269489}" record_timestamp="1554880717562" record_key="braced_angle_for_collision_damage">
 <description>half-angle, where an entity can be considered as braced to apply a braced mass multiplier to collision damage</description>
 <key>braced_angle_for_collision_damage</key>
 <value>60</value>
@@ -886,7 +886,7 @@
 <key>melee_weapon_building_damage_mult</key>
 <value>1</value>
 </_kv_rules>
-<_kv_rules record_uuid="{ed288a7e-ce9c-4e5a-a4bd-c2d072823c6a}" record_timestamp="1554911061687" record_key="minimum_melee_attack_interval">
+<_kv_rules record_uuid="{ed288a7e-ce9c-4e5a-a4bd-c2d072823c6a}" record_timestamp="1556562147818" record_key="minimum_melee_attack_interval">
 <description>The minimum possible melee attack interval in seconds. Dictates the fastest speed at which entities can fight. Needed because stat can max out, leading to a time of 0s</description>
 <key>minimum_melee_attack_interval</key>
 <value>0.5</value>
@@ -1031,7 +1031,7 @@
 <key>projectile_arrow_deflect_chance_units</key>
 <value>0.35</value>
 </_kv_rules>
-<_kv_rules record_uuid="{c3ed010c-86a5-478f-93d2-b1f03cffcb3e}" record_timestamp="1557735227973" record_key="projectile_building_vs_single_entity_general_calibration_area_mod">
+<_kv_rules record_uuid="{c3ed010c-86a5-478f-93d2-b1f03cffcb3e}" record_timestamp="1557765768836" record_key="projectile_building_vs_single_entity_general_calibration_area_mod">
 <description>Used to modify the target area for tower projectiles when against a single entity general unit</description>
 <key>projectile_building_vs_single_entity_general_calibration_area_mod</key>
 <value>15</value>
@@ -1076,12 +1076,12 @@
 <key>refusal_chance_vs_pike_phalanx</key>
 <value>0</value>
 </_kv_rules>
-<_kv_rules record_uuid="{4f70966e-ec6c-48e6-85a6-06e6ef7a2b25}" record_timestamp="1551801634165" record_key="rules_charge_reflections_mass_ratio_override">
+<_kv_rules record_uuid="{4f70966e-ec6c-48e6-85a6-06e6ef7a2b25}" record_timestamp="1554881202168" record_key="rules_charge_reflections_mass_ratio_override">
 <description>For charge reflections, this value will be used as the mass ratio</description>
 <key>rules_charge_reflections_mass_ratio_override</key>
 <value>4</value>
 </_kv_rules>
-<_kv_rules record_uuid="{76b283f1-b6a6-4c66-ac56-b4314bde51c3}" record_timestamp="1554993804275" record_key="rules_charge_reflections_mass_ratio_override_single_entity_heroes">
+<_kv_rules record_uuid="{76b283f1-b6a6-4c66-ac56-b4314bde51c3}" record_timestamp="1554881202168" record_key="rules_charge_reflections_mass_ratio_override_single_entity_heroes">
 <description>For charge reflections involving single entity heroes as the charger, this value will be used as the mass ratio</description>
 <key>rules_charge_reflections_mass_ratio_override_single_entity_heroes</key>
 <value>2.5</value>
@@ -1106,12 +1106,12 @@
 <key>settlement_destruction_max_melee_defence_penalty</key>
 <value>0</value>
 </_kv_rules>
-<_kv_rules record_uuid="{92188975-73ad-4c5f-b11d-c8ccd923c1cb}" record_timestamp="1551813561768" record_key="shield_defence_angle_melee">
+<_kv_rules record_uuid="{92188975-73ad-4c5f-b11d-c8ccd923c1cb}" record_timestamp="1436440577642" record_key="shield_defence_angle_melee">
 <description>Shield defense half-angle vs melee (deg)</description>
 <key>shield_defence_angle_melee</key>
 <value>75</value>
 </_kv_rules>
-<_kv_rules record_uuid="{06a9221b-2a54-4bce-ab87-75c075995322}" record_timestamp="1551813561768" record_key="shield_defence_angle_missile">
+<_kv_rules record_uuid="{06a9221b-2a54-4bce-ab87-75c075995322}" record_timestamp="1436440577662" record_key="shield_defence_angle_missile">
 <description>Shield defense half-angle vs missile (deg)</description>
 <key>shield_defence_angle_missile</key>
 <value>75</value>
@@ -1246,7 +1246,7 @@
 <key>unspottable_unit_reveal_distance</key>
 <value>20</value>
 </_kv_rules>
-<_kv_rules record_uuid="{b6f87ede-fa78-4902-bf6f-a404a06f4534}" record_timestamp="1551377999614" record_key="ward_save_max_value">
+<_kv_rules record_uuid="{b6f87ede-fa78-4902-bf6f-a404a06f4534}" record_timestamp="1428912929887" record_key="ward_save_max_value">
 <description>The maximum damage modification available</description>
 <key>ward_save_max_value</key>
 <value>100</value>

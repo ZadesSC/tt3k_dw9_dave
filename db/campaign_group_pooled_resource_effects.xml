@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_group_pooled_resource_effects.xsd" export_time="Wed Mar 27 16:57:59 2019" revision="25" export_branch="C:/Users/rene.vravko/AppData/Roaming/TWDaemon/1406/dave" export_user="bob">
-<edit_uuid>6ed01394-4fac-4939-8218-57387c8f6b9d</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_group_pooled_resource_effects.xsd" export_time="Mon Jul 1 11:00:57 2019" revision="38" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1550/dave" export_user="bob">
+<edit_uuid>b1625d5a-6a46-4847-bab6-70707606f0df</edit_uuid>
 <campaign_group_pooled_resource_effects record_uuid="{5e01192b-bb86-40ce-8f57-6cc9a4d5bea7}" record_timestamp="1541446876796" record_key="3k_main_campaign_group_food_easy_shortage_tier_1ABSOLUTE_VALUE">
 <campaign_group>3k_main_campaign_group_food_easy_shortage_tier_1</campaign_group>
 <effect_bundle>3k_main_effect_bundle_food_easy_shortage_tier_1</effect_bundle>
@@ -340,6 +340,21 @@
 <campaign_group>3k_main_campaign_group_pooled_resource_lineage_level_3</campaign_group>
 <effect_bundle>3k_main_effect_bundle_pooled_resource_lineage_level_3</effect_bundle>
 <effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{b5e747a6-3290-432a-b39b-a92d8f671087}" record_timestamp="1561975257534" record_key="3k_main_campaign_group_pooled_resource_satisfaction_1ABSOLUTE_VALUE">
+<campaign_group>3k_main_campaign_group_pooled_resource_satisfaction_1</campaign_group>
+<effect_bundle>3k_main_effect_bundle_satisfaction_1</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{dff62ed7-2ea7-4e24-b50b-05b5b55386d3}" record_timestamp="1561975257537" record_key="3k_main_campaign_group_pooled_resource_satisfaction_2ABSOLUTE_VALUE">
+<campaign_group>3k_main_campaign_group_pooled_resource_satisfaction_2</campaign_group>
+<effect_bundle>3k_main_effect_bundle_satisfaction_2</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{500c9c71-cf1e-42c3-a79d-88c92fea687e}" record_timestamp="1561975257530" record_key="3k_main_campaign_group_pooled_resource_satisfaction_3ABSOLUTE_VALUE">
+<campaign_group>3k_main_campaign_group_pooled_resource_satisfaction_3</campaign_group>
+<effect_bundle>3k_main_effect_bundle_satisfaction_3</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
 </campaign_group_pooled_resource_effects>
 <campaign_group_pooled_resource_effects record_uuid="{9b0b72be-26b7-42f6-955a-9e1a4cc52ef4}" record_timestamp="1521646467615" record_key="3k_main_campaign_group_pooled_resource_unity_level_1PERCENTAGE_OF_CAPACITY">
 <campaign_group>3k_main_campaign_group_pooled_resource_unity_level_1</campaign_group>
@@ -814,6 +829,446 @@
 <campaign_group_pooled_resource_effects record_uuid="{ab4dd921-67d6-491a-b982-c693bdd7f0c0}" record_timestamp="1541446876797" record_key="3k_main_campaign_group_supply_stockpile_very_hard_tightABSOLUTE_VALUE">
 <campaign_group>3k_main_campaign_group_supply_stockpile_very_hard_tight</campaign_group>
 <effect_bundle>3k_main_effect_bundle_supply_stockpile_very_hard_2_tight</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{3683a6cb-608d-4c9e-ace3-ed1e20408a99}" record_timestamp="1560856551278" record_key="ep_campaign_group_pooled_resource_brain_level_0ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_brain_level_0</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_brain_level_0</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{e7d0d9d4-baf7-49b3-be21-d5d5e2fcb147}" record_timestamp="1558624384548" record_key="ep_campaign_group_pooled_resource_brain_level_1ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_brain_level_1</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_brain_level_1</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{19ef8155-73de-49e8-9fca-9cdbedfa2707}" record_timestamp="1558624384622" record_key="ep_campaign_group_pooled_resource_brain_level_2ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_brain_level_2</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_brain_level_2</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{07b6e5c6-7943-4570-b21c-14a516b54bd9}" record_timestamp="1558624384585" record_key="ep_campaign_group_pooled_resource_brain_level_3ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_brain_level_3</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_brain_level_3</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{514ad55f-5a9e-443e-98a2-afa2d15703ab}" record_timestamp="1558624384696" record_key="ep_campaign_group_pooled_resource_brain_level_4ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_brain_level_4</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_brain_level_4</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{e86d4dce-1fab-4f27-ac08-519e5a93f966}" record_timestamp="1558624384659" record_key="ep_campaign_group_pooled_resource_brain_level_5ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_brain_level_5</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_brain_level_5</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{6b8ba019-0629-4ae8-bd0d-889bee8bca29}" record_timestamp="1559807596788" record_key="ep_campaign_group_pooled_resource_control_level_1PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_control_level_1</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_control_level_1</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{71761a0f-fa02-4a61-8764-67b3331ee94c}" record_timestamp="1559807596476" record_key="ep_campaign_group_pooled_resource_control_level_2PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_control_level_2</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_control_level_2</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{8c71e9e4-e106-492d-b044-cefc3ebe249b}" record_timestamp="1559807596514" record_key="ep_campaign_group_pooled_resource_control_level_3PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_control_level_3</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_control_level_3</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{532a6bab-91c5-43ee-9514-a1747cb5ee42}" record_timestamp="1559807596550" record_key="ep_campaign_group_pooled_resource_control_level_4PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_control_level_4</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_control_level_4</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{8c93d1c8-746c-40ea-8d75-cf34d274aa7c}" record_timestamp="1559807597107" record_key="ep_campaign_group_pooled_resource_control_level_5PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_control_level_5</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_control_level_5</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{f8a6cf52-9928-4c10-9d77-294f09c2f01c}" record_timestamp="1559807596589" record_key="ep_campaign_group_pooled_resource_demesne_level_1ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_demesne_level_1</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_demesne_level_1</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{59d81e9b-c1e6-411f-8ff8-a52369da2838}" record_timestamp="1559807596998" record_key="ep_campaign_group_pooled_resource_demesne_level_2ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_demesne_level_2</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_demesne_level_2</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{4dba7b3e-c587-4f75-8cd3-1873fe9ab1b7}" record_timestamp="1559807596365" record_key="ep_campaign_group_pooled_resource_demesne_level_3ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_demesne_level_3</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_demesne_level_3</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{ac8c0734-b9e7-4f37-b4e6-50c5ef4b80cb}" record_timestamp="1559807596402" record_key="ep_campaign_group_pooled_resource_demesne_level_4ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_demesne_level_4</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_demesne_level_4</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{3729a28e-85a0-4828-a6d0-5d597420879b}" record_timestamp="1559807596438" record_key="ep_campaign_group_pooled_resource_demesne_level_5ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_demesne_level_5</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_demesne_level_5</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{24204688-e21d-47c3-8a0c-4d6a7734880b}" record_timestamp="1559807596827" record_key="ep_campaign_group_pooled_resource_demesne_level_6ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_demesne_level_6</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_demesne_level_6</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{19afa9e7-421b-4eb8-94d3-3a626d4a5912}" record_timestamp="1560856551233" record_key="ep_campaign_group_pooled_resource_fist_level_0ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_fist_level_0</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_fist_level_0</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{781328cf-d84e-4455-934e-c1d0594145d4}" record_timestamp="1558624384288" record_key="ep_campaign_group_pooled_resource_fist_level_1ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_fist_level_1</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_fist_level_1</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{9fe92aef-c394-498d-9365-57d610d38994}" record_timestamp="1558624384252" record_key="ep_campaign_group_pooled_resource_fist_level_2ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_fist_level_2</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_fist_level_2</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{5234b4a5-ac50-4e3a-9937-b7d5942666cf}" record_timestamp="1558624384363" record_key="ep_campaign_group_pooled_resource_fist_level_3ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_fist_level_3</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_fist_level_3</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{b7d58cae-fbf2-4630-a5ed-e33e9a94f53c}" record_timestamp="1558624384327" record_key="ep_campaign_group_pooled_resource_fist_level_4ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_fist_level_4</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_fist_level_4</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{699f48f8-d943-4075-9b03-a1aea2b48311}" record_timestamp="1558624384436" record_key="ep_campaign_group_pooled_resource_fist_level_5ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_fist_level_5</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_fist_level_5</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{3dd55043-2c98-4b45-8ec3-ddbd91a9a078}" record_timestamp="1560856551302" record_key="ep_campaign_group_pooled_resource_heart_level_0ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_heart_level_0</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_heart_level_0</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{775132f5-3499-4bcf-8583-54ff32d540c4}" record_timestamp="1558624384398" record_key="ep_campaign_group_pooled_resource_heart_level_1ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_heart_level_1</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_heart_level_1</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{9479ca91-81be-4413-b5a2-03e7143ae6f6}" record_timestamp="1558624384510" record_key="ep_campaign_group_pooled_resource_heart_level_2ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_heart_level_2</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_heart_level_2</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{cf1600d0-2a28-4db4-8a59-6c7b09a49c1d}" record_timestamp="1558624384473" record_key="ep_campaign_group_pooled_resource_heart_level_3ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_heart_level_3</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_heart_level_3</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{7386b2a2-2614-4969-ad8d-a4e98bc0a0f7}" record_timestamp="1558624384770" record_key="ep_campaign_group_pooled_resource_heart_level_4ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_heart_level_4</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_heart_level_4</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{fd1ae5c6-e687-4b7b-83ad-e264fa2704a5}" record_timestamp="1558624384734" record_key="ep_campaign_group_pooled_resource_heart_level_5ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_heart_level_5</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_heart_level_5</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{f7da7361-95d7-4438-8040-e0faf7c4f27b}" record_timestamp="1559581899017" record_key="ep_campaign_group_pooled_resource_influence_level_1PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_influence_level_1</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_influence_level_1</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{0224dcc8-e1dc-4910-9978-d700ec2349be}" record_timestamp="1559581898973" record_key="ep_campaign_group_pooled_resource_influence_level_2PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_influence_level_2</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_influence_level_2</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{da441121-bf2f-4432-bdd2-207d5ca324ec}" record_timestamp="1559581898882" record_key="ep_campaign_group_pooled_resource_influence_level_3PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_influence_level_3</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_influence_level_3</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{60cafcf6-11d1-4866-abe5-94e75e9f097e}" record_timestamp="1559581898783" record_key="ep_campaign_group_pooled_resource_influence_level_4PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_influence_level_4</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_influence_level_4</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{0d1b0ccd-832c-4e6b-82a1-404f0c844e11}" record_timestamp="1560258039214" record_key="ep_campaign_group_pooled_resource_influence_level_5PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_influence_level_5</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_influence_level_5</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{f1857df8-62f2-43cf-afb2-e30de1de019c}" record_timestamp="1559807596865" record_key="ep_campaign_group_pooled_resource_jurisdiction_level_1PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_jurisdiction_level_1</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_jurisdiction_level_1</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{b420a8f0-b26e-45ff-a3c6-de43b37244ff}" record_timestamp="1559807596910" record_key="ep_campaign_group_pooled_resource_jurisdiction_level_2PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_jurisdiction_level_2</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_jurisdiction_level_2</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{6e7d5796-8f51-45c1-941c-86a16a5f1086}" record_timestamp="1559807596949" record_key="ep_campaign_group_pooled_resource_jurisdiction_level_3PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_jurisdiction_level_3</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_jurisdiction_level_3</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{cdd14c80-5e0a-4890-8d29-6a48e6e21015}" record_timestamp="1559807596632" record_key="ep_campaign_group_pooled_resource_jurisdiction_level_4PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_jurisdiction_level_4</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_jurisdiction_level_4</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{491f7ff3-7633-4521-bb4d-6bcb3a1c5002}" record_timestamp="1559807596672" record_key="ep_campaign_group_pooled_resource_jurisdiction_level_5PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_jurisdiction_level_5</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_jurisdiction_level_5</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{27b34ade-23a0-4d1a-b067-2f184abb8edf}" record_timestamp="1559807596712" record_key="ep_campaign_group_pooled_resource_jurisdiction_level_6PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_jurisdiction_level_6</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_jurisdiction_level_6</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{98fc44cf-920e-42ce-8cfa-f2854e07ec12}" record_timestamp="1559807596751" record_key="ep_campaign_group_pooled_resource_jurisdiction_level_7PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_jurisdiction_level_7</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_jurisdiction_level_7</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{64504492-2e14-4cae-a655-e4037bf53f5f}" record_timestamp="1560856551256" record_key="ep_campaign_group_pooled_resource_money_level_0ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_money_level_0</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_money_level_0</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{abc20b3a-f0af-486b-a2e2-8920127eee64}" record_timestamp="1558624384845" record_key="ep_campaign_group_pooled_resource_money_level_1ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_money_level_1</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_money_level_1</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{512743b9-7c21-4e2d-9824-4781663b517d}" record_timestamp="1558624384808" record_key="ep_campaign_group_pooled_resource_money_level_2ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_money_level_2</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_money_level_2</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{ff45116d-d407-42cf-975f-30ef4637cae8}" record_timestamp="1558624384921" record_key="ep_campaign_group_pooled_resource_money_level_3ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_money_level_3</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_money_level_3</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{db1da9b9-bfa4-46d0-b941-2ac723892d14}" record_timestamp="1558624384883" record_key="ep_campaign_group_pooled_resource_money_level_4ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_money_level_4</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_money_level_4</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{eec482d0-07de-46c5-bb1d-0445c528f5bd}" record_timestamp="1558624384958" record_key="ep_campaign_group_pooled_resource_money_level_5ABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_pooled_resource_money_level_5</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_alignment_money_level_5</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{907582b0-b86b-4fc0-a2e4-b675b76a4cf5}" record_timestamp="1559581899067" record_key="ep_campaign_group_pooled_resource_reformation_level_1PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_reformation_level_1</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_reformation_level_1</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{a9909bb1-31b1-45cb-8c83-358daf9b6abc}" record_timestamp="1559581898929" record_key="ep_campaign_group_pooled_resource_reformation_level_2PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_reformation_level_2</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_reformation_level_2</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{e289d41e-56a5-48b9-8ebf-64eb2352a967}" record_timestamp="1559581898835" record_key="ep_campaign_group_pooled_resource_reformation_level_3PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_reformation_level_3</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_reformation_level_3</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{5dab4c5c-7479-4f65-b918-3267907c80c6}" record_timestamp="1559581898738" record_key="ep_campaign_group_pooled_resource_reformation_level_4PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_reformation_level_4</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_reformation_level_4</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{26da9c7f-34d5-4d39-828b-74ab271c54cf}" record_timestamp="1560170572004" record_key="ep_campaign_group_pooled_resource_reformation_level_5PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_reformation_level_5</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_reformation_level_5</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{ab47d90e-a45f-4c62-9971-8cf89c7da6ff}" record_timestamp="1559581898640" record_key="ep_campaign_group_pooled_resource_sima_wei_level_1PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_sima_wei_level_1</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_sima_wei_level_1</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{2f658d25-dc37-4cf7-86cb-905074009316}" record_timestamp="1559581898538" record_key="ep_campaign_group_pooled_resource_sima_wei_level_2PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_sima_wei_level_2</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_sima_wei_level_2</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{3c1f3b6a-595b-4663-ba02-5e332202c5c4}" record_timestamp="1559581898443" record_key="ep_campaign_group_pooled_resource_sima_wei_level_3PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_sima_wei_level_3</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_sima_wei_level_3</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{1d86146a-1e10-4548-8537-3bc39662f032}" record_timestamp="1559581899111" record_key="ep_campaign_group_pooled_resource_sima_wei_level_4PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_sima_wei_level_4</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_sima_wei_level_4</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{de93932d-0c99-43d3-b5db-4862b2f0322f}" record_timestamp="1559581898695" record_key="ep_campaign_group_pooled_resource_subterfuge_level_1PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_subterfuge_level_1</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_subterfuge_level_1</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{4fd5bdd2-18c9-425b-86e3-72c7b5d2ff14}" record_timestamp="1559581898596" record_key="ep_campaign_group_pooled_resource_subterfuge_level_2PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_subterfuge_level_2</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_subterfuge_level_2</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{37cdf69f-9c71-4a8d-8318-87178bc68b28}" record_timestamp="1559581898490" record_key="ep_campaign_group_pooled_resource_subterfuge_level_3PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_subterfuge_level_3</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_subterfuge_level_3</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{f9b9de38-f106-4a71-bc30-8d67bcfb6862}" record_timestamp="1559581898395" record_key="ep_campaign_group_pooled_resource_subterfuge_level_4PERCENTAGE_OF_CAPACITY">
+<campaign_group>ep_campaign_group_pooled_resource_subterfuge_level_4</campaign_group>
+<effect_bundle>ep_effect_bundle_pooled_resource_subterfuge_level_4</effect_bundle>
+<effect_type>PERCENTAGE_OF_CAPACITY</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{27b85cb1-f246-4bfc-b756-6188e41f1898}" record_timestamp="1561375875238" record_key="ep_campaign_group_population_city_highABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_city_high</campaign_group>
+<effect_bundle>ep_effect_bundle_population_city_high</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{1b13d40e-8a2f-452a-98d9-c580a55f197e}" record_timestamp="1561375875563" record_key="ep_campaign_group_population_city_lowABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_city_low</campaign_group>
+<effect_bundle>ep_effect_bundle_population_city_low</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{804b4b34-528d-4b2c-acaf-3b46bbcb509b}" record_timestamp="1561375875727" record_key="ep_campaign_group_population_city_mediumABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_city_medium</campaign_group>
+<effect_bundle>ep_effect_bundle_population_city_medium</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{2d504659-3ed5-4b20-a9fb-d85c53ddc99c}" record_timestamp="1561375875051" record_key="ep_campaign_group_population_city_super_highABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_city_super_high</campaign_group>
+<effect_bundle>ep_effect_bundle_population_city_super_high</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{367ac35c-b430-4c9c-9779-d1013eb8997a}" record_timestamp="1561375875400" record_key="ep_campaign_group_population_city_very_highABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_city_very_high</campaign_group>
+<effect_bundle>ep_effect_bundle_population_city_very_high</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{543ba623-4690-4f45-9a11-6725946c6f92}" record_timestamp="1561375874703" record_key="ep_campaign_group_population_city_very_lowABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_city_very_low</campaign_group>
+<effect_bundle>ep_effect_bundle_population_city_very_low</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{fdafa33e-f020-4961-80db-b7ce261ed544}" record_timestamp="1561375874868" record_key="ep_campaign_group_population_metropolis_highABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_metropolis_high</campaign_group>
+<effect_bundle>ep_effect_bundle_population_metropolis_high</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{ea676edb-f832-4cb9-9ebe-085b2e4f9afe}" record_timestamp="1561375874375" record_key="ep_campaign_group_population_metropolis_lowABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_metropolis_low</campaign_group>
+<effect_bundle>ep_effect_bundle_population_metropolis_low</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{79e0e0e6-d013-4492-8ad6-c6a7589978b0}" record_timestamp="1561375874539" record_key="ep_campaign_group_population_metropolis_mediumABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_metropolis_medium</campaign_group>
+<effect_bundle>ep_effect_bundle_population_metropolis_medium</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{5f805044-4be0-4954-86a9-bcd5a8b00418}" record_timestamp="1561375874049" record_key="ep_campaign_group_population_town_highABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_town_high</campaign_group>
+<effect_bundle>ep_effect_bundle_population_town_high</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{61e5552b-db23-4f85-a667-c92dc115d095}" record_timestamp="1561375874211" record_key="ep_campaign_group_population_town_lowABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_town_low</campaign_group>
+<effect_bundle>ep_effect_bundle_population_town_low</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{1b3cb7b4-6ec3-429e-b542-0a06f1dd4f89}" record_timestamp="1561375873723" record_key="ep_campaign_group_population_town_mediumABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_town_medium</campaign_group>
+<effect_bundle>ep_effect_bundle_population_town_medium</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{2b5a8640-4cc8-4a85-b3d0-538e7c87f144}" record_timestamp="1561375873886" record_key="ep_campaign_group_population_town_super_highABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_town_super_high</campaign_group>
+<effect_bundle>ep_effect_bundle_population_town_super_high</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{1bd7e8ed-dbaa-44cc-8df7-827ccd347f81}" record_timestamp="1561375873397" record_key="ep_campaign_group_population_town_very_highABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_town_very_high</campaign_group>
+<effect_bundle>ep_effect_bundle_population_town_very_high</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{2f8a9bc0-161e-4e5e-a727-f058f41014f8}" record_timestamp="1561375873560" record_key="ep_campaign_group_population_town_very_lowABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_town_very_low</campaign_group>
+<effect_bundle>ep_effect_bundle_population_town_very_low</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{80042d16-b143-4738-a7fc-adde50de78ed}" record_timestamp="1561375873070" record_key="ep_campaign_group_population_village_highABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_village_high</campaign_group>
+<effect_bundle>ep_effect_bundle_population_village_high</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{3902df0b-aa49-4cb2-8fda-eab475dff777}" record_timestamp="1561375873234" record_key="ep_campaign_group_population_village_lowABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_village_low</campaign_group>
+<effect_bundle>ep_effect_bundle_population_village_low</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{d8861f9a-18e5-4ef4-9d3e-44a006603bb4}" record_timestamp="1561375872744" record_key="ep_campaign_group_population_village_mediumABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_village_medium</campaign_group>
+<effect_bundle>ep_effect_bundle_population_village_medium</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{a879fab6-60dc-415c-970a-7a938fe957bc}" record_timestamp="1561375872907" record_key="ep_campaign_group_population_village_super_highABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_village_super_high</campaign_group>
+<effect_bundle>ep_effect_bundle_population_village_super_high</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{6d7780d3-1cf0-4369-b2b4-6366e3c25ba7}" record_timestamp="1561375872419" record_key="ep_campaign_group_population_village_very_highABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_village_very_high</campaign_group>
+<effect_bundle>ep_effect_bundle_population_village_very_high</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{8e0c0101-1d0f-4264-a2e5-a7efc9a98e2b}" record_timestamp="1561375872581" record_key="ep_campaign_group_population_village_very_lowABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_population_village_very_low</campaign_group>
+<effect_bundle>ep_effect_bundle_population_village_very_low</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{92cf963d-35c5-4879-97fd-fe0cffc6fa1d}" record_timestamp="1561375891391" record_key="ep_campaign_group_supply_stockpile_abundantABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_supply_stockpile_abundant</campaign_group>
+<effect_bundle>ep_effect_bundle_supply_stockpile_6_abundant</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{f5d2d4ba-ebe7-4f73-9aee-962d1861cd69}" record_timestamp="1561375891562" record_key="ep_campaign_group_supply_stockpile_emptyABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_supply_stockpile_empty</campaign_group>
+<effect_bundle>ep_effect_bundle_supply_stockpile_0_empty</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{ec6d7f5d-e248-4df6-89e6-200c8e8f8429}" record_timestamp="1561375891052" record_key="ep_campaign_group_supply_stockpile_fullABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_supply_stockpile_full</campaign_group>
+<effect_bundle>ep_effect_bundle_supply_stockpile_5_full</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{a7bf1971-3da7-4a69-ba61-d7a523ced8c7}" record_timestamp="1561375891221" record_key="ep_campaign_group_supply_stockpile_limitedABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_supply_stockpile_limited</campaign_group>
+<effect_bundle>ep_effect_bundle_supply_stockpile_1_limited</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{0dd1d2ca-e724-47cb-adbd-f44101de3b9d}" record_timestamp="1561375890712" record_key="ep_campaign_group_supply_stockpile_stableABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_supply_stockpile_stable</campaign_group>
+<effect_bundle>ep_effect_bundle_supply_stockpile_3_stable</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{3ef3d782-93ee-4a6f-83fd-89db66a3a9c7}" record_timestamp="1561375890882" record_key="ep_campaign_group_supply_stockpile_suppliedABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_supply_stockpile_supplied</campaign_group>
+<effect_bundle>ep_effect_bundle_supply_stockpile_4_supplied</effect_bundle>
+<effect_type>ABSOLUTE_VALUE</effect_type>
+</campaign_group_pooled_resource_effects>
+<campaign_group_pooled_resource_effects record_uuid="{623abe96-064f-4772-bd32-f843ade34692}" record_timestamp="1561375890542" record_key="ep_campaign_group_supply_stockpile_tightABSOLUTE_VALUE">
+<campaign_group>ep_campaign_group_supply_stockpile_tight</campaign_group>
+<effect_bundle>ep_effect_bundle_supply_stockpile_2_tight</effect_bundle>
 <effect_type>ABSOLUTE_VALUE</effect_type>
 </campaign_group_pooled_resource_effects>
 </dataroot>

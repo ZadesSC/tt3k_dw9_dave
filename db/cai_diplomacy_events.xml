@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_events.xsd" export_time="Thu Apr 25 09:04:47 2019" revision="76" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1450/client" export_user="bob">
-<edit_uuid>eb227b43-e0a4-4621-a0df-033f7f0a207b</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_events.xsd" export_time="Fri Jul 12 16:52:38 2019" revision="66" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1583/dave" export_user="bob">
+<edit_uuid>d78f73e8-2f1f-476d-8bf7-38ccc05fbc06</edit_uuid>
 <cai_diplomacy_events record_uuid="{95ccc2b5-f12e-4b4d-9626-e66e3c4eeb22}" record_timestamp="1517830926302" record_key="3k_main_diplomatic_factor_broken_coalition">
 <diplomatic_factor_group_active>diplomatic_factor_custom_startpos_broken_coalition</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies></diplomatic_factor_group_active_our_enemies>
@@ -385,7 +385,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>1</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{14798c16-5297-4ed9-bc45-bfc5d8b4a198}" record_timestamp="1551970147588" record_key="BATTLE_ATTACK_OWN_REGION">
+<cai_diplomacy_events record_uuid="{14798c16-5297-4ed9-bc45-bfc5d8b4a198}" record_timestamp="1554881669784" record_key="BATTLE_ATTACK_OWN_REGION">
 <diplomatic_factor_group_active></diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies></diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends></diplomatic_factor_group_active_our_friends>
@@ -1189,7 +1189,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>0</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{08f15a38-a6fd-424d-9484-8e0d9a9ac951}" record_timestamp="1550767839334" record_key="GROUP_PEACE">
+<cai_diplomacy_events record_uuid="{08f15a38-a6fd-424d-9484-8e0d9a9ac951}" record_timestamp="1521217246171" record_key="GROUP_PEACE">
 <diplomatic_factor_group_active>diplomatic_factor_signed_peace_with_us</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies>diplomatic_factor_signed_peace_with_enemies</diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends>diplomatic_factor_signed_peace_with_friends</diplomatic_factor_group_active_our_friends>
@@ -1369,7 +1369,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>1</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{941ca7d6-44b9-472a-bcdf-6eff49122288}" record_timestamp="1554463308690" record_key="HELPED_VASSAL">
+<cai_diplomacy_events record_uuid="{941ca7d6-44b9-472a-bcdf-6eff49122288}" record_timestamp="1554888074915" record_key="HELPED_VASSAL">
 <diplomatic_factor_group_active>diplomatic_factor_allied_war_support</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies></diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends></diplomatic_factor_group_active_our_friends>
@@ -1381,7 +1381,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>0</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{8c7f918a-a2f1-4e2f-af64-d32c331fbafb}" record_timestamp="1554463308683" record_key="HELPED_VASSAL_TARGET">
+<cai_diplomacy_events record_uuid="{8c7f918a-a2f1-4e2f-af64-d32c331fbafb}" record_timestamp="1554888074915" record_key="HELPED_VASSAL_TARGET">
 <diplomatic_factor_group_active>diplomatic_factor_allied_war_support</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies></diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends></diplomatic_factor_group_active_our_friends>
@@ -1465,6 +1465,18 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>0</transitive>
 </cai_diplomacy_events>
+<cai_diplomacy_events record_uuid="{eb7de259-a7a0-4eb7-8744-30aba10614dc}" record_timestamp="1562946753487" record_key="MANIPULATED_NEGATIVE_SIMA_YUE">
+<diplomatic_factor_group_active>diplomatic_factor_manipulation_sima_yue</diplomatic_factor_group_active>
+<diplomatic_factor_group_active_our_enemies></diplomatic_factor_group_active_our_enemies>
+<diplomatic_factor_group_active_our_friends></diplomatic_factor_group_active_our_friends>
+<diplomatic_factor_group_inactive></diplomatic_factor_group_inactive>
+<diplomatic_factor_group_inactive_our_enemies></diplomatic_factor_group_inactive_our_enemies>
+<diplomatic_factor_group_inactive_our_friends></diplomatic_factor_group_inactive_our_friends>
+<id>MANIPULATED_NEGATIVE_SIMA_YUE</id>
+<stance_update_required>0</stance_update_required>
+<strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
+<transitive>0</transitive>
+</cai_diplomacy_events>
 <cai_diplomacy_events record_uuid="{d236263c-1739-44f5-adad-168c3aaa1bb9}" record_timestamp="1528381885879" record_key="MANIPULATED_NEGATIVE_TARGET">
 <diplomatic_factor_group_active>diplomatic_factor_manipulation</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies></diplomatic_factor_group_active_our_enemies>
@@ -1473,6 +1485,18 @@
 <diplomatic_factor_group_inactive_our_enemies></diplomatic_factor_group_inactive_our_enemies>
 <diplomatic_factor_group_inactive_our_friends></diplomatic_factor_group_inactive_our_friends>
 <id>MANIPULATED_NEGATIVE_TARGET</id>
+<stance_update_required>0</stance_update_required>
+<strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
+<transitive>0</transitive>
+</cai_diplomacy_events>
+<cai_diplomacy_events record_uuid="{59cffe10-a8a2-41ae-8baa-14cd19093ce8}" record_timestamp="1562946753503" record_key="MANIPULATED_NEGATIVE_TARGET_SIMA_YUE">
+<diplomatic_factor_group_active>diplomatic_factor_manipulation_sima_yue</diplomatic_factor_group_active>
+<diplomatic_factor_group_active_our_enemies></diplomatic_factor_group_active_our_enemies>
+<diplomatic_factor_group_active_our_friends></diplomatic_factor_group_active_our_friends>
+<diplomatic_factor_group_inactive></diplomatic_factor_group_inactive>
+<diplomatic_factor_group_inactive_our_enemies></diplomatic_factor_group_inactive_our_enemies>
+<diplomatic_factor_group_inactive_our_friends></diplomatic_factor_group_inactive_our_friends>
+<id>MANIPULATED_NEGATIVE_TARGET_SIMA_YUE</id>
 <stance_update_required>0</stance_update_required>
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>0</transitive>
@@ -1489,6 +1513,18 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>0</transitive>
 </cai_diplomacy_events>
+<cai_diplomacy_events record_uuid="{cb8ebb8e-d375-4708-9a29-63d863d60eea}" record_timestamp="1562946753519" record_key="MANIPULATED_POSITIVE_SIMA_YUE">
+<diplomatic_factor_group_active>diplomatic_factor_manipulation_sima_yue</diplomatic_factor_group_active>
+<diplomatic_factor_group_active_our_enemies></diplomatic_factor_group_active_our_enemies>
+<diplomatic_factor_group_active_our_friends></diplomatic_factor_group_active_our_friends>
+<diplomatic_factor_group_inactive></diplomatic_factor_group_inactive>
+<diplomatic_factor_group_inactive_our_enemies></diplomatic_factor_group_inactive_our_enemies>
+<diplomatic_factor_group_inactive_our_friends></diplomatic_factor_group_inactive_our_friends>
+<id>MANIPULATED_POSITIVE_SIMA_YUE</id>
+<stance_update_required>0</stance_update_required>
+<strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
+<transitive>0</transitive>
+</cai_diplomacy_events>
 <cai_diplomacy_events record_uuid="{5914a1f1-1131-414a-888f-4aed1b23e30e}" record_timestamp="1528381885904" record_key="MANIPULATED_POSITIVE_TARGET">
 <diplomatic_factor_group_active>diplomatic_factor_manipulation</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies></diplomatic_factor_group_active_our_enemies>
@@ -1497,6 +1533,18 @@
 <diplomatic_factor_group_inactive_our_enemies></diplomatic_factor_group_inactive_our_enemies>
 <diplomatic_factor_group_inactive_our_friends></diplomatic_factor_group_inactive_our_friends>
 <id>MANIPULATED_POSITIVE_TARGET</id>
+<stance_update_required>0</stance_update_required>
+<strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
+<transitive>0</transitive>
+</cai_diplomacy_events>
+<cai_diplomacy_events record_uuid="{dc4dd3d9-e444-47bf-b318-52ed8f6d89ed}" record_timestamp="1562946753534" record_key="MANIPULATED_POSITIVE_TARGET_SIMA_YUE">
+<diplomatic_factor_group_active>diplomatic_factor_manipulation_sima_yue</diplomatic_factor_group_active>
+<diplomatic_factor_group_active_our_enemies></diplomatic_factor_group_active_our_enemies>
+<diplomatic_factor_group_active_our_friends></diplomatic_factor_group_active_our_friends>
+<diplomatic_factor_group_inactive></diplomatic_factor_group_inactive>
+<diplomatic_factor_group_inactive_our_enemies></diplomatic_factor_group_inactive_our_enemies>
+<diplomatic_factor_group_inactive_our_friends></diplomatic_factor_group_inactive_our_friends>
+<id>MANIPULATED_POSITIVE_TARGET_SIMA_YUE</id>
 <stance_update_required>0</stance_update_required>
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>0</transitive>
@@ -1645,7 +1693,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>0</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{0f631fc0-feb1-4a28-9ac4-47399bb5044d}" record_timestamp="1554380539661" record_key="PAST_EVENT_NEGATIVE_MAJOR_LONG">
+<cai_diplomacy_events record_uuid="{0f631fc0-feb1-4a28-9ac4-47399bb5044d}" record_timestamp="1554887903910" record_key="PAST_EVENT_NEGATIVE_MAJOR_LONG">
 <diplomatic_factor_group_active>diplomatic_factor_past_hostilities</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies></diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends></diplomatic_factor_group_active_our_friends>
@@ -1669,7 +1717,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>0</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{89a5532d-95fd-4bf4-a31f-0b572d2ada54}" record_timestamp="1550767839334" record_key="PEACE">
+<cai_diplomacy_events record_uuid="{89a5532d-95fd-4bf4-a31f-0b572d2ada54}" record_timestamp="1512487239259" record_key="PEACE">
 <diplomatic_factor_group_active>diplomatic_factor_signed_peace_with_us</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies>diplomatic_factor_signed_peace_with_enemies</diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends>diplomatic_factor_signed_peace_with_friends</diplomatic_factor_group_active_our_friends>
@@ -1705,7 +1753,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>1</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{392577f9-a166-4ce4-a463-34dff1e505e9}" record_timestamp="1553596250876" record_key="REFUSED_TO_HELP_VASSAL">
+<cai_diplomacy_events record_uuid="{392577f9-a166-4ce4-a463-34dff1e505e9}" record_timestamp="1554886452058" record_key="REFUSED_TO_HELP_VASSAL">
 <diplomatic_factor_group_active>diplomatic_factor_broken_treaties_with_us</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies>diplomatic_factor_broken_treaties_with_enemies</diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends>diplomatic_factor_broken_treaties_with_friends</diplomatic_factor_group_active_our_friends>
@@ -1717,7 +1765,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>1</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{8c91e3f8-75c9-4a2b-8de0-211a3c59d1d8}" record_timestamp="1553596250887" record_key="REFUSED_TO_HELP_VASSAL_TARGET">
+<cai_diplomacy_events record_uuid="{8c91e3f8-75c9-4a2b-8de0-211a3c59d1d8}" record_timestamp="1554886452077" record_key="REFUSED_TO_HELP_VASSAL_TARGET">
 <diplomatic_factor_group_active>diplomatic_factor_broken_treaties_with_us</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies>diplomatic_factor_broken_treaties_with_enemies</diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends>diplomatic_factor_broken_treaties_with_friends</diplomatic_factor_group_active_our_friends>
@@ -1729,7 +1777,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>1</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{6f33ffa5-26c7-4bb1-8b38-df11a48af379}" record_timestamp="1553855576465" record_key="REGION_DEMANDED">
+<cai_diplomacy_events record_uuid="{6f33ffa5-26c7-4bb1-8b38-df11a48af379}" record_timestamp="1554887344681" record_key="REGION_DEMANDED">
 <diplomatic_factor_group_active></diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies></diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends></diplomatic_factor_group_active_our_friends>
@@ -1741,7 +1789,7 @@
 <strategic_threat_multiplier_mod>0.20000000298023224</strategic_threat_multiplier_mod>
 <transitive>0</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{3e74cc4d-ec48-475b-aebc-a2031ebaa665}" record_timestamp="1553856235566" record_key="REGION_DEMANDED_TARGET">
+<cai_diplomacy_events record_uuid="{3e74cc4d-ec48-475b-aebc-a2031ebaa665}" record_timestamp="1554887344681" record_key="REGION_DEMANDED_TARGET">
 <diplomatic_factor_group_active></diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies></diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends></diplomatic_factor_group_active_our_friends>
@@ -1753,7 +1801,7 @@
 <strategic_threat_multiplier_mod>-0.10000000149011612</strategic_threat_multiplier_mod>
 <transitive>0</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{d7f0e701-6028-4efd-9378-5fa6729a1168}" record_timestamp="1553856235566" record_key="REGION_OFFERED">
+<cai_diplomacy_events record_uuid="{d7f0e701-6028-4efd-9378-5fa6729a1168}" record_timestamp="1554887344681" record_key="REGION_OFFERED">
 <diplomatic_factor_group_active></diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies></diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends></diplomatic_factor_group_active_our_friends>
@@ -1765,7 +1813,7 @@
 <strategic_threat_multiplier_mod>-0.10000000149011612</strategic_threat_multiplier_mod>
 <transitive>0</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{a523661a-1c31-478c-85b0-b10b4cdc754c}" record_timestamp="1553855576465" record_key="REGION_OFFERED_TARGET">
+<cai_diplomacy_events record_uuid="{a523661a-1c31-478c-85b0-b10b4cdc754c}" record_timestamp="1554887344681" record_key="REGION_OFFERED_TARGET">
 <diplomatic_factor_group_active></diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies></diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends></diplomatic_factor_group_active_our_friends>
@@ -2137,7 +2185,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>0</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{fbf2e382-0fe3-49c5-8480-06fe2f07dbc9}" record_timestamp="1551096033177" record_key="SUPPORT_INDEPENDENCE_BROKEN">
+<cai_diplomacy_events record_uuid="{fbf2e382-0fe3-49c5-8480-06fe2f07dbc9}" record_timestamp="1551787936577" record_key="SUPPORT_INDEPENDENCE_BROKEN">
 <diplomatic_factor_group_active>diplomatic_factor_broken_treaties_with_us</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies>diplomatic_factor_broken_treaties_with_enemies</diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends>diplomatic_factor_broken_treaties_with_friends</diplomatic_factor_group_active_our_friends>
@@ -2149,7 +2197,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>1</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{952ca8e6-697f-4b25-b492-cfee17d39f07}" record_timestamp="1551096033155" record_key="SUPPORT_INDEPENDENCE_BROKEN_EARLY">
+<cai_diplomacy_events record_uuid="{952ca8e6-697f-4b25-b492-cfee17d39f07}" record_timestamp="1551787936561" record_key="SUPPORT_INDEPENDENCE_BROKEN_EARLY">
 <diplomatic_factor_group_active>diplomatic_factor_broken_treaties_with_us</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies>diplomatic_factor_broken_treaties_with_enemies</diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends>diplomatic_factor_broken_treaties_with_friends</diplomatic_factor_group_active_our_friends>
@@ -2161,7 +2209,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>1</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{c48253d1-fee3-45da-a8f3-338bff827fff}" record_timestamp="1551096033166" record_key="SUPPORT_INDEPENDENCE_CANCELLED">
+<cai_diplomacy_events record_uuid="{c48253d1-fee3-45da-a8f3-338bff827fff}" record_timestamp="1551787936570" record_key="SUPPORT_INDEPENDENCE_CANCELLED">
 <diplomatic_factor_group_active>diplomatic_factor_broken_treaties_with_us</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies>diplomatic_factor_broken_treaties_with_enemies</diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends>diplomatic_factor_broken_treaties_with_friends</diplomatic_factor_group_active_our_friends>
@@ -2173,7 +2221,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>1</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{9e7f2fb3-b737-42a9-9a22-0863d12187ae}" record_timestamp="1551096033221" record_key="SUPPORT_INDEPENDENCE_PAST">
+<cai_diplomacy_events record_uuid="{9e7f2fb3-b737-42a9-9a22-0863d12187ae}" record_timestamp="1551787936591" record_key="SUPPORT_INDEPENDENCE_PAST">
 <diplomatic_factor_group_active>diplomatic_factor_past_treaties_with_us</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies>diplomatic_factor_past_treaties_with_enemies</diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends>diplomatic_factor_past_treaties_with_friends</diplomatic_factor_group_active_our_friends>
@@ -2185,7 +2233,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>1</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{f8280cae-8278-4aa9-89c4-0ad72ef4ccbf}" record_timestamp="1551950308424" record_key="SUPPORT_INDEPENDENCE_PAST_TARGET">
+<cai_diplomacy_events record_uuid="{f8280cae-8278-4aa9-89c4-0ad72ef4ccbf}" record_timestamp="1551787936587" record_key="SUPPORT_INDEPENDENCE_PAST_TARGET">
 <diplomatic_factor_group_active>diplomatic_factor_treaties_with_us</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies>diplomatic_factor_past_treaties_with_enemies</diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends>diplomatic_factor_past_treaties_with_friends</diplomatic_factor_group_active_our_friends>
@@ -2197,7 +2245,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>1</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{65f68f2c-6403-4963-a33c-70409518b800}" record_timestamp="1551096033234" record_key="SUPPORT_INDEPENDENCE_SIGNED">
+<cai_diplomacy_events record_uuid="{65f68f2c-6403-4963-a33c-70409518b800}" record_timestamp="1551787936597" record_key="SUPPORT_INDEPENDENCE_SIGNED">
 <diplomatic_factor_group_active>diplomatic_factor_treaties_with_us</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies>diplomatic_factor_treaties_with_enemies</diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends>diplomatic_factor_treaties_with_friends</diplomatic_factor_group_active_our_friends>
@@ -2209,7 +2257,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>1</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{27492dfa-bbbd-44f2-8ca0-9caa24610023}" record_timestamp="1551950308426" record_key="SUPPORT_INDEPENDENCE_SIGNED_TARGET">
+<cai_diplomacy_events record_uuid="{27492dfa-bbbd-44f2-8ca0-9caa24610023}" record_timestamp="1551787936581" record_key="SUPPORT_INDEPENDENCE_SIGNED_TARGET">
 <diplomatic_factor_group_active>diplomatic_factor_past_treaties_with_us</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies>diplomatic_factor_treaties_with_enemies</diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends>diplomatic_factor_treaties_with_friends</diplomatic_factor_group_active_our_friends>
@@ -2233,7 +2281,7 @@
 <strategic_threat_multiplier_mod>0</strategic_threat_multiplier_mod>
 <transitive>1</transitive>
 </cai_diplomacy_events>
-<cai_diplomacy_events record_uuid="{906dd0f7-a2f6-41b3-a2d2-332d41dda7b9}" record_timestamp="1551950308445" record_key="THREAT_ISSUED">
+<cai_diplomacy_events record_uuid="{906dd0f7-a2f6-41b3-a2d2-332d41dda7b9}" record_timestamp="1538470161957" record_key="THREAT_ISSUED">
 <diplomatic_factor_group_active>diplomatic_factor_diplomatic_ultimatums_against_us</diplomatic_factor_group_active>
 <diplomatic_factor_group_active_our_enemies>diplomatic_factor_diplomatic_ultimatums_against_enemies</diplomatic_factor_group_active_our_enemies>
 <diplomatic_factor_group_active_our_friends>diplomatic_factor_diplomatic_ultimatums_against_friends</diplomatic_factor_group_active_our_friends>

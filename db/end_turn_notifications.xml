@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="end_turn_notifications.xsd" export_time="Fri Mar 15 15:44:21 2019" revision="69" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1385/dave" export_user="bob">
-<edit_uuid>cbe2ce4b-f025-48df-bbb3-579dc8704734</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="end_turn_notifications.xsd" export_time="Tue Jul 9 17:18:37 2019" revision="55" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1574/dave" export_user="bob">
+<edit_uuid>7ea33794-76ad-4e87-88a0-bc57b9275711</edit_uuid>
 <end_turn_notifications record_uuid="{5b8eea0f-a1b4-4711-82de-35d8fcfde9cc}" record_timestamp="1535822998191" record_key="ARMY_AP_AVAILABLE">
 <blocking>0</blocking>
 <can_be_supressed_by_player>1</can_be_supressed_by_player>
@@ -73,7 +73,7 @@
 <severity_level>warning</severity_level>
 <title state="APPROVED" last_approved_text="Negative Income Projected" last_edit_user="bob">Negative Income Projected</title>
 </end_turn_notifications>
-<end_turn_notifications record_uuid="{688ce5f5-c88b-443c-8150-a5f7eeb9077e}" record_timestamp="1551117044187" record_key="ECONOMICS_PROJECTED_NEGATIVE_WITH_DIPLOMATIC_EXPENDITURE">
+<end_turn_notifications record_uuid="{688ce5f5-c88b-443c-8150-a5f7eeb9077e}" record_timestamp="1544721989440" record_key="ECONOMICS_PROJECTED_NEGATIVE_WITH_DIPLOMATIC_EXPENDITURE">
 <blocking>1</blocking>
 <can_be_supressed_by_player>0</can_be_supressed_by_player>
 <detailed_description state="APPROVED" last_approved_text="- You are approaching [[b]]bankruptcy[[/b]] due to your ongoing diplomatic payments. You must either resolve the projected [[b]]bankruptcy[[/b]] or cancel all ongoing diplomatic payments.\n\n- Review your regular payments in [[b]]diplomacy[[/b]] to decide which to cancel; this can be enough to resolve the projected bankruptcy.\n\n- Inspect the tooltip in the [[b]]treasury panel[[/b]] to identify your biggest outstanding payments.\n\n- You can also try to resolve imminent bankruptcy by [[b]]disbanding[[/b]] units or by [[b]]recalling[[/b]] retinues." last_edit_user="bob">- You are approaching [[b]]bankruptcy[[/b]] due to your ongoing diplomatic payments. You must either resolve the projected [[b]]bankruptcy[[/b]] or cancel all ongoing diplomatic payments.\n\n- Review your regular payments in [[b]]diplomacy[[/b]] to decide which to cancel; this can be enough to resolve the projected bankruptcy.\n\n- Inspect the tooltip in the [[b]]treasury panel[[/b]] to identify your biggest outstanding payments.\n\n- You can also try to resolve imminent bankruptcy by [[b]]disbanding[[/b]] units or by [[b]]recalling[[/b]] retinues.</detailed_description>
@@ -85,7 +85,7 @@
 <severity_level>warning</severity_level>
 <title state="APPROVED" last_approved_text="Bankrupt With Outgoings Pending" last_edit_user="bob">Bankrupt With Outgoings Pending</title>
 </end_turn_notifications>
-<end_turn_notifications record_uuid="{200248b7-0fb0-482b-886f-7a595987561a}" record_timestamp="1550514544751" record_key="ENEMY_FORCE_IN_REGION">
+<end_turn_notifications record_uuid="{200248b7-0fb0-482b-886f-7a595987561a}" record_timestamp="1551784891656" record_key="ENEMY_FORCE_IN_REGION">
 <blocking>0</blocking>
 <can_be_supressed_by_player>1</can_be_supressed_by_player>
 <detailed_description state="APPROVED" last_approved_text="- An enemy army is trespassing and pillaging your lands, and causing public unrest.\n\n- Muster or re-deploy forces to counter this threat. Be aware of movement ranges and terrain; sometimes it might take multiple turns to reach the enemy army." last_edit_user="bob">- An enemy army is trespassing and pillaging your lands, and causing public unrest.\n\n- Muster or re-deploy forces to counter this threat. Be aware of movement ranges and terrain; sometimes it might take multiple turns to reach the enemy army.</detailed_description>
@@ -109,7 +109,7 @@
 <severity_level>info</severity_level>
 <title state="APPROVED" last_approved_text="No Faction Council Missions" last_edit_user="bob">No Faction Council Missions</title>
 </end_turn_notifications>
-<end_turn_notifications record_uuid="{2bf15a47-3efb-4745-a153-844c6e5d2646}" record_timestamp="1550327784045" record_key="FACTION_COUNCIL_INVOCATION_TIMEOUT">
+<end_turn_notifications record_uuid="{2bf15a47-3efb-4745-a153-844c6e5d2646}" record_timestamp="1535822998192" record_key="FACTION_COUNCIL_INVOCATION_TIMEOUT">
 <blocking>0</blocking>
 <can_be_supressed_by_player>1</can_be_supressed_by_player>
 <detailed_description state="APPROVED" last_approved_text="- You have not invoked your council for a long time.\n\n- Summon your ministers for advice and receive missions.\n\n- Missions will vary depending on your situation and the background and office of your ministers.\n\n- Completing missions will provide bonuses to your faction." last_edit_user="bob">- You have not invoked your council for a long time.\n\n- Summon your ministers for advice and receive missions.\n\n- Missions will vary depending on your situation and the background and office of your ministers.\n\n- Completing missions will provide bonuses to your faction.</detailed_description>
@@ -253,17 +253,17 @@
 <severity_level>info</severity_level>
 <title state="APPROVED" last_approved_text="Resources Required!" last_edit_user="bob">Resources Required!</title>
 </end_turn_notifications>
-<end_turn_notifications record_uuid="{98891fb4-012f-4ea6-88b9-40a918acdc97}" record_timestamp="1524581466266" record_key="PUBLIC_ORDER_LOW">
+<end_turn_notifications record_uuid="{98891fb4-012f-4ea6-88b9-40a918acdc97}" record_timestamp="1561382586236" record_key="PUBLIC_ORDER_LOW">
 <blocking>0</blocking>
 <can_be_supressed_by_player>1</can_be_supressed_by_player>
-<detailed_description state="APPROVED" last_approved_text="- Unrest is growing in this {{tr:map_province}} and public order is low.\n\n- Certain buildings increase public order.\n\n- Military presence or the presence of certain characters is a good short-term solution." last_edit_user="bob">- Unrest is growing in this {{tr:map_province}} and public order is low.\n\n- Certain buildings increase public order.\n\n- Military presence or the presence of certain characters is a good short-term solution.</detailed_description>
-<display_text state="APPROVED" last_approved_text="Low public order" last_edit_user="bob">Low public order</display_text>
+<detailed_description state="APPROVED" last_approved_text="- Unrest is growing in this {{tr:map_province}} and {{tr:public_order}} is low.\n\n- Certain buildings increase {{tr:public_order}}.\n\n- {{tr:public_order_end_turn_notification}}" last_edit_user="bob">- Unrest is growing in this {{tr:map_province}} and {{tr:public_order}} is low.\n\n- Certain buildings increase {{tr:public_order}}.\n\n- {{tr:public_order_end_turn_notification}}</detailed_description>
+<display_text state="APPROVED" last_approved_text="Low {{tr:Public_Order}}" last_edit_user="bob">Low {{tr:Public_Order}}</display_text>
 <enabled_by_default>1</enabled_by_default>
 <icon>placeholder.png</icon>
 <important>0</important>
 <key>PUBLIC_ORDER_LOW</key>
 <severity_level>info</severity_level>
-<title state="APPROVED" last_approved_text="Low Public Order" last_edit_user="bob">Low Public Order</title>
+<title state="APPROVED" last_approved_text="Low {{tr:Public_Order}}" last_edit_user="bob">Low {{tr:Public_Order}}</title>
 </end_turn_notifications>
 <end_turn_notifications record_uuid="{d72f7c09-a2a6-48c5-9f8f-89ad1ed4c897}" record_timestamp="1544721989440" record_key="SETTLEMENT_UNDER_SIEGE">
 <blocking>0</blocking>

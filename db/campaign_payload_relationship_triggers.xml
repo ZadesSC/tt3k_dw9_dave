@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_payload_relationship_triggers.xsd" export_time="Thu Jan 10 11:35:01 2019" revision="4" export_branch="C:/Users/simon.mann/AppData/Roaming/TWDaemon/1277/dave" export_user="bob">
-<edit_uuid>d916fa28-1411-4732-a13b-ec4893d3f75d</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_payload_relationship_triggers.xsd" export_time="Thu Jun 6 17:28:24 2019" revision="6" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1501/dave" export_user="bob">
+<edit_uuid>2f9feffb-215b-499c-9868-929a4ac36062</edit_uuid>
+<campaign_payload_relationship_triggers record_uuid="{f50fd616-1906-439e-bc80-2ef400afb8c0}" record_timestamp="1559669722395" record_key="1392198254">
+<id>1392198254</id>
+<payload>ep_campaign_payload_political_action_gift</payload>
+<trigger_set>3k_main_relationship_trigger_set_event_positive_generic_medium</trigger_set>
+</campaign_payload_relationship_triggers>
+<campaign_payload_relationship_triggers record_uuid="{2c64ef36-135a-45b5-94f8-06914dab7393}" record_timestamp="1559838493782" record_key="1542318308">
+<id>1542318308</id>
+<payload>ep_campaign_payload_character_action_remove_tier_4</payload>
+<trigger_set>3k_main_relationship_trigger_set_event_negative_generic_large</trigger_set>
+</campaign_payload_relationship_triggers>
 <campaign_payload_relationship_triggers record_uuid="{ee2a3b85-4961-49fc-b33d-ed07ae4ef354}" record_timestamp="1547120097522" record_key="169901662">
 <id>169901662</id>
 <payload>3k_main_campaign_payload_character_action_adopt</payload>
@@ -11,10 +21,25 @@
 <payload>3k_main_campaign_payload_character_action_execution_tier_3</payload>
 <trigger_set>3k_main_relationship_trigger_set_captive_general_execute</trigger_set>
 </campaign_payload_relationship_triggers>
+<campaign_payload_relationship_triggers record_uuid="{691e2f8a-b030-41ea-b7ec-7da3f7d39219}" record_timestamp="1559838493863" record_key="1938931838">
+<id>1938931838</id>
+<payload>ep_campaign_payload_character_action_remove_tier_3</payload>
+<trigger_set>3k_main_relationship_trigger_set_event_negative_generic_large</trigger_set>
+</campaign_payload_relationship_triggers>
 <campaign_payload_relationship_triggers record_uuid="{7ffaefed-6769-414a-abc1-5264ac4a4449}" record_timestamp="1543513166192" record_key="2066964445">
 <id>2066964445</id>
 <payload>3k_main_campaign_payload_character_action_execution_tier_1</payload>
 <trigger_set>3k_main_relationship_trigger_set_captive_general_execute</trigger_set>
+</campaign_payload_relationship_triggers>
+<campaign_payload_relationship_triggers record_uuid="{4030b65f-9a22-47a7-a5b4-2e34abf9342e}" record_timestamp="1559838493822" record_key="235245777">
+<id>235245777</id>
+<payload>ep_campaign_payload_character_action_remove_tier_2</payload>
+<trigger_set>3k_main_relationship_trigger_set_event_negative_generic_large</trigger_set>
+</campaign_payload_relationship_triggers>
+<campaign_payload_relationship_triggers record_uuid="{c8f72d82-22f5-4b28-a97d-b6f1227f61f3}" record_timestamp="1559838493904" record_key="354343228">
+<id>354343228</id>
+<payload>ep_campaign_payload_character_action_remove_tier_1</payload>
+<trigger_set>3k_main_relationship_trigger_set_event_negative_generic_large</trigger_set>
 </campaign_payload_relationship_triggers>
 <campaign_payload_relationship_triggers record_uuid="{952e5d0d-863a-4542-96f7-2824ce5726e8}" record_timestamp="1543513166047" record_key="450758696">
 <id>450758696</id>

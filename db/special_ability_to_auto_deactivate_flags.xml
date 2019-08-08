@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="special_ability_to_auto_deactivate_flags.xsd" export_time="Tue May 21 11:58:38 2019" revision="57" export_branch="C:/Users/attila.mohacsi/AppData/Roaming/TWDaemon/1483/dave" export_user="bob">
-<edit_uuid>427a341c-e75a-4d8e-b71a-fa816fe053e4</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="special_ability_to_auto_deactivate_flags.xsd" export_time="Tue Jul 16 09:46:07 2019" revision="62" export_branch="C:/Users/william.wright/AppData/Roaming/TWDaemon/1586/dave" export_user="bob">
+<edit_uuid>e6bc5389-faba-427a-a0c4-413429953d73</edit_uuid>
 <special_ability_to_auto_deactivate_flags record_uuid="{6de32714-4dd6-4f94-b69e-e46246c6dd7c}" record_timestamp="1518018199133" record_key="3k_main_ability_blade_breakerhealth_above_50%">
 <deactivate_flag>health_above_50%</deactivate_flag>
 <special_ability>3k_main_ability_blade_breaker</special_ability>
@@ -20,10 +20,6 @@
 <special_ability_to_auto_deactivate_flags record_uuid="{8e567a75-9b85-4ba1-ab70-bd6e128abc57}" record_timestamp="1518018199200" record_key="3k_main_ability_distant_courageengaged_in_melee">
 <deactivate_flag>engaged_in_melee</deactivate_flag>
 <special_ability>3k_main_ability_distant_courage</special_ability>
-</special_ability_to_auto_deactivate_flags>
-<special_ability_to_auto_deactivate_flags record_uuid="{138c7849-aa1f-4ee5-a505-4c1b4564789e}" record_timestamp="1558436313134" record_key="3k_main_ability_elemental_vigourenemy_alliance_weaker">
-<deactivate_flag>enemy_alliance_weaker</deactivate_flag>
-<special_ability>3k_main_ability_elemental_vigour</special_ability>
 </special_ability_to_auto_deactivate_flags>
 <special_ability_to_auto_deactivate_flags record_uuid="{89ca9f3e-0803-4ed2-a0f3-bd0bb9792c54}" record_timestamp="1546511713662" record_key="3k_main_ability_elemental_vigourout_of_melee_and_hero_duel">
 <deactivate_flag>out_of_melee_and_hero_duel</deactivate_flag>
@@ -168,5 +164,73 @@
 <special_ability_to_auto_deactivate_flags record_uuid="{2f2ad1eb-6822-4f86-a964-65eaea8570ff}" record_timestamp="1547485567819" record_key="3k_ytr_ability_recoveryunit_is_in_active_duel">
 <deactivate_flag>unit_is_in_active_duel</deactivate_flag>
 <special_ability>3k_ytr_ability_recovery</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{a805132f-a742-454b-81b0-eacab371e078}" record_timestamp="1562594325748" record_key="3k_ytr_ability_recoveryunit_is_under_fire">
+<deactivate_flag>unit_is_under_fire</deactivate_flag>
+<special_ability>3k_ytr_ability_recovery</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{c02a59b4-dab4-44da-8193-cee34c35350e}" record_timestamp="1551886364188" record_key="ep_dyn_ability_blade_breakerhealth_above_50%">
+<deactivate_flag>health_above_50%</deactivate_flag>
+<special_ability>ep_dyn_ability_blade_breaker</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{9b295746-41ac-4316-8a70-90af8a436f4d}" record_timestamp="1551886363844" record_key="ep_dyn_ability_blood_furyout_of_melee">
+<deactivate_flag>out_of_melee</deactivate_flag>
+<special_ability>ep_dyn_ability_blood_fury</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{23afb3be-48a6-4a56-aea8-1ee10e15fb6f}" record_timestamp="1552064120061" record_key="ep_dyn_ability_burning_soulhealth_below_50%">
+<deactivate_flag>health_below_50%</deactivate_flag>
+<special_ability>ep_dyn_ability_burning_soul</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{6261b4a2-150a-4055-88fa-153a1f75f9d6}" record_timestamp="1552064119306" record_key="ep_dyn_ability_cavalry_masterdismounted">
+<deactivate_flag>dismounted</deactivate_flag>
+<special_ability>ep_dyn_ability_cavalry_master</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{c90b7668-8589-4a8f-8313-bf87a66c86b3}" record_timestamp="1551886364102" record_key="ep_dyn_ability_cry_of_the_foresthealth_above_50%">
+<deactivate_flag>health_above_50%</deactivate_flag>
+<special_ability>ep_dyn_ability_cry_of_the_forest</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{99692d22-714e-40a5-aeff-c00aee1f803c}" record_timestamp="1551886364361" record_key="ep_dyn_ability_distant_courageengaged_in_melee">
+<deactivate_flag>engaged_in_melee</deactivate_flag>
+<special_ability>ep_dyn_ability_distant_courage</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{cdfb5ef8-1402-45d4-b62d-7d2e855a8350}" record_timestamp="1551886363931" record_key="ep_dyn_ability_elemental_vigourout_of_melee">
+<deactivate_flag>out_of_melee</deactivate_flag>
+<special_ability>ep_dyn_ability_elemental_vigour</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{557a778c-c05e-45ef-9633-9453cacbc79f}" record_timestamp="1552064119655" record_key="ep_dyn_ability_flowing_waterunit_is_not_moving">
+<deactivate_flag>unit_is_not_moving</deactivate_flag>
+<special_ability>ep_dyn_ability_flowing_water</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{15620f69-d748-4e5b-93c3-5863ff3dc0d0}" record_timestamp="1552064119356" record_key="ep_dyn_ability_phoenix_risinghealth_above_20%">
+<deactivate_flag>health_above_20%</deactivate_flag>
+<special_ability>ep_dyn_ability_phoenix_rising</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{09f8bd12-12a2-4548-a5b6-f68f519b2f51}" record_timestamp="1551886363758" record_key="ep_dyn_ability_quickfireunit_is_moving">
+<deactivate_flag>unit_is_moving</deactivate_flag>
+<special_ability>ep_dyn_ability_quickfire</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{abcf06bb-6aa2-4abb-891f-f04da5d64d1a}" record_timestamp="1551886405488" record_key="ep_dyn_ability_stalwart_defenderhealth_above_50%">
+<deactivate_flag>health_above_50%</deactivate_flag>
+<special_ability>ep_dyn_ability_stalwart_defender</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{1d807650-c53b-4299-af76-299812085303}" record_timestamp="1551886405602" record_key="ep_dyn_ability_stalwart_defenderout_of_melee">
+<deactivate_flag>out_of_melee</deactivate_flag>
+<special_ability>ep_dyn_ability_stalwart_defender</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{c814acd0-b07d-470f-9887-6aa0c11e2974}" record_timestamp="1551886364275" record_key="ep_dyn_ability_strength_of_the_mountainhealth_below_50%">
+<deactivate_flag>health_below_50%</deactivate_flag>
+<special_ability>ep_dyn_ability_strength_of_the_mountain</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{65b26f58-7ef7-48c7-ba01-3c7f3f72bcc2}" record_timestamp="1552064119456" record_key="ep_dyn_ability_strike_from_afarenemies_in_intercept_range">
+<deactivate_flag>enemies_in_intercept_range</deactivate_flag>
+<special_ability>ep_dyn_ability_strike_from_afar</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{1c890ee1-61ff-4e24-b664-86e74839d1f4}" record_timestamp="1551886363673" record_key="ep_dyn_ability_tenacity_of_steelout_of_melee">
+<deactivate_flag>out_of_melee</deactivate_flag>
+<special_ability>ep_dyn_ability_tenacity_of_steel</special_ability>
+</special_ability_to_auto_deactivate_flags>
+<special_ability_to_auto_deactivate_flags record_uuid="{70200916-18a0-4617-a190-e9fac3d0dece}" record_timestamp="1551886364016" record_key="ep_dyn_ability_vengeanceunit_is_not_under_fire">
+<deactivate_flag>unit_is_not_under_fire</deactivate_flag>
+<special_ability>ep_dyn_ability_vengeance</special_ability>
 </special_ability_to_auto_deactivate_flags>
 </dataroot>

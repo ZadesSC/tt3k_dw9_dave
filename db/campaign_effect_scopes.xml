@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_effect_scopes.xsd" export_time="Thu May 16 12:41:02 2019" revision="245" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1465/dave" export_user="bob">
-<edit_uuid>afba04b5-bbd2-4775-9c67-6eb921b8c1bf</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_effect_scopes.xsd" export_time="Mon Jul 8 15:09:06 2019" revision="229" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1566/dave" export_user="bob">
+<edit_uuid>4ffda816-5af3-4eeb-9b9b-1b63f51c8283</edit_uuid>
 <campaign_effect_scopes record_uuid="{92d47239-a768-4831-aa32-3419e7ad2fa4}" record_timestamp="1426093183653" record_key="army_to_army_own">
 <key>army_to_army_own</key>
 <localised_text state="APPROVED" last_approved_text="[[col:scope_description]](this army)[[/col]]" last_edit_user="bob">[[col:scope_description]](this army)[[/col]]</localised_text>
@@ -177,7 +177,7 @@
 <target>province</target>
 <territory>any</territory>
 </campaign_effect_scopes>
-<campaign_effect_scopes record_uuid="{37937a6c-7a68-44b7-b598-488a09516d67}" record_timestamp="1551181361223" record_key="building_to_province_own_dummy_scope_mercenaries">
+<campaign_effect_scopes record_uuid="{37937a6c-7a68-44b7-b598-488a09516d67}" record_timestamp="1551788130966" record_key="building_to_province_own_dummy_scope_mercenaries">
 <key>building_to_province_own_dummy_scope_mercenaries</key>
 <localised_text state="APPROVED" last_approved_text="[[col:scope_description]](charges update at the beginning of each turn)[[/col]]" last_edit_user="bob">[[col:scope_description]](charges update at the beginning of each turn)[[/col]]</localised_text>
 <location>provincewide</location>
@@ -441,7 +441,7 @@
 <target>character_if_adult</target>
 <territory>enemy</territory>
 </campaign_effect_scopes>
-<campaign_effect_scopes record_uuid="{db5b5716-8529-4337-8a49-6d5649e400f2}" record_timestamp="1554816569482" record_key="character_to_character_own_retinue">
+<campaign_effect_scopes record_uuid="{db5b5716-8529-4337-8a49-6d5649e400f2}" record_timestamp="1556562018595" record_key="character_to_character_own_retinue">
 <key>character_to_character_own_retinue</key>
 <localised_text state="APPROVED" last_approved_text="[[col:scope_description]](own retinue)[[/col]]" last_edit_user="bob">[[col:scope_description]](own retinue)[[/col]]</localised_text>
 <location>character</location>
@@ -452,7 +452,7 @@
 <target>character_if_adult</target>
 <territory>any</territory>
 </campaign_effect_scopes>
-<campaign_effect_scopes record_uuid="{fe59503f-d1c3-4e2b-ab5a-0d154d3676e2}" record_timestamp="1551266658091" record_key="character_to_character_own_this_character">
+<campaign_effect_scopes record_uuid="{fe59503f-d1c3-4e2b-ab5a-0d154d3676e2}" record_timestamp="1551788346354" record_key="character_to_character_own_this_character">
 <key>character_to_character_own_this_character</key>
 <localised_text state="APPROVED" last_approved_text="[[col:scope_description]](this character)[[/col]]" last_edit_user="bob">[[col:scope_description]](this character)[[/col]]</localised_text>
 <location>character</location>
@@ -474,7 +474,7 @@
 <target>character_if_adult</target>
 <territory>any</territory>
 </campaign_effect_scopes>
-<campaign_effect_scopes record_uuid="{8e399c03-271d-47f9-898e-571095c9f31d}" record_timestamp="1551266657694" record_key="character_to_character_own_when_present">
+<campaign_effect_scopes record_uuid="{8e399c03-271d-47f9-898e-571095c9f31d}" record_timestamp="1551788346353" record_key="character_to_character_own_when_present">
 <key>character_to_character_own_when_present</key>
 <localised_text state="APPROVED" last_approved_text="[[col:scope_description]](when present)[[/col]]" last_edit_user="bob">[[col:scope_description]](when present)[[/col]]</localised_text>
 <location>character</location>
@@ -606,7 +606,7 @@
 <target>force</target>
 <territory>enemy</territory>
 </campaign_effect_scopes>
-<campaign_effect_scopes record_uuid="{1c2090b0-10af-4aac-ae34-6c91b49b1f10}" record_timestamp="1551266657982" record_key="character_to_force_own_enemy_territory_unseen">
+<campaign_effect_scopes record_uuid="{1c2090b0-10af-4aac-ae34-6c91b49b1f10}" record_timestamp="1551788346353" record_key="character_to_force_own_enemy_territory_unseen">
 <key>character_to_force_own_enemy_territory_unseen</key>
 <localised_text state="APPROVED" last_approved_text="[[col:scope_description]](own army)[[/col]]" last_edit_user="bob">[[col:scope_description]](own army)[[/col]]</localised_text>
 <location>forcewide_when_commanding</location>
@@ -947,6 +947,17 @@
 <target>character_if_adult</target>
 <territory>any</territory>
 </campaign_effect_scopes>
+<campaign_effect_scopes record_uuid="{f6225c48-3fe1-46b0-b6c7-4c0f0040ce93}" record_timestamp="1556888441397" record_key="faction_to_character_own_factionwide_all_characters">
+<key>faction_to_character_own_factionwide_all_characters</key>
+<localised_text state="APPROVED" last_approved_text="[[col:scope_description]](all characters)[[/col]]" last_edit_user="bob">[[col:scope_description]](all characters)[[/col]]</localised_text>
+<location>factionwide</location>
+<only_display_in_tooltip>0</only_display_in_tooltip>
+<ownership>yours</ownership>
+<send_to_location_only_if_adult>1</send_to_location_only_if_adult>
+<source_for_design_ref_only>faction</source_for_design_ref_only>
+<target>character_if_adult</target>
+<territory>any</territory>
+</campaign_effect_scopes>
 <campaign_effect_scopes record_uuid="{4c40f9c6-9d99-4e57-bbed-42c5cbd1f62e}" record_timestamp="1535201458392" record_key="faction_to_character_own_factionwide_retinue_effects">
 <key>faction_to_character_own_factionwide_retinue_effects</key>
 <localised_text state="APPROVED" last_approved_text="[[col:scope_description]](faction-wide)[[/col]]" last_edit_user="bob">[[col:scope_description]](faction-wide)[[/col]]</localised_text>
@@ -991,9 +1002,42 @@
 <target>character_if_adult</target>
 <territory>any</territory>
 </campaign_effect_scopes>
+<campaign_effect_scopes record_uuid="{d9e0ffbc-4674-438e-89c6-d5e9b85d978f}" record_timestamp="1559124034263" record_key="faction_to_encamp_stance_dummy">
+<key>faction_to_encamp_stance_dummy</key>
+<localised_text state="APPROVED" last_approved_text="[[col:scope_description]](local {{tr:map_province}} from own armies in encamp stance)[[/col]]" last_edit_user="bob">[[col:scope_description]](local {{tr:map_province}} from own armies in encamp stance)[[/col]]</localised_text>
+<location>factionwide</location>
+<only_display_in_tooltip>0</only_display_in_tooltip>
+<ownership>yours</ownership>
+<send_to_location_only_if_adult>1</send_to_location_only_if_adult>
+<source_for_design_ref_only>faction</source_for_design_ref_only>
+<target>faction</target>
+<territory>any</territory>
+</campaign_effect_scopes>
+<campaign_effect_scopes record_uuid="{df44f0a5-7a2a-4de8-ba1d-c68364ce80dc}" record_timestamp="1559124034263" record_key="faction_to_faction_leader_army_dummy">
+<key>faction_to_faction_leader_army_dummy</key>
+<localised_text state="APPROVED" last_approved_text="[[col:scope_description]](faction leader's army)[[/col]]" last_edit_user="bob">[[col:scope_description]](faction leader's army)[[/col]]</localised_text>
+<location>factionwide</location>
+<only_display_in_tooltip>0</only_display_in_tooltip>
+<ownership>yours</ownership>
+<send_to_location_only_if_adult>1</send_to_location_only_if_adult>
+<source_for_design_ref_only>faction</source_for_design_ref_only>
+<target>faction</target>
+<territory>any</territory>
+</campaign_effect_scopes>
 <campaign_effect_scopes record_uuid="{86e03447-e5dd-4832-b434-f0a67b192cc8}" record_timestamp="1458335250206" record_key="faction_to_faction_own">
 <key>faction_to_faction_own</key>
 <localised_text state="APPROVED" last_approved_text="[[col:scope_description]](faction-wide)[[/col]]" last_edit_user="bob">[[col:scope_description]](faction-wide)[[/col]]</localised_text>
+<location>factionwide</location>
+<only_display_in_tooltip>0</only_display_in_tooltip>
+<ownership>yours</ownership>
+<send_to_location_only_if_adult>1</send_to_location_only_if_adult>
+<source_for_design_ref_only>faction</source_for_design_ref_only>
+<target>faction</target>
+<territory>any</territory>
+</campaign_effect_scopes>
+<campaign_effect_scopes record_uuid="{704927cb-24c0-41ef-8ca1-b207e8b0c219}" record_timestamp="1558708344128" record_key="faction_to_faction_own_characters">
+<key>faction_to_faction_own_characters</key>
+<localised_text state="APPROVED" last_approved_text="[[col:scope_description]](all characters)[[/col]]" last_edit_user="bob">[[col:scope_description]](all characters)[[/col]]</localised_text>
 <location>factionwide</location>
 <only_display_in_tooltip>0</only_display_in_tooltip>
 <ownership>yours</ownership>
@@ -1046,9 +1090,31 @@
 <target>force</target>
 <territory>any</territory>
 </campaign_effect_scopes>
+<campaign_effect_scopes record_uuid="{a14ebb0e-68dc-4d74-b92f-0908f18d2d42}" record_timestamp="1556888441398" record_key="faction_to_force_own_factionwide_verbose">
+<key>faction_to_force_own_factionwide_verbose</key>
+<localised_text state="APPROVED" last_approved_text="[[col:scope_description]](own forces faction-wide)[[/col]]" last_edit_user="bob">[[col:scope_description]](own forces faction-wide)[[/col]]</localised_text>
+<location>factionwide</location>
+<only_display_in_tooltip>0</only_display_in_tooltip>
+<ownership>yours</ownership>
+<send_to_location_only_if_adult>1</send_to_location_only_if_adult>
+<source_for_design_ref_only>faction</source_for_design_ref_only>
+<target>force</target>
+<territory>any</territory>
+</campaign_effect_scopes>
 <campaign_effect_scopes record_uuid="{00f02d37-e8bf-4d84-9df1-24f5b6c99545}" record_timestamp="1533579073843" record_key="faction_to_force_own_territory_enemy">
 <key>faction_to_force_own_territory_enemy</key>
 <localised_text state="APPROVED" last_approved_text="[[col:scope_description]](faction-wide)[[/col]]" last_edit_user="bob">[[col:scope_description]](faction-wide)[[/col]]</localised_text>
+<location>factionwide</location>
+<only_display_in_tooltip>1</only_display_in_tooltip>
+<ownership>yours</ownership>
+<send_to_location_only_if_adult>1</send_to_location_only_if_adult>
+<source_for_design_ref_only>faction</source_for_design_ref_only>
+<target>force</target>
+<territory>enemy</territory>
+</campaign_effect_scopes>
+<campaign_effect_scopes record_uuid="{0f6f80aa-3077-424f-bac4-87a4e7042aa3}" record_timestamp="1556888441398" record_key="faction_to_force_own_territory_enemy_verbose">
+<key>faction_to_force_own_territory_enemy_verbose</key>
+<localised_text state="APPROVED" last_approved_text="[[col:scope_description]](enemy forces in owned territory)[[/col]]" last_edit_user="bob">[[col:scope_description]](enemy forces in owned territory)[[/col]]</localised_text>
 <location>factionwide</location>
 <only_display_in_tooltip>1</only_display_in_tooltip>
 <ownership>yours</ownership>
@@ -1167,7 +1233,7 @@
 <target>region</target>
 <territory>any</territory>
 </campaign_effect_scopes>
-<campaign_effect_scopes record_uuid="{0be7e777-d081-4250-93f6-708bb54f9075}" record_timestamp="1551979633284" record_key="faction_to_region_verbose">
+<campaign_effect_scopes record_uuid="{0be7e777-d081-4250-93f6-708bb54f9075}" record_timestamp="1554882070824" record_key="faction_to_region_verbose">
 <key>faction_to_region_verbose</key>
 <localised_text state="APPROVED" last_approved_text="[[col:scope_description]](all {{tr:map_regions}} faction-wide)[[/col]]" last_edit_user="bob">[[col:scope_description]](all {{tr:map_regions}} faction-wide)[[/col]]</localised_text>
 <location>factionwide</location>
@@ -1222,6 +1288,17 @@
 <target>faction</target>
 <territory>any</territory>
 </campaign_effect_scopes>
+<campaign_effect_scopes record_uuid="{18854d86-3af0-4d44-9e75-fffbdf67f4e9}" record_timestamp="1562323320774" record_key="force_to_faction_when_garrisoned">
+<key>force_to_faction_when_garrisoned</key>
+<localised_text state="APPROVED" last_approved_text="[[col:scope_description]](for each garrisoned army)[[/col]]" last_edit_user="bob">[[col:scope_description]](for each garrisoned army)[[/col]]</localised_text>
+<location>factionwide</location>
+<only_display_in_tooltip>0</only_display_in_tooltip>
+<ownership>yours</ownership>
+<send_to_location_only_if_adult>1</send_to_location_only_if_adult>
+<source_for_design_ref_only>force</source_for_design_ref_only>
+<target>faction</target>
+<territory>any</territory>
+</campaign_effect_scopes>
 <campaign_effect_scopes record_uuid="{017d1316-057b-4e59-afb7-00801e84f5a8}" record_timestamp="1516301423344" record_key="force_to_force_any">
 <key>force_to_force_any</key>
 <localised_text state="APPROVED" last_approved_text="[[col:scope_description]](faction-wide)[[/col]]" last_edit_user="bob">[[col:scope_description]](faction-wide)[[/col]]</localised_text>
@@ -1243,6 +1320,17 @@
 <source_for_design_ref_only>faction</source_for_design_ref_only>
 <target>force_building</target>
 <territory>any</territory>
+</campaign_effect_scopes>
+<campaign_effect_scopes record_uuid="{af8a2bea-d371-489c-95c5-846cae602e0e}" record_timestamp="1559746157329" record_key="force_to_force_hostile_regionwide">
+<key>force_to_force_hostile_regionwide</key>
+<localised_text state="APPROVED" last_approved_text="[[col:scope_description]](enemy armies in this {{tr:map_region}})[[/col]]" last_edit_user="bob">[[col:scope_description]](enemy armies in this {{tr:map_region}})[[/col]]</localised_text>
+<location>regionwide</location>
+<only_display_in_tooltip>1</only_display_in_tooltip>
+<ownership>enemy</ownership>
+<send_to_location_only_if_adult>1</send_to_location_only_if_adult>
+<source_for_design_ref_only>force</source_for_design_ref_only>
+<target>force</target>
+<territory>yours</territory>
 </campaign_effect_scopes>
 <campaign_effect_scopes record_uuid="{173891ec-caf0-4905-9e74-56f29ce91189}" record_timestamp="1426093183726" record_key="force_to_force_own">
 <key>force_to_force_own</key>
@@ -1332,6 +1420,17 @@
 <target>province</target>
 <territory>any</territory>
 </campaign_effect_scopes>
+<campaign_effect_scopes record_uuid="{a7cdc285-87f5-44dc-a2f9-ccfc29749215}" record_timestamp="1558708344127" record_key="force_to_province_own_encamp_special">
+<key>force_to_province_own_encamp_special</key>
+<localised_text state="APPROVED" last_approved_text="[[col:scope_description]](local {{tr:map_province}} from own armies in encamp stance)[[/col]]" last_edit_user="bob">[[col:scope_description]](local {{tr:map_province}} from own armies in encamp stance)[[/col]]</localised_text>
+<location>provincewide</location>
+<only_display_in_tooltip>0</only_display_in_tooltip>
+<ownership>yours</ownership>
+<send_to_location_only_if_adult>1</send_to_location_only_if_adult>
+<source_for_design_ref_only>force</source_for_design_ref_only>
+<target>province</target>
+<territory>any</territory>
+</campaign_effect_scopes>
 <campaign_effect_scopes record_uuid="{6eeee1bf-359f-4241-8ba5-68a8ba982301}" record_timestamp="1516198953436" record_key="force_to_province_own_raiding">
 <key>force_to_province_own_raiding</key>
 <localised_text state="APPROVED" last_approved_text="[[col:scope_description]](when raiding own {{tr:map_province}})[[/col]]" last_edit_user="bob">[[col:scope_description]](when raiding own {{tr:map_province}})[[/col]]</localised_text>
@@ -1346,6 +1445,17 @@
 <campaign_effect_scopes record_uuid="{fe754adf-6c7a-4b92-9941-992e627be03c}" record_timestamp="1534797678358" record_key="force_to_province_own_territory_own">
 <key>force_to_province_own_territory_own</key>
 <localised_text state="APPROVED" last_approved_text="[[col:scope_description]](local {{tr:map_province}})[[/col]]" last_edit_user="bob">[[col:scope_description]](local {{tr:map_province}})[[/col]]</localised_text>
+<location>provincewide</location>
+<only_display_in_tooltip>0</only_display_in_tooltip>
+<ownership>yours</ownership>
+<send_to_location_only_if_adult>1</send_to_location_only_if_adult>
+<source_for_design_ref_only>force</source_for_design_ref_only>
+<target>province</target>
+<territory>yours</territory>
+</campaign_effect_scopes>
+<campaign_effect_scopes record_uuid="{70394759-b9ea-4970-809c-a153d72df473}" record_timestamp="1562087730970" record_key="force_to_province_when_garrisoned">
+<key>force_to_province_when_garrisoned</key>
+<localised_text state="APPROVED" last_approved_text="[[col:scope_description]](to {{tr:map_provinces}} when garrisoned)[[/col]]" last_edit_user="bob">[[col:scope_description]](to {{tr:map_provinces}} when garrisoned)[[/col]]</localised_text>
 <location>provincewide</location>
 <only_display_in_tooltip>0</only_display_in_tooltip>
 <ownership>yours</ownership>
@@ -1442,7 +1552,7 @@
 <target>region</target>
 <territory>yours</territory>
 </campaign_effect_scopes>
-<campaign_effect_scopes record_uuid="{863a0a80-d9dd-4a3d-9d50-1baa966bf779}" record_timestamp="1551713257190" record_key="force_to_region_provincewide_enemy">
+<campaign_effect_scopes record_uuid="{863a0a80-d9dd-4a3d-9d50-1baa966bf779}" record_timestamp="1554880897123" record_key="force_to_region_provincewide_enemy">
 <key>force_to_region_provincewide_enemy</key>
 <localised_text state="APPROVED" last_approved_text="[[col:scope_description]](enemy {{tr:map_province}})[[/col]]" last_edit_user="bob">[[col:scope_description]](enemy {{tr:map_province}})[[/col]]</localised_text>
 <location>provincewide</location>
@@ -1452,6 +1562,17 @@
 <source_for_design_ref_only>force</source_for_design_ref_only>
 <target>region</target>
 <territory>enemy</territory>
+</campaign_effect_scopes>
+<campaign_effect_scopes record_uuid="{c46da8c4-f15a-4f08-8b14-c0280780aa1e}" record_timestamp="1559746162195" record_key="force_to_region_when_garrisoned">
+<key>force_to_region_when_garrisoned</key>
+<localised_text state="APPROVED" last_approved_text="[[col:scope_description]](all {{tr:map_regions}} when garrisoned)[[/col]]" last_edit_user="bob">[[col:scope_description]](all {{tr:map_regions}} when garrisoned)[[/col]]</localised_text>
+<location>regionwide</location>
+<only_display_in_tooltip>0</only_display_in_tooltip>
+<ownership>yours</ownership>
+<send_to_location_only_if_adult>1</send_to_location_only_if_adult>
+<source_for_design_ref_only>force</source_for_design_ref_only>
+<target>region</target>
+<territory>yours</territory>
 </campaign_effect_scopes>
 <campaign_effect_scopes record_uuid="{34d8e17e-86f3-414a-9057-d0c14018a1a9}" record_timestamp="1458335250230" record_key="force_to_sea_region_own">
 <key>force_to_sea_region_own</key>
@@ -2014,7 +2135,7 @@
 <target>region</target>
 <territory>any</territory>
 </campaign_effect_scopes>
-<campaign_effect_scopes record_uuid="{634b396d-8e02-47fa-840e-5f7790613d5f}" record_timestamp="1551979633147" record_key="region_to_region_own_provincewide_verbose">
+<campaign_effect_scopes record_uuid="{634b396d-8e02-47fa-840e-5f7790613d5f}" record_timestamp="1554882070701" record_key="region_to_region_own_provincewide_verbose">
 <key>region_to_region_own_provincewide_verbose</key>
 <localised_text state="APPROVED" last_approved_text="[[col:scope_description]](all {{tr:map_regions}} in this {{tr:map_province}})[[/col]]" last_edit_user="bob">[[col:scope_description]](all {{tr:map_regions}} in this {{tr:map_province}})[[/col]]</localised_text>
 <location>provincewide</location>

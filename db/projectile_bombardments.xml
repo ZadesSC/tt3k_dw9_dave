@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="projectile_bombardments.xsd" export_time="Fri Sep 15 14:17:21 2017" revision="74" export_branch="T:/common/TWeak" export_user="bob">
-<edit_uuid>9983493a-04fe-45fb-9fc7-2b3329b34d5f</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="projectile_bombardments.xsd" export_time="Tue Jun 11 15:40:22 2019" revision="78" export_branch="C:/Users/william.wright/AppData/Roaming/TWDaemon/1517/dave" export_user="bob">
+<edit_uuid>d786eb56-c45b-475a-8c79-1b32af634cf3</edit_uuid>
+<projectile_bombardments record_uuid="{cb8d3612-2294-4158-9939-7bd79f299caf}" record_timestamp="1551881400703" record_key="ep_dyn_ability_arrow_storm">
+<arrival_window>5</arrival_window>
+<audio_type></audio_type>
+<bombardment_key>ep_dyn_ability_arrow_storm</bombardment_key>
+<launch_height>100</launch_height>
+<launch_height_underground>100</launch_height_underground>
+<launch_source>above_target</launch_source>
+<launch_vfx></launch_vfx>
+<num_projectiles>50</num_projectiles>
+<projectile_type>ep_dyn_ability_arrow_storm</projectile_type>
+<radius_spread>5</radius_spread>
+<randomise_launch>1</randomise_launch>
+<start_time>0.1</start_time>
+</projectile_bombardments>
+<projectile_bombardments record_uuid="{fb3c2507-c1fa-4115-9fc0-801b24d73d08}" record_timestamp="1551881400704" record_key="ep_dyn_ability_fire_bomb">
+<arrival_window>3</arrival_window>
+<audio_type></audio_type>
+<bombardment_key>ep_dyn_ability_fire_bomb</bombardment_key>
+<launch_height>20</launch_height>
+<launch_height_underground>10</launch_height_underground>
+<launch_source>above_target</launch_source>
+<launch_vfx>3k_main_weapon_trail_rock_fire</launch_vfx>
+<num_projectiles>3</num_projectiles>
+<projectile_type>ep_dyn_ability_fire_bomb</projectile_type>
+<radius_spread>15</radius_spread>
+<randomise_launch>1</randomise_launch>
+<start_time>0.1</start_time>
+</projectile_bombardments>
 </dataroot>

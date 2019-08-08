@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_followup_negotiation_proposed_components.xsd" export_time="Wed Mar 6 12:37:10 2019" revision="10" export_branch="C:/Users/rick.venier/AppData/Roaming/TWDaemon/1369/dave" export_user="bob">
-<edit_uuid>ea1b579b-2d89-42ab-ae1b-e90d00eadc03</edit_uuid>
-<campaign_diplomacy_followup_negotiation_proposed_components record_uuid="{d746f669-62b1-4081-a537-08769ba0ae27}" record_timestamp="1551875813864" record_key="followup_negotiation_emperor_contender_split_treaty_components_coalition_split_vote">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_followup_negotiation_proposed_components.xsd" export_time="Thu Jul 18 10:42:58 2019" revision="11" export_branch="C:/Users/rick.venier/AppData/Roaming/TWDaemon/1586/dave" export_user="bob">
+<edit_uuid>cc59977f-e01d-4ebd-bfb6-be7e55eaac20</edit_uuid>
+<campaign_diplomacy_followup_negotiation_proposed_components record_uuid="{d746f669-62b1-4081-a537-08769ba0ae27}" record_timestamp="1554881242446" record_key="followup_negotiation_emperor_contender_split_treaty_components_coalition_split_vote">
 <component>treaty_components_coalition_split_vote</component>
 <id>followup_negotiation_emperor_contender_split_treaty_components_coalition_split_vote</id>
 <negotiation>followup_negotiation_emperor_contender_split_coalition</negotiation>
 <proposer>exisiting_proposer</proposer>
 <recipient>exisiting_recipient</recipient>
 </campaign_diplomacy_followup_negotiation_proposed_components>
-<campaign_diplomacy_followup_negotiation_proposed_components record_uuid="{a69b9860-1b60-4407-850d-bb2a143e2c85}" record_timestamp="1551875813848" record_key="followup_negotiation_emperor_contender_split_treaty_components_military_alliance_split_vote">
+<campaign_diplomacy_followup_negotiation_proposed_components record_uuid="{a69b9860-1b60-4407-850d-bb2a143e2c85}" record_timestamp="1554881242446" record_key="followup_negotiation_emperor_contender_split_treaty_components_military_alliance_split_vote">
 <component>treaty_components_military_alliance_split_vote</component>
 <id>followup_negotiation_emperor_contender_split_treaty_components_military_alliance_split_vote</id>
 <negotiation>followup_negotiation_emperor_contender_split_military_alliance</negotiation>
 <proposer>exisiting_proposer</proposer>
 <recipient>exisiting_recipient</recipient>
+</campaign_diplomacy_followup_negotiation_proposed_components>
+<campaign_diplomacy_followup_negotiation_proposed_components record_uuid="{c3dc065b-f730-4870-abc3-7712d13c7f69}" record_timestamp="1563442952956" record_key="followup_negotiation_group_war_declared_on_vassal_han_empire_vassal_demands_protection">
+<component>treaty_components_vassal_han_empire_demands_protection_group_war</component>
+<id>followup_negotiation_group_war_declared_on_vassal_han_empire_vassal_demands_protection</id>
+<negotiation>followup_negotiation_group_war_declared_on_vassal_han_empire</negotiation>
+<proposer>exisiting_recipient</proposer>
+<recipient>vassal_lord_of_existing_recipient</recipient>
+</campaign_diplomacy_followup_negotiation_proposed_components>
+<campaign_diplomacy_followup_negotiation_proposed_components record_uuid="{1d9b8e11-4fe3-403a-b3c1-949b9eafeb20}" record_timestamp="1563442952995" record_key="followup_negotiation_group_war_declared_on_vassal_vassal_demands_protection">
+<component>treaty_components_vassal_demands_protection_group_war</component>
+<id>followup_negotiation_group_war_declared_on_vassal_vassal_demands_protection</id>
+<negotiation>followup_negotiation_group_war_declared_on_vassal</negotiation>
+<proposer>exisiting_recipient</proposer>
+<recipient>vassal_lord_of_existing_recipient</recipient>
+</campaign_diplomacy_followup_negotiation_proposed_components>
+<campaign_diplomacy_followup_negotiation_proposed_components record_uuid="{ebb222b8-9e91-4c8f-8140-b1c6d432a80b}" record_timestamp="1561975261311" record_key="followup_negotiation_group_war_participant_vassalised_resolve_group_war_with_master">
+<component>dummy_components_group_war_participant_vassalised_resolve_group_war_with_master</component>
+<id>followup_negotiation_group_war_participant_vassalised_resolve_group_war_with_master</id>
+<negotiation>followup_negotiation_group_war_participant_vassalised</negotiation>
+<proposer>vassal_lord_of_existing_recipient</proposer>
+<recipient>exisiting_proposer</recipient>
 </campaign_diplomacy_followup_negotiation_proposed_components>
 <campaign_diplomacy_followup_negotiation_proposed_components record_uuid="{958a61b0-6192-465e-b45e-e97717cb2b52}" record_timestamp="1529918869604" record_key="followup_negotiation_proposed_components_coalition_to_coalition_member_war">
 <component>dummy_components_war_declared_both_in_coalition</component>
@@ -57,18 +78,25 @@
 <proposer>exisiting_recipient</proposer>
 <recipient>exisiting_proposer</recipient>
 </campaign_diplomacy_followup_negotiation_proposed_components>
-<campaign_diplomacy_followup_negotiation_proposed_components record_uuid="{469659c6-5759-4231-9623-211818a3a4f9}" record_timestamp="1550854862608" record_key="followup_negotiation_war_declared_on_vassal_han_empire_vassal_demands_protection">
+<campaign_diplomacy_followup_negotiation_proposed_components record_uuid="{469659c6-5759-4231-9623-211818a3a4f9}" record_timestamp="1551787878863" record_key="followup_negotiation_war_declared_on_vassal_han_empire_vassal_demands_protection">
 <component>treaty_components_vassal_han_empire_demands_protection</component>
 <id>followup_negotiation_war_declared_on_vassal_han_empire_vassal_demands_protection</id>
 <negotiation>followup_negotiation_war_declared_on_vassal_han_empire</negotiation>
 <proposer>exisiting_recipient</proposer>
 <recipient>vassal_lord_of_existing_recipient</recipient>
 </campaign_diplomacy_followup_negotiation_proposed_components>
-<campaign_diplomacy_followup_negotiation_proposed_components record_uuid="{c77632c1-def6-4547-9657-77a77eee160c}" record_timestamp="1550663776941" record_key="followup_negotiation_war_declared_on_vassal_vassal_demands_protection">
+<campaign_diplomacy_followup_negotiation_proposed_components record_uuid="{c77632c1-def6-4547-9657-77a77eee160c}" record_timestamp="1551785101441" record_key="followup_negotiation_war_declared_on_vassal_vassal_demands_protection">
 <component>treaty_components_vassal_demands_protection</component>
 <id>followup_negotiation_war_declared_on_vassal_vassal_demands_protection</id>
 <negotiation>followup_negotiation_war_declared_on_vassal</negotiation>
 <proposer>exisiting_recipient</proposer>
 <recipient>vassal_lord_of_existing_recipient</recipient>
+</campaign_diplomacy_followup_negotiation_proposed_components>
+<campaign_diplomacy_followup_negotiation_proposed_components record_uuid="{1d136d47-59cf-4052-84bd-27eff4884b22}" record_timestamp="1561975259282" record_key="followup_negotiation_war_participant_vassalised_resolve_war_with_master">
+<component>dummy_components_war_participant_vassalised_resolve_war_with_master</component>
+<id>followup_negotiation_war_participant_vassalised_resolve_war_with_master</id>
+<negotiation>followup_negotiation_war_participant_vassalised</negotiation>
+<proposer>vassal_lord_of_existing_recipient</proposer>
+<recipient>exisiting_proposer</recipient>
 </campaign_diplomacy_followup_negotiation_proposed_components>
 </dataroot>

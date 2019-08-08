@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="loyalty_factors.xsd" export_time="Fri Apr 5 16:44:33 2019" revision="116" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1424/dave" export_user="bob">
-<edit_uuid>71525e65-680d-4c3b-aa12-6c5c258a25b2</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="loyalty_factors.xsd" export_time="Mon Jul 1 16:42:18 2019" revision="108" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1552/dave" export_user="bob">
+<edit_uuid>14cbfb64-e9f2-4551-8123-9c673a266eba</edit_uuid>
 <loyalty_factors record_uuid="{0b85efd0-ce03-48aa-89cc-a199974d7437}" record_timestamp="1549975099049" record_key="DATA_NO_BONUS_career_change">
 <ignore_reset>0</ignore_reset>
 <key>DATA_NO_BONUS_career_change</key>
@@ -47,6 +47,14 @@
 <localised_negative_name state="APPROVED" last_approved_text="Farming assignment" last_edit_user="bob">Farming assignment</localised_negative_name>
 <localised_positive_name state="APPROVED" last_approved_text="Farming assignment" last_edit_user="bob">Farming assignment</localised_positive_name>
 <maximum_value>25</maximum_value>
+<minimum_value>0</minimum_value>
+</loyalty_factors>
+<loyalty_factors record_uuid="{c838fd3c-bf3a-409c-af58-a0daba5d08e3}" record_timestamp="1559669722559" record_key="DATA_NO_BONUS_presented_gift">
+<ignore_reset>0</ignore_reset>
+<key>DATA_NO_BONUS_presented_gift</key>
+<localised_negative_name state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">Presented gift</localised_negative_name>
+<localised_positive_name state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">Presented gift</localised_positive_name>
+<maximum_value>100</maximum_value>
 <minimum_value>0</minimum_value>
 </loyalty_factors>
 <loyalty_factors record_uuid="{08a543a2-e085-408a-bb68-dcec220d55b2}" record_timestamp="1549995826909" record_key="DATA_NO_BONUS_requested_aid">
@@ -265,6 +273,14 @@
 <maximum_value>100</maximum_value>
 <minimum_value>-100</minimum_value>
 </loyalty_factors>
+<loyalty_factors record_uuid="{2ef09fb2-ec12-43ca-a944-3c2d90123d3a}" record_timestamp="1561375887872" record_key="DATA_bonus_values_reserves">
+<ignore_reset>0</ignore_reset>
+<key>DATA_bonus_values_reserves</key>
+<localised_negative_name state="APPROVED" last_approved_text="Reserves" last_edit_user="bob">Reserves</localised_negative_name>
+<localised_positive_name state="APPROVED" last_approved_text="Reserves" last_edit_user="bob">Reserves</localised_positive_name>
+<maximum_value>100</maximum_value>
+<minimum_value>-100</minimum_value>
+</loyalty_factors>
 <loyalty_factors record_uuid="{d5761c37-5a4c-401f-b834-ba840514b20b}" record_timestamp="1537523841782" record_key="DATA_bonus_values_salary">
 <ignore_reset>0</ignore_reset>
 <key>DATA_bonus_values_salary</key>
@@ -273,7 +289,7 @@
 <maximum_value>100</maximum_value>
 <minimum_value>0</minimum_value>
 </loyalty_factors>
-<loyalty_factors record_uuid="{3ad59a29-770e-4be5-a751-56c4a5dd341b}" record_timestamp="1550242649011" record_key="DATA_bv_relationships_friend_in_friendly_faction">
+<loyalty_factors record_uuid="{3ad59a29-770e-4be5-a751-56c4a5dd341b}" record_timestamp="1551784708266" record_key="DATA_bv_relationships_friend_in_friendly_faction">
 <ignore_reset>0</ignore_reset>
 <key>DATA_bv_relationships_friend_in_friendly_faction</key>
 <localised_negative_name state="APPROVED" last_approved_text="Friendships within hostile factions" last_edit_user="bob">Friendships within hostile factions</localised_negative_name>
@@ -281,7 +297,7 @@
 <maximum_value>100</maximum_value>
 <minimum_value>-100</minimum_value>
 </loyalty_factors>
-<loyalty_factors record_uuid="{e25e6b7f-7301-40b7-88f4-424ac321e582}" record_timestamp="1550242644878" record_key="DATA_bv_relationships_friend_in_hostile_faction">
+<loyalty_factors record_uuid="{e25e6b7f-7301-40b7-88f4-424ac321e582}" record_timestamp="1551784707944" record_key="DATA_bv_relationships_friend_in_hostile_faction">
 <ignore_reset>0</ignore_reset>
 <key>DATA_bv_relationships_friend_in_hostile_faction</key>
 <localised_negative_name state="APPROVED" last_approved_text="Friendships within hostile factions" last_edit_user="bob">Friendships within hostile factions</localised_negative_name>
@@ -289,7 +305,7 @@
 <maximum_value>100</maximum_value>
 <minimum_value>-100</minimum_value>
 </loyalty_factors>
-<loyalty_factors record_uuid="{bfeb48c7-bb19-4ab8-a374-dd49b76ce86e}" record_timestamp="1550242644936" record_key="DATA_bv_relationships_friend_in_local_region">
+<loyalty_factors record_uuid="{bfeb48c7-bb19-4ab8-a374-dd49b76ce86e}" record_timestamp="1551784707944" record_key="DATA_bv_relationships_friend_in_local_region">
 <ignore_reset>0</ignore_reset>
 <key>DATA_bv_relationships_friend_in_local_region</key>
 <localised_negative_name state="APPROVED" last_approved_text="Friendships with passers-by" last_edit_user="bob">Friendships with passers-by</localised_negative_name>
@@ -297,7 +313,7 @@
 <maximum_value>100</maximum_value>
 <minimum_value>-100</minimum_value>
 </loyalty_factors>
-<loyalty_factors record_uuid="{598f2d75-5d05-43e7-8fa9-ade1c6fcea24}" record_timestamp="1550242644850" record_key="DATA_bv_relationships_friend_in_own_faction">
+<loyalty_factors record_uuid="{598f2d75-5d05-43e7-8fa9-ade1c6fcea24}" record_timestamp="1551784707944" record_key="DATA_bv_relationships_friend_in_own_faction">
 <ignore_reset>0</ignore_reset>
 <key>DATA_bv_relationships_friend_in_own_faction</key>
 <localised_negative_name state="APPROVED" last_approved_text="Friendships within faction" last_edit_user="bob">Friendships within faction</localised_negative_name>
@@ -305,7 +321,7 @@
 <maximum_value>100</maximum_value>
 <minimum_value>-100</minimum_value>
 </loyalty_factors>
-<loyalty_factors record_uuid="{29af36e7-c7e2-4554-8666-daecbc5e36b2}" record_timestamp="1550242644793" record_key="DATA_bv_relationships_friend_in_own_force">
+<loyalty_factors record_uuid="{29af36e7-c7e2-4554-8666-daecbc5e36b2}" record_timestamp="1551784707944" record_key="DATA_bv_relationships_friend_in_own_force">
 <ignore_reset>0</ignore_reset>
 <key>DATA_bv_relationships_friend_in_own_force</key>
 <localised_negative_name state="APPROVED" last_approved_text="Friendships within army" last_edit_user="bob">Friendships within army</localised_negative_name>
@@ -313,7 +329,7 @@
 <maximum_value>100</maximum_value>
 <minimum_value>-100</minimum_value>
 </loyalty_factors>
-<loyalty_factors record_uuid="{4401c4cf-e76a-451d-9641-3ae4bc498584}" record_timestamp="1550242644907" record_key="DATA_bv_relationships_rival_in_friendly_faction">
+<loyalty_factors record_uuid="{4401c4cf-e76a-451d-9641-3ae4bc498584}" record_timestamp="1551784707944" record_key="DATA_bv_relationships_rival_in_friendly_faction">
 <ignore_reset>0</ignore_reset>
 <key>DATA_bv_relationships_rival_in_friendly_faction</key>
 <localised_negative_name state="APPROVED" last_approved_text="Rivalries within friendly factions" last_edit_user="bob">Rivalries within friendly factions</localised_negative_name>
@@ -321,7 +337,7 @@
 <maximum_value>100</maximum_value>
 <minimum_value>-100</minimum_value>
 </loyalty_factors>
-<loyalty_factors record_uuid="{caeabaf0-fa25-4ce1-b094-9724a0a992c7}" record_timestamp="1550242649048" record_key="DATA_bv_relationships_rival_in_hostile_faction">
+<loyalty_factors record_uuid="{caeabaf0-fa25-4ce1-b094-9724a0a992c7}" record_timestamp="1551784708266" record_key="DATA_bv_relationships_rival_in_hostile_faction">
 <ignore_reset>0</ignore_reset>
 <key>DATA_bv_relationships_rival_in_hostile_faction</key>
 <localised_negative_name state="APPROVED" last_approved_text="Rivalries within hostile factions" last_edit_user="bob">Rivalries within hostile factions</localised_negative_name>
@@ -329,7 +345,7 @@
 <maximum_value>100</maximum_value>
 <minimum_value>-100</minimum_value>
 </loyalty_factors>
-<loyalty_factors record_uuid="{d3490510-9a55-479d-b455-0f64663f80bc}" record_timestamp="1550242644766" record_key="DATA_bv_relationships_rival_in_local_region">
+<loyalty_factors record_uuid="{d3490510-9a55-479d-b455-0f64663f80bc}" record_timestamp="1551784707944" record_key="DATA_bv_relationships_rival_in_local_region">
 <ignore_reset>0</ignore_reset>
 <key>DATA_bv_relationships_rival_in_local_region</key>
 <localised_negative_name state="APPROVED" last_approved_text="Rivalries with passers-by" last_edit_user="bob">Rivalries with passers-by</localised_negative_name>
@@ -337,7 +353,7 @@
 <maximum_value>100</maximum_value>
 <minimum_value>-100</minimum_value>
 </loyalty_factors>
-<loyalty_factors record_uuid="{299134b1-a320-4746-8cd5-f4ac27a1f970}" record_timestamp="1550242644682" record_key="DATA_bv_relationships_rival_in_own_faction">
+<loyalty_factors record_uuid="{299134b1-a320-4746-8cd5-f4ac27a1f970}" record_timestamp="1551784707944" record_key="DATA_bv_relationships_rival_in_own_faction">
 <ignore_reset>0</ignore_reset>
 <key>DATA_bv_relationships_rival_in_own_faction</key>
 <localised_negative_name state="APPROVED" last_approved_text="Rivalries within faction" last_edit_user="bob">Rivalries within faction</localised_negative_name>
@@ -345,7 +361,7 @@
 <maximum_value>100</maximum_value>
 <minimum_value>-100</minimum_value>
 </loyalty_factors>
-<loyalty_factors record_uuid="{9c7b77a4-d0b3-45f2-9638-9202bd892e48}" record_timestamp="1550242644822" record_key="DATA_bv_relationships_rival_in_own_force">
+<loyalty_factors record_uuid="{9c7b77a4-d0b3-45f2-9638-9202bd892e48}" record_timestamp="1551784707944" record_key="DATA_bv_relationships_rival_in_own_force">
 <ignore_reset>0</ignore_reset>
 <key>DATA_bv_relationships_rival_in_own_force</key>
 <localised_negative_name state="APPROVED" last_approved_text="Rivalries within army" last_edit_user="bob">Rivalries within army</localised_negative_name>
@@ -353,7 +369,7 @@
 <maximum_value>100</maximum_value>
 <minimum_value>-100</minimum_value>
 </loyalty_factors>
-<loyalty_factors record_uuid="{3c978eb8-beb5-405d-92fb-f711698a12c1}" record_timestamp="1550242644712" record_key="DATA_bv_relationships_with_faction_leader">
+<loyalty_factors record_uuid="{3c978eb8-beb5-405d-92fb-f711698a12c1}" record_timestamp="1551784707944" record_key="DATA_bv_relationships_with_faction_leader">
 <ignore_reset>0</ignore_reset>
 <key>DATA_bv_relationships_with_faction_leader</key>
 <localised_negative_name state="APPROVED" last_approved_text="Rivalry with faction leader" last_edit_user="bob">Rivalry with faction leader</localised_negative_name>
@@ -465,7 +481,7 @@
 <maximum_value>0</maximum_value>
 <minimum_value>-20</minimum_value>
 </loyalty_factors>
-<loyalty_factors record_uuid="{a13547ce-1962-424f-9898-45fd3233d52f}" record_timestamp="1551261025504" record_key="debug_civil_war">
+<loyalty_factors record_uuid="{a13547ce-1962-424f-9898-45fd3233d52f}" record_timestamp="1518542884083" record_key="debug_civil_war">
 <ignore_reset>0</ignore_reset>
 <key>debug_civil_war</key>
 <localised_negative_name state="APPROVED" last_approved_text="Civil war" last_edit_user="bob">Civil war</localised_negative_name>
@@ -593,7 +609,7 @@
 <maximum_value>40</maximum_value>
 <minimum_value>-80</minimum_value>
 </loyalty_factors>
-<loyalty_factors record_uuid="{74371627-09f2-46f7-9c2a-bfded1dbcbef}" record_timestamp="1553338672793" record_key="job_satisfaction">
+<loyalty_factors record_uuid="{74371627-09f2-46f7-9c2a-bfded1dbcbef}" record_timestamp="1511976537115" record_key="job_satisfaction">
 <ignore_reset>0</ignore_reset>
 <key>job_satisfaction</key>
 <localised_negative_name state="APPROVED" last_approved_text="Desires higher court position" last_edit_user="bob">Desires higher court position</localised_negative_name>

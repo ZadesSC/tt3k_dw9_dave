@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="unit_abilities.xsd" export_time="Wed Mar 13 16:35:25 2019" revision="399" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1385/dave" export_user="bob">
-<edit_uuid>718d8417-9d61-448b-ac23-6207bf7d45ff</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="unit_abilities.xsd" export_time="Thu Jul 18 11:25:11 2019" revision="424" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1586/dave" export_user="bob">
+<edit_uuid>136147c1-3f3e-4194-a907-a99038a939bc</edit_uuid>
 <unit_abilities record_uuid="{c8bf6f05-a000-4fd6-ae45-b2bfdc7f2b8c}" record_timestamp="1495537582903" record_key="3k_main_ability_adamant_resolve">
 <ability_colour>metal</ability_colour>
 <allow_multiple_selection_ui>1</allow_multiple_selection_ui>
@@ -1798,6 +1798,924 @@
 <supersedes_ability></supersedes_ability>
 <tooltip_text state="APPROVED" last_approved_text="An ancient chant that serves as a reminder that Heaven is with the virtuous." last_edit_user="bob">An ancient chant that serves as a reminder that Heaven is with the virtuous.</tooltip_text>
 <type>3k_ytr_ability_words_of_the_way</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{aeffb8d3-8708-4f5b-9b80-15cff98fc63f}" record_timestamp="1552900886504" record_key="ep_dyn_ability_adamant_resolve">
+<ability_colour>metal</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>ep_ability_adamant_resolve</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_adamant_resolve</key>
+<onscreen_name state="APPROVED" last_approved_text="Adamant Resolve" last_edit_user="bob">Adamant Resolve</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Determination and grit allow all attacks to be weathered." last_edit_user="bob">Determination and grit allow all attacks to be weathered.</tooltip_text>
+<type>ep_dyn_ability_adamant_resolve</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{1f5e944a-5836-49ef-9f1a-99289212de39}" record_timestamp="1553163474146" record_key="ep_dyn_ability_analyse_weakness">
+<ability_colour>water</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>negative</effect_type>
+<icon_name>3k_ytr_ability_knowledge_of_the_spirit</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_analyse_weakness</key>
+<onscreen_name state="APPROVED" last_approved_text="Analyse Weakness" last_edit_user="bob">Analyse Weakness</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="A sharp mind dissects enemy heroes' styles, making them vulnerable to attack." last_edit_user="bob">A sharp mind dissects enemy heroes' styles, making them vulnerable to attack.</tooltip_text>
+<type>ep_dyn_ability_analyse_weakness</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{e9c18e81-134b-4536-aa0a-15d0cf14588e}" record_timestamp="1552393389590" record_key="ep_dyn_ability_arrow_storm">
+<ability_colour>earth</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>neutral</effect_type>
+<icon_name>ep_ability_arrow_storm</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_arrow_storm</key>
+<onscreen_name state="APPROVED" last_approved_text="Arrow Storm" last_edit_user="bob">Arrow Storm</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>2</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Fire a volley of arrows that rain down on the targeted area." last_edit_user="bob">Fire a volley of arrows that rain down on the targeted area.</tooltip_text>
+<type>ep_dyn_ability_arrow_storm</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{00505915-7e3a-46c2-bf74-2bc3a89bdac7}" record_timestamp="1552393389590" record_key="ep_dyn_ability_assassinate">
+<ability_colour>metal</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>neutral</effect_type>
+<icon_name>ep_ability_assassinate</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_assassinate</key>
+<onscreen_name state="APPROVED" last_approved_text="Assassinate" last_edit_user="bob">Assassinate</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>2</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Fire deadly targeted shot, dealing extreme damage to a single entity. Most effective against enemy heroes." last_edit_user="bob">Fire deadly targeted shot, dealing extreme damage to a single entity. Most effective against enemy heroes.</tooltip_text>
+<type>ep_dyn_ability_assassinate</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{22b981af-a321-4ff1-97d1-1ec3ef6506f2}" record_timestamp="1551886338671" record_key="ep_dyn_ability_blade_breaker">
+<ability_colour>fire</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_blade_breaker</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_blade_breaker</key>
+<onscreen_name state="APPROVED" last_approved_text="Blade Breaker" last_edit_user="bob">Blade Breaker</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Blades glance harmlessly off this hero's armour." last_edit_user="bob">Blades glance harmlessly off this hero's armour.</tooltip_text>
+<type>ep_dyn_ability_blade_breaker</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{c54ec020-fe3e-469f-9935-359e758d07f1}" record_timestamp="1552900886504" record_key="ep_dyn_ability_blazing_glory">
+<ability_colour>fire</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_resolve_of_the_righteous</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_blazing_glory</key>
+<onscreen_name state="APPROVED" last_approved_text="Blazing Glory" last_edit_user="bob">Blazing Glory</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Burning bright, an inspiration to all." last_edit_user="bob">Burning bright, an inspiration to all.</tooltip_text>
+<type>ep_dyn_ability_blazing_glory</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{aa4d20ea-d4e5-41f5-bed8-60a0d2424760}" record_timestamp="1551886339645" record_key="ep_dyn_ability_blood_fury">
+<ability_colour>fire</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_blood_fury</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_blood_fury</key>
+<onscreen_name state="APPROVED" last_approved_text="Blood Fury" last_edit_user="bob">Blood Fury</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="As this hero's strength rises, their grip on rationality weakens…" last_edit_user="bob">As this hero's strength rises, their grip on rationality weakens…</tooltip_text>
+<type>ep_dyn_ability_blood_fury</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{2e962415-4e8a-428c-96ae-3cc02adbfb62}" record_timestamp="1552393389590" record_key="ep_dyn_ability_blood_rush">
+<ability_colour>metal</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>neutral</effect_type>
+<icon_name>ep_ability_blood_rush</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_blood_rush</key>
+<onscreen_name state="APPROVED" last_approved_text="Blood Rush" last_edit_user="bob">Blood Rush</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Deliver a vicious attack that damages enemies in a narrow cone. Deals high damage to enemy heroes." last_edit_user="bob">Deliver a vicious attack that damages enemies in a narrow cone. Deals high damage to enemy heroes.</tooltip_text>
+<type>ep_dyn_ability_blood_rush</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{8e815657-c412-4605-8a7f-54828ff43e70}" record_timestamp="1552900886504" record_key="ep_dyn_ability_burning_soul">
+<ability_colour>fire</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>neutral</effect_type>
+<icon_name>3k_ytr_ability_inner_fire</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_burning_soul</key>
+<onscreen_name state="APPROVED" last_approved_text="Burning Soul" last_edit_user="bob">Burning Soul</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="The fiercer the flame, the shorter the burn." last_edit_user="bob">The fiercer the flame, the shorter the burn.</tooltip_text>
+<type>ep_dyn_ability_burning_soul</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{f838ccdf-158d-4b9d-a75b-6fb34d6d75b0}" record_timestamp="1552900886504" record_key="ep_dyn_ability_cavalry_master">
+<ability_colour>earth</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>ep_ability_cavalry_master</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_cavalry_master</key>
+<onscreen_name state="APPROVED" last_approved_text="Cavalry Master" last_edit_user="bob">Cavalry Master</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Soldier and steed combine into a formidable fighting force." last_edit_user="bob">Soldier and steed combine into a formidable fighting force.</tooltip_text>
+<type>ep_dyn_ability_cavalry_master</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{5be788ae-bb2b-4ddf-b9d7-8b67ed47cabc}" record_timestamp="1552900886504" record_key="ep_dyn_ability_ceaseless_assault">
+<ability_colour>metal</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_unstoppable</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_ceaseless_assault</key>
+<onscreen_name state="APPROVED" last_approved_text="Ceaseless Assault" last_edit_user="bob">Ceaseless Assault</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="This warrior strikes with the tireless rhythm of the blacksmith's hammer." last_edit_user="bob">This warrior strikes with the tireless rhythm of the blacksmith's hammer.</tooltip_text>
+<type>ep_dyn_ability_ceaseless_assault</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{f75fba8a-d1d0-4e06-8ef0-e80bd144d14a}" record_timestamp="1551881859291" record_key="ep_dyn_ability_cleansing_aura">
+<ability_colour>wood</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>ep_ability_cleansing_aura</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_cleansing_aura</key>
+<onscreen_name state="APPROVED" last_approved_text="Cleansing Aura" last_edit_user="bob">Cleansing Aura</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>2</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Gradually heal nearby allies over time. " last_edit_user="bob">Gradually heal nearby allies over time. </tooltip_text>
+<type>ep_dyn_ability_cleansing_aura</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{68531805-ffe8-4af3-ae1a-c8dcf72cb228}" record_timestamp="1552393389591" record_key="ep_dyn_ability_clear_a_path">
+<ability_colour>wood</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>neutral</effect_type>
+<icon_name>ep_ability_clear_a_path</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_clear_a_path</key>
+<onscreen_name state="APPROVED" last_approved_text="Clear a Path" last_edit_user="bob">Clear a Path</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Send a shockwave away from the hero, damaging enemies in its path." last_edit_user="bob">Send a shockwave away from the hero, damaging enemies in its path.</tooltip_text>
+<type>ep_dyn_ability_clear_a_path</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{3aa9c809-498f-4804-ba71-18734121e3a2}" record_timestamp="1552900886504" record_key="ep_dyn_ability_crushing_blows">
+<ability_colour>fire</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_internal_blaze</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_crushing_blows</key>
+<onscreen_name state="APPROVED" last_approved_text="Crushing Blows" last_edit_user="bob">Crushing Blows</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Like a raging fire, this warrior destroys all in their path." last_edit_user="bob">Like a raging fire, this warrior destroys all in their path.</tooltip_text>
+<type>ep_dyn_ability_crushing_blows</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{1b934c2c-88a3-43ba-8427-f99cb5426414}" record_timestamp="1551886338808" record_key="ep_dyn_ability_cry_of_the_forest">
+<ability_colour>wood</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_cry_of_the_forest</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_cry_of_the_forest</key>
+<onscreen_name state="APPROVED" last_approved_text="Cry of the Forest" last_edit_user="bob">Cry of the Forest</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="When weakest, this hero unleashes their true power!" last_edit_user="bob">When weakest, this hero unleashes their true power!</tooltip_text>
+<type>ep_dyn_ability_cry_of_the_forest</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{b10ca02a-9820-4e24-9850-f8484aa1eb9b}" record_timestamp="1552900886504" record_key="ep_dyn_ability_deep_rooted">
+<ability_colour>wood</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>ep_ability_deep_rooted</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_deep_rooted</key>
+<onscreen_name state="APPROVED" last_approved_text="Deep-rooted" last_edit_user="bob">Deep-rooted</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="The forest bends, but does not break." last_edit_user="bob">The forest bends, but does not break.</tooltip_text>
+<type>ep_dyn_ability_deep_rooted</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{1614044f-c487-4a84-bea5-23d742d5826c}" record_timestamp="1551886338946" record_key="ep_dyn_ability_distant_courage">
+<ability_colour>earth</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_distant_courage</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_distant_courage</key>
+<onscreen_name state="APPROVED" last_approved_text="Distant Courage" last_edit_user="bob">Distant Courage</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="This hero directs and empowers their allies from a… safer distance." last_edit_user="bob">This hero directs and empowers their allies from a… safer distance.</tooltip_text>
+<type>ep_dyn_ability_distant_courage</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{c6c05b5d-edc5-48c5-9e48-600fdfdfd1c1}" record_timestamp="1558599375902" record_key="ep_dyn_ability_double_strike">
+<ability_colour>earth</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>neutral</effect_type>
+<icon_name>ep_ability_unstoppable_charge</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_double_strike</key>
+<onscreen_name state="APPROVED" last_approved_text="Double Strike" last_edit_user="bob">Double Strike</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Deliver two brutal attacks that send shockwaves away from the hero, damaging all enemies within a cone." last_edit_user="bob">Deliver two brutal attacks that send shockwaves away from the hero, damaging all enemies within a cone.</tooltip_text>
+<type>ep_dyn_ability_double_strike</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{a35d4344-758d-41b9-abd2-527f680f59cc}" record_timestamp="1551886339084" record_key="ep_dyn_ability_elemental_vigour">
+<ability_colour>metal</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_elemental_vigour</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_elemental_vigour</key>
+<onscreen_name state="APPROVED" last_approved_text="Elemental Vigour" last_edit_user="bob">Elemental Vigour</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="The longer this hero fights, the greater and more inspiring they become!" last_edit_user="bob">The longer this hero fights, the greater and more inspiring they become!</tooltip_text>
+<type>ep_dyn_ability_elemental_vigour</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{ad260d4f-5a8d-47c5-bf8a-d73e82e87684}" record_timestamp="1552900886504" record_key="ep_dyn_ability_executioner">
+<ability_colour>metal</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>negative</effect_type>
+<icon_name>3k_main_ability_smouldering_fury</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_executioner</key>
+<onscreen_name state="APPROVED" last_approved_text="Executioner" last_edit_user="bob">Executioner</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="All it takes is a single moment of weakness for the killing blow to slip through." last_edit_user="bob">All it takes is a single moment of weakness for the killing blow to slip through.</tooltip_text>
+<type>ep_dyn_ability_executioner</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{3b2c6a48-03c6-4ac3-a2ca-095e56a0fe69}" record_timestamp="1552393389591" record_key="ep_dyn_ability_fire_bomb">
+<ability_colour>fire</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>neutral</effect_type>
+<icon_name>ep_ability_fire_bomb</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_fire_bomb</key>
+<onscreen_name state="APPROVED" last_approved_text="Fire Bomb" last_edit_user="bob">Fire Bomb</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>2</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Hurl a bundle of explosive fire bombs at a targeted enemy." last_edit_user="bob">Hurl a bundle of explosive fire bombs at a targeted enemy.</tooltip_text>
+<type>ep_dyn_ability_fire_bomb</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{c94b4d1d-f4c5-4ca8-946d-d5fc0af10c34}" record_timestamp="1552393389591" record_key="ep_dyn_ability_flaming_fury">
+<ability_colour>fire</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>neutral</effect_type>
+<icon_name>ep_ability_flaming_fury</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_flaming_fury</key>
+<onscreen_name state="APPROVED" last_approved_text="Flaming Fury" last_edit_user="bob">Flaming Fury</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>1</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Unleash the hero's rage, damaging all enemies around them." last_edit_user="bob">Unleash the hero's rage, damaging all enemies around them.</tooltip_text>
+<type>ep_dyn_ability_flaming_fury</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{e957fc93-ba30-459d-892d-d44b56f4da48}" record_timestamp="1552900886504" record_key="ep_dyn_ability_flowing_water">
+<ability_colour>water</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_fleet_footed</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_flowing_water</key>
+<onscreen_name state="APPROVED" last_approved_text="Flowing Water" last_edit_user="bob">Flowing Water</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Move like the river: unstopping, unstoppable." last_edit_user="bob">Move like the river: unstopping, unstoppable.</tooltip_text>
+<type>ep_dyn_ability_flowing_water</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{6cc1cae1-3cdf-4fba-b82e-f7ae47261fa1}" record_timestamp="1551881859292" record_key="ep_dyn_ability_immunity_to_fatigue">
+<ability_colour>placeholder</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>neutral</effect_type>
+<icon_name>3k_main_ability_fleet_footed</icon_name>
+<is_hidden_in_ui>1</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_immunity_to_fatigue</key>
+<onscreen_name state="APPROVED" last_approved_text="Fatigue Immunity" last_edit_user="bob">Fatigue Immunity</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Bestows immunity to fatigue." last_edit_user="bob">Bestows immunity to fatigue.</tooltip_text>
+<type>ep_dyn_ability_immunity_to_fatigue</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{e381728f-587e-4c9a-ac22-51cea612199f}" record_timestamp="1551886340210" record_key="ep_dyn_ability_inspiring_surge">
+<ability_colour>water</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_inspiring_surge</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_inspiring_surge</key>
+<onscreen_name state="APPROVED" last_approved_text="Inspiring Surge" last_edit_user="bob">Inspiring Surge</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Inspirational deeds spur forces to swifter action!" last_edit_user="bob">Inspirational deeds spur forces to swifter action!</tooltip_text>
+<type>ep_dyn_ability_inspiring_surge</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{6752d55c-533f-4b67-9ef3-3ab3e565de1d}" record_timestamp="1552900886504" record_key="ep_dyn_ability_inward_focus">
+<ability_colour>metal</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>ep_ability_inward_focus</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_inward_focus</key>
+<onscreen_name state="APPROVED" last_approved_text="Inward Focus" last_edit_user="bob">Inward Focus</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="A focus on form allows one to evade and manoeuvre." last_edit_user="bob">A focus on form allows one to evade and manoeuvre.</tooltip_text>
+<type>ep_dyn_ability_inward_focus</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{29bbdcab-ddaa-4ae7-af6a-35e6347c5918}" record_timestamp="1552900886504" record_key="ep_dyn_ability_masters_patience">
+<ability_colour>earth</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>ep_ability_master_patience</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_masters_patience</key>
+<onscreen_name state="APPROVED" last_approved_text="Master's Patience" last_edit_user="bob">Master's Patience</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="With time to prepare, this hero becomes an unstoppable force." last_edit_user="bob">With time to prepare, this hero becomes an unstoppable force.</tooltip_text>
+<type>ep_dyn_ability_masters_patience</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{8fbeb2bb-2906-4de7-8051-9cf7d0a1a5e5}" record_timestamp="1552393389591" record_key="ep_dyn_ability_multishot">
+<ability_colour>water</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>neutral</effect_type>
+<icon_name>ep_ability_multishot</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_multishot</key>
+<onscreen_name state="APPROVED" last_approved_text="Multi-shot" last_edit_user="bob">Multi-shot</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>1</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Loose two sprays of arrows that damage all enemies in a cone." last_edit_user="bob">Loose two sprays of arrows that damage all enemies in a cone.</tooltip_text>
+<type>ep_dyn_ability_multishot</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{8915a464-cb7f-4b7f-856f-8d60aae882e6}" record_timestamp="1551886339786" record_key="ep_dyn_ability_nature_s_ally">
+<ability_colour>earth</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_nature_s_ally</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_nature_s_ally</key>
+<onscreen_name state="APPROVED" last_approved_text="Nature's Ally" last_edit_user="bob">Nature's Ally</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="The forest provides a path, and surer footing, for the respectful. " last_edit_user="bob">The forest provides a path, and surer footing, for the respectful. </tooltip_text>
+<type>ep_dyn_ability_nature_s_ally</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{2d0520a9-5740-4eed-9f2f-e5e32b415d5f}" record_timestamp="1551886338739" record_key="ep_dyn_ability_ordered_mind">
+<ability_colour>earth</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_imperious_presence</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_ordered_mind</key>
+<onscreen_name state="APPROVED" last_approved_text="Ordered Mind" last_edit_user="bob">Ordered Mind</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="With discipline of thought comes efficient action." last_edit_user="bob">With discipline of thought comes efficient action.</tooltip_text>
+<type>ep_dyn_ability_ordered_mind</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{93280085-f626-472a-929e-ed468ef9aeaa}" record_timestamp="1552393389590" record_key="ep_dyn_ability_palm_strike">
+<ability_colour>earth</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>neutral</effect_type>
+<icon_name>ep_ability_palm_strike</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_palm_strike</key>
+<onscreen_name state="APPROVED" last_approved_text="Palm Strike" last_edit_user="bob">Palm Strike</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>1</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Send a concussive blast in a cone away from the hero." last_edit_user="bob">Send a concussive blast in a cone away from the hero.</tooltip_text>
+<type>ep_dyn_ability_palm_strike</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{e42c105f-1b76-4043-b51c-974f740f9db0}" record_timestamp="1552900886504" record_key="ep_dyn_ability_phoenix_rising">
+<ability_colour>fire</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>ep_ability_phoenix_rising</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_phoenix_rising</key>
+<onscreen_name state="APPROVED" last_approved_text="Phoenix Rising" last_edit_user="bob">Phoenix Rising</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="When all hope is lost, a sudden resurgence." last_edit_user="bob">When all hope is lost, a sudden resurgence.</tooltip_text>
+<type>ep_dyn_ability_phoenix_rising</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{39fd4c55-ad8c-4727-948e-3b870d147b1d}" record_timestamp="1552900886504" record_key="ep_dyn_ability_poisoned_weapons">
+<ability_colour>water</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>ep_ability_poisoned_weapons</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_poisoned_weapons</key>
+<onscreen_name state="APPROVED" last_approved_text="Poisoned Blades" last_edit_user="bob">Poisoned Blades</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Poison slows a warrior down, slowly draining their life." last_edit_user="bob">Poison slows a warrior down, slowly draining their life.</tooltip_text>
+<type>ep_dyn_ability_poisoned_weapons</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{2c2d91eb-c987-4b16-9883-09b48ed06eb6}" record_timestamp="1552393389591" record_key="ep_dyn_ability_precision_shot">
+<ability_colour>water</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>neutral</effect_type>
+<icon_name>ep_ability_precision_shot</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_precision_shot</key>
+<onscreen_name state="APPROVED" last_approved_text="Precision Shot" last_edit_user="bob">Precision Shot</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Loose a powerful bow shot that flies in a specified direction, piercing all enemies in its path." last_edit_user="bob">Loose a powerful bow shot that flies in a specified direction, piercing all enemies in its path.</tooltip_text>
+<type>ep_dyn_ability_precision_shot</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{c35c339c-3a4f-448f-9c1d-3f45d2611b98}" record_timestamp="1552900886504" record_key="ep_dyn_ability_protectors_aegis">
+<ability_colour>wood</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_ytr_ability_one_with_the_people</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_protectors_aegis</key>
+<onscreen_name state="APPROVED" last_approved_text="Protector's Aegis" last_edit_user="bob">Protector's Aegis</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="&quot;If you want them, you'll have to go through me!&quot;." last_edit_user="bob">&quot;If you want them, you'll have to go through me!&quot;.</tooltip_text>
+<type>ep_dyn_ability_protectors_aegis</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{bd2143d4-76d6-46a9-a831-c98dcf3c1e37}" record_timestamp="1551886339857" record_key="ep_dyn_ability_quickfire">
+<ability_colour>water</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_quickfire</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_quickfire</key>
+<onscreen_name state="APPROVED" last_approved_text="Quickfire" last_edit_user="bob">Quickfire</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="The hero fires and fires, faster and faster, never relenting." last_edit_user="bob">The hero fires and fires, faster and faster, never relenting.</tooltip_text>
+<type>ep_dyn_ability_quickfire</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{f0571e89-0b0e-4442-8749-a2318e67eec4}" record_timestamp="1552900886504" record_key="ep_dyn_ability_restoration">
+<ability_colour>wood</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_ytr_ability_recovery</icon_name>
+<is_hidden_in_ui>1</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_restoration</key>
+<onscreen_name state="APPROVED" last_approved_text="Restoration" last_edit_user="bob">Restoration</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Purchase this to heal this hero to full, at the cost of a permanent upgrade. Purchaseable multiple times." last_edit_user="bob">Purchase this to heal this hero to full, at the cost of a permanent upgrade. Purchaseable multiple times.</tooltip_text>
+<type>ep_dyn_ability_restoration</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{d66d7330-3c14-4f69-bf70-f279f500701c}" record_timestamp="1552393389591" record_key="ep_dyn_ability_seismic_slam">
+<ability_colour>wood</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>neutral</effect_type>
+<icon_name>ep_ability_seismic_slam</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_seismic_slam</key>
+<onscreen_name state="APPROVED" last_approved_text="Seismic Slam" last_edit_user="bob">Seismic Slam</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>1</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Deliver a powerful blow that damages enemies in a targeted area." last_edit_user="bob">Deliver a powerful blow that damages enemies in a targeted area.</tooltip_text>
+<type>ep_dyn_ability_seismic_slam</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{d5439ccb-6151-4595-bc96-7ef565fead3f}" record_timestamp="1552900886504" record_key="ep_dyn_ability_sheltering_boughs">
+<ability_colour>wood</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_earthen_rampart</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_sheltering_boughs</key>
+<onscreen_name state="APPROVED" last_approved_text="Sheltering Boughs" last_edit_user="bob">Sheltering Boughs</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="The forest provides shelter from the storm." last_edit_user="bob">The forest provides shelter from the storm.</tooltip_text>
+<type>ep_dyn_ability_sheltering_boughs</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{5ab13769-3894-423d-b427-83acfe2266f7}" record_timestamp="1551886339363" record_key="ep_dyn_ability_stalwart_defender">
+<ability_colour>wood</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_stalwart_defender</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_stalwart_defender</key>
+<onscreen_name state="APPROVED" last_approved_text="Stalwart Defender" last_edit_user="bob">Stalwart Defender</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Born to hold the line, this hero shrugs off attacks as if they were nothing!" last_edit_user="bob">Born to hold the line, this hero shrugs off attacks as if they were nothing!</tooltip_text>
+<type>ep_dyn_ability_stalwart_defender</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{016d359a-8a59-4856-a241-ded6810eabb1}" record_timestamp="1551886339927" record_key="ep_dyn_ability_stifling_deluge">
+<ability_colour>water</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>negative</effect_type>
+<icon_name>3k_main_ability_stifling_deluge</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_stifling_deluge</key>
+<onscreen_name state="APPROVED" last_approved_text="Stifling Deluge" last_edit_user="bob">Stifling Deluge</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="A suppressing aura that confounds the foe." last_edit_user="bob">A suppressing aura that confounds the foe.</tooltip_text>
+<type>ep_dyn_ability_stifling_deluge</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{375995c2-2e97-4ce7-a4b8-069935a12d3e}" record_timestamp="1552901116949" record_key="ep_dyn_ability_stone_bulwark">
+<ability_colour>earth</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>ep_ability_stone_bulwark</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_stone_bulwark</key>
+<onscreen_name state="APPROVED" last_approved_text="Stone Bulwark" last_edit_user="bob">Stone Bulwark</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="With skin of earth, arrows rebound, harmless." last_edit_user="bob">With skin of earth, arrows rebound, harmless.</tooltip_text>
+<type>ep_dyn_ability_stone_bulwark</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{4cd32bd6-91c2-432f-bd1a-208ca7bbd4b9}" record_timestamp="1552900886504" record_key="ep_dyn_ability_strength_of_the_mountain">
+<ability_colour>earth</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_ytr_ability_strength_of_the_land</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_strength_of_the_mountain</key>
+<onscreen_name state="APPROVED" last_approved_text="Strength of the Mountain" last_edit_user="bob">Strength of the Mountain</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="The mountain seems invulnerable - but all things can be worn down with time." last_edit_user="bob">The mountain seems invulnerable - but all things can be worn down with time.</tooltip_text>
+<type>ep_dyn_ability_strength_of_the_mountain</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{c596c564-06b6-4825-8593-16d4b56a59dd}" record_timestamp="1552900886504" record_key="ep_dyn_ability_strike_from_afar">
+<ability_colour>metal</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_ytr_ability_one_with_heaven</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_strike_from_afar</key>
+<onscreen_name state="APPROVED" last_approved_text="Strike from Afar" last_edit_user="bob">Strike from Afar</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="With space comes calm, and with calm comes efficiency." last_edit_user="bob">With space comes calm, and with calm comes efficiency.</tooltip_text>
+<type>ep_dyn_ability_strike_from_afar</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{e146ef45-a537-4537-837d-ca588fa38c4f}" record_timestamp="1552393389591" record_key="ep_dyn_ability_sweeping_arc">
+<ability_colour>fire</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>neutral</effect_type>
+<icon_name>ep_ability_sweeping_arc</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_sweeping_arc</key>
+<onscreen_name state="APPROVED" last_approved_text="Sweeping Arc" last_edit_user="bob">Sweeping Arc</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Deliver a sweeping attack that damages nearby opponents in an arc." last_edit_user="bob">Deliver a sweeping attack that damages nearby opponents in an arc.</tooltip_text>
+<type>ep_dyn_ability_sweeping_arc</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{d5635016-44fb-4776-9877-388bac9e9be2}" record_timestamp="1551886339224" record_key="ep_dyn_ability_swift_fingers">
+<ability_colour>water</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_swift_fingers</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_swift_fingers</key>
+<onscreen_name state="APPROVED" last_approved_text="Swift Fingers" last_edit_user="bob">Swift Fingers</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Recalling their training, this hero reloads with startling quickness." last_edit_user="bob">Recalling their training, this hero reloads with startling quickness.</tooltip_text>
+<type>ep_dyn_ability_swift_fingers</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{af89940b-6cb1-4e32-8f10-767bcf55afd6}" record_timestamp="1551886339998" record_key="ep_dyn_ability_tenacity_of_steel">
+<ability_colour>metal</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_tenacity_of_steel</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_tenacity_of_steel</key>
+<onscreen_name state="APPROVED" last_approved_text="Tenacity of Steel" last_edit_user="bob">Tenacity of Steel</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="The longer this warrior fights, the stronger they become!" last_edit_user="bob">The longer this warrior fights, the stronger they become!</tooltip_text>
+<type>ep_dyn_ability_tenacity_of_steel</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{b5452697-ed9b-463c-b1cf-ecb6332f6239}" record_timestamp="1551881859292" record_key="ep_dyn_ability_time_of_need">
+<ability_colour>water</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>ep_ability_time_of_need</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_time_of_need</key>
+<onscreen_name state="APPROVED" last_approved_text="Time of Need" last_edit_user="bob">Time of Need</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>2</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Instantly heal an ally's wounds." last_edit_user="bob">Instantly heal an ally's wounds.</tooltip_text>
+<type>ep_dyn_ability_time_of_need</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{5de27d5d-25c4-4f6f-90e5-f578b0dd1b41}" record_timestamp="1552393389590" record_key="ep_dyn_ability_tripleshot">
+<ability_colour>metal</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>neutral</effect_type>
+<icon_name>ep_ability_tripleshot</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_tripleshot</key>
+<onscreen_name state="APPROVED" last_approved_text="Triple Shot" last_edit_user="bob">Triple Shot</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>1</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Loose three arrows in an arc, piercing all enemies in their path." last_edit_user="bob">Loose three arrows in an arc, piercing all enemies in their path.</tooltip_text>
+<type>ep_dyn_ability_tripleshot</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{d906d55c-9aee-486b-9423-bbbb1581f534}" record_timestamp="1551890466924" record_key="ep_dyn_ability_vengeance">
+<ability_colour>wood</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_vengeance</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_vengeance</key>
+<onscreen_name state="APPROVED" last_approved_text="Vengeance" last_edit_user="bob">Vengeance</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="Arrows cannot slay a dragon - they merely make it angry." last_edit_user="bob">Arrows cannot slay a dragon - they merely make it angry.</tooltip_text>
+<type>ep_dyn_ability_vengeance</type>
+<uniqueness>3k_main_common</uniqueness>
+<video></video>
+</unit_abilities>
+<unit_abilities record_uuid="{0dfa8749-80d6-40f5-b0c6-1cc8966bd8ec}" record_timestamp="1551886340140" record_key="ep_dyn_ability_wildfire">
+<ability_colour>fire</ability_colour>
+<allow_multiple_selection_ui>1</allow_multiple_selection_ui>
+<effect_type>positive</effect_type>
+<icon_name>3k_main_ability_wildfire</icon_name>
+<is_hidden_in_ui>0</is_hidden_in_ui>
+<is_unit_upgrade>1</is_unit_upgrade>
+<key>ep_dyn_ability_wildfire</key>
+<onscreen_name state="APPROVED" last_approved_text="Wildfire" last_edit_user="bob">Wildfire</onscreen_name>
+<overpower_option></overpower_option>
+<requires_effect_enabling>0</requires_effect_enabling>
+<sort_order>0</sort_order>
+<supersedes_ability></supersedes_ability>
+<tooltip_text state="APPROVED" last_approved_text="This hero moves ever faster as fire spreads through the forest." last_edit_user="bob">This hero moves ever faster as fire spreads through the forest.</tooltip_text>
+<type>ep_dyn_ability_wildfire</type>
 <uniqueness>3k_main_common</uniqueness>
 <video></video>
 </unit_abilities>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ui_character_assignments.xsd" export_time="Thu Apr 11 18:21:32 2019" revision="36" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1434/dave" export_user="bob">
-<edit_uuid>6e478218-0601-4370-9313-cfeb107b6e59</edit_uuid>
-<ui_character_assignments record_uuid="{1ab41668-25a2-46d3-a6a4-de919ed194e4}" record_timestamp="1550671138484" record_key="3k_main_assignment_ui_info_bandit_patrols">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ui_character_assignments.xsd" export_time="Mon Jul 1 16:42:18 2019" revision="43" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1552/dave" export_user="bob">
+<edit_uuid>671afe5c-467b-46f9-a006-b715acbbdac0</edit_uuid>
+<ui_character_assignments record_uuid="{1ab41668-25a2-46d3-a6a4-de919ed194e4}" record_timestamp="1524569939591" record_key="3k_main_assignment_ui_info_bandit_patrols">
 <character_assignment>3k_main_assignment_bandit_patrols</character_assignment>
 <icon_path>/ui/campaign ui/effect_bundles/attrition_from_low_supplies.png</icon_path>
 <key>3k_main_assignment_ui_info_bandit_patrols</key>
@@ -37,7 +37,7 @@
 <radar_mode>radar</radar_mode>
 <ui_character_assignment_category>wood</ui_character_assignment_category>
 </ui_character_assignments>
-<ui_character_assignments record_uuid="{0d0a4238-1198-4336-85cf-732196e8512d}" record_timestamp="1550770262867" record_key="3k_main_assignment_ui_info_earth_public_appeasement">
+<ui_character_assignments record_uuid="{0d0a4238-1198-4336-85cf-732196e8512d}" record_timestamp="1551785555025" record_key="3k_main_assignment_ui_info_earth_public_appeasement">
 <character_assignment>3k_main_assignment_stockpiles_earth_public_appeasement</character_assignment>
 <icon_path>/ui/campaign ui/effect_bundles/public_order.png</icon_path>
 <key>3k_main_assignment_ui_info_earth_public_appeasement</key>
@@ -73,7 +73,7 @@
 <radar_mode>radar</radar_mode>
 <ui_character_assignment_category>water</ui_character_assignment_category>
 </ui_character_assignments>
-<ui_character_assignments record_uuid="{76ce5041-7a62-4257-a6ca-6ff499e64f02}" record_timestamp="1550770262937" record_key="3k_main_assignment_ui_info_fire_military_requisition">
+<ui_character_assignments record_uuid="{76ce5041-7a62-4257-a6ca-6ff499e64f02}" record_timestamp="1551785555025" record_key="3k_main_assignment_ui_info_fire_military_requisition">
 <character_assignment>3k_main_assignment_stockpiles_fire_military_requisition</character_assignment>
 <icon_path>/ui/campaign ui/effect_bundles/replenishment.png</icon_path>
 <key>3k_main_assignment_ui_info_fire_military_requisition</key>
@@ -154,7 +154,7 @@
 <radar_mode>region_wealth</radar_mode>
 <ui_character_assignment_category>water</ui_character_assignment_category>
 </ui_character_assignments>
-<ui_character_assignments record_uuid="{07c0cbd8-93d2-463f-a595-8a3349c19df8}" record_timestamp="1550770263007" record_key="3k_main_assignment_ui_info_metal_surplus_markets">
+<ui_character_assignments record_uuid="{07c0cbd8-93d2-463f-a595-8a3349c19df8}" record_timestamp="1551785555025" record_key="3k_main_assignment_ui_info_metal_surplus_markets">
 <character_assignment>3k_main_assignment_stockpiles_metal_surplus_markets</character_assignment>
 <icon_path>/ui/campaign ui/effect_bundles/icon_income_plus.png</icon_path>
 <key>3k_main_assignment_ui_info_metal_surplus_markets</key>
@@ -235,7 +235,7 @@
 <radar_mode>region_slaves</radar_mode>
 <ui_character_assignment_category>earth</ui_character_assignment_category>
 </ui_character_assignments>
-<ui_character_assignments record_uuid="{c26061a4-06e1-4499-be85-2fab16ec2ff9}" record_timestamp="1550770262727" record_key="3k_main_assignment_ui_info_water_increased_provisions">
+<ui_character_assignments record_uuid="{c26061a4-06e1-4499-be85-2fab16ec2ff9}" record_timestamp="1551785555025" record_key="3k_main_assignment_ui_info_water_increased_provisions">
 <character_assignment>3k_main_assignment_stockpiles_water_increased_provisions</character_assignment>
 <icon_path>/ui/campaign ui/effect_bundles/military_supplies.png</icon_path>
 <key>3k_main_assignment_ui_info_water_increased_provisions</key>
@@ -244,7 +244,16 @@
 <radar_mode>radar</radar_mode>
 <ui_character_assignment_category>water</ui_character_assignment_category>
 </ui_character_assignments>
-<ui_character_assignments record_uuid="{092cf27f-85fd-4fa7-b825-05451f17d49b}" record_timestamp="1550770262797" record_key="3k_main_assignment_ui_info_wood_surplus_distribution">
+<ui_character_assignments record_uuid="{77d097ce-0848-45c4-9ca6-960994970c65}" record_timestamp="1560768420324" record_key="3k_main_assignment_ui_info_water_regulate_markets">
+<character_assignment>ep_assignment_sima_ai_regulate_markets</character_assignment>
+<icon_path>/ui/campaign ui/effect_bundles/icon_income_plus.png</icon_path>
+<key>3k_main_assignment_ui_info_water_regulate_markets</key>
+<localised_description state="APPROVED" last_approved_text="Your attendant will oversee and regulate local markets, increasing the tax amount paid by local merchants and traders." last_edit_user="bob">Your attendant will oversee and regulate local markets, increasing the tax amount paid by local merchants and traders.</localised_description>
+<localised_title state="APPROVED" last_approved_text="Regulate Markets" last_edit_user="bob">Regulate Markets</localised_title>
+<radar_mode>radar</radar_mode>
+<ui_character_assignment_category>water</ui_character_assignment_category>
+</ui_character_assignments>
+<ui_character_assignments record_uuid="{092cf27f-85fd-4fa7-b825-05451f17d49b}" record_timestamp="1551785555025" record_key="3k_main_assignment_ui_info_wood_surplus_distribution">
 <character_assignment>3k_main_assignment_stockpiles_wood_surplus_distribution</character_assignment>
 <icon_path>/ui/campaign ui/effect_bundles/population_growth.png</icon_path>
 <key>3k_main_assignment_ui_info_wood_surplus_distribution</key>
@@ -351,5 +360,77 @@
 <localised_title state="APPROVED" last_approved_text="Rally Sympathisers" last_edit_user="bob">Rally Sympathisers</localised_title>
 <radar_mode>radar</radar_mode>
 <ui_character_assignment_category>land</ui_character_assignment_category>
+</ui_character_assignments>
+<ui_character_assignments record_uuid="{e265e5bb-5a4b-445b-9016-f689fd810c5c}" record_timestamp="1560431215019" record_key="ep_assignment_ui_info_sima_ai_restructure_commandery_administration">
+<character_assignment>ep_assignment_sima_ai_restructure_commandery_administration</character_assignment>
+<icon_path>/ui/campaign ui/effect_bundles/ep_frontend_leader_prince_of_changsha_specialisation.png</icon_path>
+<key>ep_assignment_ui_info_sima_ai_restructure_commandery_administration</key>
+<localised_description state="APPROVED" last_approved_text="Your attendant will see to the reformation and restructuring of the local administration and commandery government." last_edit_user="bob">Your attendant will see to the reformation and restructuring of the local administration and of the commandery government.</localised_description>
+<localised_title state="APPROVED" last_approved_text="Restructure Administration" last_edit_user="bob">Restructure Administration</localised_title>
+<radar_mode>radar</radar_mode>
+<ui_character_assignment_category>earth</ui_character_assignment_category>
+</ui_character_assignments>
+<ui_character_assignments record_uuid="{5223e72e-54fc-42a8-92f0-251a265be31d}" record_timestamp="1559831122909" record_key="ep_assignment_ui_info_sima_jiong_micromanage">
+<character_assignment>ep_assignment_sima_jiong_micromanage</character_assignment>
+<icon_path>/ui/campaign ui/effect_bundles/corruption.png</icon_path>
+<key>ep_assignment_ui_info_sima_jiong_micromanage</key>
+<localised_description state="APPROVED" last_approved_text="The faction leader will personally oversee administration and government in the local commandery." last_edit_user="bob">The faction leader will personally oversee administration and government in the local commandery.</localised_description>
+<localised_title state="APPROVED" last_approved_text="Micromanage Commandery" last_edit_user="bob">Micromanage Commandery</localised_title>
+<radar_mode>radar</radar_mode>
+<ui_character_assignment_category>earth</ui_character_assignment_category>
+</ui_character_assignments>
+<ui_character_assignments record_uuid="{ddfb06e2-394d-4a69-8437-ff6c28792efa}" record_timestamp="1560525771449" record_key="ep_assignment_ui_info_sima_wei_rally_conscripts">
+<character_assignment>ep_assignment_sima_wei_rally_conscripts</character_assignment>
+<icon_path>/ui/campaign ui/effect_bundles/replenishment.png</icon_path>
+<key>ep_assignment_ui_info_sima_wei_rally_conscripts</key>
+<localised_description state="APPROVED" last_approved_text="Your attendant will use the enthusiasm you instil in the populace to rally conscripts and supporters." last_edit_user="bob">Your attendant will use the enthusiasm you instill in the populace to rally conscripts and supporters.</localised_description>
+<localised_title state="APPROVED" last_approved_text="Rally Conscripts" last_edit_user="bob">Rally Conscripts</localised_title>
+<radar_mode>radar</radar_mode>
+<ui_character_assignment_category>fire</ui_character_assignment_category>
+</ui_character_assignments>
+<ui_character_assignments record_uuid="{e583f334-1050-4c5d-88b9-c20c50c6ce03}" record_timestamp="1559669716314" record_key="ep_assignment_ui_info_sima_wei_reward_populace">
+<character_assignment>ep_assignment_sima_wei_reward_populace</character_assignment>
+<icon_path>/ui/campaign ui/effect_bundles/public_order.png</icon_path>
+<key>ep_assignment_ui_info_sima_wei_reward_populace</key>
+<localised_description state="APPROVED" last_approved_text="Your attendant will bestow rewards and gifts to representatives of the people and the local nobility." last_edit_user="bob">Your attendant will bestow rewards and gifts to representatives of the people and the local nobility.</localised_description>
+<localised_title state="APPROVED" last_approved_text="Reward the Nobility" last_edit_user="bob">Reward the Nobility</localised_title>
+<radar_mode>radar</radar_mode>
+<ui_character_assignment_category>earth</ui_character_assignment_category>
+</ui_character_assignments>
+<ui_character_assignments record_uuid="{7acf7b26-a9d7-4325-9af5-4a8ba2ffc86a}" record_timestamp="1559746157616" record_key="ep_assignment_ui_info_sima_yong_military_supervision">
+<character_assignment>ep_assignment_sima_yong_military_supervision</character_assignment>
+<icon_path>/ui/campaign ui/effect_bundles/public_order.png</icon_path>
+<key>ep_assignment_ui_info_sima_yong_military_supervision</key>
+<localised_description state="APPROVED" last_approved_text="Your attendant will ensure military supervision of the local populace and their activities." last_edit_user="bob">Your attendant will ensure military supervision of the local populace and their activities.</localised_description>
+<localised_title state="APPROVED" last_approved_text="Military Supervision" last_edit_user="bob">Military Supervision</localised_title>
+<radar_mode>radar</radar_mode>
+<ui_character_assignment_category>fire</ui_character_assignment_category>
+</ui_character_assignments>
+<ui_character_assignments record_uuid="{2865668f-952c-4696-878a-71f0c8d275ed}" record_timestamp="1559821078640" record_key="ep_assignment_ui_info_sima_yue_exert_authority">
+<character_assignment>ep_assignment_sima_yue_exert_authority</character_assignment>
+<icon_path>/ui/campaign ui/effect_bundles/ep_frontend_leader_prince_of_donghai_specialisation.png</icon_path>
+<key>ep_assignment_ui_info_sima_yue_exert_authority</key>
+<localised_description state="APPROVED" last_approved_text="The faction leader will campaign and meddle in local commanderies to ensure and maintain his sphere of influence." last_edit_user="bob">The faction leader will campaign and meddle in local commanderies to ensure and maintain his sphere of influence.</localised_description>
+<localised_title state="APPROVED" last_approved_text="Maintain Influence" last_edit_user="bob">Maintain Influence</localised_title>
+<radar_mode>radar</radar_mode>
+<ui_character_assignment_category>earth</ui_character_assignment_category>
+</ui_character_assignments>
+<ui_character_assignments record_uuid="{6369f1c7-958b-45bb-92bd-3fa0f733fe86}" record_timestamp="1559821078707" record_key="ep_assignment_ui_info_sima_yue_military_interference">
+<character_assignment>ep_assignment_sima_yue_military_interference</character_assignment>
+<icon_path>/ui/campaign ui/effect_bundles/replenishment.png</icon_path>
+<key>ep_assignment_ui_info_sima_yue_military_interference</key>
+<localised_description state="APPROVED" last_approved_text="The military emissary will interfere with the local commandery government to ensure support for the military." last_edit_user="bob">The military emissary will interfere with the local commandery government to ensure support for the military.</localised_description>
+<localised_title state="APPROVED" last_approved_text="Military Interference" last_edit_user="bob">Military Interference</localised_title>
+<radar_mode>radar</radar_mode>
+<ui_character_assignment_category>fire</ui_character_assignment_category>
+</ui_character_assignments>
+<ui_character_assignments record_uuid="{7f60afed-9aae-4760-b512-def55303d136}" record_timestamp="1559821078781" record_key="ep_assignment_ui_info_sima_yue_provincial_inspection">
+<character_assignment>ep_assignment_sima_yue_provincial_inspection</character_assignment>
+<icon_path>/ui/campaign ui/effect_bundles/corruption.png</icon_path>
+<key>ep_assignment_ui_info_sima_yue_provincial_inspection</key>
+<localised_description state="APPROVED" last_approved_text="The provincial advisor will oversee and supervise the local commandery government." last_edit_user="bob">The provincial advisor will oversee and supervise local commandery government.</localised_description>
+<localised_title state="APPROVED" last_approved_text="Provincial Inspection" last_edit_user="bob">Provincial Inspection</localised_title>
+<radar_mode>radar</radar_mode>
+<ui_character_assignment_category>earth</ui_character_assignment_category>
 </ui_character_assignments>
 </dataroot>

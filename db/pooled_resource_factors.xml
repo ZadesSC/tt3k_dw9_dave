@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pooled_resource_factors.xsd" export_time="Fri Apr 12 11:45:55 2019" revision="111" export_branch="T:/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>5a98a9f7-a1ed-45c6-85b8-a2c07e8e1c75</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pooled_resource_factors.xsd" export_time="Mon Jul 15 13:58:46 2019" revision="151" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1583/dave" export_user="bob">
+<edit_uuid>6024932c-29d5-45a1-9ee8-420d0b6759f6</edit_uuid>
 <pooled_resource_factors record_uuid="{a069f471-7d9b-4267-bd46-011abda69bfe}" record_timestamp="1540397755792" record_key="3k_main_pooled_factor_annexation_currency">
 <display_name_negative state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</display_name_negative>
 <display_name_positive state="HIDDEN" last_approved_text="" last_edit_user="bob">HIDDEN</display_name_positive>
@@ -106,6 +106,11 @@
 <display_name_positive state="APPROVED" last_approved_text="Heroism decay rate" last_edit_user="bob">Heroism decay rate</display_name_positive>
 <key>3k_main_pooled_factor_heroism_decay</key>
 </pooled_resource_factors>
+<pooled_resource_factors record_uuid="{a93a4ad7-6a02-4192-b11a-729e2649051f}" record_timestamp="1562323398360" record_key="3k_main_pooled_factor_heroism_events">
+<display_name_negative state="APPROVED" last_approved_text="Events" last_edit_user="bob">Events</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Events" last_edit_user="bob">Events</display_name_positive>
+<key>3k_main_pooled_factor_heroism_events</key>
+</pooled_resource_factors>
 <pooled_resource_factors record_uuid="{d0b6aaf8-5dbd-4c63-94f8-e86645eeb74f}" record_timestamp="1519928646798" record_key="3k_main_pooled_factor_heroism_from_military_feats">
 <display_name_negative state="APPROVED" last_approved_text="Heroism lost through military blunders" last_edit_user="bob">Heroism lost through military blunders</display_name_negative>
 <display_name_positive state="APPROVED" last_approved_text="Heroism earned through military feats" last_edit_user="bob">Heroism earned through military feats</display_name_positive>
@@ -116,7 +121,7 @@
 <display_name_positive state="APPROVED" last_approved_text="Infamy gained" last_edit_user="bob">Infamy gained</display_name_positive>
 <key>3k_main_pooled_factor_infamy</key>
 </pooled_resource_factors>
-<pooled_resource_factors record_uuid="{08448600-4242-497b-b7af-0b4d58e162ab}" record_timestamp="1552489179605" record_key="3k_main_pooled_factor_infamy_decay">
+<pooled_resource_factors record_uuid="{08448600-4242-497b-b7af-0b4d58e162ab}" record_timestamp="1522093485408" record_key="3k_main_pooled_factor_infamy_decay">
 <display_name_negative state="APPROVED" last_approved_text="Infamy decay" last_edit_user="bob">Infamy decay</display_name_negative>
 <display_name_positive state="APPROVED" last_approved_text="Infamy growth" last_edit_user="bob">Infamy growth</display_name_positive>
 <key>3k_main_pooled_factor_infamy_decay</key>
@@ -126,7 +131,7 @@
 <display_name_positive state="APPROVED" last_approved_text="Conquest" last_edit_user="bob">Conquest</display_name_positive>
 <key>3k_main_pooled_factor_infamy_from_conquest</key>
 </pooled_resource_factors>
-<pooled_resource_factors record_uuid="{2feedc7f-9a39-4cfd-976a-a6d8e7573c51}" record_timestamp="1550157765831" record_key="3k_main_pooled_factor_infamy_from_occupations">
+<pooled_resource_factors record_uuid="{2feedc7f-9a39-4cfd-976a-a6d8e7573c51}" record_timestamp="1551784444510" record_key="3k_main_pooled_factor_infamy_from_occupations">
 <display_name_negative state="APPROVED" last_approved_text="Occupation" last_edit_user="bob">Occupation</display_name_negative>
 <display_name_positive state="APPROVED" last_approved_text="Occupation" last_edit_user="bob">Occupation</display_name_positive>
 <key>3k_main_pooled_factor_infamy_from_occupations</key>
@@ -276,12 +281,12 @@
 <display_name_positive state="APPROVED" last_approved_text="Characters" last_edit_user="bob">Characters</display_name_positive>
 <key>3k_main_pooled_factor_population_characters</key>
 </pooled_resource_factors>
-<pooled_resource_factors record_uuid="{70150e30-9446-4b9c-bb04-d5a37e7e9e38}" record_timestamp="1551377853392" record_key="3k_main_pooled_factor_population_characters_administrators">
+<pooled_resource_factors record_uuid="{70150e30-9446-4b9c-bb04-d5a37e7e9e38}" record_timestamp="1551788650208" record_key="3k_main_pooled_factor_population_characters_administrators">
 <display_name_negative state="APPROVED" last_approved_text="{{tr:Governors}}" last_edit_user="bob">{{tr:Governors}}</display_name_negative>
 <display_name_positive state="APPROVED" last_approved_text="{{tr:Governors}}" last_edit_user="bob">{{tr:Governors}}</display_name_positive>
 <key>3k_main_pooled_factor_population_characters_administrators</key>
 </pooled_resource_factors>
-<pooled_resource_factors record_uuid="{0ba5aad3-55b9-41b3-a7c7-376fc692df86}" record_timestamp="1551377853423" record_key="3k_main_pooled_factor_population_characters_people_in_power">
+<pooled_resource_factors record_uuid="{0ba5aad3-55b9-41b3-a7c7-376fc692df86}" record_timestamp="1551788650208" record_key="3k_main_pooled_factor_population_characters_people_in_power">
 <display_name_negative state="APPROVED" last_approved_text="People in power" last_edit_user="bob">People in power</display_name_negative>
 <display_name_positive state="APPROVED" last_approved_text="People in power" last_edit_user="bob">People in power</display_name_positive>
 <key>3k_main_pooled_factor_population_characters_people_in_power</key>
@@ -337,14 +342,19 @@
 <key>3k_main_pooled_factor_population_post_siege</key>
 </pooled_resource_factors>
 <pooled_resource_factors record_uuid="{84c16478-e5fc-417b-bf34-e4940fab3363}" record_timestamp="1537902202105" record_key="3k_main_pooled_factor_population_public_order">
-<display_name_negative state="APPROVED" last_approved_text="Public order" last_edit_user="bob">Public order</display_name_negative>
-<display_name_positive state="APPROVED" last_approved_text="Public order" last_edit_user="bob">Public order</display_name_positive>
+<display_name_negative state="APPROVED" last_approved_text="{{tr:Public_order}}" last_edit_user="bob">{{tr:Public_order}}</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="{{tr:Public_order}}" last_edit_user="bob">{{tr:Public_order}}</display_name_positive>
 <key>3k_main_pooled_factor_population_public_order</key>
 </pooled_resource_factors>
 <pooled_resource_factors record_uuid="{bcbe79f8-44a7-4fe1-a1b0-85a683793a86}" record_timestamp="1539763105224" record_key="3k_main_pooled_factor_population_technologies">
 <display_name_negative state="APPROVED" last_approved_text="Reforms" last_edit_user="bob">Reforms</display_name_negative>
 <display_name_positive state="APPROVED" last_approved_text="Reforms" last_edit_user="bob">Reforms</display_name_positive>
 <key>3k_main_pooled_factor_population_technologies</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{db1b88c6-2521-4f68-adc1-c507bbbadd55}" record_timestamp="1561975256561" record_key="3k_main_pooled_factor_satisfaction">
+<display_name_negative state="APPROVED" last_approved_text="Low satisfaction" last_edit_user="bob">Low satisfaction</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="High satisfaction" last_edit_user="bob">High satisfaction</display_name_positive>
+<key>3k_main_pooled_factor_satisfaction</key>
 </pooled_resource_factors>
 <pooled_resource_factors record_uuid="{393af44e-c274-4402-8499-1ba198ba1ad0}" record_timestamp="1516654553361" record_key="3k_main_pooled_factor_supply">
 <display_name_negative state="APPROVED" last_approved_text="Supply" last_edit_user="bob">Supply</display_name_negative>
@@ -396,7 +406,7 @@
 <display_name_positive state="APPROVED" last_approved_text="Trade extortion" last_edit_user="bob">Trade extortion</display_name_positive>
 <key>3k_main_pooled_factor_trade_monopoly</key>
 </pooled_resource_factors>
-<pooled_resource_factors record_uuid="{5ca8ff92-bfe3-4a35-984c-3afc185bebcd}" record_timestamp="1553774412181" record_key="3k_main_pooled_factor_trade_monopoly_decay">
+<pooled_resource_factors record_uuid="{5ca8ff92-bfe3-4a35-984c-3afc185bebcd}" record_timestamp="1554887222003" record_key="3k_main_pooled_factor_trade_monopoly_decay">
 <display_name_negative state="APPROVED" last_approved_text="Market forces" last_edit_user="bob">Market forces</display_name_negative>
 <display_name_positive state="APPROVED" last_approved_text="Market forces" last_edit_user="bob">Market forces</display_name_positive>
 <key>3k_main_pooled_factor_trade_monopoly_decay</key>
@@ -425,5 +435,235 @@
 <display_name_negative state="APPROVED" last_approved_text="Losing Armies" last_edit_user="bob">Losing Armies</display_name_negative>
 <display_name_positive state="APPROVED" last_approved_text="Victorious Armies" last_edit_user="bob">Victorious Armies</display_name_positive>
 <key>3k_main_pooled_factor_unity_from_post_battle</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{d5411768-a9f1-49fd-b7c6-f9589ff05918}" record_timestamp="1554996308569" record_key="ep_pooled_factor_brain_alignment">
+<display_name_negative state="APPROVED" last_approved_text="From Events" last_edit_user="bob">From Events</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="From Events" last_edit_user="bob">From Events</display_name_positive>
+<key>ep_pooled_factor_brain_alignment</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{04c64e47-db25-4d85-ad13-7b20fca50da4}" record_timestamp="1559722344317" record_key="ep_pooled_factor_control">
+<display_name_negative state="APPROVED" last_approved_text="Control lost" last_edit_user="bob">Control lost</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Control gained" last_edit_user="bob">Control gained</display_name_positive>
+<key>ep_pooled_factor_control</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{902ba6e6-fe93-4334-82c7-7f294654f500}" record_timestamp="1559831122702" record_key="ep_pooled_factor_control_assignment">
+<display_name_negative state="APPROVED" last_approved_text="Assignments" last_edit_user="bob">Assignments</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Assignments" last_edit_user="bob">Assignments</display_name_positive>
+<key>ep_pooled_factor_control_assignment</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{ae35c1a7-d0ba-4bf4-8b48-27d7c081a32f}" record_timestamp="1560430844066" record_key="ep_pooled_factor_control_battle">
+<display_name_negative state="APPROVED" last_approved_text="Control lost through military blunders" last_edit_user="bob">Control lost through military blunders</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Control established through military feats" last_edit_user="bob">Control established through military feats</display_name_positive>
+<key>ep_pooled_factor_control_battle</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{e3c3f29e-6688-4d00-a303-0019a94bd4c4}" record_timestamp="1559722344316" record_key="ep_pooled_factor_control_buildings">
+<display_name_negative state="APPROVED" last_approved_text="Control" last_edit_user="bob">Control</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Buildings" last_edit_user="bob">Buildings</display_name_positive>
+<key>ep_pooled_factor_control_buildings</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{3dc76fc2-e133-4b91-91d7-48e10d7a6906}" record_timestamp="1559838490139" record_key="ep_pooled_factor_control_faction_leader">
+<display_name_negative state="APPROVED" last_approved_text="Faction leader" last_edit_user="bob">Faction leader</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Faction leader" last_edit_user="bob">Faction leader</display_name_positive>
+<key>ep_pooled_factor_control_faction_leader</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{509b04d4-43fb-431a-9fbe-3f41eeb26ec8}" record_timestamp="1559838490178" record_key="ep_pooled_factor_control_ministers">
+<display_name_negative state="APPROVED" last_approved_text="Ministers" last_edit_user="bob">Ministers</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Ministers" last_edit_user="bob">Ministers</display_name_positive>
+<key>ep_pooled_factor_control_ministers</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{9b3a6742-2734-4501-ae92-042ffb0a9a9b}" record_timestamp="1560430844488" record_key="ep_pooled_factor_control_recruitment">
+<display_name_negative state="APPROVED" last_approved_text="Recruitment" last_edit_user="bob">Recruitment</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Recruitment" last_edit_user="bob">Recruitment</display_name_positive>
+<key>ep_pooled_factor_control_recruitment</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{1b66adea-2af8-4b3d-8b7e-371afba4a0c8}" record_timestamp="1559838494111" record_key="ep_pooled_factor_control_remove">
+<display_name_negative state="APPROVED" last_approved_text="Removed opposition" last_edit_user="bob">Removed opposition</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Removed opposition" last_edit_user="bob">Removed opposition</display_name_positive>
+<key>ep_pooled_factor_control_remove</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{37c5c1d7-dd2f-4f7f-835b-496832c2fedc}" record_timestamp="1561029047722" record_key="ep_pooled_factor_demesne">
+<display_name_negative state="APPROVED" last_approved_text="Domain diminished" last_edit_user="bob">Domain diminished</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Domain increased" last_edit_user="bob">Domain increased</display_name_positive>
+<key>ep_pooled_factor_demesne</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{5f77b9a0-914f-4664-b84a-7ecd84f22b06}" record_timestamp="1559807593204" record_key="ep_pooled_factor_demesne_buildings">
+<display_name_negative state="APPROVED" last_approved_text="Buildings" last_edit_user="bob">Buildings</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Buildings" last_edit_user="bob">Buildings</display_name_positive>
+<key>ep_pooled_factor_demesne_buildings</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{c1643e19-3803-45b1-a46c-58e9fef35430}" record_timestamp="1561029047722" record_key="ep_pooled_factor_demesne_regions">
+<display_name_negative state="APPROVED" last_approved_text="Overextended domain" last_edit_user="bob">Overextended domain</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Domain" last_edit_user="bob">Domain</display_name_positive>
+<key>ep_pooled_factor_demesne_regions</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{f013feaa-1362-46c6-9915-7762f5e1b611}" record_timestamp="1554996308569" record_key="ep_pooled_factor_fist_alignment">
+<display_name_negative state="APPROVED" last_approved_text="From Events" last_edit_user="bob">From Events</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="From Events" last_edit_user="bob">From Events</display_name_positive>
+<key>ep_pooled_factor_fist_alignment</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{91d78612-f748-46bc-a315-9f0b19a3f98a}" record_timestamp="1554996307526" record_key="ep_pooled_factor_heart_alignment">
+<display_name_negative state="APPROVED" last_approved_text="From Events" last_edit_user="bob">From Events</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="From Events" last_edit_user="bob">From Events</display_name_positive>
+<key>ep_pooled_factor_heart_alignment</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{e949e192-14c9-4445-86f9-d3216ec25441}" record_timestamp="1559581888915" record_key="ep_pooled_factor_influence">
+<display_name_negative state="APPROVED" last_approved_text="Influence" last_edit_user="bob">Influence</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Influence" last_edit_user="bob">Influence</display_name_positive>
+<key>ep_pooled_factor_influence</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{6c9b05bc-921c-43eb-8480-7b18a5d94b0d}" record_timestamp="1559821076171" record_key="ep_pooled_factor_influence_assignments">
+<display_name_negative state="APPROVED" last_approved_text="Assignments" last_edit_user="bob">Assignments</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Assignments" last_edit_user="bob">Assignments</display_name_positive>
+<key>ep_pooled_factor_influence_assignments</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{770b3c14-559b-4b75-88e5-79818dd92379}" record_timestamp="1559821076234" record_key="ep_pooled_factor_influence_battles">
+<display_name_negative state="APPROVED" last_approved_text="Defeats" last_edit_user="bob">Defeats</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Victories" last_edit_user="bob">Victories</display_name_positive>
+<key>ep_pooled_factor_influence_battles</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{62986940-7ad3-4121-bb84-472f0eaa8215}" record_timestamp="1561554647410" record_key="ep_pooled_factor_influence_buildings">
+<display_name_negative state="APPROVED" last_approved_text="Infrastructure" last_edit_user="bob">Infrastructure</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Infrastructure" last_edit_user="bob">Infrastructure</display_name_positive>
+<key>ep_pooled_factor_influence_buildings</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{da3b85bc-29d9-4e52-8cf1-9b84d025c6f2}" record_timestamp="1560777684776" record_key="ep_pooled_factor_influence_decay">
+<display_name_negative state="APPROVED" last_approved_text="Decay" last_edit_user="bob">Decay</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Decay" last_edit_user="bob">Decay</display_name_positive>
+<key>ep_pooled_factor_influence_decay</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{35cb8c07-3cfd-4933-a313-cad68a53fb43}" record_timestamp="1562334897677" record_key="ep_pooled_factor_influence_diplomacy">
+<display_name_negative state="APPROVED" last_approved_text="Influence expended in diplomacy" last_edit_user="bob">Influence expended in diplomacy</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Influence" last_edit_user="bob">Influence</display_name_positive>
+<key>ep_pooled_factor_influence_diplomacy</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{52c82789-96b9-4685-a6ff-6101f83018e0}" record_timestamp="1560349443955" record_key="ep_pooled_factor_influence_faction_leader">
+<display_name_negative state="APPROVED" last_approved_text="Faction leader deployed in army" last_edit_user="bob">Faction leader deployed in army</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Faction leader deployed in army" last_edit_user="bob">Faction leader deployed in army</display_name_positive>
+<key>ep_pooled_factor_influence_faction_leader</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{384dc581-8b46-417f-8843-77c138a7e182}" record_timestamp="1559807593304" record_key="ep_pooled_factor_jurisdiction">
+<display_name_negative state="APPROVED" last_approved_text="Jurisdiction lost" last_edit_user="bob">Jurisdiction lost</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Jurisdiction gained" last_edit_user="bob">Jurisdiction gained</display_name_positive>
+<key>ep_pooled_factor_jurisdiction</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{6b877b58-5033-42ab-b247-f77014edfd91}" record_timestamp="1559807593367" record_key="ep_pooled_factor_jurisdiction_buildings">
+<display_name_negative state="APPROVED" last_approved_text="Buildings" last_edit_user="bob">Buildings</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Buildings" last_edit_user="bob">Buildings</display_name_positive>
+<key>ep_pooled_factor_jurisdiction_buildings</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{7ade260c-537f-464d-b779-a91ddb7eddc5}" record_timestamp="1560530349605" record_key="ep_pooled_factor_jurisdiction_people_in_power">
+<display_name_negative state="APPROVED" last_approved_text="People in power" last_edit_user="bob">People in power</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="People in power" last_edit_user="bob">People in power</display_name_positive>
+<key>ep_pooled_factor_jurisdiction_people_in_power</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{056fe616-47a5-4d93-950b-eea9c320632e}" record_timestamp="1561027488024" record_key="ep_pooled_factor_jurisdiction_siege">
+<display_name_negative state="APPROVED" last_approved_text="Sieges" last_edit_user="bob">Sieges</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Sieges" last_edit_user="bob">Sieges</display_name_positive>
+<key>ep_pooled_factor_jurisdiction_siege</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{3f4bcf6a-7937-44e1-8be6-af6dc4ae860e}" record_timestamp="1559807593335" record_key="ep_pooled_factor_jurisdiction_vassals">
+<display_name_negative state="APPROVED" last_approved_text="Vassals" last_edit_user="bob">Vassals</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Vassals" last_edit_user="bob">Vassals</display_name_positive>
+<key>ep_pooled_factor_jurisdiction_vassals</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{43a7be4c-c457-4f11-a712-f76b99d4aa33}" record_timestamp="1554996308569" record_key="ep_pooled_factor_money_alignment">
+<display_name_negative state="APPROVED" last_approved_text="From Events" last_edit_user="bob">From Events</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="From Events" last_edit_user="bob">From Events</display_name_positive>
+<key>ep_pooled_factor_money_alignment</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{044cd1db-b624-4886-b171-d855eaa9c688}" record_timestamp="1559581888621" record_key="ep_pooled_factor_reformation">
+<display_name_negative state="APPROVED" last_approved_text="Reformation" last_edit_user="bob">Reformation</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Reformation" last_edit_user="bob">Reformation</display_name_positive>
+<key>ep_pooled_factor_reformation</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{75a0778c-87fe-449b-bbca-dd628f2f681b}" record_timestamp="1562944546089" record_key="ep_pooled_factor_reformation_administrators">
+<display_name_negative state="APPROVED" last_approved_text="{{tr:Governors}}" last_edit_user="bob">{{tr:Governors}}</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="{{tr:Governors}}" last_edit_user="bob">{{tr:Governors}}</display_name_positive>
+<key>ep_pooled_factor_reformation_administrators</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{607e196f-3ba4-4169-88f2-4845544904c6}" record_timestamp="1560431213833" record_key="ep_pooled_factor_reformation_assignments">
+<display_name_negative state="APPROVED" last_approved_text="Assignments" last_edit_user="bob">Assignments</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Assignments" last_edit_user="bob">Assignments</display_name_positive>
+<key>ep_pooled_factor_reformation_assignments</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{53ce9b45-fbc0-4ff1-a513-46861f03047d}" record_timestamp="1562340328255" record_key="ep_pooled_factor_reformation_buildings_negative">
+<display_name_negative state="APPROVED" last_approved_text="Conservative infrastructure" last_edit_user="bob">Conservative infrastructure</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Reformed infrastructure" last_edit_user="bob">Reformed infrastructure</display_name_positive>
+<key>ep_pooled_factor_reformation_buildings_negative</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{4b40c25b-d3fd-4497-8393-f40bd67bd896}" record_timestamp="1559646432661" record_key="ep_pooled_factor_reformation_buildings_positive">
+<display_name_negative state="APPROVED" last_approved_text="Conservative infrastructure" last_edit_user="bob">Conservative infrastructure</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Reformed infrastructure" last_edit_user="bob">Reformed infrastructure</display_name_positive>
+<key>ep_pooled_factor_reformation_buildings_positive</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{af4e1610-914d-4f64-bc75-6a275bb69871}" record_timestamp="1560431214000" record_key="ep_pooled_factor_reformation_events">
+<display_name_negative state="APPROVED" last_approved_text="Events" last_edit_user="bob">Events</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Events" last_edit_user="bob">Events</display_name_positive>
+<key>ep_pooled_factor_reformation_events</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{9634e0e3-3e87-4ec9-a7ed-075e89f016a3}" record_timestamp="1559581888941" record_key="ep_pooled_factor_sima_wei">
+<display_name_negative state="APPROVED" last_approved_text="Fury" last_edit_user="bob">Fury</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Fury" last_edit_user="bob">Fury</display_name_positive>
+<key>ep_pooled_factor_sima_wei</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{0dff9090-a648-4abb-a772-c3823b1935a9}" record_timestamp="1559669717804" record_key="ep_pooled_factor_sima_wei_assignments">
+<display_name_negative state="APPROVED" last_approved_text="Assignments" last_edit_user="bob">Assignments</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Assignments" last_edit_user="bob">Assignments</display_name_positive>
+<key>ep_pooled_factor_sima_wei_assignments</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{2f27a9c4-0e04-4d3f-89c1-dad4880f21d4}" record_timestamp="1559669695356" record_key="ep_pooled_factor_sima_wei_battles">
+<display_name_negative state="APPROVED" last_approved_text="Defeats" last_edit_user="bob">Defeats</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Victories" last_edit_user="bob">Victories</display_name_positive>
+<key>ep_pooled_factor_sima_wei_battles</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{35d009d3-f6ec-441d-a4d4-066b7155e597}" record_timestamp="1559669714480" record_key="ep_pooled_factor_sima_wei_decay">
+<display_name_negative state="APPROVED" last_approved_text="Decay" last_edit_user="bob">Decay</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Increase" last_edit_user="bob">Increase</display_name_positive>
+<key>ep_pooled_factor_sima_wei_decay</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{a152d960-727e-4e72-ba9b-6253edc63ea1}" record_timestamp="1560525409594" record_key="ep_pooled_factor_sima_wei_gifts">
+<display_name_negative state="APPROVED" last_approved_text="Gifts" last_edit_user="bob">Gifts</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Gifts" last_edit_user="bob">Gifts</display_name_positive>
+<key>ep_pooled_factor_sima_wei_gifts</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{e5a64a48-f724-44fa-8f5d-241ec6a07588}" record_timestamp="1559669708552" record_key="ep_pooled_factor_sima_wei_post_siege">
+<display_name_negative state="APPROVED" last_approved_text="Sieges" last_edit_user="bob">Sieges</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Sieges" last_edit_user="bob">Sieges</display_name_positive>
+<key>ep_pooled_factor_sima_wei_post_siege</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{de8730d5-7373-430e-b89e-c546d7089741}" record_timestamp="1559581888890" record_key="ep_pooled_factor_subterfuge">
+<display_name_negative state="APPROVED" last_approved_text="Subterfuge lost" last_edit_user="bob">Subterfuge lost</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Subterfuge gained" last_edit_user="bob">Subterfuge gained</display_name_positive>
+<key>ep_pooled_factor_subterfuge</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{d8e61e99-4435-4ed7-ad94-5f0d2dcc1458}" record_timestamp="1559722344316" record_key="ep_pooled_factor_subterfuge_buildings">
+<display_name_negative state="APPROVED" last_approved_text="Subterfuge" last_edit_user="bob">Subterfuge</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Buildings" last_edit_user="bob">Buildings</display_name_positive>
+<key>ep_pooled_factor_subterfuge_buildings</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{03dcea79-c937-4704-ac53-e87151b43cfa}" record_timestamp="1559652447096" record_key="ep_pooled_factor_subterfuge_diplomacy">
+<display_name_negative state="APPROVED" last_approved_text="Subterfuge expended in diplomacy" last_edit_user="bob">Subterfuge expended in diplomacy</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Subterfuge" last_edit_user="bob">Subterfuge</display_name_positive>
+<key>ep_pooled_factor_subterfuge_diplomacy</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{7ed1d1e8-2751-412b-88fa-552a39429a77}" record_timestamp="1560530349717" record_key="ep_pooled_factor_subterfuge_people_in_power">
+<display_name_negative state="APPROVED" last_approved_text="People in power" last_edit_user="bob">People in power</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="People in power" last_edit_user="bob">People in power</display_name_positive>
+<key>ep_pooled_factor_subterfuge_people_in_power</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{54f3f6d4-e6a1-45ea-8443-046515a78850}" record_timestamp="1559919141723" record_key="ep_pooled_factor_subterfuge_spies_1">
+<display_name_negative state="APPROVED" last_approved_text="Subterfuge" last_edit_user="bob">Subterfuge</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Innocuous spy activity" last_edit_user="bob">Innocuous spy activity</display_name_positive>
+<key>ep_pooled_factor_subterfuge_spies_1</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{d1308df8-381d-4c6e-b5b0-0e2248e4fb44}" record_timestamp="1560442572811" record_key="ep_pooled_factor_subterfuge_spies_2">
+<display_name_negative state="APPROVED" last_approved_text="Subterfuge" last_edit_user="bob">Subterfuge</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Underhanded spy activity" last_edit_user="bob">Underhanded spy activity</display_name_positive>
+<key>ep_pooled_factor_subterfuge_spies_2</key>
+</pooled_resource_factors>
+<pooled_resource_factors record_uuid="{8642c98f-4c8e-417b-ae20-435ad91944db}" record_timestamp="1560442572811" record_key="ep_pooled_factor_subterfuge_spies_3">
+<display_name_negative state="APPROVED" last_approved_text="Subterfuge" last_edit_user="bob">Subterfuge</display_name_negative>
+<display_name_positive state="APPROVED" last_approved_text="Nefarious spy activity" last_edit_user="bob">Nefarious spy activity</display_name_positive>
+<key>ep_pooled_factor_subterfuge_spies_3</key>
 </pooled_resource_factors>
 </dataroot>

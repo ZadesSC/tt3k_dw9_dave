@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_unit_permission_requirements.xsd" export_time="Thu Apr 25 09:04:48 2019" revision="48" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1450/client" export_user="bob">
-<edit_uuid>e3cf2356-5f81-47e5-a909-3d322fb35ef2</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_unit_permission_requirements.xsd" export_time="Fri Jul 12 09:16:55 2019" revision="51" export_branch="C:/Users/william.wright/AppData/Roaming/TWDaemon/1582/dave" export_user="bob">
+<edit_uuid>af448fef-f00e-45df-a3b5-aecf6a6ac120</edit_uuid>
 <campaign_unit_permission_requirements record_uuid="{5c45235e-4d66-4960-8589-f86d61fe47ab}" record_timestamp="1512040169729" record_key="3k_main_unit_permission_default_units_no_requirementno_requirement3k_main_unit_earth_mounted_sabre_militia">
 <is_restriction>0</is_restriction>
 <permission>3k_main_unit_permission_default_units_no_requirement</permission>
@@ -133,13 +133,13 @@
 <requirement>3k_ytr_unit_requirement_mercenaries_sun_jian</requirement>
 <unit>3k_main_unit_metal_mercenary_infantry</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{8ce3a0d8-c46a-4347-b7a4-ad1c99618695}" record_timestamp="1551440794568" record_key="3k_main_unit_permission_faction_sun_jian3k_ytr_unit_requirement_mercenaries_sun_jian_advanced3k_main_unit_water_mercenary_archers">
+<campaign_unit_permission_requirements record_uuid="{8ce3a0d8-c46a-4347-b7a4-ad1c99618695}" record_timestamp="1536687388773" record_key="3k_main_unit_permission_faction_sun_jian3k_ytr_unit_requirement_mercenaries_sun_jian_advanced3k_main_unit_water_mercenary_archers">
 <is_restriction>0</is_restriction>
 <permission>3k_main_unit_permission_faction_sun_jian</permission>
 <requirement>3k_ytr_unit_requirement_mercenaries_sun_jian_advanced</requirement>
 <unit>3k_main_unit_water_mercenary_archers</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{729d1214-21d3-426b-ba39-7bd778092221}" record_timestamp="1551440794568" record_key="3k_main_unit_permission_faction_sun_jian3k_ytr_unit_requirement_mercenaries_sun_jian_elite3k_main_unit_fire_mercenary_cavalry">
+<campaign_unit_permission_requirements record_uuid="{729d1214-21d3-426b-ba39-7bd778092221}" record_timestamp="1536687388826" record_key="3k_main_unit_permission_faction_sun_jian3k_ytr_unit_requirement_mercenaries_sun_jian_elite3k_main_unit_fire_mercenary_cavalry">
 <is_restriction>0</is_restriction>
 <permission>3k_main_unit_permission_faction_sun_jian</permission>
 <requirement>3k_ytr_unit_requirement_mercenaries_sun_jian_elite</requirement>
@@ -259,37 +259,55 @@
 <requirement>3k_main_unit_requirement_wood_base</requirement>
 <unit>3k_main_unit_wood_spear_guards</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{9e524856-3ea8-41b6-842f-19d564b8ce0a}" record_timestamp="1551795841099" record_key="3k_main_unit_permission_special_character_permissions3k_main_unit_requirement_special_records_gan_ning3k_main_unit_water_archers">
+<campaign_unit_permission_requirements record_uuid="{1fffecf5-94ef-4229-8cc8-95cb55ed6652}" record_timestamp="1562919415776" record_key="3k_main_unit_permission_generalsep_unit_requirement_fire_cataphracts_main_campaignep_unit_fire_cataphracts">
+<is_restriction>0</is_restriction>
+<permission>3k_main_unit_permission_generals</permission>
+<requirement>ep_unit_requirement_fire_cataphracts_main_campaign</requirement>
+<unit>ep_unit_fire_cataphracts</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{032d1ba2-71cb-42f6-965d-1bc785b1e4c4}" record_timestamp="1562919415775" record_key="3k_main_unit_permission_generalsep_unit_requirement_fire_heavy_cataphracts_main_campaignep_unit_fire_heavy_cataphracts">
+<is_restriction>0</is_restriction>
+<permission>3k_main_unit_permission_generals</permission>
+<requirement>ep_unit_requirement_fire_heavy_cataphracts_main_campaign</requirement>
+<unit>ep_unit_fire_heavy_cataphracts</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{f50f5742-8444-49e4-8b7a-abd3bd445de2}" record_timestamp="1562919415776" record_key="3k_main_unit_permission_generalsep_unit_requirement_water_mounted_crossbowmen_main_campaignep_unit_water_mounted_crossbows">
+<is_restriction>0</is_restriction>
+<permission>3k_main_unit_permission_generals</permission>
+<requirement>ep_unit_requirement_water_mounted_crossbowmen_main_campaign</requirement>
+<unit>ep_unit_water_mounted_crossbows</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{9e524856-3ea8-41b6-842f-19d564b8ce0a}" record_timestamp="1554881200745" record_key="3k_main_unit_permission_special_character_permissions3k_main_unit_requirement_special_records_gan_ning3k_main_unit_water_archers">
 <is_restriction>0</is_restriction>
 <permission>3k_main_unit_permission_special_character_permissions</permission>
 <requirement>3k_main_unit_requirement_special_records_gan_ning</requirement>
 <unit>3k_main_unit_water_archers</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{a5d0e46a-6828-4f7b-9d2f-0e1b5d76aaa7}" record_timestamp="1551795840852" record_key="3k_main_unit_permission_special_character_permissions3k_main_unit_requirement_special_records_huang_zhong3k_main_unit_water_archers">
+<campaign_unit_permission_requirements record_uuid="{a5d0e46a-6828-4f7b-9d2f-0e1b5d76aaa7}" record_timestamp="1554881200744" record_key="3k_main_unit_permission_special_character_permissions3k_main_unit_requirement_special_records_huang_zhong3k_main_unit_water_archers">
 <is_restriction>0</is_restriction>
 <permission>3k_main_unit_permission_special_character_permissions</permission>
 <requirement>3k_main_unit_requirement_special_records_huang_zhong</requirement>
 <unit>3k_main_unit_water_archers</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{dcfc6679-8d83-448e-909e-e34d2076c83f}" record_timestamp="1551795841024" record_key="3k_main_unit_permission_special_character_permissions3k_main_unit_requirement_special_records_taishi_ci3k_main_unit_water_archers">
+<campaign_unit_permission_requirements record_uuid="{dcfc6679-8d83-448e-909e-e34d2076c83f}" record_timestamp="1554881200745" record_key="3k_main_unit_permission_special_character_permissions3k_main_unit_requirement_special_records_taishi_ci3k_main_unit_water_archers">
 <is_restriction>0</is_restriction>
 <permission>3k_main_unit_permission_special_character_permissions</permission>
 <requirement>3k_main_unit_requirement_special_records_taishi_ci</requirement>
 <unit>3k_main_unit_water_archers</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{58dea6ee-8988-4fc1-b1e5-207630d80a6a}" record_timestamp="1551713257519" record_key="3k_main_unit_permission_special_character_permissions3k_main_unit_requirement_special_romance_gan_ning3k_main_unit_water_archers">
+<campaign_unit_permission_requirements record_uuid="{58dea6ee-8988-4fc1-b1e5-207630d80a6a}" record_timestamp="1554880897125" record_key="3k_main_unit_permission_special_character_permissions3k_main_unit_requirement_special_romance_gan_ning3k_main_unit_water_archers">
 <is_restriction>0</is_restriction>
 <permission>3k_main_unit_permission_special_character_permissions</permission>
 <requirement>3k_main_unit_requirement_special_romance_gan_ning</requirement>
 <unit>3k_main_unit_water_archers</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{4c4afab1-798d-41d3-84e7-67bdcd9e1376}" record_timestamp="1551713256688" record_key="3k_main_unit_permission_special_character_permissions3k_main_unit_requirement_special_romance_huang_zhong3k_main_unit_water_archers">
+<campaign_unit_permission_requirements record_uuid="{4c4afab1-798d-41d3-84e7-67bdcd9e1376}" record_timestamp="1554880897062" record_key="3k_main_unit_permission_special_character_permissions3k_main_unit_requirement_special_romance_huang_zhong3k_main_unit_water_archers">
 <is_restriction>0</is_restriction>
 <permission>3k_main_unit_permission_special_character_permissions</permission>
 <requirement>3k_main_unit_requirement_special_romance_huang_zhong</requirement>
 <unit>3k_main_unit_water_archers</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{c1f764d6-2b64-4a63-af36-d4130d242005}" record_timestamp="1551713257545" record_key="3k_main_unit_permission_special_character_permissions3k_main_unit_requirement_special_romance_taishi_ci3k_main_unit_water_archers">
+<campaign_unit_permission_requirements record_uuid="{c1f764d6-2b64-4a63-af36-d4130d242005}" record_timestamp="1554880897125" record_key="3k_main_unit_permission_special_character_permissions3k_main_unit_requirement_special_romance_taishi_ci3k_main_unit_water_archers">
 <is_restriction>0</is_restriction>
 <permission>3k_main_unit_permission_special_character_permissions</permission>
 <requirement>3k_main_unit_requirement_special_romance_taishi_ci</requirement>
@@ -391,6 +409,12 @@
 <requirement>3k_main_unit_requirement_wood_spear_warriors</requirement>
 <unit>3k_main_unit_wood_spear_warriors</unit>
 </campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{a7a2bf0c-37bb-43dd-a578-30f447f5d777}" record_timestamp="1562919415776" record_key="3k_main_unit_permission_technologiesep_unit_requirement_water_heavy_mounted_archers_main_campaignep_unit_water_heavy_mounted_archers">
+<is_restriction>0</is_restriction>
+<permission>3k_main_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_water_heavy_mounted_archers_main_campaign</requirement>
+<unit>ep_unit_water_heavy_mounted_archers</unit>
+</campaign_unit_permission_requirements>
 <campaign_unit_permission_requirements record_uuid="{aa9af233-e494-4330-aba1-5804f3789e43}" record_timestamp="1528282856264" record_key="3k_main_unit_permission_world_leader3k_main_unit_requirement_world_leader3k_main_unit_water_defenders_of_earth">
 <is_restriction>0</is_restriction>
 <permission>3k_main_unit_permission_world_leader</permission>
@@ -403,25 +427,25 @@
 <requirement>3k_main_unit_requirement_world_leader</requirement>
 <unit>3k_main_unit_wood_protectors_of_heaven</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{d85cea8c-3a44-4860-ad1d-169b5a8ebb27}" record_timestamp="1551180155990" record_key="3k_ytr_unit_earth_yellow_turban_horsemen3k_ytr_unit_requirement_yellow_turban_horsemen3k_ytr_unit_earth_yellow_turban_horsemen">
+<campaign_unit_permission_requirements record_uuid="{d85cea8c-3a44-4860-ad1d-169b5a8ebb27}" record_timestamp="1551788126763" record_key="3k_ytr_unit_earth_yellow_turban_horsemen3k_ytr_unit_requirement_yellow_turban_horsemen3k_ytr_unit_earth_yellow_turban_horsemen">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_earth_yellow_turban_horsemen</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turban_horsemen</requirement>
 <unit>3k_ytr_unit_earth_yellow_turban_horsemen</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{2fc01c49-7407-4366-8236-f9193c3e31db}" record_timestamp="1551180156112" record_key="3k_ytr_unit_metal_yellow_turban_warriors3k_ytr_unit_requirement_yellow_turban_warriors3k_ytr_unit_metal_yellow_turban_warriors">
+<campaign_unit_permission_requirements record_uuid="{2fc01c49-7407-4366-8236-f9193c3e31db}" record_timestamp="1551788126764" record_key="3k_ytr_unit_metal_yellow_turban_warriors3k_ytr_unit_requirement_yellow_turban_warriors3k_ytr_unit_metal_yellow_turban_warriors">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_metal_yellow_turban_warriors</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turban_warriors</requirement>
 <unit>3k_ytr_unit_metal_yellow_turban_warriors</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{9df7e1e9-3074-4dbc-ac88-4d2b6cfb6ae2}" record_timestamp="1551180156035" record_key="3k_ytr_unit_metal_yellow_turban_warriors3k_ytr_unit_requirement_yellow_turban_warriors_progression_13k_ytr_unit_metal_yellow_turban_warriors">
+<campaign_unit_permission_requirements record_uuid="{9df7e1e9-3074-4dbc-ac88-4d2b6cfb6ae2}" record_timestamp="1551788126764" record_key="3k_ytr_unit_metal_yellow_turban_warriors3k_ytr_unit_requirement_yellow_turban_warriors_progression_13k_ytr_unit_metal_yellow_turban_warriors">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_metal_yellow_turban_warriors</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turban_warriors_progression_1</requirement>
 <unit>3k_ytr_unit_metal_yellow_turban_warriors</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{348fadc7-607b-4827-93f3-65f23b359e10}" record_timestamp="1551180158416" record_key="3k_ytr_unit_metal_yellow_turban_warriors3k_ytr_unit_requirement_yellow_turban_warriors_progression_23k_ytr_unit_metal_yellow_turban_warriors">
+<campaign_unit_permission_requirements record_uuid="{348fadc7-607b-4827-93f3-65f23b359e10}" record_timestamp="1551788126789" record_key="3k_ytr_unit_metal_yellow_turban_warriors3k_ytr_unit_requirement_yellow_turban_warriors_progression_23k_ytr_unit_metal_yellow_turban_warriors">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_metal_yellow_turban_warriors</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turban_warriors_progression_2</requirement>
@@ -445,7 +469,7 @@
 <requirement>3k_ytr_unit_requirement_yellow_turbans_faction_unique_arm_of_the_supreme_peace</requirement>
 <unit>3k_ytr_unit_metal_arm_of_the_supreme_peace</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{2fb5f536-5aad-461f-8be6-921c04ff0513}" record_timestamp="1552315725857" record_key="3k_ytr_unit_permission_yellow_turbans_arm_of_the_supreme_peace3k_ytr_unit_requirement_yellow_turbans_faction_unique_arm_of_the_supreme_peace_alternative3k_ytr_unit_metal_arm_of_the_supreme_peace">
+<campaign_unit_permission_requirements record_uuid="{2fb5f536-5aad-461f-8be6-921c04ff0513}" record_timestamp="1554882588716" record_key="3k_ytr_unit_permission_yellow_turbans_arm_of_the_supreme_peace3k_ytr_unit_requirement_yellow_turbans_faction_unique_arm_of_the_supreme_peace_alternative3k_ytr_unit_metal_arm_of_the_supreme_peace">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_permission_yellow_turbans_arm_of_the_supreme_peace</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turbans_faction_unique_arm_of_the_supreme_peace_alternative</requirement>
@@ -541,7 +565,7 @@
 <requirement>3k_ytr_unit_requirement_yellow_turbans_peoples_warband</requirement>
 <unit>3k_ytr_unit_metal_peoples_warband</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{3074f648-833c-4881-b258-f362e2b361ae}" record_timestamp="1552315726060" record_key="3k_ytr_unit_permission_yellow_turbans_peoples_warband3k_ytr_unit_requirement_yellow_turbans_peoples_warband_alternate3k_ytr_unit_metal_peoples_warband">
+<campaign_unit_permission_requirements record_uuid="{3074f648-833c-4881-b258-f362e2b361ae}" record_timestamp="1554882588718" record_key="3k_ytr_unit_permission_yellow_turbans_peoples_warband3k_ytr_unit_requirement_yellow_turbans_peoples_warband_alternate3k_ytr_unit_metal_peoples_warband">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_permission_yellow_turbans_peoples_warband</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turbans_peoples_warband_alternate</requirement>
@@ -571,13 +595,13 @@
 <requirement>3k_ytr_unit_requirement_yellow_turbans_faction_unique_scholar_warriors_alternate</requirement>
 <unit>3k_ytr_unit_metal_scholar_warriors</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{66cb00d9-dfff-4219-8cbf-c518a4267518}" record_timestamp="1552315725613" record_key="3k_ytr_unit_permission_yellow_turbans_trebuchets3k_ytr_unit_requirement_yellow_turbans_trebuchet3k_main_unit_water_trebuchet">
+<campaign_unit_permission_requirements record_uuid="{66cb00d9-dfff-4219-8cbf-c518a4267518}" record_timestamp="1554882588702" record_key="3k_ytr_unit_permission_yellow_turbans_trebuchets3k_ytr_unit_requirement_yellow_turbans_trebuchet3k_main_unit_water_trebuchet">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_permission_yellow_turbans_trebuchets</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turbans_trebuchet</requirement>
 <unit>3k_main_unit_water_trebuchet</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{5038bd8e-f32e-44d0-9da9-b8d8f5014467}" record_timestamp="1556179488474" record_key="3k_ytr_unit_permission_yellow_turbans_trebuchets3k_ytr_unit_requirement_yellow_turbans_trebuchet_alternate3k_main_unit_water_trebuchet">
+<campaign_unit_permission_requirements record_uuid="{5038bd8e-f32e-44d0-9da9-b8d8f5014467}" record_timestamp="1556563215969" record_key="3k_ytr_unit_permission_yellow_turbans_trebuchets3k_ytr_unit_requirement_yellow_turbans_trebuchet_alternate3k_main_unit_water_trebuchet">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_permission_yellow_turbans_trebuchets</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turbans_trebuchet_alternate</requirement>
@@ -625,7 +649,7 @@
 <requirement>3k_ytr_unit_requirement_yellow_turbans_white_wave_horsemen</requirement>
 <unit>3k_ytr_unit_earth_white_wave_horsemen</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{990da980-dc04-4dbe-af86-8231c93cf7b1}" record_timestamp="1552315725965" record_key="3k_ytr_unit_permission_yellow_turbans_white_wave_horsemen3k_ytr_unit_requirement_yellow_turbans_white_wave_horsemen_alternative3k_ytr_unit_earth_white_wave_horsemen">
+<campaign_unit_permission_requirements record_uuid="{990da980-dc04-4dbe-af86-8231c93cf7b1}" record_timestamp="1554882588717" record_key="3k_ytr_unit_permission_yellow_turbans_white_wave_horsemen3k_ytr_unit_requirement_yellow_turbans_white_wave_horsemen_alternative3k_ytr_unit_earth_white_wave_horsemen">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_permission_yellow_turbans_white_wave_horsemen</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turbans_white_wave_horsemen_alternative</requirement>
@@ -637,7 +661,7 @@
 <requirement>3k_ytr_unit_requirement_yellow_turbans_white_wave_veterans</requirement>
 <unit>3k_ytr_unit_metal_white_wave_veterans</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{c411dd19-b629-43d7-8698-fab57832a21d}" record_timestamp="1552315725981" record_key="3k_ytr_unit_permission_yellow_turbans_white_wave_veterans3k_ytr_unit_requirement_yellow_turbans_white_wave_veterans_alternative3k_ytr_unit_earth_white_wave_horsemen">
+<campaign_unit_permission_requirements record_uuid="{c411dd19-b629-43d7-8698-fab57832a21d}" record_timestamp="1554882588717" record_key="3k_ytr_unit_permission_yellow_turbans_white_wave_veterans3k_ytr_unit_requirement_yellow_turbans_white_wave_veterans_alternative3k_ytr_unit_earth_white_wave_horsemen">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_permission_yellow_turbans_white_wave_veterans</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turbans_white_wave_veterans_alternative</requirement>
@@ -661,40 +685,430 @@
 <requirement>3k_ytr_unit_requirement_yellow_turbans_faction_unique_youxia</requirement>
 <unit>3k_ytr_unit_metal_youxia</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{64c38144-9ce4-4d54-b159-a69f6b44cfcf}" record_timestamp="1551180156013" record_key="3k_ytr_unit_water_yellow_turban_archers3k_ytr_unit_requirement_yellow_turban_archers3k_ytr_unit_water_yellow_turban_archers">
+<campaign_unit_permission_requirements record_uuid="{64c38144-9ce4-4d54-b159-a69f6b44cfcf}" record_timestamp="1551788126763" record_key="3k_ytr_unit_water_yellow_turban_archers3k_ytr_unit_requirement_yellow_turban_archers3k_ytr_unit_water_yellow_turban_archers">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_water_yellow_turban_archers</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turban_archers</requirement>
 <unit>3k_ytr_unit_water_yellow_turban_archers</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{858b5bba-1029-4d57-a660-8fd95b88aa0f}" record_timestamp="1551180156061" record_key="3k_ytr_unit_water_yellow_turban_archers3k_ytr_unit_requirement_yellow_turban_archers_progression_13k_ytr_unit_water_yellow_turban_archers">
+<campaign_unit_permission_requirements record_uuid="{858b5bba-1029-4d57-a660-8fd95b88aa0f}" record_timestamp="1551788126764" record_key="3k_ytr_unit_water_yellow_turban_archers3k_ytr_unit_requirement_yellow_turban_archers_progression_13k_ytr_unit_water_yellow_turban_archers">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_water_yellow_turban_archers</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turban_archers_progression_1</requirement>
 <unit>3k_ytr_unit_water_yellow_turban_archers</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{3c3cbe4e-aa70-4851-8026-6cebe5118ad6}" record_timestamp="1551180158387" record_key="3k_ytr_unit_water_yellow_turban_archers3k_ytr_unit_requirement_yellow_turban_archers_progression_23k_ytr_unit_water_yellow_turban_archers">
+<campaign_unit_permission_requirements record_uuid="{3c3cbe4e-aa70-4851-8026-6cebe5118ad6}" record_timestamp="1551788126789" record_key="3k_ytr_unit_water_yellow_turban_archers3k_ytr_unit_requirement_yellow_turban_archers_progression_23k_ytr_unit_water_yellow_turban_archers">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_water_yellow_turban_archers</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turban_archers_progression_2</requirement>
 <unit>3k_ytr_unit_water_yellow_turban_archers</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{97193e95-99e5-44c7-8389-0a82fe131d57}" record_timestamp="1551180156087" record_key="3k_ytr_unit_wood_yellow_turban_spearmen3k_ytr_unit_requirement_yellow_turban_spearmen3k_ytr_unit_wood_yellow_turban_spearmen">
+<campaign_unit_permission_requirements record_uuid="{97193e95-99e5-44c7-8389-0a82fe131d57}" record_timestamp="1551788126764" record_key="3k_ytr_unit_wood_yellow_turban_spearmen3k_ytr_unit_requirement_yellow_turban_spearmen3k_ytr_unit_wood_yellow_turban_spearmen">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_wood_yellow_turban_spearmen</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turban_spearmen</requirement>
 <unit>3k_ytr_unit_wood_yellow_turban_spearmen</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{65f5dc6e-4074-4f7e-adf5-831e2cf46ac8}" record_timestamp="1551180155965" record_key="3k_ytr_unit_wood_yellow_turban_spearmen3k_ytr_unit_requirement_yellow_turban_spearmen_progression_13k_ytr_unit_wood_yellow_turban_spearmen">
+<campaign_unit_permission_requirements record_uuid="{65f5dc6e-4074-4f7e-adf5-831e2cf46ac8}" record_timestamp="1551788126763" record_key="3k_ytr_unit_wood_yellow_turban_spearmen3k_ytr_unit_requirement_yellow_turban_spearmen_progression_13k_ytr_unit_wood_yellow_turban_spearmen">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_wood_yellow_turban_spearmen</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turban_spearmen_progression_1</requirement>
 <unit>3k_ytr_unit_wood_yellow_turban_spearmen</unit>
 </campaign_unit_permission_requirements>
-<campaign_unit_permission_requirements record_uuid="{ce9ed88f-190d-4d7d-9513-9ee8676e9272}" record_timestamp="1551180158446" record_key="3k_ytr_unit_wood_yellow_turban_spearmen3k_ytr_unit_requirement_yellow_turban_spearmen_progression_23k_ytr_unit_wood_yellow_turban_spearmen">
+<campaign_unit_permission_requirements record_uuid="{ce9ed88f-190d-4d7d-9513-9ee8676e9272}" record_timestamp="1551788126789" record_key="3k_ytr_unit_wood_yellow_turban_spearmen3k_ytr_unit_requirement_yellow_turban_spearmen_progression_23k_ytr_unit_wood_yellow_turban_spearmen">
 <is_restriction>0</is_restriction>
 <permission>3k_ytr_unit_wood_yellow_turban_spearmen</permission>
 <requirement>3k_ytr_unit_requirement_yellow_turban_spearmen_progression_2</requirement>
 <unit>3k_ytr_unit_wood_yellow_turban_spearmen</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{33efdee7-0e01-454b-85ff-9eed443839f1}" record_timestamp="1557839888595" record_key="ep_unit_permission_faction_empire_of_jinno_requirement3k_main_unit_water_defenders_of_earth">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_empire_of_jin</permission>
+<requirement>no_requirement</requirement>
+<unit>3k_main_unit_water_defenders_of_earth</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{161c509a-7755-44f9-93bf-854b47bf6a9e}" record_timestamp="1557839888543" record_key="ep_unit_permission_faction_empire_of_jinno_requirement3k_main_unit_wood_protectors_of_heaven">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_empire_of_jin</permission>
+<requirement>no_requirement</requirement>
+<unit>3k_main_unit_wood_protectors_of_heaven</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{af4682b7-0f6b-45a1-8aa6-41c5c54895b4}" record_timestamp="1557839888656" record_key="ep_unit_permission_faction_empire_of_jinno_requirementep_unit_metal_imperial_guards">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_empire_of_jin</permission>
+<requirement>no_requirement</requirement>
+<unit>ep_unit_metal_imperial_guards</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{36225a62-607f-48d4-9c3d-af47c789a637}" record_timestamp="1555498024705" record_key="ep_unit_permission_faction_prince_of_changsha3k_main_unit_requirement_wood_infantry_of_jing3k_main_unit_wood_infantry_of_jing">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_changsha</permission>
+<requirement>3k_main_unit_requirement_wood_infantry_of_jing</requirement>
+<unit>3k_main_unit_wood_infantry_of_jing</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{7cee8273-3249-4eef-b478-4d73c2f716ee}" record_timestamp="1555498024705" record_key="ep_unit_permission_faction_prince_of_changshaep_unit_requirement_water_archers_of_jingep_unit_water_archers_of_jing">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_changsha</permission>
+<requirement>ep_unit_requirement_water_archers_of_jing</requirement>
+<unit>ep_unit_water_archers_of_jing</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{15ce0f59-9b40-48af-85de-4e7d59369e64}" record_timestamp="1557925796632" record_key="ep_unit_permission_faction_prince_of_changshano_requirement3k_main_unit_wood_spear_guards">
+<is_restriction>1</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_changsha</permission>
+<requirement>no_requirement</requirement>
+<unit>3k_main_unit_wood_spear_guards</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{deebc8c2-a097-4ed3-8fde-f5256e5299f7}" record_timestamp="1555498024705" record_key="ep_unit_permission_faction_prince_of_chengdu3k_main_unit_requirement_water_qiang_hunters3k_main_unit_water_qiang_hunters">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_chengdu</permission>
+<requirement>3k_main_unit_requirement_water_qiang_hunters</requirement>
+<unit>3k_main_unit_water_qiang_hunters</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{038bf469-1070-423c-afd1-fb87b3d6bbb2}" record_timestamp="1555498024704" record_key="ep_unit_permission_faction_prince_of_chengdu3k_main_unit_requirement_water_qiang_marauders3k_main_unit_fire_qiang_marauders">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_chengdu</permission>
+<requirement>3k_main_unit_requirement_water_qiang_marauders</requirement>
+<unit>3k_main_unit_fire_qiang_marauders</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{8b6bcdad-8be9-4d5f-8312-6733796a64fa}" record_timestamp="1555498024705" record_key="ep_unit_permission_faction_prince_of_chengdu3k_main_unit_requirement_water_qiang_raiders3k_main_unit_earth_qiang_raiders">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_chengdu</permission>
+<requirement>3k_main_unit_requirement_water_qiang_raiders</requirement>
+<unit>3k_main_unit_earth_qiang_raiders</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{d29edeac-87ba-4e6d-8b6a-12fa6f3c9c5e}" record_timestamp="1555498024706" record_key="ep_unit_permission_faction_prince_of_chuep_unit_requirement_metal_chu_infantryep_unit_metal_chu_infantry">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_chu</permission>
+<requirement>ep_unit_requirement_metal_chu_infantry</requirement>
+<unit>ep_unit_metal_chu_infantry</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{6a9ca621-be4a-4c94-bc13-f2046c1d5279}" record_timestamp="1555498024706" record_key="ep_unit_permission_faction_prince_of_chuep_unit_requirement_wood_chu_spearmenep_unit_wood_chu_spearmen">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_chu</permission>
+<requirement>ep_unit_requirement_wood_chu_spearmen</requirement>
+<unit>ep_unit_wood_chu_spearmen</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{0b14eb50-304b-4499-a533-a751f1d6ccef}" record_timestamp="1555498024705" record_key="ep_unit_permission_faction_prince_of_donghaiep_unit_requirement_metal_warriors_of_xuep_unit_metal_warriors_of_xu">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_donghai</permission>
+<requirement>ep_unit_requirement_metal_warriors_of_xu</requirement>
+<unit>ep_unit_metal_warriors_of_xu</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{2b5fbb16-de96-4fb9-916b-3e37284fb064}" record_timestamp="1555498024706" record_key="ep_unit_permission_faction_prince_of_donghaiep_unit_requirement_metal_xu_raidersep_unit_metal_xu_raiders">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_donghai</permission>
+<requirement>ep_unit_requirement_metal_xu_raiders</requirement>
+<unit>ep_unit_metal_xu_raiders</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{07508dfa-4531-47f5-9db2-da2bad6044f2}" record_timestamp="1555498024705" record_key="ep_unit_permission_faction_prince_of_hejianep_unit_requirement_fire_xianbei_ridersep_unit_fire_xianbei_riders">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_hejian</permission>
+<requirement>ep_unit_requirement_fire_xianbei_riders</requirement>
+<unit>ep_unit_fire_xianbei_riders</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{505f4155-836b-4e52-b3eb-8f301e8e724c}" record_timestamp="1555498024705" record_key="ep_unit_permission_faction_prince_of_hejianep_unit_requirement_water_xianbei_horse_archersep_unit_water_xianbei_horse_archers">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_hejian</permission>
+<requirement>ep_unit_requirement_water_xianbei_horse_archers</requirement>
+<unit>ep_unit_water_xianbei_horse_archers</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{1c03311b-43c0-420a-ba8f-5f31e8f5f3c8}" record_timestamp="1555498024705" record_key="ep_unit_permission_faction_prince_of_qiep_unit_requirement_water_qi_crossbowmenep_unit_water_qi_crossbowmen">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_qi</permission>
+<requirement>ep_unit_requirement_water_qi_crossbowmen</requirement>
+<unit>ep_unit_water_qi_crossbowmen</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{394ed122-0723-43f8-b8dc-b68653d6a76d}" record_timestamp="1555498024705" record_key="ep_unit_permission_faction_prince_of_qiep_unit_requirement_wood_qi_guardsmenep_unit_wood_qi_guardsmen">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_qi</permission>
+<requirement>ep_unit_requirement_wood_qi_guardsmen</requirement>
+<unit>ep_unit_wood_qi_guardsmen</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{51cad7a8-f1d5-4107-8a73-d1312d408808}" record_timestamp="1555498024706" record_key="ep_unit_permission_faction_prince_of_runanep_unit_requirement_metal_imperial_guardsep_unit_metal_imperial_guards">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_runan</permission>
+<requirement>ep_unit_requirement_metal_imperial_guards</requirement>
+<unit>ep_unit_metal_imperial_guards</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{33fdcd97-0829-4c97-a21d-86c181cc06e2}" record_timestamp="1555498024707" record_key="ep_unit_permission_faction_prince_of_zhaoep_unit_requirement_fire_xiongnu_cataphractsep_unit_fire_xiongnu_cataphracts">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_zhao</permission>
+<requirement>ep_unit_requirement_fire_xiongnu_cataphracts</requirement>
+<unit>ep_unit_fire_xiongnu_cataphracts</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{0559d252-ac59-41f9-8285-87d698bf6d05}" record_timestamp="1555498024706" record_key="ep_unit_permission_faction_prince_of_zhaoep_unit_requirement_fire_xiongnu_cavalryep_unit_fire_xiongnu_cavalry">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_faction_prince_of_zhao</permission>
+<requirement>ep_unit_requirement_fire_xiongnu_cavalry</requirement>
+<unit>ep_unit_fire_xiongnu_cavalry</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{eccafbec-61bc-49e7-bc1b-548a82d76416}" record_timestamp="1555498024706" record_key="ep_unit_permission_generals3k_main_unit_requirement_earth_baseep_unit_earth_dao_swordguard_cavalry">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals</permission>
+<requirement>3k_main_unit_requirement_earth_base</requirement>
+<unit>ep_unit_earth_dao_swordguard_cavalry</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{3a49c0f5-2037-462b-96a8-67e12024aec3}" record_timestamp="1555498024706" record_key="ep_unit_permission_generals3k_main_unit_requirement_fire_base3k_main_unit_fire_raider_cavalry">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals</permission>
+<requirement>3k_main_unit_requirement_fire_base</requirement>
+<unit>3k_main_unit_fire_raider_cavalry</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{c22b388f-67e4-4070-904b-39e370a68e9a}" record_timestamp="1555498024706" record_key="ep_unit_permission_generals3k_main_unit_requirement_fire_baseep_unit_fire_cataphracts">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals</permission>
+<requirement>3k_main_unit_requirement_fire_base</requirement>
+<unit>ep_unit_fire_cataphracts</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{8a923258-3602-4cf9-9eac-df65054c4ec6}" record_timestamp="1555498024706" record_key="ep_unit_permission_generals3k_main_unit_requirement_metal_baseep_unit_metal_dao_swordguards">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals</permission>
+<requirement>3k_main_unit_requirement_metal_base</requirement>
+<unit>ep_unit_metal_dao_swordguards</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{8ab73024-2c48-4d6a-80b6-5028907cfa26}" record_timestamp="1555498024707" record_key="ep_unit_permission_generals3k_main_unit_requirement_water_base3k_main_unit_water_crossbowmen">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals</permission>
+<requirement>3k_main_unit_requirement_water_base</requirement>
+<unit>3k_main_unit_water_crossbowmen</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{d099cdbe-9dd6-4f78-b95f-814e4c77b23f}" record_timestamp="1555498024707" record_key="ep_unit_permission_generals3k_main_unit_requirement_water_base3k_main_unit_water_trebuchet">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals</permission>
+<requirement>3k_main_unit_requirement_water_base</requirement>
+<unit>3k_main_unit_water_trebuchet</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{17fd6fd1-d50e-40c7-bcb4-1ea05457d1e1}" record_timestamp="1555498024707" record_key="ep_unit_permission_generals3k_main_unit_requirement_water_baseep_unit_water_mounted_crossbows">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals</permission>
+<requirement>3k_main_unit_requirement_water_base</requirement>
+<unit>ep_unit_water_mounted_crossbows</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{200ce58c-300e-4f1b-afe4-ead983c42f08}" record_timestamp="1555498024707" record_key="ep_unit_permission_generals3k_main_unit_requirement_water_heavy_crossbowmen3k_main_unit_water_heavy_crossbowmen">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals</permission>
+<requirement>3k_main_unit_requirement_water_heavy_crossbowmen</requirement>
+<unit>3k_main_unit_water_heavy_crossbowmen</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{2e1d5ed6-916d-42ab-8546-250951d1e350}" record_timestamp="1555498024707" record_key="ep_unit_permission_generals3k_main_unit_requirement_wood_advanced3k_main_unit_wood_heavy_spear_guards">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals</permission>
+<requirement>3k_main_unit_requirement_wood_advanced</requirement>
+<unit>3k_main_unit_wood_heavy_spear_guards</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{a075579f-09fc-42e9-9f92-86cb95c5e66c}" record_timestamp="1555498024705" record_key="ep_unit_permission_generals3k_main_unit_requirement_wood_base3k_main_unit_wood_spear_guards">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals</permission>
+<requirement>3k_main_unit_requirement_wood_base</requirement>
+<unit>3k_main_unit_wood_spear_guards</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{b3bca3f3-ffe0-452b-b3a4-75a136a1d8fc}" record_timestamp="1558617637642" record_key="ep_unit_permission_generals_prince_of_changsha3k_main_unit_requirement_earth_baseep_unit_earth_dao_swordguard_cavalry">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals_prince_of_changsha</permission>
+<requirement>3k_main_unit_requirement_earth_base</requirement>
+<unit>ep_unit_earth_dao_swordguard_cavalry</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{f3da9c6d-896a-486f-b529-acecf177e8bb}" record_timestamp="1558617637642" record_key="ep_unit_permission_generals_prince_of_changsha3k_main_unit_requirement_fire_base3k_main_unit_fire_raider_cavalry">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals_prince_of_changsha</permission>
+<requirement>3k_main_unit_requirement_fire_base</requirement>
+<unit>3k_main_unit_fire_raider_cavalry</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{d794ca5b-2bc3-432a-a430-983c1f2705e2}" record_timestamp="1558617637642" record_key="ep_unit_permission_generals_prince_of_changsha3k_main_unit_requirement_fire_baseep_unit_fire_cataphracts">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals_prince_of_changsha</permission>
+<requirement>3k_main_unit_requirement_fire_base</requirement>
+<unit>ep_unit_fire_cataphracts</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{bd505ceb-a447-4ae0-9724-f78cac5ff536}" record_timestamp="1558617637642" record_key="ep_unit_permission_generals_prince_of_changsha3k_main_unit_requirement_metal_baseep_unit_metal_dao_swordguards">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals_prince_of_changsha</permission>
+<requirement>3k_main_unit_requirement_metal_base</requirement>
+<unit>ep_unit_metal_dao_swordguards</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{c21efc0a-1e4a-4b7c-8cca-c1a2581de372}" record_timestamp="1558617637642" record_key="ep_unit_permission_generals_prince_of_changsha3k_main_unit_requirement_water_base3k_main_unit_water_crossbowmen">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals_prince_of_changsha</permission>
+<requirement>3k_main_unit_requirement_water_base</requirement>
+<unit>3k_main_unit_water_crossbowmen</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{9e50317e-f023-4567-9ebb-7be10c671586}" record_timestamp="1558617637642" record_key="ep_unit_permission_generals_prince_of_changsha3k_main_unit_requirement_water_base3k_main_unit_water_trebuchet">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals_prince_of_changsha</permission>
+<requirement>3k_main_unit_requirement_water_base</requirement>
+<unit>3k_main_unit_water_trebuchet</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{5a249bf3-4af2-4b04-83fe-1e7d9d264932}" record_timestamp="1558617637643" record_key="ep_unit_permission_generals_prince_of_changsha3k_main_unit_requirement_water_baseep_unit_water_mounted_crossbows">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals_prince_of_changsha</permission>
+<requirement>3k_main_unit_requirement_water_base</requirement>
+<unit>ep_unit_water_mounted_crossbows</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{9ba417ee-5299-49a4-bcba-7f07d43feccc}" record_timestamp="1558617637643" record_key="ep_unit_permission_generals_prince_of_changsha3k_main_unit_requirement_water_heavy_crossbowmen3k_main_unit_water_heavy_crossbowmen">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals_prince_of_changsha</permission>
+<requirement>3k_main_unit_requirement_water_heavy_crossbowmen</requirement>
+<unit>3k_main_unit_water_heavy_crossbowmen</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{41bd0549-f0d8-404c-b95e-9358363f603b}" record_timestamp="1558617637641" record_key="ep_unit_permission_generals_prince_of_changsha3k_main_unit_requirement_wood_advanced3k_main_unit_wood_heavy_spear_guards">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals_prince_of_changsha</permission>
+<requirement>3k_main_unit_requirement_wood_advanced</requirement>
+<unit>3k_main_unit_wood_heavy_spear_guards</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{d61f06ee-2b97-420d-a398-7a4189655443}" record_timestamp="1558617637642" record_key="ep_unit_permission_generals_prince_of_changshaep_unit_requirement_fire_heavy_cataphractsep_unit_fire_heavy_cataphracts">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals_prince_of_changsha</permission>
+<requirement>ep_unit_requirement_fire_heavy_cataphracts</requirement>
+<unit>ep_unit_fire_heavy_cataphracts</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{52abb3f7-36f8-49df-a4b7-2d30613ad10c}" record_timestamp="1558617637642" record_key="ep_unit_permission_generals_prince_of_changshaep_unit_requirement_water_advanced3k_main_unit_water_repeating_crossbowmen">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals_prince_of_changsha</permission>
+<requirement>ep_unit_requirement_water_advanced</requirement>
+<unit>3k_main_unit_water_repeating_crossbowmen</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{3518aeae-32b9-4b36-8f7e-882be2842e46}" record_timestamp="1558617637642" record_key="ep_unit_permission_generals_prince_of_changshaep_unit_requirement_water_heavy_mounted_archersep_unit_water_heavy_mounted_archers">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals_prince_of_changsha</permission>
+<requirement>ep_unit_requirement_water_heavy_mounted_archers</requirement>
+<unit>ep_unit_water_heavy_mounted_archers</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{557ffe5a-b0cb-4fe4-b0f7-4d58482cd1bc}" record_timestamp="1558617637642" record_key="ep_unit_permission_generals_prince_of_changshaep_unit_requirement_water_heavy_repeating_crossbowmen3k_main_unit_water_heavy_repeating_crossbowmen">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals_prince_of_changsha</permission>
+<requirement>ep_unit_requirement_water_heavy_repeating_crossbowmen</requirement>
+<unit>3k_main_unit_water_heavy_repeating_crossbowmen</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{a3284044-b840-4a70-b0db-4fbbbd0c475d}" record_timestamp="1555498024706" record_key="ep_unit_permission_generalsep_unit_requirement_fire_heavy_cataphractsep_unit_fire_heavy_cataphracts">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals</permission>
+<requirement>ep_unit_requirement_fire_heavy_cataphracts</requirement>
+<unit>ep_unit_fire_heavy_cataphracts</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{65fe2912-501f-4b24-beab-aecc96ba7b99}" record_timestamp="1555498024707" record_key="ep_unit_permission_generalsep_unit_requirement_water_advanced3k_main_unit_water_repeating_crossbowmen">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals</permission>
+<requirement>ep_unit_requirement_water_advanced</requirement>
+<unit>3k_main_unit_water_repeating_crossbowmen</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{1f3e0d4b-860e-4a87-9c46-293f8045c93d}" record_timestamp="1555498024707" record_key="ep_unit_permission_generalsep_unit_requirement_water_heavy_mounted_archersep_unit_water_heavy_mounted_archers">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals</permission>
+<requirement>ep_unit_requirement_water_heavy_mounted_archers</requirement>
+<unit>ep_unit_water_heavy_mounted_archers</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{c98751cd-7990-4a9a-8592-064285154773}" record_timestamp="1555498024707" record_key="ep_unit_permission_generalsep_unit_requirement_water_heavy_repeating_crossbowmen3k_main_unit_water_heavy_repeating_crossbowmen">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_generals</permission>
+<requirement>ep_unit_requirement_water_heavy_repeating_crossbowmen</requirement>
+<unit>3k_main_unit_water_heavy_repeating_crossbowmen</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{b884ccc1-c408-465e-84b9-087f462f00db}" record_timestamp="1557832444937" record_key="ep_unit_permission_palace_guardep_unit_requirement_water_defenders_of_earth3k_main_unit_water_defenders_of_earth">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_palace_guard</permission>
+<requirement>ep_unit_requirement_water_defenders_of_earth</requirement>
+<unit>3k_main_unit_water_defenders_of_earth</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{e3511fc9-5e2d-4006-a6a9-52c69b8d70a1}" record_timestamp="1557832444937" record_key="ep_unit_permission_palace_guardep_unit_requirement_wood_protectors_of_heaven3k_main_unit_wood_protectors_of_heaven">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_palace_guard</permission>
+<requirement>ep_unit_requirement_wood_protectors_of_heaven</requirement>
+<unit>3k_main_unit_wood_protectors_of_heaven</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{c29ed5ea-01d1-46cf-a134-bdaee22c9194}" record_timestamp="1557406178959" record_key="ep_unit_permission_technologiesep_unit_requirement_earth_elite3k_main_unit_earth_yellow_dragons">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_earth_elite</requirement>
+<unit>3k_main_unit_earth_yellow_dragons</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{569f3ba9-0074-4ab5-99e4-59aec2fe2fcf}" record_timestamp="1557406178941" record_key="ep_unit_permission_technologiesep_unit_requirement_earth_sabre_cavalry3k_main_unit_earth_sabre_cavalry">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_earth_sabre_cavalry</requirement>
+<unit>3k_main_unit_earth_sabre_cavalry</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{73f99545-2fc2-4779-a2f5-247134a0200b}" record_timestamp="1557406178996" record_key="ep_unit_permission_technologiesep_unit_requirement_fire_elite3k_main_unit_fire_jade_dragons">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_fire_elite</requirement>
+<unit>3k_main_unit_fire_jade_dragons</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{c195423b-292e-4ecb-b3c4-ad786d5e296e}" record_timestamp="1557406178987" record_key="ep_unit_permission_technologiesep_unit_requirement_fire_lancer_cavalry3k_main_unit_fire_lance_cavalry">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_fire_lancer_cavalry</requirement>
+<unit>3k_main_unit_fire_lance_cavalry</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{599c33aa-0b21-4e36-8a2c-c78704450185}" record_timestamp="1557406178978" record_key="ep_unit_permission_technologiesep_unit_requirement_fire_peasant_raiders3k_main_unit_fire_peasant_raiders">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_fire_peasant_raiders</requirement>
+<unit>3k_main_unit_fire_peasant_raiders</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{71750b18-bd65-4ada-b524-b617222e7795}" record_timestamp="1557406178968" record_key="ep_unit_permission_technologiesep_unit_requirement_metal_axe_band3k_main_unit_metal_axe_band">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_metal_axe_band</requirement>
+<unit>3k_main_unit_metal_axe_band</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{968c0b73-d96b-49ba-bd29-d4f379bcaaee}" record_timestamp="1557406178887" record_key="ep_unit_permission_technologiesep_unit_requirement_metal_elite3k_main_unit_metal_pearl_dragons">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_metal_elite</requirement>
+<unit>3k_main_unit_metal_pearl_dragons</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{67355d3a-3892-4254-82be-be23dca434f3}" record_timestamp="1557406179025" record_key="ep_unit_permission_technologiesep_unit_requirement_metal_sabre_infantry3k_main_unit_metal_sabre_infantry">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_metal_sabre_infantry</requirement>
+<unit>3k_main_unit_metal_sabre_infantry</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{04908abb-65ef-4f26-b8fd-39d03e122e48}" record_timestamp="1557406179016" record_key="ep_unit_permission_technologiesep_unit_requirement_water_archers3k_main_unit_water_archers">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_water_archers</requirement>
+<unit>3k_main_unit_water_archers</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{4cabd9a1-6baa-4c93-9b58-8248d3e8d752}" record_timestamp="1557406179006" record_key="ep_unit_permission_technologiesep_unit_requirement_water_elite3k_main_unit_water_onyx_dragons">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_water_elite</requirement>
+<unit>3k_main_unit_water_onyx_dragons</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{93d75580-e258-4b6e-b571-56f1c2dab5e3}" record_timestamp="1559143075097" record_key="ep_unit_permission_technologiesep_unit_requirement_water_mounted_archers3k_main_unit_water_mounted_archers">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_water_mounted_archers</requirement>
+<unit>3k_main_unit_water_mounted_archers</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{855ee0ed-ce61-4ad3-bf48-eb2f4b5d4ef4}" record_timestamp="1557406178914" record_key="ep_unit_permission_technologiesep_unit_requirement_wood_elite3k_main_unit_wood_azure_dragons">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_wood_elite</requirement>
+<unit>3k_main_unit_wood_azure_dragons</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{66adab26-aa59-4564-adbc-a38a8cd0dac1}" record_timestamp="1557406178905" record_key="ep_unit_permission_technologiesep_unit_requirement_wood_heavy_ji_infantry3k_main_unit_wood_heavy_ji_infantry">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_wood_heavy_ji_infantry</requirement>
+<unit>3k_main_unit_wood_heavy_ji_infantry</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{2dae9a80-8394-4fed-af3d-31fefb4faba9}" record_timestamp="1557406178896" record_key="ep_unit_permission_technologiesep_unit_requirement_wood_ji_infantry3k_main_unit_wood_ji_infantry">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_wood_ji_infantry</requirement>
+<unit>3k_main_unit_wood_ji_infantry</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{d7417654-4fdb-4252-8cf0-f1c3142e4dad}" record_timestamp="1557406178950" record_key="ep_unit_permission_technologiesep_unit_requirement_wood_peasant_band3k_main_unit_wood_peasant_band">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_wood_peasant_band</requirement>
+<unit>3k_main_unit_wood_peasant_band</unit>
+</campaign_unit_permission_requirements>
+<campaign_unit_permission_requirements record_uuid="{536a15b6-fee0-43a8-b7e4-c3f85f103879}" record_timestamp="1557406178933" record_key="ep_unit_permission_technologiesep_unit_requirement_wood_spear_warriors3k_main_unit_wood_spear_warriors">
+<is_restriction>0</is_restriction>
+<permission>ep_unit_permission_technologies</permission>
+<requirement>ep_unit_requirement_wood_spear_warriors</requirement>
+<unit>3k_main_unit_wood_spear_warriors</unit>
 </campaign_unit_permission_requirements>
 </dataroot>

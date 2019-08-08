@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="audio_metadata_tags.xsd" export_time="Fri Jun 7 17:14:19 2019" revision="120" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1510/client" export_user="bob">
-<edit_uuid>8fd915a9-f0f7-42d3-9384-e449e79aa720</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="audio_metadata_tags.xsd" export_time="Wed Jul 31 17:02:25 2019" revision="117" export_branch="T:/branches/3k/eight/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>55a7bea3-2051-45f8-9ee9-603ce53125e7</edit_uuid>
 <audio_metadata_tags record_uuid="{e020e248-aefa-48ab-b595-d3b7c4d80c52}" record_timestamp="1523465785993" record_key="1k_Test_Pip">
 <blood_enabled_only>0</blood_enabled_only>
 <can_play_under_splice>1</can_play_under_splice>
@@ -291,6 +291,55 @@
 <scaled_sound_upsize>0</scaled_sound_upsize>
 <sound_event_battle_start>Battle_Individual_Abilities_Dragons_Gaze_Loop_Play</sound_event_battle_start>
 <sound_event_battle_stop>Battle_Individual_Abilities_Dragons_Gaze_Loop_Stop</sound_event_battle_stop>
+<sound_event_campaign_start></sound_event_campaign_start>
+<sound_event_campaign_stop></sound_event_campaign_stop>
+<triggers_blood>0</triggers_blood>
+</audio_metadata_tags>
+<audio_metadata_tags record_uuid="{6812b52f-49d7-48fe-a581-cd4a6bb16323}" record_timestamp="1562836150177" record_key="3K_Ability_Dyn_Pre_Shot_Charge">
+<blood_enabled_only>0</blood_enabled_only>
+<can_play_under_splice>1</can_play_under_splice>
+<cinematic_only>0</cinematic_only>
+<colour_blue>150</colour_blue>
+<colour_green>0</colour_green>
+<colour_red>125</colour_red>
+<doppler_rtpc_name></doppler_rtpc_name>
+<entity_type_switch></entity_type_switch>
+<flip_direction>0</flip_direction>
+<game_expansion_key>eight_princes</game_expansion_key>
+<ignore_if_headless>0</ignore_if_headless>
+<is_tracked>0</is_tracked>
+<is_vocalisation>0</is_vocalisation>
+<key>3K_Ability_Dyn_Pre_Shot_Charge</key>
+<limitation_scale>1</limitation_scale>
+<max_probability>100</max_probability>
+<melee_hit_category></melee_hit_category>
+<melee_hit_type_override></melee_hit_type_override>
+<min_probability>100</min_probability>
+<path>Ability/Shared</path>
+<play_at_base>0</play_at_base>
+<play_at_bone>0</play_at_bone>
+<play_at_position>1</play_at_position>
+<play_on_looping_sound>0</play_on_looping_sound>
+<require_armour_type>0</require_armour_type>
+<require_element>0</require_element>
+<require_generic_hero_id>0</require_generic_hero_id>
+<require_ground_type>0</require_ground_type>
+<require_ground_type_limited>0</require_ground_type_limited>
+<require_hero_opponent>0</require_hero_opponent>
+<require_melee_weapon_type>0</require_melee_weapon_type>
+<require_obstruction>0</require_obstruction>
+<require_reverb>0</require_reverb>
+<require_shield_type>0</require_shield_type>
+<requires_cinematic>0</requires_cinematic>
+<rtpc_1_assignment></rtpc_1_assignment>
+<rtpc_1_name></rtpc_1_name>
+<rtpc_2_assignment></rtpc_2_assignment>
+<rtpc_2_name></rtpc_2_name>
+<scaled_max_delay>0</scaled_max_delay>
+<scaled_sound_next></scaled_sound_next>
+<scaled_sound_upsize>0</scaled_sound_upsize>
+<sound_event_battle_start>Battle_Individual_Abilities_Shot_to_the_Heart_Wind_Up</sound_event_battle_start>
+<sound_event_battle_stop></sound_event_battle_stop>
 <sound_event_campaign_start></sound_event_campaign_start>
 <sound_event_campaign_stop></sound_event_campaign_stop>
 <triggers_blood>0</triggers_blood>
@@ -3186,7 +3235,7 @@
 <sound_event_campaign_stop></sound_event_campaign_stop>
 <triggers_blood>0</triggers_blood>
 </audio_metadata_tags>
-<audio_metadata_tags record_uuid="{dc77fa64-c70e-4120-a8c9-a72242c4f70b}" record_timestamp="1552382215752" record_key="3K_Foley_Flag_Implant_Into_Ground">
+<audio_metadata_tags record_uuid="{dc77fa64-c70e-4120-a8c9-a72242c4f70b}" record_timestamp="1554882799544" record_key="3K_Foley_Flag_Implant_Into_Ground">
 <blood_enabled_only>0</blood_enabled_only>
 <can_play_under_splice>1</can_play_under_splice>
 <cinematic_only>0</cinematic_only>
@@ -5293,7 +5342,7 @@
 <sound_event_campaign_stop></sound_event_campaign_stop>
 <triggers_blood>0</triggers_blood>
 </audio_metadata_tags>
-<audio_metadata_tags record_uuid="{4e371336-9b73-44d4-8192-07077aa37904}" record_timestamp="1559924059172" record_key="Blood_Bone_Break">
+<audio_metadata_tags record_uuid="{4e371336-9b73-44d4-8192-07077aa37904}" record_timestamp="1559752921451" record_key="Blood_Bone_Break">
 <blood_enabled_only>1</blood_enabled_only>
 <can_play_under_splice>1</can_play_under_splice>
 <cinematic_only>0</cinematic_only>
@@ -5538,7 +5587,7 @@
 <sound_event_campaign_stop></sound_event_campaign_stop>
 <triggers_blood>0</triggers_blood>
 </audio_metadata_tags>
-<audio_metadata_tags record_uuid="{0561fd75-0da6-4bc1-ba62-edbf811a4bda}" record_timestamp="1552472846229" record_key="Bow_Equip">
+<audio_metadata_tags record_uuid="{0561fd75-0da6-4bc1-ba62-edbf811a4bda}" record_timestamp="1554882913237" record_key="Bow_Equip">
 <blood_enabled_only>0</blood_enabled_only>
 <can_play_under_splice>1</can_play_under_splice>
 <cinematic_only>0</cinematic_only>
@@ -7547,9 +7596,9 @@
 <sound_event_campaign_stop></sound_event_campaign_stop>
 <triggers_blood>1</triggers_blood>
 </audio_metadata_tags>
-<audio_metadata_tags record_uuid="{d1b7fac8-e657-4dc8-95ba-a523bb968269}" record_timestamp="1517504862997" record_key="Melee_Weapon_Hit_Primary_Slash_Normal">
+<audio_metadata_tags record_uuid="{d1b7fac8-e657-4dc8-95ba-a523bb968269}" record_timestamp="1562923485135" record_key="Melee_Weapon_Hit_Primary_Slash_Normal">
 <blood_enabled_only>0</blood_enabled_only>
-<can_play_under_splice>0</can_play_under_splice>
+<can_play_under_splice>1</can_play_under_splice>
 <cinematic_only>0</cinematic_only>
 <colour_blue>255</colour_blue>
 <colour_green>255</colour_green>
@@ -7596,9 +7645,9 @@
 <sound_event_campaign_stop></sound_event_campaign_stop>
 <triggers_blood>1</triggers_blood>
 </audio_metadata_tags>
-<audio_metadata_tags record_uuid="{86280228-1253-4283-871a-10d8795f6b0c}" record_timestamp="1551805906932" record_key="Melee_Weapon_Hit_Primary_Thrust_Normal">
+<audio_metadata_tags record_uuid="{86280228-1253-4283-871a-10d8795f6b0c}" record_timestamp="1562923492891" record_key="Melee_Weapon_Hit_Primary_Thrust_Normal">
 <blood_enabled_only>0</blood_enabled_only>
-<can_play_under_splice>0</can_play_under_splice>
+<can_play_under_splice>1</can_play_under_splice>
 <cinematic_only>0</cinematic_only>
 <colour_blue>255</colour_blue>
 <colour_green>255</colour_green>
@@ -7841,7 +7890,7 @@
 <sound_event_campaign_stop></sound_event_campaign_stop>
 <triggers_blood>0</triggers_blood>
 </audio_metadata_tags>
-<audio_metadata_tags record_uuid="{40abe14b-87d1-4334-991c-787db8fc945e}" record_timestamp="1553012057625" record_key="Rake_Long">
+<audio_metadata_tags record_uuid="{40abe14b-87d1-4334-991c-787db8fc945e}" record_timestamp="1554885050153" record_key="Rake_Long">
 <blood_enabled_only>0</blood_enabled_only>
 <can_play_under_splice>1</can_play_under_splice>
 <cinematic_only>0</cinematic_only>
@@ -7890,7 +7939,7 @@
 <sound_event_campaign_stop></sound_event_campaign_stop>
 <triggers_blood>0</triggers_blood>
 </audio_metadata_tags>
-<audio_metadata_tags record_uuid="{85aed1c7-04ad-499f-a007-4571592cdf12}" record_timestamp="1553012071383" record_key="Rake_Short">
+<audio_metadata_tags record_uuid="{85aed1c7-04ad-499f-a007-4571592cdf12}" record_timestamp="1554885050154" record_key="Rake_Short">
 <blood_enabled_only>0</blood_enabled_only>
 <can_play_under_splice>1</can_play_under_splice>
 <cinematic_only>0</cinematic_only>
@@ -8101,8 +8150,8 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Horse_Death</key>
-<limitation_scale>0.4</limitation_scale>
-<max_probability>25</max_probability>
+<limitation_scale>1</limitation_scale>
+<max_probability>50</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
 <min_probability>100</min_probability>
@@ -8150,8 +8199,8 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Horse_Pain</key>
-<limitation_scale>0.4</limitation_scale>
-<max_probability>25</max_probability>
+<limitation_scale>1</limitation_scale>
+<max_probability>50</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
 <min_probability>100</min_probability>
@@ -8444,8 +8493,8 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Death_Burn</key>
-<limitation_scale>0.4</limitation_scale>
-<max_probability>25</max_probability>
+<limitation_scale>1</limitation_scale>
+<max_probability>100</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
 <min_probability>100</min_probability>
@@ -8493,8 +8542,8 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Death_Chest</key>
-<limitation_scale>0.4</limitation_scale>
-<max_probability>25</max_probability>
+<limitation_scale>1</limitation_scale>
+<max_probability>100</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
 <min_probability>100</min_probability>
@@ -8542,8 +8591,8 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Death_Exhale</key>
-<limitation_scale>0.4</limitation_scale>
-<max_probability>25</max_probability>
+<limitation_scale>1</limitation_scale>
+<max_probability>100</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
 <min_probability>100</min_probability>
@@ -8591,8 +8640,8 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Death_Short</key>
-<limitation_scale>0.4</limitation_scale>
-<max_probability>25</max_probability>
+<limitation_scale>1</limitation_scale>
+<max_probability>100</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
 <min_probability>100</min_probability>
@@ -8640,8 +8689,8 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Death_Throat</key>
-<limitation_scale>0.4</limitation_scale>
-<max_probability>25</max_probability>
+<limitation_scale>1</limitation_scale>
+<max_probability>100</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
 <min_probability>100</min_probability>
@@ -8689,8 +8738,8 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Death_Torso</key>
-<limitation_scale>0.4</limitation_scale>
-<max_probability>25</max_probability>
+<limitation_scale>1</limitation_scale>
+<max_probability>100</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
 <min_probability>100</min_probability>
@@ -9081,7 +9130,7 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Melee_Advance</key>
-<limitation_scale>0.4</limitation_scale>
+<limitation_scale>0.5</limitation_scale>
 <max_probability>25</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
@@ -9130,7 +9179,7 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Melee_Block</key>
-<limitation_scale>0.4</limitation_scale>
+<limitation_scale>0.5</limitation_scale>
 <max_probability>25</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
@@ -9179,7 +9228,7 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Melee_Dodge</key>
-<limitation_scale>0.4</limitation_scale>
+<limitation_scale>0.5</limitation_scale>
 <max_probability>25</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
@@ -9228,7 +9277,7 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Melee_Feint</key>
-<limitation_scale>0.4</limitation_scale>
+<limitation_scale>0.5</limitation_scale>
 <max_probability>25</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
@@ -9277,7 +9326,7 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Melee_Grab</key>
-<limitation_scale>0.4</limitation_scale>
+<limitation_scale>0.5</limitation_scale>
 <max_probability>25</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
@@ -9326,7 +9375,7 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Melee_Pivot</key>
-<limitation_scale>0.4</limitation_scale>
+<limitation_scale>0.5</limitation_scale>
 <max_probability>25</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
@@ -9375,7 +9424,7 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Melee_Push</key>
-<limitation_scale>0.4</limitation_scale>
+<limitation_scale>0.5</limitation_scale>
 <max_probability>25</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
@@ -9424,7 +9473,7 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Melee_Short</key>
-<limitation_scale>0.4</limitation_scale>
+<limitation_scale>0.5</limitation_scale>
 <max_probability>25</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
@@ -9473,7 +9522,7 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Melee_Special</key>
-<limitation_scale>0.4</limitation_scale>
+<limitation_scale>0.5</limitation_scale>
 <max_probability>25</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
@@ -9522,7 +9571,7 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Melee_Stance</key>
-<limitation_scale>0.4</limitation_scale>
+<limitation_scale>0.5</limitation_scale>
 <max_probability>25</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>
@@ -9571,7 +9620,7 @@
 <is_tracked>1</is_tracked>
 <is_vocalisation>1</is_vocalisation>
 <key>Vocalisation_Human_Melee_Swing</key>
-<limitation_scale>0.4</limitation_scale>
+<limitation_scale>0.5</limitation_scale>
 <max_probability>25</max_probability>
 <melee_hit_category></melee_hit_category>
 <melee_hit_type_override></melee_hit_type_override>

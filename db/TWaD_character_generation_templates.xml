@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE TWaD_character_generation_templates>
 <root>
-<edit_uuid>06c82672-376a-482a-b524-b9999da69751</edit_uuid>
+<edit_uuid>5ffdfad1-36a6-4e06-9bed-304e7ad7771d</edit_uuid>
 <include_all_records_in_retail>1</include_all_records_in_retail>
 <field>
 <field_uuid>{7bacc29e-0670-488d-b7f5-9de3b2b065a5}</field_uuid>
@@ -141,6 +141,7 @@
 <name>voiceover_actor</name>
 <field_type>text</field_type>
 <required>1</required>
+<default_value>vo_actor_generic_m_earth_general</default_value>
 <max_length>255</max_length>
 <column_source_column>key</column_source_column>
 <column_source_table>audio_vo_actor_groups</column_source_table>
@@ -153,6 +154,7 @@
 <name>voiceover_actor_generals_speech</name>
 <field_type>text</field_type>
 <required>1</required>
+<default_value>vo_actor_generic_m_earth_general</default_value>
 <max_length>255</max_length>
 <column_source_column>key</column_source_column>
 <column_source_table>audio_vo_actor_groups</column_source_table>
@@ -208,6 +210,19 @@
 <max_length>255</max_length>
 <column_source_column>key</column_source_column>
 <column_source_table>cai_personalities_character_skill_selection_policies</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{a2b816cc-c0d1-4ffa-be6e-f21d0a74c6e7}</field_uuid>
+<primary_key>0</primary_key>
+<name>voiceover_actor_diplomacy</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>vo_actor_generic_m_earth_general</default_value>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>audio_vo_actor_groups</column_source_table>
 <requires_startpos_reprocess>0</requires_startpos_reprocess>
 <requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
 </field>

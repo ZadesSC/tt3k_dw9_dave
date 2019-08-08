@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ministerial_positions_to_character_effects.xsd" export_time="Wed Apr 10 14:56:58 2019" revision="82" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1431/dave" export_user="bob">
-<edit_uuid>71cdf0ca-582b-45e3-bbba-6f7ad44ec9b2</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ministerial_positions_to_character_effects.xsd" export_time="Mon Jul 15 17:32:23 2019" revision="94" export_branch="C:/Users/william.wright/AppData/Roaming/TWDaemon/1586/dave" export_user="bob">
+<edit_uuid>2fe7766b-21b1-4096-a0c6-d1d373960146</edit_uuid>
 <ministerial_positions_to_character_effects record_uuid="{0a69f378-718e-4d8f-8046-e7574bea7d24}" record_timestamp="1540310675305" record_key="03k_main_dummy_effect_ministerial_position_power_rank3k_main_court_offices_governor_default">
 <ceo_node></ceo_node>
 <effect>3k_main_dummy_effect_ministerial_position_power_rank</effect>
 <effect_scope>character_to_character_own</effect_scope>
 <minister_level>0</minister_level>
 <ministerial_position_cultural_variant>3k_main_court_offices_governor_default</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>4</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{e6f63604-5893-4f32-8c70-da9bd18bc4db}" record_timestamp="1562944546289" record_key="03k_main_dummy_effect_ministerial_position_power_rankep_court_offices_governor">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_ministerial_position_power_rank</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>0</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_governor</ministerial_position_cultural_variant>
 <ui_id>0</ui_id>
 <value>4</value>
 </ministerial_positions_to_character_effects>
@@ -64,7 +73,7 @@
 <ui_id>0</ui_id>
 <value>25</value>
 </ministerial_positions_to_character_effects>
-<ministerial_positions_to_character_effects record_uuid="{a7940a7f-14d9-4a42-abcc-771135a91f44}" record_timestamp="1553340708079" record_key="03k_main_effect_economy_gdp_mod_all3k_main_court_offices_governor_default">
+<ministerial_positions_to_character_effects record_uuid="{a7940a7f-14d9-4a42-abcc-771135a91f44}" record_timestamp="1547897645531" record_key="03k_main_effect_economy_gdp_mod_all3k_main_court_offices_governor_default">
 <ceo_node></ceo_node>
 <effect>3k_main_effect_economy_gdp_mod_all</effect>
 <effect_scope>character_to_region_own_provincewide_when_governor</effect_scope>
@@ -73,12 +82,21 @@
 <ui_id>0</ui_id>
 <value>15</value>
 </ministerial_positions_to_character_effects>
-<ministerial_positions_to_character_effects record_uuid="{ce7529e7-1e5e-4630-bbb1-14abeee2dbdb}" record_timestamp="1553340708079" record_key="03k_main_effect_economy_gdp_mod_all3k_ytr_court_offices_governor">
+<ministerial_positions_to_character_effects record_uuid="{ce7529e7-1e5e-4630-bbb1-14abeee2dbdb}" record_timestamp="1549982375904" record_key="03k_main_effect_economy_gdp_mod_all3k_ytr_court_offices_governor">
 <ceo_node></ceo_node>
 <effect>3k_main_effect_economy_gdp_mod_all</effect>
 <effect_scope>character_to_region_own_provincewide_when_governor</effect_scope>
 <minister_level>0</minister_level>
 <ministerial_position_cultural_variant>3k_ytr_court_offices_governor</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>15</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{748a76ca-e26a-4359-b098-1e82ded6743e}" record_timestamp="1562944546298" record_key="03k_main_effect_economy_gdp_mod_allep_court_offices_governor">
+<ceo_node></ceo_node>
+<effect>3k_main_effect_economy_gdp_mod_all</effect>
+<effect_scope>character_to_region_own_provincewide_when_governor</effect_scope>
+<minister_level>0</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_governor</ministerial_position_cultural_variant>
 <ui_id>0</ui_id>
 <value>15</value>
 </ministerial_positions_to_character_effects>
@@ -127,7 +145,7 @@
 <ui_id>0</ui_id>
 <value>-30</value>
 </ministerial_positions_to_character_effects>
-<ministerial_positions_to_character_effects record_uuid="{22b92524-8f99-4197-884d-f9c388b240f6}" record_timestamp="1553340696653" record_key="03k_main_effect_province_corruption3k_main_court_offices_military_inspector_earth">
+<ministerial_positions_to_character_effects record_uuid="{22b92524-8f99-4197-884d-f9c388b240f6}" record_timestamp="1554885690765" record_key="03k_main_effect_province_corruption3k_main_court_offices_military_inspector_earth">
 <ceo_node></ceo_node>
 <effect>3k_main_effect_province_corruption</effect>
 <effect_scope>character_to_province_own_when_governor</effect_scope>
@@ -136,7 +154,7 @@
 <ui_id>0</ui_id>
 <value>-30</value>
 </ministerial_positions_to_character_effects>
-<ministerial_positions_to_character_effects record_uuid="{b09f8a08-4848-4b80-9fea-d7b12c3a2f06}" record_timestamp="1553340696653" record_key="03k_main_effect_province_corruption3k_main_court_offices_military_inspector_fire">
+<ministerial_positions_to_character_effects record_uuid="{b09f8a08-4848-4b80-9fea-d7b12c3a2f06}" record_timestamp="1554885690765" record_key="03k_main_effect_province_corruption3k_main_court_offices_military_inspector_fire">
 <ceo_node></ceo_node>
 <effect>3k_main_effect_province_corruption</effect>
 <effect_scope>character_to_province_own_when_governor</effect_scope>
@@ -145,7 +163,7 @@
 <ui_id>0</ui_id>
 <value>-30</value>
 </ministerial_positions_to_character_effects>
-<ministerial_positions_to_character_effects record_uuid="{ed963242-3bfe-4b0e-973a-aa6680209e48}" record_timestamp="1553340696653" record_key="03k_main_effect_province_corruption3k_main_court_offices_military_inspector_metal">
+<ministerial_positions_to_character_effects record_uuid="{ed963242-3bfe-4b0e-973a-aa6680209e48}" record_timestamp="1554885690765" record_key="03k_main_effect_province_corruption3k_main_court_offices_military_inspector_metal">
 <ceo_node></ceo_node>
 <effect>3k_main_effect_province_corruption</effect>
 <effect_scope>character_to_province_own_when_governor</effect_scope>
@@ -154,7 +172,7 @@
 <ui_id>0</ui_id>
 <value>-30</value>
 </ministerial_positions_to_character_effects>
-<ministerial_positions_to_character_effects record_uuid="{9ebe647b-d59d-4909-9427-f1738a12c92e}" record_timestamp="1553340696653" record_key="03k_main_effect_province_corruption3k_main_court_offices_military_inspector_water">
+<ministerial_positions_to_character_effects record_uuid="{9ebe647b-d59d-4909-9427-f1738a12c92e}" record_timestamp="1554885690764" record_key="03k_main_effect_province_corruption3k_main_court_offices_military_inspector_water">
 <ceo_node></ceo_node>
 <effect>3k_main_effect_province_corruption</effect>
 <effect_scope>character_to_province_own_when_governor</effect_scope>
@@ -163,7 +181,7 @@
 <ui_id>0</ui_id>
 <value>-30</value>
 </ministerial_positions_to_character_effects>
-<ministerial_positions_to_character_effects record_uuid="{a0fad974-859c-434a-9adb-b44eab062aa1}" record_timestamp="1553340696653" record_key="03k_main_effect_province_corruption3k_main_court_offices_military_inspector_wood">
+<ministerial_positions_to_character_effects record_uuid="{a0fad974-859c-434a-9adb-b44eab062aa1}" record_timestamp="1554885690764" record_key="03k_main_effect_province_corruption3k_main_court_offices_military_inspector_wood">
 <ceo_node></ceo_node>
 <effect>3k_main_effect_province_corruption</effect>
 <effect_scope>character_to_province_own_when_governor</effect_scope>
@@ -172,12 +190,21 @@
 <ui_id>0</ui_id>
 <value>-30</value>
 </ministerial_positions_to_character_effects>
-<ministerial_positions_to_character_effects record_uuid="{129cb02e-ec2e-4f49-a626-0df62db24c79}" record_timestamp="1554904613661" record_key="03k_main_effect_province_corruption3k_ytr_court_offices_governor">
+<ministerial_positions_to_character_effects record_uuid="{129cb02e-ec2e-4f49-a626-0df62db24c79}" record_timestamp="1556562142675" record_key="03k_main_effect_province_corruption3k_ytr_court_offices_governor">
 <ceo_node></ceo_node>
 <effect>3k_main_effect_province_corruption</effect>
 <effect_scope>character_to_province_own_when_governor</effect_scope>
 <minister_level>0</minister_level>
 <ministerial_position_cultural_variant>3k_ytr_court_offices_governor</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>-30</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{2641bd0b-f03b-4619-b0b5-caf148f19f91}" record_timestamp="1562944546307" record_key="03k_main_effect_province_corruptionep_court_offices_governor">
+<ceo_node></ceo_node>
+<effect>3k_main_effect_province_corruption</effect>
+<effect_scope>character_to_province_own_when_governor</effect_scope>
+<minister_level>0</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_governor</ministerial_position_cultural_variant>
 <ui_id>0</ui_id>
 <value>-30</value>
 </ministerial_positions_to_character_effects>
@@ -253,7 +280,16 @@
 <ui_id>0</ui_id>
 <value>25</value>
 </ministerial_positions_to_character_effects>
-<ministerial_positions_to_character_effects record_uuid="{38f7b6c1-b4ac-4e6b-acfd-0febd4fb2ef5}" record_timestamp="1551874795942" record_key="13k_main_dummy_effect_faction_council3k_main_court_offices_minister_earth_default">
+<ministerial_positions_to_character_effects record_uuid="{4fe0896a-6781-41a3-9b5c-1d235e503ab4}" record_timestamp="1562944781188" record_key="0ep_effect_faction_resource_reformation_administratorsep_court_offices_governor">
+<ceo_node></ceo_node>
+<effect>ep_effect_faction_resource_reformation_administrators</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>0</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_governor</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>4</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{38f7b6c1-b4ac-4e6b-acfd-0febd4fb2ef5}" record_timestamp="1554881234555" record_key="13k_main_dummy_effect_faction_council3k_main_court_offices_minister_earth_default">
 <ceo_node></ceo_node>
 <effect>3k_main_dummy_effect_faction_council</effect>
 <effect_scope>character_to_character_own</effect_scope>
@@ -262,7 +298,7 @@
 <ui_id>0</ui_id>
 <value>1</value>
 </ministerial_positions_to_character_effects>
-<ministerial_positions_to_character_effects record_uuid="{3eb7a082-9a92-4e10-9749-4e20599a1d77}" record_timestamp="1551874795905" record_key="13k_main_dummy_effect_faction_council3k_main_court_offices_minister_earth_dong_zhuo">
+<ministerial_positions_to_character_effects record_uuid="{3eb7a082-9a92-4e10-9749-4e20599a1d77}" record_timestamp="1554881234554" record_key="13k_main_dummy_effect_faction_council3k_main_court_offices_minister_earth_dong_zhuo">
 <ceo_node></ceo_node>
 <effect>3k_main_dummy_effect_faction_council</effect>
 <effect_scope>character_to_character_own</effect_scope>
@@ -271,7 +307,7 @@
 <ui_id>0</ui_id>
 <value>1</value>
 </ministerial_positions_to_character_effects>
-<ministerial_positions_to_character_effects record_uuid="{b862f6b8-6ee0-47e2-93a1-8c4bfb38e8c3}" record_timestamp="1551874795923" record_key="13k_main_dummy_effect_faction_council3k_main_court_offices_minister_fire_default">
+<ministerial_positions_to_character_effects record_uuid="{b862f6b8-6ee0-47e2-93a1-8c4bfb38e8c3}" record_timestamp="1554881234555" record_key="13k_main_dummy_effect_faction_council3k_main_court_offices_minister_fire_default">
 <ceo_node></ceo_node>
 <effect>3k_main_dummy_effect_faction_council</effect>
 <effect_scope>character_to_character_own</effect_scope>
@@ -280,7 +316,7 @@
 <ui_id>0</ui_id>
 <value>1</value>
 </ministerial_positions_to_character_effects>
-<ministerial_positions_to_character_effects record_uuid="{38a37a4e-67d9-421f-913d-b974727ab2d3}" record_timestamp="1551874795850" record_key="13k_main_dummy_effect_faction_council3k_main_court_offices_minister_metal_default">
+<ministerial_positions_to_character_effects record_uuid="{38a37a4e-67d9-421f-913d-b974727ab2d3}" record_timestamp="1554881234552" record_key="13k_main_dummy_effect_faction_council3k_main_court_offices_minister_metal_default">
 <ceo_node></ceo_node>
 <effect>3k_main_dummy_effect_faction_council</effect>
 <effect_scope>character_to_character_own</effect_scope>
@@ -289,7 +325,7 @@
 <ui_id>0</ui_id>
 <value>1</value>
 </ministerial_positions_to_character_effects>
-<ministerial_positions_to_character_effects record_uuid="{55063a01-aa4c-4003-a0e2-4a31b9616866}" record_timestamp="1551874795868" record_key="13k_main_dummy_effect_faction_council3k_main_court_offices_minister_water_default">
+<ministerial_positions_to_character_effects record_uuid="{55063a01-aa4c-4003-a0e2-4a31b9616866}" record_timestamp="1554881234553" record_key="13k_main_dummy_effect_faction_council3k_main_court_offices_minister_water_default">
 <ceo_node></ceo_node>
 <effect>3k_main_dummy_effect_faction_council</effect>
 <effect_scope>character_to_character_own</effect_scope>
@@ -298,12 +334,57 @@
 <ui_id>0</ui_id>
 <value>1</value>
 </ministerial_positions_to_character_effects>
-<ministerial_positions_to_character_effects record_uuid="{31cfc2c6-4175-46e1-b25a-2a515098b56a}" record_timestamp="1551874795886" record_key="13k_main_dummy_effect_faction_council3k_main_court_offices_minister_wood_default">
+<ministerial_positions_to_character_effects record_uuid="{31cfc2c6-4175-46e1-b25a-2a515098b56a}" record_timestamp="1554881234554" record_key="13k_main_dummy_effect_faction_council3k_main_court_offices_minister_wood_default">
 <ceo_node></ceo_node>
 <effect>3k_main_dummy_effect_faction_council</effect>
 <effect_scope>character_to_character_own</effect_scope>
 <minister_level>1</minister_level>
 <ministerial_position_cultural_variant>3k_main_court_offices_minister_wood_default</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{6e7f161e-ea87-4ce0-9969-e48b0a3d4921}" record_timestamp="1559831122364" record_key="13k_main_dummy_effect_faction_councilep_court_offices_minister_earth_sima_jiong">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_faction_council</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_earth_sima_jiong</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{32f081f2-ce35-4336-9103-18c6c4f6b5ba}" record_timestamp="1559831122460" record_key="13k_main_dummy_effect_faction_councilep_court_offices_minister_fire_sima_jiong">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_faction_council</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_fire_sima_jiong</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{5ca9fef6-e16e-41e8-bcf0-fc006e32989e}" record_timestamp="1559831122481" record_key="13k_main_dummy_effect_faction_councilep_court_offices_minister_metal_sima_jiong">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_faction_council</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_metal_sima_jiong</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{67893f61-126c-4b6c-a51d-d0d78f07f523}" record_timestamp="1559831122423" record_key="13k_main_dummy_effect_faction_councilep_court_offices_minister_water_sima_jiong">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_faction_council</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_water_sima_jiong</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{7d692a4f-688a-4881-be82-8ac60775dd53}" record_timestamp="1559831122441" record_key="13k_main_dummy_effect_faction_councilep_court_offices_minister_wood_sima_jiong">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_faction_council</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_wood_sima_jiong</ministerial_position_cultural_variant>
 <ui_id>0</ui_id>
 <value>1</value>
 </ministerial_positions_to_character_effects>
@@ -532,6 +613,69 @@
 <ui_id>0</ui_id>
 <value>8</value>
 </ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{93fbc170-c62e-4f90-9980-e25ed226fb0d}" record_timestamp="1559831122252" record_key="13k_main_dummy_effect_ministerial_position_power_rankep_court_offices_minister_earth_sima_jiong">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_ministerial_position_power_rank</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_earth_sima_jiong</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>8</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{079e7ca6-798a-4dc2-b389-0a3d062b4d6d}" record_timestamp="1559831122270" record_key="13k_main_dummy_effect_ministerial_position_power_rankep_court_offices_minister_fire_sima_jiong">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_ministerial_position_power_rank</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_fire_sima_jiong</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>8</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{17e9999c-c211-4bf6-96a0-f3f117ae87fa}" record_timestamp="1559831122219" record_key="13k_main_dummy_effect_ministerial_position_power_rankep_court_offices_minister_metal_sima_jiong">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_ministerial_position_power_rank</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_metal_sima_jiong</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>8</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{a165e947-f2d9-49b5-b369-8b545fe9306f}" record_timestamp="1559831122235" record_key="13k_main_dummy_effect_ministerial_position_power_rankep_court_offices_minister_water_sima_jiong">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_ministerial_position_power_rank</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_water_sima_jiong</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>8</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{d54bdaa1-4497-486b-abdc-a4c6d698e4b5}" record_timestamp="1559831122326" record_key="13k_main_dummy_effect_ministerial_position_power_rankep_court_offices_minister_wood_sima_jiong">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_ministerial_position_power_rank</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_wood_sima_jiong</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>8</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{7294c12b-3d71-4105-98be-c31b77180084}" record_timestamp="1559821075503" record_key="13k_main_dummy_effect_ministerial_position_power_rankep_court_offices_sima_yue_military_emissary">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_ministerial_position_power_rank</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_sima_yue_military_emissary</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>8</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{058b0d91-46d6-4414-8222-4e735b64ad0e}" record_timestamp="1559821075439" record_key="13k_main_dummy_effect_ministerial_position_power_rankep_court_offices_sima_yue_provincial_advisor">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_ministerial_position_power_rank</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_sima_yue_provincial_advisor</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>6</value>
+</ministerial_positions_to_character_effects>
 <ministerial_positions_to_character_effects record_uuid="{7c462466-ae55-41a2-9a0c-ff55afce6683}" record_timestamp="1540310675306" record_key="13k_main_dummy_effect_ministerial_position_power_rankfaction_heir">
 <ceo_node></ceo_node>
 <effect>3k_main_dummy_effect_ministerial_position_power_rank</effect>
@@ -604,6 +748,51 @@
 <ui_id>0</ui_id>
 <value>-1</value>
 </ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{10f9256b-3fcd-4409-9db4-87d675bf17e6}" record_timestamp="1559831122289" record_key="13k_main_dummy_effect_people_in_powerep_court_offices_minister_earth_sima_jiong">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_people_in_power</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_earth_sima_jiong</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>-1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{89800d37-af68-4406-9d9e-6528499a8186}" record_timestamp="1559831122308" record_key="13k_main_dummy_effect_people_in_powerep_court_offices_minister_fire_sima_jiong">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_people_in_power</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_fire_sima_jiong</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>-1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{8e028dd3-2734-4f3d-9e2d-20836c89a4ae}" record_timestamp="1559831122383" record_key="13k_main_dummy_effect_people_in_powerep_court_offices_minister_metal_sima_jiong">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_people_in_power</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_metal_sima_jiong</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>-1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{be007410-1e26-45e6-986d-797056192511}" record_timestamp="1559831122403" record_key="13k_main_dummy_effect_people_in_powerep_court_offices_minister_water_sima_jiong">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_people_in_power</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_water_sima_jiong</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>-1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{f5e0a865-b205-4760-9256-6699277d8371}" record_timestamp="1559831122344" record_key="13k_main_dummy_effect_people_in_powerep_court_offices_minister_wood_sima_jiong">
+<ceo_node></ceo_node>
+<effect>3k_main_dummy_effect_people_in_power</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_wood_sima_jiong</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>-1</value>
+</ministerial_positions_to_character_effects>
 <ministerial_positions_to_character_effects record_uuid="{6aad90d0-5f73-4f50-ab61-650ce50a59e0}" record_timestamp="1546451718221" record_key="13k_main_effect_character_attribute_authority_mod3k_ytr_court_offices_heaven_great">
 <ceo_node></ceo_node>
 <effect>3k_main_effect_character_attribute_authority_mod</effect>
@@ -667,6 +856,15 @@
 <ui_id>1</ui_id>
 <value>10</value>
 </ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{5874b3fc-19df-43fe-b475-f26bf7a8df84}" record_timestamp="1560349442813" record_key="13k_main_effect_character_captives_escape_chanceep_faction_leader_prince_of_donghai">
+<ceo_node></ceo_node>
+<effect>3k_main_effect_character_captives_escape_chance</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_faction_leader_prince_of_donghai</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>50</value>
+</ministerial_positions_to_character_effects>
 <ministerial_positions_to_character_effects record_uuid="{f23aed7d-9e72-48a0-b872-11cce09e7697}" record_timestamp="1540568268735" record_key="13k_main_effect_character_captives_escape_chancefaction_heir">
 <ceo_node></ceo_node>
 <effect>3k_main_effect_character_captives_escape_chance</effect>
@@ -711,6 +909,15 @@
 <ministerial_position_cultural_variant>faction_leader_yuan_shao</ministerial_position_cultural_variant>
 <ui_id>0</ui_id>
 <value>50</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{deab73fc-56de-4d7c-a4c8-09c85518d6d1}" record_timestamp="1556888441155" record_key="13k_main_effect_characters_experience_bonusep_faction_leader_prince_of_qi">
+<ceo_node></ceo_node>
+<effect>3k_main_effect_characters_experience_bonus</effect>
+<effect_scope>character_to_character_own_forcewide</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_faction_leader_prince_of_qi</ministerial_position_cultural_variant>
+<ui_id>1</ui_id>
+<value>75</value>
 </ministerial_positions_to_character_effects>
 <ministerial_positions_to_character_effects record_uuid="{d8844b21-c417-4234-b922-cfb75a1c5819}" record_timestamp="1539971517387" record_key="13k_main_effect_economy_character_wealth_faction_background_income_modfaction_leader3k_main_ceo_node_career_historical_dong_zhuo_01">
 <ceo_node>3k_main_ceo_node_career_historical_dong_zhuo_01</ceo_node>
@@ -874,6 +1081,15 @@
 <ui_id>0</ui_id>
 <value>-25</value>
 </ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{b40745a4-486a-4b19-89c2-586a45bda81c}" record_timestamp="1559838490917" record_key="13k_main_effect_economy_gdp_mod_allep_faction_leader_prince_of_qi">
+<ceo_node></ceo_node>
+<effect>3k_main_effect_economy_gdp_mod_all</effect>
+<effect_scope>character_to_region_own_provincewide</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_faction_leader_prince_of_qi</ministerial_position_cultural_variant>
+<ui_id>1</ui_id>
+<value>10</value>
+</ministerial_positions_to_character_effects>
 <ministerial_positions_to_character_effects record_uuid="{1a1733ef-5ff3-4538-9efe-2c07ed08bb10}" record_timestamp="1546974798061" record_key="13k_main_effect_economy_gdp_mod_commerce3k_main_court_offices_military_inspector_water">
 <ceo_node></ceo_node>
 <effect>3k_main_effect_economy_gdp_mod_commerce</effect>
@@ -909,6 +1125,24 @@
 <ministerial_position_cultural_variant>3k_main_court_offices_military_inspector_fire</ministerial_position_cultural_variant>
 <ui_id>1</ui_id>
 <value>-15</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{e284a7e4-496b-4599-90a7-047dd14c48a4}" record_timestamp="1559821075310" record_key="13k_main_effect_force_all_campaign_recruitment_cost_allep_court_offices_sima_yue_military_emissary">
+<ceo_node></ceo_node>
+<effect>3k_main_effect_force_all_campaign_recruitment_cost_all</effect>
+<effect_scope>character_to_province_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_sima_yue_military_emissary</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>-15</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{26438179-e253-4223-ae20-74e1af97e650}" record_timestamp="1559838491033" record_key="13k_main_effect_force_military_supplies_from_charactersep_faction_leader_prince_of_qi">
+<ceo_node></ceo_node>
+<effect>3k_main_effect_force_military_supplies_from_characters</effect>
+<effect_scope>character_to_force_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_faction_leader_prince_of_qi</ministerial_position_cultural_variant>
+<ui_id>1</ui_id>
+<value>10</value>
 </ministerial_positions_to_character_effects>
 <ministerial_positions_to_character_effects record_uuid="{c30fd25c-e549-46c2-8e34-d7e71cf66058}" record_timestamp="1546451718533" record_key="13k_main_effect_force_retinue_upkeepfaction_leader_yellow_turban">
 <ceo_node></ceo_node>
@@ -973,6 +1207,24 @@
 <ui_id>1</ui_id>
 <value>-1</value>
 </ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{e3956ed7-32c6-4c8f-a5a4-58f3a7e2b143}" record_timestamp="1559821075375" record_key="13k_main_effect_province_corruptionep_court_offices_sima_yue_provincial_advisor">
+<ceo_node></ceo_node>
+<effect>3k_main_effect_province_corruption</effect>
+<effect_scope>character_to_province_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_sima_yue_provincial_advisor</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>-30</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{15411d85-9994-428b-8a11-7420bae1f4f0}" record_timestamp="1559838490956" record_key="13k_main_effect_province_corruptionep_faction_leader_prince_of_qi">
+<ceo_node></ceo_node>
+<effect>3k_main_effect_province_corruption</effect>
+<effect_scope>character_to_province_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_faction_leader_prince_of_qi</ministerial_position_cultural_variant>
+<ui_id>1</ui_id>
+<value>-30</value>
+</ministerial_positions_to_character_effects>
 <ministerial_positions_to_character_effects record_uuid="{126ecd3d-3524-4828-92da-6efae0ae3bb9}" record_timestamp="1546974797657" record_key="13k_main_effect_province_food_mod3k_main_court_offices_military_inspector_wood">
 <ceo_node></ceo_node>
 <effect>3k_main_effect_province_food_mod</effect>
@@ -981,6 +1233,15 @@
 <ministerial_position_cultural_variant>3k_main_court_offices_military_inspector_wood</ministerial_position_cultural_variant>
 <ui_id>1</ui_id>
 <value>100</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{4c244598-99a8-45af-86dc-fc697a1af5d4}" record_timestamp="1559838490993" record_key="13k_main_effect_replenishment_charactersep_faction_leader_prince_of_qi">
+<ceo_node></ceo_node>
+<effect>3k_main_effect_replenishment_characters</effect>
+<effect_scope>character_to_force_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_faction_leader_prince_of_qi</ministerial_position_cultural_variant>
+<ui_id>1</ui_id>
+<value>15</value>
 </ministerial_positions_to_character_effects>
 <ministerial_positions_to_character_effects record_uuid="{e5f5cac3-7ca6-4df4-924c-2b6ef37d1cdc}" record_timestamp="1518433173081" record_key="13k_main_effects_faction_lineage_faction_leaderfaction_leader_yuan_shao">
 <ceo_node></ceo_node>
@@ -1071,5 +1332,455 @@
 <ministerial_position_cultural_variant>faction_leader_yuan_shao</ministerial_position_cultural_variant>
 <ui_id>0</ui_id>
 <value>5</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{437cb2f2-8b2c-4150-bddb-4dffe5a93223}" record_timestamp="1560349442801" record_key="1ep_dummy_effect_assignment_unlock_sima_yue_civicep_court_offices_sima_yue_provincial_advisor">
+<ceo_node></ceo_node>
+<effect>ep_dummy_effect_assignment_unlock_sima_yue_civic</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_sima_yue_provincial_advisor</ministerial_position_cultural_variant>
+<ui_id>1</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{490194fd-da18-4fd7-991a-d16fdd58c5a2}" record_timestamp="1560349442774" record_key="1ep_dummy_effect_assignment_unlock_sima_yue_faction_leaderep_faction_leader_prince_of_donghai">
+<ceo_node></ceo_node>
+<effect>ep_dummy_effect_assignment_unlock_sima_yue_faction_leader</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_faction_leader_prince_of_donghai</ministerial_position_cultural_variant>
+<ui_id>1</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{6bd78fba-1567-402b-8a11-7e291abd2194}" record_timestamp="1560349442788" record_key="1ep_dummy_effect_assignment_unlock_sima_yue_militaryep_court_offices_sima_yue_military_emissary">
+<ceo_node></ceo_node>
+<effect>ep_dummy_effect_assignment_unlock_sima_yue_military</effect>
+<effect_scope>character_to_character_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_sima_yue_military_emissary</ministerial_position_cultural_variant>
+<ui_id>1</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{cf3a8827-4356-4b28-89ae-cc188af6b4d3}" record_timestamp="1562323305085" record_key="1ep_effect_brain_alignment_gainep_court_offices_minister_earth_prince_of_chengdu3k_main_ceo_node_class_water_01">
+<ceo_node>3k_main_ceo_node_class_water_01</ceo_node>
+<effect>ep_effect_brain_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_earth_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{01c714fe-64db-435d-90b9-36f429c0aec8}" record_timestamp="1562323305138" record_key="1ep_effect_brain_alignment_gainep_court_offices_minister_fire_prince_of_chengdu3k_main_ceo_node_class_water_01">
+<ceo_node>3k_main_ceo_node_class_water_01</ceo_node>
+<effect>ep_effect_brain_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_fire_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{f09cab7c-9bdf-4fed-995b-38a9d26e740b}" record_timestamp="1562323305190" record_key="1ep_effect_brain_alignment_gainep_court_offices_minister_metal_prince_of_chengdu3k_main_ceo_node_class_water_01">
+<ceo_node>3k_main_ceo_node_class_water_01</ceo_node>
+<effect>ep_effect_brain_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_metal_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{77a11ec5-0b5e-4dcb-ab4b-24a1edf87770}" record_timestamp="1562323305242" record_key="1ep_effect_brain_alignment_gainep_court_offices_minister_water_prince_of_chengdu3k_main_ceo_node_class_water_01">
+<ceo_node>3k_main_ceo_node_class_water_01</ceo_node>
+<effect>ep_effect_brain_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_water_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{0f01f802-80f0-4a87-a391-7761a5dab4f2}" record_timestamp="1562323305348" record_key="1ep_effect_brain_alignment_gainep_court_offices_minister_wood_prince_of_chengdu3k_main_ceo_node_class_water_01">
+<ceo_node>3k_main_ceo_node_class_water_01</ceo_node>
+<effect>ep_effect_brain_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_wood_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{bf598d99-d32c-4cb5-a239-f546a7fc0ef2}" record_timestamp="1562323314527" record_key="1ep_effect_brain_alignment_gainep_court_offices_prime_minister3k_main_ceo_node_class_water_01">
+<ceo_node>3k_main_ceo_node_class_water_01</ceo_node>
+<effect>ep_effect_brain_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_prime_minister</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{6d14c37d-928b-4838-a74f-ca5e9613f482}" record_timestamp="1562323314591" record_key="1ep_effect_brain_alignment_gainep_prime_minister_sima_liang3k_main_ceo_node_class_water_01">
+<ceo_node>3k_main_ceo_node_class_water_01</ceo_node>
+<effect>ep_effect_brain_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_prime_minister_sima_liang</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{1821d418-e240-44cc-a89a-ae137f8c0b40}" record_timestamp="1563208333747" record_key="1ep_effect_brain_alignment_gainep_prime_minister_sima_ying3k_main_ceo_node_class_water_01">
+<ceo_node>3k_main_ceo_node_class_water_01</ceo_node>
+<effect>ep_effect_brain_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_prime_minister_sima_ying</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>2</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{8afef8e8-b1f3-4f83-ac80-9b37c2899da1}" record_timestamp="1562323314656" record_key="1ep_effect_brain_alignment_gainep_prime_minister_sima_yue3k_main_ceo_node_class_water_01">
+<ceo_node>3k_main_ceo_node_class_water_01</ceo_node>
+<effect>ep_effect_brain_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_prime_minister_sima_yue</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{410a8c7e-bac8-4ac1-94f4-95100adfeeb7}" record_timestamp="1560349443939" record_key="1ep_effect_faction_resource_influence_faction_leaderep_faction_leader_prince_of_donghai">
+<ceo_node></ceo_node>
+<effect>ep_effect_faction_resource_influence_faction_leader</effect>
+<effect_scope>character_to_force_own</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_faction_leader_prince_of_donghai</ministerial_position_cultural_variant>
+<ui_id>1</ui_id>
+<value>3</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{5a462936-44f9-4103-a124-71908fa18514}" record_timestamp="1561645932378" record_key="1ep_effect_faction_resource_sima_jiong_control_faction_leaderep_faction_leader_prince_of_qi">
+<ceo_node></ceo_node>
+<effect>ep_effect_faction_resource_sima_jiong_control_faction_leader</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_faction_leader_prince_of_qi</ministerial_position_cultural_variant>
+<ui_id>1</ui_id>
+<value>10</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{25e2c115-06db-40eb-8368-802e105646c3}" record_timestamp="1562323305453" record_key="1ep_effect_fist_alignment_gainep_court_offices_minister_earth_prince_of_chengdu3k_main_ceo_node_class_fire_01">
+<ceo_node>3k_main_ceo_node_class_fire_01</ceo_node>
+<effect>ep_effect_fist_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_earth_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{96e71c65-e65c-4fa4-a1e6-d0e7557e2062}" record_timestamp="1562323304513" record_key="1ep_effect_fist_alignment_gainep_court_offices_minister_fire_prince_of_chengdu3k_main_ceo_node_class_fire_01">
+<ceo_node>3k_main_ceo_node_class_fire_01</ceo_node>
+<effect>ep_effect_fist_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_fire_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{3243a0c9-1bb6-413a-bf81-10eb78b46a3a}" record_timestamp="1562323304564" record_key="1ep_effect_fist_alignment_gainep_court_offices_minister_metal_prince_of_chengdu3k_main_ceo_node_class_fire_01">
+<ceo_node>3k_main_ceo_node_class_fire_01</ceo_node>
+<effect>ep_effect_fist_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_metal_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{b69b91a0-4507-45ec-a7de-229ae68c6d2b}" record_timestamp="1562323304615" record_key="1ep_effect_fist_alignment_gainep_court_offices_minister_water_prince_of_chengdu3k_main_ceo_node_class_fire_01">
+<ceo_node>3k_main_ceo_node_class_fire_01</ceo_node>
+<effect>ep_effect_fist_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_water_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{9e831571-0dad-4f3a-9162-21c29a5e2496}" record_timestamp="1562323304666" record_key="1ep_effect_fist_alignment_gainep_court_offices_minister_wood_prince_of_chengdu3k_main_ceo_node_class_fire_01">
+<ceo_node>3k_main_ceo_node_class_fire_01</ceo_node>
+<effect>ep_effect_fist_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_wood_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{9d966e8d-1d94-408d-b06d-b524b752c2c6}" record_timestamp="1562323314146" record_key="1ep_effect_fist_alignment_gainep_court_offices_prime_minister3k_main_ceo_node_class_fire_01">
+<ceo_node>3k_main_ceo_node_class_fire_01</ceo_node>
+<effect>ep_effect_fist_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_prime_minister</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{f6b363e1-2014-4a09-9248-bb8c35535477}" record_timestamp="1562323314210" record_key="1ep_effect_fist_alignment_gainep_prime_minister_sima_liang3k_main_ceo_node_class_fire_01">
+<ceo_node>3k_main_ceo_node_class_fire_01</ceo_node>
+<effect>ep_effect_fist_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_prime_minister_sima_liang</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{7e63ae50-0265-4d9e-bfa7-31d8dc1f64cd}" record_timestamp="1563208333759" record_key="1ep_effect_fist_alignment_gainep_prime_minister_sima_ying3k_main_ceo_node_class_fire_01">
+<ceo_node>3k_main_ceo_node_class_fire_01</ceo_node>
+<effect>ep_effect_fist_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_prime_minister_sima_ying</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>2</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{6cba4171-4b7e-49de-bb50-b8ad9e254920}" record_timestamp="1562323314273" record_key="1ep_effect_fist_alignment_gainep_prime_minister_sima_yue3k_main_ceo_node_class_fire_01">
+<ceo_node>3k_main_ceo_node_class_fire_01</ceo_node>
+<effect>ep_effect_fist_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_prime_minister_sima_yue</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{3e5974f9-aa8e-4d65-b2f3-19aed4512737}" record_timestamp="1562323305720" record_key="1ep_effect_heart_alignment_gainep_court_offices_minister_earth_prince_of_chengdu3k_main_ceo_node_class_earth_01">
+<ceo_node>3k_main_ceo_node_class_earth_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_earth_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{2c954ce0-4301-4e67-990b-e71f2f360002}" record_timestamp="1562323304717" record_key="1ep_effect_heart_alignment_gainep_court_offices_minister_earth_prince_of_chengdu3k_main_ceo_node_class_wood_01">
+<ceo_node>3k_main_ceo_node_class_wood_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_earth_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{22336e3e-d3dd-47f6-b0af-9efda5029776}" record_timestamp="1562323305773" record_key="1ep_effect_heart_alignment_gainep_court_offices_minister_fire_prince_of_chengdu3k_main_ceo_node_class_earth_01">
+<ceo_node>3k_main_ceo_node_class_earth_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_fire_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{9e11724e-a859-41e6-9067-d400ed151cad}" record_timestamp="1562323304769" record_key="1ep_effect_heart_alignment_gainep_court_offices_minister_fire_prince_of_chengdu3k_main_ceo_node_class_wood_01">
+<ceo_node>3k_main_ceo_node_class_wood_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_fire_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{7c011639-fd24-4615-a8fb-f95b96ba7c44}" record_timestamp="1562323304873" record_key="1ep_effect_heart_alignment_gainep_court_offices_minister_metal_prince_of_chengdu3k_main_ceo_node_class_earth_01">
+<ceo_node>3k_main_ceo_node_class_earth_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_metal_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{3b66e646-5855-4a90-a8b4-f71c8bd8f3e4}" record_timestamp="1562323304820" record_key="1ep_effect_heart_alignment_gainep_court_offices_minister_metal_prince_of_chengdu3k_main_ceo_node_class_wood_01">
+<ceo_node>3k_main_ceo_node_class_wood_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_metal_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{55693b85-c11b-42e3-9195-8b96050d1f84}" record_timestamp="1562323304979" record_key="1ep_effect_heart_alignment_gainep_court_offices_minister_water_prince_of_chengdu3k_main_ceo_node_class_earth_01">
+<ceo_node>3k_main_ceo_node_class_earth_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_water_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{a0c686be-ec80-42f5-9827-9c294b4ac235}" record_timestamp="1562323304926" record_key="1ep_effect_heart_alignment_gainep_court_offices_minister_water_prince_of_chengdu3k_main_ceo_node_class_wood_01">
+<ceo_node>3k_main_ceo_node_class_wood_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_water_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{03a48681-238e-436b-8f52-5704eac80531}" record_timestamp="1562323305033" record_key="1ep_effect_heart_alignment_gainep_court_offices_minister_wood_prince_of_chengdu3k_main_ceo_node_class_earth_01">
+<ceo_node>3k_main_ceo_node_class_earth_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_wood_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{e05c2061-243a-4d5d-b30b-5750f009b432}" record_timestamp="1562323305296" record_key="1ep_effect_heart_alignment_gainep_court_offices_minister_wood_prince_of_chengdu3k_main_ceo_node_class_wood_01">
+<ceo_node>3k_main_ceo_node_class_wood_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_wood_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{e5a68d32-2e5a-4d9a-bf32-813354225bde}" record_timestamp="1562323314337" record_key="1ep_effect_heart_alignment_gainep_court_offices_prime_minister3k_main_ceo_node_class_earth_01">
+<ceo_node>3k_main_ceo_node_class_earth_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_prime_minister</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{433d7b3a-7a25-403c-89a4-e0885b534a73}" record_timestamp="1562323313938" record_key="1ep_effect_heart_alignment_gainep_court_offices_prime_minister3k_main_ceo_node_class_wood_01">
+<ceo_node>3k_main_ceo_node_class_wood_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_prime_minister</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{9378f655-2d69-4e2b-bd88-ef03a0beea6f}" record_timestamp="1562323314400" record_key="1ep_effect_heart_alignment_gainep_prime_minister_sima_liang3k_main_ceo_node_class_earth_01">
+<ceo_node>3k_main_ceo_node_class_earth_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_prime_minister_sima_liang</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{794276c9-0ea4-4e6c-b783-8dc95bd18ec3}" record_timestamp="1562323314003" record_key="1ep_effect_heart_alignment_gainep_prime_minister_sima_liang3k_main_ceo_node_class_wood_01">
+<ceo_node>3k_main_ceo_node_class_wood_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_prime_minister_sima_liang</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{5b3c8fcf-88a0-45f0-8e47-1330ce272262}" record_timestamp="1563208333753" record_key="1ep_effect_heart_alignment_gainep_prime_minister_sima_ying3k_main_ceo_node_class_earth_01">
+<ceo_node>3k_main_ceo_node_class_earth_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_prime_minister_sima_ying</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>2</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{419f53cc-8cf8-4baf-bb5c-4134a4be9f14}" record_timestamp="1563208333741" record_key="1ep_effect_heart_alignment_gainep_prime_minister_sima_ying3k_main_ceo_node_class_wood_01">
+<ceo_node>3k_main_ceo_node_class_wood_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_prime_minister_sima_ying</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>2</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{66dc8ec8-2247-490e-a852-bc2616eacb91}" record_timestamp="1562323314463" record_key="1ep_effect_heart_alignment_gainep_prime_minister_sima_yue3k_main_ceo_node_class_earth_01">
+<ceo_node>3k_main_ceo_node_class_earth_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_prime_minister_sima_yue</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{461a7cfa-1c88-4f0b-8108-fa9bb2aff44b}" record_timestamp="1562323314071" record_key="1ep_effect_heart_alignment_gainep_prime_minister_sima_yue3k_main_ceo_node_class_wood_01">
+<ceo_node>3k_main_ceo_node_class_wood_01</ceo_node>
+<effect>ep_effect_heart_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_prime_minister_sima_yue</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{7dda3efe-9c4f-41f5-a2c6-7b191a9962d9}" record_timestamp="1562323305401" record_key="1ep_effect_money_alignment_gainep_court_offices_minister_earth_prince_of_chengdu3k_main_ceo_node_class_metal_01">
+<ceo_node>3k_main_ceo_node_class_metal_01</ceo_node>
+<effect>ep_effect_money_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_earth_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{ccd3118a-4b2a-4792-aea1-a4aeb76d5a4d}" record_timestamp="1562323305507" record_key="1ep_effect_money_alignment_gainep_court_offices_minister_fire_prince_of_chengdu3k_main_ceo_node_class_metal_01">
+<ceo_node>3k_main_ceo_node_class_metal_01</ceo_node>
+<effect>ep_effect_money_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_fire_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{3b726ab9-b903-4651-9bbe-d89d8fce9b9f}" record_timestamp="1562323305561" record_key="1ep_effect_money_alignment_gainep_court_offices_minister_metal_prince_of_chengdu3k_main_ceo_node_class_metal_01">
+<ceo_node>3k_main_ceo_node_class_metal_01</ceo_node>
+<effect>ep_effect_money_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_metal_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{75de8f5a-7026-4657-ad6f-4a4f5820e60c}" record_timestamp="1562323305614" record_key="1ep_effect_money_alignment_gainep_court_offices_minister_water_prince_of_chengdu3k_main_ceo_node_class_metal_01">
+<ceo_node>3k_main_ceo_node_class_metal_01</ceo_node>
+<effect>ep_effect_money_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_water_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{08b7273b-4cd9-4edf-9c64-4f25b978f469}" record_timestamp="1562323305666" record_key="1ep_effect_money_alignment_gainep_court_offices_minister_wood_prince_of_chengdu3k_main_ceo_node_class_metal_01">
+<ceo_node>3k_main_ceo_node_class_metal_01</ceo_node>
+<effect>ep_effect_money_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_minister_wood_prince_of_chengdu</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{3b748eb4-71f2-49da-a73c-247af9e0c15b}" record_timestamp="1562323314722" record_key="1ep_effect_money_alignment_gainep_court_offices_prime_minister3k_main_ceo_node_class_metal_01">
+<ceo_node>3k_main_ceo_node_class_metal_01</ceo_node>
+<effect>ep_effect_money_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_court_offices_prime_minister</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{df7333ba-9c35-4a83-913e-874599166884}" record_timestamp="1562323313809" record_key="1ep_effect_money_alignment_gainep_prime_minister_sima_liang3k_main_ceo_node_class_metal_01">
+<ceo_node>3k_main_ceo_node_class_metal_01</ceo_node>
+<effect>ep_effect_money_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_prime_minister_sima_liang</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{98bf9aff-0848-44eb-b376-69a615d6a485}" record_timestamp="1563208333736" record_key="1ep_effect_money_alignment_gainep_prime_minister_sima_ying3k_main_ceo_node_class_metal_01">
+<ceo_node>3k_main_ceo_node_class_metal_01</ceo_node>
+<effect>ep_effect_money_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_prime_minister_sima_ying</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>2</value>
+</ministerial_positions_to_character_effects>
+<ministerial_positions_to_character_effects record_uuid="{53d45f42-f1ae-4ccb-a7dc-bed64360c339}" record_timestamp="1562323313873" record_key="1ep_effect_money_alignment_gainep_prime_minister_sima_yue3k_main_ceo_node_class_metal_01">
+<ceo_node>3k_main_ceo_node_class_metal_01</ceo_node>
+<effect>ep_effect_money_alignment_gain</effect>
+<effect_scope>character_to_faction_unseen</effect_scope>
+<minister_level>1</minister_level>
+<ministerial_position_cultural_variant>ep_prime_minister_sima_yue</ministerial_position_cultural_variant>
+<ui_id>0</ui_id>
+<value>1</value>
 </ministerial_positions_to_character_effects>
 </dataroot>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="battle_types.xsd" export_time="Tue Feb 5 13:20:22 2019" revision="56" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1324/dave" export_user="bob">
-<edit_uuid>f01adc20-2d41-4689-badb-600121ebddac</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="battle_types.xsd" export_time="Thu Jun 20 17:18:58 2019" revision="58" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1527/dave" export_user="bob">
+<edit_uuid>325fffa0-0e44-469b-9f93-36c7913bcb62</edit_uuid>
 <battle_types record_uuid="{1cdebde4-d0ac-4925-b2be-5daa8733b95a}" record_key="Tutorial">
 <defender_funds_ratio>1</defender_funds_ratio>
 <max_teamsize>4</max_teamsize>
@@ -42,6 +42,13 @@
 <onscreen state="HIDDEN" last_approved_text="Coastal Battle" last_edit_user="bob">Coastal Battle</onscreen>
 <sort_order>-1</sort_order>
 <type>coastal_battle</type>
+</battle_types>
+<battle_types record_uuid="{ee0ab4c6-d1d3-44ea-9466-d6f46c4bc013}" record_timestamp="1560956168442" record_key="dynasty">
+<defender_funds_ratio>1</defender_funds_ratio>
+<max_teamsize>3</max_teamsize>
+<onscreen state="APPROVED" last_approved_text="Dynasty Battle" last_edit_user="bob">Dynasty Battle</onscreen>
+<sort_order>4</sort_order>
+<type>dynasty</type>
 </battle_types>
 <battle_types record_uuid="{7fd4e28f-a0e1-4ab2-911d-2484a59b538b}" record_timestamp="1486389896694" record_key="free_for_all">
 <defender_funds_ratio>1</defender_funds_ratio>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_thresholds.xsd" export_time="Wed Feb 27 10:15:08 2019" revision="43" export_branch="C:/Users/simon.mann/AppData/Roaming/TWDaemon/1352/dave" export_user="bob">
-<edit_uuid>8392c360-58e1-4745-aeb2-6dc42228a821</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_thresholds.xsd" export_time="Wed Jun 19 11:52:16 2019" revision="50" export_branch="C:/Users/jakob.holm/AppData/Roaming/TWDaemon/1527/dave" export_user="bob">
+<edit_uuid>9243f51d-a518-4fdc-aebd-3981c598f3dd</edit_uuid>
 <ceo_thresholds record_uuid="{829e46e3-de72-47ee-acf4-9eabddd043c1}" record_timestamp="1542740544491" record_key="3k_main_ceo_equipment_permissions_armour_earth">
 <ceo>3k_main_ceo_equipment_permissions_armour_earth</ceo>
 <key>3k_main_ceo_equipment_permissions_armour_earth</key>
@@ -1102,6 +1102,15 @@
 <ceo_thresholds record_uuid="{0cfdf982-27e2-4f11-9d51-f7f4d5c15551}" record_timestamp="1502191417988" record_key="3k_main_ceo_threshold_career_historical_tao_qian">
 <ceo>3k_main_ceo_career_historical_tao_qian</ceo>
 <key>3k_main_ceo_threshold_career_historical_tao_qian</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{2c95d7d1-ecde-45a2-a416-fa6020ba7b30}" record_timestamp="1560327104141" record_key="3k_main_ceo_threshold_career_historical_wang_bao">
+<ceo>ep_ceo_career_historical_wang_bao</ceo>
+<key>3k_main_ceo_threshold_career_historical_wang_bao</key>
 <max_points>1</max_points>
 <point_theshold_to_destroy>0</point_theshold_to_destroy>
 <point_threshold_to_activate>1</point_threshold_to_activate>
@@ -5464,7 +5473,7 @@
 <resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
 <starting_points>1</starting_points>
 </ceo_thresholds>
-<ceo_thresholds record_uuid="{9f35847b-eaa4-4dee-8ea5-b71aff3a8f36}" record_timestamp="1550502126346" record_key="3k_ytr_threshold_ancillary_armour_he_mans_armour_unique">
+<ceo_thresholds record_uuid="{9f35847b-eaa4-4dee-8ea5-b71aff3a8f36}" record_timestamp="1551784875321" record_key="3k_ytr_threshold_ancillary_armour_he_mans_armour_unique">
 <ceo>3k_ytr_ancillary_armour_he_mans_armour_unique</ceo>
 <key>3k_ytr_threshold_ancillary_armour_he_mans_armour_unique</key>
 <max_points>1</max_points>
@@ -5473,7 +5482,7 @@
 <resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
 <starting_points>1</starting_points>
 </ceo_thresholds>
-<ceo_thresholds record_uuid="{574fbcb2-8d05-4a29-ba4e-18731f63014f}" record_timestamp="1550502126346" record_key="3k_ytr_threshold_ancillary_armour_pei_yuanshaos_armour_unique">
+<ceo_thresholds record_uuid="{574fbcb2-8d05-4a29-ba4e-18731f63014f}" record_timestamp="1551784875321" record_key="3k_ytr_threshold_ancillary_armour_pei_yuanshaos_armour_unique">
 <ceo>3k_ytr_ancillary_armour_pei_yuanshaos_armour_unique</ceo>
 <key>3k_ytr_threshold_ancillary_armour_pei_yuanshaos_armour_unique</key>
 <max_points>1</max_points>
@@ -5482,9 +5491,1098 @@
 <resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
 <starting_points>1</starting_points>
 </ceo_thresholds>
-<ceo_thresholds record_uuid="{a2f1b37b-84b1-4746-9cae-303bfbf2c392}" record_timestamp="1550502126346" record_key="3k_ytr_threshold_ancillary_armour_zhang_kais_armour_unique">
+<ceo_thresholds record_uuid="{a2f1b37b-84b1-4746-9cae-303bfbf2c392}" record_timestamp="1551784875322" record_key="3k_ytr_threshold_ancillary_armour_zhang_kais_armour_unique">
 <ceo>3k_ytr_ancillary_armour_zhang_kais_armour_unique</ceo>
 <key>3k_ytr_threshold_ancillary_armour_zhang_kais_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{3573c187-2640-44b3-b33f-4c7b4daa2994}" record_timestamp="1560851446339" record_key="ep_ceo_threshold_career_historical_cao_huan">
+<ceo>ep_ceo_career_historical_cao_huan</ceo>
+<key>ep_ceo_threshold_career_historical_cao_huan</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{b1a46472-e5d9-490b-8409-35f948be8d18}" record_timestamp="1560242839710" record_key="ep_ceo_threshold_career_historical_gongsun_hong">
+<ceo>ep_ceo_career_historical_gongsun_hong</ceo>
+<key>ep_ceo_threshold_career_historical_gongsun_hong</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{bf7e83dd-583a-404f-a575-9eadb1acdc87}" record_timestamp="1560242839567" record_key="ep_ceo_threshold_career_historical_he_lun">
+<ceo>ep_ceo_career_historical_he_lun</ceo>
+<key>ep_ceo_threshold_career_historical_he_lun</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{4095c413-bd8b-4be2-8980-6c57e2aa3c81}" record_timestamp="1560242839567" record_key="ep_ceo_threshold_career_historical_huangfu_shang">
+<ceo>ep_ceo_career_historical_huangfu_shang</ceo>
+<key>ep_ceo_threshold_career_historical_huangfu_shang</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{b78d176e-0f71-44d7-9578-e21bb4054dbf}" record_timestamp="1560242839567" record_key="ep_ceo_threshold_career_historical_jia_mi">
+<ceo>ep_ceo_career_historical_jia_mi</ceo>
+<key>ep_ceo_threshold_career_historical_jia_mi</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{7bf7c96f-7cea-4680-9223-a5aaba7f3040}" record_timestamp="1560242839567" record_key="ep_ceo_threshold_career_historical_jia_mo">
+<ceo>ep_ceo_career_historical_jia_mo</ceo>
+<key>ep_ceo_threshold_career_historical_jia_mo</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{e953a5ba-a994-4902-8c75-da639c1128b0}" record_timestamp="1560242839567" record_key="ep_ceo_threshold_career_historical_li_han">
+<ceo>ep_ceo_career_historical_li_han</ceo>
+<key>ep_ceo_threshold_career_historical_li_han</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{c17a2bd7-b0d3-45e2-9a45-8895d8b36b97}" record_timestamp="1560851446339" record_key="ep_ceo_threshold_career_historical_liu_qi">
+<ceo>ep_ceo_career_historical_liu_qi</ceo>
+<key>ep_ceo_threshold_career_historical_liu_qi</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{45f8ea2c-cc0f-4e8e-b400-2645fb0fb8c9}" record_timestamp="1560851446339" record_key="ep_ceo_threshold_career_historical_liu_shen">
+<ceo>ep_ceo_career_historical_liu_shen</ceo>
+<key>ep_ceo_threshold_career_historical_liu_shen</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{dae9d933-f820-4e20-b829-760f237921b9}" record_timestamp="1560242839569" record_key="ep_ceo_threshold_career_historical_lu_ji">
+<ceo>ep_ceo_career_historical_lu_ji</ceo>
+<key>ep_ceo_threshold_career_historical_lu_ji</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{62dbc945-66d9-46ce-bb64-4eae05d685af}" record_timestamp="1560242840103" record_key="ep_ceo_threshold_career_historical_lu_zhi">
+<ceo>ep_ceo_career_historical_lu_zhi</ceo>
+<key>ep_ceo_threshold_career_historical_lu_zhi</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{199f22ea-cdce-4e77-a50e-7578c640d960}" record_timestamp="1560242839569" record_key="ep_ceo_threshold_career_historical_pei_wei">
+<ceo>ep_ceo_career_historical_pei_wei</ceo>
+<key>ep_ceo_threshold_career_historical_pei_wei</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{86e2bf98-a259-4dcd-b251-e71f62bc8079}" record_timestamp="1560941531790" record_key="ep_ceo_threshold_career_historical_princess_pei">
+<ceo>ep_ceo_career_historical_princess_pei</ceo>
+<key>ep_ceo_threshold_career_historical_princess_pei</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{fbe5a330-d15f-49bb-bb1d-38d75e8de507}" record_timestamp="1560242839568" record_key="ep_ceo_threshold_career_historical_qi_sheng">
+<ceo>ep_ceo_career_historical_qi_sheng</ceo>
+<key>ep_ceo_threshold_career_historical_qi_sheng</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{cb5d611a-c778-4a0f-8f8d-3ef3c8a97dad}" record_timestamp="1560941531695" record_key="ep_ceo_threshold_career_historical_shi_chao">
+<ceo>ep_ceo_career_historical_shi_chao</ceo>
+<key>ep_ceo_threshold_career_historical_shi_chao</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{63e84a08-a8e7-42f7-8c6b-66f56731528b}" record_timestamp="1555407989141" record_key="ep_ceo_threshold_career_historical_sima_ai">
+<ceo>ep_ceo_career_historical_sima_ai</ceo>
+<key>ep_ceo_threshold_career_historical_sima_ai</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{79fd3e73-893b-4930-88e8-901b8d91083b}" record_timestamp="1560242840102" record_key="ep_ceo_threshold_career_historical_sima_cui">
+<ceo>ep_ceo_career_historical_sima_cui</ceo>
+<key>ep_ceo_threshold_career_historical_sima_cui</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{3017c14a-efec-4b82-b240-74464cd4575d}" record_timestamp="1555407989111" record_key="ep_ceo_threshold_career_historical_sima_jiong">
+<ceo>ep_ceo_career_historical_sima_jiong</ceo>
+<key>ep_ceo_threshold_career_historical_sima_jiong</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{1eec886a-1fe1-4f28-8b59-a024c6484ae8}" record_timestamp="1560242840103" record_key="ep_ceo_threshold_career_historical_sima_ju">
+<ceo>ep_ceo_career_historical_sima_ju</ceo>
+<key>ep_ceo_threshold_career_historical_sima_ju</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{76508b72-2544-44b0-a45c-afd1e2186c77}" record_timestamp="1555407989091" record_key="ep_ceo_threshold_career_historical_sima_liang">
+<ceo>ep_ceo_career_historical_sima_liang</ceo>
+<key>ep_ceo_threshold_career_historical_sima_liang</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{ecea3d91-11b2-4e0d-9c13-3bf9a90b1534}" record_timestamp="1555407989171" record_key="ep_ceo_threshold_career_historical_sima_lun">
+<ceo>ep_ceo_career_historical_sima_lun</ceo>
+<key>ep_ceo_threshold_career_historical_sima_lun</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{68586603-22bf-4875-99ce-6dda37249a4e}" record_timestamp="1560851446339" record_key="ep_ceo_threshold_career_historical_sima_song">
+<ceo>ep_ceo_career_historical_sima_song</ceo>
+<key>ep_ceo_threshold_career_historical_sima_song</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{cd1271d7-9085-4bc4-9e9a-ad2d36437588}" record_timestamp="1555407989161" record_key="ep_ceo_threshold_career_historical_sima_wei">
+<ceo>ep_ceo_career_historical_sima_wei</ceo>
+<key>ep_ceo_threshold_career_historical_sima_wei</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{a7ac28ac-b058-40a5-9a77-c6c95363c75e}" record_timestamp="1555407989121" record_key="ep_ceo_threshold_career_historical_sima_ying">
+<ceo>ep_ceo_career_historical_sima_ying</ceo>
+<key>ep_ceo_threshold_career_historical_sima_ying</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{28eb18ab-e394-43d5-aa0d-041b23077894}" record_timestamp="1555407989151" record_key="ep_ceo_threshold_career_historical_sima_yong">
+<ceo>ep_ceo_career_historical_sima_yong</ceo>
+<key>ep_ceo_threshold_career_historical_sima_yong</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{fa6cf273-b0c4-42de-9efe-0009b07862a9}" record_timestamp="1560851446340" record_key="ep_ceo_threshold_career_historical_sima_yu_earth">
+<ceo>ep_ceo_career_historical_sima_yu_earth</ceo>
+<key>ep_ceo_threshold_career_historical_sima_yu_earth</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{91a62c4b-fc5c-4cae-bc56-159faf05db91}" record_timestamp="1560851446340" record_key="ep_ceo_threshold_career_historical_sima_yu_metal">
+<ceo>ep_ceo_career_historical_sima_yu_metal</ceo>
+<key>ep_ceo_threshold_career_historical_sima_yu_metal</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{d533b244-2434-4ebe-b2ad-5e2828d9e5e9}" record_timestamp="1555407989101" record_key="ep_ceo_threshold_career_historical_sima_yue">
+<ceo>ep_ceo_career_historical_sima_yue</ceo>
+<key>ep_ceo_threshold_career_historical_sima_yue</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{72e15b83-cffd-497f-ae57-0857836bd2eb}" record_timestamp="1560242840102" record_key="ep_ceo_threshold_career_historical_sun_xiu">
+<ceo>ep_ceo_career_historical_sun_xiu</ceo>
+<key>ep_ceo_threshold_career_historical_sun_xiu</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{87880b92-8509-48dc-823b-554b80c01925}" record_timestamp="1560242839568" record_key="ep_ceo_threshold_career_historical_wei_guan">
+<ceo>ep_ceo_career_historical_wei_guan</ceo>
+<key>ep_ceo_threshold_career_historical_wei_guan</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{2aadcca6-7189-4019-b0c1-1be511501192}" record_timestamp="1560242839568" record_key="ep_ceo_threshold_career_historical_zhang_fang">
+<ceo>ep_ceo_career_historical_zhang_fang</ceo>
+<key>ep_ceo_threshold_career_historical_zhang_fang</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{6d474cc7-90ac-4dc1-a6f3-cc5c700635a7}" record_timestamp="1560242839568" record_key="ep_ceo_threshold_career_historical_zhang_hua">
+<ceo>ep_ceo_career_historical_zhang_hua</ceo>
+<key>ep_ceo_threshold_career_historical_zhang_hua</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{24a3dcd3-40e2-4de9-91b1-35c64ed4a897}" record_timestamp="1551887884109" record_key="ep_dyn_ceo_threshold_ancillary_armour_cao_caos_armour_unique">
+<ceo>ep_dyn_ancillary_armour_cao_caos_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_cao_caos_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{ce6d5d12-93ec-41ac-92d5-8a3d91cc131a}" record_timestamp="1551887884110" record_key="ep_dyn_ceo_threshold_ancillary_armour_dian_weis_armour_unique">
+<ceo>ep_dyn_ancillary_armour_dian_weis_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_dian_weis_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{b0d9e29a-f529-48d4-90bf-343724bc1dd7}" record_timestamp="1551887884110" record_key="ep_dyn_ceo_threshold_ancillary_armour_dong_zhuos_armour_unique">
+<ceo>ep_dyn_ancillary_armour_dong_zhuos_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_dong_zhuos_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{3b7651d4-4cf8-4023-96e5-21c618e9fad0}" record_timestamp="1551887884110" record_key="ep_dyn_ceo_threshold_ancillary_armour_gan_nings_armour_unique">
+<ceo>ep_dyn_ancillary_armour_gan_nings_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_gan_nings_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{ad036ac8-b426-4f30-8efb-02a976eb760a}" record_timestamp="1551887884110" record_key="ep_dyn_ceo_threshold_ancillary_armour_gongsun_zans_armour_unique">
+<ceo>ep_dyn_ancillary_armour_gongsun_zans_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_gongsun_zans_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{e6e54c5d-00c6-4b9d-b8fa-14ec74572581}" record_timestamp="1551887884110" record_key="ep_dyn_ceo_threshold_ancillary_armour_guan_yus_armour_unique">
+<ceo>ep_dyn_ancillary_armour_guan_yus_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_guan_yus_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{dc31929b-bc36-4b49-8e21-3bb520f1336d}" record_timestamp="1551887884111" record_key="ep_dyn_ceo_threshold_ancillary_armour_han_suis_armour_unique">
+<ceo>ep_dyn_ancillary_armour_han_suis_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_han_suis_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{8a40417c-23f8-41c0-b97c-555bf7fcff9d}" record_timestamp="1551887884111" record_key="ep_dyn_ceo_threshold_ancillary_armour_huang_zhongs_armour_unique">
+<ceo>ep_dyn_ancillary_armour_huang_zhongs_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_huang_zhongs_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{9244c255-faf1-46c1-a2ca-9349fccaf116}" record_timestamp="1551887884111" record_key="ep_dyn_ceo_threshold_ancillary_armour_kong_rongs_armour_unique">
+<ceo>ep_dyn_ancillary_armour_kong_rongs_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_kong_rongs_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{310bc10f-0e61-488a-b938-bf698b0ac59f}" record_timestamp="1551887884111" record_key="ep_dyn_ceo_threshold_ancillary_armour_lady_suns_armour_unique">
+<ceo>ep_dyn_ancillary_armour_lady_suns_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_lady_suns_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{a8e36385-1ec6-469b-86b0-8fae600e2c0d}" record_timestamp="1551887884111" record_key="ep_dyn_ceo_threshold_ancillary_armour_liu_beis_armour_unique">
+<ceo>ep_dyn_ancillary_armour_liu_beis_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_liu_beis_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{2f91bd5c-b346-4435-8016-03fc0df4de29}" record_timestamp="1551887884112" record_key="ep_dyn_ceo_threshold_ancillary_armour_liu_biaos_armour_unique">
+<ceo>ep_dyn_ancillary_armour_liu_biaos_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_liu_biaos_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{aa43b970-ea00-4d74-88e5-736063e72616}" record_timestamp="1551887884112" record_key="ep_dyn_ceo_threshold_ancillary_armour_liu_zhangs_armour_unique">
+<ceo>ep_dyn_ancillary_armour_liu_zhangs_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_liu_zhangs_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{1ed3d6d0-12a6-49fd-a0ed-5e6028a669ee}" record_timestamp="1551887884112" record_key="ep_dyn_ceo_threshold_ancillary_armour_lu_bus_armour_unique">
+<ceo>ep_dyn_ancillary_armour_lu_bus_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_lu_bus_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{f7c2fb6c-5a4f-4ccc-8bfa-5c2592e46761}" record_timestamp="1551887884112" record_key="ep_dyn_ceo_threshold_ancillary_armour_ma_chaos_armour_unique">
+<ceo>ep_dyn_ancillary_armour_ma_chaos_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_ma_chaos_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{f531e0b3-903e-4dd8-9dcc-6894abab757d}" record_timestamp="1551887884112" record_key="ep_dyn_ceo_threshold_ancillary_armour_ma_tengs_armour_unique">
+<ceo>ep_dyn_ancillary_armour_ma_tengs_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_ma_tengs_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{67f6aea7-8b76-4b37-a891-3487047edca8}" record_timestamp="1551887884113" record_key="ep_dyn_ceo_threshold_ancillary_armour_sima_yis_armour_unique">
+<ceo>ep_dyn_ancillary_armour_sima_yis_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_sima_yis_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{0391dcfe-1d3f-441e-9f37-d2b780f9d802}" record_timestamp="1551887884113" record_key="ep_dyn_ceo_threshold_ancillary_armour_sun_ces_armour_unique">
+<ceo>ep_dyn_ancillary_armour_sun_ces_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_sun_ces_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{69709d85-9a7d-42c4-976c-437db6934338}" record_timestamp="1551887884113" record_key="ep_dyn_ceo_threshold_ancillary_armour_sun_jians_armour_unique">
+<ceo>ep_dyn_ancillary_armour_sun_jians_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_sun_jians_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{a33b79fa-8431-4adb-88b8-453a8feac5be}" record_timestamp="1551887884113" record_key="ep_dyn_ceo_threshold_ancillary_armour_sun_quans_armour_unique">
+<ceo>ep_dyn_ancillary_armour_sun_quans_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_sun_quans_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{2632c4e0-7102-4c3e-b808-3e96fdd4f12b}" record_timestamp="1551887884113" record_key="ep_dyn_ceo_threshold_ancillary_armour_taishi_cis_armour_unique">
+<ceo>ep_dyn_ancillary_armour_taishi_cis_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_taishi_cis_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{1f790ff6-e9f5-4a68-81d6-1efc78198231}" record_timestamp="1551887884114" record_key="ep_dyn_ceo_threshold_ancillary_armour_tao_qians_armour_unique">
+<ceo>ep_dyn_ancillary_armour_tao_qians_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_tao_qians_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{323f3e4f-5cf1-4111-aabd-f0505e09cc9b}" record_timestamp="1551887884114" record_key="ep_dyn_ceo_threshold_ancillary_armour_xiahou_duns_armour_unique">
+<ceo>ep_dyn_ancillary_armour_xiahou_duns_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_xiahou_duns_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{2f8e9d2b-d7e1-450f-a8a7-e45fa6f08530}" record_timestamp="1551887884114" record_key="ep_dyn_ceo_threshold_ancillary_armour_xiahou_yuans_armour_unique">
+<ceo>ep_dyn_ancillary_armour_xiahou_yuans_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_xiahou_yuans_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{f31ea6e7-9f40-482f-baf9-084fe447a524}" record_timestamp="1551887884114" record_key="ep_dyn_ceo_threshold_ancillary_armour_xu_chus_armour_unique">
+<ceo>ep_dyn_ancillary_armour_xu_chus_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_xu_chus_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{140b8b87-955d-482c-9480-d28ac3d16cc4}" record_timestamp="1551887884114" record_key="ep_dyn_ceo_threshold_ancillary_armour_xu_huangs_armour_unique">
+<ceo>ep_dyn_ancillary_armour_xu_huangs_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_xu_huangs_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{55981311-f0a2-4ea8-820d-c0fb53f3cb6b}" record_timestamp="1551887884115" record_key="ep_dyn_ceo_threshold_ancillary_armour_yuan_shaos_armour_unique">
+<ceo>ep_dyn_ancillary_armour_yuan_shaos_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_yuan_shaos_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{0164cc16-5a89-4a54-84cf-e1532324215c}" record_timestamp="1551887884115" record_key="ep_dyn_ceo_threshold_ancillary_armour_yuan_shus_armour_unique">
+<ceo>ep_dyn_ancillary_armour_yuan_shus_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_yuan_shus_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{29df316a-ac67-4383-8c38-e87f02e32beb}" record_timestamp="1551887884115" record_key="ep_dyn_ceo_threshold_ancillary_armour_yue_jins_armour_unique">
+<ceo>ep_dyn_ancillary_armour_yue_jins_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_yue_jins_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{2603b971-fd29-4bbf-9b03-7a03e5710a5d}" record_timestamp="1551887884115" record_key="ep_dyn_ceo_threshold_ancillary_armour_zhang_feis_armour_unique">
+<ceo>ep_dyn_ancillary_armour_zhang_feis_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_zhang_feis_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{b3acb51c-b183-4600-8511-e824e14afc4b}" record_timestamp="1551887884115" record_key="ep_dyn_ceo_threshold_ancillary_armour_zhang_liaos_armour_unique">
+<ceo>ep_dyn_ancillary_armour_zhang_liaos_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_zhang_liaos_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{074d5f04-5f07-40f0-a657-05ed8d3dfc53}" record_timestamp="1551887884116" record_key="ep_dyn_ceo_threshold_ancillary_armour_zhang_yans_armour_unique">
+<ceo>ep_dyn_ancillary_armour_zhang_yans_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_zhang_yans_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{200367e2-0890-45c9-b60a-bcff827542f4}" record_timestamp="1551887884116" record_key="ep_dyn_ceo_threshold_ancillary_armour_zhao_yuns_armour_unique">
+<ceo>ep_dyn_ancillary_armour_zhao_yuns_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_zhao_yuns_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{852b52b9-4c61-4daa-898e-24990e45eaf8}" record_timestamp="1551887884116" record_key="ep_dyn_ceo_threshold_ancillary_armour_zheng_jiangs_armour_unique">
+<ceo>ep_dyn_ancillary_armour_zheng_jiangs_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_zheng_jiangs_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{b57e949a-dccc-47c0-ac43-89e52397147b}" record_timestamp="1551887884116" record_key="ep_dyn_ceo_threshold_ancillary_armour_zhou_yus_armour_unique">
+<ceo>ep_dyn_ancillary_armour_zhou_yus_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_zhou_yus_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{0e7c3588-ca43-4fa6-b8a6-a5ed30d61462}" record_timestamp="1551887884116" record_key="ep_dyn_ceo_threshold_ancillary_armour_zhuge_liangs_armour_unique">
+<ceo>ep_dyn_ancillary_armour_zhuge_liangs_armour_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_armour_zhuge_liangs_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{ac03bec3-2e05-46ad-a481-66d26918360c}" record_timestamp="1551887884117" record_key="ep_dyn_ceo_threshold_ancillary_mount_black_elite">
+<ceo>ep_dyn_ancillary_mount_black_elite</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_mount_black_elite</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{1c6e6b4a-b8d8-4b49-8922-c03545b1d36e}" record_timestamp="1551887884117" record_key="ep_dyn_ceo_threshold_ancillary_mount_brown_elite">
+<ceo>ep_dyn_ancillary_mount_brown_elite</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_mount_brown_elite</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{b5f9a1f6-1455-4ada-b70e-4165076dca17}" record_timestamp="1551887884117" record_key="ep_dyn_ceo_threshold_ancillary_mount_grey_elite">
+<ceo>ep_dyn_ancillary_mount_grey_elite</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_mount_grey_elite</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{ff7cb6aa-3d4f-46ce-91ff-26b8ff56101c}" record_timestamp="1551887884117" record_key="ep_dyn_ceo_threshold_ancillary_mount_red_elite">
+<ceo>ep_dyn_ancillary_mount_red_elite</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_mount_red_elite</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{73080fb4-a7f3-46a2-acad-b60f761eb66a}" record_timestamp="1551887884117" record_key="ep_dyn_ceo_threshold_ancillary_mount_red_hare">
+<ceo>ep_dyn_ancillary_mount_red_hare</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_mount_red_hare</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{9861f6a9-1b96-435c-afc3-9719d19f3617}" record_timestamp="1551887884118" record_key="ep_dyn_ceo_threshold_ancillary_mount_shadow_runner">
+<ceo>ep_dyn_ancillary_mount_shadow_runner</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_mount_shadow_runner</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{eaca3db6-dc2d-4f06-942e-19af5fe54577}" record_timestamp="1551887884118" record_key="ep_dyn_ceo_threshold_ancillary_mount_white_elite">
+<ceo>ep_dyn_ancillary_mount_white_elite</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_mount_white_elite</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{a5ee6711-5c88-4d3a-9dcf-ad3576b7fa80}" record_timestamp="1551887884118" record_key="ep_dyn_ceo_threshold_ancillary_weapon_axes_of_the_bandit_queen">
+<ceo>ep_dyn_ancillary_weapon_axes_of_the_bandit_queen</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_axes_of_the_bandit_queen</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{46d5113c-dfae-4cc9-8d0d-01e69e93fc31}" record_timestamp="1551887884118" record_key="ep_dyn_ceo_threshold_ancillary_weapon_blade_of_xiang_yu">
+<ceo>ep_dyn_ancillary_weapon_blade_of_xiang_yu</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_blade_of_xiang_yu</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{374adb81-97bd-4bac-913e-b349b66e9ec7}" record_timestamp="1551887884118" record_key="ep_dyn_ceo_threshold_ancillary_weapon_bow_huang_zhong">
+<ceo>ep_dyn_ancillary_weapon_bow_huang_zhong</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_bow_huang_zhong</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{310feaaf-203d-40fc-986e-4e8d67b526ed}" record_timestamp="1551887884119" record_key="ep_dyn_ceo_threshold_ancillary_weapon_bow_taishi_ci">
+<ceo>ep_dyn_ancillary_weapon_bow_taishi_ci</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_bow_taishi_ci</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{511de3eb-cc3e-47b5-91d3-add5aa849c55}" record_timestamp="1551887884119" record_key="ep_dyn_ceo_threshold_ancillary_weapon_ceremonial_sword_unique">
+<ceo>ep_dyn_ancillary_weapon_ceremonial_sword_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_ceremonial_sword_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{6abee974-073e-4488-9401-83e526437df4}" record_timestamp="1551887884119" record_key="ep_dyn_ceo_threshold_ancillary_weapon_cleaver_of_mountains_unique">
+<ceo>ep_dyn_ancillary_weapon_cleaver_of_mountains_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_cleaver_of_mountains_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{d7c6c1ed-75a3-4aaa-ab99-a312c672ec0c}" record_timestamp="1551887884119" record_key="ep_dyn_ceo_threshold_ancillary_weapon_composite_bow_unique">
+<ceo>ep_dyn_ancillary_weapon_composite_bow_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_composite_bow_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{da86248b-3d3f-4331-995f-a7f6e26ced77}" record_timestamp="1551887884119" record_key="ep_dyn_ceo_threshold_ancillary_weapon_double_edged_sword_unique">
+<ceo>ep_dyn_ancillary_weapon_double_edged_sword_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_double_edged_sword_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{7e71e931-f9b6-45ea-8594-46eeb04770ca}" record_timestamp="1551887884120" record_key="ep_dyn_ceo_threshold_ancillary_weapon_dual_axes_exceptional">
+<ceo>ep_dyn_ancillary_weapon_dual_axes_exceptional</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_dual_axes_exceptional</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{67ddfec1-ca77-496d-a66a-14ee48380b5d}" record_timestamp="1551887884120" record_key="ep_dyn_ceo_threshold_ancillary_weapon_dual_short_ji_exceptional">
+<ceo>ep_dyn_ancillary_weapon_dual_short_ji_exceptional</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_dual_short_ji_exceptional</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{32590f27-3402-4788-a6af-3d521c3148ca}" record_timestamp="1551887884120" record_key="ep_dyn_ceo_threshold_ancillary_weapon_giant_mace_unique">
+<ceo>ep_dyn_ancillary_weapon_giant_mace_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_giant_mace_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{9e160daa-10f0-4530-bec8-1d4468b44f61}" record_timestamp="1551887884120" record_key="ep_dyn_ceo_threshold_ancillary_weapon_green_dragon_crescent_blade">
+<ceo>ep_dyn_ancillary_weapon_green_dragon_crescent_blade</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_green_dragon_crescent_blade</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{7174a96c-3c21-4130-8a71-707f960f9e7c}" record_timestamp="1551887884120" record_key="ep_dyn_ceo_threshold_ancillary_weapon_ma_su">
+<ceo>ep_dyn_ancillary_weapon_ma_su</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_ma_su</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{58931e00-d85f-4c40-b836-b3dfd66e1644}" record_timestamp="1551887884121" record_key="ep_dyn_ceo_threshold_ancillary_weapon_serpent_spear">
+<ceo>ep_dyn_ancillary_weapon_serpent_spear</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_serpent_spear</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{c807fe7b-3631-4b15-93b4-01fc276a5383}" record_timestamp="1551887884121" record_key="ep_dyn_ceo_threshold_ancillary_weapon_short_ji_exceptional">
+<ceo>ep_dyn_ancillary_weapon_short_ji_exceptional</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_short_ji_exceptional</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{4f5c412b-a8c1-4192-afdf-32c80dba90f9}" record_timestamp="1551887884121" record_key="ep_dyn_ceo_threshold_ancillary_weapon_shuang_gu_jian">
+<ceo>ep_dyn_ancillary_weapon_shuang_gu_jian</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_shuang_gu_jian</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{d4999388-eb2d-4ab7-893a-41e7c72b4c79}" record_timestamp="1551887884121" record_key="ep_dyn_ceo_threshold_ancillary_weapon_the_blue_blade">
+<ceo>ep_dyn_ancillary_weapon_the_blue_blade</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_the_blue_blade</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{85451a64-aff1-4efb-8293-b90f2968ddea}" record_timestamp="1551887884121" record_key="ep_dyn_ceo_threshold_ancillary_weapon_trident_halberd">
+<ceo>ep_dyn_ancillary_weapon_trident_halberd</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_trident_halberd</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{2dd06077-8a27-4e92-bc64-c4a0b0e0b5ae}" record_timestamp="1551887884122" record_key="ep_dyn_ceo_threshold_ancillary_weapon_trust_of_god">
+<ceo>ep_dyn_ancillary_weapon_trust_of_god</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_trust_of_god</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{1c4787fc-8e90-46b1-95f8-cd8fc17ae2b5}" record_timestamp="1551887884122" record_key="ep_dyn_ceo_threshold_ancillary_weapon_two_handed_spear_unique">
+<ceo>ep_dyn_ancillary_weapon_two_handed_spear_unique</ceo>
+<key>ep_dyn_ceo_threshold_ancillary_weapon_two_handed_spear_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{6001f004-4177-4bb3-a317-49b0a740f4b8}" record_timestamp="1553100960655" record_key="ep_threshold_ancillary_armour_heavy_armour_fire_extraordinary">
+<ceo>ep_ancillary_armour_heavy_armour_fire_extraordinary</ceo>
+<key>ep_threshold_ancillary_armour_heavy_armour_fire_extraordinary</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{d3ca32ad-7f9c-403f-a14d-96f909086c2d}" record_timestamp="1553100960707" record_key="ep_threshold_ancillary_armour_heavy_armour_fire_unique">
+<ceo>ep_ancillary_armour_heavy_armour_fire_unique</ceo>
+<key>ep_threshold_ancillary_armour_heavy_armour_fire_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{9e5fc530-5786-485e-8194-c8b77fa2bf5a}" record_timestamp="1553100960864" record_key="ep_threshold_ancillary_armour_heavy_armour_wood_extraordinary">
+<ceo>ep_ancillary_armour_heavy_armour_wood_extraordinary</ceo>
+<key>ep_threshold_ancillary_armour_heavy_armour_wood_extraordinary</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{6418c499-b111-4644-9097-311e7ad6f1dc}" record_timestamp="1553100960915" record_key="ep_threshold_ancillary_armour_heavy_armour_wood_unique">
+<ceo>ep_ancillary_armour_heavy_armour_wood_unique</ceo>
+<key>ep_threshold_ancillary_armour_heavy_armour_wood_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{a2031820-6ec7-484b-a6be-17b1966c8568}" record_timestamp="1553100960145" record_key="ep_threshold_ancillary_armour_light_armour_earth_extraordinary">
+<ceo>ep_ancillary_armour_light_armour_earth_extraordinary</ceo>
+<key>ep_threshold_ancillary_armour_light_armour_earth_extraordinary</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{2b57314a-9088-4db3-8842-7195edc71056}" record_timestamp="1553100960197" record_key="ep_threshold_ancillary_armour_light_armour_earth_unique">
+<ceo>ep_ancillary_armour_light_armour_earth_unique</ceo>
+<key>ep_threshold_ancillary_armour_light_armour_earth_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{a9203e12-9ae1-4831-acab-812c439951fc}" record_timestamp="1553100960349" record_key="ep_threshold_ancillary_armour_light_armour_metal_extraordinary">
+<ceo>ep_ancillary_armour_light_armour_metal_extraordinary</ceo>
+<key>ep_threshold_ancillary_armour_light_armour_metal_extraordinary</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{e332427f-6507-4a27-8a1f-4d53efc7a5dd}" record_timestamp="1553100960400" record_key="ep_threshold_ancillary_armour_light_armour_metal_unique">
+<ceo>ep_ancillary_armour_light_armour_metal_unique</ceo>
+<key>ep_threshold_ancillary_armour_light_armour_metal_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{54bbe44f-cd7a-4f68-874a-bb2afd8dc855}" record_timestamp="1553100960247" record_key="ep_threshold_ancillary_armour_medium_armour_earth_extraordinary">
+<ceo>ep_ancillary_armour_medium_armour_earth_extraordinary</ceo>
+<key>ep_threshold_ancillary_armour_medium_armour_earth_extraordinary</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{085dda24-d935-46cf-973f-0ff979cb4438}" record_timestamp="1553100960298" record_key="ep_threshold_ancillary_armour_medium_armour_earth_unique">
+<ceo>ep_ancillary_armour_medium_armour_earth_unique</ceo>
+<key>ep_threshold_ancillary_armour_medium_armour_earth_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{770d64ec-86e7-486a-983b-3d8bdd98114b}" record_timestamp="1553100960553" record_key="ep_threshold_ancillary_armour_medium_armour_fire_extraordinary">
+<ceo>ep_ancillary_armour_medium_armour_fire_extraordinary</ceo>
+<key>ep_threshold_ancillary_armour_medium_armour_fire_extraordinary</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{5956e34c-39ff-4632-b2e6-50eff0ba00ef}" record_timestamp="1553100960604" record_key="ep_threshold_ancillary_armour_medium_armour_fire_unique">
+<ceo>ep_ancillary_armour_medium_armour_fire_unique</ceo>
+<key>ep_threshold_ancillary_armour_medium_armour_fire_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{48b13dfc-c3e5-479c-a734-3bc0fc81d2ad}" record_timestamp="1553100960451" record_key="ep_threshold_ancillary_armour_medium_armour_metal_extraordinary">
+<ceo>ep_ancillary_armour_medium_armour_metal_extraordinary</ceo>
+<key>ep_threshold_ancillary_armour_medium_armour_metal_extraordinary</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{502ecc91-1973-4976-b5b0-96d99da2ef98}" record_timestamp="1553100960502" record_key="ep_threshold_ancillary_armour_medium_armour_metal_unique">
+<ceo>ep_ancillary_armour_medium_armour_metal_unique</ceo>
+<key>ep_threshold_ancillary_armour_medium_armour_metal_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{5a38ce96-ac6d-4296-8b15-387235bc898b}" record_timestamp="1553100960762" record_key="ep_threshold_ancillary_armour_medium_armour_wood_extraordinary">
+<ceo>ep_ancillary_armour_medium_armour_wood_extraordinary</ceo>
+<key>ep_threshold_ancillary_armour_medium_armour_wood_extraordinary</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{390b285f-b86a-43c2-ae42-cb73657da250}" record_timestamp="1553100960813" record_key="ep_threshold_ancillary_armour_medium_armour_wood_unique">
+<ceo>ep_ancillary_armour_medium_armour_wood_unique</ceo>
+<key>ep_threshold_ancillary_armour_medium_armour_wood_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{b020d83a-f011-4d8f-98d4-ce14ee368111}" record_timestamp="1553100960043" record_key="ep_threshold_ancillary_armour_strategist_light_armour_water_extraordinary">
+<ceo>ep_ancillary_armour_strategist_light_armour_water_extraordinary</ceo>
+<key>ep_threshold_ancillary_armour_strategist_light_armour_water_extraordinary</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{e64253de-9c97-48fd-b146-6f9351257c77}" record_timestamp="1553100960094" record_key="ep_threshold_ancillary_armour_strategist_light_armour_water_unique">
+<ceo>ep_ancillary_armour_strategist_light_armour_water_unique</ceo>
+<key>ep_threshold_ancillary_armour_strategist_light_armour_water_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{319cdc4a-3364-4b5e-b0fc-4a6d5d754d0c}" record_timestamp="1553100959891" record_key="ep_threshold_ancillary_sima_ai_armour_unique">
+<ceo>ep_ancillary_sima_ai_armour_unique</ceo>
+<key>ep_threshold_ancillary_sima_ai_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{93692bb4-cc37-4238-ab70-2d1388aa460f}" record_timestamp="1553100961121" record_key="ep_threshold_ancillary_sima_jiong_armour_unique">
+<ceo>ep_ancillary_sima_jiong_armour_unique</ceo>
+<key>ep_threshold_ancillary_sima_jiong_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{c2cd4d83-908b-4f64-9821-97a659998083}" record_timestamp="1553100960967" record_key="ep_threshold_ancillary_sima_liang_armour_unique">
+<ceo>ep_ancillary_sima_liang_armour_unique</ceo>
+<key>ep_threshold_ancillary_sima_liang_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{1102d5d4-5c8f-4f7f-948f-e3052d7ebc26}" record_timestamp="1553100961070" record_key="ep_threshold_ancillary_sima_lun_armour_unique">
+<ceo>ep_ancillary_sima_lun_armour_unique</ceo>
+<key>ep_threshold_ancillary_sima_lun_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{6810f6c0-e346-4f5a-a93d-6aa01fb7bdac}" record_timestamp="1553100961018" record_key="ep_threshold_ancillary_sima_wei_armour_unique">
+<ceo>ep_ancillary_sima_wei_armour_unique</ceo>
+<key>ep_threshold_ancillary_sima_wei_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{46a3481e-ac20-4d65-a5e4-2d7484c6f256}" record_timestamp="1553100959840" record_key="ep_threshold_ancillary_sima_ying_armour_unique">
+<ceo>ep_ancillary_sima_ying_armour_unique</ceo>
+<key>ep_threshold_ancillary_sima_ying_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{fade2635-555c-4ccf-b1d9-71fdc785fad0}" record_timestamp="1553100959941" record_key="ep_threshold_ancillary_sima_yong_armour_unique">
+<ceo>ep_ancillary_sima_yong_armour_unique</ceo>
+<key>ep_threshold_ancillary_sima_yong_armour_unique</key>
+<max_points>1</max_points>
+<point_theshold_to_destroy>0</point_theshold_to_destroy>
+<point_threshold_to_activate>1</point_threshold_to_activate>
+<resets_to_starting_points_when_deactivated>0</resets_to_starting_points_when_deactivated>
+<starting_points>1</starting_points>
+</ceo_thresholds>
+<ceo_thresholds record_uuid="{af80314c-1c5b-43cd-ac48-637fb58414e7}" record_timestamp="1553100959992" record_key="ep_threshold_ancillary_sima_yue_armour_unique">
+<ceo>ep_ancillary_sima_yue_armour_unique</ceo>
+<key>ep_threshold_ancillary_sima_yue_armour_unique</key>
 <max_points>1</max_points>
 <point_theshold_to_destroy>0</point_theshold_to_destroy>
 <point_threshold_to_activate>1</point_threshold_to_activate>

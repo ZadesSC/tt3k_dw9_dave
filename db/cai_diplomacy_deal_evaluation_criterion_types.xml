@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_evaluation_criterion_types.xsd" export_time="Fri Jun 7 16:59:15 2019" revision="37" export_branch="T:/branches/3k/patch1/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>ef3f6f65-e25f-4e2b-b089-6229355bf017</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_evaluation_criterion_types.xsd" export_time="Wed Apr 10 09:31:59 2019" revision="34" export_branch="C:/TW/branches/3k/eight/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>5d04b993-2ea6-46f3-9047-7bdcf2e57556</edit_uuid>
 <cai_diplomacy_deal_evaluation_criterion_types record_uuid="{bb977675-bbaa-412e-b7eb-00e5854b53b6}" record_timestamp="1544961233112" record_key="AI_TO_AI_MODIFIER">
 <display_name>deal_evaluation_factor_strength</display_name>
 <key>AI_TO_AI_MODIFIER</key>
@@ -69,19 +69,11 @@
 <display_name>deal_evaluation_factor_region</display_name>
 <key>REGION_DEFAULT</key>
 </cai_diplomacy_deal_evaluation_criterion_types>
-<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{1c611ff1-4eec-4348-a609-1792d5246a0e}" record_timestamp="1559923152116" record_key="REGION_FOOD_DEFAULT_DEMAND">
-<display_name>deal_evaluation_factor_food</display_name>
-<key>REGION_FOOD_DEFAULT_DEMAND</key>
-</cai_diplomacy_deal_evaluation_criterion_types>
-<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{f831256f-9d68-4d5e-a32a-5677a97d8c13}" record_timestamp="1559923152118" record_key="REGION_FOOD_DEFAULT_OFFER">
-<display_name>deal_evaluation_factor_food</display_name>
-<key>REGION_FOOD_DEFAULT_OFFER</key>
-</cai_diplomacy_deal_evaluation_criterion_types>
 <cai_diplomacy_deal_evaluation_criterion_types record_uuid="{c3b7c83c-6f38-48c0-bf65-72aeb97ea1f8}" record_timestamp="1502285998970" record_key="RESPECT_DEFAULT">
 <display_name>deal_evaluation_factor_respect</display_name>
 <key>RESPECT_DEFAULT</key>
 </cai_diplomacy_deal_evaluation_criterion_types>
-<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{17a6eec1-bc92-4d91-81dc-09e2ad4e1c94}" record_timestamp="1552925437575" record_key="RESPECT_EFFECT_OWN">
+<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{17a6eec1-bc92-4d91-81dc-09e2ad4e1c94}" record_timestamp="1554884997571" record_key="RESPECT_EFFECT_OWN">
 <display_name>deal_evauation_factor_treachery</display_name>
 <key>RESPECT_EFFECT_OWN</key>
 </cai_diplomacy_deal_evaluation_criterion_types>
@@ -93,7 +85,7 @@
 <display_name>deal_evaluation_factor_respect_alliance</display_name>
 <key>RESPECT_FACTION_TO_ALLIANCE_MEMBERS_EXCEPT_ME</key>
 </cai_diplomacy_deal_evaluation_criterion_types>
-<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{26ef5fd9-e385-4106-bd09-75b3583578f0}" record_timestamp="1552925428455" record_key="RESPECT_TOWARDS_PRIMARY_RECIPIENT">
+<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{26ef5fd9-e385-4106-bd09-75b3583578f0}" record_timestamp="1554884997553" record_key="RESPECT_TOWARDS_PRIMARY_RECIPIENT">
 <display_name>deal_evaluation_factor_respect_alliance</display_name>
 <key>RESPECT_TOWARDS_PRIMARY_RECIPIENT</key>
 </cai_diplomacy_deal_evaluation_criterion_types>
@@ -121,7 +113,7 @@
 <display_name>deal_evaluation_factor_stance</display_name>
 <key>STANCE_TARGET</key>
 </cai_diplomacy_deal_evaluation_criterion_types>
-<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{2079f116-c406-4d1d-b966-a4ec71c95975}" record_timestamp="1552925428618" record_key="STANCE_TOWARDS_PRIMARY_RECIPIENT">
+<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{2079f116-c406-4d1d-b966-a4ec71c95975}" record_timestamp="1554884997557" record_key="STANCE_TOWARDS_PRIMARY_RECIPIENT">
 <display_name>deal_evaluation_factor_stance_towards_proposer</display_name>
 <key>STANCE_TOWARDS_PRIMARY_RECIPIENT</key>
 </cai_diplomacy_deal_evaluation_criterion_types>
@@ -153,10 +145,6 @@
 <display_name>deal_evaluation_factor_common_threat</display_name>
 <key>STRATEGIC_HAVE_COMMON_THREAT</key>
 </cai_diplomacy_deal_evaluation_criterion_types>
-<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{ce96918d-5869-4f6b-beed-cf0deb1c0c00}" record_timestamp="1559920643086" record_key="STRATEGIC_NUMBER_OF_VASSALS_PENALTY">
-<display_name>deal_evaluation_factor_alliance_size</display_name>
-<key>STRATEGIC_NUMBER_OF_VASSALS_PENALTY</key>
-</cai_diplomacy_deal_evaluation_criterion_types>
 <cai_diplomacy_deal_evaluation_criterion_types record_uuid="{a577e8a7-77d5-4278-87d0-260f3f243787}" record_timestamp="1536682084346" record_key="STRATEGIC_OPPONENT_ALLY_IS_MAIN_THREAT">
 <display_name>deal_evaluation_factor_main_threat_your_ally</display_name>
 <key>STRATEGIC_OPPONENT_ALLY_IS_MAIN_THREAT</key>
@@ -168,10 +156,6 @@
 <cai_diplomacy_deal_evaluation_criterion_types record_uuid="{7ad0019d-3f9a-4480-9b7d-f0dd3a5956ef}" record_timestamp="1536682084346" record_key="STRATEGIC_OPPONENT_IS_MAIN_THREAT">
 <display_name>deal_evaluation_factor_main_threat_you</display_name>
 <key>STRATEGIC_OPPONENT_IS_MAIN_THREAT</key>
-</cai_diplomacy_deal_evaluation_criterion_types>
-<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{fb89b4c1-3368-4c0c-8db0-9bcb69116ea9}" record_timestamp="1559921179201" record_key="STRATEGIC_PENALTY_TO_BECOMING_SUBORDINATE_BECAUSE_OF_RECENT_LIBERATION">
-<display_name>deal_evaluation_factor_recently_broken_deal</display_name>
-<key>STRATEGIC_PENALTY_TO_BECOMING_SUBORDINATE_BECAUSE_OF_RECENT_LIBERATION</key>
 </cai_diplomacy_deal_evaluation_criterion_types>
 <cai_diplomacy_deal_evaluation_criterion_types record_uuid="{153b7885-399d-494d-b78b-0c17e5139176}" record_timestamp="1519388321519" record_key="STRATEGIC_PENALTY_TO_BREAK_TREATY_BECAUSE_OF_MOST_RECENT_SIGNED_TREATY_WITH_ANY_OF_THEIR_ALLIANCE_MEMBERS">
 <display_name>deal_evaluation_factor_recently_signed_deal_alliance</display_name>
@@ -265,7 +249,7 @@
 <display_name>deal_evaluation_factor_strength</display_name>
 <key>STRATEGIC_STRENGTH_OUR_WITH_VASSALS_VS_THEIR_WITH_FULL_ALLIED_IF_POSITIVE_BALANCE</key>
 </cai_diplomacy_deal_evaluation_criterion_types>
-<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{0ffc1ec5-f689-4b6e-8fb7-7c84be457940}" record_timestamp="1552925428289" record_key="STRATEGIC_STRENGTH_PRIMARY_RECIPIENT_AND_VASSALS_TO_TOTAL_IF_POSITIVE_BALANCE">
+<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{0ffc1ec5-f689-4b6e-8fb7-7c84be457940}" record_timestamp="1554884997552" record_key="STRATEGIC_STRENGTH_PRIMARY_RECIPIENT_AND_VASSALS_TO_TOTAL_IF_POSITIVE_BALANCE">
 <display_name>deal_evaluation_factor_strength_third_party</display_name>
 <key>STRATEGIC_STRENGTH_PRIMARY_RECIPIENT_AND_VASSALS_TO_TOTAL_IF_POSITIVE_BALANCE</key>
 </cai_diplomacy_deal_evaluation_criterion_types>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE TWaD_ministerial_positions_culture_details>
 <root>
-<edit_uuid>6a4bda08-7e2c-425d-aa1a-c21451b012e0</edit_uuid>
+<edit_uuid>e34e77d0-cb13-41ac-83ff-c8ee0495968f</edit_uuid>
 <include_all_records_in_retail>1</include_all_records_in_retail>
 <field>
 <field_uuid>{7b653d33-54a5-420b-aa28-2c898be9ed3c}</field_uuid>
@@ -186,6 +186,18 @@
 <max_length>255</max_length>
 <column_source_column>key</column_source_column>
 <column_source_table>ui_ministerial_positions</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{094727b1-6038-4944-a943-d6db25bcc0c4}</field_uuid>
+<primary_key>0</primary_key>
+<name>campaign_key</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
+<column_source_column>campaign_name</column_source_column>
+<column_source_table>campaigns</column_source_table>
 <requires_startpos_reprocess>0</requires_startpos_reprocess>
 <requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
 </field>

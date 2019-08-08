@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="settlement_siege_action_effect_loot_and_damage_buildings.xsd" export_time="Wed Feb 6 13:53:54 2019" revision="16" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1329/dave" export_user="bob">
-<edit_uuid>2e6fd117-c963-44f9-8f10-e40bd2295bc7</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="settlement_siege_action_effect_loot_and_damage_buildings.xsd" export_time="Thu Jun 20 11:44:52 2019" revision="18" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1527/dave" export_user="bob">
+<edit_uuid>f71f447e-0043-4d35-9c3b-06e7589508e1</edit_uuid>
 <settlement_siege_action_effect_loot_and_damage_buildings record_uuid="{0def3fb4-286a-4070-a77b-ff4ff1579fce}" record_timestamp="1549461234701" record_key="action_effects_loot_and_occupy_major">
 <base_loot_value>250</base_loot_value>
 <building_damage_percentage>12</building_damage_percentage>
@@ -16,6 +16,22 @@
 <building_loot_modifier_percentage>15</building_loot_modifier_percentage>
 <effect_group>action_effects_loot_and_occupy_major_he_yi</effect_group>
 <total_loot_modifier_percentage>18</total_loot_modifier_percentage>
+</settlement_siege_action_effect_loot_and_damage_buildings>
+<settlement_siege_action_effect_loot_and_damage_buildings record_uuid="{0fd4d5b8-715f-411b-bc34-6046ac388937}" record_timestamp="1561027488013" record_key="action_effects_loot_and_occupy_major_sima_liang">
+<base_loot_value>250</base_loot_value>
+<building_damage_percentage>12</building_damage_percentage>
+<building_damage_spread_percentage>5</building_damage_spread_percentage>
+<building_loot_modifier_percentage>15</building_loot_modifier_percentage>
+<effect_group>action_effects_loot_and_occupy_major_sima_liang</effect_group>
+<total_loot_modifier_percentage>50</total_loot_modifier_percentage>
+</settlement_siege_action_effect_loot_and_damage_buildings>
+<settlement_siege_action_effect_loot_and_damage_buildings record_uuid="{f8719af1-046c-4e08-b3d2-cf2f48c97e03}" record_timestamp="1559669707245" record_key="action_effects_loot_and_occupy_major_sima_wei">
+<base_loot_value>250</base_loot_value>
+<building_damage_percentage>12</building_damage_percentage>
+<building_damage_spread_percentage>5</building_damage_spread_percentage>
+<building_loot_modifier_percentage>15</building_loot_modifier_percentage>
+<effect_group>action_effects_loot_and_occupy_major_sima_wei</effect_group>
+<total_loot_modifier_percentage>50</total_loot_modifier_percentage>
 </settlement_siege_action_effect_loot_and_damage_buildings>
 <settlement_siege_action_effect_loot_and_damage_buildings record_uuid="{4c6d7386-b4aa-46fb-96bd-f2c5576c2dc6}" record_timestamp="1549461234701" record_key="action_effects_loot_and_occupy_major_zheng_jiang">
 <base_loot_value>250</base_loot_value>
@@ -40,6 +56,22 @@
 <building_loot_modifier_percentage>15</building_loot_modifier_percentage>
 <effect_group>action_effects_loot_and_occupy_minor_he_yi</effect_group>
 <total_loot_modifier_percentage>18</total_loot_modifier_percentage>
+</settlement_siege_action_effect_loot_and_damage_buildings>
+<settlement_siege_action_effect_loot_and_damage_buildings record_uuid="{2695801a-adeb-403c-8a3c-07ac1ea7ef19}" record_timestamp="1561027488013" record_key="action_effects_loot_and_occupy_minor_sima_liang">
+<base_loot_value>250</base_loot_value>
+<building_damage_percentage>12</building_damage_percentage>
+<building_damage_spread_percentage>5</building_damage_spread_percentage>
+<building_loot_modifier_percentage>15</building_loot_modifier_percentage>
+<effect_group>action_effects_loot_and_occupy_minor_sima_liang</effect_group>
+<total_loot_modifier_percentage>50</total_loot_modifier_percentage>
+</settlement_siege_action_effect_loot_and_damage_buildings>
+<settlement_siege_action_effect_loot_and_damage_buildings record_uuid="{6c0dd07c-eb0a-42a9-91e0-caa89f3f5140}" record_timestamp="1559669707082" record_key="action_effects_loot_and_occupy_minor_sima_wei">
+<base_loot_value>250</base_loot_value>
+<building_damage_percentage>12</building_damage_percentage>
+<building_damage_spread_percentage>5</building_damage_spread_percentage>
+<building_loot_modifier_percentage>15</building_loot_modifier_percentage>
+<effect_group>action_effects_loot_and_occupy_minor_sima_wei</effect_group>
+<total_loot_modifier_percentage>50</total_loot_modifier_percentage>
 </settlement_siege_action_effect_loot_and_damage_buildings>
 <settlement_siege_action_effect_loot_and_damage_buildings record_uuid="{8a01127f-5346-42c5-be6b-d5661de32388}" record_timestamp="1549461234701" record_key="action_effects_loot_and_occupy_minor_zheng_jiang">
 <base_loot_value>250</base_loot_value>
@@ -73,6 +105,22 @@
 <effect_group>action_effects_sack_and_withdraw_major_he_yi</effect_group>
 <total_loot_modifier_percentage>18</total_loot_modifier_percentage>
 </settlement_siege_action_effect_loot_and_damage_buildings>
+<settlement_siege_action_effect_loot_and_damage_buildings record_uuid="{1d01512b-3918-4895-8e90-3f74c9cd7577}" record_timestamp="1561027488012" record_key="action_effects_sack_and_withdraw_major_sima_liang">
+<base_loot_value>500</base_loot_value>
+<building_damage_percentage>18</building_damage_percentage>
+<building_damage_spread_percentage>5</building_damage_spread_percentage>
+<building_loot_modifier_percentage>15</building_loot_modifier_percentage>
+<effect_group>action_effects_sack_and_withdraw_major_sima_liang</effect_group>
+<total_loot_modifier_percentage>50</total_loot_modifier_percentage>
+</settlement_siege_action_effect_loot_and_damage_buildings>
+<settlement_siege_action_effect_loot_and_damage_buildings record_uuid="{2a1ee2e6-c6f1-4d94-8522-1f3c395cf819}" record_timestamp="1559669707572" record_key="action_effects_sack_and_withdraw_major_sima_wei">
+<base_loot_value>500</base_loot_value>
+<building_damage_percentage>18</building_damage_percentage>
+<building_damage_spread_percentage>5</building_damage_spread_percentage>
+<building_loot_modifier_percentage>15</building_loot_modifier_percentage>
+<effect_group>action_effects_sack_and_withdraw_major_sima_wei</effect_group>
+<total_loot_modifier_percentage>50</total_loot_modifier_percentage>
+</settlement_siege_action_effect_loot_and_damage_buildings>
 <settlement_siege_action_effect_loot_and_damage_buildings record_uuid="{8f38dc42-3126-4a21-adec-8ed8727c0517}" record_timestamp="1549461234701" record_key="action_effects_sack_and_withdraw_major_zheng_jiang">
 <base_loot_value>500</base_loot_value>
 <building_damage_percentage>18</building_damage_percentage>
@@ -104,6 +152,22 @@
 <building_loot_modifier_percentage>15</building_loot_modifier_percentage>
 <effect_group>action_effects_sack_and_withdraw_minor_he_yi</effect_group>
 <total_loot_modifier_percentage>18</total_loot_modifier_percentage>
+</settlement_siege_action_effect_loot_and_damage_buildings>
+<settlement_siege_action_effect_loot_and_damage_buildings record_uuid="{ad58bef1-fb31-4ded-b59f-4d4abaf012ea}" record_timestamp="1561027488012" record_key="action_effects_sack_and_withdraw_minor_sima_liang">
+<base_loot_value>500</base_loot_value>
+<building_damage_percentage>18</building_damage_percentage>
+<building_damage_spread_percentage>5</building_damage_spread_percentage>
+<building_loot_modifier_percentage>15</building_loot_modifier_percentage>
+<effect_group>action_effects_sack_and_withdraw_minor_sima_liang</effect_group>
+<total_loot_modifier_percentage>50</total_loot_modifier_percentage>
+</settlement_siege_action_effect_loot_and_damage_buildings>
+<settlement_siege_action_effect_loot_and_damage_buildings record_uuid="{51626e5a-3873-4abd-86e3-40438464652b}" record_timestamp="1559669707409" record_key="action_effects_sack_and_withdraw_minor_sima_wei">
+<base_loot_value>500</base_loot_value>
+<building_damage_percentage>18</building_damage_percentage>
+<building_damage_spread_percentage>5</building_damage_spread_percentage>
+<building_loot_modifier_percentage>15</building_loot_modifier_percentage>
+<effect_group>action_effects_sack_and_withdraw_minor_sima_wei</effect_group>
+<total_loot_modifier_percentage>50</total_loot_modifier_percentage>
 </settlement_siege_action_effect_loot_and_damage_buildings>
 <settlement_siege_action_effect_loot_and_damage_buildings record_uuid="{be937572-17c7-4c60-be2c-398bf4db1e90}" record_timestamp="1549461234701" record_key="action_effects_sack_and_withdraw_minor_zheng_jiang">
 <base_loot_value>500</base_loot_value>

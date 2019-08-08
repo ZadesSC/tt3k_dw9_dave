@@ -50,9 +50,14 @@
 <table_name>agent_subtype_civil_war_faction_overrides</table_name>
 <table_name>agent_subtype_loyalty_factor_junctions</table_name>
 <table_name>agent_subtype_subculture_overrides</table_name>
+<table_name>agent_subtype_weighted_selection_set_to_weights</table_name>
+<table_name>agent_subtype_weighted_selection_sets</table_name>
 <table_name>agent_subtypes</table_name>
 <table_name>agent_to_agent_abilities</table_name>
 <table_name>agent_uniforms</table_name>
+<table_name>agent_weighted_selection_set_group_lookups</table_name>
+<table_name>agent_weighted_selection_sets</table_name>
+<table_name>agent_weighted_selection_to_subtype_sets</table_name>
 <table_name>agents</table_name>
 <table_name>ai_usage_groups</table_name>
 <table_name>aide_de_camp_speeches</table_name>
@@ -67,6 +72,7 @@
 <table_name>animation_triggers</table_name>
 <table_name>area_of_effect_displays</table_name>
 <table_name>army_special_abilities</table_name>
+<table_name>assembly_kit_localisation_texts</table_name>
 <table_name>audio_abilities</table_name>
 <table_name>audio_ability_phases</table_name>
 <table_name>audio_area_of_effect_positioning_types</table_name>
@@ -194,6 +200,7 @@
 <table_name>battle_personality_types_enum</table_name>
 <table_name>battle_result_character_capture_details</table_name>
 <table_name>battle_result_types</table_name>
+<table_name>battle_scoring_profiles</table_name>
 <table_name>battle_sequences</table_name>
 <table_name>battle_set_piece_armies</table_name>
 <table_name>battle_set_piece_armies_characters</table_name>
@@ -718,6 +725,7 @@
 <table_name>campaign_ground_types</table_name>
 <table_name>campaign_ground_types_climate_overrides</table_name>
 <table_name>campaign_group_agent_cost_pooled_resource_conversion_rates</table_name>
+<table_name>campaign_group_building_level_garrison_retinues</table_name>
 <table_name>campaign_group_campaign_diplomacy_treaty_component_set_queries</table_name>
 <table_name>campaign_group_captive_option_requirements</table_name>
 <table_name>campaign_group_captive_option_sets</table_name>
@@ -745,6 +753,7 @@
 <table_name>campaign_group_member_criteria_booleans</table_name>
 <table_name>campaign_group_member_criteria_building_levels</table_name>
 <table_name>campaign_group_member_criteria_building_slot_groups</table_name>
+<table_name>campaign_group_member_criteria_campaign_contexts</table_name>
 <table_name>campaign_group_member_criteria_campaign_diplomacy_treaty_component_set_contexts</table_name>
 <table_name>campaign_group_member_criteria_campaign_diplomacy_treaty_component_sets</table_name>
 <table_name>campaign_group_member_criteria_campaigns</table_name>
@@ -821,6 +830,7 @@
 <table_name>campaign_localised_strings</table_name>
 <table_name>campaign_map_areas_of_interest</table_name>
 <table_name>campaign_map_areas_of_interest_label_positions</table_name>
+<table_name>campaign_map_attrition_application_phases</table_name>
 <table_name>campaign_map_attrition_damages</table_name>
 <table_name>campaign_map_attrition_faction_immunities</table_name>
 <table_name>campaign_map_attrition_types</table_name>
@@ -1226,6 +1236,9 @@
 <table_name>dynamic_loading_screen_event_filters</table_name>
 <table_name>dynamic_loading_screen_events</table_name>
 <table_name>dynamic_loading_screen_starting_faction_events</table_name>
+<table_name>dynasty_mode_characters</table_name>
+<table_name>dynasty_upgrade_types</table_name>
+<table_name>dynasty_upgrades</table_name>
 <table_name>effect_bonus_value_agent_action_record_junctions</table_name>
 <table_name>effect_bonus_value_agent_junction</table_name>
 <table_name>effect_bonus_value_agent_subtype_junctions</table_name>
@@ -1384,6 +1397,7 @@
 <table_name>frontend_faction_leaders</table_name>
 <table_name>frontend_faction_leaders_to_frontend_campaign_selection_map_pins_junctions</table_name>
 <table_name>frontend_faction_leaders_to_frontend_faction_leader_unique_features_junctions</table_name>
+<table_name>frontend_faction_map_relationships</table_name>
 <table_name>frontend_faction_top_units</table_name>
 <table_name>frontend_factions</table_name>
 <table_name>game_area_enums</table_name>
@@ -1417,6 +1431,7 @@
 <table_name>land_units_officers</table_name>
 <table_name>land_units_templates</table_name>
 <table_name>land_units_to_deployables_abilities_junctions</table_name>
+<table_name>land_units_to_dynasty_upgrades_junctions</table_name>
 <table_name>land_units_to_unit_abilites_junctions</table_name>
 <table_name>languages</table_name>
 <table_name>loading_screen_quotes</table_name>
@@ -1497,6 +1512,7 @@
 <table_name>mp_force_gen_templates</table_name>
 <table_name>name_order_overrides</table_name>
 <table_name>name_orders</table_name>
+<table_name>name_restricted_combinations</table_name>
 <table_name>name_types</table_name>
 <table_name>names</table_name>
 <table_name>names_groups</table_name>

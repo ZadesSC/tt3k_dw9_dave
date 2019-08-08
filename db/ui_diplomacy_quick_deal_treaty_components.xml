@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ui_diplomacy_quick_deal_treaty_components.xsd" export_time="Wed Mar 20 12:01:15 2019" revision="21" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1394/dave" export_user="bob">
-<edit_uuid>40b0bc24-0521-48ab-8447-3ffb736e5c09</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ui_diplomacy_quick_deal_treaty_components.xsd" export_time="Mon Jul 1 16:42:18 2019" revision="18" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1552/dave" export_user="bob">
+<edit_uuid>1c6db363-844f-4b21-b35e-05967a092842</edit_uuid>
 <ui_diplomacy_quick_deal_treaty_components record_uuid="{60e7d27d-d286-44d5-a1cf-f45194744e2c}" record_timestamp="1542734706548" record_key="abdicate_recipient">
 <campaign_diplomacy_treaty_component>treaty_components_abdicate_demand</campaign_diplomacy_treaty_component>
 <key>abdicate_recipient</key>
@@ -55,7 +55,7 @@
 <localised_quick_deal_title state="APPROVED" last_approved_text="Demand autonomy" last_edit_user="bob">Demand autonomy</localised_quick_deal_title>
 <sort_order>15</sort_order>
 </ui_diplomacy_quick_deal_treaty_components>
-<ui_diplomacy_quick_deal_treaty_components record_uuid="{804e1d31-75d9-4fd6-a5ea-b596e8ff19c9}" record_timestamp="1552650725369" record_key="liu_bei_confederate_recipient">
+<ui_diplomacy_quick_deal_treaty_components record_uuid="{804e1d31-75d9-4fd6-a5ea-b596e8ff19c9}" record_timestamp="1554883509707" record_key="liu_bei_confederate_recipient">
 <campaign_diplomacy_treaty_component>treaty_components_liu_bei_confederate_recipient</campaign_diplomacy_treaty_component>
 <key>liu_bei_confederate_recipient</key>
 <localised_quick_deal_title state="APPROVED" last_approved_text="Propose unification" last_edit_user="bob">Propose unification</localised_quick_deal_title>
@@ -109,13 +109,19 @@
 <localised_quick_deal_title state="APPROVED" last_approved_text="Become vassal" last_edit_user="bob">Become vassal</localised_quick_deal_title>
 <sort_order>7</sort_order>
 </ui_diplomacy_quick_deal_treaty_components>
-<ui_diplomacy_quick_deal_treaty_components record_uuid="{0d973205-c270-4d9f-b65d-dce0e3072c02}" record_timestamp="1551114835811" record_key="vassalise_proposer_yellow_turban">
+<ui_diplomacy_quick_deal_treaty_components record_uuid="{8a7d06d0-96f6-4592-a071-2f804aad2362}" record_timestamp="1559835299320" record_key="vassalise_proposer_sima_liang">
+<campaign_diplomacy_treaty_component>treaty_components_vassalise_proposer_sima_liang</campaign_diplomacy_treaty_component>
+<key>vassalise_proposer_sima_liang</key>
+<localised_quick_deal_title state="APPROVED" last_approved_text="Offer to co-operate" last_edit_user="bob">Offer to co-operate</localised_quick_deal_title>
+<sort_order>7</sort_order>
+</ui_diplomacy_quick_deal_treaty_components>
+<ui_diplomacy_quick_deal_treaty_components record_uuid="{0d973205-c270-4d9f-b65d-dce0e3072c02}" record_timestamp="1551788082099" record_key="vassalise_proposer_yellow_turban">
 <campaign_diplomacy_treaty_component>treaty_components_vassalise_proposer_yellow_turban</campaign_diplomacy_treaty_component>
 <key>vassalise_proposer_yellow_turban</key>
 <localised_quick_deal_title state="APPROVED" last_approved_text="Submit to the cause" last_edit_user="bob">Submit to the cause</localised_quick_deal_title>
 <sort_order>7</sort_order>
 </ui_diplomacy_quick_deal_treaty_components>
-<ui_diplomacy_quick_deal_treaty_components record_uuid="{16e69a93-825a-4cfa-be95-118bde5f2877}" record_timestamp="1551962483265" record_key="vassalise_proposer_yuan_shu">
+<ui_diplomacy_quick_deal_treaty_components record_uuid="{16e69a93-825a-4cfa-be95-118bde5f2877}" record_timestamp="1554881661813" record_key="vassalise_proposer_yuan_shu">
 <campaign_diplomacy_treaty_component>treaty_components_vassalise_proposer_yuan_shu</campaign_diplomacy_treaty_component>
 <key>vassalise_proposer_yuan_shu</key>
 <localised_quick_deal_title state="APPROVED" last_approved_text="Offer subservience" last_edit_user="bob">Offer subservience</localised_quick_deal_title>
@@ -127,13 +133,19 @@
 <localised_quick_deal_title state="APPROVED" last_approved_text="Create vassal" last_edit_user="bob">Create vassal</localised_quick_deal_title>
 <sort_order>6</sort_order>
 </ui_diplomacy_quick_deal_treaty_components>
-<ui_diplomacy_quick_deal_treaty_components record_uuid="{f894b1ec-aa1f-4e6c-af8c-7fe2b2f4e194}" record_timestamp="1551114835811" record_key="vassalise_recipient_yellow_turban">
+<ui_diplomacy_quick_deal_treaty_components record_uuid="{82ac8b94-a4c0-4735-9b40-6c067e9907ba}" record_timestamp="1559835299320" record_key="vassalise_recipient_sima_liang">
+<campaign_diplomacy_treaty_component>treaty_components_vassalise_recipient_sima_liang</campaign_diplomacy_treaty_component>
+<key>vassalise_recipient_sima_liang</key>
+<localised_quick_deal_title state="APPROVED" last_approved_text="Seek co-operation" last_edit_user="bob">Seek co-operation</localised_quick_deal_title>
+<sort_order>6</sort_order>
+</ui_diplomacy_quick_deal_treaty_components>
+<ui_diplomacy_quick_deal_treaty_components record_uuid="{f894b1ec-aa1f-4e6c-af8c-7fe2b2f4e194}" record_timestamp="1551788082099" record_key="vassalise_recipient_yellow_turban">
 <campaign_diplomacy_treaty_component>treaty_components_vassalise_recipient_yellow_turban</campaign_diplomacy_treaty_component>
 <key>vassalise_recipient_yellow_turban</key>
 <localised_quick_deal_title state="APPROVED" last_approved_text="Demand submission" last_edit_user="bob">Demand submission</localised_quick_deal_title>
 <sort_order>6</sort_order>
 </ui_diplomacy_quick_deal_treaty_components>
-<ui_diplomacy_quick_deal_treaty_components record_uuid="{56606922-cd8e-40f0-a517-e939beceb632}" record_timestamp="1551962483209" record_key="vassalise_recipient_yuan_shu">
+<ui_diplomacy_quick_deal_treaty_components record_uuid="{56606922-cd8e-40f0-a517-e939beceb632}" record_timestamp="1554881661813" record_key="vassalise_recipient_yuan_shu">
 <campaign_diplomacy_treaty_component>treaty_components_vassalise_recipient_yuan_shu</campaign_diplomacy_treaty_component>
 <key>vassalise_recipient_yuan_shu</key>
 <localised_quick_deal_title state="APPROVED" last_approved_text="Demand subservience" last_edit_user="bob">Demand subservience</localised_quick_deal_title>

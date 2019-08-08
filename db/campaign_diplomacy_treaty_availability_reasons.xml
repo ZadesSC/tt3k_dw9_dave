@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_treaty_availability_reasons.xsd" export_time="Fri Apr 12 11:45:56 2019" revision="118" export_branch="T:/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>bacc992c-7d5d-490c-8f0a-1c9f05059a8d</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_treaty_availability_reasons.xsd" export_time="Mon Jul 15 13:59:13 2019" revision="121" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1583/dave" export_user="bob">
+<edit_uuid>e5375128-e6ce-454c-a4c6-0d28079da2c9</edit_uuid>
 <campaign_diplomacy_treaty_availability_reasons record_uuid="{f0b9b9f6-6216-484f-a89c-3a0639eb1892}" record_timestamp="1523456299915" record_key="DELETE_THIS_GROUP">
 <description state="HIDDEN" last_approved_text="" last_edit_user="bob">\n[[col:yellow]]N/A[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
@@ -85,6 +85,12 @@
 <key>confederation_restricted</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{7a67f1fe-5274-4f07-a1a3-614cc8a02d71}" record_timestamp="1560430844070" record_key="deception_proposed">
+<description state="APPROVED" last_approved_text="\n[[col:red]]You are already deceiving this hapless fool![[/col]]" last_edit_user="bob">\n[[col:red]]You are already deceiving this hapless fool![[/col]]</description>
+<hide_in_ui>0</hide_in_ui>
+<key>deception_proposed</key>
+<priority>899</priority>
+</campaign_diplomacy_treaty_availability_reasons>
 <campaign_diplomacy_treaty_availability_reasons record_uuid="{89e43a82-5320-4dbe-b30f-d05c075ceb75}" record_timestamp="1523036964530" record_key="faction_specific">
 <description state="APPROVED" last_approved_text="\n[[col:red]]This term is a unique diplomatic option for this faction.[[/col]]" last_edit_user="bob">\n[[col:red]]This term is a unique diplomatic option for this faction.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
@@ -163,10 +169,22 @@
 <key>insufficient_credibility</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{9745f324-c016-4784-8150-dff7ae6edd9b}" record_timestamp="1562334897606" record_key="insufficient_influence">
+<description state="APPROVED" last_approved_text="\n[[col:red]]Your faction does not have enough influence to afford this action.[[/col]]" last_edit_user="bob">\n[[col:red]]Your faction does not have enough influence to afford this action.[[/col]]</description>
+<hide_in_ui>0</hide_in_ui>
+<key>insufficient_influence</key>
+<priority>1</priority>
+</campaign_diplomacy_treaty_availability_reasons>
 <campaign_diplomacy_treaty_availability_reasons record_uuid="{d40962c8-6c27-4991-a856-709b4ecf4646}" record_timestamp="1542369072523" record_key="insufficient_intimidation">
 <description state="APPROVED" last_approved_text="\n[[col:red]]Your faction does not have enough intimidation to afford this action.[[/col]]" last_edit_user="bob">\n[[col:red]]Your faction does not have enough intimidation to afford this action.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>insufficient_intimidation</key>
+<priority>1</priority>
+</campaign_diplomacy_treaty_availability_reasons>
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{b386e42d-318e-471d-a481-75b257b4cdc1}" record_timestamp="1559652446469" record_key="insufficient_subterfuge">
+<description state="APPROVED" last_approved_text="\n[[col:red]]Your faction does not have enough subterfuge to afford this action.[[/col]]" last_edit_user="bob">\n[[col:red]]Your faction does not have enough subterfuge to afford this action.[[/col]]</description>
+<hide_in_ui>0</hide_in_ui>
+<key>insufficient_subterfuge</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
 <campaign_diplomacy_treaty_availability_reasons record_uuid="{82445dc9-caea-4ed5-b60a-01189a61c47c}" record_timestamp="1523456299912" record_key="is_han_empire">
@@ -174,6 +192,24 @@
 <hide_in_ui>0</hide_in_ui>
 <key>is_han_empire</key>
 <priority>1000</priority>
+</campaign_diplomacy_treaty_availability_reasons>
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{abf04a66-8ab5-4829-bf9d-bba3e5962b4b}" record_timestamp="1555430490806" record_key="is_jin_empire_annex">
+<description state="APPROVED" last_approved_text="\n[[col:red]]You cannot annex or confederate the Jin Empire until you reach the rank of {#proposer_rank-3#}[[/col]]" last_edit_user="bob">\n[[col:red]]You cannot annex or confederate the Jin Empire until you reach the rank of {#proposer_rank-3#}[[/col]]</description>
+<hide_in_ui>0</hide_in_ui>
+<key>is_jin_empire_annex</key>
+<priority>900</priority>
+</campaign_diplomacy_treaty_availability_reasons>
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{ea920d23-56dd-4a3d-98d4-2388ba8391a1}" record_timestamp="1557842729163" record_key="is_jin_empire_vassalise">
+<description state="APPROVED" last_approved_text="\n[[col:red]]You cannot vassalise the Jin Empire until you reach the rank of {#proposer_rank-2#}[[/col]]" last_edit_user="bob">\n[[col:red]]You cannot vassalise the Jin Empire until you reach the rank of {#proposer_rank-2#}[[/col]]</description>
+<hide_in_ui>0</hide_in_ui>
+<key>is_jin_empire_vassalise</key>
+<priority>900</priority>
+</campaign_diplomacy_treaty_availability_reasons>
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{48286a8f-c902-4e0e-ae6e-4e828a4905e9}" record_timestamp="1555430490828" record_key="is_jin_empire_war">
+<description state="APPROVED" last_approved_text="\n[[col:red]]You cannot declare war on the Jin Empire until you reach the rank of {#proposer_rank-2#} and trigger the second milestone event[[/col]]" last_edit_user="bob">\n[[col:red]]You cannot declare war on the Jin Empire until you reach the rank of {#proposer_rank-2#} and trigger the second milestone event[[/col]]</description>
+<hide_in_ui>0</hide_in_ui>
+<key>is_jin_empire_war</key>
+<priority>900</priority>
 </campaign_diplomacy_treaty_availability_reasons>
 <campaign_diplomacy_treaty_availability_reasons record_uuid="{3765ff8a-fd8f-49c0-b643-3b91c7964c6e}" record_timestamp="1542403160174" record_key="join_war_offered">
 <description state="APPROVED" last_approved_text="\n[[col:red]]This is not the kind of proposal you can make whilst already offering to join their ongoing war![/col]]" last_edit_user="bob">\n[[col:red]]This is not the kind of proposal you can make whilst already offering to join their ongoing war![/col]]</description>
@@ -247,13 +283,13 @@
 <key>military_access_recipient_to_any_existing_not</key>
 <priority>19</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{1fde1b8a-eb0f-4cb5-a0a0-affa3117c8ac}" record_timestamp="1552567858744" record_key="multiplayer_vitory_existing_not">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{1fde1b8a-eb0f-4cb5-a0a0-affa3117c8ac}" record_timestamp="1554883337406" record_key="multiplayer_vitory_existing_not">
 <description state="APPROVED" last_approved_text="\n[[col:red]]A co-operative victory pact already exists between you and this player.[[/col]]" last_edit_user="bob">\n[[col:red]]A co-operative victory pact already exists between you and this player.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>multiplayer_vitory_existing_not</key>
 <priority>11</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{55543344-0d8b-427a-a1d8-720b56048b0d}" record_timestamp="1552567858744" record_key="multiplayer_vitory_proposed_not">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{55543344-0d8b-427a-a1d8-720b56048b0d}" record_timestamp="1554883337406" record_key="multiplayer_vitory_proposed_not">
 <description state="APPROVED" last_approved_text="\n[[col:red]]A co-operative victory pact is already proposed in the current negotiation.[[/col]]" last_edit_user="bob">\n[[col:red]]A co-operative victory pact is already proposed in the current negotiation.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>multiplayer_vitory_proposed_not</key>
@@ -313,49 +349,49 @@
 <key>non_aggression_proposer_to_recipient_existing</key>
 <priority>12</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{298e195e-af66-4378-b9a7-645c1ed88113}" record_timestamp="1551990979339" record_key="options_proposer_not_world_leader_proposer_not_civil_war">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{298e195e-af66-4378-b9a7-645c1ed88113}" record_timestamp="1554882088048" record_key="options_proposer_not_world_leader_proposer_not_civil_war">
 <description state="APPROVED" last_approved_text="\n[[col:red]]You cannot do this so long as you are emperor or a faction involved in a civil war.[[/col]]" last_edit_user="bob">\n[[col:red]]You cannot do this so long as you are emperor or a faction involved in a civil war.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>options_proposer_not_world_leader_proposer_not_civil_war</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{f4e7bcd0-d9f4-4929-b320-e16cb3738553}" record_timestamp="1551990978646" record_key="options_proposer_rank_2_recipient_not_world_leader_recipient_not_civil_war">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{f4e7bcd0-d9f4-4929-b320-e16cb3738553}" record_timestamp="1554882088047" record_key="options_proposer_rank_2_recipient_not_world_leader_recipient_not_civil_war">
 <description state="APPROVED" last_approved_text="\n[[col:red]]You must have achieved the position of {#proposer_rank-2#}, but cannot propose this to an emperor or a faction involved in a civil war.[[/col]]" last_edit_user="bob">\n[[col:red]]You must have achieved the position of {#proposer_rank-2#}, but cannot propose this to an emperor or a faction involved in a civil war.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>options_proposer_rank_2_recipient_not_world_leader_recipient_not_civil_war</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{5d7084c9-cc8f-4bbd-9761-b4fb7ba7fbc0}" record_timestamp="1551990979543" record_key="options_proposer_rank_4_recipient_not_world_leader_recipient_not_civil_war">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{5d7084c9-cc8f-4bbd-9761-b4fb7ba7fbc0}" record_timestamp="1554882088048" record_key="options_proposer_rank_4_recipient_not_world_leader_recipient_not_civil_war">
 <description state="APPROVED" last_approved_text="\n[[col:red]]You must have achieved the position of {#proposer_rank-4#}, but cannot propose this to an emperor or a faction involved in a civil war.[[/col]]" last_edit_user="bob">\n[[col:red]]You must have achieved the position of {#proposer_rank-4#}, but cannot propose this to an emperor or a faction involved in a civil war.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>options_proposer_rank_4_recipient_not_world_leader_recipient_not_civil_war</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{d576859f-5eed-4fc4-af54-cc16dd9fc569}" record_timestamp="1551990979240" record_key="options_proposer_rank_5_recipient_not_world_leader_recipient_not_civil_war">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{d576859f-5eed-4fc4-af54-cc16dd9fc569}" record_timestamp="1554882088048" record_key="options_proposer_rank_5_recipient_not_world_leader_recipient_not_civil_war">
 <description state="APPROVED" last_approved_text="\n[[col:red]]You must have achieved the position of {#proposer_rank-5#}, but cannot propose this to an emperor or a faction involved in a civil war.[[/col]]" last_edit_user="bob">\n[[col:red]]You must have achieved the position of {#proposer_rank-5#}, but cannot propose this to an emperor or a faction involved in a civil war.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>options_proposer_rank_5_recipient_not_world_leader_recipient_not_civil_war</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{c240101e-ba62-4622-a7a5-13a974eb3f3f}" record_timestamp="1551990978943" record_key="options_recipient_not_world_leader_recipient_not_civil_war">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{c240101e-ba62-4622-a7a5-13a974eb3f3f}" record_timestamp="1554882088047" record_key="options_recipient_not_world_leader_recipient_not_civil_war">
 <description state="APPROVED" last_approved_text="\n[[col:red]]You cannot do this to a faction who is an emperor or a faction involved in a civil war.[[/col]]" last_edit_user="bob">\n[[col:red]]You cannot do this to a faction who is an emperor or a faction involved in a civil war.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>options_recipient_not_world_leader_recipient_not_civil_war</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{12de0a45-c0da-4d3e-9593-a392b71442fa}" record_timestamp="1551990978845" record_key="options_recipient_rank_2_proposer_not_world_leader_proposer_not_civil_war">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{12de0a45-c0da-4d3e-9593-a392b71442fa}" record_timestamp="1554882088047" record_key="options_recipient_rank_2_proposer_not_world_leader_proposer_not_civil_war">
 <description state="APPROVED" last_approved_text="\n[[col:red]]This can only be proposed to factions who've reached the rank of {#recipient_rank-2#}, but not by an emperor or a faction involved in a civil war.[[/col]]" last_edit_user="bob">\n[[col:red]]This can only be proposed to factions who've reached the rank of {#recipient_rank-2#}, but not by an emperor or a faction involved in a civil war.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>options_recipient_rank_2_proposer_not_world_leader_proposer_not_civil_war</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{cee06f41-a1b6-4c46-85cc-cc3d78716260}" record_timestamp="1551990979042" record_key="options_recipient_rank_4_proposer_not_world_leader_proposer_not_civil_war">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{cee06f41-a1b6-4c46-85cc-cc3d78716260}" record_timestamp="1554882088047" record_key="options_recipient_rank_4_proposer_not_world_leader_proposer_not_civil_war">
 <description state="APPROVED" last_approved_text="\n[[col:red]]This can only be proposed to factions who've reached the rank of {#recipient_rank-4#},  but not by an emperor or a faction involved in a civil war.[[/col]]" last_edit_user="bob">\n[[col:red]]This can only be proposed to factions who've reached the rank of {#recipient_rank-4#},  but not by an emperor or a faction involved in a civil war.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>options_recipient_rank_4_proposer_not_world_leader_proposer_not_civil_war</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{5bda3856-a266-40eb-bb40-f8a8fdbd2da2}" record_timestamp="1551990979443" record_key="options_recipient_rank_5_proposer_not_world_leader_proposer_not_civil_war">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{5bda3856-a266-40eb-bb40-f8a8fdbd2da2}" record_timestamp="1554882088048" record_key="options_recipient_rank_5_proposer_not_world_leader_proposer_not_civil_war">
 <description state="APPROVED" last_approved_text="\n[[col:red]]This can only be proposed to factions who've reached the rank of {#recipient_rank-5#},  but not by an emperor or a faction involved in a civil war.[[/col]]" last_edit_user="bob">\n[[col:red]]This can only be proposed to factions who've reached the rank of {#recipient_rank-5#},  but not by an emperor or a faction involved in a civil war.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>options_recipient_rank_5_proposer_not_world_leader_proposer_not_civil_war</key>
@@ -367,25 +403,25 @@
 <key>payment_proposed</key>
 <priority>30</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{f0319082-2ac4-47c7-9825-174832eea681}" record_timestamp="1551984168189" record_key="payments_offered_proposer_to_recipient_not">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{f0319082-2ac4-47c7-9825-174832eea681}" record_timestamp="1554882080754" record_key="payments_offered_proposer_to_recipient_not">
 <description state="APPROVED" last_approved_text="\n[[col:red]]This term cannot be proposed whilst also offering payment.[[/col]]" last_edit_user="bob">\n[[col:red]]This term cannot be proposed whilst also offering payment.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>payments_offered_proposer_to_recipient_not</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{8f108442-b03c-43bd-a3ff-16d01d31e951}" record_timestamp="1551984170981" record_key="payments_offered_recipient_to_proposer_not">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{8f108442-b03c-43bd-a3ff-16d01d31e951}" record_timestamp="1554882080777" record_key="payments_offered_recipient_to_proposer_not">
 <description state="APPROVED" last_approved_text="\n[[col:red]]This term cannot be proposed whilst being offered payments.[[/col]]" last_edit_user="bob">\n[[col:red]]This term cannot be proposed whilst being offered payments.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>payments_offered_recipient_to_proposer_not</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{21fe8186-352f-45ce-af08-a0fad286620c}" record_timestamp="1551984172498" record_key="payments_requested_proposer_to_recipient_not">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{21fe8186-352f-45ce-af08-a0fad286620c}" record_timestamp="1554882080780" record_key="payments_requested_proposer_to_recipient_not">
 <description state="APPROVED" last_approved_text="\n[[col:red]]This term cannot be proposed whilst also requesting payment.[[/col]]" last_edit_user="bob">\n[[col:red]]This term cannot be proposed whilst also requesting payment.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>payments_requested_proposer_to_recipient_not</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{8c4f7806-4522-45ba-b335-0fc6a0726610}" record_timestamp="1551984168266" record_key="payments_requested_recipient_to_proposer_not">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{8c4f7806-4522-45ba-b335-0fc6a0726610}" record_timestamp="1554882080754" record_key="payments_requested_recipient_to_proposer_not">
 <description state="APPROVED" last_approved_text="\n[[col:red]]This term cannot be proposed whilst payments are being demanded of us.[[/col]]" last_edit_user="bob">\n[[col:red]]This term cannot be proposed whilst payments are being demanded of us.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>payments_requested_recipient_to_proposer_not</key>
@@ -451,7 +487,7 @@
 <key>proposer_alliance_to_recipient_not</key>
 <priority>360</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{f2b09a3a-43f6-45b9-9bf1-64a9699d7398}" record_timestamp="1551984184044" record_key="proposer_ancillary_proposed_not">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{f2b09a3a-43f6-45b9-9bf1-64a9699d7398}" record_timestamp="1554882080840" record_key="proposer_ancillary_proposed_not">
 <description state="APPROVED" last_approved_text="\n[[col:red]]This is not possible when there are ancillary items proposed in trade.[[/col]]" last_edit_user="bob">\n[[col:red]]This is not possible when there are ancillary items proposed in trade.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>proposer_ancillary_proposed_not</key>
@@ -505,7 +541,7 @@
 <key>proposer_has_ancillary_to_trade_not</key>
 <priority>10</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{e912f674-c6f4-4985-9a2b-dd7f16d22682}" record_timestamp="1552586013533" record_key="proposer_has_regions_proposed_not">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{e912f674-c6f4-4985-9a2b-dd7f16d22682}" record_timestamp="1554883492824" record_key="proposer_has_regions_proposed_not">
 <description state="APPROVED" last_approved_text="\n[[col:red]]You cannot do this while offering your regions in trade.[[/col]]" last_edit_user="bob">\n[[col:red]]You cannot do this while offering your regions in trade.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>proposer_has_regions_proposed_not</key>
@@ -577,7 +613,7 @@
 <key>recipient_alliance_to_any_proposer_not_in_alliance</key>
 <priority>303</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{cf3c44ed-7b0c-40d2-a23d-40f9ef18d43d}" record_timestamp="1551984183867" record_key="recipient_ancillary_proposed_not">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{cf3c44ed-7b0c-40d2-a23d-40f9ef18d43d}" record_timestamp="1554882080840" record_key="recipient_ancillary_proposed_not">
 <description state="APPROVED" last_approved_text="\n[[col:red]]This is not possible when there are ancillary items proposed in trade.[[/col]]" last_edit_user="bob">\n[[col:red]]This is not possible when there are ancillary items proposed in trade.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>recipient_ancillary_proposed_not</key>
@@ -625,7 +661,7 @@
 <key>recipient_has_ancillary_to_trade_not</key>
 <priority>10</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{d4733eda-52e4-4350-aa27-d8a98ffd4c07}" record_timestamp="1552586013533" record_key="recipient_has_regions_proposed_not">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{d4733eda-52e4-4350-aa27-d8a98ffd4c07}" record_timestamp="1554883492824" record_key="recipient_has_regions_proposed_not">
 <description state="APPROVED" last_approved_text="\n[[col:red]]You cannot do this while being offered regions in trade.[[/col]]" last_edit_user="bob">\n[[col:red]]You cannot do this while being offered regions in trade.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>recipient_has_regions_proposed_not</key>
@@ -655,7 +691,7 @@
 <key>recipient_marriage_unavailable_characters</key>
 <priority>10</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{c01b2adc-1e1b-4b04-a643-424fb7874479}" record_timestamp="1550525801112" record_key="recipient_military_alliance_to_any">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{c01b2adc-1e1b-4b04-a643-424fb7874479}" record_timestamp="1528967453079" record_key="recipient_military_alliance_to_any">
 <description state="APPROVED" last_approved_text="\n[[col:red]]This faction must be in an alliance before you can propose this term.[[/col]]" last_edit_user="bob">\n[[col:red]]This faction must be in an alliance before you can propose this term.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>recipient_military_alliance_to_any</key>
@@ -715,13 +751,13 @@
 <key>requires_peace</key>
 <priority>2</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{7e4390f7-9e24-4abb-ac70-1a335ddca625}" record_timestamp="1551875818583" record_key="requires_proposer_and_recipient_allies_world_leader_not">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{7e4390f7-9e24-4abb-ac70-1a335ddca625}" record_timestamp="1554881242494" record_key="requires_proposer_and_recipient_allies_world_leader_not">
 <description state="APPROVED" last_approved_text="\n[[col:red]]An emperor exists in their military alliance, this cannot be proposed whilst you are also an emperor.[[/col]]" last_edit_user="bob">\n[[col:red]]An emperor exists in their military alliance, this cannot be proposed whilst you are also an emperor.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>requires_proposer_and_recipient_allies_world_leader_not</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{e7564a02-96b5-4214-aa87-9c6dbc01cced}" record_timestamp="1551875818649" record_key="requires_proposer_and_recipient_coalition_world_leader_not">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{e7564a02-96b5-4214-aa87-9c6dbc01cced}" record_timestamp="1554881242494" record_key="requires_proposer_and_recipient_coalition_world_leader_not">
 <description state="APPROVED" last_approved_text="\n[[col:red]]An emperor exists in their coalition, this cannot be proposed whilst you are also an emperor.[[/col]]" last_edit_user="bob">\n[[col:red]]An emperor exists in their coalition, this cannot be proposed whilst you are also an emperor.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>requires_proposer_and_recipient_coalition_world_leader_not</key>
@@ -733,7 +769,7 @@
 <key>requires_proposer_and_recipient_world_leader</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{6ada6376-bd77-4dd8-a635-8e795b5d8036}" record_timestamp="1551875815803" record_key="requires_proposer_and_recipient_world_leader_not">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{6ada6376-bd77-4dd8-a635-8e795b5d8036}" record_timestamp="1554881242480" record_key="requires_proposer_and_recipient_world_leader_not">
 <description state="APPROVED" last_approved_text="\n[[col:red]]This is not possible  between two factions who are both emperors.[[/col]]" last_edit_user="bob">\n[[col:red]]This is not possible  between two factions who are both emperors.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>requires_proposer_and_recipient_world_leader_not</key>
@@ -811,7 +847,7 @@
 <key>requires_proposer_greater_faction_rank_4_recipient_not_world_leader</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{3a92a1c7-4e2f-48b7-90b0-bb9918bea3e5}" record_timestamp="1551114838537" record_key="requires_proposer_greater_faction_rank_5_recipient_not_world_leader">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{3a92a1c7-4e2f-48b7-90b0-bb9918bea3e5}" record_timestamp="1551788082256" record_key="requires_proposer_greater_faction_rank_5_recipient_not_world_leader">
 <description state="APPROVED" last_approved_text="\n[[col:red]]You must have achieved the position of {#proposer_rank-5#}, but cannot propose this to an emperor.[[/col]]" last_edit_user="bob">\n[[col:red]]You must have achieved the position of {#proposer_rank-5#}, but cannot propose this to an emperor.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>requires_proposer_greater_faction_rank_5_recipient_not_world_leader</key>
@@ -841,13 +877,13 @@
 <key>requires_recent_annexation_not</key>
 <priority>2</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{8861a158-fa67-4517-911d-3483c15b23f0}" record_timestamp="1551875818616" record_key="requires_recipient_and_proposer_allies_world_leader_not">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{8861a158-fa67-4517-911d-3483c15b23f0}" record_timestamp="1554881242494" record_key="requires_recipient_and_proposer_allies_world_leader_not">
 <description state="APPROVED" last_approved_text="\n[[col:red]]An emperor exists in your military alliance, this cannot be proposed to a faction who is also an emperor.[[/col]]" last_edit_user="bob">\n[[col:red]]An emperor exists in your military alliance, this cannot be proposed to a faction who is also an emperor.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>requires_recipient_and_proposer_allies_world_leader_not</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{5bfda91b-414b-4314-86f3-f93f225b290e}" record_timestamp="1551875818550" record_key="requires_recipient_and_proposer_coalition_world_leader_not">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{5bfda91b-414b-4314-86f3-f93f225b290e}" record_timestamp="1554881242494" record_key="requires_recipient_and_proposer_coalition_world_leader_not">
 <description state="APPROVED" last_approved_text="\n[[col:red]]An emperor exists in your coalition, this cannot be proposed to a faction who is also an emperor.[[/col]]" last_edit_user="bob">\n[[col:red]]An emperor exists in your coalition, this cannot be proposed to a faction who is also an emperor.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>requires_recipient_and_proposer_coalition_world_leader_not</key>
@@ -895,7 +931,7 @@
 <key>requires_recipient_greater_faction_rank_4_recipient_not_world_leader</key>
 <priority>1</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{30006720-1fc4-4e6d-bef4-7b09fe0ca96d}" record_timestamp="1551114838537" record_key="requires_recipient_greater_faction_rank_5_proposer_not_world_leader">
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{30006720-1fc4-4e6d-bef4-7b09fe0ca96d}" record_timestamp="1551788082256" record_key="requires_recipient_greater_faction_rank_5_proposer_not_world_leader">
 <description state="APPROVED" last_approved_text="\n[[col:red]]This can only be proposed to factions who've reached the rank of {#recipient_rank-5#}, but not by an emperor.[[/col]]" last_edit_user="bob">\n[[col:red]]This can only be proposed to factions who've reached the rank of {#recipient_rank-5#}, but not by an emperor.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>requires_recipient_greater_faction_rank_5_proposer_not_world_leader</key>
@@ -1117,8 +1153,8 @@
 <key>vassalage_your_vassal_or_vassalisation_proposed</key>
 <priority>76</priority>
 </campaign_diplomacy_treaty_availability_reasons>
-<campaign_diplomacy_treaty_availability_reasons record_uuid="{88e92b24-dc63-4e17-9f8e-586b507d60bf}" record_timestamp="1553769381046" record_key="war_allies_to_recipient">
-<description state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">\n[[col:red]]All of your allies are already at war with this faction.[[/col]]</description>
+<campaign_diplomacy_treaty_availability_reasons record_uuid="{88e92b24-dc63-4e17-9f8e-586b507d60bf}" record_timestamp="1554887213715" record_key="war_allies_to_recipient">
+<description state="APPROVED" last_approved_text="\n[[col:red]]All of your allies are already at war with this faction.[[/col]]" last_edit_user="bob">\n[[col:red]]All of your allies are already at war with this faction.[[/col]]</description>
 <hide_in_ui>0</hide_in_ui>
 <key>war_allies_to_recipient</key>
 <priority>1</priority>

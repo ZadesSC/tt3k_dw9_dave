@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="area_of_effect_displays.xsd" export_time="Wed Mar 20 12:40:15 2019" revision="48" export_branch="C:/Users/Peter.Vernon/AppData/Roaming/TWDaemon/1394/dave" export_user="bob">
-<edit_uuid>686b824a-b8f6-492f-896a-e87cf14d4006</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="area_of_effect_displays.xsd" export_time="Tue Jul 30 17:47:15 2019" revision="53" export_branch="C:/Users/Zoltan.Molnar.CA/AppData/Roaming/TWDaemon/1604/dave" export_user="bob">
+<edit_uuid>77c53872-164b-4d38-a2b8-dd4da99e3fe5</edit_uuid>
 <area_of_effect_displays record_uuid="{8770a361-55e4-4128-8a66-80cc484a8fae}" record_timestamp="1519149729756" record_key="3k_main_ability_element_earth">
 <composite_scene>composite_scene\abilities\3k_main_abilities_element_earth.csc</composite_scene>
 <custom_spline></custom_spline>
@@ -127,7 +127,7 @@
 <vfx_ring></vfx_ring>
 <vfx_ring_segment_length>-1</vfx_ring_segment_length>
 </area_of_effect_displays>
-<area_of_effect_displays record_uuid="{f0a93fa1-54d5-488c-8681-6f1efa88f647}" record_timestamp="1551891720036" record_key="3k_main_default_ring_highlight_earth">
+<area_of_effect_displays record_uuid="{f0a93fa1-54d5-488c-8681-6f1efa88f647}" record_timestamp="1554881222438" record_key="3k_main_default_ring_highlight_earth">
 <composite_scene></composite_scene>
 <custom_spline>inspiration_range</custom_spline>
 <decal></decal>
@@ -145,7 +145,7 @@
 <vfx_ring></vfx_ring>
 <vfx_ring_segment_length>-1</vfx_ring_segment_length>
 </area_of_effect_displays>
-<area_of_effect_displays record_uuid="{89f2cc06-59fb-4ad1-ab85-c4349cfa3393}" record_timestamp="1551891720036" record_key="3k_main_default_ring_highlight_fire">
+<area_of_effect_displays record_uuid="{89f2cc06-59fb-4ad1-ab85-c4349cfa3393}" record_timestamp="1554881222441" record_key="3k_main_default_ring_highlight_fire">
 <composite_scene></composite_scene>
 <custom_spline>inspiration_range</custom_spline>
 <decal></decal>
@@ -163,7 +163,7 @@
 <vfx_ring></vfx_ring>
 <vfx_ring_segment_length>-1</vfx_ring_segment_length>
 </area_of_effect_displays>
-<area_of_effect_displays record_uuid="{4ee375f6-2daf-4b30-b2ed-5d31a4603430}" record_timestamp="1551891720036" record_key="3k_main_default_ring_highlight_metal">
+<area_of_effect_displays record_uuid="{4ee375f6-2daf-4b30-b2ed-5d31a4603430}" record_timestamp="1554881222441" record_key="3k_main_default_ring_highlight_metal">
 <composite_scene></composite_scene>
 <custom_spline>inspiration_range</custom_spline>
 <decal></decal>
@@ -181,7 +181,7 @@
 <vfx_ring></vfx_ring>
 <vfx_ring_segment_length>-1</vfx_ring_segment_length>
 </area_of_effect_displays>
-<area_of_effect_displays record_uuid="{511e5e9c-a340-48b4-b8bf-57a9885838cd}" record_timestamp="1551891720036" record_key="3k_main_default_ring_highlight_water">
+<area_of_effect_displays record_uuid="{511e5e9c-a340-48b4-b8bf-57a9885838cd}" record_timestamp="1554881222441" record_key="3k_main_default_ring_highlight_water">
 <composite_scene></composite_scene>
 <custom_spline>inspiration_range</custom_spline>
 <decal></decal>
@@ -199,7 +199,7 @@
 <vfx_ring></vfx_ring>
 <vfx_ring_segment_length>-1</vfx_ring_segment_length>
 </area_of_effect_displays>
-<area_of_effect_displays record_uuid="{4b5f2138-ed42-4868-9d42-0f6ff5fedd9d}" record_timestamp="1551891720036" record_key="3k_main_default_ring_highlight_wood">
+<area_of_effect_displays record_uuid="{4b5f2138-ed42-4868-9d42-0f6ff5fedd9d}" record_timestamp="1554881222441" record_key="3k_main_default_ring_highlight_wood">
 <composite_scene></composite_scene>
 <custom_spline>inspiration_range</custom_spline>
 <decal></decal>
@@ -215,6 +215,240 @@
 <spline_tile_count>48</spline_tile_count>
 <vfx_central></vfx_central>
 <vfx_ring></vfx_ring>
+<vfx_ring_segment_length>-1</vfx_ring_segment_length>
+</area_of_effect_displays>
+<area_of_effect_displays record_uuid="{11fbf78f-197b-4536-8e4b-2eb746556995}" record_timestamp="1554479719774" record_key="ep_dyn_ability_cone">
+<composite_scene></composite_scene>
+<custom_spline></custom_spline>
+<decal></decal>
+<is_targetting_per_entity>1</is_targetting_per_entity>
+<key>ep_dyn_ability_cone</key>
+<spline_animation_speed>0</spline_animation_speed>
+<spline_col_b>255</spline_col_b>
+<spline_col_g>255</spline_col_g>
+<spline_col_r>255</spline_col_r>
+<spline_oor_col_b>255</spline_oor_col_b>
+<spline_oor_col_g>255</spline_oor_col_g>
+<spline_oor_col_r>255</spline_oor_col_r>
+<spline_tile_count>1</spline_tile_count>
+<vfx_central>3k_dlc03_targeting_cone</vfx_central>
+<vfx_ring></vfx_ring>
+<vfx_ring_segment_length>-1</vfx_ring_segment_length>
+</area_of_effect_displays>
+<area_of_effect_displays record_uuid="{167069de-344e-4b73-9519-614d8398943b}" record_timestamp="1555424729189" record_key="ep_dyn_ability_cone_earth">
+<composite_scene></composite_scene>
+<custom_spline></custom_spline>
+<decal></decal>
+<is_targetting_per_entity>1</is_targetting_per_entity>
+<key>ep_dyn_ability_cone_earth</key>
+<spline_animation_speed>0</spline_animation_speed>
+<spline_col_b>255</spline_col_b>
+<spline_col_g>255</spline_col_g>
+<spline_col_r>255</spline_col_r>
+<spline_oor_col_b>255</spline_oor_col_b>
+<spline_oor_col_g>255</spline_oor_col_g>
+<spline_oor_col_r>255</spline_oor_col_r>
+<spline_tile_count>1</spline_tile_count>
+<vfx_central>3k_dlc03_targeting_cone_earth</vfx_central>
+<vfx_ring></vfx_ring>
+<vfx_ring_segment_length>-1</vfx_ring_segment_length>
+</area_of_effect_displays>
+<area_of_effect_displays record_uuid="{04ada06f-0602-4335-903a-100742373f80}" record_timestamp="1555424729189" record_key="ep_dyn_ability_cone_fire">
+<composite_scene></composite_scene>
+<custom_spline></custom_spline>
+<decal></decal>
+<is_targetting_per_entity>1</is_targetting_per_entity>
+<key>ep_dyn_ability_cone_fire</key>
+<spline_animation_speed>0</spline_animation_speed>
+<spline_col_b>255</spline_col_b>
+<spline_col_g>255</spline_col_g>
+<spline_col_r>255</spline_col_r>
+<spline_oor_col_b>255</spline_oor_col_b>
+<spline_oor_col_g>255</spline_oor_col_g>
+<spline_oor_col_r>255</spline_oor_col_r>
+<spline_tile_count>1</spline_tile_count>
+<vfx_central>3k_dlc03_targeting_cone_fire</vfx_central>
+<vfx_ring></vfx_ring>
+<vfx_ring_segment_length>-1</vfx_ring_segment_length>
+</area_of_effect_displays>
+<area_of_effect_displays record_uuid="{77202367-4bbf-4171-a271-7c0477a8ef0a}" record_timestamp="1555424729189" record_key="ep_dyn_ability_cone_metal">
+<composite_scene></composite_scene>
+<custom_spline></custom_spline>
+<decal></decal>
+<is_targetting_per_entity>1</is_targetting_per_entity>
+<key>ep_dyn_ability_cone_metal</key>
+<spline_animation_speed>0</spline_animation_speed>
+<spline_col_b>255</spline_col_b>
+<spline_col_g>255</spline_col_g>
+<spline_col_r>255</spline_col_r>
+<spline_oor_col_b>255</spline_oor_col_b>
+<spline_oor_col_g>255</spline_oor_col_g>
+<spline_oor_col_r>255</spline_oor_col_r>
+<spline_tile_count>1</spline_tile_count>
+<vfx_central>3k_dlc03_targeting_cone_metal</vfx_central>
+<vfx_ring></vfx_ring>
+<vfx_ring_segment_length>-1</vfx_ring_segment_length>
+</area_of_effect_displays>
+<area_of_effect_displays record_uuid="{d667bc89-698b-471f-bb8b-fec7f41dcafa}" record_timestamp="1555424729189" record_key="ep_dyn_ability_cone_multishot">
+<composite_scene></composite_scene>
+<custom_spline></custom_spline>
+<decal></decal>
+<is_targetting_per_entity>1</is_targetting_per_entity>
+<key>ep_dyn_ability_cone_multishot</key>
+<spline_animation_speed>0</spline_animation_speed>
+<spline_col_b>255</spline_col_b>
+<spline_col_g>255</spline_col_g>
+<spline_col_r>255</spline_col_r>
+<spline_oor_col_b>255</spline_oor_col_b>
+<spline_oor_col_g>255</spline_oor_col_g>
+<spline_oor_col_r>255</spline_oor_col_r>
+<spline_tile_count>1</spline_tile_count>
+<vfx_central>3k_dlc03_targeting_multishot</vfx_central>
+<vfx_ring></vfx_ring>
+<vfx_ring_segment_length>-1</vfx_ring_segment_length>
+</area_of_effect_displays>
+<area_of_effect_displays record_uuid="{768a57e8-5a13-464d-a772-133bd5727332}" record_timestamp="1554479719774" record_key="ep_dyn_ability_line">
+<composite_scene></composite_scene>
+<custom_spline></custom_spline>
+<decal></decal>
+<is_targetting_per_entity>1</is_targetting_per_entity>
+<key>ep_dyn_ability_line</key>
+<spline_animation_speed>0</spline_animation_speed>
+<spline_col_b>255</spline_col_b>
+<spline_col_g>255</spline_col_g>
+<spline_col_r>255</spline_col_r>
+<spline_oor_col_b>255</spline_oor_col_b>
+<spline_oor_col_g>255</spline_oor_col_g>
+<spline_oor_col_r>255</spline_oor_col_r>
+<spline_tile_count>1</spline_tile_count>
+<vfx_central>3k_dlc03_targeting_line</vfx_central>
+<vfx_ring></vfx_ring>
+<vfx_ring_segment_length>-1</vfx_ring_segment_length>
+</area_of_effect_displays>
+<area_of_effect_displays record_uuid="{2a509450-875b-4e03-9710-a099bdcf2ac5}" record_timestamp="1555424729024" record_key="ep_dyn_ability_line_clear_a_path">
+<composite_scene></composite_scene>
+<custom_spline></custom_spline>
+<decal></decal>
+<is_targetting_per_entity>1</is_targetting_per_entity>
+<key>ep_dyn_ability_line_clear_a_path</key>
+<spline_animation_speed>0</spline_animation_speed>
+<spline_col_b>255</spline_col_b>
+<spline_col_g>255</spline_col_g>
+<spline_col_r>255</spline_col_r>
+<spline_oor_col_b>255</spline_oor_col_b>
+<spline_oor_col_g>255</spline_oor_col_g>
+<spline_oor_col_r>255</spline_oor_col_r>
+<spline_tile_count>1</spline_tile_count>
+<vfx_central>3k_dlc03_targeting_clear_a_path</vfx_central>
+<vfx_ring></vfx_ring>
+<vfx_ring_segment_length>-1</vfx_ring_segment_length>
+</area_of_effect_displays>
+<area_of_effect_displays record_uuid="{bae403b1-9bc5-4310-8a1f-f0fc34fa5d20}" record_timestamp="1555424729024" record_key="ep_dyn_ability_line_precision_shot">
+<composite_scene></composite_scene>
+<custom_spline></custom_spline>
+<decal></decal>
+<is_targetting_per_entity>1</is_targetting_per_entity>
+<key>ep_dyn_ability_line_precision_shot</key>
+<spline_animation_speed>0</spline_animation_speed>
+<spline_col_b>255</spline_col_b>
+<spline_col_g>255</spline_col_g>
+<spline_col_r>255</spline_col_r>
+<spline_oor_col_b>255</spline_oor_col_b>
+<spline_oor_col_g>255</spline_oor_col_g>
+<spline_oor_col_r>255</spline_oor_col_r>
+<spline_tile_count>1</spline_tile_count>
+<vfx_central>3k_dlc03_targeting_precision_shot</vfx_central>
+<vfx_ring></vfx_ring>
+<vfx_ring_segment_length>-1</vfx_ring_segment_length>
+</area_of_effect_displays>
+<area_of_effect_displays record_uuid="{f4733380-7cb7-4515-9aa5-d66f89bfda2b}" record_timestamp="1555424729025" record_key="ep_dyn_ability_line_tripleshot">
+<composite_scene></composite_scene>
+<custom_spline></custom_spline>
+<decal></decal>
+<is_targetting_per_entity>1</is_targetting_per_entity>
+<key>ep_dyn_ability_line_tripleshot</key>
+<spline_animation_speed>0</spline_animation_speed>
+<spline_col_b>255</spline_col_b>
+<spline_col_g>255</spline_col_g>
+<spline_col_r>255</spline_col_r>
+<spline_oor_col_b>255</spline_oor_col_b>
+<spline_oor_col_g>255</spline_oor_col_g>
+<spline_oor_col_r>255</spline_oor_col_r>
+<spline_tile_count>1</spline_tile_count>
+<vfx_central>3k_dlc03_targeting_tripleshot</vfx_central>
+<vfx_ring></vfx_ring>
+<vfx_ring_segment_length>-1</vfx_ring_segment_length>
+</area_of_effect_displays>
+<area_of_effect_displays record_uuid="{8f61d6b5-c5f2-4fb2-9817-0ccf70b9a8f4}" record_timestamp="1551880845519" record_key="ep_dyn_ability_ring">
+<composite_scene></composite_scene>
+<custom_spline></custom_spline>
+<decal></decal>
+<is_targetting_per_entity>1</is_targetting_per_entity>
+<key>ep_dyn_ability_ring</key>
+<spline_animation_speed>0</spline_animation_speed>
+<spline_col_b>55</spline_col_b>
+<spline_col_g>175</spline_col_g>
+<spline_col_r>212</spline_col_r>
+<spline_oor_col_b>255</spline_oor_col_b>
+<spline_oor_col_g>255</spline_oor_col_g>
+<spline_oor_col_r>255</spline_oor_col_r>
+<spline_tile_count>48</spline_tile_count>
+<vfx_central>3k_dlc03_targeting_centre</vfx_central>
+<vfx_ring>3k_dlc03_targeting_segment</vfx_ring>
+<vfx_ring_segment_length>-1</vfx_ring_segment_length>
+</area_of_effect_displays>
+<area_of_effect_displays record_uuid="{fb71aaad-7448-4855-a969-dbc8a2cd46b5}" record_timestamp="1554479719774" record_key="ep_dyn_ability_ring_small">
+<composite_scene></composite_scene>
+<custom_spline></custom_spline>
+<decal></decal>
+<is_targetting_per_entity>1</is_targetting_per_entity>
+<key>ep_dyn_ability_ring_small</key>
+<spline_animation_speed>0</spline_animation_speed>
+<spline_col_b>55</spline_col_b>
+<spline_col_g>175</spline_col_g>
+<spline_col_r>212</spline_col_r>
+<spline_oor_col_b>255</spline_oor_col_b>
+<spline_oor_col_g>255</spline_oor_col_g>
+<spline_oor_col_r>255</spline_oor_col_r>
+<spline_tile_count>16</spline_tile_count>
+<vfx_central></vfx_central>
+<vfx_ring>3k_dlc03_targeting_segment_small</vfx_ring>
+<vfx_ring_segment_length>-1</vfx_ring_segment_length>
+</area_of_effect_displays>
+<area_of_effect_displays record_uuid="{f3670842-3ed9-49bd-b02e-5dde6b2911a4}" record_timestamp="1555424729188" record_key="ep_dyn_ability_ring_wood">
+<composite_scene></composite_scene>
+<custom_spline></custom_spline>
+<decal></decal>
+<is_targetting_per_entity>1</is_targetting_per_entity>
+<key>ep_dyn_ability_ring_wood</key>
+<spline_animation_speed>0</spline_animation_speed>
+<spline_col_b>55</spline_col_b>
+<spline_col_g>175</spline_col_g>
+<spline_col_r>212</spline_col_r>
+<spline_oor_col_b>255</spline_oor_col_b>
+<spline_oor_col_g>255</spline_oor_col_g>
+<spline_oor_col_r>255</spline_oor_col_r>
+<spline_tile_count>48</spline_tile_count>
+<vfx_central></vfx_central>
+<vfx_ring>3k_dlc03_targeting_segment_wood</vfx_ring>
+<vfx_ring_segment_length>-1</vfx_ring_segment_length>
+</area_of_effect_displays>
+<area_of_effect_displays record_uuid="{3e6201c3-d03e-41ea-ac10-aa193d473750}" record_timestamp="1564505230802" record_key="ep_dyn_ability_ring_wood_wide">
+<composite_scene></composite_scene>
+<custom_spline></custom_spline>
+<decal></decal>
+<is_targetting_per_entity>1</is_targetting_per_entity>
+<key>ep_dyn_ability_ring_wood_wide</key>
+<spline_animation_speed>0</spline_animation_speed>
+<spline_col_b>55</spline_col_b>
+<spline_col_g>175</spline_col_g>
+<spline_col_r>212</spline_col_r>
+<spline_oor_col_b>255</spline_oor_col_b>
+<spline_oor_col_g>255</spline_oor_col_g>
+<spline_oor_col_r>255</spline_oor_col_r>
+<spline_tile_count>96</spline_tile_count>
+<vfx_central></vfx_central>
+<vfx_ring>3k_dlc03_targeting_segment_wood_wide</vfx_ring>
 <vfx_ring_segment_length>-1</vfx_ring_segment_length>
 </area_of_effect_displays>
 </dataroot>
