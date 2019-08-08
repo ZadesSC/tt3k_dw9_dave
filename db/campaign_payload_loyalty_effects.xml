@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_payload_loyalty_effects.xsd" export_time="Wed Feb 6 19:20:14 2019" revision="8" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1329/dave" export_user="bob">
-<edit_uuid>4acf88ec-9102-451f-96e1-4aea1f164054</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_payload_loyalty_effects.xsd" export_time="Tue Jun 4 18:35:40 2019" revision="9" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1501/dave" export_user="bob">
+<edit_uuid>3c7835fe-10a8-4b40-b4e5-c6826f17287f</edit_uuid>
 <campaign_payload_loyalty_effects record_uuid="{fcb6d47e-3a63-4757-8cf8-87d26f4dc1c3}" record_timestamp="1549480790287" record_key="1118875801">
 <id>1118875801</id>
 <loyalty_effect>recently_promoted</loyalty_effect>
@@ -140,6 +140,13 @@
 <payload>3k_main_campaign_payload_character_action_request_aid_1</payload>
 <required_character_ceos></required_character_ceos>
 <scope>TARGET_FACTION</scope>
+</campaign_payload_loyalty_effects>
+<campaign_payload_loyalty_effects record_uuid="{86192582-d0bd-4462-b75f-a4dd09e0d48f}" record_timestamp="1559669723365" record_key="580365583">
+<id>580365583</id>
+<loyalty_effect>presented_gift</loyalty_effect>
+<payload>ep_campaign_payload_political_action_gift</payload>
+<required_character_ceos></required_character_ceos>
+<scope>TARGET_CHARACTER</scope>
 </campaign_payload_loyalty_effects>
 <campaign_payload_loyalty_effects record_uuid="{a7d28a83-7c1e-4554-a12c-9f6b1646b046}" record_timestamp="1544540693196" record_key="622104896">
 <id>622104896</id>

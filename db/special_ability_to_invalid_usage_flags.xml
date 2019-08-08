@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="special_ability_to_invalid_usage_flags.xsd" export_time="Thu Mar 21 16:52:40 2019" revision="100" export_branch="C:/Users/attila.mohacsi/AppData/Roaming/TWDaemon/1394/dave" export_user="bob">
-<edit_uuid>5f3951b4-2b61-4fb5-aeda-75b94928056f</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="special_ability_to_invalid_usage_flags.xsd" export_time="Mon Jul 8 14:58:57 2019" revision="126" export_branch="C:/Users/william.wright/AppData/Roaming/TWDaemon/1566/dave" export_user="bob">
+<edit_uuid>9c52a962-7e85-444c-8bfe-d11fb2d6c0a4</edit_uuid>
 <special_ability_to_invalid_usage_flags record_uuid="{3eaa9950-6038-4fa2-b00c-44d0b60fbb8f}" record_timestamp="1533470521191" record_key="3k_main_ability_binding_furyout_of_hero_duel_and_no_attack_target">
 <invalid_usage_flag>out_of_hero_duel_and_no_attack_target</invalid_usage_flag>
 <special_ability>3k_main_ability_binding_fury</special_ability>
@@ -89,7 +89,7 @@
 <invalid_usage_flag>unit_has_attack_target_more_than_5_meters_away</invalid_usage_flag>
 <special_ability>3k_main_ability_the_dragon_s_gaze</special_ability>
 </special_ability_to_invalid_usage_flags>
-<special_ability_to_invalid_usage_flags record_uuid="{a46ca00f-1e5c-4002-9a97-830d0ee5e52a}" record_timestamp="1553187153103" record_key="3k_main_ability_the_dragon_s_gazeunit_is_in_active_or_pending_duel">
+<special_ability_to_invalid_usage_flags record_uuid="{a46ca00f-1e5c-4002-9a97-830d0ee5e52a}" record_timestamp="1554885511738" record_key="3k_main_ability_the_dragon_s_gazeunit_is_in_active_or_pending_duel">
 <invalid_usage_flag>unit_is_in_active_or_pending_duel</invalid_usage_flag>
 <special_ability>3k_main_ability_the_dragon_s_gaze</special_ability>
 </special_ability_to_invalid_usage_flags>
@@ -404,5 +404,17 @@
 <special_ability_to_invalid_usage_flags record_uuid="{c92ef329-63c9-4ff0-8315-6b701322252f}" record_timestamp="1534436257439" record_key="3k_ytr_ability_suprise_attackon_a_platform">
 <invalid_usage_flag>on_a_platform</invalid_usage_flag>
 <special_ability>3k_ytr_ability_suprise_attack</special_ability>
+</special_ability_to_invalid_usage_flags>
+<special_ability_to_invalid_usage_flags record_uuid="{ea78f868-de9d-417f-ba9f-fa328cbb000f}" record_timestamp="1551881779561" record_key="ep_dyn_ability_assassinateengaged_in_melee">
+<invalid_usage_flag>engaged_in_melee</invalid_usage_flag>
+<special_ability>ep_dyn_ability_assassinate</special_ability>
+</special_ability_to_invalid_usage_flags>
+<special_ability_to_invalid_usage_flags record_uuid="{dafae6bd-91ba-4454-b32a-f14c6499fdc8}" record_timestamp="1551881779561" record_key="ep_dyn_ability_assassinateunit_is_in_active_or_pending_duel">
+<invalid_usage_flag>unit_is_in_active_or_pending_duel</invalid_usage_flag>
+<special_ability>ep_dyn_ability_assassinate</special_ability>
+</special_ability_to_invalid_usage_flags>
+<special_ability_to_invalid_usage_flags record_uuid="{d3ba59a6-c1aa-4905-800b-33d07ce6b033}" record_timestamp="1553080662653" record_key="ep_dyn_ability_fire_bombengaged_in_melee">
+<invalid_usage_flag>engaged_in_melee</invalid_usage_flag>
+<special_ability>ep_dyn_ability_fire_bomb</special_ability>
 </special_ability_to_invalid_usage_flags>
 </dataroot>

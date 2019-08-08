@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_treaty_components.xsd" export_time="Wed Jun 5 16:30:28 2019" revision="187" export_branch="C:/Users/rick.venier/AppData/Roaming/TWDaemon/1501/dave" export_user="bob">
-<edit_uuid>1d06692a-f986-4759-b971-f8b5d67e8175</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_treaty_components.xsd" export_time="Thu Aug 1 12:16:24 2019" revision="186" export_branch="C:/Users/rick.venier/AppData/Roaming/TWDaemon/1615/dave" export_user="bob">
+<edit_uuid>b7570d7a-b60b-4938-99db-aee181cf94d5</edit_uuid>
 <campaign_diplomacy_treaty_components record_uuid="{5ef3d936-99c5-48bd-ba70-96696093cf3b}" record_timestamp="1531501144927" record_key="automatic_treaty_component_became_world_leader">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>unilateral</dimensionality>
@@ -23,7 +23,7 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_deposed_world_leader</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{00912333-00e3-4a68-ad1e-2d5ec3c8dd3c}" record_timestamp="1551875810787" record_key="automatic_treaty_component_emperor_contender_dummy">
+<campaign_diplomacy_treaty_components record_uuid="{00912333-00e3-4a68-ad1e-2d5ec3c8dd3c}" record_timestamp="1554881241560" record_key="automatic_treaty_component_emperor_contender_dummy">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>unilateral</dimensionality>
 <display_priority>0</display_priority>
@@ -56,7 +56,7 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_no_requirements</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{6d3efdc5-3de3-4abf-b873-4312fb72645b}" record_timestamp="1553092164275" record_key="dummy_components_abandoned_vassal">
+<campaign_diplomacy_treaty_components record_uuid="{6d3efdc5-3de3-4abf-b873-4312fb72645b}" record_timestamp="1554885169163" record_key="dummy_components_abandoned_vassal">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>unilateral</dimensionality>
 <display_priority>0</display_priority>
@@ -100,6 +100,17 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_no_requirements</requirement_set>
 </campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{8144e23f-75d8-4387-bada-72cd0ab0dfdf}" record_timestamp="1562334896723" record_key="dummy_components_attitude_manipulation_negative_sima_yue">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>unilateral</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>dummy_components_attitude_manipulation_negative_sima_yue</key>
+<onscreen_name state="APPROVED" last_approved_text="hidden" last_edit_user="bob">hidden</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_no_requirements</requirement_set>
+</campaign_diplomacy_treaty_components>
 <campaign_diplomacy_treaty_components record_uuid="{f024f556-ced2-4238-aaad-cd63bf3f6621}" record_timestamp="1520278001833" record_key="dummy_components_attitude_manipulation_positive">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>unilateral</dimensionality>
@@ -108,6 +119,17 @@
 <is_threat>0</is_threat>
 <key>dummy_components_attitude_manipulation_positive</key>
 <onscreen_name state="HIDDEN" last_approved_text="" last_edit_user="bob">hidden</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_no_requirements</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{66d27a2c-8d7a-4b5d-9173-00b290adb5b0}" record_timestamp="1562334896742" record_key="dummy_components_attitude_manipulation_positive_sima_yue">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>unilateral</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>dummy_components_attitude_manipulation_positive_sima_yue</key>
+<onscreen_name state="APPROVED" last_approved_text="hidden" last_edit_user="bob">hidden</onscreen_name>
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_no_requirements</requirement_set>
 </campaign_diplomacy_treaty_components>
@@ -155,7 +177,7 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_no_requirements</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{8c61cdad-8f7c-4a32-92fe-491c29d907ea}" record_timestamp="1555068820261" record_key="dummy_components_group_war">
+<campaign_diplomacy_treaty_components record_uuid="{8c61cdad-8f7c-4a32-92fe-491c29d907ea}" record_timestamp="1556562598379" record_key="dummy_components_group_war">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>unilateral</dimensionality>
 <display_priority>0</display_priority>
@@ -165,6 +187,39 @@
 <onscreen_name state="HIDDEN" last_approved_text="" last_edit_user="bob">hidden</onscreen_name>
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_war</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{9df759c7-c3ee-4f93-89aa-3e96e7103d00}" record_timestamp="1561975261300" record_key="dummy_components_group_war_participant_vassalised">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>unilateral</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>dummy_components_group_war_participant_vassalised</key>
+<onscreen_name state="HIDDEN" last_approved_text="" last_edit_user="bob">hidden</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_no_requirements</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{5b7a2da8-7e0e-4c8c-b8c2-4d8c11f45452}" record_timestamp="1561975261311" record_key="dummy_components_group_war_participant_vassalised_resolve_group_war_with_master">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>negotiated</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>1</is_threat>
+<key>dummy_components_group_war_participant_vassalised_resolve_group_war_with_master</key>
+<onscreen_name state="APPROVED" last_approved_text="Mediate peace" last_edit_user="bob">Mediate peace</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_vassalage_proposer_to_&lt;any_factions&gt;_and_group_war_recipient_to_&lt;any_factions&gt;</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{03c5d9bf-89eb-4bd4-a9ab-64e13e323505}" record_timestamp="1562084114785" record_key="dummy_components_group_war_participant_vassalised_resolve_group_war_with_master_counter_offer">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>negotiated</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>dummy_components_group_war_participant_vassalised_resolve_group_war_with_master_counter_offer</key>
+<onscreen_name state="HIDDEN" last_approved_text="" last_edit_user="bob">hidden</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_vassalage_recipient_to_&lt;any_factions&gt;_and_group_war_proposer_to_&lt;any_factions&gt;</requirement_set>
 </campaign_diplomacy_treaty_components>
 <campaign_diplomacy_treaty_components record_uuid="{6b9ba200-320e-4136-a00f-703f1cd97377}" record_timestamp="1525277981730" record_key="dummy_components_join_alliance">
 <applied_bidirectionally>0</applied_bidirectionally>
@@ -176,6 +231,17 @@
 <onscreen_name state="HIDDEN" last_approved_text="" last_edit_user="bob">hidden</onscreen_name>
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_join_alliance_dummy</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{af1b89ad-010e-456d-affd-fa43f699c008}" record_timestamp="1561975254192" record_key="dummy_components_pre_war_treaty_dissovle_treaties">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>unilateral</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>dummy_components_pre_war_treaty_dissovle_treaties</key>
+<onscreen_name state="HIDDEN" last_approved_text="" last_edit_user="bob">hidden</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_war</requirement_set>
 </campaign_diplomacy_treaty_components>
 <campaign_diplomacy_treaty_components record_uuid="{31301254-c006-43d6-bc5c-69612b5a12f1}" record_timestamp="1531932347214" record_key="dummy_components_rebuked_threat">
 <applied_bidirectionally>0</applied_bidirectionally>
@@ -221,7 +287,7 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_no_requirements</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{7ec68c84-80f1-4e2a-90ba-b2ac1364318d}" record_timestamp="1555068818143" record_key="dummy_components_war">
+<campaign_diplomacy_treaty_components record_uuid="{7ec68c84-80f1-4e2a-90ba-b2ac1364318d}" record_timestamp="1556562598283" record_key="dummy_components_war">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>unilateral</dimensionality>
 <display_priority>0</display_priority>
@@ -297,6 +363,39 @@
 <onscreen_name state="HIDDEN" last_approved_text="" last_edit_user="bob">hidden</onscreen_name>
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_proposer_in_military_alliance_recipient_in_coalition</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{dfdce7c5-7d8f-4139-8f8f-5294f91e772a}" record_timestamp="1561975259212" record_key="dummy_components_war_participant_vassalised">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>unilateral</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>dummy_components_war_participant_vassalised</key>
+<onscreen_name state="HIDDEN" last_approved_text="" last_edit_user="bob">hidden</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_no_requirements</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{20b5b8c2-f091-4cb7-a66f-2fd0c65c3bb2}" record_timestamp="1561975259281" record_key="dummy_components_war_participant_vassalised_resolve_war_with_master">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>negotiated</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>1</is_threat>
+<key>dummy_components_war_participant_vassalised_resolve_war_with_master</key>
+<onscreen_name state="APPROVED" last_approved_text="Mediate peace" last_edit_user="bob">Mediate peace</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_vassalage_proposer_to_&lt;any_factions&gt;_and_war_recipient_to_&lt;any_factions&gt;</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{6e3d823d-e131-4adf-88ff-f6a822ae7ab7}" record_timestamp="1562084114785" record_key="dummy_components_war_participant_vassalised_resolve_war_with_master_counter_offer">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>negotiated</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>dummy_components_war_participant_vassalised_resolve_war_with_master_counter_offer</key>
+<onscreen_name state="HIDDEN" last_approved_text="" last_edit_user="bob">hidden</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_vassalage_recipient_to_&lt;any_factions&gt;_and_war_proposer_to_&lt;any_factions&gt;</requirement_set>
 </campaign_diplomacy_treaty_components>
 <campaign_diplomacy_treaty_components record_uuid="{c6f4cbdf-59ff-40ee-8065-8055cd0b69c2}" record_timestamp="1541435534733" record_key="treaty_components_abdicate_demand">
 <applied_bidirectionally>0</applied_bidirectionally>
@@ -452,6 +551,17 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_attitude_manipulation</requirement_set>
 </campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{187c9a18-8dcf-4758-88c6-0c271ad3e724}" record_timestamp="1562334896686" record_key="treaty_components_attitude_manipulation_negative_sima_yue">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>unilateral</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>treaty_components_attitude_manipulation_negative_sima_yue</key>
+<onscreen_name state="APPROVED" last_approved_text="Faction Manipulated" last_edit_user="bob">Faction Manipulated</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_attitude_manipulation</requirement_set>
+</campaign_diplomacy_treaty_components>
 <campaign_diplomacy_treaty_components record_uuid="{95dac474-af02-44f1-80bb-7f05e1b2f7bc}" record_timestamp="1520278005492" record_key="treaty_components_attitude_manipulation_positive">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>unilateral</dimensionality>
@@ -459,6 +569,17 @@
 <duration>treaty_durations_immediate</duration>
 <is_threat>0</is_threat>
 <key>treaty_components_attitude_manipulation_positive</key>
+<onscreen_name state="APPROVED" last_approved_text="Faction Manipulated" last_edit_user="bob">Faction Manipulated</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_attitude_manipulation</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{1889badd-fdb7-469c-ac60-6fe3037ce5d8}" record_timestamp="1562334896704" record_key="treaty_components_attitude_manipulation_positive_sima_yue">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>unilateral</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>treaty_components_attitude_manipulation_positive_sima_yue</key>
 <onscreen_name state="APPROVED" last_approved_text="Faction Manipulated" last_edit_user="bob">Faction Manipulated</onscreen_name>
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_attitude_manipulation</requirement_set>
@@ -639,12 +760,12 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_coalition</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{104ed615-59f2-4a75-a711-fe6a62e1b845}" record_timestamp="1551875811432" record_key="treaty_components_coalition_split_vote">
+<campaign_diplomacy_treaty_components record_uuid="{104ed615-59f2-4a75-a711-fe6a62e1b845}" record_timestamp="1554881242326" record_key="treaty_components_coalition_split_vote">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>negotiated</dimensionality>
 <display_priority>0</display_priority>
 <duration>treaty_durations_immediate</duration>
-<is_threat>0</is_threat>
+<is_threat>1</is_threat>
 <key>treaty_components_coalition_split_vote</key>
 <onscreen_name state="HIDDEN" last_approved_text="" last_edit_user="bob">hidden</onscreen_name>
 <opponent_is_proposer>1</opponent_is_proposer>
@@ -1024,6 +1145,17 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_join_coalition_recipient</requirement_set>
 </campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{d620dfe9-fbee-4e4d-bdf4-3eee1f901b23}" record_timestamp="1559835299361" record_key="treaty_components_jurisdiction_dummy">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>unilateral</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_indefinite</duration>
+<is_threat>0</is_threat>
+<key>treaty_components_jurisdiction_dummy</key>
+<onscreen_name state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">Expanding Jurisdiction</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_no_requirements</requirement_set>
+</campaign_diplomacy_treaty_components>
 <campaign_diplomacy_treaty_components record_uuid="{9533bfaa-a02b-4bb0-a235-24e569e508c6}" record_timestamp="1516467436187" record_key="treaty_components_kick_alliance_member">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>negotiated</dimensionality>
@@ -1046,7 +1178,7 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_kick_coalition_member</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{c5cfba43-6292-44b2-b225-6b6491428ad7}" record_timestamp="1551962485298" record_key="treaty_components_legitimacy_dummy">
+<campaign_diplomacy_treaty_components record_uuid="{c5cfba43-6292-44b2-b225-6b6491428ad7}" record_timestamp="1554881661814" record_key="treaty_components_legitimacy_dummy">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>unilateral</dimensionality>
 <display_priority>0</display_priority>
@@ -1233,18 +1365,18 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_military_access</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{75da42f3-5e07-4b46-b6b3-96a2abc22314}" record_timestamp="1551875810823" record_key="treaty_components_military_alliance_split_vote">
+<campaign_diplomacy_treaty_components record_uuid="{75da42f3-5e07-4b46-b6b3-96a2abc22314}" record_timestamp="1554881241560" record_key="treaty_components_military_alliance_split_vote">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>negotiated</dimensionality>
 <display_priority>0</display_priority>
 <duration>treaty_durations_immediate</duration>
-<is_threat>0</is_threat>
+<is_threat>1</is_threat>
 <key>treaty_components_military_alliance_split_vote</key>
 <onscreen_name state="HIDDEN" last_approved_text="" last_edit_user="bob">hidden</onscreen_name>
 <opponent_is_proposer>1</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_proposer_and_recipient_are_military_allies</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{e9f21772-cfa9-44b4-8792-21c318a74c3c}" record_timestamp="1552077346497" record_key="treaty_components_multiplayer_victory">
+<campaign_diplomacy_treaty_components record_uuid="{e9f21772-cfa9-44b4-8792-21c318a74c3c}" record_timestamp="1554882385514" record_key="treaty_components_multiplayer_victory">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>negotiated</dimensionality>
 <display_priority>0</display_priority>
@@ -1354,7 +1486,7 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_join_alliance_proposer</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{5806b699-7364-40e8-96b0-888d725fca0a}" record_timestamp="1551875815463" record_key="treaty_components_pending_join_coalition_proposers">
+<campaign_diplomacy_treaty_components record_uuid="{5806b699-7364-40e8-96b0-888d725fca0a}" record_timestamp="1554881242479" record_key="treaty_components_pending_join_coalition_proposers">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>unilateral</dimensionality>
 <display_priority>0</display_priority>
@@ -1394,7 +1526,7 @@
 <duration>treaty_durations_immediate</duration>
 <is_threat>0</is_threat>
 <key>treaty_components_quit_alliance_and_declare_war</key>
-<onscreen_name state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">Faction Betrays Alliance</onscreen_name>
+<onscreen_name state="APPROVED" last_approved_text="Faction Betrays Alliance" last_edit_user="bob">Faction Betrays Alliance</onscreen_name>
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_quit_alliance</requirement_set>
 </campaign_diplomacy_treaty_components>
@@ -1427,7 +1559,7 @@
 <duration>treaty_durations_immediate</duration>
 <is_threat>0</is_threat>
 <key>treaty_components_quit_coalition_and_declare_war</key>
-<onscreen_name state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">Faction Betrays Coalition</onscreen_name>
+<onscreen_name state="APPROVED" last_approved_text="Faction Betrays Coalition" last_edit_user="bob">Faction Betrays Coalition</onscreen_name>
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_quit_coalition</requirement_set>
 </campaign_diplomacy_treaty_components>
@@ -1507,6 +1639,50 @@
 <onscreen_name state="APPROVED" last_approved_text="Region Traded" last_edit_user="bob">Region Traded</onscreen_name>
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_region_offer</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{b536fba2-0d57-49b2-980b-7d6c7264e1c2}" record_timestamp="1559652444397" record_key="treaty_components_sima_lun_coercion">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>negotiated</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>treaty_components_sima_lun_coercion</key>
+<onscreen_name state="APPROVED" last_approved_text="Faction Deceived" last_edit_user="bob">Faction Deceived</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_coercion</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{6583dc13-c037-4ce7-959c-9d9e4cde3f5e}" record_timestamp="1559652444398" record_key="treaty_components_sima_lun_instigate_proxy_war_proposer">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>negotiated</dimensionality>
+<display_priority>10</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>treaty_components_sima_lun_instigate_proxy_war_proposer</key>
+<onscreen_name state="APPROVED" last_approved_text="Proxy War Instigated" last_edit_user="bob">Proxy War Instigated</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_instigate_proxy_war_proposer</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{f275d6f7-7655-411e-898c-26a6d001681a}" record_timestamp="1559652444398" record_key="treaty_components_sima_lun_instigate_proxy_war_recipient">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>negotiated</dimensionality>
+<display_priority>10</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>treaty_components_sima_lun_instigate_proxy_war_recipient</key>
+<onscreen_name state="APPROVED" last_approved_text="Proxy War Instigated" last_edit_user="bob">Proxy War Instigated</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_instigate_proxy_war_recipient</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{9ec0e97a-60c3-45e3-8cce-2593716afdd1}" record_timestamp="1559652444396" record_key="treaty_components_sima_lun_recieve_coercion">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>negotiated</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>treaty_components_sima_lun_recieve_coercion</key>
+<onscreen_name state="HIDDEN" last_approved_text="" last_edit_user="bob">hidden</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_recieve_coercion</requirement_set>
 </campaign_diplomacy_treaty_components>
 <campaign_diplomacy_treaty_components record_uuid="{f534f408-df16-4c9e-af2b-e52c4b350cc9}" record_timestamp="1531403527725" record_key="treaty_components_start_pos_access_to_han_empire">
 <applied_bidirectionally>0</applied_bidirectionally>
@@ -1706,7 +1882,7 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_tribute_offer</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{708c0d2c-6e60-4314-9d97-c220a55fc8ea}" record_timestamp="1550663776832" record_key="treaty_components_vassal_demands_protection">
+<campaign_diplomacy_treaty_components record_uuid="{708c0d2c-6e60-4314-9d97-c220a55fc8ea}" record_timestamp="1551785101440" record_key="treaty_components_vassal_demands_protection">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>negotiated</dimensionality>
 <display_priority>0</display_priority>
@@ -1717,13 +1893,35 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_vassal_demands_protection</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{4886a2f3-505a-4005-a0d1-e9076dfd80f7}" record_timestamp="1550854862628" record_key="treaty_components_vassal_han_empire_demands_protection">
+<campaign_diplomacy_treaty_components record_uuid="{6d8f435b-52eb-4f14-94ef-00541eacc515}" record_timestamp="1563442954373" record_key="treaty_components_vassal_demands_protection_group_war">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>negotiated</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>treaty_components_vassal_demands_protection_group_war</key>
+<onscreen_name state="APPROVED" last_approved_text="Master Supports Vassal" last_edit_user="bob">Master Supports Vassal</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_vassal_demands_protection</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{4886a2f3-505a-4005-a0d1-e9076dfd80f7}" record_timestamp="1551787878863" record_key="treaty_components_vassal_han_empire_demands_protection">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>unilateral</dimensionality>
 <display_priority>0</display_priority>
 <duration>treaty_durations_immediate</duration>
 <is_threat>0</is_threat>
 <key>treaty_components_vassal_han_empire_demands_protection</key>
+<onscreen_name state="APPROVED" last_approved_text="Master Supports Vassal" last_edit_user="bob">Master Supports Vassal</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_vassal_han_empire_demands_protection</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{0a8bc58b-6719-4984-aad4-94769a95895a}" record_timestamp="1563442954328" record_key="treaty_components_vassal_han_empire_demands_protection_group_war">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>unilateral</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>treaty_components_vassal_han_empire_demands_protection_group_war</key>
 <onscreen_name state="APPROVED" last_approved_text="Master Supports Vassal" last_edit_user="bob">Master Supports Vassal</onscreen_name>
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_vassal_han_empire_demands_protection</requirement_set>
@@ -1750,7 +1948,7 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_vassal_requests_war</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{719590b0-3f32-49f5-96a5-da2f848190ed}" record_timestamp="1554887072024" record_key="treaty_components_vassalage">
+<campaign_diplomacy_treaty_components record_uuid="{719590b0-3f32-49f5-96a5-da2f848190ed}" record_timestamp="1500891465420" record_key="treaty_components_vassalage">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>negotiated</dimensionality>
 <display_priority>11</display_priority>
@@ -1761,7 +1959,7 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_vassalage</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{7478cf85-cf67-4448-94d6-37179206c7e7}" record_timestamp="1554887072024" record_key="treaty_components_vassalise_proposer">
+<campaign_diplomacy_treaty_components record_uuid="{7478cf85-cf67-4448-94d6-37179206c7e7}" record_timestamp="1516467494705" record_key="treaty_components_vassalise_proposer">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>negotiated</dimensionality>
 <display_priority>0</display_priority>
@@ -1772,7 +1970,18 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_vassalise_proposer</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{1f734ee1-c0e9-403d-9f82-30877996658d}" record_timestamp="1554887072024" record_key="treaty_components_vassalise_proposer_yellow_turban">
+<campaign_diplomacy_treaty_components record_uuid="{e90f461e-fd88-4588-b042-6c76917d6dc5}" record_timestamp="1559835299022" record_key="treaty_components_vassalise_proposer_sima_liang">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>negotiated</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>treaty_components_vassalise_proposer_sima_liang</key>
+<onscreen_name state="APPROVED" last_approved_text="Faction Vassalised" last_edit_user="bob">Faction Vassalised</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_vassalise_proposer_sima_liang</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{1f734ee1-c0e9-403d-9f82-30877996658d}" record_timestamp="1551788082086" record_key="treaty_components_vassalise_proposer_yellow_turban">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>negotiated</dimensionality>
 <display_priority>0</display_priority>
@@ -1783,7 +1992,7 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_vassalise_proposer_yellow_turban</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{a06af0ac-7a3d-4f5d-b908-87314353c421}" record_timestamp="1554887072024" record_key="treaty_components_vassalise_proposer_yuan_shu">
+<campaign_diplomacy_treaty_components record_uuid="{a06af0ac-7a3d-4f5d-b908-87314353c421}" record_timestamp="1554881661796" record_key="treaty_components_vassalise_proposer_yuan_shu">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>negotiated</dimensionality>
 <display_priority>0</display_priority>
@@ -1794,7 +2003,7 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_vassalise_proposer</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{33300bdb-c1c0-496b-8d00-ca7662fd52a3}" record_timestamp="1554887072024" record_key="treaty_components_vassalise_recipient">
+<campaign_diplomacy_treaty_components record_uuid="{33300bdb-c1c0-496b-8d00-ca7662fd52a3}" record_timestamp="1516467494705" record_key="treaty_components_vassalise_recipient">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>negotiated</dimensionality>
 <display_priority>0</display_priority>
@@ -1805,7 +2014,18 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_vassalise_recipient</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{1a78400e-ebc3-4685-89be-66974b5bad03}" record_timestamp="1554887072024" record_key="treaty_components_vassalise_recipient_yellow_turban">
+<campaign_diplomacy_treaty_components record_uuid="{b28b1be0-38bc-441b-b647-4c8e6bbe81c6}" record_timestamp="1559835299022" record_key="treaty_components_vassalise_recipient_sima_liang">
+<applied_bidirectionally>0</applied_bidirectionally>
+<dimensionality>negotiated</dimensionality>
+<display_priority>0</display_priority>
+<duration>treaty_durations_immediate</duration>
+<is_threat>0</is_threat>
+<key>treaty_components_vassalise_recipient_sima_liang</key>
+<onscreen_name state="APPROVED" last_approved_text="Faction Vassalised" last_edit_user="bob">Faction Vassalised</onscreen_name>
+<opponent_is_proposer>0</opponent_is_proposer>
+<requirement_set>treaty_requirement_set_vassalise_recipient_sima_liang</requirement_set>
+</campaign_diplomacy_treaty_components>
+<campaign_diplomacy_treaty_components record_uuid="{1a78400e-ebc3-4685-89be-66974b5bad03}" record_timestamp="1551788082086" record_key="treaty_components_vassalise_recipient_yellow_turban">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>negotiated</dimensionality>
 <display_priority>0</display_priority>
@@ -1816,7 +2036,7 @@
 <opponent_is_proposer>0</opponent_is_proposer>
 <requirement_set>treaty_requirement_set_vassalise_recipient_yellow_turban</requirement_set>
 </campaign_diplomacy_treaty_components>
-<campaign_diplomacy_treaty_components record_uuid="{602a0204-5893-40a7-9a4b-bbab5bd37b20}" record_timestamp="1554887072024" record_key="treaty_components_vassalise_recipient_yuan_shu">
+<campaign_diplomacy_treaty_components record_uuid="{602a0204-5893-40a7-9a4b-bbab5bd37b20}" record_timestamp="1554881661796" record_key="treaty_components_vassalise_recipient_yuan_shu">
 <applied_bidirectionally>0</applied_bidirectionally>
 <dimensionality>negotiated</dimensionality>
 <display_priority>0</display_priority>

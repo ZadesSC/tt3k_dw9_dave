@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_variables.xsd" export_time="Fri Jun 7 15:48:52 2019" revision="737" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1501/dave" export_user="bob">
-<edit_uuid>2b3d63d8-8294-49c1-93ec-8ee2bb385649</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_variables.xsd" export_time="Wed Jul 10 10:06:20 2019" revision="714" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1574/dave" export_user="bob">
+<edit_uuid>55fd8573-6f40-42ae-a4a0-62447aa23841</edit_uuid>
 <campaign_variables record_uuid="{1d5829d3-f84d-4660-b42d-925621448df8}" record_timestamp="1444128694161" record_key="abandon_settlement_income_percentage_modifier">
 <description>(IN GAME) When abandoning settlements; percentage modifier on income</description>
 <value>-80</value>
@@ -86,12 +86,12 @@
 <value>5</value>
 <variable_key>armed_citizenry_navy_percentage_on_change_hands</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{0a643905-a388-40a7-b1dd-ed4ce77026c9}" record_timestamp="1551709191404" record_key="autoresolver_alliance_wipe_out_loser_strength_of_max_threshold">
+<campaign_variables record_uuid="{0a643905-a388-40a7-b1dd-ed4ce77026c9}" record_timestamp="1431702820286" record_key="autoresolver_alliance_wipe_out_loser_strength_of_max_threshold">
 <description>(IN GAME) Losing alliance must be at least below X unary of maximum for wipe out. from 0.0 to 1.0. E.g. Force max soldiers is 200, end soldier count is 50, threshold will check against 50/200 = 0.25.</description>
 <value>0.05</value>
 <variable_key>autoresolver_alliance_wipe_out_loser_strength_of_max_threshold</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{2cb14258-148c-4aea-849a-b3b74a57e6b6}" record_timestamp="1551709191404" record_key="autoresolver_alliance_wipe_out_winner_loser_strength_multiple">
+<campaign_variables record_uuid="{2cb14258-148c-4aea-849a-b3b74a57e6b6}" record_timestamp="1382619498156" record_key="autoresolver_alliance_wipe_out_winner_loser_strength_multiple">
 <description>(IN GAME) Winning alliance must be above X proportion strength to wipe out loser. Must be positive. E.g. Winner has 200 units, Loser has 30 units, calculation will check against (200/30) = 6.66</description>
 <value>5</value>
 <variable_key>autoresolver_alliance_wipe_out_winner_loser_strength_multiple</variable_key>
@@ -471,7 +471,7 @@
 <value>0.200000002980232</value>
 <variable_key>autoresolver_unit_base_retreat_threshold</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{4e6a5f27-7bb1-45b5-8d82-b8fc9dedc2ce}" record_timestamp="1551709191404" record_key="autoresolver_unit_wipe_out_threshold">
+<campaign_variables record_uuid="{4e6a5f27-7bb1-45b5-8d82-b8fc9dedc2ce}" record_timestamp="1431702820522" record_key="autoresolver_unit_wipe_out_threshold">
 <description>(IN GAME) Remaning strength of a unit to wipe out. Unit will be wiped out if strength percentage &lt; VALUE * 100. Between 0 and 1</description>
 <value>0.05</value>
 <variable_key>autoresolver_unit_wipe_out_threshold</variable_key>
@@ -506,7 +506,7 @@
 <value>0.300000011920929</value>
 <variable_key>autoresolver_winner_kpd_minor_win_threshold</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{da342afb-4131-496b-9aa2-062c35ddf3de}" record_timestamp="1551709191404" record_key="autoresolver_wipe_out_army_force_unary_lost">
+<campaign_variables record_uuid="{da342afb-4131-496b-9aa2-062c35ddf3de}" record_timestamp="1431702820605" record_key="autoresolver_wipe_out_army_force_unary_lost">
 <description>(IN GAME) Strength lost for an army to wipe out. Army will be wiped out if strength lost percentage &gt; VALUE * 100. Between 0 and 1</description>
 <value>0.95</value>
 <variable_key>autoresolver_wipe_out_army_force_unary_lost</variable_key>
@@ -626,7 +626,7 @@
 <value>100</value>
 <variable_key>camera_angle_dependent_on_zoom_maximum_distance</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{6a686ab5-d50b-485c-93de-267f5158e06a}" record_timestamp="1552486586499" record_key="camera_angle_dependent_on_zoom_maximum_dof_falloff_multiplier">
+<campaign_variables record_uuid="{6a686ab5-d50b-485c-93de-267f5158e06a}" record_timestamp="1554882927993" record_key="camera_angle_dependent_on_zoom_maximum_dof_falloff_multiplier">
 <description>(IN GAME) Depth of field near/far falloff multiplier applied at maximum camera height</description>
 <value>6</value>
 <variable_key>camera_angle_dependent_on_zoom_maximum_dof_falloff_multiplier</variable_key>
@@ -651,7 +651,7 @@
 <value>7.6</value>
 <variable_key>camera_angle_dependent_on_zoom_minimum_distance</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{e24f2b76-be25-4243-947f-93128615bbf7}" record_timestamp="1552486586499" record_key="camera_angle_dependent_on_zoom_minimum_dof_falloff_multiplier">
+<campaign_variables record_uuid="{e24f2b76-be25-4243-947f-93128615bbf7}" record_timestamp="1554882927993" record_key="camera_angle_dependent_on_zoom_minimum_dof_falloff_multiplier">
 <description>(IN GAME) Depth of field near/far falloff multiplier applied at minimum camera height</description>
 <value>1</value>
 <variable_key>camera_angle_dependent_on_zoom_minimum_dof_falloff_multiplier</variable_key>
@@ -1041,7 +1041,7 @@
 <value>2</value>
 <variable_key>character_defection_is_at_war_weight_factor</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{79857038-5871-4387-a330-57efbe1b61d9}" record_timestamp="1554973120295" record_key="character_defection_round_buffer">
+<campaign_variables record_uuid="{79857038-5871-4387-a330-57efbe1b61d9}" record_timestamp="1556562150089" record_key="character_defection_round_buffer">
 <description>(IN GAME) Number of rounds a character spends in a faction before they are eligible for defection</description>
 <value>1</value>
 <variable_key>character_defection_round_buffer</variable_key>
@@ -1121,7 +1121,7 @@
 <value>-250</value>
 <variable_key>character_relationship_minimum_value</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{9ccb0706-89e8-4e3f-a608-5e12d8f7c3c7}" record_timestamp="1552556080437" record_key="character_relationship_payload_threshold_large">
+<campaign_variables record_uuid="{9ccb0706-89e8-4e3f-a608-5e12d8f7c3c7}" record_timestamp="1554883082532" record_key="character_relationship_payload_threshold_large">
 <description>(IN GAME) The minimum value at which the relationship payload will display the large ui_payload_record</description>
 <value>50</value>
 <variable_key>character_relationship_payload_threshold_large</variable_key>
@@ -1996,7 +1996,7 @@
 <value>20</value>
 <variable_key>employment_history_join_date_turn_range</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{b2bd08f6-ceac-4893-922a-5235bfc635f7}" record_timestamp="1554733350325" record_key="employment_history_rejoin_round_limit">
+<campaign_variables record_uuid="{b2bd08f6-ceac-4893-922a-5235bfc635f7}" record_timestamp="1554888184129" record_key="employment_history_rejoin_round_limit">
 <description>(IN GAME) Characters rejoining the same faction within this round limit will not get an additional employment history entry</description>
 <value>15</value>
 <variable_key>employment_history_rejoin_round_limit</variable_key>
@@ -2016,12 +2016,12 @@
 <value>10</value>
 <variable_key>end_turn_notifications_faction_council_turns_since_issue</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{e38a67db-bbab-40f6-afe2-788882d33dea}" record_timestamp="1552732140704" record_key="end_turn_notifications_low_funds_amount">
+<campaign_variables record_uuid="{e38a67db-bbab-40f6-afe2-788882d33dea}" record_timestamp="1535821139446" record_key="end_turn_notifications_low_funds_amount">
 <description>(IN GAME) Treasury amount below which the player will receive an end turn warning. Paired with low_funds_income_amount</description>
 <value>750</value>
 <variable_key>end_turn_notifications_low_funds_amount</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{21b0c4e1-0777-4661-8f42-aa673b051413}" record_timestamp="1552732140704" record_key="end_turn_notifications_low_funds_income_amount">
+<campaign_variables record_uuid="{21b0c4e1-0777-4661-8f42-aa673b051413}" record_timestamp="1554883689477" record_key="end_turn_notifications_low_funds_income_amount">
 <description>(IN GAME) Income amount below which the player will receive an end turn warning. Paired with low_funds_amount</description>
 <value>100</value>
 <variable_key>end_turn_notifications_low_funds_income_amount</variable_key>
@@ -2291,17 +2291,17 @@
 <value>20</value>
 <variable_key>faction_strategic_threat_maximum_event_age</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{d18192ca-9203-482b-9713-7911e35e4dd8}" record_timestamp="1554129618349" record_key="faction_strategic_threat_region_multiplier">
+<campaign_variables record_uuid="{d18192ca-9203-482b-9713-7911e35e4dd8}" record_timestamp="1554887589902" record_key="faction_strategic_threat_region_multiplier">
 <description>(IN GAME) This is used as a multiplier to the number of regions a faction has that is used in strategic threat calculations.</description>
 <value>2</value>
 <variable_key>faction_strategic_threat_region_multiplier</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{950d0f59-5a48-4f08-a9e7-65e1367c6702}" record_timestamp="1551442221537" record_key="faction_strategic_threat_world_leader_ally_modifier">
+<campaign_variables record_uuid="{950d0f59-5a48-4f08-a9e7-65e1367c6702}" record_timestamp="1551788776387" record_key="faction_strategic_threat_world_leader_ally_modifier">
 <description>(IN GAME) This is used as a flat bonus to strategic threat calculations, if the faction is a world leader.</description>
 <value>200</value>
 <variable_key>faction_strategic_threat_world_leader_ally_modifier</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{49c6d730-869c-48d0-9962-a015a76b02a3}" record_timestamp="1551442221510" record_key="faction_strategic_threat_world_leader_modifier">
+<campaign_variables record_uuid="{49c6d730-869c-48d0-9962-a015a76b02a3}" record_timestamp="1551788776386" record_key="faction_strategic_threat_world_leader_modifier">
 <description>(IN GAME) This is used as a flat bonus to strategic threat calculations, if an ally or a master is a world leader.</description>
 <value>450</value>
 <variable_key>faction_strategic_threat_world_leader_modifier</variable_key>
@@ -2336,14 +2336,14 @@
 <value>18</value>
 <variable_key>family_age_of_guaranteed_adulthood</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{fe7cf018-8d14-41ba-8a6e-ff46a7f85f82}" record_timestamp="1559918932673" record_key="family_base_child_chance">
+<campaign_variables record_uuid="{fe7cf018-8d14-41ba-8a6e-ff46a7f85f82}" record_key="family_base_child_chance">
 <description>(IN GAME) The base chance of family members having a child.</description>
-<value>30</value>
+<value>50</value>
 <variable_key>family_base_child_chance</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{414f0d3c-91d3-45cb-a893-d169dcb45ae5}" record_timestamp="1559918932673" record_key="family_base_child_chance_reduction_per_child">
+<campaign_variables record_uuid="{414f0d3c-91d3-45cb-a893-d169dcb45ae5}" record_timestamp="1398159772392" record_key="family_base_child_chance_reduction_per_child">
 <description>(IN GAME)</description>
-<value>8</value>
+<value>12</value>
 <variable_key>family_base_child_chance_reduction_per_child</variable_key>
 </campaign_variables>
 <campaign_variables record_uuid="{d39a225b-6199-4441-9993-06d0dd18fa25}" record_timestamp="1398159772392" record_key="family_base_illegitimate_child_chance">
@@ -2381,14 +2381,14 @@
 <value>0</value>
 <variable_key>family_infant_mortality_chance_young</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{361f6126-b6b9-4294-8219-6fc404fc934d}" record_timestamp="1559918932673" record_key="family_rounds_between_children">
+<campaign_variables record_uuid="{361f6126-b6b9-4294-8219-6fc404fc934d}" record_key="family_rounds_between_children">
 <description>(IN GAME) The number of rounds that must pass after a child is born before the parents may have another child.</description>
-<value>10</value>
+<value>15</value>
 <variable_key>family_rounds_between_children</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{16081dfb-6375-48a9-b072-359398988f8d}" record_timestamp="1559918932673" record_key="family_rounds_between_marriage_and_first_child">
+<campaign_variables record_uuid="{16081dfb-6375-48a9-b072-359398988f8d}" record_key="family_rounds_between_marriage_and_first_child">
 <description>(IN GAME) The number of rounds that must pass after family members marry before they can have a child.</description>
-<value>5</value>
+<value>4</value>
 <variable_key>family_rounds_between_marriage_and_first_child</variable_key>
 </campaign_variables>
 <campaign_variables record_uuid="{94f6da5f-579d-474e-a738-6f814ce10a2a}" record_key="family_turns_before_any_chance_of_adulthood">
@@ -2576,7 +2576,7 @@
 <value>10</value>
 <variable_key>is_family_member_governor_independence_score_modifier</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{785d1ca8-bf58-4640-989a-9bb4ed982760}" record_timestamp="1553357304864" record_key="loot_casualties_modifer">
+<campaign_variables record_uuid="{785d1ca8-bf58-4640-989a-9bb4ed982760}" record_timestamp="1442309760029" record_key="loot_casualties_modifer">
 <description>(IN GAME) Fraction modifier on the fraction of the unit recruitment recieved in loot for killing men in that unit</description>
 <value>0.02</value>
 <variable_key>loot_casualties_modifer</variable_key>
@@ -2591,7 +2591,7 @@
 <value>1</value>
 <variable_key>loot_commander_total_modifier</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{9ef826d4-92da-454c-863a-81db76ee790f}" record_timestamp="1553357304864" record_key="loot_fraction_recruitment_cost_recieved_per_routed_unit">
+<campaign_variables record_uuid="{9ef826d4-92da-454c-863a-81db76ee790f}" record_timestamp="1442309760016" record_key="loot_fraction_recruitment_cost_recieved_per_routed_unit">
 <description>(IN GAME) Fraction of the units recruitment cost received in loot should that unit route</description>
 <value>0.015</value>
 <variable_key>loot_fraction_recruitment_cost_recieved_per_routed_unit</variable_key>
@@ -2746,22 +2746,22 @@
 <value>25</value>
 <variable_key>map_road_objects_display_spawn_interval_min</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{b3b97cb9-8f53-4631-b8a8-04fc9b072ff3}" record_timestamp="1552922631050" record_key="map_road_objects_display_trade_frequency_max">
+<campaign_variables record_uuid="{b3b97cb9-8f53-4631-b8a8-04fc9b072ff3}" record_timestamp="1554884992783" record_key="map_road_objects_display_trade_frequency_max">
 <description>(IN GAME) Minimum trade model spawn frequency that is set when trade value is map_road_objects_display_trade_frequency_value_max</description>
 <value>3</value>
 <variable_key>map_road_objects_display_trade_frequency_max</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{8b03c210-0698-41ac-9410-60144bb6c5c5}" record_timestamp="1552922631055" record_key="map_road_objects_display_trade_frequency_min">
+<campaign_variables record_uuid="{8b03c210-0698-41ac-9410-60144bb6c5c5}" record_timestamp="1554884992783" record_key="map_road_objects_display_trade_frequency_min">
 <description>(IN GAME) Minimum trade model spawn frequency that is set when trade value is map_road_objects_display_trade_frequency_value_min </description>
 <value>0.1</value>
 <variable_key>map_road_objects_display_trade_frequency_min</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{9731839a-7fe7-40a0-bce4-76b99f0ed687}" record_timestamp="1553621257843" record_key="map_road_objects_display_trade_frequency_value_max">
+<campaign_variables record_uuid="{9731839a-7fe7-40a0-bce4-76b99f0ed687}" record_timestamp="1554884992783" record_key="map_road_objects_display_trade_frequency_value_max">
 <description>(IN GAME) Upper bound for trade value used for trade model spawn frequency calculation</description>
 <value>10000</value>
 <variable_key>map_road_objects_display_trade_frequency_value_max</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{a787ff58-0bc3-4c1f-bcd4-d399054f4110}" record_timestamp="1552922631063" record_key="map_road_objects_display_trade_frequency_value_min">
+<campaign_variables record_uuid="{a787ff58-0bc3-4c1f-bcd4-d399054f4110}" record_timestamp="1554884992783" record_key="map_road_objects_display_trade_frequency_value_min">
 <description>(IN GAME) Lower bound for trade value used for trade model spawn frequency calculation</description>
 <value>100</value>
 <variable_key>map_road_objects_display_trade_frequency_value_min</variable_key>
@@ -2781,7 +2781,7 @@
 <value>3200</value>
 <variable_key>max_num_civilians_in_settlement_battle</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{a6bce09d-766e-4e27-b570-c55d0db39078}" record_timestamp="1553092864268" record_key="max_num_wall_mounted_artillery">
+<campaign_variables record_uuid="{a6bce09d-766e-4e27-b570-c55d0db39078}" record_timestamp="1554885175156" record_key="max_num_wall_mounted_artillery">
 <description>(IN GAME) Max number of wall mounted artillery provided to battle. This must be set to the minimum across all battle maps.</description>
 <value>4</value>
 <variable_key>max_num_wall_mounted_artillery</variable_key>
@@ -3256,6 +3256,11 @@
 <value>50</value>
 <variable_key>public_order_luxury_resource_value</variable_key>
 </campaign_variables>
+<campaign_variables record_uuid="{6a39a180-8278-469b-8359-cd245f9f6408}" record_timestamp="1561652853423" record_key="public_order_military_force_garrison_multiplier">
+<description>(IN GAME) Multiply public order value from garrison by this modifier</description>
+<value>1</value>
+<variable_key>public_order_military_force_garrison_multiplier</variable_key>
+</campaign_variables>
 <campaign_variables record_uuid="{8513536a-6de5-483c-9bda-3d7da8d4fb09}" record_key="raid_faction_diplomatic_penalty">
 <description>(IN GAME) Dipolmatic penalty for each faction raided. Positive value X diplomatic penalty.</description>
 <value>10</value>
@@ -3520,6 +3525,11 @@
 <description>(IN GAME) Base repair rate for settlement walls</description>
 <value>100</value>
 <variable_key>settlement_wall_repair_points_base</variable_key>
+</campaign_variables>
+<campaign_variables record_uuid="{976125a3-a31f-4875-b811-209f303eb925}" record_timestamp="1562749580253" record_key="siege_attrition_grace_rounds">
+<description>(IN GAME) Number of rounds a besieged force can hold for without taking attrition, after supplies have run out</description>
+<value>0</value>
+<variable_key>siege_attrition_grace_rounds</variable_key>
 </campaign_variables>
 <campaign_variables record_uuid="{709cc97e-4694-4869-803f-7b23da910546}" record_timestamp="1548501284743" record_key="siege_attrition_number_of_turns_override">
 <description>(IN GAME) Any non-negative value is used to initialise the number of turns a military force can hold out after supplies run out. If a negative value is specified the time is calculated based on the health of the besieged force.</description>

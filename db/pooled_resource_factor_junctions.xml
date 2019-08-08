@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pooled_resource_factor_junctions.xsd" export_time="Thu Mar 28 12:00:16 2019" revision="72" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1406/dave" export_user="bob">
-<edit_uuid>a04966a9-23d8-4c13-9b89-68222010eef7</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pooled_resource_factor_junctions.xsd" export_time="Fri Jul 12 16:15:50 2019" revision="97" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1582/dave" export_user="bob">
+<edit_uuid>98350fbb-5f49-401c-bcd4-b676b27490ce</edit_uuid>
 <pooled_resource_factor_junctions record_uuid="{ae5352b0-906b-4412-be4e-7da1194895f3}" record_timestamp="1519730523214" record_key="3k_main_pooled_factor_junction_credibility">
 <ai_can_propose>1</ai_can_propose>
 <factor>3k_main_pooled_factor_credibility</factor>
@@ -154,11 +154,20 @@
 <minimum>-2147483647</minimum>
 <resource>3k_main_pooled_resource_heroism</resource>
 </pooled_resource_factor_junctions>
-<pooled_resource_factor_junctions record_uuid="{114472ce-b0d5-4f01-97b6-b4d1e687cf44}" record_timestamp="1519928643615" record_key="3k_main_pooled_factor_junction_heroism_decay">
+<pooled_resource_factor_junctions record_uuid="{dd84e895-ffdd-43b2-ae15-00656d837906}" record_timestamp="1562323398557" record_key="3k_main_pooled_factor_junction_heroism_decay">
 <ai_can_propose>1</ai_can_propose>
 <factor>3k_main_pooled_factor_heroism_decay</factor>
 <is_recurring_factor>1</is_recurring_factor>
 <key>3k_main_pooled_factor_junction_heroism_decay</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>3k_main_pooled_resource_heroism</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{114472ce-b0d5-4f01-97b6-b4d1e687cf44}" record_timestamp="1519928643615" record_key="3k_main_pooled_factor_junction_heroism_events">
+<ai_can_propose>1</ai_can_propose>
+<factor>3k_main_pooled_factor_heroism_events</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>3k_main_pooled_factor_junction_heroism_events</key>
 <maximum>2147483647</maximum>
 <minimum>-2147483647</minimum>
 <resource>3k_main_pooled_resource_heroism</resource>
@@ -199,7 +208,7 @@
 <minimum>-2147483647</minimum>
 <resource>3k_main_pooled_resource_infamy</resource>
 </pooled_resource_factor_junctions>
-<pooled_resource_factor_junctions record_uuid="{8713e004-57aa-4355-a5ca-56f802dda116}" record_timestamp="1550157765790" record_key="3k_main_pooled_factor_junction_infamy_from_occupation">
+<pooled_resource_factor_junctions record_uuid="{8713e004-57aa-4355-a5ca-56f802dda116}" record_timestamp="1551784444510" record_key="3k_main_pooled_factor_junction_infamy_from_occupation">
 <ai_can_propose>1</ai_can_propose>
 <factor>3k_main_pooled_factor_infamy_from_occupations</factor>
 <is_recurring_factor>0</is_recurring_factor>
@@ -325,7 +334,7 @@
 <minimum>-2147483647</minimum>
 <resource>3k_main_pooled_resource_legitimacy</resource>
 </pooled_resource_factor_junctions>
-<pooled_resource_factor_junctions record_uuid="{204ebf9a-9bdc-4b26-a74f-918ab5eb1b63}" record_timestamp="1552467878077" record_key="3k_main_pooled_factor_junction_legitimacy_assignments">
+<pooled_resource_factor_junctions record_uuid="{204ebf9a-9bdc-4b26-a74f-918ab5eb1b63}" record_timestamp="1548327413157" record_key="3k_main_pooled_factor_junction_legitimacy_assignments">
 <ai_can_propose>1</ai_can_propose>
 <factor>3k_main_pooled_factor_legitimacy_assignments</factor>
 <is_recurring_factor>1</is_recurring_factor>
@@ -460,7 +469,7 @@
 <minimum>-2147483647</minimum>
 <resource>3k_main_pooled_resource_population</resource>
 </pooled_resource_factor_junctions>
-<pooled_resource_factor_junctions record_uuid="{3828fb21-ce3f-4021-9d71-80da2f527e30}" record_timestamp="1551377853614" record_key="3k_main_pooled_factor_junction_population_characters_administrators">
+<pooled_resource_factor_junctions record_uuid="{3828fb21-ce3f-4021-9d71-80da2f527e30}" record_timestamp="1551788650208" record_key="3k_main_pooled_factor_junction_population_characters_administrators">
 <ai_can_propose>1</ai_can_propose>
 <factor>3k_main_pooled_factor_population_characters_administrators</factor>
 <is_recurring_factor>1</is_recurring_factor>
@@ -469,7 +478,7 @@
 <minimum>-2147483647</minimum>
 <resource>3k_main_pooled_resource_population</resource>
 </pooled_resource_factor_junctions>
-<pooled_resource_factor_junctions record_uuid="{764aeae1-a8fb-4c28-9248-64a6d8a99d9a}" record_timestamp="1551377853582" record_key="3k_main_pooled_factor_junction_population_characters_people_in_power">
+<pooled_resource_factor_junctions record_uuid="{764aeae1-a8fb-4c28-9248-64a6d8a99d9a}" record_timestamp="1551788650208" record_key="3k_main_pooled_factor_junction_population_characters_people_in_power">
 <ai_can_propose>1</ai_can_propose>
 <factor>3k_main_pooled_factor_population_characters_people_in_power</factor>
 <is_recurring_factor>1</is_recurring_factor>
@@ -595,6 +604,15 @@
 <minimum>-2147483647</minimum>
 <resource>3k_main_pooled_resource_population</resource>
 </pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{65847413-adbe-4df4-816c-96c92f193844}" record_timestamp="1561975256564" record_key="3k_main_pooled_factor_junction_satisfaction">
+<ai_can_propose>1</ai_can_propose>
+<factor>3k_main_pooled_factor_satisfaction</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>3k_main_pooled_factor_junction_satisfaction</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>3k_main_pooled_resource_satisfaction</resource>
+</pooled_resource_factor_junctions>
 <pooled_resource_factor_junctions record_uuid="{75b31e8d-1518-4864-8b7a-12a763b847fe}" record_timestamp="1511285431833" record_key="3k_main_pooled_factor_junction_supply">
 <ai_can_propose>1</ai_can_propose>
 <factor>3k_main_pooled_factor_supply</factor>
@@ -685,7 +703,7 @@
 <minimum>-2147483647</minimum>
 <resource>3k_main_pooled_resource_kong_rong</resource>
 </pooled_resource_factor_junctions>
-<pooled_resource_factor_junctions record_uuid="{42a3fab5-dda8-4800-9fd7-4772fe048ccc}" record_timestamp="1553774412233" record_key="3k_main_pooled_factor_junction_trade_monopoly_decay">
+<pooled_resource_factor_junctions record_uuid="{42a3fab5-dda8-4800-9fd7-4772fe048ccc}" record_timestamp="1554887222003" record_key="3k_main_pooled_factor_junction_trade_monopoly_decay">
 <ai_can_propose>1</ai_can_propose>
 <factor>3k_main_pooled_factor_trade_monopoly_decay</factor>
 <is_recurring_factor>1</is_recurring_factor>
@@ -738,5 +756,419 @@
 <maximum>2147483647</maximum>
 <minimum>-2147483647</minimum>
 <resource>3k_main_pooled_resource_unity</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{8087b6d2-44d7-4f1b-a412-b456448a995f}" record_timestamp="1554996307531" record_key="ep_pooled_factor_junction_brain_alignment_from_events">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_brain_alignment</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_brain_alignment_from_events</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_brain_alignment</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{f7d3658b-af2b-498a-b45e-d877827ac082}" record_timestamp="1559722344321" record_key="ep_pooled_factor_junction_control">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_control</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_control</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_jiong_control</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{e6ddff6c-cf26-40cb-b189-8dccba416a8d}" record_timestamp="1559831122769" record_key="ep_pooled_factor_junction_control_assignment">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_control_assignment</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_control_assignment</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_jiong_control</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{e07d2aba-979d-4b92-87fb-d4983c6130ef}" record_timestamp="1560430844066" record_key="ep_pooled_factor_junction_control_battle">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_control_battle</factor>
+<is_recurring_factor>0</is_recurring_factor>
+<key>ep_pooled_factor_junction_control_battle</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_jiong_control</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{2478a5ee-e400-47cd-a9bc-bdbc876a1a73}" record_timestamp="1559722344322" record_key="ep_pooled_factor_junction_control_buildings">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_control_buildings</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_control_buildings</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_jiong_control</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{284cf7b7-eabe-4b38-8f18-b52d7264a1d4}" record_timestamp="1559838490797" record_key="ep_pooled_factor_junction_control_faction_leader">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_control_faction_leader</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_control_faction_leader</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_jiong_control</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{6010f23d-4421-4435-a5e3-1b6eb42bfdde}" record_timestamp="1559838490760" record_key="ep_pooled_factor_junction_control_ministers">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_control_ministers</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_control_ministers</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_jiong_control</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{c22045c5-6eeb-471e-9fbe-a600790425b3}" record_timestamp="1560430844488" record_key="ep_pooled_factor_junction_control_recruitment">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_control_recruitment</factor>
+<is_recurring_factor>0</is_recurring_factor>
+<key>ep_pooled_factor_junction_control_recruitment</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_jiong_control</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{7b829304-4671-4555-abf1-f5d1e512e614}" record_timestamp="1559838494233" record_key="ep_pooled_factor_junction_control_remove">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_control_remove</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_control_remove</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_jiong_control</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{15a0fe3c-7a98-42bf-971d-96ad1f7f32fe}" record_timestamp="1559807595546" record_key="ep_pooled_factor_junction_demesne">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_demesne</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_demesne</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_liang_demesne</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{e7dda0a3-ec16-4f78-97cc-a386a85d38b3}" record_timestamp="1559807595719" record_key="ep_pooled_factor_junction_demesne_buildings">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_demesne_buildings</factor>
+<is_recurring_factor>0</is_recurring_factor>
+<key>ep_pooled_factor_junction_demesne_buildings</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_liang_demesne</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{1ee9d6bc-2967-486f-b7ae-60357bfda259}" record_timestamp="1559807595580" record_key="ep_pooled_factor_junction_demesne_regions">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_demesne_regions</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_demesne_regions</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_liang_demesne</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{46b72b48-042f-452e-99b0-fe5dc38be865}" record_timestamp="1554996307531" record_key="ep_pooled_factor_junction_fist_alignment_from_events">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_fist_alignment</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_fist_alignment_from_events</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_fist_alignment</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{a7262809-d905-4e45-bb43-bac49e4b99b8}" record_timestamp="1554996307531" record_key="ep_pooled_factor_junction_heart_alignment_from_events">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_heart_alignment</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_heart_alignment_from_events</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_heart_alignment</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{e8ceb9b1-9410-415e-ace5-384e491ac81f}" record_timestamp="1559581891074" record_key="ep_pooled_factor_junction_influence">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_influence</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_influence</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_influence</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{be8bb028-66b7-4d9f-aec3-1043ba0a0579}" record_timestamp="1559821076560" record_key="ep_pooled_factor_junction_influence_assignments">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_influence_assignments</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_influence_assignments</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_influence</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{65ce9a8c-ba11-45fa-8278-ce2019e2b8b7}" record_timestamp="1559821076625" record_key="ep_pooled_factor_junction_influence_battles">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_influence_battles</factor>
+<is_recurring_factor>0</is_recurring_factor>
+<key>ep_pooled_factor_junction_influence_battles</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_influence</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{cccca9ce-2b09-4ac6-b89d-e9751ca70eda}" record_timestamp="1561554679100" record_key="ep_pooled_factor_junction_influence_buildings">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_influence_buildings</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_influence_buildings</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_influence</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{9aa98a4c-0a4d-4098-9c08-8217002ca146}" record_timestamp="1560777684815" record_key="ep_pooled_factor_junction_influence_decay">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_influence_decay</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_influence_decay</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_influence</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{82a5a648-881d-4b31-aac4-72377dd01cf2}" record_timestamp="1562334897747" record_key="ep_pooled_factor_junction_influence_expended_through_diplomacy">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_influence_diplomacy</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_influence_expended_through_diplomacy</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_influence</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{f73c93b6-1db3-4895-af95-93a99bea0c2e}" record_timestamp="1560349444005" record_key="ep_pooled_factor_junction_influence_faction_leader">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_influence_faction_leader</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_influence_faction_leader</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_influence</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{d0dc822f-3a4e-45b5-9d7e-00bd939c338c}" record_timestamp="1559807595685" record_key="ep_pooled_factor_junction_jurisdiction">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_jurisdiction</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_jurisdiction</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_liang_jurisdiction</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{45178803-b967-4cc9-b40b-3f691ce0e103}" record_timestamp="1559807595650" record_key="ep_pooled_factor_junction_jurisdiction_buildings">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_jurisdiction_buildings</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_jurisdiction_buildings</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_liang_jurisdiction</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{1b383b1e-f50b-4543-a1dd-4662a68af2f2}" record_timestamp="1560530349612" record_key="ep_pooled_factor_junction_jurisdiction_people_in_power">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_jurisdiction_people_in_power</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_jurisdiction_people_in_power</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_liang_jurisdiction</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{5789a0f1-c25a-4cfb-8b24-1f4941355ccb}" record_timestamp="1561027488029" record_key="ep_pooled_factor_junction_jurisdiction_siege">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_jurisdiction_siege</factor>
+<is_recurring_factor>0</is_recurring_factor>
+<key>ep_pooled_factor_junction_jurisdiction_siege</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_liang_jurisdiction</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{9a69b607-d395-4192-8ee3-2e807cab90b4}" record_timestamp="1559807595616" record_key="ep_pooled_factor_junction_jurisdiction_vassals">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_jurisdiction_vassals</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_jurisdiction_vassals</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_liang_jurisdiction</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{34add52e-dca6-40f3-884e-1a7b6fd9e476}" record_timestamp="1554996307531" record_key="ep_pooled_factor_junction_money_alignment_from_events">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_money_alignment</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_money_alignment_from_events</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_money_alignment</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{1c442e34-5f9a-45b5-9d4d-0f217906f44c}" record_timestamp="1559581891133" record_key="ep_pooled_factor_junction_reformation">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_reformation</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_reformation</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_reformation</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{6f5702cf-98ab-406f-8b83-81ad032aa219}" record_timestamp="1562944546131" record_key="ep_pooled_factor_junction_reformation_administrators">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_reformation_administrators</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_reformation_administrators</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_reformation</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{05a0bc1a-4314-4016-a00f-9994f85ebafb}" record_timestamp="1560431213892" record_key="ep_pooled_factor_junction_reformation_assignments">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_reformation_assignments</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_reformation_assignments</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_reformation</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{7d44b2bf-4c89-4cd2-a70d-cd39e863b32b}" record_timestamp="1562340328657" record_key="ep_pooled_factor_junction_reformation_building_negative">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_reformation_buildings_negative</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_reformation_building_negative</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_reformation</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{291932c6-2349-41dc-a0ba-5fa381e4c150}" record_timestamp="1559646433071" record_key="ep_pooled_factor_junction_reformation_building_positive">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_reformation_buildings_positive</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_reformation_building_positive</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_reformation</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{28787991-8dd4-478c-9e06-f3fca29156f0}" record_timestamp="1560431214056" record_key="ep_pooled_factor_junction_reformation_events">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_reformation_events</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_reformation_events</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_reformation</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{1037cf05-1b82-4a60-ade2-0f5a93d3c797}" record_timestamp="1559669718300" record_key="ep_pooled_factor_junction_sima_assignments">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_sima_wei_assignments</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_sima_assignments</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_wei</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{0f5e9fa1-117f-4b97-869f-cf2d787a0b22}" record_timestamp="1559581891103" record_key="ep_pooled_factor_junction_sima_wei">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_sima_wei</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_sima_wei</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_wei</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{111d8df9-82b1-45bc-aff4-13ff5da06534}" record_timestamp="1559669695846" record_key="ep_pooled_factor_junction_sima_wei_battles">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_sima_wei_battles</factor>
+<is_recurring_factor>0</is_recurring_factor>
+<key>ep_pooled_factor_junction_sima_wei_battles</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_wei</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{4fe46f44-e251-4d50-a4e2-2c8516b643e6}" record_timestamp="1559669714972" record_key="ep_pooled_factor_junction_sima_wei_decay">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_sima_wei_decay</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_sima_wei_decay</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_wei</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{7bb4ba76-733a-4b79-9809-6a750dc9be57}" record_timestamp="1560525449289" record_key="ep_pooled_factor_junction_sima_wei_gifts">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_sima_wei_gifts</factor>
+<is_recurring_factor>0</is_recurring_factor>
+<key>ep_pooled_factor_junction_sima_wei_gifts</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_wei</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{3d43e60e-1ac4-444d-8a01-f14031f49eb7}" record_timestamp="1559669710211" record_key="ep_pooled_factor_junction_sima_wei_post_siege">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_sima_wei_post_siege</factor>
+<is_recurring_factor>0</is_recurring_factor>
+<key>ep_pooled_factor_junction_sima_wei_post_siege</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_wei</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{7202393e-cb52-418a-b2bf-68756c3b409b}" record_timestamp="1559581891044" record_key="ep_pooled_factor_junction_subterfuge">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_subterfuge</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_subterfuge</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_lun_subterfuge</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{c076fd9d-2311-4465-bd60-7d63bb93d12a}" record_timestamp="1559722344321" record_key="ep_pooled_factor_junction_subterfuge_buildings">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_subterfuge_buildings</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_subterfuge_buildings</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_lun_subterfuge</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{81f4c844-3729-4be9-b5e1-b0b96a1deeb1}" record_timestamp="1559652447093" record_key="ep_pooled_factor_junction_subterfuge_expended_through_diplomacy">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_subterfuge_diplomacy</factor>
+<is_recurring_factor>0</is_recurring_factor>
+<key>ep_pooled_factor_junction_subterfuge_expended_through_diplomacy</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_lun_subterfuge</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{f8b040ae-5176-4d19-997b-23663878c8e1}" record_timestamp="1560530349717" record_key="ep_pooled_factor_junction_subterfuge_people_in_power">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_subterfuge_people_in_power</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_subterfuge_people_in_power</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_lun_subterfuge</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{8467278d-3785-4fdf-a4cc-5a2108ffc812}" record_timestamp="1559919141790" record_key="ep_pooled_factor_junction_subterfuge_spies_1">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_subterfuge_spies_1</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_subterfuge_spies_1</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_lun_subterfuge</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{05736b65-10e1-43b4-8b38-6270d018023e}" record_timestamp="1560442572821" record_key="ep_pooled_factor_junction_subterfuge_spies_2">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_subterfuge_spies_2</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_subterfuge_spies_2</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_lun_subterfuge</resource>
+</pooled_resource_factor_junctions>
+<pooled_resource_factor_junctions record_uuid="{0d76278c-85e0-4848-be81-0dbaece5d0dc}" record_timestamp="1560442572821" record_key="ep_pooled_factor_junction_subterfuge_spies_3">
+<ai_can_propose>1</ai_can_propose>
+<factor>ep_pooled_factor_subterfuge_spies_3</factor>
+<is_recurring_factor>1</is_recurring_factor>
+<key>ep_pooled_factor_junction_subterfuge_spies_3</key>
+<maximum>2147483647</maximum>
+<minimum>-2147483647</minimum>
+<resource>ep_pooled_resource_sima_lun_subterfuge</resource>
 </pooled_resource_factor_junctions>
 </dataroot>

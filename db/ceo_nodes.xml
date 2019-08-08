@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_nodes.xsd" export_time="Fri Apr 12 11:45:56 2019" revision="149" export_branch="T:/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>56c0c1f0-d601-40fb-ae50-af46daae4639</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_nodes.xsd" export_time="Mon Jul 15 13:58:46 2019" revision="170" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1583/dave" export_user="bob">
+<edit_uuid>bee90e27-ed59-4349-86ae-efe82440d0eb</edit_uuid>
 <ceo_nodes record_uuid="{e55f0c0a-5f2f-471e-90b2-1acf799420a3}" record_timestamp="1527187467965" record_key="3k_main_ancillary_adept">
 <ceo_effect_list>3k_main_ancillary_follower_adept</ceo_effect_list>
 <description state="APPROVED" last_approved_text="&quot;Practice makes perfect, the more that you do it.&quot;" last_edit_user="bob">&quot;Practice makes perfect, the more that you do it.&quot;</description>
@@ -1612,7 +1612,7 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Professional Instructor" last_edit_user="bob">Professional Instructor</title>
 </ceo_nodes>
-<ceo_nodes record_uuid="{f51bbb30-b45a-421a-a04e-dba4088001ed}" record_timestamp="1552413142051" record_key="3k_main_ancillary_professor">
+<ceo_nodes record_uuid="{f51bbb30-b45a-421a-a04e-dba4088001ed}" record_timestamp="1527187467960" record_key="3k_main_ancillary_professor">
 <ceo_effect_list>3k_main_ancillary_follower_professor</ceo_effect_list>
 <description state="APPROVED" last_approved_text="What use is all that knowledge if it is not passed on to the coming generation?" last_edit_user="bob">What use is all that knowledge if it is not passed on to the coming generation?</description>
 <icon_path>followers/3k_main_ancillary_professor.png</icon_path>
@@ -3114,6 +3114,15 @@
 <opinion_topic_modifier>3k_main_opinion_topic_set_intelligence_artful</opinion_topic_modifier>
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="The Rising Sun" last_edit_user="bob">The Rising Sun</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{2983861a-4239-4e99-bb38-58fa91a8b269}" record_timestamp="1560851445467" record_key="3k_main_ceo_node_career_historical_li_han_01">
+<ceo_effect_list>ep_ceo_node_career_historical_li_han_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Li Han draws information to himself; so well-regarded is his knowledge that he often fears his life is jeopardised by what he knows." last_edit_user="bob">Li Han draws information to himself; so well-regarded is his knowledge that he often fears his life is jeopardised by what he knows.</description>
+<icon_path>UI/Campaign UI/traits/icon_cunning_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_li_han_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_vice_deceitful</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Keeper of Secrets" last_edit_user="bob">Keeper of Secrets</title>
 </ceo_nodes>
 <ceo_nodes record_uuid="{6d6df278-eea7-4c71-b1e6-b2ef9e00143c}" record_timestamp="1527170550199" record_key="3k_main_ceo_node_career_historical_li_ru_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_li_ru_01</ceo_effect_list>
@@ -4726,7 +4735,7 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="General of the People" last_edit_user="bob">General of the People</title>
 </ceo_nodes>
-<ceo_nodes record_uuid="{587f59e8-3008-4e59-9624-b9716e33efa9}" record_timestamp="1550502126375" record_key="3k_ytr_ancillary_armour_he_mans_armour_unique">
+<ceo_nodes record_uuid="{587f59e8-3008-4e59-9624-b9716e33efa9}" record_timestamp="1551784875323" record_key="3k_ytr_ancillary_armour_he_mans_armour_unique">
 <ceo_effect_list>3k_ytr_ancillary_armour_he_mans_armour_unique</ceo_effect_list>
 <description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
 <icon_path>armours/3k_ytr_ancillary_armour_he_man_unique.png</icon_path>
@@ -4771,7 +4780,7 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Heavenly Mender" last_edit_user="bob">Heavenly Mender</title>
 </ceo_nodes>
-<ceo_nodes record_uuid="{72e6ed25-7e1f-4c1c-8490-cb9a1574e102}" record_timestamp="1550502126374" record_key="3k_ytr_ancillary_armour_pei_yuanshaos_armour_unique">
+<ceo_nodes record_uuid="{72e6ed25-7e1f-4c1c-8490-cb9a1574e102}" record_timestamp="1551784875322" record_key="3k_ytr_ancillary_armour_pei_yuanshaos_armour_unique">
 <ceo_effect_list>3k_ytr_ancillary_armour_pei_yuanshaos_armour_unique</ceo_effect_list>
 <description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
 <icon_path>armours/3k_ytr_ancillary_armour_pei_yuanshao_unique.png</icon_path>
@@ -4852,7 +4861,7 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Protection of the People" last_edit_user="bob">Protection of the People</title>
 </ceo_nodes>
-<ceo_nodes record_uuid="{4924b9b4-0ff8-44be-8fd9-59b8fa73779f}" record_timestamp="1550502126375" record_key="3k_ytr_ancillary_armour_zhang_kais_armour_unique">
+<ceo_nodes record_uuid="{4924b9b4-0ff8-44be-8fd9-59b8fa73779f}" record_timestamp="1551784875323" record_key="3k_ytr_ancillary_armour_zhang_kais_armour_unique">
 <ceo_effect_list>3k_ytr_ancillary_armour_zhang_kais_armour_unique</ceo_effect_list>
 <description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
 <icon_path>armours/3k_ytr_ancillary_armour_zhang_kai_unique.png</icon_path>
@@ -5473,7 +5482,7 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Tolerant" last_edit_user="bob">Tolerant</title>
 </ceo_nodes>
-<ceo_nodes record_uuid="{55ff6c6e-7988-49ae-95b9-f28797001d25}" record_timestamp="1554895867645" record_key="3k_ytr_ceo_node_trait_personality_heaven_tranquil">
+<ceo_nodes record_uuid="{55ff6c6e-7988-49ae-95b9-f28797001d25}" record_timestamp="1537346363822" record_key="3k_ytr_ceo_node_trait_personality_heaven_tranquil">
 <ceo_effect_list>3k_ytr_ceo_node_trait_personality_heaven_tranquil</ceo_effect_list>
 <description state="APPROVED" last_approved_text="This one is as calm as a still lake; their thoughts possess a mindful clarity and they perform their tasks all the better for it." last_edit_user="bob">This one is as calm as a still lake; their thoughts possess a mindful clarity and they perform their tasks all the better for it.</description>
 <icon_path>UI/Campaign UI/traits/icon_calm_good.png</icon_path>
@@ -5760,5 +5769,1067 @@
 <opinion_topic_modifier>3k_main_opinion_topic_set_debilitation_battle_wound</opinion_topic_modifier>
 <point_change_per_turn_if_active>-1</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Battle Wound" last_edit_user="bob">Battle Wound</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{7a59464b-70a8-498c-9e93-193253c96a76}" record_timestamp="1553100952070" record_key="ep_ancillary_armour_heavy_armour_fire_extraordinary">
+<ceo_effect_list>ep_ancillary_armour_heavy_armour_fire_extraordinary</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Not much to look at, but it's got it where it matters." last_edit_user="bob">Not much to look at, but it's got it where it matters.</description>
+<icon_path>armours/ep_ancillary_armour_heavy_armour_fire_extraordinary.png</icon_path>
+<key>ep_ancillary_armour_heavy_armour_fire_extraordinary</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Unyielding Scale Mail" last_edit_user="bob">Unyielding Scale Mail</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{688fc7e9-6ffc-4a90-90d4-e1b0dd33a107}" record_timestamp="1553100950977" record_key="ep_ancillary_armour_heavy_armour_fire_unique">
+<ceo_effect_list>ep_ancillary_armour_heavy_armour_fire_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Plates so resistant you would think them the hide of a winged-beast." last_edit_user="bob">Plates so resistant you would think them the hide of a winged-beast.</description>
+<icon_path>armours/ep_ancillary_armour_heavy_armour_fire_unique.png</icon_path>
+<key>ep_ancillary_armour_heavy_armour_fire_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Dragon's Scales" last_edit_user="bob">Dragon's Scales</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{08977610-8af5-4e58-921f-5bf7b1e53896}" record_timestamp="1553101207106" record_key="ep_ancillary_armour_heavy_armour_wood_extraordinary">
+<ceo_effect_list>ep_ancillary_armour_heavy_armour_wood_extraordinary</ceo_effect_list>
+<description state="APPROVED" last_approved_text="This armour is an extension of the self; defence flows through it, to the wearer." last_edit_user="bob">This armour is an extension of the self; defence flows through it, to the wearer.</description>
+<icon_path>armours/3k_main_ancillary_armour_heavy_armour_wood_extraordinary.png</icon_path>
+<key>ep_ancillary_armour_heavy_armour_wood_extraordinary</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Redoubtable Mail" last_edit_user="bob">Redoubtable Mail</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{d00a9d5a-0f64-4ce9-a12a-38ec4b38e7d7}" record_timestamp="1553101207106" record_key="ep_ancillary_armour_heavy_armour_wood_unique">
+<ceo_effect_list>ep_ancillary_armour_heavy_armour_wood_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="It would be easier to split the very ground than this armour." last_edit_user="bob">It would be easier to split the very ground than this armour.</description>
+<icon_path>armours/3k_main_ancillary_armour_heavy_armour_wood_unique.png</icon_path>
+<key>ep_ancillary_armour_heavy_armour_wood_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Nature's Shield" last_edit_user="bob">Nature's Shield</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{729219b0-76d2-41d6-bc98-95b2b81bb6c1}" record_timestamp="1553100951630" record_key="ep_ancillary_armour_light_armour_earth_extraordinary">
+<ceo_effect_list>ep_ancillary_armour_light_armour_earth_extraordinary</ceo_effect_list>
+<description state="APPROVED" last_approved_text="This armour is as a second skin, although considerably firmer." last_edit_user="bob">This armour is as a second skin, although considerably firmer.</description>
+<icon_path>armours/ep_ancillary_armour_light_armour_earth_extraordinary.png</icon_path>
+<key>ep_ancillary_armour_light_armour_earth_extraordinary</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Thick Leather Hide" last_edit_user="bob">Thick Leather Hide</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{0f0eba70-a300-4c94-a45a-8723197715cc}" record_timestamp="1553100951674" record_key="ep_ancillary_armour_light_armour_earth_unique">
+<ceo_effect_list>ep_ancillary_armour_light_armour_earth_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Longevity is granted to those who offer devotion to the blossoms." last_edit_user="bob">Longevity is granted to those who offer devotion to the blossoms.</description>
+<icon_path>armours/ep_ancillary_armour_light_armour_earth_unique.png</icon_path>
+<key>ep_ancillary_armour_light_armour_earth_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Skin of the Peach Tree" last_edit_user="bob">Skin of the Peach Tree</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{022ada4c-2498-4c42-a543-60c303434f14}" record_timestamp="1553101207106" record_key="ep_ancillary_armour_light_armour_metal_extraordinary">
+<ceo_effect_list>ep_ancillary_armour_light_armour_metal_extraordinary</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Hardened over years of use and experience, like its wearer." last_edit_user="bob">Hardened over years of use and experience, like its wearer.</description>
+<icon_path>armours/3k_main_ancillary_armour_light_armour_metal_extraordinary.png</icon_path>
+<key>ep_ancillary_armour_light_armour_metal_extraordinary</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Proficient's Scale Mail" last_edit_user="bob">Proficient's Scale Mail</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{14bf7c9e-07da-4c76-9a2f-2a229ded2cf7}" record_timestamp="1553101207106" record_key="ep_ancillary_armour_light_armour_metal_unique">
+<ceo_effect_list>ep_ancillary_armour_light_armour_metal_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="&quot;Dignity and understanding, friend. That is how we win.&quot;" last_edit_user="bob">&quot;Dignity and understanding, friend. That is how we win.&quot;</description>
+<icon_path>armours/3k_main_ancillary_armour_light_armour_metal_unique.png</icon_path>
+<key>ep_ancillary_armour_light_armour_metal_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Spirit of the Dog" last_edit_user="bob">Spirit of the Dog</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{fc75a49d-5610-4a62-8230-2c116b09e57e}" record_timestamp="1553101207106" record_key="ep_ancillary_armour_medium_armour_earth_extraordinary">
+<ceo_effect_list>ep_ancillary_armour_medium_armour_earth_extraordinary</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Functional, but masterfully-forged armour for the warrior of renown." last_edit_user="bob">Functional, but masterfully-forged armour for the warrior of renown.</description>
+<icon_path>armours/3k_main_ancillary_armour_medium_armour_earth_extraordinary.png</icon_path>
+<key>ep_ancillary_armour_medium_armour_earth_extraordinary</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Armour of the Adept" last_edit_user="bob">Armour of the Adept</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{9482470c-8ffb-4849-bacf-51915441e349}" record_timestamp="1553101207106" record_key="ep_ancillary_armour_medium_armour_earth_unique">
+<ceo_effect_list>ep_ancillary_armour_medium_armour_earth_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Hardened shell to defend against man, nature and heaven." last_edit_user="bob">Hardened shell to defend against man, nature and heaven.</description>
+<icon_path>armours/3k_main_ancillary_armour_medium_armour_earth_unique.png</icon_path>
+<key>ep_ancillary_armour_medium_armour_earth_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Enduring Tortoise" last_edit_user="bob">Enduring Tortoise</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{98913935-67da-4139-849a-3f39249dc3f7}" record_timestamp="1553101207106" record_key="ep_ancillary_armour_medium_armour_fire_extraordinary">
+<ceo_effect_list>ep_ancillary_armour_medium_armour_fire_extraordinary</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Possessed of the same alacrity and fighting-joy as its namesake." last_edit_user="bob">Possessed of the same alacrity and fighting-joy as its namesake.</description>
+<icon_path>armours/3k_main_ancillary_armour_medium_armour_fire_extraordinary.png</icon_path>
+<key>ep_ancillary_armour_medium_armour_fire_extraordinary</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="The Boistrous Cricket" last_edit_user="bob">The Boistrous Cricket</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{fcf4b53d-13c6-498f-a0f9-e5c48fb294f3}" record_timestamp="1553101207106" record_key="ep_ancillary_armour_medium_armour_fire_unique">
+<ceo_effect_list>ep_ancillary_armour_medium_armour_fire_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Provides the wearer ample defence and a preternatural disposition for conflict." last_edit_user="bob">Provides the wearer ample defence and a preternatural disposition for conflict.</description>
+<icon_path>armours/3k_main_ancillary_armour_medium_armour_fire_unique.png</icon_path>
+<key>ep_ancillary_armour_medium_armour_fire_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Raiments of War" last_edit_user="bob">Raiments of War</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{a32ea733-1912-4b6b-a032-31aca23a9d21}" record_timestamp="1553101207106" record_key="ep_ancillary_armour_medium_armour_metal_extraordinary">
+<ceo_effect_list>ep_ancillary_armour_medium_armour_metal_extraordinary</ceo_effect_list>
+<description state="APPROVED" last_approved_text="There is wisdom in this armour. Wisdom its wearer will now also possess." last_edit_user="bob">There is wisdom in this armour. Wisdom its wearer will now also possess.</description>
+<icon_path>armours/3k_main_ancillary_armour_medium_armour_metal_extraordinary.png</icon_path>
+<key>ep_ancillary_armour_medium_armour_metal_extraordinary</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Sage's Armour" last_edit_user="bob">Sage's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{9e4b4703-225f-4881-bda4-cd13373dc210}" record_timestamp="1553101207106" record_key="ep_ancillary_armour_medium_armour_metal_unique">
+<ceo_effect_list>ep_ancillary_armour_medium_armour_metal_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Passed down through generations, you embody their words now." last_edit_user="bob">Passed down through generations, you embody their words now.</description>
+<icon_path>armours/3k_main_ancillary_armour_medium_armour_metal_unique.png</icon_path>
+<key>ep_ancillary_armour_medium_armour_metal_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Words of the Master" last_edit_user="bob">Words of the Master</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{52fbf7a4-8974-4350-bb64-9d88d1f4f789}" record_timestamp="1553100951020" record_key="ep_ancillary_armour_medium_armour_wood_extraordinary">
+<ceo_effect_list>ep_ancillary_armour_medium_armour_wood_extraordinary</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Nature provides and defends; this armour is like a wall of oak." last_edit_user="bob">Nature provides and defends; this armour is like a wall of oak.</description>
+<icon_path>armours/ep_ancillary_armour_medium_armour_wood_extraordinary.png</icon_path>
+<key>ep_ancillary_armour_medium_armour_wood_extraordinary</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Forest Skin" last_edit_user="bob">Forest Skin</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{a6458cc8-1cf4-4c53-b21e-af8314822aea}" record_timestamp="1553100951063" record_key="ep_ancillary_armour_medium_armour_wood_unique">
+<ceo_effect_list>ep_ancillary_armour_medium_armour_wood_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Like the crane amongst the pines, we endure, survive and thrive." last_edit_user="bob">Like the crane amongst the pines, we endure, survive and thrive.</description>
+<icon_path>armours/ep_ancillary_armour_medium_armour_wood_unique.png</icon_path>
+<key>ep_ancillary_armour_medium_armour_wood_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="The Forest Crane" last_edit_user="bob">The Forest Crane</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{21a8ccd4-28a7-4c68-bbe3-3381c42e76d4}" record_timestamp="1553100951499" record_key="ep_ancillary_armour_strategist_light_armour_water_extraordinary">
+<ceo_effect_list>ep_ancillary_armour_strategist_light_armour_water_extraordinary</ceo_effect_list>
+<description state="APPROVED" last_approved_text="&quot;There is a difference between knowing the path and walking the path.&quot;" last_edit_user="bob">&quot;There is a difference between knowing the path and walking the path.&quot;</description>
+<icon_path>armours/ep_ancillary_armour_strategist_light_armour_water_extraordinary.png</icon_path>
+<key>ep_ancillary_armour_strategist_light_armour_water_extraordinary</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Intellectual Vestures" last_edit_user="bob">Intellectual Vestures</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{10c7999f-646e-4d69-8abc-872fb07f5bda}" record_timestamp="1553100951542" record_key="ep_ancillary_armour_strategist_light_armour_water_unique">
+<ceo_effect_list>ep_ancillary_armour_strategist_light_armour_water_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="&quot;There is mystery in the way it moves, and beauty too.&quot;" last_edit_user="bob">&quot;There is mystery in the way it moves, and beauty too.&quot;</description>
+<icon_path>armours/ep_ancillary_armour_strategist_light_armour_water_unique.png</icon_path>
+<key>ep_ancillary_armour_strategist_light_armour_water_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Robes of the Mantis" last_edit_user="bob">Robes of the Mantis</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{61098f21-9804-4b33-8cd6-0ad8b36081f5}" record_timestamp="1553100951368" record_key="ep_ancillary_sima_ai_armour_unique">
+<ceo_effect_list>ep_ancillary_sima_ai_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/ep_ancillary_sima_ai_armour_unique.png</icon_path>
+<key>ep_ancillary_sima_ai_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Sima Ai's Armour" last_edit_user="bob">Sima Ai's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{25895452-1bc2-4e5f-8120-74510f65e222}" record_timestamp="1553100951281" record_key="ep_ancillary_sima_jiong_armour_unique">
+<ceo_effect_list>ep_ancillary_sima_jiong_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/ep_ancillary_sima_jiong_armour_unique.png</icon_path>
+<key>ep_ancillary_sima_jiong_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Sima Jiong's Armour" last_edit_user="bob">Sima Jiong's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{d2dfcfd4-dbbe-4a0a-ae65-1d1b07f67dbc}" record_timestamp="1553100951587" record_key="ep_ancillary_sima_liang_armour_unique">
+<ceo_effect_list>ep_ancillary_sima_liang_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/ep_ancillary_sima_liang_armour_unique.png</icon_path>
+<key>ep_ancillary_sima_liang_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Sima Liang's Armour" last_edit_user="bob">Sima Liang's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{f898991b-f660-402d-80c4-a0a3092a846c}" record_timestamp="1553100951238" record_key="ep_ancillary_sima_lun_armour_unique">
+<ceo_effect_list>ep_ancillary_sima_lun_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/ep_ancillary_sima_lun_armour_unique.png</icon_path>
+<key>ep_ancillary_sima_lun_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Sima Lun's Armour" last_edit_user="bob">Sima Lun's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{1af64e79-2446-44ff-8acb-b75daf3a6e53}" record_timestamp="1553100951194" record_key="ep_ancillary_sima_wei_armour_unique">
+<ceo_effect_list>ep_ancillary_sima_wei_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/ep_ancillary_sima_wei_armour_unique.png</icon_path>
+<key>ep_ancillary_sima_wei_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Sima Wei's Armour" last_edit_user="bob">Sima Wei's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{02193aee-2af3-4118-a62f-d225b7d0495b}" record_timestamp="1553100951325" record_key="ep_ancillary_sima_ying_armour_unique">
+<ceo_effect_list>ep_ancillary_sima_ying_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/ep_ancillary_sima_ying_armour_unique.png</icon_path>
+<key>ep_ancillary_sima_ying_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Sima Ying's Armour" last_edit_user="bob">Sima Ying's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{f23ff8df-8ac9-482b-972d-08c2dd145e97}" record_timestamp="1553100951412" record_key="ep_ancillary_sima_yong_armour_unique">
+<ceo_effect_list>ep_ancillary_sima_yong_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/ep_ancillary_sima_yong_armour_unique.png</icon_path>
+<key>ep_ancillary_sima_yong_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Sima Yong's Armour" last_edit_user="bob">Sima Yong's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{3dcbcef8-4217-4734-b70a-69b24b6210eb}" record_timestamp="1553100951455" record_key="ep_ancillary_sima_yue_armour_unique">
+<ceo_effect_list>ep_ancillary_sima_yue_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/ep_ancillary_sima_yue_armour_unique.png</icon_path>
+<key>ep_ancillary_sima_yue_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Sima Yue's Armour" last_edit_user="bob">Sima Yue's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{b5d3dd49-5a00-4575-b859-25ffa1ca4e54}" record_timestamp="1560851446340" record_key="ep_ceo_node_career_historical_cao_huan_01">
+<ceo_effect_list>empty_effects</ceo_effect_list>
+<description state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">placeholder</description>
+<icon_path></icon_path>
+<key>ep_ceo_node_career_historical_cao_huan_01</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">placeholder</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{bfd5c0eb-b47b-4899-b1f8-5e3a3028181f}" record_timestamp="1560334422378" record_key="ep_ceo_node_career_historical_gongsun_hong_01">
+<ceo_effect_list>ep_ceo_node_career_historical_gongsun_hong_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Sima Wei's confidante; often sees things that others do not." last_edit_user="bob">Sima Wei's confidante; often sees things that others do not</description>
+<icon_path>UI/Campaign UI/traits/icon_wise_good.png</icon_path>
+<key>ep_ceo_node_career_historical_gongsun_hong_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_perception_perceptive</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Observant Advisor" last_edit_user="bob">Observant Advisor</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{da3286e6-0448-4dea-8bb6-d7b81c458bae}" record_timestamp="1560334422378" record_key="ep_ceo_node_career_historical_he_lun_01">
+<ceo_effect_list>ep_ceo_node_career_historical_he_lun_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Although subordinate to Sima Yue, he is a loyal and capable advisor." last_edit_user="bob">Although subordinate to Sima Yue, he is a loyal and capable advisor</description>
+<icon_path>UI/Campaign UI/traits/icon_relentless_good.png</icon_path>
+<key>ep_ceo_node_career_historical_he_lun_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_determination_committed</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Loyal Officer" last_edit_user="bob">Loyal Officer</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{64e9ac2d-b855-40de-9da2-c6d34dc0a603}" record_timestamp="1560334422379" record_key="ep_ceo_node_career_historical_huangfu_shang_01">
+<ceo_effect_list>ep_ceo_node_career_historical_huangfu_shang_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Has fought Li Han for years, now works on behalf of Sima Ai, fighting wars or making deals wherever needed." last_edit_user="bob">Has fought Li Han for years, now works on behalf of Sima Ai, fighting wars or making deals wherever needed</description>
+<icon_path>UI/Campaign UI/traits/icon_calm_metal.png</icon_path>
+<key>ep_ceo_node_career_historical_huangfu_shang_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_patience_patient</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Facilitator" last_edit_user="bob">Facilitator</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{8ab11c1b-1e3d-461e-8c29-8e2a23d7502e}" record_timestamp="1560851446340" record_key="ep_ceo_node_career_historical_liu_qi_01">
+<ceo_effect_list>empty_effects</ceo_effect_list>
+<description state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">placeholder</description>
+<icon_path></icon_path>
+<key>ep_ceo_node_career_historical_liu_qi_01</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">placeholder</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{5f80627a-800b-4360-9761-7025cfa0a9c9}" record_timestamp="1560851446340" record_key="ep_ceo_node_career_historical_liu_shen_01">
+<ceo_effect_list>empty_effects</ceo_effect_list>
+<description state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">placeholder</description>
+<icon_path></icon_path>
+<key>ep_ceo_node_career_historical_liu_shen_01</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">placeholder</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{ad96e452-d13e-4612-a758-f10cbc87ab66}" record_timestamp="1560334422379" record_key="ep_ceo_node_career_historical_lu_ji_01">
+<ceo_effect_list>ep_ceo_node_career_historical_lu_ji_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Famed thoughout the realm as a gifted writer and literary critic. However, his ability as a commander remains... questionable." last_edit_user="bob">Famed thoughout the realm as a gifted writer and literary critic. However, his ability as a commander remains... questionable.</description>
+<icon_path>UI/Campaign UI/traits/icon_career_scholar.png</icon_path>
+<key>ep_ceo_node_career_historical_lu_ji_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_intelligence_scholarly</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Renowned Scholar" last_edit_user="bob">Renowned Scholar</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{1caaf559-9356-4a03-802b-8d29646bcced}" record_timestamp="1560334422379" record_key="ep_ceo_node_career_historical_lu_zhi_01">
+<ceo_effect_list>ep_ceo_node_career_historical_lu_zhi_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Sima Ying's close advisor, known for being capable and loyal." last_edit_user="bob">Sima Ying's close advisor, known for being capable and loyal</description>
+<icon_path>UI/Campaign UI/traits/icon_loyal_earth.png</icon_path>
+<key>ep_ceo_node_career_historical_lu_zhi_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_loyalty_dutiful</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Skilled Mediator" last_edit_user="bob">Skilled Mediator</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{e1727b85-d92c-4288-8d1a-6598c9b695c0}" record_timestamp="1562341223331" record_key="ep_ceo_node_career_historical_princess_pei_01">
+<ceo_effect_list>ep_ceo_node_career_historical_princess_pei_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="This one is gifted with insight and adamant perseverance." last_edit_user="bob">This one is gifted with insight and adamant perseverance.</description>
+<icon_path>UI/Campaign UI/traits/icon_relentless_good.png</icon_path>
+<key>ep_ceo_node_career_historical_princess_pei_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_goodness_kind_hearted</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Insightful Survivalist" last_edit_user="bob">Insightful Survivalist</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{a3615ce7-93da-46db-80e1-dbbdc1df3107}" record_timestamp="1560334422379" record_key="ep_ceo_node_career_historical_qi_sheng_01">
+<ceo_effect_list>ep_ceo_node_career_historical_qi_sheng_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Assistant and advisor to Sima Wei - his wily observations may direct one to glory or to ruin." last_edit_user="bob">Assistant and advisor to Sima Wei - his wily observations may direct one to glory or to ruin</description>
+<icon_path>UI/Campaign UI/traits/icon_bright_good.png</icon_path>
+<key>ep_ceo_node_career_historical_qi_sheng_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_intelligence_bright</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Cunning Clerk" last_edit_user="bob">Cunning Clerk</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{02f77395-4f82-4250-8f0a-3bfc6f7e6b60}" record_timestamp="1560941531696" record_key="ep_ceo_node_career_historical_shi_chao_01">
+<ceo_effect_list>ep_ceo_node_career_historical_shi_chao_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="A talented general who has seen dynasties fall as his loyalties shifted" last_edit_user="bob">A talented general who has seen dynasties fall as his loyalties shifted</description>
+<icon_path>UI/Campaign UI/traits/icon_stalwart_good.png</icon_path>
+<key>ep_ceo_node_career_historical_shi_chao_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_trust_sincere</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Central Army Protector" last_edit_user="bob">Central Army Protector</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{2133b3dd-2e53-4e5c-9306-07ec61c7d786}" record_timestamp="1560334422381" record_key="ep_ceo_node_career_historical_sima_ai_01">
+<ceo_effect_list>ep_ceo_node_career_historical_sima_ai_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="&quot;I am afraid I cannot allow that. You see, in sub-section five, paragraph nine...&quot;" last_edit_user="bob">&quot;I am afraid I cannot allow that. You see, in sub-section five, paragraph nine...&quot;</description>
+<icon_path>UI/Campaign UI/traits/icon_wise_good.png</icon_path>
+<key>ep_ceo_node_career_historical_sima_ai_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_discipline_stern</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Principled Administrator" last_edit_user="bob">Principled Administrator</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{753e5fb9-8a61-4b1f-bbdc-b15eedad7b3f}" record_timestamp="1560334422379" record_key="ep_ceo_node_career_historical_sima_cui_01">
+<ceo_effect_list>ep_ceo_node_career_historical_sima_cui_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Sima Liang's son. Not being titled as prince has given him a desire to prove his worth." last_edit_user="bob">Sima Liang's son. Not being titled as prince has given him a desire to prove his worth</description>
+<icon_path>UI/Campaign UI/traits/icon_relentless_good.png</icon_path>
+<key>ep_ceo_node_career_historical_sima_cui_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_determination_relentless</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Jade Carver" last_edit_user="bob">Jade Carver</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{8481c964-9178-4945-98e9-5eee42da6986}" record_timestamp="1560334422381" record_key="ep_ceo_node_career_historical_sima_jiong_01">
+<ceo_effect_list>ep_ceo_node_career_historical_sima_jiong_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="&quot;A regent is like air; unseen and barely felt, but vital all the same.&quot;" last_edit_user="bob">&quot;A regent is like air; unseen and barely felt, but vital all the same.&quot;</description>
+<icon_path>UI/Campaign UI/traits/icon_cunning_good.png</icon_path>
+<key>ep_ceo_node_career_historical_sima_jiong_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_intelligence_clever</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Imperious Regent" last_edit_user="bob">Imperious Regent</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{18a6380b-df13-474d-9cc2-30fd9434d685}" record_timestamp="1560334422379" record_key="ep_ceo_node_career_historical_sima_ju_01">
+<ceo_effect_list>ep_ceo_node_career_historical_sima_ju_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Sima Liang's son and heir, considered an outsider but not to be underestimated." last_edit_user="bob">Sima Liang's son and heir, considered an outsider but not to be underestimated</description>
+<icon_path>UI/Campaign UI/traits/icon_relentless_good.png</icon_path>
+<key>ep_ceo_node_career_historical_sima_ju_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_honour_humble</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Outsider Heir" last_edit_user="bob">Outsider Heir</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{e960f7e3-661e-43e2-ba84-8222689b8566}" record_timestamp="1560334422380" record_key="ep_ceo_node_career_historical_sima_liang_01">
+<ceo_effect_list>ep_ceo_node_career_historical_sima_liang_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Son of the legendary Sima Yi, he has watched the Jin dynasty scuffle in his shadow." last_edit_user="bob">Son of the legendary Sima Yi, he has watched the Jin dynasty scuffle in his shadow.</description>
+<icon_path>UI/Campaign UI/traits/icon_brave_wood.png</icon_path>
+<key>ep_ceo_node_career_historical_sima_liang_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_loyalty_stalwart</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Rightful Regent" last_edit_user="bob">Rightful Regent</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{f872785b-3754-41aa-9a98-f60cbd62da92}" record_timestamp="1560334422380" record_key="ep_ceo_node_career_historical_sima_lun_01">
+<ceo_effect_list>ep_ceo_node_career_historical_sima_lun_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="&quot;The Jin dynasty will endure under a wise and deserving emperor - me!&quot;" last_edit_user="bob">&quot;The Jin dynasty will endure under a wise and deserving emperor - me!&quot;</description>
+<icon_path>UI/Campaign UI/traits/icon_cunning_good.png</icon_path>
+<key>ep_ceo_node_career_historical_sima_lun_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_determination_ambitious</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Usurper Prince" last_edit_user="bob">Usurper Prince</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{1cbe9667-62a1-4c37-bb97-6bf7a5b26a41}" record_timestamp="1560851446340" record_key="ep_ceo_node_career_historical_sima_song_01">
+<ceo_effect_list>empty_effects</ceo_effect_list>
+<description state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">placeholder</description>
+<icon_path></icon_path>
+<key>ep_ceo_node_career_historical_sima_song_01</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">placeholder</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{b14cb384-5243-4090-8d3e-0ad93db916f6}" record_timestamp="1560334422380" record_key="ep_ceo_node_career_historical_sima_wei_01">
+<ceo_effect_list>ep_ceo_node_career_historical_sima_wei_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="His reputation for belligerence is perhaps undeserved. Not so his famously short temper." last_edit_user="bob">His reputation for belligerence is perhaps undeserved. Not so his famously short temper.</description>
+<icon_path>UI/Campaign UI/traits/icon_brave_fire.png</icon_path>
+<key>ep_ceo_node_career_historical_sima_wei_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_strength_formidable</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Tempestuous General" last_edit_user="bob">Tempestuous General</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{a1fd26cf-012d-4b4c-9a5f-d24efabca19d}" record_timestamp="1560334422381" record_key="ep_ceo_node_career_historical_sima_ying_01">
+<ceo_effect_list>ep_ceo_node_career_historical_sima_ying_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Madness may grip the court, but Sima Ying will always think of his people." last_edit_user="bob">Madness may grip the court, but Sima Ying will always think of his people.</description>
+<icon_path>UI/Campaign UI/traits/icon_loyal_earth.png</icon_path>
+<key>ep_ceo_node_career_historical_sima_ying_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_goodness_kind</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Beloved Governor" last_edit_user="bob">Beloved Governor</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{66b02971-ac84-4561-9225-34577081e2ba}" record_timestamp="1560959764183" record_key="ep_ceo_node_career_historical_sima_yong_01">
+<ceo_effect_list>ep_ceo_node_career_historical_sima_yong_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Sima Yong has a duty to the emperor, and his loyalty will never waver." last_edit_user="bob">Sima Yong has a duty to the emperor, and his loyalty will never waver.</description>
+<icon_path>UI/Campaign UI/traits/icon_loyal_good.png</icon_path>
+<key>ep_ceo_node_career_historical_sima_yong_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_loyalty_dutiful</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Shrewd Defender" last_edit_user="bob">Shrewd Defender</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{a0b0dd05-dce5-4da8-85f8-a9b94e3b728c}" record_timestamp="1560851446340" record_key="ep_ceo_node_career_historical_sima_yu_earth_01">
+<ceo_effect_list>empty_effects</ceo_effect_list>
+<description state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">placeholder</description>
+<icon_path></icon_path>
+<key>ep_ceo_node_career_historical_sima_yu_earth_01</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">placeholder</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{472be13d-0a39-4da3-92df-45c032440e71}" record_timestamp="1560851446340" record_key="ep_ceo_node_career_historical_sima_yu_metal_01">
+<ceo_effect_list>empty_effects</ceo_effect_list>
+<description state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">placeholder</description>
+<icon_path></icon_path>
+<key>ep_ceo_node_career_historical_sima_yu_metal_01</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">placeholder</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{efae40c6-6fa4-4db0-8786-2ce037d14e3d}" record_timestamp="1560334422381" record_key="ep_ceo_node_career_historical_sima_yue_01">
+<ceo_effect_list>ep_ceo_node_career_historical_sima_yue_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="&quot;There must be oversight in all things, especially important matters of state.&quot;" last_edit_user="bob">&quot;There must be oversight in all things, especially important matters of state.&quot;</description>
+<icon_path>UI/Campaign UI/traits/icon_wise_good.png</icon_path>
+<key>ep_ceo_node_career_historical_sima_yue_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_perception_perceptive</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Imperial Overseer" last_edit_user="bob">Imperial Overseer</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{79fb9b0e-398e-427a-b285-03302ef5589a}" record_timestamp="1560334422380" record_key="ep_ceo_node_career_historical_sun_xiu_01">
+<ceo_effect_list>ep_ceo_node_career_historical_sun_xiu_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="&quot;If I may, my lord, I have a rather compelling argument...&quot;" last_edit_user="bob">&quot;If I may, my lord, I have a rather compelling argument...&quot;</description>
+<icon_path>UI/Campaign UI/traits/icon_loyal_good.png</icon_path>
+<key>ep_ceo_node_career_historical_sun_xiu_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_loyalty_dutiful</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Partisan" last_edit_user="bob">Partisan</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{700d7b98-5bad-40b7-aaae-638bd29c5c84}" record_timestamp="1560334422380" record_key="ep_ceo_node_career_historical_wang_bao_01">
+<ceo_effect_list>ep_ceo_node_career_historical_wang_bao_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Courtier of Sima Jiong's regency. Has strong beliefs and a loose tongue that may cause him trouble." last_edit_user="bob">Courtier of Sima Jiong's regency. Has strong beliefs and a loose tongue that may cause him trouble</description>
+<icon_path>UI/Campaign UI/traits/icon_relentless_good.png</icon_path>
+<key>ep_ceo_node_career_historical_wang_bao_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_determination_determined</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Steadfast Preacher" last_edit_user="bob">Steadfast Preacher</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{acc684f8-49ae-47b7-a627-0e7e5f42c89e}" record_timestamp="1560851446246" record_key="ep_ceo_node_career_historical_wei_guan_01">
+<ceo_effect_list>ep_ceo_node_career_historical_wei_guan_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="This person knows how to divide the cake in such a way that everyone believes they have the biggest slice." last_edit_user="bob">This person knows how to divide the cake in such a way that everyone believes they have the biggest slice.</description>
+<icon_path>UI/Campaign UI/traits/icon_social_good.png</icon_path>
+<key>ep_ceo_node_career_historical_wei_guan_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_diplomatic_cordial</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Mediator" last_edit_user="bob">Mediator</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{6870db3a-67a4-4206-b015-f9d3feb65177}" record_timestamp="1560334422380" record_key="ep_ceo_node_career_historical_zhang_fang_01">
+<ceo_effect_list>ep_ceo_node_career_historical_zhang_fang_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="When fighting for his master, Zhang Fang is not known to concern himself with scruples like 'civilian casualties'." last_edit_user="bob">When fighting for his master, Zhang Fang is not known to concern himself with scruples like 'civilian casualties'</description>
+<icon_path>UI/Campaign UI/traits/icon_relentless_good.png</icon_path>
+<key>ep_ceo_node_career_historical_zhang_fang_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_cruelty_cruel</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Uncompromising Warrior" last_edit_user="bob">Uncompromising Warrior</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{179decd2-5e77-47fd-96ba-be0d098d1525}" record_timestamp="1561474329764" record_key="ep_ceo_node_career_historical_zhang_hua_01">
+<ceo_effect_list>3k_main_ceo_node_career_generated_governor_water_01</ceo_effect_list>
+<description state="APPROVED" last_approved_text="This one sees the value of institutionalised learning and has embraced it." last_edit_user="bob">This one sees the value of institutionalised learning, and has embraced it.</description>
+<icon_path>UI/Campaign UI/traits/icon_intelligent_good.png</icon_path>
+<key>ep_ceo_node_career_historical_zhang_hua_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_intelligence_scholarly</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Academic" last_edit_user="bob">Academic</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{338c0f59-ea2b-49bd-9aed-1ded6b0aa41b}" record_timestamp="1551887842839" record_key="ep_dyn_ancillary_armour_cao_caos_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_cao_caos_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_cao_caos_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_cao_caos_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Cao Cao's Armour" last_edit_user="bob">Cao Cao's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{4bbe25fa-37fd-4136-86f4-d2b7fd4c7ee2}" record_timestamp="1551887842841" record_key="ep_dyn_ancillary_armour_dian_weis_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_dian_weis_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_dian_weis_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_dian_weis_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Dian Wei's Armour" last_edit_user="bob">Dian Wei's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{38dde301-e6cb-4882-b90e-2f5e32f486ac}" record_timestamp="1551887842843" record_key="ep_dyn_ancillary_armour_dong_zhuos_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_dong_zhuos_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_dong_zhuos_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_dong_zhuos_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Dong Zhuo's Armour" last_edit_user="bob">Dong Zhuo's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{3c911e97-769a-4db0-9aab-98e496e92016}" record_timestamp="1551887842844" record_key="ep_dyn_ancillary_armour_gan_nings_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_gan_nings_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_gan_nings_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_gan_nings_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Gan Ning's Armour" last_edit_user="bob">Gan Ning's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{035348e2-9bbb-4bbd-a84f-c19b87360339}" record_timestamp="1551887842845" record_key="ep_dyn_ancillary_armour_gongsun_zans_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_gongsun_zans_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_gongsun_zans_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_gongsun_zans_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Gongsun Zan's Armour" last_edit_user="bob">Gongsun Zan's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{d213a1fd-b93a-40db-9e55-c78ebdd0f3d8}" record_timestamp="1551887842846" record_key="ep_dyn_ancillary_armour_guan_yus_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_guan_yus_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_guan_yus_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_guan_yus_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Guan Yu's Armour" last_edit_user="bob">Guan Yu's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{74883299-66b0-4464-bb93-138e9a66f894}" record_timestamp="1551887842847" record_key="ep_dyn_ancillary_armour_han_suis_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_han_suis_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_han_suis_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_han_suis_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Han Sui's Armour" last_edit_user="bob">Han Sui's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{21dd6d91-06cd-445d-80b9-e59b0ab66e5b}" record_timestamp="1551887842848" record_key="ep_dyn_ancillary_armour_huang_zhongs_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_huang_zhongs_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_huang_zhongs_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_huang_zhongs_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Huang Zhong's Armour" last_edit_user="bob">Huang Zhong's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{09bf5e62-1c0f-48c6-b443-9dd27b0899ff}" record_timestamp="1551887842850" record_key="ep_dyn_ancillary_armour_kong_rongs_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_kong_rongs_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_kong_rongs_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_kong_rongs_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Kong Rong's Armour" last_edit_user="bob">Kong Rong's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{349afac0-0cb8-4146-9d23-32a14e716dfb}" record_timestamp="1551887842851" record_key="ep_dyn_ancillary_armour_lady_suns_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_lady_suns_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_lady_suns_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_lady_suns_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Lady Sun's Armour" last_edit_user="bob">Lady Sun's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{b58bf517-aa8a-44db-b7f1-315b6a95cbcb}" record_timestamp="1551887842852" record_key="ep_dyn_ancillary_armour_liu_beis_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_liu_beis_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_liu_beis_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_liu_beis_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Liu Bei's Armour" last_edit_user="bob">Liu Bei's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{d2f9d397-868a-4324-8c90-4ae3b9c667ac}" record_timestamp="1551887842853" record_key="ep_dyn_ancillary_armour_liu_biaos_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_liu_biaos_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_liu_biaos_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_liu_biaos_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Liu Biao's Armour" last_edit_user="bob">Liu Biao's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{1ec3b889-28b4-4f8f-a8e5-c6c24bb275f7}" record_timestamp="1551887842855" record_key="ep_dyn_ancillary_armour_liu_zhangs_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_liu_zhangs_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_liu_zhangs_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_liu_zhangs_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Liu Zhang's Armour" last_edit_user="bob">Liu Zhang's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{2eeff57a-db68-4352-864f-be706e82044d}" record_timestamp="1551887842857" record_key="ep_dyn_ancillary_armour_lu_bus_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_lu_bus_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_lu_bus_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_lu_bus_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Lu Bu's Armour" last_edit_user="bob">Lu Bu's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{fd8d4a53-0a0a-4f2b-8d31-3c04f041da91}" record_timestamp="1551887842859" record_key="ep_dyn_ancillary_armour_ma_chaos_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_ma_chaos_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_ma_chaos_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_ma_chaos_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Ma Chao's Armour" last_edit_user="bob">Ma Chao's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{beddc74a-6792-470a-a5e6-ec30700ac679}" record_timestamp="1551887842860" record_key="ep_dyn_ancillary_armour_ma_tengs_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_ma_tengs_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_ma_tengs_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_ma_tengs_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Ma Teng's Armour" last_edit_user="bob">Ma Teng's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{dc725564-3b4b-4cd8-8e42-cb1736f99e9b}" record_timestamp="1551887842861" record_key="ep_dyn_ancillary_armour_sima_yis_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_sima_yis_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_sima_yis_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_sima_yis_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Sima Yi's Armour" last_edit_user="bob">Sima Yi's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{97ed4bad-2278-455b-94d3-62515cbfb2a6}" record_timestamp="1551887842863" record_key="ep_dyn_ancillary_armour_sun_ces_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_sun_ces_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_sun_ces_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_sun_ces_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Sun Ce's Armour" last_edit_user="bob">Sun Ce's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{5c50d71b-ffce-407d-9841-ba2d198dcf88}" record_timestamp="1551887842864" record_key="ep_dyn_ancillary_armour_sun_jians_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_sun_jians_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_sun_jians_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_sun_jians_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Sun Jian's Armour" last_edit_user="bob">Sun Jian's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{83abc5d8-31d9-43d3-9928-8b496fd55c82}" record_timestamp="1551887842865" record_key="ep_dyn_ancillary_armour_sun_quans_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_sun_quans_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_sun_quans_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_sun_quans_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Sun Quan's Armour" last_edit_user="bob">Sun Quan's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{f7f5ed39-01d8-43f4-a89e-f9a2356298c3}" record_timestamp="1551887842867" record_key="ep_dyn_ancillary_armour_taishi_cis_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_taishi_cis_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_taishi_cis_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_taishi_cis_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Taishi Ci's Armour" last_edit_user="bob">Taishi Ci's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{1fe15f10-6be1-4f9a-b3ea-8dbe9da02a86}" record_timestamp="1551887842869" record_key="ep_dyn_ancillary_armour_tao_qians_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_tao_qians_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_tao_qians_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_tao_qians_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Tao Qian's Armour" last_edit_user="bob">Tao Qian's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{fe8c49ac-6c50-4961-ad6a-37f9a82d2e01}" record_timestamp="1551887842871" record_key="ep_dyn_ancillary_armour_xiahou_duns_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_xiahou_duns_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_xiahou_duns_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_xiahou_duns_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Xiahou Dun's Armour" last_edit_user="bob">Xiahou Dun's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{e306bcb3-f049-4394-86eb-67195247c469}" record_timestamp="1551887842874" record_key="ep_dyn_ancillary_armour_xiahou_yuans_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_xiahou_yuans_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_xiahou_yuans_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_xiahou_yuans_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Xiahou Yuan's Armour" last_edit_user="bob">Xiahou Yuan's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{a815d0d5-fa3b-41fd-bdea-8c2b92adb5ae}" record_timestamp="1551887842876" record_key="ep_dyn_ancillary_armour_xu_chus_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_xu_chus_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_xu_chus_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_xu_chus_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Xu Chu's Armour" last_edit_user="bob">Xu Chu's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{361a7f0c-391d-467a-b211-6a026b6c7dbe}" record_timestamp="1551887842877" record_key="ep_dyn_ancillary_armour_xu_huangs_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_xu_huangs_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_xu_huangs_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_xu_huangs_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Xu Huang's Armour" last_edit_user="bob">Xu Huang's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{c1001e79-36db-4b86-9af6-274d9e417d76}" record_timestamp="1551887842878" record_key="ep_dyn_ancillary_armour_yuan_shaos_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_yuan_shaos_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_yuan_shaos_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_yuan_shaos_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Yuan Shao's Armour" last_edit_user="bob">Yuan Shao's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{e43d939b-f2b2-4f12-837c-fe49513b6616}" record_timestamp="1551887842879" record_key="ep_dyn_ancillary_armour_yuan_shus_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_yuan_shus_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_yuan_shus_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_yuan_shus_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Yuan Shu's Armour" last_edit_user="bob">Yuan Shu's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{be61425d-5be6-4367-acfa-b00021eed8aa}" record_timestamp="1551887842880" record_key="ep_dyn_ancillary_armour_yue_jins_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_yue_jins_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_yue_jins_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_yue_jins_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Yue Jin's Armour" last_edit_user="bob">Yue Jin's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{9076982d-ec12-49a0-a29e-51e8817f4c7d}" record_timestamp="1551887842881" record_key="ep_dyn_ancillary_armour_zhang_feis_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_zhang_feis_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_zhang_feis_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_zhang_feis_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Zhang Fei's Armour" last_edit_user="bob">Zhang Fei's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{0d678966-e29d-4bd2-8e8a-7bc5f80e9fb8}" record_timestamp="1551887842882" record_key="ep_dyn_ancillary_armour_zhang_liaos_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_zhang_liaos_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_zhang_liaos_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_zhang_liaos_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Zhang Liao's Armour" last_edit_user="bob">Zhang Liao's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{83586e3a-355c-4156-9e9c-4a36665cff0c}" record_timestamp="1551887842883" record_key="ep_dyn_ancillary_armour_zhang_yans_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_zhang_yans_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_zhang_yan_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_zhang_yans_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Zhang Yan's Armour" last_edit_user="bob">Zhang Yan's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{24762725-0559-424b-96ed-434125c674a7}" record_timestamp="1551887842884" record_key="ep_dyn_ancillary_armour_zhao_yuns_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_zhao_yuns_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_zhao_yuns_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_zhao_yuns_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Zhao Yun's Armour" last_edit_user="bob">Zhao Yun's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{06e4f403-1109-44b4-b0ba-f6c9a70a7d2e}" record_timestamp="1551887842886" record_key="ep_dyn_ancillary_armour_zheng_jiangs_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_zheng_jiangs_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_zheng_jiangs_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_zheng_jiangs_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Zheng Jiang's Armour" last_edit_user="bob">Zheng Jiang's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{ee409abc-f6cd-4657-8bbd-bb3d324ca530}" record_timestamp="1551887842887" record_key="ep_dyn_ancillary_armour_zhou_yus_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_zhou_yus_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_zhou_yus_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_zhou_yus_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Zhou Yu's Armour" last_edit_user="bob">Zhou Yu's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{57c20168-1052-4c1d-bbde-96c56db932df}" record_timestamp="1551887842890" record_key="ep_dyn_ancillary_armour_zhuge_liangs_armour_unique">
+<ceo_effect_list>ep_dyn_ancillary_armour_zhuge_liangs_armour_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The perfect weight and fit, tailored for this warrior of class and distinction." last_edit_user="bob">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
+<icon_path>armours/3k_main_ancillary_zhuge_liangs_armour_unique.png</icon_path>
+<key>ep_dyn_ancillary_armour_zhuge_liangs_armour_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Zhuge Liang's Armour" last_edit_user="bob">Zhuge Liang's Armour</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{1e86a496-22f4-4cf8-a8d5-4173d51f3383}" record_timestamp="1551887842892" record_key="ep_dyn_ancillary_mount_black_elite">
+<ceo_effect_list>ep_dyn_ancillary_mount_black_elite</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Truly the lord of all horses." last_edit_user="bob">Truly the lord of all horses.</description>
+<icon_path>mounts/3k_main_ancillary_black_elite.png</icon_path>
+<key>ep_dyn_ancillary_mount_black_elite</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Black Elite" last_edit_user="bob">Black Elite</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{2f982bc8-c874-4a30-8543-a6c9cf5f6eae}" record_timestamp="1551887842893" record_key="ep_dyn_ancillary_mount_brown_elite">
+<ceo_effect_list>ep_dyn_ancillary_mount_brown_elite</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Truly the lord of all horses." last_edit_user="bob">Truly the lord of all horses.</description>
+<icon_path>mounts/3k_main_ancillary_brown_elite.png</icon_path>
+<key>ep_dyn_ancillary_mount_brown_elite</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Brown Elite" last_edit_user="bob">Brown Elite</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{94972561-dbd0-4a85-8133-f970207bb19a}" record_timestamp="1551887842894" record_key="ep_dyn_ancillary_mount_grey_elite">
+<ceo_effect_list>ep_dyn_ancillary_mount_grey_elite</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Truly the lord of all horses." last_edit_user="bob">Truly the lord of all horses.</description>
+<icon_path>mounts/3k_main_ancillary_grey_elite.png</icon_path>
+<key>ep_dyn_ancillary_mount_grey_elite</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Grey Elite" last_edit_user="bob">Grey Elite</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{741b8c8d-1ae2-4faa-8d68-c24181291086}" record_timestamp="1551887842896" record_key="ep_dyn_ancillary_mount_red_elite">
+<ceo_effect_list>ep_dyn_ancillary_mount_red_elite</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Truly the lord of all horses." last_edit_user="bob">Truly the lord of all horses.</description>
+<icon_path>mounts/3k_main_ancillary_red_elite.png</icon_path>
+<key>ep_dyn_ancillary_mount_red_elite</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Red Elite" last_edit_user="bob">Red Elite</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{0aaf53f6-eb64-45de-a3dc-f46565dd6a5d}" record_timestamp="1551887842897" record_key="ep_dyn_ancillary_mount_red_hare">
+<ceo_effect_list>ep_dyn_ancillary_mount_red_hare</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Ash red, this horse stands out, and can traverse the kingdom as if it were flat." last_edit_user="bob">Ash red, this horse stands out, and can traverse the kingdom as if it were flat.</description>
+<icon_path>mounts/3k_main_ancillary_red_hare.png</icon_path>
+<key>ep_dyn_ancillary_mount_red_hare</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Red Hare" last_edit_user="bob">Red Hare</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{bf10f5b3-ac90-427e-8b06-90b0b2d1a152}" record_timestamp="1551887842898" record_key="ep_dyn_ancillary_mount_shadow_runner">
+<ceo_effect_list>ep_dyn_ancillary_mount_shadow_runner</ceo_effect_list>
+<description state="APPROVED" last_approved_text="A horse fast enough to outrun its own shadow!" last_edit_user="bob">A horse fast enough to outrun its own shadow!</description>
+<icon_path>mounts/3k_main_ancillary_shadow_runner.png</icon_path>
+<key>ep_dyn_ancillary_mount_shadow_runner</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Shadow Runner" last_edit_user="bob">Shadow Runner</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{0760d5e4-9f5c-41f6-9959-8de2699653be}" record_timestamp="1551887842899" record_key="ep_dyn_ancillary_mount_white_elite">
+<ceo_effect_list>ep_dyn_ancillary_mount_white_elite</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Truly the lord of all horses." last_edit_user="bob">Truly the lord of all horses.</description>
+<icon_path>mounts/3k_main_ancillary_white_elite.png</icon_path>
+<key>ep_dyn_ancillary_mount_white_elite</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="White Elite" last_edit_user="bob">White Elite</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{2252d179-1c81-41a2-8b60-6468686b480e}" record_timestamp="1551887842901" record_key="ep_dyn_ancillary_weapon_axes_of_the_bandit_queen">
+<ceo_effect_list>ep_dyn_ancillary_weapon_axes_of_the_bandit_queen</ceo_effect_list>
+<description state="APPROVED" last_approved_text="&quot;These axes will be an extension of my strength and will.&quot;" last_edit_user="bob">&quot;These axes will be an extension of my strength and will.&quot;</description>
+<icon_path>weapons/3k_main_ancillary_axes_of_the_bandit_queen.png</icon_path>
+<key>ep_dyn_ancillary_weapon_axes_of_the_bandit_queen</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="The Red Sisters" last_edit_user="bob">The Red Sisters</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{608158a3-7fd6-4252-9d02-b58336e70bcc}" record_timestamp="1551887842902" record_key="ep_dyn_ancillary_weapon_blade_of_xiang_yu">
+<ceo_effect_list>ep_dyn_ancillary_weapon_blade_of_xiang_yu</ceo_effect_list>
+<description state="APPROVED" last_approved_text="&quot;Slices through jade, like so much logging.&quot;" last_edit_user="bob">&quot;Slices through jade, like so much logging.&quot;</description>
+<icon_path>weapons/3k_main_ancillary_blade_of_xiang_yu.png</icon_path>
+<key>ep_dyn_ancillary_weapon_blade_of_xiang_yu</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Blade of Xiang Yu" last_edit_user="bob">Blade of Xiang Yu</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{cbd40e85-ad7f-4d77-afcd-ed526c0d7c0a}" record_timestamp="1551887842903" record_key="ep_dyn_ancillary_weapon_bow_huang_zhong">
+<ceo_effect_list>ep_dyn_ancillary_weapon_bow_huang_zhong</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Although a veteran of many battles, like its master Huang Zhong's bow retains much vigour and vitality." last_edit_user="bob">Although a veteran of many battles, like its master Huang Zhong's bow retains much vigour and vitality.</description>
+<icon_path>weapons/3k_main_ancillary_bow_huang_zhong.png</icon_path>
+<key>ep_dyn_ancillary_weapon_bow_huang_zhong</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Heirloom Bow of Huang" last_edit_user="bob">Heirloom Bow of Huang</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{4b95229d-64b6-4d4d-9d24-aed78f377b48}" record_timestamp="1551887842904" record_key="ep_dyn_ancillary_weapon_bow_taishi_ci">
+<ceo_effect_list>ep_dyn_ancillary_weapon_bow_taishi_ci</ceo_effect_list>
+<description state="APPROVED" last_approved_text="&quot;His breath became the wind, his voice the thunder.&quot;" last_edit_user="bob">&quot;His breath became the wind, his voice the thunder.&quot;</description>
+<icon_path>weapons/3k_main_ancillary_bow_taishi_ci.png</icon_path>
+<key>ep_dyn_ancillary_weapon_bow_taishi_ci</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Breath &amp; Wind" last_edit_user="bob">Breath &amp; Wind</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{ca154df4-d646-4908-b6ae-f68f9f8a729f}" record_timestamp="1551887842907" record_key="ep_dyn_ancillary_weapon_ceremonial_sword_unique">
+<ceo_effect_list>ep_dyn_ancillary_weapon_ceremonial_sword_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Forged from the cosmos by the heavenly." last_edit_user="bob">Forged from the cosmos by the heavenly.</description>
+<icon_path>weapons/3k_main_ancillary_ceremonial_sword_unique.png</icon_path>
+<key>ep_dyn_ancillary_weapon_ceremonial_sword_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Celestial Sword" last_edit_user="bob">Celestial Sword</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{45cb5ec2-41d0-4110-97a2-f200a29d4e93}" record_timestamp="1551887842909" record_key="ep_dyn_ancillary_weapon_cleaver_of_mountains_unique">
+<ceo_effect_list>ep_dyn_ancillary_weapon_cleaver_of_mountains_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Only the stoutest hearts dare oppose its wielder." last_edit_user="bob">Only the stoutest hearts dare oppose its wielder.</description>
+<icon_path>weapons/3k_main_ancillary_cleaver_of_mountains_unique.png</icon_path>
+<key>ep_dyn_ancillary_weapon_cleaver_of_mountains_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Cleaver of Mountains" last_edit_user="bob">Cleaver of Mountains</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{8c099a34-966e-4723-9dcc-89e5ed653263}" record_timestamp="1551887842910" record_key="ep_dyn_ancillary_weapon_composite_bow_unique">
+<ceo_effect_list>ep_dyn_ancillary_weapon_composite_bow_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="This bow is said to be enchanted, after an enormous dragon appeared before its maker." last_edit_user="bob">This bow is said to be enchanted, after an enormous dragon appeared before its maker.</description>
+<icon_path>weapons/3k_main_ancillary_composite_bow_unique.png</icon_path>
+<key>ep_dyn_ancillary_weapon_composite_bow_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="The Black Dragon" last_edit_user="bob">The Black Dragon</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{f77d7024-845a-4ed1-b1c4-0b63073185bb}" record_timestamp="1551887842911" record_key="ep_dyn_ancillary_weapon_double_edged_sword_unique">
+<ceo_effect_list>ep_dyn_ancillary_weapon_double_edged_sword_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The very best swordsmiths laboured day and night to make a blade fit for the emperor." last_edit_user="bob">The very best swordsmiths laboured day and night to make a blade fit for the emperor.</description>
+<icon_path>weapons/3k_main_ancillary_double_edged_sword_unique.png</icon_path>
+<key>ep_dyn_ancillary_weapon_double_edged_sword_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Sovereign of Blades" last_edit_user="bob">Sovereign of Blades</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{d8b60c88-7696-41de-9ca7-b6b317a5211e}" record_timestamp="1551887842912" record_key="ep_dyn_ancillary_weapon_dual_axes_exceptional">
+<ceo_effect_list>ep_dyn_ancillary_weapon_dual_axes_exceptional</ceo_effect_list>
+<description state="APPROVED" last_approved_text="&quot;If you see him coming, run as fast as you can!&quot;" last_edit_user="bob">&quot;If you see him coming, run as fast as you can!&quot;</description>
+<icon_path>weapons/3k_main_ancillary_dual_axes_exceptional.png</icon_path>
+<key>ep_dyn_ancillary_weapon_dual_axes_exceptional</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Dual War Axes" last_edit_user="bob">Dual War Axes</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{efe16b3f-7543-4ce8-939e-592d20f02ea6}" record_timestamp="1551887842913" record_key="ep_dyn_ancillary_weapon_dual_short_ji_exceptional">
+<ceo_effect_list>ep_dyn_ancillary_weapon_dual_short_ji_exceptional</ceo_effect_list>
+<description state="APPROVED" last_approved_text="The 'Chicken-claw Sickle' is a deadly adversary, make no mistake." last_edit_user="bob">The 'Chicken-claw Sickle' is a deadly adversary, make no mistake.</description>
+<icon_path>weapons/3k_main_ancillary_dual_short_ji_exceptional.png</icon_path>
+<key>ep_dyn_ancillary_weapon_dual_short_ji_exceptional</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Twin Martial Ji" last_edit_user="bob">Twin Martial Ji</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{a0356c59-a4e6-4a4e-9b9c-44a46b9bcb57}" record_timestamp="1551887842915" record_key="ep_dyn_ancillary_weapon_giant_mace_unique">
+<ceo_effect_list>ep_dyn_ancillary_weapon_giant_mace_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Devastating when it lands, ineffective if it misses." last_edit_user="bob">Devastating when it lands, ineffective if it misses.</description>
+<icon_path>weapons/3k_main_ancillary_giant_mace_unique.png</icon_path>
+<key>ep_dyn_ancillary_weapon_giant_mace_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Giantbane" last_edit_user="bob">Giantbane</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{676bf614-4bd2-4539-8a70-01d6d8b14212}" record_timestamp="1551887842915" record_key="ep_dyn_ancillary_weapon_green_dragon_crescent_blade">
+<ceo_effect_list>ep_dyn_ancillary_weapon_green_dragon_crescent_blade</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Visited by a green dragon whilst forging this lethal glaive, its maker believes the creature itself was incorporated into the steel." last_edit_user="bob">Visited by a green dragon whilst forging this lethal glaive, its maker believes the creature itself was incorporated into the steel.</description>
+<icon_path>weapons/3k_main_ancillary_green_dragon_cresent_blade.png</icon_path>
+<key>ep_dyn_ancillary_weapon_green_dragon_crescent_blade</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Green Dragon Crescent Blade" last_edit_user="bob">Green Dragon Crescent Blade</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{ac061708-7642-4390-afce-79b4515269d5}" record_timestamp="1551887842917" record_key="ep_dyn_ancillary_weapon_ma_su">
+<ceo_effect_list>ep_dyn_ancillary_weapon_ma_su</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Not even Gongsun Zan's white horses are as precious to him." last_edit_user="bob">Not even Gongsun Zan's white horses are as precious to him.</description>
+<icon_path>weapons/3k_main_ancillary_ma_su.png</icon_path>
+<key>ep_dyn_ancillary_weapon_ma_su</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Dread Bringer" last_edit_user="bob">Dread Bringer</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{bf584739-3921-406b-ac8e-c3696c558be1}" record_timestamp="1551887842918" record_key="ep_dyn_ancillary_weapon_serpent_spear">
+<ceo_effect_list>ep_dyn_ancillary_weapon_serpent_spear</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Coils of the serpent unwind." last_edit_user="bob">Coils of the serpent unwind.</description>
+<icon_path>weapons/3k_main_ancillary_serpent_spear.png</icon_path>
+<key>ep_dyn_ancillary_weapon_serpent_spear</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Serpent Spear" last_edit_user="bob">Serpent Spear</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{9429346b-631a-44f0-bd0e-a84c80947fec}" record_timestamp="1551887842919" record_key="ep_dyn_ancillary_weapon_short_ji_exceptional">
+<ceo_effect_list>ep_dyn_ancillary_weapon_short_ji_exceptional</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Smaller than its brother, but no less deadly." last_edit_user="bob">Smaller than its brother, but no less deadly.</description>
+<icon_path>weapons/3k_main_ancillary_short_ji_exceptional.png</icon_path>
+<key>ep_dyn_ancillary_weapon_short_ji_exceptional</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Martial Ji" last_edit_user="bob">Martial Ji</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{08db5be1-5d61-4428-874b-f32a48af2231}" record_timestamp="1551887842920" record_key="ep_dyn_ancillary_weapon_shuang_gu_jian">
+<ceo_effect_list>ep_dyn_ancillary_weapon_shuang_gu_jian</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Made especially for Liu Bei at the beginning of his quest, these two swords travel everywhere with him." last_edit_user="bob">Made especially for Liu Bei at the beginning of his quest, these two swords travel everywhere with him.</description>
+<icon_path>weapons/3k_main_ancillary_shuang_gu_jian.png</icon_path>
+<key>ep_dyn_ancillary_weapon_shuang_gu_jian</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Shuang Gu Jian" last_edit_user="bob">Shuang Gu Jian</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{385faecf-531f-4daa-af2e-b6dc3a287fb4}" record_timestamp="1551887842922" record_key="ep_dyn_ancillary_weapon_the_blue_blade">
+<ceo_effect_list>ep_dyn_ancillary_weapon_the_blue_blade</ceo_effect_list>
+<description state="APPROVED" last_approved_text="No armour can resist this sword without equal." last_edit_user="bob">No armour can resist this sword without equal.</description>
+<icon_path>weapons/3k_main_ancillary_the_blue_blade.png</icon_path>
+<key>ep_dyn_ancillary_weapon_the_blue_blade</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="The Blue Blade" last_edit_user="bob">The Blue Blade</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{1defc982-067e-45b1-a13a-ca78ca278d6c}" record_timestamp="1551887842924" record_key="ep_dyn_ancillary_weapon_trident_halberd">
+<ceo_effect_list>ep_dyn_ancillary_weapon_trident_halberd</ceo_effect_list>
+<description state="APPROVED" last_approved_text="Lü Bu and his favoured weapon fight as if they were one." last_edit_user="bob">Lü Bu and his favoured weapon fight as if they were one.</description>
+<icon_path>weapons/3k_main_ancillary_trident_halberd.png</icon_path>
+<key>ep_dyn_ancillary_weapon_trident_halberd</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Sky Piercer" last_edit_user="bob">Sky Piercer</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{b50cfab3-9627-4aa8-ba7b-4ea80422fd67}" record_timestamp="1551887842926" record_key="ep_dyn_ancillary_weapon_trust_of_god">
+<ceo_effect_list>ep_dyn_ancillary_weapon_trust_of_god</ceo_effect_list>
+<description state="APPROVED" last_approved_text="One of the finest swords ever created, this is Cao Cao's personal weapon of choice." last_edit_user="bob">One of the finest swords ever created, this is Cao Cao's personal weapon of choice.</description>
+<icon_path>weapons/3k_main_ancillary_trust_of_god.png</icon_path>
+<key>ep_dyn_ancillary_weapon_trust_of_god</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Trust of God" last_edit_user="bob">Trust of God</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{51a3931e-1d25-43c7-981e-1ef0cc3b02cb}" record_timestamp="1551887842927" record_key="ep_dyn_ancillary_weapon_two_handed_spear_unique">
+<ceo_effect_list>ep_dyn_ancillary_weapon_two_handed_spear_unique</ceo_effect_list>
+<description state="APPROVED" last_approved_text="A magnificent weapon, this spear truly embodies the integrity of its bearer." last_edit_user="bob">A magnificent weapon, this spear truly embodies the integrity of its bearer.</description>
+<icon_path>weapons/3k_main_ancillary_two_handed_spear_unique.png</icon_path>
+<key>ep_dyn_ancillary_weapon_two_handed_spear_unique</key>
+<opinion_topic_modifier></opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="APPROVED" last_approved_text="Ancestral Pledge" last_edit_user="bob">Ancestral Pledge</title>
 </ceo_nodes>
 </dataroot>

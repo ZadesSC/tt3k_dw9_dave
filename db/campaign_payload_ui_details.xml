@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_payload_ui_details.xsd" export_time="Mon Apr 1 15:50:14 2019" revision="149" export_branch="C:/Users/rene.vravko/AppData/Roaming/TWDaemon/1412/dave" export_user="bob">
-<edit_uuid>748fa841-4325-4535-bdae-fd314bb37717</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_payload_ui_details.xsd" export_time="Mon Jul 15 13:59:13 2019" revision="152" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1583/dave" export_user="bob">
+<edit_uuid>1d80049f-1f8b-4839-8ef0-0d213185c8a8</edit_uuid>
 <campaign_payload_ui_details record_uuid="{35c99514-e106-4cb8-8c6a-025169c48058}" record_timestamp="1548264466967" record_key="add_character_ceo">
 <comment>%1% = Character name, %2% = CEO Name</comment>
 <component>add_character_ceo</component>
@@ -190,6 +190,20 @@
 <icon></icon>
 <sort_order>76</sort_order>
 </campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{6efc41de-f76c-45bb-8be6-1db32781d861}" record_timestamp="1561652708562" record_key="dummy_become_regent">
+<comment></comment>
+<component>dummy_become_regent</component>
+<description state="APPROVED" last_approved_text="You will gain control of the emperor" last_edit_user="bob">You will gain control of the emperor</description>
+<icon>ui/campaign ui/effect_bundles/prestige.png</icon>
+<sort_order>0</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{33cd1be9-8ad8-46e5-9288-f249c6309be4}" record_timestamp="1558087119793" record_key="dummy_build_mission">
+<comment>Eight Princes late-campaign missions</comment>
+<component>dummy_build_mission</component>
+<description state="APPROVED" last_approved_text="Dynasty Mission: Build" last_edit_user="bob">Dynasty Mission: Build</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>253</sort_order>
+</campaign_payload_ui_details>
 <campaign_payload_ui_details record_uuid="{9858fd95-ce23-46fe-a615-6593b0440a50}" record_timestamp="1543511522925" record_key="dummy_cao_cao_introduction">
 <comment>Introduction events</comment>
 <component>dummy_cao_cao_introduction</component>
@@ -210,6 +224,41 @@
 <description state="APPROVED" last_approved_text="Civil War: Dong Zhuo" last_edit_user="bob">Civil War: Dong Zhuo</description>
 <icon>ui/campaign ui/effect_bundles/strategic_threat.png</icon>
 <sort_order>201</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{ed1f094f-062d-4421-a264-441e52bcb6f6}" record_timestamp="1559641416553" record_key="dummy_dilemma_mission_easy">
+<comment>Eight Princes missions</comment>
+<component>dummy_dilemma_mission_easy</component>
+<description state="APPROVED" last_approved_text="Mission: Build" last_edit_user="bob">Mission: Build</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{f806dec2-62bd-481f-9858-b5c84d8960d9}" record_timestamp="1560173274793" record_key="dummy_dilemma_mission_engage_force">
+<comment>Eight Princes missions</comment>
+<component>dummy_dilemma_mission_engage_force</component>
+<description state="APPROVED" last_approved_text="Mission: Engage Force" last_edit_user="bob">Mission: Engage Force</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{29f50904-f17d-44e4-8df1-6e8ae8f26c10}" record_timestamp="1559641416553" record_key="dummy_dilemma_mission_hard">
+<comment>Eight Princes missions</comment>
+<component>dummy_dilemma_mission_hard</component>
+<description state="APPROVED" last_approved_text="Mission: Conquer" last_edit_user="bob">Mission: Conquer</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{6f03157a-cb34-4916-b1b7-111955f41afb}" record_timestamp="1559641416553" record_key="dummy_dilemma_mission_moderate">
+<comment>Eight Princes missions</comment>
+<component>dummy_dilemma_mission_moderate</component>
+<description state="APPROVED" last_approved_text="Mission: Raise Troops" last_edit_user="bob">Mission: Raise Troops</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{295e96be-ce18-420e-b182-292794034ac9}" record_timestamp="1558087119792" record_key="dummy_dilemma_mission_money">
+<comment>Eight Princes missions</comment>
+<component>dummy_dilemma_mission_money</component>
+<description state="APPROVED" last_approved_text="Mission: Gather Money" last_edit_user="bob">Mission: Gather Money</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
 </campaign_payload_ui_details>
 <campaign_payload_ui_details record_uuid="{cb8b11f8-09f4-41be-bcf4-91aa4402055d}" record_timestamp="1458300026620" record_key="dummy_do_nothing">
 <comment></comment>
@@ -232,12 +281,40 @@
 <icon>ui/campaign ui/effect_bundles/flag.png</icon>
 <sort_order>211</sort_order>
 </campaign_payload_ui_details>
-<campaign_payload_ui_details record_uuid="{2a7b7915-f6bd-44ee-9682-7dcd3ccf6d2e}" record_timestamp="1551884182344" record_key="dummy_factual_choice">
+<campaign_payload_ui_details record_uuid="{f7e9e63e-e1df-45ab-a32c-b0cf22a0c323}" record_timestamp="1561652708593" record_key="dummy_emperor_captured">
+<comment></comment>
+<component>dummy_emperor_captured</component>
+<description state="APPROVED" last_approved_text="You will capture Emperor Hui" last_edit_user="bob">You will capture Emperor Hui</description>
+<icon>ui/campaign ui/effect_bundles/prestige.png</icon>
+<sort_order>1</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{a909ac0a-841b-46a3-8d7a-078ac0717b3b}" record_timestamp="1561652708578" record_key="dummy_emperor_flees">
+<comment></comment>
+<component>dummy_emperor_flees</component>
+<description state="APPROVED" last_approved_text="Emperor Hui will flee to another powerful faction" last_edit_user="bob">Emperor Hui will flee to another powerful faction</description>
+<icon>ui/campaign ui/effect_bundles/prestige.png</icon>
+<sort_order>1</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{ff188b96-463d-4b34-8aab-ae95cbad8f28}" record_timestamp="1561652708731" record_key="dummy_emperor_retires">
+<comment></comment>
+<component>dummy_emperor_retires</component>
+<description state="APPROVED" last_approved_text="You will become the emperor and the emperor token will be permanently removed from the campaign" last_edit_user="bob">You will become the emperor and the emperor token will be permanently removed from the campaign</description>
+<icon>ui/campaign ui/effect_bundles/prestige.png</icon>
+<sort_order>1</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{2a7b7915-f6bd-44ee-9682-7dcd3ccf6d2e}" record_timestamp="1531153876848" record_key="dummy_factual_choice">
 <comment>Denotes that this is how it went in history</comment>
 <component>dummy_factual_choice</component>
 <description state="APPROVED" last_approved_text="Follow the story..." last_edit_user="bob">Follow the story...</description>
 <icon>ui/campaign ui/effect_bundles/flag.png</icon>
 <sort_order>250</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{5cd353f7-37a2-4471-80ba-aee56c8b85dc}" record_timestamp="1558087119794" record_key="dummy_food_mission">
+<comment>Eight Princes late-campaign missions</comment>
+<component>dummy_food_mission</component>
+<description state="APPROVED" last_approved_text="Dynasty Mission: Food" last_edit_user="bob">Dynasty Mission: Food</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>254</sort_order>
 </campaign_payload_ui_details>
 <campaign_payload_ui_details record_uuid="{8e9d4f40-f45c-46e3-bf04-3a7ab62b0836}" record_timestamp="1539862398766" record_key="dummy_gating_ancillaries">
 <comment>Gating events</comment>
@@ -372,6 +449,13 @@
 <icon>ui/campaign ui/effect_bundles/flag.png</icon>
 <sort_order>214</sort_order>
 </campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{25ed5668-391e-4de8-bc2e-dd8211c4c7b3}" record_timestamp="1558087119794" record_key="dummy_hoard_mission">
+<comment>Eight Princes late-campaign missions</comment>
+<component>dummy_hoard_mission</component>
+<description state="APPROVED" last_approved_text="Dynasty Mission: Wealth" last_edit_user="bob">Dynasty Mission: Wealth</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>255</sort_order>
+</campaign_payload_ui_details>
 <campaign_payload_ui_details record_uuid="{b410e99c-770d-4a68-bad4-a59b512563f1}" record_timestamp="1548184917107" record_key="dummy_huang_shao_introduction">
 <comment>Introduction events</comment>
 <component>dummy_huang_shao_introduction</component>
@@ -385,6 +469,20 @@
 <description state="APPROVED" last_approved_text="Be wary of Yuan Shao and Liu Bei" last_edit_user="bob">Be wary of Yuan Shao and Liu Bei</description>
 <icon>ui/campaign ui/effect_bundles/flag.png</icon>
 <sort_order>215</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{da6ef83e-1b26-46dc-886c-353f52d9ead0}" record_timestamp="1558087119794" record_key="dummy_income_mission">
+<comment>Eight Princes late-campaign missions</comment>
+<component>dummy_income_mission</component>
+<description state="APPROVED" last_approved_text="Dynasty Mission: Income" last_edit_user="bob">Dynasty Mission: Income</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{5f553bc2-1cb2-4618-90ee-ef40519d37b7}" record_timestamp="1558087119794" record_key="dummy_kill_mission">
+<comment>Eight Princes late-campaign missions</comment>
+<component>dummy_kill_mission</component>
+<description state="APPROVED" last_approved_text="Dynasty Mission: Defeat Armies" last_edit_user="bob">Dynasty Mission: Defeat Armies</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
 </campaign_payload_ui_details>
 <campaign_payload_ui_details record_uuid="{179b73c4-f87f-4283-bacc-bef35445062c}" record_timestamp="1545065002834" record_key="dummy_kong_rong_introduction">
 <comment>Introduction events</comment>
@@ -456,12 +554,89 @@
 <icon>ui/campaign ui/effect_bundles/unlocks_legendary_characters.png</icon>
 <sort_order>225</sort_order>
 </campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{8c713243-ec1d-40b0-957b-eb7522a91f43}" record_timestamp="1558087119793" record_key="dummy_peace_mission">
+<comment>Eight Princes late-campaign missions</comment>
+<component>dummy_peace_mission</component>
+<description state="APPROVED" last_approved_text="Dynasty Mission: Make Peace" last_edit_user="bob">Dynasty Mission: Make Peace</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{a81bc22e-0557-4ac5-a5af-bbeb1bdfcdc4}" record_timestamp="1558087119793" record_key="dummy_rank_mission">
+<comment>Eight Princes late-campaign missions</comment>
+<component>dummy_rank_mission</component>
+<description state="APPROVED" last_approved_text="Dynasty Mission: Develop Characters" last_edit_user="bob">Dynasty Mission: Develop Characters</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>252</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{f973c1fb-c87e-4152-8d2d-b7c4e38fb495}" record_timestamp="1561652708716" record_key="dummy_regency_continues">
+<comment></comment>
+<component>dummy_regency_continues</component>
+<description state="APPROVED" last_approved_text="You will keep the emperor token and remain regent" last_edit_user="bob">You will keep the emperor token and remain regent</description>
+<icon>ui/campaign ui/effect_bundles/prestige.png</icon>
+<sort_order>1</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{6d71ba16-9ae4-4ed8-a188-f400619bb3d2}" record_timestamp="1558087119793" record_key="dummy_research_mission">
+<comment>Eight Princes late-campaign missions</comment>
+<component>dummy_research_mission</component>
+<description state="APPROVED" last_approved_text="Dynasty Mission: Research" last_edit_user="bob">Dynasty Mission: Research</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{2de87aeb-1ffb-45f1-b4f9-104031992293}" record_timestamp="1558087119794" record_key="dummy_sack_mission">
+<comment>Eight Princes late-campaign missions</comment>
+<component>dummy_sack_mission</component>
+<description state="APPROVED" last_approved_text="Dynasty Mission: Sack" last_edit_user="bob">Dynasty Mission: Sack</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{1b797d60-4422-4c2b-a168-79a1e43e3aa2}" record_timestamp="1558087119794" record_key="dummy_settlements_mission">
+<comment>Eight Princes late-campaign missions</comment>
+<component>dummy_settlements_mission</component>
+<description state="APPROVED" last_approved_text="Dynasty Mission: Conquer" last_edit_user="bob">Dynasty Mission: Conquer</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
+</campaign_payload_ui_details>
 <campaign_payload_ui_details record_uuid="{5caf2c85-7565-487d-9bce-48fe1bef71a2}" record_timestamp="1531153877003" record_key="dummy_siege_continues">
 <comment>When player does nothing to the siege</comment>
 <component>dummy_siege_continues</component>
 <description state="APPROVED" last_approved_text="The Siege Continues..." last_edit_user="bob">The Siege Continues...</description>
 <icon>ui/campaign ui/effect_bundles/siege_engines.png</icon>
 <sort_order>226</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{8d658e53-83b3-4f63-baeb-5f3949f2e56e}" record_timestamp="1554200572714" record_key="dummy_sima_liang_start_brain">
+<comment>Eight Princes missions</comment>
+<component>dummy_sima_liang_start_brain</component>
+<description state="APPROVED" last_approved_text="Mission: Seek Diplomatic Support" last_edit_user="bob">Mission: Seek Diplomatic Support</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{bd41137d-96e1-48c7-835b-1bbeb7c8aeea}" record_timestamp="1554200572715" record_key="dummy_sima_liang_start_fist">
+<comment>Eight Princes missions</comment>
+<component>dummy_sima_liang_start_fist</component>
+<description state="APPROVED" last_approved_text="Mission: Conquer Enemies" last_edit_user="bob">Mission: Conquer Enemies</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{e04f7b88-bb81-4cce-8f80-dc1936917c26}" record_timestamp="1554200572714" record_key="dummy_sima_liang_start_heart">
+<comment>Eight Princes missions</comment>
+<component>dummy_sima_liang_start_heart</component>
+<description state="APPROVED" last_approved_text="Mission: Recruit Troops" last_edit_user="bob">Mission: Recruit Troops</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{87f2cda3-ab16-4bf0-8a0c-1519471495b8}" record_timestamp="1554200572714" record_key="dummy_sima_liang_start_money">
+<comment>Eight Princes missions</comment>
+<component>dummy_sima_liang_start_money</component>
+<description state="APPROVED" last_approved_text="Mission: Gather Money" last_edit_user="bob">Mission: Gather Money</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{9920235f-f7d4-45fc-8b16-82037c6a6598}" record_timestamp="1558087119793" record_key="dummy_spy_mission">
+<comment>Eight Princes missions</comment>
+<component>dummy_spy_mission</component>
+<description state="APPROVED" last_approved_text="Mission: Embed Spy" last_edit_user="bob">Mission: Embed Spy</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
 </campaign_payload_ui_details>
 <campaign_payload_ui_details record_uuid="{2f71ff06-5afd-4f46-9118-d64e890de0c2}" record_timestamp="1545065002531" record_key="dummy_sun_jian_introduction">
 <comment>Introduction events</comment>
@@ -490,6 +665,20 @@
 <description state="APPROVED" last_approved_text="May be seen as an act of treachery" last_edit_user="bob">May be seen as an act of treachery</description>
 <icon>ui/campaign ui/effect_bundles/diplomacy_attitude_effect.png</icon>
 <sort_order>230</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{bd6328cf-c03a-4ddb-ac0c-3e193e4e7379}" record_timestamp="1558087119793" record_key="dummy_units_mission">
+<comment>Eight Princes late-campaign missions</comment>
+<component>dummy_units_mission</component>
+<description state="APPROVED" last_approved_text="Dynasty Mission: Units" last_edit_user="bob">Dynasty Mission: Units</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>257</sort_order>
+</campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{527828b2-6d38-4024-9e3a-349ead8bec7e}" record_timestamp="1558087119793" record_key="dummy_vassal_mission">
+<comment>Eight Princes late-campaign missions</comment>
+<component>dummy_vassal_mission</component>
+<description state="APPROVED" last_approved_text="Dynasty Mission: Vassals" last_edit_user="bob">Dynasty Mission: Vassals</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>256</sort_order>
 </campaign_payload_ui_details>
 <campaign_payload_ui_details record_uuid="{226c7fd6-b1d8-4a3f-8282-b8892d5bd2f9}" record_timestamp="1536314177469" record_key="dummy_yuan_shao_confederates_han_fu">
 <comment></comment>
@@ -568,6 +757,13 @@
 <icon></icon>
 <sort_order>64</sort_order>
 </campaign_payload_ui_details>
+<campaign_payload_ui_details record_uuid="{a0bbfc37-9861-4659-bfab-9db97e6e4bce}" record_timestamp="1555404250033" record_key="ep_dilemma_payload">
+<comment></comment>
+<component>ep_dilemma_payload</component>
+<description state="APPROVED" last_approved_text="You will receive a dilemma allowing you to spend this money in return for various effects." last_edit_user="bob">You will receive a dilemma allowing you to spend this money in return for various effects.</description>
+<icon>ui/campaign ui/effect_bundles/flag.png</icon>
+<sort_order>251</sort_order>
+</campaign_payload_ui_details>
 <campaign_payload_ui_details record_uuid="{31c9099b-b554-48c7-bfb6-d5eddfbecb8c}" record_timestamp="1548264930810" record_key="faction_ceo_trigger">
 <comment>%1% = Trigger name, %2% = Faction</comment>
 <component>faction_ceo_trigger</component>
@@ -576,10 +772,10 @@
 <sort_order>65</sort_order>
 </campaign_payload_ui_details>
 <campaign_payload_ui_details record_uuid="{3c75cbdd-7656-46da-9d7a-d08260528cb9}" record_timestamp="1548358420934" record_key="faction_pooled_resource_transaction">
-<comment></comment>
+<comment>%1% = pooled resource, %2% = amount</comment>
 <component>faction_pooled_resource_transaction</component>
-<description state="APPROVED" last_approved_text="%2%: %3% for %1%" last_edit_user="bob">%2%: %3% for %1%</description>
-<icon>ui/campaign ui/effect_bundles/no_effect.png</icon>
+<description state="APPROVED" last_approved_text="%+2% %1%" last_edit_user="bob">%+2% %1%</description>
+<icon></icon>
 <sort_order>77</sort_order>
 </campaign_payload_ui_details>
 <campaign_payload_ui_details record_uuid="{746b9a66-ebf1-41c3-9b7a-68da120d09a4}" record_timestamp="1548358420934" record_key="faction_province_pooled_resource_transaction">
@@ -729,7 +925,7 @@
 <icon>ui/campaign ui/effect_bundles/pooled_resource_intimidation.png</icon>
 <sort_order>93</sort_order>
 </campaign_payload_ui_details>
-<campaign_payload_ui_details record_uuid="{50458fda-3db9-4927-af5b-4e5828b0268e}" record_timestamp="1550856075440" record_key="recall_character_from_assignment">
+<campaign_payload_ui_details record_uuid="{50458fda-3db9-4927-af5b-4e5828b0268e}" record_timestamp="1551787883234" record_key="recall_character_from_assignment">
 <comment></comment>
 <component>recall_character_from_assignment</component>
 <description state="APPROVED" last_approved_text="Character recalled from assignment: %1%" last_edit_user="bob">Character recalled from assignment: %1%</description>
@@ -750,7 +946,7 @@
 <icon>ui/skins/default/icon_attitude_very_negative.png</icon>
 <sort_order>52</sort_order>
 </campaign_payload_ui_details>
-<campaign_payload_ui_details record_uuid="{12bc3299-4179-41e6-874a-f07d2f615b1b}" record_timestamp="1552556080444" record_key="relationship_triggers_negative_large">
+<campaign_payload_ui_details record_uuid="{12bc3299-4179-41e6-874a-f07d2f615b1b}" record_timestamp="1554883082536" record_key="relationship_triggers_negative_large">
 <comment>%1% = Char1, %2% = Char 2</comment>
 <component>relationship_triggers_negative_large</component>
 <description state="APPROVED" last_approved_text="Relationship [[col:effect_icon_supplement_negative]]deteriorates greatly[[/col]] between %1% and %2%" last_edit_user="bob">Relationship [[col:effect_icon_supplement_negative]]deteriorates greatly[[/col]] between %1% and %2%</description>
@@ -764,7 +960,7 @@
 <icon>ui/skins/default/icon_attitude_very_positive.png</icon>
 <sort_order>53</sort_order>
 </campaign_payload_ui_details>
-<campaign_payload_ui_details record_uuid="{c27891b1-1676-449f-ac1f-ac1430914fe2}" record_timestamp="1552556080444" record_key="relationship_triggers_positive_large">
+<campaign_payload_ui_details record_uuid="{c27891b1-1676-449f-ac1f-ac1430914fe2}" record_timestamp="1554883082536" record_key="relationship_triggers_positive_large">
 <comment>%1% = Char1, %2% = Char 2</comment>
 <component>relationship_triggers_positive_large</component>
 <description state="APPROVED" last_approved_text="Relationship [[col:effect_icon_supplement_positive]]deepens greatly[[/col]] between %1% and %2%" last_edit_user="bob">Relationship [[col:effect_icon_supplement_positive]]deepens greatly[[/col]] between %1% and %2%</description>

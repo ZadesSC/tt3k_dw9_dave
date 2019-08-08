@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_generation_goals.xsd" export_time="Thu Mar 28 09:26:21 2019" revision="70" export_branch="C:/Users/csaba.toth/AppData/Roaming/TWDaemon/1406/dave" export_user="bob">
-<edit_uuid>51400a59-6c71-4d89-824a-48787f5bdbd2</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_generation_goals.xsd" export_time="Fri Jul 12 16:52:38 2019" revision="70" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1583/dave" export_user="bob">
+<edit_uuid>1bea60ac-2c73-40ed-8d83-44377b2c84fb</edit_uuid>
 <cai_diplomacy_deal_generation_goals record_uuid="{1ccf0462-30d1-490f-be76-38666b4d254d}" record_timestamp="1541522800040" record_key="goal_abdicate">
 <is_crucial>1</is_crucial>
 <key>goal_abdicate</key>
@@ -226,10 +226,20 @@
 <key>goal_manipulate_relations_negative</key>
 <treaty_key>treaty_components_attitude_manipulation_negative</treaty_key>
 </cai_diplomacy_deal_generation_goals>
+<cai_diplomacy_deal_generation_goals record_uuid="{217b6ddc-2054-4dc2-bfad-83c9e51c8287}" record_timestamp="1562334901811" record_key="goal_manipulate_relations_negative_sima_yue">
+<is_crucial>0</is_crucial>
+<key>goal_manipulate_relations_negative_sima_yue</key>
+<treaty_key>treaty_components_attitude_manipulation_negative_sima_yue</treaty_key>
+</cai_diplomacy_deal_generation_goals>
 <cai_diplomacy_deal_generation_goals record_uuid="{023c0d8f-9d34-4729-8fd5-f562808c4b0b}" record_timestamp="1527863081280" record_key="goal_manipulate_relations_positive">
 <is_crucial>0</is_crucial>
 <key>goal_manipulate_relations_positive</key>
 <treaty_key>treaty_components_attitude_manipulation_positive</treaty_key>
+</cai_diplomacy_deal_generation_goals>
+<cai_diplomacy_deal_generation_goals record_uuid="{f910c47a-d006-4c72-9ded-5ae8d034ff75}" record_timestamp="1562334901780" record_key="goal_manipulate_relations_positive_sima_yue">
+<is_crucial>0</is_crucial>
+<key>goal_manipulate_relations_positive_sima_yue</key>
+<treaty_key>treaty_components_attitude_manipulation_positive_sima_yue</treaty_key>
 </cai_diplomacy_deal_generation_goals>
 <cai_diplomacy_deal_generation_goals record_uuid="{21f29ed0-e7a5-4dc5-b53f-6e1f5dec0dfe}" record_timestamp="1516383218331" record_key="goal_marriage_give_female_character">
 <is_crucial>0</is_crucial>
@@ -341,7 +351,12 @@
 <key>goal_offer_vassalage</key>
 <treaty_key>treaty_components_vassalise_proposer</treaty_key>
 </cai_diplomacy_deal_generation_goals>
-<cai_diplomacy_deal_generation_goals record_uuid="{0352124e-76b1-48bf-9940-446a080f5f51}" record_timestamp="1552577001677" record_key="goal_offer_vassalage_yuan_shu">
+<cai_diplomacy_deal_generation_goals record_uuid="{444ca2c9-946a-4841-a55e-65c9ff96b801}" record_timestamp="1559835299177" record_key="goal_offer_vassalage_sima_liang">
+<is_crucial>0</is_crucial>
+<key>goal_offer_vassalage_sima_liang</key>
+<treaty_key>treaty_components_vassalise_proposer_sima_liang</treaty_key>
+</cai_diplomacy_deal_generation_goals>
+<cai_diplomacy_deal_generation_goals record_uuid="{0352124e-76b1-48bf-9940-446a080f5f51}" record_timestamp="1554883464074" record_key="goal_offer_vassalage_yuan_shu">
 <is_crucial>0</is_crucial>
 <key>goal_offer_vassalage_yuan_shu</key>
 <treaty_key>treaty_components_vassalise_proposer_yuan_shu</treaty_key>
@@ -371,12 +386,22 @@
 <key>goal_peace_and_demand_vassalage_and_offer_autonomy</key>
 <treaty_key>treaty_components_peace</treaty_key>
 </cai_diplomacy_deal_generation_goals>
-<cai_diplomacy_deal_generation_goals record_uuid="{f2f8c702-e478-44c4-a7a3-433f18a4c1a4}" record_timestamp="1552577002418" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu">
+<cai_diplomacy_deal_generation_goals record_uuid="{73933564-e155-44a0-a228-23b4e3aba64c}" record_timestamp="1559835299177" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_sima_liang">
+<is_crucial>0</is_crucial>
+<key>goal_peace_and_demand_vassalage_and_offer_autonomy_sima_liang</key>
+<treaty_key>treaty_components_peace</treaty_key>
+</cai_diplomacy_deal_generation_goals>
+<cai_diplomacy_deal_generation_goals record_uuid="{f2f8c702-e478-44c4-a7a3-433f18a4c1a4}" record_timestamp="1554883464097" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu">
 <is_crucial>0</is_crucial>
 <key>goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu</key>
 <treaty_key>treaty_components_peace</treaty_key>
 </cai_diplomacy_deal_generation_goals>
-<cai_diplomacy_deal_generation_goals record_uuid="{c3d04246-05e4-4d3f-98ed-b2a01d5f9add}" record_timestamp="1552577002459" record_key="goal_peace_and_demand_vassalage_yuan_shu">
+<cai_diplomacy_deal_generation_goals record_uuid="{4a36bb08-6f41-4abf-8661-f4fb5e6eb323}" record_timestamp="1559835299178" record_key="goal_peace_and_demand_vassalage_sima_liang">
+<is_crucial>0</is_crucial>
+<key>goal_peace_and_demand_vassalage_sima_liang</key>
+<treaty_key>treaty_components_peace</treaty_key>
+</cai_diplomacy_deal_generation_goals>
+<cai_diplomacy_deal_generation_goals record_uuid="{c3d04246-05e4-4d3f-98ed-b2a01d5f9add}" record_timestamp="1554883464097" record_key="goal_peace_and_demand_vassalage_yuan_shu">
 <is_crucial>0</is_crucial>
 <key>goal_peace_and_demand_vassalage_yuan_shu</key>
 <treaty_key>treaty_components_peace</treaty_key>
@@ -391,12 +416,22 @@
 <key>goal_peace_and_offer_vassalage_and_demand_autonomy</key>
 <treaty_key>treaty_components_peace</treaty_key>
 </cai_diplomacy_deal_generation_goals>
-<cai_diplomacy_deal_generation_goals record_uuid="{97eba00b-8282-46c8-b924-4851fe83c441}" record_timestamp="1552577002439" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu">
+<cai_diplomacy_deal_generation_goals record_uuid="{fbadee3b-cc49-4ad2-83a7-35c14c45659f}" record_timestamp="1559835299177" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_sima_liang">
+<is_crucial>0</is_crucial>
+<key>goal_peace_and_offer_vassalage_and_demand_autonomy_sima_liang</key>
+<treaty_key>treaty_components_peace</treaty_key>
+</cai_diplomacy_deal_generation_goals>
+<cai_diplomacy_deal_generation_goals record_uuid="{97eba00b-8282-46c8-b924-4851fe83c441}" record_timestamp="1554883464097" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu">
 <is_crucial>0</is_crucial>
 <key>goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu</key>
 <treaty_key>treaty_components_peace</treaty_key>
 </cai_diplomacy_deal_generation_goals>
-<cai_diplomacy_deal_generation_goals record_uuid="{63d81b2c-a842-4fd5-b190-840bcaf7871a}" record_timestamp="1552577002479" record_key="goal_peace_and_offer_vassalage_yuan_shu">
+<cai_diplomacy_deal_generation_goals record_uuid="{5dfa87a2-cd2c-4fec-a13e-06a1ebb47f20}" record_timestamp="1559835299178" record_key="goal_peace_and_offer_vassalage_sima_liang">
+<is_crucial>0</is_crucial>
+<key>goal_peace_and_offer_vassalage_sima_liang</key>
+<treaty_key>treaty_components_peace</treaty_key>
+</cai_diplomacy_deal_generation_goals>
+<cai_diplomacy_deal_generation_goals record_uuid="{63d81b2c-a842-4fd5-b190-840bcaf7871a}" record_timestamp="1554883464097" record_key="goal_peace_and_offer_vassalage_yuan_shu">
 <is_crucial>0</is_crucial>
 <key>goal_peace_and_offer_vassalage_yuan_shu</key>
 <treaty_key>treaty_components_peace</treaty_key>
@@ -461,7 +496,12 @@
 <key>goal_request_vassalage_and_guarantee_autonomy</key>
 <treaty_key>treaty_components_vassalise_recipient</treaty_key>
 </cai_diplomacy_deal_generation_goals>
-<cai_diplomacy_deal_generation_goals record_uuid="{449a26ce-c175-4712-b38f-9ff98d228d15}" record_timestamp="1552577001695" record_key="goal_request_vassalage_yuan_shu">
+<cai_diplomacy_deal_generation_goals record_uuid="{f1014a6b-f6b4-4b7b-b274-970bdb365e80}" record_timestamp="1559835299176" record_key="goal_request_vassalage_sima_liang">
+<is_crucial>0</is_crucial>
+<key>goal_request_vassalage_sima_liang</key>
+<treaty_key>treaty_components_vassalise_recipient_sima_liang</treaty_key>
+</cai_diplomacy_deal_generation_goals>
+<cai_diplomacy_deal_generation_goals record_uuid="{449a26ce-c175-4712-b38f-9ff98d228d15}" record_timestamp="1554883464074" record_key="goal_request_vassalage_yuan_shu">
 <is_crucial>0</is_crucial>
 <key>goal_request_vassalage_yuan_shu</key>
 <treaty_key>treaty_components_vassalise_recipient_yuan_shu</treaty_key>

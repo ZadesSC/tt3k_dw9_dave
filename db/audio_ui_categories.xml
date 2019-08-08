@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="audio_ui_categories.xsd" export_time="Mon Apr 1 12:26:02 2019" revision="84" export_branch="T:/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>4768ee73-3626-4cf8-86e8-37bde41b8078</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="audio_ui_categories.xsd" export_time="Wed Jul 31 17:05:29 2019" revision="78" export_branch="T:/branches/3k/eight/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>24e76275-9aa8-4fb9-99d0-10e3383821dc</edit_uuid>
 <audio_ui_categories record_uuid="{207207fc-f1b2-41a3-83b1-61b3c799e482}" record_timestamp="1533564773174" record_key="UI_ANIM_PANEL_INK_MEDIUM_CLOSE">
 <drag_start></drag_start>
 <drag_stop></drag_stop>
@@ -48,6 +48,18 @@
 <panel_opened></panel_opened>
 <right_click></right_click>
 <shortcut>UI_CLICK_Generic_Large</shortcut>
+</audio_ui_categories>
+<audio_ui_categories record_uuid="{c65aac93-e2ac-4544-bce5-ccdf7a3bbb63}" record_timestamp="1558513657961" record_key="UI_BAT_HUD_Dynasty_Mode_Start_Next_Wave">
+<drag_start></drag_start>
+<drag_stop>UI_Battle_POPUP_Dynasty_Mode_Start_Next_Wave_Click</drag_stop>
+<key>UI_BAT_HUD_Dynasty_Mode_Start_Next_Wave</key>
+<left_click>UI_Battle_POPUP_Dynasty_Mode_Start_Next_Wave_Click</left_click>
+<mouse_off></mouse_off>
+<mouse_on>UI_MSO_Generic_Large</mouse_on>
+<panel_closed></panel_closed>
+<panel_opened></panel_opened>
+<right_click></right_click>
+<shortcut>UI_Battle_POPUP_Dynasty_Mode_Start_Next_Wave_Click</shortcut>
 </audio_ui_categories>
 <audio_ui_categories record_uuid="{f23d45f5-65f2-47ea-809d-d55ef317e4d2}" record_timestamp="1523884667731" record_key="UI_BAT_HUD_End_Battle">
 <drag_start></drag_start>
@@ -265,7 +277,7 @@
 <right_click></right_click>
 <shortcut>UI_Battle_HUD_Toggle_Unit_Formation</shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{123ddc25-3271-4527-9f69-5ef2139f003a}" record_timestamp="1552398506958" record_key="UI_BAT_HUD_Unit_Group_Select">
+<audio_ui_categories record_uuid="{123ddc25-3271-4527-9f69-5ef2139f003a}" record_timestamp="1554882816353" record_key="UI_BAT_HUD_Unit_Group_Select">
 <drag_start></drag_start>
 <drag_stop>UI_CLICK_Group_Unit_Tab</drag_stop>
 <key>UI_BAT_HUD_Unit_Group_Select</key>
@@ -349,6 +361,42 @@
 <right_click></right_click>
 <shortcut></shortcut>
 </audio_ui_categories>
+<audio_ui_categories record_uuid="{de27f572-eac6-4d35-a073-38ea22839067}" record_timestamp="1558513454677" record_key="UI_BAT_POPUP_Dynasty_Mode_Results">
+<drag_start></drag_start>
+<drag_stop></drag_stop>
+<key>UI_BAT_POPUP_Dynasty_Mode_Results</key>
+<left_click></left_click>
+<mouse_off></mouse_off>
+<mouse_on></mouse_on>
+<panel_closed></panel_closed>
+<panel_opened>UI_Battle_POPUP_Dynasty_Mode_Results_Banner_Appear</panel_opened>
+<right_click></right_click>
+<shortcut></shortcut>
+</audio_ui_categories>
+<audio_ui_categories record_uuid="{d1692c8e-692a-4c98-881a-570609597af6}" record_timestamp="1558523261218" record_key="UI_BAT_POPUP_Dynasty_Mode_Skill_Point_Select">
+<drag_start></drag_start>
+<drag_stop>UI_Battle_POPUP_Dynasty_Mode_Skill_Select</drag_stop>
+<key>UI_BAT_POPUP_Dynasty_Mode_Skill_Point_Select</key>
+<left_click>UI_Battle_POPUP_Dynasty_Mode_Skill_Select</left_click>
+<mouse_off></mouse_off>
+<mouse_on>UI_MSO_Generic_Small</mouse_on>
+<panel_closed></panel_closed>
+<panel_opened></panel_opened>
+<right_click></right_click>
+<shortcut>UI_Battle_POPUP_Dynasty_Mode_Skill_Select</shortcut>
+</audio_ui_categories>
+<audio_ui_categories record_uuid="{40bbf802-78ee-4670-9564-de94e4ba7d53}" record_timestamp="1558513751624" record_key="UI_BAT_POPUP_Dynasty_Mode_Wave_Completed">
+<drag_start></drag_start>
+<drag_stop></drag_stop>
+<key>UI_BAT_POPUP_Dynasty_Mode_Wave_Completed</key>
+<left_click></left_click>
+<mouse_off></mouse_off>
+<mouse_on></mouse_on>
+<panel_closed>UI_Battle_POPUP_Dynasty_Mode_Wave_Completed_Close</panel_closed>
+<panel_opened>UI_Battle_POPUP_Dynasty_Mode_Wave_Completed</panel_opened>
+<right_click></right_click>
+<shortcut></shortcut>
+</audio_ui_categories>
 <audio_ui_categories record_uuid="{502686ca-4ca6-4b7f-aaf6-e20ade2d632d}" record_timestamp="1523884667732" record_key="UI_BAT_POPUP_Generic">
 <drag_start></drag_start>
 <drag_stop></drag_stop>
@@ -385,7 +433,7 @@
 <right_click></right_click>
 <shortcut></shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{af51a280-41b2-44af-9a2c-9369fc80b79d}" record_timestamp="1551457361232" record_key="UI_BAT_Post_Battle_Results_Screen">
+<audio_ui_categories record_uuid="{af51a280-41b2-44af-9a2c-9369fc80b79d}" record_timestamp="1551788857223" record_key="UI_BAT_Post_Battle_Results_Screen">
 <drag_start></drag_start>
 <drag_stop></drag_stop>
 <key>UI_BAT_Post_Battle_Results_Screen</key>
@@ -433,7 +481,7 @@
 <right_click></right_click>
 <shortcut></shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{eaa081cc-d983-48d0-ba1c-de034b9ceeef}" record_timestamp="1553687248342" record_key="UI_CAM_Button_Area_Of_Interest_Pin">
+<audio_ui_categories record_uuid="{eaa081cc-d983-48d0-ba1c-de034b9ceeef}" record_timestamp="1554886747610" record_key="UI_CAM_Button_Area_Of_Interest_Pin">
 <drag_start></drag_start>
 <drag_stop>UI_CAM_ITEM_Area_Of_Interest_Click</drag_stop>
 <key>UI_CAM_Button_Area_Of_Interest_Pin</key>
@@ -445,7 +493,7 @@
 <right_click></right_click>
 <shortcut>UI_CAM_ITEM_Area_Of_Interest_Click</shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{31798269-abfb-4111-8cea-fc1545a15a46}" record_timestamp="1551715993279" record_key="UI_CAM_CLICK_Dilemma_Select">
+<audio_ui_categories record_uuid="{31798269-abfb-4111-8cea-fc1545a15a46}" record_timestamp="1554880903342" record_key="UI_CAM_CLICK_Dilemma_Select">
 <drag_start></drag_start>
 <drag_stop>UI_CAM_EVENT_Dilemma_Select</drag_stop>
 <key>UI_CAM_CLICK_Dilemma_Select</key>
@@ -781,7 +829,7 @@
 <right_click></right_click>
 <shortcut></shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{bd5a790c-a597-4e31-8b14-3af711cd0913}" record_timestamp="1551808032397" record_key="UI_CAM_HUD_Court_Family_Tree_Appoint">
+<audio_ui_categories record_uuid="{bd5a790c-a597-4e31-8b14-3af711cd0913}" record_timestamp="1554881206852" record_key="UI_CAM_HUD_Court_Family_Tree_Appoint">
 <drag_start></drag_start>
 <drag_stop>UI_CAM_HUD_Character_Option_Appoint</drag_stop>
 <key>UI_CAM_HUD_Court_Family_Tree_Appoint</key>
@@ -793,7 +841,7 @@
 <right_click></right_click>
 <shortcut>UI_CAM_HUD_Character_Option_Appoint</shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{c1653d0e-cd4b-4997-a444-893b7a58a834}" record_timestamp="1551808032499" record_key="UI_CAM_HUD_Court_Family_Tree_Deploy">
+<audio_ui_categories record_uuid="{c1653d0e-cd4b-4997-a444-893b7a58a834}" record_timestamp="1554881206852" record_key="UI_CAM_HUD_Court_Family_Tree_Deploy">
 <drag_start></drag_start>
 <drag_stop>UI_CAM_HUD_Character_Option_Deploy</drag_stop>
 <key>UI_CAM_HUD_Court_Family_Tree_Deploy</key>
@@ -805,7 +853,7 @@
 <right_click></right_click>
 <shortcut>UI_CAM_HUD_Character_Option_Deploy</shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{f2a9aec6-111f-408a-a482-00752890e1f6}" record_timestamp="1551808032499" record_key="UI_CAM_HUD_Court_Family_Tree_Generic_Action">
+<audio_ui_categories record_uuid="{f2a9aec6-111f-408a-a482-00752890e1f6}" record_timestamp="1554881206852" record_key="UI_CAM_HUD_Court_Family_Tree_Generic_Action">
 <drag_start></drag_start>
 <drag_stop>UI_CAM_HUD_Character_Option_Generic_Action</drag_stop>
 <key>UI_CAM_HUD_Court_Family_Tree_Generic_Action</key>
@@ -817,7 +865,7 @@
 <right_click></right_click>
 <shortcut>UI_CAM_HUD_Character_Option_Generic_Action</shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{64048833-2023-4eda-ba98-b8606bb33be1}" record_timestamp="1551808032499" record_key="UI_CAM_HUD_Court_Family_Tree_Recruit">
+<audio_ui_categories record_uuid="{64048833-2023-4eda-ba98-b8606bb33be1}" record_timestamp="1554881206852" record_key="UI_CAM_HUD_Court_Family_Tree_Recruit">
 <drag_start></drag_start>
 <drag_stop>UI_CAM_HUD_Character_Option_Recruit</drag_stop>
 <key>UI_CAM_HUD_Court_Family_Tree_Recruit</key>
@@ -853,7 +901,7 @@
 <right_click></right_click>
 <shortcut></shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{644bf152-07ad-493b-b6e5-584aa4b6b632}" record_timestamp="1551808032499" record_key="UI_CAM_HUD_Diplomacy_Negotiate">
+<audio_ui_categories record_uuid="{644bf152-07ad-493b-b6e5-584aa4b6b632}" record_timestamp="1554881206852" record_key="UI_CAM_HUD_Diplomacy_Negotiate">
 <drag_start></drag_start>
 <drag_stop>UI_CAM_CLICK_Diplomacy_Browser_Negotiate</drag_stop>
 <key>UI_CAM_HUD_Diplomacy_Negotiate</key>
@@ -865,7 +913,7 @@
 <right_click></right_click>
 <shortcut>UI_CAM_CLICK_Diplomacy_Browser_Negotiate</shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{879fd61b-d7c8-4a41-b0a4-94b6c0a69446}" record_timestamp="1551703525153" record_key="UI_CAM_HUD_Diplomacy_Proposal_Popup">
+<audio_ui_categories record_uuid="{879fd61b-d7c8-4a41-b0a4-94b6c0a69446}" record_timestamp="1554880751213" record_key="UI_CAM_HUD_Diplomacy_Proposal_Popup">
 <drag_start></drag_start>
 <drag_stop></drag_stop>
 <key>UI_CAM_HUD_Diplomacy_Proposal_Popup</key>
@@ -877,7 +925,7 @@
 <right_click></right_click>
 <shortcut></shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{ab133122-39ed-4b8d-a4a6-50f3e8c5b42c}" record_timestamp="1552581824084" record_key="UI_CAM_HUD_End_Turn">
+<audio_ui_categories record_uuid="{ab133122-39ed-4b8d-a4a6-50f3e8c5b42c}" record_timestamp="1528912892870" record_key="UI_CAM_HUD_End_Turn">
 <drag_start></drag_start>
 <drag_stop>UI_CAM_HUD_End_Turn</drag_stop>
 <key>UI_CAM_HUD_End_Turn</key>
@@ -1033,6 +1081,18 @@
 <right_click></right_click>
 <shortcut>UI_CAM_HUD_PreBattle_Siege_Equipment_Select</shortcut>
 </audio_ui_categories>
+<audio_ui_categories record_uuid="{ac920061-0743-45a6-83b8-96bf3cd40aa2}" record_timestamp="1558435657142" record_key="UI_CAM_HUD_Storybook_Browser">
+<drag_start></drag_start>
+<drag_stop></drag_stop>
+<key>UI_CAM_HUD_Storybook_Browser</key>
+<left_click></left_click>
+<mouse_off></mouse_off>
+<mouse_on></mouse_on>
+<panel_closed>UI_CAM_HUD_Storybook_Browser_Close</panel_closed>
+<panel_opened>UI_CAM_HUD_Storybook_Browser_Open</panel_opened>
+<right_click></right_click>
+<shortcut></shortcut>
+</audio_ui_categories>
 <audio_ui_categories record_uuid="{9bdc9430-8065-4a5b-8bad-eff0e31fcd74}" record_timestamp="1528816221793" record_key="UI_CAM_HUD_Technology_Browser">
 <drag_start></drag_start>
 <drag_stop></drag_stop>
@@ -1165,7 +1225,7 @@
 <right_click></right_click>
 <shortcut></shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{4ba65803-ab6c-4405-9b6c-1087b1ad5384}" record_timestamp="1552047042402" record_key="UI_CAM_HUD_Units_Panel_Recruit_Button_Toggle">
+<audio_ui_categories record_uuid="{4ba65803-ab6c-4405-9b6c-1087b1ad5384}" record_timestamp="1554882106165" record_key="UI_CAM_HUD_Units_Panel_Recruit_Button_Toggle">
 <drag_start></drag_start>
 <drag_stop>UI_CAM_POPUP_Units_Panel_Toggle_Select</drag_stop>
 <key>UI_CAM_HUD_Units_Panel_Recruit_Button_Toggle</key>
@@ -1381,6 +1441,18 @@
 <right_click></right_click>
 <shortcut>UI_FE_CLICK_Custom_Battle_Slect</shortcut>
 </audio_ui_categories>
+<audio_ui_categories record_uuid="{2f5e3bc3-cc2a-4278-bb76-2d84c1e69553}" record_timestamp="1558513535268" record_key="UI_FE_Dynasty_Mode_Select">
+<drag_start></drag_start>
+<drag_stop>UI_FE_Dynasty_Mode_Select</drag_stop>
+<key>UI_FE_Dynasty_Mode_Select</key>
+<left_click>UI_FE_Dynasty_Mode_Select</left_click>
+<mouse_off></mouse_off>
+<mouse_on>UI_MSO_Generic_Medium</mouse_on>
+<panel_closed></panel_closed>
+<panel_opened></panel_opened>
+<right_click></right_click>
+<shortcut>UI_FE_Dynasty_Mode_Select</shortcut>
+</audio_ui_categories>
 <audio_ui_categories record_uuid="{c23dc23e-5163-4717-a256-181e9245ffb2}" record_timestamp="1541087052205" record_key="UI_FE_HUD_Campaign_Select_Screen">
 <drag_start></drag_start>
 <drag_stop></drag_stop>
@@ -1489,7 +1561,7 @@
 <right_click></right_click>
 <shortcut>UI_CLICK_Accept_Confirm</shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{4ca0f1c6-a4da-49f7-807a-2ddf904a36cb}" record_timestamp="1552657530636" record_key="UI_GBL_HUD_Generic_Accept_Confirm_Large">
+<audio_ui_categories record_uuid="{4ca0f1c6-a4da-49f7-807a-2ddf904a36cb}" record_timestamp="1554883514130" record_key="UI_GBL_HUD_Generic_Accept_Confirm_Large">
 <drag_start></drag_start>
 <drag_stop>UI_CLICK_Accept_Confirm</drag_stop>
 <key>UI_GBL_HUD_Generic_Accept_Confirm_Large</key>
@@ -1501,7 +1573,7 @@
 <right_click></right_click>
 <shortcut>UI_CLICK_Accept_Confirm</shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{8ca302e8-a794-4b26-8fd6-2b28a742e572}" record_timestamp="1552657530636" record_key="UI_GBL_HUD_Generic_Accept_Confirm_Small">
+<audio_ui_categories record_uuid="{8ca302e8-a794-4b26-8fd6-2b28a742e572}" record_timestamp="1554883514130" record_key="UI_GBL_HUD_Generic_Accept_Confirm_Small">
 <drag_start></drag_start>
 <drag_stop>UI_CLICK_Accept_Confirm</drag_stop>
 <key>UI_GBL_HUD_Generic_Accept_Confirm_Small</key>
@@ -1609,6 +1681,18 @@
 <right_click></right_click>
 <shortcut></shortcut>
 </audio_ui_categories>
+<audio_ui_categories record_uuid="{428632e0-de81-4935-95d9-e83326938050}" record_timestamp="1564589126531" record_key="UI_GBL_HUD_Generic_Purchase">
+<drag_start></drag_start>
+<drag_stop>UI_CLICK_Front_End_Purchase</drag_stop>
+<key>UI_GBL_HUD_Generic_Purchase</key>
+<left_click>UI_CLICK_Front_End_Purchase</left_click>
+<mouse_off></mouse_off>
+<mouse_on>UI_MSO_Generic_Medium</mouse_on>
+<panel_closed></panel_closed>
+<panel_opened></panel_opened>
+<right_click></right_click>
+<shortcut>UI_CLICK_Front_End_Purchase</shortcut>
+</audio_ui_categories>
 <audio_ui_categories record_uuid="{6b79ab93-2a17-4d2b-a23f-dcc8ae6c7ca0}" record_timestamp="1523982498561" record_key="UI_GBL_HUD_Tactical_Map_Open">
 <drag_start></drag_start>
 <drag_stop>UI_CLICK_Generic_Large</drag_stop>
@@ -1645,7 +1729,7 @@
 <right_click></right_click>
 <shortcut></shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{08c8330b-6c95-4ed0-baa0-c4a90d720e56}" record_timestamp="1551457361232" record_key="UI_GBL_TMP_Add_New_Item_Large">
+<audio_ui_categories record_uuid="{08c8330b-6c95-4ed0-baa0-c4a90d720e56}" record_timestamp="1551788857224" record_key="UI_GBL_TMP_Add_New_Item_Large">
 <drag_start></drag_start>
 <drag_stop>UI_CLICK_Generic_Add_New_Item</drag_stop>
 <key>UI_GBL_TMP_Add_New_Item_Large</key>
@@ -1657,7 +1741,7 @@
 <right_click></right_click>
 <shortcut>UI_CLICK_Generic_Add_New_Item</shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{e6bc54e6-ba5b-479b-a2f7-884fadc6516b}" record_timestamp="1551457361232" record_key="UI_GBL_TMP_Add_New_Item_Medium">
+<audio_ui_categories record_uuid="{e6bc54e6-ba5b-479b-a2f7-884fadc6516b}" record_timestamp="1551788857223" record_key="UI_GBL_TMP_Add_New_Item_Medium">
 <drag_start></drag_start>
 <drag_stop>UI_CLICK_Generic_Add_New_Item</drag_stop>
 <key>UI_GBL_TMP_Add_New_Item_Medium</key>
@@ -1669,7 +1753,7 @@
 <right_click></right_click>
 <shortcut>UI_CLICK_Generic_Add_New_Item</shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{4537983a-97be-4d4f-9fa7-87bf12f8cb30}" record_timestamp="1551457361232" record_key="UI_GBL_TMP_Add_New_Item_Small">
+<audio_ui_categories record_uuid="{4537983a-97be-4d4f-9fa7-87bf12f8cb30}" record_timestamp="1551788857223" record_key="UI_GBL_TMP_Add_New_Item_Small">
 <drag_start></drag_start>
 <drag_stop>UI_CLICK_Generic_Add_New_Item</drag_stop>
 <key>UI_GBL_TMP_Add_New_Item_Small</key>
@@ -1717,7 +1801,7 @@
 <right_click></right_click>
 <shortcut>UI_CLICK_Building_Selection_Unavailible</shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{d6e84891-827c-43a9-b0d4-ad4ccc9baaf7}" record_timestamp="1552657530636" record_key="UI_GBL_TMP_Button_Locked_Large">
+<audio_ui_categories record_uuid="{d6e84891-827c-43a9-b0d4-ad4ccc9baaf7}" record_timestamp="1554883514131" record_key="UI_GBL_TMP_Button_Locked_Large">
 <drag_start></drag_start>
 <drag_stop>UI_CLICK_Selection_Locked_Large</drag_stop>
 <key>UI_GBL_TMP_Button_Locked_Large</key>
@@ -1861,7 +1945,7 @@
 <right_click></right_click>
 <shortcut></shortcut>
 </audio_ui_categories>
-<audio_ui_categories record_uuid="{6764b981-b8d8-437e-b2c4-f787866a5baf}" record_timestamp="1554117962918" record_key="UI_GBL_TMP_POPUP_Message_Box">
+<audio_ui_categories record_uuid="{6764b981-b8d8-437e-b2c4-f787866a5baf}" record_timestamp="1540550863333" record_key="UI_GBL_TMP_POPUP_Message_Box">
 <drag_start></drag_start>
 <drag_stop></drag_stop>
 <key>UI_GBL_TMP_POPUP_Message_Box</key>

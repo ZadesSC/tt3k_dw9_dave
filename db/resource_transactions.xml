@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="resource_transactions.xsd" export_time="Wed Mar 27 17:39:33 2019" revision="66" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1406/dave" export_user="bob">
-<edit_uuid>15ea9c90-842f-4f28-a6c1-26a05816f657</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="resource_transactions.xsd" export_time="Fri Jul 5 14:55:05 2019" revision="75" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1566/dave" export_user="bob">
+<edit_uuid>b8b02217-7e61-4198-a560-1ed289810f65</edit_uuid>
 <resource_transactions record_uuid="{63432e92-6699-4776-ae6c-0497bba384fc}" record_timestamp="1543489423342" record_key="3k_main_resource_transaction_annexation_blank">
 <expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
 <expenditure_type_when_regular>REGION_BUILDING_UPKEEP</expenditure_type_when_regular>
@@ -97,7 +97,7 @@
 <key>3k_main_resource_transaction_assignment_maintenance_cost_find_incorrupt</key>
 <treasury_change>-500</treasury_change>
 </resource_transactions>
-<resource_transactions record_uuid="{c7e34585-5fe2-4341-b0bd-4b3190a06862}" record_timestamp="1553708373984" record_key="3k_main_resource_transaction_banish_confiscation_1">
+<resource_transactions record_uuid="{c7e34585-5fe2-4341-b0bd-4b3190a06862}" record_timestamp="1547307943785" record_key="3k_main_resource_transaction_banish_confiscation_1">
 <expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
 <expenditure_type_when_regular>POLICING</expenditure_type_when_regular>
 <income_type_when_instant>OTHER</income_type_when_instant>
@@ -105,7 +105,7 @@
 <key>3k_main_resource_transaction_banish_confiscation_1</key>
 <treasury_change>800</treasury_change>
 </resource_transactions>
-<resource_transactions record_uuid="{b396a1ea-842a-4945-b0a4-bc127e422679}" record_timestamp="1553708373984" record_key="3k_main_resource_transaction_banish_confiscation_2">
+<resource_transactions record_uuid="{b396a1ea-842a-4945-b0a4-bc127e422679}" record_timestamp="1547307950815" record_key="3k_main_resource_transaction_banish_confiscation_2">
 <expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
 <expenditure_type_when_regular>POLICING</expenditure_type_when_regular>
 <income_type_when_instant>OTHER</income_type_when_instant>
@@ -113,7 +113,7 @@
 <key>3k_main_resource_transaction_banish_confiscation_2</key>
 <treasury_change>1600</treasury_change>
 </resource_transactions>
-<resource_transactions record_uuid="{b56e9fb0-a0ac-41e7-8d9e-cb7aab28a02a}" record_timestamp="1553708373984" record_key="3k_main_resource_transaction_banish_confiscation_3">
+<resource_transactions record_uuid="{b56e9fb0-a0ac-41e7-8d9e-cb7aab28a02a}" record_timestamp="1547307950897" record_key="3k_main_resource_transaction_banish_confiscation_3">
 <expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
 <expenditure_type_when_regular>POLICING</expenditure_type_when_regular>
 <income_type_when_instant>OTHER</income_type_when_instant>
@@ -121,7 +121,7 @@
 <key>3k_main_resource_transaction_banish_confiscation_3</key>
 <treasury_change>3000</treasury_change>
 </resource_transactions>
-<resource_transactions record_uuid="{41f034f3-89ed-4d48-bf31-c109278a670a}" record_timestamp="1553708373984" record_key="3k_main_resource_transaction_banish_confiscation_4">
+<resource_transactions record_uuid="{41f034f3-89ed-4d48-bf31-c109278a670a}" record_timestamp="1547307950857" record_key="3k_main_resource_transaction_banish_confiscation_4">
 <expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
 <expenditure_type_when_regular>POLICING</expenditure_type_when_regular>
 <income_type_when_instant>OTHER</income_type_when_instant>
@@ -159,6 +159,14 @@
 <income_type_when_instant>OTHER</income_type_when_instant>
 <income_type_when_regular>ASSIGNMENT_INCOME</income_type_when_regular>
 <key>3k_main_resource_transaction_diplomacy_manipulate_cao_cao</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{6ce78689-a3e3-412f-b70d-c3ef7d83ee23}" record_timestamp="1562334897653" record_key="3k_main_resource_transaction_diplomacy_manipulate_sima_yue">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>ASSIGNMENT_INCOME</income_type_when_regular>
+<key>3k_main_resource_transaction_diplomacy_manipulate_sima_yue</key>
 <treasury_change>0</treasury_change>
 </resource_transactions>
 <resource_transactions record_uuid="{f9f530b0-27b3-486a-ae11-e66fa8287cbf}" record_timestamp="1519206496606" record_key="3k_main_resource_transaction_diplomacy_proxy_war_cao_cao">
@@ -359,6 +367,14 @@
 <income_type_when_instant>OTHER</income_type_when_instant>
 <income_type_when_regular>BACKGROUND_INCOME</income_type_when_regular>
 <key>3k_main_resource_transaction_politics_adoption</key>
+<treasury_change>-4000</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{04de8125-e328-4d6e-b644-9a637ec962eb}" record_timestamp="1561975255342" record_key="3k_main_resource_transaction_politics_arrange_marriage">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>POLICING</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>BACKGROUND_INCOME</income_type_when_regular>
+<key>3k_main_resource_transaction_politics_arrange_marriage</key>
 <treasury_change>-4000</treasury_change>
 </resource_transactions>
 <resource_transactions record_uuid="{da2ddca2-d76d-430a-83eb-a206cd05eac2}" record_timestamp="1542122677460" record_key="3k_main_resource_transaction_politics_divorce">
@@ -703,6 +719,142 @@
 <income_type_when_instant>OTHER</income_type_when_instant>
 <income_type_when_regular>ASSIGNMENT_INCOME</income_type_when_regular>
 <key>3k_main_resource_transation_events_population_increase_small</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{443c2478-41ce-4513-95cd-8a33c0e06fc1}" record_timestamp="1559835299368" record_key="ep_resource_transaction_acknowledging_jurisdiction">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>ASSIGNMENT_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_acknowledging_jurisdiction</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{04ad5ba9-a46d-4479-ac34-425860ca4cd6}" record_timestamp="1559669717643" record_key="ep_resource_transaction_assignment_sima_wei">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ASSIGNMENT_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>ASSIGNMENT_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_assignment_sima_wei</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{d7ad896d-4c2d-404d-9528-f9fbfbb3ac02}" record_timestamp="1559652446470" record_key="ep_resource_transaction_diplomacy_coercion_sima_lun">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>ASSIGNMENT_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_diplomacy_coercion_sima_lun</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{4dbde73d-4471-40e1-a3a9-3076ca48da80}" record_timestamp="1559652446470" record_key="ep_resource_transaction_diplomacy_proxy_war_sima_lun">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>ASSIGNMENT_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_diplomacy_proxy_war_sima_lun</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{f6909500-b454-48b5-8988-a90bd16d3192}" record_timestamp="1560525345586" record_key="ep_resource_transaction_political_action_present_gift">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>BACKGROUND_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_political_action_present_gift</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{5047b886-5338-4dad-9073-9f8b232c52e7}" record_timestamp="1560430844105" record_key="ep_resource_transaction_sima_jiong_post_battle_defeat">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>BACKGROUND_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_sima_jiong_post_battle_defeat</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{79b049d9-1c16-45b9-bdca-571c83fc9b20}" record_timestamp="1560430844105" record_key="ep_resource_transaction_sima_jiong_post_battle_victory">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>BACKGROUND_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_sima_jiong_post_battle_victory</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{00d01a8b-b428-41ad-a46c-8f0e930a49d5}" record_timestamp="1559838494274" record_key="ep_resource_transaction_sima_jiong_remove_opposition_1">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>BACKGROUND_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_sima_jiong_remove_opposition_1</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{c0d0b47c-38d1-47f9-8c8d-ee5963313add}" record_timestamp="1559838494504" record_key="ep_resource_transaction_sima_jiong_remove_opposition_2">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>BACKGROUND_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_sima_jiong_remove_opposition_2</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{dd03bdfc-669f-426a-8d0d-2cf4cbb25e77}" record_timestamp="1559838494547" record_key="ep_resource_transaction_sima_jiong_remove_opposition_3">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>BACKGROUND_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_sima_jiong_remove_opposition_3</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{ec1096d0-fbf1-451c-b9cf-f385f3ed10d4}" record_timestamp="1559838494591" record_key="ep_resource_transaction_sima_jiong_remove_opposition_4">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>BACKGROUND_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_sima_jiong_remove_opposition_4</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{d4fc8174-86f5-48c4-af81-d79f9fb99b20}" record_timestamp="1561027488029" record_key="ep_resource_transaction_sima_liang_post_siege_loot_or_sack">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>BACKGROUND_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_sima_liang_post_siege_loot_or_sack</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{a0a8e4f2-4654-4f38-aa87-1f9ff7a5de07}" record_timestamp="1559669694870" record_key="ep_resource_transaction_sima_wei_post_battle_victory">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>BACKGROUND_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_sima_wei_post_battle_victory</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{4aad1041-51e3-47fe-9337-c095321b5797}" record_timestamp="1559669694710" record_key="ep_resource_transaction_sima_wei_post_battle_victory_major">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>BACKGROUND_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_sima_wei_post_battle_victory_major</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{54b8ade9-9020-4b1e-b28f-a9434be1cfee}" record_timestamp="1559669709203" record_key="ep_resource_transaction_sima_wei_post_siege_loot_or_sack">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>BACKGROUND_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_sima_wei_post_siege_loot_or_sack</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{a1d3b0ab-51ce-4927-b687-e0e3557cefe1}" record_timestamp="1559669709368" record_key="ep_resource_transaction_sima_wei_post_siege_occupy">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>BACKGROUND_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_sima_wei_post_siege_occupy</key>
+<treasury_change>0</treasury_change>
+</resource_transactions>
+<resource_transactions record_uuid="{a2bfc655-adac-4332-aa09-4e4328644f28}" record_timestamp="1559821090297" record_key="ep_resource_transaction_sima_yue_defeat_influence_loss">
+<expenditure_type_when_instant>ACTIONS</expenditure_type_when_instant>
+<expenditure_type_when_regular>ARMY_UPKEEP</expenditure_type_when_regular>
+<income_type_when_instant>OTHER</income_type_when_instant>
+<income_type_when_regular>BACKGROUND_INCOME</income_type_when_regular>
+<key>ep_resource_transaction_sima_yue_defeat_influence_loss</key>
 <treasury_change>0</treasury_change>
 </resource_transactions>
 </dataroot>

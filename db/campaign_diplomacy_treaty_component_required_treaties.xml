@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_treaty_component_required_treaties.xsd" export_time="Wed Jun 5 16:30:29 2019" revision="151" export_branch="C:/Users/rick.venier/AppData/Roaming/TWDaemon/1501/dave" export_user="bob">
-<edit_uuid>0a6a9c5f-3494-4e5c-8b8d-880499152ad9</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_treaty_component_required_treaties.xsd" export_time="Thu Aug 1 12:16:24 2019" revision="139" export_branch="C:/Users/rick.venier/AppData/Roaming/TWDaemon/1615/dave" export_user="bob">
+<edit_uuid>b79e4aad-1ff2-439a-b6cf-37634dcfbae8</edit_uuid>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{6ee46273-d26c-4cab-9713-56697e03b825}" record_timestamp="1531501144942" record_key="dummy_component_became_world_leader_required_treaty_declare_independence">
 <application_priority>0</application_priority>
 <component>automatic_treaty_component_became_world_leader</component>
@@ -29,12 +29,12 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_group_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_proposer</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{dc9d2d91-0dde-420c-a61d-cf406daa0182}" record_timestamp="1549313985903" record_key="dummy_components_group_peace_treaty_components_group_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_recipient">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{dc9d2d91-0dde-420c-a61d-cf406daa0182}" record_timestamp="1549313985903" record_key="dummy_components_group_peace_required_treaty_components_group_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_recipient">
 <application_priority>0</application_priority>
 <component>dummy_components_group_peace</component>
 <deal_was>accepted</deal_was>
 <generation_priority>40</generation_priority>
-<key>dummy_components_group_peace_treaty_components_group_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_recipient</key>
+<key>dummy_components_group_peace_required_treaty_components_group_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_recipient</key>
 <proposer_response>accepted</proposer_response>
 <proposer_selection_filter>all</proposer_selection_filter>
 <proposer_vote_filter>unfiltered</proposer_vote_filter>
@@ -43,12 +43,12 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_group_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_recipient</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{3251de0e-516e-4c39-82fe-43c249dedc3a}" record_timestamp="1549313986013" record_key="dummy_components_group_peace_treaty_components_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_proposer">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{3251de0e-516e-4c39-82fe-43c249dedc3a}" record_timestamp="1549313986013" record_key="dummy_components_group_peace_required_treaty_components_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_proposer">
 <application_priority>0</application_priority>
 <component>dummy_components_group_peace</component>
 <deal_was>accepted</deal_was>
 <generation_priority>40</generation_priority>
-<key>dummy_components_group_peace_treaty_components_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_proposer</key>
+<key>dummy_components_group_peace_required_treaty_components_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_proposer</key>
 <proposer_response>accepted</proposer_response>
 <proposer_selection_filter>all</proposer_selection_filter>
 <proposer_vote_filter>unfiltered</proposer_vote_filter>
@@ -57,12 +57,12 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_proposer</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{044d3539-988f-4e05-95c1-02ebf9255de7}" record_timestamp="1549313985950" record_key="dummy_components_group_peace_treaty_components_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_recipient">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{044d3539-988f-4e05-95c1-02ebf9255de7}" record_timestamp="1549313985950" record_key="dummy_components_group_peace_required_treaty_components_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_recipient">
 <application_priority>0</application_priority>
 <component>dummy_components_group_peace</component>
 <deal_was>accepted</deal_was>
 <generation_priority>40</generation_priority>
-<key>dummy_components_group_peace_treaty_components_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_recipient</key>
+<key>dummy_components_group_peace_required_treaty_components_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_recipient</key>
 <proposer_response>accepted</proposer_response>
 <proposer_selection_filter>all</proposer_selection_filter>
 <proposer_vote_filter>unfiltered</proposer_vote_filter>
@@ -71,7 +71,63 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_peace_QUERY_vassal&lt;variable_any_factions&gt;_to_recipient</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{bd2e1cb5-fbc2-492c-b225-4ffa41fbab50}" record_timestamp="1557927242251" record_key="dummy_components_group_war_required_treaty_group_war_proposer_to_recipient">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{b89f635e-408f-441f-824c-9b49f0d8f03d}" record_timestamp="1562084114821" record_key="dummy_components_group_war_participant_vassalised_resolve_group_war_with_master_counter_offer_counter_offer_required_treaty_group_peace_QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:parameter_1_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;">
+<application_priority>0</application_priority>
+<component>dummy_components_group_war_participant_vassalised_resolve_group_war_with_master_counter_offer</component>
+<deal_was>accepted</deal_was>
+<generation_priority>100</generation_priority>
+<key>dummy_components_group_war_participant_vassalised_resolve_group_war_with_master_counter_offer_counter_offer_required_treaty_group_peace_QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:parameter_1_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>dummy_components_group_peace_QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:parameter_1_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{64b64fd4-0efa-4c19-ab94-51f2bb39f1d6}" record_timestamp="1562084114821" record_key="dummy_components_group_war_participant_vassalised_resolve_group_war_with_master_counter_offer_required_treaty_group_war_QUERY_proposer_alliance_members_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;">
+<application_priority>0</application_priority>
+<component>dummy_components_group_war_participant_vassalised_resolve_group_war_with_master_counter_offer</component>
+<deal_was>rejected</deal_was>
+<generation_priority>90</generation_priority>
+<key>dummy_components_group_war_participant_vassalised_resolve_group_war_with_master_counter_offer_required_treaty_group_war_QUERY_proposer_alliance_members_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</key>
+<proposer_response>rejected</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>dummy_components_group_war_QUERY_proposer_alliance_members_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{bf18ada1-d30b-4cc1-9037-ebe53aa800d7}" record_timestamp="1562084114249" record_key="dummy_components_group_war_participant_vassalised_resolve_group_war_with_master_required_treaty_group_peace_QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:parameter_1_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;">
+<application_priority>0</application_priority>
+<component>dummy_components_group_war_participant_vassalised_resolve_group_war_with_master</component>
+<deal_was>accepted</deal_was>
+<generation_priority>100</generation_priority>
+<key>dummy_components_group_war_participant_vassalised_resolve_group_war_with_master_required_treaty_group_peace_QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:parameter_1_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>dummy_components_group_peace_QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:parameter_1_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{4d8296bf-fdca-4811-8c55-84b9c5819919}" record_timestamp="1562084114249" record_key="dummy_components_group_war_participant_vassalised_resolve_group_war_with_master_required_treaty_group_war_QUERY_recipient_alliance_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;">
+<application_priority>0</application_priority>
+<component>dummy_components_group_war_participant_vassalised_resolve_group_war_with_master</component>
+<deal_was>rejected</deal_was>
+<generation_priority>90</generation_priority>
+<key>dummy_components_group_war_participant_vassalised_resolve_group_war_with_master_required_treaty_group_war_QUERY_recipient_alliance_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>rejected</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>dummy_components_group_war_QUERY_recipient_alliance_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{bd2e1cb5-fbc2-492c-b225-4ffa41fbab50}" record_timestamp="1558015344079" record_key="dummy_components_group_war_required_treaty_group_war_proposer_to_recipient">
 <application_priority>0</application_priority>
 <component>dummy_components_group_war</component>
 <deal_was>accepted</deal_was>
@@ -83,9 +139,65 @@
 <recipient_response>accepted</recipient_response>
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>group_war_proposer_to_recipient</requirement>
+<requirement>treaty_components_group_war_QUERY_proposer_alliance_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{426839e1-1daa-4ff2-ba04-0e6fbad5290a}" record_timestamp="1557927242255" record_key="dummy_components_war_required_treaty_war_proposer_to_recipient">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{4fd8854b-d431-41c9-b973-e376b6565153}" record_timestamp="1562084114822" record_key="dummy_components_war_participant_vassalised_resolve_war_with_master_counter_offer_required_treaty_peace_proposer_to_parameter">
+<application_priority>0</application_priority>
+<component>dummy_components_war_participant_vassalised_resolve_war_with_master_counter_offer</component>
+<deal_was>accepted</deal_was>
+<generation_priority>1</generation_priority>
+<key>dummy_components_war_participant_vassalised_resolve_war_with_master_counter_offer_required_treaty_peace_proposer_to_parameter</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>peace_proposer_to_parameter</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{4a73062c-4895-4a6b-a7e2-9002c9c99fec}" record_timestamp="1562084114822" record_key="dummy_components_war_participant_vassalised_resolve_war_with_master_counter_offer_required_treaty_war_recipient_to_proposer">
+<application_priority>0</application_priority>
+<component>dummy_components_war_participant_vassalised_resolve_war_with_master_counter_offer</component>
+<deal_was>rejected</deal_was>
+<generation_priority>1</generation_priority>
+<key>dummy_components_war_participant_vassalised_resolve_war_with_master_counter_offer_required_treaty_war_recipient_to_proposer</key>
+<proposer_response>rejected</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>war_recipient_to_proposer</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{d3d41663-1843-4938-85b4-97da4274be84}" record_timestamp="1561975259312" record_key="dummy_components_war_participant_vassalised_resolve_war_with_master_required_treaty_peace_recipient_to_parameter">
+<application_priority>0</application_priority>
+<component>dummy_components_war_participant_vassalised_resolve_war_with_master</component>
+<deal_was>accepted</deal_was>
+<generation_priority>1</generation_priority>
+<key>dummy_components_war_participant_vassalised_resolve_war_with_master_required_treaty_peace_recipient_to_parameter</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>peace_recipient_to_parameter</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{a5d4fe9f-b105-430e-b190-02895edc155c}" record_timestamp="1561975259312" record_key="dummy_components_war_participant_vassalised_resolve_war_with_master_required_treaty_war_proposer_to_recipient">
+<application_priority>0</application_priority>
+<component>dummy_components_war_participant_vassalised_resolve_war_with_master</component>
+<deal_was>rejected</deal_was>
+<generation_priority>1</generation_priority>
+<key>dummy_components_war_participant_vassalised_resolve_war_with_master_required_treaty_war_proposer_to_recipient</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>rejected</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>war_proposer_to_recipient</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{426839e1-1daa-4ff2-ba04-0e6fbad5290a}" record_timestamp="1558015344079" record_key="dummy_components_war_required_treaty_war_proposer_to_recipient">
 <application_priority>0</application_priority>
 <component>dummy_components_war</component>
 <deal_was>accepted</deal_was>
@@ -337,7 +449,7 @@
 <recipient_vote_filter>voted_reject</recipient_vote_filter>
 <requirement>dummy_component_disagreed_on_vote_QUERY_alliance_&lt;variable_recipients&gt;_to_&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{618b9db5-ca86-473c-9311-26259559e554}" record_timestamp="1551721846841" record_key="treaty_components_alliance_to_alliance_group_peace_required_treaty_proposer_quit">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{618b9db5-ca86-473c-9311-26259559e554}" record_timestamp="1525878429395" record_key="treaty_components_alliance_to_alliance_group_peace_required_treaty_proposer_quit">
 <application_priority>90</application_priority>
 <component>treaty_components_alliance_to_alliance_group_peace</component>
 <deal_was>accepted</deal_was>
@@ -463,7 +575,7 @@
 <recipient_vote_filter>voted_reject</recipient_vote_filter>
 <requirement>QUERY_create_alliance_&lt;variable_recipients&gt;_to_&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{13989147-6a70-4e18-a08b-ab735700e873}" record_timestamp="1551721846841" record_key="treaty_components_alliance_to_alliance_war_required_treaty_proposer_reject_quit">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{13989147-6a70-4e18-a08b-ab735700e873}" record_timestamp="1525878428787" record_key="treaty_components_alliance_to_alliance_war_required_treaty_proposer_reject_quit">
 <application_priority>90</application_priority>
 <component>treaty_components_alliance_to_alliance_war</component>
 <deal_was>accepted</deal_was>
@@ -491,7 +603,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>dummy_components_group_peace_QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{fa9a436a-85d9-4a38-9483-9c1d04ccd22d}" record_timestamp="1551721846841" record_key="treaty_components_alliance_to_faction_group_peace_required_treaty_proposer_quit">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{fa9a436a-85d9-4a38-9483-9c1d04ccd22d}" record_timestamp="1525878432802" record_key="treaty_components_alliance_to_faction_group_peace_required_treaty_proposer_quit">
 <application_priority>90</application_priority>
 <component>treaty_components_alliance_to_faction_group_peace</component>
 <deal_was>accepted</deal_was>
@@ -603,7 +715,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_group_war_QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{a9b99d19-d0c3-4c54-b9bb-7723f549aae8}" record_timestamp="1551721846841" record_key="treaty_components_alliance_to_faction_war_required_treaty_proposer_quit">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{a9b99d19-d0c3-4c54-b9bb-7723f549aae8}" record_timestamp="1525878429360" record_key="treaty_components_alliance_to_faction_war_required_treaty_proposer_quit">
 <application_priority>90</application_priority>
 <component>treaty_components_alliance_to_faction_war</component>
 <deal_was>accepted</deal_was>
@@ -713,7 +825,7 @@
 <recipient_response>accepted</recipient_response>
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>treaty_components_group_war_QUERY_proposer_alliance_members_and_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;</requirement>
+<requirement>treaty_components_group_war_QUERY_proposer_alliance_members_and_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{0fb36b40-cf47-4ef6-bb77-1c9365b60945}" record_timestamp="1544555133458" record_key="treaty_components_call_allies_to_arms_voter_accepted_deal_accepted_required_treaty_agreed_on_vote">
 <application_priority>90</application_priority>
@@ -785,7 +897,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>QUERY_vassal_call_to_arms_&lt;variable_any_factions&gt;_to_recipient</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{b49044dd-90cb-4a74-81fc-aeafd65b232d}" record_timestamp="1551875815026" record_key="treaty_components_coalition_split_vote_required_treaty_create_coalition_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{b49044dd-90cb-4a74-81fc-aeafd65b232d}" record_timestamp="1554881242466" record_key="treaty_components_coalition_split_vote_required_treaty_create_coalition_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;">
 <application_priority>85</application_priority>
 <component>treaty_components_coalition_split_vote</component>
 <deal_was>accepted</deal_was>
@@ -799,7 +911,7 @@
 <recipient_vote_filter>voted_accept</recipient_vote_filter>
 <requirement>treaty_components_create_coalition_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{65c29c24-583e-432d-a19e-d49a130ac075}" record_timestamp="1551875815042" record_key="treaty_components_coalition_split_vote_required_treaty_pending_join_coalition_proposers_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_all_but_first_two">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{65c29c24-583e-432d-a19e-d49a130ac075}" record_timestamp="1554881242467" record_key="treaty_components_coalition_split_vote_required_treaty_pending_join_coalition_proposers_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_all_but_first_two">
 <application_priority>80</application_priority>
 <component>treaty_components_coalition_split_vote</component>
 <deal_was>accepted</deal_was>
@@ -813,7 +925,7 @@
 <recipient_vote_filter>voted_accept</recipient_vote_filter>
 <requirement>treaty_components_pending_join_coalition_proposers_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{e587c8cc-29bb-4bc0-a592-ebcb46e9b4e0}" record_timestamp="1553015753276" record_key="treaty_components_coalition_split_vote_required_treaty_pending_join_coalition_proposers_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_second">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{e587c8cc-29bb-4bc0-a592-ebcb46e9b4e0}" record_timestamp="1554885057285" record_key="treaty_components_coalition_split_vote_required_treaty_pending_join_coalition_proposers_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_second">
 <application_priority>80</application_priority>
 <component>treaty_components_coalition_split_vote</component>
 <deal_was>accepted</deal_was>
@@ -827,7 +939,7 @@
 <recipient_vote_filter>voted_accept</recipient_vote_filter>
 <requirement>treaty_components_pending_join_coalition_proposers_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{0d1a4bc9-2bf9-4e73-9585-6a777d2ba5f1}" record_timestamp="1551875814995" record_key="treaty_components_coalition_split_vote_required_treaty_quit_coalition_no_treachery_QUERY_proposer_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer_&lt;parameter_alliance&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{0d1a4bc9-2bf9-4e73-9585-6a777d2ba5f1}" record_timestamp="1554881242466" record_key="treaty_components_coalition_split_vote_required_treaty_quit_coalition_no_treachery_QUERY_proposer_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer_&lt;parameter_alliance&gt;">
 <application_priority>90</application_priority>
 <component>treaty_components_coalition_split_vote</component>
 <deal_was>accepted</deal_was>
@@ -841,7 +953,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_quit_coalition_no_treachery_QUERY_proposer_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{5e3db953-7c40-4d5d-a7b2-65e8e11ea599}" record_timestamp="1552567650380" record_key="treaty_components_coalition_split_vote_required_treaty_quit_coalition_no_treachery_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;_accepted">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{5e3db953-7c40-4d5d-a7b2-65e8e11ea599}" record_timestamp="1554883335912" record_key="treaty_components_coalition_split_vote_required_treaty_quit_coalition_no_treachery_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;_accepted">
 <application_priority>95</application_priority>
 <component>treaty_components_coalition_split_vote</component>
 <deal_was>accepted</deal_was>
@@ -855,7 +967,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_quit_coalition_no_treachery_QUERY_proposer_coalition_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{4f9252a3-a6f8-475d-9379-59a370532904}" record_timestamp="1553015748391" record_key="treaty_components_coalition_split_vote_required_treaty_quit_coalition_no_treachery_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;_rejected">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{4f9252a3-a6f8-475d-9379-59a370532904}" record_timestamp="1554885057283" record_key="treaty_components_coalition_split_vote_required_treaty_quit_coalition_no_treachery_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;_rejected">
 <application_priority>95</application_priority>
 <component>treaty_components_coalition_split_vote</component>
 <deal_was>rejected</deal_was>
@@ -925,7 +1037,7 @@
 <recipient_vote_filter>voted_accept</recipient_vote_filter>
 <requirement>treaty_components_pending_join_alliance_proposers_QUERY_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{b301605c-322a-4711-a794-97c48c5bc627}" record_timestamp="1551722049379" record_key="treaty_components_coalition_to_alliance_recipient_accepted_required_treaty_quit_coalition_any_to_proposer">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{b301605c-322a-4711-a794-97c48c5bc627}" record_timestamp="1525984037921" record_key="treaty_components_coalition_to_alliance_recipient_accepted_required_treaty_quit_coalition_any_to_proposer">
 <application_priority>95</application_priority>
 <component>treaty_components_coalition_to_alliance</component>
 <deal_was>accepted</deal_was>
@@ -953,7 +1065,7 @@
 <recipient_vote_filter>voted_accept</recipient_vote_filter>
 <requirement>treaty_components_create_alliance_QUERY_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_oath&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{d2757cdb-5569-46a4-8715-c960416254db}" record_timestamp="1551722049380" record_key="treaty_components_coalition_to_alliance_required_treaty_quit_coalition_proposer_to_any">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{d2757cdb-5569-46a4-8715-c960416254db}" record_timestamp="1525984037939" record_key="treaty_components_coalition_to_alliance_required_treaty_quit_coalition_proposer_to_any">
 <application_priority>90</application_priority>
 <component>treaty_components_coalition_to_alliance</component>
 <deal_was>accepted</deal_was>
@@ -1023,7 +1135,7 @@
 <recipient_vote_filter>voted_accept</recipient_vote_filter>
 <requirement>treaty_components_pending_join_alliance_proposers_QUERY_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{60f6bff3-cfda-46ff-83b1-90d05abae896}" record_timestamp="1551722049379" record_key="treaty_components_coalition_to_alliance_yuan_shao_recipient_accepted_required_treaty_quit_coalition_any_to_proposer">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{60f6bff3-cfda-46ff-83b1-90d05abae896}" record_timestamp="1548943995406" record_key="treaty_components_coalition_to_alliance_yuan_shao_recipient_accepted_required_treaty_quit_coalition_any_to_proposer">
 <application_priority>95</application_priority>
 <component>treaty_components_coalition_to_alliance_yuan_shao</component>
 <deal_was>accepted</deal_was>
@@ -1051,7 +1163,7 @@
 <recipient_vote_filter>voted_accept</recipient_vote_filter>
 <requirement>treaty_components_create_alliance_QUERY_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_oath&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{4c6b2abd-6acb-479c-8ec9-d525a4913d11}" record_timestamp="1551722049380" record_key="treaty_components_coalition_to_alliance_yuan_shao_required_treaty_quit_coalition_proposer_to_any">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{4c6b2abd-6acb-479c-8ec9-d525a4913d11}" record_timestamp="1548943995404" record_key="treaty_components_coalition_to_alliance_yuan_shao_required_treaty_quit_coalition_proposer_to_any">
 <application_priority>90</application_priority>
 <component>treaty_components_coalition_to_alliance_yuan_shao</component>
 <deal_was>accepted</deal_was>
@@ -1065,7 +1177,7 @@
 <recipient_vote_filter>voted_reject</recipient_vote_filter>
 <requirement>treaty_components_quit_coalition_no_treachery_QUERY_proposer_coalition_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{4aebf135-49c7-445f-ac72-1ede5933161d}" record_timestamp="1551286077227" record_key="treaty_components_coalition_to_alliance_yuan_shao_required_treaty_yuan_shao_alliance_dummy">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{4aebf135-49c7-445f-ac72-1ede5933161d}" record_timestamp="1551788446747" record_key="treaty_components_coalition_to_alliance_yuan_shao_required_treaty_yuan_shao_alliance_dummy">
 <application_priority>0</application_priority>
 <component>treaty_components_coalition_to_alliance_yuan_shao</component>
 <deal_was>accepted</deal_was>
@@ -1135,7 +1247,7 @@
 <recipient_vote_filter>voted_accept</recipient_vote_filter>
 <requirement>treaty_components_pending_join_alliance_proposers_QUERY_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{fe10b82e-7d33-495d-b55d-2724f2e0a2de}" record_timestamp="1551722049379" record_key="treaty_components_coalition_to_alliance_yuan_shu_recipient_accepted_required_treaty_quit_coalition_any_to_proposer">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{fe10b82e-7d33-495d-b55d-2724f2e0a2de}" record_timestamp="1549501416926" record_key="treaty_components_coalition_to_alliance_yuan_shu_recipient_accepted_required_treaty_quit_coalition_any_to_proposer">
 <application_priority>95</application_priority>
 <component>treaty_components_coalition_to_alliance_yuan_shu</component>
 <deal_was>accepted</deal_was>
@@ -1163,7 +1275,7 @@
 <recipient_vote_filter>voted_accept</recipient_vote_filter>
 <requirement>treaty_components_create_alliance_QUERY_coalition_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_oath&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{f49f3762-0002-40fc-bbf6-6f08c7651223}" record_timestamp="1551722049380" record_key="treaty_components_coalition_to_alliance_yuan_shu_required_treaty_quit_coalition_proposer_to_any">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{f49f3762-0002-40fc-bbf6-6f08c7651223}" record_timestamp="1549501416926" record_key="treaty_components_coalition_to_alliance_yuan_shu_required_treaty_quit_coalition_proposer_to_any">
 <application_priority>90</application_priority>
 <component>treaty_components_coalition_to_alliance_yuan_shu</component>
 <deal_was>accepted</deal_was>
@@ -1693,7 +1805,7 @@
 <recipient_response>accepted</recipient_response>
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>treaty_components_group_war_QUERY_proposer_to_recipient_and_alliance</requirement>
+<requirement>treaty_components_war_QUERY_recipient_alliance_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{fd59f8c6-9e88-415a-8247-9ffab7c94a24}" record_timestamp="1538143754284" record_key="treaty_components_governor_independence_vassalage_recipient_to_proposer">
 <application_priority>0</application_priority>
@@ -1863,33 +1975,33 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_alliance_QUERY_proposer_alliance_members_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{a33dc406-f823-41cf-a0fb-e4b772f000d8}" record_timestamp="1517687157726" record_key="treaty_components_join_alliance_proposer_required_treaty_group_war_proposers">
-<application_priority>95</application_priority>
-<component>treaty_components_join_alliance_proposers</component>
-<deal_was>accepted</deal_was>
-<generation_priority>90</generation_priority>
-<key>treaty_components_join_alliance_proposer_required_treaty_group_war_proposers</key>
-<proposer_response>accepted</proposer_response>
-<proposer_selection_filter>all</proposer_selection_filter>
-<proposer_vote_filter>unfiltered</proposer_vote_filter>
-<recipient_response>accepted</recipient_response>
-<recipient_selection_filter>all</recipient_selection_filter>
-<recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>QUERY_group_war_proposers_&lt;variable_proposer&gt;_to_&lt;variable_recipient&gt;</requirement>
-</campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{5137951d-31b5-4f9a-aea1-6bd5b88e9045}" record_timestamp="1517576783447" record_key="treaty_components_join_alliance_proposer_required_treaty_group_war_proposers_alliance">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{5137951d-31b5-4f9a-aea1-6bd5b88e9045}" record_timestamp="1517576783447" record_key="treaty_components_join_alliance_proposer_required_treaty_dummy_components_group_war_QUERY_inherit_group_wars_proposer:recipient_recipient:any&lt;variable_any_factions&gt;">
 <application_priority>100</application_priority>
 <component>treaty_components_join_alliance_proposers</component>
 <deal_was>accepted</deal_was>
 <generation_priority>90</generation_priority>
-<key>treaty_components_join_alliance_proposer_required_treaty_group_war_proposers_alliance</key>
+<key>treaty_components_join_alliance_proposer_required_treaty_dummy_components_group_war_QUERY_inherit_group_wars_proposer:recipient_recipient:any&lt;variable_any_factions&gt;</key>
 <proposer_response>accepted</proposer_response>
 <proposer_selection_filter>all</proposer_selection_filter>
 <proposer_vote_filter>unfiltered</proposer_vote_filter>
 <recipient_response>accepted</recipient_response>
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>QUERY_inherit_group_war_recipient_to_&lt;variable_recipients&gt;</requirement>
+<requirement>treaty_components_group_war_QUERY_inherit_group_wars_proposer:recipient_recipient:any&lt;variable_any_factions&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{a33dc406-f823-41cf-a0fb-e4b772f000d8}" record_timestamp="1517687157726" record_key="treaty_components_join_alliance_proposer_required_treaty_dummy_components_group_war_QUERY_inherit_group_wars_proposer_alliance_proposer:any&lt;variable_any_factions&gt;_recipient:any&lt;variable_recipients&gt;">
+<application_priority>95</application_priority>
+<component>treaty_components_join_alliance_proposers</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_join_alliance_proposer_required_treaty_dummy_components_group_war_QUERY_inherit_group_wars_proposer_alliance_proposer:any&lt;variable_any_factions&gt;_recipient:any&lt;variable_recipients&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>dummy_components_group_war_QUERY_inherit_group_wars_proposer_alliance_proposer:any&lt;variable_any_factions&gt;_recipient:any&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{7e74c7d5-aa4a-4a00-a149-b3a5f0841658}" record_timestamp="1532457345602" record_key="treaty_components_join_alliance_proposer_required_treaty_peace_recipient_to_&lt;variable_proposers&gt;">
 <application_priority>0</application_priority>
@@ -1932,6 +2044,20 @@
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_yuan_shao_alliance_dummy_QUERY_yuan_shao_alliance_dummy_proposer:proposer&lt;variable_proposer&gt;_recipient:recipient</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{c395b791-eacb-4653-a487-bd82ce12d76f}" record_timestamp="1564658183972" record_key="treaty_components_join_alliance_proposers_required_treaty_dummy_components_group_war_QUERY_inherit_group_wars_proposer:any&lt;variable_any_factions&gt;_recipient:recipient">
+<application_priority>100</application_priority>
+<component>treaty_components_join_alliance_proposers</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_join_alliance_proposers_required_treaty_dummy_components_group_war_QUERY_inherit_group_wars_proposer:any&lt;variable_any_factions&gt;_recipient:recipient</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>dummy_components_group_war_QUERY_inherit_group_wars_proposer:any&lt;variable_any_factions&gt;_recipient:recipient</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{343439fa-18b7-4670-b80d-c2079f1b9d69}" record_timestamp="1544555133883" record_key="treaty_components_join_alliance_recipient_recipients_accepted_voter_accepted_deal_accepted_required_treaty_agreed_on_vote">
 <application_priority>90</application_priority>
@@ -2045,33 +2171,47 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_alliance_QUERY_recipient_alliance_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{38a24a3b-754b-4782-bcd3-108b47246526}" record_timestamp="1525257951520" record_key="treaty_components_join_alliance_recipients_required_treaty_group_war_recipients">
-<application_priority>95</application_priority>
-<component>treaty_components_join_alliance_recipients</component>
-<deal_was>accepted</deal_was>
-<generation_priority>90</generation_priority>
-<key>treaty_components_join_alliance_recipients_required_treaty_group_war_recipients</key>
-<proposer_response>accepted</proposer_response>
-<proposer_selection_filter>all</proposer_selection_filter>
-<proposer_vote_filter>unfiltered</proposer_vote_filter>
-<recipient_response>accepted</recipient_response>
-<recipient_selection_filter>all</recipient_selection_filter>
-<recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>QUERY_group_war_recipients_&lt;variable_proposer&gt;_to_&lt;variable_recipient&gt;</requirement>
-</campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{8729af09-e582-470f-b0b4-490f59a65f9b}" record_timestamp="1517576783656" record_key="treaty_components_join_alliance_recipients_required_treaty_group_war_recipients_alliance">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{f76fda8e-2ce6-4280-8ffa-e426fb725d97}" record_timestamp="1564658183972" record_key="treaty_components_join_alliance_recipients_required_treaty_dummy_components_group_war_QUERY_inherit_group_wars_proposer:any&lt;variable_any_factions&gt;_recipient:proposer">
 <application_priority>100</application_priority>
 <component>treaty_components_join_alliance_recipients</component>
 <deal_was>accepted</deal_was>
 <generation_priority>90</generation_priority>
-<key>treaty_components_join_alliance_recipients_required_treaty_group_war_recipients_alliance</key>
+<key>treaty_components_join_alliance_recipients_required_treaty_dummy_components_group_war_QUERY_inherit_group_wars_proposer:any&lt;variable_any_factions&gt;_recipient:proposer</key>
 <proposer_response>accepted</proposer_response>
 <proposer_selection_filter>all</proposer_selection_filter>
 <proposer_vote_filter>unfiltered</proposer_vote_filter>
 <recipient_response>accepted</recipient_response>
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>QUERY_inherit_group_war_proposer_to_&lt;variable_recipients&gt;</requirement>
+<requirement>dummy_components_group_war_QUERY_inherit_group_wars_proposer:any&lt;variable_any_factions&gt;_recipient:proposer</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{8729af09-e582-470f-b0b4-490f59a65f9b}" record_timestamp="1517576783656" record_key="treaty_components_join_alliance_recipients_required_treaty_dummy_components_group_war_QUERY_inherit_group_wars_proposer:proposer_recipient:any&lt;variable_any_factions&gt;">
+<application_priority>100</application_priority>
+<component>treaty_components_join_alliance_recipients</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_join_alliance_recipients_required_treaty_dummy_components_group_war_QUERY_inherit_group_wars_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>treaty_components_group_war_QUERY_inherit_group_wars_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{38a24a3b-754b-4782-bcd3-108b47246526}" record_timestamp="1525257951520" record_key="treaty_components_join_alliance_recipients_required_treaty_dummy_components_group_war_QUERY_inherit_group_wars_recipient_alliance_proposer:any&lt;variable_any_factions&gt;_recipient:any&lt;variable_recipients&gt;">
+<application_priority>95</application_priority>
+<component>treaty_components_join_alliance_recipients</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_join_alliance_recipients_required_treaty_dummy_components_group_war_QUERY_inherit_group_wars_recipient_alliance_proposer:any&lt;variable_any_factions&gt;_recipient:any&lt;variable_recipients&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>dummy_components_group_war_QUERY_inherit_group_wars_recipient_alliance_proposer:any&lt;variable_any_factions&gt;_recipient:any&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{2aa0640c-b2ec-4c3c-b423-143e02574de9}" record_timestamp="1532457345601" record_key="treaty_components_join_alliance_recipients_required_treaty_peace_recipient_to_&lt;variable_recpients&gt;">
 <application_priority>0</application_priority>
@@ -2577,6 +2717,20 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>attitude_manipulation_negative_dummy_proposer_to_&lt;parameter_1&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{da484306-ff42-4f44-8c43-ea291bb38032}" record_timestamp="1562334897129" record_key="treaty_components_manipulate_faction_negative_sima_yue_required_treaty_attitude_manipulation_dummy">
+<application_priority>0</application_priority>
+<component>treaty_components_attitude_manipulation_negative_sima_yue</component>
+<deal_was>accepted</deal_was>
+<generation_priority>70</generation_priority>
+<key>treaty_components_manipulate_faction_negative_sima_yue_required_treaty_attitude_manipulation_dummy</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>attitude_manipulation_negative_sima_yue_dummy_proposer_to_&lt;parameter_1&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{15c100b2-adf9-4041-b9c6-bfe807aad24b}" record_timestamp="1520278007360" record_key="treaty_components_manipulate_faction_positive_required_treaty_attitude_manipulation_dummy">
 <application_priority>0</application_priority>
 <component>treaty_components_attitude_manipulation_positive</component>
@@ -2590,6 +2744,20 @@
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>attitude_manipulation_positive_dummy_proposer_to_&lt;parameter_1&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{a8db0827-9b8f-4191-be4d-120cc4d54637}" record_timestamp="1562334897150" record_key="treaty_components_manipulate_faction_positive_sima_yue_required_treaty_attitude_manipulation_dummy">
+<application_priority>0</application_priority>
+<component>treaty_components_attitude_manipulation_positive_sima_yue</component>
+<deal_was>accepted</deal_was>
+<generation_priority>70</generation_priority>
+<key>treaty_components_manipulate_faction_positive_sima_yue_required_treaty_attitude_manipulation_dummy</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>attitude_manipulation_positive_sima_yue_dummy_proposer_to_&lt;parameter_1&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{7658a79b-57eb-4958-935e-37f0a46847fb}" record_timestamp="1545236596868" record_key="treaty_components_master_accepts_war_war_proposer_to_parameter">
 <application_priority>0</application_priority>
@@ -2619,7 +2787,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>war_recipient_to_parameter</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{d92c8fb2-a938-4dec-ad1a-0f70818188a4}" record_timestamp="1552567650350" record_key="treaty_components_military_alliance_split_vote_required_treaty_QUERY_proposer_alliance_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;_accepted">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{d92c8fb2-a938-4dec-ad1a-0f70818188a4}" record_timestamp="1554883335912" record_key="treaty_components_military_alliance_split_vote_required_treaty_QUERY_proposer_alliance_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;_accepted">
 <application_priority>95</application_priority>
 <component>treaty_components_military_alliance_split_vote</component>
 <deal_was>accepted</deal_was>
@@ -2633,7 +2801,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_quit_alliance_no_treachery_QUERY_proposer_alliance_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{ebaa42aa-71c4-42e6-9659-b57e6f22f704}" record_timestamp="1553015769844" record_key="treaty_components_military_alliance_split_vote_required_treaty_QUERY_proposer_alliance_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;_rejected">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{ebaa42aa-71c4-42e6-9659-b57e6f22f704}" record_timestamp="1554885057304" record_key="treaty_components_military_alliance_split_vote_required_treaty_QUERY_proposer_alliance_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;_rejected">
 <application_priority>95</application_priority>
 <component>treaty_components_military_alliance_split_vote</component>
 <deal_was>rejected</deal_was>
@@ -2647,7 +2815,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_quit_alliance_no_treachery_QUERY_proposer_alliance_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{0d437f91-eaba-4b8f-99bc-ebaf6ccbda15}" record_timestamp="1551875815653" record_key="treaty_components_military_alliance_split_vote_required_treaty_create_alliance_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{0d437f91-eaba-4b8f-99bc-ebaf6ccbda15}" record_timestamp="1554881242480" record_key="treaty_components_military_alliance_split_vote_required_treaty_create_alliance_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;">
 <application_priority>85</application_priority>
 <component>treaty_components_military_alliance_split_vote</component>
 <deal_was>accepted</deal_was>
@@ -2661,7 +2829,7 @@
 <recipient_vote_filter>voted_accept</recipient_vote_filter>
 <requirement>treaty_components_create_alliance_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{5387236d-3554-404b-8391-5d024e4c467f}" record_timestamp="1551875815622" record_key="treaty_components_military_alliance_split_vote_required_treaty_join_alliance_proposers_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_all_but_first_two">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{5387236d-3554-404b-8391-5d024e4c467f}" record_timestamp="1554881242480" record_key="treaty_components_military_alliance_split_vote_required_treaty_join_alliance_proposers_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_all_but_first_two">
 <application_priority>80</application_priority>
 <component>treaty_components_military_alliance_split_vote</component>
 <deal_was>accepted</deal_was>
@@ -2675,7 +2843,7 @@
 <recipient_vote_filter>voted_accept</recipient_vote_filter>
 <requirement>treaty_components_pending_join_alliance_proposers_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{6e3274e2-26fd-4c2f-bcb1-2d8044e83c97}" record_timestamp="1553015772253" record_key="treaty_components_military_alliance_split_vote_required_treaty_join_alliance_proposers_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_second">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{6e3274e2-26fd-4c2f-bcb1-2d8044e83c97}" record_timestamp="1554885057305" record_key="treaty_components_military_alliance_split_vote_required_treaty_join_alliance_proposers_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_second">
 <application_priority>80</application_priority>
 <component>treaty_components_military_alliance_split_vote</component>
 <deal_was>accepted</deal_was>
@@ -2689,7 +2857,7 @@
 <recipient_vote_filter>voted_accept</recipient_vote_filter>
 <requirement>treaty_components_pending_join_alliance_proposers_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{33218e5c-eca5-46ef-ab8f-5108e82e5a96}" record_timestamp="1551875815591" record_key="treaty_components_military_alliance_split_vote_required_treaty_quit_alliance_no_treachery_QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{33218e5c-eca5-46ef-ab8f-5108e82e5a96}" record_timestamp="1554881242480" record_key="treaty_components_military_alliance_split_vote_required_treaty_quit_alliance_no_treachery_QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;">
 <application_priority>90</application_priority>
 <component>treaty_components_military_alliance_split_vote</component>
 <deal_was>accepted</deal_was>
@@ -2773,7 +2941,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_join_alliance_proposers_QUERY_proposer_alliance_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{59a4af28-ad38-44c0-a2c3-9983e387b02f}" record_timestamp="1553015755634" record_key="treaty_components_pending_join_coalition_proposers_required_treaty_join_coalition_proposer_QUERY_proposer_coalition_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{59a4af28-ad38-44c0-a2c3-9983e387b02f}" record_timestamp="1554885057289" record_key="treaty_components_pending_join_coalition_proposers_required_treaty_join_coalition_proposer_QUERY_proposer_coalition_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;">
 <application_priority>1</application_priority>
 <component>treaty_components_pending_join_coalition_proposers</component>
 <deal_was>accepted</deal_was>
@@ -2801,7 +2969,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>war_proposer_to_parameter</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{8162037b-fed1-4a55-8d30-25ec08216e1b}" record_timestamp="1555321917584" record_key="treaty_components_quit_alliance_and_declare_war_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{8162037b-fed1-4a55-8d30-25ec08216e1b}" record_timestamp="1556562802276" record_key="treaty_components_quit_alliance_and_declare_war_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_alliance_and_declare_war</component>
 <deal_was>accepted</deal_was>
@@ -2815,7 +2983,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{55d4cc50-e2dd-48b4-8a0a-82fb7c10eb7f}" record_timestamp="1555321917731" record_key="treaty_components_quit_alliance_and_declare_war_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{55d4cc50-e2dd-48b4-8a0a-82fb7c10eb7f}" record_timestamp="1556562802277" record_key="treaty_components_quit_alliance_and_declare_war_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_alliance_and_declare_war</component>
 <deal_was>accepted</deal_was>
@@ -2829,8 +2997,22 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{3184c7f6-2603-4087-b544-1cf38facc378}" record_timestamp="1563206059096" record_key="treaty_components_quit_alliance_and_declare_war_required_treaty_group_peace_no_event_QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;">
+<application_priority>90</application_priority>
+<component>treaty_components_quit_alliance_and_declare_war</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_quit_alliance_and_declare_war_required_treaty_group_peace_no_event_QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>dummy_components_group_peace_no_event_QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{9922ab78-ffeb-45c0-8d70-132c34540e72}" record_timestamp="1547821168569" record_key="treaty_components_quit_alliance_and_declare_war_required_treaty_resolve_group_wars">
-<application_priority>85</application_priority>
+<application_priority>100</application_priority>
 <component>treaty_components_quit_alliance_and_declare_war</component>
 <deal_was>accepted</deal_was>
 <generation_priority>90</generation_priority>
@@ -2841,10 +3023,10 @@
 <recipient_response>accepted</recipient_response>
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>treaty_components_war_QUERY_leave_group_wars_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
+<requirement>treaty_components_war_QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{4e6e5c36-4e48-455b-815c-c1f699624b5b}" record_timestamp="1553863713544" record_key="treaty_components_quit_alliance_and_declare_war_required_treaty_war_QUERY_two_in_alliance_and_group_war_proposer:recipient_recipient:any&lt;variable_any_factions&gt;">
-<application_priority>85</application_priority>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{4e6e5c36-4e48-455b-815c-c1f699624b5b}" record_timestamp="1554887354629" record_key="treaty_components_quit_alliance_and_declare_war_required_treaty_war_QUERY_two_in_alliance_and_group_war_proposer:recipient_recipient:any&lt;variable_any_factions&gt;">
+<application_priority>95</application_priority>
 <component>treaty_components_quit_alliance_and_declare_war</component>
 <deal_was>accepted</deal_was>
 <generation_priority>90</generation_priority>
@@ -2871,7 +3053,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>war_proposer_to_recipient</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{c632d9e7-ef1e-4e59-abac-602a004a5673}" record_timestamp="1555321917666" record_key="treaty_components_quit_alliance_no_treachery_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{c632d9e7-ef1e-4e59-abac-602a004a5673}" record_timestamp="1556562802277" record_key="treaty_components_quit_alliance_no_treachery_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_alliance_no_treachery</component>
 <deal_was>accepted</deal_was>
@@ -2885,7 +3067,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_break_deal_proposer_to_recipient_negotiated_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{9892eea2-b667-475b-9725-fd4205f1d748}" record_timestamp="1556006642992" record_key="treaty_components_quit_alliance_no_treachery_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;_rejected">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{9892eea2-b667-475b-9725-fd4205f1d748}" record_timestamp="1556563021404" record_key="treaty_components_quit_alliance_no_treachery_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;_rejected">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_alliance_no_treachery</component>
 <deal_was>rejected</deal_was>
@@ -2899,7 +3081,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_break_deal_proposer_to_recipient_negotiated_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{c3bc3438-cba0-4bb3-8ced-442130284969}" record_timestamp="1555321917879" record_key="treaty_components_quit_alliance_no_treachery_required_treaty_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{c3bc3438-cba0-4bb3-8ced-442130284969}" record_timestamp="1556562802278" record_key="treaty_components_quit_alliance_no_treachery_required_treaty_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_alliance_no_treachery</component>
 <deal_was>accepted</deal_was>
@@ -2913,7 +3095,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_break_deal_proposer_to_recipient_negotiated_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{d3a2b5b7-eb1a-499d-b490-16529df9a91a}" record_timestamp="1556006642992" record_key="treaty_components_quit_alliance_no_treachery_required_treaty_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;_rejected">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{d3a2b5b7-eb1a-499d-b490-16529df9a91a}" record_timestamp="1556563021404" record_key="treaty_components_quit_alliance_no_treachery_required_treaty_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;_rejected">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_alliance_no_treachery</component>
 <deal_was>rejected</deal_was>
@@ -2927,8 +3109,22 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_break_deal_proposer_to_recipient_negotiated_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{a3db86c9-9cc6-44d2-907d-b06ab39a4abf}" record_timestamp="1563206059124" record_key="treaty_components_quit_alliance_no_treachery_required_treaty_group_peace_no_event_QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;">
+<application_priority>90</application_priority>
+<component>treaty_components_quit_alliance_no_treachery</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_quit_alliance_no_treachery_required_treaty_group_peace_no_event_QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>dummy_components_group_peace_no_event_QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{8012a5fa-ef31-47a2-88de-c819293afdbe}" record_timestamp="1549295070754" record_key="treaty_components_quit_alliance_no_treachery_required_treaty_resolve_group_wars">
-<application_priority>0</application_priority>
+<application_priority>100</application_priority>
 <component>treaty_components_quit_alliance_no_treachery</component>
 <deal_was>accepted</deal_was>
 <generation_priority>90</generation_priority>
@@ -2939,10 +3135,10 @@
 <recipient_response>accepted</recipient_response>
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>treaty_components_war_QUERY_leave_group_wars_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
+<requirement>treaty_components_war_QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{7bb33a57-5331-4e3c-bfd9-d9fd04d3ca5a}" record_timestamp="1553863713416" record_key="treaty_components_quit_alliance_no_treachery_required_treaty_war_QUERY_two_in_alliance_and_group_war_proposer:recipient_recipient:any&lt;variable_any_factions&gt;">
-<application_priority>0</application_priority>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{7bb33a57-5331-4e3c-bfd9-d9fd04d3ca5a}" record_timestamp="1554887354628" record_key="treaty_components_quit_alliance_no_treachery_required_treaty_war_QUERY_two_in_alliance_and_group_war_proposer:recipient_recipient:any&lt;variable_any_factions&gt;">
+<application_priority>95</application_priority>
 <component>treaty_components_quit_alliance_no_treachery</component>
 <deal_was>accepted</deal_was>
 <generation_priority>90</generation_priority>
@@ -2955,7 +3151,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_war_QUERY_two_in_alliance_and_group_war_proposer:recipient_recipient:any&lt;variable_any_factions&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{c9410db4-f297-46d7-8c64-8cc68f0f8748}" record_timestamp="1555321917556" record_key="treaty_components_quit_alliance_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{c9410db4-f297-46d7-8c64-8cc68f0f8748}" record_timestamp="1556562802276" record_key="treaty_components_quit_alliance_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_alliance</component>
 <deal_was>accepted</deal_was>
@@ -2969,7 +3165,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{dd065bb0-c4e4-465d-bd2b-954ef6c07431}" record_timestamp="1555321917847" record_key="treaty_components_quit_alliance_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{dd065bb0-c4e4-465d-bd2b-954ef6c07431}" record_timestamp="1556562802278" record_key="treaty_components_quit_alliance_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_alliance</component>
 <deal_was>accepted</deal_was>
@@ -2983,8 +3179,22 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{c19cef32-0c67-48e0-b901-9f0b7d5375da}" record_timestamp="1563206059071" record_key="treaty_components_quit_alliance_required_treaty_group_peace_no_event_QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;">
+<application_priority>90</application_priority>
+<component>treaty_components_quit_alliance</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_quit_alliance_required_treaty_group_peace_no_event_QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>dummy_components_group_peace_no_event_QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{4d54dbd0-6c43-4d3b-951e-6595eaf2c3af}" record_timestamp="1517431611325" record_key="treaty_components_quit_alliance_required_treaty_resolve_group_wars">
-<application_priority>0</application_priority>
+<application_priority>100</application_priority>
 <component>treaty_components_quit_alliance</component>
 <deal_was>accepted</deal_was>
 <generation_priority>90</generation_priority>
@@ -2995,10 +3205,10 @@
 <recipient_response>accepted</recipient_response>
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>treaty_components_war_QUERY_leave_group_wars_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
+<requirement>treaty_components_war_QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{41aedf07-492c-464f-8d97-fc4c8de835d9}" record_timestamp="1553863713481" record_key="treaty_components_quit_alliance_required_treaty_war_QUERY_two_in_alliance_and_group_war_proposer:recipient_recipient:any&lt;variable_any_factions&gt;">
-<application_priority>0</application_priority>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{41aedf07-492c-464f-8d97-fc4c8de835d9}" record_timestamp="1554887354629" record_key="treaty_components_quit_alliance_required_treaty_war_QUERY_two_in_alliance_and_group_war_proposer:recipient_recipient:any&lt;variable_any_factions&gt;">
+<application_priority>95</application_priority>
 <component>treaty_components_quit_alliance</component>
 <deal_was>accepted</deal_was>
 <generation_priority>90</generation_priority>
@@ -3011,7 +3221,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_war_QUERY_two_in_alliance_and_group_war_proposer:recipient_recipient:any&lt;variable_any_factions&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{c967c2ce-8382-48f9-9fd9-a3481ed8393e}" record_timestamp="1555321917639" record_key="treaty_components_quit_coalition_and_declare_war_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{c967c2ce-8382-48f9-9fd9-a3481ed8393e}" record_timestamp="1556562802276" record_key="treaty_components_quit_coalition_and_declare_war_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_coalition_and_declare_war</component>
 <deal_was>accepted</deal_was>
@@ -3025,7 +3235,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_break_deal_proposer_to_recipient_negotiated_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{82b54ce8-3dd8-4c34-802a-cea1f45cd789}" record_timestamp="1555321917759" record_key="treaty_components_quit_coalition_and_declare_war_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{82b54ce8-3dd8-4c34-802a-cea1f45cd789}" record_timestamp="1556562802277" record_key="treaty_components_quit_coalition_and_declare_war_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_coalition_and_declare_war</component>
 <deal_was>accepted</deal_was>
@@ -3051,7 +3261,7 @@
 <recipient_response>accepted</recipient_response>
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>treaty_components_war_QUERY_leave_group_wars_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
+<requirement>treaty_components_war_QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{05e57fa5-8b20-4857-9494-6d986878ff5c}" record_timestamp="1547821168770" record_key="treaty_components_quit_coalition_and_declare_war_required_treaty_war_proposer_to_recipient">
 <application_priority>0</application_priority>
@@ -3067,7 +3277,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>war_proposer_to_recipient</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{147e36a8-1b11-4353-a938-03c8eb1640db}" record_timestamp="1555321917701" record_key="treaty_components_quit_coalition_no_treachery_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{147e36a8-1b11-4353-a938-03c8eb1640db}" record_timestamp="1556562802277" record_key="treaty_components_quit_coalition_no_treachery_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_coalition_no_treachery</component>
 <deal_was>accepted</deal_was>
@@ -3081,7 +3291,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_break_deal_proposer_to_recipient_negotiated_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{b50041e8-fab5-4755-8e57-a875c290c5df}" record_timestamp="1556006642991" record_key="treaty_components_quit_coalition_no_treachery_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;_rejected">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{b50041e8-fab5-4755-8e57-a875c290c5df}" record_timestamp="1556563021404" record_key="treaty_components_quit_coalition_no_treachery_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;_rejected">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_coalition_no_treachery</component>
 <deal_was>rejected</deal_was>
@@ -3095,7 +3305,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_break_deal_proposer_to_recipient_negotiated_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{7c8b4dfe-571e-4af1-b206-71ef3de1560d}" record_timestamp="1555321917818" record_key="treaty_components_quit_coalition_no_treachery_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{7c8b4dfe-571e-4af1-b206-71ef3de1560d}" record_timestamp="1556562802278" record_key="treaty_components_quit_coalition_no_treachery_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_coalition_no_treachery</component>
 <deal_was>accepted</deal_was>
@@ -3109,7 +3319,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_break_deal_proposer_to_recipient_negotiated_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{539a0760-55f2-4fc4-952a-a71526d8bd73}" record_timestamp="1556006642991" record_key="treaty_components_quit_coalition_no_treachery_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;_rejected">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{539a0760-55f2-4fc4-952a-a71526d8bd73}" record_timestamp="1556563021404" record_key="treaty_components_quit_coalition_no_treachery_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;_rejected">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_coalition_no_treachery</component>
 <deal_was>rejected</deal_was>
@@ -3135,9 +3345,9 @@
 <recipient_response>accepted</recipient_response>
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>treaty_components_war_QUERY_leave_group_wars_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
+<requirement>treaty_components_war_QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{0960108e-ea1a-4ce7-85db-69833ca7a873}" record_timestamp="1555321917612" record_key="treaty_components_quit_coalition_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{0960108e-ea1a-4ce7-85db-69833ca7a873}" record_timestamp="1556562802276" record_key="treaty_components_quit_coalition_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_coalition</component>
 <deal_was>accepted</deal_was>
@@ -3151,7 +3361,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_break_deal_proposer_to_recipient_negotiated_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{8d0c1540-274f-489c-9226-3aef6bd2f09c}" record_timestamp="1555321917789" record_key="treaty_components_quit_coalition_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{8d0c1540-274f-489c-9226-3aef6bd2f09c}" record_timestamp="1556562802277" record_key="treaty_components_quit_coalition_required_treaty_break_deal_proposer_to_recipient_unilateral_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;">
 <application_priority>0</application_priority>
 <component>treaty_components_quit_coalition</component>
 <deal_was>accepted</deal_was>
@@ -3177,7 +3387,7 @@
 <recipient_response>accepted</recipient_response>
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>treaty_components_war_QUERY_leave_group_wars_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
+<requirement>treaty_components_war_QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{b70839fc-c011-40bd-bc45-2bdf5730d2e5}" record_timestamp="1518776058323" record_key="treaty_components_recieve_threat_required_treaty_war_recipient_to_proposer">
 <application_priority>0</application_priority>
@@ -3234,6 +3444,34 @@
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_alliance_QUERY_recipient_alliance_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{d9d09c07-59e7-4750-b1c7-df9978dbad18}" record_timestamp="1560442573551" record_key="treaty_components_sima_lun_instigate_proxy_war_proposer_war_recipient_to_parameter">
+<application_priority>0</application_priority>
+<component>treaty_components_sima_lun_instigate_proxy_war_proposer</component>
+<deal_was>accepted</deal_was>
+<generation_priority>70</generation_priority>
+<key>treaty_components_sima_lun_instigate_proxy_war_proposer_war_recipient_to_parameter</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>war_recipient_to_parameter</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{c6a75691-c992-4af2-ad8d-0e15f5a4671a}" record_timestamp="1560442573551" record_key="treaty_components_sima_lun_instigate_proxy_war_recipient_war_proposer_to_parameter">
+<application_priority>0</application_priority>
+<component>treaty_components_sima_lun_instigate_proxy_war_recipient</component>
+<deal_was>accepted</deal_was>
+<generation_priority>70</generation_priority>
+<key>treaty_components_sima_lun_instigate_proxy_war_recipient_war_proposer_to_parameter</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>war_proposer_to_parameter</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{06dd4715-d20b-414e-906d-7a0ef2319e9e}" record_timestamp="1531403836375" record_key="treaty_components_start_pos_war_required_treaty_war">
 <application_priority>0</application_priority>
@@ -3389,7 +3627,63 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>dummy_components_annexed_vassal_QUERY_vassalage_proposer:proposer_recipient:any&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{3833adae-d51e-47eb-bb29-86a982a0332a}" record_timestamp="1553092164298" record_key="treaty_components_vassal_demands_protection_required_treaty_abandoned_vassal_proposer:recipient_recipient:proposer">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{36c0d429-5ddb-483a-a0dc-fc91db1f6c1e}" record_timestamp="1563442954666" record_key="treaty_components_vassal_demands_protection_group_war_required_treaty_abandoned_vassal_proposer:recipient_recipient:proposer">
+<application_priority>0</application_priority>
+<component>treaty_components_vassal_demands_protection_group_war</component>
+<deal_was>rejected</deal_was>
+<generation_priority>2</generation_priority>
+<key>treaty_components_vassal_demands_protection_group_war_required_treaty_abandoned_vassal_proposer:recipient_recipient:proposer</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>rejected</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>dummy_components_abandoned_vassal_proposer:recipient_recipient:proposer</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{de407306-7a51-4790-8c2b-515da7ba07c0}" record_timestamp="1563442954893" record_key="treaty_components_vassal_demands_protection_group_war_required_treaty_group_war_recipient_to_&lt;variable_proposers&gt;">
+<application_priority>0</application_priority>
+<component>treaty_components_vassal_demands_protection_group_war</component>
+<deal_was>accepted</deal_was>
+<generation_priority>1</generation_priority>
+<key>treaty_components_vassal_demands_protection_group_war_required_treaty_group_war_recipient_to_&lt;variable_proposers&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>group_war_QUERY_&lt;parameter_1&gt;_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;varaiable_alliance&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{e3e36758-25a8-4d4f-b303-385cbcfcd686}" record_timestamp="1563442954618" record_key="treaty_components_vassal_demands_protection_group_war_required_treaty_liberate_recipient_recipient_to_proposer">
+<application_priority>0</application_priority>
+<component>treaty_components_vassal_demands_protection_group_war</component>
+<deal_was>rejected</deal_was>
+<generation_priority>1</generation_priority>
+<key>treaty_components_vassal_demands_protection_group_war_required_treaty_liberate_recipient_recipient_to_proposer</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>rejected</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>liberate_recipient_recipient_to_proposer</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{41fa2ccc-3b7f-48ad-9adf-9ec5e08d1815}" record_timestamp="1563442954837" record_key="treaty_components_vassal_demands_protection_group_war_required_treaty_pre_war_treaty_dissovle_treaties_recipient_to_&lt;variable_proposers&gt;">
+<application_priority>0</application_priority>
+<component>treaty_components_vassal_demands_protection_group_war</component>
+<deal_was>accepted</deal_was>
+<generation_priority>2</generation_priority>
+<key>treaty_components_vassal_demands_protection_group_war_required_treaty_pre_war_treaty_dissovle_treaties_recipient_to_&lt;variable_proposers&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>pre_war_treaty_dissovle_treaties_QUERY_&lt;parameter_1&gt;_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;varaiable_alliance&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{3833adae-d51e-47eb-bb29-86a982a0332a}" record_timestamp="1554885169201" record_key="treaty_components_vassal_demands_protection_required_treaty_abandoned_vassal_proposer:recipient_recipient:proposer">
 <application_priority>0</application_priority>
 <component>treaty_components_vassal_demands_protection</component>
 <deal_was>rejected</deal_was>
@@ -3403,7 +3697,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>dummy_components_abandoned_vassal_proposer:recipient_recipient:proposer</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{76e76c11-3798-4898-b4fc-96175c22ef3d}" record_timestamp="1550862819163" record_key="treaty_components_vassal_demands_protection_required_treaty_liberate">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{76e76c11-3798-4898-b4fc-96175c22ef3d}" record_timestamp="1551785101511" record_key="treaty_components_vassal_demands_protection_required_treaty_liberate">
 <application_priority>0</application_priority>
 <component>treaty_components_vassal_demands_protection</component>
 <deal_was>rejected</deal_was>
@@ -3417,7 +3711,21 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>liberate_recipient_recipient_to_proposer</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{bdd7fbd5-7ca8-4226-acc5-ac2510d80639}" record_timestamp="1550865078228" record_key="treaty_components_vassal_demands_protection_required_treaty_war">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{3b5b914b-fa6f-4798-8fe0-9ed99912b4ed}" record_timestamp="1561975254228" record_key="treaty_components_vassal_demands_protection_required_treaty_pre_war_treaty_dissovle_treaties">
+<application_priority>0</application_priority>
+<component>treaty_components_vassal_demands_protection</component>
+<deal_was>accepted</deal_was>
+<generation_priority>2</generation_priority>
+<key>treaty_components_vassal_demands_protection_required_treaty_pre_war_treaty_dissovle_treaties</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>pre_war_treaty_dissovle_treaties_recipient_to_parameter</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{bdd7fbd5-7ca8-4226-acc5-ac2510d80639}" record_timestamp="1551785101511" record_key="treaty_components_vassal_demands_protection_required_treaty_war">
 <application_priority>0</application_priority>
 <component>treaty_components_vassal_demands_protection</component>
 <deal_was>accepted</deal_was>
@@ -3431,7 +3739,49 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>war_recipient_to_parameter</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{ea60dd72-b80a-480e-a78e-b425fa00d381}" record_timestamp="1550865863151" record_key="treaty_components_vassal_han_empire_demands_protection_treaty_war">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{0eb8073f-2037-4d5d-8726-0ea30c81d117}" record_timestamp="1563442954994" record_key="treaty_components_vassal_han_empire_demands_protection_group_war_required_treaty_group_war_recipient_to_&lt;variable_proposers&gt;">
+<application_priority>0</application_priority>
+<component>treaty_components_vassal_han_empire_demands_protection_group_war</component>
+<deal_was>accepted</deal_was>
+<generation_priority>1</generation_priority>
+<key>treaty_components_vassal_han_empire_demands_protection_group_war_required_treaty_group_war_recipient_to_&lt;variable_proposers&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>group_war_QUERY_&lt;parameter_1&gt;_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;varaiable_alliance&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{255c5532-6070-4990-9753-90e9db9f8e26}" record_timestamp="1563442954940" record_key="treaty_components_vassal_han_empire_demands_protection_group_war_required_treaty_pre_war_treaty_dissovle_treaties_recipient_to_&lt;variable_proposers&gt;">
+<application_priority>0</application_priority>
+<component>treaty_components_vassal_han_empire_demands_protection_group_war</component>
+<deal_was>accepted</deal_was>
+<generation_priority>2</generation_priority>
+<key>treaty_components_vassal_han_empire_demands_protection_group_war_required_treaty_pre_war_treaty_dissovle_treaties_recipient_to_&lt;variable_proposers&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>pre_war_treaty_dissovle_treaties_QUERY_&lt;parameter_1&gt;_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;varaiable_alliance&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{b87b223d-c251-49dc-b592-3bff8ed80d31}" record_timestamp="1561975254229" record_key="treaty_components_vassal_han_empire_demands_protection_required_treaty_pre_war_treaty_dissovle_treaties">
+<application_priority>0</application_priority>
+<component>treaty_components_vassal_han_empire_demands_protection</component>
+<deal_was>accepted</deal_was>
+<generation_priority>2</generation_priority>
+<key>treaty_components_vassal_han_empire_demands_protection_required_treaty_pre_war_treaty_dissovle_treaties</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>pre_war_treaty_dissovle_treaties_recipient_to_parameter</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{ea60dd72-b80a-480e-a78e-b425fa00d381}" record_timestamp="1551787878894" record_key="treaty_components_vassal_han_empire_demands_protection_treaty_war">
 <application_priority>0</application_priority>
 <component>treaty_components_vassal_han_empire_demands_protection</component>
 <deal_was>accepted</deal_was>
@@ -3443,7 +3793,7 @@
 <recipient_response>accepted</recipient_response>
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>war_parameter_to_recipient</requirement>
+<requirement>war_recipient_to_parameter</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{dc7b322d-f118-449b-978a-91d4aa980d47}" record_timestamp="1539878725179" record_key="treaty_components_vassal_joins_war_required_treaty_war_proposer_to_parameter">
 <application_priority>0</application_priority>
@@ -3487,33 +3837,61 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>war_recipient_to_parameter</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{3b47d5d0-bc83-41c8-8a5d-d6d9542e0bfa}" record_timestamp="1547236707423" record_key="treaty_components_vassalage_recipient_required_dummy_components_group_peace_QUERY_group_war_recipient_to_any&lt;variable_any_factions&gt;">
-<application_priority>85</application_priority>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{34ed6daf-af78-4726-97cc-2718e94b9165}" record_timestamp="1562574098870" record_key="treaty_components_vassalage_required_treaty_group_war_QUERY_group_war_any&lt;variable_any_factions&gt;_with_recipient_and_not_ally_proposer_to_&lt;variable_any_factions&gt;_recipient:proposer">
+<application_priority>0</application_priority>
 <component>treaty_components_vassalage</component>
 <deal_was>accepted</deal_was>
-<generation_priority>90</generation_priority>
-<key>treaty_components_vassalage_recipient_required_dummy_components_group_peace_QUERY_group_war_recipient_to_any&lt;variable_any_factions&gt;</key>
+<generation_priority>80</generation_priority>
+<key>treaty_components_vassalage_required_treaty_group_war_QUERY_group_war_any&lt;variable_any_factions&gt;_with_recipient_and_not_ally_proposer_to_&lt;variable_any_factions&gt;_recipient:proposer</key>
 <proposer_response>accepted</proposer_response>
 <proposer_selection_filter>all</proposer_selection_filter>
 <proposer_vote_filter>unfiltered</proposer_vote_filter>
 <recipient_response>accepted</recipient_response>
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>dummy_components_group_peace_no_event_QUERY_group_war_recipient_to_any&lt;variable_any_factions&gt;</requirement>
+<requirement>dummy_components_group_war_QUERY_group_war_any&lt;variable_any_factions&gt;_to_recipient_and_not_ally_proposer_to_&lt;variable_any_factions&gt;_recipient:proposer</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{d635f0b4-cfb7-48f6-9e76-f8c75863e5e3}" record_timestamp="1547236707758" record_key="treaty_components_vassalage_recipient_required_treaty_components_peace_QUERY_war_recipient_to_any&lt;variable_any_factions&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{fbd92339-894d-48c9-820c-3de322c8a7bb}" record_timestamp="1561975261302" record_key="treaty_components_vassalage_required_treaty_group_war_participant_vassalised_QUERY_group_war_any&lt;variable_any_factions&gt;_with_recipient_and_not_ally_proposer_to_&lt;variable_any_factions&gt;">
 <application_priority>85</application_priority>
 <component>treaty_components_vassalage</component>
 <deal_was>accepted</deal_was>
 <generation_priority>90</generation_priority>
-<key>treaty_components_vassalage_recipient_required_treaty_components_peace_QUERY_war_recipient_to_any&lt;variable_any_factions&gt;</key>
+<key>treaty_components_vassalage_required_treaty_group_war_participant_vassalised_QUERY_group_war_any&lt;variable_any_factions&gt;_with_recipient_and_not_ally_proposer_to_&lt;variable_any_factions&gt;</key>
 <proposer_response>accepted</proposer_response>
 <proposer_selection_filter>all</proposer_selection_filter>
 <proposer_vote_filter>unfiltered</proposer_vote_filter>
 <recipient_response>accepted</recipient_response>
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>treaty_components_peace_no_event_QUERY_war_recipient_to_any&lt;variable_any_factions&gt;</requirement>
+<requirement>dummy_components_group_war_participant_vassalised_QUERY_group_war_any&lt;variable_any_factions&gt;_to_recipient_and_not_ally_proposer_to_&lt;variable_any_factions&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{ed8f9d6a-b97d-4ddd-88a9-a77368017ef8}" record_timestamp="1561975259317" record_key="treaty_components_vassalage_required_treaty_peace_QUERY_war_any&lt;variable_any_factions&gt;_with_recipient_and_ally_proposer_to_&lt;variable_any_factions&gt;">
+<application_priority>0</application_priority>
+<component>treaty_components_vassalage</component>
+<deal_was>accepted</deal_was>
+<generation_priority>100</generation_priority>
+<key>treaty_components_vassalage_required_treaty_peace_QUERY_war_any&lt;variable_any_factions&gt;_with_recipient_and_ally_proposer_to_&lt;variable_any_factions&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>treaty_components_peace_QUERY_war_any&lt;variable_any_factions&gt;_with_recipient_and_ally_proposer_to_&lt;variable_any_factions&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{d635f0b4-cfb7-48f6-9e76-f8c75863e5e3}" record_timestamp="1547236707758" record_key="treaty_components_vassalage_required_treaty_war_participant_vassalised_QUERY_war_recipient_with_any&lt;variable_any_factions&gt;_and_not_ally_proposer_to_&lt;variable_any_factions&gt;">
+<application_priority>90</application_priority>
+<component>treaty_components_vassalage</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_vassalage_required_treaty_war_participant_vassalised_QUERY_war_recipient_with_any&lt;variable_any_factions&gt;_and_not_ally_proposer_to_&lt;variable_any_factions&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>dummy_components_war_participant_vassalised_QUERY_war_any&lt;variable_any_factions&gt;_with_recipient_and_not_ally_proposer_to_&lt;variable_any_factions&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{aabe4e3b-732d-4630-b77e-c20a2f47839d}" record_timestamp="1545067478869" record_key="treaty_components_vassalise_proposer_required_treaty_liberate_recipient">
 <application_priority>95</application_priority>
@@ -3529,7 +3907,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_liberate_recipient_QUERY_vassalage_proposer:proposer_recipient:any&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{4fc204b8-5396-4c97-ab3c-6430dcf00485}" record_timestamp="1551721846840" record_key="treaty_components_vassalise_proposer_required_treaty_treaty_components_quit_alliance">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{4fc204b8-5396-4c97-ab3c-6430dcf00485}" record_timestamp="1539250817807" record_key="treaty_components_vassalise_proposer_required_treaty_treaty_components_quit_alliance">
 <application_priority>90</application_priority>
 <component>treaty_components_vassalise_proposer</component>
 <deal_was>accepted</deal_was>
@@ -3543,7 +3921,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_quit_alliance_QUERY_proposer_alliance_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{86f0a139-1925-45ba-a829-835dde28fb3b}" record_timestamp="1551722049381" record_key="treaty_components_vassalise_proposer_required_treaty_treaty_components_quit_coalition">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{86f0a139-1925-45ba-a829-835dde28fb3b}" record_timestamp="1539250817807" record_key="treaty_components_vassalise_proposer_required_treaty_treaty_components_quit_coalition">
 <application_priority>90</application_priority>
 <component>treaty_components_vassalise_proposer</component>
 <deal_was>accepted</deal_was>
@@ -3571,7 +3949,77 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>vassalage_recipient_to_proposer</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{51174f53-f91b-41df-87ba-c4c2d9139024}" record_timestamp="1551962478856" record_key="treaty_components_vassalise_proposer_yuan_shao_treaty_components_liberate_recipient_QUERY_vassalage_proposer:proposer_recipient:any&lt;variable_recipients&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{5496547a-5b0e-4f3c-872e-eb130f7e7796}" record_timestamp="1560184776050" record_key="treaty_components_vassalise_proposer_sima_liang_jurisdiction_dummy_proposer_to_recipient">
+<application_priority>80</application_priority>
+<component>treaty_components_vassalise_proposer_sima_liang</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_vassalise_proposer_sima_liang_jurisdiction_dummy_proposer_to_recipient</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>jurisdiction_dummy_recipient_to_proposer</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{2bca7733-2e54-45b6-a395-c230e0a0d76b}" record_timestamp="1560788007288" record_key="treaty_components_vassalise_proposer_sima_liang_treaty_components_liberate_recipient_QUERY_vassalage_proposer:proposer_recipient:any&lt;variable_recipients&gt;">
+<application_priority>95</application_priority>
+<component>treaty_components_vassalise_proposer_sima_liang</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_vassalise_proposer_sima_liang_treaty_components_liberate_recipient_QUERY_vassalage_proposer:proposer_recipient:any&lt;variable_recipients&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>treaty_components_liberate_recipient_QUERY_vassalage_proposer:proposer_recipient:any&lt;variable_recipients&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{b6eb11d9-87bf-46cc-acc5-95acffe26a70}" record_timestamp="1560788007163" record_key="treaty_components_vassalise_proposer_sima_liang_treaty_components_quit_alliance_QUERY_proposer_alliance_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;">
+<application_priority>90</application_priority>
+<component>treaty_components_vassalise_proposer_sima_liang</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_vassalise_proposer_sima_liang_treaty_components_quit_alliance_QUERY_proposer_alliance_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>first</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>treaty_components_quit_alliance_QUERY_proposer_alliance_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{ca835ff5-304d-4666-a038-664d95ca21fc}" record_timestamp="1560788007194" record_key="treaty_components_vassalise_proposer_sima_liang_treaty_components_quit_coalition_QUERY_proposer_coalition_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;">
+<application_priority>90</application_priority>
+<component>treaty_components_vassalise_proposer_sima_liang</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_vassalise_proposer_sima_liang_treaty_components_quit_coalition_QUERY_proposer_coalition_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>first</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>treaty_components_quit_coalition_QUERY_proposer_coalition_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{47c4b1e9-ba83-475f-b538-6ad0ce39303e}" record_timestamp="1559835299359" record_key="treaty_components_vassalise_proposer_sima_liang_vassalage_recipient_to_proposer">
+<application_priority>80</application_priority>
+<component>treaty_components_vassalise_proposer_sima_liang</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_vassalise_proposer_sima_liang_vassalage_recipient_to_proposer</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>vassalage_recipient_to_proposer</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{51174f53-f91b-41df-87ba-c4c2d9139024}" record_timestamp="1554881661802" record_key="treaty_components_vassalise_proposer_yuan_shao_treaty_components_liberate_recipient_QUERY_vassalage_proposer:proposer_recipient:any&lt;variable_recipients&gt;">
 <application_priority>95</application_priority>
 <component>treaty_components_vassalise_proposer_yuan_shu</component>
 <deal_was>accepted</deal_was>
@@ -3585,7 +4033,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_liberate_recipient_QUERY_vassalage_proposer:proposer_recipient:any&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{27f788c7-0fbe-4dcf-9a86-36c259734711}" record_timestamp="1551962478903" record_key="treaty_components_vassalise_proposer_yuan_shao_treaty_components_quit_alliance_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{27f788c7-0fbe-4dcf-9a86-36c259734711}" record_timestamp="1554881661802" record_key="treaty_components_vassalise_proposer_yuan_shao_treaty_components_quit_alliance_QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;">
 <application_priority>90</application_priority>
 <component>treaty_components_vassalise_proposer_yuan_shu</component>
 <deal_was>accepted</deal_was>
@@ -3599,7 +4047,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_quit_alliance_QUERY_proposer_alliance_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{521a2a2c-410e-42ef-8c37-12d706f50088}" record_timestamp="1551962478761" record_key="treaty_components_vassalise_proposer_yuan_shao_treaty_components_quit_coalition_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{521a2a2c-410e-42ef-8c37-12d706f50088}" record_timestamp="1554881661801" record_key="treaty_components_vassalise_proposer_yuan_shao_treaty_components_quit_coalition_QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;">
 <application_priority>90</application_priority>
 <component>treaty_components_vassalise_proposer_yuan_shu</component>
 <deal_was>accepted</deal_was>
@@ -3613,7 +4061,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_quit_coalition_QUERY_proposer_coalition_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{130256c8-eac2-468d-ac31-b59780aab66b}" record_timestamp="1551962478808" record_key="treaty_components_vassalise_proposer_yuan_shao_vassalage_recipient_to_proposer">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{130256c8-eac2-468d-ac31-b59780aab66b}" record_timestamp="1554881661802" record_key="treaty_components_vassalise_proposer_yuan_shao_vassalage_recipient_to_proposer">
 <application_priority>80</application_priority>
 <component>treaty_components_vassalise_proposer_yuan_shu</component>
 <deal_was>accepted</deal_was>
@@ -3627,7 +4075,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>vassalage_recipient_to_proposer</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{0ec1f533-adaa-42ca-b5fb-816ff3a8a835}" record_timestamp="1551962486311" record_key="treaty_components_vassalise_proposer_yuan_shu_legitimacy_dummy_recipient_to_proposer">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{0ec1f533-adaa-42ca-b5fb-816ff3a8a835}" record_timestamp="1554881661906" record_key="treaty_components_vassalise_proposer_yuan_shu_legitimacy_dummy_recipient_to_proposer">
 <application_priority>80</application_priority>
 <component>treaty_components_vassalise_proposer_yuan_shu</component>
 <deal_was>accepted</deal_was>
@@ -3655,7 +4103,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_liberate_recipient_QUERY_vassalage_proposer:recipient_recipient:any&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{792e6385-390e-4c22-a574-964098dff93d}" record_timestamp="1551721846839" record_key="treaty_components_vassalise_recipient_required_treaty_treaty_components_quit_alliance">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{792e6385-390e-4c22-a574-964098dff93d}" record_timestamp="1539250817807" record_key="treaty_components_vassalise_recipient_required_treaty_treaty_components_quit_alliance">
 <application_priority>90</application_priority>
 <component>treaty_components_vassalise_recipient</component>
 <deal_was>accepted</deal_was>
@@ -3669,7 +4117,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_quit_alliance_QUERY_recipient_alliance_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{0d664b2e-1346-4acc-bf77-d78acc156b48}" record_timestamp="1551722049382" record_key="treaty_components_vassalise_recipient_required_treaty_treaty_components_quit_coalition">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{0d664b2e-1346-4acc-bf77-d78acc156b48}" record_timestamp="1539974528811" record_key="treaty_components_vassalise_recipient_required_treaty_treaty_components_quit_coalition">
 <application_priority>90</application_priority>
 <component>treaty_components_vassalise_recipient</component>
 <deal_was>accepted</deal_was>
@@ -3697,7 +4145,77 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>vassalage_proposer_to_recipient</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{cbaf74ab-ed92-46ef-853a-dd65872f9935}" record_timestamp="1551962486366" record_key="treaty_components_vassalise_recipient_yuan_shu_legitimacy_dummy_proposer_to_recipient">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{4aa613a7-7026-40aa-bafa-785622a73f7d}" record_timestamp="1560184776050" record_key="treaty_components_vassalise_recipient_sima_liang_jurisdiction_dummy_recipient_to_proposer">
+<application_priority>80</application_priority>
+<component>treaty_components_vassalise_recipient_sima_liang</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_vassalise_recipient_sima_liang_jurisdiction_dummy_recipient_to_proposer</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>jurisdiction_dummy_proposer_to_recipient</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{cd6b27fc-fc0c-49c3-8233-634186a3f7bb}" record_timestamp="1560788007226" record_key="treaty_components_vassalise_recipient_sima_liang_treaty_components_liberate_recipient_QUERY_vassalage_proposer:recipient_recipient:any&lt;variable_recipients&gt;">
+<application_priority>95</application_priority>
+<component>treaty_components_vassalise_recipient_sima_liang</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_vassalise_recipient_sima_liang_treaty_components_liberate_recipient_QUERY_vassalage_proposer:recipient_recipient:any&lt;variable_recipients&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>treaty_components_liberate_recipient_QUERY_vassalage_proposer:recipient_recipient:any&lt;variable_recipients&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{14cbc562-68b1-4c2c-8342-5edd6c2d0e47}" record_timestamp="1560788007257" record_key="treaty_components_vassalise_recipient_sima_liang_treaty_components_quit_alliance_QUERY_recipient_alliance_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;">
+<application_priority>90</application_priority>
+<component>treaty_components_vassalise_recipient_sima_liang</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_vassalise_recipient_sima_liang_treaty_components_quit_alliance_QUERY_recipient_alliance_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>first</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>treaty_components_quit_alliance_QUERY_recipient_alliance_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{35ba1fd1-059a-4acc-bcb2-b1dd46ef32ed}" record_timestamp="1560788007133" record_key="treaty_components_vassalise_recipient_sima_liang_treaty_components_quit_coalition_QUERY_recipient_coalition_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;">
+<application_priority>90</application_priority>
+<component>treaty_components_vassalise_recipient_sima_liang</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_vassalise_recipient_sima_liang_treaty_components_quit_coalition_QUERY_recipient_coalition_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>first</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>treaty_components_quit_coalition_QUERY_recipient_coalition_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{429b03d5-ba9d-4ce1-8ccb-07e7ebc177a8}" record_timestamp="1559835299359" record_key="treaty_components_vassalise_recipient_sima_liang_vassalage_proposer_to_recipient">
+<application_priority>80</application_priority>
+<component>treaty_components_vassalise_recipient_sima_liang</component>
+<deal_was>accepted</deal_was>
+<generation_priority>90</generation_priority>
+<key>treaty_components_vassalise_recipient_sima_liang_vassalage_proposer_to_recipient</key>
+<proposer_response>accepted</proposer_response>
+<proposer_selection_filter>all</proposer_selection_filter>
+<proposer_vote_filter>unfiltered</proposer_vote_filter>
+<recipient_response>accepted</recipient_response>
+<recipient_selection_filter>all</recipient_selection_filter>
+<recipient_vote_filter>unfiltered</recipient_vote_filter>
+<requirement>vassalage_proposer_to_recipient</requirement>
+</campaign_diplomacy_treaty_component_required_treaties>
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{cbaf74ab-ed92-46ef-853a-dd65872f9935}" record_timestamp="1554881661906" record_key="treaty_components_vassalise_recipient_yuan_shu_legitimacy_dummy_proposer_to_recipient">
 <application_priority>80</application_priority>
 <component>treaty_components_vassalise_recipient_yuan_shu</component>
 <deal_was>accepted</deal_was>
@@ -3711,7 +4229,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>legitimacy_dummy_proposer_to_recipient</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{c624fb43-5bf4-41aa-be8d-ae6315ece38e}" record_timestamp="1551962479046" record_key="treaty_components_vassalise_recipient_yuan_shu_treaty_components_liberate_recipient_QUERY_vassalage_proposer:recipient_recipient:any&lt;variable_recipients&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{c624fb43-5bf4-41aa-be8d-ae6315ece38e}" record_timestamp="1554881661802" record_key="treaty_components_vassalise_recipient_yuan_shu_treaty_components_liberate_recipient_QUERY_vassalage_proposer:recipient_recipient:any&lt;variable_recipients&gt;">
 <application_priority>95</application_priority>
 <component>treaty_components_vassalise_recipient_yuan_shu</component>
 <deal_was>accepted</deal_was>
@@ -3725,7 +4243,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_liberate_recipient_QUERY_vassalage_proposer:recipient_recipient:any&lt;variable_recipients&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{bb7ec40c-9b8f-4277-a338-cd633a4dd3d9}" record_timestamp="1551962479095" record_key="treaty_components_vassalise_recipient_yuan_shu_treaty_components_quit_alliance_QUERY_recipient_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{bb7ec40c-9b8f-4277-a338-cd633a4dd3d9}" record_timestamp="1554881661802" record_key="treaty_components_vassalise_recipient_yuan_shu_treaty_components_quit_alliance_QUERY_recipient_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;">
 <application_priority>90</application_priority>
 <component>treaty_components_vassalise_recipient_yuan_shu</component>
 <deal_was>accepted</deal_was>
@@ -3739,7 +4257,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_quit_alliance_QUERY_recipient_alliance_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{75ccc508-15d8-43c2-b42c-9915f20ac3ab}" record_timestamp="1551962478950" record_key="treaty_components_vassalise_recipient_yuan_shu_treaty_components_quit_coalition_QUERY_recipient_coalition_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{75ccc508-15d8-43c2-b42c-9915f20ac3ab}" record_timestamp="1554881661802" record_key="treaty_components_vassalise_recipient_yuan_shu_treaty_components_quit_coalition_QUERY_recipient_coalition_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;">
 <application_priority>90</application_priority>
 <component>treaty_components_vassalise_recipient_yuan_shu</component>
 <deal_was>accepted</deal_was>
@@ -3753,7 +4271,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_quit_coalition_QUERY_recipient_coalition_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{f5cddc2b-ca53-4b2b-a0be-0916fa65c706}" record_timestamp="1551962478998" record_key="treaty_components_vassalise_recipient_yuan_shu_vassalage_proposer_to_recipient">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{f5cddc2b-ca53-4b2b-a0be-0916fa65c706}" record_timestamp="1554881661802" record_key="treaty_components_vassalise_recipient_yuan_shu_vassalage_proposer_to_recipient">
 <application_priority>80</application_priority>
 <component>treaty_components_vassalise_recipient_yuan_shu</component>
 <deal_was>accepted</deal_was>
@@ -3781,7 +4299,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>treaty_components_war_QUERY_vassalage_proposer:recipient_recipient:any&lt;variable_any_factions&gt;_and_not_war_or_group_war_proposer:any&lt;variable_any_factions&gt;_recipient:proposer_or_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{eaac4ea7-3a5b-4db0-8266-5f87ec8d1376}" record_timestamp="1551114835735" record_key="treaty_components_yellow_turban_vassalise_proposer_required_treaty_vassalise_proposer_proposer_to_recipient">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{eaac4ea7-3a5b-4db0-8266-5f87ec8d1376}" record_timestamp="1551788082095" record_key="treaty_components_yellow_turban_vassalise_proposer_required_treaty_vassalise_proposer_proposer_to_recipient">
 <application_priority>0</application_priority>
 <component>treaty_components_vassalise_proposer_yellow_turban</component>
 <deal_was>accepted</deal_was>
@@ -3795,7 +4313,7 @@
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
 <requirement>vassalise_proposer_proposer_to_recipient</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
-<campaign_diplomacy_treaty_component_required_treaties record_uuid="{1ffdd5b5-50b9-434a-98ed-7fe3eee2635c}" record_timestamp="1551114835736" record_key="treaty_components_yellow_turban_vassalise_recipient_required_treaty_vassalise_recipient_proposer_to_recipient">
+<campaign_diplomacy_treaty_component_required_treaties record_uuid="{1ffdd5b5-50b9-434a-98ed-7fe3eee2635c}" record_timestamp="1551788082096" record_key="treaty_components_yellow_turban_vassalise_recipient_required_treaty_vassalise_recipient_proposer_to_recipient">
 <application_priority>0</application_priority>
 <component>treaty_components_vassalise_recipient_yellow_turban</component>
 <deal_was>accepted</deal_was>
@@ -3891,7 +4409,7 @@
 <recipient_response>accepted</recipient_response>
 <recipient_selection_filter>all</recipient_selection_filter>
 <recipient_vote_filter>unfiltered</recipient_vote_filter>
-<requirement>group_war_proposer_to_recipient</requirement>
+<requirement>treaty_components_group_war_QUERY_proposer_alliance_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;</requirement>
 </campaign_diplomacy_treaty_component_required_treaties>
 <campaign_diplomacy_treaty_component_required_treaties record_uuid="{f82b75a4-02a5-4be6-a726-e23f59233f82}" record_timestamp="1518208983892" record_key="treaty_start_pos_components_vassalise_recipient_required_treaty_vassalage">
 <application_priority>0</application_priority>

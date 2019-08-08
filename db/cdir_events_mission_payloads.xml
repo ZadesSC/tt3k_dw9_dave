@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cdir_events_mission_payloads.xsd" export_time="Fri Mar 29 16:28:31 2019" revision="134" export_branch="C:/Users/simon.mann/AppData/Roaming/TWDaemon/1412/dave" export_user="bob">
-<edit_uuid>83ad6d64-79cb-43d0-b286-ad2ea52a3190</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cdir_events_mission_payloads.xsd" export_time="Fri Jul 12 17:38:20 2019" revision="148" export_branch="C:/Users/william.wright/AppData/Roaming/TWDaemon/1583/dave" export_user="bob">
+<edit_uuid>d6a7149f-b853-43d1-bced-57c9e592c468</edit_uuid>
 <cdir_events_mission_payloads record_uuid="{32e8ca3d-0bc1-4af7-b8df-6fd0e177967b}" record_timestamp="1542036888507" record_key="1000829491">
 <id>1000829491</id>
 <mission_key>3k_main_council_fire_faction_caps_army_cap_free_water_raise_force_mission</mission_key>
@@ -113,6 +113,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_wood];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{b4668554-7e7b-4683-98e8-2670634cc10f}" record_timestamp="1559303813232" record_key="1006804241">
+<id>1006804241</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_ai</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{a67529dc-0e90-4e7a-b763-81a713c4f148}" record_timestamp="1543310540210" record_key="1007405086">
 <id>1007405086</id>
 <mission_key>3k_ytr_council_fire_population_capacity_reached_fire_declare_war_faction_neighbouring_mission</mission_key>
@@ -128,6 +136,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_fire];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{2740dfe7-429c-4a90-98a3-23d7fd5b0a2e}" record_timestamp="1555345555069" record_key="1007875382">
+<id>1007875382</id>
+<mission_key>ep_dynasty_mission_kill_enemies</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_dynasty_mission_payload_slaughterer];DURATION[-1]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{cbab40d6-bc8c-480f-8a23-18a85a1a8604}" record_timestamp="1542036887766" record_key="1008271782">
 <id>1008271782</id>
@@ -633,6 +649,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_earth];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{4ddb2e96-721f-46b2-8e2c-e8e3f8ddf988}" record_timestamp="1554218397422" record_key="1053148493">
+<id>1053148493</id>
+<mission_key>ep_empress_mission_traitors_brain</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>target_faction_1</target_key>
+<value>AMOUNT[1000]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{417c42d9-15e2-4317-9ddd-b85b10b19fe9}" record_timestamp="1533546015700" record_key="1053926818">
 <id>1053926818</id>
 <mission_key>3k_main_council_wood_economy_income_low_earth_construct_buildings_district_government_administration_decadence_mission</mission_key>
@@ -905,6 +929,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_wood];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{a8aa6735-b3a1-47c9-b051-2edb90de8886}" record_timestamp="1559643690896" record_key="1070253249">
+<id>1070253249</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_liang</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{d1b942dd-2918-472f-b39e-0d94d07f5d75}" record_timestamp="1542036887237" record_key="1070303911">
 <id>1070303911</id>
 <mission_key>3k_main_council_water_public_order_decreasing_in_province_metal_construct_buildings_resource_wood_farms_grain_agricultural_garrison_mission</mission_key>
@@ -928,6 +960,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{82f8da1c-998b-4599-9c47-b9551e7e046c}" record_timestamp="1555345953718" record_key="1071599089">
+<id>1071599089</id>
+<mission_key>ep_dynasty_mission_food_income</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_heart_alignment];FACTOR[ep_pooled_factor_heart_alignment];AMOUNT[15];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{72a2af3f-d59a-4788-ae8e-0174f98e4a8e}" record_timestamp="1533546015700" record_key="1073160584">
 <id>1073160584</id>
@@ -1025,6 +1065,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_metal];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{ffa83df4-cdcf-4db5-bbb0-caa29be0f429}" record_timestamp="1554218397419" record_key="1080233020">
+<id>1080233020</id>
+<mission_key>ep_empress_mission_traitors_fist</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>target_faction_1</target_key>
+<value>AMOUNT[4000]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{cf3609ac-96d7-4ed9-a8c7-d526957c3dfe}" record_timestamp="1542036887540" record_key="1080915924">
 <id>1080915924</id>
 <mission_key>3k_main_council_wood_public_order_negative_in_province_wood_construct_buildings_district_government_administration_palace_mission</mission_key>
@@ -1120,6 +1168,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_water];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{80207c92-f5bf-4c7a-8b2d-24ac2c3a8f7c}" record_timestamp="1557226717765" record_key="108752690">
+<id>108752690</id>
+<mission_key>ep_progression_capture_the_capital</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[2500]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{5165ce59-c573-4882-8868-a828464c50e4}" record_timestamp="1543310539603" record_key="108762882">
 <id>108762882</id>
@@ -1969,6 +2025,14 @@
 <target_key>target_faction_1</target_key>
 <value>AMOUNT[5000]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{303b7df3-d0b3-41c3-8ebb-e0c5b51386fc}" record_timestamp="1562949485613" record_key="1142499952">
+<id>1142499952</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_yong</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_brain_alignment];FACTOR[ep_pooled_factor_brain_alignment];AMOUNT[5];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{0752d6d7-77e5-412b-a0e5-bbb8ba9ac8ef}" record_timestamp="1533546015701" record_key="1143378621">
 <id>1143378621</id>
 <mission_key>3k_main_council_metal_public_order_decreasing_in_province_wood_construct_buildings_resource_wood_farms_grain_mission</mission_key>
@@ -2064,6 +2128,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_metal];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{fce8ae39-bbf2-466a-884a-4a609838ffc9}" record_timestamp="1555345555073" record_key="1149833519">
+<id>1149833519</id>
+<mission_key>ep_dynasty_mission_peace</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_dynasty_mission_payload_peacemaker];DURATION[-1]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{ebb5ba97-4788-4bfc-8084-dcc0044c9e5c}" record_timestamp="1542036887339" record_key="1150063483">
 <id>1150063483</id>
@@ -2273,6 +2345,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{0e7d16e8-e249-4c58-9f8d-02e3e90254d5}" record_timestamp="1562949485533" record_key="1162254869">
+<id>1162254869</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_yue</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_money_alignment];FACTOR[ep_pooled_factor_money_alignment];AMOUNT[5];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{0ce3ddeb-c5c4-4d99-b495-9ed8307436dc}" record_timestamp="1542036888427" record_key="1162596821">
 <id>1162596821</id>
 <mission_key>3k_main_council_fire_economy_bankrupt_water_construct_buildings_district_market_harbour_mission</mission_key>
@@ -2465,6 +2545,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_metal];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{2be91039-392d-4d06-bb52-1a5f5e92cccf}" record_timestamp="1555345953737" record_key="1172898081">
+<id>1172898081</id>
+<mission_key>ep_dynasty_mission_support_units</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_fist_alignment];FACTOR[ep_pooled_factor_fist_alignment];AMOUNT[15];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{f44dbea3-017a-46c6-a51f-7ae57b1aec91}" record_timestamp="1542036888331" record_key="1173106848">
 <id>1173106848</id>
 <mission_key>3k_main_council_earth_provinces_free_building_slot_earth_construct_buildings_district_government_zheng_jiang_mission</mission_key>
@@ -2520,6 +2608,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{6c86a25e-9e90-465d-95d8-23a74867e80e}" record_timestamp="1559643690888" record_key="1176716740">
+<id>1176716740</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_ai</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{cdad0979-23a0-4034-8dd4-9141ef670d75}" record_timestamp="1542036888591" record_key="1177351880">
 <id>1177351880</id>
@@ -2696,6 +2792,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{1fa5cef5-7260-4810-9f12-b601342879dd}" record_timestamp="1555341223469" record_key="1189667897">
+<id>1189667897</id>
+<mission_key>ep_empress_mission_start_sima_liang_money</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_money_alignment];FACTOR[ep_pooled_factor_money_alignment];AMOUNT[5];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{86b763cc-14cc-4908-a2a9-a8dd50ebd2a3}" record_timestamp="1533546015702" record_key="1190119784">
 <id>1190119784</id>
@@ -3001,6 +3105,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_fire];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{70ca6765-fdda-4a69-872c-11838ea4f557}" record_timestamp="1559643690914" record_key="1210054495">
+<id>1210054495</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_yue</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{9af0b028-6807-47c1-9d48-3899158c938b}" record_timestamp="1533546015702" record_key="1210129639">
 <id>1210129639</id>
 <mission_key>3k_main_council_fire_public_order_decreasing_in_province_wood_construct_buildings_resource_wood_farms_grain_mission</mission_key>
@@ -3088,6 +3200,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{1e4dbc1f-0f81-4baa-927f-00f44b1ee60a}" record_timestamp="1555341223401" record_key="1213889055">
+<id>1213889055</id>
+<mission_key>ep_empress_mission_start_sima_liang_heart</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_heart_alignment];FACTOR[ep_pooled_factor_heart_alignment];AMOUNT[5];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{cc1dc4e7-7f9a-4c81-b12b-4cc4a8f4d147}" record_timestamp="1533546015702" record_key="1213992619">
 <id>1213992619</id>
@@ -3473,6 +3593,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{c94ea99b-1401-489d-8495-c4681d5dc095}" record_timestamp="1555341223606" record_key="1243199841">
+<id>1243199841</id>
+<mission_key>ep_empress_mission_start_sima_liang_fist</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_fist_alignment];FACTOR[ep_pooled_factor_fist_alignment];AMOUNT[5];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{11fd4130-f967-41d0-9a08-90829b4ac4c4}" record_timestamp="1542036887192" record_key="1243437066">
 <id>1243437066</id>
 <mission_key>3k_main_council_water_population_capacity_reached_fire_declare_war_faction_neighbouring_mission</mission_key>
@@ -3544,6 +3672,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_earth];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{bac60b70-c2e9-456e-b44b-0b6403a00182}" record_timestamp="1562949485935" record_key="1247544004">
+<id>1247544004</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_ying</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_brain_alignment];FACTOR[ep_pooled_factor_brain_alignment];AMOUNT[3];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{6a244955-2368-4491-9c78-322adb1a13b1}" record_timestamp="1533546015702" record_key="1248702460">
 <id>1248702460</id>
@@ -4009,6 +4145,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{99f6e73b-0276-4230-931e-7a922cc953d0}" record_timestamp="1562949485315" record_key="1277110711">
+<id>1277110711</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_jiong</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_fist_alignment];FACTOR[ep_pooled_factor_fist_alignment];AMOUNT[5];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{6ea45be7-14fb-46fd-9bf0-458004436330}" record_timestamp="1533546015688" record_key="127827276">
 <id>127827276</id>
 <mission_key>3k_main_council_fire_economy_bankrupt_metal_construct_buildings_district_artisan_sun_jian_fealty_mission</mission_key>
@@ -4040,6 +4184,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{587aa6c1-03c5-4c9d-af72-142adf82e9d6}" record_timestamp="1555341222875" record_key="128144141">
+<id>128144141</id>
+<mission_key>ep_empress_mission_traitors_money</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_money_alignment];FACTOR[ep_pooled_factor_money_alignment];AMOUNT[5];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{8d7acd7f-f754-427b-aaca-b20396640b41}" record_timestamp="1542036887983" record_key="1281534339">
 <id>1281534339</id>
@@ -4304,6 +4456,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{ffa1f553-75b8-4623-8349-4ccb7da2d19f}" record_timestamp="1559303813196" record_key="1298459385">
+<id>1298459385</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_jiong</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{cf462ba7-a018-4d66-b649-734acca57998}" record_timestamp="1533546015703" record_key="1299128655">
 <id>1299128655</id>
@@ -5177,6 +5337,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_fire];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{bda76e73-0d17-44e2-a16a-5baefe21b1ae}" record_timestamp="1559303812944" record_key="1358983228">
+<id>1358983228</id>
+<mission_key>ep_mission_introduction_progression_sima_ai</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[2000]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{a9a7d361-4702-4d13-838f-9aba6714d912}" record_timestamp="1533546015704" record_key="1361678587">
 <id>1361678587</id>
 <mission_key>3k_main_council_water_diplomacy_friendly_faction_not_allies_water_make_alliance_mission</mission_key>
@@ -5664,6 +5832,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>CEO_KEY[3k_main_ancillary_weapon_ceremonial_sword_refined]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{6ad422bc-f2c5-4efa-84fc-b855e693170f}" record_timestamp="1562949485775" record_key="1393066077">
+<id>1393066077</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_liang</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_brain_alignment];FACTOR[ep_pooled_factor_brain_alignment];AMOUNT[5];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{0fc5116c-a2d7-4a4a-86cc-c114de8d2584}" record_timestamp="1533546015704" record_key="1393418883">
 <id>1393418883</id>
@@ -6833,6 +7009,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_water];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{dcda4250-0b87-45c8-b249-52bac381268c}" record_timestamp="1560251881223" record_key="1474709279">
+<id>1474709279</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_wei</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_mission_bundle_pooled_resource_sima_wei_positive];DURATION[5]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{b46840ec-7867-4e23-8a31-69b48eb13d9d}" record_timestamp="1533546015705" record_key="1477547001">
 <id>1477547001</id>
 <mission_key>3k_main_council_fire_public_order_decreasing_in_province_metal_construct_buildings_resource_wood_farms_rice_mission</mission_key>
@@ -6976,6 +7160,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{82e3e69e-f997-4664-a398-5a5b76e47bfd}" record_timestamp="1555341222678" record_key="1488154163">
+<id>1488154163</id>
+<mission_key>ep_empress_mission_traitors_money</mission_key>
+<payload_key>TEXT_DISPLAY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>LOOKUP[ep_dilemma_payload]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{e9fb12e8-1043-4442-832d-d2f36cc22c14}" record_timestamp="1519405958559" record_key="1488171448">
 <id>1488171448</id>
@@ -7329,6 +7521,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{962b8a9d-cdf5-4b31-9adc-7b4fb3bcdfb6}" record_timestamp="1559643690892" record_key="1513985141">
+<id>1513985141</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_jiong</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{d6b1921e-75d4-473d-a095-efd8bb47a689}" record_timestamp="1542036888451" record_key="1514772007">
 <id>1514772007</id>
 <mission_key>3k_main_council_fire_economy_bankrupt_earth_construct_buildings_district_government_rural_administration_han_mission</mission_key>
@@ -7409,6 +7609,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{815b02d6-0640-4b68-8189-38889b5ab1cb}" record_timestamp="1559643690911" record_key="1518927184">
+<id>1518927184</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_yong</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{ea8a54cb-1517-4552-9eba-d7b01aef7d17}" record_timestamp="1542036887698" record_key="151919375">
 <id>151919375</id>
 <mission_key>3k_main_council_fire_public_order_decreasing_in_province_water_raise_food_income_region_mission</mission_key>
@@ -7440,6 +7648,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{93f35447-1e6f-4ea4-ae9c-9d50528c442e}" record_timestamp="1555341223333" record_key="1519683706">
+<id>1519683706</id>
+<mission_key>ep_empress_mission_traitors_fist</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_milestone_payload_diplomacy_empress_positive_2];DURATION[10]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{ae417cb7-415f-4488-b02a-a4cb89aaf264}" record_timestamp="1542036887381" record_key="151981113">
 <id>151981113</id>
@@ -8345,6 +8561,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_water];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{b055a456-2281-4c76-87a6-9c425b924650}" record_timestamp="1559643690933" record_key="1571627594">
+<id>1571627594</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_yue</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{f2ba66a2-398b-4bd5-a564-910b32ee2a40}" record_timestamp="1542036887801" record_key="1572565297">
 <id>1572565297</id>
 <mission_key>3k_main_council_metal_faction_caps_governor_cap_free_fire_make_character_governor_mission</mission_key>
@@ -8392,6 +8616,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_wood];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{8d850a02-0530-4e8f-81fd-8448323ccfe1}" record_timestamp="1560251881139" record_key="1575299608">
+<id>1575299608</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_liang</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_mission_bundle_pooled_resource_sima_liang_positive];DURATION[5]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{a63b3717-1c4f-499c-9551-3afd96019652}" record_timestamp="1533546015688" record_key="157536136">
 <id>157536136</id>
@@ -8520,6 +8752,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_2</target_key>
 <value>AMOUNT[4000]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{892e8731-0e60-4350-8263-d537449c97c5}" record_timestamp="1554218081066" record_key="158148933">
+<id>158148933</id>
+<mission_key>ep_empress_mission_traitors_heart</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>target_faction_1</target_key>
+<value>AMOUNT[2000]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{1eb567a4-f6b0-4ed8-8e03-f5e967620f8a}" record_timestamp="1542036887366" record_key="158244288">
 <id>158244288</id>
@@ -8785,6 +9025,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{e4b5a90f-b084-406f-9eeb-049c74aa1aee}" record_timestamp="1559303813161" record_key="1598847223">
+<id>1598847223</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_liang</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[2000]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{62b3577d-d117-4fb7-b60e-bf2b8be5d978}" record_timestamp="1533546015706" record_key="1599748646">
 <id>1599748646</id>
 <mission_key>3k_main_council_wood_public_order_decreasing_in_province_metal_construct_buildings_resource_wood_farms_rice_mission</mission_key>
@@ -9016,6 +9264,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{d35b5fec-691d-4cad-a8ef-23c0ba07014d}" record_timestamp="1560251881096" record_key="1617154447">
+<id>1617154447</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_yue</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEYep_mission_bundle_pooled_resource_sima_yue_positive];DURATION[5]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{ebffbb45-e290-4ddd-a7ae-c0526e7018e0}" record_timestamp="1533546015706" record_key="1618766875">
 <id>1618766875</id>
@@ -9353,6 +9609,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{fab739d3-d451-4fa2-a072-2265502e9989}" record_timestamp="1555345555070" record_key="1636490028">
+<id>1636490028</id>
+<mission_key>ep_dynasty_mission_income</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_dynasty_mission_payload_golden_age];DURATION[-1]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{37cbc304-eeeb-47a9-a143-ffe974b9b5d5}" record_timestamp="1533546015707" record_key="1637324051">
 <id>1637324051</id>
 <mission_key>3k_main_council_fire_military_need_units_water_recruit_water_units_mission</mission_key>
@@ -9417,7 +9681,7 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
-<cdir_events_mission_payloads record_uuid="{79c1fd38-bc06-43b7-8ed6-707fc6c92170}" record_timestamp="1553876906916" record_key="1642181596">
+<cdir_events_mission_payloads record_uuid="{79c1fd38-bc06-43b7-8ed6-707fc6c92170}" record_timestamp="1554887401675" record_key="1642181596">
 <id>1642181596</id>
 <mission_key>3k_main_council_water_population_low_in_province_fire_defeat_force_and_take_captives_mission</mission_key>
 <payload_key>EFFECT_BUNDLE</payload_key>
@@ -9801,6 +10065,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_metal];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{605a4916-82b5-4c02-ad25-bf33f40e0118}" record_timestamp="1562949485233" record_key="1673888862">
+<id>1673888862</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_liang</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_heart_alignment];FACTOR[ep_pooled_factor_heart_alignment];AMOUNT[5];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{c7e856c5-1d97-4f00-9115-1cd719d4f6a3}" record_timestamp="1542036887349" record_key="1674143025">
 <id>1674143025</id>
 <mission_key>3k_main_council_wood_economy_income_medium_metal_construct_buildings_district_artisan_private_workshops_mission</mission_key>
@@ -10016,6 +10288,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_earth];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{9e2a62a0-1baf-4f2c-8930-4e12f7dc223a}" record_timestamp="1555345555059" record_key="1693689830">
+<id>1693689830</id>
+<mission_key>ep_dynasty_mission_attain_character_rank</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_dynasty_mission_payload_enlightened];DURATION[-1]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{c621c944-2bce-4afc-a8fd-0441cf3551d4}" record_timestamp="1533546015707" record_key="1693759486">
 <id>1693759486</id>
@@ -10305,6 +10585,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_water];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{a420031d-fe6a-427f-8fd5-36f37a5e066c}" record_timestamp="1555345555067" record_key="1714305996">
+<id>1714305996</id>
+<mission_key>ep_dynasty_mission_have_vassals</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_dynasty_mission_payload_dominator];DURATION[-1]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{46a62f55-b7fe-4832-a161-33ba59cd07eb}" record_timestamp="1533546015708" record_key="1714821435">
 <id>1714821435</id>
 <mission_key>3k_main_council_earth_military_need_units_fire_recruit_fire_units_mission</mission_key>
@@ -10376,6 +10664,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_metal];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{ce3e53f1-196d-44ff-92fd-978080247173}" record_timestamp="1555345555065" record_key="1720731257">
+<id>1720731257</id>
+<mission_key>ep_dynasty_mission_hold_many_settlements</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_dynasty_mission_payload_grand_holdings];DURATION[-1]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{211012c1-2957-4e71-a2db-d0f1c7052636}" record_timestamp="1533546015688" record_key="172090948">
 <id>172090948</id>
@@ -10889,6 +11185,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{9fb661b1-08cf-4662-addd-6d7c38d6750f}" record_timestamp="1555499993145" record_key="1758315018">
+<id>1758315018</id>
+<mission_key>ep_espionage_mission_embed_spy</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_dilemma_payload_imperial_decree];DURATION[25]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{56332333-2072-4fc4-88a0-99b64f69058e}" record_timestamp="1543310539747" record_key="1759183037">
 <id>1759183037</id>
 <mission_key>3k_ytr_council_earth_population_low_in_province_water_make_trade_agreement_mission</mission_key>
@@ -11048,6 +11352,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_wood];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{b76432c9-5acf-4638-8333-7702673ace4c}" record_timestamp="1555341223538" record_key="1769691626">
+<id>1769691626</id>
+<mission_key>ep_empress_mission_start_sima_liang_brain</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_brain_alignment];FACTOR[ep_pooled_factor_brain_alignment];AMOUNT[5];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{c57209e5-e2e7-4587-8b02-28488cfecf13}" record_timestamp="1533546015708" record_key="1770147683">
 <id>1770147683</id>
@@ -11625,6 +11937,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{adcc0c74-6bfd-496a-aea0-995ffcab6ed2}" record_timestamp="1555341223205" record_key="1817481899">
+<id>1817481899</id>
+<mission_key>ep_empress_mission_start_sima_liang_fist</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_milestone_payload_diplomacy_princes_positive_1];DURATION[10]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{3ff5ad3c-4c69-47fb-9ca3-c9ea01213270}" record_timestamp="1533546015709" record_key="1818039089">
 <id>1818039089</id>
 <mission_key>3k_main_council_wood_offices_idle_court_nobles_water_assignment_water_mission</mission_key>
@@ -11744,6 +12064,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{0f981fdc-bc11-4d85-b734-f54620762a1f}" record_timestamp="1560251881181" record_key="182443306">
+<id>182443306</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_lun</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_mission_bundle_pooled_resource_sima_lun_positive];DURATION[5]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{6cb7798f-b1b7-40ff-90ca-54577186d27b}" record_timestamp="1542036888534" record_key="1825839097">
 <id>1825839097</id>
@@ -12001,6 +12329,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{1d1bafba-e527-49b5-9ab6-aaa4d3cb415a}" record_timestamp="1555341222940" record_key="1843327711">
+<id>1843327711</id>
+<mission_key>ep_empress_mission_traitors_heart</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_heart_alignment];FACTOR[ep_pooled_factor_heart_alignment];AMOUNT[5];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{f4fc1444-a8df-4ae6-afaf-836ffc747e84}" record_timestamp="1533546015709" record_key="1843367155">
 <id>1843367155</id>
 <mission_key>3k_main_council_metal_offices_idle_court_nobles_fire_assignment_fire_mission</mission_key>
@@ -12209,6 +12545,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{cdbb224f-426a-4403-a5f0-be8015057b60}" record_timestamp="1555345953735" record_key="1859590827">
+<id>1859590827</id>
+<mission_key>ep_dynasty_mission_peace</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_heart_alignment];FACTOR[ep_pooled_factor_heart_alignment];AMOUNT[15];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{e4374a2d-60f2-4fbb-83b9-17c3e91c87aa}" record_timestamp="1533546015709" record_key="1859733271">
 <id>1859733271</id>
 <mission_key>3k_main_council_water_food_low_food_in_faction_wood_construct_buildings_resource_wood_farms_rice_agricultural_garrison_mission</mission_key>
@@ -12257,7 +12601,7 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_water];FACTION</value>
 </cdir_events_mission_payloads>
-<cdir_events_mission_payloads record_uuid="{f3cfd5bb-9d4d-4682-aa03-474873b32e05}" record_timestamp="1553876906901" record_key="186159217">
+<cdir_events_mission_payloads record_uuid="{f3cfd5bb-9d4d-4682-aa03-474873b32e05}" record_timestamp="1554887401673" record_key="186159217">
 <id>186159217</id>
 <mission_key>3k_main_council_metal_population_low_in_province_fire_defeat_force_and_take_captives_mission</mission_key>
 <payload_key>EFFECT_BUNDLE</payload_key>
@@ -12401,7 +12745,7 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_wood];FACTION</value>
 </cdir_events_mission_payloads>
-<cdir_events_mission_payloads record_uuid="{9e01b888-75a3-4da1-a0b7-b73e01faaa9c}" record_timestamp="1553876906959" record_key="1867229593">
+<cdir_events_mission_payloads record_uuid="{9e01b888-75a3-4da1-a0b7-b73e01faaa9c}" record_timestamp="1554887401682" record_key="1867229593">
 <id>1867229593</id>
 <mission_key>3k_main_council_earth_population_low_in_province_fire_defeat_force_and_take_captives_mission</mission_key>
 <payload_key>EFFECT_BUNDLE</payload_key>
@@ -13337,6 +13681,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_water];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{5bc0c3bc-f607-469a-8a99-d5094c977753}" record_timestamp="1559303813338" record_key="193074855">
+<id>193074855</id>
+<mission_key>ep_mission_introduction_progression_sima_ying</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[2000]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{5fc056ed-b5c0-4327-b5cd-9a05a9d09e4c}" record_timestamp="1533546015710" record_key="1930862293">
 <id>1930862293</id>
 <mission_key>3k_main_council_fire_corruption_new_metal_construct_buildings_district_artisan_state_workshops_mission</mission_key>
@@ -13360,6 +13712,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>CEO_KEY[3k_main_ancillary_weapon_dual_axes_exceptional]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{a72ac876-a368-4821-bc5e-762fcbbe8cbd}" record_timestamp="1560251881309" record_key="1932190981">
+<id>1932190981</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_jiong</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_mission_bundle_pooled_resource_sima_jiong_positive];DURATION[5]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{4d6a4354-fbdc-4555-9d93-7a42f1fdb34a}" record_timestamp="1533546015710" record_key="1932332255">
 <id>1932332255</id>
@@ -13721,6 +14081,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{763012ba-9474-4915-bd96-d15ff0a77011}" record_timestamp="1555345555057" record_key="1960368595">
+<id>1960368595</id>
+<mission_key>ep_dynasty_mission_build</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_dynasty_mission_payload_builder];DURATION[-1]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{5c565001-3fac-45f3-9fe4-b61eb20c8641}" record_timestamp="1533546015711" record_key="1961017338">
 <id>1961017338</id>
 <mission_key>3k_main_council_fire_economy_income_medium_metal_construct_buildings_district_artisan_labour_mission</mission_key>
@@ -13792,6 +14160,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_water];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{ae1d665f-627e-409f-af39-8aaf1d2b50ab}" record_timestamp="1562949485151" record_key="1963999089">
+<id>1963999089</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_lun</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_brain_alignment];FACTOR[ep_pooled_factor_brain_alignment];AMOUNT[10];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{d54a8904-e106-4cfa-8b8a-7fb13c7c1f40}" record_timestamp="1542036887273" record_key="1964167468">
 <id>1964167468</id>
@@ -13888,6 +14264,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>CEO_KEY[3k_main_ancillary_weapon_dual_swords_refined]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{d6294f06-1464-4456-841d-e1daae92bac9}" record_timestamp="1562949486177" record_key="1973604195">
+<id>1973604195</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_ying</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_heart_alignment];FACTOR[ep_pooled_factor_heart_alignment];AMOUNT[3];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{e66ab741-4485-49f7-8a14-f1acb5938218}" record_timestamp="1533546015711" record_key="1973668881">
 <id>1973668881</id>
@@ -14441,6 +14825,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{6d2b6aee-4f09-4e4a-8ced-aae9d3423699}" record_timestamp="1555341223673" record_key="2014067168">
+<id>2014067168</id>
+<mission_key>ep_empress_mission_traitors_brain</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_brain_alignment];FACTOR[ep_pooled_factor_brain_alignment];AMOUNT[5];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{0b3d7a57-10af-4422-a711-d41b32f3f61a}" record_timestamp="1542036887204" record_key="2015526479">
 <id>2015526479</id>
 <mission_key>3k_main_council_wood_character_unassigned_unique_item_metal_give_ancillary_to_metal_general_mission</mission_key>
@@ -14793,6 +15185,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_wood];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{c073480e-ae08-444a-b312-3f3834d5a4b4}" record_timestamp="1562949486337" record_key="2036751884">
+<id>2036751884</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_lun</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_fist_alignment];FACTOR[ep_pooled_factor_fist_alignment];AMOUNT[3];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{995f954a-2264-4cb0-ba80-a2534b3668a9}" record_timestamp="1542036888273" record_key="2037032196">
 <id>2037032196</id>
 <mission_key>3k_main_council_earth_faction_does_not_own_capital_water_capture_settlement_own_capital_mission</mission_key>
@@ -14881,7 +15281,7 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_earth];FACTION</value>
 </cdir_events_mission_payloads>
-<cdir_events_mission_payloads record_uuid="{c09de32f-b4e4-481b-a6bf-8d2d7b06c430}" record_timestamp="1553876906945" record_key="2041961530">
+<cdir_events_mission_payloads record_uuid="{c09de32f-b4e4-481b-a6bf-8d2d7b06c430}" record_timestamp="1554887401679" record_key="2041961530">
 <id>2041961530</id>
 <mission_key>3k_main_council_wood_population_low_in_province_fire_defeat_force_and_take_captives_mission</mission_key>
 <payload_key>EFFECT_BUNDLE</payload_key>
@@ -16081,6 +16481,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_metal];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{c44eb3ed-8bc2-42ff-adec-787414345615}" record_timestamp="1562949486418" record_key="2124642325">
+<id>2124642325</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_liang</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_heart_alignment];FACTOR[ep_pooled_factor_heart_alignment];AMOUNT[3];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{3f002c7c-df0f-4706-81db-fe6049122b3d}" record_timestamp="1533546015714" record_key="2124757586">
 <id>2124757586</id>
 <mission_key>3k_main_council_wood_population_capacity_reached_metal_increase_city_level_mission</mission_key>
@@ -16457,6 +16865,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{57df0338-d5fb-4865-991b-e7f2884a82b2}" record_timestamp="1555345953714" record_key="2145028572">
+<id>2145028572</id>
+<mission_key>ep_dynasty_mission_gather_money</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_money_alignment];FACTOR[ep_pooled_factor_money_alignment];AMOUNT[15];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{b230b63a-c640-4128-99af-fe90b2a35284}" record_timestamp="1543310539713" record_key="2145229682">
 <id>2145229682</id>
 <mission_key>3k_ytr_council_metal_diplomacy_neutral_army_trespassing_fire_declare_war_faction_tresspassing_mission</mission_key>
@@ -16657,6 +17073,22 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_wood];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{68aec4b3-da51-4a0f-b169-a227090baa9a}" record_timestamp="1559643690926" record_key="229161346">
+<id>229161346</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_lun</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{56d1b9fd-267f-45e7-8ca0-429a250ebe91}" record_timestamp="1555345953729" record_key="229204486">
+<id>229204486</id>
+<mission_key>ep_dynasty_mission_income</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_money_alignment];FACTOR[ep_pooled_factor_money_alignment];AMOUNT[15];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{c5f21370-5f54-448f-a229-df4bfcbada18}" record_timestamp="1533546015689" record_key="229295905">
 <id>229295905</id>
 <mission_key>3k_main_council_wood_provinces_free_building_slot_metal_construct_buildings_district_artisan_private_workshops_mission</mission_key>
@@ -16664,6 +17096,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_metal];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{f4dcc804-be20-4382-81e2-ac88f0f14afd}" record_timestamp="1555341223132" record_key="229395483">
+<id>229395483</id>
+<mission_key>ep_empress_mission_start_sima_liang_brain</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_milestone_payload_diplomacy_princes_positive_1];DURATION[10]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{3d26f495-6d87-45fe-81ff-25edfdd9fc76}" record_timestamp="1542036887135" record_key="22961525">
 <id>22961525</id>
@@ -16849,6 +17289,22 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_metal];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{174b7f98-0fe6-4136-a5b0-d13b518c4104}" record_timestamp="1562949486015" record_key="242820447">
+<id>242820447</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_yue</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_fist_alignment];FACTOR[ep_pooled_factor_fist_alignment];AMOUNT[3];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{bbe0475e-fdd8-412c-8ab6-bc850add151a}" record_timestamp="1560251881266" record_key="242932786">
+<id>242932786</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_ai</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_mission_bundle_pooled_resource_sima_ai_positive];DURATION[5]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{3e718c6a-066d-44bb-b1a7-2dcc18db4543}" record_timestamp="1533546015690" record_key="244371397">
 <id>244371397</id>
 <mission_key>3k_main_council_fire_offices_idle_court_nobles_earth_assignment_earth_mission</mission_key>
@@ -16921,6 +17377,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{733fc43b-04a1-4b07-a614-6d7c16fee64b}" record_timestamp="1555345953726" record_key="250908753">
+<id>250908753</id>
+<mission_key>ep_dynasty_mission_kill_enemies</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_fist_alignment];FACTOR[ep_pooled_factor_fist_alignment];AMOUNT[15];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{dd92b57c-d800-4d44-a825-dbcae5d5ba55}" record_timestamp="1543310540147" record_key="251484605">
 <id>251484605</id>
 <mission_key>3k_ytr_council_fire_diplomacy_enemies_x1_water_make_peace_neighbour_mission</mission_key>
@@ -16985,6 +17449,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_wood];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{c351180d-a6a3-4664-b689-515500542abd}" record_timestamp="1559643690931" record_key="259741155">
+<id>259741155</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_yong</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{72f1b299-6d42-4e08-a7ec-0686706f4667}" record_timestamp="1542036887438" record_key="26091332">
 <id>26091332</id>
 <mission_key>3k_main_council_wood_food_low_food_in_faction_metal_raise_food_income_faction_mission</mission_key>
@@ -17048,6 +17520,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_earth];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{866568f5-217c-448e-ad63-98b4eea6d39a}" record_timestamp="1559643690918" record_key="264876920">
+<id>264876920</id>
+<mission_key>ep_mission_introduction_progression_sima_yue</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{c9726b9e-a05a-4add-b668-913c7456cf6d}" record_timestamp="1533546015690" record_key="265088920">
 <id>265088920</id>
@@ -17329,6 +17809,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{b9f484cb-c501-442d-81fa-40ac0371b2d5}" record_timestamp="1555345555060" record_key="293797165">
+<id>293797165</id>
+<mission_key>ep_dynasty_mission_gather_money</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_dynasty_mission_payload_hoarder];DURATION[-1]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{64d0fe5b-5e47-4219-8ad7-a37cd50ce5e4}" record_timestamp="1533546015690" record_key="293839978">
 <id>293839978</id>
 <mission_key>3k_main_council_metal_provinces_free_building_slot_fire_construct_buildings_district_military_conscription_dong_zhuo_mission</mission_key>
@@ -17464,6 +17952,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_earth];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{a33d98da-793c-4f45-8f20-6803a3a85d89}" record_timestamp="1559303813053" record_key="304404721">
+<id>304404721</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_ying</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{563ff9a0-f019-4d36-a8d7-bb0ee1b0e750}" record_timestamp="1533546015690" record_key="304869346">
 <id>304869346</id>
@@ -17921,6 +18417,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{7421bf60-ce73-46b8-ba56-0399ed55fd06}" record_timestamp="1562949485452" record_key="339412174">
+<id>339412174</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_ai</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_brain_alignment];FACTOR[ep_pooled_factor_brain_alignment];AMOUNT[5];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{78e6f12d-23b2-41f8-b5c1-39706638c2fe}" record_timestamp="1533546015691" record_key="339534899">
 <id>339534899</id>
 <mission_key>3k_main_council_fire_provinces_free_building_slot_fire_construct_buildings_district_military_equipment_mission</mission_key>
@@ -18081,6 +18585,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_wood];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{a73c922c-4b77-40e0-9fe9-27004655ca26}" record_timestamp="1555341222811" record_key="350873535">
+<id>350873535</id>
+<mission_key>ep_empress_mission_traitors_heart</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_milestone_payload_diplomacy_empress_positive_1];DURATION[10]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{91ecd09b-04a7-424c-8501-d4d3623ab43d}" record_timestamp="1542036888412" record_key="351447150">
 <id>351447150</id>
 <mission_key>3k_main_council_earth_provinces_free_building_slot_wood_construct_buildings_resource_wood_lumber_pine_mission</mission_key>
@@ -18120,6 +18632,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_metal];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{667fc1bd-03b5-4abb-99f5-41f73797d502}" record_timestamp="1562949486257" record_key="353282781">
+<id>353282781</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_wei</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_fist_alignment];FACTOR[ep_pooled_factor_fist_alignment];AMOUNT[3];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{a3b1f9d3-dd87-401a-9022-89f6f7ac2dbf}" record_timestamp="1542036887329" record_key="35519399">
 <id>35519399</id>
@@ -18377,6 +18897,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{e4f71c72-9ef4-46e3-a5ea-22bd5f7ae60a}" record_timestamp="1559643690898" record_key="370579317">
+<id>370579317</id>
+<mission_key>ep_mission_introduction_progression_sima_jiong</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{7f7190fc-6056-4f0e-83cd-9490a107debd}" record_timestamp="1533546015692" record_key="370630224">
 <id>370630224</id>
 <mission_key>3k_main_council_wood_military_need_units_water_recruit_water_units_mission</mission_key>
@@ -18569,6 +19097,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_wood];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{2f6dc5d7-bd16-44c4-8556-e3059f579a3d}" record_timestamp="1559303813374" record_key="380408559">
+<id>380408559</id>
+<mission_key>ep_mission_introduction_progression_sima_wei</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[2000]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{4991c590-13e2-4382-b010-5645a6f9ee4c}" record_timestamp="1533546015692" record_key="380932393">
 <id>380932393</id>
 <mission_key>3k_main_council_metal_economy_bankrupt_earth_construct_buildings_district_government_rural_administration_mission</mission_key>
@@ -18696,6 +19232,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{6abc0a4d-a81c-4832-8353-3403f534d795}" record_timestamp="1562949485694" record_key="390392993">
+<id>390392993</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_ying</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_money_alignment];FACTOR[ep_pooled_factor_money_alignment];AMOUNT[5];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{322b6962-8ac5-4a46-baa5-df909287a0e3}" record_timestamp="1543310539711" record_key="392184939">
 <id>392184939</id>
@@ -18857,6 +19401,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{7bbf48cc-60eb-4685-a684-92b696a8e708}" record_timestamp="1555345953721" record_key="403677632">
+<id>403677632</id>
+<mission_key>ep_dynasty_mission_hold_many_settlements</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_brain_alignment];FACTOR[ep_pooled_factor_brain_alignment];AMOUNT[15];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{d2c52572-c62f-4e56-a4a5-97cd27300729}" record_timestamp="1543310539824" record_key="40390165">
 <id>40390165</id>
 <mission_key>3k_ytr_council_fire_diplomacy_has_free_trade_slot_water_make_trade_agreement_mission</mission_key>
@@ -18896,6 +19448,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_earth];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{12d2ef1b-0268-4f4e-bd44-8cd54e4c3262}" record_timestamp="1555345555063" record_key="40733963">
+<id>40733963</id>
+<mission_key>ep_dynasty_mission_food_income</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_dynasty_mission_payload_full_bellies];DURATION[-1]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{a7539cd4-ee1c-4109-90d0-f481541f5280}" record_timestamp="1533546015692" record_key="407588507">
 <id>407588507</id>
@@ -19241,6 +19801,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{43d715f1-8f60-459e-b86d-05be45d77fb8}" record_timestamp="1562949486096" record_key="428501220">
+<id>428501220</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_yong</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_fist_alignment];FACTOR[ep_pooled_factor_fist_alignment];AMOUNT[3];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{dca6df25-acf3-4540-992e-0af7658075c7}" record_timestamp="1543310540126" record_key="429298596">
 <id>429298596</id>
 <mission_key>3k_ytr_council_water_population_capacity_reached_fire_declare_war_faction_neighbouring_mission</mission_key>
@@ -19369,7 +19937,7 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
-<cdir_events_mission_payloads record_uuid="{e8e4734d-d178-4519-93c5-f9d5da177a2a}" record_timestamp="1553876906931" record_key="43506129">
+<cdir_events_mission_payloads record_uuid="{e8e4734d-d178-4519-93c5-f9d5da177a2a}" record_timestamp="1554887401676" record_key="43506129">
 <id>43506129</id>
 <mission_key>3k_main_council_fire_population_low_in_province_fire_defeat_force_and_take_captives_mission</mission_key>
 <payload_key>EFFECT_BUNDLE</payload_key>
@@ -19472,6 +20040,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{0516ce43-e626-49ec-a9c1-b8f8b2a9a3b6}" record_timestamp="1555341223068" record_key="442047819">
+<id>442047819</id>
+<mission_key>ep_empress_mission_start_sima_liang_money</mission_key>
+<payload_key>TEXT_DISPLAY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>LOOKUP[ep_dilemma_payload]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{060b5abc-670b-495a-aaca-2b915fe77408}" record_timestamp="1533546015693" record_key="442445046">
 <id>442445046</id>
@@ -19657,6 +20233,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_fire];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{960d35ce-ad9c-4c4c-8641-af8cba20246f}" record_timestamp="1562156549793" record_key="452403418">
+<id>452403418</id>
+<mission_key>ep_empress_mission_traitors_start_heart</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_milestone_payload_diplomacy_princes_positive_1];DURATION[10]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{ad419ecf-61f3-4434-8a26-91f6cf292acb}" record_timestamp="1542036888227" record_key="452450446">
 <id>452450446</id>
 <mission_key>3k_main_council_earth_offices_free_ministerial_positions_wood_make_character_minister_mission</mission_key>
@@ -19688,6 +20272,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{3a738447-878c-407e-a88e-3c0a34b6cbe6}" record_timestamp="1562949484907" record_key="456207756">
+<id>456207756</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_yong</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_fist_alignment];FACTOR[ep_pooled_factor_fist_alignment];AMOUNT[5];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{efdae82c-b7e9-40b5-9623-3cbb269a1a46}" record_timestamp="1533546015686" record_key="45653985">
 <id>45653985</id>
@@ -20457,6 +21049,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{274f745a-5e7f-4544-a862-da54ed2a7df2}" record_timestamp="1559303812836" record_key="512821502">
+<id>512821502</id>
+<mission_key>ep_mission_introduction_progression_sima_lun</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[2000]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{d8985285-31e2-4fa9-bd2a-3290a0e9c2f1}" record_timestamp="1533546015686" record_key="51317063">
 <id>51317063</id>
 <mission_key>3k_main_council_earth_diplomacy_at_peace_wood_construct_buildings_district_residential_housing_mission</mission_key>
@@ -21113,6 +21713,14 @@
 <target_key>mission_objective</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_water];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{ccf805dd-8307-48a7-a37e-648c89b4ea8d}" record_timestamp="1562156549789" record_key="559761934">
+<id>559761934</id>
+<mission_key>ep_empress_mission_traitors_start_heart</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_heart_alignment];FACTOR[ep_pooled_factor_heart_alignment];AMOUNT[5];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{e79fb1f8-a312-4107-93bf-6a152801d4ac}" record_timestamp="1542036887352" record_key="560242488">
 <id>560242488</id>
 <mission_key>3k_main_council_wood_faction_caps_army_cap_free_wood_raise_force_mission</mission_key>
@@ -21208,6 +21816,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_earth];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{5c2e493a-ea06-412f-abe7-9ae7eb6e1967}" record_timestamp="1555341223270" record_key="567156458">
+<id>567156458</id>
+<mission_key>ep_empress_mission_traitors_brain</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_milestone_payload_diplomacy_empress_positive_1];DURATION[5]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{ffd9f1c3-b820-4495-b0dc-8863879c895b}" record_timestamp="1542036888353" record_key="567204891">
 <id>567204891</id>
@@ -21713,6 +22329,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_water];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{d60ee82d-71d9-4978-9dc3-725caf9b5be2}" record_timestamp="1555345555053" record_key="603457653">
+<id>603457653</id>
+<mission_key>ep_dynasty_mission_support_units</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_dynasty_mission_payload_grand_general];DURATION[-1]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{f5da5d14-8a0a-4bec-90f6-d0842480a756}" record_timestamp="1542036887071" record_key="60348218">
 <id>60348218</id>
 <mission_key>3k_main_council_water_offices_free_court_noble_slots_fire_hire_character_mission</mission_key>
@@ -22089,6 +22713,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_earth];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{9abaae60-69b9-4411-b8e0-08bfd3df8fa4}" record_timestamp="1559643690907" record_key="625269852">
+<id>625269852</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_ying</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{eb665f63-044c-4940-a4cc-e8081e9271b7}" record_timestamp="1533546015695" record_key="625570649">
 <id>625570649</id>
 <mission_key>3k_main_council_earth_diplomacy_has_free_trade_slot_wood_make_trade_agreement_mission</mission_key>
@@ -22177,6 +22809,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{e72ecd04-5deb-4241-ad3f-1cd468c54131}" record_timestamp="1559643690899" record_key="632030788">
+<id>632030788</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_lun</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{d5e54389-42c0-4b4a-a836-e16d3d2c5fa2}" record_timestamp="1533546015695" record_key="632366530">
 <id>632366530</id>
 <mission_key>3k_main_council_earth_public_order_decreasing_in_province_metal_construct_buildings_district_residential_markets_mission</mission_key>
@@ -22217,6 +22857,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{add46a18-b72b-4337-9dc1-adbb9f15cd4a}" record_timestamp="1559303812872" record_key="633719614">
+<id>633719614</id>
+<mission_key>ep_mission_introduction_progression_sima_liang</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[2000]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{172d2cbd-a134-494a-8b6e-93e9bfbbb0da}" record_timestamp="1533546015695" record_key="633961123">
 <id>633961123</id>
 <mission_key>3k_main_council_water_offices_free_general_slots_fire_make_character_general_mission</mission_key>
@@ -22224,6 +22872,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_fire];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{706c916b-db0c-40ce-945c-99fb4006433f}" record_timestamp="1562949485855" record_key="634553701">
+<id>634553701</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_jiong</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_brain_alignment];FACTOR[ep_pooled_factor_brain_alignment];AMOUNT[5];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{0b8d31a7-43f3-4eb8-a6ad-3d933b9db70b}" record_timestamp="1542036887342" record_key="63711871">
 <id>63711871</id>
@@ -22593,6 +23249,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_water];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{f41e38f5-f1ec-4925-8442-5a6a541546ac}" record_timestamp="1559303813089" record_key="659787145">
+<id>659787145</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_wei</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{9b7e8254-419a-4cb7-86d1-b5b03e0839fc}" record_timestamp="1542036887586" record_key="660307570">
 <id>660307570</id>
 <mission_key>3k_main_council_fire_provinces_free_building_slot_water_construct_buildings_district_market_trade_port_mission</mission_key>
@@ -22897,6 +23561,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_metal];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{1a42541e-56f9-4b80-886f-1c563cfdef4f}" record_timestamp="1555341223005" record_key="685253983">
+<id>685253983</id>
+<mission_key>ep_empress_mission_start_sima_liang_heart</mission_key>
+<payload_key>EFFECT_BUNDLE</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>KEY[ep_milestone_payload_diplomacy_princes_positive_1];DURATION[10]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{00f6ce1f-f520-41fe-8698-37ee5ffaf94c}" record_timestamp="1542036888338" record_key="685647929">
 <id>685647929</id>
 <mission_key>3k_main_council_earth_provinces_free_building_slot_earth_construct_buildings_resource_earth_temple_yellow_turban_mission</mission_key>
@@ -23024,6 +23696,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{a9bb8b87-8a10-4015-81f2-d92db2aebd84}" record_timestamp="1555345953707" record_key="696596774">
+<id>696596774</id>
+<mission_key>ep_dynasty_mission_build</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_brain_alignment];FACTOR[ep_pooled_factor_brain_alignment];AMOUNT[15];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{0abcafe9-b44b-4cff-8195-09cd513f91db}" record_timestamp="1533546015696" record_key="697674304">
 <id>697674304</id>
@@ -23329,6 +24009,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_wood];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{6859367f-c956-4366-aa1e-b3e91558426b}" record_timestamp="1562949484989" record_key="717337691">
+<id>717337691</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_ying</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_brain_alignment];FACTOR[ep_pooled_factor_brain_alignment];AMOUNT[5];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{6dde6289-b97d-42c0-ba69-a5cbecc3908b}" record_timestamp="1533546015696" record_key="717458749">
 <id>717458749</id>
 <mission_key>3k_main_council_water_provinces_free_building_slot_metal_construct_buildings_resource_metal_jade_mission</mission_key>
@@ -23384,6 +24072,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{f0236dcf-bea6-463c-ae9e-055a90a0d3e2}" record_timestamp="1562949484824" record_key="721344842">
+<id>721344842</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_yue</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_brain_alignment];FACTOR[ep_pooled_factor_brain_alignment];AMOUNT[5];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{707ea9b1-b65e-407e-b5b1-1c2809d79e42}" record_timestamp="1543310539590" record_key="721626637">
 <id>721626637</id>
@@ -23744,6 +24440,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_fire];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{983e33a4-a0cb-4206-a1e3-9277f84f4112}" record_timestamp="1555341222745" record_key="745429061">
+<id>745429061</id>
+<mission_key>ep_empress_mission_traitors_fist</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_fist_alignment];FACTOR[ep_pooled_factor_fist_alignment];AMOUNT[5];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{3ed30fad-7699-4b4b-b5c8-e8555d7a497e}" record_timestamp="1542036887886" record_key="745648992">
 <id>745648992</id>
@@ -24160,6 +24864,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>AMOUNT[1000]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{7ba12070-a6f6-4dd4-bb42-89d64b25bb4a}" record_timestamp="1559643690904" record_key="778672527">
+<id>778672527</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_wei</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[500]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{32caf909-1df5-413f-bd4f-2ce85dd13021}" record_timestamp="1542036887082" record_key="778742916">
 <id>778742916</id>
@@ -25329,6 +26041,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_earth];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{e31a5171-7ed0-4638-91ff-4e1a1627c85f}" record_timestamp="1562949485071" record_key="861265276">
+<id>861265276</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_wei</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_fist_alignment];FACTOR[ep_pooled_factor_fist_alignment];AMOUNT[10];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{748a5b53-6bbc-46ec-bb63-1d98301ed8dc}" record_timestamp="1533546015698" record_key="861655888">
 <id>861655888</id>
 <mission_key>3k_main_council_fire_faction_does_not_own_capital_wood_capture_settlement_own_capital_mission</mission_key>
@@ -25601,6 +26321,14 @@
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{971b3fdf-ee76-40da-8359-c661b346bad0}" record_timestamp="1559303813303" record_key="887700413">
+<id>887700413</id>
+<mission_key>ep_mission_introduction_progression_sima_yong</mission_key>
+<payload_key>TREASURY</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>AMOUNT[2000]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{1769e8b4-67e7-4dc4-a8d5-761e0aaf27b3}" record_timestamp="1533546015698" record_key="887733198">
 <id>887733198</id>
 <mission_key>3k_main_council_fire_food_low_food_in_faction_wood_construct_buildings_district_residential_housing_mission</mission_key>
@@ -25641,6 +26369,14 @@
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_earth];FACTION</value>
 </cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{0b840304-6f80-4622-b612-058ac62f5335}" record_timestamp="1555345953711" record_key="889782061">
+<id>889782061</id>
+<mission_key>ep_dynasty_mission_attain_character_rank</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_brain_alignment];FACTOR[ep_pooled_factor_brain_alignment];AMOUNT[15];CONTEXT[absolute]</value>
+</cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{25dbe4e7-5ea1-4ccc-8ffa-6e9b411c8a8c}" record_timestamp="1533546015698" record_key="891137405">
 <id>891137405</id>
 <mission_key>3k_main_council_metal_economy_bankrupt_metal_construct_buildings_district_artisan_sun_jian_fealty_mission</mission_key>
@@ -25664,6 +26400,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_wood];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{d3a97480-6c05-400e-97fc-8dd197ca550e}" record_timestamp="1562949486581" record_key="892519144">
+<id>892519144</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_ai</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_heart_alignment];FACTOR[ep_pooled_factor_heart_alignment];AMOUNT[3];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{23708c9a-4b42-4a35-8fe7-859b7ca84fb4}" record_timestamp="1542036888524" record_key="892546377">
 <id>892546377</id>
@@ -25984,6 +26728,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_metal];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{eb3335dd-dd81-48bc-b289-a063199cb8bc}" record_timestamp="1562949484741" record_key="920543652">
+<id>920543652</id>
+<mission_key>ep_mission_introduction_faction_specific_sima_ai</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_heart_alignment];FACTOR[ep_pooled_factor_heart_alignment];AMOUNT[5];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{dedddd01-c055-4024-a582-b2d239fc86ce}" record_timestamp="1542036888062" record_key="921194904">
 <id>921194904</id>
@@ -26320,6 +27072,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_faction_1</target_key>
 <value>PAYLOAD[3k_main_campaign_payload_council_water];FACTION</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{3168390b-062f-4768-b911-3d1ebbbf97b3}" record_timestamp="1555345953724" record_key="948563986">
+<id>948563986</id>
+<mission_key>ep_dynasty_mission_have_vassals</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_fist_alignment];FACTOR[ep_pooled_factor_fist_alignment];AMOUNT[15];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{f9146978-d6e9-44e2-9648-145f568a4f77}" record_timestamp="1542036888167" record_key="948603642">
 <id>948603642</id>
@@ -26824,6 +27584,14 @@
 <status_key>SUCCESS</status_key>
 <target_key>target_character_3</target_key>
 <value>EFFECT[data_random_events_positive_medium]</value>
+</cdir_events_mission_payloads>
+<cdir_events_mission_payloads record_uuid="{db2498a6-d759-4c99-927c-2e61e181ba7d}" record_timestamp="1562949486499" record_key="98114793">
+<id>98114793</id>
+<mission_key>ep_mission_introduction_destroy_army_sima_jiong</mission_key>
+<payload_key>FACTION_POOLED_RESOURCE_TRANSACTION</payload_key>
+<status_key>SUCCESS</status_key>
+<target_key>default</target_key>
+<value>RESOURCE[ep_pooled_resource_fist_alignment];FACTOR[ep_pooled_factor_fist_alignment];AMOUNT[3];CONTEXT[absolute]</value>
 </cdir_events_mission_payloads>
 <cdir_events_mission_payloads record_uuid="{2994950a-6e1d-4b9b-b45d-e8e644348cb7}" record_timestamp="1533546015687" record_key="98115392">
 <id>98115392</id>

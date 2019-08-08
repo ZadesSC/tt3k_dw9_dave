@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE TWaD_videos>
 <root>
-<edit_uuid>3d227e4e-82ce-466b-9fbd-b4b15dfc7cf6</edit_uuid>
+<edit_uuid>88489b40-fdb4-4e65-a813-6217efd0c6b8</edit_uuid>
 <include_all_records_in_retail>1</include_all_records_in_retail>
 <field>
 <field_uuid>{b167ddf6-bef2-4c79-b6fc-03e6dd509a7e}</field_uuid>
@@ -57,6 +57,16 @@
 <required>1</required>
 <column_source_column>id</column_source_column>
 <column_source_table>vo_scripts</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{ea795faa-0068-4bb9-a453-584e8e6027a4}</field_uuid>
+<primary_key>0</primary_key>
+<name>audio_track_override</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
 <requires_startpos_reprocess>0</requires_startpos_reprocess>
 <requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
 </field>

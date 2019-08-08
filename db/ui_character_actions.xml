@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ui_character_actions.xsd" export_time="Wed Feb 27 15:08:14 2019" revision="35" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1352/dave" export_user="bob">
-<edit_uuid>891a5593-6b9e-47c9-9815-96aa27da312c</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ui_character_actions.xsd" export_time="Mon Jul 15 13:59:13 2019" revision="42" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1583/dave" export_user="bob">
+<edit_uuid>c67caaf0-09d8-42d9-99c5-97bf570b00d8</edit_uuid>
 <ui_character_actions record_uuid="{6132ca25-5f2c-4a0a-b5a6-d9a4051cd4c1}" record_timestamp="1527699959495" record_key="3k_main_campaign_group_political_action_adopt">
 <category>family_tree</category>
 <key>3k_main_campaign_group_political_action_adopt</key>
@@ -10,6 +10,16 @@
 <performed_by_character>0</performed_by_character>
 <requires_target>0</requires_target>
 <sound_event_id>UI_CAM_HUD_Character_Option_Adopt</sound_event_id>
+</ui_character_actions>
+<ui_character_actions record_uuid="{27e9a9f0-a8b6-4363-9475-19bfbb91187d}" record_timestamp="1561975255344" record_key="3k_main_campaign_group_political_action_arrange_marriage">
+<category>family_tree</category>
+<key>3k_main_campaign_group_political_action_arrange_marriage</key>
+<localised_description state="NOT_APPROVED" last_approved_text="" last_edit_user="bob"> </localised_description>
+<localised_fallback_tooltip state="APPROVED" last_approved_text="Arrange marriage with a suitable candidate." last_edit_user="bob">Arrange marriage with a suitable candidate.</localised_fallback_tooltip>
+<localised_title state="APPROVED" last_approved_text="Arrange Marriage" last_edit_user="bob">Arrange Marriage</localised_title>
+<performed_by_character>1</performed_by_character>
+<requires_target>0</requires_target>
+<sound_event_id>UI_CAM_HUD_Character_Option_Seek_Spouse</sound_event_id>
 </ui_character_actions>
 <ui_character_actions record_uuid="{ec2217c8-4a35-4cbe-b4ba-dbfdd022e835}" record_timestamp="1539174039300" record_key="3k_main_campaign_group_political_action_assign_as_heir">
 <category>family_tree</category>
@@ -61,7 +71,7 @@
 <requires_target>1</requires_target>
 <sound_event_id>UI_CAM_HUD_Character_Option_Marry</sound_event_id>
 </ui_character_actions>
-<ui_character_actions record_uuid="{e77c3ae5-7c37-4281-906f-219cfcfef020}" record_timestamp="1551118106443" record_key="3k_main_campaign_group_political_action_recall_assignment">
+<ui_character_actions record_uuid="{e77c3ae5-7c37-4281-906f-219cfcfef020}" record_timestamp="1551788094056" record_key="3k_main_campaign_group_political_action_recall_assignment">
 <category>both</category>
 <key>3k_main_campaign_group_political_action_recall_assignment</key>
 <localised_description state="NOT_APPROVED" last_approved_text="" last_edit_user="bob"> </localised_description>
@@ -127,6 +137,26 @@
 <localised_description state="APPROVED" last_approved_text=" " last_edit_user="bob"> </localised_description>
 <localised_fallback_tooltip state="APPROVED" last_approved_text="This will increase the satisfaction of this character and raise his salary too" last_edit_user="bob">This will increase the satisfaction of this character and raise his salary too</localised_fallback_tooltip>
 <localised_title state="APPROVED" last_approved_text="Promote" last_edit_user="bob">Promote</localised_title>
+<performed_by_character>0</performed_by_character>
+<requires_target>0</requires_target>
+<sound_event_id>UI_CAM_HUD_Character_Option_Promote</sound_event_id>
+</ui_character_actions>
+<ui_character_actions record_uuid="{e267a0cc-e011-4f6f-a7fe-5583c0b9cccf}" record_timestamp="1561107322125" record_key="ep_campaign_group_political_action_banish_sima_jiong">
+<category>court</category>
+<key>ep_campaign_group_political_action_banish_sima_jiong</key>
+<localised_description state="NOT_APPROVED" last_approved_text="" last_edit_user="bob"> </localised_description>
+<localised_fallback_tooltip state="APPROVED" last_approved_text="Removes the character from the court and expels her or him from the faction. " last_edit_user="bob">Removes the character from the court and expels her or him from the faction. </localised_fallback_tooltip>
+<localised_title state="APPROVED" last_approved_text="Remove Opposition" last_edit_user="bob">Remove Opposition</localised_title>
+<performed_by_character>0</performed_by_character>
+<requires_target>0</requires_target>
+<sound_event_id>UI_CAM_HUD_Character_Option_Promote</sound_event_id>
+</ui_character_actions>
+<ui_character_actions record_uuid="{7f5d7a31-a2dd-48e7-8edf-0a2474398121}" record_timestamp="1559669719462" record_key="ep_character_action_ui_info_sima_wei_gift">
+<category>court</category>
+<key>ep_character_action_ui_info_sima_wei_gift</key>
+<localised_description state="NOT_APPROVED" last_approved_text="" last_edit_user="bob"> </localised_description>
+<localised_fallback_tooltip state="APPROVED" last_approved_text="A gift of generosity, presented in gratitude." last_edit_user="bob">A gift of generosity, presented in gratitude.</localised_fallback_tooltip>
+<localised_title state="APPROVED" last_approved_text="Present Gift" last_edit_user="bob">Present Gift</localised_title>
 <performed_by_character>0</performed_by_character>
 <requires_target>0</requires_target>
 <sound_event_id>UI_CAM_HUD_Character_Option_Promote</sound_event_id>

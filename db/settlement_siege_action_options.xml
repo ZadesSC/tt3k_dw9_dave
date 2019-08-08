@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="settlement_siege_action_options.xsd" export_time="Tue Mar 26 10:52:55 2019" revision="40" export_branch="C:/Users/rick.venier/AppData/Roaming/TWDaemon/1394/dave" export_user="bob">
-<edit_uuid>657232fd-a9e9-43f5-a542-a025f3d423ff</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="settlement_siege_action_options.xsd" export_time="Thu Jun 20 11:44:52 2019" revision="42" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1527/dave" export_user="bob">
+<edit_uuid>47c8829f-f5b9-4eca-a06e-3ce39ec2d2ec</edit_uuid>
 <settlement_siege_action_options record_uuid="{c0ce4109-a763-41c4-a3aa-20ec6e9827c7}" record_timestamp="1496150815912" record_key="option_colonise_major">
 <captives_option>release</captives_option>
 <current_owner_event></current_owner_event>
@@ -145,6 +145,30 @@
 <settlement_siege_action_option>option_loot_and_occupy_major_he_yi</settlement_siege_action_option>
 <tooltip>tooltip_occupation_option_loot_and_occupy</tooltip>
 </settlement_siege_action_options>
+<settlement_siege_action_options record_uuid="{14d2fa3d-f6c2-4d42-815a-985ad1f3447c}" record_timestamp="1561027488005" record_key="option_loot_and_occupy_major_sima_liang">
+<captives_option>release</captives_option>
+<current_owner_event>CITY_LOOTED</current_owner_event>
+<display_order>2</display_order>
+<effects>action_effects_loot_major_sima_liang</effects>
+<group>ep_group_settlement_actions_default_major_sima_liang</group>
+<icon>ui/eventpics/3k_captured_settlement_small_loot_and_occupy.png</icon>
+<new_owner_event></new_owner_event>
+<outcome>occupy</outcome>
+<settlement_siege_action_option>option_loot_and_occupy_major_sima_liang</settlement_siege_action_option>
+<tooltip>tooltip_occupation_option_loot_and_occupy</tooltip>
+</settlement_siege_action_options>
+<settlement_siege_action_options record_uuid="{cc2357a2-78ce-450b-a1a2-be413a94e92e}" record_timestamp="1559669698415" record_key="option_loot_and_occupy_major_sima_wei">
+<captives_option>release</captives_option>
+<current_owner_event>CITY_LOOTED</current_owner_event>
+<display_order>2</display_order>
+<effects>action_effects_loot_major_sima_wei</effects>
+<group>ep_group_settlement_actions_default_major_sima_wei</group>
+<icon>ui/eventpics/3k_captured_settlement_small_loot_and_occupy.png</icon>
+<new_owner_event></new_owner_event>
+<outcome>occupy</outcome>
+<settlement_siege_action_option>option_loot_and_occupy_major_sima_wei</settlement_siege_action_option>
+<tooltip>tooltip_occupation_option_loot_and_occupy</tooltip>
+</settlement_siege_action_options>
 <settlement_siege_action_options record_uuid="{98da4bf7-b4ba-4a78-a2e2-248502c76276}" record_timestamp="1537289110475" record_key="option_loot_and_occupy_major_zheng_jiang">
 <captives_option>release</captives_option>
 <current_owner_event>CITY_LOOTED</current_owner_event>
@@ -179,6 +203,30 @@
 <new_owner_event></new_owner_event>
 <outcome>occupy</outcome>
 <settlement_siege_action_option>option_loot_and_occupy_minor_he_yi</settlement_siege_action_option>
+<tooltip>tooltip_occupation_option_loot_and_occupy</tooltip>
+</settlement_siege_action_options>
+<settlement_siege_action_options record_uuid="{8906ccb7-2b38-435a-a0ea-fe7b6c079d4a}" record_timestamp="1561027488005" record_key="option_loot_and_occupy_minor_sima_liang">
+<captives_option>release</captives_option>
+<current_owner_event>CITY_LOOTED</current_owner_event>
+<display_order>2</display_order>
+<effects>action_effects_loot_minor_sima_liang</effects>
+<group>ep_group_settlement_actions_default_minor_sima_liang</group>
+<icon>ui/eventpics/3k_captured_settlement_small_loot_and_occupy.png</icon>
+<new_owner_event></new_owner_event>
+<outcome>occupy</outcome>
+<settlement_siege_action_option>option_loot_and_occupy_minor_sima_liang</settlement_siege_action_option>
+<tooltip>tooltip_occupation_option_loot_and_occupy</tooltip>
+</settlement_siege_action_options>
+<settlement_siege_action_options record_uuid="{0ccd342e-c2f8-4690-8157-7064c29b1003}" record_timestamp="1559669698251" record_key="option_loot_and_occupy_minor_sima_wei">
+<captives_option>release</captives_option>
+<current_owner_event>CITY_LOOTED</current_owner_event>
+<display_order>2</display_order>
+<effects>action_effects_loot_minor_sima_wei</effects>
+<group>ep_group_settlement_actions_default_minor_sima_wei</group>
+<icon>ui/eventpics/3k_captured_settlement_small_loot_and_occupy.png</icon>
+<new_owner_event></new_owner_event>
+<outcome>occupy</outcome>
+<settlement_siege_action_option>option_loot_and_occupy_minor_sima_wei</settlement_siege_action_option>
 <tooltip>tooltip_occupation_option_loot_and_occupy</tooltip>
 </settlement_siege_action_options>
 <settlement_siege_action_options record_uuid="{39a9348f-4f4d-4b11-a34b-1bf456ea6dde}" record_timestamp="1539887498570" record_key="option_loot_and_occupy_minor_zheng_jiang">
@@ -216,6 +264,30 @@
 <outcome>occupy</outcome>
 <settlement_siege_action_option>option_occupy_major_he_yi</settlement_siege_action_option>
 <tooltip>tooltip_occupation_option_aid_and_occupy</tooltip>
+</settlement_siege_action_options>
+<settlement_siege_action_options record_uuid="{c06f9192-2793-4183-b3d5-687232d9031e}" record_timestamp="1561027488004" record_key="option_occupy_major_sima_liang">
+<captives_option>release</captives_option>
+<current_owner_event>CITY_OCCUPIED</current_owner_event>
+<display_order>1</display_order>
+<effects>action_effects_occupy_major</effects>
+<group>ep_group_settlement_actions_default_major_sima_liang</group>
+<icon>ui/eventpics/3k_captured_settlement_small_occupy.png</icon>
+<new_owner_event></new_owner_event>
+<outcome>occupy</outcome>
+<settlement_siege_action_option>option_occupy_major_sima_liang</settlement_siege_action_option>
+<tooltip>tooltip_occupation_option_pacify</tooltip>
+</settlement_siege_action_options>
+<settlement_siege_action_options record_uuid="{ffffa969-736a-4757-a6b3-666d015ff075}" record_timestamp="1559669698743" record_key="option_occupy_major_sima_wei">
+<captives_option>release</captives_option>
+<current_owner_event>CITY_OCCUPIED</current_owner_event>
+<display_order>1</display_order>
+<effects>action_effects_occupy_major</effects>
+<group>ep_group_settlement_actions_default_major_sima_wei</group>
+<icon>ui/eventpics/3k_captured_settlement_small_occupy.png</icon>
+<new_owner_event></new_owner_event>
+<outcome>occupy</outcome>
+<settlement_siege_action_option>option_occupy_major_sima_wei</settlement_siege_action_option>
+<tooltip>tooltip_occupation_option_pacify</tooltip>
 </settlement_siege_action_options>
 <settlement_siege_action_options record_uuid="{a156a530-aba1-4450-9f1b-891edb208f38}" record_timestamp="1537289110475" record_key="option_occupy_major_yuan_shao">
 <captives_option>release</captives_option>
@@ -264,6 +336,30 @@
 <outcome>occupy</outcome>
 <settlement_siege_action_option>option_occupy_minor_he_yi</settlement_siege_action_option>
 <tooltip>tooltip_occupation_option_aid_and_occupy</tooltip>
+</settlement_siege_action_options>
+<settlement_siege_action_options record_uuid="{21496074-2048-4370-a1ba-f2464c7a91be}" record_timestamp="1561027488003" record_key="option_occupy_minor_sima_liang">
+<captives_option>release</captives_option>
+<current_owner_event>CITY_OCCUPIED</current_owner_event>
+<display_order>1</display_order>
+<effects>action_effects_occupy_minor</effects>
+<group>ep_group_settlement_actions_default_minor_sima_liang</group>
+<icon>ui/eventpics/3k_captured_settlement_small_occupy.png</icon>
+<new_owner_event></new_owner_event>
+<outcome>occupy</outcome>
+<settlement_siege_action_option>option_occupy_minor_sima_liang</settlement_siege_action_option>
+<tooltip>tooltip_occupation_option_pacify</tooltip>
+</settlement_siege_action_options>
+<settlement_siege_action_options record_uuid="{175df89e-2caf-4550-83c8-8b1521231a27}" record_timestamp="1559669698579" record_key="option_occupy_minor_sima_wei">
+<captives_option>release</captives_option>
+<current_owner_event>CITY_OCCUPIED</current_owner_event>
+<display_order>1</display_order>
+<effects>action_effects_occupy_minor</effects>
+<group>ep_group_settlement_actions_default_minor_sima_wei</group>
+<icon>ui/eventpics/3k_captured_settlement_small_occupy.png</icon>
+<new_owner_event></new_owner_event>
+<outcome>occupy</outcome>
+<settlement_siege_action_option>option_occupy_minor_sima_wei</settlement_siege_action_option>
+<tooltip>tooltip_occupation_option_pacify</tooltip>
 </settlement_siege_action_options>
 <settlement_siege_action_options record_uuid="{13585771-2bf1-4a08-b2a9-30d181a0618c}" record_timestamp="1539887536122" record_key="option_occupy_minor_yuan_shao">
 <captives_option>release</captives_option>
@@ -383,6 +479,54 @@
 <new_owner_event></new_owner_event>
 <outcome>break_siege</outcome>
 <settlement_siege_action_option>option_sack_and_withdraw_minor_zheng_jiang</settlement_siege_action_option>
+<tooltip>tooltip_occupation_option_sack_and_withdraw</tooltip>
+</settlement_siege_action_options>
+<settlement_siege_action_options record_uuid="{feb8e989-7f12-41a1-a426-ff7d34249c2a}" record_timestamp="1561027488006" record_key="option_sack_major_sima_liang">
+<captives_option>release</captives_option>
+<current_owner_event>CITY_SACKED</current_owner_event>
+<display_order>3</display_order>
+<effects>action_effects_sack_major_sima_liang</effects>
+<group>ep_group_settlement_actions_default_major_sima_liang</group>
+<icon>ui/eventpics/3k_captured_settlement_small_sack_withdraw.png</icon>
+<new_owner_event></new_owner_event>
+<outcome>break_siege</outcome>
+<settlement_siege_action_option>option_sack_major_sima_liang</settlement_siege_action_option>
+<tooltip>tooltip_occupation_option_sack_and_withdraw</tooltip>
+</settlement_siege_action_options>
+<settlement_siege_action_options record_uuid="{08ce93f2-a516-4d49-95bb-a7552c0406f5}" record_timestamp="1559669699068" record_key="option_sack_major_sima_wei">
+<captives_option>release</captives_option>
+<current_owner_event>CITY_SACKED</current_owner_event>
+<display_order>3</display_order>
+<effects>action_effects_sack_major_sima_wei</effects>
+<group>ep_group_settlement_actions_default_major_sima_wei</group>
+<icon>ui/eventpics/3k_captured_settlement_small_sack_withdraw.png</icon>
+<new_owner_event></new_owner_event>
+<outcome>break_siege</outcome>
+<settlement_siege_action_option>option_sack_major_sima_wei</settlement_siege_action_option>
+<tooltip>tooltip_occupation_option_sack_and_withdraw</tooltip>
+</settlement_siege_action_options>
+<settlement_siege_action_options record_uuid="{0f5f2a57-4916-4f24-97ae-7c387623c419}" record_timestamp="1561027488002" record_key="option_sack_minor_sima_liang">
+<captives_option>release</captives_option>
+<current_owner_event>CITY_SACKED</current_owner_event>
+<display_order>3</display_order>
+<effects>action_effects_sack_minor_sima_liang</effects>
+<group>ep_group_settlement_actions_default_minor_sima_liang</group>
+<icon>ui/eventpics/3k_captured_settlement_small_sack_withdraw.png</icon>
+<new_owner_event></new_owner_event>
+<outcome>break_siege</outcome>
+<settlement_siege_action_option>option_sack_minor_sima_liang</settlement_siege_action_option>
+<tooltip>tooltip_occupation_option_sack_and_withdraw</tooltip>
+</settlement_siege_action_options>
+<settlement_siege_action_options record_uuid="{718f9a93-4dcd-4d3c-bcae-8dad9f1c5e27}" record_timestamp="1559669698905" record_key="option_sack_minor_sima_wei">
+<captives_option>release</captives_option>
+<current_owner_event>CITY_SACKED</current_owner_event>
+<display_order>3</display_order>
+<effects>action_effects_sack_minor_sima_wei</effects>
+<group>ep_group_settlement_actions_default_minor_sima_wei</group>
+<icon>ui/eventpics/3k_captured_settlement_small_sack_withdraw.png</icon>
+<new_owner_event></new_owner_event>
+<outcome>break_siege</outcome>
+<settlement_siege_action_option>option_sack_minor_sima_wei</settlement_siege_action_option>
 <tooltip>tooltip_occupation_option_sack_and_withdraw</tooltip>
 </settlement_siege_action_options>
 <settlement_siege_action_options record_uuid="{0a27cee1-ce34-4d1e-8f8d-93b4510ace2c}" record_timestamp="1537290049587" record_key="option_vassal_emperor_seat">

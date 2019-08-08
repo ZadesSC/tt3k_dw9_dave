@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_mission_objective_treaty_component_sets.xsd" export_time="Fri Mar 29 10:05:12 2019" revision="18" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1412/dave" export_user="bob">
-<edit_uuid>7db9d14b-0ee9-45e2-8b26-b3a219a8a060</edit_uuid>
-<campaign_mission_objective_treaty_component_sets record_uuid="{d478212a-83fd-4b52-a2fe-385963e755f6}" record_timestamp="1552913143219" record_key="3k_main_objective_coop">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_mission_objective_treaty_component_sets.xsd" export_time="Wed Jul 3 11:17:23 2019" revision="14" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1552/dave" export_user="bob">
+<edit_uuid>fdd5dafc-3caa-44f9-b5e8-a3b516dad292</edit_uuid>
+<campaign_mission_objective_treaty_component_sets record_uuid="{d478212a-83fd-4b52-a2fe-385963e755f6}" record_timestamp="1554884987172" record_key="3k_main_objective_coop">
 <description_all_human_players state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">[PH]</description_all_human_players>
 <description_all_of state="APPROVED" last_approved_text="Have all of the following factions as your co-op" last_edit_user="bob">Have all of the following factions as your co-op</description_all_of>
 <description_any state="APPROVED" last_approved_text="Have any other faction as your co-op" last_edit_user="bob">Have any other faction as your co-op</description_any>
@@ -46,7 +46,7 @@
 <description_less_than_n state="APPROVED" last_approved_text="Have less than %n vassals" last_edit_user="bob">Have less than %n vassals</description_less_than_n>
 <description_less_than_n_including state="APPROVED" last_approved_text="Have fewer than %n vassals including the following" last_edit_user="bob">Have fewer than %n vassals including the following</description_less_than_n_including>
 <description_less_than_n_of state="APPROVED" last_approved_text="Have less than %n of the following factions as your vassal" last_edit_user="bob">Have less than %n of the following factions as your vassal</description_less_than_n_of>
-<description_n state="APPROVED" last_approved_text="Have %n  factions as your vassal" last_edit_user="bob">Have %n  factions as your vassal</description_n>
+<description_n state="APPROVED" last_approved_text="Have %n factions as your vassal" last_edit_user="bob">Have %n factions as your vassal</description_n>
 <description_n_including state="APPROVED" last_approved_text="Have %n factions as your vassals including the following" last_edit_user="bob">Have %n factions as your vassals including the following</description_n_including>
 <description_n_of state="APPROVED" last_approved_text="Have %n of the following factions as your vassal" last_edit_user="bob">Have %n of the following factions as your vassal</description_n_of>
 <description_no_human_players state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">[PH]</description_no_human_players>
@@ -56,7 +56,7 @@
 <description_one_of state="APPROVED" last_approved_text="Have one of the following factions as your vassal" last_edit_user="bob">Have one of the following factions as your vassal</description_one_of>
 <description_singular state="APPROVED" last_approved_text="Hold %n in vassalage" last_edit_user="bob">Hold %n in vassalage</description_singular>
 <key>3k_main_objective_treaties_vassal</key>
-<treaty_components>treaty_component_set_diplomatic_relationship_vassal_lord</treaty_components>
+<treaty_components>treaty_component_set_diplomatic_relationship_vassal_subject</treaty_components>
 </campaign_mission_objective_treaty_component_sets>
 <campaign_mission_objective_treaty_component_sets record_uuid="{40991f2d-3fcf-4ba8-83ed-5838bfd775c9}" record_timestamp="1536329950825" record_key="3k_main_objective_treaties_war">
 <description_all_human_players state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">[PH]</description_all_human_players>
@@ -76,5 +76,24 @@
 <description_singular state="APPROVED" last_approved_text="Be at war with %n" last_edit_user="bob">Be at war with %n</description_singular>
 <key>3k_main_objective_treaties_war</key>
 <treaty_components>treaty_component_set_diplomatic_relationship_war</treaty_components>
+</campaign_mission_objective_treaty_component_sets>
+<campaign_mission_objective_treaty_component_sets record_uuid="{1b4706eb-d673-466d-a182-57141f26e4d5}" record_timestamp="1554199085310" record_key="ep_main_objective_treaties_non_aggression_pact">
+<description_all_human_players state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">[PH]</description_all_human_players>
+<description_all_of state="APPROVED" last_approved_text="Have a non-aggression pact with all of the following factions" last_edit_user="bob">Have a non-aggression pact with all of the following factions</description_all_of>
+<description_any state="APPROVED" last_approved_text="Obtain a non-aggression pact with any faction." last_edit_user="bob">Obtain a non-aggression pact with any faction.</description_any>
+<description_less_than_n state="APPROVED" last_approved_text="Have a non-aggression pact with fewer than %n factions" last_edit_user="bob">Have a non-aggression pact with fewer than %n factions</description_less_than_n>
+<description_less_than_n_including state="APPROVED" last_approved_text="Have a non-aggression pact with fewer than %n factions, including the following" last_edit_user="bob">Have a non-aggression pact with fewer than %n factions, including the following</description_less_than_n_including>
+<description_less_than_n_of state="APPROVED" last_approved_text="Have a non-aggression pact with fewer than %n of the following factions" last_edit_user="bob">Have a non-aggression pact with fewer than %n of the following factions</description_less_than_n_of>
+<description_n state="APPROVED" last_approved_text="Have a non-aggression pact with %n factions" last_edit_user="bob">Have a non-aggression pact with %n factions</description_n>
+<description_n_including state="APPROVED" last_approved_text="Have a non-aggression pact with %n factions including the following" last_edit_user="bob">Have a non-aggression pact with %n factions including the following</description_n_including>
+<description_n_of state="APPROVED" last_approved_text="Have a non-aggression pact with %n of the following factions" last_edit_user="bob">Have a non-aggression pact with %n of the following factions</description_n_of>
+<description_no_human_players state="PLACEHOLDER" last_approved_text="" last_edit_user="bob">[PH]</description_no_human_players>
+<description_none state="APPROVED" last_approved_text="Do not have a non-aggression pact with any faction." last_edit_user="bob">Do not have a non-aggression pact with any faction.</description_none>
+<description_none_of state="APPROVED" last_approved_text="Don't have a non-aggression pact with any of the following factions" last_edit_user="bob">Don't have a non-aggression pact with any of the following factions</description_none_of>
+<description_not_singular state="APPROVED" last_approved_text="Do not have a non-aggression pact with %n" last_edit_user="bob">Do not have a non-aggression pact with %n</description_not_singular>
+<description_one_of state="APPROVED" last_approved_text="Have a non-aggression pact with one of the following factions" last_edit_user="bob">Have a non-aggression pact with one of the following factions</description_one_of>
+<description_singular state="APPROVED" last_approved_text="Obtain a non-aggression pact with %n" last_edit_user="bob">Obtain a non-aggression pact with %n</description_singular>
+<key>ep_main_objective_treaties_non_aggression_pact</key>
+<treaty_components>treaty_component_set_diplomatic_deal_non_aggression</treaty_components>
 </campaign_mission_objective_treaty_component_sets>
 </dataroot>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_features.xsd" export_time="Wed Apr 10 14:56:59 2019" revision="49" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1431/dave" export_user="bob">
-<edit_uuid>4dede3cb-3b66-45b0-b7c1-a72861e86e56</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_features.xsd" export_time="Mon Apr 29 19:22:22 2019" revision="50" export_branch="T:/branches/3k/eight/common/TWeak" export_user="bob">
+<edit_uuid>3044a015-55af-4936-a752-3ab5a5e7d994</edit_uuid>
 <campaign_features record_uuid="{2453bb5a-c3cb-4610-aebe-9c0e8b96879b}" record_timestamp="1547489814873" record_key="ambush_in_default_stance3k_main_campaign_group_campaign_feature_ambush_in_default_zhang_yan">
 <available>1</available>
 <feature>ambush_in_default_stance</feature>
@@ -46,6 +46,11 @@
 <feature>character_adoption</feature>
 <group>3k_main_campaign_group_han_empire_factions</group>
 </campaign_features>
+<campaign_features record_uuid="{20eb5c22-e82c-456a-bc90-9485e7b155e6}" record_timestamp="1556113541148" record_key="character_adoptionep_campaign_group_eight_princes_factions">
+<available>1</available>
+<feature>character_adoption</feature>
+<group>ep_campaign_group_eight_princes_factions</group>
+</campaign_features>
 <campaign_features record_uuid="{f1ac1d77-c775-4951-adf0-5d784a82e2b2}" record_timestamp="1535645884458" record_key="character_birth3k_main_campaign_factions_yellow_turban">
 <available>0</available>
 <feature>character_birth</feature>
@@ -55,6 +60,11 @@
 <available>1</available>
 <feature>character_birth</feature>
 <group>3k_main_campaign_group_han_empire_factions</group>
+</campaign_features>
+<campaign_features record_uuid="{bf6a34fa-b300-4648-af86-02f30cff534e}" record_timestamp="1556113541148" record_key="character_birthep_campaign_group_eight_princes_factions">
+<available>1</available>
+<feature>character_birth</feature>
+<group>ep_campaign_group_eight_princes_factions</group>
 </campaign_features>
 <campaign_features record_uuid="{b89c0068-3efd-493c-898c-90647daf30c0}" record_timestamp="1533635696619" record_key="children_inherit_family_name_from_mother3k_main_campaign_group_faction_zheng_jiang">
 <available>1</available>
@@ -76,10 +86,20 @@
 <feature>military_morale</feature>
 <group>3k_main_campaign_group_han_empire_factions</group>
 </campaign_features>
+<campaign_features record_uuid="{c28b1170-4702-4afe-8bd2-2fdebdc43439}" record_timestamp="1556113541148" record_key="military_moraleep_campaign_group_eight_princes_factions">
+<available>1</available>
+<feature>military_morale</feature>
+<group>ep_campaign_group_eight_princes_factions</group>
+</campaign_features>
 <campaign_features record_uuid="{ee624ab1-2c3f-4a28-a8d4-0849ac461385}" record_timestamp="1506066122067" record_key="politics3k_main_campaign_group_han_empire_factions">
 <available>1</available>
 <feature>politics</feature>
 <group>3k_main_campaign_group_han_empire_factions</group>
+</campaign_features>
+<campaign_features record_uuid="{d4139aeb-6fd7-40d8-8b89-22b3c7560f47}" record_timestamp="1556113541149" record_key="politicsep_campaign_group_eight_princes_factions">
+<available>1</available>
+<feature>politics</feature>
+<group>ep_campaign_group_eight_princes_factions</group>
 </campaign_features>
 <campaign_features record_uuid="{631b0c43-f9e8-43b5-87ce-edbb3142d998}" record_timestamp="1536654505492" record_key="public_order3k_main_campaign_factions_yellow_turban">
 <available>1</available>
@@ -91,7 +111,12 @@
 <feature>public_order</feature>
 <group>3k_main_campaign_group_han_empire_factions</group>
 </campaign_features>
-<campaign_features record_uuid="{ee6e17c7-353f-4155-a5e8-cf9276039d86}" record_timestamp="1554904613209" record_key="settlement_automatic_building_conversion3k_main_campaign_factions_yellow_turban">
+<campaign_features record_uuid="{bb4e91ca-0593-4e90-ad38-75d77a47682b}" record_timestamp="1556113541148" record_key="public_orderep_campaign_group_eight_princes_factions">
+<available>1</available>
+<feature>public_order</feature>
+<group>ep_campaign_group_eight_princes_factions</group>
+</campaign_features>
+<campaign_features record_uuid="{ee6e17c7-353f-4155-a5e8-cf9276039d86}" record_timestamp="1556562142665" record_key="settlement_automatic_building_conversion3k_main_campaign_factions_yellow_turban">
 <available>1</available>
 <feature>settlement_automatic_building_conversion</feature>
 <group>3k_main_campaign_factions_yellow_turban</group>
@@ -100,6 +125,11 @@
 <available>1</available>
 <feature>siege_escalation</feature>
 <group>3k_main_campaign_group_han_empire_factions</group>
+</campaign_features>
+<campaign_features record_uuid="{86ff6af4-7b27-487f-9bf0-184232fdc6f0}" record_timestamp="1556113541148" record_key="siege_escalationep_campaign_group_eight_princes_factions">
+<available>1</available>
+<feature>siege_escalation</feature>
+<group>ep_campaign_group_eight_princes_factions</group>
 </campaign_features>
 <campaign_features record_uuid="{8de1d907-53d4-4b2c-875a-643975f2732b}" record_timestamp="1539192691310" record_key="tax_rate_control3k_main_campaign_group_all">
 <available>1</available>

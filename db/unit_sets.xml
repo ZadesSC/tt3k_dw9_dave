@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="unit_sets.xsd" export_time="Thu Mar 7 16:15:53 2019" revision="53" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1369/dave" export_user="bob">
-<edit_uuid>dc534341-9ec4-4be7-9f56-ee6e5675ca4f</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="unit_sets.xsd" export_time="Wed Jul 17 14:47:33 2019" revision="53" export_branch="C:/Users/jakob.holm/AppData/Roaming/TWDaemon/1586/dave" export_user="bob">
+<edit_uuid>feb38a6b-6a71-4504-927c-c2de6c8795bd</edit_uuid>
 <unit_sets record_uuid="{b07bd5d2-e986-4c7b-b450-b700bfd68355}" record_timestamp="1536228912723" record_key="all_captains">
 <key>all_captains</key>
 <max_unit_exp_level_inclusive>-1</max_unit_exp_level_inclusive>
@@ -37,7 +37,7 @@
 <min_unit_exp_level_inclusive>-1</min_unit_exp_level_inclusive>
 <use_unit_exp_level_range>0</use_unit_exp_level_range>
 </unit_sets>
-<unit_sets record_uuid="{0a5d01e7-36c4-4deb-99c3-04cbcb52d974}" record_timestamp="1551807727756" record_key="all_element_wood_excluding_peasants">
+<unit_sets record_uuid="{0a5d01e7-36c4-4deb-99c3-04cbcb52d974}" record_timestamp="1554881205027" record_key="all_element_wood_excluding_peasants">
 <key>all_element_wood_excluding_peasants</key>
 <max_unit_exp_level_inclusive>-1</max_unit_exp_level_inclusive>
 <min_unit_exp_level_inclusive>-1</min_unit_exp_level_inclusive>
@@ -145,6 +145,12 @@
 <min_unit_exp_level_inclusive>-1</min_unit_exp_level_inclusive>
 <use_unit_exp_level_range>0</use_unit_exp_level_range>
 </unit_sets>
+<unit_sets record_uuid="{80cea1e1-96e7-4d99-bc25-9729cdceab77}" record_timestamp="1563371251319" record_key="character_faction_units">
+<key>character_faction_units</key>
+<max_unit_exp_level_inclusive>-1</max_unit_exp_level_inclusive>
+<min_unit_exp_level_inclusive>-1</min_unit_exp_level_inclusive>
+<use_unit_exp_level_range>0</use_unit_exp_level_range>
+</unit_sets>
 <unit_sets record_uuid="{cae38100-d398-4c3a-9b4a-773abadd1629}" record_timestamp="1536156726567" record_key="character_units">
 <key>character_units</key>
 <max_unit_exp_level_inclusive>-1</max_unit_exp_level_inclusive>
@@ -205,31 +211,31 @@
 <min_unit_exp_level_inclusive>-1</min_unit_exp_level_inclusive>
 <use_unit_exp_level_range>0</use_unit_exp_level_range>
 </unit_sets>
-<unit_sets record_uuid="{ec72d3af-dba6-4273-8c6c-26c66f95f29c}" record_timestamp="1551807727498" record_key="peasant_units">
+<unit_sets record_uuid="{ec72d3af-dba6-4273-8c6c-26c66f95f29c}" record_timestamp="1554881205022" record_key="peasant_units">
 <key>peasant_units</key>
 <max_unit_exp_level_inclusive>-1</max_unit_exp_level_inclusive>
 <min_unit_exp_level_inclusive>-1</min_unit_exp_level_inclusive>
 <use_unit_exp_level_range>0</use_unit_exp_level_range>
 </unit_sets>
-<unit_sets record_uuid="{98b88706-e296-4961-be0e-c58bb6cb055c}" record_timestamp="1551807728424" record_key="shock_cavalry_excluding_peasants">
+<unit_sets record_uuid="{98b88706-e296-4961-be0e-c58bb6cb055c}" record_timestamp="1554881205028" record_key="shock_cavalry_excluding_peasants">
 <key>shock_cavalry_excluding_peasants</key>
 <max_unit_exp_level_inclusive>-1</max_unit_exp_level_inclusive>
 <min_unit_exp_level_inclusive>-1</min_unit_exp_level_inclusive>
 <use_unit_exp_level_range>0</use_unit_exp_level_range>
 </unit_sets>
-<unit_sets record_uuid="{a129e743-ae7e-4862-9f39-3d403f72a490}" record_timestamp="1551975347603" record_key="unit_set_tech_effects_melee_infantry">
+<unit_sets record_uuid="{a129e743-ae7e-4862-9f39-3d403f72a490}" record_timestamp="1554881935867" record_key="unit_set_tech_effects_melee_infantry">
 <key>unit_set_tech_effects_melee_infantry</key>
 <max_unit_exp_level_inclusive>-1</max_unit_exp_level_inclusive>
 <min_unit_exp_level_inclusive>-1</min_unit_exp_level_inclusive>
 <use_unit_exp_level_range>0</use_unit_exp_level_range>
 </unit_sets>
-<unit_sets record_uuid="{44cbb1c0-800c-4bb5-b232-5d7778eeaa6e}" record_timestamp="1551975347050" record_key="unit_set_tech_effects_polearm_infantry">
+<unit_sets record_uuid="{44cbb1c0-800c-4bb5-b232-5d7778eeaa6e}" record_timestamp="1554881935818" record_key="unit_set_tech_effects_polearm_infantry">
 <key>unit_set_tech_effects_polearm_infantry</key>
 <max_unit_exp_level_inclusive>-1</max_unit_exp_level_inclusive>
 <min_unit_exp_level_inclusive>-1</min_unit_exp_level_inclusive>
 <use_unit_exp_level_range>0</use_unit_exp_level_range>
 </unit_sets>
-<unit_sets record_uuid="{7c634b6a-14e3-494f-a955-4e63f223d505}" record_timestamp="1551975347397" record_key="unit_set_tech_effects_shock_cavalry">
+<unit_sets record_uuid="{7c634b6a-14e3-494f-a955-4e63f223d505}" record_timestamp="1554881935867" record_key="unit_set_tech_effects_shock_cavalry">
 <key>unit_set_tech_effects_shock_cavalry</key>
 <max_unit_exp_level_inclusive>-1</max_unit_exp_level_inclusive>
 <min_unit_exp_level_inclusive>-1</min_unit_exp_level_inclusive>

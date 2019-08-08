@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bmd_export_types.xsd" export_time="Mon Jan 7 11:43:51 2019" revision="41" export_branch="T:/branches/3k/dev/common/TWeak" export_user="bob">
-<edit_uuid>0ae7de3c-3697-4787-b0db-633449a35a45</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bmd_export_types.xsd" export_time="Thu Feb 21 10:37:28 2019" revision="42" export_branch="C:/Users/Jason.Waller/AppData/Roaming/TWDaemon/1337/dave" export_user="bob">
+<edit_uuid>1b37e65a-f7e3-491e-ab21-57b2c4386520</edit_uuid>
 <bmd_export_types record_uuid="{f59dde7f-349a-43bd-94ce-a06f3d54e1c5}" record_timestamp="1521037410882" record_key="arid">
 <default>0</default>
 <description>Arid</description>
@@ -150,6 +150,18 @@
 <description>Dry</description>
 <group>precipitation</group>
 <name>dry</name>
+</bmd_export_types>
+<bmd_export_types record_uuid="{bfe7794c-fc98-4243-9b07-706b39c14862}" record_timestamp="1550745445909" record_key="dyn_subtropical">
+<default>0</default>
+<description>Dynasty Subtropical</description>
+<group>climate</group>
+<name>dyn_subtropical</name>
+</bmd_export_types>
+<bmd_export_types record_uuid="{c1ead7d6-fed4-4f08-b757-ac9f1d548b63}" record_timestamp="1550745445909" record_key="dyn_temperate">
+<default>0</default>
+<description>Dynasty Temperate</description>
+<group>climate</group>
+<name>dyn_temperate</name>
 </bmd_export_types>
 <bmd_export_types record_uuid="{7d0021c1-2273-4595-b8e9-252caa0a0d9f}" record_timestamp="1521037410936" record_key="fog">
 <default>0</default>

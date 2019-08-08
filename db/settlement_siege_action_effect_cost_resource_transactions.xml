@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="settlement_siege_action_effect_cost_resource_transactions.xsd" export_time="Wed Mar 27 17:36:15 2019" revision="27" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1406/dave" export_user="bob">
-<edit_uuid>445e7561-c800-4533-8e50-358033d186e3</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="settlement_siege_action_effect_cost_resource_transactions.xsd" export_time="Thu Jun 20 11:44:52 2019" revision="29" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1527/dave" export_user="bob">
+<edit_uuid>e362fcb2-3035-4016-b14f-b1067cade605</edit_uuid>
 <settlement_siege_action_effect_cost_resource_transactions record_uuid="{65046ec9-f57a-48c3-889a-185f61eb19a8}" record_timestamp="1535125649706" record_key="01">
 <applied_transaction>3k_main_resource_transaction_colonisation_major_cost</applied_transaction>
 <applied_transaction_scope>FACTION</applied_transaction_scope>
@@ -73,7 +73,7 @@
 <required_transaction_scope></required_transaction_scope>
 <required_transaction_target></required_transaction_target>
 </settlement_siege_action_effect_cost_resource_transactions>
-<settlement_siege_action_effect_cost_resource_transactions record_uuid="{1db7b238-0a89-428a-893f-54d338ade1f8}" record_timestamp="1550157766738" record_key="144">
+<settlement_siege_action_effect_cost_resource_transactions record_uuid="{1db7b238-0a89-428a-893f-54d338ade1f8}" record_timestamp="1551784444699" record_key="144">
 <applied_transaction></applied_transaction>
 <applied_transaction_scope>FACTION</applied_transaction_scope>
 <applied_transaction_target>ATTACKER</applied_transaction_target>
@@ -85,7 +85,7 @@
 <required_transaction_scope>FACTION</required_transaction_scope>
 <required_transaction_target>ATTACKER</required_transaction_target>
 </settlement_siege_action_effect_cost_resource_transactions>
-<settlement_siege_action_effect_cost_resource_transactions record_uuid="{00ac7b7e-27ad-4195-a127-8e02e50075f7}" record_timestamp="1550157766719" record_key="145">
+<settlement_siege_action_effect_cost_resource_transactions record_uuid="{00ac7b7e-27ad-4195-a127-8e02e50075f7}" record_timestamp="1551784444699" record_key="145">
 <applied_transaction></applied_transaction>
 <applied_transaction_scope>FACTION</applied_transaction_scope>
 <applied_transaction_target>ATTACKER</applied_transaction_target>
@@ -333,6 +333,102 @@
 <applied_transaction_treasury_conversion_target>ATTACKER</applied_transaction_treasury_conversion_target>
 <effect_group>action_effects_sack_and_withdraw_minor_zheng_jiang</effect_group>
 <key>76</key>
+<required_transaction></required_transaction>
+<required_transaction_scope></required_transaction_scope>
+<required_transaction_target></required_transaction_target>
+</settlement_siege_action_effect_cost_resource_transactions>
+<settlement_siege_action_effect_cost_resource_transactions record_uuid="{c2577beb-959f-4a15-9e21-df5bdf06f67e}" record_timestamp="1561027488028" record_key="ep_siege_action_resource_transaction_loot_major_sima_liang">
+<applied_transaction>3k_main_resource_transaction_post_siege_loot_defender_population_region</applied_transaction>
+<applied_transaction_scope>REGION</applied_transaction_scope>
+<applied_transaction_target>ATTACKER</applied_transaction_target>
+<applied_transaction_treasury_conversion>ep_siege_population_sima_liang_treasury_jurisdiction_conversion</applied_transaction_treasury_conversion>
+<applied_transaction_treasury_conversion_target>ATTACKER</applied_transaction_treasury_conversion_target>
+<effect_group>action_effects_loot_and_occupy_major_sima_liang</effect_group>
+<key>ep_siege_action_resource_transaction_loot_major_sima_liang</key>
+<required_transaction></required_transaction>
+<required_transaction_scope></required_transaction_scope>
+<required_transaction_target></required_transaction_target>
+</settlement_siege_action_effect_cost_resource_transactions>
+<settlement_siege_action_effect_cost_resource_transactions record_uuid="{313bc465-d0d8-424b-a96c-1316191ea3aa}" record_timestamp="1559669706916" record_key="ep_siege_action_resource_transaction_loot_major_sima_wei">
+<applied_transaction>3k_main_resource_transaction_post_siege_loot_defender_population_region</applied_transaction>
+<applied_transaction_scope>REGION</applied_transaction_scope>
+<applied_transaction_target>ATTACKER</applied_transaction_target>
+<applied_transaction_treasury_conversion>3k_main_siege_population_sima_wei_treasury_fury_conversion</applied_transaction_treasury_conversion>
+<applied_transaction_treasury_conversion_target>ATTACKER</applied_transaction_treasury_conversion_target>
+<effect_group>action_effects_loot_and_occupy_major_sima_wei</effect_group>
+<key>ep_siege_action_resource_transaction_loot_major_sima_wei</key>
+<required_transaction></required_transaction>
+<required_transaction_scope></required_transaction_scope>
+<required_transaction_target></required_transaction_target>
+</settlement_siege_action_effect_cost_resource_transactions>
+<settlement_siege_action_effect_cost_resource_transactions record_uuid="{e71d8578-8508-4123-8171-599b4168c82a}" record_timestamp="1561027488028" record_key="ep_siege_action_resource_transaction_loot_minor_sima_liang">
+<applied_transaction>3k_main_resource_transaction_post_siege_loot_defender_population_region</applied_transaction>
+<applied_transaction_scope>REGION</applied_transaction_scope>
+<applied_transaction_target>ATTACKER</applied_transaction_target>
+<applied_transaction_treasury_conversion>ep_siege_population_sima_liang_treasury_jurisdiction_conversion</applied_transaction_treasury_conversion>
+<applied_transaction_treasury_conversion_target>ATTACKER</applied_transaction_treasury_conversion_target>
+<effect_group>action_effects_loot_and_occupy_minor_sima_liang</effect_group>
+<key>ep_siege_action_resource_transaction_loot_minor_sima_liang</key>
+<required_transaction></required_transaction>
+<required_transaction_scope></required_transaction_scope>
+<required_transaction_target></required_transaction_target>
+</settlement_siege_action_effect_cost_resource_transactions>
+<settlement_siege_action_effect_cost_resource_transactions record_uuid="{d33e943b-0e8a-4a4f-9341-012eba72c32e}" record_timestamp="1559669706750" record_key="ep_siege_action_resource_transaction_loot_minor_sima_wei">
+<applied_transaction>3k_main_resource_transaction_post_siege_loot_defender_population_region</applied_transaction>
+<applied_transaction_scope>REGION</applied_transaction_scope>
+<applied_transaction_target>ATTACKER</applied_transaction_target>
+<applied_transaction_treasury_conversion>3k_main_siege_population_sima_wei_treasury_fury_conversion</applied_transaction_treasury_conversion>
+<applied_transaction_treasury_conversion_target>ATTACKER</applied_transaction_treasury_conversion_target>
+<effect_group>action_effects_loot_and_occupy_minor_sima_wei</effect_group>
+<key>ep_siege_action_resource_transaction_loot_minor_sima_wei</key>
+<required_transaction></required_transaction>
+<required_transaction_scope></required_transaction_scope>
+<required_transaction_target></required_transaction_target>
+</settlement_siege_action_effect_cost_resource_transactions>
+<settlement_siege_action_effect_cost_resource_transactions record_uuid="{205b33fc-0930-4c2d-9fcc-da7e1ba4fa15}" record_timestamp="1561027488029" record_key="ep_siege_action_resource_transaction_sack_major_sima_liang">
+<applied_transaction>3k_main_resource_transaction_post_siege_sack_defender_population_region</applied_transaction>
+<applied_transaction_scope>REGION</applied_transaction_scope>
+<applied_transaction_target>DEFENDER</applied_transaction_target>
+<applied_transaction_treasury_conversion>ep_siege_population_sima_liang_treasury_jurisdiction_conversion</applied_transaction_treasury_conversion>
+<applied_transaction_treasury_conversion_target>ATTACKER</applied_transaction_treasury_conversion_target>
+<effect_group>action_effects_sack_and_withdraw_major_sima_liang</effect_group>
+<key>ep_siege_action_resource_transaction_sack_major_sima_liang</key>
+<required_transaction></required_transaction>
+<required_transaction_scope></required_transaction_scope>
+<required_transaction_target></required_transaction_target>
+</settlement_siege_action_effect_cost_resource_transactions>
+<settlement_siege_action_effect_cost_resource_transactions record_uuid="{7c1107b6-206f-4e43-ba84-dab9aef1a856}" record_timestamp="1559669706585" record_key="ep_siege_action_resource_transaction_sack_major_sima_wei">
+<applied_transaction>3k_main_resource_transaction_post_siege_sack_defender_population_region</applied_transaction>
+<applied_transaction_scope>REGION</applied_transaction_scope>
+<applied_transaction_target>DEFENDER</applied_transaction_target>
+<applied_transaction_treasury_conversion>3k_main_siege_population_sima_wei_treasury_fury_conversion</applied_transaction_treasury_conversion>
+<applied_transaction_treasury_conversion_target>ATTACKER</applied_transaction_treasury_conversion_target>
+<effect_group>action_effects_sack_and_withdraw_major_sima_wei</effect_group>
+<key>ep_siege_action_resource_transaction_sack_major_sima_wei</key>
+<required_transaction></required_transaction>
+<required_transaction_scope></required_transaction_scope>
+<required_transaction_target></required_transaction_target>
+</settlement_siege_action_effect_cost_resource_transactions>
+<settlement_siege_action_effect_cost_resource_transactions record_uuid="{9033bc98-22f7-4dd8-9f3a-6f6a0a581b7c}" record_timestamp="1561027488028" record_key="ep_siege_action_resource_transaction_sack_minor_sima_liang">
+<applied_transaction>3k_main_resource_transaction_post_siege_sack_defender_population_region</applied_transaction>
+<applied_transaction_scope>REGION</applied_transaction_scope>
+<applied_transaction_target>DEFENDER</applied_transaction_target>
+<applied_transaction_treasury_conversion>ep_siege_population_sima_liang_treasury_jurisdiction_conversion</applied_transaction_treasury_conversion>
+<applied_transaction_treasury_conversion_target>ATTACKER</applied_transaction_treasury_conversion_target>
+<effect_group>action_effects_sack_and_withdraw_minor_sima_liang</effect_group>
+<key>ep_siege_action_resource_transaction_sack_minor_sima_liang</key>
+<required_transaction></required_transaction>
+<required_transaction_scope></required_transaction_scope>
+<required_transaction_target></required_transaction_target>
+</settlement_siege_action_effect_cost_resource_transactions>
+<settlement_siege_action_effect_cost_resource_transactions record_uuid="{c9c52376-6db2-4dd5-861d-f1966cdc7c86}" record_timestamp="1559669706420" record_key="ep_siege_action_resource_transaction_sack_minor_sima_wei">
+<applied_transaction>3k_main_resource_transaction_post_siege_sack_defender_population_region</applied_transaction>
+<applied_transaction_scope>REGION</applied_transaction_scope>
+<applied_transaction_target>DEFENDER</applied_transaction_target>
+<applied_transaction_treasury_conversion>3k_main_siege_population_sima_wei_treasury_fury_conversion</applied_transaction_treasury_conversion>
+<applied_transaction_treasury_conversion_target>ATTACKER</applied_transaction_treasury_conversion_target>
+<effect_group>action_effects_sack_and_withdraw_minor_sima_wei</effect_group>
+<key>ep_siege_action_resource_transaction_sack_minor_sima_wei</key>
 <required_transaction></required_transaction>
 <required_transaction_scope></required_transaction_scope>
 <required_transaction_target></required_transaction_target>

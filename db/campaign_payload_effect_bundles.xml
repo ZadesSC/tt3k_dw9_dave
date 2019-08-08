@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_payload_effect_bundles.xsd" export_time="Tue Feb 26 10:46:02 2019" revision="17" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1352/dave" export_user="bob">
-<edit_uuid>4593d68b-0022-4e21-b4e8-eccc5a60af1b</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_payload_effect_bundles.xsd" export_time="Mon Jul 1 11:00:55 2019" revision="19" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1550/dave" export_user="bob">
+<edit_uuid>80d31c60-871c-4367-a23f-bc411162d41e</edit_uuid>
 <campaign_payload_effect_bundles record_uuid="{a060accf-50d5-45ad-a99c-85f88c90784c}" record_timestamp="1524741880935" record_key="3k_main_campaign_payload_assignment_black_market_investigation3k_main_payload_assignment_black_market_investigation">
 <duration>1</duration>
 <effect_bundle>3k_main_payload_assignment_black_market_investigation</effect_bundle>
@@ -10,6 +10,11 @@
 <duration>0</duration>
 <effect_bundle>3k_dummy_effect_bundle_character_action_adopt</effect_bundle>
 <payload>3k_main_campaign_payload_character_action_adopt</payload>
+</campaign_payload_effect_bundles>
+<campaign_payload_effect_bundles record_uuid="{7b9b1438-e90c-4767-85a3-5b4af6e444f1}" record_timestamp="1561975255342" record_key="3k_main_campaign_payload_character_action_arrange_marriage3k_dummy_effect_bundle_character_action_arrange_marriage">
+<duration>0</duration>
+<effect_bundle>3k_dummy_effect_bundle_character_action_arrange_marriage</effect_bundle>
+<payload>3k_main_campaign_payload_character_action_arrange_marriage</payload>
 </campaign_payload_effect_bundles>
 <campaign_payload_effect_bundles record_uuid="{885245b3-cafd-4b51-bfc5-347a6eeeecac}" record_timestamp="1542050628406" record_key="3k_main_campaign_payload_character_action_assign_as_heir3k_dummy_effect_bundle_character_action_assign_as_heir">
 <duration>0</duration>
@@ -36,7 +41,7 @@
 <effect_bundle>3k_main_payload_character_action_banish_4</effect_bundle>
 <payload>3k_main_campaign_payload_character_action_banish_4</payload>
 </campaign_payload_effect_bundles>
-<campaign_payload_effect_bundles record_uuid="{a736c1f4-70be-429a-9e00-46b0757771da}" record_timestamp="1551118109703" record_key="3k_main_campaign_payload_character_action_call_back_assignment3k_dummy_effect_bundle_character_action_recall_assignment">
+<campaign_payload_effect_bundles record_uuid="{a736c1f4-70be-429a-9e00-46b0757771da}" record_timestamp="1551788094068" record_key="3k_main_campaign_payload_character_action_call_back_assignment3k_dummy_effect_bundle_character_action_recall_assignment">
 <duration>0</duration>
 <effect_bundle>3k_dummy_effect_bundle_character_action_recall_assignment</effect_bundle>
 <payload>3k_main_campaign_payload_character_action_call_back_assignment</payload>
@@ -290,5 +295,30 @@
 <duration>5</duration>
 <effect_bundle>3k_main_effect_bundle_faction_trait_settlement_razed_dong_zhuo</effect_bundle>
 <payload>3k_main_campaign_payload_razed_settlement_dong_zhuo</payload>
+</campaign_payload_effect_bundles>
+<campaign_payload_effect_bundles record_uuid="{3d1885ba-7452-4108-adf0-b84be12fc1ca}" record_timestamp="1559838494029" record_key="ep_campaign_payload_character_action_remove_tier_1ep_payload_character_action_banish_sima_jiong_execution_1_faction">
+<duration>5</duration>
+<effect_bundle>ep_payload_character_action_banish_sima_jiong_execution_1_faction</effect_bundle>
+<payload>ep_campaign_payload_character_action_remove_tier_1</payload>
+</campaign_payload_effect_bundles>
+<campaign_payload_effect_bundles record_uuid="{f0de0fc6-b491-4f68-a976-bcd728df1874}" record_timestamp="1559838493946" record_key="ep_campaign_payload_character_action_remove_tier_2ep_payload_character_action_banish_sima_jiong_execution_2_faction">
+<duration>5</duration>
+<effect_bundle>ep_payload_character_action_banish_sima_jiong_execution_2_faction</effect_bundle>
+<payload>ep_campaign_payload_character_action_remove_tier_2</payload>
+</campaign_payload_effect_bundles>
+<campaign_payload_effect_bundles record_uuid="{8e64e087-711a-4fd7-8a46-027e4c7fea04}" record_timestamp="1559838493987" record_key="ep_campaign_payload_character_action_remove_tier_3ep_payload_character_action_banish_sima_jiong_execution_3_faction">
+<duration>5</duration>
+<effect_bundle>ep_payload_character_action_banish_sima_jiong_execution_3_faction</effect_bundle>
+<payload>ep_campaign_payload_character_action_remove_tier_3</payload>
+</campaign_payload_effect_bundles>
+<campaign_payload_effect_bundles record_uuid="{7c27d4cd-783f-4857-a80b-2c701a32262c}" record_timestamp="1559838494070" record_key="ep_campaign_payload_character_action_remove_tier_4ep_payload_character_action_banish_sima_jiong_execution_4_faction">
+<duration>5</duration>
+<effect_bundle>ep_payload_character_action_banish_sima_jiong_execution_4_faction</effect_bundle>
+<payload>ep_campaign_payload_character_action_remove_tier_4</payload>
+</campaign_payload_effect_bundles>
+<campaign_payload_effect_bundles record_uuid="{3d927a2a-831d-4e96-83fc-d3d998c0b469}" record_timestamp="1559669722232" record_key="ep_campaign_payload_political_action_giftep_effect_bundle_political_action_present_gift">
+<duration>0</duration>
+<effect_bundle>ep_effect_bundle_political_action_present_gift</effect_bundle>
+<payload>ep_campaign_payload_political_action_gift</payload>
 </campaign_payload_effect_bundles>
 </dataroot>

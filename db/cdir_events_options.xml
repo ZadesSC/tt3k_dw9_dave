@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cdir_events_options.xsd" export_time="Mon Apr 8 11:11:09 2019" revision="50" export_branch="T:/TW/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>18e73f15-539e-40ab-8e0b-29949ed9a98f</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cdir_events_options.xsd" export_time="Wed Apr 10 10:22:20 2019" revision="48" export_branch="C:/TW/branches/3k/eight/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>21c346db-d88b-40a2-ba54-ad14f7f22739</edit_uuid>
 <cdir_events_options record_uuid="{8074f0b9-e6a3-4282-9990-df01fd52d2f0}" record_timestamp="1519405959724" record_key="CND_ACTIVE_DIPLOMATIC_CONDITIONS_IN_RANGE">
 <notes>Specify that the targets faction must have between n1 and n2 factions in the world that meet the diplomatic criteria. Multiple AND</notes>
 <option_key>CND_ACTIVE_DIPLOMATIC_CONDITIONS_IN_RANGE</option_key>
@@ -161,7 +161,7 @@
 <notes>Faction must have an army</notes>
 <option_key>CND_HAS_ARMY</option_key>
 </cdir_events_options>
-<cdir_events_options record_uuid="{0d7db6e1-df8c-4555-b9c3-506122587f3a}" record_timestamp="1551353789156" record_key="CND_HAS_FREE_TRADE_SLOT">
+<cdir_events_options record_uuid="{0d7db6e1-df8c-4555-b9c3-506122587f3a}" record_timestamp="1551788595159" record_key="CND_HAS_FREE_TRADE_SLOT">
 <notes>Faction must have a trade slot available</notes>
 <option_key>CND_HAS_FREE_TRADE_SLOT</option_key>
 </cdir_events_options>
@@ -981,7 +981,7 @@
 <notes>Highest progression level achieved by faction must be &lt; n</notes>
 <option_key>GEN_CND_MAX_HIGHEST_PROGRESSION_LEVEL</option_key>
 </cdir_events_options>
-<cdir_events_options record_uuid="{50124ccf-e970-4047-96a3-0789b15b37f2}" record_timestamp="1551697697138" record_key="GEN_CND_MAX_NUMBER_OF_LIVES">
+<cdir_events_options record_uuid="{50124ccf-e970-4047-96a3-0789b15b37f2}" record_timestamp="1554880724394" record_key="GEN_CND_MAX_NUMBER_OF_LIVES">
 <notes>Chracter must have &lt;= n lives remaining</notes>
 <option_key>GEN_CND_MAX_NUMBER_OF_LIVES</option_key>
 </cdir_events_options>
@@ -1069,7 +1069,7 @@
 <notes>Factions must have a highest ever achieved progression level &gt; n</notes>
 <option_key>GEN_CND_MIN_HIGHEST_PROGRESSION_LEVEL</option_key>
 </cdir_events_options>
-<cdir_events_options record_uuid="{bbad99f7-8a07-4d9e-a78c-ec2ad662b5ec}" record_timestamp="1551697697127" record_key="GEN_CND_MIN_NUMBER_OF_LIVES">
+<cdir_events_options record_uuid="{bbad99f7-8a07-4d9e-a78c-ec2ad662b5ec}" record_timestamp="1554880724394" record_key="GEN_CND_MIN_NUMBER_OF_LIVES">
 <notes>Character must have &gt;= n lives remaining</notes>
 <option_key>GEN_CND_MIN_NUMBER_OF_LIVES</option_key>
 </cdir_events_options>
@@ -1717,7 +1717,7 @@
 <notes>Specify that this mission objective should be inverted (Not supported by the majority of objectives)</notes>
 <option_key>VAR_OBJECTIVE_INVERT</option_key>
 </cdir_events_options>
-<cdir_events_options record_uuid="{1f8d0589-fd8f-4700-81f5-814a3b24d8a6}" record_timestamp="1551175600948" record_key="VAR_OBJECTIVE_MINISTERIAL_POSITION_RECORD">
+<cdir_events_options record_uuid="{1f8d0589-fd8f-4700-81f5-814a3b24d8a6}" record_timestamp="1551788110492" record_key="VAR_OBJECTIVE_MINISTERIAL_POSITION_RECORD">
 <notes>Specify that a mission objective must involve assigning a character to a MINISTERIAL_POSITIONS post key</notes>
 <option_key>VAR_OBJECTIVE_MINISTERIAL_POSITION_RECORD</option_key>
 </cdir_events_options>
@@ -1773,7 +1773,7 @@
 <notes>The resources type of the resource related objective</notes>
 <option_key>VAR_OBJECTIVE_RESOURCE_TYPE</option_key>
 </cdir_events_options>
-<cdir_events_options record_uuid="{153fe5c1-02c6-48da-a6a2-3441e1f7bd09}" record_timestamp="1554718262508" record_key="VAR_OBJECTIVE_SIEGE_ACTION_OPTION">
+<cdir_events_options record_uuid="{153fe5c1-02c6-48da-a6a2-3441e1f7bd09}" record_timestamp="1554888140888" record_key="VAR_OBJECTIVE_SIEGE_ACTION_OPTION">
 <notes>Specify that a siege outcome MISSION OBJECTIVE must match a record from settlement_siege_action_options table</notes>
 <option_key>VAR_OBJECTIVE_SIEGE_ACTION_OPTION</option_key>
 </cdir_events_options>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_battle_scoring_profiles>
+<root>
+<edit_uuid>76f1d0f3-b6c5-4581-aa93-a19f55f4c615</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{4af2864a-f854-4b10-9125-75227ba42012}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<field_description>key</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{bb5f8be7-563c-407b-a6b9-ff9bca93ffb9}</field_uuid>
+<primary_key>0</primary_key>
+<name>time_period_min</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>The minimum time period, below which the player will receive the maximum amount of points</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{4373230d-8cf0-4a24-b28f-f97a3fde6a09}</field_uuid>
+<primary_key>0</primary_key>
+<name>time_period_max</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>The maximum time period, above which the player will receive no points</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{5e722018-1189-40dd-b8f7-2f8b02efda56}</field_uuid>
+<primary_key>0</primary_key>
+<name>time_period_score</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>Score to add when ending a time period. Will scale linearly based on duration of the time period. (If min is 1 minute, and max is 3 minutes, and the player takes 2 minutes, they will receive 50% of this value)</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{51ad0a85-6320-47e2-990d-80e187fe96f1}</field_uuid>
+<primary_key>0</primary_key>
+<name>kill_unit_score</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>0</default_value>
+<field_description>Score to add when the player kills a unit.</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

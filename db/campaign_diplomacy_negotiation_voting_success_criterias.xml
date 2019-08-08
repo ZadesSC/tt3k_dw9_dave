@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_negotiation_voting_success_criterias.xsd" export_time="Thu Mar 14 12:47:36 2019" revision="3" export_branch="E:/Total War/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>e98bef8e-ca86-4d20-b300-0392a5d47aee</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_negotiation_voting_success_criterias.xsd" export_time="Wed Apr 10 09:02:15 2019" revision="3" export_branch="C:/TW/branches/3k/eight/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>bbb948b9-6916-4d93-bc4b-2564e0a531f6</edit_uuid>
 <campaign_diplomacy_negotiation_voting_success_criterias record_uuid="{da5b368b-303f-4154-85d9-25b2b0018472}" record_timestamp="1517918626325" record_key="all">
 <criteria>all</criteria>
 <description>Succeeds if all factions vote in favour. Fails otherwise.</description>
@@ -9,7 +9,7 @@
 <criteria>any</criteria>
 <description>Succeeds if at least one faction votes in favour. Fails otherwise.</description>
 </campaign_diplomacy_negotiation_voting_success_criterias>
-<campaign_diplomacy_negotiation_voting_success_criterias record_uuid="{ba861730-aadf-4660-ba6a-4ebcb5de4365}" record_timestamp="1552567649878" record_key="any_except_lead_faction_who_will_vote_no">
+<campaign_diplomacy_negotiation_voting_success_criterias record_uuid="{ba861730-aadf-4660-ba6a-4ebcb5de4365}" record_timestamp="1554883335894" record_key="any_except_lead_faction_who_will_vote_no">
 <criteria>any_except_lead_faction_who_will_vote_no</criteria>
 <description>Succeeds if at least one faction votes in favour. Fails otherwise. The lead faction automatically votes no.</description>
 </campaign_diplomacy_negotiation_voting_success_criterias>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE TWaD_pdlc>
 <root>
-<edit_uuid>920e0108-08c8-4d38-8798-db7870ba2dec</edit_uuid>
-<agf_special_dependencies></agf_special_dependencies>
+<edit_uuid>58c1583f-0948-43d8-98a3-51c30cb70472</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
 <field>
 <field_uuid>{3f8ba147-1235-4d6f-bc8c-2c5c5e71c80d}</field_uuid>
 <primary_key>1</primary_key>
@@ -10,9 +10,6 @@
 <field_type>text</field_type>
 <required>1</required>
 <max_length>255</max_length>
-<agf_link_to_dependency>0</agf_link_to_dependency>
-<agf_link_to_dependents>0</agf_link_to_dependents>
-<agf_done>0</agf_done>
 <requires_startpos_reprocess>0</requires_startpos_reprocess>
 <requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
 </field>
@@ -22,9 +19,6 @@
 <name>SteamID</name>
 <field_type>integer</field_type>
 <required>1</required>
-<agf_link_to_dependency>0</agf_link_to_dependency>
-<agf_link_to_dependents>0</agf_link_to_dependents>
-<agf_done>0</agf_done>
 <requires_startpos_reprocess>0</requires_startpos_reprocess>
 <requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
 </field>
@@ -35,9 +29,6 @@
 <field_type>text</field_type>
 <required>0</required>
 <max_length>536870910</max_length>
-<agf_link_to_dependency>0</agf_link_to_dependency>
-<agf_link_to_dependents>0</agf_link_to_dependents>
-<agf_done>0</agf_done>
 <requires_startpos_reprocess>0</requires_startpos_reprocess>
 <requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
 </field>
@@ -48,9 +39,6 @@
 <field_type>integer</field_type>
 <required>1</required>
 <default_value>-1</default_value>
-<agf_link_to_dependency>0</agf_link_to_dependency>
-<agf_link_to_dependents>0</agf_link_to_dependents>
-<agf_done>0</agf_done>
 <requires_startpos_reprocess>0</requires_startpos_reprocess>
 <requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
 </field>
@@ -63,9 +51,16 @@
 <max_length>255</max_length>
 <column_source_column>expansion</column_source_column>
 <column_source_table>texc_expansions</column_source_table>
-<agf_link_to_dependency>0</agf_link_to_dependency>
-<agf_link_to_dependents>0</agf_link_to_dependents>
-<agf_done>0</agf_done>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{2a9daaec-eff5-43d7-bdd6-70a51a10352e}</field_uuid>
+<primary_key>0</primary_key>
+<name>is_custom_battle_filter</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<default_value>false</default_value>
 <requires_startpos_reprocess>0</requires_startpos_reprocess>
 <requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
 </field>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="_kv_ui_tweakers.xsd" export_time="Wed Mar 13 08:22:13 2019" revision="75" export_branch="C:/Users/mikaela.lidstrom/AppData/Roaming/TWDaemon/1380/dave" export_user="bob">
-<edit_uuid>1a24cc6f-beff-4877-9f59-019ecd8826f0</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="_kv_ui_tweakers.xsd" export_time="Wed Apr 10 08:54:36 2019" revision="69" export_branch="C:/TW/branches/3k/eight/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>7c5ef0ae-bb59-4c7e-9886-cf49014f5775</edit_uuid>
 <_kv_ui_tweakers record_uuid="{48c54e49-5c21-4d57-bd51-b375b5b1ffae}" record_timestamp="1525285355407" record_key="battle_camera_depth_of_field_bokeh_hotspot_kernel_size">
 <description>(IN GAME) Depth of Field - Brightness kernel size of detecting hotspots for splat</description>
 <key>battle_camera_depth_of_field_bokeh_hotspot_kernel_size</key>
@@ -286,17 +286,17 @@
 <key>campaign_battle_site_marker_height</key>
 <value>2</value>
 </_kv_ui_tweakers>
-<_kv_ui_tweakers record_uuid="{5cf257b4-69f2-4bd1-a14e-9b73550f1316}" record_timestamp="1551713678874" record_key="campaign_child_emperor_adulthood_turn">
+<_kv_ui_tweakers record_uuid="{5cf257b4-69f2-4bd1-a14e-9b73550f1316}" record_timestamp="1554880899022" record_key="campaign_child_emperor_adulthood_turn">
 <description>the turn from start where the child emperor will become an adult </description>
 <key>campaign_child_emperor_adulthood_turn</key>
 <value>50</value>
 </_kv_ui_tweakers>
-<_kv_ui_tweakers record_uuid="{04bb023b-4cf8-47a2-86d1-83511d689879}" record_timestamp="1550568074668" record_key="campaign_citybar_camera_zoom_offset">
+<_kv_ui_tweakers record_uuid="{04bb023b-4cf8-47a2-86d1-83511d689879}" record_timestamp="1551784901779" record_key="campaign_citybar_camera_zoom_offset">
 <description>Citybars can cover small settlements, this is an offset to compensate for that</description>
 <key>campaign_citybar_camera_zoom_offset</key>
 <value>100</value>
 </_kv_ui_tweakers>
-<_kv_ui_tweakers record_uuid="{86498795-6570-4efb-9036-c79ab52b8a39}" record_timestamp="1550231183199" record_key="campaign_citybar_distance_depth_render_boundary">
+<_kv_ui_tweakers record_uuid="{86498795-6570-4efb-9036-c79ab52b8a39}" record_timestamp="1551784598838" record_key="campaign_citybar_distance_depth_render_boundary">
 <description>Used to disable depth rendering when the distance is under the boundary</description>
 <key>campaign_citybar_distance_depth_render_boundary</key>
 <value>30</value>
@@ -311,17 +311,17 @@
 <key>campaign_citybar_height</key>
 <value>1</value>
 </_kv_ui_tweakers>
-<_kv_ui_tweakers record_uuid="{38d9f28d-71f6-45b1-9c0d-efbc6fa3bbc6}" record_timestamp="1550231653019" record_key="campaign_citybar_height_depth_render_boundary">
+<_kv_ui_tweakers record_uuid="{38d9f28d-71f6-45b1-9c0d-efbc6fa3bbc6}" record_timestamp="1551784598840" record_key="campaign_citybar_height_depth_render_boundary">
 <description>If the camera gets above this height from the terrain, it stops depth rendering</description>
 <key>campaign_citybar_height_depth_render_boundary</key>
 <value>40</value>
 </_kv_ui_tweakers>
-<_kv_ui_tweakers record_uuid="{854269d3-321b-40b5-851e-118b46dd47ec}" record_timestamp="1550231183199" record_key="campaign_citybar_height_offset">
+<_kv_ui_tweakers record_uuid="{854269d3-321b-40b5-851e-118b46dd47ec}" record_timestamp="1551784598839" record_key="campaign_citybar_height_offset">
 <description>The height offset of the citybar (i.e. how far from the floor)</description>
 <key>campaign_citybar_height_offset</key>
 <value>0</value>
 </_kv_ui_tweakers>
-<_kv_ui_tweakers record_uuid="{92eaeafe-6a6e-4758-9a3f-72e6903cec15}" record_timestamp="1550231183199" record_key="campaign_citybar_offset_multiplier">
+<_kv_ui_tweakers record_uuid="{92eaeafe-6a6e-4758-9a3f-72e6903cec15}" record_timestamp="1551784598839" record_key="campaign_citybar_offset_multiplier">
 <description>Sets the offset of the city bar from the centre of the settlement (deprecated for database entry)</description>
 <key>campaign_citybar_offset_multiplier</key>
 <value>2</value>
@@ -376,7 +376,7 @@
 <key>campaign_floating_ui_mid_fade_start</key>
 <value>150</value>
 </_kv_ui_tweakers>
-<_kv_ui_tweakers record_uuid="{7196c9b0-ffa1-4d6a-a458-9bec9b13794d}" record_timestamp="1550757702089" record_key="campaign_floating_ui_supply_bar_max">
+<_kv_ui_tweakers record_uuid="{7196c9b0-ffa1-4d6a-a458-9bec9b13794d}" record_timestamp="1551785395650" record_key="campaign_floating_ui_supply_bar_max">
 <description>The theoretical max of the supply system in 3k (and future games?) so we can resize bars accordingly</description>
 <key>campaign_floating_ui_supply_bar_max</key>
 <value>200</value>
@@ -386,12 +386,12 @@
 <key>campaign_map_pin_height</key>
 <value>0</value>
 </_kv_ui_tweakers>
-<_kv_ui_tweakers record_uuid="{e0b9035e-b0fa-463e-9f0d-4e5e4ac019f0}" record_timestamp="1552465329207" record_key="campaign_pre_battle_even_force_strength_max_percentage">
+<_kv_ui_tweakers record_uuid="{e0b9035e-b0fa-463e-9f0d-4e5e4ac019f0}" record_timestamp="1554882876469" record_key="campaign_pre_battle_even_force_strength_max_percentage">
 <description>sets the maximum percentage of relative combat strength that will make the UI display that we have an even force strength</description>
 <key>campaign_pre_battle_even_force_strength_max_percentage</key>
 <value>0.550000011920929</value>
 </_kv_ui_tweakers>
-<_kv_ui_tweakers record_uuid="{5b77a4e3-e5c8-460c-925d-e0163f78ceb0}" record_timestamp="1552465329195" record_key="campaign_pre_battle_even_force_strength_min_percentage">
+<_kv_ui_tweakers record_uuid="{5b77a4e3-e5c8-460c-925d-e0163f78ceb0}" record_timestamp="1554882876468" record_key="campaign_pre_battle_even_force_strength_min_percentage">
 <description>sets the minimum percentage of relative combat strength that will make the UI display that we have an even force strength</description>
 <key>campaign_pre_battle_even_force_strength_min_percentage</key>
 <value>0.44999998807907104</value>

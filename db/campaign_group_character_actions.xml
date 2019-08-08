@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_group_character_actions.xsd" export_time="Mon Feb 25 18:08:33 2019" revision="17" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1352/dave" export_user="bob">
-<edit_uuid>bda32e1d-47d0-4144-a10b-b120b3b6f55c</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_group_character_actions.xsd" export_time="Mon Jul 1 11:00:55 2019" revision="20" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1550/dave" export_user="bob">
+<edit_uuid>fb21850a-da77-4e3a-9df5-7ef55c34921c</edit_uuid>
 <campaign_group_character_actions record_uuid="{ca80d70d-b7e9-4382-80a6-9398d5b2469f}" record_timestamp="1527699959493" record_key="3k_main_campaign_group_political_action_adopt">
 <allowed_times_per_character_per_turn>1</allowed_times_per_character_per_turn>
 <campaign_group>3k_main_campaign_group_political_action_adopt</campaign_group>
 <payload>3k_main_campaign_payload_character_action_adopt</payload>
 <shared_allowed_times_per_turn></shared_allowed_times_per_turn>
 <ui_record>3k_main_campaign_group_political_action_adopt</ui_record>
+</campaign_group_character_actions>
+<campaign_group_character_actions record_uuid="{aa7952cc-3ad2-4914-ad52-452d1a4d59ff}" record_timestamp="1561975255348" record_key="3k_main_campaign_group_political_action_arrange_marriage">
+<allowed_times_per_character_per_turn>1</allowed_times_per_character_per_turn>
+<campaign_group>3k_main_campaign_group_political_action_arrange_marriage</campaign_group>
+<payload>3k_main_campaign_payload_character_action_arrange_marriage</payload>
+<shared_allowed_times_per_turn></shared_allowed_times_per_turn>
+<ui_record>3k_main_campaign_group_political_action_arrange_marriage</ui_record>
 </campaign_group_character_actions>
 <campaign_group_character_actions record_uuid="{4495d95d-acd7-4725-9d2b-622bb4741723}" record_timestamp="1539174040308" record_key="3k_main_campaign_group_political_action_assign_as_heir">
 <allowed_times_per_character_per_turn>1</allowed_times_per_character_per_turn>
@@ -85,7 +92,7 @@
 <shared_allowed_times_per_turn></shared_allowed_times_per_turn>
 <ui_record>3k_main_campaign_group_political_action_marry</ui_record>
 </campaign_group_character_actions>
-<campaign_group_character_actions record_uuid="{65cd130c-34d3-406c-bb6c-48765a290885}" record_timestamp="1551118107616" record_key="3k_main_campaign_group_political_action_recall_assignment">
+<campaign_group_character_actions record_uuid="{65cd130c-34d3-406c-bb6c-48765a290885}" record_timestamp="1551788094059" record_key="3k_main_campaign_group_political_action_recall_assignment">
 <allowed_times_per_character_per_turn>1</allowed_times_per_character_per_turn>
 <campaign_group>3k_main_campaign_group_political_action_recall_assignment</campaign_group>
 <payload>3k_main_campaign_payload_character_action_call_back_assignment</payload>
@@ -294,5 +301,40 @@
 <payload>3k_main_campaign_payload_political_action_wealth_increase_dong_zhuo_8_to_9</payload>
 <shared_allowed_times_per_turn></shared_allowed_times_per_turn>
 <ui_record>3k_main_campaign_group_political_action_wealth_increase</ui_record>
+</campaign_group_character_actions>
+<campaign_group_character_actions record_uuid="{f09e6c80-520d-4aa8-9e5f-6d4b2f9774ed}" record_timestamp="1559669720607" record_key="ep_campaign_group_character_action_gift">
+<allowed_times_per_character_per_turn>1</allowed_times_per_character_per_turn>
+<campaign_group>ep_campaign_group_character_action_gift</campaign_group>
+<payload>ep_campaign_payload_political_action_gift</payload>
+<shared_allowed_times_per_turn></shared_allowed_times_per_turn>
+<ui_record>ep_character_action_ui_info_sima_wei_gift</ui_record>
+</campaign_group_character_actions>
+<campaign_group_character_actions record_uuid="{c8bb9cc6-e6ab-4b42-9c28-65c44ed942fa}" record_timestamp="1559838492324" record_key="ep_campaign_group_political_action_banish_sima_jiong_remove_tier_1">
+<allowed_times_per_character_per_turn>1</allowed_times_per_character_per_turn>
+<campaign_group>ep_campaign_group_political_action_banish_sima_jiong_remove_tier_1</campaign_group>
+<payload>ep_campaign_payload_character_action_remove_tier_1</payload>
+<shared_allowed_times_per_turn>shared_execute_limit</shared_allowed_times_per_turn>
+<ui_record>ep_campaign_group_political_action_banish_sima_jiong</ui_record>
+</campaign_group_character_actions>
+<campaign_group_character_actions record_uuid="{cbafdebe-0afb-4f0a-a6ef-86e1c33ca900}" record_timestamp="1559838492241" record_key="ep_campaign_group_political_action_banish_sima_jiong_remove_tier_2">
+<allowed_times_per_character_per_turn>1</allowed_times_per_character_per_turn>
+<campaign_group>ep_campaign_group_political_action_banish_sima_jiong_remove_tier_2</campaign_group>
+<payload>ep_campaign_payload_character_action_remove_tier_2</payload>
+<shared_allowed_times_per_turn>shared_execute_limit</shared_allowed_times_per_turn>
+<ui_record>ep_campaign_group_political_action_banish_sima_jiong</ui_record>
+</campaign_group_character_actions>
+<campaign_group_character_actions record_uuid="{46f1d12a-c0bb-4f64-9a3f-5e2ace55f744}" record_timestamp="1559838492283" record_key="ep_campaign_group_political_action_banish_sima_jiong_remove_tier_3">
+<allowed_times_per_character_per_turn>1</allowed_times_per_character_per_turn>
+<campaign_group>ep_campaign_group_political_action_banish_sima_jiong_remove_tier_3</campaign_group>
+<payload>ep_campaign_payload_character_action_remove_tier_3</payload>
+<shared_allowed_times_per_turn>shared_execute_limit</shared_allowed_times_per_turn>
+<ui_record>ep_campaign_group_political_action_banish_sima_jiong</ui_record>
+</campaign_group_character_actions>
+<campaign_group_character_actions record_uuid="{1e46fcda-bfc4-404a-b31c-62e07a8f1b45}" record_timestamp="1559838492188" record_key="ep_campaign_group_political_action_banish_sima_jiong_remove_tier_4">
+<allowed_times_per_character_per_turn>1</allowed_times_per_character_per_turn>
+<campaign_group>ep_campaign_group_political_action_banish_sima_jiong_remove_tier_4</campaign_group>
+<payload>ep_campaign_payload_character_action_remove_tier_4</payload>
+<shared_allowed_times_per_turn>shared_execute_limit</shared_allowed_times_per_turn>
+<ui_record>ep_campaign_group_political_action_banish_sima_jiong</ui_record>
 </campaign_group_character_actions>
 </dataroot>

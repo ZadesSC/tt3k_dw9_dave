@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cdir_event_diplomatic_condition_factions.xsd" export_time="Wed Mar 6 12:23:53 2019" revision="7" export_branch="C:/Users/Nicolas.Graber/AppData/Roaming/TWDaemon/1369/dave" export_user="bob">
-<edit_uuid>a9da5f6a-455a-4a6f-8f3f-66d79da44352</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cdir_event_diplomatic_condition_factions.xsd" export_time="Fri Jul 5 14:27:23 2019" revision="9" export_branch="C:/Users/william.wright/AppData/Roaming/TWDaemon/1566/dave" export_user="bob">
+<edit_uuid>708553df-dca0-4100-be2b-cbbeaaaf15ba</edit_uuid>
+<cdir_event_diplomatic_condition_factions record_uuid="{3d368feb-c208-4931-961c-f6907ca1c655}" record_timestamp="1562333240080" record_key="diplomatic_condition_alliance_empire_of_jinep_faction_empire_of_jin">
+<diplomatic_condition>diplomatic_condition_alliance_empire_of_jin</diplomatic_condition>
+<faction>ep_faction_empire_of_jin</faction>
+</cdir_event_diplomatic_condition_factions>
+<cdir_event_diplomatic_condition_factions record_uuid="{b2ef5308-ee29-449f-adb6-3814565ee76c}" record_timestamp="1562333240120" record_key="diplomatic_condition_coalition_empire_of_jinep_faction_empire_of_jin">
+<diplomatic_condition>diplomatic_condition_coalition_empire_of_jin</diplomatic_condition>
+<faction>ep_faction_empire_of_jin</faction>
+</cdir_event_diplomatic_condition_factions>
+<cdir_event_diplomatic_condition_factions record_uuid="{024b00ab-d7ab-4435-b189-c6fae530f615}" record_timestamp="1562333240090" record_key="diplomatic_condition_empire_of_jin_is_vassal_of_playerep_faction_empire_of_jin">
+<diplomatic_condition>diplomatic_condition_empire_of_jin_is_vassal_of_player</diplomatic_condition>
+<faction>ep_faction_empire_of_jin</faction>
+</cdir_event_diplomatic_condition_factions>
+<cdir_event_diplomatic_condition_factions record_uuid="{ad3f7b0f-69cf-4fa0-a4fb-1ee5910af31e}" record_timestamp="1562333240110" record_key="diplomatic_condition_military_access_empire_of_jinep_faction_empire_of_jin">
+<diplomatic_condition>diplomatic_condition_military_access_empire_of_jin</diplomatic_condition>
+<faction>ep_faction_empire_of_jin</faction>
+</cdir_event_diplomatic_condition_factions>
 <cdir_event_diplomatic_condition_factions record_uuid="{9f738fad-571e-48fd-a750-4dd2c4e76d1d}" record_timestamp="1531153876844" record_key="diplomatic_condition_military_allied_cao_cao3k_main_faction_cao_cao">
 <diplomatic_condition>diplomatic_condition_military_allied_cao_cao</diplomatic_condition>
 <faction>3k_main_faction_cao_cao</faction>
@@ -57,6 +73,10 @@
 <diplomatic_condition>diplomatic_condition_military_allied_zheng_jiang</diplomatic_condition>
 <faction>3k_main_faction_zheng_jiang</faction>
 </cdir_event_diplomatic_condition_factions>
+<cdir_event_diplomatic_condition_factions record_uuid="{596df94e-95b2-4a70-9a00-4bd6e49639dc}" record_timestamp="1562333240100" record_key="diplomatic_condition_non_aggression_empire_of_jinep_faction_empire_of_jin">
+<diplomatic_condition>diplomatic_condition_non_aggression_empire_of_jin</diplomatic_condition>
+<faction>ep_faction_empire_of_jin</faction>
+</cdir_event_diplomatic_condition_factions>
 <cdir_event_diplomatic_condition_factions record_uuid="{7335c6cf-635a-423f-bfff-1be5807c57fc}" record_timestamp="1519405959254" record_key="diplomatic_condition_war_3k_main_cao_cao3k_main_faction_cao_cao">
 <diplomatic_condition>diplomatic_condition_war_3k_main_cao_cao</diplomatic_condition>
 <faction>3k_main_faction_cao_cao</faction>
@@ -104,5 +124,9 @@
 <cdir_event_diplomatic_condition_factions record_uuid="{1e45fcd6-641d-4af7-a729-23cdbc440d73}" record_timestamp="1539170936175" record_key="diplomatic_condition_war_3k_main_zheng_jiang3k_main_faction_zheng_jiang">
 <diplomatic_condition>diplomatic_condition_war_3k_main_zheng_jiang</diplomatic_condition>
 <faction>3k_main_faction_zheng_jiang</faction>
+</cdir_event_diplomatic_condition_factions>
+<cdir_event_diplomatic_condition_factions record_uuid="{25c2e21e-bb76-4554-a027-1524032404a5}" record_timestamp="1561023529160" record_key="diplomatic_condition_war_ep_empire_of_jinep_faction_empire_of_jin">
+<diplomatic_condition>diplomatic_condition_war_ep_empire_of_jin</diplomatic_condition>
+<faction>ep_faction_empire_of_jin</faction>
 </cdir_event_diplomatic_condition_factions>
 </dataroot>

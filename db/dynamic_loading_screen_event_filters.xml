@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dynamic_loading_screen_event_filters.xsd" export_time="Fri Mar 8 14:06:22 2019" revision="9" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1369/dave" export_user="bob">
-<edit_uuid>c98d8c12-ce29-4c72-a656-763e0e2399af</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dynamic_loading_screen_event_filters.xsd" export_time="Tue May 7 13:09:11 2019" revision="9" export_branch="C:/Users/william.wright/AppData/Roaming/TWDaemon/1465/dave" export_user="bob">
+<edit_uuid>83d7ad0b-0865-4efe-a267-4e952a1e0caa</edit_uuid>
 <dynamic_loading_screen_event_filters record_uuid="{2d35afd2-7ba6-4d9d-8252-d7b025a348d2}" record_timestamp="1540293736957" record_key="1019521350">
 <event_id>emperor_declared_other_faction_one</event_id>
 <filter_condition>IS_SUBCULTURE_KEY_ANY_OF</filter_condition>
@@ -175,7 +175,7 @@
 <filter_params>3k_main_chinese</filter_params>
 <id>1382757320</id>
 </dynamic_loading_screen_event_filters>
-<dynamic_loading_screen_event_filters record_uuid="{ffe2023c-4b94-4646-b9c2-31ef86d6fca0}" record_timestamp="1552053979121" record_key="1386598813">
+<dynamic_loading_screen_event_filters record_uuid="{ffe2023c-4b94-4646-b9c2-31ef86d6fca0}" record_timestamp="1554882116134" record_key="1386598813">
 <event_id>war_with_one_faction</event_id>
 <filter_condition>IS_AT_WAR_WITH_GREATER_THAN_X_FACTIONS</filter_condition>
 <filter_params>3</filter_params>
@@ -216,6 +216,12 @@
 <filter_condition>IS_LOCAL_PLAYER</filter_condition>
 <filter_params></filter_params>
 <id>1465070981</id>
+</dynamic_loading_screen_event_filters>
+<dynamic_loading_screen_event_filters record_uuid="{db4c07c5-c58f-4230-8525-d84a282c979b}" record_timestamp="1557230951789" record_key="1487876817">
+<event_id>player_faction_rank_1</event_id>
+<filter_condition>IS_FACTION_KEY_NOT_ANY_OF</filter_condition>
+<filter_params>ep_faction_prince_of_runan,ep_faction_prince_of_zhao,ep_faction_prince_of_chu,ep_faction_prince_of_hejian,ep_faction_prince_of_changsha,ep_faction_prince_of_chengdu,ep_faction_prince_of_qi,ep_faction_prince_of_donghai</filter_params>
+<id>1487876817</id>
 </dynamic_loading_screen_event_filters>
 <dynamic_loading_screen_event_filters record_uuid="{9498022c-084f-4dbc-baa9-6d8f97b8a223}" record_timestamp="1529424795221" record_key="1498136958">
 <event_id>player_vassalized</event_id>
@@ -342,6 +348,12 @@
 <filter_condition>IS_LOCAL_PLAYER</filter_condition>
 <filter_params></filter_params>
 <id>1762697960</id>
+</dynamic_loading_screen_event_filters>
+<dynamic_loading_screen_event_filters record_uuid="{7f45c527-e0ae-4cc4-a67a-602ffef6b8d8}" record_timestamp="1557230951789" record_key="17927851">
+<event_id>player_faction_rank_4</event_id>
+<filter_condition>IS_FACTION_KEY_NOT_ANY_OF</filter_condition>
+<filter_params>ep_faction_prince_of_runan,ep_faction_prince_of_zhao,ep_faction_prince_of_chu,ep_faction_prince_of_hejian,ep_faction_prince_of_changsha,ep_faction_prince_of_chengdu,ep_faction_prince_of_qi,ep_faction_prince_of_donghai</filter_params>
+<id>17927851</id>
 </dynamic_loading_screen_event_filters>
 <dynamic_loading_screen_event_filters record_uuid="{88cec447-5ce2-420a-8cfa-23f03b5950b5}" record_timestamp="1529424195058" record_key="1794804047">
 <event_id>player_character_wounded_rank_greater_than_x</event_id>
@@ -474,6 +486,12 @@
 <filter_condition>IS_NOT_LOCAL_PLAYER</filter_condition>
 <filter_params></filter_params>
 <id>2051289867</id>
+</dynamic_loading_screen_event_filters>
+<dynamic_loading_screen_event_filters record_uuid="{a3bdd4fc-c778-47b9-8d94-433bcbcfab6a}" record_timestamp="1557230951789" record_key="205846256">
+<event_id>player_faction_rank_3</event_id>
+<filter_condition>IS_FACTION_KEY_NOT_ANY_OF</filter_condition>
+<filter_params>ep_faction_prince_of_runan,ep_faction_prince_of_zhao,ep_faction_prince_of_chu,ep_faction_prince_of_hejian,ep_faction_prince_of_changsha,ep_faction_prince_of_chengdu,ep_faction_prince_of_qi,ep_faction_prince_of_donghai</filter_params>
+<id>205846256</id>
 </dynamic_loading_screen_event_filters>
 <dynamic_loading_screen_event_filters record_uuid="{ecddadc7-84e6-4277-a482-ddb36ca3a61a}" record_timestamp="1529424795222" record_key="2058610113">
 <event_id>player_faction_character_dies_rank_greater_than_x</event_id>
@@ -703,7 +721,7 @@
 <filter_params></filter_params>
 <id>587790631</id>
 </dynamic_loading_screen_event_filters>
-<dynamic_loading_screen_event_filters record_uuid="{e2b8faff-deda-47f8-8583-a3a1b0f3804f}" record_timestamp="1552050771284" record_key="595945014">
+<dynamic_loading_screen_event_filters record_uuid="{e2b8faff-deda-47f8-8583-a3a1b0f3804f}" record_timestamp="1554882112912" record_key="595945014">
 <event_id>war_with_two_factions</event_id>
 <filter_condition>IS_AT_WAR_WITH_LESS_THAN_X_FACTIONS</filter_condition>
 <filter_params>11</filter_params>
@@ -810,6 +828,12 @@
 <filter_condition>IS_FACTION_KEY_ANY_OF</filter_condition>
 <filter_params>3k_main_faction_dong_zhuo</filter_params>
 <id>787115408</id>
+</dynamic_loading_screen_event_filters>
+<dynamic_loading_screen_event_filters record_uuid="{ec36795f-5ad9-41f0-a813-cdb05a3d52a2}" record_timestamp="1557230951789" record_key="790588134">
+<event_id>player_faction_rank_2</event_id>
+<filter_condition>IS_FACTION_KEY_NOT_ANY_OF</filter_condition>
+<filter_params>ep_faction_prince_of_runan,ep_faction_prince_of_zhao,ep_faction_prince_of_chu,ep_faction_prince_of_hejian,ep_faction_prince_of_changsha,ep_faction_prince_of_chengdu,ep_faction_prince_of_qi,ep_faction_prince_of_donghai</filter_params>
+<id>790588134</id>
 </dynamic_loading_screen_event_filters>
 <dynamic_loading_screen_event_filters record_uuid="{4ee020e3-bbf9-4398-a78b-aa524953870f}" record_timestamp="1529424195060" record_key="803515464">
 <event_id>player_faction_proxy_war</event_id>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="settlement_siege_action_effect_cost_resource_transaction_conversion_factors.xsd" export_time="Wed Mar 27 17:36:15 2019" revision="9" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1406/dave" export_user="bob">
-<edit_uuid>f82534e7-9d34-48b5-9020-91ef98f0ec43</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="settlement_siege_action_effect_cost_resource_transaction_conversion_factors.xsd" export_time="Wed Jul 24 17:05:21 2019" revision="11" export_branch="C:/Users/william.wright/AppData/Roaming/TWDaemon/1600/dave" export_user="bob">
+<edit_uuid>17079248-6ca3-4491-b7dc-5b62c1ca90f9</edit_uuid>
 <settlement_siege_action_effect_cost_resource_transaction_conversion_factors record_uuid="{d5ee61df-66b7-4e4e-b20c-4ba150c28f4c}" record_timestamp="1548663842862" record_key="3k_main_siege_population_dong_zhuo_treasury_intimidation_conversion3k_main_pooled_factor_population_post_siege">
 <conversion>3k_main_siege_population_dong_zhuo_treasury_intimidation_conversion</conversion>
 <from_factor>3k_main_pooled_factor_population_post_siege</from_factor>
@@ -18,6 +18,24 @@
 <to_factor>3k_main_pooled_factor_intimidation_razed_settlements</to_factor>
 <to_resource>3k_main_pooled_resource_intimidation</to_resource>
 <ui_transaction_info>3k_main_resource_transaction_ui_info_post_siege_raze_dong_zhuo_attacker_intimidation_faction</ui_transaction_info>
+</settlement_siege_action_effect_cost_resource_transaction_conversion_factors>
+<settlement_siege_action_effect_cost_resource_transaction_conversion_factors record_uuid="{fa844589-3df3-4412-a10d-e6248ee7bf34}" record_timestamp="1559669711197" record_key="3k_main_siege_population_sima_wei_treasury_fury_conversion3k_main_pooled_factor_population_post_siege">
+<conversion>3k_main_siege_population_sima_wei_treasury_fury_conversion</conversion>
+<from_factor>3k_main_pooled_factor_population_post_siege</from_factor>
+<rate>-5</rate>
+<scope>FACTION</scope>
+<to_factor></to_factor>
+<to_resource></to_resource>
+<ui_transaction_info></ui_transaction_info>
+</settlement_siege_action_effect_cost_resource_transaction_conversion_factors>
+<settlement_siege_action_effect_cost_resource_transaction_conversion_factors record_uuid="{d1b791c9-352f-4bef-96f5-d42f289cda18}" record_timestamp="1559669711034" record_key="3k_main_siege_population_sima_wei_treasury_fury_conversion3k_main_pooled_factor_population_post_siegeep_pooled_factor_sima_wei_post_siegeep_pooled_resource_sima_wei">
+<conversion>3k_main_siege_population_sima_wei_treasury_fury_conversion</conversion>
+<from_factor>3k_main_pooled_factor_population_post_siege</from_factor>
+<rate>-0.05000000074505806</rate>
+<scope>FACTION</scope>
+<to_factor>ep_pooled_factor_sima_wei_post_siege</to_factor>
+<to_resource>ep_pooled_resource_sima_wei</to_resource>
+<ui_transaction_info>ep_resource_transaction_ui_info_victory_sima_wei</ui_transaction_info>
 </settlement_siege_action_effect_cost_resource_transaction_conversion_factors>
 <settlement_siege_action_effect_cost_resource_transaction_conversion_factors record_uuid="{9ad792af-a41a-4394-aae2-8049b4aa1d2e}" record_timestamp="1548418659049" record_key="3k_main_siege_population_treasury_conversion3k_main_pooled_factor_population_post_siege">
 <conversion>3k_main_siege_population_treasury_conversion</conversion>
@@ -45,5 +63,23 @@
 <to_factor>3k_main_pooled_factor_infamy_from_conquest</to_factor>
 <to_resource>3k_main_pooled_resource_infamy</to_resource>
 <ui_transaction_info>3k_main_resource_transaction_ui_info_conquest_major_zheng_jiang</ui_transaction_info>
+</settlement_siege_action_effect_cost_resource_transaction_conversion_factors>
+<settlement_siege_action_effect_cost_resource_transaction_conversion_factors record_uuid="{28428fdb-1d7d-45c6-ba75-b1726d006f3b}" record_timestamp="1561027488028" record_key="ep_siege_population_sima_liang_treasury_jurisdiction_conversion3k_main_pooled_factor_population_post_siege">
+<conversion>ep_siege_population_sima_liang_treasury_jurisdiction_conversion</conversion>
+<from_factor>3k_main_pooled_factor_population_post_siege</from_factor>
+<rate>-5</rate>
+<scope>FACTION</scope>
+<to_factor></to_factor>
+<to_resource></to_resource>
+<ui_transaction_info></ui_transaction_info>
+</settlement_siege_action_effect_cost_resource_transaction_conversion_factors>
+<settlement_siege_action_effect_cost_resource_transaction_conversion_factors record_uuid="{b8b1fa8d-bd35-4a04-b0dc-cd23fbdd9901}" record_timestamp="1561031417995" record_key="ep_siege_population_sima_liang_treasury_jurisdiction_conversion3k_main_pooled_factor_population_post_siegeep_pooled_factor_jurisdiction_siegeep_pooled_resource_sima_liang_jurisdiction">
+<conversion>ep_siege_population_sima_liang_treasury_jurisdiction_conversion</conversion>
+<from_factor>3k_main_pooled_factor_population_post_siege</from_factor>
+<rate>0.05000000074505806</rate>
+<scope>FACTION</scope>
+<to_factor>ep_pooled_factor_jurisdiction_siege</to_factor>
+<to_resource>ep_pooled_resource_sima_liang_jurisdiction</to_resource>
+<ui_transaction_info>ep_resource_transaction_ui_info_jurisdiction</ui_transaction_info>
 </settlement_siege_action_effect_cost_resource_transaction_conversion_factors>
 </dataroot>

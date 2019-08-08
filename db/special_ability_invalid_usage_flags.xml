@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="special_ability_invalid_usage_flags.xsd" export_time="Fri Apr 12 11:45:55 2019" revision="139" export_branch="T:/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>bfe7083e-3897-4e7f-a5d4-35779a3711a5</edit_uuid>
-<special_ability_invalid_usage_flags record_uuid="{099c673f-9783-4018-91be-37a655e0ee47}" record_timestamp="1554803884639" record_key="all_brothers_alive">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="special_ability_invalid_usage_flags.xsd" export_time="Thu May 2 11:00:14 2019" revision="136" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1465/dave" export_user="bob">
+<edit_uuid>d18ec6b5-080d-421e-b6a5-75757ecd3815</edit_uuid>
+<special_ability_invalid_usage_flags record_uuid="{099c673f-9783-4018-91be-37a655e0ee47}" record_timestamp="1531488315413" record_key="all_brothers_alive">
 <alt_description state="APPROVED" last_approved_text="All oathsworn dead" last_edit_user="bob">All oathsworn dead</alt_description>
 <flag_description state="APPROVED" last_approved_text="All oathsworn alive" last_edit_user="bob">All oathsworn alive</flag_description>
 <flag_key>all_brothers_alive</flag_key>
 </special_ability_invalid_usage_flags>
-<special_ability_invalid_usage_flags record_uuid="{7403206d-0def-48b2-bea6-0b9acbd6ef7f}" record_timestamp="1554803884639" record_key="all_brothers_dead">
+<special_ability_invalid_usage_flags record_uuid="{7403206d-0def-48b2-bea6-0b9acbd6ef7f}" record_timestamp="1532016543463" record_key="all_brothers_dead">
 <alt_description state="APPROVED" last_approved_text="All oathsworn alive" last_edit_user="bob">All oathsworn alive</alt_description>
 <flag_description state="APPROVED" last_approved_text="All oathsworn dead" last_edit_user="bob">All oathsworn dead</flag_description>
 <flag_key>all_brothers_dead</flag_key>
@@ -92,7 +92,7 @@
 <flag_key>embarked_on_a_ship</flag_key>
 </special_ability_invalid_usage_flags>
 <special_ability_invalid_usage_flags record_uuid="{7a89be4a-ddba-4194-8448-097ff95e2cd0}" record_timestamp="1477992610527" record_key="enemies_in_intercept_range">
-<alt_description state="APPROVED" last_approved_text="Targets in range" last_edit_user="bob">Targets in range</alt_description>
+<alt_description state="APPROVED" last_approved_text="No enemies in range" last_edit_user="bob">No enemies in range</alt_description>
 <flag_description state="APPROVED" last_approved_text="Targets out of range" last_edit_user="bob">Targets out of range</flag_description>
 <flag_key>enemies_in_intercept_range</flag_key>
 </special_ability_invalid_usage_flags>
@@ -546,7 +546,7 @@
 <flag_description state="APPROVED" last_approved_text="Cannot reach" last_edit_user="bob">Cannot reach</flag_description>
 <flag_key>z[DONT_USE]unit_cannot_reach_target</flag_key>
 </special_ability_invalid_usage_flags>
-<special_ability_invalid_usage_flags record_uuid="{f40d3aad-d6c8-48a0-aa18-39fdd75154ca}" record_timestamp="1554733189574" record_key="z[DONT_USE]unit_not_enough_entities_for_formation">
+<special_ability_invalid_usage_flags record_uuid="{f40d3aad-d6c8-48a0-aa18-39fdd75154ca}" record_timestamp="1554888182707" record_key="z[DONT_USE]unit_not_enough_entities_for_formation">
 <alt_description></alt_description>
 <flag_description state="APPROVED" last_approved_text="This unit does not have enough troops to adopt this formation" last_edit_user="bob">This unit does not have enough troops to adopt this formation</flag_description>
 <flag_key>z[DONT_USE]unit_not_enough_entities_for_formation</flag_key>

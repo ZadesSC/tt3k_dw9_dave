@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="audio_entity_types.xsd" export_time="Mon May 13 16:55:14 2019" revision="137" export_branch="T:/branches/3k/patch1/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>388b54bd-da34-46d7-963a-24ac637cd6cf</edit_uuid>
-<audio_entity_types record_uuid="{b9d8b114-40d1-4dcc-934c-ad5ce8ec5939}" record_timestamp="1552996057561" record_key="3K_Horse_Fauna">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="audio_entity_types.xsd" export_time="Mon Jul 29 10:05:51 2019" revision="139" export_branch="T:/branches/3k/eight/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>1261c63c-3d1b-4b3c-bebc-7513552e8ab3</edit_uuid>
+<audio_entity_types record_uuid="{b9d8b114-40d1-4dcc-934c-ad5ce8ec5939}" record_timestamp="1554885030706" record_key="3K_Horse_Fauna">
 <actor_type></actor_type>
 <attenuation_scale>1</attenuation_scale>
 <charging_random_vocalisation></charging_random_vocalisation>
@@ -36,10 +36,45 @@
 <triggers_cinematic>0</triggers_cinematic>
 <walking_random_vocalisation>3K_Horse_Normal_Walking</walking_random_vocalisation>
 </audio_entity_types>
-<audio_entity_types record_uuid="{5c6d847d-520a-4237-9c79-ad1e79956798}" record_timestamp="1513088424048" record_key="3K_Horse_Normal">
+<audio_entity_types record_uuid="{c02a8f96-6edf-4a1a-a18d-96c182ec7e99}" record_timestamp="1564391151420" record_key="3K_Horse_Heavy">
 <actor_type></actor_type>
 <attenuation_scale>1</attenuation_scale>
-<charging_random_vocalisation></charging_random_vocalisation>
+<charging_random_vocalisation>3K_Horse_Normal_Charging</charging_random_vocalisation>
+<combat_random_vocalisation>3K_Horse_Normal_Combat</combat_random_vocalisation>
+<drowning_random_vocalisation></drowning_random_vocalisation>
+<fatigued_idle_random_vocalisation>3K_Horse_Normal_Idle</fatigued_idle_random_vocalisation>
+<fatigued_moving_random_vocalisation>3K_Horse_Normal_Running</fatigued_moving_random_vocalisation>
+<game_expansion_key>core</game_expansion_key>
+<group_flying_idle></group_flying_idle>
+<group_flying_moving></group_flying_moving>
+<group_idle></group_idle>
+<group_melee_armour_override></group_melee_armour_override>
+<group_movement>3k_grp_movement_horse</group_movement>
+<group_movement_armour_override>3k_grp_foley_movement_horse_segmented</group_movement_armour_override>
+<idle_looping_sound></idle_looping_sound>
+<idle_random_vocalisation>3K_Horse_Normal_Idle</idle_random_vocalisation>
+<key>3K_Horse_Heavy</key>
+<limitation>medium</limitation>
+<material>wood</material>
+<mounted_idle_random_sound></mounted_idle_random_sound>
+<mounted_moving_fast_random_sound></mounted_moving_fast_random_sound>
+<mounted_moving_random_sound></mounted_moving_random_sound>
+<mounted_stopping_random_sound></mounted_stopping_random_sound>
+<moving_looping_sound></moving_looping_sound>
+<musician_event>Battle_Musician_Event</musician_event>
+<only_uses_material>0</only_uses_material>
+<rotating_looping_sound></rotating_looping_sound>
+<running_random_vocalisation>3K_Horse_Normal_Running</running_random_vocalisation>
+<sphere_of_influence_combat></sphere_of_influence_combat>
+<sphere_of_influence_default></sphere_of_influence_default>
+<switch></switch>
+<triggers_cinematic>0</triggers_cinematic>
+<walking_random_vocalisation>3K_Horse_Normal_Walking</walking_random_vocalisation>
+</audio_entity_types>
+<audio_entity_types record_uuid="{5c6d847d-520a-4237-9c79-ad1e79956798}" record_timestamp="1564391139297" record_key="3K_Horse_Normal">
+<actor_type></actor_type>
+<attenuation_scale>1</attenuation_scale>
+<charging_random_vocalisation>3K_Horse_Normal_Charging</charging_random_vocalisation>
 <combat_random_vocalisation>3K_Horse_Normal_Combat</combat_random_vocalisation>
 <drowning_random_vocalisation></drowning_random_vocalisation>
 <fatigued_idle_random_vocalisation>3K_Horse_Normal_Idle</fatigued_idle_random_vocalisation>

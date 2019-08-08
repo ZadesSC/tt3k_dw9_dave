@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="audio_battle_environment_one_shots.xsd" export_time="Wed Jan 9 16:54:40 2019" revision="16" export_branch="T:/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>d50bd66d-55e9-4e78-8683-98bfaac2bc20</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="audio_battle_environment_one_shots.xsd" export_time="Fri Jul 26 10:52:48 2019" revision="17" export_branch="T:/branches/3k/eight/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>0c9b31c1-8c56-4245-b9c6-56ca011b51f3</edit_uuid>
 <audio_battle_environment_one_shots record_uuid="{a042e15d-bc59-4664-b41c-3335a8163b65}" record_timestamp="1524565166662" record_key="Coastal_Wildlife_Bird_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Coastal_Bird_Oneshots_Play</event>
-<max_distance>60</max_distance>
-<max_height>40</max_height>
+<max_distance>300</max_distance>
+<max_height>75</max_height>
 <max_time>15</max_time>
 <min_distance>20</min_distance>
 <min_height>10</min_height>
@@ -17,10 +17,10 @@
 <audio_battle_environment_one_shots record_uuid="{fb75afe8-d7b4-4f66-8e95-cb97d2b29cc2}" record_timestamp="1524565166662" record_key="Coastal_Wildlife_Distant_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Coastal_Distant_Oneshots_Play</event>
-<max_distance>60</max_distance>
+<max_distance>300</max_distance>
 <max_height>40</max_height>
 <max_time>15</max_time>
-<min_distance>20</min_distance>
+<min_distance>50</min_distance>
 <min_height>10</min_height>
 <min_time>10</min_time>
 <name>Coastal_Wildlife_Distant_Oneshots</name>
@@ -28,13 +28,13 @@
 <required_intensity>0.2</required_intensity>
 </audio_battle_environment_one_shots>
 <audio_battle_environment_one_shots record_uuid="{b5d88d9a-671d-42c8-9a0c-4af790824375}" record_timestamp="1524565166662" record_key="Coastal_Wildlife_Insect_Oneshots">
-<can_weather_disable>0</can_weather_disable>
+<can_weather_disable>1</can_weather_disable>
 <event>Battle_Environment_Wildlife_Coastal_Insect_Oneshots_Play</event>
 <max_distance>60</max_distance>
-<max_height>40</max_height>
+<max_height>30</max_height>
 <max_time>15</max_time>
-<min_distance>20</min_distance>
-<min_height>10</min_height>
+<min_distance>5</min_distance>
+<min_height>0</min_height>
 <min_time>10</min_time>
 <name>Coastal_Wildlife_Insect_Oneshots</name>
 <probability>1</probability>
@@ -43,7 +43,7 @@
 <audio_battle_environment_one_shots record_uuid="{d401889e-efd0-4396-8d61-b978e88eb722}" record_timestamp="1524565166662" record_key="Coastal_Wildlife_Mammal_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Coastal_Mammal_Oneshots_Play</event>
-<max_distance>60</max_distance>
+<max_distance>300</max_distance>
 <max_height>40</max_height>
 <max_time>15</max_time>
 <min_distance>20</min_distance>
@@ -56,8 +56,8 @@
 <audio_battle_environment_one_shots record_uuid="{1b4d479d-5995-4a02-aa5e-d10edc148528}" record_timestamp="1524565159410" record_key="Forest_Wildlife_Bird_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Forest_Bird_Oneshots_Play</event>
-<max_distance>60</max_distance>
-<max_height>40</max_height>
+<max_distance>300</max_distance>
+<max_height>60</max_height>
 <max_time>15</max_time>
 <min_distance>20</min_distance>
 <min_height>10</min_height>
@@ -69,10 +69,10 @@
 <audio_battle_environment_one_shots record_uuid="{098ebeff-91e0-40c8-8fe9-037139352cfa}" record_timestamp="1524565159410" record_key="Forest_Wildlife_Distant_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Forest_Distant_Oneshots_Play</event>
-<max_distance>60</max_distance>
+<max_distance>300</max_distance>
 <max_height>40</max_height>
 <max_time>15</max_time>
-<min_distance>20</min_distance>
+<min_distance>50</min_distance>
 <min_height>10</min_height>
 <min_time>10</min_time>
 <name>Forest_Wildlife_Distant_Oneshots</name>
@@ -80,13 +80,13 @@
 <required_intensity>0.2</required_intensity>
 </audio_battle_environment_one_shots>
 <audio_battle_environment_one_shots record_uuid="{0ac375cc-86c1-4d7d-896f-f989c7053fdd}" record_timestamp="1524565159410" record_key="Forest_Wildlife_Insect_Oneshots">
-<can_weather_disable>0</can_weather_disable>
+<can_weather_disable>1</can_weather_disable>
 <event>Battle_Environment_Wildlife_Forest_Insect_Oneshots_Play</event>
 <max_distance>60</max_distance>
-<max_height>40</max_height>
+<max_height>30</max_height>
 <max_time>15</max_time>
-<min_distance>20</min_distance>
-<min_height>10</min_height>
+<min_distance>5</min_distance>
+<min_height>0</min_height>
 <min_time>10</min_time>
 <name>Forest_Wildlife_Insect_Oneshots</name>
 <probability>1</probability>
@@ -95,7 +95,7 @@
 <audio_battle_environment_one_shots record_uuid="{48156fdd-84bf-456a-a5d9-814b844e655a}" record_timestamp="1524565159410" record_key="Forest_Wildlife_Mammal_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Forest_Mammal_Oneshots_Play</event>
-<max_distance>60</max_distance>
+<max_distance>300</max_distance>
 <max_height>40</max_height>
 <max_time>15</max_time>
 <min_distance>20</min_distance>
@@ -108,8 +108,8 @@
 <audio_battle_environment_one_shots record_uuid="{497051ba-ca2a-440a-853d-720eac9dbfb1}" record_timestamp="1524565147457" record_key="Freshwater_Wildlife_Bird_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Freshwater_Bird_Oneshots_Play</event>
-<max_distance>60</max_distance>
-<max_height>40</max_height>
+<max_distance>300</max_distance>
+<max_height>60</max_height>
 <max_time>15</max_time>
 <min_distance>20</min_distance>
 <min_height>10</min_height>
@@ -121,10 +121,10 @@
 <audio_battle_environment_one_shots record_uuid="{9df33a08-866a-4f77-96b1-29142a3ba543}" record_timestamp="1524565147457" record_key="Freshwater_Wildlife_Distant_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Freshwater_Distant_Oneshots_Play</event>
-<max_distance>60</max_distance>
+<max_distance>300</max_distance>
 <max_height>40</max_height>
 <max_time>15</max_time>
-<min_distance>20</min_distance>
+<min_distance>50</min_distance>
 <min_height>10</min_height>
 <min_time>10</min_time>
 <name>Freshwater_Wildlife_Distant_Oneshots</name>
@@ -132,13 +132,13 @@
 <required_intensity>0.2</required_intensity>
 </audio_battle_environment_one_shots>
 <audio_battle_environment_one_shots record_uuid="{c0456c98-cfa4-459b-aa0e-cafef3dabf72}" record_timestamp="1524565147457" record_key="Freshwater_Wildlife_Insect_Oneshots">
-<can_weather_disable>0</can_weather_disable>
+<can_weather_disable>1</can_weather_disable>
 <event>Battle_Environment_Wildlife_Freshwater_Insect_Oneshots_Play</event>
 <max_distance>60</max_distance>
-<max_height>40</max_height>
+<max_height>30</max_height>
 <max_time>15</max_time>
-<min_distance>20</min_distance>
-<min_height>10</min_height>
+<min_distance>5</min_distance>
+<min_height>0</min_height>
 <min_time>10</min_time>
 <name>Freshwater_Wildlife_Insect_Oneshots</name>
 <probability>1</probability>
@@ -147,7 +147,7 @@
 <audio_battle_environment_one_shots record_uuid="{9607d9cf-6318-4de6-ae93-42868f895ff4}" record_timestamp="1524565147457" record_key="Freshwater_Wildlife_Mammal_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Freshwater_Mammal_Oneshots_Play</event>
-<max_distance>60</max_distance>
+<max_distance>300</max_distance>
 <max_height>40</max_height>
 <max_time>15</max_time>
 <min_distance>20</min_distance>
@@ -160,7 +160,7 @@
 <audio_battle_environment_one_shots record_uuid="{2b5b1d6d-bce8-4057-8a18-8e6ef840e2e1}" record_timestamp="1524565147457" record_key="Freshwater_Wildlife_Reptile_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Freshwater_Reptile_Oneshots_Play</event>
-<max_distance>60</max_distance>
+<max_distance>40</max_distance>
 <max_height>40</max_height>
 <max_time>15</max_time>
 <min_distance>20</min_distance>
@@ -173,8 +173,8 @@
 <audio_battle_environment_one_shots record_uuid="{e827e291-be45-4c4e-9f68-82ef456b12d9}" record_timestamp="1524565120781" record_key="Plains_Wildlife_Bird_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Plains_Bird_Oneshots_Play</event>
-<max_distance>60</max_distance>
-<max_height>40</max_height>
+<max_distance>300</max_distance>
+<max_height>60</max_height>
 <max_time>15</max_time>
 <min_distance>20</min_distance>
 <min_height>10</min_height>
@@ -186,10 +186,10 @@
 <audio_battle_environment_one_shots record_uuid="{82d8beda-2705-4b2a-af9c-605065e8570a}" record_timestamp="1524565120781" record_key="Plains_Wildlife_Distant_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Plains_Distant_Oneshots_Play</event>
-<max_distance>60</max_distance>
+<max_distance>300</max_distance>
 <max_height>40</max_height>
 <max_time>15</max_time>
-<min_distance>20</min_distance>
+<min_distance>50</min_distance>
 <min_height>10</min_height>
 <min_time>10</min_time>
 <name>Plains_Wildlife_Distant_Oneshots</name>
@@ -197,12 +197,12 @@
 <required_intensity>0.2</required_intensity>
 </audio_battle_environment_one_shots>
 <audio_battle_environment_one_shots record_uuid="{a1ec6962-5294-40f4-8540-6e14508dfa1f}" record_timestamp="1524565120781" record_key="Plains_Wildlife_Insect_Oneshots">
-<can_weather_disable>0</can_weather_disable>
+<can_weather_disable>1</can_weather_disable>
 <event>Battle_Environment_Wildlife_Plains_Insect_Oneshots_Play</event>
 <max_distance>60</max_distance>
-<max_height>40</max_height>
+<max_height>30</max_height>
 <max_time>15</max_time>
-<min_distance>20</min_distance>
+<min_distance>5</min_distance>
 <min_height>0</min_height>
 <min_time>10</min_time>
 <name>Plains_Wildlife_Insect_Oneshots</name>
@@ -212,7 +212,7 @@
 <audio_battle_environment_one_shots record_uuid="{ff4931f1-09db-448d-be69-e5a44febb1e3}" record_timestamp="1524565120781" record_key="Plains_Wildlife_Mammal_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Plains_Mammal_Oneshots_Play</event>
-<max_distance>60</max_distance>
+<max_distance>300</max_distance>
 <max_height>40</max_height>
 <max_time>15</max_time>
 <min_distance>20</min_distance>
@@ -225,8 +225,8 @@
 <audio_battle_environment_one_shots record_uuid="{445f1686-607d-4917-97fa-49802bd8d429}" record_timestamp="1524565097439" record_key="Urban_Wildlife_Bird_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Urban_Bird_Oneshots_Play</event>
-<max_distance>60</max_distance>
-<max_height>40</max_height>
+<max_distance>300</max_distance>
+<max_height>60</max_height>
 <max_time>15</max_time>
 <min_distance>20</min_distance>
 <min_height>10</min_height>
@@ -238,10 +238,10 @@
 <audio_battle_environment_one_shots record_uuid="{ee4c66b0-653a-47f0-bc78-0050be3c16cf}" record_timestamp="1524565097439" record_key="Urban_Wildlife_Distant_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Urban_Distant_Oneshots_Play</event>
-<max_distance>60</max_distance>
+<max_distance>300</max_distance>
 <max_height>40</max_height>
 <max_time>15</max_time>
-<min_distance>20</min_distance>
+<min_distance>50</min_distance>
 <min_height>10</min_height>
 <min_time>10</min_time>
 <name>Urban_Wildlife_Distant_Oneshots</name>
@@ -249,13 +249,13 @@
 <required_intensity>0.2</required_intensity>
 </audio_battle_environment_one_shots>
 <audio_battle_environment_one_shots record_uuid="{0a6124d7-1fd1-41c1-aaf8-a688da6d955e}" record_timestamp="1524565097439" record_key="Urban_Wildlife_Insect_Oneshots">
-<can_weather_disable>0</can_weather_disable>
+<can_weather_disable>1</can_weather_disable>
 <event>Battle_Environment_Wildlife_Urban_Insect_Oneshots_Play</event>
 <max_distance>60</max_distance>
-<max_height>40</max_height>
+<max_height>30</max_height>
 <max_time>15</max_time>
-<min_distance>20</min_distance>
-<min_height>10</min_height>
+<min_distance>5</min_distance>
+<min_height>0</min_height>
 <min_time>10</min_time>
 <name>Urban_Wildlife_Insect_Oneshots</name>
 <probability>1</probability>
@@ -264,7 +264,7 @@
 <audio_battle_environment_one_shots record_uuid="{32bd3888-f33a-416f-abac-58da4808e4cb}" record_timestamp="1524565069973" record_key="Urban_Wildlife_Mammal_Oneshots">
 <can_weather_disable>0</can_weather_disable>
 <event>Battle_Environment_Wildlife_Urban_Mammal_Oneshots_Play</event>
-<max_distance>60</max_distance>
+<max_distance>300</max_distance>
 <max_height>40</max_height>
 <max_time>15</max_time>
 <min_distance>20</min_distance>

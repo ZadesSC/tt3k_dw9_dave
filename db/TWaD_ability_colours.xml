@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE TWaD_ability_colours>
 <root>
-<edit_uuid>dae06183-e6f0-428c-a92c-a3606d3432dd</edit_uuid>
+<edit_uuid>6405dc9a-8477-4d95-a318-e41b2ef14413</edit_uuid>
 <include_all_records_in_retail>1</include_all_records_in_retail>
 <field>
 <field_uuid>{392f443c-91bf-4edf-9572-b0436c0049bf}</field_uuid>
@@ -34,6 +34,16 @@
 <max_length>255</max_length>
 <column_source_column>key</column_source_column>
 <column_source_table>ui_colours</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{11c6a642-3d40-43f9-8dc7-801250e5c935}</field_uuid>
+<primary_key>0</primary_key>
+<name>audio_element_switch_name</name>
+<field_type>text</field_type>
+<required>0</required>
+<max_length>255</max_length>
 <requires_startpos_reprocess>0</requires_startpos_reprocess>
 <requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
 </field>

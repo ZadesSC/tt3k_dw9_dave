@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="special_ability_animations.xsd" export_time="Wed Jan 30 18:26:08 2019" revision="31" export_branch="C:/Users/attila.mohacsi/AppData/Roaming/TWDaemon/1305/dave" export_user="bob">
-<edit_uuid>60a51c82-f675-487c-8f5d-e1f8434ca839</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="special_ability_animations.xsd" export_time="Wed Jul 10 09:42:21 2019" revision="54" export_branch="C:/Users/william.wright/AppData/Roaming/TWDaemon/1574/dave" export_user="bob">
+<edit_uuid>03bf5601-e3dc-46b7-86a6-a92e36f5d5db</edit_uuid>
+<special_ability_animations record_uuid="{9c50a84a-4e98-4719-8e13-7a40ba747187}" record_timestamp="1562588023997" record_key="ability_arrow_stormtruefalsefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>0</infantry>
+<spliced>0</spliced>
+<stance>ability_arrow_storm</stance>
+<trigger>ability_arrowstorm_cav</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{18d3589a-766b-4cc4-b46d-8552e05d81ce}" record_timestamp="1560264019911" record_key="ability_arrow_stormtruefalsetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_arrow_storm</stance>
+<trigger>ability_arrowsstorm_inf</trigger>
+</special_ability_animations>
 <special_ability_animations record_uuid="{3e11f6a7-42e7-4c01-81c8-405511002dfd}" record_timestamp="1522312886601" record_key="ability_arrowshotfalsefalsefalsefalse">
 <cavalry>0</cavalry>
 <enemy_reaction></enemy_reaction>
@@ -27,6 +45,24 @@
 <spliced>0</spliced>
 <stance>ability_arrowshot</stance>
 <trigger>ability_arrowshot_inf</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{5abd017c-3755-4a2c-a3a3-3217c2b91672}" record_timestamp="1562588023997" record_key="ability_assassinatetruefalsefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>0</infantry>
+<spliced>0</spliced>
+<stance>ability_assassinate</stance>
+<trigger>ability_assassinate_cav</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{152e8886-dd20-4fe3-a8c1-c69afb2072a7}" record_timestamp="1560264019928" record_key="ability_assassinatetruefalsetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_assassinate</stance>
+<trigger>ability_assassinate_inf</trigger>
 </special_ability_animations>
 <special_ability_animations record_uuid="{b35e7ddf-9ca8-4aba-9043-deb722f69f07}" record_timestamp="1541846051291" record_key="ability_bindingfuryfalsetruefalsetrue">
 <cavalry>1</cavalry>
@@ -55,6 +91,33 @@
 <stance>ability_bindingfury</stance>
 <trigger>ability_bindingfury_inf</trigger>
 </special_ability_animations>
+<special_ability_animations record_uuid="{ace4dcf7-47f4-4678-86c1-f261f19dfee8}" record_timestamp="1562588023998" record_key="ability_blood_rushfalsetruefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>0</fullbody>
+<infantry>0</infantry>
+<spliced>1</spliced>
+<stance>ability_blood_rush</stance>
+<trigger>ability_bloodrush_cav_splice</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{184f5e17-8ae2-464f-9cbb-ee75322e0a9d}" record_timestamp="1562588023997" record_key="ability_blood_rushtruefalsefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>0</infantry>
+<spliced>0</spliced>
+<stance>ability_blood_rush</stance>
+<trigger>ability_bloodrush_cav</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{4840d86e-58f5-4520-b7b2-5abfc4333ffa}" record_timestamp="1561122447034" record_key="ability_blood_rushtruefalsetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_blood_rush</stance>
+<trigger>ability_bloodrush_inf</trigger>
+</special_ability_animations>
 <special_ability_animations record_uuid="{5d681bf8-b917-40ff-88eb-43beabc6119d}" record_timestamp="1533408917129" record_key="ability_bowshotfalsetruefalsetrue">
 <cavalry>1</cavalry>
 <enemy_reaction></enemy_reaction>
@@ -72,6 +135,42 @@
 <spliced>0</spliced>
 <stance>ability_bowshot</stance>
 <trigger>ability_bowshot_inf</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{6bc68f70-fabd-421b-8801-eb084aef898c}" record_timestamp="1562588023997" record_key="ability_cleansing_auratruefalsefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>0</infantry>
+<spliced>0</spliced>
+<stance>ability_cleansing_aura</stance>
+<trigger>ability_cleansingaura_cav</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{19d5ee7b-88e4-4b74-8f98-08fbd06c52b5}" record_timestamp="1561122446999" record_key="ability_cleansing_auratruefalsetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_cleansing_aura</stance>
+<trigger>ability_cleansingaura_inf</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{7987e01b-84ef-4596-a3b5-71a602896849}" record_timestamp="1562588023997" record_key="ability_clear_a_pathtruefalsefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>0</infantry>
+<spliced>0</spliced>
+<stance>ability_clear_a_path</stance>
+<trigger>ability_clearapath_cav</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{5655e7e6-1cb0-4677-88bf-6e35ec96355a}" record_timestamp="1561122446929" record_key="ability_clear_a_pathtruefalsetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_clear_a_path</stance>
+<trigger>ability_clearapath_inf</trigger>
 </special_ability_animations>
 <special_ability_animations record_uuid="{bf484831-baf9-4edc-81e8-b7075a67385d}" record_timestamp="1516204007883" record_key="ability_condemnedhowltruefalsefalsetrue">
 <cavalry>1</cavalry>
@@ -109,6 +208,33 @@
 <stance>ability_directionalshout</stance>
 <trigger>ability_directionalshout_inf</trigger>
 </special_ability_animations>
+<special_ability_animations record_uuid="{00a12dba-6d1f-4fff-8720-3fcc1a5020d7}" record_timestamp="1562588023998" record_key="ability_double_strikefalsetruefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>0</fullbody>
+<infantry>0</infantry>
+<spliced>1</spliced>
+<stance>ability_double_strike</stance>
+<trigger>ability_doublestrike_cav_splice</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{5026198b-6e6c-479f-89b1-0b0d91aca2ea}" record_timestamp="1562588023997" record_key="ability_double_striketruefalsefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>0</infantry>
+<spliced>0</spliced>
+<stance>ability_double_strike</stance>
+<trigger>ability_doublestrike_cav</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{dc36b002-0006-49f5-9e4b-1d1e6eec17e8}" record_timestamp="1561122446845" record_key="ability_double_striketruefalsetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_double_strike</stance>
+<trigger>ability_doublestrike_inf</trigger>
+</special_ability_animations>
 <special_ability_animations record_uuid="{c886ce42-6eec-4df5-9a5a-e48adce4cb17}" record_timestamp="1527594177245" record_key="ability_earthshatteringstriketruefalsefalsetrue">
 <cavalry>1</cavalry>
 <enemy_reaction></enemy_reaction>
@@ -127,6 +253,42 @@
 <stance>ability_earthshatteringstrike</stance>
 <trigger>ability_earthshatteringstrike_inf</trigger>
 </special_ability_animations>
+<special_ability_animations record_uuid="{0d6c9bbc-b9d9-4745-b07d-ddb0a1ba662b}" record_timestamp="1562748141995" record_key="ability_fire_bombfalsetruetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>0</fullbody>
+<infantry>1</infantry>
+<spliced>1</spliced>
+<stance>ability_fire_bomb</stance>
+<trigger>ability_firebomb_inf</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{694f1f29-2c66-4ac1-902c-f423090bc719}" record_timestamp="1562748141995" record_key="ability_fire_bombfalsetruetruetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>0</fullbody>
+<infantry>1</infantry>
+<spliced>1</spliced>
+<stance>ability_fire_bomb</stance>
+<trigger>ability_firebomb_cav</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{37644df5-24fa-448a-bd77-d9f9a7c702c3}" record_timestamp="1561122446879" record_key="ability_fire_bombtruefalsetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_fire_bomb</stance>
+<trigger>ability_firebomb_inf</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{c5549900-d924-4f84-b139-ab9bb9fbe769}" record_timestamp="1562588023997" record_key="ability_fire_bombtruefalsetruetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_fire_bomb</stance>
+<trigger>ability_firebomb_cav</trigger>
+</special_ability_animations>
 <special_ability_animations record_uuid="{b0c4addf-a01b-4089-85ff-294231a32793}" record_timestamp="1516204007911" record_key="ability_flamesofthephoenixtruefalsefalsetrue">
 <cavalry>1</cavalry>
 <enemy_reaction></enemy_reaction>
@@ -144,6 +306,24 @@
 <spliced>0</spliced>
 <stance>ability_flamesofthephoenix</stance>
 <trigger>ability_flamesofthephoenix_inf</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{903e0319-5092-4c0f-b5c2-12cc6fba6301}" record_timestamp="1562588023997" record_key="ability_flaming_furytruefalsefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>0</infantry>
+<spliced>0</spliced>
+<stance>ability_flaming_fury</stance>
+<trigger>ability_flamingfury_cav</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{b454690c-dc47-4daa-993f-ac6a8de361e2}" record_timestamp="1561122446895" record_key="ability_flaming_furytruefalsetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_flaming_fury</stance>
+<trigger>ability_flamingfury_inf</trigger>
 </special_ability_animations>
 <special_ability_animations record_uuid="{61cf2bbd-fc3f-4832-8927-f24d5a1c5aab}" record_timestamp="1516285949626" record_key="ability_godofwartruefalsefalsetrue">
 <cavalry>1</cavalry>
@@ -235,6 +415,51 @@
 <stance>ability_inspiringwords</stance>
 <trigger>ability_inspiringwords_inf</trigger>
 </special_ability_animations>
+<special_ability_animations record_uuid="{c03c9d71-60e6-4eed-9ef0-e853d8000554}" record_timestamp="1551104221870" record_key="ability_multishotfalsetruefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>0</fullbody>
+<infantry>0</infantry>
+<spliced>1</spliced>
+<stance>ability_multishot</stance>
+<trigger>ability_bowshot_cav_splice</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{e22fdeb8-e587-4fa0-8a3c-234d3e653f63}" record_timestamp="1562588023997" record_key="ability_multishottruefalsefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>0</infantry>
+<spliced>0</spliced>
+<stance>ability_multishot</stance>
+<trigger>ability_multishot_cav</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{7f9ccf1c-fad2-48a2-9fe6-454a3cefcaac}" record_timestamp="1561122447016" record_key="ability_multishottruefalsetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_multishot</stance>
+<trigger>ability_multishot_inf</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{bfcf2022-3f07-49f9-87ed-2320667e8e9a}" record_timestamp="1562588023997" record_key="ability_palm_striketruefalsefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>0</infantry>
+<spliced>0</spliced>
+<stance>ability_palm_strike</stance>
+<trigger>ability_palmstrike_cav</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{ad9497ec-8352-4a58-afe4-ce7962c1c443}" record_timestamp="1561122446947" record_key="ability_palm_striketruefalsetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_palm_strike</stance>
+<trigger>ability_palmstrike_inf</trigger>
+</special_ability_animations>
 <special_ability_animations record_uuid="{1d629309-975b-4517-8f12-1d35427b2a92}" record_timestamp="1516204008074" record_key="ability_pointtotargettruefalsefalsetrue">
 <cavalry>1</cavalry>
 <enemy_reaction></enemy_reaction>
@@ -280,6 +505,33 @@
 <stance>ability_poisonblade</stance>
 <trigger>ability_poison_blade_inf</trigger>
 </special_ability_animations>
+<special_ability_animations record_uuid="{f062b67c-f1f7-4abc-96c4-7dc1cf9e5396}" record_timestamp="1551098459459" record_key="ability_precision_shotfalsetruefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>0</fullbody>
+<infantry>0</infantry>
+<spliced>1</spliced>
+<stance>ability_precision_shot</stance>
+<trigger>ability_bowshot_cav_splice</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{9bd348e1-b1c9-4257-925c-415cde602413}" record_timestamp="1562588023996" record_key="ability_precision_shottruefalsefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>0</infantry>
+<spliced>0</spliced>
+<stance>ability_precision_shot</stance>
+<trigger>ability_precissionshot_cav</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{e576f620-94b4-4275-af7e-0fb8520d42fd}" record_timestamp="1561122446964" record_key="ability_precision_shottruefalsetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_precision_shot</stance>
+<trigger>ability_precisionshot_inf</trigger>
+</special_ability_animations>
 <special_ability_animations record_uuid="{69f2b12a-ab86-47e9-b5e4-04ee6d2cc9f4}" record_timestamp="1516204008141" record_key="ability_rageoflubutruefalsefalsetrue">
 <cavalry>1</cavalry>
 <enemy_reaction></enemy_reaction>
@@ -297,6 +549,24 @@
 <spliced>0</spliced>
 <stance>ability_rageoflubu</stance>
 <trigger>ability_rageoflubu_inf</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{dc6e11fa-f645-4880-b97c-f27e9c170d09}" record_timestamp="1562588023997" record_key="ability_seismic_slamtruefalsefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>0</infantry>
+<spliced>0</spliced>
+<stance>ability_seismic_slam</stance>
+<trigger>ability_seismicslam_cav</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{e2fb3455-4adf-454b-95c7-1d207d0809ef}" record_timestamp="1561122446862" record_key="ability_seismic_slamtruefalsetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_seismic_slam</stance>
+<trigger>ability_seismicslam_inf</trigger>
 </special_ability_animations>
 <special_ability_animations record_uuid="{48ec5daf-3929-4593-ba9f-fbb0e8c08f16}" record_timestamp="1516204008118" record_key="ability_sightofthedragontruefalsefalsetrue">
 <cavalry>1</cavalry>
@@ -334,6 +604,33 @@
 <stance>ability_sunderingstrike</stance>
 <trigger>ability_sunderingstrike_inf</trigger>
 </special_ability_animations>
+<special_ability_animations record_uuid="{2d9b9caa-1d23-49d7-97bd-47f93fb120db}" record_timestamp="1562588023998" record_key="ability_sweeping_arcfalsetruefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>0</fullbody>
+<infantry>0</infantry>
+<spliced>1</spliced>
+<stance>ability_sweeping_arc</stance>
+<trigger>ability_sweepingarc_cav_splice</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{0bc79542-8154-4793-8d30-a7b06e1fb790}" record_timestamp="1562588023997" record_key="ability_sweeping_arctruefalsefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>0</infantry>
+<spliced>0</spliced>
+<stance>ability_sweeping_arc</stance>
+<trigger>ability_sweepingarc_cav</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{f3a24c4d-7175-4495-bd07-ef39a00688a5}" record_timestamp="1560264019945" record_key="ability_sweeping_arctruefalsetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_sweeping_arc</stance>
+<trigger>ability_sweepingarc_inf</trigger>
+</special_ability_animations>
 <special_ability_animations record_uuid="{57053920-de06-42e3-b92d-eda80d9d285f}" record_timestamp="1538655366390" record_key="ability_thedragonsgazefalsetruefalsetrue">
 <cavalry>1</cavalry>
 <enemy_reaction></enemy_reaction>
@@ -351,6 +648,51 @@
 <spliced>0</spliced>
 <stance>ability_thedragonsgaze</stance>
 <trigger>ability_thedragonsgaze_inf</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{865911e4-4356-425a-8e95-e30c643c0095}" record_timestamp="1562588023996" record_key="ability_time_of_needtruefalsefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>0</infantry>
+<spliced>0</spliced>
+<stance>ability_time_of_need</stance>
+<trigger>ability_timeofneed_cav</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{8d4bea95-fa5f-4610-822a-e5e7fa21855c}" record_timestamp="1561122446912" record_key="ability_time_of_needtruefalsetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_time_of_need</stance>
+<trigger>ability_timeofneed_inf</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{fc4cc47f-c8b9-425c-918b-ecd2fe94db17}" record_timestamp="1551086501343" record_key="ability_tripleshotfalsetruefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>0</fullbody>
+<infantry>0</infantry>
+<spliced>1</spliced>
+<stance>ability_tripleshot</stance>
+<trigger>ability_bowshot_cav_splice</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{b5b664e7-8497-4424-b46c-815b31200de2}" record_timestamp="1562588023997" record_key="ability_tripleshottruefalsefalsetrue">
+<cavalry>1</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>0</infantry>
+<spliced>0</spliced>
+<stance>ability_tripleshot</stance>
+<trigger>ability_tripleshot_cav</trigger>
+</special_ability_animations>
+<special_ability_animations record_uuid="{c156ffb5-c07c-475a-b566-e61d9f139096}" record_timestamp="1561122446982" record_key="ability_tripleshottruefalsetruefalse">
+<cavalry>0</cavalry>
+<enemy_reaction></enemy_reaction>
+<fullbody>1</fullbody>
+<infantry>1</infantry>
+<spliced>0</spliced>
+<stance>ability_tripleshot</stance>
+<trigger>ability_tripleshot_inf</trigger>
 </special_ability_animations>
 <special_ability_animations record_uuid="{cb85c916-7eea-4749-805f-2db694bc5c46}" record_timestamp="1516204008207" record_key="ability_whitewatertruefalsefalsetrue">
 <cavalry>1</cavalry>
