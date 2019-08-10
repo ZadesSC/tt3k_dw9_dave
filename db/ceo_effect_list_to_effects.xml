@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_effect_list_to_effects.xsd" export_time="Fri Aug 9 00:47:00 2019" revision="229" export_branch="E:/Games/Steam/SteamApps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>c0b04327-6b4e-4a6d-bf47-47c60c99424e</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_effect_list_to_effects.xsd" export_time="Sat Aug 10 14:28:16 2019" revision="230" export_branch="E:/Games/Steam/SteamApps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>6474f752-5d7c-4826-9b65-e5a02d00e6ac</edit_uuid>
 <ceo_effect_list_to_effects record_uuid="{3d33b248-5636-4bc9-b358-1937e08f30dd}" record_timestamp="1549445268729" record_key="1000426288">
 <auto_id>1000426288</auto_id>
 <effect>3k_main_effect_ai_hint_general</effect>
@@ -12777,6 +12777,14 @@
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>10</value>
 </ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{dbb117db-5a28-444d-a417-633be0173743}" record_timestamp="1565472495982" record_key="175352152">
+<auto_id>175352152</auto_id>
+<effect>3k_main_effect_character_attribute_authority_mod</effect>
+<effect_list>3k_main_ceo_node_career_historical_gao_shun_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>12</value>
+</ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{bfb89f84-d019-4414-9d1e-cb3d41974e86}" record_timestamp="1565336819301" record_key="1754859744">
 <auto_id>1754859744</auto_id>
 <effect>3k_main_effect_ai_hint_general</effect>
@@ -20929,13 +20937,13 @@
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>6</value>
 </ceo_effect_list_to_effects>
-<ceo_effect_list_to_effects record_uuid="{e84e3057-e737-4725-87d1-892517f41912}" record_timestamp="1565336818725" record_key="286316681">
+<ceo_effect_list_to_effects record_uuid="{e84e3057-e737-4725-87d1-892517f41912}" record_timestamp="1565472495991" record_key="286316681">
 <auto_id>286316681</auto_id>
-<effect>3k_main_effect_unit_stats_charge_bonus_abs_fire_units</effect>
+<effect>3k_main_skill_fire_charge_bonus</effect>
 <effect_list>3k_main_ceo_node_career_historical_gao_shun_01</effect_list>
-<effect_scope>character_minister_to_force_factionwide</effect_scope>
+<effect_scope>character_to_military_force_retinue_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
-<value>10</value>
+<value>15</value>
 </ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{530fc958-6447-4cb0-8e50-2d2f0044019e}" record_timestamp="1548782454464" record_key="286387840">
 <auto_id>286387840</auto_id>
@@ -21545,13 +21553,13 @@
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>8</value>
 </ceo_effect_list_to_effects>
-<ceo_effect_list_to_effects record_uuid="{0bd33a5d-6695-4535-bcf5-170d24aa06a1}" record_timestamp="1565336818720" record_key="323701842">
+<ceo_effect_list_to_effects record_uuid="{0bd33a5d-6695-4535-bcf5-170d24aa06a1}" record_timestamp="1565472495982" record_key="323701842">
 <auto_id>323701842</auto_id>
-<effect>3k_main_effect_character_attribute_expertise_mod</effect>
+<effect>3k_main_effect_character_attribute_cunning_mod</effect>
 <effect_list>3k_main_ceo_node_career_historical_gao_shun_01</effect_list>
 <effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
-<value>5</value>
+<value>-2</value>
 </ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{6df00b4e-663a-4008-ad9e-771fd35dcd1f}" record_timestamp="1554882390868" record_key="323831332">
 <auto_id>323831332</auto_id>
@@ -26681,13 +26689,13 @@
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>4</value>
 </ceo_effect_list_to_effects>
-<ceo_effect_list_to_effects record_uuid="{3d946cf4-963b-4908-87e4-0c5e3659f41a}" record_timestamp="1565336818722" record_key="619125530">
+<ceo_effect_list_to_effects record_uuid="{3d946cf4-963b-4908-87e4-0c5e3659f41a}" record_timestamp="1565472495982" record_key="619125530">
 <auto_id>619125530</auto_id>
 <effect>3k_main_effect_character_attribute_instinct_mod</effect>
 <effect_list>3k_main_ceo_node_career_historical_gao_shun_01</effect_list>
 <effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
-<value>15</value>
+<value>12</value>
 </ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{574b3862-3b26-44d9-ad5f-710aa5a00470}" record_timestamp="1549445268755" record_key="61934542">
 <auto_id>61934542</auto_id>
