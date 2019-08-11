@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="start_pos_character_relationship_triggers.xsd" export_time="Wed Mar 20 17:44:17 2019" revision="25" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1394/dave" export_user="bob">
-<edit_uuid>12118b43-0b06-49d0-aa95-49e5f60f7854</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="start_pos_character_relationship_triggers.xsd" export_time="Thu Aug 8 12:35:25 2019" revision="51" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>b4e15e3a-2568-4063-8632-67e1ab142042</edit_uuid>
 <start_pos_character_relationship_triggers record_uuid="{380f4919-9c0f-4ed6-bd88-a3cf673a1cc1}" record_timestamp="1544635799758" record_key="1004556456">
 <id>1004556456</id>
 <source>894519976</source>
@@ -31,11 +31,23 @@
 <target>1486824890</target>
 <triggers>3k_main_relationship_trigger_set_event_negative_insulted</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{34622b83-f553-497d-aa0c-07e44e865fc6}" record_timestamp="1564164381641" record_key="1012399231">
+<id>1012399231</id>
+<source>887528301</source>
+<target>1350568697</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{9ccbe679-19bd-4ce9-aa41-e9b14dbcea9c}" record_timestamp="1544635790030" record_key="1013315776">
 <id>1013315776</id>
 <source>1113641274</source>
 <target>2140784000</target>
 <triggers>3k_main_relationship_trigger_set_startpos_battle_opposing_victory_close</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{ddc408b7-d1cd-4f5a-8bc0-cf0414ccf5a3}" record_timestamp="1564164645083" record_key="1029318165">
+<id>1029318165</id>
+<source>1105701917</source>
+<target>2140783978</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{b117621a-d46f-41ad-8422-1dce2c65ddb0}" record_timestamp="1544635781840" record_key="1035107814">
 <id>1035107814</id>
@@ -65,6 +77,12 @@
 <id>1064142403</id>
 <source>2140784069</source>
 <target>1149342185</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{312d779d-1af9-4a8e-9f9a-ed94900ddeff}" record_timestamp="1564164645083" record_key="1075178918">
+<id>1075178918</id>
+<source>2140783978</source>
+<target>1105701917</target>
 <triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{28448357-9e61-47ba-be76-5c171dd7a0a0}" record_timestamp="1544635795404" record_key="1077728279">
@@ -109,6 +127,12 @@
 <target>305387243</target>
 <triggers>3k_main_relationship_trigger_set_event_positive_generic_extreme</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{f5719c85-aa41-497d-b27b-8fce2a02efbe}" record_timestamp="1565254070091" record_key="1114720565">
+<id>1114720565</id>
+<source>615546930</source>
+<target>2140783959</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{568c39c0-ce67-4992-9710-d2fb43501c2a}" record_timestamp="1552991329041" record_key="112064143">
 <id>112064143</id>
 <source>2140784002</source>
@@ -144,6 +168,12 @@
 <source>2140784069</source>
 <target>2140784119</target>
 <triggers>3k_main_relationship_trigger_set_event_negative_generic_large</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{0d6ee89b-d0b8-4248-b0ca-4c75ffc3a32e}" record_timestamp="1565195545795" record_key="1143232326">
+<id>1143232326</id>
+<source>1216807263</source>
+<target>743130055</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{353e8d7e-97be-4029-992c-8b10a13026fa}" record_timestamp="1544635795893" record_key="1147027036">
 <id>1147027036</id>
@@ -204,6 +234,12 @@
 <source>722285426</source>
 <target>1350568697</target>
 <triggers>3k_main_relationship_trigger_set_startpos_campaign_harmony_force</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{55c633bf-703f-4171-bd45-a108b7c80f01}" record_timestamp="1565195487288" record_key="1199600517">
+<id>1199600517</id>
+<source>1216807263</source>
+<target>2140836645</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_small</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{1393cd5d-0b11-43b5-8292-d0f56f31822e}" record_timestamp="1551712723652" record_key="1206288323">
 <id>1206288323</id>
@@ -271,6 +307,24 @@
 <target>1854567366</target>
 <triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{a9ed200e-d049-4251-81cd-c47c9cdb52b1}" record_timestamp="1565184942824" record_key="1283641791">
+<id>1283641791</id>
+<source>2140784093</source>
+<target>711589028</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{c2d84fb2-8a7c-4f1a-a033-42c57434b7d7}" record_timestamp="1565196166499" record_key="1296424209">
+<id>1296424209</id>
+<source>1216807263</source>
+<target>1623760014</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{53545703-5585-46f1-9321-e651e4d3e855}" record_timestamp="1565187930458" record_key="1301134486">
+<id>1301134486</id>
+<source>743130055</source>
+<target>1216807263</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{75d2eebb-417a-49de-8918-fc931e8fac61}" record_timestamp="1544635781041" record_key="1311588111">
 <id>1311588111</id>
 <source>1668156302</source>
@@ -283,11 +337,23 @@
 <target>2140784093</target>
 <triggers>3k_main_relationship_trigger_set_diplomacy_positive_large</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{e4ac69e7-02f5-4bd4-8842-2b7d76c4dca7}" record_timestamp="1564164381642" record_key="1321084">
+<id>1321084</id>
+<source>1350568697</source>
+<target>887528301</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{1d0480b3-7a15-4297-ae27-d8095ad92805}" record_timestamp="1544635787844" record_key="1321524501">
 <id>1321524501</id>
 <source>2140783968</source>
 <target>2098682105</target>
 <triggers>3k_main_relationship_trigger_set_startpos_battle_own_victory_heroic</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{c35c40f4-1cdc-438e-889f-668fe9792b42}" record_timestamp="1564159286159" record_key="1325576201">
+<id>1325576201</id>
+<source>2140836645</source>
+<target>2140784069</target>
+<triggers>3k_main_relationship_trigger_set_diplomacy_negative_medium</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{d99dea79-d50f-4e35-8d00-6fca21428560}" record_timestamp="1544635781545" record_key="1329318502">
 <id>1329318502</id>
@@ -391,6 +457,12 @@
 <target>2096858818</target>
 <triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{99b63502-eb38-47fc-aee6-3ec2ff1a5975}" record_timestamp="1564159286160" record_key="1446225029">
+<id>1446225029</id>
+<source>2140784069</source>
+<target>2140784119</target>
+<triggers>3k_main_relationship_trigger_set_diplomacy_positive_small</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{520a965e-113d-47ce-8507-8f129a4274b0}" record_timestamp="1544635795061" record_key="1450290043">
 <id>1450290043</id>
 <source>2140783984</source>
@@ -457,6 +529,12 @@
 <target>2140783978</target>
 <triggers>3k_main_relationship_trigger_set_diplomacy_declared_war</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{05db7a6c-a1a4-427e-9b0a-fcc8972b724d}" record_timestamp="1565264125646" record_key="1517224700">
+<id>1517224700</id>
+<source>2140784093</source>
+<target>1692071079</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{6576368d-d0a6-46f2-9251-37272da58a93}" record_timestamp="1550500672753" record_key="1519128435">
 <id>1519128435</id>
 <source>333687161</source>
@@ -468,6 +546,12 @@
 <source>2140784132</source>
 <target>131191467</target>
 <triggers>3k_main_relationship_trigger_set_startpos_battle_own_victory_close</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{483e0df5-40b4-40fe-b41e-dea14afed263}" record_timestamp="1564164021092" record_key="1521823247">
+<id>1521823247</id>
+<source>1350568697</source>
+<target>1316052190</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_dilemma_very_large</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{33f3520c-7b69-403b-a3dd-a8e448d458ef}" record_timestamp="1551712723684" record_key="1528388648">
 <id>1528388648</id>
@@ -481,6 +565,12 @@
 <target>1350568697</target>
 <triggers>3k_main_relationship_trigger_set_event_positive_generic_medium</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{7df16365-af61-42b9-ade3-c62489732cea}" record_timestamp="1565259811663" record_key="1544796823">
+<id>1544796823</id>
+<source>2140783959</source>
+<target>615546930</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{11188841-0b9f-4824-939b-49b8beec24b1}" record_timestamp="1544635801385" record_key="1545096948">
 <id>1545096948</id>
 <source>1277796932</source>
@@ -492,6 +582,12 @@
 <source>1128862551</source>
 <target>2140784119</target>
 <triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{569bd65c-29fe-48bd-900a-83853d0fd464}" record_timestamp="1565209344258" record_key="1555439722">
+<id>1555439722</id>
+<source>2140784093</source>
+<target>34547736</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{80f8f179-a220-4220-a4ef-895ed477a138}" record_timestamp="1544635781975" record_key="1555700139">
 <id>1555700139</id>
@@ -509,6 +605,12 @@
 <id>1571461127</id>
 <source>381382239</source>
 <target>2140783984</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{71836b26-c49e-4785-85b6-6687aa75d0db}" record_timestamp="1565187478772" record_key="1613878552">
+<id>1613878552</id>
+<source>1681642080</source>
+<target>711589028</target>
 <triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{d9d6454d-74ee-4d34-b572-514c70f390c6}" record_timestamp="1551810408940" record_key="1614800661">
@@ -571,6 +673,12 @@
 <target>536413128</target>
 <triggers>3k_main_relationship_trigger_set_event_positive_dilemma_small</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{4e8572dc-b25c-45e3-bd9c-97c51ef4bc14}" record_timestamp="1564164381642" record_key="1695664630">
+<id>1695664630</id>
+<source>2140783978</source>
+<target>887528301</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{118d64ef-b9ae-43f8-8acc-dd85fd8edef8}" record_timestamp="1544635795233" record_key="1702747791">
 <id>1702747791</id>
 <source>1316044076</source>
@@ -595,17 +703,23 @@
 <target>2096858818</target>
 <triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{1ada3b3c-5da1-406d-abea-31ce4742de56}" record_timestamp="1564422459357" record_key="1725799775">
+<id>1725799775</id>
+<source>613025843</source>
+<target>2140783968</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_dilemma_extreme</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{fac63aee-41ef-4c08-abfa-104956bc3e0b}" record_timestamp="1553103838524" record_key="1727032195">
 <id>1727032195</id>
 <source>894519976</source>
 <target>710791496</target>
 <triggers>3k_main_relationship_trigger_set_startpos_campaign_disharmony_force</triggers>
 </start_pos_character_relationship_triggers>
-<start_pos_character_relationship_triggers record_uuid="{175c3c0f-9e96-4355-9321-15aaa901b944}" record_timestamp="1544635807431" record_key="1727530367">
+<start_pos_character_relationship_triggers record_uuid="{175c3c0f-9e96-4355-9321-15aaa901b944}" record_timestamp="1564164021092" record_key="1727530367">
 <id>1727530367</id>
 <source>1350568697</source>
 <target>2140783978</target>
-<triggers>3k_main_relationship_trigger_set_startpos_battle_own_victory_decisive</triggers>
+<triggers>3k_main_relationship_trigger_set_event_positive_dilemma_very_large</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{cccd7726-01d5-462e-b4b8-34543bed8c38}" record_timestamp="1544635801303" record_key="1748003919">
 <id>1748003919</id>
@@ -618,6 +732,12 @@
 <source>2140783968</source>
 <target>367594677</target>
 <triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{d91cc76b-17f6-4385-a46d-ad8908560904}" record_timestamp="1565193319582" record_key="1758477480">
+<id>1758477480</id>
+<source>743130055</source>
+<target>1647727234</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{f1bad7e4-f0a4-4756-9654-039e10f1b99a}" record_timestamp="1544635781195" record_key="1780985477">
 <id>1780985477</id>
@@ -642,6 +762,12 @@
 <source>1851613557</source>
 <target>131191467</target>
 <triggers>3k_main_relationship_trigger_set_event_negative_generic_large</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{425a145b-b6dc-47d0-b7cf-ac6246d5f2dc}" record_timestamp="1565264113123" record_key="1823842267">
+<id>1823842267</id>
+<source>1692071079</source>
+<target>34547736</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{b62f8315-96ab-45ca-86c7-227fc6e42a66}" record_timestamp="1544635780962" record_key="1824448393">
 <id>1824448393</id>
@@ -691,6 +817,12 @@
 <target>1851613557</target>
 <triggers>3k_main_relationship_trigger_set_event_childhood_friends</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{22d638e5-16ec-4a08-9101-8520b887fb2f}" record_timestamp="1564159286160" record_key="190138105">
+<id>190138105</id>
+<source>2140784119</source>
+<target>2140784069</target>
+<triggers>3k_main_relationship_trigger_set_diplomacy_positive_small</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{36ce1741-1094-4ed9-a760-21611b509092}" record_timestamp="1551810408663" record_key="1901827661">
 <id>1901827661</id>
 <source>2140783978</source>
@@ -733,6 +865,12 @@
 <target>1623760014</target>
 <triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{eb7ed360-5019-45b9-aae2-584589ea80b2}" record_timestamp="1565264113123" record_key="1937047201">
+<id>1937047201</id>
+<source>1692071079</source>
+<target>982124271</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{339e6b99-a9b5-4345-8e0b-6fd0f520fa9f}" record_timestamp="1544635784146" record_key="1942115969">
 <id>1942115969</id>
 <source>2140784000</source>
@@ -749,6 +887,12 @@
 <id>1973848016</id>
 <source>1006058791</source>
 <target>999812433</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{2cf1e6e6-b09f-4c94-839f-35933ee936ba}" record_timestamp="1565264113122" record_key="1977953793">
+<id>1977953793</id>
+<source>1692071079</source>
+<target>2140784093</target>
 <triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{9e421968-0aa7-4e0c-86cd-89e8ed0683bf}" record_timestamp="1544635783853" record_key="1985520637">
@@ -810,6 +954,12 @@
 <source>2140784059</source>
 <target>679730381</target>
 <triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{5ccf3c0a-b26c-4130-bf13-3efc686e02c6}" record_timestamp="1565209321556" record_key="2033413062">
+<id>2033413062</id>
+<source>2140784093</source>
+<target>982124271</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{3af0b743-9472-4161-8e6a-8c78883865eb}" record_timestamp="1544635784450" record_key="2040126897">
 <id>2040126897</id>
@@ -877,6 +1027,12 @@
 <target>1819384032</target>
 <triggers>3k_main_relationship_trigger_set_startpos_battle_own_victory_close</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{288f3c07-8e23-400e-bf1f-180adb3afc3f}" record_timestamp="1565195545795" record_key="207749670">
+<id>207749670</id>
+<source>743130055</source>
+<target>1216807263</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_small</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{de633d1e-cb1e-41a8-8a8b-8c8678bed3d2}" record_timestamp="1544635788730" record_key="2077661536">
 <id>2077661536</id>
 <source>2140783959</source>
@@ -943,11 +1099,11 @@
 <target>2098682105</target>
 <triggers>3k_main_relationship_trigger_set_startpos_campaign_harmony_force</triggers>
 </start_pos_character_relationship_triggers>
-<start_pos_character_relationship_triggers record_uuid="{37ef185f-9979-4d56-995b-2763ce17bd3a}" record_timestamp="1544635789348" record_key="2138854273">
+<start_pos_character_relationship_triggers record_uuid="{37ef185f-9979-4d56-995b-2763ce17bd3a}" record_timestamp="1564164645082" record_key="2138854273">
 <id>2138854273</id>
 <source>2140783968</source>
 <target>305387243</target>
-<triggers>3k_main_relationship_trigger_set_startpos_event_positive_joined</triggers>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{5939ff05-0a84-456c-894e-4f15786ad07c}" record_timestamp="1544635793190" record_key="220015428">
 <id>220015428</id>
@@ -1003,6 +1159,12 @@
 <target>2096858818</target>
 <triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{9e70a362-0fbc-4203-b335-33d448e4ce42}" record_timestamp="1565254070091" record_key="270128745">
+<id>270128745</id>
+<source>615546930</source>
+<target>1734948628</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{d95f2d77-91bb-4028-810e-ca9823dd484b}" record_timestamp="1544635789948" record_key="273022183">
 <id>273022183</id>
 <source>2140784000</source>
@@ -1038,6 +1200,12 @@
 <source>2140784093</source>
 <target>2140784037</target>
 <triggers>3k_main_relationship_trigger_set_diplomacy_positive_allied</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{41a8f74a-aacc-4e15-ad1c-28c45b1d4d24}" record_timestamp="1565209321555" record_key="334976294">
+<id>334976294</id>
+<source>2140784093</source>
+<target>34547736</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{e3e9aa7f-ac0a-4f6f-9b31-e204a48e0db3}" record_timestamp="1544635785832" record_key="341444912">
 <id>341444912</id>
@@ -1153,6 +1321,12 @@
 <target>737339153</target>
 <triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{1f4931c1-d992-4802-ab25-e6a71c27887c}" record_timestamp="1565190355401" record_key="443409329">
+<id>443409329</id>
+<source>1734948628</source>
+<target>799205905</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{8a6aeee7-7971-4440-849e-a8c94e7847c0}" record_timestamp="1544635786853" record_key="446256175">
 <id>446256175</id>
 <source>2098682105</source>
@@ -1170,6 +1344,24 @@
 <source>2140783978</source>
 <target>391816055</target>
 <triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{5c5310d1-d03c-47bb-9730-21e5449b7c2a}" record_timestamp="1565264113122" record_key="479858371">
+<id>479858371</id>
+<source>1692071079</source>
+<target>711589028</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{c816748c-2586-4907-b8e5-2bfc9492383d}" record_timestamp="1565254070091" record_key="488217743">
+<id>488217743</id>
+<source>615546930</source>
+<target>799205905</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{a59a6529-0fab-4775-b2df-2d484da51150}" record_timestamp="1565195487288" record_key="510581000">
+<id>510581000</id>
+<source>1216807263</source>
+<target>1623760014</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_small</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{5f2d5222-65b5-4d71-9215-333703386485}" record_timestamp="1551712723628" record_key="513617095">
 <id>513617095</id>
@@ -1189,11 +1381,23 @@
 <target>1303409685</target>
 <triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{c86ee500-87b8-4248-a1a6-a05026e54927}" record_timestamp="1563691422085" record_key="541214486">
+<id>541214486</id>
+<source>1316052190</source>
+<target>1350568697</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{deb9730f-c690-4cbe-8c85-4606877061d6}" record_timestamp="1552991329041" record_key="546136173">
 <id>546136173</id>
 <source>2140784002</source>
 <target>371784088</target>
 <triggers>3k_main_relationship_trigger_set_event_positive_joined</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{26f77cc1-91e4-40d6-a876-8085c2744d88}" record_timestamp="1564159286160" record_key="548520285">
+<id>548520285</id>
+<source>2140784000</source>
+<target>2140784069</target>
+<triggers>3k_main_relationship_trigger_set_diplomacy_negative_medium</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{cf26a32d-ebf3-44fa-9886-35a39e337639}" record_timestamp="1544635784079" record_key="55418524">
 <id>55418524</id>
@@ -1218,6 +1422,12 @@
 <source>1990084285</source>
 <target>2140784034</target>
 <triggers>3k_main_relationship_trigger_set_startpos_campaign_harmony_master</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{6a5f5f1b-2266-4fde-b33f-28350965ce86}" record_timestamp="1565262009458" record_key="573432358">
+<id>573432358</id>
+<source>2140784002</source>
+<target>2126968185</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_extreme</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{57e4ea5c-a704-44bf-b349-87aaa0bde2de}" record_timestamp="1544635787402" record_key="574601337">
 <id>574601337</id>
@@ -1249,6 +1459,18 @@
 <target>1096920081</target>
 <triggers>3k_main_relationship_trigger_set_event_negative_generic_large</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{9043ccfc-a053-4aa7-bcc6-b4223f953cff}" record_timestamp="1565262009459" record_key="610828468">
+<id>610828468</id>
+<source>2126968185</source>
+<target>2140784002</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_extreme</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{c46ecba4-2fae-4be0-83ce-9e5dee761cd4}" record_timestamp="1564159286158" record_key="61116961">
+<id>61116961</id>
+<source>2140836645</source>
+<target>2140784119</target>
+<triggers>3k_main_relationship_trigger_set_diplomacy_negative_small</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{61c0660e-da51-442a-847e-4f77b3dfd7c1}" record_timestamp="1544635782181" record_key="611520999">
 <id>611520999</id>
 <source>2140836645</source>
@@ -1267,6 +1489,18 @@
 <target>1149342185</target>
 <triggers>3k_main_relationship_trigger_set_event_childhood_rivals</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{b23e7d79-2e3f-4f1c-ada4-548580d41e72}" record_timestamp="1565262009459" record_key="627830425">
+<id>627830425</id>
+<source>575331303</source>
+<target>2140784002</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_extreme</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{a08c92bf-749b-4b3a-b43d-bf5e3cad58ec}" record_timestamp="1564159286159" record_key="628764360">
+<id>628764360</id>
+<source>2140784069</source>
+<target>2140836645</target>
+<triggers>3k_main_relationship_trigger_set_diplomacy_negative_medium</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{19352594-341c-4d4c-b1b7-46fbf8ac4e6f}" record_timestamp="1544635787694" record_key="630017154">
 <id>630017154</id>
 <source>1928088788</source>
@@ -1279,6 +1513,12 @@
 <target>1350568697</target>
 <triggers>3k_main_relationship_trigger_set_startpos_battle_opposing_victory_decisive</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{e91238ba-edfc-489d-96e3-e912f92225e0}" record_timestamp="1565195487289" record_key="667138542">
+<id>667138542</id>
+<source>743130055</source>
+<target>2140784000</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_small</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{e41854ab-2143-4936-80ed-8f73b49900e9}" record_timestamp="1544635782113" record_key="669446148">
 <id>669446148</id>
 <source>2140784069</source>
@@ -1290,6 +1530,12 @@
 <source>668273994</source>
 <target>1486824890</target>
 <triggers>3k_main_relationship_trigger_set_startpos_battle_own_victory_close</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{24fa0540-2bd4-4ef5-8267-a530f67e4450}" record_timestamp="1565262009458" record_key="687744594">
+<id>687744594</id>
+<source>2140784002</source>
+<target>575331303</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_extreme</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{b492d5f3-6e04-4246-8f8f-d9f023faaf8f}" record_timestamp="1553103840281" record_key="688984649">
 <id>688984649</id>
@@ -1308,6 +1554,12 @@
 <source>1851613557</source>
 <target>1507580374</target>
 <triggers>3k_main_relationship_trigger_set_event_childhood_friends</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{ba2be62a-4b12-4408-8240-23108a6968a3}" record_timestamp="1564164381642" record_key="722410304">
+<id>722410304</id>
+<source>887528301</source>
+<target>2140783978</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{507b971c-e438-4b9b-9eca-e1dece4a2d44}" record_timestamp="1549302884378" record_key="722954588">
 <id>722954588</id>
@@ -1363,6 +1615,12 @@
 <target>1734948628</target>
 <triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{4ebc3340-33cb-4614-9b0c-68ffa0a74c1b}" record_timestamp="1565187436949" record_key="76094519">
+<id>76094519</id>
+<source>2140783959</source>
+<target>1410075717</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{ff965408-da90-45e4-83b6-664b2882d4b9}" record_timestamp="1544635782939" record_key="766291303">
 <id>766291303</id>
 <source>1062020535</source>
@@ -1381,11 +1639,11 @@
 <target>1623760014</target>
 <triggers>3k_main_relationship_trigger_set_startpos_campaign_harmony_family</triggers>
 </start_pos_character_relationship_triggers>
-<start_pos_character_relationship_triggers record_uuid="{a20418c2-8563-4e5c-a0e3-2f41df77828c}" record_timestamp="1544635794824" record_key="7918700">
+<start_pos_character_relationship_triggers record_uuid="{a20418c2-8563-4e5c-a0e3-2f41df77828c}" record_timestamp="1564164021092" record_key="7918700">
 <id>7918700</id>
 <source>2140783978</source>
 <target>1350568697</target>
-<triggers>3k_main_relationship_trigger_set_startpos_event_positive_joined</triggers>
+<triggers>3k_main_relationship_trigger_set_event_positive_dilemma_very_large</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{5aa9351b-32d7-4ba4-8fc2-b562d75d1e7a}" record_timestamp="1544635786336" record_key="792393111">
 <id>792393111</id>
@@ -1423,6 +1681,12 @@
 <target>1303150833</target>
 <triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{a5e7d38b-0bb1-4252-a1d1-f5194abf842f}" record_timestamp="1565264113123" record_key="818513936">
+<id>818513936</id>
+<source>1692071079</source>
+<target>1681642080</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{6a9a6ef5-0c9c-437a-8780-822fb7c3f49a}" record_timestamp="1544635788582" record_key="822733081">
 <id>822733081</id>
 <source>2140783978</source>
@@ -1441,10 +1705,22 @@
 <target>2140836645</target>
 <triggers>3k_main_relationship_trigger_set_startpos_campaign_harmony_family</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{88ec3517-e976-4695-aed0-3956548e3c1e}" record_timestamp="1565209344259" record_key="827125486">
+<id>827125486</id>
+<source>2140784093</source>
+<target>982124271</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{6883f94b-13f0-4271-b1c2-a6bfa0214619}" record_timestamp="1544635791987" record_key="83481075">
 <id>83481075</id>
 <source>1149342185</source>
 <target>1347396145</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{fa3524b4-651b-4004-af7f-d918756cd4dc}" record_timestamp="1565185401821" record_key="863539697">
+<id>863539697</id>
+<source>2140784093</source>
+<target>711589028</target>
 <triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{8c04c736-2444-4c0d-a3ca-92bd312d6bb0}" record_timestamp="1544635791074" record_key="873324371">
@@ -1464,6 +1740,12 @@
 <source>2140784002</source>
 <target>371784088</target>
 <triggers>3k_main_relationship_trigger_set_startpos_battle_own_victory_close</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{21fd547b-f2f7-45e7-ae60-10f13a46628c}" record_timestamp="1565087612497" record_key="895660825">
+<id>895660825</id>
+<source>2140783959</source>
+<target>1062020535</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_extreme</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{9c066ff7-443f-445e-8d85-94165ec25af1}" record_timestamp="1544635805023" record_key="898712238">
 <id>898712238</id>
@@ -1501,17 +1783,35 @@
 <target>1347396145</target>
 <triggers>3k_main_relationship_trigger_set_event_positive_generic_large</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{34e4540a-9622-4f4f-8c5b-5bc778fa4a18}" record_timestamp="1565259811663" record_key="952431042">
+<id>952431042</id>
+<source>2140783959</source>
+<target>799205905</target>
+<triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{eb6b57f8-765e-4537-b70e-1b06b9dc34c3}" record_timestamp="1544635783642" record_key="95266810">
 <id>95266810</id>
 <source>1006058791</source>
 <target>2140784002</target>
 <triggers>3k_main_relationship_trigger_set_startpos_family_member</triggers>
 </start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{f7d7ec86-2d92-45cb-a539-da42a05ad35f}" record_timestamp="1564159286159" record_key="955754242">
+<id>955754242</id>
+<source>2140784069</source>
+<target>2140784000</target>
+<triggers>3k_main_relationship_trigger_set_diplomacy_negative_medium</triggers>
+</start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{326ea17c-c544-4be5-844f-084b2be258e5}" record_timestamp="1544635795737" record_key="963655710">
 <id>963655710</id>
 <source>2140784002</source>
 <target>1326075740</target>
 <triggers>3k_main_relationship_trigger_set_startpos_event_positive_joined</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{528f00dd-cf4f-4fb2-87a7-ce4773041c85}" record_timestamp="1564422459357" record_key="965231899">
+<id>965231899</id>
+<source>305387243</source>
+<target>2140783968</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_dilemma_extreme</triggers>
 </start_pos_character_relationship_triggers>
 <start_pos_character_relationship_triggers record_uuid="{5487405b-2676-4e85-8a22-1bd7e5ae80e7}" record_timestamp="1544635799594" record_key="968298656">
 <id>968298656</id>
@@ -1547,6 +1847,12 @@
 <id>988182209</id>
 <source>2140783968</source>
 <target>2098682105</target>
+<triggers>3k_main_relationship_trigger_set_event_positive_generic_extreme</triggers>
+</start_pos_character_relationship_triggers>
+<start_pos_character_relationship_triggers record_uuid="{5c180d46-69c0-4e71-b66a-0023a158aebc}" record_timestamp="1565087612497" record_key="994509403">
+<id>994509403</id>
+<source>1062020535</source>
+<target>2140783959</target>
 <triggers>3k_main_relationship_trigger_set_event_positive_generic_extreme</triggers>
 </start_pos_character_relationship_triggers>
 </dataroot>
