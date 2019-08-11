@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_filter_elements.xsd" export_time="Tue Apr 23 09:03:38 2019" revision="112" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1446/client" export_user="bob">
-<edit_uuid>0b2f3155-3b43-4f1c-b784-8edba6bce35b</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_filter_elements.xsd" export_time="Thu Aug 1 12:16:24 2019" revision="106" export_branch="C:/Users/rick.venier/AppData/Roaming/TWDaemon/1615/dave" export_user="bob">
+<edit_uuid>569acc53-ad71-4396-a1cf-f7b12fa3ce03</edit_uuid>
+<campaign_diplomacy_filter_elements record_uuid="{23698949-6e85-438e-8ba3-476cbde2c3df}" record_timestamp="1563442960661" record_key="QUERY_&lt;parameter_1&gt;_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;varaiable_alliance&gt;parameter_1">
+<criteria>parameter_1</criteria>
+<filter>QUERY_&lt;parameter_1&gt;_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;varaiable_alliance&gt;</filter>
+<source>parameter_1</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{f58292cc-0810-4c9a-b85d-4e170346b6d3}" record_timestamp="1563442958292" record_key="QUERY_&lt;parameter_1&gt;_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;varaiable_alliance&gt;proposer">
+<criteria>recipient</criteria>
+<filter>QUERY_&lt;parameter_1&gt;_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;varaiable_alliance&gt;</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{87b5ac93-a488-4d10-8b41-c20a87d71494}" record_timestamp="1525277981501" record_key="QUERY_alliance_index_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_alliance_index_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;</filter>
@@ -146,12 +156,12 @@
 <filter>QUERY_declare_independence_proposer:proposer_recipient:any&lt;variable_recipients&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{ad6cd4cc-31f2-4ad2-89b1-1d7d1c945772}" record_timestamp="1556006618124" record_key="QUERY_followup_proposer_in_coalition_proposer:any&lt;variable_any_factions&gt;_recipient:recipient_&lt;variable_proposers&gt;recipient">
+<campaign_diplomacy_filter_elements record_uuid="{ad6cd4cc-31f2-4ad2-89b1-1d7d1c945772}" record_timestamp="1556563021238" record_key="QUERY_followup_proposer_in_coalition_proposer:any&lt;variable_any_factions&gt;_recipient:recipient_&lt;variable_proposers&gt;recipient">
 <criteria>recipient</criteria>
 <filter>QUERY_followup_proposer_in_coalition_proposer:any&lt;variable_any_factions&gt;_recipient:recipient_&lt;variable_proposers&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{a640dcd6-634e-426e-b668-828550c6ddda}" record_timestamp="1553701895411" record_key="QUERY_followup_proposer_in_coalition_proposer:any&lt;variable_any_factions&gt;_recipient:recipientrecipient">
+<campaign_diplomacy_filter_elements record_uuid="{a640dcd6-634e-426e-b668-828550c6ddda}" record_timestamp="1554886763361" record_key="QUERY_followup_proposer_in_coalition_proposer:any&lt;variable_any_factions&gt;_recipient:recipientrecipient">
 <criteria>recipient</criteria>
 <filter>QUERY_followup_proposer_in_coalition_proposer:any&lt;variable_any_factions&gt;_recipient:recipient</filter>
 <source>recipient</source>
@@ -159,6 +169,16 @@
 <campaign_diplomacy_filter_elements record_uuid="{fd86c719-a33e-4eea-b96f-bc22d7ce7be4}" record_timestamp="1515615928352" record_key="QUERY_from_alliance_proposer:any&lt;variable_proposer&gt;_recipient:proposer_&lt;parameter_alliance_oath&gt;&lt;parameter_alliance&gt;recipient">
 <criteria>proposer</criteria>
 <filter>QUERY_from_alliance_proposer:any&lt;variable_proposer&gt;_recipient:proposer_&lt;parameter_alliance_oath&gt;&lt;parameter_alliance&gt;</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{93e58fb3-60d0-4557-a863-31b79e219f7f}" record_timestamp="1562574098870" record_key="QUERY_group_war_any&lt;variable_any_factions&gt;_to_recipient_and_not_ally_proposer_to_&lt;variable_any_factions&gt;_recipient:proposerrecipient">
+<criteria>proposer</criteria>
+<filter>QUERY_group_war_any&lt;variable_any_factions&gt;_to_recipient_and_not_ally_proposer_to_&lt;variable_any_factions&gt;_recipient:proposer</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{1bf58d9a-ca52-4c3f-bfdc-805e038cd3c6}" record_timestamp="1561975261300" record_key="QUERY_group_war_any&lt;variable_any_factions&gt;_to_recipient_and_not_ally_proposer_to_&lt;variable_any_factions&gt;_recipient:recipientrecipient">
+<criteria>recipient</criteria>
+<filter>QUERY_group_war_any&lt;variable_any_factions&gt;_to_recipient_and_not_ally_proposer_to_&lt;variable_any_factions&gt;_recipient:recipient</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{18e4f730-4108-4ae0-b190-94e42951fa3f}" record_timestamp="1547236694181" record_key="QUERY_group_war_proposer:any&lt;variable_any_factions&gt;_recipient:proposer_or_proposer:proposer_recipient:any&lt;variable_any_factions&gt;proposer">
@@ -176,7 +196,7 @@
 <filter>QUERY_group_war_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{744bfd0a-34f7-4740-954b-4f49dbcdeaac}" record_timestamp="1553863708119" record_key="QUERY_group_war_proposer:recipient_recipient:any&lt;variable_any_factions&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{744bfd0a-34f7-4740-954b-4f49dbcdeaac}" record_timestamp="1554887354614" record_key="QUERY_group_war_proposer:recipient_recipient:any&lt;variable_any_factions&gt;proposer">
 <criteria>recipient</criteria>
 <filter>QUERY_group_war_proposer:recipient_recipient:any&lt;variable_any_factions&gt;</filter>
 <source>proposer</source>
@@ -201,19 +221,29 @@
 <filter>QUERY_independence_war_proposer:proposer_recipient:any&lt;variable_vassal_master&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{cead11c8-5933-4eb6-9877-0aa855110d29}" record_timestamp="1564658183965" record_key="QUERY_inherit_group_wars_proposer:any&lt;variable_any_factions&gt;_recipient:proposerrecipient">
+<criteria>proposer</criteria>
+<filter>QUERY_inherit_group_wars_proposer:any&lt;variable_any_factions&gt;_recipient:proposer</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{36edf018-f00d-4759-8fbd-138eab7674b1}" record_timestamp="1564658183965" record_key="QUERY_inherit_group_wars_proposer:any&lt;variable_any_factions&gt;_recipient:recipientrecipient">
+<criteria>recipient</criteria>
+<filter>QUERY_inherit_group_wars_proposer:any&lt;variable_any_factions&gt;_recipient:recipient</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{191eb531-9864-4037-9765-400ef3947f83}" record_timestamp="1517576752783" record_key="QUERY_inherit_group_wars_proposer:any&lt;variable_proposers&gt;_recipient:proposerrecipient">
 <criteria>proposer</criteria>
 <filter>QUERY_inherit_group_wars_proposer:any&lt;variable_proposers&gt;_recipient:proposer</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{e6cdc58a-a05c-4584-af09-12ce4d52d23a}" record_timestamp="1517576752939" record_key="QUERY_inherit_group_wars_proposer:proposer_recipient:any&lt;variable_recipients&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{e6cdc58a-a05c-4584-af09-12ce4d52d23a}" record_timestamp="1517576752939" record_key="QUERY_inherit_group_wars_proposer:proposer_recipient:any&lt;variable_any_factions&gt;proposer">
 <criteria>proposer</criteria>
-<filter>QUERY_inherit_group_wars_proposer:proposer_recipient:any&lt;variable_recipients&gt;</filter>
+<filter>QUERY_inherit_group_wars_proposer:proposer_recipient:any&lt;variable_any_factions&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{874dfd28-7e6f-47c8-8dc7-6846d234e1c0}" record_timestamp="1517576782218" record_key="QUERY_inherit_group_wars_proposer:recipient_recipient:any&lt;variable_recipients&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{874dfd28-7e6f-47c8-8dc7-6846d234e1c0}" record_timestamp="1517576782218" record_key="QUERY_inherit_group_wars_proposer:recipient_recipient:any&lt;variable_any_factions&gt;proposer">
 <criteria>recipient</criteria>
-<filter>QUERY_inherit_group_wars_proposer:recipient_recipient:any&lt;variable_recipients&gt;</filter>
+<filter>QUERY_inherit_group_wars_proposer:recipient_recipient:any&lt;variable_any_factions&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{507cddaf-c685-419b-9afc-b327687f595f}" record_timestamp="1525984037943" record_key="QUERY_join_alliance_proposer:proposer_recipient:any&lt;variable_recipients&gt;parameter_1">
@@ -266,22 +296,27 @@
 <filter>QUERY_peace_proposer:recipient_recipient:any&lt;variable_any_factions&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{6e01e108-8939-42b5-8347-8a8173db9016}" record_timestamp="1553530531047" record_key="QUERY_proposer_alliance_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{6e01e108-8939-42b5-8347-8a8173db9016}" record_timestamp="1554886313597" record_key="QUERY_proposer_alliance_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_alliance_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{ec3b812a-6352-43da-9787-1aa8bf3d8564}" record_timestamp="1553530531047" record_key="QUERY_proposer_alliance_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{ec3b812a-6352-43da-9787-1aa8bf3d8564}" record_timestamp="1554886313597" record_key="QUERY_proposer_alliance_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_alliance_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{c7aad746-12c2-4348-a9cc-359d108aa669}" record_timestamp="1553530531047" record_key="QUERY_proposer_alliance_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{c7aad746-12c2-4348-a9cc-359d108aa669}" record_timestamp="1554886313597" record_key="QUERY_proposer_alliance_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_alliance_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{b665285f-1dbe-4c34-a0e5-ee090f81d6ea}" record_timestamp="1551286077209" record_key="QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer_&lt;parameter_alliance&gt;recipient">
+<campaign_diplomacy_filter_elements record_uuid="{fefba692-51aa-415e-9aec-b5ae9230a3a2}" record_timestamp="1562084114820" record_key="QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:parameter_1_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;recipient">
+<criteria>parameter_1</criteria>
+<filter>QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:parameter_1_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{b665285f-1dbe-4c34-a0e5-ee090f81d6ea}" record_timestamp="1551788446730" record_key="QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer_&lt;parameter_alliance&gt;recipient">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
@@ -291,12 +326,12 @@
 <filter>QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{51ff9b50-7eb5-4c2e-9a6a-9742ba67a3de}" record_timestamp="1551286077209" record_key="QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:proposerrecipient">
+<campaign_diplomacy_filter_elements record_uuid="{51ff9b50-7eb5-4c2e-9a6a-9742ba67a3de}" record_timestamp="1551788446730" record_key="QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:proposerrecipient">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{723b8cf3-6082-4c10-8a8d-4e6cea1c2fa6}" record_timestamp="1553015766139" record_key="QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;recipient">
+<campaign_diplomacy_filter_elements record_uuid="{723b8cf3-6082-4c10-8a8d-4e6cea1c2fa6}" record_timestamp="1554885057299" record_key="QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;recipient">
 <criteria>recipient</criteria>
 <filter>QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
@@ -306,17 +341,17 @@
 <filter>QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{e354ea48-03de-4942-b809-9535090b4aaf}" record_timestamp="1551875819154" record_key="QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipientrecipient">
+<campaign_diplomacy_filter_elements record_uuid="{e354ea48-03de-4942-b809-9535090b4aaf}" record_timestamp="1554881242507" record_key="QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipientrecipient">
 <criteria>recipient</criteria>
 <filter>QUERY_proposer_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{b67730e2-3de9-404d-8f61-f7d06c13bbf0}" record_timestamp="1555321915850" record_key="QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{b67730e2-3de9-404d-8f61-f7d06c13bbf0}" record_timestamp="1556562802257" record_key="QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{e63f72c1-1af1-4c90-a4f1-53318e8e898b}" record_timestamp="1551286077211" record_key="QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{e63f72c1-1af1-4c90-a4f1-53318e8e898b}" record_timestamp="1551788446732" record_key="QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
@@ -326,17 +361,17 @@
 <filter>QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{387f2676-569a-4f9f-b872-688253e9e1c5}" record_timestamp="1553015770302" record_key="QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{387f2676-569a-4f9f-b872-688253e9e1c5}" record_timestamp="1554885057304" record_key="QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{d2d70847-36e1-46de-ab7b-421584479113}" record_timestamp="1555321915829" record_key="QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{d2d70847-36e1-46de-ab7b-421584479113}" record_timestamp="1556562802257" record_key="QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{e3c8a0ac-c326-44c7-8be4-664e06bd4a15}" record_timestamp="1551286077211" record_key="QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{e3c8a0ac-c326-44c7-8be4-664e06bd4a15}" record_timestamp="1551788446732" record_key="QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_alliance_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;</filter>
 <source>proposer</source>
@@ -356,32 +391,42 @@
 <filter>QUERY_proposer_alliance_members_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{eb329081-56e4-4788-8f40-f2dac0028ce4}" record_timestamp="1551875819188" record_key="QUERY_proposer_alliance_members_proposer:recipient_recipient:any&lt;variable_recipients&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{eb329081-56e4-4788-8f40-f2dac0028ce4}" record_timestamp="1554881242507" record_key="QUERY_proposer_alliance_members_proposer:recipient_recipient:any&lt;variable_recipients&gt;proposer">
 <criteria>recipient</criteria>
 <filter>QUERY_proposer_alliance_members_proposer:recipient_recipient:any&lt;variable_recipients&gt;</filter>
 <source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{2e53781d-7521-4623-929a-f9b5284f9f8e}" record_timestamp="1564658183895" record_key="QUERY_proposer_alliance_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;proposer">
+<criteria>proposer</criteria>
+<filter>QUERY_proposer_alliance_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{a328ab4d-c23b-45a5-a34e-3d3f121ac960}" record_timestamp="1564658183895" record_key="QUERY_proposer_alliance_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;recipient">
+<criteria>recipient</criteria>
+<filter>QUERY_proposer_alliance_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;</filter>
+<source>recipient</source>
 </campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{5e9a7115-df8e-4b69-9f19-f1bfe1667eb7}" record_timestamp="1517427519229" record_key="QUERY_proposer_and_alliance_to_recpient_proposer:any&lt;variable_proposers&gt;_recipient:recipientrecipient">
 <criteria>recipient</criteria>
 <filter>QUERY_proposer_and_alliance_to_recpient_proposer:any&lt;variable_proposers&gt;_recipient:recipient</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{0ae6dcd0-c63c-4e2b-bb55-93ab82203b27}" record_timestamp="1553530531048" record_key="QUERY_proposer_coalition_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{0ae6dcd0-c63c-4e2b-bb55-93ab82203b27}" record_timestamp="1554886313597" record_key="QUERY_proposer_coalition_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_coalition_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{bba23f38-7d97-4979-bc0f-e083afd3fc0e}" record_timestamp="1553530531048" record_key="QUERY_proposer_coalition_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{bba23f38-7d97-4979-bc0f-e083afd3fc0e}" record_timestamp="1554886313597" record_key="QUERY_proposer_coalition_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_coalition_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{e83d6d10-0033-4f55-b009-7d5443b73ec5}" record_timestamp="1553530531047" record_key="QUERY_proposer_coalition_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{e83d6d10-0033-4f55-b009-7d5443b73ec5}" record_timestamp="1554886313597" record_key="QUERY_proposer_coalition_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_coalition_members_excluding_proposer_proposer:proposer_recipient:any&lt;variable_recipients&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{8dd8b09a-5857-4985-a909-843dcb4dbe40}" record_timestamp="1551286077209" record_key="QUERY_proposer_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer_&lt;parameter_alliance&gt;recipient">
+<campaign_diplomacy_filter_elements record_uuid="{8dd8b09a-5857-4985-a909-843dcb4dbe40}" record_timestamp="1551788446730" record_key="QUERY_proposer_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer_&lt;parameter_alliance&gt;recipient">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
@@ -396,7 +441,7 @@
 <filter>QUERY_proposer_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{4f734f3e-efbc-4295-ba10-731e6246d355}" record_timestamp="1553015765325" record_key="QUERY_proposer_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;recipient">
+<campaign_diplomacy_filter_elements record_uuid="{4f734f3e-efbc-4295-ba10-731e6246d355}" record_timestamp="1554885057298" record_key="QUERY_proposer_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;recipient">
 <criteria>recipient</criteria>
 <filter>QUERY_proposer_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
@@ -406,7 +451,7 @@
 <filter>QUERY_proposer_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{26b2abe1-15fd-4a6b-8c1a-9348bd21c07c}" record_timestamp="1551875818144" record_key="QUERY_proposer_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:recipientrecipient">
+<campaign_diplomacy_filter_elements record_uuid="{26b2abe1-15fd-4a6b-8c1a-9348bd21c07c}" record_timestamp="1554881242488" record_key="QUERY_proposer_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:recipientrecipient">
 <criteria>recipient</criteria>
 <filter>QUERY_proposer_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient</filter>
 <source>recipient</source>
@@ -416,12 +461,12 @@
 <filter>QUERY_proposer_coalition_members_proposer:proposer&lt;variable_recipient&gt;_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{3227ae17-b808-4c6b-b8e7-2060ab7930df}" record_timestamp="1555321915897" record_key="QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{3227ae17-b808-4c6b-b8e7-2060ab7930df}" record_timestamp="1556562802257" record_key="QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_proposers&gt;_&lt;variable_deal&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{e2df8d47-0f97-4821-b943-d3d03553f58b}" record_timestamp="1551286077211" record_key="QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{e2df8d47-0f97-4821-b943-d3d03553f58b}" record_timestamp="1551788446732" record_key="QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
@@ -431,27 +476,27 @@
 <filter>QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{b809831c-2366-4d0e-8c57-77ff9bb35ef9}" record_timestamp="1553015742500" record_key="QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{b809831c-2366-4d0e-8c57-77ff9bb35ef9}" record_timestamp="1554885057234" record_key="QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{ee3a50fa-08d1-4dcd-b11a-f03996cbb782}" record_timestamp="1555321915874" record_key="QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{ee3a50fa-08d1-4dcd-b11a-f03996cbb782}" record_timestamp="1556562802257" record_key="QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;variable_deal&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{6b0a1254-a7cd-4b6b-9194-6da9b8ba7a2f}" record_timestamp="1551286077211" record_key="QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{6b0a1254-a7cd-4b6b-9194-6da9b8ba7a2f}" record_timestamp="1551788446732" record_key="QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_coalition_members_proposer:proposer_recipient:any&lt;variable_recipients&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{f252a6de-7cb4-40ec-ac5b-e2f682a8e67e}" record_timestamp="1553015750542" record_key="QUERY_proposer_coalition_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{f252a6de-7cb4-40ec-ac5b-e2f682a8e67e}" record_timestamp="1554885057283" record_key="QUERY_proposer_coalition_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_proposer_coalition_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{83999931-cce7-4424-928f-a912a7963c1e}" record_timestamp="1553015750346" record_key="QUERY_proposer_coalition_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;recipient">
+<campaign_diplomacy_filter_elements record_uuid="{83999931-cce7-4424-928f-a912a7963c1e}" record_timestamp="1554885057283" record_key="QUERY_proposer_coalition_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;recipient">
 <criteria>recipient</criteria>
 <filter>QUERY_proposer_coalition_members_proposer:proposer_recipient:recipient_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
@@ -461,7 +506,7 @@
 <filter>QUERY_proposer_coalition_members_proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{32d7a504-753b-4014-9614-f9c64ec75250}" record_timestamp="1551875818177" record_key="QUERY_proposer_coalition_members_proposer:recipient_recipient:any&lt;variable_recipients&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{32d7a504-753b-4014-9614-f9c64ec75250}" record_timestamp="1554881242488" record_key="QUERY_proposer_coalition_members_proposer:recipient_recipient:any&lt;variable_recipients&gt;proposer">
 <criteria>recipient</criteria>
 <filter>QUERY_proposer_coalition_members_proposer:recipient_recipient:any&lt;variable_recipients&gt;</filter>
 <source>proposer</source>
@@ -486,32 +531,37 @@
 <filter>QUERY_quit_coalition_proposer:proposer&lt;variable_proposer&gt;_recipient:recipient_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{32ef64df-55d6-47b6-a3f1-f440d2870ec9}" record_timestamp="1553530531048" record_key="QUERY_recipient_alliance_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{32ef64df-55d6-47b6-a3f1-f440d2870ec9}" record_timestamp="1554886313597" record_key="QUERY_recipient_alliance_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>recipient</criteria>
 <filter>QUERY_recipient_alliance_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{d238397e-a9a2-4541-b0e7-451350f407e0}" record_timestamp="1553530531047" record_key="QUERY_recipient_alliance_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{d238397e-a9a2-4541-b0e7-451350f407e0}" record_timestamp="1554886313597" record_key="QUERY_recipient_alliance_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>recipient</criteria>
 <filter>QUERY_recipient_alliance_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{fdb303b1-2574-44e0-baa0-1d475e339abe}" record_timestamp="1553530531048" record_key="QUERY_recipient_alliance_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{fdb303b1-2574-44e0-baa0-1d475e339abe}" record_timestamp="1554886313597" record_key="QUERY_recipient_alliance_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;proposer">
 <criteria>recipient</criteria>
 <filter>QUERY_recipient_alliance_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;</filter>
 <source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{c7007fc7-585e-4444-bc1c-1578799932d9}" record_timestamp="1562084114246" record_key="QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:parameter_1_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;recipient">
+<criteria>parameter_1</criteria>
+<filter>QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:parameter_1_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
+<source>recipient</source>
 </campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{bfe6ee03-a549-429e-b0c5-2f1ed3fb035d}" record_timestamp="1535483873823" record_key="QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;recipient">
 <criteria>proposer</criteria>
 <filter>QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{6ec3c9aa-41f3-4043-b348-82ec0ef32314}" record_timestamp="1551875819222" record_key="QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:proposerrecipient">
+<campaign_diplomacy_filter_elements record_uuid="{6ec3c9aa-41f3-4043-b348-82ec0ef32314}" record_timestamp="1554881242508" record_key="QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:proposerrecipient">
 <criteria>proposer</criteria>
 <filter>QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{0a8e2885-b6ee-406d-8bfc-52cbdd2b064d}" record_timestamp="1551286077210" record_key="QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;recipient">
+<campaign_diplomacy_filter_elements record_uuid="{0a8e2885-b6ee-406d-8bfc-52cbdd2b064d}" record_timestamp="1551788446730" record_key="QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;recipient">
 <criteria>recipient</criteria>
 <filter>QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
@@ -521,22 +571,27 @@
 <filter>QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{89fb6548-739b-4f55-aa59-ce89e8d5611d}" record_timestamp="1551286077209" record_key="QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipientrecipient">
+<campaign_diplomacy_filter_elements record_uuid="{89fb6548-739b-4f55-aa59-ce89e8d5611d}" record_timestamp="1551788446730" record_key="QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipientrecipient">
 <criteria>recipient</criteria>
 <filter>QUERY_recipient_alliance_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient</filter>
 <source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{08d11d76-dd6f-4dda-b6bd-24bc725eecbd}" record_timestamp="1564658183893" record_key="QUERY_recipient_alliance_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;proposer">
+<criteria>proposer</criteria>
+<filter>QUERY_recipient_alliance_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;</filter>
+<source>proposer</source>
 </campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{e9a64c18-8fb7-4021-9a71-3b75f6b49d67}" record_timestamp="1515436573760" record_key="QUERY_recipient_alliance_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_recipient_alliance_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{7028d120-ed81-435d-b0b3-34a3ec721f1d}" record_timestamp="1551875819256" record_key="QUERY_recipient_alliance_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{7028d120-ed81-435d-b0b3-34a3ec721f1d}" record_timestamp="1554881242508" record_key="QUERY_recipient_alliance_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_recipient_alliance_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{8770667b-4003-4f44-beca-4048d0af2cb0}" record_timestamp="1551286077210" record_key="QUERY_recipient_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{8770667b-4003-4f44-beca-4048d0af2cb0}" record_timestamp="1551788446731" record_key="QUERY_recipient_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>recipient</criteria>
 <filter>QUERY_recipient_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
@@ -546,22 +601,22 @@
 <filter>QUERY_recipient_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{97f44946-6d53-4d8d-a62b-d45bc4398196}" record_timestamp="1551286077210" record_key="QUERY_recipient_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{97f44946-6d53-4d8d-a62b-d45bc4398196}" record_timestamp="1551788446731" record_key="QUERY_recipient_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;proposer">
 <criteria>recipient</criteria>
 <filter>QUERY_recipient_alliance_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{cdca986a-6110-4a3a-a90c-118987ec6aff}" record_timestamp="1553530531047" record_key="QUERY_recipient_coalition_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{cdca986a-6110-4a3a-a90c-118987ec6aff}" record_timestamp="1554886313597" record_key="QUERY_recipient_coalition_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>recipient</criteria>
 <filter>QUERY_recipient_coalition_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{dbdbcb77-31f3-4c6e-b33d-0e3abe83d1bd}" record_timestamp="1553530531047" record_key="QUERY_recipient_coalition_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{dbdbcb77-31f3-4c6e-b33d-0e3abe83d1bd}" record_timestamp="1554886313597" record_key="QUERY_recipient_coalition_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>recipient</criteria>
 <filter>QUERY_recipient_coalition_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{e510ec04-ee4e-43db-90de-a7ab928bbead}" record_timestamp="1553530531047" record_key="QUERY_recipient_coalition_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{e510ec04-ee4e-43db-90de-a7ab928bbead}" record_timestamp="1554886313597" record_key="QUERY_recipient_coalition_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;proposer">
 <criteria>recipient</criteria>
 <filter>QUERY_recipient_coalition_members_excluding_recipient_proposer:recipient_recipient:any&lt;variable_recipient&gt;</filter>
 <source>proposer</source>
@@ -571,12 +626,12 @@
 <filter>QUERY_recipient_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{66c95bee-98dc-4d94-8a75-8d8a441d7be2}" record_timestamp="1551875818076" record_key="QUERY_recipient_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:proposerrecipient">
+<campaign_diplomacy_filter_elements record_uuid="{66c95bee-98dc-4d94-8a75-8d8a441d7be2}" record_timestamp="1554881242488" record_key="QUERY_recipient_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:proposerrecipient">
 <criteria>proposer</criteria>
 <filter>QUERY_recipient_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:proposer</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{2a9774b1-9283-458a-80c8-a1a0ebdb90dc}" record_timestamp="1551286077210" record_key="QUERY_recipient_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;recipient">
+<campaign_diplomacy_filter_elements record_uuid="{2a9774b1-9283-458a-80c8-a1a0ebdb90dc}" record_timestamp="1551788446731" record_key="QUERY_recipient_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;recipient">
 <criteria>recipient</criteria>
 <filter>QUERY_recipient_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
@@ -586,7 +641,7 @@
 <filter>QUERY_recipient_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{dd024819-7efc-4a2e-945f-c6826d0d00fb}" record_timestamp="1551286077210" record_key="QUERY_recipient_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:recipientrecipient">
+<campaign_diplomacy_filter_elements record_uuid="{dd024819-7efc-4a2e-945f-c6826d0d00fb}" record_timestamp="1551788446731" record_key="QUERY_recipient_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:recipientrecipient">
 <criteria>recipient</criteria>
 <filter>QUERY_recipient_coalition_members_proposer:any&lt;variable_proposers&gt;_recipient:recipient</filter>
 <source>recipient</source>
@@ -596,12 +651,12 @@
 <filter>QUERY_recipient_coalition_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{a95cc3b8-0b29-41c0-b94f-ddce89d4cb8b}" record_timestamp="1551875818110" record_key="QUERY_recipient_coalition_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{a95cc3b8-0b29-41c0-b94f-ddce89d4cb8b}" record_timestamp="1554881242488" record_key="QUERY_recipient_coalition_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_recipient_coalition_members_proposer:proposer_recipient:any&lt;variable_recipient&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{84aaac03-8c7a-4a2f-808e-2c66e3a95290}" record_timestamp="1551286077210" record_key="QUERY_recipient_coalition_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{84aaac03-8c7a-4a2f-808e-2c66e3a95290}" record_timestamp="1551788446731" record_key="QUERY_recipient_coalition_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>recipient</criteria>
 <filter>QUERY_recipient_coalition_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
@@ -611,7 +666,7 @@
 <filter>QUERY_recipient_coalition_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{ad7e6454-76ff-4622-822e-0dcfe00fa9f4}" record_timestamp="1551286077211" record_key="QUERY_recipient_coalition_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{ad7e6454-76ff-4622-822e-0dcfe00fa9f4}" record_timestamp="1551788446731" record_key="QUERY_recipient_coalition_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;proposer">
 <criteria>recipient</criteria>
 <filter>QUERY_recipient_coalition_members_proposer:recipient_recipient:any&lt;variable_recipient&gt;</filter>
 <source>proposer</source>
@@ -681,22 +736,27 @@
 <filter>QUERY_vassalage_proposer:recipient_recipient:any&lt;variable_recipients&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{e017b9fb-a7eb-43ab-9c0f-3516c5f6e111}" record_timestamp="1561975259312" record_key="QUERY_war_any&lt;variable_any_factions&gt;_with_recipient_and_ally_proposer_to_&lt;variable_any_factions&gt;recipient">
+<criteria>recipient</criteria>
+<filter>QUERY_war_any&lt;variable_any_factions&gt;_with_recipient_and_ally_proposer_to_&lt;variable_any_factions&gt;</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{a3f04a41-d03e-4844-81d9-26324e0112b9}" record_timestamp="1531153717030" record_key="QUERY_war_any&lt;variable_any_factions&gt;_with_recipient_and_not_ally_proposer_to_&lt;variable_any_factions&gt;recipient">
+<criteria>recipient</criteria>
+<filter>QUERY_war_any&lt;variable_any_factions&gt;_with_recipient_and_not_ally_proposer_to_&lt;variable_any_factions&gt;</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{097479b2-95c2-41da-87cd-5d92a528bbe4}" record_timestamp="1547236694347" record_key="QUERY_war_proposer_to_any&lt;variable_any_factions&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_war_proposer_to_any&lt;variable_any_factions&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{7035c7b5-97aa-437e-b507-fa200fc62739}" record_timestamp="1552500160486" record_key="QUERY_war_proposer_to_recipient&lt;variable_any_factions&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{7035c7b5-97aa-437e-b507-fa200fc62739}" record_timestamp="1554883070388" record_key="QUERY_war_proposer_to_recipient&lt;variable_any_factions&gt;proposer">
 <criteria>proposer</criteria>
 <filter>QUERY_war_proposer_to_recipient&lt;variable_any_factions&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{a3f04a41-d03e-4844-81d9-26324e0112b9}" record_timestamp="1531153717030" record_key="QUERY_war_recipient_to_any&lt;variable_any_factions&gt;proposer">
-<criteria>recipient</criteria>
-<filter>QUERY_war_recipient_to_any&lt;variable_any_factions&gt;</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{cfabc7de-e31c-4e30-a0c2-28f55deb6a30}" record_timestamp="1552500160486" record_key="QUERY_war_recipient_to_proposer&lt;variable_any_factions&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{cfabc7de-e31c-4e30-a0c2-28f55deb6a30}" record_timestamp="1554883070387" record_key="QUERY_war_recipient_to_proposer&lt;variable_any_factions&gt;proposer">
 <criteria>recipient</criteria>
 <filter>QUERY_war_recipient_to_proposer&lt;variable_any_factions&gt;</filter>
 <source>proposer</source>
@@ -736,9 +796,19 @@
 <filter>placeholder_movement_options_default</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{24991280-974f-40cb-abb2-023c49267afb}" record_timestamp="1564658183923" record_key="proposer:any&lt;variable_any_factions&gt;_recipient:proposer_parameter_1:any&lt;variable_alliance&gt;recipient">
+<criteria>proposer</criteria>
+<filter>proposer:any&lt;variable_any_factions&gt;_recipient:proposer_parameter_1:any&lt;variable_alliance&gt;</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{8eb02830-454c-46d0-889f-a94d7e4e78d8}" record_timestamp="1514999047307" record_key="proposer:any&lt;variable_any_factions&gt;_recipient:proposerrecipient">
 <criteria>proposer</criteria>
 <filter>proposer:any&lt;variable_any_factions&gt;_recipient:proposer</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{253f3398-9422-4b17-9a78-70ac28164d7b}" record_timestamp="1564658183924" record_key="proposer:any&lt;variable_any_factions&gt;_recipient:recipient_parameter_1:any&lt;variable_alliance&gt;recipient">
+<criteria>recipient</criteria>
+<filter>proposer:any&lt;variable_any_factions&gt;_recipient:recipient_parameter_1:any&lt;variable_alliance&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{7b8ffd62-21f6-4c0c-a035-93b23a61386b}" record_timestamp="1511537998082" record_key="proposer:any&lt;variable_any_factions&gt;_recipient:recipientrecipient">
@@ -751,11 +821,6 @@
 <filter>proposer:any&lt;variable_master&gt;_recipient:proposer_&lt;variable_deal_proposed&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{4ea7f606-9614-4002-b4e3-1a152e0b9814}" record_timestamp="1547465266320" record_key="proposer:any&lt;variable_master&gt;_recipient:proposerrecipient">
-<criteria>proposer</criteria>
-<filter>proposer:any&lt;variable_master&gt;_recipient:proposer</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{3d9cc893-beaf-4110-b97d-06b169931b57}" record_timestamp="1510937226883" record_key="proposer:any&lt;variable_master&gt;_recipient:recipient_&lt;variable_deal_proposed&gt;recipient">
 <criteria>recipient</criteria>
 <filter>proposer:any&lt;variable_master&gt;_recipient:recipient_&lt;variable_deal_proposed&gt;</filter>
@@ -766,7 +831,7 @@
 <filter>proposer:any&lt;variable_master&gt;_recipient:recipient</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{a6b25015-6610-4d14-8588-3d24e89b5e57}" record_timestamp="1551286077220" record_key="proposer:any&lt;variable_proposers&gt;_recipient:proposer&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;recipient">
+<campaign_diplomacy_filter_elements record_uuid="{a6b25015-6610-4d14-8588-3d24e89b5e57}" record_timestamp="1551788446740" record_key="proposer:any&lt;variable_proposers&gt;_recipient:proposer&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;recipient">
 <criteria>proposer</criteria>
 <filter>proposer:any&lt;variable_proposers&gt;_recipient:proposer&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
@@ -781,7 +846,7 @@
 <filter>proposer:any&lt;variable_proposers&gt;_recipient:proposer</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{30f87d43-9712-4cf7-bd68-933afd2a3513}" record_timestamp="1551286077198" record_key="proposer:any&lt;variable_proposers&gt;_recipient:recipient&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;recipient">
+<campaign_diplomacy_filter_elements record_uuid="{30f87d43-9712-4cf7-bd68-933afd2a3513}" record_timestamp="1551788446717" record_key="proposer:any&lt;variable_proposers&gt;_recipient:recipient&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;recipient">
 <criteria>recipient</criteria>
 <filter>proposer:any&lt;variable_proposers&gt;_recipient:recipient&lt;variable_proposers&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>recipient</source>
@@ -796,6 +861,11 @@
 <filter>proposer:any&lt;variable_proposers&gt;_recipient:recipient</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{c2084014-7180-487c-899a-43f62e8bea78}" record_timestamp="1563442959515" record_key="proposer:any&lt;variable_recipients&gt;_recipient:any&lt;variable_recipients&gt;_&lt;parameter_oath&gt;_&lt;parameter_1&gt;parameter_2">
+<criteria>parameter_1</criteria>
+<filter>proposer:any&lt;variable_recipients&gt;_recipient:any&lt;variable_recipients&gt;_&lt;parameter_oath&gt;_&lt;parameter_1&gt;</filter>
+<source>parameter_2</source>
+</campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{31a8e78e-51b0-4000-a853-eade46918863}" record_timestamp="1517687157749" record_key="proposer:any&lt;variable_recipients&gt;_recipient:proposerrecipient">
 <criteria>proposer</criteria>
 <filter>proposer:any&lt;variable_recipients&gt;_recipient:proposer</filter>
@@ -804,6 +874,21 @@
 <campaign_diplomacy_filter_elements record_uuid="{4010a356-7f2b-40f1-b4a1-f746f8ec84c9}" record_timestamp="1517687157749" record_key="proposer:any&lt;variable_recipients&gt;_recipient:recipientrecipient">
 <criteria>recipient</criteria>
 <filter>proposer:any&lt;variable_recipients&gt;_recipient:recipient</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{4ea7f606-9614-4002-b4e3-1a152e0b9814}" record_timestamp="1547465266320" record_key="proposer:any&lt;variable_vassal_master&gt;_recipient:proposerrecipient">
+<criteria>proposer</criteria>
+<filter>proposer:any&lt;variable_vassal_master&gt;_recipient:proposer</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{afa7d1da-233d-4741-a6a9-9cb9afb5445f}" record_timestamp="1562583778623" record_key="proposer:any&lt;variable_vassal_master&gt;_recipient:recipient&lt;variable_any_factions&gt;recipient">
+<criteria>recipient</criteria>
+<filter>proposer:any&lt;variable_vassal_master&gt;_recipient:recipient&lt;variable_any_factions&gt;</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{0b8affca-d0e3-4bc3-9182-21d4e7c092a2}" record_timestamp="1561975259296" record_key="proposer:any&lt;variable_vassal_master&gt;_recipient:recipient&lt;variable_recipients&gt;recipient">
+<criteria>recipient</criteria>
+<filter>proposer:any&lt;variable_vassal_master&gt;_recipient:recipient&lt;variable_recipients&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{c1fab2e7-633a-4027-8d6d-700310e62933}" record_timestamp="1520536426812" record_key="proposer:any&lt;variable_vassal_master&gt;_recipient:recipientrecipient">
@@ -821,7 +906,7 @@
 <filter>proposer:any_recipient:proposer&lt;variable_proposers&gt;&lt;variable_oath&gt;&lt;variable_alliance&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{6030ff79-14c6-4860-b0ba-6d8780872b4d}" record_timestamp="1550672554313" record_key="proposer:any_recipient:proposer&lt;variable_proposers&gt;recipient">
+<campaign_diplomacy_filter_elements record_uuid="{6030ff79-14c6-4860-b0ba-6d8780872b4d}" record_timestamp="1551785178064" record_key="proposer:any_recipient:proposer&lt;variable_proposers&gt;recipient">
 <criteria>proposer</criteria>
 <filter>proposer:any_recipient:proposer&lt;variable_proposers&gt;</filter>
 <source>recipient</source>
@@ -866,24 +951,24 @@
 <filter>proposer:any_recipient:recipient</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{023af72c-ece0-475e-8b9b-cacfe4e0cd3c}" record_timestamp="1511347543830" record_key="proposer:parameter_faction_recipient:proposerproposer">
+<campaign_diplomacy_filter_elements record_uuid="{023af72c-ece0-475e-8b9b-cacfe4e0cd3c}" record_timestamp="1511347543830" record_key="proposer:parameter_1_recipient:proposerproposer">
 <criteria>parameter_1</criteria>
-<filter>proposer:parameter_faction_recipient:proposer</filter>
+<filter>proposer:parameter_1_recipient:proposer</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{b6773918-e5bc-4dec-8fd3-5187b5848dec}" record_timestamp="1511347543651" record_key="proposer:parameter_faction_recipient:proposerrecipient">
+<campaign_diplomacy_filter_elements record_uuid="{b6773918-e5bc-4dec-8fd3-5187b5848dec}" record_timestamp="1511347543651" record_key="proposer:parameter_1_recipient:proposerrecipient">
 <criteria>proposer</criteria>
-<filter>proposer:parameter_faction_recipient:proposer</filter>
+<filter>proposer:parameter_1_recipient:proposer</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{6b0fb95e-9414-439e-aa65-faf0758a7c3d}" record_timestamp="1510950026574" record_key="proposer:parameter_faction_recipient:recipientproposer">
+<campaign_diplomacy_filter_elements record_uuid="{6b0fb95e-9414-439e-aa65-faf0758a7c3d}" record_timestamp="1510950026574" record_key="proposer:parameter_1_recipient:recipientproposer">
 <criteria>parameter_1</criteria>
-<filter>proposer:parameter_faction_recipient:recipient</filter>
+<filter>proposer:parameter_1_recipient:recipient</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{b0dd350b-97bc-4c6f-93d4-66a6d8495394}" record_timestamp="1510937224859" record_key="proposer:parameter_faction_recipient:recipientrecipient">
+<campaign_diplomacy_filter_elements record_uuid="{b0dd350b-97bc-4c6f-93d4-66a6d8495394}" record_timestamp="1510937224859" record_key="proposer:parameter_1_recipient:recipientrecipient">
 <criteria>recipient</criteria>
-<filter>proposer:parameter_faction_recipient:recipient</filter>
+<filter>proposer:parameter_1_recipient:recipient</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{bb0d025b-a4a0-4f21-bebe-00c624381c10}" record_timestamp="1532457345605" record_key="proposer:proposer&lt;variable_any_factions&gt;_recipient:any&lt;variable_any_factions&gt;proposer">
@@ -891,12 +976,12 @@
 <filter>proposer:proposer&lt;variable_any_factions&gt;_recipient:any&lt;variable_any_factions&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{cdf34a3a-4b7f-42ad-8e9b-3f9299f550f9}" record_timestamp="1554912063738" record_key="proposer:proposer&lt;variable_any_factions&gt;_recipient:proposerproposer">
+<campaign_diplomacy_filter_elements record_uuid="{cdf34a3a-4b7f-42ad-8e9b-3f9299f550f9}" record_timestamp="1556562148284" record_key="proposer:proposer&lt;variable_any_factions&gt;_recipient:proposerproposer">
 <criteria>proposer</criteria>
 <filter>proposer:proposer&lt;variable_any_factions&gt;_recipient:proposer</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{c01a29a4-c180-4563-a53f-11a64e28cc0e}" record_timestamp="1554912063738" record_key="proposer:proposer&lt;variable_any_factions&gt;_recipient:proposerrecipient">
+<campaign_diplomacy_filter_elements record_uuid="{c01a29a4-c180-4563-a53f-11a64e28cc0e}" record_timestamp="1556562148284" record_key="proposer:proposer&lt;variable_any_factions&gt;_recipient:proposerrecipient">
 <criteria>proposer</criteria>
 <filter>proposer:proposer&lt;variable_any_factions&gt;_recipient:proposer</filter>
 <source>recipient</source>
@@ -926,6 +1011,16 @@
 <filter>proposer:proposer&lt;variable_proposer&gt;_recipient:recipient_&lt;variable_alliance&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{3bd1b4e3-6820-44ec-b1c3-b953e4e121db}" record_timestamp="1563442964385" record_key="proposer:proposer&lt;variable_proposer&gt;_recipient:recipient_parameter_1:parameter_1&lt;variable_alliance&gt;proposer">
+<criteria>proposer</criteria>
+<filter>proposer:proposer&lt;variable_proposer&gt;_recipient:recipient_parameter_1:parameter_1&lt;variable_alliance&gt;</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{0e262069-0d91-477a-8928-7b7c2c97a70e}" record_timestamp="1563442964302" record_key="proposer:proposer&lt;variable_proposer&gt;_recipient:recipient_parameter_1:parameter_1&lt;variable_alliance&gt;recipient">
+<criteria>recipient</criteria>
+<filter>proposer:proposer&lt;variable_proposer&gt;_recipient:recipient_parameter_1:parameter_1&lt;variable_alliance&gt;</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{0d18f537-7ed9-4079-b6f4-d2db75ca0a26}" record_timestamp="1529918869635" record_key="proposer:proposer&lt;variable_proposer&gt;_recipient:recipientproposer">
 <criteria>proposer</criteria>
 <filter>proposer:proposer&lt;variable_proposer&gt;_recipient:recipient</filter>
@@ -936,7 +1031,7 @@
 <filter>proposer:proposer&lt;variable_proposer&gt;_recipient:recipient</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{c82405c5-98fa-402e-9ee3-9389d5279659}" record_timestamp="1556006618120" record_key="proposer:proposer&lt;variable_proposers&gt;_recipient:any&lt;variable_any_factions&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{c82405c5-98fa-402e-9ee3-9389d5279659}" record_timestamp="1556563021238" record_key="proposer:proposer&lt;variable_proposers&gt;_recipient:any&lt;variable_any_factions&gt;proposer">
 <criteria>proposer</criteria>
 <filter>proposer:proposer&lt;variable_proposers&gt;_recipient:any&lt;variable_any_factions&gt;</filter>
 <source>proposer</source>
@@ -959,6 +1054,16 @@
 <campaign_diplomacy_filter_elements record_uuid="{979b33b3-5bb9-4518-92c2-9482691f2a23}" record_timestamp="1517339344762" record_key="proposer:proposer&lt;variable_recipients&gt;_recipient:anyproposer">
 <criteria>proposer</criteria>
 <filter>proposer:proposer&lt;variable_recipients&gt;_recipient:any</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{6133558f-c905-4c14-85f7-0c80f564afd0}" record_timestamp="1562583778619" record_key="proposer:proposer&lt;variable_vassal_master&gt;_recipient:anyproposer">
+<criteria>proposer</criteria>
+<filter>proposer:proposer&lt;variable_vassal_master&gt;_recipient:any</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{60b36e66-873a-46ae-b8e8-4ea085af7363}" record_timestamp="1562583778614" record_key="proposer:proposer&lt;variable_vassal_master&gt;_recipient:recipient&lt;variable_any_factions&gt;proposer">
+<criteria>proposer</criteria>
+<filter>proposer:proposer&lt;variable_vassal_master&gt;_recipient:recipient&lt;variable_any_factions&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{3cda1866-6e92-4bda-b603-cd1e6b5bda68}" record_timestamp="1535635199891" record_key="proposer:proposer&lt;variable_vassal_master&gt;_recipient:recipientproposer">
@@ -1006,7 +1111,7 @@
 <filter>proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{fc38dddc-2ffe-4c7d-9146-19210b03af39}" record_timestamp="1553530531074" record_key="proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{fc38dddc-2ffe-4c7d-9146-19210b03af39}" record_timestamp="1554886313622" record_key="proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>proposer</criteria>
 <filter>proposer:proposer_recipient:any&lt;variable_recipients&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
@@ -1016,7 +1121,7 @@
 <filter>proposer:proposer_recipient:any&lt;variable_recipients&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{719e0afc-8be4-44f8-944b-67948376acfc}" record_timestamp="1550663782218" record_key="proposer:proposer_recipient:any&lt;variable_vassal_master&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{719e0afc-8be4-44f8-944b-67948376acfc}" record_timestamp="1551785101504" record_key="proposer:proposer_recipient:any&lt;variable_vassal_master&gt;proposer">
 <criteria>proposer</criteria>
 <filter>proposer:proposer_recipient:any&lt;variable_vassal_master&gt;</filter>
 <source>proposer</source>
@@ -1046,94 +1151,14 @@
 <filter>proposer:proposer_recipient:any</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{9837a8c2-3ebb-4258-b17a-eb342a562d11}" record_timestamp="1510937224859" record_key="proposer:proposer_recipient:parameter_factionproposer">
+<campaign_diplomacy_filter_elements record_uuid="{9837a8c2-3ebb-4258-b17a-eb342a562d11}" record_timestamp="1510937224859" record_key="proposer:proposer_recipient:parameter_1proposer">
 <criteria>proposer</criteria>
-<filter>proposer:proposer_recipient:parameter_faction</filter>
+<filter>proposer:proposer_recipient:parameter_1</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{1352b9b7-76e7-46a3-a285-9029ac47cd3a}" record_timestamp="1510950026445" record_key="proposer:proposer_recipient:parameter_factionrecipient">
+<campaign_diplomacy_filter_elements record_uuid="{1352b9b7-76e7-46a3-a285-9029ac47cd3a}" record_timestamp="1510950026445" record_key="proposer:proposer_recipient:parameter_1recipient">
 <criteria>parameter_1</criteria>
-<filter>proposer:proposer_recipient:parameter_faction</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{231d5145-f6e8-4343-a7ea-7c9a16dd6759}" record_timestamp="1509700623852" record_key="proposer:proposer_recipient:recipient:parameter:parameter_oathproposer">
-<criteria>proposer</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:parameter_oath</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{f2accf3b-cf59-4a66-8af8-a81ffc96ffba}" record_timestamp="1509700623889" record_key="proposer:proposer_recipient:recipient:parameter:parameter_oathrecipient">
-<criteria>recipient</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:parameter_oath</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{94c4d912-b882-423c-a2f8-96e6c932d404}" record_timestamp="1511463923871" record_key="proposer:proposer_recipient:recipient:parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriageproposer">
-<criteria>proposer</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriage</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{ecdcdc65-f34f-4565-9cbd-ca01f953957e}" record_timestamp="1511463923870" record_key="proposer:proposer_recipient:recipient:parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriagerecipient">
-<criteria>recipient</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriage</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{80234f09-676b-4076-aa66-c79903f3c445}" record_timestamp="1516650301453" record_key="proposer:proposer_recipient:recipient:parameter:parameter_proposer_marriageproposer">
-<criteria>proposer</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:parameter_proposer_marriage</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{a1020be2-51cb-4045-9aba-93e638ee7c22}" record_timestamp="1516650301316" record_key="proposer:proposer_recipient:recipient:parameter:parameter_proposer_marriagerecipient">
-<criteria>recipient</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:parameter_proposer_marriage</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{5a1f9d1e-9753-4aff-9acc-ab2f2faaf81f}" record_timestamp="1511347530130" record_key="proposer:proposer_recipient:recipient:parameter:parameter_regionproposer">
-<criteria>proposer</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:parameter_region</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{43efabe3-1e1e-4d5f-88b0-92d270a59c11}" record_timestamp="1511347530278" record_key="proposer:proposer_recipient:recipient:parameter:parameter_regionrecipient">
-<criteria>recipient</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:parameter_region</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{c9a4c867-13db-45f9-9f57-ba4b45357e8d}" record_timestamp="1508757461005" record_key="proposer:proposer_recipient:recipient:parameter:proposer_ancillaryproposer">
-<criteria>proposer</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:proposer_ancillary</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{2bc15afd-e499-443e-8711-42e93bdd0043}" record_timestamp="1508757461005" record_key="proposer:proposer_recipient:recipient:parameter:proposer_ancillaryrecipient">
-<criteria>recipient</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:proposer_ancillary</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{9968807d-5485-42f9-911a-ec24782ef565}" record_timestamp="1508757460719" record_key="proposer:proposer_recipient:recipient:parameter:proposer_regionproposer">
-<criteria>proposer</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:proposer_region</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{d3f97cf4-6f55-4b08-9d12-7ca1490e689c}" record_timestamp="1508757460719" record_key="proposer:proposer_recipient:recipient:parameter:proposer_regionrecipient">
-<criteria>recipient</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:proposer_region</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{d9958de7-6929-4964-ae42-d7c23d3282ba}" record_timestamp="1508757461005" record_key="proposer:proposer_recipient:recipient:parameter:recipient_ancillaryproposer">
-<criteria>proposer</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:recipient_ancillary</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{311af194-b364-4238-8edb-dac4d5bbcd98}" record_timestamp="1508757461005" record_key="proposer:proposer_recipient:recipient:parameter:recipient_ancillaryrecipient">
-<criteria>recipient</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:recipient_ancillary</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{5d12c30c-553c-45bd-914c-8e1b53f4a019}" record_timestamp="1508757460718" record_key="proposer:proposer_recipient:recipient:parameter:recipient_regionproposer">
-<criteria>proposer</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:recipient_region</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{825613ce-d67d-44b1-80f9-3286ca8fbecf}" record_timestamp="1508757460718" record_key="proposer:proposer_recipient:recipient:parameter:recipient_regionrecipient">
-<criteria>recipient</criteria>
-<filter>proposer:proposer_recipient:recipient:parameter:recipient_region</filter>
+<filter>proposer:proposer_recipient:parameter_1</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{e7312fe7-eb0d-468c-9fca-cba80331f328}" record_timestamp="1508757461030" record_key="proposer:proposer_recipient:recipient:pool:foodproposer">
@@ -1171,14 +1196,14 @@
 <filter>proposer:proposer_recipient:recipient:variable:parameter:recipient</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{101bfe6f-b70b-4118-861f-e728b6c41219}" record_timestamp="1520269588331" record_key="proposer:proposer_recipient:recipient&lt;any_factions&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{101bfe6f-b70b-4118-861f-e728b6c41219}" record_timestamp="1520269588331" record_key="proposer:proposer_recipient:recipient&lt;variable_any_factions&gt;proposer">
 <criteria>proposer</criteria>
-<filter>proposer:proposer_recipient:recipient&lt;any_factions&gt;</filter>
+<filter>proposer:proposer_recipient:recipient&lt;variable_any_factions&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{80309c4e-b9af-4508-8f94-ae3c121e323d}" record_timestamp="1520269588502" record_key="proposer:proposer_recipient:recipient&lt;any_factions&gt;recipient">
+<campaign_diplomacy_filter_elements record_uuid="{80309c4e-b9af-4508-8f94-ae3c121e323d}" record_timestamp="1520269588502" record_key="proposer:proposer_recipient:recipient&lt;variable_any_factions&gt;recipient">
 <criteria>recipient</criteria>
-<filter>proposer:proposer_recipient:recipient&lt;any_factions&gt;</filter>
+<filter>proposer:proposer_recipient:recipient&lt;variable_any_factions&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{67e7fc07-b2a0-4cf3-bf5c-15662319df09}" record_timestamp="1529918869635" record_key="proposer:proposer_recipient:recipient&lt;variable_recipient&gt;proposer">
@@ -1266,6 +1291,86 @@
 <filter>proposer:proposer_recipient:recipient_&lt;variable_deal&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{231d5145-f6e8-4343-a7ea-7c9a16dd6759}" record_timestamp="1509700623852" record_key="proposer:proposer_recipient:recipient_parameter:parameter_oathproposer">
+<criteria>proposer</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:parameter_oath</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{f2accf3b-cf59-4a66-8af8-a81ffc96ffba}" record_timestamp="1509700623889" record_key="proposer:proposer_recipient:recipient_parameter:parameter_oathrecipient">
+<criteria>recipient</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:parameter_oath</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{94c4d912-b882-423c-a2f8-96e6c932d404}" record_timestamp="1511463923871" record_key="proposer:proposer_recipient:recipient_parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriageproposer">
+<criteria>proposer</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriage</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{ecdcdc65-f34f-4565-9cbd-ca01f953957e}" record_timestamp="1511463923870" record_key="proposer:proposer_recipient:recipient_parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriagerecipient">
+<criteria>recipient</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriage</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{80234f09-676b-4076-aa66-c79903f3c445}" record_timestamp="1516650301453" record_key="proposer:proposer_recipient:recipient_parameter:parameter_proposer_marriageproposer">
+<criteria>proposer</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:parameter_proposer_marriage</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{a1020be2-51cb-4045-9aba-93e638ee7c22}" record_timestamp="1516650301316" record_key="proposer:proposer_recipient:recipient_parameter:parameter_proposer_marriagerecipient">
+<criteria>recipient</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:parameter_proposer_marriage</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{5a1f9d1e-9753-4aff-9acc-ab2f2faaf81f}" record_timestamp="1511347530130" record_key="proposer:proposer_recipient:recipient_parameter:parameter_regionproposer">
+<criteria>proposer</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:parameter_region</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{43efabe3-1e1e-4d5f-88b0-92d270a59c11}" record_timestamp="1511347530278" record_key="proposer:proposer_recipient:recipient_parameter:parameter_regionrecipient">
+<criteria>recipient</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:parameter_region</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{c9a4c867-13db-45f9-9f57-ba4b45357e8d}" record_timestamp="1508757461005" record_key="proposer:proposer_recipient:recipient_parameter:proposer_ancillaryproposer">
+<criteria>proposer</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:proposer_ancillary</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{2bc15afd-e499-443e-8711-42e93bdd0043}" record_timestamp="1508757461005" record_key="proposer:proposer_recipient:recipient_parameter:proposer_ancillaryrecipient">
+<criteria>recipient</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:proposer_ancillary</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{9968807d-5485-42f9-911a-ec24782ef565}" record_timestamp="1508757460719" record_key="proposer:proposer_recipient:recipient_parameter:proposer_regionproposer">
+<criteria>proposer</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:proposer_region</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{d3f97cf4-6f55-4b08-9d12-7ca1490e689c}" record_timestamp="1508757460719" record_key="proposer:proposer_recipient:recipient_parameter:proposer_regionrecipient">
+<criteria>recipient</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:proposer_region</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{d9958de7-6929-4964-ae42-d7c23d3282ba}" record_timestamp="1508757461005" record_key="proposer:proposer_recipient:recipient_parameter:recipient_ancillaryproposer">
+<criteria>proposer</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:recipient_ancillary</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{311af194-b364-4238-8edb-dac4d5bbcd98}" record_timestamp="1508757461005" record_key="proposer:proposer_recipient:recipient_parameter:recipient_ancillaryrecipient">
+<criteria>recipient</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:recipient_ancillary</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{5d12c30c-553c-45bd-914c-8e1b53f4a019}" record_timestamp="1508757460718" record_key="proposer:proposer_recipient:recipient_parameter:recipient_regionproposer">
+<criteria>proposer</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:recipient_region</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{825613ce-d67d-44b1-80f9-3286ca8fbecf}" record_timestamp="1508757460718" record_key="proposer:proposer_recipient:recipient_parameter:recipient_regionrecipient">
+<criteria>recipient</criteria>
+<filter>proposer:proposer_recipient:recipient_parameter:recipient_region</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{51ff939f-1fee-4525-b63b-c987ab07c7ec}" record_timestamp="1515077672953" record_key="proposer:proposer_recipient:recipient_parameter_1:parameter_1_parameter_2:parameter_2parameter_1">
 <criteria>parameter_1</criteria>
 <filter>proposer:proposer_recipient:recipient_parameter_1:parameter_1_parameter_2:parameter_2</filter>
@@ -1320,6 +1425,16 @@
 <criteria>recipient</criteria>
 <filter>proposer:recipient&lt;variable_any_factions&gt;_recipient:any&lt;variable_any_factions&gt;</filter>
 <source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{d7ab9a0c-1591-4acc-9741-0e14c0dd6f80}" record_timestamp="1561975259309" record_key="proposer:recipient&lt;variable_any_factions&gt;_recipient:proposerproposer">
+<criteria>recipient</criteria>
+<filter>proposer:recipient&lt;variable_any_factions&gt;_recipient:proposer</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{b9257b62-654c-4fc1-8960-f803eb010715}" record_timestamp="1561975259309" record_key="proposer:recipient&lt;variable_any_factions&gt;_recipient:proposerrecipient">
+<criteria>proposer</criteria>
+<filter>proposer:recipient&lt;variable_any_factions&gt;_recipient:proposer</filter>
+<source>recipient</source>
 </campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{a3f90466-07f1-4fa8-aa4d-dbd6e4f79af7}" record_timestamp="1525257953911" record_key="proposer:recipient&lt;variable_proposers&gt;_recipient:any&lt;variable_proposers&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>recipient</criteria>
@@ -1411,7 +1526,7 @@
 <filter>proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_alliance_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{a35ce004-51fb-4b78-849d-181db3db0b83}" record_timestamp="1553530531074" record_key="proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{a35ce004-51fb-4b78-849d-181db3db0b83}" record_timestamp="1554886313622" record_key="proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;proposer">
 <criteria>recipient</criteria>
 <filter>proposer:recipient_recipient:any&lt;variable_recipients&gt;_&lt;parameter_oath&gt;_&lt;parameter_alliance&gt;</filter>
 <source>proposer</source>
@@ -1419,6 +1534,11 @@
 <campaign_diplomacy_filter_elements record_uuid="{2aa78bd8-6b2d-4749-9210-1773388c317d}" record_timestamp="1516902304467" record_key="proposer:recipient_recipient:any&lt;variable_recipients&gt;proposer">
 <criteria>recipient</criteria>
 <filter>proposer:recipient_recipient:any&lt;variable_recipients&gt;</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{d915ea60-9905-431e-a252-25c51304a6b8}" record_timestamp="1562583778651" record_key="proposer:recipient_recipient:any&lt;variable_vassal_master&gt;proposer">
+<criteria>recipient</criteria>
+<filter>proposer:recipient_recipient:any&lt;variable_vassal_master&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{8f733624-c348-405f-a4ef-63c1be627f52}" record_timestamp="1516902326966" record_key="proposer:recipient_recipient:any_&lt;parameter_alliance&gt;proposer">
@@ -1446,94 +1566,14 @@
 <filter>proposer:recipient_recipient:any</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{8c37fb61-3764-417e-a73d-fdd4b47a18bd}" record_timestamp="1550862426323" record_key="proposer:recipient_recipient:parameter_factionproposer">
+<campaign_diplomacy_filter_elements record_uuid="{8c37fb61-3764-417e-a73d-fdd4b47a18bd}" record_timestamp="1511347544187" record_key="proposer:recipient_recipient:parameter_1proposer">
 <criteria>recipient</criteria>
-<filter>proposer:recipient_recipient:parameter_faction</filter>
+<filter>proposer:recipient_recipient:parameter_1</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{a9f8b1a4-7c23-4559-a603-52e68548084c}" record_timestamp="1550862426324" record_key="proposer:recipient_recipient:parameter_factionrecipient">
+<campaign_diplomacy_filter_elements record_uuid="{a9f8b1a4-7c23-4559-a603-52e68548084c}" record_timestamp="1511347544008" record_key="proposer:recipient_recipient:parameter_1recipient">
 <criteria>parameter_1</criteria>
-<filter>proposer:recipient_recipient:parameter_faction</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{15361c5d-cb12-4fea-afa6-770057420097}" record_timestamp="1509700623776" record_key="proposer:recipient_recipient:proposer:parameter:parameter_oathproposer">
-<criteria>recipient</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:parameter_oath</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{3f1d8087-485c-4d15-8a67-fa1456b394b5}" record_timestamp="1509700623814" record_key="proposer:recipient_recipient:proposer:parameter:parameter_oathrecipient">
-<criteria>proposer</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:parameter_oath</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{45e80e97-c900-4ff9-b60a-715393ea704f}" record_timestamp="1511463923870" record_key="proposer:recipient_recipient:proposer:parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriageproposer">
-<criteria>recipient</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriage</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{374d090e-cc70-4070-81f0-f5dd69844621}" record_timestamp="1511463923870" record_key="proposer:recipient_recipient:proposer:parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriagerecipient">
-<criteria>proposer</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriage</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{d4afce9b-59b0-4d5e-bb4b-70add3a9aa03}" record_timestamp="1516650301724" record_key="proposer:recipient_recipient:proposer:parameter:parameter_proposer_marriageproposer">
-<criteria>recipient</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:parameter_proposer_marriage</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{e78aff4f-fa37-4a36-871e-720b5ea2c0a2}" record_timestamp="1516650301589" record_key="proposer:recipient_recipient:proposer:parameter:parameter_proposer_marriagerecipient">
-<criteria>proposer</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:parameter_proposer_marriage</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{beeafaad-62da-45ab-b2ed-a4305dfc89a0}" record_timestamp="1511347529833" record_key="proposer:recipient_recipient:proposer:parameter:parameter_regionproposer">
-<criteria>recipient</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:parameter_region</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{3a0b8e77-52dd-4d93-a094-03fb398445f7}" record_timestamp="1511347529981" record_key="proposer:recipient_recipient:proposer:parameter:parameter_regionrecipient">
-<criteria>proposer</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:parameter_region</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{f138c04c-eed0-450b-b6f6-0c50c0b1e6b5}" record_timestamp="1508757461005" record_key="proposer:recipient_recipient:proposer:parameter:proposer_ancillaryproposer">
-<criteria>recipient</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:proposer_ancillary</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{6312da9c-a5fc-47f7-b6b9-6bca2d0e20a0}" record_timestamp="1508757461005" record_key="proposer:recipient_recipient:proposer:parameter:proposer_ancillaryrecipient">
-<criteria>proposer</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:proposer_ancillary</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{30acb5a1-7115-4f31-963a-fef950f0a900}" record_timestamp="1508757460719" record_key="proposer:recipient_recipient:proposer:parameter:proposer_regionproposer">
-<criteria>recipient</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:proposer_region</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{d576045e-8435-41c1-9c1d-78387ca8d6aa}" record_timestamp="1508757460719" record_key="proposer:recipient_recipient:proposer:parameter:proposer_regionrecipient">
-<criteria>proposer</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:proposer_region</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{5d031e52-d551-4581-bf3e-ac70d6b06f2c}" record_timestamp="1508757461005" record_key="proposer:recipient_recipient:proposer:parameter:recipient_ancillaryproposer">
-<criteria>recipient</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:recipient_ancillary</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{62cb5227-209f-4eb1-9974-b61ccf31a16e}" record_timestamp="1508757461005" record_key="proposer:recipient_recipient:proposer:parameter:recipient_ancillaryrecipient">
-<criteria>proposer</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:recipient_ancillary</filter>
-<source>recipient</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{b4ded853-244d-4490-badf-69097d603bbc}" record_timestamp="1508757460719" record_key="proposer:recipient_recipient:proposer:parameter:recipient_regionproposer">
-<criteria>recipient</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:recipient_region</filter>
-<source>proposer</source>
-</campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{6ebbf750-0cae-41af-968c-f7f13023af44}" record_timestamp="1508757460719" record_key="proposer:recipient_recipient:proposer:parameter:recipient_regionrecipient">
-<criteria>proposer</criteria>
-<filter>proposer:recipient_recipient:proposer:parameter:recipient_region</filter>
+<filter>proposer:recipient_recipient:parameter_1</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{3b9ad062-e1b1-4bb1-a32f-69cf3df0a730}" record_timestamp="1508757461031" record_key="proposer:recipient_recipient:proposer:pool:foodproposer">
@@ -1581,12 +1621,12 @@
 <filter>proposer:recipient_recipient:proposer&lt;variable_proposer&gt;</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{3eca2cf8-e50e-4ee3-aaba-7258a922b5b6}" record_timestamp="1553863710628" record_key="proposer:recipient_recipient:proposer&lt;variable_recipients&gt;proposer">
+<campaign_diplomacy_filter_elements record_uuid="{3eca2cf8-e50e-4ee3-aaba-7258a922b5b6}" record_timestamp="1554887354622" record_key="proposer:recipient_recipient:proposer&lt;variable_recipients&gt;proposer">
 <criteria>recipient</criteria>
 <filter>proposer:recipient_recipient:proposer&lt;variable_recipients&gt;</filter>
 <source>proposer</source>
 </campaign_diplomacy_filter_elements>
-<campaign_diplomacy_filter_elements record_uuid="{76d22c3f-ac9b-4ef6-8bd0-51f3c0749b7a}" record_timestamp="1553863710572" record_key="proposer:recipient_recipient:proposer&lt;variable_recipients&gt;recipient">
+<campaign_diplomacy_filter_elements record_uuid="{76d22c3f-ac9b-4ef6-8bd0-51f3c0749b7a}" record_timestamp="1554887354621" record_key="proposer:recipient_recipient:proposer&lt;variable_recipients&gt;recipient">
 <criteria>proposer</criteria>
 <filter>proposer:recipient_recipient:proposer&lt;variable_recipients&gt;</filter>
 <source>recipient</source>
@@ -1664,6 +1704,86 @@
 <campaign_diplomacy_filter_elements record_uuid="{2355d52f-21ef-4cb7-8e73-afef0363e62d}" record_timestamp="1502285789068" record_key="proposer:recipient_recipient:proposer_&lt;variable_deal&gt;recipient">
 <criteria>proposer</criteria>
 <filter>proposer:recipient_recipient:proposer_&lt;variable_deal&gt;</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{15361c5d-cb12-4fea-afa6-770057420097}" record_timestamp="1509700623776" record_key="proposer:recipient_recipient:proposer_parameter:parameter_oathproposer">
+<criteria>recipient</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:parameter_oath</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{3f1d8087-485c-4d15-8a67-fa1456b394b5}" record_timestamp="1509700623814" record_key="proposer:recipient_recipient:proposer_parameter:parameter_oathrecipient">
+<criteria>proposer</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:parameter_oath</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{45e80e97-c900-4ff9-b60a-715393ea704f}" record_timestamp="1511463923870" record_key="proposer:recipient_recipient:proposer_parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriageproposer">
+<criteria>recipient</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriage</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{374d090e-cc70-4070-81f0-f5dd69844621}" record_timestamp="1511463923870" record_key="proposer:recipient_recipient:proposer_parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriagerecipient">
+<criteria>proposer</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:parameter_proposer_marriage:parameter:parameter_recipient_marriage</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{d4afce9b-59b0-4d5e-bb4b-70add3a9aa03}" record_timestamp="1516650301724" record_key="proposer:recipient_recipient:proposer_parameter:parameter_proposer_marriageproposer">
+<criteria>recipient</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:parameter_proposer_marriage</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{e78aff4f-fa37-4a36-871e-720b5ea2c0a2}" record_timestamp="1516650301589" record_key="proposer:recipient_recipient:proposer_parameter:parameter_proposer_marriagerecipient">
+<criteria>proposer</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:parameter_proposer_marriage</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{beeafaad-62da-45ab-b2ed-a4305dfc89a0}" record_timestamp="1511347529833" record_key="proposer:recipient_recipient:proposer_parameter:parameter_regionproposer">
+<criteria>recipient</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:parameter_region</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{3a0b8e77-52dd-4d93-a094-03fb398445f7}" record_timestamp="1511347529981" record_key="proposer:recipient_recipient:proposer_parameter:parameter_regionrecipient">
+<criteria>proposer</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:parameter_region</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{f138c04c-eed0-450b-b6f6-0c50c0b1e6b5}" record_timestamp="1508757461005" record_key="proposer:recipient_recipient:proposer_parameter:proposer_ancillaryproposer">
+<criteria>recipient</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:proposer_ancillary</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{6312da9c-a5fc-47f7-b6b9-6bca2d0e20a0}" record_timestamp="1508757461005" record_key="proposer:recipient_recipient:proposer_parameter:proposer_ancillaryrecipient">
+<criteria>proposer</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:proposer_ancillary</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{30acb5a1-7115-4f31-963a-fef950f0a900}" record_timestamp="1508757460719" record_key="proposer:recipient_recipient:proposer_parameter:proposer_regionproposer">
+<criteria>recipient</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:proposer_region</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{d576045e-8435-41c1-9c1d-78387ca8d6aa}" record_timestamp="1508757460719" record_key="proposer:recipient_recipient:proposer_parameter:proposer_regionrecipient">
+<criteria>proposer</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:proposer_region</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{5d031e52-d551-4581-bf3e-ac70d6b06f2c}" record_timestamp="1508757461005" record_key="proposer:recipient_recipient:proposer_parameter:recipient_ancillaryproposer">
+<criteria>recipient</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:recipient_ancillary</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{62cb5227-209f-4eb1-9974-b61ccf31a16e}" record_timestamp="1508757461005" record_key="proposer:recipient_recipient:proposer_parameter:recipient_ancillaryrecipient">
+<criteria>proposer</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:recipient_ancillary</filter>
+<source>recipient</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{b4ded853-244d-4490-badf-69097d603bbc}" record_timestamp="1508757460719" record_key="proposer:recipient_recipient:proposer_parameter:recipient_regionproposer">
+<criteria>recipient</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:recipient_region</filter>
+<source>proposer</source>
+</campaign_diplomacy_filter_elements>
+<campaign_diplomacy_filter_elements record_uuid="{6ebbf750-0cae-41af-968c-f7f13023af44}" record_timestamp="1508757460719" record_key="proposer:recipient_recipient:proposer_parameter:recipient_regionrecipient">
+<criteria>proposer</criteria>
+<filter>proposer:recipient_recipient:proposer_parameter:recipient_region</filter>
 <source>recipient</source>
 </campaign_diplomacy_filter_elements>
 <campaign_diplomacy_filter_elements record_uuid="{87a54f98-5536-4ecf-92c7-580e0584dbaf}" record_timestamp="1515077672968" record_key="proposer:recipient_recipient:proposer_parameter_1:parameter_1_parameter_2:parameter_2parameter_1">

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_dynasty_mode_characters>
+<root>
+<edit_uuid>324d73b0-3c2d-4186-917d-43191d134ab3</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{2da407c1-5fe2-467f-9ff7-f250c92f726a}</field_uuid>
+<primary_key>1</primary_key>
+<name>character</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>character_generation_templates</column_source_table>
+<field_description>Character record (Used for display name and character art)</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{8538f9b0-d3ac-451f-bd4c-e8e213316fdb}</field_uuid>
+<primary_key>0</primary_key>
+<name>faction</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>factions</column_source_table>
+<field_description>Faction record (Used for DLC checks etc...)</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{62cc966f-c5ff-4a2d-869e-2a62f85734ba}</field_uuid>
+<primary_key>0</primary_key>
+<name>unit_record</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>unit</column_source_column>
+<column_source_table>main_units</column_source_table>
+<field_description>Unit record, Dynasty mode characters should always use Romance (Hero) unit records</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{4d4ce74b-09a4-4fcf-bedf-bbc36afe06d9}</field_uuid>
+<primary_key>0</primary_key>
+<name>loadout</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>custom_battle_loadouts</column_source_table>
+<field_description>Loadout record for weapons/abilities</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

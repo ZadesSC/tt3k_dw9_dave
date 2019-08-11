@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_treaty_component_income_transfer_effects.xsd" export_time="Tue Mar 12 17:48:00 2019" revision="10" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1380/dave" export_user="bob">
-<edit_uuid>95562167-4367-4578-9dfb-87bc603db553</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_treaty_component_income_transfer_effects.xsd" export_time="Thu Jun 6 16:35:02 2019" revision="10" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1501/dave" export_user="bob">
+<edit_uuid>25f232e8-bd65-490d-9dc7-0a4899b45f8e</edit_uuid>
 <campaign_diplomacy_treaty_component_income_transfer_effects record_uuid="{84195884-4c40-40d3-956e-2fced5a23e74}" record_timestamp="1548703478765" record_key="treaty_components_take_tributetrue">
 <additional_percentage_per_settled_horde_unit>0</additional_percentage_per_settled_horde_unit>
 <component>treaty_components_take_tribute</component>
@@ -33,7 +33,15 @@
 <maximum_income_transferred>8000</maximum_income_transferred>
 <percentage_of_varying_regular_income>20</percentage_of_varying_regular_income>
 </campaign_diplomacy_treaty_component_income_transfer_effects>
-<campaign_diplomacy_treaty_component_income_transfer_effects record_uuid="{e95243a3-5756-41d9-afe3-8a59f505e641}" record_timestamp="1551962477180" record_key="treaty_components_vassalise_proposer_yuan_shufalse">
+<campaign_diplomacy_treaty_component_income_transfer_effects record_uuid="{09f9a383-6c22-4025-ba19-84c152328bf7}" record_timestamp="1559835299361" record_key="treaty_components_vassalise_proposer_sima_liangfalse">
+<additional_percentage_per_settled_horde_unit>0</additional_percentage_per_settled_horde_unit>
+<component>treaty_components_vassalise_proposer_sima_liang</component>
+<income_transferred_to_proposer>0</income_transferred_to_proposer>
+<maximum_additional_percentage_from_settled_horde_units>0</maximum_additional_percentage_from_settled_horde_units>
+<maximum_income_transferred>8000</maximum_income_transferred>
+<percentage_of_varying_regular_income>20</percentage_of_varying_regular_income>
+</campaign_diplomacy_treaty_component_income_transfer_effects>
+<campaign_diplomacy_treaty_component_income_transfer_effects record_uuid="{e95243a3-5756-41d9-afe3-8a59f505e641}" record_timestamp="1554881661797" record_key="treaty_components_vassalise_proposer_yuan_shufalse">
 <additional_percentage_per_settled_horde_unit>0</additional_percentage_per_settled_horde_unit>
 <component>treaty_components_vassalise_proposer_yuan_shu</component>
 <income_transferred_to_proposer>0</income_transferred_to_proposer>
@@ -49,7 +57,15 @@
 <maximum_income_transferred>8000</maximum_income_transferred>
 <percentage_of_varying_regular_income>20</percentage_of_varying_regular_income>
 </campaign_diplomacy_treaty_component_income_transfer_effects>
-<campaign_diplomacy_treaty_component_income_transfer_effects record_uuid="{7aedaae3-3c20-4f53-9ae2-5aa8118862cd}" record_timestamp="1551962477224" record_key="treaty_components_vassalise_recipient_yuan_shutrue">
+<campaign_diplomacy_treaty_component_income_transfer_effects record_uuid="{67f15bfc-9b07-44b4-b008-031a9e8d70a5}" record_timestamp="1559835299360" record_key="treaty_components_vassalise_recipient_sima_liangtrue">
+<additional_percentage_per_settled_horde_unit>0</additional_percentage_per_settled_horde_unit>
+<component>treaty_components_vassalise_recipient_sima_liang</component>
+<income_transferred_to_proposer>1</income_transferred_to_proposer>
+<maximum_additional_percentage_from_settled_horde_units>0</maximum_additional_percentage_from_settled_horde_units>
+<maximum_income_transferred>8000</maximum_income_transferred>
+<percentage_of_varying_regular_income>20</percentage_of_varying_regular_income>
+</campaign_diplomacy_treaty_component_income_transfer_effects>
+<campaign_diplomacy_treaty_component_income_transfer_effects record_uuid="{7aedaae3-3c20-4f53-9ae2-5aa8118862cd}" record_timestamp="1554881661797" record_key="treaty_components_vassalise_recipient_yuan_shutrue">
 <additional_percentage_per_settled_horde_unit>0</additional_percentage_per_settled_horde_unit>
 <component>treaty_components_vassalise_recipient_yuan_shu</component>
 <income_transferred_to_proposer>1</income_transferred_to_proposer>

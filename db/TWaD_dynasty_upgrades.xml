@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_dynasty_upgrades>
+<root>
+<edit_uuid>579c5611-1e56-42b4-8daa-825a0ea6c166</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{06169e82-e926-45da-9104-f3b3c22b7753}</field_uuid>
+<primary_key>1</primary_key>
+<name>key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{e522984d-2804-43c7-bd9e-6cc561b3d93a}</field_uuid>
+<primary_key>0</primary_key>
+<name>onscreen_name</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>placeholder</default_value>
+<max_length>255</max_length>
+<field_description>Name to display in UI</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{51096372-3eb9-4712-bc7b-f8b082a57863}</field_uuid>
+<primary_key>0</primary_key>
+<name>cost</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>Cost in upgrade points</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{30ee53f6-b2c8-44f9-9213-002f5b61b13e}</field_uuid>
+<primary_key>0</primary_key>
+<name>ability_record</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>unit_special_abilities</column_source_table>
+<field_description>Record of unit ability to add when purchasing this upgrade</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{7d276e83-ed51-43ee-b8d5-e3ce75be724b}</field_uuid>
+<primary_key>0</primary_key>
+<name>num_uses</name>
+<field_type>integer</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>Number of times this upgrade can be purchased</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{8a787b11-7671-4ec0-8957-e916e99f5f6a}</field_uuid>
+<primary_key>0</primary_key>
+<name>type</name>
+<field_type>text</field_type>
+<required>1</required>
+<default_value>add</default_value>
+<max_length>255</max_length>
+<column_source_column>type</column_source_column>
+<column_source_table>dynasty_upgrade_types</column_source_table>
+<field_description>Add will simply add the ability, add and trigger will add and immediately activate it (For short duration effects such as full heal)</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

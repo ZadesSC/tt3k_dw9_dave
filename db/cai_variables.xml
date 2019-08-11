@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_variables.xsd" export_time="Thu Apr 4 09:30:06 2019" revision="112" export_branch="C:/Users/Tim.Gosling/AppData/Roaming/TWDaemon/1423/dave" export_user="bob">
-<edit_uuid>75f40ba2-2572-4b53-a322-3f39d891d738</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_variables.xsd" export_time="Wed Apr 10 10:18:14 2019" revision="105" export_branch="C:/TW/branches/3k/eight/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>3df66ecf-608a-4e31-9342-2443e9252e06</edit_uuid>
 <cai_variables record_uuid="{d1ecef88-ae40-4788-bcbf-bee26246bc0b}" record_timestamp="1458319825015" record_key="CAI_VARIABLE_AGGR_RAMP_CHANCE_BASE">
 <description>(In-game) Base chance per round that an eligible faction will be selected for aggression increase. Base Chance + (Rounds Played * Per Round Chance).</description>
 <key>CAI_VARIABLE_AGGR_RAMP_CHANCE_BASE</key>
@@ -176,32 +176,32 @@
 <key>CAI_VARIABLE_BASIC_CTRL_BUILDING_REPAIR_BONUS</key>
 <value>60</value>
 </cai_variables>
-<cai_variables record_uuid="{485359b0-26b3-492b-b880-48276a1443b5}" record_timestamp="1551456812093" record_key="CAI_VARIABLE_CAPITAL_MOVE_ARMED_CITIZENRY_MULTIPLIER">
+<cai_variables record_uuid="{485359b0-26b3-492b-b880-48276a1443b5}" record_timestamp="1551788855695" record_key="CAI_VARIABLE_CAPITAL_MOVE_ARMED_CITIZENRY_MULTIPLIER">
 <description>(In-game) Used when determining a new capital for a world leader, weights the importance of the armed citizenry of the settltment.</description>
 <key>CAI_VARIABLE_CAPITAL_MOVE_ARMED_CITIZENRY_MULTIPLIER</key>
 <value>0.25</value>
 </cai_variables>
-<cai_variables record_uuid="{588e6ea6-c773-484f-9e47-977bcf4042e7}" record_timestamp="1553791450323" record_key="CAI_VARIABLE_CAPITAL_MOVE_DISTANCE_FROM_AI_MULTIPLIER">
+<cai_variables record_uuid="{588e6ea6-c773-484f-9e47-977bcf4042e7}" record_timestamp="1551788855695" record_key="CAI_VARIABLE_CAPITAL_MOVE_DISTANCE_FROM_AI_MULTIPLIER">
 <description>(In-game) Used when determining a new capital for a world leader, weights the importance of distance to other AI world leaders.</description>
 <key>CAI_VARIABLE_CAPITAL_MOVE_DISTANCE_FROM_AI_MULTIPLIER</key>
 <value>1</value>
 </cai_variables>
-<cai_variables record_uuid="{57c09668-8238-4390-ae0d-5b1f3c9d7f03}" record_timestamp="1553791450323" record_key="CAI_VARIABLE_CAPITAL_MOVE_DISTANCE_FROM_PLAYER_MULTIPLIER">
+<cai_variables record_uuid="{57c09668-8238-4390-ae0d-5b1f3c9d7f03}" record_timestamp="1551788855695" record_key="CAI_VARIABLE_CAPITAL_MOVE_DISTANCE_FROM_PLAYER_MULTIPLIER">
 <description>(In-game) Used when determining a new capital for a world leader, weights the importance of distance to the player for the AI.</description>
 <key>CAI_VARIABLE_CAPITAL_MOVE_DISTANCE_FROM_PLAYER_MULTIPLIER</key>
 <value>2</value>
 </cai_variables>
-<cai_variables record_uuid="{3f9279f4-c98c-4293-b835-55d2d40f0e99}" record_timestamp="1551456812093" record_key="CAI_VARIABLE_CAPITAL_MOVE_MAJOR_SETTLEMENT_MODIFIER">
+<cai_variables record_uuid="{3f9279f4-c98c-4293-b835-55d2d40f0e99}" record_timestamp="1551788855695" record_key="CAI_VARIABLE_CAPITAL_MOVE_MAJOR_SETTLEMENT_MODIFIER">
 <description>(In-game) Used when determining a new capital for a world leader, weights the importance of a settlement being 'major'.</description>
 <key>CAI_VARIABLE_CAPITAL_MOVE_MAJOR_SETTLEMENT_MODIFIER</key>
 <value>0.25</value>
 </cai_variables>
-<cai_variables record_uuid="{7b186b5b-4fa3-4e15-9621-6c766691f7d0}" record_timestamp="1551456812093" record_key="CAI_VARIABLE_CAPITAL_MOVE_RANDOM_SELECTION_TOP_PERCENT">
+<cai_variables record_uuid="{7b186b5b-4fa3-4e15-9621-6c766691f7d0}" record_timestamp="1551788855695" record_key="CAI_VARIABLE_CAPITAL_MOVE_RANDOM_SELECTION_TOP_PERCENT">
 <description>(In-game) Used when determining a new capital for a world leader, for the AI only, select from possible capital regions scored within this percentage of the top scoring option(s).</description>
 <key>CAI_VARIABLE_CAPITAL_MOVE_RANDOM_SELECTION_TOP_PERCENT</key>
 <value>10</value>
 </cai_variables>
-<cai_variables record_uuid="{c9c2975a-36c7-4bf5-af5a-7e77af057480}" record_timestamp="1554366606683" record_key="CAI_VARIABLE_CAPITAL_MOVE_WALLED_SETTLEMENT_MODIFIER">
+<cai_variables record_uuid="{c9c2975a-36c7-4bf5-af5a-7e77af057480}" record_timestamp="1554887894089" record_key="CAI_VARIABLE_CAPITAL_MOVE_WALLED_SETTLEMENT_MODIFIER">
 <description>(In-game) Used when determining a new capital for a world leader, the score weighting assigned to a settlement being walled.</description>
 <key>CAI_VARIABLE_CAPITAL_MOVE_WALLED_SETTLEMENT_MODIFIER</key>
 <value>1</value>
@@ -841,7 +841,7 @@
 <key>CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_DEMOLITION_THRESHOLD_BASIC</key>
 <value>100</value>
 </cai_variables>
-<cai_variables record_uuid="{4ef1accf-df46-46c3-8786-82579e71e493}" record_timestamp="1553245849627" record_key="CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_SCORE_PER_TURN_ACCUMULATION_CAP">
+<cai_variables record_uuid="{4ef1accf-df46-46c3-8786-82579e71e493}" record_timestamp="1458319824993" record_key="CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_SCORE_PER_TURN_ACCUMULATION_CAP">
 <description>(In-game) The maximum public order problem score that can be accumulated in one round for a given province.</description>
 <key>CAI_VARIABLE_PUBLIC_ORDER_CTRL_ONGOING_PROBLEM_SCORE_PER_TURN_ACCUMULATION_CAP</key>
 <value>25</value>
@@ -1019,7 +1019,7 @@
 <cai_variables record_uuid="{359f6bf9-a7a9-4595-97ca-bc80660d9625}" record_timestamp="1458319825008" record_key="CAI_VARIABLE_STRATEGIC_BALANCE_HEX_VALUE_MULTIPLIER">
 <description>(In-game) Parameter for strategic balance calculation.</description>
 <key>CAI_VARIABLE_STRATEGIC_BALANCE_HEX_VALUE_MULTIPLIER</key>
-<value>1e-06</value>
+<value>1e-6</value>
 </cai_variables>
 <cai_variables record_uuid="{19597714-62ae-4220-84c5-1c1d9ec8d6e5}" record_timestamp="1458319824890" record_key="CAI_VARIABLE_STRATEGIC_CONTEXT_ADJUSTMENT_PER_NUM_ENEMIES">
 <description>(In-game) Adjustment to strategic balance is applied for every X enemies.</description>
@@ -1146,7 +1146,7 @@
 <key>CAI_VARIABLE_WAAGH_QUALITY_MULTIPLIER</key>
 <value>0</value>
 </cai_variables>
-<cai_variables record_uuid="{fc110c04-0416-4d55-8bf5-feb90d08fbf3}" record_timestamp="1554204903031" record_key="CAI_VARIABLE_WORLD_LEADER_SETTLEMENT_FORTIFICATION_MULTIPLIER_THREAT">
+<cai_variables record_uuid="{fc110c04-0416-4d55-8bf5-feb90d08fbf3}" record_timestamp="1554887662246" record_key="CAI_VARIABLE_WORLD_LEADER_SETTLEMENT_FORTIFICATION_MULTIPLIER_THREAT">
 <description>(In-game) AI strength multiplier for world leader settlements used for threat detection.</description>
 <key>CAI_VARIABLE_WORLD_LEADER_SETTLEMENT_FORTIFICATION_MULTIPLIER_THREAT</key>
 <value>10</value>

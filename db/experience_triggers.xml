@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="experience_triggers.xsd" export_time="Fri May 24 11:37:03 2019" revision="71" export_branch="C:/Users/jonathan.diamond/AppData/Roaming/TWDaemon/1491/dave" export_user="bob">
-<edit_uuid>8dd06a8d-4881-4f98-bb06-f5e2ef5a62f6</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="experience_triggers.xsd" export_time="Wed May 30 18:41:26 2018" revision="70" export_branch="T:/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>e8a9002f-8c08-417a-bb74-b525058d2b3a</edit_uuid>
 <experience_triggers record_uuid="{b24cffeb-a445-4d99-9033-53f1292a83be}" record_timestamp="1466010291312" record_key="Trigger_Agent_Anti_Character_Fail_AI">
 <condition>not context:character():faction():is_human() and (context:ability()==&quot;hinder_character&quot; or context:ability()==&quot;hinder_agent&quot;) and context:mission_result_failure()</condition>
 <event>CharacterCharacterTargetAction</event>
@@ -288,6 +288,42 @@
 <localised_description></localised_description>
 <target>agent</target>
 <trigger_key>Trigger_Agent_Deployed_Action_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{042da7d3-f420-4e36-be60-7f00f6346cd2}" record_timestamp="1466010291318" record_key="Trigger_Agent_Friendly_Target_Action_AI">
+<condition>not context:character():faction():is_human() and not (context:character():has_skill(&quot;wh_main_skill_all_champion_campaign_drill_master&quot;) or context:character():has_skill(&quot;wh_main_skill_all_dignitary_campaign_call_to_arms&quot;) or context:character():has_skill(&quot;wh_main_skill_all_wizard_campaign_magic_detection&quot;) or context:character():has_skill(&quot;wh_main_skill_dwf_engineer_campaign_logistical_engineer&quot;) or context:character():has_skill(&quot;wh_main_skill_dwf_runesmith_campaign_rune_of_spellbreaking&quot;) or context:character():has_skill(&quot;wh_main_skill_all_spy_campaign_watcher&quot;))</condition>
+<event>CharacterPerformsActionAgainstFriendlyTarget</event>
+<experience_points>50</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Friendly_Target_Action_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{430cc6dc-e559-4ad5-b27f-7989a81c89cb}" record_timestamp="1466010291300" record_key="Trigger_Agent_Friendly_Target_Action_Human">
+<condition>context:character():faction():is_human() and not (context:character():has_skill(&quot;wh_main_skill_all_champion_campaign_drill_master&quot;) or context:character():has_skill(&quot;wh_main_skill_all_dignitary_campaign_call_to_arms&quot;) or context:character():has_skill(&quot;wh_main_skill_all_wizard_campaign_magic_detection&quot;) or context:character():has_skill(&quot;wh_main_skill_dwf_engineer_campaign_logistical_engineer&quot;) or context:character():has_skill(&quot;wh_main_skill_dwf_runesmith_campaign_rune_of_spellbreaking&quot;) or context:character():has_skill(&quot;wh_main_skill_all_spy_campaign_watcher&quot;))</condition>
+<event>CharacterPerformsActionAgainstFriendlyTarget</event>
+<experience_points>150</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Friendly_Target_Action_Human</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{bfd87b14-a617-4531-9d97-bcf23f3fad87}" record_timestamp="1466010291302" record_key="Trigger_Agent_Friendly_Target_Action_With_Skill_AI">
+<condition>not context:character():faction():is_human() and context:character():has_skill(&quot;wh_main_skill_all_champion_campaign_drill_master&quot;) or context:character():has_skill(&quot;wh_main_skill_all_dignitary_campaign_call_to_arms&quot;) or context:character():has_skill(&quot;wh_main_skill_all_wizard_campaign_magic_detection&quot;) or context:character():has_skill(&quot;wh_main_skill_dwf_engineer_campaign_logistical_engineer&quot;) or context:character():has_skill(&quot;wh_main_skill_dwf_runesmith_campaign_rune_of_spellbreaking&quot;) or context:character():has_skill(&quot;wh_main_skill_all_spy_campaign_watcher&quot;)</condition>
+<event>CharacterPerformsActionAgainstFriendlyTarget</event>
+<experience_points>400</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Friendly_Target_Action_With_Skill_AI</trigger_key>
+</experience_triggers>
+<experience_triggers record_uuid="{f87412a7-5e22-47d2-b3a7-98dc268d0137}" record_timestamp="1466010291301" record_key="Trigger_Agent_Friendly_Target_Action_With_Skill_Human">
+<condition>context:character():faction():is_human() and context:character():has_skill(&quot;wh_main_skill_all_champion_campaign_drill_master&quot;) or context:character():has_skill(&quot;wh_main_skill_all_dignitary_campaign_call_to_arms&quot;) or context:character():has_skill(&quot;wh_main_skill_all_wizard_campaign_magic_detection&quot;) or context:character():has_skill(&quot;wh_main_skill_dwf_engineer_campaign_logistical_engineer&quot;) or context:character():has_skill(&quot;wh_main_skill_dwf_runesmith_campaign_rune_of_spellbreaking&quot;) or context:character():has_skill(&quot;wh_main_skill_all_spy_campaign_watcher&quot;)</condition>
+<event>CharacterPerformsActionAgainstFriendlyTarget</event>
+<experience_points>250</experience_points>
+<gravitas_points>0</gravitas_points>
+<localised_description></localised_description>
+<target>agent</target>
+<trigger_key>Trigger_Agent_Friendly_Target_Action_With_Skill_Human</trigger_key>
 </experience_triggers>
 <experience_triggers record_uuid="{ad03c95c-470e-4903-8b35-3af36300f715}" record_timestamp="1465987248485" record_key="Trigger_General_Defeat">
 <condition>not battle_is_quest_battle(context:character():model():pending_battle()) and not context:character():won_battle() and ((context:character():model():pending_battle():attacker_battle_result()==&quot;close_defeat&quot; or context:character():model():pending_battle():attacker_battle_result()==&quot;decisive_defeat&quot;) or (context:character():model():pending_battle():defender_battle_result()==&quot;close_defeat&quot; or context:character():model():pending_battle():defender_battle_result()==&quot;decisive_defeat&quot;))</condition>

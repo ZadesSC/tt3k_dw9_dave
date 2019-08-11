@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="faction_groups.xsd" export_time="Fri Oct 19 17:18:28 2018" revision="57" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1170/dave" export_user="bob">
-<edit_uuid>c9ce2978-89e5-4893-b2fa-808ffe02df72</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="faction_groups.xsd" export_time="Thu May 2 10:51:25 2019" revision="59" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1465/dave" export_user="bob">
+<edit_uuid>8a9056b4-871b-40b7-a083-f07b559a9c0f</edit_uuid>
 <faction_groups record_uuid="{6a83745f-e01c-405b-8ca7-8c7a8612fff6}" record_timestamp="1512743568401" record_key="3k_main_faction_group_bandits">
 <campaign_selection_background>ui/skins/default/3K_Frontend_FactionSelection_BG_Background.png</campaign_selection_background>
 <campaign_selection_foreground>x</campaign_selection_foreground>
@@ -59,6 +59,18 @@
 <key>3k_main_faction_group_yt_rebels</key>
 <name_localised state="APPROVED" last_approved_text="Yellow Turbans" last_edit_user="bob">Yellow Turbans</name_localised>
 <order>4</order>
+<ui_icon>x</ui_icon>
+</faction_groups>
+<faction_groups record_uuid="{87022820-1526-4493-ae3f-2ca9a6e9be2b}" record_timestamp="1555410978212" record_key="ep_faction_group_eight_princes">
+<campaign_selection_background>ui/skins/default/3K_Frontend_FactionSelection_BG_Background.png</campaign_selection_background>
+<campaign_selection_foreground>x</campaign_selection_foreground>
+<campaign_selection_midground>ui/skins/default/3K_Frontend_FactionSelection_BG_Midground.png</campaign_selection_midground>
+<character_selection_background>ui/skins/default/characterselect_coalition.png</character_selection_background>
+<description_localised state="HIDDEN" last_approved_text="" last_edit_user="bob">Unused</description_localised>
+<effect_bundle>3k_main_dummy_effect_bundle</effect_bundle>
+<key>ep_faction_group_eight_princes</key>
+<name_localised state="APPROVED" last_approved_text="Eight Princes" last_edit_user="bob">Eight Princes</name_localised>
+<order>0</order>
 <ui_icon>x</ui_icon>
 </faction_groups>
 </dataroot>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_stance_effects_junctions.xsd" export_time="Mon Mar 4 15:27:44 2019" revision="48" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1369/dave" export_user="bob">
-<edit_uuid>d8f4861e-0065-49e2-8e44-93e3739c7b40</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_stance_effects_junctions.xsd" export_time="Wed Jun 5 15:49:27 2019" revision="50" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1501/dave" export_user="bob">
+<edit_uuid>169b77ed-63f3-4ee4-804c-c33f55c4f5b2</edit_uuid>
 <campaign_stance_effects_junctions record_uuid="{e3ca199f-d2c7-4678-bd37-a1d7a631ee6d}" record_timestamp="1508409682527" record_key="MILITARY_FORCE_ACTIVE_STANCE_TYPE_AMBUSH3k_main_bundle_stance_army_ambushARMY">
 <culture></culture>
 <effect_bundle>3k_main_bundle_stance_army_ambush</effect_bundle>
@@ -57,7 +57,7 @@
 <stance>MILITARY_FORCE_ACTIVE_STANCE_TYPE_DEFAULT</stance>
 <subculture></subculture>
 </campaign_stance_effects_junctions>
-<campaign_stance_effects_junctions record_uuid="{22a81dcc-5426-4ede-b50a-83bc319b5bfa}" record_timestamp="1551713256945" record_key="MILITARY_FORCE_ACTIVE_STANCE_TYPE_DEFAULT3k_main_bundle_stance_army_default_yellow_turban3k_main_subculture_yellow_turbanARMY">
+<campaign_stance_effects_junctions record_uuid="{22a81dcc-5426-4ede-b50a-83bc319b5bfa}" record_timestamp="1554880897123" record_key="MILITARY_FORCE_ACTIVE_STANCE_TYPE_DEFAULT3k_main_bundle_stance_army_default_yellow_turban3k_main_subculture_yellow_turbanARMY">
 <culture></culture>
 <effect_bundle>3k_main_bundle_stance_army_default_yellow_turban</effect_bundle>
 <faction></faction>
@@ -257,6 +257,14 @@
 <stance>MILITARY_FORCE_ACTIVE_STANCE_TYPE_SET_CAMP</stance>
 <subculture></subculture>
 </campaign_stance_effects_junctions>
+<campaign_stance_effects_junctions record_uuid="{3a24d176-8d26-4886-8677-458553a4cb40}" record_timestamp="1558708344118" record_key="MILITARY_FORCE_ACTIVE_STANCE_TYPE_SET_CAMPep_bundle_stance_army_fortification_prince_of_qiep_faction_prince_of_qiARMY">
+<culture></culture>
+<effect_bundle>ep_bundle_stance_army_fortification_prince_of_qi</effect_bundle>
+<faction>ep_faction_prince_of_qi</faction>
+<force_type>ARMY</force_type>
+<stance>MILITARY_FORCE_ACTIVE_STANCE_TYPE_SET_CAMP</stance>
+<subculture></subculture>
+</campaign_stance_effects_junctions>
 <campaign_stance_effects_junctions record_uuid="{2f92c650-b700-48ee-9928-067bf59cdde9}" record_timestamp="1508409687178" record_key="MILITARY_FORCE_SITUATIONAL_STANCE_BLOCKADE3k_main_bundle_stance_navy_blockading">
 <culture></culture>
 <effect_bundle>3k_main_bundle_stance_navy_blockading</effect_bundle>
@@ -302,6 +310,14 @@
 <effect_bundle>3k_main_bundle_stance_army_garrisoned</effect_bundle>
 <faction></faction>
 <force_type>HORDE</force_type>
+<stance>MILITARY_FORCE_SITUATIONAL_STANCE_GARRISON</stance>
+<subculture></subculture>
+</campaign_stance_effects_junctions>
+<campaign_stance_effects_junctions record_uuid="{02cba379-0e84-48fd-836d-9976fff0bf38}" record_timestamp="1559746155733" record_key="MILITARY_FORCE_SITUATIONAL_STANCE_GARRISONep_effect_bundle_garrison_construction_sima_yongep_faction_prince_of_hejianARMY">
+<culture></culture>
+<effect_bundle>ep_effect_bundle_garrison_construction_sima_yong</effect_bundle>
+<faction>ep_faction_prince_of_hejian</faction>
+<force_type>ARMY</force_type>
 <stance>MILITARY_FORCE_SITUATIONAL_STANCE_GARRISON</stance>
 <subculture></subculture>
 </campaign_stance_effects_junctions>

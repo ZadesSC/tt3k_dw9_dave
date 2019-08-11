@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ui_diplomacy_treaty_components_to_deal_signed_animations_junctions.xsd" export_time="Tue Mar 12 13:43:29 2019" revision="8" export_branch="C:/Users/william.meaton/AppData/Roaming/TWDaemon/1380/dave" export_user="bob">
-<edit_uuid>58bf0422-6619-45c8-b81f-c5184604613d</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ui_diplomacy_treaty_components_to_deal_signed_animations_junctions.xsd" export_time="Thu Jul 18 10:42:58 2019" revision="11" export_branch="C:/Users/rick.venier/AppData/Roaming/TWDaemon/1586/dave" export_user="bob">
+<edit_uuid>23bdd2e7-c8ae-498e-b040-b2579e7e6889</edit_uuid>
 <ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{4135d897-89bb-48f6-95a0-fbc5c4902aab}" record_timestamp="1548756368427" record_key="ui_treaty_compoents_take_tribute">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
@@ -56,7 +56,7 @@
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_acknowledge_legitimacy_offer</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{fd79f6f1-2ea8-4815-985d-964cf8afaf14}" record_timestamp="1552398207177" record_key="ui_treaty_components_alliance_split_vote">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{fd79f6f1-2ea8-4815-985d-964cf8afaf14}" record_timestamp="1554882814575" record_key="ui_treaty_components_alliance_split_vote">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_alliance_split_vote</ui_diplomacy_treaty_component>
@@ -106,7 +106,7 @@
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_coalition_alliance_vote_kick</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{6e823a48-3bbd-41dc-aeff-d06a9fa21f5d}" record_timestamp="1552398207187" record_key="ui_treaty_components_coalition_split_vote">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{6e823a48-3bbd-41dc-aeff-d06a9fa21f5d}" record_timestamp="1554882814575" record_key="ui_treaty_components_coalition_split_vote">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_coalition_split_vote</ui_diplomacy_treaty_component>
@@ -226,6 +226,11 @@
 <ui_diplomacy_deal_signed_animation>war</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_group_war</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{33e29268-8ffe-45b5-b6f1-b7a55bfb857c}" record_timestamp="1561975261415" record_key="ui_treaty_components_group_war_participant_vassalised_resolve_group_war_with_master">
+<priority>0</priority>
+<ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
+<ui_diplomacy_treaty_component>ui_treaty_components_group_war_participant_vassalised_resolve_group_war_with_master</ui_diplomacy_treaty_component>
+</ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
 <ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{11a054cf-2a4a-43b5-8e6e-924ded8c89dc}" record_timestamp="1548756368429" record_key="ui_treaty_components_guarentee_autonomy">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
@@ -266,7 +271,12 @@
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_join_military_alliance</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{1cd03483-5834-4573-9f2f-ee67975900cc}" record_timestamp="1552398207133" record_key="ui_treaty_components_legitimacy_dummy">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{c285a6e6-b958-4937-9881-e20949613b82}" record_timestamp="1559835299508" record_key="ui_treaty_components_jurisdiction_dummy">
+<priority>0</priority>
+<ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
+<ui_diplomacy_treaty_component>ui_treaty_components_jurisdiction_dummy</ui_diplomacy_treaty_component>
+</ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{1cd03483-5834-4573-9f2f-ee67975900cc}" record_timestamp="1554882814574" record_key="ui_treaty_components_legitimacy_dummy">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_legitimacy_dummy</ui_diplomacy_treaty_component>
@@ -286,10 +296,20 @@
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_manipulate_negative</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{8d160502-581d-45a7-862e-6462edfab0e4}" record_timestamp="1562334901383" record_key="ui_treaty_components_manipulate_negative_sima_yue">
+<priority>0</priority>
+<ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
+<ui_diplomacy_treaty_component>ui_treaty_components_manipulate_negative_sima_yue</ui_diplomacy_treaty_component>
+</ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
 <ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{406ee004-653d-4786-b67a-63c8dcaa98b6}" record_timestamp="1548756368428" record_key="ui_treaty_components_manipulate_positive">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_manipulate_positive</ui_diplomacy_treaty_component>
+</ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{28823bdc-d389-4d75-af60-94b0ea39d8a3}" record_timestamp="1562334901353" record_key="ui_treaty_components_manipulate_positive_sima_yue">
+<priority>0</priority>
+<ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
+<ui_diplomacy_treaty_component>ui_treaty_components_manipulate_positive_sima_yue</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
 <ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{a3d6f9fb-812f-4226-9134-5c9cc10e76cf}" record_timestamp="1548756368428" record_key="ui_treaty_components_marriage_confederate_proposer_faction">
 <priority>0</priority>
@@ -301,22 +321,22 @@
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_marriage_confederate_recipient_faction</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{e5515ebd-cdfd-4c08-8fcc-4414977758fc}" record_timestamp="1552047390645" record_key="ui_treaty_components_marriage_join_faction">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{e5515ebd-cdfd-4c08-8fcc-4414977758fc}" record_timestamp="1554882107056" record_key="ui_treaty_components_marriage_join_faction">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_marriage_join_faction</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{aa9898c7-bb6d-41ca-bdb3-268d668478ae}" record_timestamp="1552047391164" record_key="ui_treaty_components_marriage_join_faction_ai">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{aa9898c7-bb6d-41ca-bdb3-268d668478ae}" record_timestamp="1554882107058" record_key="ui_treaty_components_marriage_join_faction_ai">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_marriage_join_faction_ai</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{a818c114-fe3f-4b11-acff-65e847a17f5e}" record_timestamp="1552047390632" record_key="ui_treaty_components_marriage_leave_faction">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{a818c114-fe3f-4b11-acff-65e847a17f5e}" record_timestamp="1554882107056" record_key="ui_treaty_components_marriage_leave_faction">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_marriage_leave_faction</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{ff185e9f-46df-48c1-9ce4-9206f60d82a0}" record_timestamp="1552047391181" record_key="ui_treaty_components_marriage_leave_faction_ai">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{ff185e9f-46df-48c1-9ce4-9206f60d82a0}" record_timestamp="1554882107058" record_key="ui_treaty_components_marriage_leave_faction_ai">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_marriage_leave_faction_ai</ui_diplomacy_treaty_component>
@@ -336,7 +356,7 @@
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_military_alliance_vote_kick</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{c12b2f3e-42f0-40bb-95b1-789c55dd065b}" record_timestamp="1552398207126" record_key="ui_treaty_components_multiplayer_victory">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{c12b2f3e-42f0-40bb-95b1-789c55dd065b}" record_timestamp="1554882814574" record_key="ui_treaty_components_multiplayer_victory">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_multiplayer_victory</ui_diplomacy_treaty_component>
@@ -391,7 +411,7 @@
 <ui_diplomacy_deal_signed_animation>war</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_quit_coalition_alliance_and_declare_war</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{2c88f304-1ec4-43cf-b7bc-7acad1cf04ed}" record_timestamp="1552398207158" record_key="ui_treaty_components_quit_coalition_alliance_no_treachery">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{2c88f304-1ec4-43cf-b7bc-7acad1cf04ed}" record_timestamp="1554882814575" record_key="ui_treaty_components_quit_coalition_alliance_no_treachery">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_quit_coalition_alliance_no_treachery</ui_diplomacy_treaty_component>
@@ -406,7 +426,7 @@
 <ui_diplomacy_deal_signed_animation>war</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_quit_military_alliance_and_declare_war</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{a2db61b4-782e-4c30-b25d-2b92de379155}" record_timestamp="1552398207149" record_key="ui_treaty_components_quit_military_alliance_no_treachery">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{a2db61b4-782e-4c30-b25d-2b92de379155}" record_timestamp="1554882814575" record_key="ui_treaty_components_quit_military_alliance_no_treachery">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_quit_military_alliance_no_treachery</ui_diplomacy_treaty_component>
@@ -430,6 +450,21 @@
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_region</ui_diplomacy_treaty_component>
+</ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{265b4910-a4e5-43da-b489-93a7eb872973}" record_timestamp="1559652444751" record_key="ui_treaty_components_sima_lun_coercion">
+<priority>0</priority>
+<ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
+<ui_diplomacy_treaty_component>ui_treaty_components_sima_lun_coercion</ui_diplomacy_treaty_component>
+</ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{652959fe-7b67-41ae-a771-274d9194f7ad}" record_timestamp="1559652447999" record_key="ui_treaty_components_sima_lun_instigate_proxy_war_proposer">
+<priority>0</priority>
+<ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
+<ui_diplomacy_treaty_component>ui_treaty_components_sima_lun_instigate_proxy_war_proposer</ui_diplomacy_treaty_component>
+</ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{61afe1e4-99f4-4207-a9e5-4040e4936c54}" record_timestamp="1559652447999" record_key="ui_treaty_components_sima_lun_instigate_proxy_war_recipient">
+<priority>0</priority>
+<ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
+<ui_diplomacy_treaty_component>ui_treaty_components_sima_lun_instigate_proxy_war_recipient</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
 <ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{180a54e5-4f23-45c4-98fd-8425fa5a7177}" record_timestamp="1548756368428" record_key="ui_treaty_components_support_legitimacy">
 <priority>0</priority>
@@ -466,15 +501,25 @@
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_vassal_annex</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{a6be3ef8-834f-43a5-82f0-1816d9616b20}" record_timestamp="1552398207141" record_key="ui_treaty_components_vassal_demands_protection">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{a6be3ef8-834f-43a5-82f0-1816d9616b20}" record_timestamp="1554882814575" record_key="ui_treaty_components_vassal_demands_protection">
 <priority>1</priority>
 <ui_diplomacy_deal_signed_animation>war</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_vassal_demands_protection</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{2951531c-aae7-44a3-bad1-03e9205d9473}" record_timestamp="1552398207167" record_key="ui_treaty_components_vassal_han_empire_demands_protection">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{9c08cfb8-973f-4821-bc19-13a9fdfd7a60}" record_timestamp="1563442956868" record_key="ui_treaty_components_vassal_demands_protection_group_war">
+<priority>1</priority>
+<ui_diplomacy_deal_signed_animation>war</ui_diplomacy_deal_signed_animation>
+<ui_diplomacy_treaty_component>ui_treaty_components_vassal_demands_protection_group_war</ui_diplomacy_treaty_component>
+</ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{2951531c-aae7-44a3-bad1-03e9205d9473}" record_timestamp="1554882814575" record_key="ui_treaty_components_vassal_han_empire_demands_protection">
 <priority>1</priority>
 <ui_diplomacy_deal_signed_animation>war</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_vassal_han_empire_demands_protection</ui_diplomacy_treaty_component>
+</ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{d59540bf-34e1-4ada-bde4-639455711667}" record_timestamp="1563442956817" record_key="ui_treaty_components_vassal_han_empire_demands_protection_group_war">
+<priority>1</priority>
+<ui_diplomacy_deal_signed_animation>war</ui_diplomacy_deal_signed_animation>
+<ui_diplomacy_treaty_component>ui_treaty_components_vassal_han_empire_demands_protection_group_war</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
 <ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{3157cab5-11c2-477b-8ea2-c9b2422304a2}" record_timestamp="1548756368427" record_key="ui_treaty_components_vassal_independence_supported">
 <priority>0</priority>
@@ -526,12 +571,17 @@
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_vassalise_demand</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{d07d6fcb-7448-440f-8569-994926282b29}" record_timestamp="1552380314946" record_key="ui_treaty_components_vassalise_demand_yellow_turban">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{dbbccec9-3ce8-4b83-b877-8f4c02c18593}" record_timestamp="1559835299323" record_key="ui_treaty_components_vassalise_demand_sima_liang">
+<priority>0</priority>
+<ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
+<ui_diplomacy_treaty_component>ui_treaty_components_vassalise_demand_sima_liang</ui_diplomacy_treaty_component>
+</ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{d07d6fcb-7448-440f-8569-994926282b29}" record_timestamp="1554882796090" record_key="ui_treaty_components_vassalise_demand_yellow_turban">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_vassalise_demand_yellow_turban</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{397579f1-0bc4-492a-9a22-ccc93b5682b7}" record_timestamp="1552380314924" record_key="ui_treaty_components_vassalise_demand_yuan_shu">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{397579f1-0bc4-492a-9a22-ccc93b5682b7}" record_timestamp="1554882796090" record_key="ui_treaty_components_vassalise_demand_yuan_shu">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_vassalise_demand_yuan_shu</ui_diplomacy_treaty_component>
@@ -541,12 +591,17 @@
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_vassalise_offer</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{bb46d589-3b3f-4a2b-892b-1a097925f427}" record_timestamp="1552380314935" record_key="ui_treaty_components_vassalise_offer_yellow_turban">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{b91be48c-1ec7-4f54-8d86-51bc4719ee1e}" record_timestamp="1559835299323" record_key="ui_treaty_components_vassalise_offer_sima_liang">
+<priority>0</priority>
+<ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
+<ui_diplomacy_treaty_component>ui_treaty_components_vassalise_offer_sima_liang</ui_diplomacy_treaty_component>
+</ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{bb46d589-3b3f-4a2b-892b-1a097925f427}" record_timestamp="1554882796090" record_key="ui_treaty_components_vassalise_offer_yellow_turban">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_vassalise_offer_yellow_turban</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
-<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{3528a92e-6785-4e14-a298-56d8ef414a5a}" record_timestamp="1552380314957" record_key="ui_treaty_components_vassalise_offer_yuan_shu">
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{3528a92e-6785-4e14-a298-56d8ef414a5a}" record_timestamp="1554882796090" record_key="ui_treaty_components_vassalise_offer_yuan_shu">
 <priority>0</priority>
 <ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_vassalise_offer_yuan_shu</ui_diplomacy_treaty_component>
@@ -555,5 +610,10 @@
 <priority>1</priority>
 <ui_diplomacy_deal_signed_animation>war</ui_diplomacy_deal_signed_animation>
 <ui_diplomacy_treaty_component>ui_treaty_components_war</ui_diplomacy_treaty_component>
+</ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
+<ui_diplomacy_treaty_components_to_deal_signed_animations_junctions record_uuid="{1d536550-0b7e-4d60-8da5-ee9bfcf0aeed}" record_timestamp="1561975261415" record_key="ui_treaty_components_war_participant_vassalised_resolve_war_with_master">
+<priority>0</priority>
+<ui_diplomacy_deal_signed_animation>standard_signed</ui_diplomacy_deal_signed_animation>
+<ui_diplomacy_treaty_component>ui_treaty_components_war_participant_vassalised_resolve_war_with_master</ui_diplomacy_treaty_component>
 </ui_diplomacy_treaty_components_to_deal_signed_animations_junctions>
 </dataroot>

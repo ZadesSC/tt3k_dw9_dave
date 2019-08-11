@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="projectile_displays.xsd" export_time="Mon Apr 1 16:55:36 2019" revision="245" export_branch="C:/Users/attila.mohacsi/AppData/Roaming/TWDaemon/1414/dave" export_user="bob">
-<edit_uuid>04178b49-6632-4e63-8095-59f3f9228bb7</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="projectile_displays.xsd" export_time="Wed Apr 10 10:13:20 2019" revision="243" export_branch="C:/TW/branches/3k/eight/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>e1ca5631-a233-4211-bc69-376f50fde00f</edit_uuid>
 <projectile_displays record_uuid="{0ea4ed88-8c17-4dfc-96cb-711dc73ba7e8}" record_timestamp="1511798478355" record_key="3k_arrow_flaming">
 <airborne_anim></airborne_anim>
 <display_model>projectiles/arrow_01_projectile.wsmodel</display_model>
@@ -381,6 +381,26 @@
 <trail_fx_blood></trail_fx_blood>
 <trail_spin>0</trail_spin>
 </projectile_displays>
+<projectile_displays record_uuid="{503c967b-a024-4f34-91c5-5f83fada30cd}" record_timestamp="1551888334985" record_key="ep_dyn_arrow_normal">
+<airborne_anim></airborne_anim>
+<display_model>projectiles/arrow_01_projectile.wsmodel</display_model>
+<display_model_blood></display_model_blood>
+<impact>3k_main_ability_arrow_warning_shot</impact>
+<impact_blood></impact_blood>
+<impact_bounce></impact_bounce>
+<impact_bounce_blood></impact_bounce_blood>
+<impact_penetrate>arrow</impact_penetrate>
+<impact_penetrate_blood></impact_penetrate_blood>
+<key>ep_dyn_arrow_normal</key>
+<landing_anim></landing_anim>
+<launch_camera_shake></launch_camera_shake>
+<launch_fx>3k_main_abilities_arrow_shot_muzzle</launch_fx>
+<stationary_fx></stationary_fx>
+<tip_offset>0</tip_offset>
+<trail_fx>3k_main_weapon_trail_spec_warning_shot</trail_fx>
+<trail_fx_blood></trail_fx_blood>
+<trail_spin>0</trail_spin>
+</projectile_displays>
 <projectile_displays record_uuid="{dacda6a9-23ee-4767-82de-11e7a1cb5c3e}" record_timestamp="1511798478356" record_key="rock">
 <airborne_anim></airborne_anim>
 <display_model></display_model>
@@ -461,7 +481,7 @@
 <trail_fx_blood></trail_fx_blood>
 <trail_spin>0</trail_spin>
 </projectile_displays>
-<projectile_displays record_uuid="{eeb51c74-295a-45ef-afaa-7a2aa6281bb5}" record_timestamp="1550513407835" record_key="torch_firestarter">
+<projectile_displays record_uuid="{eeb51c74-295a-45ef-afaa-7a2aa6281bb5}" record_timestamp="1551784887122" record_key="torch_firestarter">
 <airborne_anim></airborne_anim>
 <display_model>VariantMeshes/_VariantModels/props/chinese/rigid/1h_yt_club_03.wsmodel</display_model>
 <display_model_blood></display_model_blood>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_component_events.xsd" export_time="Fri Jun 7 16:17:25 2019" revision="44" export_branch="C:/Users/csaba.toth/AppData/Roaming/TWDaemon/1501/dave" export_user="bob">
-<edit_uuid>12bae94d-1b20-4102-a301-5b09e5a967cc</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_component_events.xsd" export_time="Fri Jul 12 16:52:38 2019" revision="41" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1583/dave" export_user="bob">
+<edit_uuid>c8785a02-f68c-4961-aba8-cb1352bcbd1e</edit_uuid>
 <cai_diplomacy_component_events record_uuid="{bb5e1a8b-dcb5-494a-8ab4-74120a9b4e49}" record_timestamp="1535561924902" record_key="automatic_treaty_component_deposed_world_leader">
 <broken></broken>
 <broken_early></broken_early>
@@ -11,7 +11,7 @@
 <signed_proposer>MANDATE_LOST</signed_proposer>
 <signed_recipient>MANDATE_LOST_TARGET</signed_recipient>
 </cai_diplomacy_component_events>
-<cai_diplomacy_component_events record_uuid="{83310d7c-082e-4b6e-92ac-19a96a9bce63}" record_timestamp="1553596250896" record_key="dummy_components_abandoned_vassal">
+<cai_diplomacy_component_events record_uuid="{83310d7c-082e-4b6e-92ac-19a96a9bce63}" record_timestamp="1554886452081" record_key="dummy_components_abandoned_vassal">
 <broken></broken>
 <broken_early></broken_early>
 <cancelled></cancelled>
@@ -51,6 +51,16 @@
 <signed_proposer>MANIPULATED_NEGATIVE_TARGET</signed_proposer>
 <signed_recipient>MANIPULATED_NEGATIVE</signed_recipient>
 </cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{99f644c2-61f8-4671-a2d4-c4f4d2af7eb5}" record_timestamp="1562334902205" record_key="dummy_components_attitude_manipulation_negative_sima_yue">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>dummy_components_attitude_manipulation_negative_sima_yue</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>MANIPULATED_NEGATIVE_TARGET_SIMA_YUE</signed_proposer>
+<signed_recipient>MANIPULATED_NEGATIVE_SIMA_YUE</signed_recipient>
+</cai_diplomacy_component_events>
 <cai_diplomacy_component_events record_uuid="{9594a8a5-efb4-44a5-a8e6-01bebc4ccf24}" record_timestamp="1528381885854" record_key="dummy_components_attitude_manipulation_positive">
 <broken></broken>
 <broken_early></broken_early>
@@ -60,6 +70,16 @@
 <past_recipient></past_recipient>
 <signed_proposer>MANIPULATED_POSITIVE_TARGET</signed_proposer>
 <signed_recipient>MANIPULATED_POSITIVE</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{91698f50-4d65-4bec-8694-095a30f9ae89}" record_timestamp="1562334902249" record_key="dummy_components_attitude_manipulation_positive_sima_yue">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>dummy_components_attitude_manipulation_positive_sima_yue</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>MANIPULATED_POSITIVE_TARGET_SIMA_YUE</signed_proposer>
+<signed_recipient>MANIPULATED_POSITIVE_SIMA_YUE</signed_recipient>
 </cai_diplomacy_component_events>
 <cai_diplomacy_component_events record_uuid="{31095940-5265-48cf-967b-a3163b237781}" record_timestamp="1532955788098" record_key="dummy_components_conceded_to_threat">
 <broken></broken>
@@ -90,6 +110,16 @@
 <past_recipient></past_recipient>
 <signed_proposer>THREAT_ISSUED</signed_proposer>
 <signed_recipient>THREAT_REBUKED</signed_recipient>
+</cai_diplomacy_component_events>
+<cai_diplomacy_component_events record_uuid="{90d78301-3e33-4b8c-a8ab-5aafbee50f0c}" record_timestamp="1556563215720" record_key="dummy_components_war">
+<broken></broken>
+<broken_early></broken_early>
+<cancelled></cancelled>
+<diplomatic_component>dummy_components_war</diplomatic_component>
+<past_proposer></past_proposer>
+<past_recipient></past_recipient>
+<signed_proposer>WAR</signed_proposer>
+<signed_recipient>WAR_TARGET</signed_recipient>
 </cai_diplomacy_component_events>
 <cai_diplomacy_component_events record_uuid="{691797e2-4ffb-4726-bee9-24c364bf64d0}" record_timestamp="1512149324283" record_key="treaty_components_alliance">
 <broken>ALLIANCE_BROKEN</broken>
@@ -201,7 +231,7 @@
 <signed_proposer>GUARANTEE_AUTONOMY_SIGNED_VASSAL</signed_proposer>
 <signed_recipient>GUARANTEE_AUTONOMY_SIGNED_MASTER</signed_recipient>
 </cai_diplomacy_component_events>
-<cai_diplomacy_component_events record_uuid="{ede7ea01-fca7-4ca6-8318-be2d414cc313}" record_timestamp="1555574692546" record_key="treaty_components_liberate_proposer">
+<cai_diplomacy_component_events record_uuid="{ede7ea01-fca7-4ca6-8318-be2d414cc313}" record_timestamp="1556562928691" record_key="treaty_components_liberate_proposer">
 <broken></broken>
 <broken_early></broken_early>
 <cancelled></cancelled>
@@ -351,7 +381,7 @@
 <signed_proposer>PEACE</signed_proposer>
 <signed_recipient>PEACE</signed_recipient>
 </cai_diplomacy_component_events>
-<cai_diplomacy_component_events record_uuid="{1e1ce6e5-d56a-431e-b44c-23283d33c11b}" record_timestamp="1553855643678" record_key="treaty_components_region_demand">
+<cai_diplomacy_component_events record_uuid="{1e1ce6e5-d56a-431e-b44c-23283d33c11b}" record_timestamp="1554887344682" record_key="treaty_components_region_demand">
 <broken></broken>
 <broken_early></broken_early>
 <cancelled></cancelled>
@@ -361,7 +391,7 @@
 <signed_proposer>REGION_DEMANDED</signed_proposer>
 <signed_recipient>REGION_DEMANDED_TARGET</signed_recipient>
 </cai_diplomacy_component_events>
-<cai_diplomacy_component_events record_uuid="{c51e0733-3e71-4a89-9894-885c5d8212ea}" record_timestamp="1553855643678" record_key="treaty_components_region_offer">
+<cai_diplomacy_component_events record_uuid="{c51e0733-3e71-4a89-9894-885c5d8212ea}" record_timestamp="1554887344682" record_key="treaty_components_region_offer">
 <broken></broken>
 <broken_early></broken_early>
 <cancelled></cancelled>
@@ -371,7 +401,7 @@
 <signed_proposer>REGION_OFFERED</signed_proposer>
 <signed_recipient>REGION_OFFERED_TARGET</signed_recipient>
 </cai_diplomacy_component_events>
-<cai_diplomacy_component_events record_uuid="{f8cead17-2957-49b2-bb4f-9d70302b20c6}" record_timestamp="1551096033250" record_key="treaty_components_support_independence">
+<cai_diplomacy_component_events record_uuid="{f8cead17-2957-49b2-bb4f-9d70302b20c6}" record_timestamp="1551787936601" record_key="treaty_components_support_independence">
 <broken>SUPPORT_INDEPENDENCE_BROKEN</broken>
 <broken_early>SUPPORT_INDEPENDENCE_BROKEN_EARLY</broken_early>
 <cancelled>SUPPORT_INDEPENDENCE_CANCELLED</cancelled>
@@ -421,7 +451,7 @@
 <signed_proposer>TRADE_MONOPOLY_SIGNED_UNDERDOG</signed_proposer>
 <signed_recipient>TRADE_MONOPOLY_SIGNED_TRADER</signed_recipient>
 </cai_diplomacy_component_events>
-<cai_diplomacy_component_events record_uuid="{ca57a5af-d7d7-4e96-9d2b-81ec6b5660c2}" record_timestamp="1554463308703" record_key="treaty_components_vassal_demands_protection">
+<cai_diplomacy_component_events record_uuid="{ca57a5af-d7d7-4e96-9d2b-81ec6b5660c2}" record_timestamp="1554888074917" record_key="treaty_components_vassal_demands_protection">
 <broken></broken>
 <broken_early></broken_early>
 <cancelled></cancelled>

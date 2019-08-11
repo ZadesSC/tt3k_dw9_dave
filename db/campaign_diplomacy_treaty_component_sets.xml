@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_treaty_component_sets.xsd" export_time="Fri Mar 8 20:35:55 2019" revision="38" export_branch="C:/Users/rick.venier/AppData/Roaming/TWDaemon/1380/dave" export_user="bob">
-<edit_uuid>8bd91fb4-7433-4e2f-8469-b2c42dc3ce3f</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_treaty_component_sets.xsd" export_time="Fri Jul 5 14:55:05 2019" revision="40" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1566/dave" export_user="bob">
+<edit_uuid>dd8efe61-f117-448b-8450-c164d862c089</edit_uuid>
 <campaign_diplomacy_treaty_component_sets record_uuid="{c53f3346-33a3-4bbf-9c24-2bb099938277}" record_timestamp="1523619674946" record_key="treaty_component_set_diplomacy_placeholder">
 <must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
 <must_match_self>0</must_match_self>
@@ -66,10 +66,20 @@
 <must_match_self>0</must_match_self>
 <set>treaty_component_set_diplomatic_deal_manipulation_negative</set>
 </campaign_diplomacy_treaty_component_sets>
+<campaign_diplomacy_treaty_component_sets record_uuid="{720d7145-6531-461d-982c-4facd6ba6027}" record_timestamp="1562334896900" record_key="treaty_component_set_diplomatic_deal_manipulation_negative_sima_yue">
+<must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
+<must_match_self>0</must_match_self>
+<set>treaty_component_set_diplomatic_deal_manipulation_negative_sima_yue</set>
+</campaign_diplomacy_treaty_component_sets>
 <campaign_diplomacy_treaty_component_sets record_uuid="{83ec4dcd-17be-4f03-b5d0-6999de357516}" record_timestamp="1546598405898" record_key="treaty_component_set_diplomatic_deal_manipulation_positive">
 <must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
 <must_match_self>0</must_match_self>
 <set>treaty_component_set_diplomatic_deal_manipulation_positive</set>
+</campaign_diplomacy_treaty_component_sets>
+<campaign_diplomacy_treaty_component_sets record_uuid="{2b2e7726-3515-4db0-bf4f-e264eb8699d5}" record_timestamp="1562334896841" record_key="treaty_component_set_diplomatic_deal_manipulation_positive_sima_yue">
+<must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
+<must_match_self>0</must_match_self>
+<set>treaty_component_set_diplomatic_deal_manipulation_positive_sima_yue</set>
 </campaign_diplomacy_treaty_component_sets>
 <campaign_diplomacy_treaty_component_sets record_uuid="{3a1636f4-8440-460f-a3ac-88f077b20f67}" record_timestamp="1546598405898" record_key="treaty_component_set_diplomatic_deal_military_access">
 <must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
@@ -176,7 +186,7 @@
 <must_match_self>0</must_match_self>
 <set>treaty_component_set_diplomatic_relationship_alliance</set>
 </campaign_diplomacy_treaty_component_sets>
-<campaign_diplomacy_treaty_component_sets record_uuid="{55754c2d-3aad-4b68-99a9-59454ca805cb}" record_timestamp="1551875812475" record_key="treaty_component_set_diplomatic_relationship_alliance_split_vote">
+<campaign_diplomacy_treaty_component_sets record_uuid="{55754c2d-3aad-4b68-99a9-59454ca805cb}" record_timestamp="1554881242425" record_key="treaty_component_set_diplomatic_relationship_alliance_split_vote">
 <must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
 <must_match_self>0</must_match_self>
 <set>treaty_component_set_diplomatic_relationship_alliance_split_vote</set>
@@ -241,7 +251,7 @@
 <must_match_self>0</must_match_self>
 <set>treaty_component_set_diplomatic_relationship_coalition</set>
 </campaign_diplomacy_treaty_component_sets>
-<campaign_diplomacy_treaty_component_sets record_uuid="{463c42aa-e69d-402f-b7eb-022e4a78231b}" record_timestamp="1551875812460" record_key="treaty_component_set_diplomatic_relationship_coalition_split_vote">
+<campaign_diplomacy_treaty_component_sets record_uuid="{463c42aa-e69d-402f-b7eb-022e4a78231b}" record_timestamp="1554881242425" record_key="treaty_component_set_diplomatic_relationship_coalition_split_vote">
 <must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
 <must_match_self>0</must_match_self>
 <set>treaty_component_set_diplomatic_relationship_coalition_split_vote</set>
@@ -476,10 +486,20 @@
 <must_match_self>0</must_match_self>
 <set>treaty_component_set_diplomatic_relationship_manipulation_negative</set>
 </campaign_diplomacy_treaty_component_sets>
+<campaign_diplomacy_treaty_component_sets record_uuid="{7ee38f66-c1d9-4c26-8f98-9039f0d4fcfe}" record_timestamp="1562334896861" record_key="treaty_component_set_diplomatic_relationship_manipulation_negative_sima_yue">
+<must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
+<must_match_self>0</must_match_self>
+<set>treaty_component_set_diplomatic_relationship_manipulation_negative_sima_yue</set>
+</campaign_diplomacy_treaty_component_sets>
 <campaign_diplomacy_treaty_component_sets record_uuid="{10eb8935-a9bc-41f7-95b0-d3c0c944f02c}" record_timestamp="1523619677118" record_key="treaty_component_set_diplomatic_relationship_manipulation_positive">
 <must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
 <must_match_self>0</must_match_self>
 <set>treaty_component_set_diplomatic_relationship_manipulation_positive</set>
+</campaign_diplomacy_treaty_component_sets>
+<campaign_diplomacy_treaty_component_sets record_uuid="{020bdc36-fbb8-4985-b70b-81bea752a7a5}" record_timestamp="1562334896881" record_key="treaty_component_set_diplomatic_relationship_manipulation_positive_sima_liang">
+<must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
+<must_match_self>0</must_match_self>
+<set>treaty_component_set_diplomatic_relationship_manipulation_positive_sima_liang</set>
 </campaign_diplomacy_treaty_component_sets>
 <campaign_diplomacy_treaty_component_sets record_uuid="{f5c603e8-e376-4098-b193-c1c158dfd16c}" record_timestamp="1546598405827" record_key="treaty_component_set_diplomatic_relationship_marriage_confederate_proposer">
 <must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
@@ -541,7 +561,7 @@
 <must_match_self>0</must_match_self>
 <set>treaty_component_set_diplomatic_relationship_military_access</set>
 </campaign_diplomacy_treaty_component_sets>
-<campaign_diplomacy_treaty_component_sets record_uuid="{ef4aa624-65ba-459d-bb13-ce47cad03aa1}" record_timestamp="1552077348626" record_key="treaty_component_set_diplomatic_relationship_multiplayer_victory">
+<campaign_diplomacy_treaty_component_sets record_uuid="{ef4aa624-65ba-459d-bb13-ce47cad03aa1}" record_timestamp="1554882385584" record_key="treaty_component_set_diplomatic_relationship_multiplayer_victory">
 <must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
 <must_match_self>0</must_match_self>
 <set>treaty_component_set_diplomatic_relationship_multiplayer_victory</set>
@@ -826,7 +846,12 @@
 <must_match_self>0</must_match_self>
 <set>treaty_component_set_diplomatic_relationship_vassalise_proposer</set>
 </campaign_diplomacy_treaty_component_sets>
-<campaign_diplomacy_treaty_component_sets record_uuid="{7ef04a52-e862-4951-8772-ae542de47607}" record_timestamp="1551962482527" record_key="treaty_component_set_diplomatic_relationship_vassalise_proposer_yuan_shu">
+<campaign_diplomacy_treaty_component_sets record_uuid="{2bda4081-60c4-46de-8810-42ebf85f3605}" record_timestamp="1559835299026" record_key="treaty_component_set_diplomatic_relationship_vassalise_proposer_sima_liang">
+<must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
+<must_match_self>0</must_match_self>
+<set>treaty_component_set_diplomatic_relationship_vassalise_proposer_sima_liang</set>
+</campaign_diplomacy_treaty_component_sets>
+<campaign_diplomacy_treaty_component_sets record_uuid="{7ef04a52-e862-4951-8772-ae542de47607}" record_timestamp="1554881661810" record_key="treaty_component_set_diplomatic_relationship_vassalise_proposer_yuan_shu">
 <must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
 <must_match_self>0</must_match_self>
 <set>treaty_component_set_diplomatic_relationship_vassalise_proposer_yuan_shu</set>
@@ -836,7 +861,12 @@
 <must_match_self>0</must_match_self>
 <set>treaty_component_set_diplomatic_relationship_vassalise_recipient</set>
 </campaign_diplomacy_treaty_component_sets>
-<campaign_diplomacy_treaty_component_sets record_uuid="{2dbd1eef-9f26-4c74-afe2-4134213542b0}" record_timestamp="1551962482473" record_key="treaty_component_set_diplomatic_relationship_vassalise_recipient_yuan_shu">
+<campaign_diplomacy_treaty_component_sets record_uuid="{5cce193b-2beb-4237-9f4e-bc66394fdc20}" record_timestamp="1559835299026" record_key="treaty_component_set_diplomatic_relationship_vassalise_recipient_sima_liang">
+<must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
+<must_match_self>0</must_match_self>
+<set>treaty_component_set_diplomatic_relationship_vassalise_recipient_sima_liang</set>
+</campaign_diplomacy_treaty_component_sets>
+<campaign_diplomacy_treaty_component_sets record_uuid="{2dbd1eef-9f26-4c74-afe2-4134213542b0}" record_timestamp="1554881661810" record_key="treaty_component_set_diplomatic_relationship_vassalise_recipient_yuan_shu">
 <must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
 <must_match_self>0</must_match_self>
 <set>treaty_component_set_diplomatic_relationship_vassalise_recipient_yuan_shu</set>
@@ -860,5 +890,20 @@
 <must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
 <must_match_self>0</must_match_self>
 <set>treaty_component_set_diplomatic_relationship_yellow_turban_annexation</set>
+</campaign_diplomacy_treaty_component_sets>
+<campaign_diplomacy_treaty_component_sets record_uuid="{6e8c0d15-399b-41e1-87fa-785152c8a0c0}" record_timestamp="1559652444751" record_key="treaty_component_set_sima_lun_diplomatic_deal_instigate_proxy_war_proposer">
+<must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
+<must_match_self>0</must_match_self>
+<set>treaty_component_set_sima_lun_diplomatic_deal_instigate_proxy_war_proposer</set>
+</campaign_diplomacy_treaty_component_sets>
+<campaign_diplomacy_treaty_component_sets record_uuid="{76666513-d3bb-4e49-89e4-5c5b49074743}" record_timestamp="1559652444752" record_key="treaty_component_set_sima_lun_diplomatic_relationship_instigate_proxy_war_proposer">
+<must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
+<must_match_self>0</must_match_self>
+<set>treaty_component_set_sima_lun_diplomatic_relationship_instigate_proxy_war_proposer</set>
+</campaign_diplomacy_treaty_component_sets>
+<campaign_diplomacy_treaty_component_sets record_uuid="{6a65c174-dd00-4d2e-915c-7020365d0f0a}" record_timestamp="1559652444751" record_key="treaty_component_set_sima_lun_diplomatic_relationship_instigate_proxy_war_recipient">
+<must_match_a_faction_with_no_components>0</must_match_a_faction_with_no_components>
+<must_match_self>0</must_match_self>
+<set>treaty_component_set_sima_lun_diplomatic_relationship_instigate_proxy_war_recipient</set>
 </campaign_diplomacy_treaty_component_sets>
 </dataroot>

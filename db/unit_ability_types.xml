@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="unit_ability_types.xsd" export_time="Wed Mar 20 12:01:13 2019" revision="73" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1394/dave" export_user="bob">
-<edit_uuid>4fb5a284-3f9c-486d-a9c8-994dc7878b78</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="unit_ability_types.xsd" export_time="Thu May 23 12:14:52 2019" revision="91" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1487/dave" export_user="bob">
+<edit_uuid>d23f940e-86da-405d-b9d3-9a6d2cf78ea0</edit_uuid>
 <unit_ability_types record_uuid="{5328d6e3-d4e6-4889-bb88-7b7d0af77e9f}" record_timestamp="1537262104054" record_key="3k_main_ability_adamant_resolve">
 <icon_path>ui/battle ui/ability_icons/3k_main_ability_adamant_resolve.png</icon_path>
 <key>3k_main_ability_adamant_resolve</key>
@@ -685,6 +685,363 @@
 <key>3k_ytr_ability_words_of_the_way</key>
 <localised_description state="APPROVED" last_approved_text="Inspiring Surge" last_edit_user="bob">Inspiring Surge</localised_description>
 <onscreen_name state="APPROVED" last_approved_text="Passive Buff" last_edit_user="bob">Passive Buff</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{4a3268b3-ec2b-4868-bfa5-b5b003d49e06}" record_timestamp="1553797729710" record_key="ep_dyn_ability_adamant_resolve">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_adamant_resolve</key>
+<localised_description state="APPROVED" last_approved_text="Adamant Resolve" last_edit_user="bob">Adamant Resolve</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Allied Defence Buff (Area)" last_edit_user="bob">Passive Allied Defence Buff (Area)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{d03e2cc3-793a-4230-9a70-693be82f46ca}" record_timestamp="1553797729709" record_key="ep_dyn_ability_analyse_weakness">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_analyse_weakness</key>
+<localised_description state="APPROVED" last_approved_text="Analyse Weakness" last_edit_user="bob">Analyse Weakness</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Enemy Defence Debuff (Area)" last_edit_user="bob">Conditional Enemy Defence Debuff (Area)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{ff2b8495-c678-41a8-8197-2529fa055165}" record_timestamp="1552392938711" record_key="ep_dyn_ability_arrow_storm">
+<icon_path>ui/battle ui/ability_icons/8p_ability_arrow_storm.png</icon_path>
+<key>ep_dyn_ability_arrow_storm</key>
+<localised_description state="APPROVED" last_approved_text="Arrow Storm" last_edit_user="bob">Arrow Storm</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Missile Attack (Area)" last_edit_user="bob">Missile Attack (Area)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{a1889fcd-e859-4117-9448-744f40caf57d}" record_timestamp="1552392938711" record_key="ep_dyn_ability_assassinate">
+<icon_path>ui/battle ui/ability_icons/8p_ability_assassinate.png</icon_path>
+<key>ep_dyn_ability_assassinate</key>
+<localised_description state="APPROVED" last_approved_text="Assassinate" last_edit_user="bob">Assassinate</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Missile Attack (Single Target)" last_edit_user="bob">Missile Attack (Single Target)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{70e2639f-f677-4562-8703-7907b7d881ac}" record_timestamp="1553797729710" record_key="ep_dyn_ability_blade_breaker">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_blade_breaker</key>
+<localised_description state="APPROVED" last_approved_text="Blade Breaker" last_edit_user="bob">Blade Breaker</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Defence Buff (Self)" last_edit_user="bob">Conditional Defence Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{e1076127-b794-4ec6-a64b-de2108aa4dfa}" record_timestamp="1552392938712" record_key="ep_dyn_ability_blazing_glory">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_blazing_glory</key>
+<localised_description state="APPROVED" last_approved_text="Blazing Glory" last_edit_user="bob">Blazing Glory</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Buff (Area)" last_edit_user="bob">Passive Buff (Area)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{c10987ee-682a-4a58-b68d-e0379beab976}" record_timestamp="1553797729712" record_key="ep_dyn_ability_blood_fury">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_blood_fury</key>
+<localised_description state="APPROVED" last_approved_text="Blood Fury" last_edit_user="bob">Blood Fury</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Offence Buff (Self)" last_edit_user="bob">Conditional Offence Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{d064567e-75aa-4d00-83eb-4db0aa9fe96e}" record_timestamp="1552392938712" record_key="ep_dyn_ability_blood_rush">
+<icon_path>ui/battle ui/ability_icons/8p_ability_blood_rush.png</icon_path>
+<key>ep_dyn_ability_blood_rush</key>
+<localised_description state="APPROVED" last_approved_text="Blood Rush" last_edit_user="bob">Blood Rush</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Area Attack (Cone)" last_edit_user="bob">Area Attack (Cone)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{a627e4a3-f888-469f-9b6a-0f47d9e7bbdb}" record_timestamp="1553797729712" record_key="ep_dyn_ability_burning_soul">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_burning_soul</key>
+<localised_description state="APPROVED" last_approved_text="Burning Soul" last_edit_user="bob">Burning Soul</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Ability Buff (Self)" last_edit_user="bob">Conditional Ability Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{3fdafde8-b679-4516-a439-6d590d4f9652}" record_timestamp="1553797729712" record_key="ep_dyn_ability_cavalry_master">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_cavalry_master</key>
+<localised_description state="APPROVED" last_approved_text="Cavalry Master" last_edit_user="bob">Cavalry Master</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Melee Buff (Self)" last_edit_user="bob">Conditional Melee Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{e3657b06-6906-45c0-b9d5-137a06ead79b}" record_timestamp="1553797729712" record_key="ep_dyn_ability_ceaseless_assault">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_ceaseless_assault</key>
+<localised_description state="APPROVED" last_approved_text="Ceaseless Assault" last_edit_user="bob">Ceaseless Assault</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Offence Buff (Self)" last_edit_user="bob">Passive Offence Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{59341d96-5dab-43a1-b59a-618fcf8c0d95}" record_timestamp="1552392938712" record_key="ep_dyn_ability_cleansing_aura">
+<icon_path>ui/battle ui/ability_icons/8p_ability_cleansing_aura.png</icon_path>
+<key>ep_dyn_ability_cleansing_aura</key>
+<localised_description state="APPROVED" last_approved_text="Cleansing Aura" last_edit_user="bob">Cleansing Aura</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Active Buff (Area)" last_edit_user="bob">Active Buff (Area)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{f13c025a-26cd-4bf7-b3a8-0f8da27894bc}" record_timestamp="1552392938712" record_key="ep_dyn_ability_clear_a_path">
+<icon_path>ui/battle ui/ability_icons/placeholder.png</icon_path>
+<key>ep_dyn_ability_clear_a_path</key>
+<localised_description state="APPROVED" last_approved_text="Clear a Path" last_edit_user="bob">Clear a Path</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Area Attack (Line)" last_edit_user="bob">Area Attack (Line)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{e0404ff1-1f35-44c7-b319-50c5c9f522b5}" record_timestamp="1553797729710" record_key="ep_dyn_ability_crushing_blows">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_crushing_blows</key>
+<localised_description state="APPROVED" last_approved_text="Crushing Blows" last_edit_user="bob">Crushing Blows</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Attack Range Buff (Self)" last_edit_user="bob">Passive Attack Range Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{56a18ba5-ce54-4e8e-8850-65ff9714d9dc}" record_timestamp="1553797729712" record_key="ep_dyn_ability_cry_of_the_forest">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_cry_of_the_forest</key>
+<localised_description state="APPROVED" last_approved_text="Cry of the Forest" last_edit_user="bob">Cry of the Forest</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Offence Buff (Self)" last_edit_user="bob">Conditional Offence Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{3e2b1219-9846-4d86-861f-a28b6e48d4fb}" record_timestamp="1553797729711" record_key="ep_dyn_ability_deep_rooted">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_deep_rooted</key>
+<localised_description state="APPROVED" last_approved_text="Earthen Rampart" last_edit_user="bob">Earthen Rampart</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Defence Buff (Self)" last_edit_user="bob">Passive Defence Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{642782f5-d3dd-476c-b4cc-8584f1e8ae17}" record_timestamp="1553797729712" record_key="ep_dyn_ability_distant_courage">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_distant_courage</key>
+<localised_description state="APPROVED" last_approved_text="Distant Courage" last_edit_user="bob">Distant Courage</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Allied Melee Buff (Area)" last_edit_user="bob">Conditional Allied Melee Buff (Area)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{0cbe04b4-c725-4e34-920e-004ea502e2d6}" record_timestamp="1558599347781" record_key="ep_dyn_ability_double_strike">
+<icon_path>ui/battle ui/ability_icons/8p_ability_unstoppable_charge.png</icon_path>
+<key>ep_dyn_ability_double_strike</key>
+<localised_description state="APPROVED" last_approved_text="Double Strike" last_edit_user="bob">Double Strike</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Area Attack (Cone)" last_edit_user="bob">Area Attack (Cone)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{dda2b7d1-20de-4f26-aaae-febdf8e544d0}" record_timestamp="1553797729711" record_key="ep_dyn_ability_elemental_vigour">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_elemental_vigour</key>
+<localised_description state="APPROVED" last_approved_text="Elemental Vigour" last_edit_user="bob">Elemental Vigour</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Defence Buff (Self)" last_edit_user="bob">Conditional Defence Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{912e4fd8-df7e-46b5-8e12-762ffa2a4637}" record_timestamp="1553797729711" record_key="ep_dyn_ability_executioner">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_executioner</key>
+<localised_description state="APPROVED" last_approved_text="Executioner" last_edit_user="bob">Executioner</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Enemy HP Debuff (Area)" last_edit_user="bob">Conditional Enemy HP Debuff (Area)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{50dbeb5d-ccc7-473c-96fb-25fc488534d0}" record_timestamp="1552392938712" record_key="ep_dyn_ability_fire_bomb">
+<icon_path>ui/battle ui/ability_icons/8p_ability_fire_bomb.png</icon_path>
+<key>ep_dyn_ability_fire_bomb</key>
+<localised_description state="APPROVED" last_approved_text="Fire Bomb" last_edit_user="bob">Fire Bomb</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Missile Attack (Targeted)" last_edit_user="bob">Missile Attack (Targeted)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{26b07c75-45b0-4c48-8c8f-04310cdc32b0}" record_timestamp="1552392938712" record_key="ep_dyn_ability_flaming_fury">
+<icon_path>ui/battle ui/ability_icons/8p_ability_flaming_fury.png</icon_path>
+<key>ep_dyn_ability_flaming_fury</key>
+<localised_description state="APPROVED" last_approved_text="Flaming Fury" last_edit_user="bob">Flaming Fury</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Area Attack (Circle)" last_edit_user="bob">Area Attack (Circle)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{cc69ad9a-272d-464e-961a-a84a1d0f7dd8}" record_timestamp="1553797729711" record_key="ep_dyn_ability_flowing_water">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_flowing_water</key>
+<localised_description state="APPROVED" last_approved_text="Flowing Water" last_edit_user="bob">Flowing Water</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Defence Buff (Self)" last_edit_user="bob">Conditional Defence Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{2a9912e2-7371-4d99-8285-808e29a7479b}" record_timestamp="1553797729712" record_key="ep_dyn_ability_immunity_to_fatigue">
+<icon_path>ui/battle ui/ability_icons/3k_main_ability_fleet_footed.png</icon_path>
+<key>ep_dyn_ability_immunity_to_fatigue</key>
+<localised_description state="APPROVED" last_approved_text="Fatigue Immunity" last_edit_user="bob">Fatigue Immunity</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Melee Buff (Self)" last_edit_user="bob">Passive Melee Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{6b76ffd0-2bde-46c9-b9ba-b8427f891d49}" record_timestamp="1553797729712" record_key="ep_dyn_ability_inspiring_surge">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_inspiring_surge</key>
+<localised_description state="APPROVED" last_approved_text="Inspiring Surge" last_edit_user="bob">Inspiring Surge</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Allied Ability Buff (Area)" last_edit_user="bob">Passive Allied Ability Buff (Area)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{b19937f4-cbca-4a64-a8da-88c4d94b2c4d}" record_timestamp="1553797729712" record_key="ep_dyn_ability_inward_focus">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_inward_focus</key>
+<localised_description state="APPROVED" last_approved_text="Inward Focus" last_edit_user="bob">Inward Focus</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Defence Buff (Self)" last_edit_user="bob">Passive Defence Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{aa29a68b-07a5-44d0-a2f4-a8c3074f977d}" record_timestamp="1553797729712" record_key="ep_dyn_ability_masters_patience">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_masters_patience</key>
+<localised_description state="APPROVED" last_approved_text="Master's Patience" last_edit_user="bob">Master's Patience</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Melee Buff (Self)" last_edit_user="bob">Conditional Melee Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{8878b8d3-e425-4178-8157-fd38d2db43ea}" record_timestamp="1552392938712" record_key="ep_dyn_ability_multishot">
+<icon_path>ui/battle ui/ability_icons/8p_ability_multishot.png</icon_path>
+<key>ep_dyn_ability_multishot</key>
+<localised_description state="APPROVED" last_approved_text="Multishot" last_edit_user="bob">Multishot</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Area Attack (Cone)" last_edit_user="bob">Area Attack (Cone)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{565283f6-1463-4938-916c-4139571e0473}" record_timestamp="1552392938713" record_key="ep_dyn_ability_nature_s_ally">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_nature_s_ally</key>
+<localised_description state="APPROVED" last_approved_text="Nature's Ally" last_edit_user="bob">Nature's Ally</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Buff (Area)" last_edit_user="bob">Passive Buff (Area)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{3df9091a-634b-4a19-aff2-aad1ef824034}" record_timestamp="1553797729713" record_key="ep_dyn_ability_ordered_mind">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_ordered_mind</key>
+<localised_description state="APPROVED" last_approved_text="Ordered Mind" last_edit_user="bob">Ordered Mind</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Ability Buff (Self)" last_edit_user="bob">Passive Ability Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{78d9d473-aed8-43ae-9f2e-ccc5d613a70e}" record_timestamp="1552392938713" record_key="ep_dyn_ability_palm_strike">
+<icon_path>ui/battle ui/ability_icons/8p_ability_palm_strike.png</icon_path>
+<key>ep_dyn_ability_palm_strike</key>
+<localised_description state="APPROVED" last_approved_text="Palm Strike" last_edit_user="bob">Palm Strike</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Area Attack (Cone)" last_edit_user="bob">Area Attack (Cone)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{acfead24-f892-4339-8c02-54bdbe643af0}" record_timestamp="1553797729713" record_key="ep_dyn_ability_phoenix_rising">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_phoenix_rising</key>
+<localised_description state="APPROVED" last_approved_text="Phoenix Rising" last_edit_user="bob">Phoenix Rising</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional HP Restoration (Self)" last_edit_user="bob">Conditional HP Restoration (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{0d39f232-e240-4da8-99c8-b1b08c3af57c}" record_timestamp="1553797729713" record_key="ep_dyn_ability_poisoned_weapons">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_poisoned_weapons</key>
+<localised_description state="APPROVED" last_approved_text="Poisoned Blades" last_edit_user="bob">Poisoned Blades</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Offence Buff (Self)" last_edit_user="bob">Passive Offence Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{fcd3dd50-4053-4be1-b83e-e21a92355cb3}" record_timestamp="1552392938713" record_key="ep_dyn_ability_precision_shot">
+<icon_path>ui/battle ui/ability_icons/8p_ability_precision_shot.png</icon_path>
+<key>ep_dyn_ability_precision_shot</key>
+<localised_description state="APPROVED" last_approved_text="Precision Shot" last_edit_user="bob">Precision Shot</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Area Attack (Line)" last_edit_user="bob">Area Attack (Line)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{32d77259-e2bc-4c85-983c-aa923c7ad86a}" record_timestamp="1553797729713" record_key="ep_dyn_ability_protectors_aegis">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_protectors_aegis</key>
+<localised_description state="APPROVED" last_approved_text="Protector's Aegis" last_edit_user="bob">Protector's Aegis</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Allied Defence Buff (Area)" last_edit_user="bob">Conditional Allied Defence Buff (Area)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{018c4dcc-4910-4474-b582-2e55c8ba2027}" record_timestamp="1553797729713" record_key="ep_dyn_ability_quickfire">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_quickfire</key>
+<localised_description state="APPROVED" last_approved_text="Quickfire" last_edit_user="bob">Quickfire</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Ranged Buff (Self)" last_edit_user="bob">Conditional Ranged Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{67b949fe-44ec-47df-8e99-70ba5cc0a367}" record_timestamp="1553797729713" record_key="ep_dyn_ability_restoration">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_restoration</key>
+<localised_description state="APPROVED" last_approved_text="Restoration" last_edit_user="bob">Restoration</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Instant HP Restoration (Self)" last_edit_user="bob">Instant HP Restoration (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{3de7868e-9f6d-4e6f-9f76-87bc8ef5a779}" record_timestamp="1552392938713" record_key="ep_dyn_ability_seismic_slam">
+<icon_path>ui/battle ui/ability_icons/8p_ability_seismic_slam.png</icon_path>
+<key>ep_dyn_ability_seismic_slam</key>
+<localised_description state="APPROVED" last_approved_text="Seismic Slam" last_edit_user="bob">Seismic Slam</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Area Attack (Circle)" last_edit_user="bob">Area Attack (Circle)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{55f90840-6686-42e6-b362-9e7079fd94ba}" record_timestamp="1553797729713" record_key="ep_dyn_ability_sheltering_boughs">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_sheltering_boughs</key>
+<localised_description state="APPROVED" last_approved_text="Sheltering Boughs" last_edit_user="bob">Sheltering Boughs</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Defence Buff (Area)" last_edit_user="bob">Passive Defence Buff (Area)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{334b807b-78db-4c24-9fd2-acd420c25376}" record_timestamp="1553797729713" record_key="ep_dyn_ability_stalwart_defender">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_stalwart_defender</key>
+<localised_description state="APPROVED" last_approved_text="Stalwart Defender" last_edit_user="bob">Stalwart Defender</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional HP Restoration (Self)" last_edit_user="bob">Conditional HP Restoration (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{5d0e3d2b-b234-4f60-a388-97bfbbb067f4}" record_timestamp="1553797729713" record_key="ep_dyn_ability_stifling_deluge">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_stifling_deluge</key>
+<localised_description state="APPROVED" last_approved_text="Stifling Deluge" last_edit_user="bob">Stifling Deluge</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Enemy Melee Debuff (Area)" last_edit_user="bob">Passive Enemy Melee Debuff (Area)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{613e8ed7-fa66-4d3a-9971-d4f029a0eb87}" record_timestamp="1553797729714" record_key="ep_dyn_ability_stone_bulwark">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_stone_bulwark</key>
+<localised_description state="APPROVED" last_approved_text="Stone Bulwark" last_edit_user="bob">Stone Bulwark</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Defence Buff (Self)" last_edit_user="bob">Passive Defence Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{73902a62-93f4-4361-9c45-78f7622d07b3}" record_timestamp="1553797729714" record_key="ep_dyn_ability_strength_of_the_mountain">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_strength_of_the_mountain</key>
+<localised_description state="APPROVED" last_approved_text="Strength of the Mountain" last_edit_user="bob">Strength of the Mountain</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Melee Buff (Self)" last_edit_user="bob">Conditional Melee Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{c12464b5-1779-4bb2-9351-89834aefc8f7}" record_timestamp="1553797729714" record_key="ep_dyn_ability_strike_from_afar">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_strike_from_afar</key>
+<localised_description state="APPROVED" last_approved_text="Strike from Afar" last_edit_user="bob">Strike from Afar</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Ranged Buff (Self)" last_edit_user="bob">Conditional Ranged Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{955bfd78-f14e-4cf4-9ddc-281364bba2d8}" record_timestamp="1552392938713" record_key="ep_dyn_ability_sweeping_arc">
+<icon_path>ui/battle ui/ability_icons/8p_ability_sweeping_arc.png</icon_path>
+<key>ep_dyn_ability_sweeping_arc</key>
+<localised_description state="APPROVED" last_approved_text="Sweeping Arc" last_edit_user="bob">Sweeping Arc</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Area Attack (Cone)" last_edit_user="bob">Area Attack (Cone)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{702ef5b9-f0e3-4002-b4c7-16fd6d9e280c}" record_timestamp="1553797729714" record_key="ep_dyn_ability_swift_fingers">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_swift_fingers</key>
+<localised_description state="APPROVED" last_approved_text="Swift Fingers" last_edit_user="bob">Swift Fingers</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Ranged Buff (Self)" last_edit_user="bob">Passive Ranged Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{18ed959a-1139-4715-94a1-0647bf0ec37f}" record_timestamp="1553797729714" record_key="ep_dyn_ability_tenacity_of_steel">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_tenacity_of_steel</key>
+<localised_description state="APPROVED" last_approved_text="Tenacity of Steel" last_edit_user="bob">Tenacity of Steel</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Offence Buff (Self)" last_edit_user="bob">Conditional Offence Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{3eb6a4bb-ab0a-407a-b049-d4d49f027749}" record_timestamp="1552392938714" record_key="ep_dyn_ability_time_of_need">
+<icon_path>ui/battle ui/ability_icons/8p_ability_time_of_needpng</icon_path>
+<key>ep_dyn_ability_time_of_need</key>
+<localised_description state="APPROVED" last_approved_text="Time of Need" last_edit_user="bob">Time of Need</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Active Buff (Single Target)" last_edit_user="bob">Active Buff (Single Target)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{5caf5f0e-cec9-4cbf-b38e-b31f28ebf24a}" record_timestamp="1552392938711" record_key="ep_dyn_ability_tripleshot">
+<icon_path>ui/battle ui/ability_icons/8p_ability_tripleshot.png</icon_path>
+<key>ep_dyn_ability_tripleshot</key>
+<localised_description state="APPROVED" last_approved_text="Tripleshot" last_edit_user="bob">Tripleshot</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Area Attack (Line)" last_edit_user="bob">Area Attack (Line)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{1cb27192-3ab5-427c-afde-ecf3b9456ff9}" record_timestamp="1553797729714" record_key="ep_dyn_ability_vengeance">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_vengeance</key>
+<localised_description state="APPROVED" last_approved_text="Vengeance" last_edit_user="bob">Vengeance</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Conditional Offence Buff (Self)" last_edit_user="bob">Conditional Offence Buff (Self)</onscreen_name>
+<show_cursor_trail>0</show_cursor_trail>
+</unit_ability_types>
+<unit_ability_types record_uuid="{41407472-13dd-4da2-ba5f-4734affddc98}" record_timestamp="1553797729714" record_key="ep_dyn_ability_wildfire">
+<icon_path>ui/skins/default/placeholder.png</icon_path>
+<key>ep_dyn_ability_wildfire</key>
+<localised_description state="APPROVED" last_approved_text="Wildfire" last_edit_user="bob">Wildfire</localised_description>
+<onscreen_name state="APPROVED" last_approved_text="Passive Melee Buff (Self)" last_edit_user="bob">Passive Melee Buff (Self)</onscreen_name>
 <show_cursor_trail>0</show_cursor_trail>
 </unit_ability_types>
 </dataroot>

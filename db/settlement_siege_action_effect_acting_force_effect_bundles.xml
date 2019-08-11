@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="settlement_siege_action_effect_acting_force_effect_bundles.xsd" export_time="Fri Dec 7 18:25:48 2018" revision="13" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1228/dave" export_user="bob">
-<edit_uuid>6256275f-3edf-4a85-a5e2-ed27f649897a</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="settlement_siege_action_effect_acting_force_effect_bundles.xsd" export_time="Thu Jun 20 11:44:51 2019" revision="15" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1527/dave" export_user="bob">
+<edit_uuid>fc9434b6-6248-49aa-ab60-577e46787fe3</edit_uuid>
 <settlement_siege_action_effect_acting_force_effect_bundles record_uuid="{37b44239-d8e9-46dc-babe-17af8e0d5ab2}" record_timestamp="1535906802179" record_key="action_effects_colonise_cancel">
 <effect_bundle>3k_main_effect_bundle_post_siege_acting_force_colonise_cancel_dummy</effect_bundle>
 <effect_group>action_effects_colonise_cancel</effect_group>
@@ -21,6 +21,16 @@
 <effect_group>action_effects_loot_and_occupy_major_he_yi</effect_group>
 <turns>3</turns>
 </settlement_siege_action_effect_acting_force_effect_bundles>
+<settlement_siege_action_effect_acting_force_effect_bundles record_uuid="{69364148-a021-43d2-90df-7e6ab718afec}" record_timestamp="1561027488011" record_key="action_effects_loot_and_occupy_major_sima_liang">
+<effect_bundle>3k_main_effect_bundle_post_siege_acting_force_loot_and_occupy_military_supplies</effect_bundle>
+<effect_group>action_effects_loot_and_occupy_major_sima_liang</effect_group>
+<turns>3</turns>
+</settlement_siege_action_effect_acting_force_effect_bundles>
+<settlement_siege_action_effect_acting_force_effect_bundles record_uuid="{c28c6636-57a1-42a4-882d-e2b0479f9641}" record_timestamp="1559669705925" record_key="action_effects_loot_and_occupy_major_sima_wei">
+<effect_bundle>3k_main_effect_bundle_post_siege_acting_force_loot_and_occupy_military_supplies</effect_bundle>
+<effect_group>action_effects_loot_and_occupy_major_sima_wei</effect_group>
+<turns>3</turns>
+</settlement_siege_action_effect_acting_force_effect_bundles>
 <settlement_siege_action_effect_acting_force_effect_bundles record_uuid="{f679df5f-a212-432e-8453-c8f026625154}" record_timestamp="1522174023828" record_key="action_effects_loot_and_occupy_major_zheng_jiang">
 <effect_bundle>3k_main_effect_bundle_post_siege_acting_force_loot_and_occupy_military_supplies</effect_bundle>
 <effect_group>action_effects_loot_and_occupy_major_zheng_jiang</effect_group>
@@ -34,6 +44,16 @@
 <settlement_siege_action_effect_acting_force_effect_bundles record_uuid="{5382a9ba-ca65-46e1-a486-e481fafb6854}" record_timestamp="1543247349406" record_key="action_effects_loot_and_occupy_minor_he_yi">
 <effect_bundle>3k_main_effect_bundle_post_siege_acting_force_loot_and_occupy_military_supplies</effect_bundle>
 <effect_group>action_effects_loot_and_occupy_minor_he_yi</effect_group>
+<turns>3</turns>
+</settlement_siege_action_effect_acting_force_effect_bundles>
+<settlement_siege_action_effect_acting_force_effect_bundles record_uuid="{f0f8787a-afb8-46be-86d2-e21e7c217129}" record_timestamp="1561027488010" record_key="action_effects_loot_and_occupy_minor_sima_liang">
+<effect_bundle>3k_main_effect_bundle_post_siege_acting_force_loot_and_occupy_military_supplies</effect_bundle>
+<effect_group>action_effects_loot_and_occupy_minor_sima_liang</effect_group>
+<turns>3</turns>
+</settlement_siege_action_effect_acting_force_effect_bundles>
+<settlement_siege_action_effect_acting_force_effect_bundles record_uuid="{7caa193c-a0ba-43ee-bd7d-bf8e7623366e}" record_timestamp="1559669705761" record_key="action_effects_loot_and_occupy_minor_sima_wei">
+<effect_bundle>3k_main_effect_bundle_post_siege_acting_force_loot_and_occupy_military_supplies</effect_bundle>
+<effect_group>action_effects_loot_and_occupy_minor_sima_wei</effect_group>
 <turns>3</turns>
 </settlement_siege_action_effect_acting_force_effect_bundles>
 <settlement_siege_action_effect_acting_force_effect_bundles record_uuid="{ba3276d3-7e55-435c-913d-5e9536cf9424}" record_timestamp="1539887526498" record_key="action_effects_loot_and_occupy_minor_zheng_jiang">
@@ -96,6 +116,16 @@
 <effect_group>action_effects_sack_and_withdraw_major_he_yi</effect_group>
 <turns>3</turns>
 </settlement_siege_action_effect_acting_force_effect_bundles>
+<settlement_siege_action_effect_acting_force_effect_bundles record_uuid="{223ba933-d6cd-47af-a2b6-631a784346cc}" record_timestamp="1561027488011" record_key="action_effects_sack_and_withdraw_major_sima_liang">
+<effect_bundle>3k_main_effect_bundle_post_siege_acting_force_sack_military_supplies</effect_bundle>
+<effect_group>action_effects_sack_and_withdraw_major_sima_liang</effect_group>
+<turns>3</turns>
+</settlement_siege_action_effect_acting_force_effect_bundles>
+<settlement_siege_action_effect_acting_force_effect_bundles record_uuid="{ee539669-3058-41ec-8e92-b8c9669c943c}" record_timestamp="1559669706252" record_key="action_effects_sack_and_withdraw_major_sima_wei">
+<effect_bundle>3k_main_effect_bundle_post_siege_acting_force_sack_military_supplies</effect_bundle>
+<effect_group>action_effects_sack_and_withdraw_major_sima_wei</effect_group>
+<turns>3</turns>
+</settlement_siege_action_effect_acting_force_effect_bundles>
 <settlement_siege_action_effect_acting_force_effect_bundles record_uuid="{66fc5aa6-03bf-44d7-8d64-d974783fbf66}" record_timestamp="1522174023827" record_key="action_effects_sack_and_withdraw_major_zheng_jiang">
 <effect_bundle>3k_main_effect_bundle_post_siege_acting_force_sack_military_supplies</effect_bundle>
 <effect_group>action_effects_sack_and_withdraw_major_zheng_jiang</effect_group>
@@ -114,6 +144,16 @@
 <settlement_siege_action_effect_acting_force_effect_bundles record_uuid="{a660b6f1-5499-447e-a06d-defdf5e2cc9b}" record_timestamp="1543247349479" record_key="action_effects_sack_and_withdraw_minor_he_yi">
 <effect_bundle>3k_main_effect_bundle_post_siege_acting_force_sack_military_supplies</effect_bundle>
 <effect_group>action_effects_sack_and_withdraw_minor_he_yi</effect_group>
+<turns>3</turns>
+</settlement_siege_action_effect_acting_force_effect_bundles>
+<settlement_siege_action_effect_acting_force_effect_bundles record_uuid="{69537af1-f40c-4642-ba2c-d878e8b420f5}" record_timestamp="1561027488011" record_key="action_effects_sack_and_withdraw_minor_sima_liang">
+<effect_bundle>3k_main_effect_bundle_post_siege_acting_force_sack_military_supplies</effect_bundle>
+<effect_group>action_effects_sack_and_withdraw_minor_sima_liang</effect_group>
+<turns>3</turns>
+</settlement_siege_action_effect_acting_force_effect_bundles>
+<settlement_siege_action_effect_acting_force_effect_bundles record_uuid="{b489a615-b3f2-43f3-8056-473e7b25911b}" record_timestamp="1559669706088" record_key="action_effects_sack_and_withdraw_minor_sima_wei">
+<effect_bundle>3k_main_effect_bundle_post_siege_acting_force_sack_military_supplies</effect_bundle>
+<effect_group>action_effects_sack_and_withdraw_minor_sima_wei</effect_group>
 <turns>3</turns>
 </settlement_siege_action_effect_acting_force_effect_bundles>
 <settlement_siege_action_effect_acting_force_effect_bundles record_uuid="{599b09c5-f2ec-4532-b724-b9c1515b6878}" record_timestamp="1539887545802" record_key="action_effects_sack_and_withdraw_minor_zheng_jiang">

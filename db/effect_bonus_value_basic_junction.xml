@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="effect_bonus_value_basic_junction.xsd" export_time="Sat Apr 6 11:04:10 2019" revision="410" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1424/dave" export_user="bob">
-<edit_uuid>8ee1c4f8-17c2-4deb-a823-9a43e6b1253f</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="effect_bonus_value_basic_junction.xsd" export_time="Wed Jun 5 09:39:05 2019" revision="406" export_branch="C:/Users/craig.kirby/AppData/Roaming/TWDaemon/1501/dave" export_user="bob">
+<edit_uuid>233a4c77-aa41-4e3c-b383-35fa6d58402b</edit_uuid>
 <effect_bonus_value_basic_junction record_uuid="{4b4bdaa2-9494-4328-919d-6e3b70a693eb}" record_timestamp="1508758182977" record_key="3k_main_ancillary_recruitment_cost_modrecruitment_mod_cost_land_all">
 <bonus_value_id>recruitment_mod_cost_land_all</bonus_value_id>
 <effect>3k_main_ancillary_recruitment_cost_mod</effect>
@@ -41,7 +41,7 @@
 <bonus_value_id>ai_hint_spy</bonus_value_id>
 <effect>3k_main_effect_ai_hint_spy</effect>
 </effect_bonus_value_basic_junction>
-<effect_bonus_value_basic_junction record_uuid="{6b1af0cf-60cb-432c-ab0b-8dba38066f96}" record_timestamp="1553080436199" record_key="3k_main_effect_bastion_artillery_count_hiddennum_wall_mounted_artillery_picks">
+<effect_bonus_value_basic_junction record_uuid="{6b1af0cf-60cb-432c-ab0b-8dba38066f96}" record_timestamp="1554885121463" record_key="3k_main_effect_bastion_artillery_count_hiddennum_wall_mounted_artillery_picks">
 <bonus_value_id>num_wall_mounted_artillery_picks</bonus_value_id>
 <effect>3k_main_effect_bastion_artillery_count_hidden</effect>
 </effect_bonus_value_basic_junction>
@@ -289,7 +289,7 @@
 <bonus_value_id>stance_ap_percentage_increase</bonus_value_id>
 <effect>3k_main_effect_force_campaign_movement_range</effect>
 </effect_bonus_value_basic_junction>
-<effect_bonus_value_basic_junction record_uuid="{b1b6f9d5-7da6-4daa-a475-3f758717ec02}" record_timestamp="1552577113432" record_key="3k_main_effect_force_campaign_stance_can_move_extra_stance_displaystance_ap_percentage_increase">
+<effect_bonus_value_basic_junction record_uuid="{b1b6f9d5-7da6-4daa-a475-3f758717ec02}" record_timestamp="1554883466068" record_key="3k_main_effect_force_campaign_stance_can_move_extra_stance_displaystance_ap_percentage_increase">
 <bonus_value_id>stance_ap_percentage_increase</bonus_value_id>
 <effect>3k_main_effect_force_campaign_stance_can_move_extra_stance_display</effect>
 </effect_bonus_value_basic_junction>
@@ -349,7 +349,7 @@
 <bonus_value_id>military_force_morale_modifier_climate</bonus_value_id>
 <effect>3k_main_effect_force_military_supplies_from_winter</effect>
 </effect_bonus_value_basic_junction>
-<effect_bonus_value_basic_junction record_uuid="{67cf5486-84db-4368-9438-f8e92754b9ac}" record_timestamp="1550500662896" record_key="3k_main_effect_force_military_supplies_invading_enemiesmilitary_force_morale_modifier_buildings">
+<effect_bonus_value_basic_junction record_uuid="{67cf5486-84db-4368-9438-f8e92754b9ac}" record_timestamp="1551784867110" record_key="3k_main_effect_force_military_supplies_invading_enemiesmilitary_force_morale_modifier_buildings">
 <bonus_value_id>military_force_morale_modifier_buildings</bonus_value_id>
 <effect>3k_main_effect_force_military_supplies_invading_enemies</effect>
 </effect_bonus_value_basic_junction>
@@ -365,7 +365,7 @@
 <bonus_value_id>upkeep_cost_mod_land_all</bonus_value_id>
 <effect>3k_main_effect_force_retinue_upkeep</effect>
 </effect_bonus_value_basic_junction>
-<effect_bonus_value_basic_junction record_uuid="{0deabf04-d34a-40f8-aff6-0da4984a3960}" record_timestamp="1551443932964" record_key="3k_main_effect_force_siege_escalation_effectiveness_decreasemilitary_force_siege_escalation_per_unit_effectiveness_mod">
+<effect_bonus_value_basic_junction record_uuid="{0deabf04-d34a-40f8-aff6-0da4984a3960}" record_timestamp="1551788813213" record_key="3k_main_effect_force_siege_escalation_effectiveness_decreasemilitary_force_siege_escalation_per_unit_effectiveness_mod">
 <bonus_value_id>military_force_siege_escalation_per_unit_effectiveness_mod</bonus_value_id>
 <effect>3k_main_effect_force_siege_escalation_effectiveness_decrease</effect>
 </effect_bonus_value_basic_junction>
@@ -376,6 +376,10 @@
 <effect_bonus_value_basic_junction record_uuid="{b1cb7ec7-06b1-4817-a5e6-9163d1245e03}" record_timestamp="1549369732113" record_key="3k_main_effect_forces_movement_starting_in_own_or_allied_sea_regionmod_movement_in_owned_or_shared_sea_region">
 <bonus_value_id>mod_movement_in_owned_or_shared_sea_region</bonus_value_id>
 <effect>3k_main_effect_forces_movement_starting_in_own_or_allied_sea_region</effect>
+</effect_bonus_value_basic_junction>
+<effect_bonus_value_basic_junction record_uuid="{b213ca60-0b43-4adb-b7e4-d833a2efccab}" record_timestamp="1559723940252" record_key="3k_main_effect_forces_movement_starting_in_own_regionmod_movement_in_owned_region">
+<bonus_value_id>mod_movement_in_owned_region</bonus_value_id>
+<effect>3k_main_effect_forces_movement_starting_in_own_region</effect>
 </effect_bonus_value_basic_junction>
 <effect_bonus_value_basic_junction record_uuid="{6c6a3831-8cbf-4701-85e0-39cb1ef86246}" record_timestamp="1508343240632" record_key="3k_main_effect_forces_replenishment_foreign_landunrestricted_replenishment_bonus">
 <bonus_value_id>unrestricted_replenishment_bonus</bonus_value_id>
@@ -421,11 +425,11 @@
 <bonus_value_id>building_construction_time_reduction</bonus_value_id>
 <effect>3k_main_effect_province_building_construction_time_mod</effect>
 </effect_bonus_value_basic_junction>
-<effect_bonus_value_basic_junction record_uuid="{2246ce43-bc11-4609-89f9-72ff1b803b80}" record_timestamp="1551981201174" record_key="3k_main_effect_province_building_conversion_cost_hiddenbuilding_conversion_cost_mod">
+<effect_bonus_value_basic_junction record_uuid="{2246ce43-bc11-4609-89f9-72ff1b803b80}" record_timestamp="1554882072598" record_key="3k_main_effect_province_building_conversion_cost_hiddenbuilding_conversion_cost_mod">
 <bonus_value_id>building_conversion_cost_mod</bonus_value_id>
 <effect>3k_main_effect_province_building_conversion_cost_hidden</effect>
 </effect_bonus_value_basic_junction>
-<effect_bonus_value_basic_junction record_uuid="{828013fa-4a02-4cbf-a16f-98e547918431}" record_timestamp="1551981201118" record_key="3k_main_effect_province_building_conversion_time_hiddenbuilding_conversion_time_mod">
+<effect_bonus_value_basic_junction record_uuid="{828013fa-4a02-4cbf-a16f-98e547918431}" record_timestamp="1554882072597" record_key="3k_main_effect_province_building_conversion_time_hiddenbuilding_conversion_time_mod">
 <bonus_value_id>building_conversion_time_mod</bonus_value_id>
 <effect>3k_main_effect_province_building_conversion_time_hidden</effect>
 </effect_bonus_value_basic_junction>
@@ -481,7 +485,7 @@
 <bonus_value_id>province_public_order_happiness_faction_factor</bonus_value_id>
 <effect>3k_main_effect_province_public_order_faction</effect>
 </effect_bonus_value_basic_junction>
-<effect_bonus_value_basic_junction record_uuid="{4fc6c1f4-f3ba-4098-bf9f-6fac4bb1321a}" record_timestamp="1551377851992" record_key="3k_main_effect_province_public_order_from_administratorsprovince_public_order_happiness_building_negative_factor">
+<effect_bonus_value_basic_junction record_uuid="{4fc6c1f4-f3ba-4098-bf9f-6fac4bb1321a}" record_timestamp="1551788650204" record_key="3k_main_effect_province_public_order_from_administratorsprovince_public_order_happiness_building_negative_factor">
 <bonus_value_id>province_public_order_happiness_building_negative_factor</bonus_value_id>
 <effect>3k_main_effect_province_public_order_from_administrators</effect>
 </effect_bonus_value_basic_junction>
@@ -493,11 +497,15 @@
 <bonus_value_id>province_public_order_happiness_character_factor</bonus_value_id>
 <effect>3k_main_effect_province_public_order_from_characters</effect>
 </effect_bonus_value_basic_junction>
+<effect_bonus_value_basic_junction record_uuid="{3d83b15f-5f6f-4043-b85b-df5a80e89fc5}" record_timestamp="1558708344127" record_key="3k_main_effect_province_public_order_from_forces_positive_goodprovince_public_order_happiness_military_activity_factor">
+<bonus_value_id>province_public_order_happiness_military_activity_factor</bonus_value_id>
+<effect>3k_main_effect_province_public_order_from_forces_positive_good</effect>
+</effect_bonus_value_basic_junction>
 <effect_bonus_value_basic_junction record_uuid="{f825e20f-2c12-4914-a4b4-c8fa51875c68}" record_timestamp="1536873503021" record_key="3k_main_effect_province_public_order_from_forcesprovince_public_order_happiness_military_activity_factor">
 <bonus_value_id>province_public_order_happiness_military_activity_factor</bonus_value_id>
 <effect>3k_main_effect_province_public_order_from_forces</effect>
 </effect_bonus_value_basic_junction>
-<effect_bonus_value_basic_junction record_uuid="{f1924724-8172-4af6-a77a-7292bb78e57c}" record_timestamp="1551377851572" record_key="3k_main_effect_province_public_order_from_relationshipsprovince_public_order_happiness_plague">
+<effect_bonus_value_basic_junction record_uuid="{f1924724-8172-4af6-a77a-7292bb78e57c}" record_timestamp="1551788650202" record_key="3k_main_effect_province_public_order_from_relationshipsprovince_public_order_happiness_plague">
 <bonus_value_id>province_public_order_happiness_plague</bonus_value_id>
 <effect>3k_main_effect_province_public_order_from_relationships</effect>
 </effect_bonus_value_basic_junction>
@@ -685,7 +693,7 @@
 <bonus_value_id>mercenary_cost_mod</bonus_value_id>
 <effect>3k_main_effects_mercenary_recruitment_and_upkeep_cost</effect>
 </effect_bonus_value_basic_junction>
-<effect_bonus_value_basic_junction record_uuid="{2f2e8084-77bf-4d51-bfc8-324c0e283dc5}" record_timestamp="1554545046940" record_key="3k_main_effects_mercenary_recruitment_costfaction_mercenary_pool_cost_mod">
+<effect_bonus_value_basic_junction record_uuid="{2f2e8084-77bf-4d51-bfc8-324c0e283dc5}" record_timestamp="1554888094026" record_key="3k_main_effects_mercenary_recruitment_costfaction_mercenary_pool_cost_mod">
 <bonus_value_id>faction_mercenary_pool_cost_mod</bonus_value_id>
 <effect>3k_main_effects_mercenary_recruitment_cost</effect>
 </effect_bonus_value_basic_junction>

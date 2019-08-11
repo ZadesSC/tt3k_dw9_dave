@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE TWaD_campaign_group_member_criteria_campaigns>
 <root>
-<edit_uuid>84d2e75f-1009-414e-ac1e-82fe8ebd803e</edit_uuid>
-<agf_special_dependencies></agf_special_dependencies>
+<edit_uuid>5e8e4361-c106-4f86-828e-09480b03256f</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
 <field>
 <field_uuid>{9e2fe209-cc11-4bc2-84a7-5ebdbdc76f57}</field_uuid>
 <primary_key>1</primary_key>
@@ -12,9 +12,6 @@
 <max_length>255</max_length>
 <column_source_column>id</column_source_column>
 <column_source_table>campaign_group_members</column_source_table>
-<agf_link_to_dependency>0</agf_link_to_dependency>
-<agf_link_to_dependents>0</agf_link_to_dependents>
-<agf_done>1</agf_done>
 <requires_startpos_reprocess>0</requires_startpos_reprocess>
 <requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
 </field>
@@ -27,9 +24,6 @@
 <max_length>255</max_length>
 <column_source_column>campaign_name</column_source_column>
 <column_source_table>campaigns</column_source_table>
-<agf_link_to_dependency>0</agf_link_to_dependency>
-<agf_link_to_dependents>1</agf_link_to_dependents>
-<agf_done>1</agf_done>
 <requires_startpos_reprocess>0</requires_startpos_reprocess>
 <requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
 </field>

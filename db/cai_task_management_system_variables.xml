@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_task_management_system_variables.xsd" export_time="Fri Mar 29 15:33:06 2019" revision="17" export_branch="C:/Users/Tim.Gosling/AppData/Roaming/TWDaemon/1412/dave" export_user="bob">
-<edit_uuid>e2cbaae3-72de-46cd-b57e-6a4c11c1de34</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_task_management_system_variables.xsd" export_time="Wed Apr 10 10:09:53 2019" revision="13" export_branch="C:/TW/branches/3k/eight/three_kingdoms/binaries.x64" export_user="bob">
+<edit_uuid>a8ebe6ff-9358-4759-9758-dd82a7be6774</edit_uuid>
 <cai_task_management_system_variables record_uuid="{704d3686-268a-478a-94b2-72bc0cf83043}" record_timestamp="1541674859520" record_key="ALLOCATOR_DIPLOMATIC_MANAGER_FACTION_PRIORITY_SCALING_AGGRESSIVE_ACTIONS_CAP">
 <default_value>0.5</default_value>
 <description>For TMS Allocator faction prioroty ranking adjustments, the maximum positive adjust applied due to direct strategic threat.</description>
@@ -61,27 +61,27 @@
 <description>For TMS Allocator scoring, the time to target threshold on a recruiting allocation used to scale the score of an allocation.</description>
 <key>ALLOCATOR_SCORING_DISTANCE_SCALING_TIME_TO_TARGET_IN_ROUNDS_UPPER_BOUND_RECRUITING</key>
 </cai_task_management_system_variables>
-<cai_task_management_system_variables record_uuid="{674f1172-40f2-4425-a632-0df5e618b135}" record_timestamp="1550764266580" record_key="ALLOCATOR_SEARCH_SHOULD_TRY_AND_MATCH_RECOMMENDED_FORCE_REQUIREMENTS_ON_AGGRESSIVE_TASKS_VERSUS_HUMANS_WHERE_POSSIBLE">
+<cai_task_management_system_variables record_uuid="{674f1172-40f2-4425-a632-0df5e618b135}" record_timestamp="1551785410065" record_key="ALLOCATOR_SEARCH_SHOULD_TRY_AND_MATCH_RECOMMENDED_FORCE_REQUIREMENTS_ON_AGGRESSIVE_TASKS_VERSUS_HUMANS_WHERE_POSSIBLE">
 <default_value>1</default_value>
 <description>For TMS Allocator search, when allocating forces to aggressive tasks where the target is human attempt to do so up to the recommended stregth requirement level (having first achieved the minimal level).</description>
 <key>ALLOCATOR_SEARCH_SHOULD_TRY_AND_MATCH_RECOMMENDED_FORCE_REQUIREMENTS_ON_AGGRESSIVE_TASKS_VERSUS_HUMANS_WHERE_POSSIBLE</key>
 </cai_task_management_system_variables>
-<cai_task_management_system_variables record_uuid="{3f6f141d-c880-4cc0-be24-d1a987a25021}" record_timestamp="1551177354474" record_key="ALLOCATOR_SEARCH_SHOULD_TRY_AND_MATCH_RECOMMENDED_FORCE_REQUIREMENTS_ON_AGGRESSIVE_TASKS_WHERE_POSSIBLE">
+<cai_task_management_system_variables record_uuid="{3f6f141d-c880-4cc0-be24-d1a987a25021}" record_timestamp="1551785410065" record_key="ALLOCATOR_SEARCH_SHOULD_TRY_AND_MATCH_RECOMMENDED_FORCE_REQUIREMENTS_ON_AGGRESSIVE_TASKS_WHERE_POSSIBLE">
 <default_value>0</default_value>
 <description>For TMS Allocator search, when allocating forces to aggressive tasks attempt to do so up to the recommended stregth requirement level (having first achieved the minimal level).</description>
 <key>ALLOCATOR_SEARCH_SHOULD_TRY_AND_MATCH_RECOMMENDED_FORCE_REQUIREMENTS_ON_AGGRESSIVE_TASKS_WHERE_POSSIBLE</key>
 </cai_task_management_system_variables>
-<cai_task_management_system_variables record_uuid="{6e71651e-099b-448b-bb49-625ab7a6b84a}" record_timestamp="1553873582987" record_key="TASK_MINIMUM_PRIORITY_PROPORTION">
+<cai_task_management_system_variables record_uuid="{6e71651e-099b-448b-bb49-625ab7a6b84a}" record_timestamp="1554887393539" record_key="TASK_MINIMUM_PRIORITY_PROPORTION">
 <default_value>0.2</default_value>
 <description>Used by task for specifying a minimum priority of something</description>
 <key>TASK_MINIMUM_PRIORITY_PROPORTION</key>
 </cai_task_management_system_variables>
-<cai_task_management_system_variables record_uuid="{73533407-cb60-4845-b863-560f487a0617}" record_timestamp="1553873582987" record_key="TASK_PRIORITY_SCALING_BY_POWER_OF_EXPONENT">
+<cai_task_management_system_variables record_uuid="{73533407-cb60-4845-b863-560f487a0617}" record_timestamp="1554887393539" record_key="TASK_PRIORITY_SCALING_BY_POWER_OF_EXPONENT">
 <default_value>3</default_value>
 <description>Used by tasks for scaling priorities by a power exponent</description>
 <key>TASK_PRIORITY_SCALING_BY_POWER_OF_EXPONENT</key>
 </cai_task_management_system_variables>
-<cai_task_management_system_variables record_uuid="{a430cba4-1a9f-41f5-89f7-41d5891b24c8}" record_timestamp="1553873582987" record_key="TASK_TIME_HORIZON_IN_ROUNDS_TO_CONSIDER">
+<cai_task_management_system_variables record_uuid="{a430cba4-1a9f-41f5-89f7-41d5891b24c8}" record_timestamp="1554887393539" record_key="TASK_TIME_HORIZON_IN_ROUNDS_TO_CONSIDER">
 <default_value>10</default_value>
 <description>Used by tasks for requirement generation (or other purposes), a time horizon in rounds</description>
 <key>TASK_TIME_HORIZON_IN_ROUNDS_TO_CONSIDER</key>

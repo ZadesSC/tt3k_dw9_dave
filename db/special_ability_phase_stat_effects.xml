@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="special_ability_phase_stat_effects.xsd" export_time="Tue May 21 11:58:38 2019" revision="277" export_branch="C:/Users/attila.mohacsi/AppData/Roaming/TWDaemon/1483/dave" export_user="bob">
-<edit_uuid>74022f82-6f0c-4b35-a6d1-6cbe727ef375</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="special_ability_phase_stat_effects.xsd" export_time="Tue Jul 23 09:50:49 2019" revision="282" export_branch="C:/Users/matthew.perkins/AppData/Roaming/TWDaemon/1600/dave" export_user="bob">
+<edit_uuid>a0e2aa0e-d4fb-448f-93e4-5ced27900363</edit_uuid>
 <special_ability_phase_stat_effects record_uuid="{233a6014-44eb-4781-9180-e2cd35de3a65}" record_timestamp="1497268569171" record_key="3k_main_ability_adamant_resolvestat_melee_defence">
 <how>add</how>
 <phase>3k_main_ability_adamant_resolve</phase>
@@ -691,13 +691,13 @@
 <stat>scalar_speed</stat>
 <value>1.5</value>
 </special_ability_phase_stat_effects>
-<special_ability_phase_stat_effects record_uuid="{03ceb12d-da57-4416-8b9d-c8b0b0842494}" record_timestamp="1552678736945" record_key="3k_main_ability_wisdom_of_the_riverstat_armour">
+<special_ability_phase_stat_effects record_uuid="{03ceb12d-da57-4416-8b9d-c8b0b0842494}" record_timestamp="1527594177188" record_key="3k_main_ability_wisdom_of_the_riverstat_armour">
 <how>add</how>
 <phase>3k_main_ability_wisdom_of_the_river</phase>
 <stat>stat_armour</stat>
 <value>-100</value>
 </special_ability_phase_stat_effects>
-<special_ability_phase_stat_effects record_uuid="{65bfbe86-1536-46fd-a018-673c4877e0f1}" record_timestamp="1552678736945" record_key="3k_main_ability_wisdom_of_the_riverstat_melee_defence">
+<special_ability_phase_stat_effects record_uuid="{65bfbe86-1536-46fd-a018-673c4877e0f1}" record_timestamp="1497268807606" record_key="3k_main_ability_wisdom_of_the_riverstat_melee_defence">
 <how>add</how>
 <phase>3k_main_ability_wisdom_of_the_river</phase>
 <stat>stat_melee_defence</stat>
@@ -817,11 +817,11 @@
 <stat>stat_melee_attack_interval</stat>
 <value>-25</value>
 </special_ability_phase_stat_effects>
-<special_ability_phase_stat_effects record_uuid="{70450b16-63eb-4aa7-81d3-34d3c72a1975}" record_timestamp="1533482506542" record_key="3k_main_formation_turtlestat_missile_block_chance">
+<special_ability_phase_stat_effects record_uuid="{70450b16-63eb-4aa7-81d3-34d3c72a1975}" record_timestamp="1563871849224" record_key="3k_main_formation_turtlestat_missile_block_chance">
 <how>add</how>
 <phase>3k_main_formation_turtle</phase>
 <stat>stat_missile_block_chance</stat>
-<value>100</value>
+<value>45</value>
 </special_ability_phase_stat_effects>
 <special_ability_phase_stat_effects record_uuid="{62fddc76-f0bd-4af0-a1f1-64479d75089d}" record_timestamp="1492592168014" record_key="3k_main_formation_wedgescalar_charge_speed">
 <how>mult</how>
@@ -1051,7 +1051,7 @@
 <stat>scalar_charge_speed</stat>
 <value>0.75</value>
 </special_ability_phase_stat_effects>
-<special_ability_phase_stat_effects record_uuid="{9dfa7d07-0213-4059-86d8-ce8e0ef03f56}" record_timestamp="1553187153032" record_key="3k_main_projectile_suppressing_firestat_charge_bonus">
+<special_ability_phase_stat_effects record_uuid="{9dfa7d07-0213-4059-86d8-ce8e0ef03f56}" record_timestamp="1554885511734" record_key="3k_main_projectile_suppressing_firestat_charge_bonus">
 <how>add</how>
 <phase>3k_main_projectile_suppressing_fire</phase>
 <stat>stat_charge_bonus</stat>
@@ -1099,25 +1099,25 @@
 <stat>stat_melee_defence</stat>
 <value>10</value>
 </special_ability_phase_stat_effects>
-<special_ability_phase_stat_effects record_uuid="{5cff238d-c4a7-43c2-b209-f245af50eb4b}" record_timestamp="1550581093878" record_key="3k_ytr_ability_commanding_shoutscalar_speed">
+<special_ability_phase_stat_effects record_uuid="{5cff238d-c4a7-43c2-b209-f245af50eb4b}" record_timestamp="1551785055620" record_key="3k_ytr_ability_commanding_shoutscalar_speed">
 <how>mult</how>
 <phase>3k_ytr_ability_commanding_shout</phase>
 <stat>scalar_speed</stat>
 <value>1.15</value>
 </special_ability_phase_stat_effects>
-<special_ability_phase_stat_effects record_uuid="{bf4deb11-9490-4967-9b96-adb2342615b3}" record_timestamp="1550581093831" record_key="3k_ytr_ability_commanding_shoutstat_charge_bonus">
+<special_ability_phase_stat_effects record_uuid="{bf4deb11-9490-4967-9b96-adb2342615b3}" record_timestamp="1551785055619" record_key="3k_ytr_ability_commanding_shoutstat_charge_bonus">
 <how>add</how>
 <phase>3k_ytr_ability_commanding_shout</phase>
 <stat>stat_charge_bonus</stat>
 <value>50</value>
 </special_ability_phase_stat_effects>
-<special_ability_phase_stat_effects record_uuid="{d7ce3cfa-bca5-4df5-8743-fd24bf174baf}" record_timestamp="1553085284988" record_key="3k_ytr_ability_commanding_shoutstat_melee_damage_ap">
+<special_ability_phase_stat_effects record_uuid="{d7ce3cfa-bca5-4df5-8743-fd24bf174baf}" record_timestamp="1554885157027" record_key="3k_ytr_ability_commanding_shoutstat_melee_damage_ap">
 <how>mult</how>
 <phase>3k_ytr_ability_commanding_shout</phase>
 <stat>stat_melee_damage_ap</stat>
 <value>1.1</value>
 </special_ability_phase_stat_effects>
-<special_ability_phase_stat_effects record_uuid="{13194c08-1f9c-4db8-b95d-76ef5b972fbc}" record_timestamp="1550581093862" record_key="3k_ytr_ability_commanding_shoutstat_melee_damage_base">
+<special_ability_phase_stat_effects record_uuid="{13194c08-1f9c-4db8-b95d-76ef5b972fbc}" record_timestamp="1551785055619" record_key="3k_ytr_ability_commanding_shoutstat_melee_damage_base">
 <how>mult</how>
 <phase>3k_ytr_ability_commanding_shout</phase>
 <stat>stat_melee_damage_base</stat>
@@ -1249,7 +1249,7 @@
 <stat>stat_melee_damage_ap</stat>
 <value>1.25</value>
 </special_ability_phase_stat_effects>
-<special_ability_phase_stat_effects record_uuid="{c9193fb2-133e-4de0-8a32-31d78b825c43}" record_timestamp="1553085285044" record_key="3k_ytr_ability_suprise_attackstat_melee_damage_base">
+<special_ability_phase_stat_effects record_uuid="{c9193fb2-133e-4de0-8a32-31d78b825c43}" record_timestamp="1554885157027" record_key="3k_ytr_ability_suprise_attackstat_melee_damage_base">
 <how>mult</how>
 <phase>3k_ytr_ability_suprise_attack</phase>
 <stat>stat_melee_damage_base</stat>
@@ -1272,5 +1272,311 @@
 <phase>3k_ytr_ability_words_of_the_way</phase>
 <stat>stat_melee_damage_base</stat>
 <value>1.1</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{f93f8946-c0d3-46b7-95e4-8005fc4a3420}" record_timestamp="1551886361189" record_key="ep_dyn_ability_adamant_resolvestat_resistance_all">
+<how>add</how>
+<phase>ep_dyn_ability_adamant_resolve</phase>
+<stat>stat_resistance_all</stat>
+<value>15</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{7ca08e68-c778-49ed-ad7b-db23c269288a}" record_timestamp="1552469437219" record_key="ep_dyn_ability_analyse_weaknessstat_melee_defence">
+<how>add</how>
+<phase>ep_dyn_ability_analyse_weakness</phase>
+<stat>stat_melee_defence</stat>
+<value>-20</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{c5518a97-86fd-49eb-8cab-25e873474211}" record_timestamp="1552469153781" record_key="ep_dyn_ability_analyse_weaknessstat_resistance_all">
+<how>add</how>
+<phase>ep_dyn_ability_analyse_weakness</phase>
+<stat>stat_resistance_all</stat>
+<value>-30</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{5eac9546-2e15-431d-9445-5cee69cf5455}" record_timestamp="1552469153781" record_key="ep_dyn_ability_blade_breakerstat_resistance_all">
+<how>add</how>
+<phase>ep_dyn_ability_blade_breaker</phase>
+<stat>stat_resistance_all</stat>
+<value>50</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{aa63e6ad-ae11-4c56-aa31-5e3383e47de9}" record_timestamp="1553099400655" record_key="ep_dyn_ability_blazing_glorystat_melee_attack_interval">
+<how>add</how>
+<phase>ep_dyn_ability_blazing_glory</phase>
+<stat>stat_melee_attack_interval</stat>
+<value>15</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{957d9df0-27da-4c78-b56b-0372ab474b8d}" record_timestamp="1553099214330" record_key="ep_dyn_ability_blazing_glorystat_melee_damage_ap">
+<how>mult</how>
+<phase>ep_dyn_ability_blazing_glory</phase>
+<stat>stat_melee_damage_ap</stat>
+<value>1.3</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{5d5a04b3-f48e-48c9-9830-170ca3f89271}" record_timestamp="1554987588470" record_key="ep_dyn_ability_blood_furyscalar_splash_attack_range">
+<how>mult</how>
+<phase>ep_dyn_ability_blood_fury</phase>
+<stat>scalar_splash_attack_range</stat>
+<value>3</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{9ff4181a-6aa5-432f-8ce0-9feffc6ba1e0}" record_timestamp="1554987457786" record_key="ep_dyn_ability_blood_furystat_melee_damage_ap">
+<how>mult</how>
+<phase>ep_dyn_ability_blood_fury</phase>
+<stat>stat_melee_damage_ap</stat>
+<value>1.5</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{6c1be3be-e2af-4045-ba1a-8e3959efc4a1}" record_timestamp="1554987457786" record_key="ep_dyn_ability_blood_furystat_resistance_all">
+<how>add</how>
+<phase>ep_dyn_ability_blood_fury</phase>
+<stat>stat_resistance_all</stat>
+<value>-25</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{7fafa186-a7eb-49c6-bcee-ec29f8d53be3}" record_timestamp="1552401254202" record_key="ep_dyn_ability_cavalry_masterscalar_speed">
+<how>mult</how>
+<phase>ep_dyn_ability_cavalry_master</phase>
+<stat>scalar_speed</stat>
+<value>1.25</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{555bd083-e285-4211-9a0c-2aebbe3a6b07}" record_timestamp="1552475104635" record_key="ep_dyn_ability_cavalry_masterstat_melee_defence">
+<how>add</how>
+<phase>ep_dyn_ability_cavalry_master</phase>
+<stat>stat_melee_defence</stat>
+<value>10</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{5c73ba99-35a9-451b-8f95-3f6888a5bf95}" record_timestamp="1551886361785" record_key="ep_dyn_ability_ceaseless_assaultstat_melee_attack_interval">
+<how>add</how>
+<phase>ep_dyn_ability_ceaseless_assault</phase>
+<stat>stat_melee_attack_interval</stat>
+<value>20</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{921182ae-3f2b-422d-9c45-39f060ee015b}" record_timestamp="1554983310004" record_key="ep_dyn_ability_crushing_blowsscalar_splash_attack_range">
+<how>mult</how>
+<phase>ep_dyn_ability_crushing_blows</phase>
+<stat>scalar_splash_attack_range</stat>
+<value>2</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{af232ac0-4024-466c-a748-f70fcd363c24}" record_timestamp="1551886361955" record_key="ep_dyn_ability_cry_of_the_foreststat_melee_attack_interval">
+<how>add</how>
+<phase>ep_dyn_ability_cry_of_the_forest</phase>
+<stat>stat_melee_attack_interval</stat>
+<value>25</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{a993ec79-7be4-4192-ba69-ca5a04b3f6d7}" record_timestamp="1552471881080" record_key="ep_dyn_ability_cry_of_the_foreststat_melee_damage_ap">
+<how>mult</how>
+<phase>ep_dyn_ability_cry_of_the_forest</phase>
+<stat>stat_melee_damage_ap</stat>
+<value>5</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{cf7ba2da-dbc8-4ddd-81c8-fae8805bfb96}" record_timestamp="1552469379797" record_key="ep_dyn_ability_deep_rootedstat_resistance_all">
+<how>add</how>
+<phase>ep_dyn_ability_deep_rooted</phase>
+<stat>stat_resistance_all</stat>
+<value>20</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{83066233-68b5-4da7-98f1-7c0c8245efb1}" record_timestamp="1551886363065" record_key="ep_dyn_ability_distant_couragestat_melee_attack_interval">
+<how>add</how>
+<phase>ep_dyn_ability_distant_courage</phase>
+<stat>stat_melee_attack_interval</stat>
+<value>15</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{37c0639e-5546-4147-bf40-6de6e58927e1}" record_timestamp="1551886360935" record_key="ep_dyn_ability_distant_couragestat_melee_defence">
+<how>add</how>
+<phase>ep_dyn_ability_distant_courage</phase>
+<stat>stat_melee_defence</stat>
+<value>15</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{4cab066b-6ac5-4592-a3e7-8b20e01df119}" record_timestamp="1551886363150" record_key="ep_dyn_ability_elemental_vigour_1stat_resistance_all">
+<how>add</how>
+<phase>ep_dyn_ability_elemental_vigour_1</phase>
+<stat>stat_resistance_all</stat>
+<value>10</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{e8402688-e25f-4de2-b7d2-9dc4a9a8e6d7}" record_timestamp="1551886363237" record_key="ep_dyn_ability_elemental_vigour_2stat_resistance_all">
+<how>add</how>
+<phase>ep_dyn_ability_elemental_vigour_2</phase>
+<stat>stat_resistance_all</stat>
+<value>20</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{b94a506d-40fc-4d32-8e57-218190200c98}" record_timestamp="1551886363322" record_key="ep_dyn_ability_elemental_vigour_3stat_resistance_all">
+<how>add</how>
+<phase>ep_dyn_ability_elemental_vigour_3</phase>
+<stat>stat_resistance_all</stat>
+<value>30</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{de56e012-1f47-4d64-a108-c2c9a675ef85}" record_timestamp="1552064120735" record_key="ep_dyn_ability_flowing_waterstat_resistance_all">
+<how>add</how>
+<phase>ep_dyn_ability_flowing_water</phase>
+<stat>stat_resistance_all</stat>
+<value>35</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{2ef93fc4-e04a-4a2e-9b63-7d8ff87c7dae}" record_timestamp="1551886363499" record_key="ep_dyn_ability_inward_focusstat_melee_defence">
+<how>add</how>
+<phase>ep_dyn_ability_inward_focus</phase>
+<stat>stat_melee_defence</stat>
+<value>25</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{4220d1e4-fa08-453d-bec0-68cf6124b906}" record_timestamp="1552064120374" record_key="ep_dyn_ability_masters_patiencestat_melee_attack_interval">
+<how>add</how>
+<phase>ep_dyn_ability_masters_patience</phase>
+<stat>stat_melee_attack_interval</stat>
+<value>35</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{9d8d2b63-1c13-41fc-ae15-35f25c1f20a7}" record_timestamp="1551886363585" record_key="ep_dyn_ability_nature_s_allyscalar_speed">
+<how>mult</how>
+<phase>ep_dyn_ability_nature_s_ally</phase>
+<stat>scalar_speed</stat>
+<value>1.25</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{cd935ba1-0a30-4724-9490-c8d4963668ec}" record_timestamp="1553102068566" record_key="ep_dyn_ability_nature_s_allystat_reloading">
+<how>add</how>
+<phase>ep_dyn_ability_nature_s_ally</phase>
+<stat>stat_reloading</stat>
+<value>15</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{04cb8a99-f9e6-4c5e-8328-f936d2af4875}" record_timestamp="1551886362552" record_key="ep_dyn_ability_poison_contactscalar_speed">
+<how>mult</how>
+<phase>ep_dyn_ability_poison_contact</phase>
+<stat>scalar_speed</stat>
+<value>0.8</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{f432fd57-ca1d-4df8-8aaf-93073b582697}" record_timestamp="1552064120425" record_key="ep_dyn_ability_protectors_aegisstat_resistance_all">
+<how>add</how>
+<phase>ep_dyn_ability_protectors_aegis</phase>
+<stat>stat_resistance_all</stat>
+<value>50</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{788d001b-91eb-4984-b526-9b0cb93e4c2a}" record_timestamp="1551886362639" record_key="ep_dyn_ability_quickfire_1stat_reloading">
+<how>add</how>
+<phase>ep_dyn_ability_quickfire_1</phase>
+<stat>stat_reloading</stat>
+<value>10</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{f7e659e0-b7af-46a5-b705-cb65d19a2eba}" record_timestamp="1551886362724" record_key="ep_dyn_ability_quickfire_2stat_reloading">
+<how>add</how>
+<phase>ep_dyn_ability_quickfire_2</phase>
+<stat>stat_reloading</stat>
+<value>20</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{55ea41d7-6779-496c-9fa7-63c098871aeb}" record_timestamp="1551886362809" record_key="ep_dyn_ability_quickfire_3stat_reloading">
+<how>add</how>
+<phase>ep_dyn_ability_quickfire_3</phase>
+<stat>stat_reloading</stat>
+<value>40</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{69904301-93e1-4e51-83bc-db1ad4f63322}" record_timestamp="1553163775242" record_key="ep_dyn_ability_sheltering_boughsstat_melee_defence">
+<how>add</how>
+<phase>ep_dyn_ability_sheltering_boughs</phase>
+<stat>stat_melee_defence</stat>
+<value>20</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{6f599a4f-5398-4c2e-ae99-4b29ac8ac44e}" record_timestamp="1551886361020" record_key="ep_dyn_ability_sheltering_boughsstat_missile_block_chance">
+<how>add</how>
+<phase>ep_dyn_ability_sheltering_boughs</phase>
+<stat>stat_missile_block_chance</stat>
+<value>25</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{95705927-8e54-4ae9-ac25-852eb5794493}" record_timestamp="1551886361104" record_key="ep_dyn_ability_stifling_delugescalar_speed">
+<how>mult</how>
+<phase>ep_dyn_ability_stifling_deluge</phase>
+<stat>scalar_speed</stat>
+<value>0.8</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{7068bf79-07f1-4c2b-9b92-b3d7e0a47837}" record_timestamp="1553102068376" record_key="ep_dyn_ability_stifling_delugestat_charge_bonus">
+<how>mult</how>
+<phase>ep_dyn_ability_stifling_deluge</phase>
+<stat>stat_charge_bonus</stat>
+<value>0.5</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{3946314b-073d-459b-9c5b-174109269e60}" record_timestamp="1551886361699" record_key="ep_dyn_ability_stifling_delugestat_melee_attack_interval">
+<how>add</how>
+<phase>ep_dyn_ability_stifling_deluge</phase>
+<stat>stat_melee_attack_interval</stat>
+<value>-25</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{540d0298-285e-4312-ae9f-c5e7fa96eaa8}" record_timestamp="1553163775242" record_key="ep_dyn_ability_stone_bulwarkstat_missile_block_chance">
+<how>add</how>
+<phase>ep_dyn_ability_stone_bulwark</phase>
+<stat>stat_missile_block_chance</stat>
+<value>35</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{859b8593-395a-43fd-b1ce-686e5919d658}" record_timestamp="1554988961218" record_key="ep_dyn_ability_strength_of_the_mountainscalar_splash_attack_range">
+<how>mult</how>
+<phase>ep_dyn_ability_strength_of_the_mountain</phase>
+<stat>scalar_splash_attack_range</stat>
+<value>2</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{07bd3069-cf4a-4ad0-86b6-68211665727d}" record_timestamp="1551886362042" record_key="ep_dyn_ability_strength_of_the_mountainstat_resistance_all">
+<how>add</how>
+<phase>ep_dyn_ability_strength_of_the_mountain</phase>
+<stat>stat_resistance_all</stat>
+<value>20</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{bd213d8e-9a0a-4c11-8c7f-f0624103f353}" record_timestamp="1552471881080" record_key="ep_dyn_ability_strike_from_afarscalar_missile_damage_ap">
+<how>mult</how>
+<phase>ep_dyn_ability_strike_from_afar</phase>
+<stat>scalar_missile_damage_ap</stat>
+<value>2</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{03b24cac-f0be-4924-9d28-e2fbe94f1b80}" record_timestamp="1552064120528" record_key="ep_dyn_ability_strike_from_afarstat_reloading">
+<how>add</how>
+<phase>ep_dyn_ability_strike_from_afar</phase>
+<stat>stat_reloading</stat>
+<value>25</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{07c2a03b-e26b-4226-8717-2dbbce9abc36}" record_timestamp="1551886362213" record_key="ep_dyn_ability_swift_fingersstat_reloading">
+<how>add</how>
+<phase>ep_dyn_ability_swift_fingers</phase>
+<stat>stat_reloading</stat>
+<value>15</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{a07277b9-b67d-4053-8fbe-9a06d093bb2b}" record_timestamp="1552471881080" record_key="ep_dyn_ability_tenacity_of_steel_1stat_melee_attack_interval">
+<how>add</how>
+<phase>ep_dyn_ability_tenacity_of_steel_1</phase>
+<stat>stat_melee_attack_interval</stat>
+<value>5</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{51ba18cd-04c5-483b-b825-32c00ce6a3b8}" record_timestamp="1552471881080" record_key="ep_dyn_ability_tenacity_of_steel_1stat_melee_damage_ap">
+<how>mult</how>
+<phase>ep_dyn_ability_tenacity_of_steel_1</phase>
+<stat>stat_melee_damage_ap</stat>
+<value>1.1</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{dca38c66-2022-4f36-88a4-b96ad3f0613e}" record_timestamp="1552471881080" record_key="ep_dyn_ability_tenacity_of_steel_2stat_melee_attack_interval">
+<how>add</how>
+<phase>ep_dyn_ability_tenacity_of_steel_2</phase>
+<stat>stat_melee_attack_interval</stat>
+<value>15</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{806cf592-a564-4f37-9688-9c90ae1df9dc}" record_timestamp="1552471881080" record_key="ep_dyn_ability_tenacity_of_steel_2stat_melee_damage_ap">
+<how>mult</how>
+<phase>ep_dyn_ability_tenacity_of_steel_2</phase>
+<stat>stat_melee_damage_ap</stat>
+<value>1.25</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{e8ab2d63-7782-4558-a9f6-48df404a1f13}" record_timestamp="1552471881080" record_key="ep_dyn_ability_tenacity_of_steel_3stat_melee_attack_interval">
+<how>add</how>
+<phase>ep_dyn_ability_tenacity_of_steel_3</phase>
+<stat>stat_melee_attack_interval</stat>
+<value>25</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{cd901e0a-6358-4d9c-868a-998f42eb14d9}" record_timestamp="1552471881080" record_key="ep_dyn_ability_tenacity_of_steel_3stat_melee_damage_ap">
+<how>mult</how>
+<phase>ep_dyn_ability_tenacity_of_steel_3</phase>
+<stat>stat_melee_damage_ap</stat>
+<value>1.5</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{ac8e8cfe-1b17-421b-95f2-032c1636bb19}" record_timestamp="1554982194236" record_key="ep_dyn_ability_vengeancescalar_splash_attack_range">
+<how>mult</how>
+<phase>ep_dyn_ability_vengeance</phase>
+<stat>scalar_splash_attack_range</stat>
+<value>3</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{5c58dc57-c0c5-4764-96f6-394ff0dba8bd}" record_timestamp="1552471881080" record_key="ep_dyn_ability_vengeancestat_melee_damage_ap">
+<how>mult</how>
+<phase>ep_dyn_ability_vengeance</phase>
+<stat>stat_melee_damage_ap</stat>
+<value>2</value>
+</special_ability_phase_stat_effects>
+<special_ability_phase_stat_effects record_uuid="{4d7bfe97-8ad4-4d20-9ae6-a81ebd5b6df6}" record_timestamp="1551886360851" record_key="ep_dyn_ability_wildfirescalar_speed">
+<how>mult</how>
+<phase>ep_dyn_ability_wildfire</phase>
+<stat>scalar_speed</stat>
+<value>1.3</value>
 </special_ability_phase_stat_effects>
 </dataroot>

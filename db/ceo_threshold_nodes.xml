@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_threshold_nodes.xsd" export_time="Fri Aug 2 16:08:19 2019" revision="54" export_branch="C:/Program Files (x86)/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>e5ce9b04-1445-4b45-9cb9-ba966a748baf</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_threshold_nodes.xsd" export_time="Fri Aug 9 00:47:01 2019" revision="55" export_branch="E:/Games/Steam/SteamApps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>31e34f0d-6f5a-4823-a769-42a7e3ef532a</edit_uuid>
 <ceo_threshold_nodes record_uuid="{41443b6f-b8dc-4bd7-b74e-bafb2f99617a}" record_timestamp="1502704151042" record_key="1005305043">
 <auto_id>1005305043</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_earthquake_watching_device</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_earthquake_watching_device</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{a3e85879-54e2-4e0f-b77f-52882c86480d}" record_timestamp="1553100961972" record_key="100696875">
+<auto_id>100696875</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_sima_liang_armour_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_sima_liang_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{d49d67e3-1a83-4174-8046-0c7add1d6849}" record_timestamp="1502704176618" record_key="1007086613">
@@ -27,6 +34,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_strategist_light_armour_water_unique</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_strategist_light_armour_water_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{1c54ec4a-3bd1-4371-b4ba-015068cf01de}" record_timestamp="1555407990351" record_key="1020726290">
+<auto_id>1020726290</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_sima_jiong_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_sima_jiong</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{5edefe83-08d7-41ca-ad57-74dd6c26976a}" record_timestamp="1537346363642" record_key="1025977743">
@@ -57,6 +71,13 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_taishi_ci</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{ce51a041-4187-444c-a680-6afde9875af3}" record_timestamp="1551887884117" record_key="1031789597">
+<auto_id>1031789597</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_mount_red_hare</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_mount_red_hare</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{b1bda820-408f-489a-be1e-e13a53f56db3}" record_timestamp="1537346364193" record_key="1033041669">
 <auto_id>1033041669</auto_id>
 <can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
@@ -78,11 +99,25 @@
 <ceo_threshold>3k_main_threshold_ancillary_strategist_light_armour_water_extraordinary</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{9ed63072-577f-4585-858a-cd3ed40c9483}" record_timestamp="1551887884121" record_key="1037556660">
+<auto_id>1037556660</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_serpent_spear</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_serpent_spear</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{a11dbf82-a601-4057-b5f9-78b4575a3a92}" record_timestamp="1537346364167" record_key="1039499247">
 <auto_id>1039499247</auto_id>
 <can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
 <ceo_node>3k_ytr_ceo_node_career_land_builder</ceo_node>
 <ceo_threshold>3k_ytr_ceo_threshold_career_land_builder</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{f36af3b0-6d5d-4d21-a645-a7c407472d88}" record_timestamp="1553100961449" record_key="1040724157">
+<auto_id>1040724157</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_medium_armour_metal_extraordinary</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_medium_armour_metal_extraordinary</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{a8448dbd-a629-4ff9-bac7-9bb4308affb6}" record_timestamp="1537346364171" record_key="1041664548">
@@ -97,6 +132,13 @@
 <can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
 <ceo_node>3k_ytr_ceo_node_trait_personality_strong_willed</ceo_node>
 <ceo_threshold>3k_ytr_ceo_threshold_trait_personality_strong_willed</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{85220645-17bc-44b2-a5b7-1653451989a5}" record_timestamp="1560851446344" record_key="1047042312">
+<auto_id>1047042312</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_liu_shen_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_liu_shen</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{6d73d327-dfe5-487a-afe5-4b69c34e9f4b}" record_timestamp="1519633654758" record_key="10479164">
@@ -120,11 +162,18 @@
 <ceo_threshold>3k_ytr_ceo_threshold_ancillary_armour_healer_yellow_turban_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{42a33e5e-d047-4da0-a05e-8b9f7bb8be05}" record_timestamp="1564032372680" record_key="105818345">
+<ceo_threshold_nodes record_uuid="{42a33e5e-d047-4da0-a05e-8b9f7bb8be05}" record_timestamp="1565336818160" record_key="105818345">
 <auto_id>105818345</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_deng_ai_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_deng_ai</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{edce9e8d-ab3a-4f17-aecf-32e15a347179}" record_timestamp="1551887884110" record_key="1060790651">
+<auto_id>1060790651</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_dong_zhuos_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_dong_zhuos_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{4690398f-9b63-4acf-af6e-d2422acdd72f}" record_timestamp="1502704153693" record_key="1061095192">
@@ -148,6 +197,13 @@
 <ceo_threshold>3k_main_threshold_ancillary_rites_of_zhou</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{a4fab743-8c19-4deb-821a-b15325c3c661}" record_timestamp="1553100961188" record_key="1063631940">
+<auto_id>1063631940</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_light_armour_earth_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_light_armour_earth_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{4fd9792f-ebb2-43a5-8ef4-6548eb646337}" record_timestamp="1502191406294" record_key="1065695901">
 <auto_id>1065695901</auto_id>
 <can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
@@ -155,7 +211,7 @@
 <ceo_threshold>3k_main_ceo_threshold_trait_physical_one-eyed</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{1368b13b-1808-4625-a606-ae629d2a49e6}" record_timestamp="1564702856834" record_key="1067596674">
+<ceo_threshold_nodes record_uuid="{1368b13b-1808-4625-a606-ae629d2a49e6}" record_timestamp="1565336819269" record_key="1067596674">
 <auto_id>1067596674</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_custom_ancillary_armour_metal</ceo_node>
@@ -211,11 +267,18 @@
 <ceo_threshold>3k_main_threshold_ancillary_forge_master</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{c6c03e19-cd32-47f5-a98e-8abd12057599}" record_timestamp="1564032372472" record_key="1106569892">
+<ceo_threshold_nodes record_uuid="{c6c03e19-cd32-47f5-a98e-8abd12057599}" record_timestamp="1565336817915" record_key="1106569892">
 <auto_id>1106569892</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_guan_ping_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_guan_ping</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{53683864-a139-4f77-9f44-c94f6cbc2a17}" record_timestamp="1560242839615" record_key="1110574198">
+<auto_id>1110574198</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_he_lun_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_he_lun</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{2535dc83-0738-4f5e-8a16-cfa9e3e17bdf}" record_timestamp="1532686877812" record_key="1116500017">
@@ -230,6 +293,27 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_jade_monkey</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_jade_monkey</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{412cf90b-c238-46a8-90b5-c05b60b4f8ae}" record_timestamp="1551887884109" record_key="1120927869">
+<auto_id>1120927869</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_cao_caos_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_cao_caos_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{2aa83d06-20d5-4279-88eb-05c977c31f61}" record_timestamp="1560242840105" record_key="1121510561">
+<auto_id>1121510561</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_lu_zhi_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_lu_zhi</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{18a00e9f-ebe0-4e95-8789-635914cee8fc}" record_timestamp="1551887884109" record_key="112212526">
+<auto_id>112212526</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_dian_weis_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_dian_weis_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{ab597733-5721-4629-ac9e-f059afdcf274}" record_timestamp="1537346364169" record_key="112300435">
@@ -267,7 +351,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_ceremonial_sword_refined</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{390766f0-2f72-4dd7-a30a-c5faba83e23f}" record_timestamp="1564104822028" record_key="1144590701">
+<ceo_threshold_nodes record_uuid="{390766f0-2f72-4dd7-a30a-c5faba83e23f}" record_timestamp="1565336818915" record_key="1144590701">
 <auto_id>1144590701</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_xu_shao_01</ceo_node>
@@ -309,6 +393,13 @@
 <ceo_threshold>3k_main_threshold_ancillary_medium_armour_wood_extraordinary</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{d4e15082-54af-4c2c-8d41-1e5f8c6891a4}" record_timestamp="1560242839614" record_key="1159095778">
+<auto_id>1159095778</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_huangfu_shang_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_huangfu_shang</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{b8e320a5-6a86-4c73-8237-71b8983ba431}" record_timestamp="1502704171572" record_key="1161888667">
 <auto_id>1161888667</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -337,7 +428,7 @@
 <ceo_threshold>3k_ytr_ceo_threshold_ancillary_armour_veteran_medium_yellow_turban_exceptional</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{18dfe242-3a9d-440d-8197-70ecd9d1c2b5}" record_timestamp="1564032373150" record_key="1175226879">
+<ceo_threshold_nodes record_uuid="{18dfe242-3a9d-440d-8197-70ecd9d1c2b5}" record_timestamp="1565336818701" record_key="1175226879">
 <auto_id>1175226879</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_yuan_xi_01</ceo_node>
@@ -349,6 +440,20 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_two_handed_axe_refined</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_two_handed_axe_refined</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{cc9dc9fa-4446-4fa1-82e6-f854a844ce97}" record_timestamp="1553100961606" record_key="1183109286">
+<auto_id>1183109286</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_medium_armour_fire_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_medium_armour_fire_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{5bd86847-2d9a-4d3a-bb61-6720183f16f3}" record_timestamp="1551887884116" record_key="1184809420">
+<auto_id>1184809420</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_zhao_yuns_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_zhao_yuns_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{3ea57f38-d5a8-445d-9e6e-0b01d38843bb}" record_timestamp="1502191401960" record_key="1191693817">
@@ -477,7 +582,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_hua_tuos_manual</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{8dd46a92-ec20-4335-b019-b0e2817b68eb}" record_timestamp="1564032372506" record_key="1246874315">
+<ceo_threshold_nodes record_uuid="{8dd46a92-ec20-4335-b019-b0e2817b68eb}" record_timestamp="1565336817938" record_key="1246874315">
 <auto_id>1246874315</auto_id>
 <can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_liu_shan_01</ceo_node>
@@ -505,7 +610,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_scholar</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{06592330-73bd-439c-9870-01501f63bef3}" record_timestamp="1564032372472" record_key="1252331713">
+<ceo_threshold_nodes record_uuid="{06592330-73bd-439c-9870-01501f63bef3}" record_timestamp="1565336817915" record_key="1252331713">
 <auto_id>1252331713</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_huang_yueying_01</ceo_node>
@@ -568,6 +673,13 @@
 <ceo_threshold>3k_main_ceo_threshold_career_generated_villager_water</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{25cfa6ee-7b24-4b28-9414-ade5a0ddca0c}" record_timestamp="1551887884111" record_key="1266083307">
+<auto_id>1266083307</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_huang_zhongs_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_huang_zhongs_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{136defe5-b25e-43ab-99f8-21d6ee53eeec}" record_timestamp="1541665850690" record_key="1267901893">
 <auto_id>1267901893</auto_id>
 <can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
@@ -575,7 +687,7 @@
 <ceo_threshold>3k_ytr_ceo_threshold_trait_personality_heaven_tranquil</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{2e727c68-058a-4c25-b904-6a26c0fde90b}" record_timestamp="1564104822023" record_key="127158224">
+<ceo_threshold_nodes record_uuid="{2e727c68-058a-4c25-b904-6a26c0fde90b}" record_timestamp="1565336818907" record_key="127158224">
 <auto_id>127158224</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_cai_01</ceo_node>
@@ -617,7 +729,7 @@
 <ceo_threshold>3k_main_ceo_equipment_permissions_armour_metal</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{04eeab7a-3a68-4462-9e7f-9529a8ac4537}" record_timestamp="1564032373144" record_key="1283090700">
+<ceo_threshold_nodes record_uuid="{04eeab7a-3a68-4462-9e7f-9529a8ac4537}" record_timestamp="1565336818697" record_key="1283090700">
 <auto_id>1283090700</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_li_jue_01</ceo_node>
@@ -652,11 +764,18 @@
 <ceo_threshold>3k_main_threshold_ancillary_architect</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{34fe2da7-a902-4cf3-a9e0-564b43eac127}" record_timestamp="1564032372818" record_key="1302086139">
+<ceo_threshold_nodes record_uuid="{34fe2da7-a902-4cf3-a9e0-564b43eac127}" record_timestamp="1565336818325" record_key="1302086139">
 <auto_id>1302086139</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_meng_huo_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_meng_huo</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{9b27cf0d-ba51-42d1-9ace-730fc0bad05d}" record_timestamp="1551887884116" record_key="1303250357">
+<auto_id>1303250357</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_zhuge_liangs_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_zhuge_liangs_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{48cefcfa-d2c7-440f-a171-ce92e19a9a8d}" record_timestamp="1502191400301" record_key="1304005666">
@@ -678,6 +797,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_huangfu_song_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_huangfu_song</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{ae82325c-8d7d-4ab7-be57-abd3539507da}" record_timestamp="1560242839609" record_key="1306105625">
+<auto_id>1306105625</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_zhang_hua_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_zhang_hua</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{e729e2a8-3919-4d08-9bb8-5d9997982141}" record_timestamp="1502191417507" record_key="1310889153">
@@ -708,14 +834,21 @@
 <ceo_threshold>3k_main_threshold_ancillary_military_expert</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{abe6ff02-1c57-4dd0-bb36-87a9d90418c7}" record_timestamp="1564032372223" record_key="1325121092">
+<ceo_threshold_nodes record_uuid="{f886cb3f-ab4f-4aca-8168-09e9345dd3f3}" record_timestamp="1551887884120" record_key="1316668717">
+<auto_id>1316668717</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_ma_su</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_ma_su</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{abe6ff02-1c57-4dd0-bb36-87a9d90418c7}" record_timestamp="1565336817609" record_key="1325121092">
 <auto_id>1325121092</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_zhen_ji_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_lady_zhen_ji</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{465cb2c2-c292-4d6f-922d-95162b989e65}" record_timestamp="1564032372223" record_key="1325850614">
+<ceo_threshold_nodes record_uuid="{465cb2c2-c292-4d6f-922d-95162b989e65}" record_timestamp="1565336817610" record_key="1325850614">
 <auto_id>1325850614</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_li_dian_01</ceo_node>
@@ -727,6 +860,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_light_armour_earth_metal_and_water_refined</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_light_armour_earth_refined</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{d6d4c2c2-ea3f-48bd-a057-2f6dffe0a749}" record_timestamp="1551887884117" record_key="1329480064">
+<auto_id>1329480064</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_mount_black_elite</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_mount_black_elite</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{e11e1872-b584-46d4-8cf5-38ad1aa4dc5b}" record_timestamp="1537346363640" record_key="1333552748">
@@ -778,6 +918,13 @@
 <ceo_threshold>3k_main_ceo_threshold_trait_personality_resourceful</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{25141183-7a6d-4b6a-9e18-b09802a6afa3}" record_timestamp="1553100962289" record_key="1352891044">
+<auto_id>1352891044</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_sima_yong_armour_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_sima_yong_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{d3f97937-fad0-43e7-92a8-8bfe64703aef}" record_timestamp="1502191402137" record_key="1353109789">
 <auto_id>1353109789</auto_id>
 <can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
@@ -792,6 +939,20 @@
 <ceo_threshold>3k_main_ceo_threshold_trait_physical_healthy</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{158e6181-7518-4716-a1ce-16055505a2ef}" record_timestamp="1551887884118" record_key="1357645836">
+<auto_id>1357645836</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_axes_of_the_bandit_queen</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_axes_of_the_bandit_queen</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{b3c677b3-7cd4-4bc1-881e-68d958a0b256}" record_timestamp="1551887884113" record_key="1359917844">
+<auto_id>1359917844</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_sun_quans_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_sun_quans_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{c0737e2f-d491-4046-a313-1b485a604c66}" record_timestamp="1502704154314" record_key="136061218">
 <auto_id>136061218</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -804,6 +965,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_generated_minister_fire_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_generated_minister_fire</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{df7f2ea2-7522-4f2e-9373-525dd47c6718}" record_timestamp="1553100961397" record_key="1377015145">
+<auto_id>1377015145</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_light_armour_metal_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_light_armour_metal_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{5632daff-4880-4d49-8c7e-451679030880}" record_timestamp="1502704161332" record_key="1381509555">
@@ -827,14 +995,14 @@
 <ceo_threshold>3k_main_threshold_ancillary_clay_rat</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{8160ee33-0206-4693-9d6e-9d02d84e686d}" record_timestamp="1564032372820" record_key="1385438303">
+<ceo_threshold_nodes record_uuid="{8160ee33-0206-4693-9d6e-9d02d84e686d}" record_timestamp="1565336818328" record_key="1385438303">
 <auto_id>1385438303</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_zhang_jiao_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_zhang_jiao</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{8b21f28a-5fe1-46ff-adb0-c7f1e4daa934}" record_timestamp="1564032372472" record_key="1389028837">
+<ceo_threshold_nodes record_uuid="{8b21f28a-5fe1-46ff-adb0-c7f1e4daa934}" record_timestamp="1565336817915" record_key="1389028837">
 <auto_id>1389028837</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_guan_yinping_01</ceo_node>
@@ -869,7 +1037,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_taishi_cis_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{c1270171-4f83-401b-9b38-57ef1dc7ccd1}" record_timestamp="1564032373144" record_key="1397771950">
+<ceo_threshold_nodes record_uuid="{c1270171-4f83-401b-9b38-57ef1dc7ccd1}" record_timestamp="1565336818696" record_key="1397771950">
 <auto_id>1397771950</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_liao_hua_01</ceo_node>
@@ -895,6 +1063,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_sun_quan_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_sun_quan</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{97c6562f-bcf0-47c6-834a-e59e2707afa3}" record_timestamp="1560242840100" record_key="1406256687">
+<auto_id>1406256687</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_zhang_fang_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_zhang_fang</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{602b32f4-f740-453a-a87d-571121db1b0f}" record_timestamp="1541665850691" record_key="1406903669">
@@ -946,7 +1121,7 @@
 <ceo_threshold>3k_main_ceo_threshold_trait_personality_fiery</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{3b6c6ec7-671b-4c25-9832-bfa6a21f9209}" record_timestamp="1564032372820" record_key="142128118">
+<ceo_threshold_nodes record_uuid="{3b6c6ec7-671b-4c25-9832-bfa6a21f9209}" record_timestamp="1565336818327" record_key="142128118">
 <auto_id>142128118</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_sima_shi_01</ceo_node>
@@ -1016,7 +1191,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_clay_cup</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{3c2975ca-bebe-43e8-83fc-4721698b6a57}" record_timestamp="1564104822023" record_key="1440186330">
+<ceo_threshold_nodes record_uuid="{3c2975ca-bebe-43e8-83fc-4721698b6a57}" record_timestamp="1565336818908" record_key="1440186330">
 <auto_id>1440186330</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_ze_rong_01</ceo_node>
@@ -1037,11 +1212,32 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_liu_zhang</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{6a9b67cd-a4f8-4f7c-8655-25d70b21db2c}" record_timestamp="1560851446342" record_key="1449881920">
+<auto_id>1449881920</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_sima_yu_metal_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_sima_yu_metal</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{f7e4fdb9-8b27-483d-94ca-5a92eb817dfd}" record_timestamp="1560851446343" record_key="1454904369">
+<auto_id>1454904369</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_liu_qi_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_liu_qi</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{b4e9201e-98bb-4609-a494-917e3d576743}" record_timestamp="1502191418741" record_key="1455200534">
 <auto_id>1455200534</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_xun_you_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_xun_you</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{6ea749a2-ebc8-44cc-8730-dfa26fc056cd}" record_timestamp="1553100961553" record_key="1470083053">
+<auto_id>1470083053</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_medium_armour_fire_extraordinary</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_medium_armour_fire_extraordinary</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{bedd625a-545b-442c-b535-2e961c760d9f}" record_timestamp="1502191414965" record_key="1470728758">
@@ -1219,11 +1415,25 @@
 <ceo_threshold>3k_main_ceo_threshold_wealth</ceo_threshold>
 <points_threshold_to_activate_node>9</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{376b333b-4e86-481c-9e53-2390d8a0e9d6}" record_timestamp="1564104822025" record_key="1506863804">
+<ceo_threshold_nodes record_uuid="{376b333b-4e86-481c-9e53-2390d8a0e9d6}" record_timestamp="1565336818910" record_key="1506863804">
 <auto_id>1506863804</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_fan_chou_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_fan_chou</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{cc0943a5-7c83-458b-8199-0e85d6848418}" record_timestamp="1551887884122" record_key="1508226687">
+<auto_id>1508226687</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_trust_of_god</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_trust_of_god</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{af26d40f-2cac-483b-b942-213615fae3f1}" record_timestamp="1551887884119" record_key="1508539683">
+<auto_id>1508539683</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_cleaver_of_mountains_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_cleaver_of_mountains_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{45e3f40e-a338-40dc-9889-39b5d0cd1119}" record_timestamp="1502191420253" record_key="150997718">
@@ -1245,6 +1455,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_zhang_yan_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_zhang_yan</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{0ffa062c-ba87-4e5f-81fa-506e20b067b3}" record_timestamp="1551887884119" record_key="1519793974">
+<auto_id>1519793974</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_composite_bow_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_composite_bow_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{c2d064db-a390-4152-9934-ca14a5896da2}" record_timestamp="1502191403278" record_key="1523585041">
@@ -1275,7 +1492,7 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_chen_gong</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{a63b705b-64a8-4fdb-8684-f5a5b5d7f991}" record_timestamp="1564032373146" record_key="1531318359">
+<ceo_threshold_nodes record_uuid="{a63b705b-64a8-4fdb-8684-f5a5b5d7f991}" record_timestamp="1565336818698" record_key="1531318359">
 <auto_id>1531318359</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_mao_jie_01</ceo_node>
@@ -1296,6 +1513,13 @@
 <ceo_threshold>3k_ytr_ceo_threshold_learning_student</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{c79a88cc-fd2e-4afe-b8f8-14dcc0dfb12a}" record_timestamp="1553100962341" record_key="1535805013">
+<auto_id>1535805013</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_sima_yue_armour_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_sima_yue_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{6d264429-7339-469f-b686-297271d2c101}" record_timestamp="1532686877404" record_key="1536617356">
 <auto_id>1536617356</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -1303,7 +1527,7 @@
 <ceo_threshold>3k_ytr_ceo_threshold_ancillary_armour_scholar_medium_yellow_turban_common</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{05221ee7-308c-447a-a542-3bdd74d32f96}" record_timestamp="1564104822026" record_key="1538231800">
+<ceo_threshold_nodes record_uuid="{05221ee7-308c-447a-a542-3bdd74d32f96}" record_timestamp="1565336818912" record_key="1538231800">
 <auto_id>1538231800</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_zang_hong_01</ceo_node>
@@ -1373,7 +1597,7 @@
 <ceo_threshold>3k_main_ceo_threshold_career_generated_agent_earth</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{26ec61f2-ea3a-47db-b325-f96bc808bd0b}" record_timestamp="1564032372678" record_key="1557759143">
+<ceo_threshold_nodes record_uuid="{26ec61f2-ea3a-47db-b325-f96bc808bd0b}" record_timestamp="1565336818159" record_key="1557759143">
 <auto_id>1557759143</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_xin_xianying_01</ceo_node>
@@ -1385,6 +1609,13 @@
 <can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_trait_personality_solitary_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_trait_personality_solitary</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{641efab1-88f5-4974-a50e-2e783e029931}" record_timestamp="1551887884113" record_key="1559149858">
+<auto_id>1559149858</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_tao_qians_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_tao_qians_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{12610841-6231-4393-9c9a-5d12c6fb3559}" record_timestamp="1502704174853" record_key="156022104">
@@ -1436,6 +1667,13 @@
 <ceo_threshold>3k_main_ceo_threshold_trait_personality_unobservant</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{7b42b967-cf78-4e96-ab9a-1d5bcce92f27}" record_timestamp="1551887884111" record_key="1586091660">
+<auto_id>1586091660</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_lady_suns_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_lady_suns_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{a7810634-f73a-4e60-8e4b-6ce8bc9eae22}" record_timestamp="1502191420342" record_key="1588692236">
 <auto_id>1588692236</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -1443,7 +1681,7 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_zhuge_jin</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{c14fd5bc-e9a6-45d9-9737-50efea757395}" record_timestamp="1564032373147" record_key="1591872468">
+<ceo_threshold_nodes record_uuid="{c14fd5bc-e9a6-45d9-9737-50efea757395}" record_timestamp="1565336818698" record_key="1591872468">
 <auto_id>1591872468</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_bian_huilan_01</ceo_node>
@@ -1455,6 +1693,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_archer_light_armour_water_unique</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_archer_light_armour_water_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{4ca9ccbf-0bc2-4051-836e-0ee7e866d73b}" record_timestamp="1551887884122" record_key="1602678284">
+<auto_id>1602678284</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_two_handed_spear_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_two_handed_spear_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{946d537f-c172-4a0f-9976-173f8c9e7b1e}" record_timestamp="1502704176138" record_key="1603658088">
@@ -1499,11 +1744,32 @@
 <ceo_threshold>3k_main_threshold_ancillary_jade_statue_of_confucius</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{6de0f789-97b8-4454-82be-d15043a715e6}" record_timestamp="1551887884117" record_key="1614405622">
+<auto_id>1614405622</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_mount_brown_elite</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_mount_brown_elite</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{82349715-0a49-4fb7-825f-2b2f0c850504}" record_timestamp="1553100962183" record_key="1615706492">
+<auto_id>1615706492</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_sima_ying_armour_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_sima_ying_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{a82f2903-01f0-4509-b7ee-f5825ca736be}" record_timestamp="1502191412704" record_key="1615924372">
 <auto_id>1615924372</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_cao_cao_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_cao_cao</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{6bcffdc5-f5f5-49eb-a8c1-7fc0e1f69498}" record_timestamp="1555407990333" record_key="1620633004">
+<auto_id>1620633004</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_sima_liang_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_sima_liang</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{6a84ce19-7438-4a69-b90d-6e1107137263}" record_timestamp="1510906796737" record_key="1625732863">
@@ -1518,6 +1784,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_gan_nings_armour_unique</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_gan_nings_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{cb4fb440-10fd-467a-bd8b-8e5fb7fb4596}" record_timestamp="1553100961658" record_key="1628270148">
+<auto_id>1628270148</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_heavy_armour_fire_extraordinary</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_heavy_armour_fire_extraordinary</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{6ae62592-d566-4f34-a7fd-62a8d726d3c3}" record_timestamp="1541665850681" record_key="1629146154">
@@ -1541,6 +1814,20 @@
 <ceo_threshold>3k_main_threshold_ancillary_merchant</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{e3bfa7b6-1070-49e3-886e-d68b5d449d17}" record_timestamp="1551887884118" record_key="1632344296">
+<auto_id>1632344296</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_bow_taishi_ci</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_bow_taishi_ci</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{13e35dac-9ae8-4297-95be-c2a6f5514700}" record_timestamp="1551887884115" record_key="1634968192">
+<auto_id>1634968192</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_zhang_feis_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_zhang_feis_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{0235ce01-f8d2-44eb-b8d7-2c05d99a92ba}" record_timestamp="1502704160721" record_key="1635722973">
 <auto_id>1635722973</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -1555,7 +1842,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_dual_short_ji_exceptional</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{791dba77-a557-4eb5-8b1a-5b02dde6e67e}" record_timestamp="1564032372472" record_key="164742384">
+<ceo_threshold_nodes record_uuid="{791dba77-a557-4eb5-8b1a-5b02dde6e67e}" record_timestamp="1565336817915" record_key="164742384">
 <auto_id>164742384</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_bao_sanniang_01</ceo_node>
@@ -1604,6 +1891,13 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_gongsun_du</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{4e500edf-2c9f-4f99-8423-415f383033a1}" record_timestamp="1551887884116" record_key="1657263">
+<auto_id>1657263</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_zhou_yus_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_zhou_yus_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{1fa0878c-d3ff-4648-ba2c-6d383ff8c9e3}" record_timestamp="1502704166970" record_key="1662151864">
 <auto_id>1662151864</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -1637,6 +1931,20 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_ytr_ancillary_armour_veteran_medium_yellow_turban_common</ceo_node>
 <ceo_threshold>3k_ytr_ceo_threshold_ancillary_armour_veteran_medium_yellow_turban_common</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{6997faf0-9943-48cf-a608-d5c557a4ecbd}" record_timestamp="1551887884118" record_key="1671489687">
+<auto_id>1671489687</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_mount_shadow_runner</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_mount_shadow_runner</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{c39de367-1b80-4c84-99d3-2092c7d38cc7}" record_timestamp="1551887884112" record_key="1674027333">
+<auto_id>1674027333</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_lu_bus_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_lu_bus_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{47b1d356-d38a-47f4-863b-4ef425b6c443}" record_timestamp="1502704177232" record_key="1674340009">
@@ -1723,6 +2031,13 @@
 <ceo_threshold>3k_main_threshold_ancillary_white_thoroughbred</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{868b54a2-fd50-480f-8f8b-25426af86416}" record_timestamp="1553100961711" record_key="1695598759">
+<auto_id>1695598759</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_heavy_armour_fire_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_heavy_armour_fire_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{3d4269a8-38b3-4888-8f4e-f3c95869c0d8}" record_timestamp="1502191417069" record_key="1702644869">
 <auto_id>1702644869</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -1737,11 +2052,18 @@
 <ceo_threshold>3k_main_threshold_ancillary_brown_horse</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{5ebd4ad7-f914-40c6-ac5b-77a7ffc32759}" record_timestamp="1564702856835" record_key="1707172064">
+<ceo_threshold_nodes record_uuid="{5ebd4ad7-f914-40c6-ac5b-77a7ffc32759}" record_timestamp="1565336819269" record_key="1707172064">
 <auto_id>1707172064</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_custom_ancillary_armour_fire</ceo_node>
 <ceo_threshold>3k_custom_threshold_ancillary_armour_fire</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{af55cb6a-dc28-4d95-84f9-e57d32348323}" record_timestamp="1551887884119" record_key="1707423517">
+<auto_id>1707423517</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_dual_axes_exceptional</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_dual_axes_exceptional</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{46b8c919-816f-4bb4-be48-cc978c3b0a15}" record_timestamp="1502191411496" record_key="1709095492">
@@ -1751,6 +2073,13 @@
 <ceo_threshold>3k_main_ceo_threshold_career_generated_villager_earth</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{1d70f7bf-4033-46c1-a2e4-9f02ee8377e4}" record_timestamp="1553100962448" record_key="1709822947">
+<auto_id>1709822947</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_strategist_light_armour_water_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_strategist_light_armour_water_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{80ea1607-e703-408c-89e9-60dc616719e3}" record_timestamp="1502704174738" record_key="1710789062">
 <auto_id>1710789062</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -1758,11 +2087,18 @@
 <ceo_threshold>3k_main_threshold_ancillary_eavesdropper</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{72c1de52-5329-43f8-b9b4-d9373c080a79}" record_timestamp="1564032372285" record_key="1716228592">
+<ceo_threshold_nodes record_uuid="{72c1de52-5329-43f8-b9b4-d9373c080a79}" record_timestamp="1565336817682" record_key="1716228592">
 <auto_id>1716228592</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_diao_chan_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_lady_diao_chan</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{d67abc1e-ec01-4f7d-af74-51910a550c38}" record_timestamp="1553100961763" record_key="1719254242">
+<auto_id>1719254242</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_medium_armour_wood_extraordinary</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_medium_armour_wood_extraordinary</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{1e2c3eb6-d64d-4ff6-ad48-4832bd81b4dc}" record_timestamp="1502704149111" record_key="1721417671">
@@ -1770,6 +2106,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_red_elite</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_red_elite</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{7e644649-a959-4650-ad8f-5b39ab3ce9c3}" record_timestamp="1551887884115" record_key="1721590625">
+<auto_id>1721590625</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_yue_jins_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_yue_jins_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{93e764e6-0d06-4d68-b6dc-fcb26af601b4}" record_timestamp="1541665850692" record_key="1721941993">
@@ -1835,7 +2178,7 @@
 <ceo_threshold>3k_ytr_ceo_threshold_trait_personality_trustworthy</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{026fed53-be1f-40b0-ade8-650888e11101}" record_timestamp="1564032372679" record_key="1732702197">
+<ceo_threshold_nodes record_uuid="{026fed53-be1f-40b0-ade8-650888e11101}" record_timestamp="1565336818160" record_key="1732702197">
 <auto_id>1732702197</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_wen_yang_01</ceo_node>
@@ -1849,11 +2192,32 @@
 <ceo_threshold>3k_main_ceo_threshold_trait_physical_infertile</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{bc259929-a6f8-4db8-9fde-04753a2845bb}" record_timestamp="1553100961501" record_key="173693618">
+<auto_id>173693618</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_medium_armour_metal_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_medium_armour_metal_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{58807de1-27a4-4788-867e-f853dff620c2}" record_timestamp="1502704161706" record_key="1740531451">
 <auto_id>1740531451</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_crane_feather_fan</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_crane_feather_fan</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{83ab021b-7180-46e9-9d2e-2e8c1a025fb7}" record_timestamp="1551887884120" record_key="1740590569">
+<auto_id>1740590569</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_dual_short_ji_exceptional</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_dual_short_ji_exceptional</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{a826fb50-5e8e-4a46-8b72-8b6ce74854a9}" record_timestamp="1555407990311" record_key="174325146">
+<auto_id>174325146</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_sima_yong_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_sima_yong</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{3d52f5a8-0a96-490b-afa7-296155760a98}" record_timestamp="1502191405954" record_key="1743429614">
@@ -1926,6 +2290,13 @@
 <ceo_threshold>3k_ytr_ceo_threshold_trait_physical_wound</ceo_threshold>
 <points_threshold_to_activate_node>2</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{06228410-39cd-4826-a9ee-9bbb58bdfc82}" record_timestamp="1560242839613" record_key="1771835199">
+<auto_id>1771835199</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>3k_main_ceo_node_career_generated_minister_earth_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_pei_wei</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{8cd38ea7-04bc-4e68-8fe0-14037ea74bd2}" record_timestamp="1502191400477" record_key="1772037886">
 <auto_id>1772037886</auto_id>
 <can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
@@ -1933,7 +2304,7 @@
 <ceo_threshold>3k_main_ceo_threshold_trait_personality_brave</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{fd7670b9-b44e-44c3-8b96-586ccc7e4343}" record_timestamp="1564104822024" record_key="17837813">
+<ceo_threshold_nodes record_uuid="{fd7670b9-b44e-44c3-8b96-586ccc7e4343}" record_timestamp="1565336818909" record_key="17837813">
 <auto_id>17837813</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_kuai_yue_01</ceo_node>
@@ -1952,6 +2323,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_liu_xie_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_liu_xie</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{6d46de08-7b50-4d7a-8272-dee5a0fd1939}" record_timestamp="1551887884117" record_key="1793586779">
+<auto_id>1793586779</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_mount_grey_elite</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_mount_grey_elite</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{c1170bf6-946c-4e0d-a246-d70f8db8f833}" record_timestamp="1532686877910" record_key="1795177894">
@@ -1975,7 +2353,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_sun_quans_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{91760222-4d60-42b7-be28-577db07cf81f}" record_timestamp="1564032372224" record_key="1805165921">
+<ceo_threshold_nodes record_uuid="{91760222-4d60-42b7-be28-577db07cf81f}" record_timestamp="1565336817610" record_key="1805165921">
 <auto_id>1805165921</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_cao_xiu_01</ceo_node>
@@ -1989,7 +2367,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_liu_beis_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{5829c17b-06b2-47a3-8fd1-c05d2820e65e}" record_timestamp="1564032372284" record_key="1806463354">
+<ceo_threshold_nodes record_uuid="{5829c17b-06b2-47a3-8fd1-c05d2820e65e}" record_timestamp="1565336817682" record_key="1806463354">
 <auto_id>1806463354</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_da_qiao_01</ceo_node>
@@ -2008,6 +2386,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_zhang_fei_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_zhang_fei</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{f3f224e9-2e4e-46b8-aee2-46cbe56fa667}" record_timestamp="1551887884121" record_key="1811352589">
+<auto_id>1811352589</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_short_ji_exceptional</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_short_ji_exceptional</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{3b4eb538-4cfd-44d5-b6d1-a4bcea962660}" record_timestamp="1537346364193" record_key="1812303394">
@@ -2031,7 +2416,14 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_liu_bei</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{a72c66ad-ea05-47e0-8008-96c9880a098f}" record_timestamp="1564032373147" record_key="1820596146">
+<ceo_threshold_nodes record_uuid="{f28cc3eb-b2eb-4a0d-9984-3bb20a37f66c}" record_timestamp="1560851446345" record_key="1816744703">
+<auto_id>1816744703</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_cao_huan_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_cao_huan</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{a72c66ad-ea05-47e0-8008-96c9880a098f}" record_timestamp="1565336818699" record_key="1820596146">
 <auto_id>1820596146</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_xu_you_01</ceo_node>
@@ -2080,7 +2472,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_book_of_songs</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{1863cd8f-5406-4205-99c2-6257cf787ed3}" record_timestamp="1564104822026" record_key="1838542715">
+<ceo_threshold_nodes record_uuid="{1863cd8f-5406-4205-99c2-6257cf787ed3}" record_timestamp="1565336818911" record_key="1838542715">
 <auto_id>1838542715</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_zang_ba_01</ceo_node>
@@ -2164,7 +2556,21 @@
 <ceo_threshold>3k_ytr_ceo_threshold_career_land_farmer</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{d7310401-71be-445c-99e2-d867ee029042}" record_timestamp="1564032372472" record_key="1865835964">
+<ceo_threshold_nodes record_uuid="{c05f8ba3-70b9-48bb-b4b2-cff1a9eef487}" record_timestamp="1560242839612" record_key="1864448063">
+<auto_id>1864448063</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>3k_main_ceo_node_career_generated_general_metal_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_jia_mo</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{c301b975-8327-443b-b96b-3129cd190bd5}" record_timestamp="1553100961815" record_key="1864926878">
+<auto_id>1864926878</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_medium_armour_wood_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_medium_armour_wood_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{d7310401-71be-445c-99e2-d867ee029042}" record_timestamp="1565336817915" record_key="1865835964">
 <auto_id>1865835964</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_zhang_bao_01</ceo_node>
@@ -2199,6 +2605,13 @@
 <ceo_threshold>3k_main_threshold_ancillary_clay_dog</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{e54adaef-b76f-42db-b7bb-409be1082061}" record_timestamp="1553100962130" record_key="1874818352">
+<auto_id>1874818352</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_sima_jiong_armour_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_sima_jiong_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{c1ca81ec-39d6-43d8-baa1-9865bca743ce}" record_timestamp="1502704179370" record_key="1875067299">
 <auto_id>1875067299</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -2206,7 +2619,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_medium_armour_fire_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{aa162797-b16d-4f2c-95a0-40961bdbafe0}" record_timestamp="1564032372283" record_key="187521858">
+<ceo_threshold_nodes record_uuid="{aa162797-b16d-4f2c-95a0-40961bdbafe0}" record_timestamp="1565336817680" record_key="187521858">
 <auto_id>187521858</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_zhu_ran_01</ceo_node>
@@ -2220,7 +2633,14 @@
 <ceo_threshold>3k_main_ceo_threshold_potential_legendary_late</ceo_threshold>
 <points_threshold_to_activate_node>2</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{a5648bc8-a366-4629-9b1f-4f7ba70e55be}" record_timestamp="1564032373148" record_key="1882396821">
+<ceo_threshold_nodes record_uuid="{f9d04c79-bee0-43ff-b410-c9ee50aec678}" record_timestamp="1551887884116" record_key="1880215974">
+<auto_id>1880215974</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_zheng_jiangs_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_zheng_jiangs_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{a5648bc8-a366-4629-9b1f-4f7ba70e55be}" record_timestamp="1565336818700" record_key="1882396821">
 <auto_id>1882396821</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_shen_pei_01</ceo_node>
@@ -2269,7 +2689,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_stone_statue_of_confucius</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{693605ce-c8cf-4799-9634-2ef591f7ca63}" record_timestamp="1564032373142" record_key="1897362079">
+<ceo_threshold_nodes record_uuid="{693605ce-c8cf-4799-9634-2ef591f7ca63}" record_timestamp="1565336818694" record_key="1897362079">
 <auto_id>1897362079</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_xu_rong_01</ceo_node>
@@ -2290,7 +2710,7 @@
 <ceo_threshold>3k_ytr_ceo_threshold_ancillary_weapon_dual_maces_refined</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{ecc7b5a3-08c0-43d0-84a1-a029860c2b4c}" record_timestamp="1564032372472" record_key="190567295">
+<ceo_threshold_nodes record_uuid="{ecc7b5a3-08c0-43d0-84a1-a029860c2b4c}" record_timestamp="1565336817915" record_key="190567295">
 <auto_id>190567295</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_guan_suo_01</ceo_node>
@@ -2304,21 +2724,42 @@
 <ceo_threshold>3k_ytr_ceo_threshold_trait_personality_heaven_honest</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{d5ce67f1-98fb-4720-a084-76f097fc8359}" record_timestamp="1564032373145" record_key="191236274">
+<ceo_threshold_nodes record_uuid="{d8b3e0b5-c574-49f7-bca8-a613570271e9}" record_timestamp="1560242840105" record_key="1911346491">
+<auto_id>1911346491</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_sima_ju_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_sima_ju</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{d5ce67f1-98fb-4720-a084-76f097fc8359}" record_timestamp="1565336818697" record_key="191236274">
 <auto_id>191236274</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_gao_shun_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_gao_shun</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{b7825b1a-d98b-4ebf-a2c1-b2647e60c9c6}" record_timestamp="1564032372283" record_key="1925915403">
+<ceo_threshold_nodes record_uuid="{5319af82-a1e4-4cb1-b3fb-cb1837f6dc6e}" record_timestamp="1551887884120" record_key="1917622225">
+<auto_id>1917622225</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_giant_mace_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_giant_mace_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{1c55dd52-0ee9-4f53-b8ba-3784e5ec269d}" record_timestamp="1551887884114" record_key="1923912660">
+<auto_id>1923912660</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_yuan_shaos_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_yuan_shaos_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{b7825b1a-d98b-4ebf-a2c1-b2647e60c9c6}" record_timestamp="1565336817680" record_key="1925915403">
 <auto_id>1925915403</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_xu_sheng_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_xu_sheng</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{24647519-5ec1-4db3-a597-2ff0ad4cdb4b}" record_timestamp="1550502126387" record_key="1933127661">
+<ceo_threshold_nodes record_uuid="{24647519-5ec1-4db3-a597-2ff0ad4cdb4b}" record_timestamp="1551784875337" record_key="1933127661">
 <auto_id>1933127661</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_ytr_ancillary_armour_zhang_kais_armour_unique</ceo_node>
@@ -2353,7 +2794,21 @@
 <ceo_threshold>3k_ytr_ceo_threshold_learning_student</ceo_threshold>
 <points_threshold_to_activate_node>16</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{d678c08d-64be-4673-a10a-b2a1dc4cad57}" record_timestamp="1564032372821" record_key="1962813469">
+<ceo_threshold_nodes record_uuid="{ec175c9d-9e91-431d-aafd-8fb5d41f39d0}" record_timestamp="1560242840106" record_key="1956093442">
+<auto_id>1956093442</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_sun_xiu_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_sun_xiu</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{5ecd06c8-8541-4ba6-90f3-93293bea0de8}" record_timestamp="1551887884115" record_key="1962482295">
+<auto_id>1962482295</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_zhang_liaos_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_zhang_liaos_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{d678c08d-64be-4673-a10a-b2a1dc4cad57}" record_timestamp="1565336818328" record_key="1962813469">
 <auto_id>1962813469</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_zuo_ci_01</ceo_node>
@@ -2367,7 +2822,7 @@
 <ceo_threshold>3k_main_ceo_threshold_class_fire</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{80ea0a4b-59d6-4ba2-b337-cf1bd2be50db}" record_timestamp="1564104822030" record_key="1971038229">
+<ceo_threshold_nodes record_uuid="{80ea0a4b-59d6-4ba2-b337-cf1bd2be50db}" record_timestamp="1565336818917" record_key="1971038229">
 <auto_id>1971038229</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_liu_qi_01</ceo_node>
@@ -2379,6 +2834,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_wang_lang_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_wang_lang</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{d9074244-b832-4895-bfcf-2df133557415}" record_timestamp="1551887884118" record_key="1973761185">
+<auto_id>1973761185</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_mount_white_elite</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_mount_white_elite</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{1f9e7080-73ea-4f30-b7d9-28dad35f8518}" record_timestamp="1502191880564" record_key="1973978124">
@@ -2423,6 +2885,13 @@
 <ceo_threshold>3k_main_threshold_ancillary_builder</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{d20c56fd-9528-4bef-829b-88d6843fb41f}" record_timestamp="1551887884119" record_key="1986833659">
+<auto_id>1986833659</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_ceremonial_sword_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_ceremonial_sword_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{c740ca6d-6d2a-4ce2-8109-d6eaa38ad3a2}" record_timestamp="1502191402838" record_key="1990300507">
 <auto_id>1990300507</auto_id>
 <can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
@@ -2430,11 +2899,18 @@
 <ceo_threshold>3k_main_ceo_threshold_trait_personality_incompetent</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{d6b9fbe1-757c-4d37-9b21-aca43e739c04}" record_timestamp="1564104822027" record_key="1991703381">
+<ceo_threshold_nodes record_uuid="{d6b9fbe1-757c-4d37-9b21-aca43e739c04}" record_timestamp="1565336818914" record_key="1991703381">
 <auto_id>1991703381</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_yan_pu_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_yan_pu</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{dee347a5-428c-4041-9fcc-3be228ed592d}" record_timestamp="1553100962236" record_key="1991857483">
+<auto_id>1991857483</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_sima_ai_armour_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_sima_ai_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{01d044fd-1711-4f85-bfeb-d312c9058369}" record_timestamp="1502704169520" record_key="1993165186">
@@ -2451,7 +2927,7 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_dian_wei</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{1cdea97a-436b-42a0-beec-c423343e84a6}" record_timestamp="1564032372817" record_key="1997611701">
+<ceo_threshold_nodes record_uuid="{1cdea97a-436b-42a0-beec-c423343e84a6}" record_timestamp="1565336818324" record_key="1997611701">
 <auto_id>1997611701</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_zhu_rong_01</ceo_node>
@@ -2521,7 +2997,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_medium_armour_wood_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{c9ace8f0-a79b-4c99-b033-3ece90e3dd46}" record_timestamp="1564032372472" record_key="2017112697">
+<ceo_threshold_nodes record_uuid="{c9ace8f0-a79b-4c99-b033-3ece90e3dd46}" record_timestamp="1565336817915" record_key="2017112697">
 <auto_id>2017112697</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_zhang_xingcai_01</ceo_node>
@@ -2549,6 +3025,13 @@
 <ceo_threshold>3k_main_threshold_ancillary_labour_recruiter</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{475a5408-fee3-4b6f-a3fd-57404dc1603c}" record_timestamp="1551887884112" record_key="2026305336">
+<auto_id>2026305336</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_ma_tengs_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_ma_tengs_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{7a2111ea-bdc6-4faa-9cfb-2068ed1790e5}" record_timestamp="1502704166847" record_key="2032598231">
 <auto_id>2032598231</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -2556,7 +3039,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_cao_caos_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{5d1b16f2-4c7a-4648-9cf4-4c2735bba890}" record_timestamp="1564104822030" record_key="2034894420">
+<ceo_threshold_nodes record_uuid="{5d1b16f2-4c7a-4648-9cf4-4c2735bba890}" record_timestamp="1565336818918" record_key="2034894420">
 <auto_id>2034894420</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_liu_cong_01</ceo_node>
@@ -2584,6 +3067,13 @@
 <ceo_threshold>3k_main_threshold_ancillary_elite_trainer</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{072afbd1-e5ab-488a-b94c-8c6013644da1}" record_timestamp="1560851446345" record_key="2042142453">
+<auto_id>2042142453</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_sima_song_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_sima_song</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{fe53fb3f-61d2-40dd-8a14-1afda0301517}" record_timestamp="1502704170618" record_key="2044300313">
 <auto_id>2044300313</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -2605,7 +3095,7 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_jia_xu</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{606576b5-ea7e-4fea-8c96-f439f037bede}" record_timestamp="1564104822025" record_key="2053051073">
+<ceo_threshold_nodes record_uuid="{606576b5-ea7e-4fea-8c96-f439f037bede}" record_timestamp="1565336818910" record_key="2053051073">
 <auto_id>2053051073</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_wang_kuang_01</ceo_node>
@@ -2745,7 +3235,7 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_yuan_shu</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{3ba49583-0e54-431b-8d49-304eb11c591e}" record_timestamp="1564032373149" record_key="2085769328">
+<ceo_threshold_nodes record_uuid="{3ba49583-0e54-431b-8d49-304eb11c591e}" record_timestamp="1565336818701" record_key="2085769328">
 <auto_id>2085769328</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_yuan_shang_01</ceo_node>
@@ -2773,7 +3263,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_shadow_runner</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{975917ea-a4ce-4008-94d6-d52917d59935}" record_timestamp="1564032372679" record_key="2088187489">
+<ceo_threshold_nodes record_uuid="{975917ea-a4ce-4008-94d6-d52917d59935}" record_timestamp="1565336818159" record_key="2088187489">
 <auto_id>2088187489</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_zhou_cang_01</ceo_node>
@@ -2815,6 +3305,13 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_fa_zheng</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{055a1037-4eba-4d3c-a5f7-902376a07af2}" record_timestamp="1553100961240" record_key="210151787">
+<auto_id>210151787</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_medium_armour_earth_extraordinary</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_medium_armour_earth_extraordinary</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{0b1a05c9-daec-45c8-a625-a46d8d20a5e1}" record_timestamp="1502191410984" record_key="2102904908">
 <auto_id>2102904908</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -2829,7 +3326,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_wuzi</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{5b214df7-aada-4703-bdb6-b52b6e2d2729}" record_timestamp="1564032373140" record_key="2106376864">
+<ceo_threshold_nodes record_uuid="{5b214df7-aada-4703-bdb6-b52b6e2d2729}" record_timestamp="1565336818693" record_key="2106376864">
 <auto_id>2106376864</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_yuan_tan_01</ceo_node>
@@ -2843,7 +3340,7 @@
 <ceo_threshold>3k_main_ceo_threshold_trait_personality_greedy</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{fad514ee-ecf1-4023-a140-7546a08af515}" record_timestamp="1564032372678" record_key="2108254349">
+<ceo_threshold_nodes record_uuid="{fad514ee-ecf1-4023-a140-7546a08af515}" record_timestamp="1565336818158" record_key="2108254349">
 <auto_id>2108254349</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_zhuge_dan_01</ceo_node>
@@ -2899,7 +3396,21 @@
 <ceo_threshold>3k_main_threshold_ancillary_medium_armour_metal_extraordinary</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{789d7a60-c265-48af-84a5-0360c2853bd7}" record_timestamp="1564675099092" record_key="2145835713">
+<ceo_threshold_nodes record_uuid="{9fa63396-bb93-4d9b-8cd8-b27e98cb3bf1}" record_timestamp="1551887884114" record_key="2130282975">
+<auto_id>2130282975</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_xiahou_duns_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_xiahou_duns_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{ea680bdb-8a7e-4683-8fdf-e55270febf96}" record_timestamp="1560327104142" record_key="2134872539">
+<auto_id>2134872539</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_wang_bao_01</ceo_node>
+<ceo_threshold>3k_main_ceo_threshold_career_historical_wang_bao</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{789d7a60-c265-48af-84a5-0360c2853bd7}" record_timestamp="1565336819213" record_key="2145835713">
 <auto_id>2145835713</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_custom_ancillary_armour_test</ceo_node>
@@ -2913,7 +3424,7 @@
 <ceo_threshold>3k_ytr_ceo_threshold_trait_personality_land_courageous</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{bd74707f-c156-4aa4-a62e-493256cc6151}" record_timestamp="1550502126386" record_key="221125519">
+<ceo_threshold_nodes record_uuid="{bd74707f-c156-4aa4-a62e-493256cc6151}" record_timestamp="1551784875335" record_key="221125519">
 <auto_id>221125519</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_ytr_ancillary_armour_pei_yuanshaos_armour_unique</ceo_node>
@@ -2941,7 +3452,7 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_lu_meng</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{b1f1b45d-08cc-4319-b13e-924dcc26749e}" record_timestamp="1564780099282" record_key="226553115">
+<ceo_threshold_nodes record_uuid="{b1f1b45d-08cc-4319-b13e-924dcc26749e}" record_timestamp="1565336819304" record_key="226553115">
 <auto_id>226553115</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_custom_ancillary_armour_water</ceo_node>
@@ -2996,6 +3507,13 @@
 <ceo_node>3k_main_ceo_node_potential_legendary_early_03</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_potential_legendary_early</ceo_threshold>
 <points_threshold_to_activate_node>3</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{f4f35edb-e406-468d-9aa6-ae30d0aa065b}" record_timestamp="1560941531792" record_key="247106404">
+<auto_id>247106404</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_princess_pei_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_princess_pei</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{59b7d85d-4c5a-4568-87ce-3dfadea8f191}" record_timestamp="1502191420432" record_key="248265104">
 <auto_id>248265104</auto_id>
@@ -3088,7 +3606,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_grey_stallion</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{dfe4477f-dd52-41e9-9c55-e76b4a666bec}" record_timestamp="1564104822027" record_key="2941003">
+<ceo_threshold_nodes record_uuid="{dfe4477f-dd52-41e9-9c55-e76b4a666bec}" record_timestamp="1565336818913" record_key="2941003">
 <auto_id>2941003</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_han_hao_01</ceo_node>
@@ -3137,7 +3655,14 @@
 <ceo_threshold>3k_main_ceo_threshold_trait_personality_suspicious</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{6dd52deb-5520-453f-ae88-0d5492388c81}" record_timestamp="1564032372282" record_key="303508494">
+<ceo_threshold_nodes record_uuid="{b2327c85-1e91-4c64-899d-72e7d10785c9}" record_timestamp="1555407990391" record_key="301735733">
+<auto_id>301735733</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_sima_lun_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_sima_lun</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{6dd52deb-5520-453f-ae88-0d5492388c81}" record_timestamp="1565336817679" record_key="303508494">
 <auto_id>303508494</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_bu_lianshi_01</ceo_node>
@@ -3177,6 +3702,13 @@
 <can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_trait_personality_aescetic_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_trait_personality_aescetic</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{5d787751-e649-40ba-bd87-c4d15f82f257}" record_timestamp="1560242839612" record_key="320083274">
+<auto_id>320083274</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_lu_ji_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_lu_ji</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{13f38bbb-4196-4800-89af-d5f017b093d1}" record_timestamp="1502704148082" record_key="322475310">
@@ -3221,6 +3753,13 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_han_fu</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{e1ff1c6c-01cd-4a61-9cc6-2757e9d56468}" record_timestamp="1551887884119" record_key="326133854">
+<auto_id>326133854</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_double_edged_sword_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_double_edged_sword_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{967cc773-ec3b-434b-986f-0a3dac735393}" record_timestamp="1537346363644" record_key="328529642">
 <auto_id>328529642</auto_id>
 <can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
@@ -3233,6 +3772,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_shi_xies_armour_unique</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_shi_xies_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{ee3cf285-fbbf-4a61-89e3-8a81a7928196}" record_timestamp="1551887884111" record_key="332116258">
+<auto_id>332116258</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_liu_biaos_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_liu_biaos_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{e6b55775-abbd-4c31-922d-6c0844be92d1}" record_timestamp="1542740545294" record_key="339685170">
@@ -3277,6 +3823,13 @@
 <ceo_threshold>3k_ytr_ceo_threshold_trait_personality_land_alert</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{a9698457-f964-4eb2-9fd4-c5f5dc5af488}" record_timestamp="1560242839610" record_key="349797160">
+<auto_id>349797160</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_qi_sheng_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_qi_sheng</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{de116822-eb8d-4315-8381-55f61434b995}" record_timestamp="1532686877595" record_key="351420089">
 <auto_id>351420089</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -3303,6 +3856,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_ceremonial_sword_exceptional</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_ceremonial_sword_exceptional</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{38e90d11-bf1b-4b6e-ad90-624ace3c59e0}" record_timestamp="1551887884110" record_key="363210418">
+<auto_id>363210418</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_guan_yus_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_guan_yus_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{77487191-066f-4bb5-964b-152f435088ca}" record_timestamp="1502704150535" record_key="366393012">
@@ -3354,14 +3914,14 @@
 <ceo_threshold>3k_main_ceo_theshold_gender_male</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{45dcb098-ff1b-4e08-ac14-428e41b94120}" record_timestamp="1564032373141" record_key="378029404">
+<ceo_threshold_nodes record_uuid="{45dcb098-ff1b-4e08-ac14-428e41b94120}" record_timestamp="1565336818693" record_key="378029404">
 <auto_id>378029404</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_feng_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_lady_feng</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{387c9131-3845-4b4d-b8c4-2fbc13675302}" record_timestamp="1564104822024" record_key="379133722">
+<ceo_threshold_nodes record_uuid="{387c9131-3845-4b4d-b8c4-2fbc13675302}" record_timestamp="1565336818909" record_key="379133722">
 <auto_id>379133722</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_que_xuan_01</ceo_node>
@@ -3389,11 +3949,25 @@
 <ceo_threshold>3k_main_threshold_ancillary_hook_sickle_sabre_exceptional</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{221c91c5-cb77-40b1-8603-fdd27b0bd36c}" record_timestamp="1564032373143" record_key="394116839">
+<ceo_threshold_nodes record_uuid="{221c91c5-cb77-40b1-8603-fdd27b0bd36c}" record_timestamp="1565336818696" record_key="394116839">
 <auto_id>394116839</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_jian_yong_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_jian_yong</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{e6498f06-b0b9-496f-a60d-4d32d9d2f589}" record_timestamp="1553100962395" record_key="39467738">
+<auto_id>39467738</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_strategist_light_armour_water_extraordinary</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_strategist_light_armour_water_extraordinary</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{4199d5e7-4fbf-4765-a8e5-2385ece2b7b6}" record_timestamp="1553100962025" record_key="395312361">
+<auto_id>395312361</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_sima_wei_armour_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_sima_wei_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{c6093b87-8024-4b35-b569-237cd204758b}" record_timestamp="1502704156098" record_key="399703765">
@@ -3443,6 +4017,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_ma_chaos_armour_unique</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_ma_chaos_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{edd5c0d9-a02d-4e9c-87e3-b19d252ba0b1}" record_timestamp="1560242839613" record_key="427902314">
+<auto_id>427902314</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>3k_main_ceo_node_career_historical_li_han_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_li_han</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{9ecfdba7-a767-40a9-bfdc-c286a5fba2f1}" record_timestamp="1502191415491" record_key="428655865">
@@ -3522,6 +4103,13 @@
 <ceo_threshold>3k_main_threshold_ancillary_jade_sickle</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{b6169b61-49a6-4ad6-b053-e43634a8cb51}" record_timestamp="1551887884115" record_key="450631695">
+<auto_id>450631695</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_yuan_shus_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_yuan_shus_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{355087b3-d0ae-4cd1-8db5-b7a0ce35fd25}" record_timestamp="1502704158340" record_key="450951891">
 <auto_id>450951891</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -3529,7 +4117,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_two_handed_spear_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{4f48f7fe-c788-43c3-ba24-ab203f57ac66}" record_timestamp="1564032372818" record_key="452546917">
+<ceo_threshold_nodes record_uuid="{4f48f7fe-c788-43c3-ba24-ab203f57ac66}" record_timestamp="1565336818325" record_key="452546917">
 <auto_id>452546917</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_sima_zhao_01</ceo_node>
@@ -3585,6 +4173,27 @@
 <ceo_threshold>3k_main_threshold_ancillary_book_of_ceremonies</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{3e25c58d-a7d6-4501-83b9-ed215bf10b50}" record_timestamp="1551887884112" record_key="464478620">
+<auto_id>464478620</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_sima_yis_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_sima_yis_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{091c2342-3cea-4c8d-9840-3be78733a343}" record_timestamp="1551887884118" record_key="467538915">
+<auto_id>467538915</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_blade_of_xiang_yu</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_blade_of_xiang_yu</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{776408df-b854-496b-8630-29f3ea50b36b}" record_timestamp="1551887884110" record_key="467853826">
+<auto_id>467853826</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_gan_nings_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_gan_nings_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{941d9dd5-0485-42cc-b0b2-3d3f03da975b}" record_timestamp="1532686877861" record_key="468316027">
 <auto_id>468316027</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -3599,6 +4208,13 @@
 <ceo_threshold>3k_main_threshold_ancillary_light_armour_earth_common</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{7826bec5-62e1-4705-b1e5-c219efe9d340}" record_timestamp="1555407990361" record_key="471441239">
+<auto_id>471441239</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_sima_ai_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_sima_ai</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{2d2b9e95-a598-4f77-9059-e5b02e7f61b2}" record_timestamp="1502704172276" record_key="472156756">
 <auto_id>472156756</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -3611,6 +4227,20 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_mathematician</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_mathematician</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{5473681f-b61b-4e4d-ab86-eff4c72b9a89}" record_timestamp="1551887884115" record_key="475952988">
+<auto_id>475952988</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_zhang_yans_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_zhang_yans_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{38546c33-b952-40ba-af41-36f1f772857b}" record_timestamp="1551887884110" record_key="4800248">
+<auto_id>4800248</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_gongsun_zans_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_gongsun_zans_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{b942c6cc-b63f-4604-a0bf-06215a3a4eda}" record_timestamp="1502191417682" record_key="480247599">
@@ -3648,7 +4278,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_white_horse</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{195f46ab-e0bc-4bb9-b970-e6d4ce8e82ed}" record_timestamp="1564032372819" record_key="489352890">
+<ceo_threshold_nodes record_uuid="{195f46ab-e0bc-4bb9-b970-e6d4ce8e82ed}" record_timestamp="1565336818326" record_key="489352890">
 <auto_id>489352890</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_guo_huai_01</ceo_node>
@@ -3660,6 +4290,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_generated_envoy_fire_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_generated_envoy_fire</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{bd48430d-e308-4132-9c52-1d49fa2e5a15}" record_timestamp="1551887884121" record_key="495609945">
+<auto_id>495609945</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_trident_halberd</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_trident_halberd</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{0e4360c9-f12b-49a0-8add-0b154ad1d8b1}" record_timestamp="1502191404923" record_key="495728685">
@@ -3676,6 +4313,13 @@
 <ceo_threshold>3k_main_threshold_ancillary_overseer</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{1df79601-5f09-4cd0-a673-78dbfa8f114b}" record_timestamp="1560851446341" record_key="499565302">
+<auto_id>499565302</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_sima_yu_earth_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_sima_yu_earth</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{85ba0ace-3f5e-4299-ad34-da0c540f88fe}" record_timestamp="1502704156967" record_key="499611816">
 <auto_id>499611816</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -3683,7 +4327,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_one_handed_axe_refined</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{09282996-6991-4c10-af6a-6a16c8b0577d}" record_timestamp="1564032373148" record_key="503229919">
+<ceo_threshold_nodes record_uuid="{09282996-6991-4c10-af6a-6a16c8b0577d}" record_timestamp="1565336818700" record_key="503229919">
 <auto_id>503229919</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_tian_feng_01</ceo_node>
@@ -3697,18 +4341,25 @@
 <ceo_threshold>3k_main_threshold_ancillary_stone_monkey</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{c68420da-a339-4b3c-ae89-25d36cc7aa12}" record_timestamp="1564032372472" record_key="51161062">
+<ceo_threshold_nodes record_uuid="{c68420da-a339-4b3c-ae89-25d36cc7aa12}" record_timestamp="1565336817915" record_key="51161062">
 <auto_id>51161062</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_ding_feng_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_ding_feng</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{969ded5a-c7fe-48ef-8c01-835ebad06769}" record_timestamp="1564032372472" record_key="512069024">
+<ceo_threshold_nodes record_uuid="{969ded5a-c7fe-48ef-8c01-835ebad06769}" record_timestamp="1565336817915" record_key="512069024">
 <auto_id>512069024</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_dong_bai_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_lady_dong_bai</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{02db55cf-cf56-4e2f-9084-7ada6c3da23b}" record_timestamp="1551887884114" record_key="513005554">
+<auto_id>513005554</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_xu_chus_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_xu_chus_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{91610fc9-ec8b-4f0b-8637-c0f89ede4f84}" record_timestamp="1502704151293" record_key="522638492">
@@ -3739,7 +4390,7 @@
 <ceo_threshold>3k_main_ceo_threshold_trait_personality_cowardly</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{2b233342-6cae-4be8-9c88-95cf5a380701}" record_timestamp="1564032373142" record_key="528298197">
+<ceo_threshold_nodes record_uuid="{2b233342-6cae-4be8-9c88-95cf5a380701}" record_timestamp="1565336818694" record_key="528298197">
 <auto_id>528298197</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_liu_limin_01</ceo_node>
@@ -3781,7 +4432,7 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_liu_yu</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{5f1f0534-31ed-45f1-9df3-83a8f196d3a6}" record_timestamp="1564115396617" record_key="540454622">
+<ceo_threshold_nodes record_uuid="{5f1f0534-31ed-45f1-9df3-83a8f196d3a6}" record_timestamp="1565336818929" record_key="540454622">
 <auto_id>540454622</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_kuai_liang_01</ceo_node>
@@ -3816,14 +4467,14 @@
 <ceo_threshold>3k_ytr_ceo_threshold_trait_physical_protector_of_people</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{d254831d-318a-43dd-a7a9-8f71285201ee}" record_timestamp="1564032372218" record_key="546582420">
+<ceo_threshold_nodes record_uuid="{d254831d-318a-43dd-a7a9-8f71285201ee}" record_timestamp="1565336817602" record_key="546582420">
 <auto_id>546582420</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_wang_yi_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_lady_wang_yi</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{751078fc-933c-47dc-9ae1-94a77a5a7264}" record_timestamp="1550502126387" record_key="546737784">
+<ceo_threshold_nodes record_uuid="{751078fc-933c-47dc-9ae1-94a77a5a7264}" record_timestamp="1551784875339" record_key="546737784">
 <auto_id>546737784</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_ytr_ancillary_armour_he_mans_armour_unique</ceo_node>
@@ -3835,6 +4486,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_generated_minister_earth_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_generated_minister_earth</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{1a2e42f7-c057-49d9-a247-b4f608a069da}" record_timestamp="1551887884113" record_key="554875418">
+<auto_id>554875418</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_sun_jians_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_sun_jians_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{07b106ef-e58f-46cf-837d-e1a5b1d89169}" record_timestamp="1502704173338" record_key="556391421">
@@ -3851,7 +4509,7 @@
 <ceo_threshold>3k_ytr_ceo_threshold_learning_student</ceo_threshold>
 <points_threshold_to_activate_node>160</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{70dd73a8-fe9e-4dfb-a30d-0e73ba487497}" record_timestamp="1564032372678" record_key="561606465">
+<ceo_threshold_nodes record_uuid="{70dd73a8-fe9e-4dfb-a30d-0e73ba487497}" record_timestamp="1565336818158" record_key="561606465">
 <auto_id>561606465</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_zhong_hui_01</ceo_node>
@@ -3872,6 +4530,13 @@
 <ceo_threshold>3k_main_threshold_ancillary_heavy_armour_wood_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{f938f0c1-73d9-4623-bce9-eedbbe7e4380}" record_timestamp="1551887884114" record_key="566498477">
+<auto_id>566498477</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_xu_huangs_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_xu_huangs_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{32a60098-d4b8-4911-bf3c-bf58978a1785}" record_timestamp="1502704163426" record_key="567132019">
 <auto_id>567132019</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -3884,6 +4549,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_craftsman</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_craftsman</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{d56098ef-52c4-4e38-8426-da731c1f2436}" record_timestamp="1551887884114" record_key="575946139">
+<auto_id>575946139</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_xiahou_yuans_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_xiahou_yuans_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{57260dbb-209d-4629-ab81-3fae3d6e5ac8}" record_timestamp="1502704160353" record_key="578605152">
@@ -3998,11 +4670,25 @@
 <ceo_threshold>3k_main_threshold_ancillary_porcelain_cup</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{0ac50ec3-774d-4d7a-a3f6-e436b3dc34f8}" record_timestamp="1555407990411" record_key="607609571">
+<auto_id>607609571</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_sima_yue_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_sima_yue</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{09c10f40-ac1b-4277-9b98-814f4b892eea}" record_timestamp="1502704159207" record_key="61112271">
 <auto_id>61112271</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_king_of_jade_ge</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_king_of_jade_ge</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{a59ffd64-901a-4afb-8c62-5aa9b0ae46bb}" record_timestamp="1555407990381" record_key="612848026">
+<auto_id>612848026</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_sima_wei_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_sima_wei</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{ee9cd228-26f3-4fd7-8d95-5d28ad538ff9}" record_timestamp="1542740545920" record_key="613104743">
@@ -4026,6 +4712,13 @@
 <ceo_threshold>3k_main_threshold_ancillary_philosopher</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{57af6dcc-2c89-4ac0-8ff8-d264508198d5}" record_timestamp="1560242839611" record_key="624106748">
+<auto_id>624106748</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_wei_guan_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_wei_guan</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{e46cd018-20ba-4d6e-9883-a00469861305}" record_timestamp="1502191405267" record_key="62449486">
 <auto_id>62449486</auto_id>
 <can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
@@ -4033,14 +4726,14 @@
 <ceo_threshold>3k_main_ceo_threshold_trait_physical_eunuch</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{9236584f-0896-499e-965b-f42445315d11}" record_timestamp="1564032372820" record_key="625128615">
+<ceo_threshold_nodes record_uuid="{9236584f-0896-499e-965b-f42445315d11}" record_timestamp="1565336818327" record_key="625128615">
 <auto_id>625128615</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_wang_yuanji_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_lady_wang_yuanji</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{a1bf9ce6-1e65-4b46-8ac0-290247d43b9d}" record_timestamp="1564032372677" record_key="627130662">
+<ceo_threshold_nodes record_uuid="{a1bf9ce6-1e65-4b46-8ac0-290247d43b9d}" record_timestamp="1565336818157" record_key="627130662">
 <auto_id>627130662</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_zhang_chunhua_01</ceo_node>
@@ -4124,14 +4817,14 @@
 <ceo_threshold>3k_main_threshold_ancillary_devious_attendant</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{76338d2c-14e1-458e-bb9d-4b9d5ea7d0c8}" record_timestamp="1564032372284" record_key="661464178">
+<ceo_threshold_nodes record_uuid="{76338d2c-14e1-458e-bb9d-4b9d5ea7d0c8}" record_timestamp="1565336817681" record_key="661464178">
 <auto_id>661464178</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_xiao_qiao_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_lady_xiao_qiao</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{d6fc6419-6589-49cc-ad1e-5dbe123213aa}" record_timestamp="1564032372472" record_key="672074794">
+<ceo_threshold_nodes record_uuid="{d6fc6419-6589-49cc-ad1e-5dbe123213aa}" record_timestamp="1565336817915" record_key="672074794">
 <auto_id>672074794</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_guan_xing_01</ceo_node>
@@ -4166,6 +4859,20 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_shi_xie</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{2a24e644-b3f8-4c67-9032-37e7cdfa7b19}" record_timestamp="1551887884120" record_key="681973398">
+<auto_id>681973398</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_green_dragon_crescent_blade</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_green_dragon_crescent_blade</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{0f081274-467a-45b5-afdd-6f23896004c1}" record_timestamp="1551887884112" record_key="684601238">
+<auto_id>684601238</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_ma_chaos_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_ma_chaos_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{cbe18946-fe57-4d6c-b148-0b65faa995e8}" record_timestamp="1501602992061" record_key="686340808">
 <auto_id>686340808</auto_id>
 <can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
@@ -4180,7 +4887,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_medium_armour_wood_common</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{2ae4cdf4-37b1-4e8d-b5a5-80028cd492f5}" record_timestamp="1564104822028" record_key="686455725">
+<ceo_threshold_nodes record_uuid="{2ae4cdf4-37b1-4e8d-b5a5-80028cd492f5}" record_timestamp="1565336818915" record_key="686455725">
 <auto_id>686455725</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_sui_gu_01</ceo_node>
@@ -4292,6 +4999,13 @@
 <ceo_threshold>3k_ytr_ceo_threshold_learning_student</ceo_threshold>
 <points_threshold_to_activate_node>304</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{2f3cc817-e829-4e7b-9f20-3c6434e01980}" record_timestamp="1553100962502" record_key="705065042">
+<auto_id>705065042</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_light_armour_earth_extraordinary</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_light_armour_earth_extraordinary</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{76b5febc-a011-4133-9bdf-df90e882a347}" record_timestamp="1502191413834" record_key="705447811">
 <auto_id>705447811</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -4327,7 +5041,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_composite_bow_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{8f280cb9-aa56-487f-941e-a036800db956}" record_timestamp="1564032372224" record_key="71854113">
+<ceo_threshold_nodes record_uuid="{8f280cb9-aa56-487f-941e-a036800db956}" record_timestamp="1565336817610" record_key="71854113">
 <auto_id>71854113</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_man_chong_01</ceo_node>
@@ -4355,7 +5069,14 @@
 <ceo_threshold>3k_main_threshold_ancillary_medium_armour_earth_refined</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{06b27921-ddf0-41db-ba02-7e2bb4f49026}" record_timestamp="1564032372677" record_key="742899607">
+<ceo_threshold_nodes record_uuid="{859e5400-6dfc-4571-8170-65e213cdcc2d}" record_timestamp="1553100961867" record_key="727548474">
+<auto_id>727548474</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_heavy_armour_wood_extraordinary</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_heavy_armour_wood_extraordinary</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{06b27921-ddf0-41db-ba02-7e2bb4f49026}" record_timestamp="1565336818156" record_key="742899607">
 <auto_id>742899607</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_xiahou_ji_01</ceo_node>
@@ -4369,11 +5090,25 @@
 <ceo_threshold>3k_main_threshold_ancillary_tao_qians_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{14b855cd-ceb1-4444-9ca8-9ecf305581f1}" record_timestamp="1551887884118" record_key="748825992">
+<auto_id>748825992</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_bow_huang_zhong</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_bow_huang_zhong</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{f7940cdc-81b7-4465-a6c1-24b11085cc01}" record_timestamp="1502704152317" record_key="749142138">
 <auto_id>749142138</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_clay_ox</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_clay_ox</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{e4e743d7-c099-4f57-beaf-0e8ff2393c67}" record_timestamp="1560941531708" record_key="751407953">
+<auto_id>751407953</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_shi_chao_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_shi_chao</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{0e034f53-4408-4f8d-a42e-9e0b18ea1868}" record_timestamp="1502191419627" record_key="754918041">
@@ -4453,6 +5188,13 @@
 <ceo_threshold>3k_main_threshold_ancillary_book_of_changes</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{20046c16-8dfd-42ac-98b8-c3d20448cbbf}" record_timestamp="1551887884111" record_key="779496619">
+<auto_id>779496619</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_kong_rongs_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_kong_rongs_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{c0762411-0f99-4f0f-b91b-86c63f5ebd99}" record_timestamp="1502191415317" record_key="779593186">
 <auto_id>779593186</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -4460,7 +5202,7 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_kong_zhou</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{3798e610-4626-483a-98cf-138cf7dbf588}" record_timestamp="1564687034555" record_key="779725604">
+<ceo_threshold_nodes record_uuid="{3798e610-4626-483a-98cf-138cf7dbf588}" record_timestamp="1565336819239" record_key="779725604">
 <auto_id>779725604</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_custom_ancillary_armour_xun_yu</ceo_node>
@@ -4509,11 +5251,18 @@
 <ceo_threshold>3k_main_ceo_threshold_career_generated_villager_metal</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{3a4753c8-55aa-48d5-a026-3af48f516e99}" record_timestamp="1564032372819" record_key="790911369">
+<ceo_threshold_nodes record_uuid="{3a4753c8-55aa-48d5-a026-3af48f516e99}" record_timestamp="1565336818326" record_key="790911369">
 <auto_id>790911369</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_xiahou_ba_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_xiahou_ba</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{d98e830d-7203-4e72-bfcc-8f80a0c97596}" record_timestamp="1553100962077" record_key="793944990">
+<auto_id>793944990</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_sima_lun_armour_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_sima_lun_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{44eed913-c9f6-47ab-8fd0-2071f4dfdc04}" record_timestamp="1502704150912" record_key="794678533">
@@ -4523,14 +5272,14 @@
 <ceo_threshold>3k_main_threshold_ancillary_wei_liaozi</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{ddc7d64d-4078-4180-ad97-6f5c2166dda3}" record_timestamp="1564032372817" record_key="796524693">
+<ceo_threshold_nodes record_uuid="{ddc7d64d-4078-4180-ad97-6f5c2166dda3}" record_timestamp="1565336818323" record_key="796524693">
 <auto_id>796524693</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_jia_chong_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_jia_chong</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{732e62c8-d6c0-4bd5-a98d-b709f5df3cd4}" record_timestamp="1564104822029" record_key="798169414">
+<ceo_threshold_nodes record_uuid="{732e62c8-d6c0-4bd5-a98d-b709f5df3cd4}" record_timestamp="1565336818916" record_key="798169414">
 <auto_id>798169414</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_ji_ling_01</ceo_node>
@@ -4572,6 +5321,20 @@
 <ceo_threshold>3k_main_threshold_ancillary_composite_bow_common</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{2cd638a0-153d-4b12-b44f-7865cf380d71}" record_timestamp="1551887884112" record_key="814130419">
+<auto_id>814130419</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_liu_zhangs_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_liu_zhangs_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{057a7f9a-5b31-46f3-8341-93810e8c1888}" record_timestamp="1560242839614" record_key="814369622">
+<auto_id>814369622</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>3k_main_ceo_node_career_generated_general_fire_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_jia_mi</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{7ce1fe00-a781-41e5-b6c8-9154f3e285d1}" record_timestamp="1519724774432" record_key="819532295">
 <auto_id>819532295</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -4593,7 +5356,7 @@
 <ceo_threshold>3k_ytr_ceo_threshold_ancillary_weapon_staff_common</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{f759195a-119c-46bb-927b-c49be2fdffe8}" record_timestamp="1564702856835" record_key="823521542">
+<ceo_threshold_nodes record_uuid="{f759195a-119c-46bb-927b-c49be2fdffe8}" record_timestamp="1565336819270" record_key="823521542">
 <auto_id>823521542</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_custom_ancillary_armour_earth</ceo_node>
@@ -4607,11 +5370,25 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_liu_dai</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{347edaf7-2ab6-4042-99a6-e659c1d887ec}" record_timestamp="1551887884121" record_key="827680815">
+<auto_id>827680815</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_the_blue_blade</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_the_blue_blade</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{c9f6dbb2-1e76-4666-8c0a-6818e3873cf3}" record_timestamp="1502191418122" record_key="828077645">
 <auto_id>828077645</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_wei_yan_01</ceo_node>
 <ceo_threshold>3k_main_ceo_threshold_career_historical_wei_yan</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{c7a0db37-f003-4422-a736-2b7fe9de8f79}" record_timestamp="1551887884111" record_key="828802354">
+<auto_id>828802354</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_liu_beis_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_liu_beis_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{9f51486d-705b-43d7-8ed9-0848bd74ce72}" record_timestamp="1502191410558" record_key="832052686">
@@ -4634,6 +5411,20 @@
 <ceo_node>3k_main_ceo_node_protagonist_02</ceo_node>
 <ceo_threshold>3k_main_ceo_thredhold_protagonist</ceo_threshold>
 <points_threshold_to_activate_node>2</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{c8430f28-98d5-4a4f-acf7-23cbd34e0c19}" record_timestamp="1560242840106" record_key="840085411">
+<auto_id>840085411</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_sima_cui_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_sima_cui</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{8769fef1-a5cd-49c9-a5b1-ecf0f38ebd77}" record_timestamp="1555407990421" record_key="840381939">
+<auto_id>840381939</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_sima_ying_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_sima_ying</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{61190bd2-6d72-4dbc-a07b-b8fac387277e}" record_timestamp="1532686877475" record_key="843445616">
 <auto_id>843445616</auto_id>
@@ -4789,7 +5580,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_trader</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{1cf00a5c-303c-4753-95f6-29f23b84b277}" record_timestamp="1564032372284" record_key="886642515">
+<ceo_threshold_nodes record_uuid="{1cf00a5c-303c-4753-95f6-29f23b84b277}" record_timestamp="1565336817681" record_key="886642515">
 <auto_id>886642515</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_han_dang_01</ceo_node>
@@ -4803,7 +5594,14 @@
 <ceo_threshold>3k_main_threshold_ancillary_weapon_bow_huang_zhong_faction</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{0fad4a91-9296-413e-9b02-b44746f54cf5}" record_timestamp="1564104822027" record_key="889462347">
+<ceo_threshold_nodes record_uuid="{f31021bc-1af5-46b9-9278-5e45475766c9}" record_timestamp="1551887884110" record_key="88808509">
+<auto_id>88808509</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_han_suis_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_han_suis_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{0fad4a91-9296-413e-9b02-b44746f54cf5}" record_timestamp="1565336818913" record_key="889462347">
 <auto_id>889462347</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_shi_hui_01</ceo_node>
@@ -4817,7 +5615,21 @@
 <ceo_threshold>3k_main_threshold_ancillary_spy_master</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{08c7db1c-902f-40e9-98f6-264afaece6f7}" record_timestamp="1564104822029" record_key="893471269">
+<ceo_threshold_nodes record_uuid="{84907500-1f09-43b5-9541-6ea9b2e2d332}" record_timestamp="1551887884121" record_key="891177100">
+<auto_id>891177100</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_weapon_shuang_gu_jian</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_weapon_shuang_gu_jian</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{2ff9cb9c-a9a4-4999-8b08-415e26edebf4}" record_timestamp="1551887884113" record_key="891371461">
+<auto_id>891371461</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_sun_ces_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_sun_ces_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{08c7db1c-902f-40e9-98f6-264afaece6f7}" record_timestamp="1565336818916" record_key="893471269">
 <auto_id>893471269</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_zhang_miao_01</ceo_node>
@@ -4838,7 +5650,7 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_wang_xiu</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{3c424923-2f1f-442b-b3fe-53532cd78417}" record_timestamp="1564032373143" record_key="904377910">
+<ceo_threshold_nodes record_uuid="{3c424923-2f1f-442b-b3fe-53532cd78417}" record_timestamp="1565336818695" record_key="904377910">
 <auto_id>904377910</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_guo_si_01</ceo_node>
@@ -4873,6 +5685,13 @@
 <ceo_threshold>3k_main_ceo_theshold_career_generated_minister_water</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{f7947155-9abd-4571-ab3b-3314efb3efc8}" record_timestamp="1553100961344" record_key="915251294">
+<auto_id>915251294</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_light_armour_metal_extraordinary</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_light_armour_metal_extraordinary</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{2208bfbc-b540-43f8-92f0-2e2da57fd169}" record_timestamp="1543932892369" record_key="918024424">
 <auto_id>918024424</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
@@ -4892,6 +5711,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_zhao_yuns_armour_unique</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_zhao_yuns_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{8cd21d86-3e86-4e40-a1d2-423ffef5ad23}" record_timestamp="1551887884113" record_key="922148697">
+<auto_id>922148697</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_armour_taishi_cis_armour_unique</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_armour_taishi_cis_armour_unique</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{920dbab0-eedf-4f6e-9730-088b6cdbb241}" record_timestamp="1502704158218" record_key="926596620">
@@ -4948,6 +5774,13 @@
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_han_suis_armour_unique</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_han_suis_armour_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{0d3e662e-a374-4ce9-a2c0-f2d27b1d7ce0}" record_timestamp="1551887884117" record_key="941272422">
+<auto_id>941272422</auto_id>
+<can_downgrade_to_previous_node>1</can_downgrade_to_previous_node>
+<ceo_node>ep_dyn_ancillary_mount_red_elite</ceo_node>
+<ceo_threshold>ep_dyn_ceo_threshold_ancillary_mount_red_elite</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{145051cb-a678-42d4-9c13-f9915adfe365}" record_timestamp="1519724774433" record_key="941923190">
@@ -5013,11 +5846,25 @@
 <ceo_threshold>3k_main_ceo_threshold_trait_personality_patient</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{13560616-8817-4ba5-a070-5f33d864363f}" record_timestamp="1553100961292" record_key="955950262">
+<auto_id>955950262</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_medium_armour_earth_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_medium_armour_earth_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{8488939c-8db5-4589-9719-541ade21a4f2}" record_timestamp="1502704158585" record_key="959826632">
 <auto_id>959826632</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ancillary_two_handed_axe_exceptional</ceo_node>
 <ceo_threshold>3k_main_threshold_ancillary_two_handed_axe_exceptional</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{0b7a3f6a-00cf-43c2-864e-f8c1f11723fc}" record_timestamp="1560242839711" record_key="96066949">
+<auto_id>96066949</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ceo_node_career_historical_gongsun_hong_01</ceo_node>
+<ceo_threshold>ep_ceo_threshold_career_historical_gongsun_hong</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
 <ceo_threshold_nodes record_uuid="{3d39d14d-8c01-44e8-829f-be83cf3563b0}" record_timestamp="1542740546295" record_key="966013661">
@@ -5083,7 +5930,7 @@
 <ceo_threshold>3k_main_ceo_threshold_career_historical_lu_su</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{1e653c9f-3509-4049-8fb3-62c6bc2dde2e}" record_timestamp="1564104822026" record_key="981478260">
+<ceo_threshold_nodes record_uuid="{1e653c9f-3509-4049-8fb3-62c6bc2dde2e}" record_timestamp="1565336818912" record_key="981478260">
 <auto_id>981478260</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_yang_song_01</ceo_node>
@@ -5118,7 +5965,14 @@
 <ceo_threshold>3k_ytr_ceo_threshold_ancillary_accessory_simple_carving_of_huang_lao</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{4a6d599d-78ef-4a93-8fbb-4a53cf7cce90}" record_timestamp="1564032371662" record_key="990878941">
+<ceo_threshold_nodes record_uuid="{f6567b42-ee8c-488c-8d24-23c3b19fc8f5}" record_timestamp="1553100961920" record_key="989189281">
+<auto_id>989189281</auto_id>
+<can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
+<ceo_node>ep_ancillary_armour_heavy_armour_wood_unique</ceo_node>
+<ceo_threshold>ep_threshold_ancillary_armour_heavy_armour_wood_unique</ceo_threshold>
+<points_threshold_to_activate_node>1</points_threshold_to_activate_node>
+</ceo_threshold_nodes>
+<ceo_threshold_nodes record_uuid="{4a6d599d-78ef-4a93-8fbb-4a53cf7cce90}" record_timestamp="1565336817343" record_key="990878941">
 <auto_id>990878941</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_lu_lingqi_01</ceo_node>
@@ -5132,7 +5986,7 @@
 <ceo_threshold>3k_main_threshold_ancillary_water_clock</ceo_threshold>
 <points_threshold_to_activate_node>1</points_threshold_to_activate_node>
 </ceo_threshold_nodes>
-<ceo_threshold_nodes record_uuid="{476e7c41-5de2-4edb-8b95-0a3aeab5584f}" record_timestamp="1564032372680" record_key="995126437">
+<ceo_threshold_nodes record_uuid="{476e7c41-5de2-4edb-8b95-0a3aeab5584f}" record_timestamp="1565336818161" record_key="995126437">
 <auto_id>995126437</auto_id>
 <can_downgrade_to_previous_node>0</can_downgrade_to_previous_node>
 <ceo_node>3k_main_ceo_node_career_historical_lady_cai_yan_01</ceo_node>

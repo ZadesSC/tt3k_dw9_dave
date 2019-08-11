@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_generation_goal_secondary_treaties.xsd" export_time="Thu Mar 14 15:23:27 2019" revision="35" export_branch="T:/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>744ade17-0a95-4aae-99f5-aacbbf8d2763</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_generation_goal_secondary_treaties.xsd" export_time="Thu Jun 6 16:35:01 2019" revision="37" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1501/dave" export_user="bob">
+<edit_uuid>30b88da2-fdb1-4d24-a072-0accabed3b18</edit_uuid>
 <cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{4ebcb47a-c6de-4e6c-a6b8-3eca0cab6035}" record_timestamp="1528278210986" record_key="goal_ask_for_liberationtreaty_components_ancillary_demand">
 <goal_key>goal_ask_for_liberation</goal_key>
 <priority>4</priority>
@@ -46,10 +46,20 @@
 <priority>-1</priority>
 <treaty_key>treaty_components_coercion</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{736072b9-ec47-47d9-a631-f21c006e87c5}" record_timestamp="1559652444636" record_key="goal_coercion_demand_paymenttreaty_components_sima_lun_coercion">
+<goal_key>goal_coercion_demand_payment</goal_key>
+<priority>-1</priority>
+<treaty_key>treaty_components_sima_lun_coercion</treaty_key>
+</cai_diplomacy_deal_generation_goal_secondary_treaties>
 <cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{041e367d-57db-4305-b3d1-1b68f2cceaad}" record_timestamp="1527863081686" record_key="goal_coercion_demand_regiontreaty_components_coercion">
 <goal_key>goal_coercion_demand_region</goal_key>
 <priority>-1</priority>
 <treaty_key>treaty_components_coercion</treaty_key>
+</cai_diplomacy_deal_generation_goal_secondary_treaties>
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{569b2eff-7fa3-46c7-b887-8f96c10ad70d}" record_timestamp="1559652444635" record_key="goal_coercion_demand_regiontreaty_components_sima_lun_coercion">
+<goal_key>goal_coercion_demand_region</goal_key>
+<priority>-1</priority>
+<treaty_key>treaty_components_sima_lun_coercion</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
 <cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{f16a7461-2023-4114-b92b-4abcc7ecb2e6}" record_timestamp="1533306749816" record_key="goal_create_coalition_and_demand_join_war_yuan_shao_counter_offertreaty_components_ancillary_demand">
 <goal_key>goal_create_coalition_and_demand_join_war_yuan_shao_counter_offer</goal_key>
@@ -1476,57 +1486,57 @@
 <priority>1</priority>
 <treaty_key>treaty_components_region_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{56713d32-d7d1-462d-b49d-f0195afc7bcc}" record_timestamp="1552577002023" record_key="goal_offer_vassalage_yuan_shutreaty_components_ancillary_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{56713d32-d7d1-462d-b49d-f0195afc7bcc}" record_timestamp="1554883464082" record_key="goal_offer_vassalage_yuan_shutreaty_components_ancillary_demand">
 <goal_key>goal_offer_vassalage_yuan_shu</goal_key>
 <priority>4</priority>
 <treaty_key>treaty_components_ancillary_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{80d6f142-c4e1-4fb6-b0dc-beefebed9a90}" record_timestamp="1552577002061" record_key="goal_offer_vassalage_yuan_shutreaty_components_ancillary_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{80d6f142-c4e1-4fb6-b0dc-beefebed9a90}" record_timestamp="1554883464082" record_key="goal_offer_vassalage_yuan_shutreaty_components_ancillary_offer">
 <goal_key>goal_offer_vassalage_yuan_shu</goal_key>
 <priority>4</priority>
 <treaty_key>treaty_components_ancillary_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{c2673479-9c7c-491a-a4da-9a4aca888a1d}" record_timestamp="1552577002041" record_key="goal_offer_vassalage_yuan_shutreaty_components_demand_autonomy">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{c2673479-9c7c-491a-a4da-9a4aca888a1d}" record_timestamp="1554883464082" record_key="goal_offer_vassalage_yuan_shutreaty_components_demand_autonomy">
 <goal_key>goal_offer_vassalage_yuan_shu</goal_key>
 <priority>-1</priority>
 <treaty_key>treaty_components_demand_autonomy</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{5c231ad2-e738-4642-aed5-d6064d00f169}" record_timestamp="1552577002098" record_key="goal_offer_vassalage_yuan_shutreaty_components_food_supply_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{5c231ad2-e738-4642-aed5-d6064d00f169}" record_timestamp="1554883464083" record_key="goal_offer_vassalage_yuan_shutreaty_components_food_supply_demand">
 <goal_key>goal_offer_vassalage_yuan_shu</goal_key>
 <priority>5</priority>
 <treaty_key>treaty_components_food_supply_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{3ee5849b-46bc-4a83-8a1a-e920094ad85f}" record_timestamp="1552577002079" record_key="goal_offer_vassalage_yuan_shutreaty_components_food_supply_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{3ee5849b-46bc-4a83-8a1a-e920094ad85f}" record_timestamp="1554883464083" record_key="goal_offer_vassalage_yuan_shutreaty_components_food_supply_offer">
 <goal_key>goal_offer_vassalage_yuan_shu</goal_key>
 <priority>5</priority>
 <treaty_key>treaty_components_food_supply_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{2924b18c-3b30-4f3b-8f5f-dcb346066f5a}" record_timestamp="1552577001931" record_key="goal_offer_vassalage_yuan_shutreaty_components_payment_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{2924b18c-3b30-4f3b-8f5f-dcb346066f5a}" record_timestamp="1554883464082" record_key="goal_offer_vassalage_yuan_shutreaty_components_payment_demand">
 <goal_key>goal_offer_vassalage_yuan_shu</goal_key>
 <priority>2</priority>
 <treaty_key>treaty_components_payment_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{e37de292-0b2c-44ec-86a6-cf217263392d}" record_timestamp="1552577001913" record_key="goal_offer_vassalage_yuan_shutreaty_components_payment_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{e37de292-0b2c-44ec-86a6-cf217263392d}" record_timestamp="1554883464081" record_key="goal_offer_vassalage_yuan_shutreaty_components_payment_offer">
 <goal_key>goal_offer_vassalage_yuan_shu</goal_key>
 <priority>2</priority>
 <treaty_key>treaty_components_payment_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{dd8aad8d-ee9e-45e1-96ee-2984f99846c4}" record_timestamp="1552577001968" record_key="goal_offer_vassalage_yuan_shutreaty_components_payment_regular_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{dd8aad8d-ee9e-45e1-96ee-2984f99846c4}" record_timestamp="1554883464082" record_key="goal_offer_vassalage_yuan_shutreaty_components_payment_regular_demand">
 <goal_key>goal_offer_vassalage_yuan_shu</goal_key>
 <priority>3</priority>
 <treaty_key>treaty_components_payment_regular_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{8ae50422-cd4d-49de-8166-400dc177e912}" record_timestamp="1552577001949" record_key="goal_offer_vassalage_yuan_shutreaty_components_payment_regular_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{8ae50422-cd4d-49de-8166-400dc177e912}" record_timestamp="1554883464082" record_key="goal_offer_vassalage_yuan_shutreaty_components_payment_regular_offer">
 <goal_key>goal_offer_vassalage_yuan_shu</goal_key>
 <priority>3</priority>
 <treaty_key>treaty_components_payment_regular_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{f10145b6-e130-41ed-b6b4-014cda02069e}" record_timestamp="1552577002004" record_key="goal_offer_vassalage_yuan_shutreaty_components_region_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{f10145b6-e130-41ed-b6b4-014cda02069e}" record_timestamp="1554883464082" record_key="goal_offer_vassalage_yuan_shutreaty_components_region_demand">
 <goal_key>goal_offer_vassalage_yuan_shu</goal_key>
 <priority>1</priority>
 <treaty_key>treaty_components_region_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{98054c6d-5818-45dc-b9ae-07961850e9f5}" record_timestamp="1552577001986" record_key="goal_offer_vassalage_yuan_shutreaty_components_region_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{98054c6d-5818-45dc-b9ae-07961850e9f5}" record_timestamp="1554883464082" record_key="goal_offer_vassalage_yuan_shutreaty_components_region_offer">
 <goal_key>goal_offer_vassalage_yuan_shu</goal_key>
 <priority>1</priority>
 <treaty_key>treaty_components_region_offer</treaty_key>
@@ -1586,62 +1596,67 @@
 <priority>1</priority>
 <treaty_key>treaty_components_region_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{9fd8e398-52f6-4a6b-860a-e37f413a959f}" record_timestamp="1552577003140" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_ancillary_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{5b4a3b3e-8ade-42b9-87c3-30b26ab6af2b}" record_timestamp="1559835299196" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_sima_liangtreaty_components_vassalise_recipient_sima_liang">
+<goal_key>goal_peace_and_demand_vassalage_and_offer_autonomy_sima_liang</goal_key>
+<priority>-1</priority>
+<treaty_key>treaty_components_vassalise_recipient_sima_liang</treaty_key>
+</cai_diplomacy_deal_generation_goal_secondary_treaties>
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{9fd8e398-52f6-4a6b-860a-e37f413a959f}" record_timestamp="1554883464101" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_ancillary_demand">
 <goal_key>goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu</goal_key>
 <priority>4</priority>
 <treaty_key>treaty_components_ancillary_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{a0775018-bc9b-4d1b-82d0-a82c415ad145}" record_timestamp="1552577003206" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_ancillary_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{a0775018-bc9b-4d1b-82d0-a82c415ad145}" record_timestamp="1554883464101" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_ancillary_offer">
 <goal_key>goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu</goal_key>
 <priority>4</priority>
 <treaty_key>treaty_components_ancillary_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{e8876f40-8d33-45e6-baca-e4bc26fa7ce7}" record_timestamp="1552577003184" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_food_supply_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{e8876f40-8d33-45e6-baca-e4bc26fa7ce7}" record_timestamp="1554883464101" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_food_supply_demand">
 <goal_key>goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu</goal_key>
 <priority>5</priority>
 <treaty_key>treaty_components_food_supply_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{92793909-e080-4a6b-bdb1-edf3f0d5d12a}" record_timestamp="1552577003250" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_food_supply_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{92793909-e080-4a6b-bdb1-edf3f0d5d12a}" record_timestamp="1554883464102" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_food_supply_offer">
 <goal_key>goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu</goal_key>
 <priority>5</priority>
 <treaty_key>treaty_components_food_supply_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{c8899c3e-c8e0-4c2e-a60e-ab29c0508894}" record_timestamp="1552577003227" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_offer_autonomy">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{c8899c3e-c8e0-4c2e-a60e-ab29c0508894}" record_timestamp="1554883464101" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_offer_autonomy">
 <goal_key>goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu</goal_key>
 <priority>-1</priority>
 <treaty_key>treaty_components_offer_autonomy</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{038630cb-bfc6-4709-8bb0-2feef56397b1}" record_timestamp="1552577003294" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_payment_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{038630cb-bfc6-4709-8bb0-2feef56397b1}" record_timestamp="1554883464102" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_payment_demand">
 <goal_key>goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu</goal_key>
 <priority>2</priority>
 <treaty_key>treaty_components_payment_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{1dc0396e-8993-44c1-ba4b-95ce8b5a8fa2}" record_timestamp="1552577003272" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_payment_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{1dc0396e-8993-44c1-ba4b-95ce8b5a8fa2}" record_timestamp="1554883464102" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_payment_offer">
 <goal_key>goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu</goal_key>
 <priority>2</priority>
 <treaty_key>treaty_components_payment_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{86187e0c-7bd9-41ba-b41f-394d9693d974}" record_timestamp="1552577002986" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_payment_regular_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{86187e0c-7bd9-41ba-b41f-394d9693d974}" record_timestamp="1554883464100" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_payment_regular_demand">
 <goal_key>goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu</goal_key>
 <priority>3</priority>
 <treaty_key>treaty_components_payment_regular_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{a000c007-a8b6-4715-9e9d-2636baaf3a76}" record_timestamp="1552577002964" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_payment_regular_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{a000c007-a8b6-4715-9e9d-2636baaf3a76}" record_timestamp="1554883464100" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_payment_regular_offer">
 <goal_key>goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu</goal_key>
 <priority>3</priority>
 <treaty_key>treaty_components_payment_regular_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{0da70216-cb19-40bb-a680-497e66253386}" record_timestamp="1552577003030" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_region_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{0da70216-cb19-40bb-a680-497e66253386}" record_timestamp="1554883464101" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_region_demand">
 <goal_key>goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu</goal_key>
 <priority>1</priority>
 <treaty_key>treaty_components_region_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{9e18d277-aeee-4aeb-9fba-bcc67b023674}" record_timestamp="1552577003008" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_region_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{9e18d277-aeee-4aeb-9fba-bcc67b023674}" record_timestamp="1554883464100" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_region_offer">
 <goal_key>goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu</goal_key>
 <priority>1</priority>
 <treaty_key>treaty_components_region_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{03a9c65c-f873-4602-ba55-b88a3cf01cd5}" record_timestamp="1552577003073" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_vassalise_recipient_yuan_shu">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{03a9c65c-f873-4602-ba55-b88a3cf01cd5}" record_timestamp="1554883464101" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shutreaty_components_vassalise_recipient_yuan_shu">
 <goal_key>goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu</goal_key>
 <priority>-1</priority>
 <treaty_key>treaty_components_vassalise_recipient_yuan_shu</treaty_key>
@@ -1706,57 +1721,62 @@
 <priority>-1</priority>
 <treaty_key>treaty_components_vassalise_recipient</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{c511dca3-925f-4980-b1e2-bc4b53b97075}" record_timestamp="1552577002518" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_ancillary_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{c6a209cc-7b20-4039-b0e9-aa45a0a57f81}" record_timestamp="1559835299196" record_key="goal_peace_and_demand_vassalage_sima_liangtreaty_components_vassalise_recipient_sima_liang">
+<goal_key>goal_peace_and_demand_vassalage_sima_liang</goal_key>
+<priority>-1</priority>
+<treaty_key>treaty_components_vassalise_recipient_sima_liang</treaty_key>
+</cai_diplomacy_deal_generation_goal_secondary_treaties>
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{c511dca3-925f-4980-b1e2-bc4b53b97075}" record_timestamp="1554883464098" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_ancillary_demand">
 <goal_key>goal_peace_and_demand_vassalage_yuan_shu</goal_key>
 <priority>4</priority>
 <treaty_key>treaty_components_ancillary_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{bbdb95d7-04c4-4c36-ba39-21062172738c}" record_timestamp="1552577002498" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_ancillary_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{bbdb95d7-04c4-4c36-ba39-21062172738c}" record_timestamp="1554883464097" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_ancillary_offer">
 <goal_key>goal_peace_and_demand_vassalage_yuan_shu</goal_key>
 <priority>4</priority>
 <treaty_key>treaty_components_ancillary_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{1cc259e5-8561-4b58-a803-1f1fa9e64a29}" record_timestamp="1552577003339" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_food_supply_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{1cc259e5-8561-4b58-a803-1f1fa9e64a29}" record_timestamp="1554883464102" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_food_supply_demand">
 <goal_key>goal_peace_and_demand_vassalage_yuan_shu</goal_key>
 <priority>5</priority>
 <treaty_key>treaty_components_food_supply_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{2373c263-fe05-4d9e-91cb-8145c4acd943}" record_timestamp="1552577003317" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_food_supply_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{2373c263-fe05-4d9e-91cb-8145c4acd943}" record_timestamp="1554883464102" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_food_supply_offer">
 <goal_key>goal_peace_and_demand_vassalage_yuan_shu</goal_key>
 <priority>5</priority>
 <treaty_key>treaty_components_food_supply_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{026601c2-6db9-4bb2-8d66-387836e26239}" record_timestamp="1552577003384" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_payment_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{026601c2-6db9-4bb2-8d66-387836e26239}" record_timestamp="1554883464102" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_payment_demand">
 <goal_key>goal_peace_and_demand_vassalage_yuan_shu</goal_key>
 <priority>2</priority>
 <treaty_key>treaty_components_payment_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{7aa9ff53-480e-4067-8ebb-9cc91f7895ef}" record_timestamp="1552577003362" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_payment_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{7aa9ff53-480e-4067-8ebb-9cc91f7895ef}" record_timestamp="1554883464102" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_payment_offer">
 <goal_key>goal_peace_and_demand_vassalage_yuan_shu</goal_key>
 <priority>2</priority>
 <treaty_key>treaty_components_payment_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{bda1c848-4b94-4b95-ad89-b7a6badef484}" record_timestamp="1552577003429" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_payment_regular_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{bda1c848-4b94-4b95-ad89-b7a6badef484}" record_timestamp="1554883464102" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_payment_regular_demand">
 <goal_key>goal_peace_and_demand_vassalage_yuan_shu</goal_key>
 <priority>3</priority>
 <treaty_key>treaty_components_payment_regular_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{7b4fb521-c76c-4c96-9c35-151c350ed2e4}" record_timestamp="1552577003406" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_payment_regular_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{7b4fb521-c76c-4c96-9c35-151c350ed2e4}" record_timestamp="1554883464102" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_payment_regular_offer">
 <goal_key>goal_peace_and_demand_vassalage_yuan_shu</goal_key>
 <priority>3</priority>
 <treaty_key>treaty_components_payment_regular_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{59590faa-f1a2-4e71-a0aa-ac5994277567}" record_timestamp="1552577003474" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_region_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{59590faa-f1a2-4e71-a0aa-ac5994277567}" record_timestamp="1554883464103" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_region_demand">
 <goal_key>goal_peace_and_demand_vassalage_yuan_shu</goal_key>
 <priority>1</priority>
 <treaty_key>treaty_components_region_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{583acad8-1d79-4f89-bbc2-38affeb0af41}" record_timestamp="1552577003451" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_region_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{583acad8-1d79-4f89-bbc2-38affeb0af41}" record_timestamp="1554883464103" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_region_offer">
 <goal_key>goal_peace_and_demand_vassalage_yuan_shu</goal_key>
 <priority>1</priority>
 <treaty_key>treaty_components_region_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{0ab0cbab-fc17-4b7d-b86a-c37506a520ed}" record_timestamp="1552577003162" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_vassalise_recipient_yuan_shu">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{0ab0cbab-fc17-4b7d-b86a-c37506a520ed}" record_timestamp="1554883464101" record_key="goal_peace_and_demand_vassalage_yuan_shutreaty_components_vassalise_recipient_yuan_shu">
 <goal_key>goal_peace_and_demand_vassalage_yuan_shu</goal_key>
 <priority>-1</priority>
 <treaty_key>treaty_components_vassalise_recipient_yuan_shu</treaty_key>
@@ -1816,62 +1836,67 @@
 <priority>-1</priority>
 <treaty_key>treaty_components_vassalise_recipient</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{611076a8-b445-471f-9a78-ad735146e0e2}" record_timestamp="1552577002638" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_ancillary_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{18ed00ed-3d73-49c6-9c00-801d11200777}" record_timestamp="1559835299195" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_sima_liangtreaty_components_vassalise_proposer_sima_liang">
+<goal_key>goal_peace_and_offer_vassalage_and_demand_autonomy_sima_liang</goal_key>
+<priority>-1</priority>
+<treaty_key>treaty_components_vassalise_proposer_sima_liang</treaty_key>
+</cai_diplomacy_deal_generation_goal_secondary_treaties>
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{611076a8-b445-471f-9a78-ad735146e0e2}" record_timestamp="1554883464098" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_ancillary_demand">
 <goal_key>goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu</goal_key>
 <priority>4</priority>
 <treaty_key>treaty_components_ancillary_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{15ac755d-a401-462d-81f8-192fef9e6433}" record_timestamp="1552577002618" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_ancillary_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{15ac755d-a401-462d-81f8-192fef9e6433}" record_timestamp="1554883464098" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_ancillary_offer">
 <goal_key>goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu</goal_key>
 <priority>4</priority>
 <treaty_key>treaty_components_ancillary_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{0fb964eb-eda0-436e-a021-eed0073a7b21}" record_timestamp="1552577002679" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_demand_autonomy">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{0fb964eb-eda0-436e-a021-eed0073a7b21}" record_timestamp="1554883464099" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_demand_autonomy">
 <goal_key>goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu</goal_key>
 <priority>-1</priority>
 <treaty_key>treaty_components_demand_autonomy</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{9149a41e-abc5-4fdd-83c1-3448a2f9d2bd}" record_timestamp="1552577002659" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_food_supply_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{9149a41e-abc5-4fdd-83c1-3448a2f9d2bd}" record_timestamp="1554883464099" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_food_supply_demand">
 <goal_key>goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu</goal_key>
 <priority>5</priority>
 <treaty_key>treaty_components_food_supply_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{3be90bfe-70e1-4f23-ac1e-bda003e900b9}" record_timestamp="1552577002721" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_food_supply_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{3be90bfe-70e1-4f23-ac1e-bda003e900b9}" record_timestamp="1554883464099" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_food_supply_offer">
 <goal_key>goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu</goal_key>
 <priority>5</priority>
 <treaty_key>treaty_components_food_supply_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{2f03c4c5-f12b-4f00-8ad1-9be1f835a678}" record_timestamp="1552577002700" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_payment_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{2f03c4c5-f12b-4f00-8ad1-9be1f835a678}" record_timestamp="1554883464099" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_payment_demand">
 <goal_key>goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu</goal_key>
 <priority>2</priority>
 <treaty_key>treaty_components_payment_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{5469046e-3141-40d3-96df-5a45fef4b23a}" record_timestamp="1552577002763" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_payment_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{5469046e-3141-40d3-96df-5a45fef4b23a}" record_timestamp="1554883464099" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_payment_offer">
 <goal_key>goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu</goal_key>
 <priority>2</priority>
 <treaty_key>treaty_components_payment_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{f42cffd4-587d-41f6-91bf-3d75c4b7e7f3}" record_timestamp="1552577002742" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_payment_regular_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{f42cffd4-587d-41f6-91bf-3d75c4b7e7f3}" record_timestamp="1554883464099" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_payment_regular_demand">
 <goal_key>goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu</goal_key>
 <priority>3</priority>
 <treaty_key>treaty_components_payment_regular_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{f9683a42-05f4-474d-8ae4-867c5542eb14}" record_timestamp="1552577002558" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_payment_regular_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{f9683a42-05f4-474d-8ae4-867c5542eb14}" record_timestamp="1554883464098" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_payment_regular_offer">
 <goal_key>goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu</goal_key>
 <priority>3</priority>
 <treaty_key>treaty_components_payment_regular_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{1a5e223a-05c2-4357-8ca8-1c8c9028b409}" record_timestamp="1552577002538" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_region_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{1a5e223a-05c2-4357-8ca8-1c8c9028b409}" record_timestamp="1554883464098" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_region_demand">
 <goal_key>goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu</goal_key>
 <priority>1</priority>
 <treaty_key>treaty_components_region_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{85f3d2c5-317b-48d6-ad23-0ffd1eef5b22}" record_timestamp="1552577002598" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_region_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{85f3d2c5-317b-48d6-ad23-0ffd1eef5b22}" record_timestamp="1554883464098" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_region_offer">
 <goal_key>goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu</goal_key>
 <priority>1</priority>
 <treaty_key>treaty_components_region_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{3493221a-5f95-49dc-85bd-33e76a31593d}" record_timestamp="1552577002578" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_vassalise_proposer_yuan_shu">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{3493221a-5f95-49dc-85bd-33e76a31593d}" record_timestamp="1554883464098" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shutreaty_components_vassalise_proposer_yuan_shu">
 <goal_key>goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu</goal_key>
 <priority>-1</priority>
 <treaty_key>treaty_components_vassalise_proposer_yuan_shu</treaty_key>
@@ -1936,57 +1961,62 @@
 <priority>-1</priority>
 <treaty_key>treaty_components_vassalise_proposer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{70b697c8-a2a0-4027-8455-6ee5c4642236}" record_timestamp="1552577003052" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_ancillary_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{b70451aa-af1b-4e5b-b7d1-159892f58ee7}" record_timestamp="1559835299195" record_key="goal_peace_and_offer_vassalage_sima_liangtreaty_components_vassalise_proposer_sima_liang">
+<goal_key>goal_peace_and_offer_vassalage_sima_liang</goal_key>
+<priority>-1</priority>
+<treaty_key>treaty_components_vassalise_proposer_sima_liang</treaty_key>
+</cai_diplomacy_deal_generation_goal_secondary_treaties>
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{70b697c8-a2a0-4027-8455-6ee5c4642236}" record_timestamp="1554883464101" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_ancillary_demand">
 <goal_key>goal_peace_and_offer_vassalage_yuan_shu</goal_key>
 <priority>4</priority>
 <treaty_key>treaty_components_ancillary_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{f1636b64-07ef-4c99-8505-3b3f097d5ead}" record_timestamp="1552577003118" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_ancillary_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{f1636b64-07ef-4c99-8505-3b3f097d5ead}" record_timestamp="1554883464101" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_ancillary_offer">
 <goal_key>goal_peace_and_offer_vassalage_yuan_shu</goal_key>
 <priority>4</priority>
 <treaty_key>treaty_components_ancillary_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{42341a8e-e0ba-4573-a534-88ef71e89fa3}" record_timestamp="1552577003095" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_food_supply_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{42341a8e-e0ba-4573-a534-88ef71e89fa3}" record_timestamp="1554883464101" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_food_supply_demand">
 <goal_key>goal_peace_and_offer_vassalage_yuan_shu</goal_key>
 <priority>5</priority>
 <treaty_key>treaty_components_food_supply_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{b6ffa04c-2510-4775-adf7-c1c86a76e47d}" record_timestamp="1552577002805" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_food_supply_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{b6ffa04c-2510-4775-adf7-c1c86a76e47d}" record_timestamp="1554883464099" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_food_supply_offer">
 <goal_key>goal_peace_and_offer_vassalage_yuan_shu</goal_key>
 <priority>5</priority>
 <treaty_key>treaty_components_food_supply_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{46ea3a63-8868-49a9-a50b-43b7e6b9d48b}" record_timestamp="1552577002784" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_payment_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{46ea3a63-8868-49a9-a50b-43b7e6b9d48b}" record_timestamp="1554883464099" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_payment_demand">
 <goal_key>goal_peace_and_offer_vassalage_yuan_shu</goal_key>
 <priority>2</priority>
 <treaty_key>treaty_components_payment_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{9d48821e-6c06-426e-a2f2-5a52d119f632}" record_timestamp="1552577002854" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_payment_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{9d48821e-6c06-426e-a2f2-5a52d119f632}" record_timestamp="1554883464100" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_payment_offer">
 <goal_key>goal_peace_and_offer_vassalage_yuan_shu</goal_key>
 <priority>2</priority>
 <treaty_key>treaty_components_payment_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{da148858-ab3e-4fa5-b59d-9a3e037488ff}" record_timestamp="1552577002830" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_payment_regular_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{da148858-ab3e-4fa5-b59d-9a3e037488ff}" record_timestamp="1554883464100" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_payment_regular_demand">
 <goal_key>goal_peace_and_offer_vassalage_yuan_shu</goal_key>
 <priority>3</priority>
 <treaty_key>treaty_components_payment_regular_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{5ff15c7f-1767-4ad1-933b-26e8c1eaee01}" record_timestamp="1552577002897" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_payment_regular_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{5ff15c7f-1767-4ad1-933b-26e8c1eaee01}" record_timestamp="1554883464100" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_payment_regular_offer">
 <goal_key>goal_peace_and_offer_vassalage_yuan_shu</goal_key>
 <priority>3</priority>
 <treaty_key>treaty_components_payment_regular_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{83e641c0-dbc2-492c-bd60-a81870ef55ad}" record_timestamp="1552577002875" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_region_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{83e641c0-dbc2-492c-bd60-a81870ef55ad}" record_timestamp="1554883464100" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_region_demand">
 <goal_key>goal_peace_and_offer_vassalage_yuan_shu</goal_key>
 <priority>1</priority>
 <treaty_key>treaty_components_region_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{369ea974-5c11-44ec-afcb-54ec213a66ce}" record_timestamp="1552577002943" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_region_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{369ea974-5c11-44ec-afcb-54ec213a66ce}" record_timestamp="1554883464100" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_region_offer">
 <goal_key>goal_peace_and_offer_vassalage_yuan_shu</goal_key>
 <priority>1</priority>
 <treaty_key>treaty_components_region_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{a72fd0c2-3e4d-49aa-8783-5e097ae2ffa0}" record_timestamp="1552577002921" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_vassalise_proposer_yuan_shu">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{a72fd0c2-3e4d-49aa-8783-5e097ae2ffa0}" record_timestamp="1554883464100" record_key="goal_peace_and_offer_vassalage_yuan_shutreaty_components_vassalise_proposer_yuan_shu">
 <goal_key>goal_peace_and_offer_vassalage_yuan_shu</goal_key>
 <priority>-1</priority>
 <treaty_key>treaty_components_vassalise_proposer_yuan_shu</treaty_key>
@@ -2251,57 +2281,57 @@
 <priority>1</priority>
 <treaty_key>treaty_components_region_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{886c2eb8-dde5-4d0e-b9fd-dd753f3cf299}" record_timestamp="1552577001735" record_key="goal_request_vassalage_yuan_shutreaty_components_ancillary_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{886c2eb8-dde5-4d0e-b9fd-dd753f3cf299}" record_timestamp="1554883464081" record_key="goal_request_vassalage_yuan_shutreaty_components_ancillary_demand">
 <goal_key>goal_request_vassalage_yuan_shu</goal_key>
 <priority>4</priority>
 <treaty_key>treaty_components_ancillary_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{86b1f3b3-6f5a-4faa-8432-89c8f8cd5c6c}" record_timestamp="1552577001717" record_key="goal_request_vassalage_yuan_shutreaty_components_ancillary_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{86b1f3b3-6f5a-4faa-8432-89c8f8cd5c6c}" record_timestamp="1554883464080" record_key="goal_request_vassalage_yuan_shutreaty_components_ancillary_offer">
 <goal_key>goal_request_vassalage_yuan_shu</goal_key>
 <priority>4</priority>
 <treaty_key>treaty_components_ancillary_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{cdc89605-23a8-4413-85aa-9e80e894ab1a}" record_timestamp="1552577001770" record_key="goal_request_vassalage_yuan_shutreaty_components_food_supply_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{cdc89605-23a8-4413-85aa-9e80e894ab1a}" record_timestamp="1554883464081" record_key="goal_request_vassalage_yuan_shutreaty_components_food_supply_demand">
 <goal_key>goal_request_vassalage_yuan_shu</goal_key>
 <priority>5</priority>
 <treaty_key>treaty_components_food_supply_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{dc08e778-fcf1-4064-b30c-cf2d9a40957a}" record_timestamp="1552577001752" record_key="goal_request_vassalage_yuan_shutreaty_components_food_supply_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{dc08e778-fcf1-4064-b30c-cf2d9a40957a}" record_timestamp="1554883464081" record_key="goal_request_vassalage_yuan_shutreaty_components_food_supply_offer">
 <goal_key>goal_request_vassalage_yuan_shu</goal_key>
 <priority>5</priority>
 <treaty_key>treaty_components_food_supply_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{a52aa346-19d0-4bba-a571-544be6e88a19}" record_timestamp="1552577001804" record_key="goal_request_vassalage_yuan_shutreaty_components_offer_autonomy">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{a52aa346-19d0-4bba-a571-544be6e88a19}" record_timestamp="1554883464081" record_key="goal_request_vassalage_yuan_shutreaty_components_offer_autonomy">
 <goal_key>goal_request_vassalage_yuan_shu</goal_key>
 <priority>-1</priority>
 <treaty_key>treaty_components_offer_autonomy</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{ecab61f2-0acc-43e9-b8bc-de8f25582ab2}" record_timestamp="1552577001787" record_key="goal_request_vassalage_yuan_shutreaty_components_payment_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{ecab61f2-0acc-43e9-b8bc-de8f25582ab2}" record_timestamp="1554883464081" record_key="goal_request_vassalage_yuan_shutreaty_components_payment_demand">
 <goal_key>goal_request_vassalage_yuan_shu</goal_key>
 <priority>2</priority>
 <treaty_key>treaty_components_payment_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{92c7122a-ae32-41d2-90f6-e73ccacd999b}" record_timestamp="1552577001840" record_key="goal_request_vassalage_yuan_shutreaty_components_payment_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{92c7122a-ae32-41d2-90f6-e73ccacd999b}" record_timestamp="1554883464081" record_key="goal_request_vassalage_yuan_shutreaty_components_payment_offer">
 <goal_key>goal_request_vassalage_yuan_shu</goal_key>
 <priority>2</priority>
 <treaty_key>treaty_components_payment_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{64d71761-ffde-4c0d-a4fc-5659486e51c8}" record_timestamp="1552577001822" record_key="goal_request_vassalage_yuan_shutreaty_components_payment_regular_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{64d71761-ffde-4c0d-a4fc-5659486e51c8}" record_timestamp="1554883464081" record_key="goal_request_vassalage_yuan_shutreaty_components_payment_regular_demand">
 <goal_key>goal_request_vassalage_yuan_shu</goal_key>
 <priority>3</priority>
 <treaty_key>treaty_components_payment_regular_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{b8902e78-137e-44c6-97f3-fff9cba1ee50}" record_timestamp="1552577001876" record_key="goal_request_vassalage_yuan_shutreaty_components_payment_regular_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{b8902e78-137e-44c6-97f3-fff9cba1ee50}" record_timestamp="1554883464081" record_key="goal_request_vassalage_yuan_shutreaty_components_payment_regular_offer">
 <goal_key>goal_request_vassalage_yuan_shu</goal_key>
 <priority>3</priority>
 <treaty_key>treaty_components_payment_regular_offer</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{83183bd5-1a55-44da-b086-7bc61aa6746e}" record_timestamp="1552577001858" record_key="goal_request_vassalage_yuan_shutreaty_components_region_demand">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{83183bd5-1a55-44da-b086-7bc61aa6746e}" record_timestamp="1554883464081" record_key="goal_request_vassalage_yuan_shutreaty_components_region_demand">
 <goal_key>goal_request_vassalage_yuan_shu</goal_key>
 <priority>1</priority>
 <treaty_key>treaty_components_region_demand</treaty_key>
 </cai_diplomacy_deal_generation_goal_secondary_treaties>
-<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{ae5dd038-46d3-4f24-90e9-fc34fdc56a02}" record_timestamp="1552577001894" record_key="goal_request_vassalage_yuan_shutreaty_components_region_offer">
+<cai_diplomacy_deal_generation_goal_secondary_treaties record_uuid="{ae5dd038-46d3-4f24-90e9-fc34fdc56a02}" record_timestamp="1554883464081" record_key="goal_request_vassalage_yuan_shutreaty_components_region_offer">
 <goal_key>goal_request_vassalage_yuan_shu</goal_key>
 <priority>1</priority>
 <treaty_key>treaty_components_region_offer</treaty_key>

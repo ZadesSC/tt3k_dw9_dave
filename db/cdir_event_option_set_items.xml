@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cdir_event_option_set_items.xsd" export_time="Thu Apr 11 16:39:15 2019" revision="15" export_branch="C:/Users/simon.mann/AppData/Roaming/TWDaemon/1434/dave" export_user="bob">
-<edit_uuid>a1e21fb4-b7c7-44c2-bf57-1d7c41eb2e47</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cdir_event_option_set_items.xsd" export_time="Fri Jun 21 17:33:50 2019" revision="19" export_branch="C:/Users/william.wright/AppData/Roaming/TWDaemon/1527/dave" export_user="bob">
+<edit_uuid>e340e810-5031-49f6-b05d-a81cd832d254</edit_uuid>
 <cdir_event_option_set_items record_uuid="{9160f2e6-8430-4089-b2e6-82da81af0bb0}" record_timestamp="1542647004886" record_key="1000887399">
 <id>1000887399</id>
 <option>GEN_CND_CHARACTER_TEMPLATE</option>
@@ -113,7 +113,7 @@
 <target>target_character_1</target>
 <value></value>
 </cdir_event_option_set_items>
-<cdir_event_option_set_items record_uuid="{44d34743-2d89-41dd-b8b3-fe5dc0626b55}" record_timestamp="1550241218466" record_key="1073826629">
+<cdir_event_option_set_items record_uuid="{44d34743-2d89-41dd-b8b3-fe5dc0626b55}" record_timestamp="1551784705236" record_key="1073826629">
 <id>1073826629</id>
 <option>GEN_CND_NOT_HAS_DIPLOMATIC_CONDITION</option>
 <option_set>target_faction_eligable_for_war_mission</option_set>
@@ -288,6 +288,13 @@
 <target>target_character_2</target>
 <value>15</value>
 </cdir_event_option_set_items>
+<cdir_event_option_set_items record_uuid="{c7b05eb4-d794-45d5-9329-4cfe677acbf3}" record_timestamp="1555319686551" record_key="1146775298">
+<id>1146775298</id>
+<option>GEN_TARGET_FACTION</option>
+<option_set>ep_milestone_set_standard</option_set>
+<target>target_faction_1</target>
+<value></value>
+</cdir_event_option_set_items>
 <cdir_event_option_set_items record_uuid="{11747256-55c3-473d-b2a8-cfc8523950ae}" record_timestamp="1544013759106" record_key="1151746279">
 <id>1151746279</id>
 <option>GEN_CND_NOT_HUMAN</option>
@@ -428,6 +435,13 @@
 <target>target_faction_3</target>
 <value>3k_main_faction_cao_cao</value>
 </cdir_event_option_set_items>
+<cdir_event_option_set_items record_uuid="{5dd4cae2-c64b-4cee-a4d2-decda6d51c57}" record_timestamp="1561134823078" record_key="1244589651">
+<id>1244589651</id>
+<option>CND_CAMPAIGN</option>
+<option_set>ep_milestone_set_no_jin</option_set>
+<target>default</target>
+<value>8p_start_pos</value>
+</cdir_event_option_set_items>
 <cdir_event_option_set_items record_uuid="{50163df5-edff-4eef-98c7-f3affe904d16}" record_timestamp="1542647110014" record_key="1251063664">
 <id>1251063664</id>
 <option>CND_FACTION</option>
@@ -448,6 +462,13 @@
 <option_set>target_region_owned_low_food_mission</option_set>
 <target>mission_objective</target>
 <value>3k_main_pooled_resource_food:3</value>
+</cdir_event_option_set_items>
+<cdir_event_option_set_items record_uuid="{3720c18b-3bd3-4bdb-a5cb-f259f754358c}" record_timestamp="1561134823142" record_key="1257950103">
+<id>1257950103</id>
+<option>GEN_CND_SELF</option>
+<option_set>ep_milestone_set_no_jin</option_set>
+<target>target_faction_1</target>
+<value></value>
 </cdir_event_option_set_items>
 <cdir_event_option_set_items record_uuid="{27ae8bd8-3e76-41a3-93b3-71799880cfeb}" record_timestamp="1542464892981" record_key="1259960648">
 <id>1259960648</id>
@@ -701,7 +722,7 @@
 <target>target_character_3</target>
 <value></value>
 </cdir_event_option_set_items>
-<cdir_event_option_set_items record_uuid="{56624e8a-84da-41f4-affd-63852501fe4e}" record_timestamp="1552500739063" record_key="1426054608">
+<cdir_event_option_set_items record_uuid="{56624e8a-84da-41f4-affd-63852501fe4e}" record_timestamp="1542647100636" record_key="1426054608">
 <id>1426054608</id>
 <option>GEN_CND_CHARACTER_TEMPLATE</option>
 <option_set>3k_main_tutorial_progression_zheng_jiang_primary_dilemma_scripted</option_set>
@@ -1009,7 +1030,7 @@
 <target>target_character_2</target>
 <value>3k_main_template_historical_han_fu_hero_earth</value>
 </cdir_event_option_set_items>
-<cdir_event_option_set_items record_uuid="{3c1c14d1-d1ad-44d0-8b79-39fc7c68e601}" record_timestamp="1550241218692" record_key="1703837802">
+<cdir_event_option_set_items record_uuid="{3c1c14d1-d1ad-44d0-8b79-39fc7c68e601}" record_timestamp="1551784705237" record_key="1703837802">
 <id>1703837802</id>
 <option>GEN_CND_DIPLOMACY_AVAILABLE</option>
 <option_set>target_faction_eligable_for_peace_mission</option_set>
@@ -1051,7 +1072,7 @@
 <target>target_character_3</target>
 <value></value>
 </cdir_event_option_set_items>
-<cdir_event_option_set_items record_uuid="{543c235f-5733-4a37-a40f-3c8db702252c}" record_timestamp="1550241218578" record_key="1727549899">
+<cdir_event_option_set_items record_uuid="{543c235f-5733-4a37-a40f-3c8db702252c}" record_timestamp="1551784705236" record_key="1727549899">
 <id>1727549899</id>
 <option>META_OPTION_SET</option>
 <option_set>target_faction_eligable_for_peace_neighbouring_mission</option_set>
@@ -1261,7 +1282,7 @@
 <target>target_character_1</target>
 <value></value>
 </cdir_event_option_set_items>
-<cdir_event_option_set_items record_uuid="{be827d8d-bf64-497d-b46c-e01c17451ece}" record_timestamp="1554729969279" record_key="1960966323">
+<cdir_event_option_set_items record_uuid="{be827d8d-bf64-497d-b46c-e01c17451ece}" record_timestamp="1554888180021" record_key="1960966323">
 <id>1960966323</id>
 <option>VAR_OBJECTIVE_SIEGE_ACTION_OPTION</option>
 <option_set>mission_objective_siege_action_raze_or_sack</option_set>
@@ -1583,7 +1604,7 @@
 <target>target_character_3</target>
 <value></value>
 </cdir_event_option_set_items>
-<cdir_event_option_set_items record_uuid="{6e5396cf-a446-412f-ab2d-d42319d7ffd7}" record_timestamp="1550241218416" record_key="346314892">
+<cdir_event_option_set_items record_uuid="{6e5396cf-a446-412f-ab2d-d42319d7ffd7}" record_timestamp="1551784705236" record_key="346314892">
 <id>346314892</id>
 <option>GEN_CND_FACTION_NEIGHBOURS</option>
 <option_set>target_faction_eligable_for_peace_neighbouring_mission</option_set>
@@ -1835,6 +1856,13 @@
 <target>default</target>
 <value></value>
 </cdir_event_option_set_items>
+<cdir_event_option_set_items record_uuid="{2874f38c-b2f3-404b-bb8b-a83d64042178}" record_timestamp="1561042404226" record_key="481358056">
+<id>481358056</id>
+<option>CND_CAMPAIGN</option>
+<option_set>ep_milestone_set_standard</option_set>
+<target>default</target>
+<value>8p_start_pos</value>
+</cdir_event_option_set_items>
 <cdir_event_option_set_items record_uuid="{b52d225f-09ad-4a80-8c42-70049384adb0}" record_timestamp="1542464892981" record_key="503783467">
 <id>503783467</id>
 <option>GEN_CND_CHARACTER_CEO_EQUIPPED</option>
@@ -1905,7 +1933,7 @@
 <target>target_character_1</target>
 <value>3k_main_template_historical_liu_bei_hero_earth</value>
 </cdir_event_option_set_items>
-<cdir_event_option_set_items record_uuid="{9cdf6077-f56e-458b-9843-b3d751552e0c}" record_timestamp="1553268326266" record_key="530644065">
+<cdir_event_option_set_items record_uuid="{9cdf6077-f56e-458b-9843-b3d751552e0c}" record_timestamp="1554885643983" record_key="530644065">
 <id>530644065</id>
 <option>CND_MAX_REGULAR_INCOME</option>
 <option_set>condition_faction_income_low</option_set>
@@ -2016,6 +2044,13 @@
 <option_set>3k_main_tutorial_progression_liu_bei_primary_dilemma_scripted</option_set>
 <target>default</target>
 <value>3k_main_faction_liu_bei</value>
+</cdir_event_option_set_items>
+<cdir_event_option_set_items record_uuid="{896c8f53-0bb1-4633-b160-16a6546ae2e0}" record_timestamp="1561134823110" record_key="600324248">
+<id>600324248</id>
+<option>GEN_TARGET_FACTION</option>
+<option_set>ep_milestone_set_no_jin</option_set>
+<target>target_faction_1</target>
+<value></value>
 </cdir_event_option_set_items>
 <cdir_event_option_set_items record_uuid="{0953f87b-8f6c-4dc3-8128-fe932315fc63}" record_timestamp="1542909920781" record_key="601721733">
 <id>601721733</id>
@@ -2149,6 +2184,13 @@
 <option_set>3k_main_tutorial_progression_zheng_jiang_primary_dilemma_scripted</option_set>
 <target>target_character_1</target>
 <value></value>
+</cdir_event_option_set_items>
+<cdir_event_option_set_items record_uuid="{46723f54-08e2-499c-a050-974fde37c1a0}" record_timestamp="1554741473519" record_key="706707251">
+<id>706707251</id>
+<option>GEN_CND_FACTION</option>
+<option_set>ep_milestone_set_standard</option_set>
+<target>target_faction_2</target>
+<value>ep_faction_empire_of_jin</value>
 </cdir_event_option_set_items>
 <cdir_event_option_set_items record_uuid="{8eb213f0-8113-4119-87f7-daa83c397fa1}" record_timestamp="1542464909609" record_key="70867542">
 <id>70867542</id>
@@ -2297,7 +2339,7 @@
 <target>mission_objective</target>
 <value>target_faction_eligable_for_war_neighbouring_mission</value>
 </cdir_event_option_set_items>
-<cdir_event_option_set_items record_uuid="{56cf657a-b057-4943-a58f-541277db36b5}" record_timestamp="1553871509310" record_key="836370303">
+<cdir_event_option_set_items record_uuid="{56cf657a-b057-4943-a58f-541277db36b5}" record_timestamp="1554887391106" record_key="836370303">
 <id>836370303</id>
 <option>META_OPTION_SET</option>
 <option_set>target_faction_friendly_not_allied_not_vassal_mission</option_set>
@@ -2346,7 +2388,7 @@
 <target>mission_objective</target>
 <value></value>
 </cdir_event_option_set_items>
-<cdir_event_option_set_items record_uuid="{0dd4ef19-e366-47ca-be36-f7e998bc5fcc}" record_timestamp="1552500739063" record_key="848147254">
+<cdir_event_option_set_items record_uuid="{0dd4ef19-e366-47ca-be36-f7e998bc5fcc}" record_timestamp="1542647101904" record_key="848147254">
 <id>848147254</id>
 <option>GEN_CND_CHARACTER_TEMPLATE</option>
 <option_set>3k_main_tutorial_progression_zheng_jiang_primary_dilemma_scripted</option_set>
@@ -2394,6 +2436,13 @@
 <option_set>3k_main_target_character_owned_minister_water_c3</option_set>
 <target>target_character_3</target>
 <value>3k_main_court_offices_minister_water</value>
+</cdir_event_option_set_items>
+<cdir_event_option_set_items record_uuid="{a07c1c95-051e-4ea3-a4aa-11f432c437b1}" record_timestamp="1554741473520" record_key="872276955">
+<id>872276955</id>
+<option>GEN_CND_SELF</option>
+<option_set>ep_milestone_set_standard</option_set>
+<target>target_faction_1</target>
+<value></value>
 </cdir_event_option_set_items>
 <cdir_event_option_set_items record_uuid="{f695d4c7-1b6e-4336-8190-5c240b1a828d}" record_timestamp="1542464892981" record_key="875213644">
 <id>875213644</id>
@@ -2493,7 +2542,7 @@
 <target>mission_objective</target>
 <value></value>
 </cdir_event_option_set_items>
-<cdir_event_option_set_items record_uuid="{a2d4ee95-5bb2-443e-8e83-b8ea87bbae55}" record_timestamp="1553871509309" record_key="941787288">
+<cdir_event_option_set_items record_uuid="{a2d4ee95-5bb2-443e-8e83-b8ea87bbae55}" record_timestamp="1554887391106" record_key="941787288">
 <id>941787288</id>
 <option>GEN_CND_NOT_HAS_DIPLOMATIC_CONDITION</option>
 <option_set>target_faction_friendly_not_allied_not_vassal_mission</option_set>
@@ -2577,18 +2626,25 @@
 <target>target_character_1</target>
 <value></value>
 </cdir_event_option_set_items>
-<cdir_event_option_set_items record_uuid="{3511b2bb-7adf-499a-8be8-0384f33c3eea}" record_timestamp="1550241218641" record_key="990578371">
+<cdir_event_option_set_items record_uuid="{3511b2bb-7adf-499a-8be8-0384f33c3eea}" record_timestamp="1551784705237" record_key="990578371">
 <id>990578371</id>
 <option>GEN_CND_HAS_DIPLOMATIC_CONDITION</option>
 <option_set>target_faction_eligable_for_peace_mission</option_set>
 <target>mission_objective</target>
 <value>diplomatic_condition_war_any</value>
 </cdir_event_option_set_items>
-<cdir_event_option_set_items record_uuid="{342f9f4f-0aeb-452d-b283-91948832e82c}" record_timestamp="1550241218520" record_key="995647748">
+<cdir_event_option_set_items record_uuid="{342f9f4f-0aeb-452d-b283-91948832e82c}" record_timestamp="1551784705236" record_key="995647748">
 <id>995647748</id>
 <option>GEN_TARGET_FACTION</option>
 <option_set>target_faction_eligable_for_peace_mission</option_set>
 <target>mission_objective</target>
+<value></value>
+</cdir_event_option_set_items>
+<cdir_event_option_set_items record_uuid="{9a960ff1-a24c-4466-abd1-b7ca3e627447}" record_timestamp="1554741473520" record_key="999048117">
+<id>999048117</id>
+<option>GEN_TARGET_FACTION</option>
+<option_set>ep_milestone_set_standard</option_set>
+<target>target_faction_2</target>
 <value></value>
 </cdir_event_option_set_items>
 </dataroot>

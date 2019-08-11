@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dynamic_loading_screen_events.xsd" export_time="Thu Dec 6 11:08:51 2018" revision="13" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1227/dave" export_user="bob">
-<edit_uuid>aece5855-5c0b-4ad6-b570-aaad1ffb1b9e</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dynamic_loading_screen_events.xsd" export_time="Wed May 15 15:21:36 2019" revision="14" export_branch="C:/Users/jack.lusted/AppData/Roaming/TWDaemon/1465/dave" export_user="bob">
+<edit_uuid>b5da13ec-c2d6-4a72-a1fb-23e635e91a3c</edit_uuid>
 <dynamic_loading_screen_events record_uuid="{991c6aca-00a1-410c-aae4-5828841202de}" record_timestamp="1529424795221" record_key="ai_vassalized">
 <category>Diplomacy</category>
 <evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
@@ -104,6 +104,38 @@
 <key>enemy_faction_leader_death</key>
 <priority>10</priority>
 <turns_to_expire>10</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{03905042-f05e-44ff-b085-ff71ba95ce34}" record_timestamp="1557930096936" record_key="ep_campaign_begins_1">
+<category>War</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>ep_campaign_begins_1</key>
+<priority>1</priority>
+<turns_to_expire>1</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{a237c573-ce97-49a2-a0e3-839fde574c64}" record_timestamp="1557930096936" record_key="ep_campaign_begins_2">
+<category>War</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>ep_campaign_begins_2</key>
+<priority>2</priority>
+<turns_to_expire>1</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{498b9c75-a9e1-46fd-a088-d9cfd20b2ea5}" record_timestamp="1557930096936" record_key="ep_campaign_begins_3">
+<category>War</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>ep_campaign_begins_3</key>
+<priority>3</priority>
+<turns_to_expire>1</turns_to_expire>
+</dynamic_loading_screen_events>
+<dynamic_loading_screen_events record_uuid="{133163ca-bde6-4282-a235-404b9d7cb8de}" record_timestamp="1557930096936" record_key="ep_campaign_begins_4">
+<category>War</category>
+<evaluation_type>ON_EVENT_TRIGGERED</evaluation_type>
+<event_feed_trigger_keys></event_feed_trigger_keys>
+<key>ep_campaign_begins_4</key>
+<priority>4</priority>
+<turns_to_expire>1</turns_to_expire>
 </dynamic_loading_screen_events>
 <dynamic_loading_screen_events record_uuid="{c97d246b-7b19-4c1c-a36c-ff53c0affa18}" record_timestamp="1529424795221" record_key="faction_destroyed">
 <category>Diplomacy</category>

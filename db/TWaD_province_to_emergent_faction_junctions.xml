@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE TWaD_province_to_emergent_faction_junctions>
 <root>
-<edit_uuid>6e4936aa-9bb0-40fc-a3ca-b2d2ff25e0ac</edit_uuid>
+<edit_uuid>2fc63656-b134-4875-98ae-90c2fa4bccd1</edit_uuid>
 <include_all_records_in_retail>1</include_all_records_in_retail>
 <field>
 <field_uuid>{bd386fb0-f853-4588-a2cc-6ad5cb6598a6}</field_uuid>
@@ -24,6 +24,18 @@
 <max_length>255</max_length>
 <column_source_column>key</column_source_column>
 <column_source_table>factions</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{4689f0be-199c-40bb-9bbf-ddf1706881bf}</field_uuid>
+<primary_key>1</primary_key>
+<name>campaign</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>campaign_name</column_source_column>
+<column_source_table>campaigns</column_source_table>
 <requires_startpos_reprocess>0</requires_startpos_reprocess>
 <requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
 </field>

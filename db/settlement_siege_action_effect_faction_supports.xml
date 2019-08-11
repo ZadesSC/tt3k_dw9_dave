@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="settlement_siege_action_effect_faction_supports.xsd" export_time="Mon Dec 17 18:26:15 2018" revision="7" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1235/dave" export_user="bob">
-<edit_uuid>e58df406-40d7-4c0e-bf1f-31d8136c990b</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="settlement_siege_action_effect_faction_supports.xsd" export_time="Tue Jun 4 18:35:40 2019" revision="8" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1501/dave" export_user="bob">
+<edit_uuid>a2d4a5ad-f8bf-4e15-a4a9-2db77c3b4305</edit_uuid>
 <settlement_siege_action_effect_faction_supports record_uuid="{d922943e-4928-4397-bb18-baf258f69319}" record_timestamp="1541494039699" record_key="action_effects_colonise_cancel_post_outcome">
 <effect_group_record>action_effects_colonise_cancel_post_outcome</effect_group_record>
 <faction_support_value>0</faction_support_value>
@@ -41,6 +41,10 @@
 <effect_group_record>action_effects_loot_and_occupy_major_post_outcome</effect_group_record>
 <faction_support_value>-10</faction_support_value>
 </settlement_siege_action_effect_faction_supports>
+<settlement_siege_action_effect_faction_supports record_uuid="{bbb093b7-d431-466e-9fa2-fee082436b32}" record_timestamp="1559669707738" record_key="action_effects_loot_and_occupy_major_sima_wei_post_outcome">
+<effect_group_record>action_effects_loot_and_occupy_major_sima_wei_post_outcome</effect_group_record>
+<faction_support_value>-10</faction_support_value>
+</settlement_siege_action_effect_faction_supports>
 <settlement_siege_action_effect_faction_supports record_uuid="{b27b1966-5294-4d3e-b82b-47bf4612ad04}" record_timestamp="1541494039699" record_key="action_effects_loot_and_occupy_major_zheng_jiang_post_outcome">
 <effect_group_record>action_effects_loot_and_occupy_major_zheng_jiang_post_outcome</effect_group_record>
 <faction_support_value>-10</faction_support_value>
@@ -51,6 +55,10 @@
 </settlement_siege_action_effect_faction_supports>
 <settlement_siege_action_effect_faction_supports record_uuid="{8be10d52-867d-4ffb-989b-ee929300470c}" record_timestamp="1541494039699" record_key="action_effects_loot_and_occupy_minor_post_outcome">
 <effect_group_record>action_effects_loot_and_occupy_minor_post_outcome</effect_group_record>
+<faction_support_value>-10</faction_support_value>
+</settlement_siege_action_effect_faction_supports>
+<settlement_siege_action_effect_faction_supports record_uuid="{32128bdb-b8ef-4fe7-acde-876643c9653f}" record_timestamp="1559669708227" record_key="action_effects_loot_and_occupy_minor_sima_wei_post_outcome">
+<effect_group_record>action_effects_loot_and_occupy_minor_sima_wei_post_outcome</effect_group_record>
 <faction_support_value>-10</faction_support_value>
 </settlement_siege_action_effect_faction_supports>
 <settlement_siege_action_effect_faction_supports record_uuid="{3d3f2bbc-3e22-4e07-9f71-d954d1df1bf2}" record_timestamp="1541494039699" record_key="action_effects_loot_and_occupy_minor_zheng_jiang_post_outcome">
@@ -109,6 +117,10 @@
 <effect_group_record>action_effects_sack_and_withdraw_major_post_outcome</effect_group_record>
 <faction_support_value>-5</faction_support_value>
 </settlement_siege_action_effect_faction_supports>
+<settlement_siege_action_effect_faction_supports record_uuid="{eb9d888a-b7ff-4185-b608-d0ba955c6924}" record_timestamp="1559669708065" record_key="action_effects_sack_and_withdraw_major_sima_wei_post_outcome">
+<effect_group_record>action_effects_sack_and_withdraw_major_sima_wei_post_outcome</effect_group_record>
+<faction_support_value>0</faction_support_value>
+</settlement_siege_action_effect_faction_supports>
 <settlement_siege_action_effect_faction_supports record_uuid="{f65ee473-9a87-4fc9-94f3-0c6c82c7f98d}" record_timestamp="1541494039699" record_key="action_effects_sack_and_withdraw_major_zheng_jiang_post_outcome">
 <effect_group_record>action_effects_sack_and_withdraw_major_zheng_jiang_post_outcome</effect_group_record>
 <faction_support_value>-5</faction_support_value>
@@ -124,6 +136,10 @@
 <settlement_siege_action_effect_faction_supports record_uuid="{36436341-35f9-4482-b269-a84d15e91eb8}" record_timestamp="1541494039699" record_key="action_effects_sack_and_withdraw_minor_post_outcome">
 <effect_group_record>action_effects_sack_and_withdraw_minor_post_outcome</effect_group_record>
 <faction_support_value>-5</faction_support_value>
+</settlement_siege_action_effect_faction_supports>
+<settlement_siege_action_effect_faction_supports record_uuid="{25a39bc7-a14b-449a-8cb4-b8fa2777999c}" record_timestamp="1559669707902" record_key="action_effects_sack_and_withdraw_minor_sima_wei_post_outcome">
+<effect_group_record>action_effects_sack_and_withdraw_minor_sima_wei_post_outcome</effect_group_record>
+<faction_support_value>0</faction_support_value>
 </settlement_siege_action_effect_faction_supports>
 <settlement_siege_action_effect_faction_supports record_uuid="{08b6e2f1-3b76-434a-b751-6b4018d567e3}" record_timestamp="1541494039699" record_key="action_effects_sack_and_withdraw_minor_zheng_jiang_post_outcome">
 <effect_group_record>action_effects_sack_and_withdraw_minor_zheng_jiang_post_outcome</effect_group_record>

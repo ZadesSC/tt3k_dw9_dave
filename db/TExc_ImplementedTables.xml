@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TExc_ImplementedTables.xsd" export_time="Thu May 16 17:07:05 2019" revision="958" export_branch="E:/Total War/branches/3k/patch1/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>d63d2543-612b-48a6-8812-a61e786146be</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TExc_ImplementedTables.xsd" export_time="Mon Jul 8 09:11:37 2019" revision="950" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1566/dave" export_user="bob">
+<edit_uuid>1a877596-fdf3-4459-bf0b-73f57c1aebba</edit_uuid>
 <TExc_ImplementedTables record_uuid="{eb7ac1a6-8e6e-415e-9e03-4eb9579a5879}" record_key="BuildingImporterTable">
 <Designer>CA</Designer>
 <Implemented>0</Implemented>
@@ -369,6 +369,22 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>agent_subtype_subculture_overrides</table_name>
 </TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{1481368d-411f-47b4-9664-f6822b489e2a}" record_timestamp="1562573494395" record_key="agent_subtype_weighted_selection_set_to_weights">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>non-pack</destination_pack>
+<table_name>agent_subtype_weighted_selection_set_to_weights</table_name>
+</TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{19dafc2a-4b61-40b0-950d-c5db80f1b86f}" record_timestamp="1562573493085" record_key="agent_subtype_weighted_selection_sets">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>non-pack</destination_pack>
+<table_name>agent_subtype_weighted_selection_sets</table_name>
+</TExc_ImplementedTables>
 <TExc_ImplementedTables record_uuid="{d80cc4da-7d4a-4cc0-ae1b-db7b7b764485}" record_timestamp="1427898110768" record_key="agent_subtypes">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
@@ -424,6 +440,30 @@
 <Modified>0</Modified>
 <destination_pack>non-pack</destination_pack>
 <table_name>agent_voice_events_junctions</table_name>
+</TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{904d29bf-7dde-4951-9ee0-2aeb624fd86d}" record_timestamp="1562573493085" record_key="agent_weighted_selection_set_group_lookups">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>non-pack</destination_pack>
+<table_name>agent_weighted_selection_set_group_lookups</table_name>
+</TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{76fed40f-e740-407e-ab37-81498bb18916}" record_timestamp="1562573493085" record_key="agent_weighted_selection_sets">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>non-pack</destination_pack>
+<table_name>agent_weighted_selection_sets</table_name>
+</TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{6be239a1-1b91-4b3d-b25f-2f16c29f26e4}" record_timestamp="1562573494395" record_key="agent_weighted_selection_to_subtype_sets">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>non-pack</destination_pack>
+<table_name>agent_weighted_selection_to_subtype_sets</table_name>
 </TExc_ImplementedTables>
 <TExc_ImplementedTables record_uuid="{9513c301-d44a-413b-9334-f6ea6c5673a7}" record_key="agents">
 <Designer>CA</Designer>
@@ -712,6 +752,14 @@
 <Modified>0</Modified>
 <destination_pack>non-pack</destination_pack>
 <table_name>army_special_abilities</table_name>
+</TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{5b274ccc-1c3b-448d-9fd6-8c959933b79e}" record_timestamp="1562570905885" record_key="assembly_kit_localisation_texts">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>loc-only</destination_pack>
+<table_name>assembly_kit_localisation_texts</table_name>
 </TExc_ImplementedTables>
 <TExc_ImplementedTables record_uuid="{cc5749d8-91ff-49f4-b63f-3ed64a17102b}" record_timestamp="1429198982980" record_key="audio_abilities">
 <Designer>CA</Designer>
@@ -2184,6 +2232,14 @@
 <Modified>0</Modified>
 <destination_pack>non-pack</destination_pack>
 <table_name>battle_result_types</table_name>
+</TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{f5e137b2-579b-4fa7-8c85-728b524f2cf4}" record_timestamp="1550770291802" record_key="battle_scoring_profiles">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>non-pack</destination_pack>
+<table_name>battle_scoring_profiles</table_name>
 </TExc_ImplementedTables>
 <TExc_ImplementedTables record_uuid="{8a1ba690-0bd7-4ecf-8e72-f18a6540d6f9}" record_key="battle_script_advice_strings">
 <Designer>CA</Designer>
@@ -5665,7 +5721,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_difficulty_handicap_effects</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{b4b39326-cbed-4c92-a998-9dc1c230e9fb}" record_timestamp="1552584831099" record_key="campaign_diplomacy_alliance_name_group_names">
+<TExc_ImplementedTables record_uuid="{b4b39326-cbed-4c92-a998-9dc1c230e9fb}" record_timestamp="1554883488026" record_key="campaign_diplomacy_alliance_name_group_names">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -5673,7 +5729,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_diplomacy_alliance_name_group_names</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{740d34a5-c2cb-4d50-a2a2-b799a7f862e7}" record_timestamp="1552584831080" record_key="campaign_diplomacy_alliance_name_groups">
+<TExc_ImplementedTables record_uuid="{740d34a5-c2cb-4d50-a2a2-b799a7f862e7}" record_timestamp="1554883488018" record_key="campaign_diplomacy_alliance_name_groups">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -6041,7 +6097,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_diplomacy_followup_negotiation_participant_factions</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{d14d850d-38f2-4391-8378-e7f872b48dba}" record_timestamp="1550663777174" record_key="campaign_diplomacy_followup_negotiation_participant_variables">
+<TExc_ImplementedTables record_uuid="{d14d850d-38f2-4391-8378-e7f872b48dba}" record_timestamp="1551785101443" record_key="campaign_diplomacy_followup_negotiation_participant_variables">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -6089,7 +6145,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_diplomacy_followup_negotiation_proposed_component_value_parameters</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{d35c5612-98c9-4bf0-b4f7-42ed206d152c}" record_timestamp="1550663781335" record_key="campaign_diplomacy_followup_negotiation_proposed_component_variable_parameters">
+<TExc_ImplementedTables record_uuid="{d35c5612-98c9-4bf0-b4f7-42ed206d152c}" record_timestamp="1551785101493" record_key="campaign_diplomacy_followup_negotiation_proposed_component_variable_parameters">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -6105,7 +6161,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_diplomacy_followup_negotiation_proposed_components</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{e5903052-8d2d-4e5b-8b9b-705dacdcf4c6}" record_timestamp="1550663777540" record_key="campaign_diplomacy_followup_negotiation_requirements">
+<TExc_ImplementedTables record_uuid="{e5903052-8d2d-4e5b-8b9b-705dacdcf4c6}" record_timestamp="1551785101444" record_key="campaign_diplomacy_followup_negotiation_requirements">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -6257,7 +6313,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_diplomacy_negotiation_automatic_responses</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{cb53a8a1-e7f4-4d65-a8c1-3978751fc122}" record_timestamp="1550065628529" record_key="campaign_diplomacy_negotiation_categories">
+<TExc_ImplementedTables record_uuid="{cb53a8a1-e7f4-4d65-a8c1-3978751fc122}" record_timestamp="1551783714247" record_key="campaign_diplomacy_negotiation_categories">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -6265,7 +6321,7 @@
 <destination_pack></destination_pack>
 <table_name>campaign_diplomacy_negotiation_categories</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{2ac5555a-ce75-4e31-9282-ffcc00206920}" record_timestamp="1550065496729" record_key="campaign_diplomacy_negotiation_category_types">
+<TExc_ImplementedTables record_uuid="{2ac5555a-ce75-4e31-9282-ffcc00206920}" record_timestamp="1551783714248" record_key="campaign_diplomacy_negotiation_category_types">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -6425,7 +6481,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_diplomacy_parameters</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{c0f1375f-3651-4793-aadb-1e419a081315}" record_timestamp="1551875086050" record_key="campaign_diplomacy_pool_available_limit_types">
+<TExc_ImplementedTables record_uuid="{c0f1375f-3651-4793-aadb-1e419a081315}" record_timestamp="1554881236620" record_key="campaign_diplomacy_pool_available_limit_types">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -6433,7 +6489,7 @@
 <destination_pack></destination_pack>
 <table_name>campaign_diplomacy_pool_available_limit_types</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{212c2fdd-1716-406a-b46a-d3ec9d13fa8c}" record_timestamp="1551875086128" record_key="campaign_diplomacy_pool_available_limits">
+<TExc_ImplementedTables record_uuid="{212c2fdd-1716-406a-b46a-d3ec9d13fa8c}" record_timestamp="1554881236621" record_key="campaign_diplomacy_pool_available_limits">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -6601,7 +6657,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_diplomacy_treaty_component_proposes_treaty_components</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{5e6257b9-a8a1-4dd0-b7dc-9dccf8b2c3b5}" record_timestamp="1558022815023" record_key="campaign_diplomacy_treaty_component_removal_required_treaties">
+<TExc_ImplementedTables record_uuid="{5e6257b9-a8a1-4dd0-b7dc-9dccf8b2c3b5}" record_timestamp="1558601288383" record_key="campaign_diplomacy_treaty_component_removal_required_treaties">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -6609,7 +6665,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_diplomacy_treaty_component_removal_required_treaties</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{6d66135f-5d65-4bfd-ad24-1373669c4c93}" record_timestamp="1558022815020" record_key="campaign_diplomacy_treaty_component_removal_types">
+<TExc_ImplementedTables record_uuid="{6d66135f-5d65-4bfd-ad24-1373669c4c93}" record_timestamp="1558601288381" record_key="campaign_diplomacy_treaty_component_removal_types">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -7057,6 +7113,14 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_group_agent_cost_pooled_resource_conversion_rates</table_name>
 </TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{234c4f8a-4fde-4ef6-9a8f-13310b36dc6f}" record_timestamp="1556273411673" record_key="campaign_group_building_level_garrison_retinues">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>non-pack</destination_pack>
+<table_name>campaign_group_building_level_garrison_retinues</table_name>
+</TExc_ImplementedTables>
 <TExc_ImplementedTables record_uuid="{3b92504c-9c1f-48e5-800e-820c4140fbbc}" record_timestamp="1548677373232" record_key="campaign_group_campaign_diplomacy_treaty_component_set_queries">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
@@ -7297,6 +7361,14 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_group_member_criteria_building_slot_groups</table_name>
 </TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{3fe21b83-7ea7-41c4-89ee-6a23ef5c5dc6}" record_timestamp="1556273411673" record_key="campaign_group_member_criteria_campaign_contexts">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>loc-only</destination_pack>
+<table_name>campaign_group_member_criteria_campaign_contexts</table_name>
+</TExc_ImplementedTables>
 <TExc_ImplementedTables record_uuid="{84ff186c-3725-4fe4-a637-1d8e65c44733}" record_timestamp="1503657241700" record_key="campaign_group_member_criteria_campaign_diplomacy_treaty_component_set_contexts">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
@@ -7417,7 +7489,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_group_member_criteria_character_relationships</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{a7fa6d31-f0f7-42ed-80d2-6f356c216a28}" record_timestamp="1551718814510" record_key="campaign_group_member_criteria_climates">
+<TExc_ImplementedTables record_uuid="{a7fa6d31-f0f7-42ed-80d2-6f356c216a28}" record_timestamp="1554880906233" record_key="campaign_group_member_criteria_climates">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -7465,7 +7537,7 @@
 <destination_pack></destination_pack>
 <table_name>campaign_group_member_criteria_faction_contexts</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{b41acc6b-3210-4948-9c15-6388fa8326a5}" record_timestamp="1551718814511" record_key="campaign_group_member_criteria_faction_resources">
+<TExc_ImplementedTables record_uuid="{b41acc6b-3210-4948-9c15-6388fa8326a5}" record_timestamp="1554880906233" record_key="campaign_group_member_criteria_faction_resources">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -7657,7 +7729,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_group_member_criteria_sea_region_control_statuses</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{e04e5881-fa4d-4c21-8269-7c94cd92b51b}" record_timestamp="1551718814510" record_key="campaign_group_member_criteria_seasons">
+<TExc_ImplementedTables record_uuid="{e04e5881-fa4d-4c21-8269-7c94cd92b51b}" record_timestamp="1554880906233" record_key="campaign_group_member_criteria_seasons">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -8025,6 +8097,14 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_map_areas_of_interest_label_positions</table_name>
 </TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{2d5c324b-5bef-4fff-842a-0afe0252cb2c}" record_timestamp="1562573496890" record_key="campaign_map_attrition_application_phases">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>loc-only</destination_pack>
+<table_name>campaign_map_attrition_application_phases</table_name>
+</TExc_ImplementedTables>
 <TExc_ImplementedTables record_uuid="{c0476f3b-0b7c-4aef-929c-797871d7e308}" record_key="campaign_map_attrition_damages">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
@@ -8153,7 +8233,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_map_road_objects_display_models</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{9f965b36-cae2-47a4-98be-6c33a8bd9e62}" record_timestamp="1550252410775" record_key="campaign_map_road_objects_display_trade_groups">
+<TExc_ImplementedTables record_uuid="{9f965b36-cae2-47a4-98be-6c33a8bd9e62}" record_timestamp="1551784826875" record_key="campaign_map_road_objects_display_trade_groups">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -8769,7 +8849,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>campaign_public_order_populace_effects</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{6878124b-549f-461d-8c4c-78be585c7d8f}" record_timestamp="1550762612374" record_key="campaign_region_additional_adjacency_rules">
+<TExc_ImplementedTables record_uuid="{6878124b-549f-461d-8c4c-78be585c7d8f}" record_timestamp="1551785404028" record_key="campaign_region_additional_adjacency_rules">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -10721,7 +10801,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>character_attributes</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{f74b8bed-2885-4e19-8e38-e293c71ffb70}" record_timestamp="1551278590229" record_key="character_created_past_experiences">
+<TExc_ImplementedTables record_uuid="{f74b8bed-2885-4e19-8e38-e293c71ffb70}" record_timestamp="1551788382287" record_key="character_created_past_experiences">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -10729,7 +10809,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>character_created_past_experiences</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{da756328-7757-4f01-b8c0-efd2ea40e891}" record_timestamp="1551278590228" record_key="character_created_relationship_triggers">
+<TExc_ImplementedTables record_uuid="{da756328-7757-4f01-b8c0-efd2ea40e891}" record_timestamp="1551788382287" record_key="character_created_relationship_triggers">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -11985,6 +12065,30 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>dynamic_loading_screen_starting_faction_events</table_name>
 </TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{f1cbf486-7e7d-422d-825b-cad742d05fad}" record_timestamp="1550588542078" record_key="dynasty_mode_characters">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>non-pack</destination_pack>
+<table_name>dynasty_mode_characters</table_name>
+</TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{08e29279-be57-46fd-a618-182389c516ad}" record_timestamp="1551700121821" record_key="dynasty_upgrade_types">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>loc-only</destination_pack>
+<table_name>dynasty_upgrade_types</table_name>
+</TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{b6f5794c-70dd-4046-b6eb-76c62df1f98e}" record_timestamp="1551700121825" record_key="dynasty_upgrades">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>non-pack</destination_pack>
+<table_name>dynasty_upgrades</table_name>
+</TExc_ImplementedTables>
 <TExc_ImplementedTables record_uuid="{2ed2026e-e208-4558-8d2e-4e0170b4b494}" record_timestamp="1401714569686" record_key="effect_bonus_value_agent_action_record_junctions">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
@@ -12449,7 +12553,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>effect_categories</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{a9b41218-988c-415e-ab19-56e3aeb64632}" record_timestamp="1552295203006" record_key="effect_ui_categories">
+<TExc_ImplementedTables record_uuid="{a9b41218-988c-415e-ab19-56e3aeb64632}" record_timestamp="1554882395225" record_key="effect_ui_categories">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -13001,7 +13105,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>faction_resources_building_levels_requirements_junctions</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{ce7305db-fc5b-4c0c-ae86-60bc9df532fc}" record_timestamp="1551539833239" record_key="faction_resources_requirement_set_operators">
+<TExc_ImplementedTables record_uuid="{ce7305db-fc5b-4c0c-ae86-60bc9df532fc}" record_timestamp="1540981526213" record_key="faction_resources_requirement_set_operators">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -13193,7 +13297,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>first_person_engines</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{960f5a79-31dc-4846-9375-469036d740d2}" record_timestamp="1552403152953" record_key="font_names">
+<TExc_ImplementedTables record_uuid="{960f5a79-31dc-4846-9375-469036d740d2}" record_key="font_names">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -13201,7 +13305,7 @@
 <destination_pack>loc-only</destination_pack>
 <table_name>font_names</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{f71daf97-8739-4cc9-a1de-8bd262fb7ac4}" record_timestamp="1552403152953" record_key="fonts">
+<TExc_ImplementedTables record_uuid="{f71daf97-8739-4cc9-a1de-8bd262fb7ac4}" record_key="fonts">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -13312,6 +13416,14 @@
 <Modified>0</Modified>
 <destination_pack>non-pack</destination_pack>
 <table_name>frontend_faction_leaders_to_frontend_faction_leader_unique_features_junctions</table_name>
+</TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{99551464-b0f8-4b6e-ae50-7da412b24c41}" record_timestamp="1560170499709" record_key="frontend_faction_map_relationships">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>non-pack</destination_pack>
+<table_name>frontend_faction_map_relationships</table_name>
 </TExc_ImplementedTables>
 <TExc_ImplementedTables record_uuid="{d3ae31fb-e081-470f-ac7b-67a09469fa18}" record_timestamp="1452436198448" record_key="frontend_faction_top_units">
 <Designer>CA</Designer>
@@ -13736,6 +13848,14 @@
 <Modified>0</Modified>
 <destination_pack>non-pack</destination_pack>
 <table_name>land_units_to_deployables_abilities_junctions</table_name>
+</TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{cc15c3b3-30a5-4996-8324-65208d7998b8}" record_timestamp="1552319370883" record_key="land_units_to_dynasty_upgrades_junctions">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>non-pack</destination_pack>
+<table_name>land_units_to_dynasty_upgrades_junctions</table_name>
 </TExc_ImplementedTables>
 <TExc_ImplementedTables record_uuid="{980fe481-ee56-46e7-b3f5-34c9b191ee61}" record_key="land_units_to_unit_abilites_junctions">
 <Designer>CA</Designer>
@@ -14521,6 +14641,14 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>name_orders</table_name>
 </TExc_ImplementedTables>
+<TExc_ImplementedTables record_uuid="{52b8fab3-5430-4f75-9b05-517fd12af923}" record_timestamp="1560177495368" record_key="name_restricted_combinations">
+<Designer>CA</Designer>
+<Implemented>1</Implemented>
+<Implementer>CA</Implementer>
+<Modified>0</Modified>
+<destination_pack>non-pack</destination_pack>
+<table_name>name_restricted_combinations</table_name>
+</TExc_ImplementedTables>
 <TExc_ImplementedTables record_uuid="{2335e860-df90-4d81-94d3-1e1d70c21f31}" record_key="name_types">
 <Designer>CA</Designer>
 <Implemented>0</Implemented>
@@ -15289,7 +15417,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>provincial_resources_building_levels_requirements_junctions</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{8c27037f-2189-4624-8933-c6a3f2ee0bbe}" record_timestamp="1551539833239" record_key="provincial_resources_requirement_set_operators">
+<TExc_ImplementedTables record_uuid="{8c27037f-2189-4624-8933-c6a3f2ee0bbe}" record_timestamp="1519390285808" record_key="provincial_resources_requirement_set_operators">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -16793,7 +16921,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>subtitles</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{75ad0a9e-aaa2-47bf-99c4-47c35e68d40d}" record_timestamp="1551175599481" record_key="tax_level_resource_transactions_junctions">
+<TExc_ImplementedTables record_uuid="{75ad0a9e-aaa2-47bf-99c4-47c35e68d40d}" record_timestamp="1551788110492" record_key="tax_level_resource_transactions_junctions">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -17585,7 +17713,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>ui_diplomacy_deal_signed_animations</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{b720c8b6-b518-4f73-9956-4708c741ccb9}" record_timestamp="1551972587531" record_key="ui_diplomacy_followup_components_to_campaign_components">
+<TExc_ImplementedTables record_uuid="{b720c8b6-b518-4f73-9956-4708c741ccb9}" record_timestamp="1554881790912" record_key="ui_diplomacy_followup_components_to_campaign_components">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -17593,7 +17721,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>ui_diplomacy_followup_components_to_campaign_components</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{1e5feef6-534f-4a42-8811-c4b92c453226}" record_timestamp="1551972587525" record_key="ui_diplomacy_followup_negotiation_components">
+<TExc_ImplementedTables record_uuid="{1e5feef6-534f-4a42-8811-c4b92c453226}" record_timestamp="1554881790896" record_key="ui_diplomacy_followup_negotiation_components">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -17601,7 +17729,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>ui_diplomacy_followup_negotiation_components</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{13360771-d157-43da-b0f4-e4910cc6bf2d}" record_timestamp="1552040448182" record_key="ui_diplomacy_followup_negotiation_components_player_visibilities">
+<TExc_ImplementedTables record_uuid="{13360771-d157-43da-b0f4-e4910cc6bf2d}" record_timestamp="1554882098706" record_key="ui_diplomacy_followup_negotiation_components_player_visibilities">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -17625,7 +17753,7 @@
 <destination_pack>loc-only</destination_pack>
 <table_name>ui_diplomacy_panel_types</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{c260430c-dcb0-447c-8e80-d49d681bc6ab}" record_timestamp="1553089244075" record_key="ui_diplomacy_participants">
+<TExc_ImplementedTables record_uuid="{c260430c-dcb0-447c-8e80-d49d681bc6ab}" record_timestamp="1554885161730" record_key="ui_diplomacy_participants">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -17681,7 +17809,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>ui_diplomacy_treaty_component_evaluation_primary_criterias</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{fa214619-bf78-4cca-986f-c1b666c06795}" record_timestamp="1554112717397" record_key="ui_diplomacy_treaty_component_zoom_styles">
+<TExc_ImplementedTables record_uuid="{fa214619-bf78-4cca-986f-c1b666c06795}" record_timestamp="1554887411389" record_key="ui_diplomacy_treaty_component_zoom_styles">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>
@@ -17721,7 +17849,7 @@
 <destination_pack>non-pack</destination_pack>
 <table_name>ui_diplomacy_treaty_components_to_deal_signed_animations_junctions</table_name>
 </TExc_ImplementedTables>
-<TExc_ImplementedTables record_uuid="{25a283db-f76f-414a-b155-177e02ec41b3}" record_timestamp="1552992941271" record_key="ui_diplomatic_deals_bankruptcy_highlights">
+<TExc_ImplementedTables record_uuid="{25a283db-f76f-414a-b155-177e02ec41b3}" record_timestamp="1554885026525" record_key="ui_diplomatic_deals_bankruptcy_highlights">
 <Designer>CA</Designer>
 <Implemented>1</Implemented>
 <Implementer>CA</Implementer>

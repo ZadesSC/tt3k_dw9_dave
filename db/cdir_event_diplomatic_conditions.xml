@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cdir_event_diplomatic_conditions.xsd" export_time="Thu Apr 11 16:39:15 2019" revision="16" export_branch="C:/Users/simon.mann/AppData/Roaming/TWDaemon/1434/dave" export_user="bob">
-<edit_uuid>26837db1-847b-456b-888b-7931db0a334b</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cdir_event_diplomatic_conditions.xsd" export_time="Fri Jul 5 14:27:23 2019" revision="16" export_branch="C:/Users/william.wright/AppData/Roaming/TWDaemon/1566/dave" export_user="bob">
+<edit_uuid>d1885372-ab2b-4770-a8f7-445ccb0b3653</edit_uuid>
+<cdir_event_diplomatic_conditions record_uuid="{37832106-ac05-4bb8-ac7b-51187796bcfd}" record_timestamp="1562333239723" record_key="diplomatic_condition_alliance_empire_of_jin">
+<key>diplomatic_condition_alliance_empire_of_jin</key>
+<treaty_component_set>treaty_component_set_diplomatic_relationship_alliance</treaty_component_set>
+<valid_for_rebels>0</valid_for_rebels>
+</cdir_event_diplomatic_conditions>
 <cdir_event_diplomatic_conditions record_uuid="{15be727a-2828-4c02-bd57-ce5aa032740b}" record_timestamp="1549477445622" record_key="diplomatic_condition_coalition_any">
 <key>diplomatic_condition_coalition_any</key>
 <treaty_component_set>treaty_component_set_diplomatic_relationship_coalition</treaty_component_set>
 <valid_for_rebels>0</valid_for_rebels>
 </cdir_event_diplomatic_conditions>
-<cdir_event_diplomatic_conditions record_uuid="{046462e6-406f-4c17-8083-8fced27de990}" record_timestamp="1551875028929" record_key="diplomatic_condition_is_tributary_state">
+<cdir_event_diplomatic_conditions record_uuid="{408303c8-d59e-4087-9ef7-8f79cc50f02e}" record_timestamp="1562333239731" record_key="diplomatic_condition_coalition_empire_of_jin">
+<key>diplomatic_condition_coalition_empire_of_jin</key>
+<treaty_component_set>treaty_component_set_diplomatic_relationship_coalition</treaty_component_set>
+<valid_for_rebels>0</valid_for_rebels>
+</cdir_event_diplomatic_conditions>
+<cdir_event_diplomatic_conditions record_uuid="{abbdfcd4-8c12-446e-bdc0-39d2555df4ba}" record_timestamp="1562333239757" record_key="diplomatic_condition_empire_of_jin_is_vassal_of_player">
+<key>diplomatic_condition_empire_of_jin_is_vassal_of_player</key>
+<treaty_component_set>treaty_component_set_diplomatic_relationship_vassal_subject</treaty_component_set>
+<valid_for_rebels>0</valid_for_rebels>
+</cdir_event_diplomatic_conditions>
+<cdir_event_diplomatic_conditions record_uuid="{046462e6-406f-4c17-8083-8fced27de990}" record_timestamp="1554881235628" record_key="diplomatic_condition_is_tributary_state">
 <key>diplomatic_condition_is_tributary_state</key>
 <treaty_component_set>treaty_component_set_diplomatic_relationship_tributary_state</treaty_component_set>
 <valid_for_rebels>0</valid_for_rebels>
@@ -18,6 +33,11 @@
 </cdir_event_diplomatic_conditions>
 <cdir_event_diplomatic_conditions record_uuid="{21dcaa58-621c-49b0-9baf-cd5c9f14ea63}" record_timestamp="1526991563034" record_key="diplomatic_condition_military_access_any">
 <key>diplomatic_condition_military_access_any</key>
+<treaty_component_set>treaty_component_set_diplomatic_relationship_military_access</treaty_component_set>
+<valid_for_rebels>0</valid_for_rebels>
+</cdir_event_diplomatic_conditions>
+<cdir_event_diplomatic_conditions record_uuid="{568816b8-19e5-4330-871e-2d77a6022ee4}" record_timestamp="1562333239740" record_key="diplomatic_condition_military_access_empire_of_jin">
+<key>diplomatic_condition_military_access_empire_of_jin</key>
 <treaty_component_set>treaty_component_set_diplomatic_relationship_military_access</treaty_component_set>
 <valid_for_rebels>0</valid_for_rebels>
 </cdir_event_diplomatic_conditions>
@@ -96,12 +116,17 @@
 <treaty_component_set>treaty_component_set_diplomatic_relationship_alliance</treaty_component_set>
 <valid_for_rebels>0</valid_for_rebels>
 </cdir_event_diplomatic_conditions>
+<cdir_event_diplomatic_conditions record_uuid="{92b1e79c-a3b3-44ef-87d0-481efe386011}" record_timestamp="1562333239749" record_key="diplomatic_condition_non_aggression_empire_of_jin">
+<key>diplomatic_condition_non_aggression_empire_of_jin</key>
+<treaty_component_set>treaty_component_set_diplomatic_relationship_non_aggression</treaty_component_set>
+<valid_for_rebels>0</valid_for_rebels>
+</cdir_event_diplomatic_conditions>
 <cdir_event_diplomatic_conditions record_uuid="{f52ab618-52b6-46e8-a640-99176d4ab886}" record_timestamp="1526991563044" record_key="diplomatic_condition_peace_any">
 <key>diplomatic_condition_peace_any</key>
 <treaty_component_set>treaty_component_set_diplomatic_relationship_peace</treaty_component_set>
 <valid_for_rebels>0</valid_for_rebels>
 </cdir_event_diplomatic_conditions>
-<cdir_event_diplomatic_conditions record_uuid="{487d1206-4a8c-4694-bf42-4349bcc40b11}" record_timestamp="1554997152717" record_key="diplomatic_condition_target_is_vassal_of_player">
+<cdir_event_diplomatic_conditions record_uuid="{487d1206-4a8c-4694-bf42-4349bcc40b11}" record_timestamp="1556562567024" record_key="diplomatic_condition_target_is_vassal_of_player">
 <key>diplomatic_condition_target_is_vassal_of_player</key>
 <treaty_component_set>treaty_component_set_diplomatic_relationship_vassal_subject</treaty_component_set>
 <valid_for_rebels>0</valid_for_rebels>
@@ -193,6 +218,11 @@
 </cdir_event_diplomatic_conditions>
 <cdir_event_diplomatic_conditions record_uuid="{3efecffd-fd85-48e0-ab6a-bcb27659bf01}" record_timestamp="1526991562990" record_key="diplomatic_condition_war_any_3_factions">
 <key>diplomatic_condition_war_any_3_factions</key>
+<treaty_component_set>treaty_component_set_diplomatic_relationship_war</treaty_component_set>
+<valid_for_rebels>0</valid_for_rebels>
+</cdir_event_diplomatic_conditions>
+<cdir_event_diplomatic_conditions record_uuid="{f3387487-b103-43be-ad76-8c8a4202376c}" record_timestamp="1561023528840" record_key="diplomatic_condition_war_ep_empire_of_jin">
+<key>diplomatic_condition_war_ep_empire_of_jin</key>
 <treaty_component_set>treaty_component_set_diplomatic_relationship_war</treaty_component_set>
 <valid_for_rebels>0</valid_for_rebels>
 </cdir_event_diplomatic_conditions>

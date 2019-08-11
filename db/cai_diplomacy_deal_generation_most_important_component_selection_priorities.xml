@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_generation_most_important_component_selection_priorities.xsd" export_time="Thu Mar 14 15:23:25 2019" revision="18" export_branch="T:/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>1cfb583a-1727-4457-a494-e266b2a89b97</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_generation_most_important_component_selection_priorities.xsd" export_time="Fri Jul 12 16:52:39 2019" revision="22" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1583/dave" export_user="bob">
+<edit_uuid>3948c626-6943-498d-a9ae-680cd5f79d09</edit_uuid>
 <cai_diplomacy_deal_generation_most_important_component_selection_priorities record_uuid="{3528d02d-402c-425c-87fb-ec3a65cc66a0}" record_timestamp="1537633665210" record_key="treaty_components_acknowledge_legitimacy_demand">
 <priority>895</priority>
 <treaty_key>treaty_components_acknowledge_legitimacy_demand</treaty_key>
@@ -49,9 +49,17 @@
 <priority>100</priority>
 <treaty_key>treaty_components_attitude_manipulation_negative</treaty_key>
 </cai_diplomacy_deal_generation_most_important_component_selection_priorities>
+<cai_diplomacy_deal_generation_most_important_component_selection_priorities record_uuid="{f507ea67-7ee3-4a81-a7a9-f30ddc16eaa2}" record_timestamp="1562334901910" record_key="treaty_components_attitude_manipulation_negative_sima_yue">
+<priority>100</priority>
+<treaty_key>treaty_components_attitude_manipulation_negative_sima_yue</treaty_key>
+</cai_diplomacy_deal_generation_most_important_component_selection_priorities>
 <cai_diplomacy_deal_generation_most_important_component_selection_priorities record_uuid="{bf3e960a-2694-4771-8062-ae603df870c7}" record_timestamp="1537633665210" record_key="treaty_components_attitude_manipulation_positive">
 <priority>100</priority>
 <treaty_key>treaty_components_attitude_manipulation_positive</treaty_key>
+</cai_diplomacy_deal_generation_most_important_component_selection_priorities>
+<cai_diplomacy_deal_generation_most_important_component_selection_priorities record_uuid="{c1f29b9d-3288-4833-984b-e6b869b04e1b}" record_timestamp="1562334901941" record_key="treaty_components_attitude_manipulation_positive_sima_yue">
+<priority>100</priority>
+<treaty_key>treaty_components_attitude_manipulation_positive_sima_yue</treaty_key>
 </cai_diplomacy_deal_generation_most_important_component_selection_priorities>
 <cai_diplomacy_deal_generation_most_important_component_selection_priorities record_uuid="{c519ec3d-43c2-483a-92c7-bd0c5758fc01}" record_timestamp="1516899083588" record_key="treaty_components_break_deal_proposer_to_recipient_unilateral">
 <priority>690</priority>
@@ -309,6 +317,18 @@
 <priority>810</priority>
 <treaty_key>treaty_components_region_offer</treaty_key>
 </cai_diplomacy_deal_generation_most_important_component_selection_priorities>
+<cai_diplomacy_deal_generation_most_important_component_selection_priorities record_uuid="{90854539-03e4-47a0-9bbe-452f0180e7e5}" record_timestamp="1559652444638" record_key="treaty_components_sima_lun_coercion">
+<priority>930</priority>
+<treaty_key>treaty_components_sima_lun_coercion</treaty_key>
+</cai_diplomacy_deal_generation_most_important_component_selection_priorities>
+<cai_diplomacy_deal_generation_most_important_component_selection_priorities record_uuid="{e931588c-c51b-4209-9ae0-5333085f6069}" record_timestamp="1559652444638" record_key="treaty_components_sima_lun_instigate_proxy_war_proposer">
+<priority>940</priority>
+<treaty_key>treaty_components_sima_lun_instigate_proxy_war_proposer</treaty_key>
+</cai_diplomacy_deal_generation_most_important_component_selection_priorities>
+<cai_diplomacy_deal_generation_most_important_component_selection_priorities record_uuid="{c1e82021-7e63-4bff-8d86-45925928f364}" record_timestamp="1559652444637" record_key="treaty_components_sima_lun_recieve_coercion">
+<priority>930</priority>
+<treaty_key>treaty_components_sima_lun_recieve_coercion</treaty_key>
+</cai_diplomacy_deal_generation_most_important_component_selection_priorities>
 <cai_diplomacy_deal_generation_most_important_component_selection_priorities record_uuid="{a07c0c67-b6f4-4086-8e8c-639d2618e7f4}" record_timestamp="1516899083577" record_key="treaty_components_support_independence_offer">
 <priority>970</priority>
 <treaty_key>treaty_components_support_independence_offer</treaty_key>
@@ -353,7 +373,11 @@
 <priority>1000</priority>
 <treaty_key>treaty_components_vassalise_proposer</treaty_key>
 </cai_diplomacy_deal_generation_most_important_component_selection_priorities>
-<cai_diplomacy_deal_generation_most_important_component_selection_priorities record_uuid="{c607facc-a738-4ffb-bc4b-49f2f386449a}" record_timestamp="1552577002232" record_key="treaty_components_vassalise_proposer_yuan_shu">
+<cai_diplomacy_deal_generation_most_important_component_selection_priorities record_uuid="{b985448b-b114-4ce8-a2d1-1f2d8b0af465}" record_timestamp="1559835299197" record_key="treaty_components_vassalise_proposer_sima_liang">
+<priority>1000</priority>
+<treaty_key>treaty_components_vassalise_proposer_sima_liang</treaty_key>
+</cai_diplomacy_deal_generation_most_important_component_selection_priorities>
+<cai_diplomacy_deal_generation_most_important_component_selection_priorities record_uuid="{c607facc-a738-4ffb-bc4b-49f2f386449a}" record_timestamp="1554883464086" record_key="treaty_components_vassalise_proposer_yuan_shu">
 <priority>1000</priority>
 <treaty_key>treaty_components_vassalise_proposer_yuan_shu</treaty_key>
 </cai_diplomacy_deal_generation_most_important_component_selection_priorities>
@@ -361,7 +385,11 @@
 <priority>1000</priority>
 <treaty_key>treaty_components_vassalise_recipient</treaty_key>
 </cai_diplomacy_deal_generation_most_important_component_selection_priorities>
-<cai_diplomacy_deal_generation_most_important_component_selection_priorities record_uuid="{b7cb348c-eb6b-4fef-bbb4-20b905455ecd}" record_timestamp="1552577002212" record_key="treaty_components_vassalise_recipient_yuan_shu">
+<cai_diplomacy_deal_generation_most_important_component_selection_priorities record_uuid="{45ab9408-5e81-48dd-ba76-b705e5581860}" record_timestamp="1559835299198" record_key="treaty_components_vassalise_recipient_sima_liang">
+<priority>1000</priority>
+<treaty_key>treaty_components_vassalise_recipient_sima_liang</treaty_key>
+</cai_diplomacy_deal_generation_most_important_component_selection_priorities>
+<cai_diplomacy_deal_generation_most_important_component_selection_priorities record_uuid="{b7cb348c-eb6b-4fef-bbb4-20b905455ecd}" record_timestamp="1554883464086" record_key="treaty_components_vassalise_recipient_yuan_shu">
 <priority>1000</priority>
 <treaty_key>treaty_components_vassalise_recipient_yuan_shu</treaty_key>
 </cai_diplomacy_deal_generation_most_important_component_selection_priorities>

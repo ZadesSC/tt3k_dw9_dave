@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ccp_balance_values.xsd" export_time="Tue Mar 26 15:39:28 2019" revision="26" export_branch="C:/Users/Build/AppData/Roaming/TWDaemon/1407/server" export_user="bob">
-<edit_uuid>b8f22209-a851-408b-a50b-e9add68ed2ed</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ccp_balance_values.xsd" export_time="Mon Jun 17 12:32:40 2019" revision="27" export_branch="C:/Users/Build/AppData/Roaming/TWDaemon/1524/server" export_user="bob">
+<edit_uuid>cc4f90f5-accb-41d3-b560-c19b9000c561</edit_uuid>
 <ccp_balance_values record_uuid="{2120cc6d-10e3-4999-9a35-99dac4968ccc}" record_timestamp="1491986002992" record_key="balance_best_accuracy">
 <description>Modifier used to provide accuracy for ranged damage calculations</description>
 <key>balance_best_accuracy</key>
@@ -26,7 +26,7 @@
 <key>balance_default_mass</key>
 <value>100</value>
 </ccp_balance_values>
-<ccp_balance_values record_uuid="{97c571b3-8fc2-4801-ac33-caef6071b1ee}" record_timestamp="1551285045934" record_key="balance_explosion_damage_multiplier">
+<ccp_balance_values record_uuid="{97c571b3-8fc2-4801-ac33-caef6071b1ee}" record_timestamp="1551788442195" record_key="balance_explosion_damage_multiplier">
 <description>Modifier used to scaled explosion base and ap damages</description>
 <key>balance_explosion_damage_multiplier</key>
 <value>4</value>
@@ -96,10 +96,10 @@
 <key>base_range_modifier</key>
 <value>0.75</value>
 </ccp_balance_values>
-<ccp_balance_values record_uuid="{765ac253-9777-4d8a-aa27-45af3e8a76b8}" record_timestamp="1546384328296" record_key="ccp_reliability">
+<ccp_balance_values record_uuid="{765ac253-9777-4d8a-aa27-45af3e8a76b8}" record_timestamp="1560771154917" record_key="ccp_reliability">
 <description>CCP Reliability - 0(Green), 1(Orange), 2(Red)</description>
 <key>ccp_reliability</key>
-<value>1</value>
+<value>2</value>
 </ccp_balance_values>
 <ccp_balance_values record_uuid="{64e24ef9-0da1-44d3-807b-b461785e2ab4}" record_timestamp="1533035970766" record_key="fallback_delta_proportion">
 <description>Modifier used to provide deltas in the event of records failing to load</description>

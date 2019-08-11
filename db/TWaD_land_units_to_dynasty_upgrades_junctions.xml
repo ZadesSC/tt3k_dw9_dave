@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_land_units_to_dynasty_upgrades_junctions>
+<root>
+<edit_uuid>8f6aad4b-c33b-4e3c-927b-1af4c8d53f0a</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{7ce247bd-9a75-4282-8e9a-44cda23d5e86}</field_uuid>
+<primary_key>1</primary_key>
+<name>unit</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>land_units</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{224c269d-9756-4e85-9bbf-84e93d1c1ade}</field_uuid>
+<primary_key>1</primary_key>
+<name>upgrade</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>dynasty_upgrades</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

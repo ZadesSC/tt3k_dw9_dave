@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="loyalty_effects.xsd" export_time="Wed Apr 3 18:38:30 2019" revision="72" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1420/dave" export_user="bob">
-<edit_uuid>ca64768c-243b-454c-8201-3377edc5abd2</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="loyalty_effects.xsd" export_time="Fri Jul 12 12:40:25 2019" revision="71" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1582/dave" export_user="bob">
+<edit_uuid>29e7b906-9e58-4d18-bf30-48b30ff6ff65</edit_uuid>
 <loyalty_effects record_uuid="{5730eca6-f536-4eaa-af9f-9a9659fb000b}" record_timestamp="1540886840500" record_key="adoption">
 <applies_to_ai>1</applies_to_ai>
 <duration>25</duration>
@@ -8,35 +8,35 @@
 <key>adoption</key>
 <value>10</value>
 </loyalty_effects>
-<loyalty_effects record_uuid="{53eb43e2-2407-4d34-993b-30ddb9e5bf70}" record_timestamp="1554313110983" record_key="assignment_self_earth">
+<loyalty_effects record_uuid="{53eb43e2-2407-4d34-993b-30ddb9e5bf70}" record_timestamp="1544540692963" record_key="assignment_self_earth">
 <applies_to_ai>1</applies_to_ai>
 <duration>25</duration>
 <factor>DATA_NO_BONUS_character_assignments_self_earth</factor>
 <key>assignment_self_earth</key>
 <value>25</value>
 </loyalty_effects>
-<loyalty_effects record_uuid="{e95b1efd-4c6e-40eb-b476-55f99b15b57d}" record_timestamp="1554313110983" record_key="assignment_self_fire">
+<loyalty_effects record_uuid="{e95b1efd-4c6e-40eb-b476-55f99b15b57d}" record_timestamp="1544540692924" record_key="assignment_self_fire">
 <applies_to_ai>1</applies_to_ai>
 <duration>25</duration>
 <factor>DATA_NO_BONUS_character_assignments_self_fire</factor>
 <key>assignment_self_fire</key>
 <value>25</value>
 </loyalty_effects>
-<loyalty_effects record_uuid="{ecf2a6d9-3731-4bf1-9537-b6c47d7eedea}" record_timestamp="1554313110983" record_key="assignment_self_metal">
+<loyalty_effects record_uuid="{ecf2a6d9-3731-4bf1-9537-b6c47d7eedea}" record_timestamp="1544540692885" record_key="assignment_self_metal">
 <applies_to_ai>1</applies_to_ai>
 <duration>25</duration>
 <factor>DATA_NO_BONUS_character_assignments_self_metal</factor>
 <key>assignment_self_metal</key>
 <value>25</value>
 </loyalty_effects>
-<loyalty_effects record_uuid="{462633e6-2a4d-4f28-beac-3093c28cdd63}" record_timestamp="1554313110983" record_key="assignment_self_water">
+<loyalty_effects record_uuid="{462633e6-2a4d-4f28-beac-3093c28cdd63}" record_timestamp="1544540692847" record_key="assignment_self_water">
 <applies_to_ai>1</applies_to_ai>
 <duration>25</duration>
 <factor>DATA_NO_BONUS_character_assignments_self_water</factor>
 <key>assignment_self_water</key>
 <value>25</value>
 </loyalty_effects>
-<loyalty_effects record_uuid="{32c6bebc-a115-4112-bee1-c2e11a9c79fe}" record_timestamp="1554313110983" record_key="assignment_self_wood">
+<loyalty_effects record_uuid="{32c6bebc-a115-4112-bee1-c2e11a9c79fe}" record_timestamp="1544540692808" record_key="assignment_self_wood">
 <applies_to_ai>1</applies_to_ai>
 <duration>25</duration>
 <factor>DATA_NO_BONUS_character_assignments_self_wood</factor>
@@ -85,7 +85,7 @@
 <key>civil_war_battle</key>
 <value>-5</value>
 </loyalty_effects>
-<loyalty_effects record_uuid="{c04b0f72-a942-452b-afe6-6ca96de879f3}" record_timestamp="1551261027870" record_key="civil_war_event">
+<loyalty_effects record_uuid="{c04b0f72-a942-452b-afe6-6ca96de879f3}" record_timestamp="1551788159540" record_key="civil_war_event">
 <applies_to_ai>1</applies_to_ai>
 <duration>2</duration>
 <factor>debug_civil_war</factor>
@@ -357,6 +357,13 @@
 <factor>past_experience_grudge</factor>
 <key>past_experience_grudge</key>
 <value>-50</value>
+</loyalty_effects>
+<loyalty_effects record_uuid="{b7b77edc-8e57-4450-b369-70a05c8542ac}" record_timestamp="1559669723043" record_key="presented_gift">
+<applies_to_ai>1</applies_to_ai>
+<duration>10</duration>
+<factor>DATA_NO_BONUS_presented_gift</factor>
+<key>presented_gift</key>
+<value>40</value>
 </loyalty_effects>
 <loyalty_effects record_uuid="{220697bd-7e28-462c-ad95-6bcb203eba26}" record_timestamp="1549480780446" record_key="recently_promoted">
 <applies_to_ai>1</applies_to_ai>

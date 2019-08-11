@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_generation_goal_names.xsd" export_time="Thu Mar 14 15:23:26 2019" revision="45" export_branch="T:/branches/3k/dev/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>ecc09f2e-aa4b-4ef9-a881-8f3d3026f1bf</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_generation_goal_names.xsd" export_time="Fri Jul 5 14:55:05 2019" revision="47" export_branch="C:/Users/dominique.starr/AppData/Roaming/TWDaemon/1566/dave" export_user="bob">
+<edit_uuid>49e2d2b9-37e4-4eab-aea0-321b9af6c7ac</edit_uuid>
 <cai_diplomacy_deal_generation_goal_names record_uuid="{663c9905-cf38-4de4-9e18-d835a87277c5}" record_timestamp="1541522800030" record_key="goal_abdicate">
 <key>goal_abdicate</key>
 </cai_diplomacy_deal_generation_goal_names>
@@ -61,6 +61,12 @@
 <cai_diplomacy_deal_generation_goal_names record_uuid="{9f9748be-633a-415b-90fa-ad905b983838}" record_timestamp="1533306746906" record_key="goal_create_coalition_and_demand_join_war_yuan_shao_counter_offer">
 <key>goal_create_coalition_and_demand_join_war_yuan_shao_counter_offer</key>
 </cai_diplomacy_deal_generation_goal_names>
+<cai_diplomacy_deal_generation_goal_names record_uuid="{d297e65d-a5f9-46e7-95e9-cc74f7a4ce29}" record_timestamp="1559835299174" record_key="goal_create_coalition_sima_liang">
+<key>goal_create_coalition_sima_liang</key>
+</cai_diplomacy_deal_generation_goal_names>
+<cai_diplomacy_deal_generation_goal_names record_uuid="{ad09eb41-b57d-4a4b-a986-5707a484c2bd}" record_timestamp="1559835299173" record_key="goal_create_coalition_sima_liang_counter_offer">
+<key>goal_create_coalition_sima_liang_counter_offer</key>
+</cai_diplomacy_deal_generation_goal_names>
 <cai_diplomacy_deal_generation_goal_names record_uuid="{0ad0a6bc-5523-4c3a-9acf-6837bf098497}" record_timestamp="1527868097035" record_key="goal_create_coalition_yuan_shao">
 <key>goal_create_coalition_yuan_shao</key>
 </cai_diplomacy_deal_generation_goal_names>
@@ -75,6 +81,12 @@
 </cai_diplomacy_deal_generation_goal_names>
 <cai_diplomacy_deal_generation_goal_names record_uuid="{3fb17a51-ced9-4895-80d8-22bbca03099e}" record_timestamp="1519923181549" record_key="goal_create_military_alliance">
 <key>goal_create_military_alliance</key>
+</cai_diplomacy_deal_generation_goal_names>
+<cai_diplomacy_deal_generation_goal_names record_uuid="{64f72451-d981-430d-9733-0ce6c6963a40}" record_timestamp="1559835299174" record_key="goal_create_military_alliance_sima_liang">
+<key>goal_create_military_alliance_sima_liang</key>
+</cai_diplomacy_deal_generation_goal_names>
+<cai_diplomacy_deal_generation_goal_names record_uuid="{f8a88524-04f4-4d33-8715-d61fd4483913}" record_timestamp="1559835299174" record_key="goal_create_military_alliance_sima_liang_counter_offer">
+<key>goal_create_military_alliance_sima_liang_counter_offer</key>
 </cai_diplomacy_deal_generation_goal_names>
 <cai_diplomacy_deal_generation_goal_names record_uuid="{443889a4-e5f8-4f34-80d0-fcbdaa3df3a4}" record_timestamp="1527868097156" record_key="goal_create_military_alliance_yuan_shao">
 <key>goal_create_military_alliance_yuan_shao</key>
@@ -154,8 +166,14 @@
 <cai_diplomacy_deal_generation_goal_names record_uuid="{6fa5ac16-c2be-4100-b6f0-f5056f828c9c}" record_timestamp="1527863081254" record_key="goal_manipulate_relations_negative">
 <key>goal_manipulate_relations_negative</key>
 </cai_diplomacy_deal_generation_goal_names>
+<cai_diplomacy_deal_generation_goal_names record_uuid="{c5f6900b-4737-4a23-82d2-2ce323b78dae}" record_timestamp="1562334901718" record_key="goal_manipulate_relations_negative_sima_yue">
+<key>goal_manipulate_relations_negative_sima_yue</key>
+</cai_diplomacy_deal_generation_goal_names>
 <cai_diplomacy_deal_generation_goal_names record_uuid="{f10c28d7-02d8-416c-ac4e-ff27e1587016}" record_timestamp="1527863081244" record_key="goal_manipulate_relations_positive">
 <key>goal_manipulate_relations_positive</key>
+</cai_diplomacy_deal_generation_goal_names>
+<cai_diplomacy_deal_generation_goal_names record_uuid="{0d1931c0-6f9c-4da2-b3ff-0813b2489b48}" record_timestamp="1562334901749" record_key="goal_manipulate_relations_positive_sima_yue">
+<key>goal_manipulate_relations_positive_sima_yue</key>
 </cai_diplomacy_deal_generation_goal_names>
 <cai_diplomacy_deal_generation_goal_names record_uuid="{c613fdbc-d3b8-4d85-9dd5-13124dcdd26f}" record_timestamp="1516383218116" record_key="goal_marriage_give_female_character">
 <key>goal_marriage_give_female_character</key>
@@ -229,7 +247,10 @@
 <cai_diplomacy_deal_generation_goal_names record_uuid="{f3dbf8d0-e48b-4f02-a6ff-38fccc07f279}" record_timestamp="1515078106310" record_key="goal_offer_vassalage">
 <key>goal_offer_vassalage</key>
 </cai_diplomacy_deal_generation_goal_names>
-<cai_diplomacy_deal_generation_goal_names record_uuid="{f9c6676c-3328-48e4-9437-cea63d0a6538}" record_timestamp="1552577001657" record_key="goal_offer_vassalage_yuan_shu">
+<cai_diplomacy_deal_generation_goal_names record_uuid="{bc1931c4-65af-4e25-a8b1-75c3d33f6e2e}" record_timestamp="1559835299172" record_key="goal_offer_vassalage_sima_liang">
+<key>goal_offer_vassalage_sima_liang</key>
+</cai_diplomacy_deal_generation_goal_names>
+<cai_diplomacy_deal_generation_goal_names record_uuid="{f9c6676c-3328-48e4-9437-cea63d0a6538}" record_timestamp="1554883464072" record_key="goal_offer_vassalage_yuan_shu">
 <key>goal_offer_vassalage_yuan_shu</key>
 </cai_diplomacy_deal_generation_goal_names>
 <cai_diplomacy_deal_generation_goal_names record_uuid="{48982cf0-aeca-48bb-9570-430e1c04f0ec}" record_timestamp="1510827585163" record_key="goal_peace">
@@ -247,10 +268,16 @@
 <cai_diplomacy_deal_generation_goal_names record_uuid="{0590bad1-89d6-410a-8aa2-83f7d19a843c}" record_timestamp="1528124963518" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy">
 <key>goal_peace_and_demand_vassalage_and_offer_autonomy</key>
 </cai_diplomacy_deal_generation_goal_names>
-<cai_diplomacy_deal_generation_goal_names record_uuid="{d1f1360a-4318-48af-9a0b-f4657d9384e5}" record_timestamp="1552577002337" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu">
+<cai_diplomacy_deal_generation_goal_names record_uuid="{20007e00-37ac-476a-bc2a-e5b000fcc0a4}" record_timestamp="1559835299172" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_sima_liang">
+<key>goal_peace_and_demand_vassalage_and_offer_autonomy_sima_liang</key>
+</cai_diplomacy_deal_generation_goal_names>
+<cai_diplomacy_deal_generation_goal_names record_uuid="{d1f1360a-4318-48af-9a0b-f4657d9384e5}" record_timestamp="1554883464096" record_key="goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu">
 <key>goal_peace_and_demand_vassalage_and_offer_autonomy_yuan_shu</key>
 </cai_diplomacy_deal_generation_goal_names>
-<cai_diplomacy_deal_generation_goal_names record_uuid="{5a452b78-f50b-46fa-a628-77e5b1f470c3}" record_timestamp="1552577002357" record_key="goal_peace_and_demand_vassalage_yuan_shu">
+<cai_diplomacy_deal_generation_goal_names record_uuid="{58a287e5-ecbe-4df5-b154-09bff56a3828}" record_timestamp="1559835299173" record_key="goal_peace_and_demand_vassalage_sima_liang">
+<key>goal_peace_and_demand_vassalage_sima_liang</key>
+</cai_diplomacy_deal_generation_goal_names>
+<cai_diplomacy_deal_generation_goal_names record_uuid="{5a452b78-f50b-46fa-a628-77e5b1f470c3}" record_timestamp="1554883464096" record_key="goal_peace_and_demand_vassalage_yuan_shu">
 <key>goal_peace_and_demand_vassalage_yuan_shu</key>
 </cai_diplomacy_deal_generation_goal_names>
 <cai_diplomacy_deal_generation_goal_names record_uuid="{42ab1cb6-64de-423a-9adc-6201fce66bc3}" record_timestamp="1515061202941" record_key="goal_peace_and_offer_vassalage">
@@ -259,10 +286,16 @@
 <cai_diplomacy_deal_generation_goal_names record_uuid="{191dbbca-50c9-4a25-ad66-89846eaf6774}" record_timestamp="1528124963477" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy">
 <key>goal_peace_and_offer_vassalage_and_demand_autonomy</key>
 </cai_diplomacy_deal_generation_goal_names>
-<cai_diplomacy_deal_generation_goal_names record_uuid="{2af68449-214d-4070-a371-225b85656c79}" record_timestamp="1552577002377" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu">
+<cai_diplomacy_deal_generation_goal_names record_uuid="{12be81b9-73fe-4d23-aea6-4f6b741c11d8}" record_timestamp="1559835299173" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_sima_liang">
+<key>goal_peace_and_offer_vassalage_and_demand_autonomy_sima_liang</key>
+</cai_diplomacy_deal_generation_goal_names>
+<cai_diplomacy_deal_generation_goal_names record_uuid="{2af68449-214d-4070-a371-225b85656c79}" record_timestamp="1554883464096" record_key="goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu">
 <key>goal_peace_and_offer_vassalage_and_demand_autonomy_yuan_shu</key>
 </cai_diplomacy_deal_generation_goal_names>
-<cai_diplomacy_deal_generation_goal_names record_uuid="{033d2485-1f10-4892-90bb-b12efb679dba}" record_timestamp="1552577002397" record_key="goal_peace_and_offer_vassalage_yuan_shu">
+<cai_diplomacy_deal_generation_goal_names record_uuid="{92caf1b6-07ba-465d-9fbb-91d3a82e1f9c}" record_timestamp="1559835299171" record_key="goal_peace_and_offer_vassalage_sima_liang">
+<key>goal_peace_and_offer_vassalage_sima_liang</key>
+</cai_diplomacy_deal_generation_goal_names>
+<cai_diplomacy_deal_generation_goal_names record_uuid="{033d2485-1f10-4892-90bb-b12efb679dba}" record_timestamp="1554883464096" record_key="goal_peace_and_offer_vassalage_yuan_shu">
 <key>goal_peace_and_offer_vassalage_yuan_shu</key>
 </cai_diplomacy_deal_generation_goal_names>
 <cai_diplomacy_deal_generation_goal_names record_uuid="{507a575c-fb0b-416d-88ec-8672d1aa807f}" record_timestamp="1519983626283" record_key="goal_peace_faction_to_alliance">
@@ -304,7 +337,10 @@
 <cai_diplomacy_deal_generation_goal_names record_uuid="{7726a28b-4060-416c-adfa-9f7704b94050}" record_timestamp="1547136252026" record_key="goal_request_vassalage_and_guarantee_autonomy">
 <key>goal_request_vassalage_and_guarantee_autonomy</key>
 </cai_diplomacy_deal_generation_goal_names>
-<cai_diplomacy_deal_generation_goal_names record_uuid="{fd8f669f-bbe6-43df-9211-2c107bef9f63}" record_timestamp="1552577001640" record_key="goal_request_vassalage_yuan_shu">
+<cai_diplomacy_deal_generation_goal_names record_uuid="{52954c31-9211-4d52-adbb-276d9817b08d}" record_timestamp="1559835299171" record_key="goal_request_vassalage_sima_liang">
+<key>goal_request_vassalage_sima_liang</key>
+</cai_diplomacy_deal_generation_goal_names>
+<cai_diplomacy_deal_generation_goal_names record_uuid="{fd8f669f-bbe6-43df-9211-2c107bef9f63}" record_timestamp="1554883464072" record_key="goal_request_vassalage_yuan_shu">
 <key>goal_request_vassalage_yuan_shu</key>
 </cai_diplomacy_deal_generation_goal_names>
 <cai_diplomacy_deal_generation_goal_names record_uuid="{503f8267-7e91-4c2c-9130-2e17f76e6c65}" record_timestamp="1518524164389" record_key="goal_support_vassal_independence">
@@ -324,6 +360,9 @@
 </cai_diplomacy_deal_generation_goal_names>
 <cai_diplomacy_deal_generation_goal_names record_uuid="{9bc131b1-9990-4378-9a52-2dee90843cf4}" record_timestamp="1527863081524" record_key="goal_upgrade_to_military_alliance">
 <key>goal_upgrade_to_military_alliance</key>
+</cai_diplomacy_deal_generation_goal_names>
+<cai_diplomacy_deal_generation_goal_names record_uuid="{12c367ab-ee17-4266-a779-6b4fee99bf4b}" record_timestamp="1559835299172" record_key="goal_upgrade_to_military_alliance_sima_liang">
+<key>goal_upgrade_to_military_alliance_sima_liang</key>
 </cai_diplomacy_deal_generation_goal_names>
 <cai_diplomacy_deal_generation_goal_names record_uuid="{ad962565-1feb-4152-bc0e-5655a50953a4}" record_timestamp="1548943995152" record_key="goal_upgrade_to_military_alliance_yuan_shao">
 <key>goal_upgrade_to_military_alliance_yuan_shao</key>
