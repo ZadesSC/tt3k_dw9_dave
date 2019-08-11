@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceos.xsd" export_time="Fri Aug 9 00:47:00 2019" revision="66" export_branch="E:/Games/Steam/SteamApps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>00a2d491-1a08-4543-b93a-86a5bb9275f4</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceos.xsd" export_time="Sun Aug 11 18:53:05 2019" revision="69" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>73ec7cab-ee15-4a47-b9d2-0b18a8a73f1a</edit_uuid>
 <ceos record_uuid="{6bef2693-8b61-459b-8922-253d92a26d88}" record_timestamp="1565336819245" record_key="3k_custom_ancillary_armour_earth">
 <can_be_looted_post_battle>0</can_be_looted_post_battle>
 <can_be_stolen>0</can_be_stolen>
@@ -5790,6 +5790,96 @@
 <exists_in_location>character_ceo_manager</exists_in_location>
 <inheritance_chance>0</inheritance_chance>
 <key>3k_main_ceo_career_historical_ding_feng</key>
+<point_change_per_turn_if_inactive>0</point_change_per_turn_if_inactive>
+<point_change_per_turn_while_active>0</point_change_per_turn_while_active>
+<priority>1</priority>
+<provides_scripted_permissions_on_spawn></provides_scripted_permissions_on_spawn>
+<rarity>common</rarity>
+<turns_to_expire>0</turns_to_expire>
+</ceos>
+<ceos record_uuid="{d838dfc2-02b6-4577-96c4-581b8ce8e9f3}" record_timestamp="1565545985542" record_key="3k_main_ceo_career_historical_diy_earth_one">
+<can_be_looted_post_battle>0</can_be_looted_post_battle>
+<can_be_stolen>0</can_be_stolen>
+<can_be_traded_in_diplomacy>0</can_be_traded_in_diplomacy>
+<can_be_transferred_if_equipped>0</can_be_transferred_if_equipped>
+<can_be_unequipped>1</can_be_unequipped>
+<cannot_reequip_until_next_round_if_unequipped>1</cannot_reequip_until_next_round_if_unequipped>
+<category>3k_main_ceo_category_career</category>
+<exists_in_location>character_ceo_manager</exists_in_location>
+<inheritance_chance>0</inheritance_chance>
+<key>3k_main_ceo_career_historical_diy_earth_one</key>
+<point_change_per_turn_if_inactive>0</point_change_per_turn_if_inactive>
+<point_change_per_turn_while_active>0</point_change_per_turn_while_active>
+<priority>1</priority>
+<provides_scripted_permissions_on_spawn></provides_scripted_permissions_on_spawn>
+<rarity>common</rarity>
+<turns_to_expire>0</turns_to_expire>
+</ceos>
+<ceos record_uuid="{ee38b1a5-76d3-49f8-8f7f-93a9258609a5}" record_timestamp="1565545985546" record_key="3k_main_ceo_career_historical_diy_fire_one">
+<can_be_looted_post_battle>0</can_be_looted_post_battle>
+<can_be_stolen>0</can_be_stolen>
+<can_be_traded_in_diplomacy>0</can_be_traded_in_diplomacy>
+<can_be_transferred_if_equipped>0</can_be_transferred_if_equipped>
+<can_be_unequipped>1</can_be_unequipped>
+<cannot_reequip_until_next_round_if_unequipped>1</cannot_reequip_until_next_round_if_unequipped>
+<category>3k_main_ceo_category_career</category>
+<exists_in_location>character_ceo_manager</exists_in_location>
+<inheritance_chance>0</inheritance_chance>
+<key>3k_main_ceo_career_historical_diy_fire_one</key>
+<point_change_per_turn_if_inactive>0</point_change_per_turn_if_inactive>
+<point_change_per_turn_while_active>0</point_change_per_turn_while_active>
+<priority>1</priority>
+<provides_scripted_permissions_on_spawn></provides_scripted_permissions_on_spawn>
+<rarity>common</rarity>
+<turns_to_expire>0</turns_to_expire>
+</ceos>
+<ceos record_uuid="{902504ef-62ae-4a2f-a579-e79bc0c6aff1}" record_timestamp="1565545985550" record_key="3k_main_ceo_career_historical_diy_metal_one">
+<can_be_looted_post_battle>0</can_be_looted_post_battle>
+<can_be_stolen>0</can_be_stolen>
+<can_be_traded_in_diplomacy>0</can_be_traded_in_diplomacy>
+<can_be_transferred_if_equipped>0</can_be_transferred_if_equipped>
+<can_be_unequipped>1</can_be_unequipped>
+<cannot_reequip_until_next_round_if_unequipped>1</cannot_reequip_until_next_round_if_unequipped>
+<category>3k_main_ceo_category_career</category>
+<exists_in_location>character_ceo_manager</exists_in_location>
+<inheritance_chance>0</inheritance_chance>
+<key>3k_main_ceo_career_historical_diy_metal_one</key>
+<point_change_per_turn_if_inactive>0</point_change_per_turn_if_inactive>
+<point_change_per_turn_while_active>0</point_change_per_turn_while_active>
+<priority>1</priority>
+<provides_scripted_permissions_on_spawn></provides_scripted_permissions_on_spawn>
+<rarity>common</rarity>
+<turns_to_expire>0</turns_to_expire>
+</ceos>
+<ceos record_uuid="{66f0ceec-eabd-41d5-970d-ee0f857417b3}" record_timestamp="1565545985554" record_key="3k_main_ceo_career_historical_diy_water_one">
+<can_be_looted_post_battle>0</can_be_looted_post_battle>
+<can_be_stolen>0</can_be_stolen>
+<can_be_traded_in_diplomacy>0</can_be_traded_in_diplomacy>
+<can_be_transferred_if_equipped>0</can_be_transferred_if_equipped>
+<can_be_unequipped>1</can_be_unequipped>
+<cannot_reequip_until_next_round_if_unequipped>1</cannot_reequip_until_next_round_if_unequipped>
+<category>3k_main_ceo_category_career</category>
+<exists_in_location>character_ceo_manager</exists_in_location>
+<inheritance_chance>0</inheritance_chance>
+<key>3k_main_ceo_career_historical_diy_water_one</key>
+<point_change_per_turn_if_inactive>0</point_change_per_turn_if_inactive>
+<point_change_per_turn_while_active>0</point_change_per_turn_while_active>
+<priority>1</priority>
+<provides_scripted_permissions_on_spawn></provides_scripted_permissions_on_spawn>
+<rarity>common</rarity>
+<turns_to_expire>0</turns_to_expire>
+</ceos>
+<ceos record_uuid="{a8a9c817-d04f-4943-9afc-d545cf632c70}" record_timestamp="1565545985558" record_key="3k_main_ceo_career_historical_diy_wood_one">
+<can_be_looted_post_battle>0</can_be_looted_post_battle>
+<can_be_stolen>0</can_be_stolen>
+<can_be_traded_in_diplomacy>0</can_be_traded_in_diplomacy>
+<can_be_transferred_if_equipped>0</can_be_transferred_if_equipped>
+<can_be_unequipped>1</can_be_unequipped>
+<cannot_reequip_until_next_round_if_unequipped>1</cannot_reequip_until_next_round_if_unequipped>
+<category>3k_main_ceo_category_career</category>
+<exists_in_location>character_ceo_manager</exists_in_location>
+<inheritance_chance>0</inheritance_chance>
+<key>3k_main_ceo_career_historical_diy_wood_one</key>
 <point_change_per_turn_if_inactive>0</point_change_per_turn_if_inactive>
 <point_change_per_turn_while_active>0</point_change_per_turn_while_active>
 <priority>1</priority>
