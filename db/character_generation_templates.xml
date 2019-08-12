@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="character_generation_templates.xsd" export_time="Fri Aug 9 00:46:59 2019" revision="150" export_branch="E:/Games/Steam/SteamApps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>3feda57a-92bc-403a-9c0c-97666f7453d7</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="character_generation_templates.xsd" export_time="Mon Aug 12 16:38:50 2019" revision="155" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>471c9f81-0752-4d37-83a4-4c685596a13e</edit_uuid>
 <character_generation_templates record_uuid="{3f279e7b-d187-4d53-a59b-4dd7461d90b6}" record_timestamp="1534757288840" record_key="3k_main_template_ancestral_cai_feng">
 <ai_skill_generation>default_character_skill_selection_policy</ai_skill_generation>
 <art_set_override>3k_main_art_set_generic_male_01_general_earth</art_set_override>
@@ -4247,6 +4247,28 @@
 <voiceover_actor_generals_speech>vo_actor_group_generic_male_fire_general</voiceover_actor_generals_speech>
 <weight>100</weight>
 </character_generation_templates>
+<character_generation_templates record_uuid="{f37ac165-30e2-4016-ae34-0feb85c7f3c9}" record_timestamp="1565623976967" record_key="3k_main_template_historical_chen_dang_hero_water">
+<ai_skill_generation>default_character_skill_selection_policy</ai_skill_generation>
+<art_set_override>3k_main_art_set_generic_male_17_general_water_strategist</art_set_override>
+<can_be_born>0</can_be_born>
+<clan_name></clan_name>
+<family_name>1895330881</family_name>
+<forename>1354640248</forename>
+<is_male>1</is_male>
+<key>3k_main_template_historical_chen_dang_hero_water</key>
+<max_rounds_in_all_pools_before_destroyed>50</max_rounds_in_all_pools_before_destroyed>
+<max_rounds_to_stay_in_a_pool>10</max_rounds_to_stay_in_a_pool>
+<max_spawn_round>340</max_spawn_round>
+<min_rounds_to_stay_in_a_pool>3</min_rounds_to_stay_in_a_pool>
+<min_spawn_round>30</min_spawn_round>
+<other_name></other_name>
+<spawn_age_range>3k_main_age_fixed_historical_peng_yang_hero_water</spawn_age_range>
+<unique>1</unique>
+<voiceover_actor>vo_actor_group_generic_male_water_general</voiceover_actor>
+<voiceover_actor_diplomacy>vo_actor_group_generic_male_water_general</voiceover_actor_diplomacy>
+<voiceover_actor_generals_speech>vo_actor_group_generic_male_water_general</voiceover_actor_generals_speech>
+<weight>0</weight>
+</character_generation_templates>
 <character_generation_templates record_uuid="{a7847ff6-fdfe-4bd8-8688-523020612f63}" record_timestamp="1542728442785" record_key="3k_main_template_historical_chen_di_hero_water">
 <ai_skill_generation>default_character_skill_selection_policy</ai_skill_generation>
 <art_set_override>3k_main_art_set_generic_male_09_general_water_strategist</art_set_override>
@@ -7701,7 +7723,7 @@
 <voiceover_actor_generals_speech>vo_actor_group_generic_male_wood_general</voiceover_actor_generals_speech>
 <weight>100</weight>
 </character_generation_templates>
-<character_generation_templates record_uuid="{725c0a24-eea5-4497-bc06-41095ff24052}" record_timestamp="1542728442795" record_key="3k_main_template_historical_ji_ling_hero_fire">
+<character_generation_templates record_uuid="{725c0a24-eea5-4497-bc06-41095ff24052}" record_timestamp="1565624330499" record_key="3k_main_template_historical_ji_ling_hero_fire">
 <ai_skill_generation>default_character_skill_selection_policy</ai_skill_generation>
 <art_set_override>3k_main_art_set_generic_male_30_general_fire</art_set_override>
 <can_be_born>0</can_be_born>
@@ -7721,7 +7743,7 @@
 <voiceover_actor>vo_actor_group_generic_male_fire_general</voiceover_actor>
 <voiceover_actor_diplomacy>vo_actor_group_generic_male_fire_general</voiceover_actor_diplomacy>
 <voiceover_actor_generals_speech>vo_actor_group_generic_male_fire_general</voiceover_actor_generals_speech>
-<weight>100</weight>
+<weight>0</weight>
 </character_generation_templates>
 <character_generation_templates record_uuid="{c78ceea9-638d-466e-a99e-4ba07e63f53c}" record_timestamp="1542728442786" record_key="3k_main_template_historical_ji_miao_hero_water">
 <ai_skill_generation>default_character_skill_selection_policy</ai_skill_generation>
@@ -10715,9 +10737,9 @@
 <voiceover_actor_generals_speech>vo_actor_group_generic_male_fire_general</voiceover_actor_generals_speech>
 <weight>100</weight>
 </character_generation_templates>
-<character_generation_templates record_uuid="{456d8d83-f255-4147-b395-11c5950c0b12}" record_timestamp="1542728442797" record_key="3k_main_template_historical_ma_xiu_hero_fire">
+<character_generation_templates record_uuid="{456d8d83-f255-4147-b395-11c5950c0b12}" record_timestamp="1565622848064" record_key="3k_main_template_historical_ma_xiu_hero_fire">
 <ai_skill_generation>default_character_skill_selection_policy</ai_skill_generation>
-<art_set_override>3k_main_art_set_generic_male_10_general_fire</art_set_override>
+<art_set_override>3k_main_art_set_generic_male_10_general_wood</art_set_override>
 <can_be_born>0</can_be_born>
 <clan_name></clan_name>
 <family_name>202752559</family_name>
@@ -10732,9 +10754,9 @@
 <other_name></other_name>
 <spawn_age_range>3k_main_age_fixed_historical_ma_xiu_hero_fire</spawn_age_range>
 <unique>1</unique>
-<voiceover_actor>vo_actor_group_generic_male_fire_general</voiceover_actor>
+<voiceover_actor>vo_actor_group_generic_male_wood_general</voiceover_actor>
 <voiceover_actor_diplomacy>vo_actor_group_generic_male_fire_general</voiceover_actor_diplomacy>
-<voiceover_actor_generals_speech>vo_actor_group_generic_male_fire_general</voiceover_actor_generals_speech>
+<voiceover_actor_generals_speech>vo_actor_group_generic_male_wood_general</voiceover_actor_generals_speech>
 <weight>100</weight>
 </character_generation_templates>
 <character_generation_templates record_uuid="{cec6c5a1-c3b7-487c-9b06-3940d7477789}" record_timestamp="1542728442788" record_key="3k_main_template_historical_ma_yu_hero_water">
@@ -13948,6 +13970,50 @@
 <voiceover_actor_diplomacy>vo_actor_group_generic_male_water_general</voiceover_actor_diplomacy>
 <voiceover_actor_generals_speech>vo_actor_group_generic_male_water_general</voiceover_actor_generals_speech>
 <weight>100</weight>
+</character_generation_templates>
+<character_generation_templates record_uuid="{d7a52be1-709d-4a82-a8bd-86e010a80779}" record_timestamp="1565623579624" record_key="3k_main_template_historical_wen_ping_hero_metal">
+<ai_skill_generation>default_character_skill_selection_policy</ai_skill_generation>
+<art_set_override>3k_main_art_set_generic_female_06_general_metal</art_set_override>
+<can_be_born>0</can_be_born>
+<clan_name></clan_name>
+<family_name>1704037049</family_name>
+<forename>1448304161</forename>
+<is_male>1</is_male>
+<key>3k_main_template_historical_wen_ping_hero_metal</key>
+<max_rounds_in_all_pools_before_destroyed>50</max_rounds_in_all_pools_before_destroyed>
+<max_rounds_to_stay_in_a_pool>10</max_rounds_to_stay_in_a_pool>
+<max_spawn_round>535</max_spawn_round>
+<min_rounds_to_stay_in_a_pool>3</min_rounds_to_stay_in_a_pool>
+<min_spawn_round>225</min_spawn_round>
+<other_name></other_name>
+<spawn_age_range>3k_main_age_fixed_historical_wen_ping_hero_metal</spawn_age_range>
+<unique>1</unique>
+<voiceover_actor>vo_actor_group_generic_male_metal_general</voiceover_actor>
+<voiceover_actor_diplomacy>vo_actor_group_generic_male_wood_general</voiceover_actor_diplomacy>
+<voiceover_actor_generals_speech>vo_actor_group_generic_male_metal_general</voiceover_actor_generals_speech>
+<weight>0</weight>
+</character_generation_templates>
+<character_generation_templates record_uuid="{a8b19c6b-298c-442b-95bf-7c43d685b56b}" record_timestamp="1565623579624" record_key="3k_main_template_historical_wu_anguo_hero_wood">
+<ai_skill_generation>default_character_skill_selection_policy</ai_skill_generation>
+<art_set_override>3k_main_art_set_generic_male_09_general_wood</art_set_override>
+<can_be_born>0</can_be_born>
+<clan_name></clan_name>
+<family_name>1780015206</family_name>
+<forename>727056100</forename>
+<is_male>1</is_male>
+<key>3k_main_template_historical_wu_anguo_hero_wood</key>
+<max_rounds_in_all_pools_before_destroyed>50</max_rounds_in_all_pools_before_destroyed>
+<max_rounds_to_stay_in_a_pool>10</max_rounds_to_stay_in_a_pool>
+<max_spawn_round>535</max_spawn_round>
+<min_rounds_to_stay_in_a_pool>3</min_rounds_to_stay_in_a_pool>
+<min_spawn_round>225</min_spawn_round>
+<other_name></other_name>
+<spawn_age_range>3k_main_age_fixed_historical_wu_anguo_hero_wood</spawn_age_range>
+<unique>1</unique>
+<voiceover_actor>vo_actor_group_generic_male_wood_general</voiceover_actor>
+<voiceover_actor_diplomacy>vo_actor_group_generic_male_wood_general</voiceover_actor_diplomacy>
+<voiceover_actor_generals_speech>vo_actor_group_generic_male_wood_general</voiceover_actor_generals_speech>
+<weight>0</weight>
 </character_generation_templates>
 <character_generation_templates record_uuid="{02ac0423-f477-4650-8c5f-2d8aa1f3f737}" record_timestamp="1542728442799" record_key="3k_main_template_historical_wu_can_hero_fire">
 <ai_skill_generation>default_character_skill_selection_policy</ai_skill_generation>
