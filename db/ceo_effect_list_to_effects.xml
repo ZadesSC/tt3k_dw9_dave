@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_effect_list_to_effects.xsd" export_time="Mon Aug 12 14:35:16 2019" revision="241" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>f037ae64-1f22-486b-aac4-afd78782e519</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_effect_list_to_effects.xsd" export_time="Mon Aug 12 16:00:57 2019" revision="242" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>f0e482c5-d51f-420a-8585-a438e8bc99b6</edit_uuid>
 <ceo_effect_list_to_effects record_uuid="{3d33b248-5636-4bc9-b358-1937e08f30dd}" record_timestamp="1549445268729" record_key="1000426288">
 <auto_id>1000426288</auto_id>
 <effect>3k_main_effect_ai_hint_general</effect>
@@ -32,6 +32,14 @@
 <effect_scope>character_minister_to_region_factionwide</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>50</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{0e32bb12-e142-49b7-9d96-6a305a6256d9}" record_timestamp="1565622056987" record_key="1001417024">
+<auto_id>1001417024</auto_id>
+<effect>3k_main_effect_ai_hint_general</effect>
+<effect_list>3k_main_ceo_node_career_historical_lady_wu_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>100</value>
 </ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{eaf48511-49b6-472e-b914-c7a30a199aee}" record_timestamp="1531395624420" record_key="1002877782">
 <auto_id>1002877782</auto_id>
@@ -888,6 +896,14 @@
 <effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>20</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{6277ed46-0fc6-44ca-a1c5-53d1b56d8a7f}" record_timestamp="1565622056991" record_key="1052768800">
+<auto_id>1052768800</auto_id>
+<effect>3k_main_effect_ai_hint_minister</effect>
+<effect_list>3k_main_ceo_node_career_historical_lady_wu_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>100</value>
 </ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{968d2c95-c207-419f-a9db-49e1d22ba8e7}" record_timestamp="1549445264308" record_key="105278510">
 <auto_id>105278510</auto_id>
@@ -5832,6 +5848,14 @@
 <effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>4</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{60d517aa-dd9a-4d32-a5d9-5f0ed976893e}" record_timestamp="1565622056989" record_key="1328985123">
+<auto_id>1328985123</auto_id>
+<effect>3k_main_effect_character_attribute_expertise_mod</effect>
+<effect_list>3k_main_ceo_node_career_historical_lady_wu_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>10</value>
 </ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{8ad30681-9106-4857-818f-2c9697c961e4}" record_timestamp="1557307263305" record_key="1329137752">
 <auto_id>1329137752</auto_id>
@@ -15833,6 +15857,14 @@
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>20</value>
 </ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{bafe60ec-674d-4175-9cc3-6aaeae0f53a7}" record_timestamp="1565622056993" record_key="1881302139">
+<auto_id>1881302139</auto_id>
+<effect>3k_main_effect_character_attribute_authority_mod</effect>
+<effect_list>3k_main_ceo_node_career_historical_lady_wu_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>5</value>
+</ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{fca7eacc-d1d0-4b2e-ba58-8ea577dacd24}" record_timestamp="1565535034556" record_key="1881543676">
 <auto_id>1881543676</auto_id>
 <effect>3k_main_effect_ai_hint_general</effect>
@@ -17093,6 +17125,14 @@
 <auto_id>1957519622</auto_id>
 <effect>3k_main_effect_character_attribute_instinct_mod</effect>
 <effect_list>3k_main_ceo_node_career_historical_lady_liu_limin_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>5</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{da5df73f-d489-4c23-817e-6106199bc126}" record_timestamp="1565622056985" record_key="1957530727">
+<auto_id>1957530727</auto_id>
+<effect>3k_main_effect_character_attribute_cunning_mod</effect>
+<effect_list>3k_main_ceo_node_career_historical_lady_wu_01</effect_list>
 <effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>5</value>
@@ -21008,6 +21048,14 @@
 <effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>12</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{3413cee6-44d2-452f-9696-3c916c8c79eb}" record_timestamp="1565622056995" record_key="232745016">
+<auto_id>232745016</auto_id>
+<effect>3k_main_effect_economy_gdp_mod_industry</effect>
+<effect_list>3k_main_ceo_node_career_historical_lady_wu_01</effect_list>
+<effect_scope>character_minister_to_region_factionwide</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>6</value>
 </ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{ccc05f55-6899-4939-8cea-b41db52931c9}" record_timestamp="1565336819023" record_key="233051168">
 <auto_id>233051168</auto_id>
@@ -31568,6 +31616,14 @@
 <effect_scope>character_minister_to_force_factionwide</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>5</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{2ddbf688-053b-41e8-aa80-2982379b9634}" record_timestamp="1565622056997" record_key="819925690">
+<auto_id>819925690</auto_id>
+<effect>3k_main_effect_character_num_lives</effect>
+<effect_list>3k_main_ceo_node_career_historical_lady_wu_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>1</value>
 </ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{1b7970d1-fa60-4427-b070-1aa935d4cc6f}" record_timestamp="1549445274178" record_key="820098718">
 <auto_id>820098718</auto_id>
