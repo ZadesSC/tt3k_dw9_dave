@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_nodes.xsd" export_time="Sat Aug 17 11:19:15 2019" revision="190" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>d9fdb169-06db-4719-a393-37fae1e5ef16</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_nodes.xsd" export_time="Sat Aug 17 11:55:52 2019" revision="191" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>dcdd7085-33b7-4ce5-afd3-14ee789e05c7</edit_uuid>
 <ceo_nodes record_uuid="{d2112568-f0d0-48a4-af35-64bda4b12df9}" record_timestamp="1565336819267" record_key="3k_custom_ancillary_armour_earth">
 <ceo_effect_list>3k_custom_ancillary_armour_earth</ceo_effect_list>
 <description state="NOT_APPROVED" last_approved_text="" last_edit_user="zades" last_edit_date="2019-08-09T00:46:59" requires_translation="false" requires_recording="false">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
@@ -3862,6 +3862,15 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Welcoming Magistrate" last_edit_user="bob" requires_translation="false" requires_recording="false">Welcoming Magistrate</title>
 </ceo_nodes>
+<ceo_nodes record_uuid="{f8e474ce-cd74-4557-a89a-c458174d1a7e}" record_timestamp="1566039352552" record_key="3k_main_ceo_node_career_historical_liu_ye_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_liu_ye_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T11:55:52" requires_translation="false" requires_recording="false">Liu Cong's ambitions lead him to usurp the position of heir from his brother Liu Qi</description>
+<icon_path>UI/Campaign UI/traits/icon_ambitious_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_liu_ye_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_determination_ambitious</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T11:55:52" requires_translation="false" requires_recording="false">Ambitious Usurper</title>
+</ceo_nodes>
 <ceo_nodes record_uuid="{1632fbea-7539-4a45-b59c-0fedff0a83c4}" record_timestamp="1527170550199" record_key="3k_main_ceo_node_career_historical_liu_yu_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_liu_yu_01</ceo_effect_list>
 <description state="APPROVED" last_approved_text="Liu Yu’s rapport with foreigners and minorities has enabled him to amass considerable wealth from trade." last_edit_user="bob" requires_translation="false" requires_recording="false">Liu Yu’s rapport with foreigners and minorities has enabled him to amass considerable wealth from trade.</description>
@@ -3942,6 +3951,15 @@
 <opinion_topic_modifier>3k_main_opinion_topic_set_loyalty_fraternal</opinion_topic_modifier>
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Fraternal Warrior" last_edit_user="bob" requires_translation="false" requires_recording="false">Fraternal Warrior</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{55a16b28-8add-456c-b02d-b4d9cf142003}" record_timestamp="1566039352552" record_key="3k_main_ceo_node_career_historical_ma_su_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_ma_su_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T11:55:52" requires_translation="false" requires_recording="false">Liu Cong's ambitions lead him to usurp the position of heir from his brother Liu Qi</description>
+<icon_path>UI/Campaign UI/traits/icon_ambitious_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_ma_su_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_determination_ambitious</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T11:55:52" requires_translation="false" requires_recording="false">Ambitious Usurper</title>
 </ceo_nodes>
 <ceo_nodes record_uuid="{91d14255-ff81-4aff-9a38-4a356063fb23}" record_timestamp="1527170550199" record_key="3k_main_ceo_node_career_historical_ma_teng_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_ma_teng_01</ceo_effect_list>
