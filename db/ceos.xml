@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceos.xsd" export_time="Sat Aug 17 12:31:49 2019" revision="89" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>e5b6f897-9c8c-44bd-b569-bcea3ec028f4</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceos.xsd" export_time="Sat Aug 17 13:04:22 2019" revision="90" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>fc753b70-ab8b-4500-91a0-531fbdbf41ae</edit_uuid>
 <ceos record_uuid="{6bef2693-8b61-459b-8922-253d92a26d88}" record_timestamp="1565336819245" record_key="3k_custom_ancillary_armour_earth">
 <can_be_looted_post_battle>0</can_be_looted_post_battle>
 <can_be_stolen>0</can_be_stolen>
@@ -5761,6 +5761,24 @@
 <rarity>common</rarity>
 <turns_to_expire>0</turns_to_expire>
 </ceos>
+<ceos record_uuid="{781f4610-7710-4694-b71d-41870f62c51a}" record_timestamp="1566043462556" record_key="3k_main_ceo_career_historical_cao_zhi">
+<can_be_looted_post_battle>0</can_be_looted_post_battle>
+<can_be_stolen>0</can_be_stolen>
+<can_be_traded_in_diplomacy>0</can_be_traded_in_diplomacy>
+<can_be_transferred_if_equipped>0</can_be_transferred_if_equipped>
+<can_be_unequipped>1</can_be_unequipped>
+<cannot_reequip_until_next_round_if_unequipped>1</cannot_reequip_until_next_round_if_unequipped>
+<category>3k_main_ceo_category_career</category>
+<exists_in_location>character_ceo_manager</exists_in_location>
+<inheritance_chance>0</inheritance_chance>
+<key>3k_main_ceo_career_historical_cao_zhi</key>
+<point_change_per_turn_if_inactive>0</point_change_per_turn_if_inactive>
+<point_change_per_turn_while_active>0</point_change_per_turn_while_active>
+<priority>1</priority>
+<provides_scripted_permissions_on_spawn></provides_scripted_permissions_on_spawn>
+<rarity>common</rarity>
+<turns_to_expire>0</turns_to_expire>
+</ceos>
 <ceos record_uuid="{b9e521a5-52a4-45c6-b38a-beb324217d64}" record_timestamp="1565601277640" record_key="3k_main_ceo_career_historical_chen_dang">
 <can_be_looted_post_battle>0</can_be_looted_post_battle>
 <can_be_stolen>0</can_be_stolen>
@@ -7824,6 +7842,24 @@
 <exists_in_location>character_ceo_manager</exists_in_location>
 <inheritance_chance>0</inheritance_chance>
 <key>3k_main_ceo_career_historical_meng_huo</key>
+<point_change_per_turn_if_inactive>0</point_change_per_turn_if_inactive>
+<point_change_per_turn_while_active>0</point_change_per_turn_while_active>
+<priority>1</priority>
+<provides_scripted_permissions_on_spawn></provides_scripted_permissions_on_spawn>
+<rarity>common</rarity>
+<turns_to_expire>0</turns_to_expire>
+</ceos>
+<ceos record_uuid="{3501c5c1-3360-4842-b6dd-e644a723b1ea}" record_timestamp="1566043462556" record_key="3k_main_ceo_career_historical_mi_fang">
+<can_be_looted_post_battle>0</can_be_looted_post_battle>
+<can_be_stolen>0</can_be_stolen>
+<can_be_traded_in_diplomacy>0</can_be_traded_in_diplomacy>
+<can_be_transferred_if_equipped>0</can_be_transferred_if_equipped>
+<can_be_unequipped>1</can_be_unequipped>
+<cannot_reequip_until_next_round_if_unequipped>1</cannot_reequip_until_next_round_if_unequipped>
+<category>3k_main_ceo_category_career</category>
+<exists_in_location>character_ceo_manager</exists_in_location>
+<inheritance_chance>0</inheritance_chance>
+<key>3k_main_ceo_career_historical_mi_fang</key>
 <point_change_per_turn_if_inactive>0</point_change_per_turn_if_inactive>
 <point_change_per_turn_while_active>0</point_change_per_turn_while_active>
 <priority>1</priority>
