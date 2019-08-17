@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_nodes.xsd" export_time="Sat Aug 17 11:19:15 2019" revision="190" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>d9fdb169-06db-4719-a393-37fae1e5ef16</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_nodes.xsd" export_time="Sat Aug 17 13:48:46 2019" revision="194" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>4da8171f-7f66-4e06-b5f3-0eded272a362</edit_uuid>
 <ceo_nodes record_uuid="{d2112568-f0d0-48a4-af35-64bda4b12df9}" record_timestamp="1565336819267" record_key="3k_custom_ancillary_armour_earth">
 <ceo_effect_list>3k_custom_ancillary_armour_earth</ceo_effect_list>
 <description state="NOT_APPROVED" last_approved_text="" last_edit_user="zades" last_edit_date="2019-08-09T00:46:59" requires_translation="false" requires_recording="false">The perfect weight and fit, tailored for this warrior of class and distinction.</description>
@@ -2944,6 +2944,15 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-12T10:30:07" requires_translation="false" requires_recording="false">Prince Min</title>
 </ceo_nodes>
+<ceo_nodes record_uuid="{05fad3df-bdd0-4f94-afc5-9168520fab9d}" record_timestamp="1566043608695" record_key="3k_main_ceo_node_career_historical_cao_zhi_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_cao_zhi_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T13:06:48" requires_translation="false" requires_recording="false">Yuan Shu's greatest general wielding a large and heavy trident</description>
+<icon_path>UI/Campaign UI/traits/icon_ambitious_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_cao_zhi_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_determination_competitive</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T13:06:48" requires_translation="false" requires_recording="false">Trident Wielder</title>
+</ceo_nodes>
 <ceo_nodes record_uuid="{457d6c67-bdc8-4b60-8ae2-663c0aee370e}" record_timestamp="1565602115700" record_key="3k_main_ceo_node_career_historical_chen_dang_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_chen_dang_01</ceo_effect_list>
 <description state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-12T10:28:35" requires_translation="false" requires_recording="false">Raised by Wang Yun as his own daughter, Diaochan, a skilled singer and dancer, considered the most beautiful woman in all of China.</description>
@@ -3069,6 +3078,15 @@
 <opinion_topic_modifier>3k_main_opinion_topic_set_determination_ambitious</opinion_topic_modifier>
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-16T19:05:13" requires_translation="false" requires_recording="false">Ambitious Usurper</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{bc35bb06-003f-4c1e-9bd5-241ea2051c7d}" record_timestamp="1566046126448" record_key="3k_main_ceo_node_career_historical_dong_xi_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_dong_xi_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T13:48:46" requires_translation="false" requires_recording="false">Whether acting as messenger or waging war, Jian Yong's sense of humour never fails.</description>
+<icon_path>UI/Campaign UI/traits/icon_friendly_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_dong_xi_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_charisma_friendly</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T13:48:46" requires_translation="false" requires_recording="false">Light Hearted Envoy</title>
 </ceo_nodes>
 <ceo_nodes record_uuid="{e9dfb419-e6af-4966-a0bd-f31d5be0e6c8}" record_timestamp="1527170550198" record_key="3k_main_ceo_node_career_historical_dong_zhuo_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_dong_zhuo_01</ceo_effect_list>
@@ -3402,6 +3420,15 @@
 <opinion_topic_modifier>3k_main_opinion_topic_set_intensity_reckless</opinion_topic_modifier>
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Budding Commander" last_edit_user="bob" requires_translation="false" requires_recording="false">Budding Commander</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{34b9f91d-0624-4e9f-ba62-579535d6aa42}" record_timestamp="1566041633651" record_key="3k_main_ceo_node_career_historical_ju_shou_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_ju_shou_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T12:33:53" requires_translation="false" requires_recording="false">Whether acting as messenger or waging war, Jian Yong's sense of humour never fails.</description>
+<icon_path>UI/Campaign UI/traits/icon_friendly_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_ju_shou_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_charisma_friendly</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T12:33:53" requires_translation="false" requires_recording="false">Light Hearted Envoy</title>
 </ceo_nodes>
 <ceo_nodes record_uuid="{ade3f940-6c8b-4d95-8309-5f134028a7ca}" record_timestamp="1527170550199" record_key="3k_main_ceo_node_career_historical_kong_rong_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_kong_rong_01</ceo_effect_list>
@@ -3862,6 +3889,15 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Welcoming Magistrate" last_edit_user="bob" requires_translation="false" requires_recording="false">Welcoming Magistrate</title>
 </ceo_nodes>
+<ceo_nodes record_uuid="{f8e474ce-cd74-4557-a89a-c458174d1a7e}" record_timestamp="1566039352552" record_key="3k_main_ceo_node_career_historical_liu_ye_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_liu_ye_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T11:55:52" requires_translation="false" requires_recording="false">Liu Cong's ambitions lead him to usurp the position of heir from his brother Liu Qi</description>
+<icon_path>UI/Campaign UI/traits/icon_ambitious_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_liu_ye_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_determination_ambitious</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T11:55:52" requires_translation="false" requires_recording="false">Ambitious Usurper</title>
+</ceo_nodes>
 <ceo_nodes record_uuid="{1632fbea-7539-4a45-b59c-0fedff0a83c4}" record_timestamp="1527170550199" record_key="3k_main_ceo_node_career_historical_liu_yu_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_liu_yu_01</ceo_effect_list>
 <description state="APPROVED" last_approved_text="Liu Yu’s rapport with foreigners and minorities has enabled him to amass considerable wealth from trade." last_edit_user="bob" requires_translation="false" requires_recording="false">Liu Yu’s rapport with foreigners and minorities has enabled him to amass considerable wealth from trade.</description>
@@ -3943,6 +3979,15 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Fraternal Warrior" last_edit_user="bob" requires_translation="false" requires_recording="false">Fraternal Warrior</title>
 </ceo_nodes>
+<ceo_nodes record_uuid="{55a16b28-8add-456c-b02d-b4d9cf142003}" record_timestamp="1566039352552" record_key="3k_main_ceo_node_career_historical_ma_su_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_ma_su_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T11:55:52" requires_translation="false" requires_recording="false">Liu Cong's ambitions lead him to usurp the position of heir from his brother Liu Qi</description>
+<icon_path>UI/Campaign UI/traits/icon_ambitious_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_ma_su_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_determination_ambitious</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T11:55:52" requires_translation="false" requires_recording="false">Ambitious Usurper</title>
+</ceo_nodes>
 <ceo_nodes record_uuid="{91d14255-ff81-4aff-9a38-4a356063fb23}" record_timestamp="1527170550199" record_key="3k_main_ceo_node_career_historical_ma_teng_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_ma_teng_01</ceo_effect_list>
 <description state="APPROVED" last_approved_text="Ma Teng may treat his friends well, but he remains merciless with the Han's enemies." last_edit_user="bob" requires_translation="false" requires_recording="false">Ma Teng may treat his friends well, but he remains merciless with the Han's enemies.</description>
@@ -3997,6 +4042,15 @@
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="NOT_APPROVED" last_approved_text="" last_edit_user="zades" last_edit_date="2019-08-09T00:46:58" requires_translation="false" requires_recording="false">The Colossal King</title>
 </ceo_nodes>
+<ceo_nodes record_uuid="{05648fea-fa70-4e68-afed-426f97d5f3f4}" record_timestamp="1566043608694" record_key="3k_main_ceo_node_career_historical_mi_fang_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_mi_fang_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T13:06:48" requires_translation="false" requires_recording="false">Yuan Shu's greatest general wielding a large and heavy trident</description>
+<icon_path>UI/Campaign UI/traits/icon_ambitious_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_mi_fang_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_determination_competitive</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T13:06:48" requires_translation="false" requires_recording="false">Trident Wielder</title>
+</ceo_nodes>
 <ceo_nodes record_uuid="{01557b5f-b1f9-4e01-a9e7-6c1524d3ce55}" record_timestamp="1527170550199" record_key="3k_main_ceo_node_career_historical_mi_zhu_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_mi_zhu_01</ceo_effect_list>
 <description state="APPROVED" last_approved_text="In these interesting times of fluctuating allegiances, the steadfast loyalty of Mi Zhu can always be relied upon." last_edit_user="bob" requires_translation="false" requires_recording="false">In these interesting times of fluctuating allegiances, the steadfast loyalty of Mi Zhu can always be relied upon.</description>
@@ -4032,6 +4086,15 @@
 <opinion_topic_modifier>3k_main_opinion_topic_set_intelligence_artful</opinion_topic_modifier>
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Fledgling Phoenix" last_edit_user="bob" requires_translation="false" requires_recording="false">Fledgling Phoenix</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{614f843e-e4b5-4f33-98e0-6cb6f3c6be09}" record_timestamp="1566046126448" record_key="3k_main_ceo_node_career_historical_pang_zhang_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_pang_zhang_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T13:48:46" requires_translation="false" requires_recording="false">Whether acting as messenger or waging war, Jian Yong's sense of humour never fails.</description>
+<icon_path>UI/Campaign UI/traits/icon_friendly_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_pang_zhang_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_charisma_friendly</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T13:48:46" requires_translation="false" requires_recording="false">Light Hearted Envoy</title>
 </ceo_nodes>
 <ceo_nodes record_uuid="{29558c84-fbe1-4d99-a4ad-ae55066ffc29}" record_timestamp="1527170550199" record_key="3k_main_ceo_node_career_historical_pei_yuanshao_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_pei_yuanshao_01</ceo_effect_list>
@@ -4608,6 +4671,15 @@
 <opinion_topic_modifier>3k_main_opinion_topic_set_discretion_solitary</opinion_topic_modifier>
 <point_change_per_turn_if_active>0</point_change_per_turn_if_active>
 <title state="APPROVED" last_approved_text="Ignored Warlord" last_edit_user="bob" requires_translation="false" requires_recording="false">Ignored Warlord</title>
+</ceo_nodes>
+<ceo_nodes record_uuid="{6b765298-da4a-4891-b130-b15f8ff848d6}" record_timestamp="1566041633651" record_key="3k_main_ceo_node_career_historical_zhang_zhao_01">
+<ceo_effect_list>3k_main_ceo_node_career_historical_zhang_zhao_01</ceo_effect_list>
+<description state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T12:33:53" requires_translation="false" requires_recording="false">Whether acting as messenger or waging war, Jian Yong's sense of humour never fails.</description>
+<icon_path>UI/Campaign UI/traits/icon_friendly_good.png</icon_path>
+<key>3k_main_ceo_node_career_historical_zhang_zhao_01</key>
+<opinion_topic_modifier>3k_main_opinion_topic_set_charisma_friendly</opinion_topic_modifier>
+<point_change_per_turn_if_active>0</point_change_per_turn_if_active>
+<title state="NOT_APPROVED" last_approved_text="" last_edit_user="Home" last_edit_date="2019-08-17T12:33:53" requires_translation="false" requires_recording="false">Light Hearted Envoy</title>
 </ceo_nodes>
 <ceo_nodes record_uuid="{a6105dfe-efea-43f3-bf5d-a1180e4edeca}" record_timestamp="1527170550199" record_key="3k_main_ceo_node_career_historical_zhao_yun_01">
 <ceo_effect_list>3k_main_ceo_node_career_historical_zhao_yun_01</ceo_effect_list>
