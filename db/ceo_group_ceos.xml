@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_group_ceos.xsd" export_time="Sat Aug 17 12:02:43 2019" revision="114" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>3359c518-ef64-41f9-bd63-0497fd7ce303</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_group_ceos.xsd" export_time="Sat Aug 17 12:39:46 2019" revision="115" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>53394fcf-0ba4-4c8e-b20d-815fb7a75a32</edit_uuid>
 <ceo_group_ceos record_uuid="{c55766fc-ed2d-4ce7-8e44-78bc7189463c}" record_timestamp="1541086960214" record_key="1000995757">
 <auto_id>1000995757</auto_id>
 <ceo>3k_main_ancillary_follower_law_enforcer</ceo>
@@ -713,6 +713,12 @@
 <auto_id>106191635</auto_id>
 <ceo>3k_main_ceo_protagonist</ceo>
 <ceo_group>3k_ceo_trigger_traits_round_start_is_idle_fire</ceo_group>
+<trigger_weighting>1</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{6ac1acb2-eed3-4a4a-b983-18934ab39f86}" record_timestamp="1566041986406" record_key="106197045">
+<auto_id>106197045</auto_id>
+<ceo>3k_main_ceo_career_historical_ju_shou</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
 <trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{257dd784-23db-4338-9fae-f915c6641fcc}" record_timestamp="1540218883964" record_key="1062079786">
@@ -6276,6 +6282,12 @@
 <ceo>3k_main_ancillary_follower_foreman</ceo>
 <ceo_group>3k_ytr_ceo_group_ancillary_trigger_character_starting_equipment_water_faction_only</ceo_group>
 <trigger_weighting>0.5</trigger_weighting>
+</ceo_group_ceos>
+<ceo_group_ceos record_uuid="{315b86e6-0806-4a1b-a325-5d52f8435a47}" record_timestamp="1566041986408" record_key="1561770213">
+<auto_id>1561770213</auto_id>
+<ceo>3k_main_ceo_career_historical_zhang_zhao</ceo>
+<ceo_group>3k_main_ceo_group_career_all</ceo_group>
+<trigger_weighting>1</trigger_weighting>
 </ceo_group_ceos>
 <ceo_group_ceos record_uuid="{2926d8e2-5aea-4068-8a7b-9c68b1dbf208}" record_timestamp="1538821319876" record_key="1562089399">
 <auto_id>1562089399</auto_id>
