@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="character_generation_templates.xsd" export_time="Mon Aug 12 16:38:50 2019" revision="155" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>471c9f81-0752-4d37-83a4-4c685596a13e</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="character_generation_templates.xsd" export_time="Sat Aug 17 18:12:45 2019" revision="164" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>98dc6344-d784-435a-b47c-ab9dcebdca25</edit_uuid>
 <character_generation_templates record_uuid="{3f279e7b-d187-4d53-a59b-4dd7461d90b6}" record_timestamp="1534757288840" record_key="3k_main_template_ancestral_cai_feng">
 <ai_skill_generation>default_character_skill_selection_policy</ai_skill_generation>
 <art_set_override>3k_main_art_set_generic_male_01_general_earth</art_set_override>
@@ -39,6 +39,28 @@
 <min_spawn_round>0</min_spawn_round>
 <other_name></other_name>
 <spawn_age_range>3k_main_age_fixed_ancestral_cao_bao</spawn_age_range>
+<unique>1</unique>
+<voiceover_actor>vo_actor_group_generic_male_earth_general</voiceover_actor>
+<voiceover_actor_diplomacy>vo_actor_group_generic_male_earth_general</voiceover_actor_diplomacy>
+<voiceover_actor_generals_speech>vo_actor_group_generic_male_earth_general</voiceover_actor_generals_speech>
+<weight>0</weight>
+</character_generation_templates>
+<character_generation_templates record_uuid="{5c3dd02b-70b2-47ab-b09b-a0eed5e5a3c7}" record_timestamp="1566055155816" record_key="3k_main_template_ancestral_cao_bian">
+<ai_skill_generation>default_character_skill_selection_policy</ai_skill_generation>
+<art_set_override>3k_main_art_set_generic_male_04_general_earth</art_set_override>
+<can_be_born>0</can_be_born>
+<clan_name></clan_name>
+<family_name>1170641616</family_name>
+<forename>2090353020</forename>
+<is_male>1</is_male>
+<key>3k_main_template_ancestral_cao_bian</key>
+<max_rounds_in_all_pools_before_destroyed>20</max_rounds_in_all_pools_before_destroyed>
+<max_rounds_to_stay_in_a_pool>6</max_rounds_to_stay_in_a_pool>
+<max_spawn_round>999999</max_spawn_round>
+<min_rounds_to_stay_in_a_pool>2</min_rounds_to_stay_in_a_pool>
+<min_spawn_round>0</min_spawn_round>
+<other_name></other_name>
+<spawn_age_range>3k_main_age_fixed_ancestral_cao_jie</spawn_age_range>
 <unique>1</unique>
 <voiceover_actor>vo_actor_group_generic_male_earth_general</voiceover_actor>
 <voiceover_actor_diplomacy>vo_actor_group_generic_male_earth_general</voiceover_actor_diplomacy>
@@ -263,6 +285,28 @@
 <voiceover_actor>vo_actor_group_generic_male_wood_general</voiceover_actor>
 <voiceover_actor_diplomacy>vo_actor_group_generic_male_wood_general</voiceover_actor_diplomacy>
 <voiceover_actor_generals_speech>vo_actor_group_generic_male_wood_general</voiceover_actor_generals_speech>
+<weight>0</weight>
+</character_generation_templates>
+<character_generation_templates record_uuid="{656016bc-a93a-4c51-9c93-2c07cc860848}" record_timestamp="1566060371079" record_key="3k_main_template_ancestral_ma_yong">
+<ai_skill_generation>default_character_skill_selection_policy</ai_skill_generation>
+<art_set_override>3k_main_art_set_generic_male_04_general_earth</art_set_override>
+<can_be_born>0</can_be_born>
+<clan_name></clan_name>
+<family_name>1110608202</family_name>
+<forename>1003460209</forename>
+<is_male>1</is_male>
+<key>3k_main_template_ancestral_ma_yong</key>
+<max_rounds_in_all_pools_before_destroyed>20</max_rounds_in_all_pools_before_destroyed>
+<max_rounds_to_stay_in_a_pool>6</max_rounds_to_stay_in_a_pool>
+<max_spawn_round>999999</max_spawn_round>
+<min_rounds_to_stay_in_a_pool>2</min_rounds_to_stay_in_a_pool>
+<min_spawn_round>0</min_spawn_round>
+<other_name></other_name>
+<spawn_age_range>3k_main_age_fixed_ancestral_cao_jie</spawn_age_range>
+<unique>1</unique>
+<voiceover_actor>vo_actor_group_generic_male_earth_general</voiceover_actor>
+<voiceover_actor_diplomacy>vo_actor_group_generic_male_earth_general</voiceover_actor_diplomacy>
+<voiceover_actor_generals_speech>vo_actor_group_generic_male_earth_general</voiceover_actor_generals_speech>
 <weight>0</weight>
 </character_generation_templates>
 <character_generation_templates record_uuid="{84f6516d-4011-4d8f-b29e-71241edfc631}" record_timestamp="1534757288841" record_key="3k_main_template_ancestral_sun_zhong">
@@ -3763,7 +3807,7 @@
 <voiceover_actor_generals_speech>vo_actor_group_generic_male_water_general</voiceover_actor_generals_speech>
 <weight>100</weight>
 </character_generation_templates>
-<character_generation_templates record_uuid="{eca3a94b-f400-4d61-9fb1-9902464bc143}" record_timestamp="1542728442792" record_key="3k_main_template_historical_cao_chun_hero_fire">
+<character_generation_templates record_uuid="{eca3a94b-f400-4d61-9fb1-9902464bc143}" record_timestamp="1566055282133" record_key="3k_main_template_historical_cao_chun_hero_fire">
 <ai_skill_generation>default_character_skill_selection_policy</ai_skill_generation>
 <art_set_override>3k_main_art_set_generic_male_04_general_fire</art_set_override>
 <can_be_born>0</can_be_born>
@@ -3783,7 +3827,7 @@
 <voiceover_actor>vo_actor_group_generic_male_fire_general</voiceover_actor>
 <voiceover_actor_diplomacy>vo_actor_group_generic_male_fire_general</voiceover_actor_diplomacy>
 <voiceover_actor_generals_speech>vo_actor_group_generic_male_fire_general</voiceover_actor_generals_speech>
-<weight>100</weight>
+<weight>0</weight>
 </character_generation_templates>
 <character_generation_templates record_uuid="{c421b222-f4d6-49b4-ba3e-db5435f91518}" record_timestamp="1542728442792" record_key="3k_main_template_historical_cao_fan_hero_earth">
 <ai_skill_generation>default_character_skill_selection_policy</ai_skill_generation>
@@ -15071,7 +15115,7 @@
 <voiceover_actor_generals_speech>vo_actor_group_generic_male_water_general</voiceover_actor_generals_speech>
 <weight>100</weight>
 </character_generation_templates>
-<character_generation_templates record_uuid="{98fb8293-b42b-4c17-bf99-7d7213d13270}" record_timestamp="1565336817367" record_key="3k_main_template_historical_xun_you_hero_earth">
+<character_generation_templates record_uuid="{98fb8293-b42b-4c17-bf99-7d7213d13270}" record_timestamp="1566054268521" record_key="3k_main_template_historical_xun_you_hero_earth">
 <ai_skill_generation>default_character_skill_selection_policy</ai_skill_generation>
 <art_set_override>3k_main_art_set_historical_xun_you_general</art_set_override>
 <can_be_born>0</can_be_born>
@@ -15088,9 +15132,9 @@
 <other_name></other_name>
 <spawn_age_range>3k_main_age_fixed_historical_xun_you_hero_earth</spawn_age_range>
 <unique>1</unique>
-<voiceover_actor>vo_actor_group_generic_male_earth_general</voiceover_actor>
+<voiceover_actor>vo_actor_group_generic_male_water_general</voiceover_actor>
 <voiceover_actor_diplomacy>vo_actor_group_generic_male_earth_general</voiceover_actor_diplomacy>
-<voiceover_actor_generals_speech>vo_actor_group_generic_male_earth_general</voiceover_actor_generals_speech>
+<voiceover_actor_generals_speech>vo_actor_group_generic_male_water_general</voiceover_actor_generals_speech>
 <weight>100</weight>
 </character_generation_templates>
 <character_generation_templates record_uuid="{a2a3f72b-ac7e-47cc-9a1c-7b1016ee6edc}" record_timestamp="1565336817367" record_key="3k_main_template_historical_xun_yu_hero_water">
