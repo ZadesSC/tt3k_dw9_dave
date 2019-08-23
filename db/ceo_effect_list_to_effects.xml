@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_effect_list_to_effects.xsd" export_time="Sun Aug 18 08:06:16 2019" revision="262" export_branch="C:/Program Files (x86)/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>b81f3cca-c0a3-4c5e-bae6-cbae83754553</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceo_effect_list_to_effects.xsd" export_time="Fri Aug 23 11:51:22 2019" revision="263" export_branch="D:/Steam/steamapps/common/Total War THREE KINGDOMS/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>4ae7337b-833b-4851-9d7c-0827f1e468e0</edit_uuid>
 <ceo_effect_list_to_effects record_uuid="{3d33b248-5636-4bc9-b358-1937e08f30dd}" record_timestamp="1549445268729" record_key="1000426288">
 <auto_id>1000426288</auto_id>
 <effect>3k_main_effect_ai_hint_general</effect>
@@ -1329,6 +1329,14 @@
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>6</value>
 </ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{fc88e450-5ad3-4041-8b13-bf571d82f52b}" record_timestamp="1566557482814" record_key="1072493711">
+<auto_id>1072493711</auto_id>
+<effect>3k_main_effect_ai_hint_general</effect>
+<effect_list>3k_main_ceo_node_career_historical_lady_yuan_anyang_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>100</value>
+</ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{51fe9af9-e042-4418-9906-5c58bb5787c6}" record_timestamp="1544037203172" record_key="1073005312">
 <auto_id>1073005312</auto_id>
 <effect>3k_main_effect_character_attribute_expertise_mod</effect>
@@ -1557,6 +1565,14 @@
 <auto_id>108528458</auto_id>
 <effect>3k_main_effect_character_attribute_instinct_mod</effect>
 <effect_list>3k_main_ceo_node_career_historical_wan_ping_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>5</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{b683c835-2a1e-472b-a837-e019e78c6714}" record_timestamp="1566557482824" record_key="1085670432">
+<auto_id>1085670432</auto_id>
+<effect>3k_main_effect_character_attribute_cunning_mod</effect>
+<effect_list>3k_main_ceo_node_career_historical_lady_yuan_anyang_01</effect_list>
 <effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>5</value>
@@ -7409,6 +7425,14 @@
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>10</value>
 </ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{a7966ba8-3337-4039-a263-b47c8276135f}" record_timestamp="1566557482832" record_key="1393254227">
+<auto_id>1393254227</auto_id>
+<effect>3k_main_effect_economy_gdp_mod_industry</effect>
+<effect_list>3k_main_ceo_node_career_historical_lady_yuan_anyang_01</effect_list>
+<effect_scope>character_minister_to_region_factionwide</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>6</value>
+</ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{e0e67a84-7736-48e5-9168-5935035e196f}" record_timestamp="1544037192102" record_key="1394196370">
 <auto_id>1394196370</auto_id>
 <effect>3k_main_effect_economy_gdp_mod_industry</effect>
@@ -7864,6 +7888,14 @@
 <effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>15</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{23541ced-db97-4220-a5ba-d557b8bafaa9}" record_timestamp="1566557482830" record_key="1420559345">
+<auto_id>1420559345</auto_id>
+<effect>3k_main_effect_character_num_lives</effect>
+<effect_list>3k_main_ceo_node_career_historical_lady_yuan_anyang_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>1</value>
 </ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{2bf7c067-8233-4e56-87db-959bfd41e00f}" record_timestamp="1516199282965" record_key="1421013491">
 <auto_id>1421013491</auto_id>
@@ -9048,6 +9080,14 @@
 <effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>12</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{ce2ae561-e53d-4e98-8106-2521bcac5bfb}" record_timestamp="1566557482806" record_key="1489763377">
+<auto_id>1489763377</auto_id>
+<effect>3k_main_effect_ai_hint_minister</effect>
+<effect_list>3k_main_ceo_node_career_historical_hua_tuo_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>100</value>
 </ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{0492d821-9213-4295-a1d7-4527729fdb97}" record_timestamp="1547837847471" record_key="1489938011">
 <auto_id>1489938011</auto_id>
@@ -12993,6 +13033,14 @@
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>6</value>
 </ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{3b9213ea-8405-480d-89a8-fdc57253d79d}" record_timestamp="1566557482816" record_key="1683856529">
+<auto_id>1683856529</auto_id>
+<effect>3k_main_effect_ai_hint_general</effect>
+<effect_list>3k_main_ceo_node_career_historical_hua_tuo_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>100</value>
+</ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{e86e30ec-74c1-4849-9e25-e1dd63b5bcba}" record_timestamp="1545236699723" record_key="1684189771">
 <auto_id>1684189771</auto_id>
 <effect>3k_main_effect_character_attribute_resolve_mod</effect>
@@ -13832,6 +13880,14 @@
 <effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>-20</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{595f4344-bdf2-4eeb-bd54-3ce156dac268}" record_timestamp="1566557482822" record_key="173725686">
+<auto_id>173725686</auto_id>
+<effect>3k_main_effect_ai_hint_minister</effect>
+<effect_list>3k_main_ceo_node_career_historical_lady_yuan_anyang_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>100</value>
 </ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{a71733e5-f222-459a-bfde-e0f6be432aac}" record_timestamp="1540918051207" record_key="1737730431">
 <auto_id>1737730431</auto_id>
@@ -20009,6 +20065,14 @@
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>5</value>
 </ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{75940209-f837-4f46-850d-2782b843ddde}" record_timestamp="1566557482827" record_key="2058586632">
+<auto_id>2058586632</auto_id>
+<effect>3k_main_effect_character_attribute_authority_mod</effect>
+<effect_list>3k_main_ceo_node_career_historical_lady_yuan_anyang_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>5</value>
+</ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{e0011812-424e-4a60-86c6-605f188717cf}" record_timestamp="1554882789211" record_key="2058651060">
 <auto_id>2058651060</auto_id>
 <effect>3k_main_effect_character_attribute_resolve_mod</effect>
@@ -21792,6 +21856,14 @@
 <effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>12</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{1e33512b-6043-4bea-887e-a37e88f63b23}" record_timestamp="1566557482808" record_key="21624434">
+<auto_id>21624434</auto_id>
+<effect>3k_main_effect_character_num_lives</effect>
+<effect_list>3k_main_ceo_node_career_historical_hua_tuo_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>1</value>
 </ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{0649b5ab-0220-4cc2-ad97-7a578f08197a}" record_timestamp="1549445269780" record_key="216554653">
 <auto_id>216554653</auto_id>
@@ -24549,6 +24621,14 @@
 <auto_id>362771786</auto_id>
 <effect>3k_main_effect_character_attribute_expertise_mod</effect>
 <effect_list>3k_main_ceo_node_career_historical_guan_ping_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>5</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{5184d17a-5c65-4074-b21e-00af14a0282d}" record_timestamp="1566557482836" record_key="363449279">
+<auto_id>363449279</auto_id>
+<effect>3k_main_effect_character_attribute_cunning_mod</effect>
+<effect_list>3k_main_ceo_node_career_historical_hua_tuo_01</effect_list>
 <effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>5</value>
@@ -29953,6 +30033,14 @@
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>20</value>
 </ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{b6cb8e39-5e54-44d9-ad5d-aa4e9d03c89d}" record_timestamp="1566557482839" record_key="638649425">
+<auto_id>638649425</auto_id>
+<effect>3k_main_effect_character_attribute_resolve_mod</effect>
+<effect_list>3k_main_ceo_node_career_historical_hua_tuo_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>10</value>
+</ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{b8d2b90a-b949-4146-8ea8-f8bc766ab81d}" record_timestamp="1536777044937" record_key="638765577">
 <auto_id>638765577</auto_id>
 <effect>3k_main_effect_salary_increase_on_character</effect>
@@ -31224,6 +31312,14 @@
 <effect_scope>character_to_character_own</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>5</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{d44b2f42-2dc8-425f-b8a9-1855f7c78aa7}" record_timestamp="1566557482803" record_key="704985369">
+<auto_id>704985369</auto_id>
+<effect>3k_main_effect_character_attribute_authority_mod</effect>
+<effect_list>3k_main_ceo_node_career_historical_hua_tuo_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>15</value>
 </ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{015b107d-8723-410e-95a2-8cd265ce61bb}" record_timestamp="1557307263305" record_key="706294988">
 <auto_id>706294988</auto_id>
@@ -33113,11 +33209,27 @@
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>5</value>
 </ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{053b61c9-a3f8-4282-ab0b-f3a8882b90f2}" record_timestamp="1566557482819" record_key="808707533">
+<auto_id>808707533</auto_id>
+<effect>3k_main_effect_character_attribute_expertise_mod</effect>
+<effect_list>3k_main_ceo_node_career_historical_lady_yuan_anyang_01</effect_list>
+<effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>10</value>
+</ceo_effect_list_to_effects>
 <ceo_effect_list_to_effects record_uuid="{cc28537c-b9c5-4e1e-abfe-8a8f19b7310d}" record_timestamp="1549445269339" record_key="809043676">
 <auto_id>809043676</auto_id>
 <effect>3k_main_effect_ai_hint_general</effect>
 <effect_list>3k_main_ancillary_armour_heavy_armour_fire_unique</effect_list>
 <effect_scope>character_to_character_own</effect_scope>
+<optional_only_in_game_mode></optional_only_in_game_mode>
+<value>5</value>
+</ceo_effect_list_to_effects>
+<ceo_effect_list_to_effects record_uuid="{3641f46b-868d-43e4-9411-942bf35de8fe}" record_timestamp="1566557482811" record_key="809511559">
+<auto_id>809511559</auto_id>
+<effect>3k_main_effect_economy_gdp_mod_all</effect>
+<effect_list>3k_main_ceo_node_career_historical_hua_tuo_01</effect_list>
+<effect_scope>character_minister_to_region_factionwide</effect_scope>
 <optional_only_in_game_mode></optional_only_in_game_mode>
 <value>5</value>
 </ceo_effect_list_to_effects>
