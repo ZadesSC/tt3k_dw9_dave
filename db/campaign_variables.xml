@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_variables.xsd" export_time="Wed Jul 10 10:06:20 2019" revision="714" export_branch="C:/Users/leif.walter/AppData/Roaming/TWDaemon/1574/dave" export_user="bob">
-<edit_uuid>55fd8573-6f40-42ae-a4a0-62447aa23841</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_variables.xsd" export_time="Wed Aug 14 15:55:36 2019" revision="715" export_branch="C:/Users/jack.lusted/AppData/Roaming/TWDaemon/1625/dave" export_user="bob">
+<edit_uuid>9c137716-b84f-47c2-8143-ac054d8a5644</edit_uuid>
 <campaign_variables record_uuid="{1d5829d3-f84d-4660-b42d-925621448df8}" record_timestamp="1444128694161" record_key="abandon_settlement_income_percentage_modifier">
 <description>(IN GAME) When abandoning settlements; percentage modifier on income</description>
 <value>-80</value>
@@ -2336,14 +2336,14 @@
 <value>18</value>
 <variable_key>family_age_of_guaranteed_adulthood</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{fe7cf018-8d14-41ba-8a6e-ff46a7f85f82}" record_key="family_base_child_chance">
+<campaign_variables record_uuid="{fe7cf018-8d14-41ba-8a6e-ff46a7f85f82}" record_timestamp="1565794536715" record_key="family_base_child_chance">
 <description>(IN GAME) The base chance of family members having a child.</description>
-<value>50</value>
+<value>30</value>
 <variable_key>family_base_child_chance</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{414f0d3c-91d3-45cb-a893-d169dcb45ae5}" record_timestamp="1398159772392" record_key="family_base_child_chance_reduction_per_child">
+<campaign_variables record_uuid="{414f0d3c-91d3-45cb-a893-d169dcb45ae5}" record_timestamp="1565794536715" record_key="family_base_child_chance_reduction_per_child">
 <description>(IN GAME)</description>
-<value>12</value>
+<value>8</value>
 <variable_key>family_base_child_chance_reduction_per_child</variable_key>
 </campaign_variables>
 <campaign_variables record_uuid="{d39a225b-6199-4441-9993-06d0dd18fa25}" record_timestamp="1398159772392" record_key="family_base_illegitimate_child_chance">
@@ -2381,14 +2381,14 @@
 <value>0</value>
 <variable_key>family_infant_mortality_chance_young</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{361f6126-b6b9-4294-8219-6fc404fc934d}" record_key="family_rounds_between_children">
+<campaign_variables record_uuid="{361f6126-b6b9-4294-8219-6fc404fc934d}" record_timestamp="1565794536715" record_key="family_rounds_between_children">
 <description>(IN GAME) The number of rounds that must pass after a child is born before the parents may have another child.</description>
-<value>15</value>
+<value>10</value>
 <variable_key>family_rounds_between_children</variable_key>
 </campaign_variables>
-<campaign_variables record_uuid="{16081dfb-6375-48a9-b072-359398988f8d}" record_key="family_rounds_between_marriage_and_first_child">
+<campaign_variables record_uuid="{16081dfb-6375-48a9-b072-359398988f8d}" record_timestamp="1565794536715" record_key="family_rounds_between_marriage_and_first_child">
 <description>(IN GAME) The number of rounds that must pass after family members marry before they can have a child.</description>
-<value>4</value>
+<value>5</value>
 <variable_key>family_rounds_between_marriage_and_first_child</variable_key>
 </campaign_variables>
 <campaign_variables record_uuid="{94f6da5f-579d-474e-a738-6f814ce10a2a}" record_key="family_turns_before_any_chance_of_adulthood">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_generation_condition_set_junctions.xsd" export_time="Mon May 13 17:41:18 2019" revision="68" export_branch="C:/Users/eric.miller/AppData/Roaming/TWDaemon/1465/dave" export_user="bob">
-<edit_uuid>4bfc5111-c235-4b86-a0e8-f617fe977b4c</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_generation_condition_set_junctions.xsd" export_time="Wed Aug 14 15:33:13 2019" revision="69" export_branch="C:/Users/jack.lusted/AppData/Roaming/TWDaemon/1625/dave" export_user="bob">
+<edit_uuid>56df482f-1dda-4353-9734-49b17b523389</edit_uuid>
 <cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{0b645267-00d1-4cc0-b4f5-1bde3c162f97}" record_timestamp="1541522800019" record_key="ABDICATE_TO_ENEMY_CONDITION_SETdeal_generation_condition_allience_of_the_target_faction_is_stronger_than_mine_by_at_leasttruerespondent_type_recipientrespondent_type_proposer0.1">
 <condition_key>deal_generation_condition_allience_of_the_target_faction_is_stronger_than_mine_by_at_least</condition_key>
 <condition_set_key>ABDICATE_TO_ENEMY_CONDITION_SET</condition_set_key>
@@ -276,17 +276,6 @@
 <param_treaty></param_treaty>
 <param_value>0</param_value>
 </cai_diplomacy_deal_generation_condition_set_junctions>
-<cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{124a6a89-8b4f-40ff-9cdd-60f8a7c7f22a}" record_timestamp="1544787153320" record_key="CREATE_ALLIANCE_IF_WE_HAVE_MILITARY_ACCESS_PACT_CONDITION_SETdeal_generation_condition_is_world_leaderfalserespondent_type_proposer0">
-<condition_key>deal_generation_condition_is_world_leader</condition_key>
-<condition_set_key>CREATE_ALLIANCE_IF_WE_HAVE_MILITARY_ACCESS_PACT_CONDITION_SET</condition_set_key>
-<evaluates_to>0</evaluates_to>
-<owner>respondent_type_proposer</owner>
-<param_faction></param_faction>
-<param_stance></param_stance>
-<param_status></param_status>
-<param_treaty></param_treaty>
-<param_value>0</param_value>
-</cai_diplomacy_deal_generation_condition_set_junctions>
 <cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{0b0d017a-ef2c-472e-bc74-d535b677da83}" record_timestamp="1544787153145" record_key="CREATE_ALLIANCE_IF_WE_HAVE_MILITARY_ACCESS_PACT_CONDITION_SETdeal_generation_condition_is_world_leaderfalserespondent_type_recipient0">
 <condition_key>deal_generation_condition_is_world_leader</condition_key>
 <condition_set_key>CREATE_ALLIANCE_IF_WE_HAVE_MILITARY_ACCESS_PACT_CONDITION_SET</condition_set_key>
@@ -370,17 +359,6 @@
 <evaluates_to>0</evaluates_to>
 <owner>respondent_type_proposer</owner>
 <param_faction>respondent_type_recipient</param_faction>
-<param_stance></param_stance>
-<param_status></param_status>
-<param_treaty></param_treaty>
-<param_value>0</param_value>
-</cai_diplomacy_deal_generation_condition_set_junctions>
-<cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{deb53a66-e403-4da0-bd57-39f0b306ad94}" record_timestamp="1544787153355" record_key="CREATE_COALITION_WITH_MY_OR_ENEMYS_NEIGHBOUR_AND_DEMAND_JOIN_WAR_CONDITION_SETdeal_generation_condition_is_world_leaderfalserespondent_type_proposer0">
-<condition_key>deal_generation_condition_is_world_leader</condition_key>
-<condition_set_key>CREATE_COALITION_WITH_MY_OR_ENEMYS_NEIGHBOUR_AND_DEMAND_JOIN_WAR_CONDITION_SET</condition_set_key>
-<evaluates_to>0</evaluates_to>
-<owner>respondent_type_proposer</owner>
-<param_faction></param_faction>
 <param_stance></param_stance>
 <param_status></param_status>
 <param_treaty></param_treaty>
@@ -474,17 +452,6 @@
 <param_treaty></param_treaty>
 <param_value>0</param_value>
 </cai_diplomacy_deal_generation_condition_set_junctions>
-<cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{68e10c4a-a398-4806-b4b1-5e39b437670f}" record_timestamp="1544787153408" record_key="CREATE_COALITION_WITH_MY_OR_ENEMYS_NEIGHBOUR_CONDITION_SETdeal_generation_condition_is_world_leaderfalserespondent_type_proposer0">
-<condition_key>deal_generation_condition_is_world_leader</condition_key>
-<condition_set_key>CREATE_COALITION_WITH_MY_OR_ENEMYS_NEIGHBOUR_CONDITION_SET</condition_set_key>
-<evaluates_to>0</evaluates_to>
-<owner>respondent_type_proposer</owner>
-<param_faction></param_faction>
-<param_stance></param_stance>
-<param_status></param_status>
-<param_treaty></param_treaty>
-<param_value>0</param_value>
-</cai_diplomacy_deal_generation_condition_set_junctions>
 <cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{d73c8fd2-42ee-4d50-87c1-bca841f34a11}" record_timestamp="1544787153173" record_key="CREATE_COALITION_WITH_MY_OR_ENEMYS_NEIGHBOUR_CONDITION_SETdeal_generation_condition_is_world_leaderfalserespondent_type_recipient0">
 <condition_key>deal_generation_condition_is_world_leader</condition_key>
 <condition_set_key>CREATE_COALITION_WITH_MY_OR_ENEMYS_NEIGHBOUR_CONDITION_SET</condition_set_key>
@@ -568,17 +535,6 @@
 <evaluates_to>0</evaluates_to>
 <owner>respondent_type_proposer</owner>
 <param_faction>respondent_type_recipient</param_faction>
-<param_stance></param_stance>
-<param_status></param_status>
-<param_treaty></param_treaty>
-<param_value>0</param_value>
-</cai_diplomacy_deal_generation_condition_set_junctions>
-<cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{32fe7e76-4eb6-4d7d-9d5b-ba41c03f0b2e}" record_timestamp="1544787153203" record_key="CREATE_MILITARY_ALLIANCE_WITH_TRUSTED_FACTIONS_CONDITION_SETdeal_generation_condition_is_world_leaderfalserespondent_type_proposer0">
-<condition_key>deal_generation_condition_is_world_leader</condition_key>
-<condition_set_key>CREATE_MILITARY_ALLIANCE_WITH_TRUSTED_FACTIONS_CONDITION_SET</condition_set_key>
-<evaluates_to>0</evaluates_to>
-<owner>respondent_type_proposer</owner>
-<param_faction></param_faction>
 <param_stance></param_stance>
 <param_status></param_status>
 <param_treaty></param_treaty>
@@ -738,17 +694,6 @@
 <param_treaty></param_treaty>
 <param_value>0</param_value>
 </cai_diplomacy_deal_generation_condition_set_junctions>
-<cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{ad03da82-6d26-49f6-8e56-7107324d01a1}" record_timestamp="1544787153218" record_key="CUNNING_CREATE_COALITION_WITH_MY_OR_ENEMYS_NEIGHBOUR_AND_DEMAND_JOIN_WAR_CONDITION_SETdeal_generation_condition_is_world_leaderfalserespondent_type_proposer0">
-<condition_key>deal_generation_condition_is_world_leader</condition_key>
-<condition_set_key>CUNNING_CREATE_COALITION_WITH_MY_OR_ENEMYS_NEIGHBOUR_AND_DEMAND_JOIN_WAR_CONDITION_SET</condition_set_key>
-<evaluates_to>0</evaluates_to>
-<owner>respondent_type_proposer</owner>
-<param_faction></param_faction>
-<param_stance></param_stance>
-<param_status></param_status>
-<param_treaty></param_treaty>
-<param_value>0</param_value>
-</cai_diplomacy_deal_generation_condition_set_junctions>
 <cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{6f9574d0-22d4-4629-9875-ede809d021fe}" record_timestamp="1544787153391" record_key="CUNNING_CREATE_COALITION_WITH_MY_OR_ENEMYS_NEIGHBOUR_AND_DEMAND_JOIN_WAR_CONDITION_SETdeal_generation_condition_is_world_leaderfalserespondent_type_recipient0">
 <condition_key>deal_generation_condition_is_world_leader</condition_key>
 <condition_set_key>CUNNING_CREATE_COALITION_WITH_MY_OR_ENEMYS_NEIGHBOUR_AND_DEMAND_JOIN_WAR_CONDITION_SET</condition_set_key>
@@ -837,17 +782,6 @@
 <param_treaty></param_treaty>
 <param_value>0</param_value>
 </cai_diplomacy_deal_generation_condition_set_junctions>
-<cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{0e360db0-9f17-4505-9cd5-c3e10cf9f1de}" record_timestamp="1544787153235" record_key="CUNNING_CREATE_COALITION_WITH_MY_OR_ENEMYS_NEIGHBOUR_CONDITION_SETdeal_generation_condition_is_world_leaderfalserespondent_type_proposer0">
-<condition_key>deal_generation_condition_is_world_leader</condition_key>
-<condition_set_key>CUNNING_CREATE_COALITION_WITH_MY_OR_ENEMYS_NEIGHBOUR_CONDITION_SET</condition_set_key>
-<evaluates_to>0</evaluates_to>
-<owner>respondent_type_proposer</owner>
-<param_faction></param_faction>
-<param_stance></param_stance>
-<param_status></param_status>
-<param_treaty></param_treaty>
-<param_value>0</param_value>
-</cai_diplomacy_deal_generation_condition_set_junctions>
 <cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{ae2d175c-33cb-416b-8f2c-cacbdcfc1330}" record_timestamp="1544787153426" record_key="CUNNING_CREATE_COALITION_WITH_MY_OR_ENEMYS_NEIGHBOUR_CONDITION_SETdeal_generation_condition_is_world_leaderfalserespondent_type_recipient0">
 <condition_key>deal_generation_condition_is_world_leader</condition_key>
 <condition_set_key>CUNNING_CREATE_COALITION_WITH_MY_OR_ENEMYS_NEIGHBOUR_CONDITION_SET</condition_set_key>
@@ -931,17 +865,6 @@
 <evaluates_to>0</evaluates_to>
 <owner>respondent_type_proposer</owner>
 <param_faction>respondent_type_recipient</param_faction>
-<param_stance></param_stance>
-<param_status></param_status>
-<param_treaty></param_treaty>
-<param_value>0</param_value>
-</cai_diplomacy_deal_generation_condition_set_junctions>
-<cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{f39ea28e-67ce-41bf-a0db-d8ef453ac83f}" record_timestamp="1544787153251" record_key="CUNNING_CREATE_MILITARY_ALLIANCE_WITH_TRUSTED_FACTIONS_CONDITION_SETdeal_generation_condition_is_world_leaderfalserespondent_type_proposer0">
-<condition_key>deal_generation_condition_is_world_leader</condition_key>
-<condition_set_key>CUNNING_CREATE_MILITARY_ALLIANCE_WITH_TRUSTED_FACTIONS_CONDITION_SET</condition_set_key>
-<evaluates_to>0</evaluates_to>
-<owner>respondent_type_proposer</owner>
-<param_faction></param_faction>
 <param_stance></param_stance>
 <param_status></param_status>
 <param_treaty></param_treaty>
@@ -4049,18 +3972,18 @@
 <param_treaty></param_treaty>
 <param_value>0</param_value>
 </cai_diplomacy_deal_generation_condition_set_junctions>
-<cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{9aae7bdd-cdf1-48d6-a6cb-ca98cf682721}" record_timestamp="1548765956764" record_key="OFFER_VASSALAGE_TO_STRONGER_FRIEND_CONDITION_SETdeal_generation_condition_strategic_stance_better_thantruerespondent_type_recipientcai_strategic_stance_friendlyrespondent_type_proposer0">
+<cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{9aae7bdd-cdf1-48d6-a6cb-ca98cf682721}" record_timestamp="1565793193348" record_key="OFFER_VASSALAGE_TO_STRONGER_FRIEND_CONDITION_SETdeal_generation_condition_strategic_stance_better_thantruerespondent_type_recipientcai_strategic_stance_neutralrespondent_type_proposer0">
 <condition_key>deal_generation_condition_strategic_stance_better_than</condition_key>
 <condition_set_key>OFFER_VASSALAGE_TO_STRONGER_FRIEND_CONDITION_SET</condition_set_key>
 <evaluates_to>1</evaluates_to>
 <owner>respondent_type_proposer</owner>
 <param_faction>respondent_type_recipient</param_faction>
-<param_stance>cai_strategic_stance_friendly</param_stance>
+<param_stance>cai_strategic_stance_neutral</param_stance>
 <param_status></param_status>
 <param_treaty></param_treaty>
 <param_value>0</param_value>
 </cai_diplomacy_deal_generation_condition_set_junctions>
-<cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{e8edef3c-8799-4d54-998b-a55b41114896}" record_timestamp="1548765956881" record_key="OFFER_VASSALAGE_TO_STRONGER_FRIEND_CONDITION_SETdeal_generation_condition_target_faction_is_stronger_than_me_by_at_leasttruerespondent_type_recipientrespondent_type_proposer0.2">
+<cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{e8edef3c-8799-4d54-998b-a55b41114896}" record_timestamp="1565793193348" record_key="OFFER_VASSALAGE_TO_STRONGER_FRIEND_CONDITION_SETdeal_generation_condition_target_faction_is_stronger_than_me_by_at_leasttruerespondent_type_recipientrespondent_type_proposer0.4">
 <condition_key>deal_generation_condition_target_faction_is_stronger_than_me_by_at_least</condition_key>
 <condition_set_key>OFFER_VASSALAGE_TO_STRONGER_FRIEND_CONDITION_SET</condition_set_key>
 <evaluates_to>1</evaluates_to>
@@ -4069,7 +3992,7 @@
 <param_stance></param_stance>
 <param_status></param_status>
 <param_treaty></param_treaty>
-<param_value>0.2</param_value>
+<param_value>0.4</param_value>
 </cai_diplomacy_deal_generation_condition_set_junctions>
 <cai_diplomacy_deal_generation_condition_set_junctions record_uuid="{61bedc85-ac2e-4c89-8fb3-2ea4eb16f17a}" record_timestamp="1520411635075" record_key="PEACE_ALLIANCE_TO_ALLIANCE_CONDITION_SETdeal_generation_condition_has_treaty_with_anyonetruetreaty_components_alliancerespondent_type_proposer0">
 <condition_key>deal_generation_condition_has_treaty_with_anyone</condition_key>

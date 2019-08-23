@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_evaluation_deal_component.xsd" export_time="Fri Jul 19 12:37:00 2019" revision="117" export_branch="C:/Users/csaba.toth/AppData/Roaming/TWDaemon/1596/dave" export_user="bob">
-<edit_uuid>eb250bbb-b1b5-48ca-a68f-e7c4688a6664</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_evaluation_deal_component.xsd" export_time="Fri Aug 16 09:13:59 2019" revision="119" export_branch="C:/Users/csaba.toth/AppData/Roaming/TWDaemon/1629/dave" export_user="bob">
+<edit_uuid>7594791a-d567-4979-b0d0-fe01ecf4333c</edit_uuid>
 <cai_diplomacy_deal_evaluation_deal_component record_uuid="{1644948e-fbd6-4c0f-94d1-bb0b3562c1a0}" record_timestamp="1562084117231" record_key="dummy_components_group_war_participant_vassalised_resolve_group_war_with_masterDIPLOMACY_ZERO">
 <component_criterion_variable_type></component_criterion_variable_type>
 <criterion_type>DIPLOMACY_ZERO</criterion_type>
@@ -4975,6 +4975,12 @@
 <negate>0</negate>
 <treaty_component>treaty_components_region_demand</treaty_component>
 </cai_diplomacy_deal_evaluation_deal_component>
+<cai_diplomacy_deal_evaluation_deal_component record_uuid="{3af589e7-0b58-4d67-a6ae-ae3faf970904}" record_timestamp="1565943239311" record_key="treaty_components_region_demandREGION_FOOD_DEFAULT_DEMAND">
+<component_criterion_variable_type></component_criterion_variable_type>
+<criterion_type>REGION_FOOD_DEFAULT_DEMAND</criterion_type>
+<negate>0</negate>
+<treaty_component>treaty_components_region_demand</treaty_component>
+</cai_diplomacy_deal_evaluation_deal_component>
 <cai_diplomacy_deal_evaluation_deal_component record_uuid="{29256183-e186-4a64-b5bb-5be45bc5b3d1}" record_timestamp="1511362175408" record_key="treaty_components_region_demandRESPECT_DEFAULT">
 <component_criterion_variable_type></component_criterion_variable_type>
 <criterion_type>RESPECT_DEFAULT</criterion_type>
@@ -5008,6 +5014,12 @@
 <cai_diplomacy_deal_evaluation_deal_component record_uuid="{a7b16ad8-68c3-4311-9cc8-398fee90ae6e}" record_timestamp="1511362175531" record_key="treaty_components_region_offerREGION_DEFAULT">
 <component_criterion_variable_type></component_criterion_variable_type>
 <criterion_type>REGION_DEFAULT</criterion_type>
+<negate>1</negate>
+<treaty_component>treaty_components_region_offer</treaty_component>
+</cai_diplomacy_deal_evaluation_deal_component>
+<cai_diplomacy_deal_evaluation_deal_component record_uuid="{14f588f7-abb5-4326-85a5-55e112e5343e}" record_timestamp="1565943239311" record_key="treaty_components_region_offerREGION_FOOD_DEFAULT_OFFER">
+<component_criterion_variable_type></component_criterion_variable_type>
+<criterion_type>REGION_FOOD_DEFAULT_OFFER</criterion_type>
 <negate>1</negate>
 <treaty_component>treaty_components_region_offer</treaty_component>
 </cai_diplomacy_deal_evaluation_deal_component>
@@ -6031,6 +6043,12 @@
 <negate>0</negate>
 <treaty_component>treaty_components_vassalise_proposer</treaty_component>
 </cai_diplomacy_deal_evaluation_deal_component>
+<cai_diplomacy_deal_evaluation_deal_component record_uuid="{fe1828ed-a9f6-43ba-bf43-34449471c111}" record_timestamp="1565793253854" record_key="treaty_components_vassalise_proposerSTRATEGIC_PENALTY_TO_BECOMING_SUBORDINATE_BECAUSE_OF_RECENT_LIBERATION">
+<component_criterion_variable_type></component_criterion_variable_type>
+<criterion_type>STRATEGIC_PENALTY_TO_BECOMING_SUBORDINATE_BECAUSE_OF_RECENT_LIBERATION</criterion_type>
+<negate>1</negate>
+<treaty_component>treaty_components_vassalise_proposer</treaty_component>
+</cai_diplomacy_deal_evaluation_deal_component>
 <cai_diplomacy_deal_evaluation_deal_component record_uuid="{df417e0c-ca95-41c5-a361-24aefbd6de0d}" record_timestamp="1511964314405" record_key="treaty_components_vassalise_proposerSTRATEGIC_STRENGTH_THEIR_AND_VASSALS_TO_TOTAL_IF_POSITIVE_BALANCE">
 <component_criterion_variable_type></component_criterion_variable_type>
 <criterion_type>STRATEGIC_STRENGTH_THEIR_AND_VASSALS_TO_TOTAL_IF_POSITIVE_BALANCE</criterion_type>
@@ -6277,6 +6295,12 @@
 <negate>1</negate>
 <treaty_component>treaty_components_vassalise_recipient</treaty_component>
 </cai_diplomacy_deal_evaluation_deal_component>
+<cai_diplomacy_deal_evaluation_deal_component record_uuid="{8d5e6567-b688-4e93-99e7-0e91d8b741ac}" record_timestamp="1565793253840" record_key="treaty_components_vassalise_recipientSTRATEGIC_NUMBER_OF_VASSALS_PENALTY">
+<component_criterion_variable_type></component_criterion_variable_type>
+<criterion_type>STRATEGIC_NUMBER_OF_VASSALS_PENALTY</criterion_type>
+<negate>1</negate>
+<treaty_component>treaty_components_vassalise_recipient</treaty_component>
+</cai_diplomacy_deal_evaluation_deal_component>
 <cai_diplomacy_deal_evaluation_deal_component record_uuid="{bd513e09-7c83-446a-92af-11ac0fa60dc9}" record_timestamp="1547029742373" record_key="treaty_components_vassalise_recipientSTRATEGIC_OPPONENT_CONTEXT">
 <component_criterion_variable_type></component_criterion_variable_type>
 <criterion_type>STRATEGIC_OPPONENT_CONTEXT</criterion_type>
@@ -6373,6 +6397,12 @@
 <negate>1</negate>
 <treaty_component>treaty_components_vassalise_recipient_yellow_turban</treaty_component>
 </cai_diplomacy_deal_evaluation_deal_component>
+<cai_diplomacy_deal_evaluation_deal_component record_uuid="{1ca45447-8fae-4365-83f8-44ae1f2b41e3}" record_timestamp="1565793253840" record_key="treaty_components_vassalise_recipient_yellow_turbanSTRATEGIC_NUMBER_OF_VASSALS_PENALTY">
+<component_criterion_variable_type></component_criterion_variable_type>
+<criterion_type>STRATEGIC_NUMBER_OF_VASSALS_PENALTY</criterion_type>
+<negate>1</negate>
+<treaty_component>treaty_components_vassalise_recipient_yellow_turban</treaty_component>
+</cai_diplomacy_deal_evaluation_deal_component>
 <cai_diplomacy_deal_evaluation_deal_component record_uuid="{347bdcd3-00d1-44d2-897b-581017331df9}" record_timestamp="1554886190056" record_key="treaty_components_vassalise_recipient_yellow_turbanSTRATEGIC_OPPONENT_CONTEXT">
 <component_criterion_variable_type></component_criterion_variable_type>
 <criterion_type>STRATEGIC_OPPONENT_CONTEXT</criterion_type>
@@ -6418,6 +6448,12 @@
 <cai_diplomacy_deal_evaluation_deal_component record_uuid="{68eb7b2a-100e-42d0-b3cc-80c918577e6b}" record_timestamp="1554883464040" record_key="treaty_components_vassalise_recipient_yuan_shuSTRATEGIC_DISTANCE">
 <component_criterion_variable_type></component_criterion_variable_type>
 <criterion_type>STRATEGIC_DISTANCE</criterion_type>
+<negate>1</negate>
+<treaty_component>treaty_components_vassalise_recipient_yuan_shu</treaty_component>
+</cai_diplomacy_deal_evaluation_deal_component>
+<cai_diplomacy_deal_evaluation_deal_component record_uuid="{1dc67b7c-1aaf-40f5-872c-3c54eb625442}" record_timestamp="1565793253840" record_key="treaty_components_vassalise_recipient_yuan_shuSTRATEGIC_NUMBER_OF_VASSALS_PENALTY">
+<component_criterion_variable_type></component_criterion_variable_type>
+<criterion_type>STRATEGIC_NUMBER_OF_VASSALS_PENALTY</criterion_type>
 <negate>1</negate>
 <treaty_component>treaty_components_vassalise_recipient_yuan_shu</treaty_component>
 </cai_diplomacy_deal_evaluation_deal_component>

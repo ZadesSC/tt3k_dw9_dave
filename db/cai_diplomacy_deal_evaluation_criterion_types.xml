@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_evaluation_criterion_types.xsd" export_time="Wed Apr 10 09:31:59 2019" revision="34" export_branch="C:/TW/branches/3k/eight/three_kingdoms/binaries.x64" export_user="bob">
-<edit_uuid>5d04b993-2ea6-46f3-9047-7bdcf2e57556</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cai_diplomacy_deal_evaluation_criterion_types.xsd" export_time="Fri Aug 16 09:06:35 2019" revision="36" export_branch="C:/Users/csaba.toth/AppData/Roaming/TWDaemon/1629/dave" export_user="bob">
+<edit_uuid>7aa59c4b-d2a3-4695-9989-42834ffaa0f6</edit_uuid>
 <cai_diplomacy_deal_evaluation_criterion_types record_uuid="{bb977675-bbaa-412e-b7eb-00e5854b53b6}" record_timestamp="1544961233112" record_key="AI_TO_AI_MODIFIER">
 <display_name>deal_evaluation_factor_strength</display_name>
 <key>AI_TO_AI_MODIFIER</key>
@@ -68,6 +68,14 @@
 <cai_diplomacy_deal_evaluation_criterion_types record_uuid="{f1ec2fa1-c560-473e-ac4b-9463291b9ced}" record_timestamp="1511964314406" record_key="REGION_DEFAULT">
 <display_name>deal_evaluation_factor_region</display_name>
 <key>REGION_DEFAULT</key>
+</cai_diplomacy_deal_evaluation_criterion_types>
+<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{71052cf2-a2f5-4978-a09f-00ccb46a634d}" record_timestamp="1565942795130" record_key="REGION_FOOD_DEFAULT_DEMAND">
+<display_name>deal_evaluation_factor_food</display_name>
+<key>REGION_FOOD_DEFAULT_DEMAND</key>
+</cai_diplomacy_deal_evaluation_criterion_types>
+<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{19b86c23-ae0b-41b2-ad5a-8b58d728fb05}" record_timestamp="1565942795130" record_key="REGION_FOOD_DEFAULT_OFFER">
+<display_name>deal_evaluation_factor_food</display_name>
+<key>REGION_FOOD_DEFAULT_OFFER</key>
 </cai_diplomacy_deal_evaluation_criterion_types>
 <cai_diplomacy_deal_evaluation_criterion_types record_uuid="{c3b7c83c-6f38-48c0-bf65-72aeb97ea1f8}" record_timestamp="1502285998970" record_key="RESPECT_DEFAULT">
 <display_name>deal_evaluation_factor_respect</display_name>
@@ -145,6 +153,10 @@
 <display_name>deal_evaluation_factor_common_threat</display_name>
 <key>STRATEGIC_HAVE_COMMON_THREAT</key>
 </cai_diplomacy_deal_evaluation_criterion_types>
+<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{ce96918d-5869-4f6b-beed-cf0deb1c0c00}" record_timestamp="1565793253839" record_key="STRATEGIC_NUMBER_OF_VASSALS_PENALTY">
+<display_name>deal_evaluation_factor_alliance_size</display_name>
+<key>STRATEGIC_NUMBER_OF_VASSALS_PENALTY</key>
+</cai_diplomacy_deal_evaluation_criterion_types>
 <cai_diplomacy_deal_evaluation_criterion_types record_uuid="{a577e8a7-77d5-4278-87d0-260f3f243787}" record_timestamp="1536682084346" record_key="STRATEGIC_OPPONENT_ALLY_IS_MAIN_THREAT">
 <display_name>deal_evaluation_factor_main_threat_your_ally</display_name>
 <key>STRATEGIC_OPPONENT_ALLY_IS_MAIN_THREAT</key>
@@ -156,6 +168,10 @@
 <cai_diplomacy_deal_evaluation_criterion_types record_uuid="{7ad0019d-3f9a-4480-9b7d-f0dd3a5956ef}" record_timestamp="1536682084346" record_key="STRATEGIC_OPPONENT_IS_MAIN_THREAT">
 <display_name>deal_evaluation_factor_main_threat_you</display_name>
 <key>STRATEGIC_OPPONENT_IS_MAIN_THREAT</key>
+</cai_diplomacy_deal_evaluation_criterion_types>
+<cai_diplomacy_deal_evaluation_criterion_types record_uuid="{fb89b4c1-3368-4c0c-8db0-9bcb69116ea9}" record_timestamp="1565793253853" record_key="STRATEGIC_PENALTY_TO_BECOMING_SUBORDINATE_BECAUSE_OF_RECENT_LIBERATION">
+<display_name>deal_evaluation_factor_recently_broken_deal</display_name>
+<key>STRATEGIC_PENALTY_TO_BECOMING_SUBORDINATE_BECAUSE_OF_RECENT_LIBERATION</key>
 </cai_diplomacy_deal_evaluation_criterion_types>
 <cai_diplomacy_deal_evaluation_criterion_types record_uuid="{153b7885-399d-494d-b78b-0c17e5139176}" record_timestamp="1519388321519" record_key="STRATEGIC_PENALTY_TO_BREAK_TREATY_BECAUSE_OF_MOST_RECENT_SIGNED_TREATY_WITH_ANY_OF_THEIR_ALLIANCE_MEMBERS">
 <display_name>deal_evaluation_factor_recently_signed_deal_alliance</display_name>
